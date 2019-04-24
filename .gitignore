@@ -1,6 +1,6 @@
 node_modules
 bower_components
-_site/
+/_site/
 .DS_Store
 .sass-cache/
 .jekyll-metadata
