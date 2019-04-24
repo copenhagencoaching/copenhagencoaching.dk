@@ -1,0 +1,7 @@
+node_modules
+bower_components
+_site/
+.DS_Store
+.sass-cache/
+.jekyll-metadata
+winpty.exe.stackdump
