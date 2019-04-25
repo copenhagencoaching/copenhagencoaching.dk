@@ -49,7 +49,7 @@ defaults:
     scope:
       path: "" # any file
     values:
-      layout: page
+      layout: default
   -
     scope:
       type: gigs
