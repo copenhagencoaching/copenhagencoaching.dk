@@ -38,32 +38,16 @@ feed:
   path: feed.xml
 
 collections:
-  gigs:
+  posts:
     output: true
-    permalink: /gigs/:path/
-  pages:
-    output: true
-    permalink: /:path/
-  stories:
-    output: true
-    permalink: /posts/:path/
+    permalink: /stories/:title/
 
 defaults:
   -
     scope:
       path: "" # any file
     values:
-      layout: page
-  -
-    scope:
-      type: gigs
-    values:
-      layout: gig
-  -
-    scope:
-      type: pages
-    values:
-      layout: page
+      layout: default
   -
     scope:
       type: posts

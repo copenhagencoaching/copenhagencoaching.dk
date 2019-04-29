@@ -34,12 +34,6 @@ plugins:
   - jekyll-sitemap
 
 collections:
-  gigs:
-    output: true
-    permalink: /gigs/:title/
-  pages:
-    output: true
-    permalink: /:title/
   posts:
     output: true
     permalink: /stories/:title/
@@ -50,16 +44,6 @@ defaults:
       path: "" # any file
     values:
       layout: default
-  -
-    scope:
-      type: gigs
-    values:
-      layout: gig
-  -
-    scope:
-      type: pages
-    values:
-      layout: page
   -
     scope:
       type: posts
