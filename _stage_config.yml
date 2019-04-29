@@ -69,7 +69,7 @@ prose:
     - /js
     - /_sass
   metadata:
-    _posts:
+    _stories:
       - name: "tags"
         field:
           element: "multiselect"
