@@ -66,17 +66,51 @@ prose:
     - /js
     - /_sass
   metadata:
-    _posts:
-      - name: "tags"
+    _stories:
+      - name: "title"
         field:
-          element: "multiselect"
-          label: "Add Tags"
-          placeholder: "Choose Tags"
-          options:
-            - name: "Tag1"
-              value: "tag1"
-            - name: "Tag2"
-              value: "tag2"
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: "Author"
+      field:
+        element: "select"
+        label: "Select Author"
+        placeholder: "Choose Author"
+        options:
+          - name: "Lars"
+            value: "Lars"
+          - name: "Linux"
+            value: "linux"
+          - name: "Jekyll"
+            value: "jekyll"
+          - name: "CLI"
+            value: "cli"
+          - name: "Blog Post"
+            value: "blog"
+      - name: "tags"
+      field:
+        element: "multiselect"
+        label: "Add Tags"
+        placeholder: "Choose Tags"
+        alterable: true
+        options:
+          - name: "Docker"
+            value: "docker"
+          - name: "Linux"
+            value: "linux"
+          - name: "Jekyll"
+            value: "jekyll"
+          - name: "CLI"
+            value: "cli"
+          - name: "Humor"
+            value: "humor"
+          - name: "Ruby"
+            value: "ruby"
+          - name: "Javascript"
+            value: "javascript"
+          - name: "Python"
+            value: "python"
 
 
 
