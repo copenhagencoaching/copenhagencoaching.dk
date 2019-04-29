@@ -1,0 +1,32 @@
+
+.navbar {
+    .navbar-brand {
+        margin-left: 150px;
+    }
+
+    button {
+        margin-right:150px;
+    }
+
+    font-size: 20px !important;
+    height: 60px;
+}
+
+.collapse {
+    background-color: white;
+    padding: 20px;
+}
+
+.navbar-toggler,
+.navbar-toggler:active,
+.navbar-toggler:visited,
+.navbar-toggler:focus {
+    border: none;
+    text-transform: uppercase;
+    color: black !important;
+}
+
+.fas {
+    font-size: 18px;
+    font-family: "Font Awesome 5 Free";
+}
