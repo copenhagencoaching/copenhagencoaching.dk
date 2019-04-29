@@ -53,6 +53,33 @@ defaults:
       type: posts
     values:
       layout: story
+      
+prose:
+  rooturl: '_stories'
+  siteurl: 'www.copenhagencoaching.dk'
+  relativeLinks: ''
+  media: 'img/blog'
+  ignore:
+    - index.md
+    - _config.yml
+    - /_layouts
+    - /_includes
+    - .circleci
+    - /css
+    - /js
+    - /_sass
+  metadata:
+    _posts:
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Add Tags"
+          placeholder: "Choose Tags"
+          options:
+            - name: "Tag1"
+              value: "tag1"
+            - name: "Tag2"
+              value: "tag2"
   
 
 
