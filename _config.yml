@@ -67,10 +67,9 @@ prose:
   metadata:
     _stories:
       - name: "title"
-        field:
-          element: "text"
-          label: "Title"
-          value: ""
+      field:
+        element: "text"
+        label: "title"
       - name: "Author"
         field:
           element: "select"
