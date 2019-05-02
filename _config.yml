@@ -38,7 +38,7 @@ collections:
     permalink: /stories/:title/
   employees:
     output: true
-    permalink: /employees/:title
+    permalink: /employees/:title/
   pages:
     output: true
     permalink: /:title/
