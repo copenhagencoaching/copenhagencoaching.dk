@@ -36,6 +36,12 @@ collections:
   posts:
     output: true
     permalink: /stories/:title/
+  employees:
+    output: true
+    permalink: /employees/:title
+  pages:
+    output: true
+    permalink: /:title/
 
 defaults:
   -
@@ -48,7 +54,16 @@ defaults:
       type: posts
     values:
       layout: story
-
+  -
+    scope:
+      type: employees
+    values:
+      layout: default
+  -
+    scope:
+      type: employees
+    values:
+      layout: employee
 
 prose:
   rooturl: '_stories'

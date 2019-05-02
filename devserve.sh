@@ -1,6 +1,6 @@
 #! /bin/bash
 
-sudo docker run \
+docker run \
   -it \
   --rm  \
   --pid=host \

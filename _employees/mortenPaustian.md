@@ -1,0 +1,17 @@
+---
+published: true
+author: Morten Paustian
+image: ../portraits/mortenPaustian.jpg
+title: Associeret partner
+call: + 45 40 13 69 68
+email: mp@copenhagencoahing.dk
+description: Morten favner bredt og dybt. Hans vidensniveau er højt med en humanistisk tilgang.
+---
+
+Morten favner bredt og dybt. Hans vidensniveau er højt med en humanistisk tilgang. Han har undervist, arbejdet som konsulent med forretnings- og lederudvikling og er forfatter til en lang række bøger indenfor filosofi, ledelse, kunst og erhvervsøkonomi.
+
+Med Paustian Advisory har han drevet sin egen forretning i 10 år. Han har lavet alt lige fra proceshåndtering af generationsskifte, kunst- og kulturprojekter, et hav af strategiudviklingsopgaver, business coaching samt udvikling af undervisningskoncepter mm. Morten kaster sig ud i alt – også hvad han ikke har prøvet før.
+
+Morten er uddannet MSc i International Business fra Stirling University, cand. merc. (fil.) fra CBS, Executive Doctor of Business Administration samt Executive Doctor of Philosophical Leadership Studies fra UIBS.
+
+Morten er i øvrigt sikkerhedsgodkendt til klassifikationsniveauet HEMMELIGT af Rigspolitiet.
