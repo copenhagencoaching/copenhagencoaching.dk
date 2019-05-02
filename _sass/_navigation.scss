@@ -1,0 +1,17 @@
+.navbar {
+  .navbar-brand {
+    margin-left: 150px;
+  }
+
+  a {
+    text-decoration: none;
+    color: rgb(88, 82, 82);
+    border-right: 0.5px solid rgb(206, 191, 191);
+    border-left: 1px;
+    padding: 5px 10px 5px 5px;
+  }
+
+  a:last-child {
+    border-right: none;
+  }
+}

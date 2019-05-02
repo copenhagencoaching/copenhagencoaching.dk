@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="container-fluid">
+<div class="container-fluid employees_container">
     <div class="row">
         {% for employee in site.employees %}
         <div class="col-lg-4">
@@ -26,47 +26,3 @@ layout: default
         {% endfor %}
     </div>
 </div>
-
-
-<style>
-    .row {
-        margin: 8%;
-    }
-
-    .card-img-top {
-        width: 100% !important;
-        height: 150px;
-        margin-top: 25px;
-        background-size: cover;
-        background-position: center center;
-        background-repeat: no-repeat;
-        border: 1px solid #bdbdbd;
-        border-bottom: none;
-    }
-
-    .card-title {
-        font-size: 15px;
-        margin: 3px 0 8px 0;
-        color: black;
-        font-weight: bold;
-    }
-
-    .author-text {
-        font-size: 12px;
-        margin: 3px 0 3px 0;
-        font-weight: bold;
-        color: #4b504c;
-    }
-
-    .card-text {
-        font-size: 11px;
-        margin: 8px 0 3px 0;
-        color: black;
-    }
-
-    .card-body {
-        border: 1px solid #bdbdbd;
-        border-top: none;
-        padding: 5px 15px 10px 15px;
-    }
-</style>
