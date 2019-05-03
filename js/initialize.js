@@ -5,6 +5,6 @@ $(document).ready(function () {
       responsive: true,
       resize: true,
       menu: '#menu',
-		  anchors: ['home', 'education', 'testimonial', 'news','signup', 'footer'],
+		  anchors: ['education', 'consulting', 'managementsparring', 'coaching','employees', 'stories'],
     });
   });
