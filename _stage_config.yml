@@ -1,7 +1,7 @@
 title: Prolike.io
 description: 'We run a frank and transparent business, teaching the Yipees the ins and outs of being a professional consultant, freelancer, innovator or entrepreneur'
 author: Prolike
-url: https://stage.prolike.io
+url: https://stage.copenhagencoaching.dk
 paginate: 24
 paginate_path: "/stories/page:num/"
 
@@ -9,7 +9,7 @@ logo: /img/seo_img.png
 image: /img/seo_img.png
 
 social:
-  name: Prolike
+  name: Copenhagen Coaching Center
   links: https://www.linkedin.com/company/prolike/
 
 sass:
