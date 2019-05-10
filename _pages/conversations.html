@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<div class="container-fluid conversations_container">
+    <div class="row">
+        {% for conversation in site.conversations %}
+        <div class="col-lg-4">
+
+            {% if conversation.image %}
+            <a href="{{ conversation.url }}">
+                <div class="card-img-top" style="background-image: url('{{ conversation.image }}')"></div>
+            </a>
+            {% endif %}
+
+            <div class="card-body">
+                <a href="{{ conversation.url }}">
+                    <p class="card-title">{{ conversation.title }}</p>
+                </a>
+                <p class="card-text">{{ conversation.description }}</p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>

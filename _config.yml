@@ -42,6 +42,9 @@ collections:
   educations:
     output: true
     permalink: /educations/:title/
+  conversations:
+    output: true
+    permalink: /conversations/:title/
   pages:
     output: true
     permalink: /:title/
@@ -77,6 +80,16 @@ defaults:
       type: educations
     values:
       layout: education
+  -
+    scope:
+      type: conversations
+    values:
+      layout: default
+  -
+    scope:
+      type: conversations
+    values:
+      layout: conversation
       
 prose:
   rooturl: '_stories'
