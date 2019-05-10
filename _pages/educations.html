@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<div class="container-fluid educations_container">
+    <div class="row">
+        {% for education in site.educations %}
+        <div class="col-lg-4">
+
+            {% if education.image %}
+            <a href="{{ education.url }}">
+                <div class="card-img-top" style="background-image: url('{{ education.image }}')"></div>
+            </a>
+            {% endif %}
+
+            <div class="card-body">
+                <a href="{{ education.url }}">
+                    <p class="card-title">{{ education.title }}</p>
+                </a>
+                <p class="card-text">{{ education.description }}</p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>

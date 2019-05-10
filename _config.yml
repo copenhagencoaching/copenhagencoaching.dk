@@ -39,6 +39,9 @@ collections:
   employees:
     output: true
     permalink: /employees/:title/
+  educations:
+    output: true
+    permalink: /educations/:title/
   pages:
     output: true
     permalink: /:title/
@@ -64,7 +67,17 @@ defaults:
       type: employees
     values:
       layout: employee
-
+  -
+    scope:
+      type: educations
+    values:
+      layout: default
+  -
+    scope:
+      type: educations
+    values:
+      layout: education
+      
 prose:
   rooturl: '_stories'
   siteurl: 'www.copenhagencoaching.dk'
