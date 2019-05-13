@@ -234,3 +234,7 @@
      white-space: nowrap;
      border: 0;
  }
+
+ .fp-viewing-footer #fp-nav{
+    display:none
+ }
