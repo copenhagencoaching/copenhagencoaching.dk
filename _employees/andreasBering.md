@@ -1,11 +1,10 @@
 ---
 published: true
-author: Andreas Bering
-image: ../portraits/andreasBering.jpg
-title: Direktør og GDPR ansvarlig
+title: Andreas Bering
+image: ../../portraits/andreasBering.jpg
 call: +45 40 14 92 92
 email: ab@copenhagencoahing.dk 
-description: Andreas mestrer om nogen at perspektivere teorien, så den bliver levende og omsættelig i praksis.
+description: Direktør og GDPR ansvarlig
 ---
 
 Andreas mestrer om nogen at perspektivere teorien, så den bliver levende og omsættelig i praksis. Dette, kombineret med Andreas’ evne til at fange og indkredse det væsentlige, gør, at man altid føler sig inspireret af ham.

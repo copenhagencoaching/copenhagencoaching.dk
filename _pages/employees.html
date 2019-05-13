@@ -3,27 +3,18 @@ layout: page
 title: Medarbejdere
 ---
 
-<div class="container-fluid employees_container">
-    <div class="row">
-        {% for employee in site.employees %}
-        <div class="col-lg-4">
+<div class="row employee-row justify-content-center">
+    {% for employee in site.employees %}
 
-            {% if employee.image %}
-            <a href="{{ employee.url }}">
-                <div class="card-img-top" style="background-image: url('{{ employee.image }}')"></div>
-            </a>
-            {% endif %}
-
+    <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+            <a href="{{ employee.url }}"><img class="img-thumbnail" src="{{ employee.image }}"></a>
             <div class="card-body">
-                <a href="{{ employee.url }}">
-                    <p class="card-title">{{ employee.author }}</p>
-                </a>
-                <p class="author-text">{{ employee.title }}</p>
-                <p class="author-text">{{ employee.call }}</p>
-                <p class="author-text">{{ employee.email }}</p>
-                <p class="card-text">{{ employee.description }}</p>
-            </div>
-        </div>
-        {% endfor %}
+        <h5 class="card-title">{{ employee.title }}</h5>
+        <p class="card-subtitle mb-2 text-muted">{{ employee.description }}</p>
+        <p class="card-subtitle mb-2 text-muted">{{ employee.call }}</p>
+        <p class="card-subtitle mb-2 text-muted">{{ employee.email }}</p>     
     </div>
+    </div>
+
+    {% endfor %}
 </div>

@@ -1,11 +1,10 @@
 ---
 published: true
-author: Bianca Olivia Godske Røjbæk
-image: ../portraits/biancaOlivia.jpg
-title: Studentermedhjælper
+title: Bianca Olivia Godske Røjbæk
+image: ../../portraits/biancaOlivia.jpg
 call: +45 61 71 01 98
 email: bgr@copenhagencoahing.dk
-description: Bianca er vores ’alt-mulig-kvinde’ i Copenhagen Coaching Center. Hun har en finger med i rigtige mange opgaver i CCC. Og hun gør det med et smil.
+description: Studentermedhjælper
 ---
 
 Bianca er vores ’alt-mulig-kvinde’ (læs: studentermedhjælper) i Copenhagen Coaching Center. Hun har en finger med i rigtige mange opgaver i CCC. Og hun gør det med et smil.

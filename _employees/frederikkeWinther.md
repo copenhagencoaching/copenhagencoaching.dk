@@ -1,11 +1,10 @@
 ---
 published: true
-author: Frederikke Winther
-image: ../portraits/frederikkeWinther.jpg
-title: Konsulent
+title: Frederikke Winther
+image: ../../portraits/frederikkeWinther.jpg
 call: +45 21 19 47 57
 email: fw@copenhagencoahing.dk
-description: Frederikke er drevet af en oprigtig nysgerrighed efter at vide, hvad der optager og former mennesker i deres arbejdsliv.
+description: Konsulent
 ---
 
 Frederikke er drevet af en oprigtig nysgerrighed efter at vide, hvad der optager og former mennesker i deres arbejdsliv samt et ønske om at forstå, spejle, støtte og stimulere personlig og faglig udvikling gennem individuelle samtaler og sparringsforløb. 

@@ -1,11 +1,10 @@
 ---
 published: true
-author: Morten Bertelsen
-image: ../portraits/mortenBertelsen.jpg
-title: Seniorkonsulent
+title: Morten Bertelsen
+image: ../../portraits/mortenBertelsen.jpg
 call: +45 52 19 09 57
 email: mb@copenhagencoahing.dk
-description: Morten har gennem de sidste 15 år arbejdet med udvikling af mennesker og organisationer i mange kontekster.
+description: Seniorkonsulent
 ---
 
 Morten har gennem de sidste 15 år arbejdet med udvikling af mennesker og organisationer i mange kontekster, herunder arbejdet med coachinguddannelser, lederudvikling, organisationsdesign og strategiimplementering, og også undervist på Københavns Universitet og Aalborg Universitet i teamudvikling og coaching. 

@@ -1,11 +1,10 @@
 ---
 published: true
-author: Lars Nyborg
-image: ../portraits/larsNyborg.jpg
-title: Associeret partner
+title: Lars Nyborg
+image: ../../portraits/larsNyborg.jpg
 call: +45 27 11 42 44
 email: ln@copenhagencoahing.dk
-description: Lars har om nogen viet sit liv til folkeskolen blandt andet med 20 år som skoleleder i Fredensborg Kommune.
+description: Associeret partner
 ---
 
 Lars har om nogen viet sit liv til folkeskolen blandt andet med 20 år som skoleleder i Fredensborg Kommune. Der findes ikke mange områder, hjørner og kroge i det at drive skole, som Lars ikke har kendskab til eller selv direkte har været involveret i som skoleleder, som medlem af hovedbestyrelsen i Skolelederforeningen eller som deltager i arbejdsgrupper i Undervisningsministeriet eller KL.

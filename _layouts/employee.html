@@ -2,7 +2,15 @@
 layout: page
 ---
 
-<div class="container">
-    Hello
+<div class="container employee">
+        <hr>
+    <div class="row justify-content-md-center justify-content-lg-center justify-content-sm-center justify-content-center">
+        
+        <div class="col-4"><h5>{{ page.description }}</h5></div>
+        <div class="col-4"><h5>{{ page.call }}</h5></div>
+        <div class="col-4"><h5>{{ page.email }}</h5></div>
+        
+    </div>
+    <hr>
     {{ page.content }}
 </div>

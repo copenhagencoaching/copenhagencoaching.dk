@@ -1,42 +1,11 @@
-.employees_container {
-  .row {
-    margin: 8%;
+.employee-row {
+  margin: 20px 100px;
+
+  h5 {
+    font-size: 1.3rem;
   }
 
-  .card-img-top {
-    width: 100% !important;
-    height: 150px;
-    margin-top: 25px;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    border: 1px solid #bdbdbd;
-    border-bottom: none;
-  }
-
-  .card-title {
-    font-size: 15px;
-    margin: 3px 0 8px;
-    color: black;
-    font-weight: bold;
-  }
-
-  .author-text {
-    font-size: 12px;
-    margin: 3px 0;
-    font-weight: bold;
-    color: #4b504c;
-  }
-
-  .card-text {
-    font-size: 11px;
-    margin: 8px 0 3px;
-    color: black;
-  }
-
-  .card-body {
-    border: 1px solid #bdbdbd;
-    border-top: none;
-    padding: 5px 15px 10px;
+  p {
+    font-size: 0.9rem;
   }
 }

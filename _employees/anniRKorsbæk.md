@@ -1,10 +1,10 @@
 ---
 published: true
-author: Anni Rosengren Korsbæk
-image: ../portraits/anniRKorsbæk.jpg
-title: Associeret partner
+title: Anni Rosengren Korsbæk
+image: ../../portraits/anniRKorsbæk.jpg
 call: +45 51 48 84 33
 email: ark@copenhagencoaching.dk
+description: Associeret partner
 ---
 
 Anni Rosengren Korsbæk

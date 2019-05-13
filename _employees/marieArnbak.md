@@ -1,11 +1,10 @@
 ---
 published: true
-author: Marie Arnbak
-image: ../portraits/marieArnbak.jpg
-title: Office manager
+title: Marie Arnbak
+image: ../../portraits/marieArnbak.jpg
 call: +45 26 18 03 00
 email: ma@copenhagencoaching.dk
-description: 
+description: Office manager
 ---
 
 Marie Arnbak

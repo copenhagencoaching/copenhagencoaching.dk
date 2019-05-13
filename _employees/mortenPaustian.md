@@ -1,11 +1,10 @@
 ---
 published: true
-author: Morten Paustian
-image: ../portraits/mortenPaustian.jpg
 title: Morten Paustian
+image: ../../portraits/mortenPaustian.jpg
 call: + 45 40 13 69 68
 email: mp@copenhagencoahing.dk
-description: Morten favner bredt og dybt. Hans vidensniveau er højt med en humanistisk tilgang.
+description: Coach
 ---
 
 Morten favner bredt og dybt. Hans vidensniveau er højt med en humanistisk tilgang. Han har undervist, arbejdet som konsulent med forretnings- og lederudvikling og er forfatter til en lang række bøger indenfor filosofi, ledelse, kunst og erhvervsøkonomi.

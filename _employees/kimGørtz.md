@@ -1,11 +1,10 @@
 ---
 published: true
-author: Kim Gørtz
-image: ../portraits/kimGørtz.jpg
-title: Seniorkonsulent
+title: Kim Gørtz
+image: ../../portraits/kimGørtz.jpg
 call: +45 24 66 40 78
 email: kg@copenhagencoahing.dk
-description: Energi og god Karma lyser ud af Kim, og det er svært ikke at blive inspireret og fascineret i mødet med ham.
+description: Seniorkonsulent
 ---
 
 Energi og god Karma lyser ud af Kim, og det er svært ikke at blive inspireret og fascineret i mødet med ham. Man ved aldrig helt, hvor et oplæg eller en dialog med Kim fører én hen, og ofte rækker oplevelsen meget længere ud end selve mødet.
