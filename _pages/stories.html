@@ -1,13 +1,12 @@
 ---
-layout: default
+layout: page
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget duis at tellus at urna condimentum mattis. Ridiculus mus mauris vitae ultricies leo.
 title: Historier
 ---
 
-<div class="stories-row">
-<div class="container">
 
-  <div class="row">
+
+  <div class="row stories-row">
         {% assign sorted = site.posts | sort: posts.date | reverse %}
         {% for post in sorted limit:3 %}
         <div class="col-12 stories" style="background-image: url('{{ post.image }}')">
@@ -19,5 +18,4 @@ title: Historier
         </div>
         {% endfor %}
     </div>
-</div>
-</div>
+

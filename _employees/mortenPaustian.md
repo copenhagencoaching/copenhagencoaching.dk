@@ -2,7 +2,7 @@
 published: true
 author: Morten Paustian
 image: ../portraits/mortenPaustian.jpg
-title: Associeret partner
+title: Morten Paustian
 call: + 45 40 13 69 68
 email: mp@copenhagencoahing.dk
 description: Morten favner bredt og dybt. Hans vidensniveau er højt med en humanistisk tilgang.

@@ -1,9 +1,11 @@
 
 .stories-row {
 
+  margin: 0 200px;
+
   .col-12 {
     margin: 20px;
-    height: 400px;
+    height: 400px !important;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;

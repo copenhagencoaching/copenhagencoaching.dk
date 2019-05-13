@@ -1,0 +1,17 @@
+
+.page {
+    .hero-image {
+        height: 800px;
+        width: 100%;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding: 30px 100px;
+        color: white;
+    }
+
+    .container {
+        margin-top: 50px;
+    }
+}

@@ -52,19 +52,9 @@ collections:
 defaults:
   -
     scope:
-      path: "" # any file
-    values:
-      layout: default
-  -
-    scope:
       type: posts
     values:
       layout: story
-  -
-    scope:
-      type: employees
-    values:
-      layout: default
   -
     scope:
       type: employees
@@ -74,17 +64,7 @@ defaults:
     scope:
       type: educations
     values:
-      layout: default
-  -
-    scope:
-      type: educations
-    values:
       layout: education
-  -
-    scope:
-      type: conversations
-    values:
-      layout: default
   -
     scope:
       type: conversations
