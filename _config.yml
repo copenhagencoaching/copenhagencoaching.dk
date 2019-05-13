@@ -92,12 +92,24 @@ defaults:
       layout: conversation
       
 prose:
-  rooturl: '_stories'
+  rooturl: '_posts'
   siteurl: 'www.copenhagencoaching.dk'
   relativeLinks: ''
   media: 'img/blog'
   ignore:
-    - index.md
+    - index.html
+    - /portraits
+    - robots.txt
+    - favicon.ico
+    - README.md
+    - _dev_config.yml
+    - _stage_config.yml
+    - CNAME
+    - CNAME.stage
+    - devserve.sh
+    - .gitignore
+    - /img
+    - /pages
     - _config.yml
     - /_layouts
     - /_includes
@@ -106,7 +118,7 @@ prose:
     - /js
     - /_sass
   metadata:
-    _stories:
+    _posts:
       - name: "title"
         field:
           element: "text"
@@ -117,16 +129,27 @@ prose:
           label: "Select Author"
           placeholder: "Choose Author"
           options:
-            - name: "Lars"
-              value: "Lars"
-            - name: "Linux"
-              value: "linux"
-            - name: "Jekyll"
-              value: "jekyll"
-            - name: "CLI"
-              value: "cli"
-            - name: "Blog Post"
-              value: "blog"
+            - name: "Lars Nyborg"
+              value: "Lars Nyborg"
+            - name: "Andreas Bering"
+              value: "Andreas Bering"
+            - name: "Anni Rosengren Korsbæk"
+              value: "Anni Rosengren Korsbæk"
+            - name: "Bianca Olivia Godske Røjbæk"
+              value: "Bianca Olivia Godske Røjbæk"
+            - name: "Frederikke Winther"
+              value: "Frederikke Winther"
+            - name: "Kim Gørtz"
+              value: "Kim Gørtz"
+            - name: "Marie Arnbak"
+              value: "Marie Arnbak"
+            - name: "Mette Mejhede"
+              value: "Mette Mejhede"
+            - name: "Morten Bertelsen"
+              value: "Morten Bertelsen"
+            - name: "Morten Paustian"
+              value: "Morten Paustian"
+            
       - name: "tags"
         field:
           element: "multiselect"
@@ -134,22 +157,14 @@ prose:
           placeholder: "Choose Tags"
           alterable: true
           options:
-            - name: "Docker"
-              value: "docker"
-            - name: "Linux"
-              value: "linux"
-            - name: "Jekyll"
-              value: "jekyll"
-            - name: "CLI"
-              value: "cli"
-            - name: "Humor"
-              value: "humor"
-            - name: "Ruby"
-              value: "ruby"
-            - name: "Javascript"
-              value: "javascript"
-            - name: "Python"
-              value: "python"
+            - name: "Coaching"
+              value: "coaching"
+            - name: "Ledelse"
+              value: "ledelse"
+            - name: "Events"
+              value: "events"
+            - name: "Kurser"
+              value: "kurser"
 
 
 
