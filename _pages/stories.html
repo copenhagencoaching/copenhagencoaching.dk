@@ -1,25 +1,23 @@
 ---
 layout: default
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget duis at tellus at urna condimentum mattis. Ridiculus mus mauris vitae ultricies leo.
+title: Historier
 ---
 
-<div class="container-fluid stories_container">
-    <div class="row">
-        {% for post in site.posts %}
-        <div class="col-lg-4">
+<div class="stories-row">
+<div class="container">
 
-            {% if post.image %}
-            <a href="{{ post.url }}">
-                <div class="card-img-top" style="background-image: url('{{ post.image }}')"></div>
-            </a>
-            {% endif %}
+  <div class="row">
+        {% assign sorted = site.posts | sort: posts.date | reverse %}
+        {% for post in sorted limit:3 %}
+        <div class="col-12 stories" style="background-image: url('{{ post.image }}')">
 
-            <div class="card-body">
-                <a href="{{ post.url }}">
-                    <p class="card-title">{{ post.author }}</p>
-                </a>
-                <p class="author-text">{{ post.title }}</p>
-            </div>
+            <h3>{{ post.title }}</h3>
+            <p>{{ post.excerpt }}</p>
+
+            <a href="{{ post.url }}"><button>Læs mere</button></a>
         </div>
         {% endfor %}
     </div>
+</div>
 </div>
