@@ -3,7 +3,7 @@
   color: white;
 
   .row {
-    padding: 0;
+    margin: 0 100px;
   }
 
   ul li {
@@ -17,11 +17,16 @@
   }
 
   .col-md-3 {
-    padding: 0 10px 0 0;
+    padding: 50px;
+
   }
 
-  .col-md-auto {
-    padding: 50px;
+  .col-text a {
+    color: #919098;
+  }
+
+  .col-text a:link {
+    text-decoration: none;
   }
 
   h4 {
@@ -31,13 +36,21 @@
   p {
     font-size: 10px;
   }
+
+  .col-nav {
+    padding: 0 50px !important;
+  }
 }
 
-h5 {
-  font-size: 15px;
-}
+.col-nav {
+  h5 {
+    font-size: 15px;
 
-.auto-nav {
-    margin: 0 100px;
-    padding: 0 !important;
+    a {
+      color: white;
+      border-bottom: 1px solid darkcyan;
+      padding-bottom: 5px;
+      text-decoration: none;
+    }
+  }
 }
