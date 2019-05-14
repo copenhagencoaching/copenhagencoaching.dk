@@ -2,7 +2,7 @@
 published: true
 author: LEDELSESKURSUS PÅ LESBOS
 title: LEDELSESKURSUS PÅ LESBOS
-image: ../img/cat.png
+image: ../img/coaching/lesbos.jpg
 description: Tag med på en opdagelsesrejse, hvor vi sammen udforsker ledelseskunsten og finder ind til de vigtigste værdier i det at lede sig selv og fællesskabet.
 ---
 

@@ -2,7 +2,7 @@
 published: true
 author: CERTIFICERING I BIG FIVE
 title: CERTIFICERING I BIG FIVE
-image: ../img/cat.png
+image: ../img/coaching/BIGFIVE.jpg
 description: Bliv certificeret til at bruge markedets bedst underbyggede personlighedstest og lær at anvende den ved gruppesammensætning, rekruttering og processer.
 ---
 

@@ -2,7 +2,7 @@
 published: true
 author: MASTER I BUSINESS COACHING
 title: MASTER I BUSINESS COACHING
-image: ../img/cat.png
+image: ../img/coaching/bernadettefranzen.jpg
 description: Bliv samtaleekspert med vores Master i Business Coaching – en eksklusiv coachinguddannelse, der er akkrediteret på højeste EMCC-niveau.
 ---
 

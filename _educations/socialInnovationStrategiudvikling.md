@@ -2,7 +2,7 @@
 published: true
 author: SOCIAL INNOVATION – STRATEGIUDVIKLING
 title: SOCIAL INNOVATION – STRATEGIUDVIKLING
-image: ../img/cat.png
+image: ../img/coaching/camino-de-Santiago.jpg
 description: Kurset henvender sig til topledere i både den offentlige og private sektor, der har ansvar og fokus på strategiudvikling igennem social innovation. Rammen for kurset er El Camino i Nordspanien.
 ---
 

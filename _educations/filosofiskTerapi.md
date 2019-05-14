@@ -2,7 +2,7 @@
 published: true
 author: FILOSOFISK TERAPI
 title: FILOSOFISK TERAPI
-image: ../img/cat.png
+image: ../img/coaching/MasterBusinessCoaching.jpg
 description: Kurset filosofisk terapi kombinerer den psykologiske indlevelse med en filosofisk undersøgende tilgang,hvilket giver dig et nyt praktisk anvendeligt samtaleværktøj.
 ---
 

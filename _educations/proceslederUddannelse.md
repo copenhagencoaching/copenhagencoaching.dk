@@ -2,7 +2,7 @@
 published: true
 author: PROCESLEDERUDDANNELSE
 title: PROCESLEDERUDDANNELSE
-image: ../img/cat.png
+image: ../img/coaching/ledelsessparring.jpg
 description: Styrk dine evner til at lede processer med en proceslederuddannelse.
 ---
 
