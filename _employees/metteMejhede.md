@@ -2,6 +2,7 @@
 published: true
 title: Mette Mejhede
 image: ../../portraits/metteMejhede.jpg
+bg-image: ../../img/graphic/book-bindings.jpg
 call: +45 24 27 28 71
 email: mm@copenhagencoahing.dk
 description: Direktør
