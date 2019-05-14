@@ -2,12 +2,12 @@
 layout: page
 title: Medarbejdere
 ---
-
-<div class="row employee-row justify-content-center">
+<div class="container">
+<div class="row employee-row">
     {% for employee in site.employees %}
 
     <div class="col-12 col-sm-6 col-md-4 col-lg-4">
-            <a href="{{ employee.url }}"><img class="img-thumbnail" src="{{ employee.image }}"></a>
+            <a href="{{ employee.url }}"><img class="card-img-top" src="{{ employee.image }}"></a>
             <div class="card-body">
         <h5 class="card-title">{{ employee.title }}</h5>
         <p class="card-subtitle mb-2 text-muted">{{ employee.description }}</p>
@@ -17,4 +17,5 @@ title: Medarbejdere
     </div>
 
     {% endfor %}
+</div>
 </div>
