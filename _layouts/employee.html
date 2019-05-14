@@ -6,11 +6,12 @@ layout: page
         <hr>
     <div class="row justify-content-md-center justify-content-lg-center justify-content-sm-center justify-content-center">
         
-        <div class="col-4"><h5>{{ page.description }}</h5></div>
-        <div class="col-4"><h5>{{ page.call }}</h5></div>
-        <div class="col-4"><h5>{{ page.email }}</h5></div>
+        <div class="col-lg-4 col-md-4 col-sm-12 col-12"><h5>{{ page.description }}</h5></div>
+        <div class="col-lg-4 col-md-4 col-sm-12 col-12"><h5>{{ page.call }}</h5></div>
+        <div class="col-lg-4 col-md-4 col-sm-12 col-12"><h5>{{ page.email }}</h5></div>
         
     </div>
     <hr>
+    <img src="{{ page.image }}" class="rounded float-left">
     {{ page.content }}
 </div>

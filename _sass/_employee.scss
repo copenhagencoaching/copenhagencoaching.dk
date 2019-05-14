@@ -1,6 +1,12 @@
 .employee {
-    .col-4 {
+    .col-lg-4 {
         text-align: center;
+    }
+
+    img {
+        padding: 0 20px 0 0;
+        height: 50%;
+        width: 50%;
     }
 
 }
