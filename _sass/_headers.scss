@@ -1,3 +1,28 @@
 * {
     font-family: 'Poppins', sans-serif;
 }
+
+.green-button {
+    border-radius: 2.5px;
+    background-color: #1ABC9C;
+    font-weight: 600;
+    color: white;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    border: none;
+    font-size: 20px;
+    margin: 0 10px 0 0;
+}
+
+.transparent-button {
+    border-radius: 2.5px;
+    background: transparent;
+    font-weight: 600;
+    color: white;
+    padding: 5px 20px;
+    text-transform: uppercase;
+    border: 5px solid white;
+    font-size: 20px;
+    margin: 0 10px 0 0;
+}
+
