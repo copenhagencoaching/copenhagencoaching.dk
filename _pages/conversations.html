@@ -4,24 +4,25 @@ title: Coaching samtaler
 bg-image: ../img/graphic/art.jpg
 ---
 
-<div class="container-fluid conversations_container">
-    <div class="row">
+<div class="convos-edus">
+    <div class="row justify-content-md-center justify-content-lg-center justify-content-sm-center justify-content-center">
         {% for conversation in site.conversations %}
-        <div class="col-lg-4">
-
-            {% if conversation.image %}
-            <a href="{{ conversation.url }}">
-                <div class="card-img-top" style="background-image: url('{{ conversation.image }}')"></div>
-            </a>
-            {% endif %}
-
-            <div class="card-body">
+        <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+            
+                {% if conversation.image %}
                 <a href="{{ conversation.url }}">
-                    <p class="card-title">{{ conversation.title }}</p>
+                    <div class="card-img-top" style="background-image: url('{{ conversation.image }}')"></div>
                 </a>
-                <p class="card-text">{{ conversation.description }}</p>
-                <button class="green-button">Læs mere</button>
-            </div>
+                {% endif %}
+
+                <div class="card-body">
+                    <a href="{{ conversation.url }}">
+                        <p class="card-title">{{ conversation.title }}</p>
+                    </a>
+                    <p class="card-text">{{ conversation.description | truncatewords: 15 }}</p>
+                    <button class="green-button">Læs mere</button>
+                </div>
+            
         </div>
         {% endfor %}
     </div>
