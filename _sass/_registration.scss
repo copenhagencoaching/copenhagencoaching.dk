@@ -1,0 +1,42 @@
+.registration_container {
+  margin: 100px;
+  
+  .col-input {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .text-form {
+    margin: 5px 0 0;
+    border: 1px solid #ccc;
+    padding: 15px;
+    font-size: 13px;
+    color: #818181;
+    box-sizing: border-box;
+  }
+  
+  .input-form {
+    margin: 5px 0 0;
+    border: 1px solid #ccc;
+    padding: 15px;
+    font-size: 13px;
+    color: #818181;
+    box-sizing: border-box;
+    width: 535px;
+  }
+
+  .col-forms {
+    display: flex;
+    flex-direction: column;
+  }
+
+  textarea {
+    resize: none;
+  }
+
+  button {
+    display: flex;
+    flex-direction: column;
+  }
+
+}
