@@ -6,25 +6,102 @@ bg-image: ../img/graphic/blurred-book-pages.jpg
 
 
 <div class="row convos-edus">
-    {% for education in site.educations %}
-    <div class="col-lg-3 col-md-3 col-sm-12 col-12">
-        <div class="outer-card">
-            <div class="inner-card">
-            {% if education.image %}
-            <a href="{{ education.url }}">
-                <div class="card-img-top" style="background-image: url('{{ education.image }}')"></div>
-            </a>
-            {% endif %}
 
-            <div class="card-body">
-                <a href="{{ education.url }}">
-                    <p class="card-title">{{ education.title }}</p>
-                </a>
-                <p class="card-text">{{ education.description | truncatewords: 25 }}</p></div></div>
+    <div class="col-12">
+        <h2>Uddannelser</h2>
+        <div class="row">
+        {% for education in site.educations %}
+        {% if education.category == 'uddannelser' %}
+        <div class="col-lg-3 col-md-3">
+            <div class="outer-card">
+                <div class="inner-card">
+                    {% if education.image %}
+                    <a href="{{ education.url }}">
+                        <div class="card-img-top" style="background-image: url('{{ education.image }}')"></div>
+                    </a>
+                    {% endif %}
+
+                    <div class="card-body">
+                        <a href="{{ education.url }}">
+                            <p class="card-title">{{ education.title }}</p>
+                        </a>
+                        <p class="card-text">{{ education.description | truncatewords: 15 }}</p>
+                    </div>
+                </div>
                 <button class="green-button b-1">Læs mere</button>
                 <button class="transparent-button b-2">Tilmeld</button>
-            
+
+            </div>
         </div>
+        {% endif %}
+        {% endfor %}
     </div>
-    {% endfor %}
+    </div>
+
+
+    <div class="col-12">
+        <h2>Kurser og Seminarer</h2>
+            <div class="row">
+            {% for education in site.educations %}
+            {% if education.category == 'kurser' %}
+            <div class="col-lg-3 col-md-3">
+                <div class="outer-card">
+                    <div class="inner-card">
+                        {% if education.image %}
+                        <a href="{{ education.url }}">
+                            <div class="card-img-top" style="background-image: url('{{ education.image }}')"></div>
+                        </a>
+                        {% endif %}
+    
+                        <div class="card-body">
+                            <a href="{{ education.url }}">
+                                <p class="card-title">{{ education.title }}</p>
+                            </a>
+                            <p class="card-text">{{ education.description | truncatewords: 15 }}</p>
+                        </div>
+                    </div>
+                    <button class="green-button b-1">Læs mere</button>
+                    <button class="transparent-button b-2">Tilmeld</button>
+    
+                </div>
+            </div>
+            {% endif %}
+            {% endfor %}
+        </div>
+        </div>
+
+        <div class="col-12">
+            <h2>Certificeringer</h2>
+                <div class="row">
+                {% for education in site.educations %}
+                {% if education.category == 'certificeringer' %}
+                <div class="col-lg-3 col-md-3">
+                    <div class="outer-card">
+                        <div class="inner-card">
+                            {% if education.image %}
+                            <a href="{{ education.url }}">
+                                <div class="card-img-top" style="background-image: url('{{ education.image }}')"></div>
+                            </a>
+                            {% endif %}
+        
+                            <div class="card-body">
+                                <a href="{{ education.url }}">
+                                    <p class="card-title">{{ education.title }}</p>
+                                </a>
+                                <p class="card-text">{{ education.description | truncatewords: 15 }}</p>
+                            </div>
+                        </div>
+                        <button class="green-button b-1">Læs mere</button>
+                        <button class="transparent-button b-2">Tilmeld</button>
+        
+                    </div>
+                </div>
+                {% endif %}
+                {% endfor %}
+            </div>
+            </div>
+
+
+
+
 </div>

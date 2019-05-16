@@ -2,6 +2,13 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.col-12 {
+    .row {
+        margin:  0 0 75px 0;
+        padding: 0 !important;
+    }
+}
+
 .green-button {
     border-radius: 2.5px;
     background-color: #1ABC9C;

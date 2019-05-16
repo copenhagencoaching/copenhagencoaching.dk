@@ -1,7 +1,7 @@
 ---
 published: true
-author: BOOST DIN MASTEROPGAVE
-title: BOOST DIN MASTEROPGAVE
+category: kurser
+title: Boost din Masteropgave
 image: ../img/coaching/MasterBusinessCoaching.jpg
 bg-image: ../../img/coaching/MasterBusinessCoaching.jpg
 description: Overvejer du at gå i gang med at skrive din masteropgave? – eller sidder du fast en skrivekløft og trænger til inspiration fra andre studerende og vejledere? Så deltag i vores kursus ‘Boost din masteropgave’!
