@@ -4,15 +4,15 @@ layout: default
 
 {% include navigation.html %}
 
+<div class="hero-image"
+    style="background-image: url(' {% if page.bg-image %} {{ page.bg-image }} {% else %}  {% endif %}')">
+    <h2>{{ page.title }}</h2>
+</div>
 
-    
-        <div class="hero-image"
-            style="background-image: url(' {% if page.bg-image %} {{ page.bg-image }} {% else %}  {% endif %}')">
-            <h2>{{ page.title }}</h2>
-        </div>
-    <div class="page">
-
-   
+<div class="page">
     {{ content }}
+</div>
 
+<div class="section footer">
+    {% include footer.html %}
 </div>
