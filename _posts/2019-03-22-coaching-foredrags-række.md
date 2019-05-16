@@ -2,6 +2,7 @@
 published: true
 title: Coaching-foredragsrække på Københavns Universitet
 image: ../../img/blog/post2.jpg
+bg-image: ../../img/blog/story.jpg
 author: Frederikke Winther
 ---
 
