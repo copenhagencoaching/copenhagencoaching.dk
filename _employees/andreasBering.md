@@ -1,7 +1,7 @@
 ---
 published: true
 title: Andreas Bering
-image: /../portraits/andreasBering.jpg
+image: ../portraits/andreasBering.jpg
 employee-image: ../../portraits/andreasBering.jpg
 bg-image: ../../img/graphic/book-bindings.jpg
 call: +45 40 14 92 92
