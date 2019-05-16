@@ -1,15 +1,19 @@
 
-.convos-edus {
-  .row {
+   .convos-edus {
     
     .col-lg-4 {
-     padding:0;
-     margin: 20px 10px;
-     max-width: 30%;
-     position: relative;
-     min-height: 450px;
-     border: 3px solid rgb(226, 226, 226);
-     border-radius: 5px;
+      margin-bottom: 20px;
+      
+
+      .outer-card {
+        -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,1);
+-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,1);
+box-shadow: 0px 0px 10px 0px rgba(0,0,0,1);
+      }
+
+      .inner-card {
+        min-height: 439px;
+      }
 
      a, a:hover {
        color: black;
@@ -17,40 +21,38 @@
      }
 
      .card-body {
-       padding: 20px 15px 0 15;
+       padding: 15px 0 0 20px;
 
       .card-title {
         font-weight: 600;
-        font-size: 20px;
+        font-size: 18px;
+      }
+
+      .card-text {
+        font-weight: 400;
+        font-size: 15px;
       }
      }
-     
-
-
         .card-img-top {
           width: 100%;
-          height: 200px;
+          height: 265px;
           background-position: center;
           background-size: cover;
         }
 
         button {
-          position: absolute;
-          margin:20px;
+          margin: 0 0 36px 20px;
           font-size: 15px;
           width: 130px;
           height: 35px;
+          font-weight: 400;
         }
 
-        .b-1 {
-          bottom: 0;
-          left: 0;
-        }
+       
 
         .b-2 {
-          bottom: 0;
-          right: 0;
-          border: 5px solid black;
+
+          border: 1px solid #707070;
           color: black;
           opacity: 0.5;
         }
@@ -59,4 +61,3 @@
     }
   }
 
-}

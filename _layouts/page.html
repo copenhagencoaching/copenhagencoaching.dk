@@ -4,15 +4,15 @@ layout: default
 
 {% include navigation.html %}
 
-<div class="page">
 
-    <div class="row">
-        <div class="col-12 hero-image"
+    
+        <div class="hero-image"
             style="background-image: url(' {% if page.bg-image %} {{ page.bg-image }} {% else %}  {% endif %}')">
             <h2>{{ page.title }}</h2>
         </div>
-    </div>
-    <div class="container">
+    <div class="page">
+
+   
     {{ content }}
-</div>
+
 </div>

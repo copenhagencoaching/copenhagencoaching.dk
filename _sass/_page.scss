@@ -1,19 +1,29 @@
 
-.page {
-    .hero-image {
-        height: 400px;
-        width: 100%;
-        background-image: url(../../img/graphic/apple-desk.jpg);
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-        padding: 30px 100px;
-        color: white;
-        background-position: center;
-        background-size: cover;
-    }
+.hero-image {
+    height: 640px;
+    width: 100%;
+    background-image: url(../../img/graphic/apple-desk.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 30px 100px;
+    color: white;
+    background-position: center;
+    background-size: cover;
+}
 
-    .container {
-        margin-top: 50px;
+.page {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+
+    .row {
+        width: 1525px;
+        margin-top: 75px;
+        margin-bottom: 100px;
+        padding:0;
+        display: flex;
+    justify-content: center;
     }
 }
