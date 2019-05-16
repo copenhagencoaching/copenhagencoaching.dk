@@ -1,7 +1,8 @@
 ---
 published: true
 title: Kim Gørtz
-image: ../../portraits/kimGørtz.jpg
+image: ../portraits/kimGørtz.jpg
+employee-image: ../../portraits/kimGørtz.jpg
 bg-image: ../../img/graphic/book-bindings.jpg
 call: +45 24 66 40 78
 email: kg@copenhagencoahing.dk

@@ -1,7 +1,8 @@
 ---
 published: true
 title: Bianca Olivia Godske Røjbæk
-image: ../../portraits/biancaOlivia.jpg
+image: ../portraits/biancaOlivia.jpg
+employee-image: ../../portraits/biancaOlivia.jpg
 bg-image: ../../img/graphic/book-bindings.jpg
 call: +45 61 71 01 98
 email: bgr@copenhagencoahing.dk

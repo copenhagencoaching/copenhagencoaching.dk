@@ -1,7 +1,8 @@
 ---
 published: true
 title: Marie Arnbak
-image: ../../portraits/marieArnbak.jpg
+image: ../portraits/marieArnbak.jpg
+employee-image: ./../portraits/marieArnbak.jpg
 bg-image: ../../img/graphic/book-bindings.jpg
 call: +45 26 18 03 00
 email: ma@copenhagencoaching.dk

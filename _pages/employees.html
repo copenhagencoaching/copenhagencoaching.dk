@@ -8,7 +8,7 @@ bg-image: ../img/graphic/book-bindings.jpg
     {% for employee in site.employees %}
 
     <div class="col-12 col-sm-6 col-md-4 col-lg-4">
-            <a href="{{ employee.url }}"><img class="card-img-top" src="{{ employee.image }}"></a>
+            <a href="{{ employee.url }}"><img alt="{{ employee.title }}" class="card-img-top" src="{{ employee.image }}"></a>
             <div class="card-body">
         <h5 class="card-title">{{ employee.title }}</h5>
         <p class="card-subtitle mb-2 text-muted">{{ employee.description }}</p>

@@ -1,7 +1,8 @@
 ---
 published: true
 title: Lars Nyborg
-image: ../../portraits/larsNyborg.jpg
+image: ../portraits/larsNyborg.jpg
+employee-image: ../../portraits/larsNyborg.jpg
 bg-image: ../../img/graphic/book-bindings.jpg
 call: +45 27 11 42 44
 email: ln@copenhagencoahing.dk
