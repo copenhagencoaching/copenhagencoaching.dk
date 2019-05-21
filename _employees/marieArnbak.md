@@ -9,6 +9,21 @@ email: ma@copenhagencoaching.dk
 description: Office manager
 ---
 
-Convallis a cras semper auctor neque vitae tempus quam. Magna eget est lorem ipsum dolor. Ornare suspendisse sed nisi lacus sed viverra tellus in hac. Congue quisque egestas diam in arcu.
+Marie har siden sin studietid på CBS været optaget af samtaler, dialogisk kapacitet og
+udvikling gennem refleksion. Først som studievejleder og siden i jobs hos Vestas og Novo
+Nordisk, hvor omdrejningspunktet altid har været kommunikation og
+medarbejderudvikling. 
 
-Eget mauris pharetra et ultrices neque ornare. Laoreet sit amet cursus sit amet dictum sit amet. Massa tincidunt dui ut ornare lectus sit amet est. Mauris nunc congue nisi vitae suscipit tellus. Ac felis donec et odio pellentesque diam volutpat. Euismod lacinia at quis risus sed vulputate odio. Pharetra pharetra massa massa ultricies mi quis. At ultrices mi tempus imperdiet nulla. Phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis. Venenatis cras sed felis eget velit aliquet sagittis. Odio aenean sed adipiscing diam. Urna neque viverra justo nec. Mauris ultrices eros in cursus turpis massa tincidunt. Quis auctor elit sed vulputate mi sit amet mauris commodo. Non curabitur 
+Undervisning har været en central del af Maries hverdag i mere en
+et årti og hun trives bedst på gulvet i dyb samtale med kursister eller som facilitator af
+diverse udviklingsprocesser. I Novo Nordisk har Marie desuden været et centralt medlem
+af det interne Novo Nordisk Coaching Netværk, der leverer coaching til Novo Nordisk
+medarbejdere indenfor et bredt spektrum af emner som stress, performance, ledelse og
+trivsel.
+
+Marie er drevet af en oprigtig nysgerrighed på og sympati for andre mennesker. I mødet
+med Marie oplever man en kombination af nænsomhed, humor, et solidt fagligt og
+analytisk fundament, samt et pragmatisk fokus på, hvad der virker for den enkelte.
+Marie har en CBS bachelor i Virksomhedskommunikation og Erhvervsøkonomi, en dobbelt
+kandidat indenfor HRM og international ledelse samt er ved at færdiggøre CCC’s Master i
+Business Coaching fra CCC.
