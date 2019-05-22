@@ -22,13 +22,11 @@
 .page {
     display: flex;
     justify-content: center;
-    height: auto;
     width: 100%;
-    padding-top: 75px;
+    padding: 75px 0 100px 0;
   
     .row {
-        width: 1180px;
-        margin-bottom: 100px;
+        width: 1400px;
         padding: 0;
         display: flex;
         justify-content: left;

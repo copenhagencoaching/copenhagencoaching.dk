@@ -1,65 +1,44 @@
-<div class="row justify-content-md-center justify-content-lg-center justify-content-sm-center justify-content-center">
-    <div class="col-md-3 col-text">
-        <h4>Navigation</h4>
-        <ul>
-            <li><a href="/">Forside</a></li>
-            <li><a href="/educations/">Udannelser</a></li>
-            <li><a href="/consulting/">Konsulentydelser</a></li>
-            <li><a href="/conversations/">Coachingsamtaler</a></li>
-            <li><a href="/employees/">Om os</a></li>
-            <li><a href="/registration/">Tilmeldelse</a></li>
-        </ul>
-    </div>
-    <div class="col-md-3 col-text">
-        <h4>Uddannelser</h4>
-        <ul>
-            <li><a href="/educations/boostDinMasteropgave/">Boost din masteropgave</a></li>
-            <li><a href="/educations/certificeringIBigFive/">Certificering i Big Five</a></li>
-            <li><a href="/educations/certificeringIProtreptik/">Certificering i protreptik</a></li>
-            <li><a href="/educations/diplomIOffentligLedelse/">Diplom i offentlig ledelse</a></li>
-            <li><a href="/educations/filosofiskTerapi/">Filosofisk terapi</a></li>
-            <li><a href="/educations/filosofiskeSeminarer/">Filosofiske seminarer</a></li>
-            <li><a href="/educations/frustationSkalLedes/">Frustration skal ledes</a></li>
-            <li><a href="/educations/ledelseskursesPåLesbos/">Ledelseskursus på Lesbos</a></li>
-            <li><a href="/educations/masterIBusinessCoaching/">Masterclass i coaching</a></li>
-            <li><a href="/educations/masterclassIProtreptik/">Masterclass i protreptik</a></li>
-            <li><a href="/educations/proceslederUddannelse/">Proceslederuddannelse</a></li>
-            <li><a href="/educations/socialInnovationStrategiudvikling/">Social innovation -
-                    strategiudvikling</a></li>
-        </ul>
-    </div>
-    <div class="col-md-3 col-text">
-        <h4>Historier</h4>
-        <ul>
-            <li><a href="/posts/start-din-master/">Start din master og Buisiness Coaching</a></li>
-            <li><a href="/posts/coaching-foredrags-række/">Coaching-foredragsrække på Københavns Universitet</a></li>
-            <li><a href="/posts/frisættende-lederskab/">Frisættende lederskab</a></li>
-            <li><a href="#">Nye Begyndelser, Nye Veje</a></li>
-            <li><a href="#">Undervisning af Professoren</a></li>
-            <li><a href="#">Nytårskur På CCC</a></li>
-            <li><a href="#">Sikken Fest!</a></li>
-        </ul>
-    </div>
-    <div class="col-md-3 col-text">
-        <h4>Kontakt</h4>
-        <ul>
-            <li>+45 39 20 10 20</li>
-            <li>info@copenhagencoaching.dk</li>
-            <li>Blegdamsvej 104 A, 2. Sal, 2800 København Ø</li>
-        </ul>
-    </div>
-</div>
-<div class="row justify-content-md-center justify-content-lg-center justify-content-sm-center justify-content-center">
-    <div class="col-md-3 col-nav">
-        <h5><a href="/">Gå til forsiden</a></h5>
-    </div>
-    <div class="col-md-3 col-nav">
-        <h5><a href="/educations/">Se flere udannelser</a></h5>
-    </div>
-    <div class="col-md-3 col-nav">
-        <h5><a href="/stories/">Se flere historier</a></h5>
-    </div>
-    <div class="col-md-3 col-nav">
-        <h5><a href="/employees/">Skriv til os</a></h5>
+<div class="footer justify-content-center">
+
+    <div class="row">
+
+        <div class="col-lg-3 col-md-3 col-sm-12 col-12 kontakt">
+            <h3>Copenhagen Coaching</h3>
+            <p>Copenhagen Coaching Center blev dannet i 2004 og er et partnerejet selskab, der udbyder åbne uddannelser.
+            </p>
+            <p><a href="https://www.facebook.com/copenhagencoaching.dk" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-instagram"></i></a></p>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+            <h3>Vores ydelser</h3>
+            <ul>
+                <li><a href="/educations">Uddannelser</a></li>
+                <li><a href="/consulting">Konsulentydelser</a></li>
+                <li><a href="/conversations/">Coachingsamtaler</a></li>
+                <li><a href="/registration">Tilmelding</a></li>
+            </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+            <h3>Seneste Historier</h3>
+            <ul>
+                {% for post in site.posts %}
+                <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+            <h3>Kontakt os</h3>
+            <ul>
+                <li><a href="tel:+4539201020">+45 39 201 020</a></li>
+                <li><a href="mailto: info@copenhagencoaching.dk">info@copenhagencoaching.dk</a></li>
+                <li>Blegdamsvej 104 A, 2. Sal</li>
+                <li>2200 København Ø</li>
+            </ul>
+        </div>
     </div>
 </div>
