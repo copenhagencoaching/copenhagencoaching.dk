@@ -45,30 +45,33 @@ bg-image: ../img/graphic/handshake.jpg
     </div>
 
     <div class="col-md-6 col_forms">
-        <input class="input-form" type="text" value="Vælg uddannelse">
+        <form action="https://formspree.io/prolike@copenhagencoaching.dk" method="POST">
 
-        <input class="input-form" type="text" value="Fornavn">
+        <input class="input-form" type="text" placeholder="Uddannelse" name="uddannelse" >
 
-        <input class="input-form" type="text" value="Efternavn">
+        <input class="input-form" type="text" placeholder="Fornavn" name="fornavn">
 
-        <input class="input-form" type="text" value="Firma">
+        <input class="input-form" type="text" placeholder="Efternavn" name="efternavn">
 
-        <input class="input-form" type="text" value="Fakturaadresse">
+        <input class="input-form" type="text" placeholder="Firma" name="firma">
 
-        <input class="input-form" type="text" value="Postnr.">
+        <input class="input-form" type="text" placeholder="Fakturaadresse" name="faktura">
 
-        <input class="input-form" type="text" value="By">
+        <input class="input-form" type="text" placeholder="Post nr." name="postnr">
 
-        <input class="input-form" type="text" value="Tlf.">
+        <input class="input-form" type="text" placeholder="By" name="by">
 
-        <input class="input-form" type="text" value="EAN">
+        <input class="input-form" type="text" placeholder="Tlf." name="tlf">
 
-        <input class="input-form" type="text" value="CVR_nr:">
+        <input class="input-form" type="text" placeholder="EAN" name="ean">
 
-        <input class="input-form" type="text" value="Email">
+        <input class="input-form" type="text" placeholder="CVR nr." name="cvr">
 
-        <textarea class="input-form" cols="40" rows="10">Evt. kommentarer</textarea>
+        <input class="input-form" type="email" placeholder="Email" name="email">
 
-        <button class="green-button" type="submit">Send</button>
+        <textarea class="input-form" type="textarea" cols="40" rows="10" placeholder="Evt kommentarer"></textarea>
+
+        <input class="green-button" type="submit" value="Send">
+    </form>
     </div>
 </div>
