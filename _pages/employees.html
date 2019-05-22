@@ -13,7 +13,7 @@ bg-image: ../img/graphic/book-bindings.jpg
         <div class="card-body">
             <h5 class="card-title">{{ employee.title }}</h5>
             <p class="card-subtitle mb-2 text-muted">{{ employee.description }}</p>
-            <p class="card-subtitle mb-2 text-muted">{{ employee.call }}</p>
+            <p class="card-subtitle mb-2 text-muted"><a href="tel:{{ employee.call }}">{{ employee.call }}</a></p>
             <p class="card-subtitle mb-2 text-muted"><a href="mailto: {{ employee.email }}">{{ employee.email }}</a></p>
             <p class="card-text">{{ employee.excerpt | truncatewords: 15 }}</p>
         </div>
