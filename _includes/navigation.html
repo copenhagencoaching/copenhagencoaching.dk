@@ -7,21 +7,14 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav ml-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="/registration">Tilmelding</a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="/educations">Uddannelser</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/consulting">Konsulentydelser</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/conversations/">Coachingsamtaler</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/employees">Om os</a>
-      </li>
+
+        {% for node in site.pages %}
+        {% if page.url == node.url %}
+          <li class="nav-item"><a class="nav-link active" href="{{node.url}}">{{ node.title | truncatewords: 1, "" }}</a></li>
+        {% else %}
+          <li class="nav-item"><a class="nav-link" href="{{node.url}}">{{ node.title | truncatewords: 1, "" }}</a></li>
+        {% endif %}
+      {% endfor %}
     </ul>
   </div>
 

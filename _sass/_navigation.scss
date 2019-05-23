@@ -24,12 +24,22 @@
       }
     }
 
+    .nav-link {
+      padding: 0 !important;
+      margin-left: 10px;
+    }
+
 
   .navbar-menu a,
   a {
     color: #ffffff;
     font-size: 20px;
     font-weight: 400;
+    padding: 0;
+  }
+
+  .active {
+    border-bottom: 5px solid #1ABC9C;
   }
 
   .navbar-brand {
