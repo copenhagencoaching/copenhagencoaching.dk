@@ -1,16 +1,53 @@
-.employee-row {
-  margin: 0 100px;
+.employees {
+  text-align: center;
 
-  h5 {
-    font-size: 1.1rem;
+  h2 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    margin-bottom: 50px;
   }
-
   p {
-    font-size: .9rem;
+    font-size: 16px;
+    margin-bottom: 85px;
   }
 
-  a:link {
-    color: #6c757d;
-    text-decoration: none;
+  .col-lg-4 {
+    margin-bottom: 50px;
+  }
+
+  .card {
+    text-align: left;
+    min-height: 500px;
+
+    button {
+      border: none;
+      background: none;
+      margin: 10px 0 0 0;
+        font-size: 14px;
+        padding: 0;
+    }
+
+    .card-title {
+      font-size: 16px;
+      font-weight: 600;
+      margin: 0 0 10px 0;
+    }
+
+    .card-body {
+      padding: 0 10px 10px 10px;
+
+      p {
+        margin: 10px 0 0 0;
+        font-size: 14px;
+      }
+    }
+    .img-empl {
+      margin: 10px auto;
+      width: 355px;
+      height: 290px;
+      background-size: cover;
+      background-position: center;
+    }
   }
 }

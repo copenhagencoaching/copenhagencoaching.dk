@@ -1,9 +1,8 @@
 ---
 published: true
+order: 3
 title: Morten Bertelsen
 image: ../portraits/mortenBertelsen.jpg
-employee-image: ../../portraits/mortenBertelsen.jpg
-bg-image: ../../img/graphic/book-bindings.jpg
 call: +45 52 19 09 57
 email: mb@copenhagencoahing.dk
 description: Seniorkonsulent

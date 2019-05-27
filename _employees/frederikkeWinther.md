@@ -1,9 +1,8 @@
 ---
 published: true
+order: 4
 title: Frederikke Winther
 image: ../portraits/frederikkeWinther.jpg
-employee-image: ../../portraits/frederikkeWinther.jpg
-bg-image: ../../img/graphic/book-bindings.jpg
 call: +45 21 19 47 57
 email: fw@copenhagencoahing.dk
 description: Konsulent

@@ -4,19 +4,28 @@ title: Medarbejdere
 bg-image: ../img/graphic/book-bindings.jpg
 ---
 
-<div class="row employee-row">
-    {% for employee in site.employees %}
+<div class="row employees">
 
-    <div class="col-12 col-sm-6 col-md-4 col-lg-4">
-        <a href="{{ employee.url }}"><img alt="{{ employee.title }}" class="card-img-top"
-                src="{{ employee.image }}"></a>
-        <div class="card-body">
-            <h5 class="card-title">{{ employee.title }}</h5>
-            <p class="card-subtitle mb-2 text-muted">{{ employee.description }}</p>
-            <p class="card-subtitle mb-2 text-muted"><a href="tel:{{ employee.call }}">{{ employee.call }}</a></p>
-            <p class="card-subtitle mb-2 text-muted"><a href="mailto: {{ employee.email }}">{{ employee.email }}</a></p>
-            <p class="card-text">{{ employee.excerpt | truncatewords: 15 }}</p>
-        </div>
+    <div class="col-12">
+        <h2>Vi hjælper med at uddanne ledere til erhvervs og forretningslivet</h2>
+        <p>Copenhagen Coaching Center har siden starten arbejdet for at skabe de bedste uddannelser for ledere og konsulenter. Vores undervisning er praktisk orienteret og enkel at omsætte og anvende i dagligdagen. Produkter og metoder er forskningsbaserede og vokser ud af en kombination af velkendte og underbyggede teorier.</p>
+    </div>
+
+        {% assign sorted_empl = site.employees | sort: "order" %}
+    {% for employee in sorted_empl %}
+    
+    <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+            <div class="card">
+                   <div class="img-empl" style="background-image: url('{{ employee.image }}')"></div>
+                    <div class="card-body">
+                      <h5 class="card-title">{{ employee.title }}</h5>
+                      <p class="card-subtitle mb-2">{{ employee.description }}<br>
+                        {{ employee.call }}<br>{{ employee.email }}</p>
+                      <p class="card-text">{{ employee.content | truncatewords: 5 }}
+                      </p>
+                      <button>Vis mere</button>
+                    </div>
+                  </div>
     </div>
 
     {% endfor %}

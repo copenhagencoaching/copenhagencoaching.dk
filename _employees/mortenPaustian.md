@@ -2,8 +2,7 @@
 published: true
 title: Morten Paustian
 image: ../portraits/mortenPaustian.jpg
-employee-image: ../../portraits/mortenPaustian.jpg
-bg-image: ../../img/graphic/book-bindings.jpg
+order: 7
 call: + 45 40 13 69 68
 email: mp@copenhagencoahing.dk
 description: Coach
