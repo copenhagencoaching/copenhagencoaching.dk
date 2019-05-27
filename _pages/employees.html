@@ -6,27 +6,49 @@ bg-image: ../img/graphic/book-bindings.jpg
 
 <div class="row employees">
 
-    <div class="col-12">
-        <h2>Vi hjælper med at uddanne ledere til erhvervs og forretningslivet</h2>
-        <p>Copenhagen Coaching Center har siden starten arbejdet for at skabe de bedste uddannelser for ledere og konsulenter. Vores undervisning er praktisk orienteret og enkel at omsætte og anvende i dagligdagen. Produkter og metoder er forskningsbaserede og vokser ud af en kombination af velkendte og underbyggede teorier.</p>
-    </div>
+  <div class="col-12">
+    <h2>Vi hjælper med at uddanne ledere til erhvervs og forretningslivet</h2>
+    <p>Copenhagen Coaching Center har siden starten arbejdet for at skabe de bedste uddannelser for ledere og
+      konsulenter. Vores undervisning er praktisk orienteret og enkel at omsætte og anvende i dagligdagen. Produkter og
+      metoder er forskningsbaserede og vokser ud af en kombination af velkendte og underbyggede teorier.</p>
+  </div>
 
-        {% assign sorted_empl = site.employees | sort: "order" %}
-    {% for employee in sorted_empl %}
-    
-    <div class="col-lg-4 col-md-4 col-sm-12 col-12">
-            <div class="card">
-                   <div class="img-empl" style="background-image: url('{{ employee.image }}')"></div>
-                    <div class="card-body">
-                      <h5 class="card-title">{{ employee.title }}</h5>
-                      <p class="card-subtitle mb-2">{{ employee.description }}<br>
-                        {{ employee.call }}<br>{{ employee.email }}</p>
-                      <p class="card-text">{{ employee.content | truncatewords: 5 }}
-                      </p>
-                      <button>Vis mere</button>
-                    </div>
-                  </div>
-    </div>
+  {% assign sorted_empl = site.employees | sort: "order" %}
+  {% for employee in sorted_empl %}
 
-    {% endfor %}
+  <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+    <div class="card">
+      <div class="img-empl" style="background-image: url('{{ employee.image }}')"></div>
+      <div class="card-body">
+        <h5 class="card-title">{{ employee.title }}</h5>
+        <p class="card-subtitle mb-2">{{ employee.description }}<br>
+          {{ employee.call }}<br>{{ employee.email }}</p>
+
+        <div class="employee-text card-text" id="content">{{ employee.content }}</div>
+      </div>
+    </div>
+  </div>
+
+  {% endfor %}
+
+  <div class="col-12 col-lg-12">
+    <h2>Besøg vores adresse på Østerbro</h2>
+  </div>
+  <div class="col-12">
+    <div class="row align-items-center">
+      <div class="col-lg-6 col-md-6 col-sm-12 col-12 "><iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d8994.121768380253!2d12.573369!3d55.697151!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb3635bd81181e031!2sCopenhagen+Coaching+Center!5e0!3m2!1sda!2sdk!4v1558954652578!5m2!1sda!2sdk"
+          width="400" height="400" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+      <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+        <h3>Copenhagen Coaching Center</h3>
+        <p>Vi er altid klar til at svare på henvendelser – så ring, skriv gerne og aftal et møde med os eller kom forbi:
+        </p>
+        <p>Telefon: +45 39 20 10 20</p>
+        <p>info@copenhagencoaching.dk</p>
+        <p>Blegdamsvej 104 A, 2. Sal, 2200 København Ø</p>
+        <p>CVR: 28132891</p>
+        <p>Rutevejledning</p>
+      </div>
+    </div>
+  </div>
 </div>
