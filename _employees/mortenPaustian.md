@@ -6,6 +6,7 @@ order: 7
 call: + 45 40 13 69 68
 email: mp@copenhagencoahing.dk
 description: Coach
+linkedin: https://www.linkedin.com/in/dr-mult-morten-paustian-230321/
 ---
 
 Morten favner bredt og dybt. Hans vidensniveau er højt med en humanistisk tilgang. Han har undervist, arbejdet som konsulent med forretnings- og lederudvikling og er forfatter til en lang række bøger indenfor filosofi, ledelse, kunst og erhvervsøkonomi.

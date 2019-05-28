@@ -25,7 +25,11 @@ bg-image: ../img/graphic/book-bindings.jpg
           <a href="mailto:{{ employee.email }}">{{ employee.email }}</a><br>
           <a href="phoneto:{{ employee.call }}">{{ employee.call }}</a><br></p>
 
-        <div class="employee-text card-text" id="content">{{ employee.content }}</div>
+        <div class="employee-text card-text" id="content">{{ employee.content }}
+
+          <br>
+          <div class="d-flex justify-content-center"></di><a href="{{ employee.linkedin }}" target="_blank"><i class="fab fa-linkedin-in"></i></a></div>
+        </div>
       </div>
     </div>
   </div>

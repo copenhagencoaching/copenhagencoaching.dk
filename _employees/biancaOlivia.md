@@ -6,6 +6,7 @@ call: +45 61 71 01 98
 order: 10
 email: bgr@copenhagencoahing.dk
 description: Studentermedhjælper
+linkedin: https://www.linkedin.com/in/bianca-olivia-godske-r%C3%B8jb%C3%A6k-11a6aa122/
 ---
 
 Bianca er vores ’alt-mulig-kvinde’ (læs: studentermedhjælper) i Copenhagen Coaching Center. Hun har en finger med i rigtige mange opgaver i CCC. Og hun gør det med et smil.

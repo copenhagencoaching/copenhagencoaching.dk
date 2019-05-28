@@ -6,6 +6,7 @@ call: +45 51 48 84 33
 order: 8
 email: ark@copenhagencoaching.dk
 description: Associeret partner
+linkedin: https://www.linkedin.com/in/anni-rosengren-korsb%C3%A6k-85647890/
 ---
 
 Convallis a cras semper auctor neque vitae tempus quam. Magna eget est lorem ipsum dolor. Ornare suspendisse sed nisi lacus sed viverra tellus in hac. Congue quisque egestas diam in arcu.

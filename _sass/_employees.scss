@@ -3,6 +3,12 @@
 .employees {
   text-align: center;
 
+  i {
+    font-size: 35px;
+    display: inline-block;
+    margin: auto;
+  }
+
   .row {
     -webkit-box-shadow: 0 5px 20px 0 rgba(0,0,0,0.16);
     -moz-box-shadow: 0 5px 20px 0 rgba(0,0,0,0.16);
