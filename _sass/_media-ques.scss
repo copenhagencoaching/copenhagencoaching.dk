@@ -1,98 +1,193 @@
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
+  .page {
+    .row {
+      padding: 0;
+      width: 90%;
+    }
+  }
 
+  .hero-image {
+    height: 300px !important;
+    padding: 40px 20px 0;
+
+    h1 {
+      font-size: 25px;
+      line-height: 35px;
+      max-width: 740;
+    }
+
+  }
+
+
+.employees {
+  .img-empl {
+    margin: 20px auto;
+    width: 95% !important;
+  }
+
+  .end-empl {
+    box-shadow: none;
+    margin-top: 75px;
+    padding-top: 10px;
+    width: unset !important;
+    padding-right: 0 !important;
+    height: unset !important;
+
+    h3 {
+      margin-top: 50px;
+    }
+
+    iframe {
+      padding: 0;
+      width: 400px !important;
+      height: 400px !important;
+      margin: 0;
+    }
+  }
+}
 }
 
 // Small devices (landscape phones, less than 768px)
-@media (max-width: 767.98px) { 
+@media (max-width: 767.98px) {
+  .page {
+    .row {
+      padding: 0;
+      width: 90%;
+    }
+  }
 
-    .navbar {
-        padding-left: 20px;
-        padding-right: 20px;
+  .navbar {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .testimonial {
+    .col-lg-12 {
+      padding: 0 30px;
+
+      h1 {
+        font-size: 30px;
+        line-height: 30px;
+        margin-bottom: 20px;
+      }
+
+      p {
+        font-size: 15.5px;
+        margin-bottom: 10x;
+        line-height: 20px;
+      }
     }
 
-    .testimonial {
-
-        .col-lg-12 {
-            padding: 0px 30px;
-            h1 {
-                font-size: 30px;
-                line-height: 30px;
-                margin-bottom: 20px;
-            }
-            p {
-                font-size: 15.5px;
-                margin-bottom: 10x;
-                line-height: 20px;
-            }
-        }
-
-        .green-button {
-            width: 150px;
-            height: 35px;
-            font-size: 15.5px;
-        }
-        
-        .transparent-button {
-            width: 155px;
-            height: 35px;
-            font-size: 15.5px;
-        }
+    .green-button {
+      width: 150px;
+      height: 35px;
+      font-size: 15.5px;
     }
 
-    .home {
-    
-        background-image: url(../img/graphic/desk.jpg);
-        background-size: cover;
-        background-position: center;
-        
+    .transparent-button {
+      width: 155px;
+      height: 35px;
+      font-size: 15.5px;
+    }
+  }
 
-        .col-lg-12 {
-            color: white;
-            padding: 0px 30px;
-            h1 {
-                font-size: 30px;
-                line-height: 30px;
-                margin-bottom: 20px;
-            }
-            p {
-                font-size: 15.5px;
-                margin-bottom: 10x;
-                line-height: 20px;
-            }
-        }
-   
-}
+  .home {
 
-#fp-nav {
+    background-image: url("../img/graphic/desk.jpg");
+    background-size: cover;
+    background-position: center;
+
+    .col-lg-12 {
+      color: white;
+      padding: 0 30px;
+
+      h1 {
+        font-size: 30px;
+        line-height: 30px;
+        margin-bottom: 20px;
+      }
+
+      p {
+        font-size: 15.5px;
+        margin-bottom: 10x;
+        line-height: 20px;
+      }
+    }
+
+  }
+
+  #fp-nav {
     display: none;
-}
-
+  }
 
 }
 
 // Medium devices (tablets, less than 992px)
-@media (max-width: 991.98px) { 
+@media (max-width: 991.98px) {
+  .page {
+    .row {
+      padding: 0;
+      width: 90%;
+    }
+  }
 
-  
+  .footer {
+    .row {
+      padding: 0;
+      width: 90%;
+
+      .col-12,
+      .col-md-12 {
+        margin-bottom: 50px;
+        padding: 0;
+      }
+    }
+
+  }
+
 }
 
 // Large devices (desktops, less than 1200px)
-@media (max-width: 1199.98px) { 
-
-   
+@media (max-width: 1199.98px) {
+  .employees {
+    .end-empl {
+      iframe {
+        padding: 0;
+        width: 400px !important;
+        height: 400px !important;
+        margin: 0;
+      }
+    }
+  }
 }
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    .footer {
+      .row {
+        padding: 0;
+        width: 90%;
 
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px)  { 
-  
-}
+        .col-12,
+        .col-md-12 {
+          margin-bottom: 50px;
+          padding: 0;
+        }
+      }
 
-@media only screen 
-and (min-device-width : 1024px) 
-and (max-device-width : 1366px)  { 
-  
+    }
+  }
+  @media only screen and (min-device-width : 1024px) and (max-device-width : 1366px) {
+    .footer {
+      .row {
+        padding: 0;
+        width: 90%;
 
+        .col-12,
+        .col-md-12 {
+          margin-bottom: 50px;
+          padding: 0;
+        }
+      }
 
-}
+    }
+  }

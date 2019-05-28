@@ -67,6 +67,11 @@
     box-shadow: 0 5px 20px 0 rgba(0,0,0,0.16);
     border: none;
 
+    a, a:hover {
+      color: #212529;
+      text-decoration: none;
+    }
+
     .showmore-button {
       cursor: pointer;
       border: none;

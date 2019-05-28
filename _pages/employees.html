@@ -22,7 +22,8 @@ bg-image: ../img/graphic/book-bindings.jpg
       <div class="card-body">
         <h5 class="card-title">{{ employee.title }}</h5>
         <p class="card-subtitle mb-2">{{ employee.description }}<br>
-          {{ employee.call }}<br>{{ employee.email }}</p>
+          <a href="mailto:{{ employee.email }}">{{ employee.email }}</a><br>
+          <a href="phoneto:{{ employee.call }}">{{ employee.call }}</a><br></p>
 
         <div class="employee-text card-text" id="content">{{ employee.content }}</div>
       </div>
@@ -35,11 +36,11 @@ bg-image: ../img/graphic/book-bindings.jpg
     <h2>Besøg vores adresse på Østerbro</h2>
   </div>
   <div class="col-12">
-    <div class="row align-items-center">
-      <div class="col-lg-6 col-md-6 col-sm-12 col-12 "><iframe
+    <div class="row align-items-center end-empl">
+      <div class="col-lg-6 col-md-12 col-sm-12 col-12 "><iframe
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d8994.121768380253!2d12.573369!3d55.697151!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb3635bd81181e031!2sCopenhagen+Coaching+Center!5e0!3m2!1sda!2sdk!4v1558954652578!5m2!1sda!2sdk"
           width="400" height="400" frameborder="0" style="border:0" allowfullscreen></iframe></div>
-      <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+      <div class="col-lg-6 col-md-12 col-sm-12 col-12">
         <h3>Copenhagen Coaching Center</h3>
         <p>Vi er altid klar til at svare på henvendelser – så ring, skriv gerne og aftal et møde med os eller kom forbi:
         </p>
