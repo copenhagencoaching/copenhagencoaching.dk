@@ -68,16 +68,27 @@
     max-width: 375px;
   }
 
+  .card:hover {
+    transform:  scale(1.075)
+  }
+
   .card {
     text-align: left;
     -webkit-box-shadow: 0 5px 20px 0 rgba(0,0,0,0.16);
     -moz-box-shadow: 0 5px 20px 0 rgba(0,0,0,0.16);
     box-shadow: 0 5px 20px 0 rgba(0,0,0,0.16);
     border: none;
+    transition: all ease-in-out .3s;
 
-    a, a:hover {
+
+
+    a {
       color: #212529;
+    }
+
+    a:hover {
       text-decoration: none;
+      color:#1ABC9C;
     }
 
     .showmore-button {
@@ -89,6 +100,11 @@
       padding: 0;
       background-color: none;
       width: auto;
+      display: inline-block;
+    }
+
+    .showmore-button:hover {
+      color:#1ABC9C;
     }
 
     .card-title {
