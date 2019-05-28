@@ -28,12 +28,13 @@ body {
     display: flex;
     justify-content: center;
     width: 100%;
-    padding: 75px 0 100px 0;
+    padding: 75px 0 150px 0;
+
   
     .row {
         width: 1230px;
         padding: 0;
         display: flex;
-        justify-content: left;
+        justify-content: space-between;
     }
 }

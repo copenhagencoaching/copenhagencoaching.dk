@@ -2,13 +2,30 @@
   background-color: #F8F9FA;
   color: black;
   width: 100%;
-  padding: 134px 0 134px 0;
+  padding: 128px 0 0 0;
   display: flex;
   justify-content: center;
 
+  .privat {
+    font-size: 12px;
+    opacity: 0.5;
+    margin-top: 143px;
+    margin-bottom: 16px;
+    color: #000000;
+    padding: 0 !important;
+    p {
+      padding:0 !important;
+      margin:0 !important;
+    }
+   
+  }
+
 
   .row {
-    width: 1398px;
+    width: 1230px;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
     
 
     i {
@@ -16,7 +33,7 @@
     }
 
     .col-12 {
-      padding: 0 0 0 115px;
+      padding: 0 0 0 70px;
     }
 
     .kontakt {
