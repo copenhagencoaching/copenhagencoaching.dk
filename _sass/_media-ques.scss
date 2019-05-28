@@ -46,6 +46,14 @@
     }
   }
 }
+
+.footer {
+  height: 100vh;
+
+  .row {
+    height: inherit;
+  }
+}
 }
 
 // Small devices (landscape phones, less than 768px)
