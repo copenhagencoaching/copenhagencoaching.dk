@@ -45,6 +45,9 @@ collections:
   conversations:
     output: true
     permalink: /conversations/:title/
+  consultations:
+    output: true
+    permalink: /consultations/:title/
   pages:
     output: true
     permalink: /:title/
@@ -70,6 +73,11 @@ defaults:
       type: conversations
     values:
       layout: conversation
+  -
+    scope:
+      type: consultations
+    values:
+      layout: consulting
       
 prose:
   rooturl: '_posts'
