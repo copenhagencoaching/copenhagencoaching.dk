@@ -5,13 +5,12 @@ bg-image: ../img/graphic/book-bindings.jpg
 ---
 
 <div class="row employees">
-
-  <div class="col-12">
-    <h2>Vi hjælper med at uddanne ledere til erhvervs og forretningslivet</h2>
-    <p>Copenhagen Coaching Center har siden starten arbejdet for at skabe de bedste uddannelser for ledere og
-      konsulenter. Vores undervisning er praktisk orienteret og enkel at omsætte og anvende i dagligdagen. Produkter og
-      metoder er forskningsbaserede og vokser ud af en kombination af velkendte og underbyggede teorier.</p>
-  </div>
+    <div class="introductionText">
+        <h1>Vi hjælper med at uddanne ledere til erhvervs og forretningslivet</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia dolor enim velit<br>provident culpa,
+            omnis eius? Placeat deleniti aliquam rerum.
+        </p>
+    </div>
 
   {% assign sorted_empl = site.employees | sort: "order" %}
   {% for employee in sorted_empl %}
