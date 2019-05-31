@@ -20,40 +20,72 @@
   }
 
 
-.employees {
-  .img-empl {
-    margin: 20px auto;
-    width: 95% !important;
-  }
-
-  .end-empl {
-    box-shadow: none;
-    margin-top: 75px;
-    padding-top: 10px;
-    width: unset !important;
-    padding-right: 0 !important;
-    height: unset !important;
-
-    h3 {
-      margin-top: 50px;
+  .employees {
+    .img-empl {
+      margin: 20px auto;
+      width: 95% !important;
     }
 
-    iframe {
-      padding: 0;
-      width: 400px !important;
-      height: 400px !important;
-      margin: 0;
+    .end-empl {
+      box-shadow: none;
+      margin-top: 75px;
+      padding-top: 10px;
+      width: unset !important;
+      padding-right: 0 !important;
+      height: unset !important;
+
+      h3 {
+        margin-top: 50px;
+      }
+
+      iframe {
+        padding: 0;
+        width: 400px !important;
+        height: 400px !important;
+        margin: 0;
+      }
     }
   }
-}
 
-.footer {
-  height: 100vh;
+  .footer {
+    height: 100vh;
+    padding-top: 50px;
 
-  .row {
-    height: inherit;
+    .row {
+      height: auto;
+
+      h3 {
+        font-size: 14px !important;
+        line-height: 0;
+        margin-bottom: 20px;
+      }
+
+      a,
+      p {
+        font-size: 14px;
+      }
+
+      .col-sm-12 {
+        margin-bottom: 0 !important;
+      }
+    }
+
+    .historier {
+      padding-left: 0;
+    }
+
+    .fab {
+      display: none;
+    }
+
+    .privat {
+      margin-top: -50px;
+      p,a  {
+        line-height: 20px;
+        font-size: 12px;
+      }
+    }
   }
-}
 }
 
 // Small devices (landscape phones, less than 768px)
@@ -169,33 +201,35 @@
     }
   }
 }
-  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-    .footer {
-      .row {
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  .footer {
+    .row {
+      padding: 0;
+      width: 90%;
+
+      .col-12,
+      .col-md-12 {
+        margin-bottom: 50px;
         padding: 0;
-        width: 90%;
-
-        .col-12,
-        .col-md-12 {
-          margin-bottom: 50px;
-          padding: 0;
-        }
       }
-
     }
+
   }
-  @media only screen and (min-device-width : 1024px) and (max-device-width : 1366px) {
-    .footer {
-      .row {
+}
+
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1366px) {
+  .footer {
+    .row {
+      padding: 0;
+      width: 90%;
+
+      .col-12,
+      .col-md-12 {
+        margin-bottom: 50px;
         padding: 0;
-        width: 90%;
-
-        .col-12,
-        .col-md-12 {
-          margin-bottom: 50px;
-          padding: 0;
-        }
       }
-
     }
+
   }
+}

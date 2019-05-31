@@ -15,18 +15,18 @@
         <div class="col-lg-3 col-md-6 col-sm-12 col-6">
             <h3>Vores ydelser</h3>
             <ul>
-                <li><a href="/educations">Uddannelser</a></li>
-                <li><a href="/consultations">Konsultationsydesler></li>
-                <li><a href="/conversations/">Coachingsamtaler</a></li>
-                <li><a href="/registration">Tilmelding</a></li>
+                <a href="/educations">Uddannelser</a><br>
+                <a href="/consultations">Konsultationsydesler</a><br>
+                <a href="/conversations/">Coachingsamtaler</a><br>
+                <a href="/registration">Tilmelding</a>
             </ul>
         </div>
 
-        <div class="col-lg-3 col-md-6 col-sm-12 col-6">
+        <div class="col-lg-3 col-md-6 col-sm-12 col-6 historier">
             <h3>Seneste Historier</h3>
             <ul>
                 {% for post in site.posts %}
-                <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                <a href="{{ post.url }}">{{ post.title }}</a>
                 {% endfor %}
             </ul>
         </div>
@@ -34,10 +34,10 @@
         <div class="col-lg-3 col-md-6 col-sm-12 col-6">
             <h3>Kontakt os</h3>
             <ul>
-                <li><a href="tel:+4539201020">+45 39 201 020</a></li>
-                <li><a href="mailto: info@copenhagencoaching.dk">info@copenhagencoaching.dk</a></li>
-                <li>Blegdamsvej 104 A, 2. Sal</li>
-                <li>2200 København Ø</li>
+                <a href="tel:+4539201020">+45 39 201 020</a>
+                <a href="mailto: info@copenhagencoaching.dk">info@copenhagencoaching.dk</a>
+                Blegdamsvej 104 A, 2. Sal
+                2200 København Ø
             </ul>
         </div>
 
