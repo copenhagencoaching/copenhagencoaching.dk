@@ -6,9 +6,12 @@ layout: page
     <div class="col-12">
         {{ page.content }}
 
-        <a href="/registration/"><button class="green-button">Tilmeld</button></a>
+        {% capture url %}n={{ page.title | uri_escape }}{% endcapture %}
+
+        <a href="/registration/?{{ url }}"><button class="green-button">Tilmeld</button></a>
 
     </div>
 
 
 </div>
+

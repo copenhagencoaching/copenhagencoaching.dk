@@ -48,6 +48,7 @@ bg-image: ../img/graphic/handshake.jpg
         <form action="https://formspree.io/info@copenhagencoaching.dk" method="POST">
 
             <select class="input-form" name="uddannelse">
+                    <option value="vealg">Uddannelse</option>
                 {% for education in site.educations %}
                 <option value="{{ education.title }}">{{ education.title }}</option>
 
@@ -81,3 +82,24 @@ bg-image: ../img/graphic/handshake.jpg
     </form>
     </div>
 </div>
+
+<script>
+    // this script will automatically fill name and price fields 
+    // depending on what's passed in the url
+    var fillForm = function () {
+        var queryString = document.location.search.split("+").join(" ");
+        var params = {}, tokens, re = /[?&]?([^=]+)=([^&]*)/g;
+    
+        while (tokens = re.exec(queryString)) {
+            params[decodeURIComponent(tokens[1])] = decodeURIComponent(tokens[2]);
+        }
+    
+        if (params.n == undefined){
+            // no value in the query string
+            // here you have to manage this use case : redirect or print a message to user
+        }else{
+            // filling form fields with query string values
+            document.getElementsByName('uddannelse')[0].value = params.n;
+        }
+    } ();
+    </script>
