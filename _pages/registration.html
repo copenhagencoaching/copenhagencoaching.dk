@@ -47,7 +47,13 @@ bg-image: ../img/graphic/handshake.jpg
     <div class="col-md-6 col_forms">
         <form action="https://formspree.io/info@copenhagencoaching.dk" method="POST">
 
-        <input class="input-form" type="text" placeholder="Uddannelse" name="uddannelse" >
+            <select class="input-form" name="uddannelse">
+                {% for education in site.educations %}
+                <option value="{{ education.title }}">{{ education.title }}</option>
+
+                {% endfor %}
+               
+              </select>
 
         <input class="input-form" type="text" placeholder="Fornavn" name="fornavn">
 
