@@ -11,6 +11,31 @@
     {{ content }}
 
     {% include scripts/plugin.html %}
+
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 50) {
+                    $('.navbar').addClass('solid');
+                } else {
+                    $('.navbar').removeClass('solid');
+                }
+            });
+        });
+    </script>
+
+    <script>
+        $(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 50) {
+                    $('.navbar .navbar-brand img').attr('src','../img/ccc-logo-dark.png');
+                } else {
+                    $('.navbar .navbar-brand img').attr('src','../img/ccc-logo.png');
+                }
+            })
+        });
+    </script>
+
 </body>
 
 </html>

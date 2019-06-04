@@ -1,19 +1,18 @@
+
 .navbar {
-  background: transparent;
+  width: 100% !important;
   display: flex;
-  width: 100%;
+  width: 1230px;
   font-size: 20px;
   position: absolute;
   top: 0;
   z-index: 10;
   font-weight: 400;
   flex-direction: row;
-  padding-left: 100px;
-  padding-right: 100px;
+  height: 65px;
+  padding: 0 345px;
+  font-size: 16px;
   
-  .span {
-    width: 1320px !important;
-  }
     .navbar-brand {
         height: 50px;
         width: 50px;
@@ -28,7 +27,6 @@
       padding: 0 !important;
       margin-left: 10px;
     }
-
 
   .navbar-menu a,
   a {
@@ -52,4 +50,14 @@
   }
 }
 
+.solid {
+  background: #FFFFFF;
+  position: fixed;
+  transition: all ease-in-out .25s;
+  border-bottom: 1px solid #e8eaed;
+
+  a {
+    color: #000000;
+  }
+}
 
