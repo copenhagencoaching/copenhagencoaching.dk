@@ -9,14 +9,14 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ml-auto">
-        {% for node in site.pages %}
-        {% if page.url == node.url %}
-        <li class="nav-item"><a class="nav-link active" href="{{node.url}}">{{ node.title | truncatewords: 1, "" }}</a>
-        </li>
-        {% else %}
-        <li class="nav-item"><a class="nav-link" href="{{node.url}}">{{ node.title | truncatewords: 1, "" }}</a></li>
-        {% endif %}
-        {% endfor %}
+          {% for node in site.pages %}
+          {% if page.url == node.url %}
+          <li class="nav-item"><a class="nav-link active" href="{{node.url}}">{{ node.title | truncatewords: 1, "" | remove: "Tilmelding" | remove: "Historier" }}</a>
+          </li>
+          {% else %}
+          <li class="nav-item"><a class="nav-link" href="{{node.url}}">{{ node.title | truncatewords: 1, "" | remove: "Tilmelding" | remove: "Historier" }}</a></li>
+          {% endif %}
+          {% endfor %}
       </ul>
     </div>
   </div>
