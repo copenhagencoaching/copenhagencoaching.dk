@@ -1,19 +1,23 @@
-.navbar {
-  background: transparent;
+.nav {
+  width: 100% !important;
+  height: 65px;
   display: flex;
-  width: 100%;
+  justify-content: center;
+  z-index: 1;
+}
+
+.navbar {
+  background: inherit;
+  display: flex;
+  width: 1230px;
   font-size: 20px;
   position: absolute;
   top: 0;
   z-index: 10;
   font-weight: 400;
   flex-direction: row;
-  padding-left: 100px;
-  padding-right: 100px;
-  
-  .span {
-    width: 1320px !important;
-  }
+  height: inherit;
+
     .navbar-brand {
         height: 50px;
         width: 50px;
@@ -52,4 +56,14 @@
   }
 }
 
+.solid {
+  background: #FFFFFF;
+  position: fixed;
+  transition: all ease-in-out .25s;
+  border-bottom: 1px solid #e8eaed;
+
+  a {
+    color: #000000;
+  }
+}
 

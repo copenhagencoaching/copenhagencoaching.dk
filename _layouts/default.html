@@ -11,6 +11,34 @@
     {{ content }}
 
     {% include scripts/plugin.html %}
+
+    <script>
+        $(document).ready(function () {
+            // Transition effect for navbar 
+            $(window).scroll(function () {
+                // checks if window is scrolled more than 500px, adds/removes solid class
+                if ($(this).scrollTop() > 50) {
+                    //$('.testbtn').addClass('solid');
+                    $('.nav').addClass('solid');
+                } else {
+                    //$('.testbtn').removeClass('solid');
+                    $('.nav').removeClass('solid');
+
+                }
+            });
+        });
+    </script>
+
+    <script>
+        $(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 50) {
+                    $('.navbar .navbar-brand img').attr('src','img/ccc-logo-dark.png');
+                }
+            })
+        });
+    </script>
+
 </body>
 
 </html>
