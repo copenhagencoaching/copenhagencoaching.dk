@@ -3,84 +3,71 @@ layout: page
 title: Tilmelding
 bg-image: ../img/graphic/handshake.jpg
 ---
-
 <div class="registration_container row">
+    <div class="col-12">
+        <div class="introductionText">
+            <h1>Kan vi hjælpe?</h1>
+            <p>Her kan du tilmelde dig vores uddannelser eller kurser. Vi sender dig en <br>
+                bekræftelse og afregner særskilt når vi har modtaget alle dine oplysninger.</p>
+        </div>
 
-    <div class="col-md-6 col_input text-form">
-        <p>Her kan du tilmelde dig vores uddannelser eller kurser. Vi sender dig en bekræftelse og afregner særskilt når
-            vi har modtaget alle dine oplysninger. Vi er altid klar til at svare på henvendelser hvis du får brug for
-            hjælp- så ring og skriv gerne for at aftale et møde med os eller kom forbi. Vores adresse er:</p>
+        <div class="row justify-row">
+            <div class="col-md-6">
+                <form action="https://formspree.io/info@copenhagencoaching.dk" method="POST">
 
-        <h6>COPENHAGEN COACHING CENTER</h6>
+                    <select class="input-form" name="uddannelse">
+                        <option value="vealg">Uddannelse</option>
+                        {% for education in site.educations %}
+                        <option value="{{ education.title }}">{{ education.title }}</option>
+                        {% endfor %}
+                    </select>
 
-        <p>Blegdamsvej 104 A, 2. sal / 2100 København Ø</br>
-            Tlf.: 3920 1020<br>
-            info@copenhagencoaching.dk<br>
-            CVR-nr.: 28132891</p>
+                    <input class="input-form" type="text" placeholder="Fornavn" name="fornavn">
 
-            <hr>
+                    <input class="input-form" type="text" placeholder="Efternavn" name="efternavn">
 
-        <h6>PARKERING</h6>
+                    <input class="input-form" type="text" placeholder="Firma" name="firma">
 
-        <p>Det er muligt at parkere på Blegdamsvej. Vær opmærksom på evt. private parkeringspladser. Og husk at sætte
-            p-skiven!</p>
+                    <input class="input-form" type="text" placeholder="Fakturaadresse" name="faktura">
 
-            <hr>
+                    <input class="input-form" type="text" placeholder="Post nr." name="postnr">
 
-        <h6>PHVAD SKER DER MED MIN PERSONDATA NÅR JEG TILMELDER MIG VIA TILMELDINGSFORMULAREN TIL HØJRE?</h6>
+                    <input class="input-form" type="text" placeholder="By" name="by">
 
+                    <input class="input-form" type="text" placeholder="Tlf." name="tlf">
 
-            <p>Når du tilmelder dig et kursus eller en uddannelse via tilmeldingsformularen, ender din tilmelding i en
-            sikret
-            emailboks, som kun én medarbejder i CCC har adgang til. Derefter gemmes din data i vores kundedatabase som
-            også
-            er en sikker database efter de nye GDPR regler.</p>
+                    <input class="input-form" type="text" placeholder="EAN" name="ean">
 
-            <p>Vi bruger, efter din tilmelding, dine kontaktoplysninger til at tage kontakt til dig, ang. din tilmelding,
-            og
-            din faktureringsdata til at sende dig en faktura.</p>
+                    <input class="input-form" type="text" placeholder="CVR nr." name="cvr">
 
-            <p>Ved at tilmelde dig et kursus eller en uddannelse siger du ikke ja til at modtage nyhedsmails eller andet
-            materiale fra os.</p>
+                    <input class="input-form" type="email" placeholder="Email" name="email">
+
+                    <textarea class="input-area-form" type="textarea" cols="40" rows="10"
+                        placeholder="Evt. kommentarer"></textarea>
+
+                    <div class="checkbox">
+                        <input type="checkbox" value="GDPR-check">Jeg accepterer at mine informationer gemmes <br>
+                        og lagres i virksomehedens interne GDPR register.
+                    </div>
+                    <input class="green-button" type="submit" value="Tilmeld">
+                </form>
+                <br>
+                <h6>HVAD SKER DER MED MIN PERSONDATA NÅR JEG TILMELDER MIG VIA TILMELDINGSFORMULAREN?</h6>
+
+                <p>Når du tilmelder dig en uddannelse via tilmeldingsformularen, ender din tilmelding i
+                    en sikret emailboks, som kun én medarbejder i CCC har adgang til. Derefter gemmes din data i vores
+                    kundedatabase som også er en sikker database efter de nye GDPR regler.</p>
+
+                <p>Vi bruger, efter din tilmelding, dine kontaktoplysninger til at tage kontakt til dig, ang. din
+                    tilmelding, og din faktureringsdata til at sende dig en faktura.</p>
+
+                <p>Ved at tilmelde dig en uddannelse siger du ikke ja til at modtage nyhedsmails eller
+                    andet materiale fra os.</p>
+            </div>
+        </div>
+
     </div>
 
-    <div class="col-md-6 col_forms">
-        <form action="https://formspree.io/info@copenhagencoaching.dk" method="POST">
-
-            <select class="input-form" name="uddannelse">
-                    <option value="vealg">Uddannelse</option>
-                {% for education in site.educations %}
-                <option value="{{ education.title }}">{{ education.title }}</option>
-
-                {% endfor %}
-               
-              </select>
-
-        <input class="input-form" type="text" placeholder="Fornavn" name="fornavn">
-
-        <input class="input-form" type="text" placeholder="Efternavn" name="efternavn">
-
-        <input class="input-form" type="text" placeholder="Firma" name="firma">
-
-        <input class="input-form" type="text" placeholder="Fakturaadresse" name="faktura">
-
-        <input class="input-form" type="text" placeholder="Post nr." name="postnr">
-
-        <input class="input-form" type="text" placeholder="By" name="by">
-
-        <input class="input-form" type="text" placeholder="Tlf." name="tlf">
-
-        <input class="input-form" type="text" placeholder="EAN" name="ean">
-
-        <input class="input-form" type="text" placeholder="CVR nr." name="cvr">
-
-        <input class="input-form" type="email" placeholder="Email" name="email">
-
-        <textarea class="input-form" type="textarea" cols="40" rows="10" placeholder="Evt kommentarer"></textarea>
-
-        <input class="green-button" type="submit" value="Send">
-    </form>
-    </div>
 </div>
 
 <script>
@@ -89,17 +76,17 @@ bg-image: ../img/graphic/handshake.jpg
     var fillForm = function () {
         var queryString = document.location.search.split("+").join(" ");
         var params = {}, tokens, re = /[?&]?([^=]+)=([^&]*)/g;
-    
+
         while (tokens = re.exec(queryString)) {
             params[decodeURIComponent(tokens[1])] = decodeURIComponent(tokens[2]);
         }
-    
-        if (params.n == undefined){
+
+        if (params.n == undefined) {
             // no value in the query string
             // here you have to manage this use case : redirect or print a message to user
-        }else{
+        } else {
             // filling form fields with query string values
             document.getElementsByName('uddannelse')[0].value = params.n;
         }
-    } ();
-    </script>
+    }();
+</script>

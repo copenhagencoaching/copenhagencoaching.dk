@@ -1,36 +1,44 @@
 .registration_container {
-  
-  .col-input {
+
+  .justify-row {
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
-
-  .text-form {
-    margin: 5px 0 0;
-    border: 1px solid #ccc;
-    padding: 15px;
-    font-size: 13px;
-    color: #818181;
-    box-sizing: border-box;
+  
+  .col-12 {
+    margin: 0;
+    padding: 0;
   }
-
+  
   .input-form {
-    margin: 5px 0 0;
+    margin: 25px 0 0;
     border: 1px solid #ccc;
-    padding: 15px;
-    font-size: 13px;
+    padding: 10px;
+    font-size: 20px;
     color: #818181;
     box-sizing: border-box;
-    width: 100%;
+    width: 605px;
+    height: 45px;
   } 
 
-  .col-forms {
-    display: flex;
-    flex-direction: column;
-  }
+  .input-area-form {
+    margin: 25px 0 0;
+    margin-bottom: 25px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 20px;
+    color: #818181;
+    box-sizing: border-box;
+    width: 605px;
+  } 
 
   textarea {
     resize: none;
+  }
+
+  .checkbox {
+    margin-bottom: 25px;
   }
 
   button {
