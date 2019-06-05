@@ -1,0 +1,45 @@
+---
+layout: page
+title: Consulting
+bg-image: ../img/graphic/art.jpg
+---
+
+<div class="row consultations">
+
+    <div class="col-12">
+        <div class="introductionText">
+            <h1>Super generisk introduktions titel</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia dolor enim velit<br>provident culpa,
+                omnis eius? Placeat deleniti aliquam rerum.
+            </p>
+        </div>
+        <div class="row">
+            {% for consulting in site.consultations %}
+
+            <div class="col-lg-4 col-md-4">
+                <div class="outer-card">
+                    <div class="inner-card">
+                        {% if consulting.image %}
+                        <a href="{{ consulting.url }}">
+                            <div class="card-img-top" style="background-image: url('{{ consulting.image }}')"></div>
+                        </a>
+                        {% endif %}
+
+                        <div class="card-body">
+                            <a href="{{ consulting.url }}">
+                                <p class="card-title">{{ consulting.title }}</p>
+                            </a>
+                            <p class="card-text">{{ consulting.description | truncatewords: 22 }}</p>
+                        </div>
+                    </div>
+                    <a href="{{ consulting.url }}"><button class="green-button b-1">Læs mere</button></a>
+
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="col-12 col-lg-12">
+            <h2>Her skal der være bånd med relevante stories på engelsk</h2>
+        </div>
+    </div>
+</div>

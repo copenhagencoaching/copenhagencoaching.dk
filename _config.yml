@@ -45,6 +45,9 @@ collections:
   conversations:
     output: true
     permalink: /conversations/:title/
+  consultations:
+    output: true
+    permalink: /consultations/:title/
   internationals:
     output: true
     permalink: /internationals/:title/
@@ -73,6 +76,11 @@ defaults:
       type: conversations
     values:
       layout: conversation
+  -
+    scope:
+      type: consultations
+    values:
+      layout: consulting
   -
     scope:
       type: internationals
