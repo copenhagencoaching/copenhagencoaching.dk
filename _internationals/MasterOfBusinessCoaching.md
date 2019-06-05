@@ -1,9 +1,9 @@
 ---
 published: true
-author: DANFOSS
-title: DANFOSS
-image: ../img/consulting/danfoss.png
-bg-image: ../../img/consulting/danfoss.png
+author: Master of Business Coaching
+title: Master of Business Coaching
+image: ../img/international/1.png
+bg-image: ../../img/international/1.png
 description: Lorem ipsum dolor sin et serum anuro sutur lipin forma ut
 ---
 

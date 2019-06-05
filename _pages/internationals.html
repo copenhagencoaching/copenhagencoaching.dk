@@ -1,0 +1,76 @@
+---
+layout: page
+title: CCC International
+bg-image: ../img/graphic/writing.jpg
+---
+
+<div class="row international-container">
+    <div class="introductionText">
+        <h1>Super generisk introduktions tekst</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia dolor enim velit<br>provident culpa,
+            omnis eius? Placeat deleniti aliquam rerum.
+        </p>
+    </div>
+
+    <div class="col-12">
+        <hr>
+        {% for international in site.internationals %}
+        <div class="row row-one">
+            <div class="column">
+                <img src="/img/international/1.png" alt="Executive Coaching">
+            </div>
+            <div class="column international-text">
+                <h5>Executive Coaching</h5>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur.
+                </p>
+                <a href="{{ international.url }}"><button class="green-button">Læs mere</button></a>
+            </div>
+        </div>
+        <hr>
+        <div class="row row-two">
+            <div class="column">
+                <div class="column international-text">
+                    <h5>Tailor-made Education Programmes</h5>
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                        ut
+                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur.
+                    </p>
+                    <a href="{{ international.url }}"><button class="green-button">Læs mere</button></a>
+                </div>
+            </div>
+            <div class="column">
+                <img src="/img/international/2.png" alt="Tailor-made Education Programmes">
+            </div>
+        </div>
+        <hr>
+        <div class="row row-three">
+            <div class="column">
+                <img src="/img/international/3.png" alt="Master of Business Coaching">
+            </div>
+            <div class="column">
+                <div class="column international-text">
+                    <h5>Master of Business Coaching</h5>
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                        ut
+                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur.
+                    </p>
+                    <a href="{{ international.url }}"><button class="green-button">Læs mere</button></a>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+        <hr>
+        <div class="col-12 col-lg-12">
+            <h2>Her skal der være bånd med relevante stories på engelsk</h2>
+        </div>
+    </div>
+</div>

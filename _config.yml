@@ -45,9 +45,9 @@ collections:
   conversations:
     output: true
     permalink: /conversations/:title/
-  consultations:
+  internationals:
     output: true
-    permalink: /consultations/:title/
+    permalink: /internationals/:title/
   pages:
     output: true
     permalink: /:title/
@@ -75,9 +75,9 @@ defaults:
       layout: conversation
   -
     scope:
-      type: consultations
+      type: internationals
     values:
-      layout: consulting
+      layout: international
       
 prose:
   rooturl: '_posts'

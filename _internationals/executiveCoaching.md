@@ -1,9 +1,9 @@
 ---
 published: true
-author: NORDEA
-title: NORDEA
-image: ../img/consulting/nordea.png
-bg-image: ../../img/consulting/nordea.png
+author: Executive Coaching
+title: Executive Coaching
+image: ../img/international/1.png
+bg-image: ../../img/international/1.png
 description: Lorem ipsum dolor sin et serum anuro sutur lipin forma ut
 ---
 
