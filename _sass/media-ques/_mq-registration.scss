@@ -1,0 +1,163 @@
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  .registration_container {
+    .introductionText {
+      margin: 20px;
+    }
+
+    .input-form {
+      margin: 15px 0 0;
+      border: 1px solid #ccc;
+      padding: 5px;
+      font-size: 10px;
+      box-sizing: border-box;
+      width: 300px;
+      height: 25px;
+      color: #818181;
+    }
+
+    .input-area-form {
+      margin: 15px 0;
+      border: 1px solid #ccc;
+      padding: 5px;
+      font-size: 10px;
+      color: #818181;
+      box-sizing: border-box;
+      width: 300px;
+    }
+
+    .checkbox {
+      margin-bottom: 15px;
+    }
+
+    .green-button {
+      font-weight: 600;
+      color: white;
+      width: 100px;
+      height: 25px;
+      text-transform: uppercase;
+      border: none;
+      font-size: 15px;
+      margin: 0 10px 0 0;
+    }
+
+    h6 {
+      font-size: 10px;
+    }
+
+    p {
+      font-size: 10px;
+    }
+  }
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+  .registration_container {
+    .introductionText {
+      margin: 20px;
+    }
+
+    .input-form {
+      margin: 15px 0 0;
+      border: 1px solid #ccc;
+      padding: 5px;
+      font-size: 10px;
+      box-sizing: border-box;
+      width: 300px;
+      height: 25px;
+      color: #818181;
+    }
+
+    .input-area-form {
+      margin: 15px 0;
+      border: 1px solid #ccc;
+      padding: 5px;
+      font-size: 10px;
+      color: #818181;
+      box-sizing: border-box;
+      width: 300px;
+    }
+
+    .checkbox {
+      margin-bottom: 15px;
+    }
+
+    .green-button {
+      font-weight: 600;
+      color: white;
+      width: 100px;
+      height: 25px;
+      text-transform: uppercase;
+      border: none;
+      font-size: 15px;
+      margin: 0 10px 0 0;
+    }
+
+    h6 {
+      font-size: 10px;
+    }
+
+    p {
+      font-size: 10px;
+    }
+  }
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+  .registration_container {
+    .introductionText {
+      margin: 20px;
+    }
+
+    .input-form {
+      margin: 15px 0 0;
+      border: 1px solid #ccc;
+      padding: 5px;
+      font-size: 10px;
+      box-sizing: border-box;
+      width: 300px;
+      height: 25px;
+      color: #818181;
+    }
+
+    .input-area-form {
+      margin: 15px 0;
+      border: 1px solid #ccc;
+      padding: 5px;
+      font-size: 10px;
+      color: #818181;
+      box-sizing: border-box;
+      width: 300px;
+    }
+
+    .checkbox {
+      margin-bottom: 15px;
+    }
+
+    .green-button {
+      font-weight: 600;
+      color: white;
+      width: 100px;
+      height: 25px;
+      text-transform: uppercase;
+      border: none;
+      font-size: 15px;
+      margin: 0 10px 0 0;
+    }
+
+    h6 {
+      font-size: 10px;
+    }
+
+    p {
+      font-size: 10px;
+    }
+  }
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {}
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1366px) {}
