@@ -6,6 +6,16 @@
       width: 95% !important;
       margin: 0 auto;
     }
+
+    .introductionText {
+      width: 95% !important;
+      margin: 0 auto;
+      padding: 75px 0;
+
+      h1 {
+        font-size: 20px;
+      }
+    }
   }
 
   .employees {
@@ -27,10 +37,7 @@
       }
 
       iframe {
-        padding: 0;
-        width: 400px !important;
-        height: 400px !important;
-        margin: 0;
+        width: 100% !important;
       }
     }
   }
@@ -74,7 +81,9 @@
 
     .privat {
       margin-top: -50px;
-      p,a  {
+
+      p,
+      a {
         line-height: 20px;
         font-size: 12px;
       }
@@ -148,16 +157,15 @@
         line-height: 20px;
       }
     }
-
   }
 
   #fp-nav {
     display: none;
   }
-
 }
 
 // Medium devices (tablets, less than 992px)
+
 @media (max-width: 991.98px) {
   .page {
     .row {
@@ -177,24 +185,10 @@
         padding: 0;
       }
     }
-
   }
-
 }
 
 // Large devices (desktops, less than 1200px)
-@media (max-width: 1199.98px) {
-  .employees {
-    .end-empl {
-      iframe {
-        padding: 0;
-        width: 400px !important;
-        height: 400px !important;
-        margin: 0;
-      }
-    }
-  }
-}
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
   .footer {
@@ -208,7 +202,6 @@
         padding: 0;
       }
     }
-
   }
 }
 
@@ -224,6 +217,5 @@
         padding: 0;
       }
     }
-
   }
 }
