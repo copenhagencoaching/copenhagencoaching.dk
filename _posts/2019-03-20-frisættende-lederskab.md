@@ -1,8 +1,8 @@
 ---
 published: true
 title: Frisættende lederskab
-image: ../../img/blog/post3.jpg
-bg-image: ../../img/blog/story.jpg
+image: /img/blog/post3.jpg
+bg-image: /img/blog/story.jpg
 author: Frederikke Winther
 ---
 

@@ -2,8 +2,8 @@
 published: true
 category: uddannelser
 title: Masterclass I Protreptik
-image: ../img/coaching/PROTREPTIK.jpg
-bg-image: ../../img/coaching/PROTREPTIK.jpg
+image: /img/coaching/PROTREPTIK.jpg
+bg-image: /img/coaching/PROTREPTIK.jpg
 description: Deltag i den årlige Masterclass i protreptik. Hvert år tager vi fat på forskellige teoretiske temaer og afprøver dem med hinanden i praksis. Mød andre erfarne protreptikere og del dine erfaringer og indsigter.
 ---
 

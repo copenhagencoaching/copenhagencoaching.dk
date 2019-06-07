@@ -6,7 +6,7 @@ body {
 .hero-image {
     height: 640px;
     width: 100%;
-    background-image: url(../../img/graphic/apple-desk.jpg);
+    background-image: url(/img/graphic/apple-desk.jpg);
     display: flex;
     justify-content: left;
     align-items: center;
@@ -14,7 +14,6 @@ body {
     color: white;
     background-position: center;
     background-size: cover;
-
 
     h1 {
         font-size: 60px;

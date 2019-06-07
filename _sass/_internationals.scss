@@ -1,4 +1,24 @@
 .international-container {
+
+  .pic-one {
+    background-image: url(/img/international/1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .pic-two {
+    background-image: url(/img/international/2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .pic-three {
+    background-image: url(/img/international/3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  
   h2 {
     font-size: 20px;
     font-weight: 600;
@@ -15,6 +35,8 @@
   .row-one {
     margin-top: 50px;
     margin-bottom: 50px;
+
+  
   }
 
   .row-two {
@@ -25,6 +47,7 @@
   .row-three {
     margin-top: 50px;
     margin-bottom: 50px;
+
   }
 
   * {

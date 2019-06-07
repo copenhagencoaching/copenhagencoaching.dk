@@ -2,8 +2,8 @@
 published: true
 category: uddannelser
 title: Proceslederuddannelse
-image: ../img/coaching/ledelsessparring.jpg
-bg-image: ../../img/coaching/ledelsessparring.jpg
+image: /img/coaching/ledelsessparring.jpg
+bg-image: /img/coaching/ledelsessparring.jpg
 description: Styrk dine evner til at lede processer med en proceslederuddannelse.
 ---
 

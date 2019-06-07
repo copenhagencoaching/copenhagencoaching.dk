@@ -1,50 +1,69 @@
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
-  img {
-    width: 300px;
-    height: 300px;
-  }
-
   .introductionText {
     margin: 20px;
   }
 
-  .right-pic {
-    margin-top: 40px;
+  .pic-one {
+    height: 300px;
+  }
+
+  .pic-two {
+    height: 300px;
+    margin-top: 40px !important;
+
+  }
+
+  .pic-three {
+    height: 300px;
   }
 
 }
 
 // Small devices (landscape phones, less than 768px)
 @media (max-width: 767.98px) {
-  img {
-    width: 300px;
-    height: 300px;
-  }
-
   .introductionText {
     margin: 20px;
   }
 
-  .right-pic {
-    margin-top: 40px;
+  .pic-one {
+    height: 300px;
+  }
+
+  .pic-two {
+    height: 300px;
+  }
+
+  .pic-three {
+    height: 300px;
   }
 
 }
 
 // Medium devices (tablets, less than 992px)
 @media (max-width: 991.98px) {
-  img {
-    width: 300px;
-    height: 300px;
-  }
-
   .introductionText {
     margin-top: 150px;
   }
 
-  .right-pic {
-    margin-top: 40px;
+  .pic-one {
+    height: 300px;
+    margin-top: 0 !important;
+  }
+
+  .pic-two {
+    height: 300px;
+    margin-top: 0 !important;
+  }
+
+  .pic-three {
+    height: 300px;
+  }
+
+  .international-text {
+    h5 {
+      margin-top: 0 !important;
+    }
   }
 }
 

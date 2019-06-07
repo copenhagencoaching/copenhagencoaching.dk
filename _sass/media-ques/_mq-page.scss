@@ -3,17 +3,19 @@
   .page {
     margin: 0;
     padding: 0;
+    width: 100%;
   }
 
   .hero-image {
     height: 150px !important;
+    width: 100% !important;
     padding: 0;
-    width: 577px;
 
     h1 {
       font-size: 15px;
       line-height: 35px;
       max-width: 740;
+      padding-left: 10px;
     }
 
   }
@@ -28,13 +30,13 @@
 
   .hero-image {
     height: 300px !important;
-    padding: 40px 20px 0;
-    width: 769px;
+    width: 100% !important;
 
     h1 {
       font-size: 25px;
       line-height: 35px;
       max-width: 740;
+      padding-left: 10px;
     }
 
   }
@@ -49,13 +51,13 @@
 
   .hero-image {
     height: 300px !important;
-    padding: 40px 20px 0;
-    width: 993;
+    width: 100% !important;
 
     h1 {
       font-size: 25px;
       line-height: 35px;
       max-width: 740;
+      padding-left: 10px;
     }
 
   }

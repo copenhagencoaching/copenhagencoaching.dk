@@ -2,8 +2,8 @@
 published: true
 category: kurser
 title: Ledelseskursus på Lesbos
-image: ../img/coaching/lesbos.jpg
-bg-image: ../../img/coaching/lesbos.jpg
+image: /img/coaching/lesbos.jpg
+bg-image: /img/coaching/lesbos.jpg
 description: Tag med på en opdagelsesrejse, hvor vi sammen udforsker ledelseskunsten og finder ind til de vigtigste værdier i det at lede sig selv og fællesskabet.
 ---
 

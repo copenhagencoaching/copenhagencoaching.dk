@@ -2,8 +2,8 @@
 published: true
 category: uddannelser
 title: Frustration skal ledes
-image: ../img/coaching/ledelsessparring.jpg
-bg-image: ../../img/coaching/ledelsessparring.jpg
+image: /img/coaching/ledelsessparring.jpg
+bg-image: /img/coaching/ledelsessparring.jpg
 description: Er du leder og arbejder i en organisation med forhøjet frustrationsniveau, så meld dig til denne skræddersyet uddannelse, hvor frustration betragtes som et organisatorisk vilkår. Mulighed for tilkøb af DOL-moduler.
 ---
 
