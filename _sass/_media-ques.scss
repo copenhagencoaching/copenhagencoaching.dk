@@ -3,7 +3,8 @@
   .page {
     .row {
       padding: 0;
-      width: 90%;
+      width: 95% !important;
+      margin: 0 auto;
     }
   }
 
@@ -45,6 +46,12 @@
         font-size: 14px !important;
         line-height: 0;
         margin-bottom: 20px;
+      }
+
+      .small-nav-text {
+        color: red;
+        width: 2px;
+        font-size: 75%;
       }
 
       a,
