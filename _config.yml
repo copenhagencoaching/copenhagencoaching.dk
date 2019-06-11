@@ -41,7 +41,7 @@ collections:
     permalink: /employees/:title/
   educations:
     output: true
-    permalink: /educations/:title/
+    permalink: /educations/:categories/:title/
   conversations:
     output: true
     permalink: /conversations/:title/
