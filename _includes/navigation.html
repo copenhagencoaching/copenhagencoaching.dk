@@ -12,15 +12,36 @@
       {% if page.url == node.url %}
       <li class="nav-item">
         <a class="nav-link active"
-          href="{{node.url}}">{{ node.title | truncatewords: 2, "" | remove: "Tilmelding" | remove: "Historier" }}</a>
+          href="{{node.url}}">{{ node.title | truncatewords: 2, "" | remove: "Tilmelding" | remove: "Historier" | remove: "Search" }}</a>
       </li>
       {% else %}
       <li class="nav-item">
         <a class="nav-link"
-          href="{{node.url}}">{{ node.title | truncatewords: 2, "" | remove: "Tilmelding" | remove: "Historier" }}</a>
+          href="{{node.url}}">{{ node.title | truncatewords: 2, "" | remove: "Tilmelding" | remove: "Historier" | remove: "Search" }}</a>
       </li>
       {% endif %}
       {% endfor %}
+      <li class="nav-item">
+        <form class="form" action="/search" method="get">
+          <label for="search-box"></label>
+          <input type="text" id="search-box" name="query">
+          <input class="green-search-button" type="submit" value="Søg">
+        </form>
+      </li>
     </ul>
   </div>
 </div>
+
+<style>
+  .green-search-button {
+    border-radius: 2.5px;
+    background-color: #1ABC9C;
+    font-weight: 400;
+    color: white;
+    width: 70px;
+    text-transform: uppercase;
+    border: none;
+    font-size: 20px;
+  }
+
+</style>
