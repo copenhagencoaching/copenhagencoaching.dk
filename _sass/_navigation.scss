@@ -1,4 +1,3 @@
-
 .navbar {
   width: 100% !important;
   display: flex;
@@ -12,21 +11,21 @@
   height: 65px;
   padding: 0 345px;
   font-size: 16px;
-  
-    .navbar-brand {
-        height: 50px;
-        width: 50px;
 
-      img {
-        height: inherit;
-        width: inherit;
-      }
-    }
+  .navbar-brand {
+    height: 50px;
+    width: 50px;
 
-    .nav-link {
-      padding: 0 !important;
-      margin-left: 10px;
+    img {
+      height: inherit;
+      width: inherit;
     }
+  }
+
+  .nav-link {
+    padding: 0 !important;
+    margin-left: 10px;
+  }
 
   .navbar-menu a,
   a {
@@ -64,17 +63,20 @@
 .form {
   display: flex;
   align-items: center;
-}
 
-.green-search-button {
-  border-radius: 2.5px;
-  background-color: #1ABC9C;
-  font-weight: 400;
-  color: white;
-  width: 70px;
-  text-transform: uppercase;
-  border: none;
-  font-size: 20px;
-  margin-left: 5px;
-}
+  input {
+    min-width: 206px !important;
+  }
 
+  .green-search-button {
+    border-radius: 2.5px;
+    background-color: #1ABC9C;
+    font-weight: 400;
+    color: white;
+    max-width: 70px !important;
+    text-transform: uppercase;
+    border: none;
+    font-size: 20px;
+    margin-left: 5px;
+  }
+}
