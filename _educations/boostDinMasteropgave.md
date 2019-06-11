@@ -1,6 +1,6 @@
 ---
 published: true
-category: kurser
+category: Lederskab
 title: Boost din Masteropgave
 image: /img/coaching/MasterBusinessCoaching.jpg
 bg-image: /img/coaching/MasterBusinessCoaching.jpg

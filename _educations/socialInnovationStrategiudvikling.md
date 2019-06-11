@@ -1,6 +1,6 @@
 ---
 published: true
-category: kurser
+category: Filosofi
 title: Social innovation
 image: /img/coaching/camino-de-Santiago.jpg
 bg-image: /img/coaching/camino-de-Santiago.jpg

@@ -1,6 +1,6 @@
 ---
 published: true
-category: uddannelser
+category: Personlig Udvikling & Transition
 title: Proceslederuddannelse
 image: /img/coaching/ledelsessparring.jpg
 bg-image: /img/coaching/ledelsessparring.jpg

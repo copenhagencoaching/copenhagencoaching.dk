@@ -1,6 +1,6 @@
 ---
 published: true
-category: uddannelser
+category: CCC Netværk
 title: Frustration skal ledes
 image: /img/coaching/ledelsessparring.jpg
 bg-image: /img/coaching/ledelsessparring.jpg

@@ -1,7 +1,7 @@
 ---
 published: true
 title: Diplom i offentlig ledelse
-category: uddannelser
+category: Filosofi
 image: /img/coaching/diplomioffenligledelse.jpg
 bg-image: /img/coaching/diplomioffenligledelse.jpg
 description: CCC er certificeret af Certificeringsrådet, under Uddannelses- og Forskningsministeriet, og udbyder en række fag på uddannelsen Diplom i offentlig ledelse. Hos os er uddannelsen fleksibel – du bestemmer selv hvornår du ønsker at starte og i hvilken rækkefølge du tager fagene.

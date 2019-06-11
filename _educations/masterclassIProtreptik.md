@@ -1,6 +1,6 @@
 ---
 published: true
-category: uddannelser
+category: Lederskab
 title: Masterclass I Protreptik
 image: /img/coaching/PROTREPTIK.jpg
 bg-image: /img/coaching/PROTREPTIK.jpg

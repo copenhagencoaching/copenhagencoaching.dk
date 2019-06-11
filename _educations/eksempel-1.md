@@ -1,10 +1,10 @@
 ---
 published: true
-category: Proces & Strategi
-title: Masterclass I business coaching
-image: /img/coaching/bernadettefranzen.jpg
-bg-image: /img/coaching/bernadettefranzen.jpg
-description: Bliv samtaleekspert med vores Master i Business Coaching – en eksklusiv coachinguddannelse, der er akkrediteret på højeste EMCC-niveau.
+category: Master of Business Coaching
+title: Boost din Masteropgave
+image: /img/coaching/MasterBusinessCoaching.jpg
+bg-image: /img/coaching/MasterBusinessCoaching.jpg
+description: Overvejer du at gå i gang med at skrive din masteropgave? – eller sidder du fast en skrivekløft og trænger til inspiration fra andre studerende og vejledere? Så deltag i vores kursus ‘Boost din masteropgave’!
 ---
 
 Ønsker du at blive dygtig til at føre produktive og virkningsfulde dialoger? At kunne flytte både grupper og individer i en mere konstruktiv retning og derved forebygge stress, organisatorisk stagnation og udbrændthed? Så vælg uddannelsen: Master i Business Coaching (MBC).

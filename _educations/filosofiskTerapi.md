@@ -1,6 +1,6 @@
 ---
 published: true
-category: kurser
+category: Diplom i Offentlig Ledelse
 title: Filosofisk terapi
 image: /img/coaching/MasterBusinessCoaching.jpg
 bg-image: /img/coaching/MasterBusinessCoaching.jpg

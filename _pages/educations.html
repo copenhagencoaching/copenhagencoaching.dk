@@ -5,35 +5,35 @@ bg-image: /img/graphic/blurred-book-pages.jpg
 ---
 
 
-<div class="row convos-edus">
+<div class="row convos-edus" id="accordionExample">
 
   {% for education in site.educations %}
-  {% assign categories = categories | concat: education.categories | uniq | sort  %}
+  {% assign categories = categories | concat: education.categories | uniq %}
   {% endfor %}
 
 
   {% for cat in categories %}
 
 
-  <button>{{ cat }}</button>
+  <div class="col-lg-4 col-md-4 col-sm-12 col-12">
 
-  {% for education in site.educations %}
+    <div class="card" id="heading{{ cat | truncatewords: 1, '' }}" type="button" data-toggle="collapse"
+      data-target="#collapse{{ cat | truncatewords: 1, '' }}" aria-expanded="true"
+      aria-controls="collapse{{ cat | truncatewords: 1, '' }}">{{ cat }}</div>
 
-  {% if education.categories contains cat %}
+  </div>
 
-  {{ education.title }}
 
-  {% endif %}
+  <div class="col-lg-12 col-md-12 col-sm-12 col-12 collapse collapsing" data-parent="#accordionExample"
+    id="collapse{{ cat | truncatewords: 1, '' }}" aria-labelledby="collapse{{ cat | truncatewords: 1, '' }}">
 
-  {% endfor %}
-
-  {% endfor %}
-
-  <div class="col-12">
-    <h2>Certificeringer</h2>
     <div class="row">
+
+
       {% for education in site.educations %}
-      <div class="col-lg-4 col-md-4">
+      {% if education.categories contains cat %}
+
+      <div class="col-lg-3 col-md-3">
         <div class="outer-card">
           <div class="inner-card">
             {% if education.image %}
@@ -51,7 +51,19 @@ bg-image: /img/graphic/blurred-book-pages.jpg
           <button class="green-button b-1">Læs mere</button>
         </div>
       </div>
+
+
+
+
+
+
+      {% endif %}
+
       {% endfor %}
+
+
+
     </div>
   </div>
+  {% endfor %}
 </div>
