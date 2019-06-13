@@ -42,51 +42,25 @@
     }
   }
 
-  .footer {
-    height: 100vh;
-    padding-top: 50px;
-
+  footer {
+    height: auto;
+    padding: 50px 0;
     .row {
-      height: auto;
-
-      h3 {
-        font-size: 14px !important;
-        line-height: 0;
-        margin-bottom: 20px;
-      }
-
-      .small-nav-text {
-        color: red;
-        width: 2px;
-        font-size: 75%;
-      }
-
-      a,
-      p {
-        font-size: 14px;
-      }
-
-      .col-sm-12 {
-        margin-bottom: 0 !important;
-      }
+      width: 90%;
+      display: normal;
     }
-
-    .historier {
-      padding-left: 0;
+    .col-xs-6 {
+      width: 50%;
     }
-
-    .fab {
-      display: none;
+    .col-xs-6:nth-child(1), .col-xs-6:nth-child(2) {
+      padding-bottom: 50px;
     }
-
-    .privat {
-      margin-top: -50px;
-
-      p,
-      a {
-        line-height: 20px;
-        font-size: 12px;
-      }
+    p, a {
+      font-size: 16px;
+    }
+    .footer-text {
+      font-size: 14px;
+      width: 150px;
     }
   }
 }
