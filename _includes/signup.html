@@ -1,0 +1,9 @@
+<div class="sign-up-banner">
+    {% if page.signup %}
+    <p>Er du interreseret i vores {{ page.signup }}?</p>
+    {% else %}
+    <p>Er du interreseret i {{ page.title }}?</p>
+    {% endif %}
+    <span></span>
+    <button class="sign-up-button">Tilmeld dig</button>
+</div>

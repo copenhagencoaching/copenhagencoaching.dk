@@ -1,0 +1,28 @@
+.sign-up-banner {
+    height: 400px;
+    width: 100%;
+    background-image: url(/img/graphic/sign-up-background.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    p {
+        font-size: 20px;
+        color: white;
+        font-weight: 600;
+    }
+    span {
+        height: 25px;
+    }
+    button {
+        height: 50px;
+        width: 200px;
+        background: #FFF;
+        border: none;
+        color: #1ABC9C;
+        font-weight: 600;
+    }
+}
