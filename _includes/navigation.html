@@ -11,7 +11,7 @@
       {% for node in sorted_nodes %}
       {% if page.url == node.url %}
       <li class="nav-item">
-        <a class="nav-link active"
+        <a class="nav-link active-page"
           href="{{node.url}}">{{ node.title | truncatewords: 2, "" | remove: "Tilmelding" | remove: "Historier" | remove: "Search" }}</a>
       </li>
       {% else %}

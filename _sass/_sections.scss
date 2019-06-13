@@ -2,3 +2,25 @@
     height: 100vh !important;
     position: relative;
 }
+
+.testimonial-home {
+    background-color: #037092;
+    height: 100vh !important;
+
+    .col-lg-12 {
+        color: white;
+        padding: 0px 100px;
+        h1 {
+            font-size: 60px;
+            font-weight: bold;
+            line-height: 75px;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 22.5px;
+            max-width: 900px;
+            margin-bottom: 30px;
+            line-height: 34px;
+        }
+    }
+}

@@ -17,11 +17,6 @@
     padding: 0;
   }
 
-  .active {
-    border-bottom: 1px solid #1ABC9C !important;
-    width: 200px;
-  }
-
 }
 
 // Small devices (landscape phones, less than 768px)
@@ -40,11 +35,6 @@
     font-size: 15px;
     font-weight: 400;
     padding: 0;
-  }
-
-  .active {
-    border-bottom: 1px solid #1ABC9C !important;
-    width: 200px;
   }
 }
 
@@ -65,12 +55,6 @@
     font-weight: 400;
     padding: 0;
   }
-
-  .active {
-    border-bottom: 1px solid #1ABC9C !important;
-    width: 200px;
-  }
-
 }
 
 // Large devices (desktops, less than 1200px)
