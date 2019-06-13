@@ -1,6 +1,7 @@
 ---
-title: process og strategi
-name: Process & Strategi
+title: Process & Strategi
+name: proces-og-strategi
+image: b8.png
 ---
 
 Process & strategi

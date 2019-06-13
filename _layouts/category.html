@@ -1,0 +1,15 @@
+---
+layout: page
+---
+
+<div class="row category">
+    {% for education in site.educations %}
+    {% if education.category == page.name %}
+
+    <div class="col-lg-3">
+        {{ education.title }}
+    </div>
+
+    {% endif %}
+    {% endfor %}
+</div>

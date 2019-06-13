@@ -1,5 +1,6 @@
 ---
-title: ccc netveark
-name: CCC Netværk
+title: CCC Netveark
+name: ccc-netveark
+image: b1.png
 ---
 CCC Netværk

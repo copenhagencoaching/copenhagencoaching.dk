@@ -1,6 +1,7 @@
 ---
-title: diplom i offentlig ledelse
-name: Diplom i Offentlig Ledelse
+title: Diplom i Offentlig Ledelse
+name: diplom-i-offentlig-ledelse
+image: b3.png
 ---
 
 Diplom i offentlig ledelse

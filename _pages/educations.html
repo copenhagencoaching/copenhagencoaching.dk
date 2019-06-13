@@ -6,67 +6,22 @@ signup: Uddannelses tilbud
 ---
 
 
-<div class="row convos-edus" id="accordionExample">
+<div class="row educations" id="accordionExample">
 
-  {% for education in site.educations %}
-  {% assign categories = categories | concat: education.categories | uniq %}
-  {% endfor %}
+  {% for category in site.categories %}
 
 
-  {% for cat in categories %}
-
-
-  <div class="col-lg-4 col-md-4 col-sm-12 col-12">
-
-    <div class="card" id="heading{{ cat | truncatewords: 1, '' }}" type="button" data-toggle="collapse"
-      data-target="#collapse{{ cat | truncatewords: 1, '' }}" aria-expanded="true"
-      aria-controls="collapse{{ cat | truncatewords: 1, '' }}">{{ cat }}</div>
-
-  </div>
-
-
-  <div class="col-lg-12 col-md-12 col-sm-12 col-12 collapse collapsing" data-parent="#accordionExample"
-    id="collapse{{ cat | truncatewords: 1, '' }}" aria-labelledby="collapse{{ cat | truncatewords: 1, '' }}">
-
-    <div class="row">
-
-
-      {% for education in site.educations %}
-      {% if education.categories contains cat %}
-
-      <div class="col-lg-3 col-md-3">
-        <div class="outer-card">
-          <div class="inner-card">
-            {% if education.image %}
-            <a href="{{ education.url }}">
-              <div class="card-img-top" style="background-image: url('{{ education.image }}')"></div>
-            </a>
-            {% endif %}
-            <div class="card-body">
-              <a href="{{ education.url }}">
-                <p class="card-title">{{ education.title }}</p>
-              </a>
-              <p class="card-text">{{ education.description | truncatewords: 15 }}</p>
-            </div>
-          </div>
-          <button class="green-button b-1">Læs mere</button>
-        </div>
+  <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+    <a href="{{ category.url }}">
+      <div class="category" style="background-image: url('/img/categories/{{ category.image }}')">
+        <h4>{{ category.title }}</h4>
       </div>
+    </a>
 
-
-
-
-
-
-      {% endif %}
-
-      {% endfor %}
-
-
-
-    </div>
   </div>
+
+
+
   {% endfor %}
 </div>
-
 {% include signup.html %}
