@@ -1,6 +1,6 @@
 ---
 published: true
-category: Master of Business Coaching
+category: master-i-business-coaching
 title: Ledelseskursus på Lesbos
 image: /img/coaching/lesbos.jpg
 bg-image: /img/coaching/lesbos.jpg

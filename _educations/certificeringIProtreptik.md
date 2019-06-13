@@ -1,7 +1,7 @@
 ---
 published: true
 title: Certificering i Protreptik
-category: Personlig Udvikling & Transition
+category: personlig-udvikling-og-transition
 image: /img/coaching/PROTREPTIK.jpg
 bg-image: /img/coaching/PROTREPTIK.jpg
 description: Kom helt i dybden med den filosofiske samtalekunst og ikke mindst de værdier du ønsker at stå for i din ledelse. Forløbet er individuelt og tilpasses dine behov.

@@ -1,6 +1,6 @@
 ---
 published: true
-category: Proces & Strategi
+category: proces-og-strategi
 title: Masterclass I business coaching
 image: /img/coaching/bernadettefranzen.jpg
 bg-image: /img/coaching/bernadettefranzen.jpg

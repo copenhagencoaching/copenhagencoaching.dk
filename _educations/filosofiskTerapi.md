@@ -1,6 +1,6 @@
 ---
 published: true
-category: Diplom i Offentlig Ledelse
+category: diplom-i-offentlig-ledelse
 title: Filosofisk terapi
 image: /img/coaching/MasterBusinessCoaching.jpg
 bg-image: /img/coaching/MasterBusinessCoaching.jpg

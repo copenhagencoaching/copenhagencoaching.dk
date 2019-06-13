@@ -54,6 +54,9 @@ collections:
   pages:
     output: true
     permalink: /:title/
+  categories:
+    output: true
+    permalink: /educations/:name/
 
 defaults:
   -
@@ -86,6 +89,11 @@ defaults:
       type: internationals
     values:
       layout: international
+  -
+    scope:
+      type: categories
+    values:
+      layout: category
       
 prose:
   rooturl: '_posts'

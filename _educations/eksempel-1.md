@@ -1,6 +1,6 @@
 ---
 published: true
-category: Master of Business Coaching
+category: master-i-business-coaching
 title: Boost din Masteropgave
 image: /img/coaching/MasterBusinessCoaching.jpg
 bg-image: /img/coaching/MasterBusinessCoaching.jpg

@@ -1,7 +1,7 @@
 ---
 published: true
 title: Filosofiske seminarer
-category: Certificeringer
+category: certificeringer
 image: /img/coaching/Udendørs.jpg
 bg-image: /img/coaching/Udendørs.jpg
 description: Lær at løfte samtalen ud af konteksten og skab refleksiv handlekraft. Bliv mere effektiv i din kommunikation og lær at stil kritiske og åbne spørgsmål.
