@@ -1,70 +1,71 @@
-.footer {
-  background-color: #F8F9FA;
-  color: black;
+footer {
+  height: 400px;
   width: 100%;
-  padding: 128px 0 0 0;
   display: flex;
-  justify-content: center;
-
-  .privat {
-    font-size: 12px;
-    opacity: 0.5;
-    margin-top: 143px;
-    margin-bottom: 16px;
-    color: #000000;
-    padding: 0 !important;
-
-    p {
-      padding: 0 !important;
-      margin: 0 !important;
-    }
-
-  }
+  align-items: center;
+  justify-content: space-evenly !important;
 
   .row {
     width: 1230px;
+    margin: 0 auto;
     padding: 0;
     display: flex;
     justify-content: space-between;
+  }
 
+  .footer-row {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
 
-    i {
-      margin-right: 15px;
-    }
+  .footer-text {
+    width: 275px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #696969;
+  }
 
-    .col-12 {
-      padding: 0 0 0 70px;
-    }
+  p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+  }
 
-    .kontakt {
-      padding-left: 0;
-    }
+  a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #696969;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #1abc9c;
+    text-decoration: none;
+  }
+  span {
+    width: 100px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+  }
+}
 
-    a {
-      color: #68696B;
-    }
-
-    a:hover {
-      text-decoration: none;
-      color: #1ABC9C;
-    }
-
-    h3 {
-      font-weight: 500;
-      font-size: 20px;
-      line-height: 30px;
-      margin-bottom: 25px;
-    }
-
-    ul,
-    li,
-    p {
-      line-height: 30px;
-      margin-bottom: 15px;
-      list-style-type: none;
-      font-size: 15px;
-      padding-left: 0;
-      color: #68696B;
-    }
+.bottom-bar {
+  height: 50px;
+  width: 100%;
+  background: #F8F9FA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  p, a {
+    font-size: 12px;
+    color: #696969;
+    margin: 0;
+    opacity: .75;
+  }
+  a:hover {
+    color: #1abc9c;
+    text-decoration: none;
   }
 }

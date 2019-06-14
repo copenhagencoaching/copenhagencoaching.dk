@@ -1,48 +1,43 @@
-<div class="footer justify-content-center">
-
+<footer>
     <div class="row">
-
-        <div class="col-lg-3 col-md-12 col-sm-12 col-6 kontakt">
-            <h3>Copenhagen Coaching</h3>
-            <p>Copenhagen Coaching Center blev dannet i 2004 og er et partnerejet selskab, der udbyder åbne uddannelser.
-            </p>
-            <p><a href="https://www.facebook.com/copenhagencoaching.dk" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
-                <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                <a href="#" target="_blank"><i class="fab fa-instagram"></i></a></p>
+        <div class="footer-row col-xs-6">
+            <p>Copenhagen Coaching</p>
+            <p class="footer-text">Copenhagen Coaching Center blev dannet i 2004 og er et partnerejet selskab, der
+                udbyder åbne uddannelser.</p>
+            <span>
+                <a href="https://www.facebook.com/copenhagencoachingdk-169785200063933/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/company/copenhagen-coaching-center" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com/explore/tags/copenhagencoachingcenter/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </span>
         </div>
-
-        <div class="col-lg-3 col-md-6 col-sm-12 col-6">
-            <h3>Vores ydelser</h3>
-            <ul>
-                <a href="/educations">Uddannelser</a><br>
-                <a href="/internationals">CCC international</a><br>
-                <a href="/conversations/">Coachingsamtaler</a><br>
-            </ul>
+        <div class="footer-row col-xs-6">
+            <p>Navigation</p>
+            <a href="#">Academy</a>
+            <a href="#">Coaching</a>
+            <a href="#">Consulting</a>
+            <a href="#">International</a>
+            <a href="#">Om os</a>
+            <a href="#">Historier</a>
         </div>
-
-        <div class="col-lg-3 col-md-6 col-sm-12 col-6 historier">
-            <h3>Seneste Historier</h3>
-            <ul>
-                {% for post in site.posts %}
-                <a href="{{ post.url }}">{{ post.title }}</a>
-                {% endfor %}
-            </ul>
+        <div class="footer-row col-xs-6">
+            <p>Ydelser</p>
+            <a href="#">Uddannelser og kurser</a>
+            <a href="#">CCC International</a>
+            <a href="#">Coachingsamtaler</a>
+            <a href="#">Konsulentydelser</a>
         </div>
-
-        <div class="col-lg-3 col-md-6 col-sm-12 col-6">
-            <h3>Kontakt os</h3>
-            <ul>
-                <a href="tel:+4539201020">+45 39 201 020</a>
-                <a href="mailto: info@copenhagencoaching.dk"><span class="small-nav-text">info@copenhagencoaching.dk</span></a>
-                Blegdamsvej 104 A, 2. Sal
-                2200 København Ø
-            </ul>
-        </div>
-
-        <div class="privat col-lg-12 col-md-12 col-sm-12 col-12 d-flex flex-column align-items-center justify-content-center">
-           <p>© 2018 Copenhagen Coaching Center</p>
-           <p><a href="#">Privatlivspolitik</a></p>
+        <div class="footer-row col-xs-6">
+            <p>Kontakt</p>
+            <a href="#">+45 39 20 10 20</a>
+            <a href="#">Skriv til os</a>
+            <a href="#">Blegdamsvej 104 A, 2. Sal</a>
+            <a href="#">2200 Kbh Ø</a>
+            <a href="#">Rutevejledning</a>
         </div>
     </div>
+</footer>
+<div class="bottom-bar">
+    <a href="#">Privatlivspolitik</a>
+    <p>&nbsp;| Powered by</p><a href="https://www.prolike.io/" target="_blank">&nbsp;Prolike</a>
 </div>
