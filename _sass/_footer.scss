@@ -32,23 +32,31 @@ footer {
     color: #000000;
   }
 
-  a {
+  a,
+  .empty-anchor {
     font-size: 16px;
     font-weight: 400;
     color: #696969;
     text-decoration: none;
   }
-  a:hover {
-    color: #1abc9c;
-    text-decoration: none;
+
+  .empty-anchor {
+    margin: 0;
   }
-  span {
-    width: 100px;
-    height: auto;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 5px;
-  }
+
+}
+
+a:hover {
+  color: #1abc9c;
+  text-decoration: none;
+}
+
+span {
+  width: 100px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
 }
 
 .bottom-bar {
@@ -58,12 +66,18 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  p, a {
+  -webkit-box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.16);
+  -moz-box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.16);
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.16);
+
+  p,
+  a {
     font-size: 12px;
     color: #696969;
     margin: 0;
     opacity: .75;
   }
+
   a:hover {
     color: #1abc9c;
     text-decoration: none;

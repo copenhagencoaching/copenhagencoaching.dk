@@ -45,19 +45,31 @@
   footer {
     height: auto;
     padding: 50px 0;
+
     .row {
       width: 90%;
       display: normal;
     }
+
     .col-xs-6 {
       width: 50%;
     }
-    .col-xs-6:nth-child(1), .col-xs-6:nth-child(2) {
+
+    .col-xs-6:nth-child(1),
+    .col-xs-6:nth-child(2) {
       padding-bottom: 50px;
     }
-    p, a {
+
+    .col-xs-6:nth-child(2),
+    .col-xs-6:nth-child(4) {
+      padding-left: 15px;
+    }
+
+    p,
+    a {
       font-size: 16px;
     }
+
     .footer-text {
       font-size: 14px;
       width: 150px;
