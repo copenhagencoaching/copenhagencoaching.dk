@@ -3,13 +3,24 @@ layout: page
 ---
 
 <div class="row category">
-    {% for education in site.educations %}
-    {% if education.category == page.name %}
+  {% for education in site.educations %}
+  {% if education.category == page.name %}
 
-    <div class="col-lg-3">
-        {{ education.title }}
+  <div class="col-lg-3">
+    <div class="card">
+      <div class="education-image" style="background-image: url('{{ education.image }}')"></div>
+      <div class="card-body d-flex justify-content-center align-items-center flex-column">
+        <h5 class="card-title">{{ education.title }}</h5>
+
+        <div class="card-text" id="content">
+          {{ education.content }}
+        </div>
+        <a class="showmore-button" href="{{ education.url }}">Læs mere</a>
+
+      </div>
     </div>
+  </div>
 
-    {% endif %}
-    {% endfor %}
+  {% endif %}
+  {% endfor %}
 </div>

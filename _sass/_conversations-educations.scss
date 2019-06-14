@@ -6,7 +6,7 @@
     margin-bottom: 30px;
     max-width: 275px !important;
     height: 175px;
-    padding:0;
+    padding: 0;
 
     a {
       color: white;
@@ -38,4 +38,87 @@
 
   }
 
+}
+
+// categories site
+
+.category {
+  .col-lg-3 {
+    max-width: 285px;
+    padding: 0;
+
+    .card {
+      width: 100%;
+      text-align: left;
+      -webkit-box-shadow: 0 5px 20px 0 rgba(0,0,0,0.16);
+      -moz-box-shadow: 0 5px 20px 0 rgba(0,0,0,0.16);
+      box-shadow: 0 5px 20px 0 rgba(0,0,0,0.16);
+      border: none;
+      transition: all ease-in-out .3s;
+      padding: 10px;
+
+      .card-body {
+        padding: 0;
+      }
+
+      .education-image {
+        width: 265px;
+        height: 150px;
+        background-size: cover;
+        background-position: center center;
+        margin: auto;
+      }
+
+      .card-title {
+        text-align: center;
+        margin: 20px 0 31px 0;
+        font-size: 16px;
+        font-weight: 500;
+      }
+
+      .card-text {
+        text-align: center;
+        font-size: 14px;
+        font-weight: 300;
+        margin-bottom: 31px;
+        height: 40px;
+        overflow: hidden;
+
+        h1,
+        h2,
+        h3,
+        h4 {
+          font-size: 14px;
+          font-weight: 300;
+
+        }
+      }
+
+      .showmore-button {
+        cursor: pointer;
+        border: none;
+        background: none;
+        margin: 0 0 15px 0;
+        font-size: 14px;
+        padding: 0;
+        background-color: none;
+        width: auto;
+        display: inline-block;
+      }
+
+      .showmore-button:hover {
+        color: #1ABC9C;
+      }
+
+      a {
+        color: #212529;
+      }
+  
+      a:hover {
+        text-decoration: none;
+        color: #1ABC9C;
+      }
+
+    }
+  }
 }
