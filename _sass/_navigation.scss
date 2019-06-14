@@ -1,16 +1,25 @@
-.navbar {
-  width: 100% !important;
+nav {
+  height: 65px;
+  width: 100%;
   display: flex;
+  justify-content: center;
+  position: fixed;
+  z-index: 100;
+  background: transparent;
+}
+
+.navbar {
   width: 1230px;
-  font-size: 20px;
-  position: absolute;
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
   top: 0;
-  z-index: 10;
+  z-index: 100;
   font-weight: 400;
   flex-direction: row;
   height: 65px;
-  padding: 0 345px;
   font-size: 16px;
+  padding: 0;
 
   .navbar-brand {
     height: 50px;
@@ -24,28 +33,33 @@
 
   .nav-link {
     padding: 0 !important;
-    margin-left: 10px;
+  }
+
+  .navbar-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 700px;
+  }
+
+  .navbar-nav-wider {
+    width: 900px;
   }
 
   .navbar-menu a,
   a {
     color: #ffffff;
-    font-size: 20px;
-    font-weight: 400;
+    font-size: 16px;
+    font-weight: 500;
     padding: 0;
   }
 
   .active-page {
-    border-bottom: 5px solid #1ABC9C;
-  }
-
-  .navbar-brand {
-    margin-left: -10px !important; // This styling needs solving at some point or another, as it really isn't the most semantic solution!
-    padding: 0 !important;
+    color: #1ABC9C;
   }
 
   .fas {
-    color: #ffffff;
+    color: #000000;
   }
 }
 
@@ -65,6 +79,7 @@
   align-items: center;
 
   input {
+    margin-left: 7.5px;
     min-width: 206px !important;
   }
 
@@ -79,4 +94,48 @@
     font-size: 20px;
     margin-left: 5px;
   }
+}
+
+.contact-button {
+  height: 30px;
+  width: auto;
+  padding: 0 10px;
+  background: #1ABC9C;
+  border: none;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.nav-icon {
+  height: inherit;
+  text-align: center;
+  width: 20px;
+
+  .fas {
+    font-size: 16px;
+  }
+}
+
+#search {
+  position: relative;
+
+  .search-cross {
+    position: absolute;
+    right: 7.5px;
+    top: 2.5px;
+
+    .fas {
+      color: #000000
+    }
+  }
+}
+
+.green-search-button {
+  display: none;
+}
+
+.modal-open {
+  overflow:hidden;
+  overflow-y:scroll;
+  padding-right: 0 !important;
 }

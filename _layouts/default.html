@@ -12,29 +12,45 @@
 
     {% include scripts/plugin.html %}
 
+    <!-- Changes the navigation from transparent to a sold White color -->
+
     <script>
         $(document).ready(function () {
             $(window).scroll(function () {
                 if ($(this).scrollTop() > 50) {
-                    $('.navbar').addClass('solid');
+                    $('nav').addClass('solid');
                 } else {
-                    $('.navbar').removeClass('solid');
+                    $('nav').removeClass('solid');
                 }
             });
         });
     </script>
 
+    <!-- Changes the navigation logo from a White color to a Black color -->
+
     <script>
         $(function () {
             $(window).scroll(function () {
                 if ($(this).scrollTop() > 50) {
-                    $('.navbar .navbar-brand img').attr('src','/img/ccc-logo-dark.png');
+                    $('.navbar .navbar-brand img').attr('src', '/img/ccc-logo-dark.png');
                 } else {
-                    $('.navbar .navbar-brand img').attr('src','/img/ccc-logo.png');
+                    $('.navbar .navbar-brand img').attr('src', '/img/ccc-logo.png');
                 }
             })
         });
     </script>
+
+    <!-- Makes the navbar-nav longer in order to accomidate for the search input field -->
+
+    <script>
+        $('#search-button').on('click', function () {
+            $('.navbar-nav').addClass('navbar-nav-wider');
+        });
+        $('.search-cross').on('click', function () {
+            $('.navbar-nav').removeClass('navbar-nav-wider');
+        });
+    </script>
+
 
 </body>
 

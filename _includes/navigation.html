@@ -1,33 +1,75 @@
-<div class="navbar navbar-expand-lg">
-  <a class="navbar-brand" href="/"><img src="/img/ccc-logo.png" alt="ccc"></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
-    aria-expanded="false" aria-label="Toggle navigation">
-    <i class="fas fa-bars"></i>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav ml-auto">
-
-      {% assign sorted_nodes = site.pages | sort: "title" %}
-      {% for node in sorted_nodes %}
-      {% if page.url == node.url %}
-      <li class="nav-item">
-        <a class="nav-link active-page"
-          href="{{node.url}}">{{ node.title | truncatewords: 2, "" | remove: "Tilmelding" | remove: "Historier" | remove: "Search" }}</a>
-      </li>
-      {% else %}
-      <li class="nav-item">
-        <a class="nav-link"
-          href="{{node.url}}">{{ node.title | truncatewords: 2, "" | remove: "Tilmelding" | remove: "Historier" | remove: "Search" }}</a>
-      </li>
-      {% endif %}
-      {% endfor %}
-      <li class="nav-item">
-        <form class="form" action="/search" method="get">
-          <label for="search-box"></label>
-          <input type="text" id="search-box" name="query">
-          <button class="green-search-button" type="submit">Søg</button>
-        </form>
-      </li>
-    </ul>
+<div class="modal fade" id="contact-modal" tabindex="-1" role="dialog" aria-labelledby="contact-modal"
+  aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="contact-modal">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ......
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
   </div>
 </div>
+
+
+
+
+
+
+
+<nav>
+  <div class="navbar navbar-expand-lg">
+    <a class="navbar-brand" href="/"><img src="/img/ccc-logo.png" alt="ccc"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav m-auto">
+
+        {% assign sorted_nodes = site.pages | sort: "title" %}
+        {% for node in sorted_nodes %}
+        {% if node.show %}
+        {% if page.url == node.url %}
+        <li class="nav-item">
+          <a class="nav-link active-page"
+            href="{{node.url}}">{{ node.title | truncatewords: 2, "" | remove: "Tilmelding" | remove: "Search" }}</a>
+        </li>
+        {% else %}
+        <li class="nav-item">
+          <a class="nav-link"
+            href="{{node.url}}">{{ node.title | truncatewords: 2, "" | remove: "Tilmelding" | remove: "Search" }}</a>
+        </li>
+        {% endif %}
+        {% endif %}
+        {% endfor %}
+        <li class="nav-item">
+          <button class="contact-button" data-toggle="modal" data-target="#contact-modal">Kontakt</button>
+        </li>
+        <li id="search-button" class="nav-item nav-icon collapse show multi">
+          <a href=".multi" data-toggle="collapse" aria-controls="#search-button #search"><i
+              class="fas fa-search"></i></a>
+        </li>
+        <li id="search" class="nav-item collapse multi">
+          <form class="form" action="/search" method="get">
+            <label for="search-box"></label>
+            <input type="text" id="search-box" name="query">
+            <button class="green-search-button" type="submit">Søg</button>
+          </form>
+          <a class="search-cross" href=".multi" data-toggle="collapse"><i class="fas fa-times"></i></a>
+        </li>
+        <li class="nav-item nav-icon">
+          <a href="https://www.edu.copenhagencoaching.dk/" target="_blank"><i class="fas fa-user-graduate"></i></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
