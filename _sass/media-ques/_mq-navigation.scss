@@ -11,8 +11,7 @@
   .navbar {
     width: inherit;
     background: #ffffff;
-    padding-left: 0 !important;
-    padding-right: 0 !important;
+    padding: 0 15px !important;
     border-bottom: 1px solid #a9a9a9;
 
     .navbar-nav {
@@ -24,13 +23,13 @@
       padding: 50px 0;
     }
 
-    .fas {
-      color: #000000;
-      padding-right: 20px;
+    .navbar-brand {
+      height: 45px;
+      width: 45px;
     }
 
-    .navbar-brand {
-      padding-left: 20px;
+    .fas {
+      color: #000000;
     }
 
     .contact-button {
