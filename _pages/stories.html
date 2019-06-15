@@ -9,17 +9,35 @@ show: true
 
 
 
-  <div class="row stories-row">
-        {% assign sorted = site.posts | sort: posts.date | reverse %}
-        {% for post in sorted limit:3 %}
-        <div class="col-12 stories" style="background-image: url('{{ post.image }}')">
-
-            <h3>{{ post.title }}</h3>
-            <p>{{ post.excerpt }}</p>
-
-            <a href="{{ post.url }}"><button>Læs mere</button></a>
+<section class="stories">
+    <div class="row">
+        <p>Seneste Historier</p>
+        <div class="col-lg-12">
+            <a href="#"><img class="story" src="/img/blog/story.jpg" alt="Billede til historie 1"></a>
         </div>
-        {% endfor %}
+        <div class="col-lg-4">
+            <a href="#"><img class="story" src="/img/blog/story.jpg" alt="Billede til historie 2"></a>
+        </div>
+        <div class="col-lg-4">
+            <a href="#"><img class="story" src="/img/blog/story.jpg" alt="Billede til historie 3"></a>
+        </div>
+        <div class="col-lg-4">
+            <a href="#"><img class="story" src="/img/blog/story.jpg" alt="Billede til historie 4"></a>
+        </div>
+        <p>Ældre Historier</p>
+        <div class="col-lg-12">
+            <a href="#"><img class="story" src="/img/blog/story.jpg" alt="Billede til historie 5"></a>
+        </div>
+        <div class="col-lg-4">
+            <a href="#"><img class="story" src="/img/blog/story.jpg" alt="Billede til historie 6"></a>
+        </div>
+        <div class="col-lg-4">
+            <a href="#"><img class="story" src="/img/blog/story.jpg" alt="Billede til historie 7"></a>
+        </div>
+        <div class="col-lg-4">
+            <a href="#"><img class="story" src="/img/blog/story.jpg" alt="Billede til historie 8"></a>
+        </div>
     </div>
+</section>
 
-    {% include signup.html %}
+{% include signup.html %}

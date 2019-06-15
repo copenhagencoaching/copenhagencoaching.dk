@@ -16,6 +16,7 @@
         font-size: 18px;
         font-weight: 600;
       }
+
       p {
         font-size: 16px;
       }
@@ -157,31 +158,55 @@
     height: auto;
     padding-bottom: 75px;
     padding-top: 0;
+
     span {
       height: auto;
       width: 90%;
     }
+
     h1 {
       font-size: 18px;
       padding: 75px 0;
     }
+
     .iframe-container {
       height: 372px;
       width: 100%;
       margin-top: 0;
     }
+
     .information-card-text {
       width: 100%;
       padding: 25px;
       background: red;
+
       h1 {
         padding: 10px 0;
       }
     }
-    .information-card-text p, .information-card-text a {
+
+    .information-card-text p,
+    .information-card-text a {
       padding-bottom: 5px;
       max-width: 332px;
     }
+  }
+}
+
+.stories {
+  padding-bottom: 50px;
+
+  .col-lg-12,
+  .col-lg-4 {
+    padding: 0;
+  }
+
+  p {
+    padding: 25px 0;
+  }
+
+  .story {
+    height: 350px;
   }
 }
 
