@@ -1,25 +1,22 @@
 nav {
-  height: 65px;
+  height: 70px;
   width: 100%;
   display: flex;
   justify-content: center;
   position: fixed;
   z-index: 100;
-  background: transparent;
+  background: #ffffff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
 }
 
 .navbar {
   width: 1230px;
   display: flex;
-  position: fixed;
   justify-content: space-between;
-  top: 0;
   z-index: 100;
   font-weight: 400;
   flex-direction: row;
-  height: 65px;
-  font-size: 16px;
-  padding: 0;
+  height: inherit;
 
   .navbar-brand {
     height: 50px;
@@ -48,7 +45,7 @@ nav {
 
   .navbar-menu a,
   a {
-    color: #ffffff;
+    color: #000000;
     font-size: 16px;
     font-weight: 500;
     padding: 0;
@@ -59,17 +56,6 @@ nav {
   }
 
   .fas {
-    color: #000000;
-  }
-}
-
-.solid {
-  background: #FFFFFF;
-  position: fixed;
-  transition: all ease-in-out .25s;
-  border-bottom: 1px solid #e8eaed;
-
-  a {
     color: #000000;
   }
 }
