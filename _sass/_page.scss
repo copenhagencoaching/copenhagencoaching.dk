@@ -4,16 +4,19 @@ body {
 }
 
 .hero-image {
-    height: 640px;
+    height: 500px;
     width: 100%;
     background-image: url(/img/graphic/highfive.jpg);
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    padding: 30px 100px;
     color: white;
     background-position: center;
     background-size: cover;
+    span {
+        height: inherit;
+        width: 1230px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+    }
 
     h1 {
         font-size: 60px;
