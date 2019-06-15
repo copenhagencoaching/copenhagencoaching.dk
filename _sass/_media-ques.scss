@@ -8,7 +8,7 @@
     }
 
     .introductionText {
-      width: inherit;
+      width: 100%;
       margin: 0 auto;
       padding: 50px 0;
 
@@ -19,6 +19,8 @@
 
       p {
         font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 0;
       }
     }
   }
@@ -178,7 +180,6 @@
     .information-card-text {
       width: 100%;
       padding: 25px;
-      background: red;
 
       h1 {
         padding: 10px 0;
