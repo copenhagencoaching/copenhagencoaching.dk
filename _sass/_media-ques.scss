@@ -148,6 +148,25 @@
   #fp-nav {
     display: none;
   }
+
+  // Information card component on Employees page
+  .information-card {
+    height: auto;
+    padding: 50px 0;;
+    span {
+      height: auto;
+      width: 90%;
+    }
+    .iframe-container {
+      height: 372px;
+      width: 100%;
+      margin-top: 0;
+    }
+    .information-card-text p, .information-card-text a {
+      padding-bottom: 5px;
+      max-width: 332px;
+    }
+  }
 }
 
 // Medium devices (tablets, less than 992px)

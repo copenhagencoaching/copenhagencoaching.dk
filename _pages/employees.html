@@ -43,27 +43,54 @@ show: true
   {% endfor %}
 </div>
 {% include testimonial.html %}
-<div class="row employees">
-  <div class="col-12 col-lg-12">
-    <h2>Besøg vores adresse på Østerbro</h2>
-  </div>
-  <div class="col-12">
-    <div class="row align-items-center end-empl">
-      <div class="col-lg-6 col-md-12 col-12 "><iframe
-          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d8994.121768380253!2d12.573369!3d55.697151!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb3635bd81181e031!2sCopenhagen+Coaching+Center!5e0!3m2!1sda!2sdk!4v1558954652578!5m2!1sda!2sdk"
-          width="400" height="400" frameborder="0" style="border:0" allowfullscreen></iframe></div>
-      <div class="col-lg-6 col-md-12 col-sm-12 col-12">
-        <h3>Copenhagen Coaching Center</h3>
-        <p>Vi er altid klar til at svare på henvendelser – så ring, skriv gerne og aftal et møde med os eller kom forbi:
-        </p>
-        <p>Telefon: +45 39 20 10 20</p>
-        <p>info@copenhagencoaching.dk</p>
-        <p>Blegdamsvej 104 A, 2. Sal, 2200 København Ø</p>
-        <p>CVR: 28132891</p>
-        <p>Rutevejledning</p>
+
+<section class="information-card">
+  <span>
+    <nav>
+      <div class="nav nav-tabs" id="nav-tab" role="tablist">
+        <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab"
+          aria-controls="nav-home" aria-selected="true">København</a>
+        <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab"
+          aria-controls="nav-profile" aria-selected="false">Fredericia</a>
+      </div>
+    </nav>
+    <div class="tab-content" id="nav-tabContent">
+      <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+        <div class="information-card-text">
+          <h1>Besøg vores adresse på Østerbro</h1>
+          <p>Vi er altid klar til at svare på henvendelser – så ring, skriv gerne og aftal et møde med os eller kom
+            forbi</p>
+          <a href="#">+45 39 20 10 20</a>
+          <a href="mailto:info@copenhagencoaching.dk" target="_blank">info@copenhagencoaching.dk</a>
+          <a href="https://goo.gl/maps/a2Tb1RTMDKQ3G8Vz5" target="_blank">Blegdamsvej 104 A, 2. Sal 2200 Kbh Ø</a>
+          <a href="https://datacvr.virk.dk/data/visenhed?enhedstype=virksomhed&id=28132891" target="_blank">CVR: 28132891</a>
+          <button><a href="mailto:info@copenhagencoaching.dk">Kontakt os</a></button>
+        </div>
+        <div class="iframe-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d2248.5302693079925!2d12.571180316044702!3d55.69715400374978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x465253116df3aadf%3A0xb3635bd81181e031!2sCopenhagen+Coaching+Center%2C+Blegdamsvej+104A%2C+2100+K%C3%B8benhavn!3m2!1d55.697151!2d12.573369!5e0!3m2!1sen!2sdk!4v1560603841888!5m2!1sen!2sdk"
+            width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+        <div class="information-card-text">
+          <h1>Besøg vores adresse i Fredericia</h1>
+          <p>Vi er altid klar til at svare på henvendelser – så ring, skriv gerne og aftal et møde med os eller kom
+            forbi</p>
+          <a href="#">+45 39 20 10 20</a>
+          <a href="mailto:info@copenhagencoaching.dk" target="_blank">info@copenhagencoaching.dk</a>
+          <a href="https://goo.gl/maps/kWkKQUaxFp6bxz587" target="_blank">Madsby Playpark, Lumbyesvej 45, 7000 Fredericia</a>
+          <a href="https://datacvr.virk.dk/data/visenhed?enhedstype=virksomhed&id=28132891" target="_blank">CVR: 28132891</a>
+          <button><a href="mailto:info@copenhagencoaching.dk">Kontakt os</a></button>
+        </div>
+        <div class="iframe-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d10730.336782979866!2d9.719825821660903!3d55.571108566475424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x464c90dd80e54acb%3A0x3554ed1b01e145dc!2sMadsby+Playpark%2C+Lumbyesvej+45%2C+7000+Fredericia!3m2!1d55.5709429!2d9.7389946!5e0!3m2!1sen!2sdk!4v1560604159748!5m2!1sen!2sdk"
+            width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
       </div>
     </div>
-  </div>
-</div>
+  </span>
+</section>
 
 {% include signup.html %}
