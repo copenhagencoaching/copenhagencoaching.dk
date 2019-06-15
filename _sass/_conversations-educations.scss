@@ -71,7 +71,7 @@
 
       .card-title {
         text-align: center;
-        margin: 20px 0 31px 0;
+        margin: 20px 0 31px;
         font-size: 16px;
         font-weight: 500;
       }
@@ -98,7 +98,7 @@
         cursor: pointer;
         border: none;
         background: none;
-        margin: 0 0 15px 0;
+        margin: 0 0 15px;
         font-size: 14px;
         padding: 0;
         background-color: none;
@@ -113,7 +113,169 @@
       a {
         color: #212529;
       }
-  
+
+      a:hover {
+        text-decoration: none;
+        color: #1ABC9C;
+      }
+
+    }
+  }
+}
+
+.conversations {
+
+  .green-button {
+    width: 125px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: none;
+}
+
+  .active-card {
+    display: visible;
+  }
+
+  .hidden {
+    display: none !important;
+  }
+
+  .col-lg-12 {
+    padding: 0;
+    margin-bottom: 50px;
+    transition: none;
+
+    .card {
+      width: 100%;
+      -webkit-box-shadow: 0 5px 20px 0 rgba(0,0,0,0.15);
+      -moz-box-shadow: 0 5px 20px 0 rgba(0,0,0,0.15);
+      box-shadow: 0 5px 20px 0 rgba(0,0,0,0.15);
+      border: none;
+      transition: all ease-in-out .3s;
+      padding: 10px;
+
+      .row {
+        margin: 0;
+        width: unset;
+        height: 100%;
+
+        .conversation-content-big {
+          .row {
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+            width: unset;
+
+            .col-lg-12 {
+              max-width: 550px;
+              margin: 0;
+
+              h2 {
+                margin-bottom: 25px;
+                font-size: 20px;
+              }
+
+              .conversation-text-big {
+                max-height: 185px;
+                overflow: hidden;
+                margin-bottom: 35px;
+
+
+
+                p, h1, h2, h3, h4, h5 {
+                  font-size: 18px;
+                  font-weight: 400;
+                }
+              }
+            }
+          }
+        }
+
+        .col-lg-6 {
+          padding: 0;
+
+          .conversation-image-big {
+            height: 400px;
+
+          }
+        }
+      }
+    }
+  }
+
+  .col-lg-3 {
+    max-width: 285px;
+    padding: 0;
+
+    .card {
+      width: 100%;
+      -webkit-box-shadow: 0 5px 20px 0 rgba(0,0,0,0.15);
+      -moz-box-shadow: 0 5px 20px 0 rgba(0,0,0,0.15);
+      box-shadow: 0 5px 20px 0 rgba(0,0,0,0.15);
+      border: none;
+      transition: all ease-in-out .3s;
+      padding: 10px;
+
+      .card-body {
+        padding: 0;
+      }
+
+      .conversation-image {
+        width: 265px;
+        height: 150px;
+        background-size: cover;
+        background-position: center center;
+        margin: auto;
+      }
+
+      .card-title {
+        text-align: center;
+        margin: 20px 0 31px;
+        font-size: 16px;
+        font-weight: 500;
+      }
+
+      .card-text {
+        text-align: center;
+        font-size: 14px;
+        font-weight: 300;
+        margin-bottom: 31px;
+        height: 40px;
+        overflow: hidden;
+        text-transform: none;
+
+        h1,
+        h2,
+        h3,
+        h4 {
+          font-size: 14px;
+          font-weight: 300;
+          text-transform: normal !important;
+
+        }
+      }
+
+      .showmore-button {
+        cursor: pointer;
+        border: none;
+        background: none;
+        margin: 0 0 15px;
+        font-size: 14px;
+        padding: 0;
+        background-color: none;
+        width: auto;
+        display: inline-block;
+      }
+
+      .showmore-button:hover {
+        color: #1ABC9C;
+      }
+
+      a {
+        color: #212529;
+      }
+
       a:hover {
         text-decoration: none;
         color: #1ABC9C;

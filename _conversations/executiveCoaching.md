@@ -1,5 +1,6 @@
 ---
 published: true
+id: 1
 author: Executive coaching
 title: Executive coaching
 image: /img/coaching/businesscoaching2.jpg
