@@ -9,20 +9,16 @@
 
   }
 
-  .card:hover {
-    transform: scale(1.075);
-  }
-
   .card {
     text-align: left;
     -webkit-box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.16);
     -moz-box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.16);
     box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.16);
     border: none;
-    transition: all ease-in-out .3s;
 
     a {
       color: #212529;
+      font-size: 16px;
     }
 
     a:hover {
@@ -40,30 +36,13 @@
       background-color: none;
       width: auto;
       display: inline-block;
-      text-transform: uppercase;
-    }
-
-    .showmore-button:hover {
-      color: #1ABC9C;
-    }
-
-    .card-title {
-      font-size: 16px;
-      font-weight: 600;
-      margin: 0 0 10px;
     }
 
     .card-body {
-      padding: 0 10px 20px;
-
-      p {
-        margin: 10px 0 0;
-        font-size: 14px;
-      }
+      text-align: center;
 
       .card-text {
-        height: 95px;
-        overflow: hidden;
+        display: none; // Caroline
       }
     }
 
@@ -73,6 +52,28 @@
       height: 290px;
       background-size: cover;
       background-position: center;
+    }
+
+    .card-title {
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 0;
+      padding-bottom: 20px;
+    }
+
+    .card-subtitle {
+      color: #1ABC9C;
+      font-size: 18px;
+      font-weight: 500; // Caroline
+
+      a {
+        padding-top: 20px;
+        font-weight: 400;
+      }
+    }
+
+    .showmore-button:hover {
+      color: #1ABC9C;
     }
   }
 }
@@ -110,6 +111,7 @@
   display: flex;
   flex-direction: column;
   padding: 25px;
+
   h1 {
     font-size: 18px;
     padding-top: 10px;
@@ -117,30 +119,36 @@
     padding-bottom: 0;
     text-align: left;
   }
+
   p {
     font-size: 16px;
     padding-top: 10px;
     font-weight: 400;
   }
+
   a {
     font-size: 16px;
     padding-bottom: 15px;
     color: #000000;
     text-decoration: none;
   }
+
   a:hover {
     color: #1ABC9C;
   }
+
   button {
     height: 50px;
     width: 175px;
     background: #1ABC9C;
     border: none;
     margin-top: 15px;
+
     a {
       color: #ffffff;
       font-weight: 600;
     }
+
     :hover {
       color: #ffffff;
     }
@@ -169,6 +177,7 @@
   a {
     color: #000000;
   }
+
   a:hover {
     color: #1ABC9C;
   }
