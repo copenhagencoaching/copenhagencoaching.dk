@@ -1,6 +1,6 @@
 .employees {
   text-align: center;
-  padding-top: 100px !important;
+  padding-bottom: 75px;
 
   .col-lg-4 {
     margin-bottom: 50px;
@@ -140,6 +140,9 @@
     a {
       color: #ffffff;
       font-weight: 600;
+    }
+    :hover {
+      color: #ffffff;
     }
   }
 }

@@ -6,6 +6,10 @@
     height: auto;
     padding-bottom: 50px;
 
+    .col-12 {
+      padding: 0px;
+    }
+
     .international-pane {
       height: 400px;
       width: 100%;
@@ -34,7 +38,7 @@
 
         button {
           height: 50px;
-          width: 200px;
+          width: 175px;
           background: #1abc9c;
           border: none;
           color: #ffffff;
@@ -69,4 +73,8 @@ hr {
   border: 1px solid #e1e4e8;
   margin: 0;
   width: 100% !important;
+}
+
+.international-pane:nth-of-type(1) {
+  margin-top: 0 !important;
 }

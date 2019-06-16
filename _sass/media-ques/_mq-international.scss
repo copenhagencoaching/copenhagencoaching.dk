@@ -32,6 +32,10 @@
       flex-direction: column-reverse !important;
     }
   }
+
+  .international-pane:nth-of-type(1) {
+    margin-top: 25px !important;
+  }
 }
 
 // Medium devices (tablets, less than 992px)
