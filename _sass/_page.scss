@@ -1,6 +1,5 @@
 body {
     width: 100%;
-    margin: auto;
 }
 
 .hero-image {
@@ -37,10 +36,8 @@ body {
 
     .row {
         width: 1230px;
-        padding: 0;
         display: flex;
         justify-content: space-between;
-        margin-bottom: 100px;
     }
 
     .introductionText {
@@ -48,7 +45,7 @@ body {
         text-align: center;
         height: auto;
         width: 1230px;
-        margin-bottom: 100px;
+        padding: 75px 0;
 
         h1 {
             text-align: center;
