@@ -33,7 +33,6 @@ body {
     flex-direction: column;
     width: 100%;
 
-
     .row {
         width: 1230px;
         display: flex;
@@ -58,6 +57,17 @@ body {
             font-size: 16px;
             text-align: center;
             line-height: 32px;
+        }
+    }
+
+    // Button animations
+
+    .information-card, .sign-up-banner {
+        button {
+            opacity: .9;
+        }
+        button:hover {
+            opacity: 1;
         }
     }
 }
