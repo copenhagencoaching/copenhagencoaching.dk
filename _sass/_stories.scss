@@ -22,11 +22,10 @@
     margin: 10px 0;
     position: relative;
     box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.15);
-    img {
-      height: auto;
-      width: 100%;
-    }
+    background-image: url(/img/blog/collaboration.jpg);
+    background-size: cover;
   }
+
 
   p {
     padding: 50px 0;
