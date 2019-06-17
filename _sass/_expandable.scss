@@ -1,4 +1,4 @@
-.international {
+.expandable {
 
   .row {
 
@@ -10,14 +10,14 @@
       padding: 0px;
     }
 
-    .international-pane {
+    .expandable-pane {
       height: 400px;
       width: 100%;
       margin: 100px 0;
       display: flex;
       flex-direction: row;
 
-      .international-pane-text {
+      .expandable-pane-text {
         height: inherit;
         width: 100%;
         padding-left: 25px;
@@ -30,10 +30,30 @@
           font-weight: 600;
         }
 
-        p {
+        .hideContent {
+          height: 150px;
+          overflow: hidden;
+          -webkit-transition: all 0.5s ease;
+          -moz-transition: all 0.5s ease;
+          -o-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+        }
+
+        p, .showContent {
           font-size: 16px;
           font-weight: 400;
           padding: 25px 0;
+          line-height: 24px;
+          height: 325px;
+          -webkit-transition: all 0.5s ease;
+          -moz-transition: all 0.5s ease;
+          -o-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+
+        }
+
+        .show-less {
+          margin-top: 0;
         }
 
         button {
@@ -44,6 +64,7 @@
           font-weight: 600;
           opacity: .9;
           color: #ffffff;
+          margin-top: 25px;
         }
 
         button:hover {
@@ -51,12 +72,12 @@
         }
       }
 
-      .international-pane-text:nth-child(1) {
+      .expandable-pane-text:nth-child(1) {
         padding-left: 0;
         padding-right: 25px;
       }
 
-      .international-pane-image {
+      .expandable-pane-image {
         height: 400px;
         width: 100%;
         background-image: url(/img/international/1.png);
@@ -65,7 +86,7 @@
         background-repeat: no-repeat;
       }
 
-      .international-pane-image:nth-child(2) {
+      .expandable-pane-image:nth-child(2) {
         background-image: url(/img/international/2.png);
       }
 
@@ -82,21 +103,6 @@ hr {
   width: 100% !important;
 }
 
-.international-pane:nth-of-type(1) {
+.expandable-pane:nth-of-type(1) {
   margin-top: 0 !important;
-}
-
-.hideContent {
-  overflow: hidden;
-  line-height: 1em;
-  height: 2em;
-}
-
-.showContent {
-  line-height: 1em;
-  height: auto;
-}
-
-.showContent {
-  height: auto;
 }

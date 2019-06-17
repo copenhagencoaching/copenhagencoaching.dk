@@ -4,43 +4,169 @@ title: Consulting
 bg-image: /img/graphic/art.jpg
 signup: Konsulentydelser
 show: true
+order: 3
 ---
 
-<div class="row convos-edus">
-
-        <div class="col-12">
-            <div class="introductionText">
-                <h1>Super generisk introduktions titel</h1>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia dolor enim velit<br>provident culpa,
-                    omnis eius? Placeat deleniti aliquam rerum.
-                </p>
-            </div>
-            <div class="row">
-                {% for consulting in site.consultations %}
-    
-                <div class="col-lg-4 col-md-4">
-                    <div class="outer-card">
-                        <div class="inner-card">
-                            {% if consulting.image %}
-                            <a href="{{ consulting.url }}">
-                                <div class="card-img-top" style="background-image: url('{{ consulting.image }}')"></div>
-                            </a>
-                            {% endif %}
-    
-                            <div class="card-body">
-                                <a href="{{ consulting.url }}">
-                                    <p class="card-title">{{ consulting.title }}</p>
-                                </a>
-                                <p class="card-text">{{ consulting.description | truncatewords: 22 }}</p>
-                            </div>
-                        </div>
-                        <a href="{{ consulting.url }}"><button class="green-button b-1">Læs mere</button></a>
-    
-                    </div>
-                </div>
-                {% endfor %}
-            </div>
+<div class="expandable">
+    <div class="row">
+        <div class="introductionText">
+            <h1>Incredibly generic introdutionary title</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia dolor enim velit<br>provident culpa,
+                omnis eius? Placeat deleniti aliquam rerum.
+            </p>
         </div>
+        <section id="lederudvikling" class="col-12 expandable-pane">
+            <div class="col-lg-5 col-sm-12 expandable-pane-image"></div>
+            <div class="col-lg-7 col-sm-12 expandable-pane-text">
+                <h1>Lederudvikling</h1>
+                <div class="content hideContent">
+                    <p>I et executive coachingforløb får du som topleder øget din beslutningskraft til at gennemføre
+                        forandringer, skærpe retning og sikre følgeskab i din organisation. Der vil ofte være både et
+                        strategisk spor og et personligt spor. Executive coaching skaber organisatorisk og
+                        forretningsmæssig værdi og sikrer en tydelig forbindelse til den ledelsesmæssige kerneopgave.
+                        <br><br>
+                        <b>EXECUTIVE COACHING / 3.500,- EKSKL. MOMS PER SESSION</b>
+                        Du kan også købe klippekort à 5 (3.000,- kr ekskl. moms per klip) eller á 10 (2.500,- kr ekskl.
+                        moms per klip) sessioner.
+                    </p>
+                </div>
+                <button href="#Executive" class="show-more">Show more</button>
+            </div>
+        </section>
+        <hr>
+        <section id="konsulentudvikling" class="col-12 expandable-pane">
+            <div class="col-lg-7 col-sm-12 expandable-pane-text">
+                <h1>Konsulentudvikling</h1>
+                <div class="content hideContent">
+                    <p>I et executive coachingforløb får du som topleder øget din beslutningskraft til at gennemføre
+                        forandringer, skærpe retning og sikre følgeskab i din organisation. Der vil ofte være både et
+                        strategisk spor og et personligt spor. Executive coaching skaber organisatorisk og
+                        forretningsmæssig værdi og sikrer en tydelig forbindelse til den ledelsesmæssige kerneopgave.
+                        <br><br>
+                        <b>EXECUTIVE COACHING / 3.500,- EKSKL. MOMS PER SESSION</b>
+                        Du kan også købe klippekort à 5 (3.000,- kr ekskl. moms per klip) eller á 10 (2.500,- kr ekskl.
+                        moms per klip) sessioner.
+                    </p>
+                </div>
+                <button class="show-more">Show more</button>
+            </div>
+            <div class="col-lg-5 expandable-pane-image"></div>
+        </section>
+        <hr>
+        <section id="organisationsudvikling" class="col-12 expandable-pane">
+            <div class="col-lg-5 col-sm-12 expandable-pane-image third"></div>
+            <div class="col-lg-7 col-sm-12 expandable-pane-text">
+                <h1>Organisationsudvikling</h1>
+                <div class="content hideContent">
+                    <p>I et executive coachingforløb får du som topleder øget din beslutningskraft til at gennemføre
+                        forandringer, skærpe retning og sikre følgeskab i din organisation. Der vil ofte være både et
+                        strategisk spor og et personligt spor. Executive coaching skaber organisatorisk og
+                        forretningsmæssig værdi og sikrer en tydelig forbindelse til den ledelsesmæssige kerneopgave.
+                        <br><br>
+                        <b>EXECUTIVE COACHING / 3.500,- EKSKL. MOMS PER SESSION</b>
+                        Du kan også købe klippekort à 5 (3.000,- kr ekskl. moms per klip) eller á 10 (2.500,- kr ekskl.
+                        moms per klip) sessioner.
+                    </p>
+                </div>
+                <button class="show-more">Show more</button>
+            </div>
+        </section>
+        <hr>
+        <section id="rekruttering-&-onboarding" class="col-12 expandable-pane">
+            <div class="col-lg-7 col-sm-12 expandable-pane-text">
+                <h1>Rekruttering & Onboarding</h1>
+                <div class="content hideContent">
+                    <p>I et executive coachingforløb får du som topleder øget din beslutningskraft til at gennemføre
+                        forandringer, skærpe retning og sikre følgeskab i din organisation. Der vil ofte være både et
+                        strategisk spor og et personligt spor. Executive coaching skaber organisatorisk og
+                        forretningsmæssig værdi og sikrer en tydelig forbindelse til den ledelsesmæssige kerneopgave.
+                        <br><br>
+                        <b>EXECUTIVE COACHING / 3.500,- EKSKL. MOMS PER SESSION</b>
+                        Du kan også købe klippekort à 5 (3.000,- kr ekskl. moms per klip) eller á 10 (2.500,- kr ekskl.
+                        moms per klip) sessioner.
+                    </p>
+                </div>
+                <button class="show-more">Show more</button>
+            </div>
+            <div class="col-lg-5 expandable-pane-image"></div>
+        </section>
+        <hr>
+        <section id="Talent-og-medarbejderudvikling" class="col-12 expandable-pane">
+            <div class="col-lg-5 col-sm-12 expandable-pane-image"></div>
+            <div class="col-lg-7 col-sm-12 expandable-pane-text">
+                <h1>Talent- og Medarbejderudvikling</h1>
+                <div class="content hideContent">
+                    <p>I et executive coachingforløb får du som topleder øget din beslutningskraft til at gennemføre
+                        forandringer, skærpe retning og sikre følgeskab i din organisation. Der vil ofte være både et
+                        strategisk spor og et personligt spor. Executive coaching skaber organisatorisk og
+                        forretningsmæssig værdi og sikrer en tydelig forbindelse til den ledelsesmæssige kerneopgave.
+                        <br><br>
+                        <b>EXECUTIVE COACHING / 3.500,- EKSKL. MOMS PER SESSION</b>
+                        Du kan også købe klippekort à 5 (3.000,- kr ekskl. moms per klip) eller á 10 (2.500,- kr ekskl.
+                        moms per klip) sessioner.
+                    </p>
+                </div>
+                <button href="#Executive" class="show-more">Show more</button>
+            </div>
+        </section>
+        <hr>
+        <section id="transition" class="col-12 expandable-pane">
+            <div class="col-lg-7 col-sm-12 expandable-pane-text">
+                <h1>Transition</h1>
+                <div class="content hideContent">
+                    <p>I et executive coachingforløb får du som topleder øget din beslutningskraft til at gennemføre
+                        forandringer, skærpe retning og sikre følgeskab i din organisation. Der vil ofte være både et
+                        strategisk spor og et personligt spor. Executive coaching skaber organisatorisk og
+                        forretningsmæssig værdi og sikrer en tydelig forbindelse til den ledelsesmæssige kerneopgave.
+                        <br><br>
+                        <b>EXECUTIVE COACHING / 3.500,- EKSKL. MOMS PER SESSION</b>
+                        Du kan også købe klippekort à 5 (3.000,- kr ekskl. moms per klip) eller á 10 (2.500,- kr ekskl.
+                        moms per klip) sessioner.
+                    </p>
+                </div>
+                <button class="show-more">Show more</button>
+            </div>
+            <div class="col-lg-5 expandable-pane-image"></div>
+        </section>
+        <hr>
+        <section id="procesfacilitering" class="col-12 expandable-pane">
+            <div class="col-lg-5 col-sm-12 expandable-pane-image third"></div>
+            <div class="col-lg-7 col-sm-12 expandable-pane-text">
+                <h1>Procesfacilitering</h1>
+                <div class="content hideContent">
+                    <p>I et executive coachingforløb får du som topleder øget din beslutningskraft til at gennemføre
+                        forandringer, skærpe retning og sikre følgeskab i din organisation. Der vil ofte være både et
+                        strategisk spor og et personligt spor. Executive coaching skaber organisatorisk og
+                        forretningsmæssig værdi og sikrer en tydelig forbindelse til den ledelsesmæssige kerneopgave.
+                        <br><br>
+                        <b>EXECUTIVE COACHING / 3.500,- EKSKL. MOMS PER SESSION</b>
+                        Du kan også købe klippekort à 5 (3.000,- kr ekskl. moms per klip) eller á 10 (2.500,- kr ekskl.
+                        moms per klip) sessioner.
+                    </p>
+                </div>
+                <button class="show-more">Show more</button>
+            </div>
+        </section>
+        <hr>
+        <section id="kommunikation" class="col-12 expandable-pane">
+            <div class="col-lg-7 col-sm-12 expandable-pane-text">
+                <h1>Kommunikation</h1>
+                <div class="content hideContent">
+                    <p>I et executive coachingforløb får du som topleder øget din beslutningskraft til at gennemføre
+                        forandringer, skærpe retning og sikre følgeskab i din organisation. Der vil ofte være både et
+                        strategisk spor og et personligt spor. Executive coaching skaber organisatorisk og
+                        forretningsmæssig værdi og sikrer en tydelig forbindelse til den ledelsesmæssige kerneopgave.
+                        <br><br>
+                        <b>EXECUTIVE COACHING / 3.500,- EKSKL. MOMS PER SESSION</b>
+                        Du kan også købe klippekort à 5 (3.000,- kr ekskl. moms per klip) eller á 10 (2.500,- kr ekskl.
+                        moms per klip) sessioner.
+                    </p>
+                </div>
+                <button class="show-more">Show more</button>
+            </div>
+            <div class="col-lg-5 expandable-pane-image"></div>
+        </section>
     </div>
+</div>
 
-    {% include signup.html %}
+{% include signup.html %}

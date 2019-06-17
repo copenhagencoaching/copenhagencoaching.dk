@@ -34,7 +34,7 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ml-auto">
 
-        {% assign sorted_nodes = site.pages | sort: "title" %}
+        {% assign sorted_nodes = site.pages | sort: "order" %}
         {% for node in sorted_nodes %}
         {% if node.show %}
         {% if page.url == node.url %}

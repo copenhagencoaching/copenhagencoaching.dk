@@ -3,7 +3,7 @@
 
 // Small devices (landscape phones, less than 768px)
 @media (max-width: 768px) {
-  .international {
+  .expandable {
     .col-12 {
       padding: 0;
     }
@@ -13,13 +13,13 @@
       padding-bottom: 0;
     }
 
-    .international-pane {
+    .expandable-pane {
       height: 800px !important;
       flex-direction: column !important;
       justify-content: center !important;
       margin: 0 !important;
 
-      .international-pane-text {
+      .expandable-pane-text {
         padding: 0 !important;
 
         h1 {
@@ -28,12 +28,12 @@
       }
     }
 
-    .international-pane:nth-of-type(2) {
+    .expandable-pane:nth-of-type(2) {
       flex-direction: column-reverse !important;
     }
   }
 
-  .international-pane:nth-of-type(1) {
+  .expandable-pane:nth-of-type(1) {
     margin-top: 25px !important;
   }
 }

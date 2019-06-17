@@ -15,6 +15,27 @@
     <!-- Makes the navbar-nav longer in order to accomidate for the search input field -->
 
     <script>
+        $(".show-more").on("click", function () {
+            var $this = $(this);
+            var $content = $this.prev(".content");
+            var linkText = $this.text().toUpperCase();
+
+
+            if (linkText === "SHOW MORE") {
+                linkText = "Show less";
+                $content.attr("class", "content showContent"), 400;
+                $this.attr("class", "show-less");
+            } else {
+                linkText = "Show more";
+                $content.attr("class", "content hideContent"), 400;
+                $this.attr("class", "show-more");
+            };
+    
+            $this.text(linkText);
+        });
+    </script>
+
+    <script>
         $('#search-button').on('click', function () {
             $('.navbar-nav').addClass('navbar-nav-wider');
         });
@@ -23,29 +44,7 @@
         });
     </script>
 
-<script>
-
-        $(document).ready(function () {
-            $(".show-more").on("click", function () {
-                    var $this = $(this);
-                    var $content = $this.parent().prev("div.content");
-                    var linkText = $this.text().toUpperCase();
-        
-                    if (linkText === "SHOW MORE") {
-                        linkText = "Show less";
-                        $content.attr("class", "content showContent");
-                    } else {
-                        linkText = "Show more";
-                        $content.attr("class", "content hideContent");
-                    };
-        
-                    $this.text(linkText);
-                });
-        });
-        
-               
-            </script>
-
+  
 </body>
 
 </html>
