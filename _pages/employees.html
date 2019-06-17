@@ -16,26 +16,21 @@ show: true
 
   {% assign sorted_empl = site.employees | sort: "order" %}
   {% for employee in sorted_empl %}
-
-  <div class="col-lg-4 col-md-4 col-sm-12 col-12">
-    <div class="card">
-      <div class="img-empl" style="background-image: url('{{ employee.image }}')"></div>
-      <div class="card-body">
-        <h5 class="card-title">{{ employee.title }}</h5>
-        <p class="card-subtitle mb-2">{{ employee.description }}<br>
-          <a href="mailto:{{ employee.email }}">{{ employee.email }}</a><br>
-          <a href="phoneto:{{ employee.call }}">{{ employee.call }}</a><br></p>
-
-        <div class="employee-text card-text" id="content">
-
-        </div>
-
-        <div class="d-flex justify-content-center align-items-center flex-column">
-          <a class="showmore-button" href="{{ employee.url }}">Vis profil</a>
+  <a href="{{ employee.url }}">
+    <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+      <div class="card">
+        <div class="img-empl" style="background-image: url('{{ employee.image }}')"></div>
+        <div class="card-body">
+          <h5 class="card-title">{{ employee.title }}</h5>
+          <p class="card-subtitle mb-2">{{ employee.description }} {{ employee.email }} <br> {{ employee.call }} </p>
+          <div class="d-flex justify-content-center align-items-center flex-column">
+            <p>Vis profil</p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
+  </a>
+
 
   {% endfor %}
 </div>
@@ -44,12 +39,12 @@ show: true
 <section class="information-card">
   <h1>Brænder du inde med et spørgsmål?</h1>
   <span>
-      <div class="nav nav-tabs" id="nav-tab" role="tablist">
-        <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab"
-          aria-controls="nav-home" aria-selected="true">København</a>
-        <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab"
-          aria-controls="nav-profile" aria-selected="false">Fredericia</a>
-      </div>
+    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+      <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab"
+        aria-controls="nav-home" aria-selected="true">København</a>
+      <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab"
+        aria-controls="nav-profile" aria-selected="false">Fredericia</a>
+    </div>
     <div class="tab-content" id="nav-tabContent">
       <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
         <div class="information-card-text">
@@ -59,7 +54,8 @@ show: true
           <a href="#">+45 39 20 10 20</a>
           <a href="mailto:info@copenhagencoaching.dk" target="_blank">info@copenhagencoaching.dk</a>
           <a href="https://goo.gl/maps/a2Tb1RTMDKQ3G8Vz5" target="_blank">Blegdamsvej 104 A, 2. Sal 2200 Kbh Ø</a>
-          <a href="https://datacvr.virk.dk/data/visenhed?enhedstype=virksomhed&id=28132891" target="_blank">CVR: 28132891</a>
+          <a href="https://datacvr.virk.dk/data/visenhed?enhedstype=virksomhed&id=28132891" target="_blank">CVR:
+            28132891</a>
           <button><a href="mailto:info@copenhagencoaching.dk">Kontakt os</a></button>
         </div>
         <div class="iframe-container">
@@ -75,8 +71,10 @@ show: true
             forbi</p>
           <a href="#">+45 39 20 10 20</a>
           <a href="mailto:info@copenhagencoaching.dk" target="_blank">info@copenhagencoaching.dk</a>
-          <a href="https://goo.gl/maps/kWkKQUaxFp6bxz587" target="_blank">Madsby Playpark, Lumbyesvej 45, 7000 Fredericia</a>
-          <a href="https://datacvr.virk.dk/data/visenhed?enhedstype=virksomhed&id=28132891" target="_blank">CVR: 28132891</a>
+          <a href="https://goo.gl/maps/kWkKQUaxFp6bxz587" target="_blank">Madsby Playpark, Lumbyesvej 45, 7000
+            Fredericia</a>
+          <a href="https://datacvr.virk.dk/data/visenhed?enhedstype=virksomhed&id=28132891" target="_blank">CVR:
+            28132891</a>
           <button><a href="mailto:info@copenhagencoaching.dk">Kontakt os</a></button>
         </div>
         <div class="iframe-container">

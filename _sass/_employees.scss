@@ -40,10 +40,7 @@
 
     .card-body {
       text-align: center;
-
-      .card-text {
-        display: none; // Caroline
-      }
+      color: #000000;
     }
 
     .img-empl {
@@ -58,18 +55,17 @@
       font-size: 18px;
       font-weight: 600;
       margin-bottom: 0;
-      padding-bottom: 20px;
+      padding-bottom: 18px;
+      color: #000000;
     }
 
     .card-subtitle {
-      color: #1ABC9C;
       font-size: 18px;
-      font-weight: 500; // Caroline
+      font-weight: 500;
+    }
 
-      a {
-        padding-top: 20px;
-        font-weight: 400;
-      }
+    .card-subtitle-info {
+
     }
 
     .showmore-button:hover {
