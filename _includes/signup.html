@@ -5,5 +5,9 @@
     <p>Er du interreseret i {{ page.title }}?</p>
     {% endif %}
     <span></span>
-    <button class="sign-up-button">Tilmeld dig</button>
+    {% if reg-url %}
+    <a href="{{ reg-url }}"><button class="sign-up-button">Tilmeld dig</button></a>
+    {% else %}
+    <a href="/registration/"><button class="sign-up-button">Tilmeld dig</button></a>
+    {% endif %}
 </div>

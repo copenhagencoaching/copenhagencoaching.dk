@@ -8,7 +8,7 @@ layout: page
 
         {% capture url %}n={{ page.title | uri_escape }}{% endcapture %}
 
-        <a href="/registration/?{{ url }}"><button class="green-button">Tilmeld</button></a>
+        {% capture reg-url %}/registration/?{{ url }}{% endcapture %}
 
     </div>
 
