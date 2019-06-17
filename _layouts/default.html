@@ -23,7 +23,30 @@
         });
     </script>
 
+<script>
+
+        $(document).ready(function () {
+            $(".show-more").on("click", function () {
+                    var $this = $(this);
+                    var $content = $this.parent().prev("div.content");
+                    var linkText = $this.text().toUpperCase();
+        
+                    if (linkText === "SHOW MORE") {
+                        linkText = "Show less";
+                        $content.attr("class", "content showContent");
+                    } else {
+                        linkText = "Show more";
+                        $content.attr("class", "content hideContent");
+                    };
+        
+                    $this.text(linkText);
+                });
+        });
+        
+               
+            </script>
 
 </body>
 
 </html>
+addClass('square').removeClass('circle');

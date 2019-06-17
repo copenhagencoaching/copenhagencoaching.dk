@@ -45,6 +45,7 @@
           opacity: .9;
           color: #ffffff;
         }
+
         button:hover {
           opacity: 1;
         }
@@ -63,9 +64,11 @@
         background-position: center center;
         background-repeat: no-repeat;
       }
+
       .international-pane-image:nth-child(2) {
         background-image: url(/img/international/2.png);
       }
+
       .third {
         background-image: url(/img/international/3.png) !important;
       }
@@ -81,4 +84,19 @@ hr {
 
 .international-pane:nth-of-type(1) {
   margin-top: 0 !important;
+}
+
+.hideContent {
+  overflow: hidden;
+  line-height: 1em;
+  height: 2em;
+}
+
+.showContent {
+  line-height: 1em;
+  height: auto;
+}
+
+.showContent {
+  height: auto;
 }
