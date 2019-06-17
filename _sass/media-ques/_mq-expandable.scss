@@ -26,9 +26,32 @@
           margin-top: -75px;
         }
       }
+
+        p, .showContent {
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 24px;
+          height: auto;
+          -webkit-transition: all 0.5s ease;
+          -moz-transition: all 0.5s ease;
+          -o-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+        }
     }
 
     .expandable-pane:nth-of-type(2) {
+      flex-direction: column-reverse !important;
+    }
+    
+    .expandable-pane:nth-of-type(4) {
+      flex-direction: column-reverse !important;
+    }
+
+    .expandable-pane:nth-of-type(6) {
+      flex-direction: column-reverse !important;
+    }
+
+    .expandable-pane:nth-of-type(8) {
       flex-direction: column-reverse !important;
     }
   }

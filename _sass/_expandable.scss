@@ -42,14 +42,17 @@
         p, .showContent {
           font-size: 16px;
           font-weight: 400;
-          padding: 25px 0;
+          padding: 10px 0;
           line-height: 24px;
           height: 325px;
           -webkit-transition: all 0.5s ease;
           -moz-transition: all 0.5s ease;
           -o-transition: all 0.5s ease;
           transition: all 0.5s ease;
+        }
 
+        .showContent {
+          padding-top: 10px !important;
         }
 
         .show-less {
