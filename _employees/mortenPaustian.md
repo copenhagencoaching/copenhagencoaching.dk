@@ -5,7 +5,7 @@ image: /portraits/mortenPaustian.jpg
 order: 7
 call: + 45 40 13 69 68
 email: mp@copenhagencoahing.dk
-description: Coach
+description: Konsulent
 linkedin: https://www.linkedin.com/in/dr-mult-morten-paustian-230321/
 ---
 
