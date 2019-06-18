@@ -3,25 +3,22 @@ layout: page
 ---
 
 <div class="row employee">
-    <hr>
-    <div class="col-lg-12 col-12 empl-info infobox">
+    <div class="empl-info infobox">
         <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-12 col-12 justify-content-center d-flex"  style="margin: 0;">
+            <div class="col-md-4 box">
                 <h5>{{ page.description }}</h5>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-12 col-12 justify-content-center d-flex"  style="margin: 0;">
+            <div class="col-md-4 box">
                 <h5><a href="phoneto:{{ page.call }}">{{ page.call }}</a></h5>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-12 col-12 justify-content-center d-flex" style="margin: 0;">
+            <div class="col-md-4 box">
                 <h5><a href="mailto:{{ page.email }}">{{ page.email }}</a></h5>
             </div>
         </div>
     </div>
     <div class="col-lg-12 col-12">
-
         <img src="{{ page.image }}" alt="{{ page.title }}" class="rounded float-left img-fluid">
         {{ page.content }}
-
 
         <div class="d-flex justify-content-center">
             </di><a data-proofer-ignore href="{{ page.linkedin }}" target="_blank"><i
