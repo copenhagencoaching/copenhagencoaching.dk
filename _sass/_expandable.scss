@@ -11,7 +11,6 @@
 
     .expandable-pane {
       height:auto;
-      background-color: red;
       width: 100%;
       margin: 100px 0;
       display: flex;
@@ -28,6 +27,14 @@
         h1 {
           font-size: 18px;
           font-weight: 600;
+        }
+
+        .content {
+          h1, h2, h3, h4, h5 {
+            font-size: 16px;
+          font-weight: 400;
+          line-height: 24px;
+          }
         }
 
         .hideContent {
@@ -50,6 +57,7 @@
           -o-transition: all 0.5s ease;
           transition: all 0.5s ease;
           padding-top: 10px !important;
+
         }
 
         .show-less {
