@@ -12,7 +12,7 @@
 
     {% include scripts/plugin.html %}
 
-    <!-- Makes the navbar-nav longer in order to accomidate for the search input field -->
+    <!-- Expands and collapses the divs on Consulting, Coaching and International pages -->
 
     <script>
         $(".show-more").on("click", function () {
@@ -30,10 +30,12 @@
                 $content.attr("class", "content hideContent"), 400;
                 $this.attr("class", "show-more");
             };
-    
+
             $this.text(linkText);
         });
     </script>
+
+    <!-- Makes the navbar-nav longer in order to accomidate for the search input field -->
 
     <script>
         $('#search-button').on('click', function () {
@@ -44,7 +46,6 @@
         });
     </script>
 
-  
 </body>
 
 </html>
