@@ -26,7 +26,6 @@
     background-size: cover;
   }
 
-
   p {
     padding: 50px 0;
     padding-left: 10px;
@@ -44,9 +43,13 @@
     color: #ffffff;
     font-weight: 400 !important;
     pointer-events: none;
-    h1, p, h2 {
+
+    h1,
+    p,
+    h2 {
       font-size: 20px;
     }
+
     p {
       padding: 10px 0;
       width: 75%;
@@ -64,9 +67,12 @@
     font-weight: 400 !important;
     pointer-events: none;
 
-    h1, p, h2 {
+    h1,
+    p,
+    h2 {
       font-size: 20px;
     }
+
     p {
       padding: 10px 0;
       width: 75%;
@@ -74,6 +80,37 @@
   }
 
 }
+
+// Styling for the individual stories
+
+.individual-stories {
+  height: 100%;
+  width: 1230px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+
+  .row {
+    width: 750px !important;
+    height: auto;
+    padding: 100px 0px;
+  }
+
+  .stories-information {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    background: red;
+    padding: 15px 0;
+
+    a {
+      padding: 0;
+    }
+  }
+
+}
+
+// Media query
 
 @media (max-width: 768px) {
 
@@ -94,7 +131,8 @@
     }
   }
 
-  .large-article-text, .small-article-text {
+  .large-article-text,
+  .small-article-text {
     position: absolute;
     top: 50%;
     left: 45% !important;
@@ -104,9 +142,13 @@
     color: #ffffff;
     font-weight: 400;
     pointer-events: none;
-    h1, p, h2 {
+
+    h1,
+    p,
+    h2 {
       font-size: 15px !important;
     }
+
     p {
       padding: 10px 0;
       width: 100% !important;
