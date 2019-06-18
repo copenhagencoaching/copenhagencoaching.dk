@@ -18,7 +18,7 @@ order: 5
   {% assign sorted_empl = site.employees | sort: "order" %}
   {% for employee in sorted_empl %}
   <a href="{{ employee.url }}">
-    <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+    <div class="col-lg-4 col-md-4 col-sm-12 col-12 no-col-12-margin">
       <div class="card">
         <div class="img-empl" style="background-image: url('{{ employee.image }}')"></div>
         <div class="card-body">

@@ -6,22 +6,24 @@ signup: Uddannelses tilbud
 show: true
 order: 1
 ---
-
+<div class="introductionText">
+  <h1>Incredibly generic introdutionary title</h1>
+  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia dolor enim velit<br>provident culpa,
+    omnis eius? Placeat deleniti aliquam rerum.
+  </p>
+</div>
 
 <div class="row educations" id="accordionExample">
 
   {% for category in site.categories %}
 
-
-  <div class="col-lg-3 col-md-3 col-sm-12 col-12">
+  <div class="col-lg-3 col-md-3 col-sm-12 col-12 no-col-12-margin">
     <a href="{{ category.url }}">
       <div class="category" style="background-image: url('/img/categories/{{ category.image }}')">
         <h4>{{ category.title }}</h4>
       </div>
     </a>
-
   </div>
-
 
 
   {% endfor %}

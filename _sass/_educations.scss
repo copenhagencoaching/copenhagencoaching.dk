@@ -1,6 +1,7 @@
 .educations {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 100px;
 
   .col-lg-3 {
     margin-bottom: 30px;
@@ -124,14 +125,13 @@
 }
 
 .conversations {
-
   .green-button {
     width: 125px;
     height: 40px;
     font-size: 20px;
     font-weight: 600;
     text-transform: none;
-}
+  }
 
   .active-card {
     display: visible;
@@ -181,9 +181,12 @@
                 overflow: hidden;
                 margin-bottom: 35px;
 
-
-
-                p, h1, h2, h3, h4, h5 {
+                h1,
+                h2,
+                h3,
+                h4,
+                h5,
+                p {
                   font-size: 18px;
                   font-weight: 400;
                 }
