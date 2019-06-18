@@ -17,7 +17,8 @@ order: 3
         </div>
         {% for consultation in site.consultations %}
         <section id="{{ consultation.title | remove:' ' }}" class="col-12 expandable-pane">
-            <div class="col-lg-5 col-sm-12 expandable-pane-image" style="background-image: url('{{ consultation.image }}')"></div>
+            <div class="col-lg-5 col-sm-12 expandable-pane-image"
+                style="background-image: url('{{ consultation.image }}')"></div>
             <div class="col-lg-7 col-sm-12 expandable-pane-text">
                 <h1>{{ consultation.title }}</h1>
                 <div class="content hideContent">
@@ -26,11 +27,10 @@ order: 3
                 <button href="{{ consultation.title | remove:' ' }}" class="show-more">Vis mere</button>
             </div>
         </section>
+        <hr>
         {% endfor %}
-<hr>
 
     </div>
 </div>
 
 {% include signup.html %}
-
