@@ -10,97 +10,25 @@ order: 6
 <section class="stories">
     <div class="row">
         <p>Seneste Historier</p>
-        <div class="col-lg-12">
-            <a href="#">
-                <div class="story">
-                    <div class="large-article-text">
-                        <h1>Start din Master of Business Coaching I Efteråret 2019</h1>
-                        <p>Nu åbner vi for tilmeldinger til nye uddannelsesforløb af vores Master of Business Coaching.
-                            Den 12.
-                            august 2019 starter vi i København....</p>
-                        <h2>Læs mere</h2>
-                    </div>
-                </div>
-            </a>
-        </div>
+        {% assign sorted_stories = site.posts | sort: "date" %}
+        
+        {% for post in sorted_stories limit:8 %}
         <div class="col-lg-4">
-            <a href="#">
+            <a href="{{ post.url }}">
                 <div class="story">
                     <div class="small-article-text">
-                        <h1>Coaching-Foredragsrække På Københavns Universitet</h1>
-                        <p>Har man lyst til at vide mere om coaching fra forskellige, faglige perspektiver...</p>
+                        
+                        <h1>{{ post.title }}</h1> 
+                        <p>{{ post.content | | truncatewords: 20, '...' }}}}</p>
                         <h2>Læs mere</h2>
                     </div>
                 </div>
             </a>
         </div>
-        <div class="col-lg-4">
-            <a href="/posts/frisættende-lederskab/">
-                <div class="story">
-                    <div class="small-article-text">
-                        <h1>Frisættende Lederskab</h1>
-                        <p>Så har vi startet et spændende forløb med en gruppe ledere fra Ungdomscentret...</p>
-                        <h2>Læs mere</h2>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <div class="col-lg-4">
-            <a href="#">
-                <div class="story">
-                    <div class="small-article-text">
-                        <h1>Topledere Skal Kunne Vende Sig Mod Sig Selv</h1>
-                        <p>Ledelse handler grundlæggende om at være noget for den anden, og faren for at...</p>
-                        <h2>Læs mere</h2>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <p>Ældre Historier</p>
-        <div class="col-lg-12">
-            <a href="#">
-                <div class="story">
-                    <div class="large-article-text">
-                        <h1>Sikken Fest!</h1>
-                        <p>Tak til alle gæster, som kom og fejrede det nye års ankomst sammen med os! Det...</p>
-                        <h2>Læs mere</h2>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <div class="col-lg-4">
-            <a href="#">
-                <div class="story">
-                    <div class="small-article-text">
-                        <h1>Nyt, Spændende Samarbejde Med Herning Bibliotekerne</h1>
-                        <p>Det er med stor glæde og stolthed, at vi hermed kan fortælle, at vi netop har...</p>
-                        <h2>Læs mere</h2>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <div class="col-lg-4">
-            <a href="#">
-                <div class="story">
-                    <div class="small-article-text">
-                        <h1>Så Kan Julefreden Endelig Sænke Sig Over Det Lille CCC-Akademi</h1>
-                        <p>Året går på hæld, og vi ønsker alle vores studerende en rigtig glædelig jul...</p>
-                        <h2>Læs mere</h2>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <div class="col-lg-4">
-            <a href="#">
-                <div class="story">
-                    <div class="small-article-text">
-                        <h1>Ny Klumme I Økonomisk Ugebrev</h1>
-                        <p>Copenhagen Coaching Center har indgået et nyt formidlingssamarbejde med...</p>
-                        <h2>Læs mere</h2>
-                    </div>
-                </div>
-            </a>
-        </div>
+        {% endfor %}
+
+
+
     </div>
 </section>
 
