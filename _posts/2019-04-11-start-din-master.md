@@ -4,6 +4,7 @@ title: Start din master og Business Coaching i efteråret 2019
 image: /img/blog/class.jpg
 bg-image: /img/blog/class.jpg
 author: Frederikke Winther
+signup: forskellige ydelser
 ---
 
 Nu åbner vi for tilmeldinger til nye uddannelsesforløb af vores Master of Business Coaching.

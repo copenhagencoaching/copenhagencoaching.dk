@@ -4,6 +4,7 @@ title: Ny klumme i økonomisk ugebrev
 image: /img/blog/class.jpg
 bg-image: /img/blog/class.jpg
 author: Bianca Godske Røjbæk
+signup: forskellige ydelser
 ---
 
 Copenhagen Coaching Center har indgået et nyt formidlingssamarbejde med nyhedsmediet Økonomisk Ugebrev.

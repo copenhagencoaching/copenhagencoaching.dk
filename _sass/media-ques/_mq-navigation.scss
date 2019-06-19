@@ -5,7 +5,9 @@
 @media (max-width: 767.98px) {
 
   nav {
-    width: 100%;
+    width: 100% !important;
+    height: 70px !important;
+    z-index: 3000;
   }
 
   .navbar {
