@@ -9,11 +9,12 @@ order: 4
 <div class="expandable">
     <div class="row">
         <div class="introductionText">
-            <h1>Incredibly generic introdutionary title</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia dolor enim velit<br>provident culpa,
-                omnis eius? Placeat deleniti aliquam rerum.
+            <h1>We're branching out internationally - join us!</h1>
+            <p>This summer, Copenhagen Coaching Center will branch of into educations and courses in english. Down
+                below, you can read about the educations we're planning on starting with this summer!
             </p>
         </div>
+        <hr>
         {% for international in site.internationals %}
         <section id="{{ international.title | remove:' ' }}" class="col-12 expandable-pane">
             <div class="col-lg-5 col-sm-12 expandable-pane-image"
@@ -26,7 +27,6 @@ order: 4
                 <button href="#{{ international.title | remove:' ' }}" class="show-more">Vis mere</button>
             </div>
         </section>
-        <hr>
         {% endfor %}
     </div>
 </div>

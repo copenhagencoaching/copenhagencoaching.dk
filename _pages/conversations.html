@@ -10,15 +10,16 @@ order: 2
 <div class="expandable">
     <div class="row">
         <div class="introductionText">
-            <h1>Incredibly generic introdutionary title</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia dolor enim velit<br>provident culpa,
-                omnis eius? Placeat deleniti aliquam rerum.
+            <h1>Har du brug for at blive klogere på dig selv?</h1>
+            <p>Står du i udfordringer der synes svære at finde løsninger på? Så kunne coachingsamtaler være en mulig
+                måde at finde både nye nuancer i problemstilligen, men også at finde svar på.
             </p>
         </div>
 
         {% for conversation in site.conversations %}
         <section id="{{ conversation.title | remove:' ' }}" class="col-12 expandable-pane">
-            <div class="col-lg-5 col-sm-12 expandable-pane-image" style="background-image: url('{{ conversation.image }}')"></div>
+            <div class="col-lg-5 col-sm-12 expandable-pane-image"
+                style="background-image: url('{{ conversation.image }}')"></div>
             <div class="col-lg-7 col-sm-12 expandable-pane-text">
                 <h1>{{ conversation.title }}</h1>
                 <div class="content hideContent">
