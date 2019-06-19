@@ -43,10 +43,16 @@
     font-weight: 400 !important;
     pointer-events: none;
 
-    h1,
+    h1 {
+      font-weight: 600;
+      font-size: 20px;
+    }
+
     p,
     h2 {
       font-size: 20px;
+      font-weight: 400;
+      text-shadow: 1px 1px #C0C0C0;
     }
 
     p {
@@ -66,10 +72,16 @@
     font-weight: 400 !important;
     pointer-events: none;
 
-    h1,
+    h1 {
+      font-weight: 600;
+      font-size: 20px;
+    }
+
     p,
     h2 {
       font-size: 20px;
+      font-weight: 400;
+      text-shadow: 1px 1px #C0C0C0;
     }
 
     p {

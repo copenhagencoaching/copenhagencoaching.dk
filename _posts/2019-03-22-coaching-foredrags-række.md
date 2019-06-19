@@ -1,8 +1,8 @@
 ---
 published: true
 title: Coaching-foredragsrække på Københavns Universitet
-image: /img/blog/class.jpg
-bg-image: /img/blog/class.jpg
+image: /img/blog/post7.jpeg
+bg-image: /img/blog/post7.jpeg
 author: Frederikke Winther
 signup: forskellige ydelser
 ---

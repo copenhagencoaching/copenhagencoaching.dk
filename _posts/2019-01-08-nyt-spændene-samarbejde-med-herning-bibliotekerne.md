@@ -1,8 +1,8 @@
 ---
 published: true
 title: Nyt, spændene samarbejde med Herning Bibliotekerne
-image: /img/blog/class.jpg
-bg-image: /img/blog/class.jpg
+image: /img/blog/post3.jpeg
+bg-image: /img/blog/post3.jpeg
 author: Frederikke Winther
 signup: forskellige ydelser
 ---

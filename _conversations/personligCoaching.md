@@ -3,7 +3,7 @@ published: true
 id: 4
 author: Personlig coaching
 title: Personlig coaching
-image: /img/coaching/businesscoaching3.jpg
+image: /img/graphic/expandable-9.jpg
 bg-image: /img/coaching/businesscoaching3.jpg
 description: Personlig coaching er til dig der har brug for at styrke balancen mellem privatliv og arbejdsliv, karrierevejledende samtaler, udfordringer og overvejelse om jobskifte, stresshåndtering ect. Vi kan tage udgangspunkt i både private og arbejdsmæssige udfordringer, det er op til dig – intet er for stort eller for småt.
 ---

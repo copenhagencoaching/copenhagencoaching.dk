@@ -1,8 +1,8 @@
 ---
 published: true
 title: Så kan julefreden endelig sænke sig over det lille CCC-akademi
-image: /img/blog/class.jpg
-bg-image: /img/blog/class.jpg
+image: /img/blog/post2.jpeg
+bg-image: /img/blog/post2.jpeg
 author: Frederikke Winther
 signup: forskellige ydelser
 ---

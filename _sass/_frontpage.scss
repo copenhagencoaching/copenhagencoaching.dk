@@ -1,11 +1,12 @@
 .frontpage {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
     background-image: url(/img/frontpage-images/frontpage-1.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    color: #ffffff;
-    display: flex;
-    align-items: center;
+
     span {
         height: 100%;
         width: 1430px;
@@ -18,8 +19,8 @@
         font-weight: 600;
     }
     p {
-        font-size: 18px;
-        font-weight: 400;
+        font-size: 20px;
+        font-weight: 500;
         width: 615px;
         padding: 10px 0;
     }
@@ -57,15 +58,15 @@
 }
 
 .frontpage:nth-child(2) {
-    background: purple;
+    background-image: url(/img/frontpage-images/frontpage-2.jpg);
 }
 
 .frontpage:nth-child(3) {
-    background: green;
+    background-image: url(/img/frontpage-images/frontpage-3.jpg);
 }
 
 .frontpage:nth-child(4) {
-    background: blue;
+    background-image: url(/img/frontpage-images/frontpage-4.jpg);
 }
 
 #fp-nav ul li a span {
