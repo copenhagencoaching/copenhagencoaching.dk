@@ -1,11 +1,12 @@
 ---
 published: true
-category: lederskab
+category: filosofi
 title: Masterclass I Protreptik
 image: /img/coaching/PROTREPTIK.jpg
 bg-image: /img/coaching/PROTREPTIK.jpg
-description: Deltag i den årlige Masterclass i protreptik. Hvert år tager vi fat på forskellige teoretiske temaer og afprøver dem med hinanden i praksis. Mød andre erfarne protreptikere og del dine erfaringer og indsigter.
 ---
+
+Deltag i den årlige Masterclass i protreptik. Hvert år tager vi fat på forskellige teoretiske temaer og afprøver dem med hinanden i praksis. Mød andre erfarne protreptikere og del dine erfaringer og indsigter.
 
 På den årlige masterclass i protreptik vil vi i dette forår, 2019, fokusere på de forskellige veje, der er til “den tomme plads” (stedet hvorfra man bevæger sig ud i nye erkendelser), og samtidig udforske begrebet om denne.
 Nærmere bestemt vil vi arbejde med;

@@ -1,13 +1,14 @@
 ---
 published: true
-category: master-i-business-coaching
+category: filosofi
 title: Ledelseskursus på Lesbos
 image: /img/coaching/lesbos.jpg
 bg-image: /img/coaching/lesbos.jpg
-description: Tag med på en opdagelsesrejse, hvor vi sammen udforsker ledelseskunsten og finder ind til de vigtigste værdier i det at lede sig selv og fællesskabet.
 ---
 
 ## Hvad er den vigtigste værdi når du leder?
+
+Tag med på en opdagelsesrejse, hvor vi sammen udforsker ledelseskunsten og finder ind til de vigtigste værdier i det at lede sig selv og fællesskabet.
 
 Har du givet dig selv mulighed for at finde det der betyder mest for dig, når du leder? Nu har du muligheden for at tænke over det, mærke efter det og blive til det.
 

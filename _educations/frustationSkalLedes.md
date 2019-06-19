@@ -1,13 +1,14 @@
 ---
 published: true
-category: ccc-netveark
+category: proces-og-strategi
 title: Frustration skal ledes
 image: /img/coaching/ledelsessparring.jpg
 bg-image: /img/coaching/ledelsessparring.jpg
-description: Er du leder og arbejder i en organisation med forhøjet frustrationsniveau, så meld dig til denne skræddersyet uddannelse, hvor frustration betragtes som et organisatorisk vilkår. Mulighed for tilkøb af DOL-moduler.
 ---
 
 ## Ledelse af miljøer præget af et højt frustrationsniveau
+
+ Er du leder og arbejder i en organisation med forhøjet frustrationsniveau, så meld dig til denne skræddersyet uddannelse, hvor frustration betragtes som et organisatorisk vilkår. Mulighed for tilkøb af DOL-moduler.
 
 Fælles for de fleste offentlige organisationer og institutioner er, at ledelsen befinder sig i et krydspres. Krav om konstant forandring, omorganisering, økonomisk pres og new public management er alle faktorer, som kan påvirke frustrationsniveauet i organisationen. Når en medarbejdergruppe føler sig presset, overset, tromlet, truet eller afprofessionaliseret stiger frustrationsniveauet, hvilket kan medføre stress, forråelse, forhøjet medarbejderudskiftning og faldende, faglig kvalitet.
 
