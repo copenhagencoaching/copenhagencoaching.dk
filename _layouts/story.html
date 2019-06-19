@@ -7,7 +7,7 @@ layout: page
         <h1>{{ page.title }}</h1>
         <span class="stories-information">
             {{ page.date | date: "%B %d, %Y" }} af&nbsp;
-            <a href="/employees/{{ page.author | remove: ' ' }}" data-proofer-ignore>{{ page.author }}</a>
+            <a href="/employees/{{ page.author | remove: ' ' }}/" data-proofer-ignore>{{ page.author }}</a>
         </span>
         <div class="share-icons">
             <a href="https://www.facebook.com/sharer.php?u={{ page.url | prepend: 'https://stage.copenhagencoaching.dk' }}"><i class="fab fa-facebook-f" title="Del på Facebook"></i></a>
