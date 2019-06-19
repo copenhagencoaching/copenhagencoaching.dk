@@ -1,17 +1,19 @@
 // Extra small devices (portrait phones, less than 576px)
-@media (max-width: 575.98px) {
-
-}
+@media (max-width: 575.98px) {}
 
 // Small devices (landscape phones, less than 768px)
 @media (max-width: 767.98px) {
   body {
     margin: 0;
   }
-  
+
   .page {
     margin: 0;
     padding: 0;
+
+    .introduction-text {
+      color: red !important;
+    }
   }
 
   .row {
@@ -34,14 +36,15 @@
     }
 
   }
+
 }
 
 // Medium devices (tablets, less than 992px)
-@media (max-width: 991.98px) {
-
-}
+@media (max-width: 991.98px) {}
 
 // Large devices (desktops, less than 1200px)
 @media (max-width: 1199.98px) {}
+
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {}
+
 @media only screen and (min-device-width : 1024px) and (max-device-width : 1366px) {}
