@@ -1,7 +1,6 @@
 .expandable {
 
   .row {
-
     width: 1230px;
     height: auto;
     padding-bottom: 50px;
@@ -11,14 +10,14 @@
     }
 
     .expandable-pane {
-      height: 400px;
+      height:auto;
       width: 100%;
       margin: 100px 0;
       display: flex;
       flex-direction: row;
 
       .expandable-pane-text {
-        height: inherit;
+        order: 2;
         width: 100%;
         padding-left: 25px;
         display: flex;
@@ -30,6 +29,14 @@
           font-weight: 600;
         }
 
+        .content {
+          h1, h2, h3, h4, h5 {
+            font-size: 16px;
+          font-weight: 400;
+          line-height: 24px;
+          }
+        }
+
         .hideContent {
           height: 150px;
           overflow: hidden;
@@ -39,7 +46,7 @@
           transition: all 0.5s ease;
         }
 
-        p, .showContent {
+        .showContent {
           font-size: 16px;
           font-weight: 400;
           padding: 10px 0;
@@ -49,10 +56,8 @@
           -moz-transition: all 0.5s ease;
           -o-transition: all 0.5s ease;
           transition: all 0.5s ease;
-        }
-
-        .showContent {
           padding-top: 10px !important;
+
         }
 
         .show-less {
@@ -83,19 +88,13 @@
       .expandable-pane-image {
         height: 400px;
         width: 100%;
-        background-image: url(/img/international/1.png);
+        order: 1;
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
       }
 
-      .expandable-pane-image:nth-child(2) {
-        background-image: url(/img/international/2.png);
-      }
-
-      .third {
-        background-image: url(/img/international/3.png) !important;
-      }
+     
     }
   }
 }
@@ -108,4 +107,13 @@ hr {
 
 .expandable-pane:nth-of-type(1) {
   margin-top: 0 !important;
+}
+
+.reverse-pane-img {
+  order: 2 !important;
+}
+
+.reverse-pane-text {
+  order: 1 !important;
+  padding-left: 0 !important;
 }

@@ -1,11 +1,12 @@
 ---
 published: true
-category: personlig-udvikling-og-transition
+category: proces-og-strategi
 title: Proceslederuddannelse
 image: /img/coaching/ledelsessparring.jpg
 bg-image: /img/coaching/ledelsessparring.jpg
-description: Styrk dine evner til at lede processer med en proceslederuddannelse.
 ---
+
+Styrk dine evner til at lede processer med en proceslederuddannelse.
 
 Uddannelsen henvender sig til ledere og konsulenter, som har ansvar for, leder og håndterer forandringer og processer i organisationen, internt som eksternt.
 
