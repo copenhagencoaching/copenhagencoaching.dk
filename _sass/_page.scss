@@ -68,11 +68,19 @@ body {
         }
 
         p {
-            font-size: 16px;
+            font-size: 18px;
             text-align: center;
             line-height: 32px;
             width: 615px;
         }
+    }
+
+    .read-more {
+        color: #1abc9c;
+        display: flex;
+        justify-content: left;
+        width: 1230px;
+        padding-bottom: 100px;
     }
 
     // Button animations

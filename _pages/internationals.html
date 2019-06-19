@@ -14,7 +14,6 @@ order: 4
                 below, you can read about the educations we're planning on starting with this summer!
             </p>
         </div>
-        <hr>
         {% for international in site.internationals %}
         <section id="{{ international.title | remove:' ' }}" class="col-12 expandable-pane">
             <div class="col-lg-5 col-sm-12 expandable-pane-image"
@@ -27,6 +26,7 @@ order: 4
                 <button href="#{{ international.title | remove:' ' }}" class="show-more">Vis mere</button>
             </div>
         </section>
+        <hr>
         {% endfor %}
     </div>
 </div>

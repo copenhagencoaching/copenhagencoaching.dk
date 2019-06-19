@@ -1,7 +1,7 @@
 ---
 published: true
-category: ccc-netværk
-title: Ledelseskursus på Lesbos
+category: ccc-netveark
+title: CCC Netværk
 image: /img/coaching/lesbos.jpg
 bg-image: /img/coaching/lesbos.jpg
 ---

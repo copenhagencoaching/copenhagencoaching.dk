@@ -38,12 +38,36 @@
   }
 
   .checkbox {
-    margin-bottom: 25px;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    
+    p {
+      margin-top: -5px;
+      margin-left: 15px;
+    }
+
   }
 
   button {
     display: flex;
     flex-direction: column;
+  }
+
+  .green-button {
+    height: 50px;
+    width: 175px;
+    background: #1abc9c;
+    border: none;
+    color: #ffffff;
+    font-weight: 600;
+    opacity: .9;
+    margin: 50px 0;
+  }
+
+  .green-button:hover {
+    opacity: 1;
   }
 
 }
