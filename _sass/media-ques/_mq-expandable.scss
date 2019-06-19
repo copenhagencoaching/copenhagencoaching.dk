@@ -13,18 +13,28 @@
       padding-bottom: 0;
     }
 
+    .introductionText {
+      padding-bottom: 0 !important;
+    }
+
     .expandable-pane {
-      height: 800px !important;
+      height: auto !important;
       flex-direction: column !important;
       justify-content: center !important;
       margin: 0 !important;
+      padding: 75px 0 !important; 
 
       .expandable-pane-text {
         padding: 0 !important;
+        margin-top: 150px;
 
         h1 {
           margin-top: -75px;
         }
+      }
+
+      .expandable-pane-image {
+        height: 300px !important;
       }
 
         p, .showContent {

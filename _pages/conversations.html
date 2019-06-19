@@ -15,7 +15,6 @@ order: 2
                 måde at finde både nye nuancer i problemstilligen, men også at finde svar på.
             </p>
         </div>
-
         {% for conversation in site.conversations %}
         <section id="{{ conversation.title | remove:' ' }}" class="col-12 expandable-pane">
             <div class="col-lg-5 col-sm-12 expandable-pane-image"
@@ -28,9 +27,11 @@ order: 2
                 <button href="#{{ conversation.title | remove:' ' }}" class="show-more">Vis mere</button>
             </div>
         </section>
-        <hr>
         {% endfor %}
+<<<<<<< HEAD
 
+=======
+>>>>>>> close #244 fix mobile version for the expandable divs
     </div>
 </div>
 
