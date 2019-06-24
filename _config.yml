@@ -104,7 +104,7 @@ defaults:
       layout: category
       
 prose:
-  rooturl: '_posts'
+  rooturl: '/'
   siteurl: 'www.copenhagencoaching.dk'
   relativeLinks: ''
   media: 'img/blog'
@@ -129,6 +129,7 @@ prose:
     - /css
     - /js
     - /_sass
+    - /_categories
   metadata:
     _posts:
       - name: "title"
@@ -177,6 +178,33 @@ prose:
               value: "events"
             - name: "Kurser"
               value: "kurser"
+    _educations:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Titel"
+      - name: "category"
+        field:
+          element: "select"
+          label: "Vælg kategori"
+          placeholder: "Vælg kategori"
+          options:
+            - name: "CCC Netværk"
+              value: "ccc-netveark"
+            - name: "Certificeringer"
+              value: "certificeringer"
+            - name: "Diplom i offentlig ledelse"
+              value: "diplom-i-offentlig-ledelse"
+            - name: "Filosofi"
+              value: "filosofi"
+            - name: "Lederskab"
+              value: "lederskab"
+            - name: "Master i business coaching"
+              value: "master-i-business-coaching"
+            - name: "Personlig udvikling og transition"
+              value: "personlig-udvikling-og-transition"
+            - name: "Proces og strategi"
+              value: "proces-og-strategi"
 
 
 
