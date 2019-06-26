@@ -39,10 +39,18 @@
 
     <script>
         $('#search-button').on('click', function () {
-            $('.navbar-nav').addClass('navbar-nav-wider');
+            $('.navbar-nav').addClass('navbar-nav-wider'),
+            $('#search').addClass('show'),
+            $('.search-cross').addClass('show'),
+            $('#search-button').addClass('hide');
+
+
         });
         $('.search-cross').on('click', function () {
-            $('.navbar-nav').removeClass('navbar-nav-wider');
+            $('.navbar-nav').removeClass('navbar-nav-wider'),
+            $('#search').removeClass('show'),
+            $('.search-cross').removeClass('show'),
+            $('#search-button').removeClass('hide');
         });
     </script>
 

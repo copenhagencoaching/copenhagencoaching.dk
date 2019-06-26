@@ -104,13 +104,34 @@ nav {
   }
 }
 
+.show {
+  display: inline-block !important;
+}
+
+.hide {
+  display: none !important;
+}
+
+#search-button {
+  cursor: pointer;
+}
+
 #search {
   position: relative;
+  display: none;
 
+  input {
+    width: 50px;
+
+
+  }
   .search-cross {
     position: absolute;
     right: 7.5px;
     top: 2.5px;
+    display: none;
+    border: none;
+    background: transparent;
 
     .fas {
       color: #000000
@@ -123,7 +144,7 @@ nav {
 }
 
 .modal-open {
-  overflow:hidden;
-  overflow-y:scroll;
+  overflow: hidden;
+  overflow-y: scroll;
   padding-right: 0 !important;
 }
