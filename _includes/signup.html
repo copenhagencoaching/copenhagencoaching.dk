@@ -1,13 +1,3 @@
 <div class="sign-up-banner">
-    {% if page.signup %}
-    <p>Er du interreseret i vores {{ page.signup }}?</p>
-    {% else %}
-    <p>Er du interreseret i {{ page.title }}?</p>
-    {% endif %}
-    <span></span>
-    {% if reg-url %}
-    <a href="{{ reg-url }}"><button class="sign-up-button">Tilmeld dig</button></a>
-    {% else %}
-    <a href="/registration/"><button class="sign-up-button">Tilmeld dig</button></a>
-    {% endif %}
+    <a href="{{ reg-url }}"><button class="sign-up-button">Tilmeldelse</button></a>
 </div>
