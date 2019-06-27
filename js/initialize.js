@@ -5,7 +5,7 @@ $(document).ready(function () {
       responsive: true,
       resize: true,
       menu: '#menu',
-      anchors: ['home', 'what', 'how','why'],
+      anchors: ['home', 'why', 'how','what'],
       paddingTop: '70px'
     });
   });
