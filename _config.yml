@@ -35,7 +35,7 @@ plugins:
 collections:
   posts:
     output: true
-    permalink: /posts/:title/
+    permalink: /forum/:title/
   employees:
     output: true
     permalink: /employees/:title/
