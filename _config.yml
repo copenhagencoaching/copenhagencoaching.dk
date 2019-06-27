@@ -109,6 +109,12 @@ prose:
   relativeLinks: ''
   media: 'img/blog'
   ignore:
+    - htmlproofer.sh
+    - /_internationals
+    - /_consultations
+    - /_conversations
+    - /_pages
+    - /_testimonials
     - index.html
     - /portraits
     - robots.txt
@@ -205,6 +211,32 @@ prose:
               value: "personlig-udvikling-og-transition"
             - name: "Proces og strategi"
               value: "proces-og-strategi"
+    _employees:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Navn"
+      - name: "email"
+        field:
+          element: "text"
+          label: "Email"
+      - name: "call"
+        field:
+          element: "text"
+          label: "Tlf."
+      - name: "description"
+        field:
+          element: "text"
+          label: "Beskrivelse"
+      - name: "call"
+        field:
+          element: "text"
+          label: "Tlf."
+      - name: "linkedin"
+        field:
+          element: "text"
+          label: "LinkedIn profil"
+
 
 
 
