@@ -228,10 +228,6 @@ prose:
         field:
           element: "text"
           label: "Beskrivelse"
-      - name: "call"
-        field:
-          element: "text"
-          label: "Tlf."
       - name: "linkedin"
         field:
           element: "text"
