@@ -1,9 +1,66 @@
 // Extra small devices (portrait phones, less than 576px)
-@media (max-width: 575.98px) {}
+@media (max-width: 575.98px) {
+  nav {
+    width: 100% !important;
+    height: 70px !important;
+    z-index: 3000;
+  }
+
+  .navbar {
+    width: inherit;
+    background: #ffffff;
+    border-bottom: 1px solid #a9a9a9;
+    padding: 0 !important;
+
+    .navbar-nav {
+      height: 93.5vh;
+      width: inherit;
+      background: #ffffff;
+      align-content: center;
+      align-items: center;
+      padding: 50px 0;
+    }
+
+    .navbar-brand {
+      height: 45px;
+      width: auto;
+      padding-left: 20px;
+    }
+
+    .fas {
+      color: #000000;
+      padding-right: 12.5px;
+    }
+
+    .contact-button {
+      background: none;
+      font-size: 25px;
+      color: #000000;
+    }
+  }
+
+  .navbar .navbar-menu a,
+  .navbar a {
+    font-size: 25px;
+  }
+
+  .nav-icon {
+    height: auto;
+  }
+
+  .navbar-toggler:active,
+  .navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+  }
+
+  .navbar-collapse {
+    margin-top: 10px;
+  }
+}
 
 // Small devices (landscape phones, less than 768px)
-@media (max-width: 767.98px) {
-
+@media (min-width: 576px) and (max-width: 767.98px) {
   nav {
     width: 100% !important;
     height: 70px !important;
@@ -52,8 +109,8 @@
     height: auto;
   }
 
-  .navbar-toggler:focus,
-  .navbar-toggler:active {
+  .navbar-toggler:active,
+  .navbar-toggler:focus {
     outline: none;
     box-shadow: none;
   }
@@ -65,11 +122,66 @@
 }
 
 // Medium devices (tablets, less than 992px)
-@media (max-width: 991.98px) {}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  nav {
+    width: 100% !important;
+    height: 70px !important;
+    z-index: 3000;
+  }
+
+  .navbar {
+    width: inherit;
+    background: #ffffff;
+    border-bottom: 1px solid #a9a9a9;
+    padding: 0 !important;
+
+    .navbar-nav {
+      height: 93.5vh;
+      width: inherit;
+      background: #ffffff;
+      align-content: center;
+      align-items: center;
+      padding: 50px 0;
+    }
+
+    .navbar-brand {
+      height: 45px;
+      width: auto;
+      padding-left: 20px;
+    }
+
+    .fas {
+      color: #000000;
+      padding-right: 12.5px;
+    }
+
+    .contact-button {
+      background: none;
+      font-size: 30px;
+      color: #000000;
+    }
+  }
+
+  .navbar .navbar-menu a,
+  .navbar a {
+    font-size: 30px;
+  }
+
+  .nav-icon {
+    height: auto;
+  }
+
+  .navbar-toggler:active,
+  .navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+  }
+
+  .navbar-collapse {
+    margin-top: 10px;
+  }
+
+}
 
 // Large devices (desktops, less than 1200px)
 @media (max-width: 1199.98px) {}
-
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {}
-
-@media only screen and (min-device-width : 1024px) and (max-device-width : 1366px) {}
