@@ -53,8 +53,7 @@
           <button class="contact-button" data-toggle="modal" data-target="#contact-modal">Kontakt</button>
         </li>
         <li id="search-button" class="nav-item nav-icon show">
-          <i
-              class="fas fa-search"></i>
+          <i class="fas fa-search"></i>
         </li>
         <li id="search" class="nav-item">
           <form class="form" action="/search" method="get">
@@ -62,8 +61,7 @@
             <input type="text" id="search-box" name="query">
             <button class="green-search-button" type="submit">Søg</button>
           </form>
-          <button class="search-cross"><i
-              class="fas fa-times"></i></button>
+          <button class="search-cross"><i class="fas fa-times"></i></button>
         </li>
         <li class="nav-item nav-icon">
           <a href="https://www.edu.copenhagencoaching.dk/" target="_blank"><i class="fas fa-user-graduate"></i></a>
@@ -72,3 +70,9 @@
     </div>
   </div>
 </nav>
+
+<script>
+  $('.contact-button').on('click', function () {
+    $('.navbar-toggler').click();
+  });
+</script>
