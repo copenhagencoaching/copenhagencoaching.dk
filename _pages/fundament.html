@@ -1,0 +1,33 @@
+---
+layout: page
+title: Fundament
+bg-image: /img/hero-images/hero-image-1.jpg
+signup: Fundament
+show: false
+---
+
+<div class="expandable">
+    <div class="row">
+        <div class="introductionText">
+            <h1>Vi tilbyder Konsulentydelser til alle slags virksomheder</h1>
+            <p>Vi har den enkelte virksomhed i fokus når vi yder vores forksellige former for konsulentydelser. Vi tilbyder <a href="#Kommunikation">Kommunikation</a>, <a href="#Konsulentudvikling">Konsulentudvikling</a>, <a href="#Lederudvikling">Lederudvikling</a> og <a href="#Organisationsudvikling">Organisationsudvikling</a>.
+            </p>
+        </div>
+        {% for consultation in site.consultations %}
+        <section id="{{ consultation.title | remove:' ' }}" class="col-12 expandable-pane">
+            <div class="col-lg-5 col-sm-12 expandable-pane-image"
+                style="background-image: url('{{ consultation.image }}')"></div>
+            <div class="col-lg-7 col-sm-12 expandable-pane-text">
+                <h1>{{ consultation.title }}</h1>
+                <div class="content hideContent">
+                    {{ consultation.content }}
+                </div>
+                <button href="#{{ consultation.title | remove:' ' }}" class="show-more">Vis mere</button>
+            </div>
+        </section>
+        {% endfor %}
+
+    </div>
+</div>
+
+{% include contact.html %}
