@@ -43,8 +43,26 @@
 
 }
 
-// Medium devices (tablets, less than 992px)
-@media (max-width: 991.98px) {}
+// Medium devices (tablets, less than 1024px)
+@media (max-width: 1024px) {
+  .page {
+    .row {
+      width: 100%;
+    }
+    .introductionText {
+      width: 100%;
+    }
+  }
+
+  .row {
+    width: 90%;
+  }
+  .hero-image {
+    span {
+      width: 95%;
+    }
+  }
+}
 
 // Large devices (desktops, less than 1200px)
 @media (max-width: 1199.98px) {}

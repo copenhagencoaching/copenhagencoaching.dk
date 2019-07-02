@@ -228,3 +228,15 @@
   }
 
 }
+
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 1024px) {
+
+  .information-card {
+    span {
+      width: 95%;
+    }
+  }
+
+}

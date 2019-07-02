@@ -57,3 +57,18 @@
   }
 
 }
+
+
+// Medium devices (tablets, less than 1024px)
+@media (max-width: 1024px) {
+
+  .stories {
+    .row {
+      width: 95% !important;
+      .col-lg-12, .col-lg-4 {
+        margin: 10px 0;
+      }
+    }
+  }
+
+}

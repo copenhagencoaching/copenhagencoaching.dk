@@ -295,3 +295,31 @@
     }
   }
 }
+
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 1024px) {
+
+  .page {
+    .row {
+      justify-content: space-evenly !important;
+    }
+  }
+
+  .educations {
+    width: 100%;
+  }
+
+  .category {
+    width: 100% !important;
+  }
+
+  .read-more {
+    width: 90% !important;
+  }
+
+  .col-lg-3 {
+    width: 50%
+  }
+
+}

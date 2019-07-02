@@ -22,7 +22,7 @@
       flex-direction: column !important;
       justify-content: center !important;
       margin: 0 !important;
-      padding: 75px 0 !important; 
+      padding: 75px 0 !important;
 
       .expandable-pane-text {
         padding: 0 !important;
@@ -37,22 +37,23 @@
         height: 300px !important;
       }
 
-        p, .showContent {
-          font-size: 16px;
-          font-weight: 400;
-          line-height: 24px;
-          height: auto;
-          -webkit-transition: all 0.5s ease;
-          -moz-transition: all 0.5s ease;
-          -o-transition: all 0.5s ease;
-          transition: all 0.5s ease;
-        }
+      p,
+      .showContent {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        height: auto;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+      }
     }
 
     .expandable-pane:nth-of-type(2) {
       flex-direction: column-reverse !important;
     }
-    
+
     .expandable-pane:nth-of-type(4) {
       flex-direction: column-reverse !important;
     }
@@ -71,12 +72,20 @@
   }
 }
 
-// Medium devices (tablets, less than 992px)
-@media (max-width: 991.98px) {}
+// Medium devices (tablets, less than 1024px)
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
 
-// Large devices (desktops, less than 1200px)
-@media (max-width: 1199.98px) {}
+  .expandable {
+    width: 100%;
 
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {}
+    .row {
+      margin: 0 auto;
+      width: 95%;
+    }
 
-@media only screen and (min-device-width : 1024px) and (max-device-width : 1366px) {}
+    .expandable-pane {
+      margin: 200px 0 !important;
+    }
+  }
+
+}
