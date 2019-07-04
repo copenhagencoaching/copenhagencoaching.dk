@@ -2,17 +2,20 @@
 layout: page
 ---
 
-<div class="row">
+<div class="row education">
     <div class="col-12">
         {{ page.content }}
 
         {% capture url %}n={{ page.title | uri_escape }}{% endcapture %}
 
         {% capture reg-url %}/registration/?{{ url }}{% endcapture %}
+            Har du brug for at høre mere, eller vil du kontakt med den ansvarlige for {{ page.title }}?
+            Kontakt os på <a href="#" data-toggle="modal" data-target="#contact-modal">info@copenhagencoaching.dk</a>
+        <a href="{{ reg-url }}"><button class="sign-up-button">Tilmeld dig her</button></a> <a href="#"><button class="pdf-download">Download PDF</button></a>
 
     </div>
 
 
 </div>
 
-{% include signup.html %}
+{% include testimonial.html %}

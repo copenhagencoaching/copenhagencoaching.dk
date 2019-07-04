@@ -6,6 +6,56 @@ image: /img/coaching/ledelsessparring.jpg
 bg-image: /img/coaching/ledelsessparring.jpg
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Imperdiet nulla malesuada pellentesque elit eget gravida cum. Quam lacus suspendisse faucibus interdum posuere lorem. Nulla at volutpat diam ut. Diam sit amet nisl suscipit. Ipsum nunc aliquet bibendum enim facilisis. Vitae nunc sed velit dignissim. Nec feugiat nisl pretium fusce id. Sollicitudin tempor id eu nisl nunc. Id interdum velit laoreet id donec. Cum sociis natoque penatibus et magnis dis.
+# Master i Business Coaching
 
-Leo vel fringilla est ullamcorper eget. A erat nam at lectus urna duis convallis convallis tellus. Eu ultrices vitae auctor eu augue ut lectus arcu. Pharetra magna ac placerat vestibulum lectus mauris ultrices eros. Ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis. Quis blandit turpis cursus in hac habitasse platea dictumst. Nullam ac tortor vitae purus faucibus ornare suspendisse. Aliquam malesuada bibendum arcu vitae elementum. Volutpat sed cras ornare arcu dui vivamus arcu felis bibendum. Elit ullamcorper dignissim cras tincidunt. Porta lorem mollis aliquam ut porttitor leo a diam sollicitudin. Metus aliquam eleifend mi in nulla. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque.
+45.900,- EKSKL. MOMS (heri er inkluderet fuld forplejning, materialer og rejse) 
+
+# Kommende uddannelsstart
+
+Øst (KØBENHAVN): 12. AUGUST 2019 og 24. FEBRUAR 2020 
+
+Vest (FREDERICIA): 9. OKTOBER 2019 
+
+<a href="#"><button class="dates">Se alle undervisningsdatoer 2019/2020</button></a>
+
+<hr>
+
+# Hvorfor skal du vælge {{ page.title }}?
+
+Ønsker du at blive dygtig til at føre produktive og virkningsfulde dialoger? At kunne flytte både grupper og individer i en mere konstruktiv retning og derved forebygge stress, organisatorisk stagnation og udbrændthed? Så vælg uddannelsen: Master i Business Coaching (MBC). 
+
+Med en Master i Business Coaching får du en af landets bedste coachinguddannelser, hvor du både kan foretage traditionelle coachingsamtaler og den filosofiske samtale. 
+
+Uddannelsen er akkrediteret igennem EMCC. 
+
+<a href="#">Læs mere om EMCC akkreditering her.</a>
+
+![billede 1](/img/graphic/expandable-1.jpg)
+
+# Hvordan er uddannelsen bygget op?
+
+Dialoger der forandrer både dig selv og den anden, handler ikke blot om at stille de rigtige spørgsmål. Forskning viser at den værdiskabende samtale i højere grad handler om at coachen skal være nærværende i samtalen – også når temaerne bliver udfordrende. 
+
+På uddannelsen trænes du I at være nærværende og ansvarstagende også når vi sammen rammer de svære emner, og hvor du mest af alt har lyst til at afbryde samtalen. På MBC er der derfor også fokus på din personlige udvikling og dannelse, hvem du selv er, og hvad netop du betyder for dialogen. 
+
+MBC er en anerkendt international master. Uddannelsen er normeret til et studieårsværk, og uddannelsen afsluttes med en 60 siders masterafhandling med mundtligt forsvar. 
+
+![billede 1](/img/graphic/expandable-2.jpg)
+
+# Hvad får du ud af uddannelsen?
+
+MBC’en består af 4 semestre, som du også kan tage individuelt. Et semester består af ca. 10 undervisningsdage med undervisning fra 9.30 – 16.00 
+
+- Som MBC studerende får du: 
+
+- Adgang til vidensportal, værktøjer, faglitteratur, artikler og cases 
+
+- Big Five personlighedstest med individuel tilbagemelding 
+
+- Mulighed for at blive certificeret i Big Five, så du selv kan anvende personlighedstest 
+
+- Løbende supervision og et stærkt netværk 
+
+- Coachingsamtaler med flere underviserer 
+
+- Forplejning alle dage 
