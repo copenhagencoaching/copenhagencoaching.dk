@@ -51,6 +51,9 @@ collections:
   internationals:
     output: true
     permalink: /internationals/:title/
+  fundament: 
+    output: true
+    permalink: /fundament/:title/
   pages:
     output: true
     permalink: /:title/
@@ -87,6 +90,11 @@ defaults:
       type: consultations
     values:
       layout: consulting
+  -
+    scope:
+      type: fundament
+    values:
+      layout: fundament
   -
     scope:
       type: internationals

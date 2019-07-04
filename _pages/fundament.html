@@ -9,20 +9,20 @@ show: false
 <div class="expandable">
     <div class="row">
         <div class="introductionText">
-            <h1>Vi tilbyder Konsulentydelser til alle slags virksomheder</h1>
-            <p>Vi har den enkelte virksomhed i fokus når vi yder vores forksellige former for konsulentydelser. Vi tilbyder <a href="#Kommunikation">Kommunikation</a>, <a href="#Konsulentudvikling">Konsulentudvikling</a>, <a href="#Lederudvikling">Lederudvikling</a> og <a href="#Organisationsudvikling">Organisationsudvikling</a>.
+            <h1>Her kan du læse om vores fundament</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae veniam odit veritatis sequi nam cum quo blanditiis, tempore excepturi dolor! Lorem ipsum dolor sit amet.
             </p>
         </div>
-        {% for consultation in site.consultations %}
-        <section id="{{ consultation.title | remove:' ' }}" class="col-12 expandable-pane">
+        {% for fundament in site.fundament %}
+        <section id="{{ fundament.title | remove:' ' }}" class="col-12 expandable-pane">
             <div class="col-lg-5 col-sm-12 expandable-pane-image"
-                style="background-image: url('{{ consultation.image }}')"></div>
+                style="background-image: url('{{ fundament.image }}')"></div>
             <div class="col-lg-7 col-sm-12 expandable-pane-text">
-                <h1>{{ consultation.title }}</h1>
+                <h1>{{ fundament.title }}</h1>
                 <div class="content hideContent">
-                    {{ consultation.content }}
+                    {{ fundament.content }}
                 </div>
-                <button href="#{{ consultation.title | remove:' ' }}" class="show-more">Vis mere</button>
+                <button href="#{{ fundament.title | remove:' ' }}" class="show-more">Vis mere</button>
             </div>
         </section>
         {% endfor %}
