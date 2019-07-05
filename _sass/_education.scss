@@ -1,16 +1,20 @@
 .education {
     padding: 0;
+
     h1 {
         font-size: 20px;
         padding-bottom: 20px;
     }
+
     p {
         font-size: 18px;
     }
+
     img {
         height: 500px;
         padding: 50px 0px;
     }
+
     hr {
         display: block;
         height: 1px;
@@ -18,17 +22,29 @@
         border-top: 1px solid #ccc;
         margin: 50px 0;
     }
+
     .col-12 {
         padding: 100px 0;
         margin-top: 0 !important;
         margin-bottom: 0 !important;
     }
+
     a {
         color: #1abc9c;
         text-decoration: none;
         font-size: inherit;
     }
-    .dates, .sign-up-button, .pdf-download{
+
+    .education-bottom {
+        display: block;
+        width: 100%;
+
+        .read-more {
+            padding-bottom: 0;
+        }
+    }
+
+    .dates {
         height: 50px;
         width: auto;
         padding: 0 20px;
@@ -37,35 +53,65 @@
         background: #1abc9c;
         border: none;
         color: #ffffff;
-        margin-top: 75px;
+        opacity: .9;
     }
-    .dates {
+
+    .sign-up-button {
         margin: 25px 0 0 0;
+        height: 50px;
+        width: auto;
+        padding: 0 20px;
+        font-size: 18px;
+        font-weight: 600;
+        background: #1abc9c;
+        border: none;
+        color: #ffffff;
+        opacity: .9;
     }
+
     .pdf-download {
+        height: 50px;
+        width: auto;
+        padding: 0 20px;
+        font-size: 18px;
+        font-weight: 600;
         background: transparent;
         color: #000000;
         border: 2px solid #000000;
-        margin-left: 15px;
+        margin-top: 0;
+        flex-wrap: wrap;
+        margin-left: 10px;
+        opacity: .9;
+    }
+
+    .dates:hover,
+    .sign-up-button:hover,
+    .pdf-download:hover {
+        opacity: 1;
     }
 
 }
 
 // Small devices (landscape phones, less than 768px)
+
 @media (max-width: 768px) {
 
     .education {
         width: 100%;
+
         .col-12 {
             padding: 75px 0;
         }
+
         img {
             width: 100%;
             height: auto;
         }
+
         .dates {
             height: 70px;
         }
+
         .pdf-download {
             margin: 0;
             margin-top: 20px;

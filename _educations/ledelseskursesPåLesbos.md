@@ -6,11 +6,54 @@ image: /img/coaching/lesbos.jpg
 bg-image: /img/coaching/lesbos.jpg
 ---
 
-## Hvad er den vigtigste værdi når du leder?
+# {{ page.title }}
 
-Tag med på en opdagelsesrejse, hvor vi sammen udforsker ledelseskunsten og finder ind til de vigtigste værdier i det at lede sig selv og fællesskabet.
+30.000,- ekskl. moms (heri er inkluderet fuld forplejning, materialer og rejse) 
 
-Har du givet dig selv mulighed for at finde det der betyder mest for dig, når du leder? Nu har du muligheden for at tænke over det, mærke efter det og blive til det.
+# Kommende uddannelsstart
 
-Tag med på denne opdagelsesrejse på den græske ø Lesbos sammen med andre ledere, erfarne rådgivere og konsulenter samt studerende fra vores to årige uddannelse, Master i Business Coaching.
-Dette intense forløb skærper dine refleksioner over og fornemmelser for det der afgør dine handlinger i din ledelsespraksis. Med andre ord bliver du tydelig omkring dine grundværdier og dit råderum når du leder.
+Øst (København): 12. TIL 19. SEPTEMBER 2019 
+
+<a href="#"><button class="dates">Se alle undervisningsdatoer 2019/2020</button></a>
+
+<hr>
+
+# Hvorfor skal du vælge {{ page.title }}?
+
+Har du givet dig selv mulighed for at finde det der betyder mest for dig, når du leder? Ønsker du at kunne bevare overblikket og agere tydeligt. Oplever du at det kan være svært at udfordre med et åbent sind og samtidig skabe tryghed omkring dig? Synes du nogle gange det er svært at bevæge sig i det uforudsigelige eller medskabe noget gennem fællesskabets værdier? Nu har du muligheden for at tænke over det, mærke efter det og blive til det. 
+ 
+Tag med på denne opdagelsesrejse på den græske ø Lesbos sammen med andre ledere, erfarne rådgivere og konsulenter samt studerende fra vores toårige uddannelse, Master i Business Coaching. 
+
+Dette intense forløb skærper dine refleksioner over og fornemmelser for det der afgør dine handlinger i din ledelsespraksis. Med andre ord bliver du tydelig omkring dine grundværdier og dit råderum, når du leder. 
+
+![billede 1](/img/graphic/expandable-1.jpg)
+
+# Hvordan er uddannelsen bygget op?
+
+Turen til Lesbos handler først og fremmest om undervisning og træning. Alle dage har fastlagte destinationer og indlagte træningsseancer.  Du bliver trænet, vejledt og udfordret undervejs. 
+
+Arbejdet omkring værdier vil på turen ske igennem læren fra den filosofiske samtale, protreptikken. Vi arbejder med protreptikken fra et nyt og moderne perspektiv, hvor der i høj grad er fokus på, hvordan du som leder kan fremstå oprigtig og imødekommende og i din ledelse. Hele ugen bliver du præsenteret for teoretiske ståsteder der med grundig vejledning bliver omsat i din ledelsespraksis. 
+
+![billede 1](/img/graphic/expandable-2.jpg)
+
+# Hvad får du ud af uddannelsen?
+
+Turen til Lesbos varer 7 fulde dage 
+
+- Som deltager får du: 
+
+- Et nøje planlagt undervisningsforløb 
+
+- Litteratur og materialer 
+
+- Samtaletræning med undervisere samt medkursister 
+
+- Stærkt netværk 
+
+- Ophold på et skønt hotel i byen Plomari 
+
+- Forplejning 
+
+- Flyrejse 
+
+- Guide på turen 

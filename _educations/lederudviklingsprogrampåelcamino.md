@@ -6,6 +6,34 @@ image: /img/coaching/ledelsessparring.jpg
 bg-image: /img/coaching/ledelsessparring.jpg
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Imperdiet nulla malesuada pellentesque elit eget gravida cum. Quam lacus suspendisse faucibus interdum posuere lorem. Nulla at volutpat diam ut. Diam sit amet nisl suscipit. Ipsum nunc aliquet bibendum enim facilisis. Vitae nunc sed velit dignissim. Nec feugiat nisl pretium fusce id. Sollicitudin tempor id eu nisl nunc. Id interdum velit laoreet id donec. Cum sociis natoque penatibus et magnis dis.
+# Master i {{ page.title }}
 
-Leo vel fringilla est ullamcorper eget. A erat nam at lectus urna duis convallis convallis tellus. Eu ultrices vitae auctor eu augue ut lectus arcu. Pharetra magna ac placerat vestibulum lectus mauris ultrices eros. Ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis. Quis blandit turpis cursus in hac habitasse platea dictumst. Nullam ac tortor vitae purus faucibus ornare suspendisse. Aliquam malesuada bibendum arcu vitae elementum. Volutpat sed cras ornare arcu dui vivamus arcu felis bibendum. Elit ullamcorper dignissim cras tincidunt. Porta lorem mollis aliquam ut porttitor leo a diam sollicitudin. Metus aliquam eleifend mi in nulla. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque.
+xxxx pris
+
+# Kommende uddannelsstart
+
+xxxx dato
+
+xxxx dato
+
+<a href="#"><button class="dates">Se alle undervisningsdatoer 2019/2020</button></a>
+
+<hr>
+
+# Hvorfor skal du vælge {{ page.title }}?
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Libero enim sed faucibus turpis in eu mi. Ac auctor augue mauris augue neque gravida in fermentum et. Lobortis elementum nibh tellus molestie nunc non. Quisque egestas diam in arcu cursus euismod quis viverra nibh. Habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim. Suspendisse ultrices gravida dictum fusce ut placerat orci nulla. Etiam erat velit scelerisque in dictum. Amet massa vitae tortor condimentum lacinia quis vel eros. Vestibulum lectus mauris ultrices eros in cursus. In fermentum posuere urna nec tincidunt praesent. Pellentesque sit amet porttitor eget dolor morbi non arcu. Consectetur libero id faucibus nisl tincidunt eget nullam.
+
+<a href="#">Læs mere om EMCC akkreditering her.</a>
+
+![billede 1](/img/graphic/expandable-1.jpg)
+
+# Hvordan er uddannelsen bygget op?
+
+Ridiculus mus mauris vitae ultricies. Ultricies lacus sed turpis tincidunt. Tempus iaculis urna id volutpat lacus. Ac ut consequat semper viverra nam libero justo. Vestibulum lectus mauris ultrices eros in cursus turpis massa. Laoreet suspendisse interdum consectetur libero id faucibus. Morbi tristique senectus et netus. Ac orci phasellus egestas tellus rutrum tellus pellentesque. Viverra nam libero justo laoreet sit amet. Eu facilisis sed odio morbi quis.
+
+![billede 1](/img/graphic/expandable-2.jpg)
+
+# Hvad får du ud af uddannelsen?
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Libero enim sed faucibus turpis in eu mi. Ac auctor augue mauris augue neque gravida in fermentum et. Lobortis elementum nibh tellus molestie nunc non. Quisque egestas diam in arcu cursus euismod quis viverra nibh. Habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim. Suspendisse ultrices gravida dictum fusce ut placerat orci nulla. Etiam erat velit scelerisque in dictum. Amet massa vitae tortor condimentum lacinia quis vel eros. Vestibulum lectus mauris ultrices eros in cursus. In fermentum posuere urna nec tincidunt praesent. Pellentesque sit amet porttitor eget dolor morbi non arcu. Consectetur libero id faucibus nisl tincidunt eget nullam.

@@ -6,11 +6,34 @@ image: /img/coaching/PROTREPTIK.jpg
 bg-image: /img/coaching/PROTREPTIK.jpg
 ---
 
-Deltag i den årlige Masterclass i protreptik. Hvert år tager vi fat på forskellige teoretiske temaer og afprøver dem med hinanden i praksis. Mød andre erfarne protreptikere og del dine erfaringer og indsigter.
+# Master i {{ page.title }}
 
-På den årlige masterclass i protreptik vil vi i dette forår, 2019, fokusere på de forskellige veje, der er til “den tomme plads” (stedet hvorfra man bevæger sig ud i nye erkendelser), og samtidig udforske begrebet om denne.
-Nærmere bestemt vil vi arbejde med;
-“De dialektiske slutninger” (det logiske aspekt i protreptikken)
-“Troperne” koblet til “Prosoché (det patetiske (patos) aspekt i protreptikken)
- De veje hvor ad man kan forlade den tomme plads (med inspiration fra det franske forfatter- og filosof-par: Gilles Deleuze og Felix Guattari).
-Disse omdrejningspunkter har vi valgt at fokusere på, fordi vi har bemærket gennem vores praksis med at undervise, supervisere og træne vores studerende i netop disse greb, at de er vanskelige at bringe naturligt i spil i protreptiske samtaler. Så derfor vil dagene dels kredse om og dvæle ved disse  metodiske greb i/til den protreptiske redskabskasse, og dels styrke protreptikere ift individelle og gruppe-protreptikker.
+xxxx pris
+
+# Kommende uddannelsstart
+
+xxxx dato
+
+xxxx dato
+
+<a href="#"><button class="dates">Se alle undervisningsdatoer 2019/2020</button></a>
+
+<hr>
+
+# Hvorfor skal du vælge {{ page.title }}?
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Libero enim sed faucibus turpis in eu mi. Ac auctor augue mauris augue neque gravida in fermentum et. Lobortis elementum nibh tellus molestie nunc non. Quisque egestas diam in arcu cursus euismod quis viverra nibh. Habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim. Suspendisse ultrices gravida dictum fusce ut placerat orci nulla. Etiam erat velit scelerisque in dictum. Amet massa vitae tortor condimentum lacinia quis vel eros. Vestibulum lectus mauris ultrices eros in cursus. In fermentum posuere urna nec tincidunt praesent. Pellentesque sit amet porttitor eget dolor morbi non arcu. Consectetur libero id faucibus nisl tincidunt eget nullam.
+
+<a href="#">Læs mere om EMCC akkreditering her.</a>
+
+![billede 1](/img/graphic/expandable-1.jpg)
+
+# Hvordan er uddannelsen bygget op?
+
+Ridiculus mus mauris vitae ultricies. Ultricies lacus sed turpis tincidunt. Tempus iaculis urna id volutpat lacus. Ac ut consequat semper viverra nam libero justo. Vestibulum lectus mauris ultrices eros in cursus turpis massa. Laoreet suspendisse interdum consectetur libero id faucibus. Morbi tristique senectus et netus. Ac orci phasellus egestas tellus rutrum tellus pellentesque. Viverra nam libero justo laoreet sit amet. Eu facilisis sed odio morbi quis.
+
+![billede 1](/img/graphic/expandable-2.jpg)
+
+# Hvad får du ud af uddannelsen?
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Libero enim sed faucibus turpis in eu mi. Ac auctor augue mauris augue neque gravida in fermentum et. Lobortis elementum nibh tellus molestie nunc non. Quisque egestas diam in arcu cursus euismod quis viverra nibh. Habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim. Suspendisse ultrices gravida dictum fusce ut placerat orci nulla. Etiam erat velit scelerisque in dictum. Amet massa vitae tortor condimentum lacinia quis vel eros. Vestibulum lectus mauris ultrices eros in cursus. In fermentum posuere urna nec tincidunt praesent. Pellentesque sit amet porttitor eget dolor morbi non arcu. Consectetur libero id faucibus nisl tincidunt eget nullam.
