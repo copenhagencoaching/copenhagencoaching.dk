@@ -1,11 +1,17 @@
+// Styling for the Academy page
+
 .educations {
   display: flex;
   justify-content: space-between;
   margin-bottom: 100px;
 
+  .col-12 {
+    margin-bottom: 25px !important;
+  }
+
   .col-lg-3 {
     margin-bottom: 30px;
-    max-width: 275px !important;
+    max-width: 285px !important;
     height: 175px;
     padding: 0;
 
@@ -18,7 +24,6 @@
     }
 
     .category {
-      background-size: cover;
       border: none;
       height: 100%;
       width: 100%;
@@ -29,11 +34,14 @@
       justify-items: start;
       justify-content: start;
       padding: 0 100px 0 15px;
+      background: #000000;
+      background: linear-gradient(45deg, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 1) 100%);
 
       h4 {
-        color: white;
+        color: #ffffff;
         font-size: 25px;
-        font-weight: 600;
+        font-weight: 700;
+        text-shadow: 1px 1px #000000;
       }
     }
 
@@ -47,11 +55,11 @@
   content: '';
   flex: auto;
 
- 
-  }
+
+}
 
 .category {
-    padding-bottom: 50px;
+  padding-bottom: 50px;
 
   .col-lg-3 {
     padding: 0 10px;
@@ -59,9 +67,9 @@
     .card {
       width: 100%;
       text-align: left;
-      -webkit-box-shadow: 0 5px 20px 0 rgba(0,0,0,0.16);
-      -moz-box-shadow: 0 5px 20px 0 rgba(0,0,0,0.16);
-      box-shadow: 0 5px 20px 0 rgba(0,0,0,0.16);
+      -webkit-box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.16);
+      -moz-box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.16);
+      box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.16);
       border: none;
       transition: all ease-in-out .3s;
       padding: 10px;
@@ -156,9 +164,9 @@
 
     .card {
       width: 100%;
-      -webkit-box-shadow: 0 5px 20px 0 rgba(0,0,0,0.15);
-      -moz-box-shadow: 0 5px 20px 0 rgba(0,0,0,0.15);
-      box-shadow: 0 5px 20px 0 rgba(0,0,0,0.15);
+      -webkit-box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.15);
+      -moz-box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.15);
+      box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.15);
       border: none;
       transition: all ease-in-out .3s;
       padding: 10px;
@@ -221,9 +229,9 @@
 
     .card {
       width: 100%;
-      -webkit-box-shadow: 0 5px 20px 0 rgba(0,0,0,0.15);
-      -moz-box-shadow: 0 5px 20px 0 rgba(0,0,0,0.15);
-      box-shadow: 0 5px 20px 0 rgba(0,0,0,0.15);
+      -webkit-box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.15);
+      -moz-box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.15);
+      box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.15);
       border: none;
       transition: all ease-in-out .3s;
       padding: 10px;
