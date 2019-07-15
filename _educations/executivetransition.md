@@ -1,6 +1,6 @@
 ---
 published: true
-category: proces-og-strategi
+category: personlig-udvikling-og-transition
 title: Executive Transition
 image: /img/coaching/ledelsessparring.jpg
 bg-image: /img/coaching/ledelsessparring.jpg

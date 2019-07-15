@@ -1,7 +1,7 @@
 ---
 published: true
 title: Certificering i Protreptik
-category: filosofi
+category: [filosofi, lederskab, certificeringer]
 image: /img/coaching/PROTREPTIK.jpg
 bg-image: /img/coaching/PROTREPTIK.jpg
 ---

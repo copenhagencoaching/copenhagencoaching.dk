@@ -1,7 +1,7 @@
 ---
 published: true
 title: Certificeringer i Big Five
-category: certificeringer
+category: [certificeringer, proces-og-strategi]
 image: /img/coaching/BIGFIVE.jpg
 bg-image: /img/coaching/BIGFIVE.jpg
 ---

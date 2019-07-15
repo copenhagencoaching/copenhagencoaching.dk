@@ -7,9 +7,7 @@ paginate_path: "/stories/page:num/"
 
 logo: /img/seo_img.png
 
-social:
-  name: Prolike
-  links: https://www.linkedin.com/company/prolike/
+
 
 sass:
   style: compressed
@@ -41,7 +39,7 @@ collections:
     permalink: /employees/:title/
   educations:
     output: true
-    permalink: /educations/:categories/:title/
+    permalink: /educations/:title/
   conversations:
     output: true
     permalink: /conversations/:title/

@@ -1,6 +1,6 @@
 ---
 published: true
-category: lederskab
+category: [lederskab, personlig-udvikling-og-transition]
 title: MBC
 image: /img/coaching/ledelsessparring.jpg
 bg-image: /img/coaching/ledelsessparring.jpg

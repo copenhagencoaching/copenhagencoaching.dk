@@ -8,8 +8,40 @@ layout: page
 
 <div class="row category">
   {% for education in site.educations %}
-  {% if education.category == page.name %}
+  {% if education.category contains page.name %}
+  {% if page.onepage == "ja" %}
 
+  <div class="col-lg-12">
+
+    <div class="row education">
+      <div class="col-12">
+        {{ education.content }}
+
+        {% capture url %}n={{ page.title | uri_escape }}{% endcapture %}
+
+        {% capture reg-url %}/registration/?{{ url }}{% endcapture %}
+        <hr>
+        <span class="education-bottom">
+          Har du brug for at høre mere, eller vil du kontakt med den ansvarlige for {{ page.title }}?
+          <br>
+          Kontakt os på <a href="#" data-toggle="modal" data-target="#contact-modal">info@copenhagencoaching.dk</a>
+          <br>
+          <a href="{{ reg-url }}"><button class="sign-up-button">Tilmeld dig her</button></a> <a href="#"><button
+              class="pdf-download">Download PDF</button></a>
+          <a class="read-more" href="/educations/">← Se flere uddannelser</a>
+        </span>
+      </div>
+    </div>
+
+
+
+  </div>
+  {% include testimonial.html %}
+  {% endif %}
+
+
+
+  {% if page.onepage == "nej" %}
   <div class="col-lg-3 col-sm-12">
     <div class="card">
       <div class="education-image" style="background-image: url('{{ education.image }}')"></div>
@@ -21,6 +53,8 @@ layout: page
       </div>
     </div>
   </div>
+  {% endif %}
+
 
   {% endif %}
   {% endfor %}
