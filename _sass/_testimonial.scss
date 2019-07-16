@@ -36,3 +36,52 @@
         margin-bottom: 20px;
     }
 }
+
+// Medium devices (landscape tablets, 768px and down)
+
+@media (max-width: 768px) {
+
+    .testimonial {
+        .col-lg-12 {
+            padding: 0 30px;
+
+            h1 {
+                font-size: 30px;
+                line-height: 30px;
+                margin-bottom: 20px;
+            }
+
+            p {
+                font-size: 15.5px;
+                margin-bottom: 10x;
+                line-height: 20px;
+            }
+        }
+    }
+
+    .carousel {
+        width: 100%;
+
+        h2 {
+            font-size: 18px;
+        }
+
+        h3 {
+            font-size: 16px;
+        }
+
+        p {
+            font-size: 16px;
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        .testimonial-person {
+            height: 100px;
+            width: 100px;
+            border-radius: 100px;
+            margin-bottom: 20px;
+        }
+    }
+
+}

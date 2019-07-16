@@ -14,16 +14,19 @@
         display: flex;
         flex-direction: column;
     }
+
     h1 {
         font-size: 55px;
         font-weight: 600;
     }
+
     p {
         font-size: 20px;
         font-weight: 500;
         width: 615px;
         padding: 10px 0;
     }
+
     .green-button {
         height: 50px;
         width: 175px;
@@ -37,6 +40,7 @@
         align-items: center;
         justify-content: center;
     }
+
     .transparent-button {
         height: 50px;
         width: 175px;
@@ -49,6 +53,7 @@
         align-items: center;
         justify-content: center;
     }
+
     .frontpage-buttons {
         height: 50px;
         display: flex;
@@ -79,30 +84,61 @@
     margin-top: 0;
 }
 
-// Media query for frontpage
+// Medium devices (landscape tablets, 768px and down)
 
 @media (max-width: 768px) {
+
     .frontpage {
         span {
             width: 90%;
         }
+
         h1 {
             font-size: 20px;
         }
+
         p {
             font-size: 15px;
             width: 100%
         }
+
         .frontpage-buttons {
             width: 100%;
         }
-        .green-button, .transparent-button {
+
+        .green-button,
+        .transparent-button {
             width: 150px;
             height: 40px;
             font-size: 16px;
         }
+
         .green-button {
             margin-right: 12.5px;
+        }
+    }
+
+    .home {
+
+        background-image: url("/img/graphic/desk.jpg");
+        background-size: cover;
+        background-position: center;
+
+        .col-lg-12 {
+            color: white;
+            padding: 0 30px;
+
+            h1 {
+                font-size: 30px;
+                line-height: 30px;
+                margin-bottom: 20px;
+            }
+
+            p {
+                font-size: 15.5px;
+                margin-bottom: 10x;
+                line-height: 20px;
+            }
         }
     }
 }

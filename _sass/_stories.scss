@@ -158,3 +158,77 @@
 .read-more {
   margin-top: 50px;
 }
+
+// Medium devices (landscape tablets, 768px and down)
+
+@media (max-width: 768px) {
+  .stories {
+    padding-bottom: 50px;
+
+    .col-lg-12,
+    .col-lg-4 {
+      padding: 0 !important;
+    }
+
+    p {
+      padding: 25px 0;
+    }
+
+    .story {
+      height: 350px;
+    }
+  }
+
+  .large-article-text,
+  .small-article-text {
+    position: absolute;
+    top: 50%;
+    left: 45% !important;
+    transform: translate(-50%, -50%);
+    height: auto;
+    width: 75%;
+    color: #ffffff;
+    font-weight: 400;
+    pointer-events: none;
+
+    h1,
+    h2,
+    p {
+      font-size: 15px !important;
+    }
+
+    p {
+      padding: 10px 0;
+      width: 100% !important;
+    }
+  }
+}
+
+.individual-stories {
+  width: 90%;
+  padding: 50px 0;
+
+  .row {
+    width: 90% !important;
+    height: auto;
+    padding: 100px 0;
+
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and down) */
+
+@media (max-width: 992px) {
+
+  .stories {
+    .row {
+      width: 95% !important;
+
+      .col-lg-12,
+      .col-lg-4 {
+        margin: 10px 0;
+      }
+    }
+  }
+
+}

@@ -86,7 +86,10 @@
     }
 }
 
+// Medium devices (landscape tablets, 768px and down)
+
 @media (max-width: 768px) {
+
     .modal-content {
         padding: 25px 0;
     }

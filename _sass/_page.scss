@@ -3,8 +3,6 @@ body {
     margin-top: 70px;
 }
 
-
-
 .hero-image {
     height: 500px;
     width: 100%;
@@ -42,7 +40,7 @@ body {
         justify-content: space-between;
     }
 
-    .col-12 { 
+    .col-12 {
         margin-bottom: 100px;
         margin-top: 100px;
     }
@@ -91,12 +89,111 @@ body {
 
     // Button animations
 
-    .information-card, .sign-up-banner {
+    .information-card,
+    .sign-up-banner {
         button {
             opacity: .9;
         }
+
         button:hover {
             opacity: 1;
+        }
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+
+    .page {
+        .row {
+            padding: 0;
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        .introductionText {
+            width: 100%;
+            margin: 0 auto;
+            padding: 50px 0;
+
+            h1 {
+                font-size: 18px;
+                font-weight: 600;
+            }
+
+            p {
+                font-size: 16px;
+                line-height: 24px;
+                margin-bottom: 0;
+                width: 90% !important;
+            }
+        }
+    }
+}
+
+// Medium devices (landscape tablets, 768px and down)
+
+@media (max-width: 768px) {
+
+    body {
+        margin: 0;
+    }
+
+    .page {
+        margin: 0;
+        padding: 0;
+
+        .row {
+            padding: 0;
+            width: 90%;
+        }
+    }
+
+    .hero-image {
+        height: 300px !important;
+        width: 100% !important;
+        margin-top: 70px;
+
+        span {
+            width: 90%;
+        }
+
+        h1 {
+            font-size: 30px;
+            line-height: 35px;
+            font-weight: 600;
+        }
+
+    }
+
+    .read-more {
+        width: 90% !important;
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and down) */
+
+@media (max-width: 992px) {
+    
+    .page {
+        .row {
+            width: 100%;
+        }
+
+        .introductionText {
+            width: 100%;
+        }
+    }
+
+    .row {
+        width: 90%;
+    }
+
+    .hero-image {
+        span {
+            width: 95%;
         }
     }
 }
