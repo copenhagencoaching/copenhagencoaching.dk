@@ -6,7 +6,7 @@ layout: page
     <div class="col-12">
         {{ page.content }}
 
-        {% capture reg-url %}n={{ page.title | uri_escape }}{% endcapture %}
+        {% capture reg-url %}?n={{ page.title | uri_escape }}{% endcapture %}
 
         <hr>
         <span class="education-bottom">
