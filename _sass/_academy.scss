@@ -54,8 +54,6 @@
 .category::after {
   content: '';
   flex: auto;
-
-
 }
 
 .category {
@@ -304,6 +302,17 @@
   }
 }
 
+
+// Medium devices (landscape tablets, 768px and down)
+
+@media (max-width: 768px) {
+
+  .individual-education {
+    width: 90%;
+    height: 225px;
+  }
+
+}
 
 /* Large devices (laptops/desktops, 992px and down) */
 
