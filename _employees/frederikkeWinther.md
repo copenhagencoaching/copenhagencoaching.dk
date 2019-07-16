@@ -6,7 +6,7 @@ image: /portraits/frederikkeWinther.jpg
 call: +45 21 19 47 57
 email: fw@copenhagencoahing.dk
 description: Konsulent
-linkedin: https://www.linkedin.com/in/frederikke-winther-206b5450/
+linkedin: 'https://www.linkedin.com/in/frederikke-winther-206b5450/'
 ---
 
 Frederikke er drevet af en oprigtig nysgerrighed efter at vide, hvad der optager og former mennesker i deres arbejdsliv samt et ønske om at forstå, spejle, støtte og stimulere personlig og faglig udvikling gennem individuelle samtaler og sparringsforløb. 
@@ -15,4 +15,7 @@ Frederikke er særligt optaget af kryds- (og somme tider spændings-) feltet mel
 
 Frederikke har i øvrigt stor erfaring med facilitering af kollektive læreprocesser og dialogisk feedback.
 
-Frederikke har en kandidatgrad og en Ph.d. i Retorik og har i flere år undervist, vejledt og forsket i kommunikation og læring på Aalborg Universitet.
+Frederikke har en kandidatgrad og en Ph.d. i Retorik og har i flere år undervist, vejledt og forsket i kommunikation og læring på Aalborg Universitet. Goddag.
+
+### Hej
+## hej
