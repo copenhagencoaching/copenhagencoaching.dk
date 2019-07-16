@@ -2,8 +2,8 @@
 published: true
 category: ccc-netveark
 title: CCC Netværk
-image: /img/coaching/lesbos.jpg
-bg-image: /img/coaching/lesbos.jpg
+image: /images/academy/b1.png
+bg-image: /images/academy/b1.png
 ---
 
 # {{ page.title }}
@@ -22,8 +22,6 @@ Datoer for efteråretsnetværksarrangement følger
 
 Kunne du godt bruge noget sparring og inspiration i din daglige ledelse. Mangler du et frirum, hvor du har lov at sænke paraderne og kan møde ligesindede. Så meld dig til vores CCC-netværk. CCC-netværket er et nærværende og inspirerende medlemsbaseret netværk, der fokuserer på dialogisk kapacitet, selvindsigt og refleksivitet.  
 
-![billede 1](/img/graphic/expandable-1.jpg)
-
 # Hvordan er uddannelsen bygget op?
 
 Hovedaktiviteterne i netværksdelen vil være tre filosofiske arrangementer årligt samt en sommerfest. Medlemmerne bliver inddelt i mindre grupper. Til hvert filosofisk arrangement vil vi arbejde med ét relevant tema.
@@ -41,8 +39,6 @@ Til dette arrangement vil vi fokusere på lyd og lydens udstrækning i rummet. N
 Den menneskelige kapacitet udspringer fra kroppen. Vi bevæger os i en sanselig sammenhæng med kroppen. Den rummer og reflekterer uanede mængder af information, som spejler en viden om det menneskelige. Kroppen udtrykker samtidig en form for endelighed, der bevidstgør os livsmulighederne. 
 
 # Fjerde temaaften er stadig under udarbejdelse ... mere info følger… 
-
-![billede 1](/img/graphic/expandable-2.jpg)
 
 # Hvad får du ud af uddannelsen?
 

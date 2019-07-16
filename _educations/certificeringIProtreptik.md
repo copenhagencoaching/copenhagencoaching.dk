@@ -2,8 +2,8 @@
 published: true
 title: Certificering i Protreptik
 category: [filosofi, lederskab, certificeringer]
-image: /img/coaching/PROTREPTIK.jpg
-bg-image: /img/coaching/PROTREPTIK.jpg
+image: /images/academy/b3.png
+bg-image: /images/academy/b3.png
 ---
 
 # Master i {{ page.title }}
@@ -26,13 +26,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 <a href="#">Læs mere om EMCC akkreditering her.</a>
 
-![billede 1](/img/graphic/expandable-1.jpg)
-
 # Hvordan er uddannelsen bygget op?
 
 Ridiculus mus mauris vitae ultricies. Ultricies lacus sed turpis tincidunt. Tempus iaculis urna id volutpat lacus. Ac ut consequat semper viverra nam libero justo. Vestibulum lectus mauris ultrices eros in cursus turpis massa. Laoreet suspendisse interdum consectetur libero id faucibus. Morbi tristique senectus et netus. Ac orci phasellus egestas tellus rutrum tellus pellentesque. Viverra nam libero justo laoreet sit amet. Eu facilisis sed odio morbi quis.
-
-![billede 1](/img/graphic/expandable-2.jpg)
 
 # Hvad får du ud af uddannelsen?
 

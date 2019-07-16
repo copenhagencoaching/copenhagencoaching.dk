@@ -1,7 +1,7 @@
 ---
 title: Kirsten Bergstrup
 description: Klyngeleder, Københavns Kommune
-image: /img/graphic/kirsten-bergstrup.jpeg
+image: /images/graphic/kirsten-bergstrup.jpeg
 tags: [filosofi]
 ---
 Der er fra undervisernes side en tydelig interesse i at de studerende får de redskaber og den læring, som

@@ -1,7 +1,7 @@
 ---
 title: Rikke Morsing
 description: Leder, ARK Ålborg
-image: /img/graphic/rikke-morsing.jpg
+image: /images/graphic/rikke-morsing.jpg
 tags: [lederskab]
 ---
 

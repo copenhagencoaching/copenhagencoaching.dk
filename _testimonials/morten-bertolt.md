@@ -1,6 +1,6 @@
 ---
 title: Morten Berbolt
-image: /img/graphic/morten-bertolt.jpeg
+image: /images/graphic/morten-bertolt.jpeg
 description: MBC Studerende og professionel fodboldspiller
 tags: [MBC]
 ---

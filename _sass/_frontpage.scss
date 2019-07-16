@@ -2,7 +2,7 @@
     color: #ffffff;
     display: flex;
     align-items: center;
-    background-image: url(/img/frontpage-images/frontpage-1.jpg);
+    background-image: url(/images/frontpage/frontpage-1.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -63,15 +63,11 @@
 }
 
 .frontpage:nth-child(2) {
-    background-image: url(/img/frontpage-images/frontpage-2.jpg);
+    background-image: url(/images/frontpage/frontpage-2.jpg);
 }
 
 .frontpage:nth-child(3) {
-    background-image: url(/img/frontpage-images/frontpage-3.jpg);
-}
-
-.frontpage:nth-child(4) {
-    background-image: url(/img/frontpage-images/frontpage-4.jpg);
+    background-image: url(/images/frontpage/frontpage-3.jpg);
 }
 
 #fp-nav ul li a span {
@@ -119,10 +115,6 @@
     }
 
     .home {
-
-        background-image: url("/img/graphic/desk.jpg");
-        background-size: cover;
-        background-position: center;
 
         .col-lg-12 {
             color: white;

@@ -2,8 +2,8 @@
 published: true
 category: proces-og-strategi
 title: Frustration skal ledes
-image: /img/coaching/ledelsessparring.jpg
-bg-image: /img/coaching/ledelsessparring.jpg
+image: /images/coaching/ledelsessparring.jpg
+bg-image: /images/coaching/ledelsessparring.jpg
 ---
 
 # Frustration skal ledes
@@ -22,9 +22,7 @@ September 2019
 
 Fælles for de fleste offentlige organisationer og institutioner er, at ledelsen befinder sig i et krydspres. Krav om konstant forandring, omorganisering, økonomisk pres og new public management er alle faktorer, som kan påvirke frustrationsniveauet i organisationen. Når en medarbejdergruppe føler sig presset, overset, tromlet, truet eller afprofessionaliseret stiger frustrationsniveauet, hvilket kan medføre stress, forråelse, forhøjet medarbejderudskiftning og faldende, faglig kvalitet. 
 
-Krydspres og frustrationer er ofte et vilkår i offentlige organisationer og institutioner, men giver samtidig en mulighed for ledelsesmæssig udvikling og forandring. Uddannelsens fokus er at udvikle evnen til at rumme og tackle medarbejderes reaktioner på stress og pres, skabe sammenhæng og følgeskab samt sikre et godt arbejdsmiljø.  
-
-![billede 1](/img/graphic/expandable-5.jpg)
+Krydspres og frustrationer er ofte et vilkår i offentlige organisationer og institutioner, men giver samtidig en mulighed for ledelsesmæssig udvikling og forandring. Uddannelsens fokus er at udvikle evnen til at rumme og tackle medarbejderes reaktioner på stress og pres, skabe sammenhæng og følgeskab samt sikre et godt arbejdsmiljø.
 
 # Hvordan er uddannelsen bygget op?
 
@@ -47,8 +45,6 @@ Kreativ håndtering
 - du lærer at kunne facilitere kreative processer der kan generere ny viden og indsigt 
 
 - du lærer at se problemer og udfordringer fra et andet eller nyt perspektiv 
-
-![billede 1](/img/graphic/expandable-6.jpg)
 
 # Hvad får du ud af uddannelsen?
 

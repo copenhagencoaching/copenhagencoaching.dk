@@ -1,8 +1,8 @@
 ---
 published: true
 title: Topledere skal kunne vende sig mod sig selv
-image: /img/blog/post5.jpeg
-bg-image: /img/blog/post5.jpeg
+image: /images/forum/post5.jpeg
+bg-image: /images/forum/post5.jpeg
 author: Frederikke Winther
 signup: forskellige ydelser
 ---

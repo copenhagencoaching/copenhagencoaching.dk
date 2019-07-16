@@ -1,7 +1,7 @@
 ---
 published: true
 title: Anni Rosengren Korsbæk
-image: /portraits/anniRKorsbæk.jpg
+image: /images/about/anniRKorsbæk.jpg
 call: +45 51 48 84 33
 order: 8
 email: ark@copenhagencoaching.dk

@@ -2,8 +2,8 @@
 published: true
 category: [filosofi, lederskab, personlig-udvikling-og-transition]
 title: Ledelseskursus på Lesbos
-image: /img/coaching/lesbos.jpg
-bg-image: /img/coaching/lesbos.jpg
+image: /images/coaching/lesbos.jpg
+bg-image: /images/coaching/lesbos.jpg
 ---
 
 # {{ page.title }}
@@ -26,15 +26,11 @@ Tag med på denne opdagelsesrejse på den græske ø Lesbos sammen med andre led
 
 Dette intense forløb skærper dine refleksioner over og fornemmelser for det der afgør dine handlinger i din ledelsespraksis. Med andre ord bliver du tydelig omkring dine grundværdier og dit råderum, når du leder. 
 
-![billede 1](/img/graphic/expandable-1.jpg)
-
 # Hvordan er uddannelsen bygget op?
 
 Turen til Lesbos handler først og fremmest om undervisning og træning. Alle dage har fastlagte destinationer og indlagte træningsseancer.  Du bliver trænet, vejledt og udfordret undervejs. 
 
 Arbejdet omkring værdier vil på turen ske igennem læren fra den filosofiske samtale, protreptikken. Vi arbejder med protreptikken fra et nyt og moderne perspektiv, hvor der i høj grad er fokus på, hvordan du som leder kan fremstå oprigtig og imødekommende og i din ledelse. Hele ugen bliver du præsenteret for teoretiske ståsteder der med grundig vejledning bliver omsat i din ledelsespraksis. 
-
-![billede 1](/img/graphic/expandable-2.jpg)
 
 # Hvad får du ud af uddannelsen?
 

@@ -2,8 +2,8 @@
 published: true
 author: Organisationsudvikling
 title: Organisationsudvikling
-image: /img/graphic/expandable-2.jpg
-bg-image: /img/consulting/businesscoaching3.jpg
+image: /images/consulting/c4.png
+bg-image: /images/consulting/c4.png
 description: Personlig coaching er til dig der har brug for at styrke balancen mellem privatliv og arbejdsliv, karrierevejledende samtaler, udfordringer og overvejelse om jobskifte, stresshåndtering ect. Vi kan tage udgangspunkt i både private og arbejdsmæssige udfordringer, det er op til dig – intet er for stort eller for småt.
 ---
 

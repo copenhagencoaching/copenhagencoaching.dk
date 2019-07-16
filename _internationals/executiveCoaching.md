@@ -2,8 +2,8 @@
 published: true
 author: Executive Coaching
 title: Executive Coaching
-image: /img/graphic/expandable-11.jpg
-bg-image: /img/international/1.png
+image: /images/international/i3.jpg
+bg-image: /images/international/i3.jpg
 description: Lorem ipsum dolor sin et serum anuro sutur lipin forma ut
 ---
 

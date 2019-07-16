@@ -2,8 +2,8 @@
 published: true
 category: master-i-business-coaching
 title: Master i Business Coaching
-image: /img/coaching/ledelsessparring.jpg
-bg-image: /img/coaching/ledelsessparring.jpg
+image: /images/coaching/ledelsessparring.jpg
+bg-image: /images/coaching/ledelsessparring.jpg
 ---
 
 # Master i Business Coaching
@@ -30,8 +30,6 @@ Uddannelsen er akkrediteret igennem EMCC.
 
 <a href="#">Læs mere om EMCC akkreditering her.</a>
 
-![billede 1](/img/graphic/expandable-1.jpg)
-
 # Hvordan er uddannelsen bygget op?
 
 Dialoger der forandrer både dig selv og den anden, handler ikke blot om at stille de rigtige spørgsmål. Forskning viser at den værdiskabende samtale i højere grad handler om at coachen skal være nærværende i samtalen – også når temaerne bliver udfordrende. 
@@ -39,8 +37,6 @@ Dialoger der forandrer både dig selv og den anden, handler ikke blot om at stil
 På uddannelsen trænes du I at være nærværende og ansvarstagende også når vi sammen rammer de svære emner, og hvor du mest af alt har lyst til at afbryde samtalen. På MBC er der derfor også fokus på din personlige udvikling og dannelse, hvem du selv er, og hvad netop du betyder for dialogen. 
 
 MBC er en anerkendt international master. Uddannelsen er normeret til et studieårsværk, og uddannelsen afsluttes med en 60 siders masterafhandling med mundtligt forsvar. 
-
-![billede 1](/img/graphic/expandable-2.jpg)
 
 # Hvad får du ud af uddannelsen?
 

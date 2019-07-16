@@ -5,8 +5,8 @@ url: https://stage.copenhagencoaching.dk
 paginate: 24
 paginate_path: "/stories/page:num/"
 
-logo: /img/seo_img.png
-image: /img/seo_img.png
+logo: /images/seo_img.png
+image: /images/seo_img.png
 
 social:
   name: Copenhagen Coaching Center

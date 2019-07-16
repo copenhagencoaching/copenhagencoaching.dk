@@ -2,8 +2,8 @@
 published: true
 category: proces-og-strategi
 title: Proceslederuddannelse
-image: /img/coaching/ledelsessparring.jpg
-bg-image: /img/coaching/ledelsessparring.jpg
+image: /images/coaching/ledelsessparring.jpg
+bg-image: /images/coaching/ledelsessparring.jpg
 ---
 
 # {{ page.title }}
@@ -24,8 +24,6 @@ Uddannelsen henvender sig til ledere og konsulenter, som har ansvar for, leder o
 
 Krav om konstant forandring, omorganisering, økonomisk pres m.v. skaber behov for professionel procesledelse. Ønsker om medinddragelse og samskabelse som en del af virksomhedens kultur, drift og udvikling kalder ligeledes på et højt niveau af procesledelse. Dårligt designede processer er bekostelige og potentielt set skadelige for organisationen. God procesledelse kræver evner til at styre, rumme og stimulere menneskelig og faglig mangfoldighed i retning af fælles udvikling og mål. Med proceslederuddannelsen bliver du bedre til at styre, rumme og kreere processer., samt håndtere frustrationer i organisationer. Ligeledes lærer du at producere nye handlemuligheder og skabe og sikre følgeskab.
 
-![billede 1](/img/graphic/expandable-1.jpg)
-
 # Hvordan er uddannelsen bygget op?
 
 På uddannelsen arbejder vi med processer fra tre forskellige perspektiver: 
@@ -37,8 +35,6 @@ Emotionel håndtering – at fornemme og rumme processer: Ved processtart, ved f
 Kreativ Håndtering – at kreere processer: Mange processer er uforudsigelige – og nogle processer kan eller skal føre gruppen et uforudset sted hen. Du skal derfor evne også at kunne sætte processen fri og følge med udviklingen, også når den fører til noget uventet og ikke planlagt. 
 
 Med Proceslederuddannelsen får du mulighed for at få 10 ECTS point
-
-![billede 1](/img/graphic/expandable-2.jpg)
 
 # Hvad får du ud af uddannelsen?
 

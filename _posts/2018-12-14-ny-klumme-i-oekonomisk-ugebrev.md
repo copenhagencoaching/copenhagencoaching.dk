@@ -1,8 +1,8 @@
 ---
 published: true
 title: Ny klumme i økonomisk ugebrev
-image: /img/blog/post1.jpeg
-bg-image: /img/blog/post1.jpeg
+image: /images/forum/post1.jpeg
+bg-image: /images/forum/post1.jpeg
 author: Bianca Godske Røjbæk
 signup: forskellige ydelser
 ---

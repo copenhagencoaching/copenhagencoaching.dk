@@ -1,8 +1,8 @@
 ---
 published: true
 title: Sikken fest!
-image: /img/blog/post4.jpeg
-bg-image: /img/blog/post4.jpeg
+image: /images/forum/post4.jpeg
+bg-image: /images/forum/post4.jpeg
 author: Frederikke Winther
 signup: forskellige ydelser
 ---
