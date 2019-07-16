@@ -19,9 +19,9 @@
         </div>
         <div class="footer-row col-xs-6">
             <p>Forum</p>
-            <a class="footer-stories" href="/forum/start-din-master/">Start din master og Buisiness Coaching</a>
-            <a class="footer-stories" href="/forum/coaching-foredrags-række/">Coaching-foredragsrække på<br>Københavns Universitet</a>
-            <a class="footer-stories" href="/forum/frisættende-lederskab/">Frisættende lederskab</a>
+            {% for post in site.posts limit:3 %}
+            <a class="footer-stories" href="{{ post.url }}">{{ post.title }}</a>
+            {% endfor %}
         </div>
         <div class="footer-row col-xs-6">
             <p>Kontakt</p>
