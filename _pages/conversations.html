@@ -21,7 +21,8 @@ order: 2
             </p>
         </div>
         {% for conversation in site.conversations %}
-        <section id="{{ conversation.title | remove:' ' }}" class="col-12 expandable-pane">
+        <div class="anchor" id="{{ conversation.title | remove:' ' }}"></div>
+        <section class="col-12 expandable-pane">
             <div class="col-lg-5 col-sm-12 expandable-pane-image"
                 style="background-image: url('{{ conversation.image }}')"></div>
             <div class="col-lg-7 col-sm-12 expandable-pane-text">
