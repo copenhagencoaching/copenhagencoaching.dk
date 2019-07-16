@@ -13,9 +13,9 @@
         </div>
         <div class="footer-row col-xs-6">
             <p>Fundament</p>
-            <a href="/fundament/">Vision</a>
-            <a href="/fundament/">Mission</a>
-            <a href="/fundament/">Metodik</a>
+            {% for fundament in site.fundament %}
+            <a href="/fundament/#{{ fundament.title }}">{{ fundament.title }}</a>
+            {% endfor %}
         </div>
         <div class="footer-row col-xs-6 articles">
             <p>Forum</p>
