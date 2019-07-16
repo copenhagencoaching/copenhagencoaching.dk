@@ -15,7 +15,4 @@ Frederikke er særligt optaget af kryds- (og somme tider spændings-) feltet mel
 
 Frederikke har i øvrigt stor erfaring med facilitering af kollektive læreprocesser og dialogisk feedback.
 
-Frederikke har en kandidatgrad og en Ph.d. i Retorik og har i flere år undervist, vejledt og forsket i kommunikation og læring på Aalborg Universitet. Goddag.
-
-### Hej
-## hej
+Frederikke har en kandidatgrad og en Ph.d. i Retorik og har i flere år undervist, vejledt og forsket i kommunikation og læring på Aalborg Universitet.
