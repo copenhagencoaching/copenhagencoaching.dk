@@ -15,9 +15,23 @@ order: 1
 
 <div class="row educations" id="accordionExample">
 
-  {% for category in site.categories %}
+  {% assign edu_ordered = site.categories | sort: "order" %}
+  {% for category in edu_ordered %}
 
-  <div class="col-lg-3 col-md-12 col-sm-12 col-12 no-col-12-margin individual-education">
+  {% if category.onepage == "ja" %}
+
+  <div class="col-lg-3 col-md-12 col-sm-12 col-12 no-col-12-margin">
+      <a href="/academy/{{ category.title | remove:' ' | downcase }}">
+        <div class="category" style="background-image: url('/img/categories/{{ category.image }}')">
+          <h4>{{ category.title }}</h4>
+        </div>
+      </a>
+    </div>
+
+
+  
+    {% else %}
+  <div class="col-lg-3 col-md-12 col-sm-12 col-12 no-col-12-margin">
     <a href="{{ category.url }}">
       <div class="category" style="background-image: url('/images/academy/{{ category.image }}')">
         <h4>{{ category.title }}</h4>
@@ -25,7 +39,7 @@ order: 1
     </a>
   </div>
 
-
+  {% endif %}
   {% endfor %}
 </div>
 {% include signup.html %}

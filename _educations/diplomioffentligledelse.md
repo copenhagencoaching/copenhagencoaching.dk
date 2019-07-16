@@ -15,7 +15,7 @@ xxxx pris
 xxxx dato
 
 xxxx dato
-
+s
 <a href="#"><button class="dates">Se alle undervisningsdatoer 2019/2020</button></a>
 
 <hr>
