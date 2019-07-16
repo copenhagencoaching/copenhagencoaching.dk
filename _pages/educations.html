@@ -15,7 +15,8 @@ order: 1
 
 <div class="row educations" id="accordionExample">
 
-  {% for category in site.categories %}
+  {% assign edu_ordered = site.categories | sort: "order" %}
+  {% for category in edu_ordered %}
 
   <div class="col-lg-3 col-md-12 col-sm-12 col-12 no-col-12-margin">
     <a href="{{ category.url }}">
