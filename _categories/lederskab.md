@@ -2,7 +2,7 @@
 title: Lederskab
 name: lederskab
 order: 2
-image: b5.png
+image: /images/academy/b5.png
 signup: Uddannelses tilbud
 onepage: nej
 ---

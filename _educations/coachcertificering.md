@@ -2,8 +2,8 @@
 published: true
 category: certificeringer
 title: Coach-certificering (EMCC)
-image: /images/coaching/lesbos.jpg
-bg-image: /images/coaching/lesbos.jpg
+image: /images/academy/b4.png
+bg-image: /images/academy/b4.png
 ---
 
 # Master i {{ page.title }}

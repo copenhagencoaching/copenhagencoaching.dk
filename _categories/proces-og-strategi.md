@@ -1,7 +1,7 @@
 ---
 title: Process & Strategi
 name: proces-og-strategi
-image: b8.png
+image: /images/academy/b8.png
 order: 3
 signup: Uddannelses tilbud
 onepage: nej

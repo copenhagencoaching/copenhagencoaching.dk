@@ -2,8 +2,8 @@
 published: true
 category: filosofi
 title: Masterclass I Protreptik
-image: /images/coaching/PROTREPTIK.jpg
-bg-image: /images/coaching/PROTREPTIK.jpg
+image: /images/academy/b7.png
+bg-image: /images/academy/b7.png
 ---
 
 # Master i {{ page.title }}

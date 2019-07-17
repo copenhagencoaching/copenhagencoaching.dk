@@ -2,8 +2,8 @@
 published: true
 title: Filosofiske seminarer
 category: filosofi
-image: /images/coaching/Udendørs.jpg
-bg-image: /images/coaching/Udendørs.jpg
+image: /images/academy/b8.png
+bg-image: /images/academy/b8.png
 ---
 
 # Master i {{ page.title }}

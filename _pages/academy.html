@@ -22,7 +22,7 @@ order: 1
 
   <div class="col-lg-3 col-md-12 col-sm-12 col-12 no-col-12-margin">
       <a href="/academy/{{ category.title | remove:' ' | downcase }}">
-        <div class="category" style="background-image: url('/img/categories/{{ category.image }}')">
+        <div class="category" style="background-image: url('{{ category.image }}')">
           <h4>{{ category.title }}</h4>
         </div>
       </a>
@@ -33,7 +33,7 @@ order: 1
     {% else %}
   <div class="col-lg-3 col-md-12 col-sm-12 col-12 no-col-12-margin">
     <a href="{{ category.url }}">
-      <div class="category" style="background-image: url('/images/academy/{{ category.image }}')">
+      <div class="category" style="background-image: url('{{ category.image }}')">
         <h4>{{ category.title }}</h4>
       </div>
     </a>

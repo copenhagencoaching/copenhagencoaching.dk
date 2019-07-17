@@ -2,7 +2,7 @@
 title: Morten Berbolt
 image: /images/graphic/morten-bertolt.jpeg
 description: MBC Studerende og professionel fodboldspiller
-tags: [MBC]
+tags: [MBC, cccnetværk]
 ---
 
 Jeg har brudt min comfortzone mere i 2016 end de foregående 31 år af mit liv, og nysgerrigheden på mig
