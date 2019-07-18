@@ -233,7 +233,7 @@
 /* Extra small devices (phones, 600px and down) */
 
 @media only screen and (max-width: 600px) {
-  
+
   .employees {
 
     .img-empl {
@@ -259,6 +259,15 @@
 // Medium devices (landscape tablets, 768px and down)
 
 @media (max-width: 768px) {
+
+  .tab-content,
+  .tab-pane {
+    width: 100%;
+  }
+
+  .employee-box {
+    margin-bottom: 50px !important;
+  }
 
   .information-card {
     height: auto;
@@ -302,9 +311,13 @@
 
 @media (max-width: 992px) {
 
+  .row {
+      width: 90% !important;
+  }
+
   .information-card {
     span {
-      width: 95%;
+      width: 90%;
     }
   }
 
