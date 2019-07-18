@@ -8,26 +8,178 @@ show: true
 order: 6
 ---
 <section class="stories">
-    <div class="row">
+   <div class="row tag-row">
         <p>Seneste Historier</p>
-        {% assign sorted_stories = site.posts | sort: "date" %}
+
+        <!-- tags -->
         
-        {% for post in sorted_stories limit:8 %}
-        <div class="col-lg-4">
-            <a href="{{ post.url }}">
-                <div class="story" style="background-image: url('{{ post.image }}')">
-                    <div class="small-article-text">
-                        
-                        <h1>{{ post.title }}</h1> 
-                        <p>{{ post.content | truncatewords: 20, '...' }}</p>
-                        <h2>Læs mere</h2>
+            <div class="blog-tags-list col-12 d-flex">
+              {% assign sorted_tags = site.tags | sort %}
+              {% for tag in sorted_tags %}
+              {% assign t = tag | first %}
+              {% assign posts = tag | last %}
+              <div class="blog-tag-item" style="display: inline-block" id="{{ t }}-item">
+                <a class="tags" href="#{{ t }}" onclick="filter('{{ t }}'); " data-proofer-ignore>{{ t }}</a>
+        
+        
+              </div>
+              {% endfor %}
+             
+              <a class="all-btn hidden tags" style="display: inline-block" id="showAllBtn" href onclick="showallRow();" data-proofer-ignore>VIS ALLE</a>
+            
+            </div>
+         
+
+          <!-- tags end -->
+   </div>
+<div id="row_all">
+   <!-- default row -->
+          <div class="row story-row" id="story-row">
+
+            {% assign sorted_stories = site.posts | sort: "date" | reverse %}
+          
+            {% for post in sorted_stories limit:8 %}
+            {% if forloop.index == 1 or forloop.index == 5 or forloop.index == 9 %}
+  
+            <div class="col-lg-12 story-box">
+              <a href="{{ post.url }}">
+                  <div class="story" style="background-image: url('{{ post.image }}')">
+                      <div class="large-article-text">
+                          
+                          <h1>{{ post.title }}</h1> 
+                          {{ post.content | truncatewords: 20, '...' }}
+                          <h2>Læs mere</h2>
+                      </div>
+                  </div>
+              </a>
+          </div>
+  
+            {% else %}
+            <div class="col-lg-4 story-box">
+                <a href="{{ post.url }}">
+                    <div class="story" style="background-image: url('{{ post.image }}')">
+                        <div class="small-article-text">
+                            
+                            <h1>{{ post.title }}</h1> 
+                            {{ post.content | truncatewords: 20, '...' }}
+                            <h2>Læs mere</h2>
+                        </div>
                     </div>
-                </div>
-            </a>
+                </a>
+            </div>
+  
+            {% endif %}
+            {% endfor %}
+        
+        
         </div>
-        {% endfor %}
-        <a class="read-more" href="/allposts/">← Se alle historier</a>
+
+
+         <!-- default row end -->
+
+         <!-- row all -->
+         <div class="collapse" id="collapseExample">
+
+         <div class="row">
+            {% assign sorted_stories = site.posts | sort: "date" | reverse %}
+          
+            {% for post in sorted_stories offset: 8 %}
+            {% if forloop.index == 1 or forloop.index == 5 or forloop.index == 9 %}
+  
+            <div class="col-lg-12 story-box">
+              <a href="{{ post.url }}">
+                  <div class="story" style="background-image: url('{{ post.image }}')">
+                      <div class="large-article-text">
+                          
+                          <h1>{{ post.title }}</h1> 
+                          {{ post.content | truncatewords: 20, '...' }}
+                          <h2>Læs mere</h2>
+                      </div>
+                  </div>
+              </a>
+          </div>
+  
+            {% else %}
+            <div class="col-lg-4 story-box">
+                <a href="{{ post.url }}">
+                    <div class="story" style="background-image: url('{{ post.image }}')">
+                        <div class="small-article-text">
+                            
+                            <h1>{{ post.title }}</h1> 
+                        {{ post.content | truncatewords: 20, '...' }}
+                            <h2>Læs mere</h2>
+                        </div>
+                    </div>
+                </a>
+            </div>
+  
+            {% endif %}
+            {% endfor %}
+        
+          </div>
+        </div>
+
+        <div class="row all_b">
+            <div class="col-12 d-flex justify-content-center">
+                <input type="button" id="collapsible" class="show-more-btn" data-toggle="collapse" data-target="#collapseExample" value="Vis mere"></input>
+                    
+                  </button>
+              </div>
+          </div>
     </div>
-</section>
+
+          
+
+          <!-- row all end -->
+
+          {% for tag in site.tags %}
+          {% assign t = tag | first %}
+          {% assign posts = tag | last %}
+          <div class="blog-list-container row hidden" id="{{ t }}-container">
+        
+            {% for post in posts %}
+            {% if post.tags contains t %}
+            {% if forloop.index == 1 or forloop.index == 5 or forloop.index == 9 %}
+  
+            <div class="col-lg-12 story-box">
+              <a href="{{ post.url }}">
+                  <div class="story" style="background-image: url('{{ post.image }}')">
+                      <div class="large-article-text">
+                          
+                          <h1>{{ post.title }}</h1> 
+                        {{ post.content | truncatewords: 20, '...' }}
+                          <h2>Læs mere</h2>
+                      </div>
+                  </div>
+              </a>
+          </div>
+  
+            {% else %}
+            <div class="col-lg-4 story-box">
+                <a href="{{ post.url }}">
+                    <div class="story" style="background-image: url('{{ post.image }}')">
+                        <div class="small-article-text">
+                            
+                            <h1>{{ post.title }}</h1> 
+                        {{ post.content | truncatewords: 20, '...' }}
+                            <h2>Læs mere</h2>
+                        </div>
+                    </div>
+                </a>
+            </div>
+  
+            {% endif %}
+            {% endif %}
+            {% endfor %}
+        
+        
+        
+          </div>
+          {% endfor %}
+
+         
+        </section>
 
 {% include signup.html %}
+
+

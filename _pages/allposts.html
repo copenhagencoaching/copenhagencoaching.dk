@@ -6,7 +6,7 @@ layout: page
 <div class="all-posts">
 
   <div class="blog-tags-list row">
-    <div class="12 m-auto">
+    <div class="col-12">
       {% assign sorted_tags = site.tags | sort %}
       {% for tag in sorted_tags %}
       {% assign t = tag | first %}
@@ -17,7 +17,7 @@ layout: page
 
       </div>
       {% endfor %}
-      <a class="hidden tags" id="showAllBtn" href onclick="showallRow();" data-proofer-ignore>VIS ALLE</a>
+      <a class="hidden tags" id="showAllBtn" href style="display: inline-block" href onclick="showallRow();" data-proofer-ignore>VIS ALLE</a>
     </div>
   </div>
 
