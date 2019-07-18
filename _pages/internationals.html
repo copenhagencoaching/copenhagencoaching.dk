@@ -14,8 +14,9 @@ order: 4
             </p>
         </div>
         {% for international in site.internationals %}
-        <div class="anchor" id="{{ international.title | remove:' ' }}"></div>
+        
         <section class="col-12 expandable-pane">
+                <div class="anchor" id="{{ international.title | remove:' ' }}"></div>
             <div class="col-lg-5 col-sm-12 expandable-pane-image"
                 style="background-image: url('{{ international.image }}')"></div>
             <div class="col-lg-7 col-sm-12 expandable-pane-text">

@@ -16,6 +16,13 @@
       display: flex;
       flex-direction: row;
       padding-bottom: 100px;
+      padding: top;
+      position: relative;
+
+      .anchor {
+        position: absolute;
+        top: -300px;
+        }
 
       .expandable-pane-text {
         order: 2;
@@ -124,10 +131,7 @@ hr {
   padding-left: 0 !important;
 }
 
-.anchor {
-  height: 100px;
-  padding:100px;
-}
+
 
 // Small devices (landscape phones, less than 768px)
 

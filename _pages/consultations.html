@@ -15,8 +15,9 @@ order: 3
             </p>
         </div>
         {% for consultation in site.consultations %}
-        <div class="anchor" id="{{ consultation.title | remove:' ' }}"></div>
+        
         <section class="col-12 expandable-pane">
+                <div class="anchor" id="{{ consultation.title | remove:' ' }}"></div>
             <div class="col-lg-5 col-sm-12 expandable-pane-image"
                 style="background-image: url('{{ consultation.image }}')"></div>
             <div class="col-lg-7 col-sm-12 expandable-pane-text">
