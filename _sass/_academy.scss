@@ -2,54 +2,34 @@
 
 .educations {
   display: flex;
-  justify-content: space-between;
   margin-bottom: 100px;
+  width: 1260px;
+  height: auto;
+  font-family: 'Oswald', sans-serif;
 
-  .col-12 {
+  .individual-education {
     margin-bottom: 25px !important;
   }
 
-  .col-lg-3 {
-    margin-bottom: 30px;
-    width: 285px;
-    height: 175px;
-    padding: 0;
+}
 
-    a {
-      color: white;
-    }
+.category {
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  padding-left: 12.5px;
 
-    a:hover {
-      text-decoration: none;
-    }
-
-    .category {
-      border: none;
-      height: 100%;
-      width: 100%;
-      border-radius: 1px;
-      display: flex;
-      align-items: center;
-      align-content: flex-start;
-      justify-items: start;
-      justify-content: start;
-      padding: 0 100px 0 15px;
-      background: #000000;
-      background: linear-gradient(45deg, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 1) 100%);
-      background-size: cover;
-      background-position: center center;
-      background-repeat: no-repeat;
-
-      h4 {
-        color: #ffffff;
-        font-size: 25px;
-        font-weight: 700;
-        text-shadow: 1px 1px #000000;
-      }
-    }
-
+  h4 {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 25px;
+    width: 75%;
+    text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);
   }
-
 }
 
 // categories site
@@ -60,7 +40,6 @@
 }
 
 .category {
-  padding-bottom: 50px;
 
   .col-lg-3 {
     padding: 0 10px;
@@ -309,47 +288,17 @@
 // Medium devices (landscape tablets, 768px and down)
 
 @media (max-width: 768px) {
-
   .educations {
-    padding-bottom: 100px !important;
+    width: 100%;
   }
-
   .individual-education {
-    width: 90%;
-    height: 225px;
+    padding-left: 0;
+    padding-right: 0;
   }
-
-  .educations .col-lg-3 {
-    width: 100% !important;
-    height: 225px;
-  }
-
 }
 
 /* Large devices (laptops/desktops, 992px and down) */
 
 @media (max-width: 992px) {
-
-  .page {
-    .row {
-      justify-content: space-evenly !important;
-    }
-  }
-
-  .educations {
-    width: 100%;
-  }
-
-  .category {
-    width: 100% !important;
-  }
-
-  .read-more {
-    width: 90% !important;
-  }
-
-  .col-lg-3 {
-    width: 50%
-  }
 
 }

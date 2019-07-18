@@ -13,14 +13,16 @@ order: 1
   </p>
 </div>
 
-<div class="row educations" id="accordionExample">
+<section class="educations" id="accordionExample">
 
-  {% assign edu_ordered = site.categories | sort: "order" %}
-  {% for category in edu_ordered %}
+  <div class="row">
 
-  {% if category.onepage == "ja" %}
+    {% assign edu_ordered = site.categories | sort: "order" %}
+    {% for category in edu_ordered %}
 
-  <div class="col-lg-3 col-md-12 col-sm-12 col-12 no-col-12-margin">
+    {% if category.onepage == "ja" %}
+
+    <div class="individual-education col-12 col-lg-4">
       <a href="/academy/{{ category.title | remove:' ' | downcase }}">
         <div class="category" style="background-image: url('{{ category.image }}')">
           <h4>{{ category.title }}</h4>
@@ -28,18 +30,17 @@ order: 1
       </a>
     </div>
 
-
-  
     {% else %}
-  <div class="col-lg-3 col-md-12 col-sm-12 col-12 no-col-12-margin">
-    <a href="{{ category.url }}">
-      <div class="category" style="background-image: url('{{ category.image }}')">
-        <h4>{{ category.title }}</h4>
-      </div>
-    </a>
-  </div>
+    <div class="individual-education col-12 col-lg-4">
+      <a href="{{ category.url }}">
+        <div class="category" style="background-image: url('{{ category.image }}')">
+          <h4>{{ category.title }}</h4>
+        </div>
+      </a>
+    </div>
 
-  {% endif %}
-  {% endfor %}
-</div>
+    {% endif %}
+    {% endfor %}
+  </div>
+</section>
 {% include signup.html %}
