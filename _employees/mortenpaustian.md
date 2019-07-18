@@ -1,7 +1,7 @@
 ---
 published: true
 title: Morten Paustian
-image: /images/about/mortenPaustian.jpg
+image: /images/about/morten-p.jpg
 order: 7
 call: + 45 40 13 69 68
 email: mp@copenhagencoahing.dk
