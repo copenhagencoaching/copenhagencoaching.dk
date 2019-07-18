@@ -2,7 +2,7 @@
 published: true
 title: Kim Gørtz
 order: 5
-image: /images/about/kim.jpg
+image: kim.jpg
 call: +45 24 66 40 78
 email: kg@copenhagencoahing.dk
 description: Seniorkonsulent
