@@ -36,8 +36,8 @@ body {
     width: 100%;
 
     .row {
-        width: 1230px;
         display: flex;
+        
         justify-content: space-between;
     }
 
@@ -142,7 +142,7 @@ body {
 
         .row {
             padding: 0;
-            width: 90%;
+          
         }
     }
 
@@ -163,9 +163,7 @@ body {
 
     }
 
-    .read-more {
-        width: 90% !important;
-    }
+    
 
 }
 
@@ -183,9 +181,6 @@ body {
         }
     }
 
-    .row {
-        width: 90%;
-    }
 
     .hero-image {
         span {

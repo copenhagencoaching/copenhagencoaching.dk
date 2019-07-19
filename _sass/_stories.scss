@@ -1,5 +1,8 @@
 .stories {
 
+  .row {
+    width: 1260px;
+  }
   
   .blog-list-container {
     margin-top: 50px;
@@ -226,8 +229,8 @@
     }
 
     .tag-section {
-      margin-bottom: 30px;
-      margin-top: 20px;
+      margin: 20px auto 30px auto;
+      width: 90%;
       p {
       text-align: center;
     }

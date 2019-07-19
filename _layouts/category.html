@@ -1,12 +1,12 @@
 ---
 layout: page
 ---
-
+<div class="education-list">
 <div class="introductionText">
   <h1>Incredibly generic introdutionary title</h1>
 </div>
 
-<div class="row category">
+<div class="row">
   {% for education in site.educations %}
   {% if education.category contains page.name %}
 
@@ -14,8 +14,8 @@ layout: page
 
 
 
-  <div class="col-lg-3 col-sm-12">
-    <div class="card">
+  <div class="col-lg-3 col-12 education-box">
+    <div class="card education-card">
       <div class="education-image" style="background-image: url('{{ education.image }}')"></div>
       <div class="card-body d-flex justify-content-center align-items-center flex-column">
         <h5 class="card-title">{{ education.title }}</h5>
@@ -34,5 +34,5 @@ layout: page
 </div>
 
 <a class="read-more" href="/academy/">← Se flere uddannelser</a>
-
+</div>
 {% include signup.html %}
