@@ -1,9 +1,27 @@
 .stories {
-
   .row {
     width: 1260px;
   }
-  
+
+  .tag-section {
+    width: 1260px;
+    margin: 100px auto 0 auto;
+  }
+
+  .collapse {
+    width: 100%;
+
+    .row {
+      margin-top: 0;
+    }
+  }
+
+  .story-row {
+    .row {
+      margin: 100px auto 0 !important;
+    }
+  }
+
   .blog-list-container {
     margin-top: 50px;
     margin-bottom: 100px;
@@ -13,26 +31,26 @@
     justify-content: center;
     flex-wrap: wrap;
     display: flex;
-    margin: 20px 0 0 0 !important;
+    margin: 20px 0 0 !important;
     text-transform: uppercase;
 
-   
-
-    .blog-tag-item, #showAllBtn {
+    #showAllBtn,
+    .blog-tag-item {
       font-weight: 500;
       margin: 5px;
       padding: 5px 10px;
       background-color: #1abc9c;
       border-radius: 3px;
       color: white;
+
       a {
         color: white;
       }
-  
+
       a:hover {
         color: white;
       }
-      
+
     }
   }
 
@@ -50,7 +68,7 @@
     margin-top: 50px;
   }
 
-  .story-box{
+  .story-box {
     height: auto;
     margin: 20px 0;
 
@@ -63,24 +81,26 @@
     min-height: 350px;
 
   }
-.show-all-post {
-  display: flex;
-  justify-content: center;
-  .show-more-btn {
-    height: 50px;
-    width: 175px;
-    background: #1abc9c;
-    border: none;
-    color: #ffffff;
-    font-weight: 600;
-    font-size: 18px;
-    margin: 30px 0 50px 0;
+
+  .show-all-post {
     display: flex;
-    align-items: center;
     justify-content: center;
 
+    .show-more-btn {
+      height: 50px;
+      width: 175px;
+      background: #1abc9c;
+      border: none;
+      color: #ffffff;
+      font-weight: 600;
+      font-size: 18px;
+      margin: 30px 0 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+    }
   }
-}
 
   p {
     padding: 50px 0 50px 10px;
@@ -198,25 +218,24 @@
 }
 
 // Medium devices (landscape tablets, 768px and down)
-
 @media (max-width: 768px) {
-
-  
-  
   .stories {
     padding-bottom: 50px;
 
     #row_all {
       width: 100%;
+
       .story-row {
         width: 100%;
         margin: 0 auto;
+
         .row {
           padding-left: 0;
           padding-right: 0;
           width: 90%;
         }
       }
+
       .collapse {
         .row {
           .row {
@@ -229,16 +248,16 @@
     }
 
     .tag-section {
-      margin: 20px auto 30px auto;
+      margin: 20px auto 30px;
       width: 90%;
+
       p {
-      text-align: center;
+        text-align: center;
+      }
     }
-    }
-   
 
     .show-all-post {
-      width:100%;
+      width: 100%;
     }
 
     .row {
@@ -259,18 +278,17 @@
     }
   }
 
+  h1,
+  h2,
+  p {
+    font-size: 15px !important;
+  }
 
-    h1,
-    h2,
-    p {
-      font-size: 15px !important;
-    }
+  p {
+    padding: 10px 0;
+    width: 100% !important;
+  }
 
-    p {
-      padding: 10px 0;
-      width: 100% !important;
-    }
-  
 }
 
 .individual-stories {
@@ -285,7 +303,6 @@
 }
 
 /* Large devices (laptops/desktops, 992px and down) */
-
 @media (max-width: 992px) {
   .stories {
     .row {

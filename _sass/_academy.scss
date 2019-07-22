@@ -1,330 +1,55 @@
 // Styling for the Academy page
 
-.educations {
+.category-list {
   display: flex;
   margin-bottom: 100px;
   height: auto;
   font-family: 'Oswald', sans-serif;
+
   .row {
     width: 1260px;
-    .individual-education {
+
+    .outer-category {
       margin-bottom: 25px !important;
-    }
-  }
 
-  
-
-}
-
-.category {
-  height: 250px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  display: flex;
-  align-items: center;
-  padding-left: 12.5px;
-
-  h4 {
-    color: white;
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-    font-size: 25px;
-    width: 75%;
-    text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);
-  }
-}
-
-// categories site
-
-
-
-.education-list {
-
-  .introductionText {
-    margin: 0;
-  }
-  
- 
-
-  .row  {
-    width: 1250px;
-    margin: 0;
-
-  .education-box {
-    padding: 10px;
-    min-height: 390px;
-
-    .card {
-      width: 100%;
-      text-align: left;
-      -webkit-box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.16);
-      -moz-box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.16);
-      box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.16);
-      border: none;
-      transition: all ease-in-out .3s;
-      padding: 10px;
-      min-height: 390px;
-
-      .card-body {
-        padding: 0;
-      }
-
-      .education-image {
-        width: 100%;
-        height: 150px;
+      .inner-category {
+        height: 250px;
+        background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
-        margin: auto;
-      }
+        display: flex;
+        align-items: center;
+        padding-left: 12.5px;
 
-      .card-title {
-        text-align: center;
-        margin: 20px 0 31px;
-        font-size: 16px;
-        font-weight: 500;
-      }
-
-      .card-text {
-        text-align: center;
-        font-size: 14px;
-        font-weight: 300;
-        margin-bottom: 31px;
-        height: 40px;
-        overflow: hidden;
-
-        h1,
-        h2,
-        h3,
         h4 {
-          font-size: 14px;
-          font-weight: 300;
-
-        }
-      }
-
-      .showmore-button {
-        cursor: pointer;
-        border: none;
-        background: none;
-        margin: 0 0 15px;
-        font-size: 14px;
-        padding: 0;
-        background-color: none;
-        width: auto;
-        display: inline-block;
-      }
-
-      .showmore-button:hover {
-        color: #1ABC9C;
-      }
-
-      a {
-        color: #212529;
-      }
-
-      a:hover {
-        text-decoration: none;
-        color: #1ABC9C;
-      }
-
-    }
-  }
-}
-}
-
-.conversations {
-  .green-button {
-    width: 125px;
-    height: 40px;
-    font-size: 20px;
-    font-weight: 600;
-    text-transform: none;
-  }
-
-  .active-card {
-    display: visible;
-  }
-
-  .hidden {
-    display: none !important;
-  }
-
-  .col-lg-12 {
-    padding: 0;
-    margin-bottom: 50px;
-    transition: none;
-
-    .card {
-      width: 100%;
-      -webkit-box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.15);
-      -moz-box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.15);
-      box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.15);
-      border: none;
-      transition: all ease-in-out .3s;
-      padding: 10px;
-
-      .row {
-        margin: 0;
-        width: unset;
-        height: 100%;
-
-        .conversation-content-big {
-          .row {
-            justify-content: center;
-            align-content: center;
-            align-items: center;
-            width: unset;
-
-            .col-lg-12 {
-              max-width: 550px;
-              margin: 0;
-
-              h2 {
-                margin-bottom: 25px;
-                font-size: 20px;
-              }
-
-              .conversation-text-big {
-                max-height: 185px;
-                overflow: hidden;
-                margin-bottom: 35px;
-
-                h1,
-                h2,
-                h3,
-                h4,
-                h5,
-                p {
-                  font-size: 18px;
-                  font-weight: 400;
-                }
-              }
-            }
-          }
-        }
-
-        .col-lg-6 {
-          padding: 0;
-
-          .conversation-image-big {
-            height: 400px;
-
-          }
+          color: white;
+          font-family: 'Oswald', sans-serif;
+          text-transform: uppercase;
+          font-size: 25px;
+          width: 75%;
+          text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);
         }
       }
     }
   }
 
-  .col-lg-3 {
-    max-width: 285px;
-    padding: 0;
-
-    .card {
-      width: 100%;
-      -webkit-box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.15);
-      -moz-box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.15);
-      box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.15);
-      border: none;
-      transition: all ease-in-out .3s;
-      padding: 10px;
-
-      .card-body {
-        padding: 0;
-      }
-
-      .conversation-image {
-        width: 265px;
-        height: 150px;
-        background-size: cover;
-        background-position: center center;
-        margin: auto;
-      }
-
-      .card-title {
-        text-align: center;
-        margin: 20px 0 31px;
-        font-size: 16px;
-        font-weight: 500;
-      }
-
-      .card-text {
-        text-align: center;
-        font-size: 14px;
-        font-weight: 300;
-        margin-bottom: 31px;
-        height: 40px;
-        overflow: hidden;
-        text-transform: none;
-
-        h1,
-        h2,
-        h3,
-        h4 {
-          font-size: 14px;
-          font-weight: 300;
-          text-transform: normal !important;
-
-        }
-      }
-
-      .showmore-button {
-        cursor: pointer;
-        border: none;
-        background: none;
-        margin: 0 0 15px;
-        font-size: 14px;
-        padding: 0;
-        background-color: none;
-        width: auto;
-        display: inline-block;
-      }
-
-      .showmore-button:hover {
-        color: #1ABC9C;
-      }
-
-      a {
-        color: #212529;
-      }
-
-      a:hover {
-        text-decoration: none;
-        color: #1ABC9C;
-      }
-
-    }
-  }
 }
-
 
 // Medium devices (landscape tablets, 768px and down)
-
 @media (max-width: 768px) {
+  .category-list {
+    .row {
+      width: 90%;
 
-.education-list {
-  .read-more {
-    text-align: center;
-    margin-right: 0;
-    justify-content: center !important; // Jeg kan ikke forstå hvorfor der bliver nødt til at være importent her.
-    width: 100% !important;
-  }
-  .row {
-    width: 95% !important;
-  }
-}
+      .outer-category {
+        padding-left: 0;
+        padding-right: 0;
+      }
+    }
 
-  .educations {
-    width: 100%;
   }
-  .individual-education {
-    padding-left: 0;
-    padding-right: 0;
-  }
+
 }
 
 /* Large devices (laptops/desktops, 992px and down) */
-
-@media (max-width: 992px) {
-
-}
+@media (max-width: 992px) {}

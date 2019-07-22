@@ -6,14 +6,15 @@ signup: Konsulentydelser
 show: true
 order: 3
 ---
-
+<div class="introductionText">
+        <h1>Vi tilbyder Konsulentydelser til alle slags virksomheder</h1>
+        <p>Vi har den enkelte virksomhed i fokus når vi yder vores forksellige former for konsulentydelser. Vi tilbyder <a href="#Kommunikation">Kommunikation</a>, <a href="#Konsulentudvikling">Konsulentudvikling</a>, <a href="#Lederudvikling">Lederudvikling</a> og <a href="#Organisationsudvikling">Organisationsudvikling</a>.
+        </p>
+    </div>
+    
 <div class="expandable">
     <div class="row">
-        <div class="introductionText">
-            <h1>Vi tilbyder Konsulentydelser til alle slags virksomheder</h1>
-            <p>Vi har den enkelte virksomhed i fokus når vi yder vores forksellige former for konsulentydelser. Vi tilbyder <a href="#Kommunikation">Kommunikation</a>, <a href="#Konsulentudvikling">Konsulentudvikling</a>, <a href="#Lederudvikling">Lederudvikling</a> og <a href="#Organisationsudvikling">Organisationsudvikling</a>.
-            </p>
-        </div>
+        
         {% for consultation in site.consultations %}
         
         <section class="col-12 expandable-pane">

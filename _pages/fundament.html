@@ -6,13 +6,15 @@ signup: Fundament
 show: false
 ---
 
+<div class="introductionText">
+        <h1>Her kan du læse om vores fundament</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae veniam odit veritatis sequi nam cum quo blanditiis, tempore excepturi dolor! Lorem ipsum dolor sit amet.
+        </p>
+    </div>
+
 <div class="expandable">
     <div class="row">
-        <div class="introductionText">
-            <h1>Her kan du læse om vores fundament</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae veniam odit veritatis sequi nam cum quo blanditiis, tempore excepturi dolor! Lorem ipsum dolor sit amet.
-            </p>
-        </div>
+       
         {% for fundament in site.fundament %}
         <div class="anchor" id="{{ fundament.title | remove:' ' }}"></div>
         <section class="col-12 expandable-pane">

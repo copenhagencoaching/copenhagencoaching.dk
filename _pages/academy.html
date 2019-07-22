@@ -7,13 +7,15 @@ show: true
 order: 1
 ---
 <div class="introductionText">
-  <h1>Styrk dine kompetencer</h1>
-  <p>Hos Copenhagen Coaching Center tilbyder vi et hav af uddannelser, ydelser og forskellige events.
-    Nedenunder kan du få et overblik over de emner vi tilbyder ydelser indenfor
-  </p>
-</div>
+    <h1>Styrk dine kompetencer</h1>
+    <p>Hos Copenhagen Coaching Center tilbyder vi et hav af uddannelser, ydelser og forskellige events.
+      Nedenunder kan du få et overblik over de emner vi tilbyder ydelser indenfor
+    </p>
+  </div>
 
-<section class="educations" id="accordionExample">
+<section class="category-list">
+
+  
 
   <div class="row">
 
@@ -22,18 +24,18 @@ order: 1
 
     {% if category.onepage == "ja" %}
 
-    <div class="individual-education col-12 col-lg-4">
+    <div class="outer-category col-12 col-lg-4">
       <a href="/academy/{{ category.title | remove:' ' | downcase }}">
-        <div class="category" style="background-image: url('{{ category.image }}')">
+        <div class="inner-category" style="background-image: url('{{ category.image }}')">
           <h4>{{ category.title }}</h4>
         </div>
       </a>
     </div>
 
     {% else %}
-    <div class="individual-education col-12 col-lg-4">
+    <div class="outer-category col-12 col-lg-4">
       <a href="{{ category.url }}">
-        <div class="category" style="background-image: url('{{ category.image }}')">
+        <div class="inner-category" style="background-image: url('{{ category.image }}')">
           <h4>{{ category.title }}</h4>
         </div>
       </a>

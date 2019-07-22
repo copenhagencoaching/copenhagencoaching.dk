@@ -1,190 +1,157 @@
 body {
-    width: 100%;
-    margin-top: 70px;
-}
-
-.hero-image {
-    height: 500px;
-    width: 100%;
-    background-image: url(/images/graphic/highfive.jpg);
-    color: white;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-
-    span {
-        height: inherit;
-        width: 1230px;
-        margin: 0 auto;
-        display: flex;
-        align-items: center;
-    }
-
-    h1 {
-        font-size: 60px;
-        line-height: 70px;
-        max-width: 740;
-    }
+  width: 100%;
+  margin-top: 70px;
 }
 
 .page {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    flex-direction: column;
-    width: 100%;
-
     .row {
-        display: flex;
-        
-        justify-content: space-between;
+        margin: 100px auto;
     }
+}
 
-    .no-col-12-margin {
-        margin-top: 5px !important;
-    }
+.hero-image {
+  height: 500px;
+  width: 100%;
+  background-image: url("/images/graphic/highfive.jpg");
+  color: white;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 
-    .introductionText {
+  span {
+    height: inherit;
+    width: 1230px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+  }
 
-        text-align: center;
-        height: auto;
-        width: 1230px;
-        padding: 100px 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+  h1 {
+    font-size: 60px;
+    line-height: 70px;
+    max-width: 740;
+  }
+}
 
-        h1 {
-            text-align: center;
-            font-size: 22.5px;
-            font-weight: 600;
-            margin-bottom: 20px;
-        }
+.introductionText {
 
-        p {
-            font-size: 18px;
-            text-align: center;
-            line-height: 32px;
-            width: 650px;
-        }
+  text-align: center;
+  height: auto;
+  width: 1230px;
+  padding: 100px 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  flex-direction: column;
 
-        a {
-            color: #1abc9c;
-        }
-    }
+  h1 {
+    text-align: center;
+    font-size: 22.5px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
 
-    .read-more {
-        color: #1abc9c;
-        display: flex;
-        justify-content: left;
-        width: 1230px;
-        padding-bottom: 100px;
-    }
+  p {
+    font-size: 18px;
+    text-align: center;
+    line-height: 32px;
+    width: 650px;
+  }
 
-    // Button animations
+  a {
+    color: #1abc9c;
+  }
+}
 
-    .information-card,
-    .sign-up-banner {
-        button {
-            opacity: .9;
-        }
+.read-more {
+  color: #1abc9c;
+  display: flex;
+  justify-content: left;
+  width: 1230px;
+  padding-bottom: 100px;
+}
 
-        button:hover {
-            opacity: 1;
-        }
-    }
+// Button animations
+
+.information-card,
+.sign-up-banner {
+  button {
+    opacity: .9;
+  }
+
+  button:hover {
+    opacity: 1;
+  }
 }
 
 /* Extra small devices (phones, 600px and down) */
-
 @media only screen and (max-width: 600px) {
-
-    .page {
-        .row {
-            padding: 0;
-            width: 90%;
-            margin: 0 auto;
-        }
-
-        .introductionText {
-            width: 100%;
-            margin: 0 auto;
-            padding: 50px 0;
-
-            h1 {
-                font-size: 18px;
-                font-weight: 600;
-            }
-
-            p {
-                font-size: 16px;
-                line-height: 24px;
-                margin-bottom: 0;
-                width: 90% !important;
-            }
-        }
+  .page {
+   
+    .row {
+      margin: 50px auto;
     }
+
+    .introductionText {
+      width: 100%;
+      margin: 0 auto;
+      padding: 50px 0 0 0;
+
+      h1 {
+        font-size: 18px;
+        font-weight: 600;
+      }
+
+      p {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 0;
+        width: 90% !important;
+      }
+    }
+  }
 }
 
 // Medium devices (landscape tablets, 768px and down)
-
 @media (max-width: 768px) {
+  body {
+    margin: 0;
+  }
 
-    body {
-        margin: 0;
+ 
+
+  .hero-image {
+    height: 300px !important;
+    width: 100% !important;
+    margin-top: 70px;
+
+    span {
+      width: 90% !important;
     }
 
-    .page {
-        margin: 0;
-        padding: 0;
-
-        .row {
-            padding: 0;
-          
-        }
+    h1 {
+      font-size: 30px;
+      line-height: 35px;
+      font-weight: 600;
     }
 
-    .hero-image {
-        height: 300px !important;
-        width: 100% !important;
-        margin-top: 70px;
-
-        span {
-            width: 90% !important;
-        }
-
-        h1 {
-            font-size: 30px;
-            line-height: 35px;
-            font-weight: 600;
-        }
-
-    }
-
-    
+  }
 
 }
 
 /* Large devices (laptops/desktops, 992px and down) */
-
 @media (max-width: 992px) {
-    
-    .page {
-        .row {
-            width: 100%;
-        }
+  
 
-        .introductionText {
-            width: 100%;
-        }
+    .introductionText {
+      width: 100%;
     }
+  
 
-
-    .hero-image {
-        span {
-            width: 95%;
-        }
+  .hero-image {
+    span {
+      width: 95%;
     }
+  }
 }

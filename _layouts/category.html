@@ -1,38 +1,37 @@
 ---
 layout: page
 ---
-<div class="education-list">
 <div class="introductionText">
-  <h1>Incredibly generic introdutionary title</h1>
-</div>
-
-<div class="row">
-  {% for education in site.educations %}
-  {% if education.category contains page.name %}
+    <h1>Incredibly generic introdutionary title</h1>
+  </div>
 
 
+<div class="education-list">
 
+ 
 
+  <div class="row">
+    {% for education in site.educations %}
+    {% if education.category contains page.name %}
 
-  <div class="col-lg-3 col-12 education-box">
-    <div class="card education-card">
-      <div class="education-image" style="background-image: url('{{ education.image }}')"></div>
-      <div class="card-body d-flex justify-content-center align-items-center flex-column">
-        <h5 class="card-title">{{ education.title }}</h5>
-        <div class="card-text" id="content">
+    <div class="col-lg-3 col-12 education-box">
+      <div class="card education-card">
+        <div class="education-image" style="background-image: url('{{ education.image }}')"></div>
+        <div class="card-body d-flex justify-content-center align-items-center flex-column">
+          <h5 class="card-title">{{ education.title }}</h5>
+          <div class="card-text" id="content">
+          </div>
+          <a class="showmore-button" href="{{ education.url }}">Læs mere</a>
         </div>
-        <a class="showmore-button" href="{{ education.url }}">Læs mere</a>
       </div>
     </div>
+
+    {% endif %}
+    {% endfor %}
+
   </div>
-  
 
-
-  {% endif %}
-  {% endfor %}
-
+  <a class="read-more" href="/academy/">← Se flere uddannelser</a>
 </div>
 
-<a class="read-more" href="/academy/">← Se flere uddannelser</a>
-</div>
 {% include signup.html %}
