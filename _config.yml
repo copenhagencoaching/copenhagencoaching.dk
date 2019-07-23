@@ -174,7 +174,6 @@ prose:
               value: "Morten Bertelsen"
             - name: "Morten Paustian"
               value: "Morten Paustian"
-            
       - name: "tags"
         field:
           element: "multiselect"
@@ -191,10 +190,6 @@ prose:
             - name: "Kurser"
               value: "kurser"
     _educations:
-      - name: "title"
-        field:
-          element: "text"
-          label: "Titel"
       - name: "category"
         field:
           element: "select"
@@ -217,6 +212,16 @@ prose:
               value: "personlig-udvikling-og-transition"
             - name: "Proces og strategi"
               value: "proces-og-strategi"
+      - name: "price"
+        field:
+          element: "text"
+          label: "Pris"
+      - name: "dates"
+        field:
+          element: "multiselect"
+          label: "Tilføj datoer"
+          placeholder: "dateor"
+          alterable: true
     _employees:
       - name: "title"
         field:

@@ -4,21 +4,11 @@ category: proces-og-strategi
 title: Frustration skal ledes
 image: /images/coaching/ledelsessparring.jpg
 bg-image: /images/coaching/ledelsessparring.jpg
+price: 38.700,- ekskl. moms (heri er inkluderet fuld forplejning, materialer)
+dates: [September 2019]
 ---
 
-# Frustration skal ledes
-
-38.700,- ekskl. moms (heri er inkluderet fuld forplejning, materialer) 
-
-Kommende uddannelsesstart
-
-September 2019 
-
-<a href="#"><button class="dates">Se alle undervisningsdatoer 2019/2020</button></a>
-
-<hr>
-
-# Hvorfor skal du vælge {{ page.title }}?
+# Hvorfor skal du vælge Frustration skal ledes?
 
 Fælles for de fleste offentlige organisationer og institutioner er, at ledelsen befinder sig i et krydspres. Krav om konstant forandring, omorganisering, økonomisk pres og new public management er alle faktorer, som kan påvirke frustrationsniveauet i organisationen. Når en medarbejdergruppe føler sig presset, overset, tromlet, truet eller afprofessionaliseret stiger frustrationsniveauet, hvilket kan medføre stress, forråelse, forhøjet medarbejderudskiftning og faldende, faglig kvalitet. 
 

@@ -4,21 +4,11 @@ category: proces-og-strategi
 title: Proceslederuddannelse
 image: /images/coaching/ledelsessparring.jpg
 bg-image: /images/coaching/ledelsessparring.jpg
+price: 29.500,- ekskl. moms (heri er inkluderet fuld forplejning, materialer og rejse)
+dates: [Øst (København) 3. Oktober - 9. Oktober 2019]
 ---
 
-# {{ page.title }}
-
-29.500,- ekskl. moms (heri er inkluderet fuld forplejning, materialer og rejse) 
-
-# Kommende uddannelsstart
-
-Øst (København): 3. Oktober - 9. Oktober 2019 
-
-<a href="#"><button class="dates">Se alle undervisningsdatoer 2019/2020</button></a>
-
-<hr>
-
-# Hvorfor skal du vælge {{ page.title }}?
+# Hvorfor skal du vælge Proceslederuddannelsen?
 
 Uddannelsen henvender sig til ledere og konsulenter, som har ansvar for, leder og håndterer forandringer og processer i organisationen, internt som eksternt. 
 

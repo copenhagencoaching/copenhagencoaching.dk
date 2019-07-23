@@ -4,21 +4,11 @@ category: ccc-netveark
 title: CCC Netværk
 image: /images/academy/b1.png
 bg-image: /images/academy/b1.png
+price: 4.800,- ekskl. moms pr. år
+dates: [Datoer for efteråretsnetværksarrangement følger]
 ---
 
-# {{ page.title }}
-
-4.800,- ekskl. moms pr. år
-
-# Kommende uddannelsstart
-
-Datoer for efteråretsnetværksarrangement følger
-
-<a href="#"><button class="dates">Se alle undervisningsdatoer 2019/2020</button></a>
-
-<hr>
-
-# Hvorfor skal du vælge {{ page.title }}?
+# Hvorfor skal du vælge Netværk?
 
 Kunne du godt bruge noget sparring og inspiration i din daglige ledelse. Mangler du et frirum, hvor du har lov at sænke paraderne og kan møde ligesindede. Så meld dig til vores CCC-netværk. CCC-netværket er et nærværende og inspirerende medlemsbaseret netværk, der fokuserer på dialogisk kapacitet, selvindsigt og refleksivitet.  
 

@@ -3,22 +3,13 @@ published: true
 category: proces-og-strategi
 title: Filosofisk terapi
 image: /images/coaching/MasterBusinessCoaching.jpg
-bg-image: /images/coaching/MasterBusinessCoaching.jpg
+bg-image: /images/coaching/MasterBusinessCoaching.jpg'
+price: 29.000 eksl. moms (heri er inkluderet fuld forplejning, materialer) 
+dates: [Øst (KØBENHAVN) 30 September 2019]
 ---
 
-# Filosofisk terapi
 
-29.000 eksl. moms (heri er inkluderet fuld forplejning, materialer) 
-
-# Kommende uddanelsesstart
-
-Øst (KØBENHAVN): 30 September 2019 
-
-<a href="#"><button class="dates">Se alle undervisningsdatoer 2019/2020</button></a>
-
-<hr>
-
-# Hvorfor skal du vælge {{ page.title }}?
+# Hvorfor skal du vælge Filosofisk terapi?
 
 Arbejder du med mennesker i et terapeutisk øjemed (terapeut, coach, behandler, psykolog etc.) og er du nysgerrig på, hvordan filosofi kan bruges i din kontekst? Ønsker du at kunne arbejde med terapeutiske relationsmetoder, filosofisk begrebs- og værdiafklaring samt alternative terapeutiske metoder? Er du optaget af at kunne indgå i arbejdsrelationer med en endnu højere grad af indlevelse og med en endnu stærkere intuition? Ønsker du metodisk inspiration ift. nye og anderledes metodiske greb og øvelser, som du formentlig ikke tidligere har prøvet før. 
 

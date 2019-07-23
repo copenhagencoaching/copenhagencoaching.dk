@@ -2,21 +2,39 @@
 layout: page
 ---
 
-<div class="row education">
-    <div class="col-12">
-        {{ page.content }}
+<div class="education">
+    <div class="row">
+        <div class="col-12">
 
-        {% capture reg-url %}?n={{ page.title | uri_escape }}{% endcapture %}
+            <h1>{{ page.title }}</h1>
+            <p>{{ page.price }}</p>
+            <h1>Kommende uddannelsstart</h1>
 
-        <hr>
-        <span class="education-bottom">
-            Har du brug for at høre mere, eller vil du kontakt med den ansvarlige for {{ page.title }}?
-            <br>
-            Kontakt os på <a href="#" data-toggle="modal" data-target="#contact-modal">info@copenhagencoaching.dk</a>
-            <br>
-            <a href="/registration/{{ reg-url }}"><button class="sign-up-button">Tilmeld dig her</button></a> <a href="#"><button class="pdf-download">Download PDF</button></a>
-            <a class="read-more" href="/academy/">← Se flere uddannelser</a>
-        </span>
+            
+             {% for date in page.dates %}
+
+             <p>{{ date }}</p>
+
+             {% endfor %}
+             <a href="#"><button class="dates">Se alle undervisningsdatoer 2019/2020</button></a>
+
+             <hr>
+            {{ page.content }}
+
+            {% capture reg-url %}?n={{ page.title | uri_escape }}{% endcapture %}
+
+            <hr>
+            <span class="education-bottom">
+                Har du brug for at høre mere, eller vil du kontakt med den ansvarlige for {{ page.title }}?
+                <br>
+                Kontakt os på <a href="#" data-toggle="modal"
+                    data-target="#contact-modal">info@copenhagencoaching.dk</a>
+                <br>
+                <a href="/registration/{{ reg-url }}"><button class="sign-up-button">Tilmeld dig her</button></a> <a
+                    href="#"><button class="pdf-download">Download PDF</button></a>
+                <a class="read-more" href="/academy/">← Se flere uddannelser</a>
+            </span>
+        </div>
     </div>
 </div>
 

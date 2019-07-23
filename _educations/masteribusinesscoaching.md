@@ -4,23 +4,11 @@ category: master-i-business-coaching
 title: Master i Business Coaching
 image: /images/coaching/ledelsessparring.jpg
 bg-image: /images/coaching/ledelsessparring.jpg
+price: 45.900,- EKSKL. MOMS (heri er inkluderet fuld forplejning, materialer og rejse)
+dates: [Øst (KØBENHAVN) 12. AUGUST 2019 og 24. FEBRUAR 2020, Vest (FREDERICIA) 9. OKTOBER 2019]
 ---
 
-# Master i Business Coaching
-
-45.900,- EKSKL. MOMS (heri er inkluderet fuld forplejning, materialer og rejse) 
-
-# Kommende uddannelsstart
-
-Øst (KØBENHAVN): 12. AUGUST 2019 og 24. FEBRUAR 2020 
-
-Vest (FREDERICIA): 9. OKTOBER 2019 
-
-<a href="#"><button class="dates">Se alle undervisningsdatoer 2019/2020</button></a>
-
-<hr>
-
-# Hvorfor skal du vælge {{ page.title }}?
+# Hvorfor skal du vælge Masterclass i Business Coaching?
 
 Ønsker du at blive dygtig til at føre produktive og virkningsfulde dialoger? At kunne flytte både grupper og individer i en mere konstruktiv retning og derved forebygge stress, organisatorisk stagnation og udbrændthed? Så vælg uddannelsen: Master i Business Coaching (MBC). 
 
@@ -28,7 +16,7 @@ Med en Master i Business Coaching får du en af landets bedste coachinguddannels
 
 Uddannelsen er akkrediteret igennem EMCC. 
 
-<a href="#">Læs mere om EMCC akkreditering her.</a>
+[Læs mere om EMCC akkreditering her.](#)
 
 # Hvordan er uddannelsen bygget op?
 

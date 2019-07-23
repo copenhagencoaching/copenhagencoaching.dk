@@ -4,21 +4,11 @@ category: [filosofi, lederskab, personlig-udvikling-og-transition]
 title: Ledelseskursus på Lesbos
 image: /images/coaching/lesbos.jpg
 bg-image: /images/coaching/lesbos.jpg
+price: 30.000,- ekskl. moms (heri er inkluderet fuld forplejning, materialer og rejse)
+dates: [Øst (København) 12. TIL 19. SEPTEMBER 2019]
 ---
 
-# {{ page.title }}
-
-30.000,- ekskl. moms (heri er inkluderet fuld forplejning, materialer og rejse) 
-
-# Kommende uddannelsstart
-
-Øst (København): 12. TIL 19. SEPTEMBER 2019 
-
-<a href="#"><button class="dates">Se alle undervisningsdatoer 2019/2020</button></a>
-
-<hr>
-
-# Hvorfor skal du vælge {{ page.title }}?
+# Hvorfor skal du vælge Ledelseskursus på Lesbos?
 
 Har du givet dig selv mulighed for at finde det der betyder mest for dig, når du leder? Ønsker du at kunne bevare overblikket og agere tydeligt. Oplever du at det kan være svært at udfordre med et åbent sind og samtidig skabe tryghed omkring dig? Synes du nogle gange det er svært at bevæge sig i det uforudsigelige eller medskabe noget gennem fællesskabets værdier? Nu har du muligheden for at tænke over det, mærke efter det og blive til det. 
  
