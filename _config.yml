@@ -148,7 +148,7 @@ prose:
         field:
           element: "text"
           label: "title"
-      - name: "Author"
+      - name: "author"
         field:
           element: "select"
           label: "Select Author"
