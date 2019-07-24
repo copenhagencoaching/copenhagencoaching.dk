@@ -4,25 +4,13 @@ title: Certificering i Protreptik2
 category: filosofi
 image: /images/academy/b3.png
 bg-image: /images/academy/b3.png
-price: '23.000'
+price: 'pris'
 dates:
   - xxxx
   - xxyy
-  - 23/9 2018
 ---
 
-# Hvorfor skal du vælge Certificering i Protreptik?
-# Hej
-## Hej
-### Hej
-
-[Prolike](https://prolike.io)
-
-Lorem ipsum dolor sit amet,**consectetur** adipiscing elit, _sed do eiusmod_ tempor incididunt ut labore et dolore magna aliqua. Libero enim sed faucibus turpis in eu mi. Ac auctor augue mauris augue neque gravida in fermentum et. Lobortis elementum nibh tellus molestie nunc non. Quisque egestas diam in arcu cursus euismod quis viverra nibh. Habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim. Suspendisse ultrices gravida dictum fusce ut placerat orci nulla. Etiam erat velit scelerisque in dictum. Amet massa vitae tortor condimentum lacinia quis vel eros. Vestibulum lectus mauris ultrices eros in cursus. In fermentum posuere urna nec tincidunt praesent. Pellentesque sit amet porttitor eget dolor morbi non arcu. Consectetur libero id faucibus nisl _tincidunt eget nullam._
-
-- hej
-- hej
-
+Lorem ipsum dolor sit amet,consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Libero enim sed faucibus turpis in eu mi. Ac auctor augue mauris augue neque gravida in fermentum et. Lobortis elementum nibh tellus molestie nunc non. Quisque egestas diam in arcu cursus euismod quis viverra nibh. Habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim. Suspendisse ultrices gravida dictum fusce ut placerat orci nulla. Etiam erat velit scelerisque in dictum. Amet massa vitae tortor condimentum lacinia quis vel eros. Vestibulum lectus mauris ultrices eros in cursus. In fermentum posuere urna nec tincidunt praesent. Pellentesque sit amet porttitor eget dolor morbi non arcu. Consectetur libero id faucibus nisl tincidunt eget nullam.
 
 [Læs mere om EMCC akkreditering her.](#)
 
