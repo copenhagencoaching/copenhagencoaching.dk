@@ -4,9 +4,11 @@ layout: page
 
 <div class="education">
     <div class="row">
-        <div class="col-12">
+        <div class="col-12 education-content">
 
-            <h1>{{ page.title }}</h1>
+                <div id="section-to-print">
+
+            <h1 class="education-title">{{ page.title }}</h1>
             <p>{{ page.price }}</p>
             <h1>Kommende uddannelsstart</h1>
 
@@ -22,7 +24,7 @@ layout: page
             {{ page.content }}
 
             {% capture reg-url %}?n={{ page.title | uri_escape }}{% endcapture %}
-
+        </div>
             <hr>
             <span class="education-bottom">
                 Har du brug for at høre mere, eller vil du kontakt med den ansvarlige for {{ page.title }}?
@@ -30,8 +32,9 @@ layout: page
                 Kontakt os på <a href="#" data-toggle="modal"
                     data-target="#contact-modal">info@copenhagencoaching.dk</a>
                 <br>
-                <a href="/registration/{{ reg-url }}"><button class="sign-up-button">Tilmeld dig her</button></a> <a
-                    href="#"><button class="pdf-download">Download PDF</button></a>
+                
+                <a href="/registration/{{ reg-url }}"><button class="sign-up-button">Tilmeld dig her</button></a>
+                <input class="pdf-download" type="button" value="Download PDF" id="print">
                 <a class="read-more" href="/academy/">← Se flere uddannelser</a>
             </span>
         </div>

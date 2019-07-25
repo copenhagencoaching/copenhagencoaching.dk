@@ -1,3 +1,37 @@
+
+@media print {
+    body * {
+      visibility: hidden;
+    }
+
+
+    #section-to-print, #section-to-print * {
+      visibility: visible;
+      a, button {
+          visibility: hidden;
+      }
+    }
+    #section-to-print {
+      position: absolute;
+      left: 0;
+      top: -600px;
+      
+    }
+
+    .education-title {
+        font-size: 35px;
+        padding-top: 0;
+    }
+
+    h1, h2, h3 {
+        font-size: 27px;
+        padding-top: 0;
+        color: #1abc9c;
+    }
+  }
+  
+
+
 .education {
 
     .row {
@@ -6,9 +40,15 @@
 
     padding: 0;
 
+    .education-title {
+        font-size: 27px;
+        padding-top: 0;
+    }
+
     h1 {
         font-size: 20px;
         padding-bottom: 20px;
+        padding-top: 50px;
     }
 
     p {
