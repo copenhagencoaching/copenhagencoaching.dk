@@ -3,7 +3,6 @@ published: true
 category: master-i-business-coaching
 title: Master i Business Coaching
 image: /images/coaching/ledelsessparring.jpg
-bg-image: /images/coaching/ledelsessparring.jpg
 price: 45.900,- EKSKL. MOMS (heri er inkluderet fuld forplejning, materialer og rejse)
 dates: [Øst (KØBENHAVN) 12. AUGUST 2019 og 24. FEBRUAR 2020, Vest (FREDERICIA) 9. OKTOBER 2019]
 ---

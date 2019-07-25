@@ -2,7 +2,6 @@
 published: true
 title: Frisættende lederskab
 image: /images/forum/post6.jpeg
-bg-image: /images/forum/post6.jpeg
 author: Frederikke Winther
 signup: forskellige ydelser
 tags: [ledelse]

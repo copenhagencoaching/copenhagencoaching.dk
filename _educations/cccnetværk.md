@@ -3,7 +3,6 @@ published: true
 category: ccc-netveark
 title: CCC Netværk
 image: /images/academy/b1.png
-bg-image: /images/academy/b1.png
 price: 4.800,- ekskl. moms pr. år
 dates: [Datoer for efteråretsnetværksarrangement følger]
 ---

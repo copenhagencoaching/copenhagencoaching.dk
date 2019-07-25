@@ -3,7 +3,6 @@ published: true
 category: personlig-udvikling-og-transition
 title: Executive Transition
 image: /images/coaching/ledelsessparring.jpg
-bg-image: /images/coaching/ledelsessparring.jpg
 price: xxx pris
 dates: [xxxx, xxyy]
 ---

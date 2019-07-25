@@ -3,7 +3,6 @@ published: true
 author: Kommunikation
 title: Kommunikation
 image: /images/consulting/c1.jpg
-bg-image: /images/consulting/c1.jpg
 description: I et executive coachingforløb får du som topleder øget din handlekraft og beslutningskompetence til at gennemføre forandringer, skærpe retning og sikre følgeskab i din organisation. Et executive coachingforløb er for dig der sidder i en toplederpost og har brug for at få styrket din indre handlekraft i din rolle som leder.
 ---
 

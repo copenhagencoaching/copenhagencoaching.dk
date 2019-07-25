@@ -3,7 +3,6 @@ published: true
 title: Certificering i Protreptik2
 category: filosofi
 image: /images/academy/b3.png
-bg-image: /images/academy/b3.png
 price: 'pris'
 dates:
   - xxxx

@@ -2,7 +2,6 @@
 published: true
 title: Ny klumme i økonomisk ugebrev
 image: /images/forum/post1.jpeg
-bg-image: /images/forum/post1.jpeg
 author: Bianca Godske Røjbæk
 tags: [ugebrev, ledelse, nyhed]
 signup: forskellige ydelser

@@ -3,7 +3,6 @@ published: true
 category: filosofi
 title: Masterclass I Protreptik
 image: /images/academy/b7.png
-bg-image: /images/academy/b7.png
 price: xxx pris
 dates: [xxxx, xxyy]
 ---

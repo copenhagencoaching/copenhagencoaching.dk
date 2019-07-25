@@ -3,7 +3,6 @@ published: true
 category: lederskab
 title: MBC
 image: /images/coaching/ledelsessparring.jpg
-bg-image: /images/coaching/ledelsessparring.jpg
 price: xxx pris
 dates:
   - xxxx

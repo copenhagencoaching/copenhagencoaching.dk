@@ -4,7 +4,6 @@ id: 3
 author: Filosofiske samtaler
 title: Teamsamtaler
 image: /images/coaching/c4.jpg
-bg-image: /images/coaching/c4.jpg
 description: Igennem den filosofiske samtale finder du ind til det der er væsentligt for dig, og dèt der gør dig handlekraftig til at sætte dig selv fri til at leve det liv du gerne vil. Vi arbejder med de ord, begreber og værdier du mener ligger dig tættest på sinde. Det giver dig en imødekommenhed og styrke som du kan centrere det væsentligste for dig igennem.
 ---
 

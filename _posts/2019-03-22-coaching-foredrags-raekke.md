@@ -2,7 +2,6 @@
 published: true
 title: Coaching-foredragsrække på Københavns Universitet
 image: /images/forum/post7.jpeg
-bg-image: /images/forum/post7.jpeg
 author: Frederikke Winther
 signup: forskellige ydelser
 tags: [samarbejde]

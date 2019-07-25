@@ -3,7 +3,6 @@ published: true
 title: Certificeringer i Big Five
 category: [certificeringer, proces-og-strategi]
 image: /images/academy/b2.png
-bg-image: /images/academy/b2.png
 price: xxx pris
 dates: [xxxx, xxyy]
 ---

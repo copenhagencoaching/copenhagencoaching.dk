@@ -3,7 +3,6 @@ published: true
 title: Filosofiske seminarer
 category: filosofi
 image: /images/academy/b8.png
-bg-image: /images/academy/b8.png
 price: xxx pris
 dates: [xxxx, xxyy]
 ---

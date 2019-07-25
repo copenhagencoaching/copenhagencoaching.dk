@@ -3,7 +3,6 @@ published: true
 author: Tailor-made Education Programmes
 title: Tailor-made Education Programmes
 image: /images/international/i2.jpg
-bg-image: /images/international/i2.jpg
 description: Lorem ipsum dolor sin et serum anuro sutur lipin forma ut
 ---
 

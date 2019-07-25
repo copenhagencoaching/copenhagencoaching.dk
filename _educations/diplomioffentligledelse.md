@@ -3,7 +3,6 @@ published: true
 title: Diplom i offentlig ledelse
 category: diplom-i-offentlig-ledelse
 image: /images/academy/b3.png
-bg-image: /images/academy/b3.png
 price: xxx pris
 dates: [xxxx, xxyy]
 ---

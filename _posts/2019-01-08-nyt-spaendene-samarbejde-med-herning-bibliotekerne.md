@@ -2,7 +2,6 @@
 published: true
 title: Nyt, spændene samarbejde med Herning Bibliotekerne
 image: /images/forum/post3.jpeg
-bg-image: /images/forum/post3.jpeg
 author: Frederikke Winther
 signup: forskellige ydelser
 tags: [samarbejde, projekt]

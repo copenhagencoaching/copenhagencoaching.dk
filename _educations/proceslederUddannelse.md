@@ -3,7 +3,6 @@ published: true
 category: proces-og-strategi
 title: Proceslederuddannelse
 image: /images/coaching/ledelsessparring.jpg
-bg-image: /images/coaching/ledelsessparring.jpg
 price: 29.500,- ekskl. moms (heri er inkluderet fuld forplejning, materialer og rejse)
 dates: [Øst (København) 3. Oktober - 9. Oktober 2019]
 ---

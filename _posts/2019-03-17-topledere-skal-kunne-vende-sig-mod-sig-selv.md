@@ -2,7 +2,6 @@
 published: true
 title: Topledere skal kunne vende sig mod sig selv
 image: /images/forum/post5.jpeg
-bg-image: /images/forum/post5.jpeg
 author: Frederikke Winther
 signup: forskellige ydelser
 tags: [ledelse]

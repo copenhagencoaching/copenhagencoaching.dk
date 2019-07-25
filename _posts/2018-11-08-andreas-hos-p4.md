@@ -2,7 +2,6 @@
 published: true
 title: Andreas Bering hos Søren og Mette på P4
 image: /images/forum/post9.jpg
-bg-image: /images/forum/post9.jpg
 author: Frederikke Winther
 tags: [ugebrev, nyhed]
 signup: forskellige ydelser

@@ -148,11 +148,15 @@ prose:
         field:
           element: "text"
           label: "title"
+      - name: "image"
+        field:
+          element: "text"
+          label: "Billed"
       - name: "author"
         field:
           element: "select"
-          label: "Select Author"
-          placeholder: "Choose Author"
+          label: "Vælg forfatter"
+          placeholder: "Forfatter"
           options:
             - name: "Lars Nyborg"
               value: "Lars Nyborg"
@@ -177,8 +181,8 @@ prose:
       - name: "tags"
         field:
           element: "multiselect"
-          label: "Add Tags"
-          placeholder: "Choose Tags"
+          label: "Tilføj tags"
+          placeholder: "Tag"
           alterable: true
           options:
             - name: "Coaching"
@@ -190,11 +194,15 @@ prose:
             - name: "Kurser"
               value: "kurser"
     _educations:
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
       - name: "category"
         field:
           element: "select"
           label: "Vælg kategori"
-          placeholder: "Vælg kategori"
+          placeholder: "Kategori"
           options:
             - name: "CCC Netværk"
               value: "ccc-netveark"
@@ -222,11 +230,19 @@ prose:
           label: "Tilføj datoer"
           placeholder: "dateor"
           alterable: true
+      - name: "image"
+        field:
+          element: "text"
+          label: "Billed"
     _employees:
       - name: "title"
         field:
           element: "text"
           label: "Navn"
+      - name: "image"
+        field:
+          element: "text"
+          label: "Billed"
       - name: "email"
         field:
           element: "text"

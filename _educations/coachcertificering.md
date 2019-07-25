@@ -3,7 +3,6 @@ published: true
 category: certificeringer
 title: Coach-certificering (EMCC)
 image: /images/academy/b4.png
-bg-image: /images/academy/b4.png
 price: xxx pris
 dates: [xxxx, xxyy]
 ---
