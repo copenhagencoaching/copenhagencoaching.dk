@@ -162,3 +162,14 @@ body {
     }
   }
 }
+
+@media (max-width: 1230px) {
+
+
+  .hero-image {
+    width: 100%;
+    span {
+      width: 95%;
+    }
+  }
+}
