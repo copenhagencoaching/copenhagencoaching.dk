@@ -1,6 +1,8 @@
 .stories {
+  width: 100%;
   .row {
     width: 1260px;
+    margin: 100px auto 0 auto;
   }
 
   .tag-section {
@@ -19,7 +21,7 @@
 
   .story-row {
     .row {
-      margin: 100px auto 0 !important;
+      margin: 100px auto 0 auto;
     }
   }
 
