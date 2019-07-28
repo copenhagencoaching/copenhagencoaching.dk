@@ -53,9 +53,9 @@
         $('#search-button').removeClass('hide');
     });
 
-    document.querySelector("#print").addEventListener("click", function () {
-      window.print();
-    });
+    // document.querySelector("#print").addEventListener("click", function () {
+    //   window.print();
+    // });
   </script>
 
   <!-- Functionality for sharing articles on social media -->
@@ -168,10 +168,21 @@
 
     }
 
-    function handleClick() {
-      this.value = (this.value == 'Vis mere' ? 'Vis mindre' : 'Vis mere');
-    }
-    document.getElementById('collapsible').onclick = handleClick;
+    $("#collapsible").on("click", function () {
+      var $this = $(this);
+      var linkText = $this.text().toUpperCase();
+
+
+      if (linkText === "VIS MERE") {
+        linkText = "Vis mindre";
+      } else {
+        linkText = "Vis mere";
+      };
+
+      $this.text(linkText);
+    });
+  </script>
+   
 
 
   </script>
