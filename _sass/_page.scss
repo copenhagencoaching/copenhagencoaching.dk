@@ -88,10 +88,7 @@ body {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .page {
-   
-    .row {
-      margin: 50px auto;
-    }
+
 
     .introductionText {
       width: 100%;
@@ -119,7 +116,12 @@ body {
     margin: 0;
   }
 
- 
+  .page {
+   
+    .row {
+      margin: 50px auto;
+    }
+  }
 
   .hero-image {
     height: 300px !important;

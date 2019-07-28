@@ -156,13 +156,12 @@
 
 .individual-stories {
   height: 100%;
-  width: 750px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
 
   .row {
-    width: 750px !important;
+    width: 750px;
     height: auto;
     padding: 100px 0;
 
@@ -292,19 +291,19 @@
 
 }
 
-.individual-stories {
-  width: 90%;
-  padding: 50px 0;
 
-  .row {
-    height: auto;
-    padding: 100px 0;
 
-  }
-}
 
 /* Large devices (laptops/desktops, 992px and down) */
 @media (max-width: 992px) {
+
+  .individual-stories {
+    .row {
+      width: 90%;
+      padding: 0;
+    }
+  }
+
   .stories {
     .row {
       width: 90%;
