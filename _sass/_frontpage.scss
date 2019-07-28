@@ -80,6 +80,23 @@
     margin-top: 0;
 }
 
+// Smaller than our page width
+
+@media (max-width: 1230px) {
+
+    .frontpage {
+        span {
+            width: 90%;
+        }
+    }
+
+    #frontpage-nav {
+        .navbar {
+            width: 90%;
+        }
+    }
+}
+
 // Medium devices (landscape tablets, 768px and down)
 
 @media (max-width: 768px) {
@@ -90,7 +107,7 @@
         }
 
         h1 {
-            font-size: 20px;
+            font-size: 30px; // denne bliver overskrevet
         }
 
         p {
@@ -113,24 +130,11 @@
             margin-right: 12.5px;
         }
     }
-
-    .home {
-
-        .col-lg-12 {
-            color: white;
-            padding: 0 30px;
-
-            h1 {
-                font-size: 30px;
-                line-height: 30px;
-                margin-bottom: 20px;
-            }
-
-            p {
-                font-size: 15.5px;
-                margin-bottom: 10x;
-                line-height: 20px;
-            }
+    #frontpage-nav {
+        .navbar {
+            width: 100%; //Denne bliver overskrevet
         }
     }
+   
 }
+
