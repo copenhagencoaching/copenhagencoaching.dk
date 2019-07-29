@@ -6,8 +6,7 @@
       width: 1250px;
   
       .education-box {
-        padding: 10px;
-        min-height: 390px;
+        margin-bottom: 20px;
   
         .card {
           width: 100%;
@@ -18,7 +17,7 @@
           border: none;
           transition: all ease-in-out .3s;
           padding: 10px;
-          min-height: 390px;
+          min-height: 200px;
   
           .card-body {
             padding: 0;
@@ -37,6 +36,8 @@
             margin: 20px 0 31px;
             font-size: 16px;
             font-weight: 500;
+            display: block;
+            height: 20px;
           }
   
           .card-text {
@@ -89,22 +90,27 @@
 
   // Medium devices (landscape tablets, 768px and down)
 @media (max-width: 768px) {
-    .education-list {
-      .read-more {
-        text-align: center;
-        margin-right: 0;
-        justify-content: center !important; // Jeg kan ikke forstå hvorfor der bliver nødt til at være importent her.
-        width: 100% !important;
-      }
-  
-      .row {
-        width: 95% !important;
-      }
-    }
+    
   
   }
   
   /* Large devices (laptops/desktops, 992px and down) */
   @media (max-width: 992px) {
+   
     }
   
+    @media (max-width: 1230px) {
+    
+      .education-list {
+        .read-more {
+          text-align: center;
+          margin-right: 0;
+          justify-content: center !important; // Jeg kan ikke forstå hvorfor der bliver nødt til at være importent her.
+          width: 100% !important;
+        }
+    
+        .row {
+          width: 95% !important;
+        }
+      }
+    }

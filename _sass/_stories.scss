@@ -296,8 +296,17 @@
 
 
 
-/* Large devices (laptops/desktops, 992px and down) */
-@media (max-width: 992px) {
+
+@media (max-width: 1230px) {
+
+  .tag-section {
+    margin: 20px auto 30px auto !important;
+    width: 90% !important;
+
+    p {
+      text-align: center;
+    }
+  }
 
   .individual-stories {
     .row {
