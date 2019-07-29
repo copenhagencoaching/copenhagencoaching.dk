@@ -140,6 +140,7 @@ hr {
   .expandable {
     .col-12 {
       padding: 0;
+      flex: unset;
     }
 
     .row {
@@ -214,12 +215,16 @@ hr {
 /* Large devices (laptops/desktops, 992px and down) */
 
 @media (max-width: 992px) {
+ 
+
+}
+
+@media (max-width: 1230px) {
 
   .expandable {
     width: 100%;
 
     .row {
-      margin: 0 auto;
       width: 90%;
     }
 
