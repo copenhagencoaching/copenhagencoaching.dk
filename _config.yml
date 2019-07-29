@@ -239,7 +239,7 @@ prose:
         field:
           element: "text"
           label: "Navn"
-      - name: "image"
+      - name: "portrait-image"
         field:
           element: "text"
           label: "Billed"
