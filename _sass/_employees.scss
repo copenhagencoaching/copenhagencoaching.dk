@@ -204,7 +204,6 @@
     margin-bottom: 100px !important;
     text-align: center;
     width: 100%;
-    
 
     p {
       padding: 0;
@@ -239,7 +238,14 @@
 }
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {}
+@media only screen and (max-width: 600px) {
+  .employees {
+    .img-empl {
+      height: 350px;
+
+    }
+  }
+}
 
 // Medium devices (landscape tablets, 768px and down)
 @media (max-width: 768px) {
@@ -254,6 +260,24 @@
   .tab-pane {
     width: 100%;
   }
+
+
+
+  .empl-info .infobox {
+    width: 100%;
+  }
+
+  .employees {
+    .img-empl {
+      height: 200px;
+
+    }
+  }
+
+}
+
+/* Large devices (laptops/desktops, 992px and down) */
+@media (max-width: 992px) {
 
   .employee-box {
     margin-bottom: 50px !important;
@@ -295,29 +319,27 @@
       max-width: 332px;
     }
   }
-
-  .empl-info .infobox {
-    width: 100%;
-  }
-
+ 
 }
+@media (max-width: 1230px) {
+  
 
-/* Large devices (laptops/desktops, 992px and down) */
-@media (max-width: 992px) {
   .employees {
     .row {
       width: 97% !important;
     }
-  }
 
-  .information-card {
-    span {
-      width: 90%;
+    .card-title {
+      font-size: 14px;
+    }
+
+    .card-subtitle {
+      font-size: 14px;
     }
   }
 
-}
-@media (max-width: 1230px) {
+  
+
   .employee {
     img {
       margin: 0 20px 20px 0;
@@ -337,7 +359,6 @@
           p {
             font-size: 15px;
           }
-          
 
         }
 
