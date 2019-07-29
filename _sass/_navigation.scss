@@ -159,7 +159,7 @@ nav {
   }
 
   .navbar {
-    width: inherit;
+    
     background: #ffffff;
     border-bottom: 1px solid #a9a9a9;
     padding: 0 !important;
@@ -229,7 +229,7 @@ nav {
   }
 
   .navbar {
-    width: inherit;
+    
     background: #ffffff;
     border-bottom: 1px solid #a9a9a9;
     padding: 0 !important;
@@ -301,6 +301,10 @@ nav {
   nav {
     .navbar {
         width: 90%;
+
+        .navbar-brand {
+          padding-left: 0;
+        }
     }
 }
 

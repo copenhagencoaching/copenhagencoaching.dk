@@ -19,15 +19,18 @@ order: 3
         
         <section class="col-12 expandable-pane">
                 <div class="anchor" id="{{ consultation.title | remove:' ' }}"></div>
-            <div class="col-lg-5 col-md-12 col-sm-12 expandable-pane-image"
+            <div class="row">
+               
+            <div class="col-lg-5 col-12 expandable-pane-image"
                 style="background-image: url('{{ consultation.image }}')"></div>
-            <div class="col-lg-7 col-md-12 col-sm-12 expandable-pane-text">
+            <div class="col-lg-7 col-12 expandable-pane-text">
                 <h1>{{ consultation.title }}</h1>
                 <div class="content hideContent">
                     {{ consultation.content }}
                 </div>
                 <button href="#{{ consultation.title | remove:' ' }}" class="show-more">Vis mere</button>
             </div>
+        </div>
         </section>
         {% endfor %}
 
