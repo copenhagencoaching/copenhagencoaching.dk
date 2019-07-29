@@ -151,7 +151,7 @@ body {
   
 
     .introductionText {
-      width: 100%;
+      width: 90%;
     }
   
 
@@ -165,7 +165,16 @@ body {
 
 @media (max-width: 1230px) {
 
-
+  .introductionText {
+    width: 90%;
+  }
+  .page {
+   
+    .row {
+      width: 90%;
+      margin: 50px auto;
+    }
+  }
   .hero-image {
     width: 100%;
     span {
