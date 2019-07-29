@@ -92,9 +92,22 @@ span {
 
 @media (max-width: 768px) {
 
+  
+  
+}
+
+@media (max-width: 992px) {
+
+
+ 
+}
+
+@media (max-width: 1230px) {
+
   footer {
     height: auto;
     padding: 50px 0;
+    justify-content: space-evenly;
 
     .row {
       width: 90%;
@@ -123,17 +136,6 @@ span {
     .footer-text {
       font-size: 14px;
       width: 150px;
-    }
-  }
-}
-
-@media (max-width: 1230px) {
-
-  footer {
-   
-
-    .row {
-      width: 90%;
     }
 
   }
