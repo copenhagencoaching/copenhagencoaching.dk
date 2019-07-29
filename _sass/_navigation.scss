@@ -248,13 +248,11 @@ nav {
     .navbar-brand {
       height: 45px;
       width: auto;
-      padding-left: 20px;
       position: absolute;
       z-index: 9999;
     }
 
     .navbar-toggler {
-      padding: 0;
       font-size: 20px;
       line-height: 1;
       background-color: transparent;
@@ -262,7 +260,6 @@ nav {
       position: absolute;
       z-index: 9999;
       right: 0;
-      padding-right: 5px;
       .fas {
         font-size: 20px;
       }
@@ -298,14 +295,12 @@ nav {
 
 
 @media (max-width: 1230px) {
-  nav {
-    .navbar {
-        width: 90%;
-
-        .navbar-brand {
-          padding-left: 0;
-        }
-    }
-}
+  .navbar-toggler, .navbar-nav {
+    padding-right: 20px;
+  }
+  .navbar-brand {
+    padding-left: 20px !important;
+    
+  }
 
 }
