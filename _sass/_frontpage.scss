@@ -84,7 +84,15 @@
 
 @media (max-width: 1230px) {
 
-   
+    .frontpage {
+        span {
+            width: 90%;
+        }
+
+        .frontpage-buttons {
+            width: 100%;
+        }
+    }
 }
 
 // Medium devices (landscape tablets, 768px and down)
@@ -92,9 +100,7 @@
 @media (max-width: 768px) {
 
     .frontpage {
-        span {
-            width: 90%;
-        }
+        
 
         h1 {
             font-size: 30px; // denne bliver overskrevet
@@ -105,9 +111,7 @@
             width: 100%
         }
 
-        .frontpage-buttons {
-            width: 100%;
-        }
+        
 
         .green-button,
         .transparent-button {
@@ -116,9 +120,7 @@
             font-size: 16px;
         }
 
-        .green-button {
-            margin-right: 12.5px;
-        }
+        
     }
     #frontpage-nav {
         .navbar {
