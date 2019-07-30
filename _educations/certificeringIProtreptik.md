@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 title: Certificering i Protreptik
 category: filosofi
 image: /images/academy/b3.png

@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 category: personlig-udvikling-og-transition
 title: Executive Transition
 image: /images/coaching/ledelsessparring.jpg

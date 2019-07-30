@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 title: Diplom i offentlig ledelse
 category: diplom-i-offentlig-ledelse
 image: /images/academy/b3.png
