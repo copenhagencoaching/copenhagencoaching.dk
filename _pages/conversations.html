@@ -24,7 +24,16 @@ hero-description: Står du i udfordringer der synes svære at finde løsninger p
                     <div class="content hideContent">
                         {{ conversation.content }}
                     </div>
+                    {% capture difference %}{{ conversation.content | size | minus:400 }}{% endcapture %}
+                    
+                    {% unless difference contains '-' %}
                     <button href="#{{ conversation.title | remove:' ' }}" class="show-more">Vis mere</button>
+
+                    {% else %}
+
+
+                   
+                    {% endunless %}
                 </div>
             </div>
 

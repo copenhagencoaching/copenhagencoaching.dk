@@ -24,7 +24,16 @@ hero-description: This summer, Copenhagen Coaching Center will branch out into e
                     <div class="content hideContent">
                         {{ international.content }}
                     </div>
+                    {% capture difference %}{{ international.content | size | minus:400 }}{% endcapture %}
+                    
+                    {% unless difference contains '-' %}
                     <button href="#{{ international.title | remove:' ' }}" class="show-more">Vis mere</button>
+
+                    {% else %}
+
+
+                   
+                    {% endunless %}
                 </div>
             </div>
         </section>

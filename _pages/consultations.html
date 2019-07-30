@@ -24,7 +24,17 @@ hero-description: Vi har den enkelte virksomhed i fokus når vi yder vores forks
                     <div class="content hideContent">
                         {{ consultation.content }}
                     </div>
+                    {% capture difference %}{{ consultation.content | size | minus:400 }}{% endcapture %}
+                    
+                    {% unless difference contains '-' %}
                     <button href="#{{ consultation.title | remove:' ' }}" class="show-more">Vis mere</button>
+
+                    {% else %}
+
+
+                   
+                    {% endunless %}
+
                 </div>
             </div>
         </section>
