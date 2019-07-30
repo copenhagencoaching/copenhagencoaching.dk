@@ -36,6 +36,7 @@
         }
 
         .content {
+
           h1,
           h2,
           h3,
@@ -134,8 +135,8 @@ hr {
 }
 
 // Small devices (landscape phones, less than 768px)
-@media (max-width: 768px) {
-  }
+@media (max-width: 768px) {}
+
 /* Large devices (laptops/desktops, 992px and down) */
 @media (max-width: 992px) {
   .expandable {
@@ -145,10 +146,6 @@ hr {
 
     .row {
       padding-bottom: 0;
-    }
-
-    .introductionText {
-      padding-bottom: 0 !important;
     }
 
     .expandable-pane {
@@ -198,10 +195,12 @@ hr {
     flex-direction: column-reverse !important;
   }
 }
+
 @media (max-width: 1255px) {
   .expandable {
     .row {
       width: 90%;
+
       .expandable-pane {
         .row {
           width: 100%;

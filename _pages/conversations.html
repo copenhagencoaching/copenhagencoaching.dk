@@ -5,19 +5,8 @@ image: /images/coaching/coaching-banner.jpg
 signup: Coaching samtaler
 show: true
 order: 2
+hero-description: Står du i udfordringer der synes svære at finde løsninger på? Så kunne coachingsamtaler være noget for dig! Vi tilbyder <a href="#Executivecoaching">Executive coaching</a>, <a href="#Filosofiskesamtaler">Filosofiske samtaler</a>, <a href="#Personligcoaching">Personlig coaching</a> og <a href="#Teamsamtaler">Team samtaler</a>.
 ---
-
-<div class="introductionText">
-    <h1>Har du brug for at blive klogere på dig selv?</h1>
-    <p>Står du i udfordringer der synes svære at finde løsninger på? Så kunne coachingsamtaler være noget for
-        dig! Vi tilbyder
-        <a href="#Executivecoaching">Executive coaching</a>,
-        <a href="#Filosofiskesamtaler">Filosofiske samtaler</a>,
-        <a href="#Personligcoaching">Personlig coaching</a>
-        og
-        <a href="#Teamsamtaler">Team samtaler</a>.
-    </p>
-</div>
 
 <div class="expandable">
     <div class="row">
@@ -25,9 +14,9 @@ order: 2
         {% for conversation in site.conversations %}
 
         <section class="col-12 expandable-pane">
-                <div class="anchor" id="{{ conversation.title | remove:' ' }}"></div>
+            <div class="anchor" id="{{ conversation.title | remove:' ' }}"></div>
             <div class="row">
-                
+
                 <div class="col-lg-5 col-12 expandable-pane-image"
                     style="background-image: url('{{ conversation.image }}')"></div>
                 <div class="col-lg-7 col-12 expandable-pane-text">

@@ -5,15 +5,8 @@ image: /images/international/international-banner.jpg
 signup: Internationale tilbud
 show: false
 order: 4
+hero-description: This summer, Copenhagen Coaching Center will branch out into educations in english. We offer <a href="#MasterofBusinessCoaching">Master of Business Coaching</a>, <a href="#Tailor-madeEducationProgrammes">Tailor-made Education Programmes</a> and <a href="#ExecutiveCoaching">Executive Coaching</a>.
 ---
-<div class="introductionText">
-    <h1>We're branching out internationally - join us!</h1>
-    <p>This summer, Copenhagen Coaching Center will branch out into educations in english. We offer <a
-            href="#MasterofBusinessCoaching">Master of Business Coaching</a>, <a
-            href="#Tailor-madeEducationProgrammes">Tailor-made Education Programmes</a> and <a
-            href="#ExecutiveCoaching">Executive Coaching</a>.
-    </p>
-</div>
 
 <div class="expandable">
     <div class="row">
@@ -21,9 +14,9 @@ order: 4
         {% for international in site.internationals %}
 
         <section class="col-12 expandable-pane">
-                <div class="anchor" id="{{ international.title | remove:' ' }}"></div>
+            <div class="anchor" id="{{ international.title | remove:' ' }}"></div>
             <div class="row">
-                
+
                 <div class="col-lg-5 col-12 expandable-pane-image"
                     style="background-image: url('{{ international.image }}')"></div>
                 <div class="col-lg-7 col-12 expandable-pane-text">

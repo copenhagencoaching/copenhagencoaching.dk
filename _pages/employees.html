@@ -5,40 +5,35 @@ image: /assets/responsive/1800/about-banner.jpg
 signup: forskellige ydelser
 show: true
 order: 5
+hero-description: Vores team består af eksperter sammensat af profiler med omfattende ledelseserfaring, coachingerfaringer i praksis, og mange forskellige akademiske baggrunde.
 ---
 
-<div class="introductionText">
-    <h1>Vi uddanner ledere til erhvervs og forretningslivet</h1>
-    <p>Vores team består af eksperter sammensat af profiler med omfattende
-      ledelseserfaring, coachingerfaringer i praksis, og mange forskellige akademiske baggrunde.
-    </p>
-  </div>
-
 <div class="employees">
-  
-<div class="row">
-  {% assign sorted_empl = site.employees | sort: "order" %}
-  {% for employee in sorted_empl %}
-  
+
+  <div class="row">
+    {% assign sorted_empl = site.employees | sort: "order" %}
+    {% for employee in sorted_empl %}
+
     <div class="employee-box col-lg-4 col-md-6 col-sm-6 col-12 no-col-12-margin">
-        <a href="{{ employee.url }}">
-      <div class="card">
-        <div class="img-empl" style="background-image: url('{{ employee.portrait-image }}')"></div>
-        <div class="card-body">
-          <h5 class="card-title">{{ employee.title }}</h5>
-          <p class="card-subtitle mb-2">{{ employee.description }}<br>{{ employee.email }} <br> {{ employee.call }} </p>
-          <div class="d-flex justify-content-center align-items-center flex-column">
-            <p>Vis profil</p>
+      <a href="{{ employee.url }}">
+        <div class="card">
+          <div class="img-empl" style="background-image: url('{{ employee.portrait-image }}')"></div>
+          <div class="card-body">
+            <h5 class="card-title">{{ employee.title }}</h5>
+            <p class="card-subtitle mb-2">{{ employee.description }}<br>{{ employee.email }} <br> {{ employee.call }}
+            </p>
+            <div class="d-flex justify-content-center align-items-center flex-column">
+              <p>Vis profil</p>
+            </div>
           </div>
         </div>
-      </div>
-    </a>
+      </a>
     </div>
-  
 
 
-  {% endfor %}
-</div>
+
+    {% endfor %}
+  </div>
 </div>
 {% include testimonial.html %}
 

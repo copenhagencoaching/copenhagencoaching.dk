@@ -1,15 +1,7 @@
 ---
 layout: page
 ---
-<div class="introductionText">
-    <h1>Her er et overblik over alt hvad vi tilbyder indenfor {{ page.title }}</h1>
-  </div>
-
-
 <div class="education-list">
-
- 
-
   <div class="row">
     {% for education in site.educations %}
     {% if education.category contains page.name %}
@@ -31,8 +23,6 @@ layout: page
     {% endfor %}
     <a class="read-more" href="/academy/">← Se flere uddannelser</a>
   </div>
-
-  
 </div>
 
 {% include signup.html %}
