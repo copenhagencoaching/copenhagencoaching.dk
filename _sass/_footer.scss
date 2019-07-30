@@ -90,19 +90,9 @@ span {
 
 // Medium devices (landscape tablets, 768px and down)
 
-@media (max-width: 768px) {
-
-  
-  
-}
+@media (max-width: 768px) {}
 
 @media (max-width: 992px) {
-
-
- 
-}
-
-@media (max-width: 1230px) {
 
   footer {
     height: auto;
@@ -138,5 +128,15 @@ span {
       width: 150px;
     }
 
+  }
+
+}
+
+@media (max-width: 1230px) {
+
+  footer {
+    .row {
+      width: 90%;
+    }
   }
 }
