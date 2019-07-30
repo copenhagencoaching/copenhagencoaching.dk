@@ -3,7 +3,7 @@ published: true
 title: Lars Nyborg
 order: 6
 portrait-image: /images/about/lars.jpg
-call: +45 27 11 42 44
+call: 27 11 42 44
 email: ln@copenhagencoahing.dk
 description: Associeret partner
 linkedin: https://www.linkedin.com/in/lars-nyborg-82608431/

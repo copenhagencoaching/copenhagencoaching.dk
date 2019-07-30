@@ -3,7 +3,7 @@ published: true
 order: 1
 title: Andreas Bering
 portrait-image: /images/about/andreas.jpg
-call: +45 40 14 92 92
+call: 40 14 92 92
 email: ab@copenhagencoahing.dk 
 description: Direktør og GDPR ansvarlig
 linkedin: https://www.linkedin.com/in/andreas-bering-4a554b5/

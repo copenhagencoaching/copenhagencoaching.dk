@@ -3,7 +3,7 @@ published: true
 order: 4
 title: Frederikke Winther
 portrait-image: /images/about/frederikke.jpg
-call: +45 21 19 47 57
+call: 21 19 47 57
 email: fw@copenhagencoahing.dk
 description: Konsulent
 linkedin: 'https://www.linkedin.com/in/frederikke-winther-206b5450/'
