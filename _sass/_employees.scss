@@ -201,7 +201,7 @@
     border-radius: 10px;
     padding: 35px 30px 30px;
     font-size: 20px;
-    margin-bottom: 100px !important;
+    margin-bottom: 100px;
     text-align: center;
     width: 100%;
 
@@ -274,6 +274,10 @@
     }
   }
 
+  .employee-text {
+    padding: 0 !important;
+  }
+
 }
 
 /* Large devices (laptops/desktops, 992px and down) */
@@ -319,10 +323,15 @@
       max-width: 332px;
     }
   }
- 
+
+  .empl-info {
+    margin-bottom: 50px !important;
+  }
+
 }
+
 @media (max-width: 1255px) {
-  
+
 
   .employees {
     .row {
@@ -338,8 +347,6 @@
     }
   }
 
-  
-
   .employee {
     img {
       margin: 0 20px 20px 0;
@@ -348,7 +355,6 @@
     .row {
       width: 90%;
       margin: auto;
-      padding: 0 20px;
 
       .empl-info {
         width: 100%;

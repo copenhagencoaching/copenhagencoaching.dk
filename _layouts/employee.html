@@ -10,7 +10,7 @@ layout: page
                     <p>{{ page.description }}</p>
                 </div>
                 <div class="col-lg-4 col-md-12 box">
-                    <p><a href="phoneto:{{ page.call }}">{{ page.call }}</a></p>
+                    <p><a href="+45 {{ page.call }}">{{ page.call }}</a></p>
                 </div>
                 <div class="col-lg-4 col-md-12 box">
                     <p><a href="mailto:{{ page.email }}">{{ page.email }}</a></p>
@@ -28,3 +28,5 @@ layout: page
         </div>
     </div>
 </div>
+
+{% include contact.html %}
