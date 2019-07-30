@@ -150,17 +150,8 @@ body {
   }
   
 
-    .introductionText {
-      width: 90%;
-    }
-  
 
-  .hero-image {
-    width: 100%;
-    span {
-      width: 95%;
-    }
-  }
+  
 }
 
 @media (max-width: 1230px) {
@@ -180,7 +171,7 @@ body {
   .hero-image {
     width: 100%;
     span {
-      width: 95%;
+      width: 90%;
     }
   }
 }

@@ -176,12 +176,10 @@ nav {
     .navbar-brand {
       height: 45px;
       width: auto;
-      padding-left: 20px;
     }
 
     .fas {
       color: #000000;
-      padding-right: 12.5px;
     }
 
     .contact-button {
@@ -214,7 +212,13 @@ nav {
 // Medium devices (landscape tablets, 768px and down)
 
 @media (max-width: 768px) {
-
+  .navbar-toggler, .navbar-nav {
+    padding-right: 5% !important;
+  }
+  .navbar-brand {
+    margin-left: 5% !important;
+    
+  }
 
 }
 
@@ -242,7 +246,8 @@ nav {
       background: #ffffff;
       align-content: center;
       align-items: center;
-      padding: 100px 0;
+      padding-top: 100px;
+      padding-bottom: 100px;
     }
 
     .navbar-brand {
@@ -260,6 +265,7 @@ nav {
       position: absolute;
       z-index: 9999;
       right: 0;
+      text-align: right;
       .fas {
         font-size: 20px;
       }
@@ -299,7 +305,7 @@ nav {
     padding-right: 5%;
   }
   .navbar-brand {
-    padding-left: 5% !important;
+    margin-left: 5%;
     
   }
 

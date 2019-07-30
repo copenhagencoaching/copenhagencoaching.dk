@@ -26,7 +26,6 @@
           font-family: 'Oswald', sans-serif;
           text-transform: uppercase;
           font-size: 25px;
-          width: 75%;
           text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);
         }
       }
@@ -37,17 +36,7 @@
 
 // Medium devices (landscape tablets, 768px and down)
 @media (max-width: 768px) {
-  .category-list {
-    .row {
-      width: 90%;
-
-      .outer-category {
-        padding-left: 0;
-        padding-right: 0;
-      }
-    }
-
-  }
+  
 
 }
 
@@ -56,5 +45,12 @@
 
 @media (max-width: 1230px) {
 
-  
+  .category-list {
+    .row {
+      width: 95%;
+
+      
+    }
+
+  }
 }
