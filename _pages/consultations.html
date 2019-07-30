@@ -7,30 +7,32 @@ show: true
 order: 3
 ---
 <div class="introductionText">
-        <h1>Vi tilbyder Konsulentydelser til alle slags virksomheder</h1>
-        <p>Vi har den enkelte virksomhed i fokus når vi yder vores forksellige former for konsulentydelser. Vi tilbyder <a href="#Kommunikation">Kommunikation</a>, <a href="#Konsulentudvikling">Konsulentudvikling</a>, <a href="#Lederudvikling">Lederudvikling</a> og <a href="#Organisationsudvikling">Organisationsudvikling</a>.
-        </p>
-    </div>
-    
+    <h1>Vi tilbyder konsulentydelser til alle slags virksomheder</h1>
+    <p>Vi har den enkelte virksomhed i fokus når vi yder vores forksellige former for konsulentydelser. Vi tilbyder <a
+            href="#Kommunikation">Kommunikation</a>, <a href="#Konsulentudvikling">Konsulentudvikling</a>, <a
+            href="#Lederudvikling">Lederudvikling</a> og <a href="#Organisationsudvikling">Organisationsudvikling</a>.
+    </p>
+</div>
+
 <div class="expandable">
     <div class="row">
-        
+
         {% for consultation in site.consultations %}
-        
+
         <section class="col-12 expandable-pane">
-                <div class="anchor" id="{{ consultation.title | remove:' ' }}"></div>
+            <div class="anchor" id="{{ consultation.title | remove:' ' }}"></div>
             <div class="row">
-               
-            <div class="col-lg-5 col-12 expandable-pane-image"
-                style="background-image: url('{{ consultation.image }}')"></div>
-            <div class="col-lg-7 col-12 expandable-pane-text">
-                <h1>{{ consultation.title }}</h1>
-                <div class="content hideContent">
-                    {{ consultation.content }}
+
+                <div class="col-lg-5 col-12 expandable-pane-image"
+                    style="background-image: url('{{ consultation.image }}')"></div>
+                <div class="col-lg-7 col-12 expandable-pane-text">
+                    <h1>{{ consultation.title }}</h1>
+                    <div class="content hideContent">
+                        {{ consultation.content }}
+                    </div>
+                    <button href="#{{ consultation.title | remove:' ' }}" class="show-more">Vis mere</button>
                 </div>
-                <button href="#{{ consultation.title | remove:' ' }}" class="show-more">Vis mere</button>
             </div>
-        </div>
         </section>
         {% endfor %}
 
