@@ -4,12 +4,21 @@ layout: default
 
 {% include navigation.html %}
 
-{% if page.image %}
-<div class="hero-image" style="background-image: url('{{ page.image }}')">
+<div class="hero-image">
     <span>
         <h1>{{ page.title }}</h1>
     </span>
-</div>
+</div> 
+
+<!-- This block of code will be reworked, once we've decided what we're going to do with the hero images on the entire page -->
+
+<!-- 
+{% if page.image %}
+    <div class="hero-image" style="background-image: url('{{ page.image }}')">
+    <span>
+        <h1>{{ page.title }}</h1>
+    </span>
+</div> 
 
 {% else %}
 
@@ -20,6 +29,7 @@ layout: default
 </div>
 
 {% endif %}
+-->
 
 <div class="page">
     {{ content }}
