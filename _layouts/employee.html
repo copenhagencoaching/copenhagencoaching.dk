@@ -9,12 +9,14 @@ layout: page
             <p><a href="mailto:{{ page.email }}">{{ page.email }}</a></p>
         </div>
         <div class="employee-content">
-            <div class="employee-image col-lg-4 col-sm-12 col-xs-12">
-                <img src="{{ page.portrait-image }}" alt="{{ page.title }}">
+                <div class="row">
+            <div class="employee-image col-md-4 col-12">
+                <img class="img-fluid" src="{{ page.portrait-image }}" alt="{{ page.title }}">
             </div>
-            <div class="employee-text col-lg-8 col-sm-12 col-xs-12">
+            <div class="employee-text col-md-8 col-12">
                 {{ page.content }}
                 <a data-proofer-ignore href="{{ page.linkedin }}" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            </div>
             </div>
         </div>
     </div>
