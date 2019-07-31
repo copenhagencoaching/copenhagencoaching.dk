@@ -39,12 +39,12 @@
         {% if page.url == node.url %}
         <li class="nav-item">
           <a class="nav-link active-page"
-            href="{{node.url}}">{{ node.title | truncatewords: 2, "" | remove: "Tilmelding" | remove: "Search" | remove: "International" }}</a>
+            href="{{node.url}}">{{ node.title | truncatewords: 2, "" | remove: "Tilmelding" | remove: "Search" }}</a>
         </li>
         {% else %}
         <li class="nav-item">
           <a class="nav-link"
-            href="{{node.url}}">{{ node.title | truncatewords: 2, "" | remove: "Tilmelding" | remove: "Search" | remove: "International" }}</a>
+            href="{{node.url}}">{{ node.title | truncatewords: 2, "" | remove: "Tilmelding" | remove: "Search" }}</a>
         </li>
         {% endif %}
         {% endif %}
