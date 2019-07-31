@@ -180,61 +180,53 @@
 // Individual employee pages
 
 .employee {
-  .row {
-    width: 1230px;
-    margin: auto;
-  }
+  height: auto;
+  width: 1230px;
+  margin: 0 auto;
 
-  a {
-    color: #212529;
-  }
-
-  a:hover {
-    text-decoration: none;
-    color: #1ABC9C;
-  }
-
-  .empl-info {
-    background-color: #1ABC9C;
-    color: white;
-    text-transform: uppercase;
-    border-radius: 10px;
-    padding: 35px 30px 30px;
-    font-size: 20px;
-    margin-bottom: 100px;
-    text-align: center;
+  .information-box {
     width: 100%;
+    height: auto;
+    padding: 30px;
+    background: #1ABC9C;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
 
+    a,
     p {
-      padding: 0;
+      color: #ffffff;
+      font-size: 20px;
       margin: 0;
     }
+  }
 
-    .row {
-      margin: auto;
+  .employee-content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .employee-image {
+    padding: 0;
+
+    img {
       width: 100%;
-      justify-content: space-between;
-    }
-
-    a {
-      color: white;
-    }
-
-    a:hover {
-      color: rgb(165, 190, 185);
     }
   }
 
-  img {
-    margin-right: 20px;
-    max-width: 400px;
-  }
+  .employee-text {
+    padding: 0;
+    padding-left: 25px;
 
-  i {
-    font-size: 50px;
-    margin-top: 20px;
+    .fab {
+      color: #000000;
+      font-size: 50px;
+      padding-top: 25px;
+    }
   }
-
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -250,34 +242,36 @@
 // Medium devices (landscape tablets, 768px and down)
 @media (max-width: 768px) {
   .employee {
-    img {
-      max-width: 100%;
-      margin: 0 0 15px;
+    width: 100%;
+
+    .employee-content {
+      flex-direction: column;
+      padding: 25px 0;
+      width: 90%;
+      margin: 0 auto;
+    }
+
+    .employee-text {
+      padding: 0;
+      padding-top: 50px;
+
+      .fab {
+        font-size: 25px;
+      }
+    }
+
+    .information-box {
+      flex-direction: column;
+      margin-bottom: 50px;
+      width: 90%;
+      margin: 0 auto;
+
+      a,
+      p {
+        font-size: 16px;
+      }
     }
   }
-
-  .tab-content,
-  .tab-pane {
-    width: 100%;
-  }
-
-
-
-  .empl-info .infobox {
-    width: 100%;
-  }
-
-  .employees {
-    .img-empl {
-      height: 200px;
-
-    }
-  }
-
-  .employee-text {
-    padding: 0 !important;
-  }
-
 }
 
 /* Large devices (laptops/desktops, 992px and down) */
@@ -332,7 +326,6 @@
 
 @media (max-width: 1255px) {
 
-
   .employees {
     .row {
       width: 97% !important;
@@ -347,28 +340,4 @@
     }
   }
 
-  .employee {
-    img {
-      margin: 0 20px 20px 0;
-    }
-
-    .row {
-      width: 90%;
-      margin: auto;
-
-      .empl-info {
-        width: 100%;
-
-        .row {
-          margin: auto;
-
-          p {
-            font-size: 15px;
-          }
-
-        }
-
-      }
-    }
-  }
 }
