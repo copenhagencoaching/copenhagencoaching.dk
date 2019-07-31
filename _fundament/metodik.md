@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 author: Metodik
 title: Metodik
 image: /images/consulting/businesscoaching2.jpg

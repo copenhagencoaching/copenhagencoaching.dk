@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 author: Mission
 title: Mission
 image: /images/consulting/businesscoaching2.jpg
