@@ -5,13 +5,34 @@ image: /images/international/international-banner.jpg
 signup: Internationale tilbud
 show: false
 order: 4
-hero-description: This summer, Copenhagen Coaching Center will branch out into educations in english. We offer <a href="#MasterofBusinessCoaching">Master of Business Coaching</a>, <a href="#Tailor-madeEducationProgrammes">Tailor-made Education Programmes</a> and <a href="#ExecutiveCoaching">Executive Coaching</a>.
+hero-description: This summer, Copenhagen Coaching Center will branch out into educations in english. We offer <a href="#MasterofBusinessCoaching">Master of Business Coaching</a>, <a href="#Consulting">Consulting</a> and <a href="#Coaching">Coaching</a>.
 ---
 
 <div class="expandable">
     <div class="row">
+        <div class="intro">
+            <p>At Copenhagen Coaching Center we strive to improve the quality of coaching and leadership by providing
+                people with knowledge and methodologies that enables them to deliver coaching and leadership on the
+                highest level. We are a value-driven company and meet our customers with respect and dignity in order to
+                support the personal and professional development of our students and clients. </p>
 
-        {% for international in site.internationals %}
+                <p>CCC has a tree-folded market position:</p>
+
+                        <ul> <li>Firstly, we have open educations such as Master of Business Coaching and Process Leadership and we have tailor-made educational programs for business enterprises and public organizations.</li>
+                        
+                        <li>Secondly, we carry out consultancy work within the area of recruitment, assessment, leadership seminars and shorter leadership programs etc.</li> 
+                        
+                        <li>Thirdly, we all work as coaches for leaders within the public and private sector.</li>
+                        </ul>
+                         
+                        
+                        <p>We have been in the market since 2004 where Partner and Director, Andreas Bering founded the business enterprise with Director Mette Mejlhede. Ever since Copenhagen Coaching Center has developed itself to become frontrunners within the application of Philosophy and Psychology in leadership and business development. We work from the highest academic level with a practical approach.   
+                        We are situated in Copenhagen and Fredericia but we also carry out work abroad. We have international clients in our portfolio.</p>
+        </div>
+
+        {% assign ordered = site.internationals | sort: "order" %}
+
+        {% for international in ordered %}
 
         <section class="col-12 expandable-pane">
             <div class="anchor" id="{{ international.title | remove:' ' }}"></div>
@@ -25,14 +46,14 @@ hero-description: This summer, Copenhagen Coaching Center will branch out into e
                         {{ international.content }}
                     </div>
                     {% capture difference %}{{ international.content | size | minus:400 }}{% endcapture %}
-                    
+
                     {% unless difference contains '-' %}
                     <button href="#{{ international.title | remove:' ' }}" class="show-more">Vis mere</button>
 
                     {% else %}
 
 
-                   
+
                     {% endunless %}
                 </div>
             </div>
