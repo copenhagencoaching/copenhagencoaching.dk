@@ -7,7 +7,7 @@
 
   .tag-section {
     width: 1260px;
-    margin: 100px auto 0 auto;
+    margin: 50px auto;
     text-align: center;
   }
 
@@ -21,20 +21,23 @@
 
   .story-row {
     .row {
-      margin: 100px auto 0 auto;
+      margin: 0 auto;
+
+      .story-box:nth-child(1) {
+        margin-top: 0;
+      }
     }
   }
 
   .blog-list-container {
-    margin-top: 50px;
-    margin-bottom: 100px;
+    margin: 0;
   }
 
   .blog-tags-list {
     justify-content: center;
     flex-wrap: wrap;
     display: flex;
-    margin: 20px 0 0 !important;
+    margin: 0;
     text-transform: uppercase;
 
     #showAllBtn,
@@ -54,6 +57,12 @@
         color: white;
       }
 
+    }
+  }
+
+  .collapse {
+    .row {
+      margin-bottom: 0;
     }
   }
 
@@ -81,7 +90,8 @@
     box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.15);
     background-size: cover;
     padding: 20px;
-    min-height: 350px;
+    height: 350px;
+    opacity: 0.7;
 
   }
 
@@ -106,23 +116,24 @@
   }
 
   p {
-    padding: 50px 0 50px 10px;
+    padding:0;
     font-weight: 600;
     font-size: 18px;
-  }
+    margin-bottom: 50px;
+    }
 
   .large-article-text {
     h1 {
       font-weight: 600;
       font-size: 22px;
-      text-shadow: 1px 1px #C0C0C0;
+      
     }
 
     h2,
     p {
       font-size: 18px;
       font-weight: 400;
-      text-shadow: 1px 1px #C0C0C0;
+      
     }
 
     p {
@@ -135,14 +146,14 @@
     h1 {
       font-weight: 600;
       font-size: 22px;
-      text-shadow: 1px 1px #C0C0C0;
+      
     }
 
     h2,
     p {
       font-size: 15px;
       font-weight: 400;
-      text-shadow: 1px 1px #C0C0C0;
+      
     }
 
     p {
@@ -215,9 +226,7 @@
   }
 }
 
-.read-more {
-  margin-top: 50px;
-}
+
 
 // Medium devices (landscape tablets, 768px and down)
 @media (max-width: 768px) {
@@ -250,7 +259,7 @@
     }
 
     .tag-section {
-      margin: 20px auto 30px;
+      
       width: 90%;
 
       p {
@@ -297,10 +306,9 @@
 
 
 
-@media (max-width: 1255px) {
+@media (max-width: 1290px) {
 
   .tag-section {
-    margin: 20px auto 30px auto !important;
     width: 90% !important;
 
     p {

@@ -7,6 +7,7 @@
 
   .row {
     width: 1260px;
+    margin-bottom: 25px !important;
 
     .outer-category {
       margin-bottom: 25px !important;
@@ -43,7 +44,7 @@
   
 }
 
-@media (max-width: 1255px) {
+@media (max-width: 1290px) {
 
   .category-list {
     .row {
