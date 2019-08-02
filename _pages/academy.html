@@ -15,7 +15,7 @@ hero-description: Hos Copenhagen Coaching Center tilbyder vi et hav af uddannels
 
     {% if category.onepage == "ja" %}
 
-    <div class="outer-category col-12 col-lg-4 col-md-6">
+    <div class="outer-category col-12 col-lg-4 col-md-6 col-sm-6">
       <a href="/academy/{{ category.title | remove:' ' | downcase }}">
         <div class="inner-category" style="background-image: url('{{ category.image }}')">
           <h4>{{ category.title }}</h4>
@@ -24,7 +24,7 @@ hero-description: Hos Copenhagen Coaching Center tilbyder vi et hav af uddannels
     </div>
 
     {% else %}
-    <div class="outer-category col-12 col-lg-4 col-md-6">
+    <div class="outer-category col-12 col-lg-4 col-md-6 col-sm-6">
       <a href="{{ category.url }}">
         <div class="inner-category" style="background-image: url('{{ category.image }}')">
           <h4>{{ category.title }}</h4>
