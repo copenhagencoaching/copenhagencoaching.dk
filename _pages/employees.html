@@ -14,7 +14,7 @@ hero-description: Vores team består af eksperter sammensat af profiler med omfa
     {% assign sorted_empl = site.employees | sort: "order" %}
     {% for employee in sorted_empl %}
 
-    <div class="employee-box col-lg-4 col-md-6 col-sm-6 col-12 no-col-12-margin">
+    <div class="employee-box col-lg-3 col-md-6 col-sm-6 col-12">
       <a href="{{ employee.url }}">
         <div class="card">
           <div class="img-empl" style="background-image: url('{{ employee.portrait-image }}')"></div>
@@ -40,6 +40,7 @@ hero-description: Vores team består af eksperter sammensat af profiler med omfa
 <section class="information-card">
   <h1>Brænder du inde med et spørgsmål?</h1>
   <span>
+   
     <div class="nav nav-tabs" id="nav-tab" role="tablist">
       <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab"
         aria-controls="nav-home" aria-selected="true">København</a>
@@ -48,6 +49,8 @@ hero-description: Vores team består af eksperter sammensat af profiler med omfa
     </div>
     <div class="tab-content" id="nav-tabContent">
       <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 tab-column col-12">
         <div class="information-card-text">
           <h1>Besøg vores adresse på Østerbro</h1>
           <p>Vi er altid klar til at svare på henvendelser – så ring, skriv gerne og aftal et møde med os eller kom
@@ -60,13 +63,17 @@ hero-description: Vores team består af eksperter sammensat af profiler med omfa
             28132891</a>
           <button data-toggle="modal" data-target="#contact-modal">Kontakt os</button>
         </div>
-        <div class="iframe-container">
+      </div>
+      <div class="col-lg-6 col-md-6 tab-column col-12">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d2248.5302693079925!2d12.571180316044702!3d55.69715400374978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x465253116df3aadf%3A0xb3635bd81181e031!2sCopenhagen+Coaching+Center%2C+Blegdamsvej+104A%2C+2100+K%C3%B8benhavn!3m2!1d55.697151!2d12.573369!5e0!3m2!1sen!2sdk!4v1560603841888!5m2!1sen!2sdk"
             width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
       </div>
+      </div>
       <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+          <div class="row">
+              <div class="col-lg-6 col-md-6 tab-column col-12">
         <div class="information-card-text">
           <h1>Besøg vores adresse i Fredericia</h1>
           <p>Vi er altid klar til at svare på henvendelser – så ring, skriv gerne og aftal et møde med os eller kom
@@ -80,10 +87,12 @@ hero-description: Vores team består af eksperter sammensat af profiler med omfa
             28132891</a>
           <button data-toggle="modal" data-target="#contact-modal">Kontakt os</button>
         </div>
-        <div class="iframe-container">
+        </div>
+        <div class="col-lg-6 col-md-6 tab-column col-12">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d10730.336782979866!2d9.719825821660903!3d55.571108566475424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x464c90dd80e54acb%3A0x3554ed1b01e145dc!2sMadsby+Playpark%2C+Lumbyesvej+45%2C+7000+Fredericia!3m2!1d55.5709429!2d9.7389946!5e0!3m2!1sen!2sdk!4v1560604159748!5m2!1sen!2sdk"
             width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
         </div>
       </div>
     </div>
