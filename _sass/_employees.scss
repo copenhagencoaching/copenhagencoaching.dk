@@ -67,12 +67,12 @@
         font-weight: 400;
         color: #212529;
       }
+
       p {
         font-size: 13px;
         font-weight: 400;
         color: #1ABC9C;
       }
-      
 
       .showmore-button:hover {
         color: #1ABC9C;
@@ -127,7 +127,7 @@
     font-size: 14px;
     padding-top: 10px;
     font-weight: 400;
-    width: 90%
+    width: 90%;
   }
 
   a {
@@ -162,10 +162,10 @@
 }
 
 .tab-pane {
-  width:100%;
+  width: 100%;
 
   .row {
-    width:100%;
+    width: 100%;
     margin: 0 !important;
     padding: 0;
     justify-content: space-between;
@@ -206,75 +206,68 @@
     width: 1230px;
   }
 
-  .information-box {
-    width: 100%;
-    height: auto;
-    padding: 30px;
-    background: #1ABC9C;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 0;
-
-    a,
-    p {
-      color: #ffffff;
-      font-size: 20px;
-      margin: 0;
-    }
-  }
-
   .employee-image {
     padding: 0;
+
+    .information-box {
+      width: 100% !important;
+      height: auto;
+      padding: 20px 0;
+      margin: 0;
+
+      .info-column {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #212529;
+        width: auto;
+        margin: 0;
+        font-weight: 500;
+        padding: 5px 0;
+        
+
+        a {
+          font-size: 1rem;
+          padding:0;
+          color: #212529;
+        }
+
+        .linkedin {
+          font-size: 1.4rem;
+        }
+      }
+    }
 
     img {
       width: 100%;
     }
-  }
-
+  
+}
   .employee-text {
     padding: 0 0 0 25px;
 
-    .fab {
-      color: #000000;
-      font-size: 50px;
-      padding-top: 25px;
     }
+
+   
+  
+}
+@media (max-width: 500px) {
   }
-}
-
-
-@media (max-width: 500px) { 
-
-}
-
 
 // Medium devices (landscape tablets, 768px and down)
 @media (max-width: 768px) {
-
-
   .employee {
     width: 100%;
 
-    .employee-text {
-      padding: 10px 0 0 !important;
-    }
 
-    .employee-content {
-      flex-direction: column;
-      width: 90%;
-      margin: 0 auto;
-    }
 
-    .employee-text {
-      padding: 50px 0 0;
+
+
+
 
       .fab {
         font-size: 25px;
       }
-    }
-
     
 
     .information-box {
@@ -288,12 +281,6 @@
         font-size: 16px;
       }
 
-      
-      
-         
-         
-        
-      
     }
   }
 
@@ -304,13 +291,12 @@
 
 /* Large devices (laptops/desktops, 992px and down) */
 @media (max-width: 992px) {
-
   .employees {
     .img-empl {
-      background-position: 0% 30% !important;
+      background-position: 0 30% !important;
     }
   }
-  
+
   .employee-box {
     margin-bottom: 50px !important;
   }
@@ -361,16 +347,13 @@
 
 }
 @media (max-width: 1290px) {
-
   .information-card-text {
-
     span {
       width: 90%;
-      height: auto
+      height: auto;
     }
-  
-}
 
+  }
 
   .employees {
     .row {
@@ -390,10 +373,14 @@
     .row {
       width: 90% !important;
 
-      .employee-content {
-        .row {
-          width: 100% !important;
-        }
+      .info-column {
+
+        font-size: 0.9rem !important;
+
+      a {
+        font-size: 0.9rem !important;
+      }
+      
       }
     }
   }
