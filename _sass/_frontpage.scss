@@ -2,12 +2,18 @@
     color: #ffffff;
     display: flex;
     align-items: center;
-    background-image: url(/images/frontpage/frontpage-1.jpg);
+   background-image: url(/images/frontpage/frontpage-1.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+    height: 100%;
+
+    position: relative;
+    background-color: #000;
+    
 
     span {
+        position: relative;
         height: 100%;
         width: 1230px;
         margin: 0 auto;
@@ -61,6 +67,20 @@
         justify-content: left;
     }
 }
+
+.frontpage::before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+    opacity: .7;
+    background: #212529;
+    background-size: cover;
+  }
 
 .frontpage:nth-child(2) {
     background-image: url(/images/frontpage/frontpage-2.jpg);
