@@ -36,7 +36,7 @@
     .green-button {
         height: 50px;
         width: 175px;
-        background: #1abc9c;
+        background: $green;
         border: none;
         color: #ffffff;
         font-weight: 600;
@@ -78,7 +78,7 @@
     width: 100%;
     z-index: 0;
     opacity: .7;
-    background: #212529;
+    background: $black;
     background-size: cover;
   }
 
@@ -91,7 +91,7 @@
 }
 
 #fp-nav ul li a span {
-    background: #1abc9c !important;
+    background: $green !important;
 }
 
 // Front page navigation - this is a hackerman solution and might have to be changed further on down the line

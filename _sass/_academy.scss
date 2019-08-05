@@ -15,7 +15,7 @@
       .inner-category {
         height: 250px;
         position: relative;
-        background-color: #000;
+        background-color: $black;
         background-position: 0 40%;
         background-size: cover;
         display: flex;
@@ -44,7 +44,7 @@
         height: 250px;
         z-index: 0;
         opacity: .5;
-        background: #212529;
+        background: $black;
         background-size: cover;
         
       }

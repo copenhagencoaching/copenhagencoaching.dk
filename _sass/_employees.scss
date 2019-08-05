@@ -17,13 +17,13 @@
       overflow: hidden;
 
       a {
-        color: #212529;
+        color:$black;
         font-size: 16px;
       }
 
       a:hover {
         text-decoration: none;
-        color: #1ABC9C;
+        color: $green;
       }
 
       .showmore-button {
@@ -40,7 +40,7 @@
 
       .card-body {
         text-align: center;
-        color: #000000;
+        color: $black;
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -59,23 +59,23 @@
         font-weight: 600;
         margin-bottom: 0;
         padding-bottom: 18px;
-        color: #212529;
+        color: $black;
       }
 
       .card-subtitle {
         font-size: 13px;
         font-weight: 400;
-        color: #212529;
+        color: $black;
       }
 
       p {
         font-size: 13px;
         font-weight: 400;
-        color: #1ABC9C;
+        color: $green;
       }
 
       .showmore-button:hover {
-        color: #1ABC9C;
+        color: $green;
       }
     }
   }
@@ -133,18 +133,18 @@
   a {
     font-size: 16px;
     padding-bottom: 15px;
-    color: #000000;
+    color: $black;
     text-decoration: none;
   }
 
   a:hover {
-    color: #1ABC9C;
+    color: $green;
   }
 
   button {
     height: 50px;
     width: 175px;
-    background: #1ABC9C;
+    background: $green;
     border: none;
     margin-top: 15px;
     color: #ffffff;
@@ -182,16 +182,16 @@
 }
 
 .nav-tabs .nav-link.active {
-  color: #1ABC9C;
+  color: $green;
 }
 
 .nav-tabs {
   a {
-    color: #000000;
+    color: $black;
   }
 
   a:hover {
-    color: #1ABC9C;
+    color: $green;
   }
 }
 
@@ -219,7 +219,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        color: #212529;
+        color: $black;
         width: auto;
         margin: 0;
         font-weight: 500;
@@ -229,7 +229,7 @@
         a {
           font-size: 1rem;
           padding:0;
-          color: #212529;
+          color: $black;
         }
 
         .linkedin {

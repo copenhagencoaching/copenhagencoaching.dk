@@ -45,7 +45,7 @@
       font-weight: 500;
       margin: 5px;
       padding: 5px 10px;
-      background-color: #1abc9c;
+      background-color: $green;
       border-radius: 3px;
       color: white;
 
@@ -109,7 +109,7 @@
     height: 350px;
     z-index: 0;
     opacity: .6;
-    background: #212529;
+    background: $black;
     background-size: cover;
   }
 
@@ -120,7 +120,7 @@
     .show-more-btn {
       height: 50px;
       width: 175px;
-      background: #1abc9c;
+      background: $green;
       border: none;
       color: #ffffff;
       font-weight: 600;
@@ -196,7 +196,7 @@
   .row {
     width: 750px;
     height: auto;
-    padding: 100px 0;
+    padding: 0;
 
     h1 {
       font-size: 20px;
@@ -210,7 +210,7 @@
     }
 
     a {
-      color: #1abc9c;
+      color: $green;
     }
   }
 }
@@ -225,7 +225,7 @@
 
   a {
     padding: 0;
-    color: #1abc9c;
+    color: $green;
   }
 
 }
@@ -236,13 +236,13 @@
   padding: 0 0 15px;
 
   .fab {
-    color: #606060;
+    color:$grey;
     padding-right: 10px;
     font-size: 15px;
   }
 
   .fab:hover {
-    color: #1abc9c;
+    color: $green;
   }
 }
 

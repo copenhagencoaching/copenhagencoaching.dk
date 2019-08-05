@@ -26,7 +26,7 @@
     h1, h2, h3 {
         font-size: 27px;
         padding-top: 0;
-        color: #1abc9c;
+        color: $green;
     }
   }
   
@@ -75,7 +75,7 @@
     }
 
     a {
-        color: #1abc9c;
+        color: $green;
         text-decoration: none;
         font-size: inherit;
     }
@@ -96,7 +96,7 @@
         padding: 0 20px;
         font-size: 18px;
         font-weight: 600;
-        background: #1abc9c;
+        background: $green;
         border: none;
         color: #ffffff;
         opacity: .9;
@@ -109,7 +109,7 @@
         padding: 0 20px;
         font-size: 18px;
         font-weight: 600;
-        background: #1abc9c;
+        background: $green;
         border: none;
         color: #ffffff;
         opacity: .9;
@@ -122,8 +122,8 @@
         font-size: 18px;
         font-weight: 600;
         background: transparent;
-        color: #000000;
-        border: 2px solid #000000;
+        color: $black;
+        border: 2px solid $black;
         margin-top: 0;
         flex-wrap: wrap;
         margin-left: 10px;

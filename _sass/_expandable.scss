@@ -67,11 +67,11 @@
           }
 
           a {
-            color: #212529;
+            color: $black;
           }
 
           a:hover {
-            color:#1abc9c;
+            color:$green;
           }
         }
 
@@ -81,7 +81,7 @@
         button {
           height: 50px;
           width: 175px;
-          background: #1abc9c;
+          background: $green;
           border: none;
           font-weight: 600;
           opacity: .9;

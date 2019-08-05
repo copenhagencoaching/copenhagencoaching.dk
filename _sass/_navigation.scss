@@ -47,18 +47,18 @@ nav {
 
   .navbar-menu a,
   a {
-    color: #000000;
+    color: $black;
     font-size: 16px;
     font-weight: 500;
     padding: 0;
   }
 
   .active-page {
-    color: #1ABC9C;
+    color: $green;
   }
 
   .fas {
-    color: #000000;
+    color: $black;
   }
 }
 
@@ -73,7 +73,7 @@ nav {
 
   .green-search-button {
     border-radius: 2.5px;
-    background-color: #1ABC9C;
+    background-color: $green;
     font-weight: 400;
     color: white;
     max-width: 70px !important;
@@ -88,7 +88,7 @@ nav {
   height: 30px;
   width: auto;
   padding: 0 10px;
-  background: #1ABC9C;
+  background: $green;
   border: none;
   color: #ffffff;
   font-weight: 500;
@@ -133,7 +133,7 @@ nav {
     background: transparent;
 
     .fas {
-      color: #000000
+      color: $black
     }
   }
 }
@@ -179,13 +179,13 @@ nav {
     }
 
     .fas {
-      color: #000000;
+      color: $black;
     }
 
     .contact-button {
       background: none;
       font-size: 25px;
-      color: #000000;
+      color: $black;
     }
   }
 
@@ -278,7 +278,7 @@ nav {
     .contact-button {
       background: none;
       font-size: 30px;
-      color: #000000;
+      color: $black;
     }
   }
 
