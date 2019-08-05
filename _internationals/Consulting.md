@@ -12,6 +12,8 @@ We are offering consultancy to international clients, helping them with leadersh
 
 Feel free to contact Associated Partner Morten Paustian if you need any further information:
 
-[mp@copenhagencoaching.dk](mailto:mp@copenhagencoaching.dk), [+4540136968](tel:+4540136968)
+[mp@copenhagencoaching.dk](mailto:mp@copenhagencoaching.dk)
+
+[+45 4013 6968](tel:40136968)
 
  

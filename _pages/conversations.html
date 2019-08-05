@@ -21,19 +21,9 @@ hero-description: Står du i udfordringer der synes svære at finde løsninger p
                     style="background-image: url('{{ conversation.image }}')"></div>
                 <div class="col-lg-7 col-12 expandable-pane-text">
                     <h1>{{ conversation.title }}</h1>
-                    <div class="content hideContent">
+                    <div class="content">
                         {{ conversation.content }}
                     </div>
-                    {% capture difference %}{{ conversation.content | size | minus:400 }}{% endcapture %}
-                    
-                    {% unless difference contains '-' %}
-                    <button href="#{{ conversation.title | remove:' ' }}" class="show-more">Vis mere</button>
-
-                    {% else %}
-
-
-                   
-                    {% endunless %}
                 </div>
             </div>
 

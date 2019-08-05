@@ -42,19 +42,9 @@ hero-description: This summer, Copenhagen Coaching Center will branch out into e
                     style="background-image: url('{{ international.image }}')"></div>
                 <div class="col-lg-7 col-12 expandable-pane-text">
                     <h1>{{ international.title }}</h1>
-                    <div class="content hideContent">
+                    <div class="content">
                         {{ international.content }}
                     </div>
-                    {% capture difference %}{{ international.content | size | minus:400 }}{% endcapture %}
-
-                    {% unless difference contains '-' %}
-                    <button href="#{{ international.title | remove:' ' }}" class="show-more">Vis mere</button>
-
-                    {% else %}
-
-
-
-                    {% endunless %}
                 </div>
             </div>
         </section>

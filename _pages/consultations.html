@@ -21,20 +21,9 @@ hero-description: Vi har den enkelte virksomhed i fokus når vi yder vores forks
                     style="background-image: url('{{ consultation.image }}')"></div>
                 <div class="col-lg-7 col-12 expandable-pane-text">
                     <h1>{{ consultation.title }}</h1>
-                    <div class="content hideContent">
+                    <div class="content">
                         {{ consultation.content }}
                     </div>
-                    {% capture difference %}{{ consultation.content | size | minus:400 }}{% endcapture %}
-                    
-                    {% unless difference contains '-' %}
-                    <button href="#{{ consultation.title | remove:' ' }}" class="show-more">Vis mere</button>
-
-                    {% else %}
-
-
-                   
-                    {% endunless %}
-
                 </div>
             </div>
         </section>

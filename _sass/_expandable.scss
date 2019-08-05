@@ -48,6 +48,14 @@
 
         .content {
 
+          font-size: 16px;
+          font-weight: 400;
+          padding: 10px 0;
+          line-height: 24px;
+          height: auto;
+          padding-top: 10px !important;
+
+
           h1,
           h2,
           h3,
@@ -57,34 +65,18 @@
             font-weight: 400;
             line-height: 24px;
           }
+
+          a {
+            color: #212529;
+          }
+
+          a:hover {
+            color:#1abc9c;
+          }
         }
 
-        .hideContent {
-          height: 150px;
-          overflow: hidden;
-          -webkit-transition: all .5s ease;
-          -moz-transition: all .5s ease;
-          -o-transition: all .5s ease;
-          transition: all .5s ease;
-        }
+      
 
-        .showContent {
-          font-size: 16px;
-          font-weight: 400;
-          padding: 10px 0;
-          line-height: 24px;
-          height: auto;
-          -webkit-transition: all .5s ease;
-          -moz-transition: all .5s ease;
-          -o-transition: all .5s ease;
-          transition: all .5s ease;
-          padding-top: 10px !important;
-
-        }
-
-        .show-less {
-          margin-top: 0;
-        }
 
         button {
           height: 50px;
@@ -164,14 +156,13 @@ hr {
       flex-direction: column !important;
       justify-content: center !important;
       margin: 0 !important;
-      padding: 0 !important;
+      padding: 10px 0 !important;
 
       .expandable-pane-text {
         padding: 0 !important;
-        margin-top: 130px;
 
         h1 {
-          margin-top: -75px;
+          margin-top: 20px;
         }
       }
 
@@ -179,16 +170,12 @@ hr {
         height: 300px !important;
       }
 
-      .showContent,
+      .content,
       p {
         font-size: 16px;
         font-weight: 400;
         line-height: 24px;
         height: auto;
-        -webkit-transition: all .5s ease;
-        -moz-transition: all .5s ease;
-        -o-transition: all .5s ease;
-        transition: all .5s ease;
       }
     }
 
@@ -219,5 +206,4 @@ hr {
       }
     }
   }
-
 }
