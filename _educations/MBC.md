@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 category: lederskab
 title: MBC
 image: /images/coaching/ledelsessparring.jpg

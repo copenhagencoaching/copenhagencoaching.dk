@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Filosofiske seminarer
 category: filosofi
 image: /images/academy/b8.png

@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Certificeringer i Big Five
 category: [certificeringer, proces-og-strategi]
 image: /images/academy/b2.png

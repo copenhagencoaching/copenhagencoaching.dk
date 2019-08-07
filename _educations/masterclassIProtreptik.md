@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 category: filosofi
 title: Masterclass i Protreptik
 image: /images/academy/b7.png

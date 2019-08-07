@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 category: [lederskab, personlig-udvikling-og-transition]
 title: Leder udviklingsprogram på El Camino
 image: /images/coaching/ledelsessparring.jpg
