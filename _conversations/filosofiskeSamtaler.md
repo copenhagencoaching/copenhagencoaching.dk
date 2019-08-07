@@ -1,6 +1,7 @@
 ---
 published: true
 id: 2
+order: 3
 author: Filosofiske samtaler
 title: Filosofiske samtaler
 image: /images/coaching/c2.jpg

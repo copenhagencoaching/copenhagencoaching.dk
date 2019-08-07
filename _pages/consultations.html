@@ -11,7 +11,8 @@ hero-description: Vi har den enkelte virksomhed i fokus når vi yder vores forks
 <div class="expandable">
     <div class="row">
 
-        {% for consultation in site.consultations %}
+        {% assign orderedconsultations = site.consultations | sort: "order" %}
+        {% for consultation in orderedconsultations %}
 
         <section class="col-12 expandable-pane">
             <div class="anchor" id="{{ consultation.title | remove:' ' }}"></div>

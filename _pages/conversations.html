@@ -13,7 +13,9 @@ hero-description: Når du har brug for at blive klogere på dig selv og dine omg
         <div class="intro">
                 Hos Copenhagen Coaching Center styrkes du i at se mønstre i dine udfordringer, finde ind til de konstruktive tanker om udfordringen og være med de følelser der er på spil og dermed få forskellige handlemuligheder på udfordringen. Coachingrelationen er af afgørende betydning for effekten af coachingen og derfor gør vi en dyd ud af du får den rigtige coach til dig. Copenhagen Coaching Centers coaches har alle mange års erfaring med coaching samt en Master i Business Coaching. 
             </div>
-        {% for conversation in site.conversations %}
+
+            {% assign orderedcons = site.conversations | sort: "order" %}
+        {% for conversation in orderedcons %}
 
         <section class="col-12 expandable-pane">
             <div class="anchor" id="{{ conversation.title | remove:' ' }}"></div>

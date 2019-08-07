@@ -1,6 +1,7 @@
 ---
 published: true
 title: Ledelsesudvikling
+order: 1
 image: /images/consulting/c3.jpg
 ---
 

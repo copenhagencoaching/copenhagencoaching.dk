@@ -1,6 +1,7 @@
 ---
 published: true
 id: 1
+order: 1
 author: Executive coaching
 title: Executive coaching
 image: /images/coaching/c1.jpg
