@@ -9,8 +9,16 @@ description: Igennem den filosofiske samtale finder du ind til det der er væsen
 
 ## Det reflekterede arbejdsliv og den organisatoriske tænksomhed.
 
-Gennem den filosofiske samtale lærer du hvordan du tænker, hvornår du tænker bedst, og hvad du skal tænke for at styrke din praksis. Der arbejdes med metaplaner, refleksive variationer og kognitive perspektiveringer.
+Teamcoaching gør det tydeligt hvad der binder teamet sammen og hvordan teamets sammenhængskraft og klarhed i opgaver kan skabe effektivitet. Når man arbejder som team skal man have en fælles platform, noget vi samles om.
 
-Du får trænet din evne til at tænke præcist, konsistent og fokuseret, og lærer hvordan du bliver tydeligere omkring hvad du forestiller dig, hvad den måde du tænker på kan have af konsekvenser samt i det hele taget at få begreb om hvad det vil sige at træne dit mentale råderum. Samtidig vil du mærke din emotionelle intelligens og igennem arbejdet med metaforer styrke din kreativitet.
+Noget der gør os stærkere sammen – som team og ikke blot som en flok individer. Forskning viser at 82 % af alle organisationer arbejder teambaseret. 42 % af disse performer mindre effektivt end hvis de arbejdede individuelt. 37% arbejder ligeså effektivt som hvis de arbejdede individuelt, så det kun er 21% af der reelt er mere effektive. De 21% har dog færre omkostninger, bedre resultater, mindre fravær, færre konflikter, mere nytænkning, højere fleksibilitet og mere forandringsparathed. Så der er noget at komme efter.
 
-Kom på højde med din egen tænkning og find formlen til hvordan du omsætter den i din ledelse, dit liv og i forhold til det organisatoriske fællesskab du er en del af.
+I Copenhagen Coaching Center arbejder vi med teamcoaching der tydeligt sætter fokus på det der skal være på plads for at et team kan performe som et team. Det er kommunikation, rammer og struktur, tydelige (fælles) mål og stærke relationer (kohæsion) der vil være udgangspunktet for at skabe et high performance team.  
+
+ 
+
+Vil du vide mere så kontakt Morten Bertelsen på
+
+[mb@copenhagencoaching.dk](mailto:mb@copenhagencoaching.dk)
+
+[+45 52 19 09 57](tel:+4552190957)
