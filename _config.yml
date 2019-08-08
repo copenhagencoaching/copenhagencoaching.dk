@@ -1,9 +1,9 @@
 title: Copenhagencoaching.dk
 description: 'Copenhagen Coaching Center'
-author: Prolike
-url: https:/www.copenhagencoaching.dk
+author: Copenhagencoaching.dk
+url: https://www.copenhagencoaching.dk
 paginate: 24
-paginate_path: "/stories/page:num/"
+paginate_path: "/stories/title/"
 
 logo: /images/seo_img.png
 
