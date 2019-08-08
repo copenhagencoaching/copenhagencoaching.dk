@@ -4,6 +4,7 @@ author: Copenhagencoaching.dk
 url: https://www.copenhagencoaching.dk
 paginate: 24
 paginate_path: "/stories/title/"
+url_path: https://www.copenhagencoaching.dk
 
 logo: /images/seo_img.png
 
