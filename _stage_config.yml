@@ -4,7 +4,7 @@ author: Prolike
 url: https://stage.copenhagencoaching.dk
 paginate: 24
 paginate_path: "/stories/page:num/"
-url_path: https://stage.copenhagencoaching.dk
+side-addresse: https://stage.copenhagencoaching.dk
 
 logo: /images/seo_img.png
 

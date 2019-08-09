@@ -15,15 +15,15 @@
         content="{% if page.hero-description %}{{ page.hero-description | truncate: 160 }}{% else %}{{ site.description | truncate: 160 }}{% endif %}" />
     <meta name="author" content="Copenhagen Coaching Center">
 
-    <link rel="canonical" href="{{ site.url_path }}{{ page.url }}">
+    <link rel="canonical" href="{{ site.side-addresse }}{{ page.url }}">
 
     <!-- Open Graph tags -->
 
     <meta property="og:locale" content="en_US">
     <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-    <meta property="og:url" content="{{ site._path }}{{ page.url }}">
+    <meta property="og:url" content="{{ site.side-addresse }}{{ page.url }}">
     <meta property="og:image"
-        content="{% if page.image %}{{ site.url_path }}{{ page.image | remove: '..' }}{% else %}{{ site.url_path }}{{ site.image }}{% endif %}" />
+        content="{% if page.image %}{{ site.side-addresse }}{{ page.image | remove: '..' }}{% else %}{{ site.side-addresse }}{{ site.image }}{% endif %}" />
     <meta property="og:site_name" content="{{ site.title }}">
     <meta property="article:publisher" content="https://www.linkedin.com/company/copenhagen-coaching-center/" />
     <meta property="article:author" content="https://www.linkedin.com/company/copenhagen-coaching-center/" />
@@ -33,7 +33,7 @@
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:image"
-        content="{% if page.image %}{{ site.url_path }}{{ page.image | remove: '..' }}{% else %}{{ site.url_path }}{{ site.image }}{% endif %}"
+        content="{% if page.image %}{{ site.side-addresse }}{{ page.image | remove: '..' }}{% else %}{{ site.U }}{{ site.image }}{% endif %}"
         <meta name="twitter:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
     <meta name="twitter:description"
         content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
