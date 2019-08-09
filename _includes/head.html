@@ -1,29 +1,42 @@
 <head>
 
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-TFM8TP7');</script>
+    <!-- End Google Tag Manager -->
+    
     <!-- Meta -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta itemprop="description" name="description" content="{% if page.description %}{{ page.description | truncate: 160 }}{% else %}{{ site.description | truncate: 160 }}{% endif %}" />
-  <meta name="author" content="Copenhagen Coaching Center">
-  
-  <link rel="canonical" href="{{ site.url_path }}{{ page.url }}">
-  
-  <!-- Open Graph tags -->
-  
-  <meta property="og:locale" content="en_US">
-  <meta property="og:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-  <meta property="og:url" content="{{ site._path }}{{ page.url }}">
-  <meta property="og:image" content="{% if page.image %}{{ site.url_path }}{{ page.image | remove: '..' }}{% else %}{{ site.url_path }}{{ site.image }}{% endif %}" />
-  <meta property="og:site_name" content="{{ site.title }}">
-  <meta property="article:publisher" content="https://www.linkedin.com/company/copenhagen-coaching-center/" />
-  <meta property="article:author" content="https://www.linkedin.com/company/copenhagen-coaching-center/" />
-  <meta property="article:published_time" content="{{ page.date }}" />
-  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-  
-  <meta name="twitter:card" content="summary_large_image"/>
-  <meta name="twitter:image" content="{% if page.image %}{{ site.url_path }}{{ page.image | remove: '..' }}{% else %}{{ site.url_path }}{{ site.image }}{% endif %}"
-  <meta name="twitter:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-  <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <meta itemprop="description" name="description"
+        content="{% if page.hero-description %}{{ page.hero-description | truncate: 160 }}{% else %}{{ site.description | truncate: 160 }}{% endif %}" />
+    <meta name="author" content="Copenhagen Coaching Center">
+
+    <link rel="canonical" href="{{ site.url_path }}{{ page.url }}">
+
+    <!-- Open Graph tags -->
+
+    <meta property="og:locale" content="en_US">
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta property="og:url" content="{{ site._path }}{{ page.url }}">
+    <meta property="og:image"
+        content="{% if page.image %}{{ site.url_path }}{{ page.image | remove: '..' }}{% else %}{{ site.url_path }}{{ site.image }}{% endif %}" />
+    <meta property="og:site_name" content="{{ site.title }}">
+    <meta property="article:publisher" content="https://www.linkedin.com/company/copenhagen-coaching-center/" />
+    <meta property="article:author" content="https://www.linkedin.com/company/copenhagen-coaching-center/" />
+    <meta property="article:published_time" content="{{ page.date }}" />
+    <meta property="og:description"
+        content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image"
+        content="{% if page.image %}{{ site.url_path }}{{ page.image | remove: '..' }}{% else %}{{ site.url_path }}{{ site.image }}{% endif %}"
+        <meta name="twitter:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta name="twitter:description"
+        content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="/images/ccc-favicon.ico">
@@ -59,5 +72,8 @@
 
         gtag('config', 'UA-145313184-1');
     </script>
+
+   
+
 
 </head>
