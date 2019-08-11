@@ -1,7 +1,7 @@
 ---
 published: true
 title: Certificering i Protreptik
-category: filosofi
+category: [filosofi, lederskab, certificeringer]
 image: /images/academy/b3.png
 price: 'pris'
 dates:

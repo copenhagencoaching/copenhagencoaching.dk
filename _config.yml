@@ -1,7 +1,6 @@
 title: Copenhagencoaching.dk
-description: 'Copenhagen Coaching Center'
+description: VI TILBYDER ÅBNE UDDANNELSER, LEDERUDDANNELSER, KONSULENTYDELSER, LEDELSESSPARRING, SAMT COACHINGSAMTALER TIL PRIVATE OG OFFENTLIGE VIRKSOMHEDER.
 author: Copenhagencoaching.dk
-url: https://www.copenhagencoaching.dk
 paginate: 24
 paginate_path: "/stories/title/"
 side-addresse: https://www.copenhagencoaching.dk
@@ -118,9 +117,6 @@ prose:
   media: 'img/blog'
   ignore:
     - htmlproofer.sh
-    - /_internationals
-    - /_consultations
-    - /_conversations
     - /_pages
     - /_testimonials
     - index.html
@@ -139,6 +135,8 @@ prose:
     - _config.yml
     - /_layouts
     - /_includes
+    - /pdfs
+    - /images
     - .circleci
     - /css
     - /js
@@ -261,6 +259,54 @@ prose:
         field:
           element: "text"
           label: "LinkedIn profil"
+      - name: "order"
+        field:
+          element: "number"
+          type: "number"
+          label: "Rækkefølge"
+    _consultations:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Titel"
+      - name: "order"
+        field:
+          element: "number"
+          type: "number"
+          label: "Rækkefølge"
+      - name: "image"
+        field:
+          element: "text"
+          label: "Billed"
+    _conversations:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Titel"
+      - name: "order"
+        field:
+          element: "number"
+          type: "number"
+          label: "Rækkefølge"
+      - name: "image"
+        field:
+          element: "text"
+          label: "Billed"
+    _internationals:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Titel"
+      - name: "order"
+        field:
+          element: "number"
+          type: "number"
+          label: "Rækkefølge"
+      - name: "image"
+        field:
+          element: "text"
+          label: "Billed"
+      
 
 
 
