@@ -2,7 +2,7 @@
 published: true
 category: [lederskab, personlig-udvikling-og-transition]
 title: Leder udviklingsprogram på El Camino
-image: /images/coaching/ledelsessparring.jpg
+image: /images/educations/ed-1.jpg
 price: xxx pris
 dates: [xxxx, xxyy]
 ---
