@@ -199,4 +199,4 @@ workflows:
             branches:
               ignore: /.*/
             tags:
-              only: /^\d+\.\d+\.\d+$/ # Semantic version number
+              only: /^\d+\.\d+\.\d+$/ # Semantic version number 
