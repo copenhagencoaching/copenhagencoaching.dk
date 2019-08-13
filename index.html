@@ -54,7 +54,8 @@ layout: default
                 {% endif %}
                 {% endfor %}
                 <li class="nav-item">
-                    <a class="contact-link nav-link" href="#" data-toggle="modal" data-target="#contact-modal">Kontakt</a>
+                    <a class="contact-link nav-link" href="#" data-toggle="modal"
+                        data-target="#contact-modal">Kontakt</a>
                 </li>
                 <li id="search-button" class="nav-item nav-icon show">
                     <i class="fas fa-search"></i>
@@ -77,13 +78,13 @@ layout: default
 </nav>
 
 <script>
-  $('.contact-link').on('click', function () {
-    $('.navbar-toggler').click();
-  });
+    $('.contact-link').on('click', function () {
+        $('.navbar-toggler').click();
+    });
 </script>
 
 <div id="fullpage">
-    
+
     <!-- Why ? -->
 
     <div class="section frontpage">
@@ -95,11 +96,14 @@ layout: default
                         dagligdagen.</p>
                     <span class="frontpage-buttons">
                         <a id="ga-knap-index-fundament" class="green-button" href="/fundament/">Vores vision</a>
-                        <a class="transparent-button" href="/#how" data-proofer-ignore>Hvordan gør vi?</a>
+
+                        <!-- <a class="transparent-button" href="/#how" data-proofer-ignore>Hvordan gør vi?</a> Udkommenteret indtil vi finder ud af om disse knapper er nødvendige -->
+                        
                     </span>
                 </span>
             </div>
         </div>
+        <a href="#how" class="scroll-down"><i class="fas fa-chevron-down"></i></a>
     </div>
 
     <!-- How ? -->
@@ -116,11 +120,14 @@ layout: default
                         andens værdighed og se mennesket i mennesket med de forskelligheder der viser sig.</p>
                     <span class="frontpage-buttons">
                         <a id="ga-knap-index-forum" class="green-button" href="/forum/">Gå til Forum</a>
-                        <a class="transparent-button" href="/#what" data-proofer-ignore>Hvad tilbyder vi?</a>
+
+                        <!-- <a class="transparent-button" href="/#what" data-proofer-ignore>Hvad tilbyder vi?</a> Udkommenteret indtil vi finder ud af om disse knapper er nødvendige -->
+
                     </span>
                 </span>
             </div>
         </div>
+        <a href="#what" class="scroll-down"><i class="fas fa-chevron-down"></i></a>
     </div>
 
     <!-- What ? -->
@@ -137,7 +144,9 @@ layout: default
                         andens værdighed og se mennesket i mennesket med de forskelligheder der viser sig.</p>
                     <span class="frontpage-buttons">
                         <a id="ga-knap-index-academy" class="green-button" href="/academy/">Se uddannelser</a>
-                        <a id="ga-knap-index-consultations" class="transparent-button" href="/consultations/">Konsulentydelser</a>
+
+                        <!-- <a id="ga-knap-index-consultations" class="transparent-button" href="/consultations/">Konsulentydelser</a> Udkommenteret indtil vi finder ud af om disse knapper er nødvendige -->
+
                     </span>
                 </span>
             </div>

@@ -66,6 +66,20 @@
         flex-direction: row;
         justify-content: left;
     }
+
+    .scroll-down {
+        font-size: 30px;
+        color: #ffffff;
+        width: 100%;
+        height: auto;
+        position: absolute;
+        bottom: 0;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 50px;
+        animation: blinkingArrow 3s infinite;
+    }
 }
 
 .frontpage::before {
@@ -94,6 +108,11 @@
     background: $green !important;
 }
 
+@keyframes blinkingArrow {
+    0%   {opacity: 1;}
+    50%  {opacity: .25;}
+}
+
 // Front page navigation - this is a hackerman solution and might have to be changed further on down the line
 
 #frontpage-nav {
@@ -112,6 +131,10 @@
         .frontpage-buttons {
             width: 100%;
         }
+    }
+
+    .scroll-down {
+        display: none;
     }
 }
 
