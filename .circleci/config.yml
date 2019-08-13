@@ -51,8 +51,8 @@ jobs:
           keys:
             - the-repo-{{ .Revision }}
       - run:
-        name: If triggered by a tag, mark the environment as "production".
-        command: '[[ -z "$CIRCLE_TAG" ]] && echo "Not triggered by a tag" || export JEKYLL_ENV=production'
+          name: If triggered by a tag, mark the environment as "production".
+          command: '[[ -z "$CIRCLE_TAG" ]] && echo "Not triggered by a tag" || export JEKYLL_ENV=production'
       - run:
           name: Build Jekyll
           command: |
