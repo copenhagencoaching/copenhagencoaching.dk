@@ -24,7 +24,7 @@
         <div class="footer-row col-xs-12 articles">
             <p>Forum</p>
             {% for post in site.posts limit:3 %}
-            <a class="footer-stories" href="{{ post.url }}">{{ post.title }}</a><p class="stories-date">{{ page.date | date: "%B %d, %Y" }}</p>
+            <a class="footer-stories" href="{{ post.url }}">{{ post.title }}</a><p class="stories-date">{{ post.date | date: "%B %d, %Y" }}</p>
             {% endfor %}
         </div>
         <div class="footer-row col-xs-12">
