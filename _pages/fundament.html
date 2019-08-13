@@ -1,18 +1,18 @@
 ---
 layout: page
 title: Fundament
-image: /images/hero-images/hero-image-1.jpg
+# image: /images/hero-images/hero-image-1.jpg #TODO ISSUE #447
 signup: Fundament
 show: false
 ---
 
 <div class="expandable">
     <div class="row">
-       
+
         {% for fundament in site.fundament %}
         <div class="anchor" id="{{ fundament.title | remove:' ' }}"></div>
         <section class="col-12 expandable-pane">
-               
+
             <div class="col-lg-5 col-sm-12 expandable-pane-image"
                 style="background-image: url('{{ fundament.image }}')"></div>
             <div class="col-lg-7 col-sm-12 expandable-pane-text">

@@ -3,3 +3,5 @@
 
 
 [Kanban board på ZenHub](https://app.zenhub.com/workspaces/copenhagen-coaching-center-5c99e1f6f019e10001096090/board?repos=177743826,183002522)
+
+[Workflows on Circle CI](https://circleci.com/gh/prolike/workflows/copenhagencoaching.dk)
