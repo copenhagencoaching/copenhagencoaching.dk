@@ -2,15 +2,13 @@
     color: #ffffff;
     display: flex;
     align-items: center;
-   background-image: url(/images/frontpage/frontpage-1.jpg);
+    background-image: url(/images/frontpage/frontpage-1.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     height: 100%;
-
     position: relative;
     background-color: #000;
-    
 
     span {
         position: relative;
@@ -22,8 +20,10 @@
     }
 
     h1 {
-        font-size: 55px;
-        font-weight: 600;
+        font-size: 75px;
+        font-weight: 500;
+        text-transform: uppercase;
+        font-family: 'Oswald', sans-serif;
     }
 
     p {
@@ -80,7 +80,7 @@
     opacity: .7;
     background: $black;
     background-size: cover;
-  }
+}
 
 .frontpage:nth-child(2) {
     background-image: url(/images/frontpage/frontpage-2.jpg);
@@ -120,7 +120,7 @@
 @media (max-width: 768px) {
 
     .frontpage {
-        
+
 
         h1 {
             font-size: 30px; // denne bliver overskrevet
@@ -131,7 +131,7 @@
             width: 100%
         }
 
-        
+
 
         .green-button,
         .transparent-button {
@@ -140,13 +140,13 @@
             font-size: 16px;
         }
 
-        
+
     }
+
     #frontpage-nav {
         .navbar {
             width: 100%; //Denne bliver overskrevet
         }
     }
-   
-}
 
+}
