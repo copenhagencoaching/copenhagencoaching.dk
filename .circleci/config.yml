@@ -52,7 +52,9 @@ jobs:
             - the-repo-{{ .Revision }}
       - run:
           name: Set environment
-          command: '[[ -z "$CIRCLE_TAG" ]] && echo "Not triggered by a tag" || git cat-file -p `git rev-parse $CIRCLE_TAG` | grep "^tag $CIRCLE_TAG$" &&  export JEKYLL_ENV=production'
+          command: |
+            '[[ -z "$CIRCLE_TAG" ]] && echo "Not triggered by a tag" || export JEKYLL_ENV=production'
+            printenv JEKYLL_ENV
       - run:
           name: Build Jekyll
           command: jekyll build
@@ -199,4 +201,4 @@ workflows:
             branches:
               ignore: /.*/
             tags:
-              only: /^\d+\.\d+\.\d+$/ # Semantic version number 
+              only: /^\d+\.\d+\.\d+$/ # Semantic version number
