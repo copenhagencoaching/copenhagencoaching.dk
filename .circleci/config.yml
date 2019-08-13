@@ -38,7 +38,7 @@ jobs:
           name: Create version.txt
           command: play --manuscript .circleci/play-proflow-cci-gh.yml --part write-version-to-file
       - save_cache:
-          key: the-repo-{{ .BuildNum }}-{{ .Revision }}
+          key: the-repo-{{ .Revision }}
           paths:
             - .
 
@@ -49,7 +49,7 @@ jobs:
     steps:
       - restore_cache:
           keys:
-            - the-repo-{{ .BuildNum }}-{{ .Revision }}
+            - the-repo-{{ .Revision }}
       - run:
           name:  Build "stage" or "production".
           command: |
@@ -60,7 +60,7 @@ jobs:
           name: Log the version
           command: cp version.txt _site/version.txt
       - save_cache:
-          key: the-built-repo-{{ .BuildNum }}-{{ .Revision }}
+          key: the-built-repo-{{ .Revision }}
           paths:
             - _site
             - .circleci
@@ -72,7 +72,7 @@ jobs:
     steps:
       - restore_cache:
           keys:
-            - the-built-repo-{{ .BuildNum }}-{{ .Revision }}
+            - the-built-repo-
       - run:
           name: Htmlproofer
           command: htmlproofer --disable-external --allow-hash-href --checks-to-ignore ImageCheck _site
@@ -84,7 +84,7 @@ jobs:
     steps:
       - restore_cache:
           keys:
-            - the-built-repo-{{ .BuildNum }}-{{ .Revision }}
+            - the-built-repo-
       - run:
           name: Htmlproofer
           command: htmlproofer --allow-hash-href  --enforce-https  --check-favicon --check-opengraph --report-missing-names --report-invalid-tags  -- _site
@@ -96,7 +96,7 @@ jobs:
     steps:
       - restore_cache:
           keys:
-            - the-repo-{{ .BuildNum }}-{{ .Revision }}
+            - the-repo-
       - run:
           name: Deliver
           command: play --manuscript .circleci/play-proflow-cci-gh.yml --part deliver
@@ -112,7 +112,7 @@ jobs:
     steps:
       - restore_cache:
           keys:
-            - the-built-repo-{{ .BuildNum }}-{{ .Revision }}
+            - the-built-repo-
       - run:
           name: Use CNAME.stage if it exist
           command: '[[ -e CNAME.stage ]] && cp -f CNAME.stage CNAME || echo No CNAME.stage file found'
@@ -131,7 +131,7 @@ jobs:
    steps:
      - restore_cache:
          keys:
-           - the-built-repo-{{ .BuildNum }}-{{ .Revision }}
+           - the-built-repo-
      - run:
          name: Deploy to GitHub Pages
          command: play --manuscript ../.circleci/play-proflow-cci-gh.yml --part ghpages_deploy
