@@ -56,7 +56,7 @@ jobs:
       - run:
           name: Build Jekyll
           command: |
-            echo "Environment: " & printenv JEKYLL_ENV
+            printenv JEKYLL_ENV
             jekyll build
       - run:
           name: Log the version
