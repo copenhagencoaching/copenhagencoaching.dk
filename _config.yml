@@ -3,7 +3,8 @@ description: VI TILBYDER ÅBNE UDDANNELSER, LEDERUDDANNELSER, KONSULENTYDELSER, 
 author: Copenhagencoaching.dk
 paginate: 24
 paginate_path: "/stories/title/"
-side-addresse: https://www.copenhagencoaching.dk
+stage_site: https://stage.copenhagencoaching.dk
+prod_site: https://www.copenhagencoaching.dk
 
 
 logo: /images/seo_img.png
@@ -50,7 +51,7 @@ collections:
   internationals:
     output: true
     permalink: /internationals/:title/
-  fundament: 
+  fundament:
     output: true
     permalink: /fundament/:title/
   pages:
@@ -109,7 +110,7 @@ defaults:
       type: testimonials
     values:
       layout: category
-      
+
 prose:
   rooturl: ''
   siteurl: 'www.copenhagencoaching.dk'
@@ -306,7 +307,7 @@ prose:
         field:
           element: "text"
           label: "Billed"
-      
+
 
 
 

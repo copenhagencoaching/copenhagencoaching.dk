@@ -50,12 +50,12 @@ jobs:
       - restore_cache:
           keys:
             - the-repo-{{ .Revision }}
-      - run: 
+      - run:
+          name: Set environment
+          command: '[[ -z "$CIRCLE_TAG" ]] && echo "Not triggered by a tag" || git cat-file -p `git rev-parse $CIRCLE_TAG` | grep "^tag $CIRCLE_TAG$" &&  export JEKYLL_ENV=production'
+      - run:
           name: Build Jekyll
-          command: |
-            export JEKYLL_PARAMS=`printenv CIRCLE_BRANCH | grep -e "^master$" && echo "--config _config.yml,_stage_config.yml" || echo ""`
-            printenv JEKYLL_PARAMS
-            jekyll build $JEKYLL_PARAMS           
+          command: jekyll build
       - run:
           name: Log the version
           command: cp version.txt _site/version.txt
@@ -120,21 +120,21 @@ jobs:
           name: Deploy to GitHub Pages
           command: play --manuscript ../.circleci/play-proflow-cci-gh.yml --part ghpages_deploy
 
-  # prod-deploy:
-  #   working_directory: /app/_site
-  #   docker:
-  #     - image: lakruzz/play:latest
-  #       environment:
-  #         PLAY_TARGET_GH_REPO:   prolike/www.prolike.io
-  #         PLAY_USER_NAME:        Circle CI by @Prolike
-  #         PLAY_USER_EMAIL:       circleci@prolike.io
-  #   steps:
-  #     - restore_cache:
-  #         keys:
-  #           - the-built-repo-{{ .Revision }}
-  #     - run:
-  #         name: Deploy to GitHub Pages
-  #         command: play --manuscript ../.circleci/play-proflow-cci-gh.yml --part ghpages_deploy
+  prod-deploy:
+   working_directory: /app/_site
+   docker:
+     - image: lakruzz/play:latest
+       environment:
+         PLAY_TARGET_GH_REPO:   prolike/www.prolike.io
+         PLAY_USER_NAME:        Circle CI by @Prolike
+         PLAY_USER_EMAIL:       circleci@prolike.io
+   steps:
+     - restore_cache:
+         keys:
+           - the-built-repo-{{ .Revision }}
+     - run:
+         name: Deploy to GitHub Pages
+         command: play --manuscript ../.circleci/play-proflow-cci-gh.yml --part ghpages_deploy
 
 workflows:
   version: 2
@@ -190,13 +190,13 @@ workflows:
             branches:
               only:
                 - /master/
-      # - prod-deploy:
-      #     requires:
-      #       - prep-repo
-      #       - jekyll-build
-      #       - html-proofer
-      #     filters:
-      #       branches:
-      #         ignore: /.*/
-      #       tags:
-      #         only: /^\d+\.\d+\.\d+$/ # Semantic version number
+      - prod-deploy:
+         requires:
+           - prep-repo
+           - jekyll-build
+           - html-proofer
+         filters:
+           branches:
+             ignore: /.*/
+           tags:
+             only: /^\d+\.\d+\.\d+$/ # Semantic version number

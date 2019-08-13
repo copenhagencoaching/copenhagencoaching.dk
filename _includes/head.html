@@ -7,7 +7,14 @@
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-TFM8TP7');</script>
     <!-- End Google Tag Manager -->
-    
+
+    {% if jekyll.environment == "production" %}
+      {% assign site_prefix = site.prod_site %}
+    {% else %}
+      {% assign site_prefix = site.stage_site %}
+    {% endif %}
+
+
     <!-- Meta -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,15 +22,15 @@
         content="{% if page.hero-description %}{{ page.hero-description | truncate: 160 }}{% else %}{{ site.description | truncate: 160 }}{% endif %}" />
     <meta name="author" content="Copenhagen Coaching Center">
 
-    <link rel="canonical" href="{{ site.side-addresse }}{{ page.url }}">
+    <link rel="canonical" href="{{ site_prefix }}{{ page.url }}">
 
     <!-- Open Graph tags -->
 
     <meta property="og:locale" content="en_US">
     <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-    <meta property="og:url" content="{{ site.side-addresse }}{{ page.url }}">
+    <meta property="og:url" content="{{ site_prefix }}{{ page.url }}">
     <meta property="og:image"
-        content="{% if page.image %}{{ site.side-addresse }}{{ page.image | remove: '..' }}{% else %}{{ site.side-addresse }}{{ site.image }}{% endif %}" />
+        content="{% if page.image %}{{ site_prefix }}{{ page.image | remove: '..' }}{% else %}{{ site_prefix }}{{ site.image }}{% endif %}" />
     <meta property="og:site_name" content="{{ site.title }}">
     <meta property="article:publisher" content="https://www.linkedin.com/company/copenhagen-coaching-center/" />
     <meta property="article:author" content="https://www.linkedin.com/company/copenhagen-coaching-center/" />
@@ -33,7 +40,7 @@
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:image"
-        content="{% if page.image %}{{ site.side-addresse }}{{ page.image | remove: '..' }}{% else %}{{ site.U }}{{ site.image }}{% endif %}"
+        content="{% if page.image %}{{ site_prefix }}{{ page.image | remove: '..' }}{% else %}{{ site.U }}{{ site.image }}{% endif %}"
         <meta name="twitter:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
     <meta name="twitter:description"
         content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
@@ -73,7 +80,7 @@
         gtag('config', 'UA-145313184-1');
     </script>
 
-   
+
 
 
 </head>
