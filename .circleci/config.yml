@@ -191,12 +191,12 @@ workflows:
               only:
                 - /master/
       - prod-deploy:
-         requires:
-           - prep-repo
-           - jekyll-build
-           - html-proofer
-         filters:
-           branches:
-             ignore: /.*/
-           tags:
-             only: /^\d+\.\d+\.\d+$/ # Semantic version number
+          requires:
+            - prep-repo
+            - jekyll-build
+            - html-proofer
+          filters:
+            branches:
+              ignore: /.*/
+            tags:
+              only: /^\d+\.\d+\.\d+$/ # Semantic version number
