@@ -60,7 +60,7 @@ jobs:
           name: Log the version
           command: cp version.txt _site/version.txt
       - save_cache:
-          key: the-built-repo-{{ .Revision }}
+          key: the-built-repo-{{ .Revision }}{{ .BuildNum }}
           paths:
             - _site
             - .circleci
