@@ -125,7 +125,7 @@ jobs:
    docker:
      - image: lakruzz/play:latest
        environment:
-         PLAY_TARGET_GH_REPO:   prolike/www.prolike.io
+         PLAY_TARGET_GH_REPO:   prolike/www.copenhagencoaching.dk
          PLAY_USER_NAME:        Circle CI by @Prolike
          PLAY_USER_EMAIL:       circleci@prolike.io
    steps:
