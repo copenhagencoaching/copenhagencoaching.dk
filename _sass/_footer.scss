@@ -19,11 +19,20 @@ footer {
     flex-direction: column;
   }
 
+  .stories-date {
+    font-size: 15px;
+    color: $grey;
+  }
+
   .footer-text {
     width: 275px;
     font-weight: 400;
     font-size: 16px;
     color: $grey;
+  }
+
+  .fab {
+    opacity: 1;
   }
 
   p {
@@ -84,10 +93,6 @@ span {
   }
 }
 
-.footer-stories {
-  margin-bottom: 7.5px;
-}
-
 // Medium devices (landscape tablets, 768px and down)
 
 @media (max-width: 768px) {
@@ -95,7 +100,6 @@ span {
     .row {
       .footer-row {
         width: 100% !important;
-        
       }
     }
   }
@@ -106,54 +110,54 @@ span {
   footer {
     .row {
       justify-content: left;
+
       .footer-row {
         width: 40%;
-        
+
+        .footer-text {
+          font-size: 16px;
+          width: 90%;
+        }
+
       }
     }
   }
-
-
 }
 
 @media (max-width: 1290px) {
 
-  
+  footer {
+    height: auto;
+    padding: 50px 0;
 
-    footer {
-      height: auto;
-      padding: 50px 0;
-      
-  
-      .row {
-        width: 90%;
-        display: normal;
-      }
-  
-      .col-xs-6 {
-        width: 50%;
-      }
-  
-      .col-xs-12:nth-child(1),
-      .col-xs-12:nth-child(2) {
-        padding-bottom: 50px;
-      }
-  
-      .col-xs-6:nth-child(2),
-      .col-xs-6:nth-child(4) {
-        padding-left: 20px;
-      }
-  
-      p,
-      a {
-        font-size: 16px;
-      }
-  
-      .footer-text {
-        font-size: 14px;
-        width: 150px;
-      }
-  
-    
+
+    .row {
+      width: 90%;
+      display: normal;
+    }
+
+    .col-xs-6 {
+      width: 50%;
+    }
+
+    .col-xs-12:nth-child(1),
+    .col-xs-12:nth-child(2) {
+      padding-bottom: 50px;
+    }
+
+    .col-xs-6:nth-child(2),
+    .col-xs-6:nth-child(4) {
+      padding-left: 20px;
+    }
+
+    p,
+    a {
+      font-size: 16px;
+    }
+
+    .footer-text {
+      font-size: 14px;
+      width: 150px;
+    }
   }
 }
