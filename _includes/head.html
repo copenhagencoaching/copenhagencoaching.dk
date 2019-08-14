@@ -22,18 +22,18 @@
         content="{% if page.hero-description %}{{ page.hero-description | truncate: 160 }}{% else %}{{ site.description | truncate: 160 }}{% endif %}" />
     <meta name="author" content="Copenhagen Coaching Center">
 
-    <link rel="canonical" href="{{ site_prefix }}{{ page.url }}">
+    <link data-proofer-ignore rel="canonical" href="{{ site_prefix }}{{ page.url }}">
 
     <!-- Open Graph tags -->
 
     <meta property="og:locale" content="en_US">
-    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-    <meta property="og:url" content="{{ site_prefix }}{{ page.url }}">
-    <meta property="og:image"
+    <meta data-proofer-ignore property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta data-proofer-ignore property="og:url" content="{{ site_prefix }}{{ page.url }}">
+    <meta data-proofer-ignore property="og:image"
         content="{% if page.image %}{{ site_prefix }}{{ page.image | remove: '..' }}{% else %}{{ site_prefix }}{{ site.image }}{% endif %}" />
     <meta property="og:site_name" content="{{ site.title }}">
-    <meta property="article:publisher" content="https://www.linkedin.com/company/copenhagen-coaching-center/" />
-    <meta property="article:author" content="https://www.linkedin.com/company/copenhagen-coaching-center/" />
+    <meta data-proofer-ignore property="article:publisher" content="https://www.linkedin.com/company/copenhagen-coaching-center/" />
+    <meta data-proofer-ignore property="article:author" content="https://www.linkedin.com/company/copenhagen-coaching-center/" />
     <meta property="article:published_time" content="{{ page.date }}" />
     <meta property="og:description"
         content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">

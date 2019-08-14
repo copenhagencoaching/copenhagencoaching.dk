@@ -75,18 +75,6 @@ jobs:
             - the-built-repo-
       - run:
           name: Htmlproofer
-          command: htmlproofer --disable-external --allow-hash-href --checks-to-ignore ImageCheck _site
-
-  html-proofer-extended:
-    working_directory: /app
-    docker:
-      - image: 18fgsa/html-proofer
-    steps:
-      - restore_cache:
-          keys:
-            - the-built-repo-
-      - run:
-          name: Htmlproofer
           command: htmlproofer --allow-hash-href  --enforce-https  --check-favicon --check-opengraph --report-missing-names --report-invalid-tags  -- _site
 
   deliver:
@@ -155,15 +143,6 @@ workflows:
             branches:
               only: /.*/
       - html-proofer: # Verify that the thing to deploy is good
-          requires:
-            - prep-repo
-            - jekyll-build
-          filters:
-            tags:
-              only: /.*/
-            branches:
-              only: /.*/
-      - html-proofer-extended: # Run more tests in parallel
           requires:
             - prep-repo
             - jekyll-build
