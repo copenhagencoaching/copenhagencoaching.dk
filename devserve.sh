@@ -7,4 +7,4 @@ docker run \
   -v /$(pwd)://app:rw \
   --workdir //app  \
   --publish 80:4000 \
-  lakruzz/jekyll-plus jekyll serve --config _config.yml,_stage_config.yml,_dev_config.yml --watch
+  lakruzz/jekyll-plus jekyll serve --config _config.yml,_dev_config.yml --watch
