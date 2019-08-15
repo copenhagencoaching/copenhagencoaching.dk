@@ -1,6 +1,6 @@
 ---
 published: true
-category: master-i-business-coaching
+category: [master-i-business-coaching, lederskab, personlig-udvikling-og-transition]
 title: Master i Business Coaching
 image: /images/coaching/ledelsessparring.jpg
 price: 45.900,- EKSKL. MOMS (heri er inkluderet fuld forplejning, materialer og rejse)

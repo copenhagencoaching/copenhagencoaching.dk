@@ -1,6 +1,5 @@
 ---
 published: true
-author: Metodik
 title: Metodik
 image: /images/fundament/f1.jpg
 ---
