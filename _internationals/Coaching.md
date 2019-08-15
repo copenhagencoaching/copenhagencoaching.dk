@@ -2,7 +2,6 @@
 published: true
 title: Coaching
 image: /images/international/i3.jpg
-description: Lorem ipsum dolor sin et serum anuro sutur lipin forma ut
 order: 3
 ---
 

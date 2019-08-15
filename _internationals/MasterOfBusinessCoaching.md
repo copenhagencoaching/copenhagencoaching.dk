@@ -2,7 +2,6 @@
 published: true
 title: Master of Business Coaching
 image: /images/international/i1.jpg
-description: Lorem ipsum dolor sin et serum anuro sutur lipin forma ut
 order: 1
 ---
 

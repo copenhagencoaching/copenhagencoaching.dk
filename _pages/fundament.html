@@ -8,23 +8,27 @@ show: false
 
 <div class="expandable">
     <div class="row">
+       
 
-        {% for fundament in site.fundament %}
-        <div class="anchor" id="{{ fundament.title | remove:' ' }}"></div>
+            {% assign orderedfuns = site.fundament | sort: "order" %}
+        {% for fundament in orderedfuns %}
+
         <section class="col-12 expandable-pane">
+            <div class="anchor" id="{{ fundament.title | remove:' ' }}"></div>
+            <div class="row">
 
-            <div class="col-lg-5 col-sm-12 expandable-pane-image"
-                style="background-image: url('{{ fundament.image }}')"></div>
-            <div class="col-lg-7 col-sm-12 expandable-pane-text">
-                <h1>{{ fundament.title }}</h1>
-                <div class="content hideContent">
-                    {{ fundament.content }}
+                <div class="col-lg-5 col-12 expandable-pane-image"
+                    style="background-image: url('{{ fundament.image }}')"></div>
+                <div class="col-lg-7 col-12 expandable-pane-text">
+                    <h1>{{ fundament.title }}</h1>
+                    <div class="content">
+                        {{ fundament.content }}
+                    </div>
                 </div>
-                <button href="#{{ fundament.title | remove:' ' }}" class="show-more">Vis mere</button>
             </div>
+
         </section>
         {% endfor %}
-
     </div>
 </div>
 

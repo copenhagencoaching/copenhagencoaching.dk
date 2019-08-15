@@ -255,7 +255,7 @@ prose:
       - name: "description"
         field:
           element: "text"
-          label: "Beskrivelse"
+          label: "Stilling"
       - name: "linkedin"
         field:
           element: "text"
@@ -294,6 +294,20 @@ prose:
           element: "text"
           label: "Billed"
     _internationals:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Titel"
+      - name: "order"
+        field:
+          element: "number"
+          type: "number"
+          label: "Rækkefølge"
+      - name: "image"
+        field:
+          element: "text"
+          label: "Billed"
+    _fundament:
       - name: "title"
         field:
           element: "text"

@@ -2,7 +2,6 @@
 published: true
 title: Consulting
 image: /images/international/i2.jpg
-description:
 order: 2
 ---
 
