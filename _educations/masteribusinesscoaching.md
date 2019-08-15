@@ -15,7 +15,6 @@ Med en Master i Business Coaching får du en af landets bedste coachinguddannels
 
 Uddannelsen er akkrediteret igennem EMCC. 
 
-<!-- [Læs mere om EMCC akkreditering her.](#) -->
 
 # Hvordan er uddannelsen bygget op?
 
