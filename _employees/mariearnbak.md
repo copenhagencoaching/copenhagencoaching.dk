@@ -5,7 +5,7 @@ portrait-image: /images/about/marie.jpg
 call: 26 18 03 00
 email: ma@copenhagencoaching.dk
 order: 9
-description: Office manager
+description: Konsulent
 linkedin: https://www.linkedin.com/in/marie-arnbak-hartzberg-44a7171/
 ---
 
