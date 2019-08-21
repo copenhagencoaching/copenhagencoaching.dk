@@ -3,18 +3,28 @@ published: true
 title: Certificering i Protreptik
 category: [filosofi, lederskab, certificeringer]
 image: /images/academy/b3.png
-price: 'pris'
-dates:
-  - xxxx
-  - xxyy
+price: 70.000,- EKSKL. MOMS
+dates: Forløbet aftales individuelt
 ---
 
-Lorem ipsum dolor sit amet,consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Libero enim sed faucibus turpis in eu mi. Ac auctor augue mauris augue neque gravida in fermentum et. Lobortis elementum nibh tellus molestie nunc non. Quisque egestas diam in arcu cursus euismod quis viverra nibh. Habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim. Suspendisse ultrices gravida dictum fusce ut placerat orci nulla. Etiam erat velit scelerisque in dictum. Amet massa vitae tortor condimentum lacinia quis vel eros. Vestibulum lectus mauris ultrices eros in cursus. In fermentum posuere urna nec tincidunt praesent. Pellentesque sit amet porttitor eget dolor morbi non arcu. Consectetur libero id faucibus nisl tincidunt eget nullam.
+# Hvorfor skal du vælge Certificering i Protreptik?
+
+Dette forløb er din chance og mulighed for at komme helt i dybden med denne filosofiske samtalekunst og ikke mindst dig selv og de værdier du står for i din ledelse, dit arbejdsliv og tilværelse generelt. 
 
 # Hvordan er uddannelsen bygget op?
 
-Ridiculus mus mauris vitae ultricies. Ultricies lacus sed turpis tincidunt. Tempus iaculis urna id volutpat lacus. Ac ut consequat semper viverra nam libero justo. Vestibulum lectus mauris ultrices eros in cursus turpis massa. Laoreet suspendisse interdum consectetur libero id faucibus. Morbi tristique senectus et netus. Ac orci phasellus egestas tellus rutrum tellus pellentesque. Viverra nam libero justo laoreet sit amet. Eu facilisis sed odio morbi quis.
+Det er vores erfaring at det fungerer bedst sådan, at vi sammen skræddersyer forløbet efter de behov, du måtte have – og at vi på den baggrund planlægger doseringen af indhold – både hvad angår den teoretiske side af protreptikken (dvs. læsning af de relevante bøger – som er en del af prisen) og den praktiske træning i protreptikken.  
+
+Du vil bl.a. som en del af forløbet kunne komme med på et 2-dages seminar i protreptik, en uge til Lesbos samt den årlige masterclass i protreptik – men du kan også vælge at gå vejen helt selv og invitere nogle CCC-konsulenter med i din daglige praksis med henblik på at få feedback på din protreptik med din medarbejdergruppe e. lign. – og kombinationer herimellem er også en mulighed. 
+
+Certificeringsforløbet afsluttes med en praktisk eksamen i protreptik med efterfølgende refleksioner ud i nogle af de bærende grundprincipper og generelle samtalegreb indenfor protreptikken. 
 
 # Hvad får du ud af uddannelsen?
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Libero enim sed faucibus turpis in eu mi. Ac auctor augue mauris augue neque gravida in fermentum et. Lobortis elementum nibh tellus molestie nunc non. Quisque egestas diam in arcu cursus euismod quis viverra nibh. Habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim. Suspendisse ultrices gravida dictum fusce ut placerat orci nulla. Etiam erat velit scelerisque in dictum. Amet massa vitae tortor condimentum lacinia quis vel eros. Vestibulum lectus mauris ultrices eros in cursus. In fermentum posuere urna nec tincidunt praesent. Pellentesque sit amet porttitor eget dolor morbi non arcu. Consectetur libero id faucibus nisl tincidunt eget nullam.
+- Henover 5-6 måneder (efter nærmere aftale) 
+
+- Fx en række individuelle sessioner med konsulenter fra Copenhagen Coaching Center 
+
+- Du protrepterer og modtager protreptik 
+
+- Du bliver oplært i den protreptiske teori i form af principper, greb og centrale begreber i forbindelse med den dertilhørende litteratur – samt det at skulle gå til praktisk eksamen 

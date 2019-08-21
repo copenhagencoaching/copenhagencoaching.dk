@@ -3,18 +3,38 @@ published: true
 title: Certificeringer i Big Five
 category: [certificeringer, proces-og-strategi]
 image: /images/academy/b2.png
-price: xxx pris
-dates: [xxxx, xxyy]
+price: 19.500,- EKSKL. MOMS / 3 KURSUSDAGE 
+dates: [28. August 2019, 4. September 2019, 11. September 2019, 18. November 2019, 25. November 2019, 4. December 2019]
 ---
 
 # Hvorfor skal du vælge Certificering i Big Five?
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Libero enim sed faucibus turpis in eu mi. Ac auctor augue mauris augue neque gravida in fermentum et. Lobortis elementum nibh tellus molestie nunc non. Quisque egestas diam in arcu cursus euismod quis viverra nibh. Habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim. Suspendisse ultrices gravida dictum fusce ut placerat orci nulla. Etiam erat velit scelerisque in dictum. Amet massa vitae tortor condimentum lacinia quis vel eros. Vestibulum lectus mauris ultrices eros in cursus. In fermentum posuere urna nec tincidunt praesent. Pellentesque sit amet porttitor eget dolor morbi non arcu. Consectetur libero id faucibus nisl tincidunt eget nullam.
+Bliv klædt på til at bruge markedets bedst underbyggede personlighedstest i rekruttering og ledelses- og medarbejderudviklingssammenhæng.
 
 # Hvordan er uddannelsen bygget op?
 
-Ridiculus mus mauris vitae ultricies. Ultricies lacus sed turpis tincidunt. Tempus iaculis urna id volutpat lacus. Ac ut consequat semper viverra nam libero justo. Vestibulum lectus mauris ultrices eros in cursus turpis massa. Laoreet suspendisse interdum consectetur libero id faucibus. Morbi tristique senectus et netus. Ac orci phasellus egestas tellus rutrum tellus pellentesque. Viverra nam libero justo laoreet sit amet. Eu facilisis sed odio morbi quis.
+Big Five testen måler de 5 basale personlighedstræk (Big Five), nemlig behov for stabilitet, udadvendthed, åbenhed, imødekommenhed og samvittighedsfuldhed, suppleret med 24 underliggende facetter af de 5 hovedtræk. 
+
+- Neuroticism (N): Behov for stabilitet 
+
+- Extraversion (E): Udadvendthed 
+
+- Openness (O): Åbenhed 
+
+- Agreeableness (A): Imødekommenhed 
+
+- Conscientiousness (C): Samvittighedsfuldhed 
+
+Testen giver et overblik over, hvor en person befinder sig i forhold til et empirisk gennemsnit af personligheder, ledsaget af en kort beskrivelse. Teorien om The Big Five personality er det stærkest underbyggede bud på en klassificering af menneskers personlighedstræk. På certificeringskurset vil du blive klædt på til at skabe en givende og etisk dialog omkring testen. Du vil på kurset også blive certificeret i en kognitiv færdighedstest og i erhvervsrettet testning. Viden om en persons kognitive kapacitet gør det muligt at få et indblik i, i hvilket omfang og tempo det enkelte individ er i stand til at løse problemstillinger og optage ny information. 
 
 # Hvad får du ud af uddannelsen?
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Libero enim sed faucibus turpis in eu mi. Ac auctor augue mauris augue neque gravida in fermentum et. Lobortis elementum nibh tellus molestie nunc non. Quisque egestas diam in arcu cursus euismod quis viverra nibh. Habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim. Suspendisse ultrices gravida dictum fusce ut placerat orci nulla. Etiam erat velit scelerisque in dictum. Amet massa vitae tortor condimentum lacinia quis vel eros. Vestibulum lectus mauris ultrices eros in cursus. In fermentum posuere urna nec tincidunt praesent. Pellentesque sit amet porttitor eget dolor morbi non arcu. Consectetur libero id faucibus nisl tincidunt eget nullam.
+På CCCs 3 dages kursus i Big Five test certificering får du: 
+
+Certificering i erhvervsrettet testning 
+
+Certificering i Big Five træktest og kognitiv færdighedstest 
+
+Kompetencer i at skabe en givende og etisk dialog omkring testresultater 
+
+Test certificering udbydes i samarbejde med HUCAMA.

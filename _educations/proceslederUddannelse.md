@@ -3,8 +3,15 @@ published: true
 category: proces-og-strategi
 title: Proceslederuddannelse
 image: /images/coaching/ledelsessparring.jpg
-price: 29.500,- ekskl. moms (heri er inkluderet fuld forplejning, materialer og rejse)
-dates: [Øst (København) 3. Oktober - 9. Oktober 2019]
+price: 38.700,- EKSKL. MOMS (heri er inkluderet fuld forplejning, materialer) 
+dates: 29. AUGUST 2019 og 9. MARTS 2020 
+
+# Datoer som skal ligge i en eventuel "folde ud knap"
+
+# 2019 25.- 26. september, 3. - 4. oktober, 20. - 21. november, 11. -12. december og 23. januar 2020. 
+
+# 2020 9. og 10. marts, 20. - 22. april, 13. - 15. maj og 19. juni 
+
 ---
 
 # Hvorfor skal du vælge Proceslederuddannelsen?

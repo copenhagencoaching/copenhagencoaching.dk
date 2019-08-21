@@ -36,10 +36,10 @@
 
   .blog-list-container {
     margin: 30px auto 50px 0 !important;
-    padding:0;
+    padding: 0;
   }
 
-  
+
 
   .blog-tags-list {
     justify-content: center;
@@ -80,8 +80,8 @@
   }
 
   .hidden {
-    display: none!important;
-    visibility: hidden!important;
+    display: none !important;
+    visibility: hidden !important;
   }
 
   #row_all {
@@ -100,11 +100,7 @@
     padding: 20px;
     height: 350px;
     position: relative;
-
     background-position: 0 40%;
-
-    
-
   }
 
   .story::before {
@@ -137,30 +133,30 @@
       display: flex;
       align-items: center;
       justify-content: center;
-
     }
   }
 
   p {
-    padding:0;
+    padding: 0;
     font-weight: 600;
     font-size: 18px;
     margin-bottom: 50px;
-    }
+  }
 
   .large-article-text {
     position: relative;
+
     h1 {
       font-weight: 600;
       font-size: 22px;
-      
+
     }
 
     h2,
     p {
       font-size: 18px;
       font-weight: 400;
-      
+
     }
 
     p {
@@ -171,17 +167,18 @@
 
   .small-article-text {
     position: relative;
+
     h1 {
       font-weight: 600;
       font-size: 22px;
-      
+
     }
 
     h2,
     p {
       font-size: 15px;
       font-weight: 400;
-      
+
     }
 
     p {
@@ -244,7 +241,7 @@
   padding: 0 0 15px;
 
   .fab {
-    color:$grey;
+    color: $grey;
     padding-right: 10px;
     font-size: 15px;
   }
@@ -254,9 +251,8 @@
   }
 }
 
-
-
 // Medium devices (landscape tablets, 768px and down)
+
 @media (max-width: 768px) {
   .stories {
     padding-bottom: 50px;
@@ -287,7 +283,7 @@
     }
 
     .tag-section {
-      
+
       width: 90%;
 
       p {
@@ -315,24 +311,21 @@
     .story {
       height: 350px;
     }
-  
 
-  h1,
-  h2,
-  p {
-    font-size: 15px !important;
+
+    h1,
+    h2,
+    p {
+      font-size: 15px !important;
+    }
+
+    p {
+      padding: 10px 0;
+      width: 100% !important;
+    }
+
   }
-
-  p {
-    padding: 10px 0;
-    width: 100% !important;
-  }
-
 }
-}
-
-
-
 
 @media (max-width: 1290px) {
 
