@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 category: certificeringer
 title: Coach-certificering (EMCC)
 image: /images/academy/b4.png
