@@ -6,7 +6,7 @@ title: Personlig coaching
 image: /images/coaching/c3.jpg
 ---
 
-## Når den personlige udfordring forsinker handlekraften
+## Når personlige udfordringer forsinker handlekraften
 
 Gennem et coachingforløb på Copenhagen Coaching Center bliver du støttet og udfordret i forhold til de temaer og udfordringer du rejser. Endvidere styrkes dine evner til at anskue og analysere de situationer, der påvirker dit daglige virke. Du kan således både få værktøjer til konkret at arbejde med dine problemstillinger samt styrke din håndteringsevne og imødekommenhed overfor de udfordringer du måtte møde. 
 

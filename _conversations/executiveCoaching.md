@@ -6,7 +6,7 @@ title: Executive coaching
 image: /images/coaching/c1.jpg
 ---
 
-**Når invistering i topledelsen ses direkte på bundlinien**
+**Når investering i topledelsen ses direkte på bundlinien**
 
 I et executive coachingforløb får du som topleder øget din beslutningskraft til at gennemføre forandringer, skærpe retning og sikre følgeskab i din organisation. Der vil ofte være både et strategisk spor og et personligt spor. Executive coaching skaber organisatorisk og forretningsmæssig værdi og sikrer en tydelig forbindelse til den ledelsesmæssige kerneopgave.  
 
