@@ -5,6 +5,7 @@ title: Master of Business Coaching
 image: /images/coaching/ledelsessparring.jpg
 price: 45.900,- EKSKL. MOMS (heri er inkluderet fuld forplejning, materialer og rejse)
 dates: [Øst (KØBENHAVN) 12. AUGUST 2019 og 24. FEBRUAR 2020, Vest (FREDERICIA) 9. OKTOBER 2019]
+pdf: /pdfs/master-of-business-coaching.pdf
 ---
 
 # Hvorfor skal du vælge Masterclass of Business Coaching?

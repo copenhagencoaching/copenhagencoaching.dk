@@ -5,6 +5,7 @@ title: Executive Transition
 image: /images/coaching/ledelsessparring.jpg
 price: xxx pris
 dates: [xxxx, xxyy]
+pdf:
 ---
 
 # Hvorfor skal du vælge Executive Transition?

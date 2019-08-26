@@ -5,6 +5,7 @@ title: Frustration skal ledes
 image: /images/coaching/ledelsessparring.jpg
 price: 38.700,- ekskl. moms (heri er inkluderet fuld forplejning, materialer)
 dates: [September 2019]
+pdf: /pdfs/fustration-skal-ledes.pdf
 ---
 
 # Hvorfor skal du vælge Frustration skal ledes?

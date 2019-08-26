@@ -5,8 +5,9 @@ category: [filosofi, lederskab, certificeringer]
 image: /images/academy/b3.png
 price: 70.000,- EKSKL. MOMS
 dates: Forløbet aftales individuelt
+pdf: /pdfs/Certificering-i-protreptik-efterår.pdf
 ---
-
+ 
 # Hvorfor skal du vælge Certificering i Protreptik?
 
 Dette forløb er din chance og mulighed for at komme helt i dybden med denne filosofiske samtalekunst og ikke mindst dig selv og de værdier du står for i din ledelse, dit arbejdsliv og tilværelse generelt. 

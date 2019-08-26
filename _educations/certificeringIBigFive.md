@@ -5,6 +5,7 @@ category: [certificeringer, proces-og-strategi]
 image: /images/academy/b2.png
 price: 19.500,- EKSKL. MOMS / 3 KURSUSDAGE 
 dates: [28. August 2019, 4. September 2019, 11. September 2019, 18. November 2019, 25. November 2019, 4. December 2019]
+pdf: /pdfs/certificering-i-big-five.pdf
 ---
 
 # Hvorfor skal du vælge Certificering i Big Five?

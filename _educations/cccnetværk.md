@@ -5,6 +5,7 @@ title: CCC Netværk
 image: /images/academy/b1.png
 price: 4.800,- ekskl. moms pr. år
 dates: [Datoer for efteråretsnetværksarrangement følger]
+pdf: no
 ---
 
 # Hvorfor skal du vælge Netværk?

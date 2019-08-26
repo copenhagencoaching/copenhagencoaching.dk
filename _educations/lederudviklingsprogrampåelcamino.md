@@ -5,6 +5,7 @@ title: Leder udviklingsprogram på El Camino
 image: /images/educations/ed-1.jpg
 price: xxx pris
 dates: [xxxx, xxyy]
+pdf: /pdfs/lederudvikling-på-caminoen.pdf
 ---
 
 # Hvorfor skal du vælge Lederudviklingsprogrammet på El Camino?

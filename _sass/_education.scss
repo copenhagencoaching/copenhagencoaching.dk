@@ -1,34 +1,4 @@
 
-@media print {
-    body * {
-      visibility: hidden;
-    }
-
-
-    #section-to-print, #section-to-print * {
-      visibility: visible;
-      a, button {
-          visibility: hidden;
-      }
-    }
-    #section-to-print {
-      position: absolute;
-      left: 0;
-      top: -600px;
-      
-    }
-
-    .education-title {
-        font-size: 35px;
-        padding-top: 0;
-    }
-
-    h1, h2, h3 {
-        font-size: 27px;
-        padding-top: 0;
-        color: $green;
-    }
-  }
   
 .education {
 
@@ -49,7 +19,7 @@
     }
 
     p {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     img {
@@ -87,6 +57,8 @@
         }
     }
 
+// Bruger vi dates classen mere??
+
     .dates {
         height: 50px;
         width: auto;
@@ -112,10 +84,20 @@
         opacity: .9;
     }
 
+    .pdf-download.muted {
+        border: 2px solid #c0c0c0 !important;
+        color: #c0c0c0 !important;
+        pointer-events: none;
+    }
+
+    .pdf-download.hidden {
+        display: none;
+    }
+
     .pdf-download {
-        height: 50px;
+        height: 100px;
         width: auto;
-        padding: 0 20px;
+        padding: 10.5px 20px;
         font-size: 18px;
         font-weight: 600;
         background: transparent;
