@@ -3,18 +3,40 @@ published: true
 title: Diplom i offentlig ledelse
 category: diplom-i-offentlig-ledelse
 image: /images/academy/b3.png
-price: xxx pris
-dates: [xxxx, xxyy]
+price: Kontakt os for at høre om vores priser
+dates: Datoer for Diplom i offentlig ledelse kommer snarest
 ---
 
 # Hvorfor skal du vælge Diplom i offentlig ledelse?
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Libero enim sed faucibus turpis in eu mi. Ac auctor augue mauris augue neque gravida in fermentum et. Lobortis elementum nibh tellus molestie nunc non. Quisque egestas diam in arcu cursus euismod quis viverra nibh. Habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim. Suspendisse ultrices gravida dictum fusce ut placerat orci nulla. Etiam erat velit scelerisque in dictum. Amet massa vitae tortor condimentum lacinia quis vel eros. Vestibulum lectus mauris ultrices eros in cursus. In fermentum posuere urna nec tincidunt praesent. Pellentesque sit amet porttitor eget dolor morbi non arcu. Consectetur libero id faucibus nisl tincidunt eget nullam.
+Er du leder, eller drømmer du om at bliver det? Trænger du til at få styrket dine lederkompetencer, og samtidig få de nyeste og brugbare værktøjer til medarbejdersamtaler og til håndtering af konfliktsituationer? Så tag uddannelsen Diplom i Offentlig Ledelse (DOL) hos os! 
+
+Uddannelsen kan enten tages på åbne hold eller som skræddersyet forløb og det er muligt at tilrettelægge undervisningen således at der tages hensyn til de ønsker og behov, du har. 
+
+DOL-uddannelsen er en fleksibel professionsbachelor, hvor hvert modul giver 10 eller 15 ECTS point. For at få en fuld diplomuddannelse skal du have tre standardmoduler og tre valgmoduler, svarende til 45 ECTS point, samt lave en afsluttende opgave (Specialemodulet), der svarer til 15 ECTS point – og derved opnås de 60 ECTS point, en fuld diplomuddannelse kræver. 
 
 # Hvordan er uddannelsen bygget op?
 
-Ridiculus mus mauris vitae ultricies. Ultricies lacus sed turpis tincidunt. Tempus iaculis urna id volutpat lacus. Ac ut consequat semper viverra nam libero justo. Vestibulum lectus mauris ultrices eros in cursus turpis massa. Laoreet suspendisse interdum consectetur libero id faucibus. Morbi tristique senectus et netus. Ac orci phasellus egestas tellus rutrum tellus pellentesque. Viverra nam libero justo laoreet sit amet. Eu facilisis sed odio morbi quis.
+Hos CCC kan du tage følgende DOL-moduler: 
+
+- Det Personlige Lederskab og Forandring (Standardmodul) 
+
+- Ledelse af Medarbejdere og Faglig Udvikling (Standardmodul) (kommer snart) 
+
+- Ledelse af Forandrings- og Udviklingsprocesser i Offentlige Institutioner (Valgmodul) (kommer snart) 
+
+- Coaching (valgmodul) 
+
+- Projektledelse (valgmodul) 
+
+- Ledelse og Filosofi (valgmodul) 
+
+- Specialemodul  
 
 # Hvad får du ud af uddannelsen?
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Libero enim sed faucibus turpis in eu mi. Ac auctor augue mauris augue neque gravida in fermentum et. Lobortis elementum nibh tellus molestie nunc non. Quisque egestas diam in arcu cursus euismod quis viverra nibh. Habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim. Suspendisse ultrices gravida dictum fusce ut placerat orci nulla. Etiam erat velit scelerisque in dictum. Amet massa vitae tortor condimentum lacinia quis vel eros. Vestibulum lectus mauris ultrices eros in cursus. In fermentum posuere urna nec tincidunt praesent. Pellentesque sit amet porttitor eget dolor morbi non arcu. Consectetur libero id faucibus nisl tincidunt eget nullam.
+De forskellige DOLmoduler har forskellige form og varighed – kontakt os og få mere information her (link) 
+
+Ønsker du at tage en fuld diplom?
+
+CCC samarbejder med Københavns Professionshøjskole, og via dette samarbejde kan du kombinere dine fag, så du opnår en fuld diplom. Du kan se hvilke fag de har her (link) 
