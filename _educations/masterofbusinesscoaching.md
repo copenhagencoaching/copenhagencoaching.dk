@@ -1,17 +1,17 @@
 ---
 published: true
-category: [master-i-business-coaching, lederskab, personlig-udvikling-og-transition]
-title: Master i Business Coaching
+category: [master-of-business-coaching, lederskab, personlig-udvikling-og-transition]
+title: Master of Business Coaching
 image: /images/coaching/ledelsessparring.jpg
 price: 45.900,- EKSKL. MOMS (heri er inkluderet fuld forplejning, materialer og rejse)
 dates: [Øst (KØBENHAVN) 12. AUGUST 2019 og 24. FEBRUAR 2020, Vest (FREDERICIA) 9. OKTOBER 2019]
 ---
 
-# Hvorfor skal du vælge Masterclass i Business Coaching?
+# Hvorfor skal du vælge Masterclass of Business Coaching?
 
-Ønsker du at blive dygtig til at føre produktive og virkningsfulde dialoger? At kunne flytte både grupper og individer i en mere konstruktiv retning og derved forebygge stress, organisatorisk stagnation og udbrændthed? Så vælg uddannelsen: Master i Business Coaching (MBC). 
+Ønsker du at blive dygtig til at føre produktive og virkningsfulde dialoger? At kunne flytte både grupper og individer i en mere konstruktiv retning og derved forebygge stress, organisatorisk stagnation og udbrændthed? Så vælg uddannelsen: Master of Business Coaching (MBC). 
 
-Med en Master i Business Coaching får du en af landets bedste coachinguddannelser, hvor du både kan foretage traditionelle coachingsamtaler og den filosofiske samtale. 
+Med en Master of Business Coaching får du en af landets bedste coachinguddannelser, hvor du både kan foretage traditionelle coachingsamtaler og den filosofiske samtale. 
 
 Uddannelsen er akkrediteret igennem EMCC. 
 
