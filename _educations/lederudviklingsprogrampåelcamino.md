@@ -1,21 +1,32 @@
 ---
 published: true
-category: [lederskab, personlig-udvikling-og-transition]
+category: lederskab
 title: Leder udviklingsprogram på El Camino
 image: /images/educations/ed-1.jpg
-price: xxx pris
-dates: [xxxx, xxyy]
+price: '29.500 EKSL. MOMS (heri er inkluderet fuld forplejning, materialer og rejse) '
 pdf: /pdfs/lederudvikling-på-caminoen.pdf
+dates:
+  - 3. Oktober - 9. Oktober 2019
 ---
 
 # Hvorfor skal du vælge Lederudviklingsprogrammet på El Camino?
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Libero enim sed faucibus turpis in eu mi. Ac auctor augue mauris augue neque gravida in fermentum et. Lobortis elementum nibh tellus molestie nunc non. Quisque egestas diam in arcu cursus euismod quis viverra nibh. Habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim. Suspendisse ultrices gravida dictum fusce ut placerat orci nulla. Etiam erat velit scelerisque in dictum. Amet massa vitae tortor condimentum lacinia quis vel eros. Vestibulum lectus mauris ultrices eros in cursus. In fermentum posuere urna nec tincidunt praesent. Pellentesque sit amet porttitor eget dolor morbi non arcu. Consectetur libero id faucibus nisl tincidunt eget nullam.
+Vil du være med til at skabe varig forandring i dit liv? Så tag med på en Caminovandring, hvor vi understøtter din udviklingsproces både på det personlige plan såvel som i forhold til dit lederskab. Det bliver en enestående oplevelse, der ikke kommer til at forlade dig igen. Vi har tilrettelagt et udviklingsforløb, som sikrer at du opnår nye erkendelser omkring dit liv og lederskab. Vi vil skabe en visionær bevidsthedstilstand hos hver enkelt. 
 
-# Hvordan er uddannelsen bygget op?
+Igennem vandringen vil vi arbejde med at styrke din selvindsigt, øge din dialogisk kapacitet, samt stimulere til en højere grad af bevidsthed. Vi er overbeviste om at når vi bevæger os, så bevæger bevidstheden sig tillige. Når vi vandrer stimulerer vi en rytmisk balance mellem tankernes tilblivelse og en dybereliggende ro. Det giver klarhed. 
 
-Ridiculus mus mauris vitae ultricies. Ultricies lacus sed turpis tincidunt. Tempus iaculis urna id volutpat lacus. Ac ut consequat semper viverra nam libero justo. Vestibulum lectus mauris ultrices eros in cursus turpis massa. Laoreet suspendisse interdum consectetur libero id faucibus. Morbi tristique senectus et netus. Ac orci phasellus egestas tellus rutrum tellus pellentesque. Viverra nam libero justo laoreet sit amet. Eu facilisis sed odio morbi quis.
+Der er ingen akademiske forudsætninger for at deltage i udviklingsprogrammet. De mest oplagte deltagere er dog enten, hvis du ønsker at bevidstgøre dig dit lederskab eller hvis du ønsker at videreudvikle dette. Vi vil dog under alle omstændigheder anbefale dig at være i rimelig god form, så du kan klare 15-20 km. vandring om dagen med din egen bagage på skuldrene. 
 
-# Hvad får du ud af uddannelsen?
+Vandringen på El Caino varer i 6 fulde dage.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Libero enim sed faucibus turpis in eu mi. Ac auctor augue mauris augue neque gravida in fermentum et. Lobortis elementum nibh tellus molestie nunc non. Quisque egestas diam in arcu cursus euismod quis viverra nibh. Habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim. Suspendisse ultrices gravida dictum fusce ut placerat orci nulla. Etiam erat velit scelerisque in dictum. Amet massa vitae tortor condimentum lacinia quis vel eros. Vestibulum lectus mauris ultrices eros in cursus. In fermentum posuere urna nec tincidunt praesent. Pellentesque sit amet porttitor eget dolor morbi non arcu. Consectetur libero id faucibus nisl tincidunt eget nullam.
+Som deltager får du: 
+
+- Adgang til vidensportal værktøjer, faglitteratur, artikler og cases 
+
+- En personlig udviklingsproces som vil være varig herunder før-, under- og efteraktiviteter 
+
+- Vandring i seks dage i de smukkeste omgivelser i Nordspanien 
+
+- BIG Five personlighedstest med individuel tilbagemelding 
+
+- Flyrejse, kost og logi alle dage
