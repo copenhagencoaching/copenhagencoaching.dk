@@ -1,7 +1,7 @@
-.sign-up-banner {
+.contact-banner {
     height: 400px;
     width: 100%;
-    background-image: url(/images/graphic/sign-up-background.jpg);
+    background-color: #111111;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -9,11 +9,20 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-align: center;
 
     p {
         font-size: 20px;
         color: white;
         font-weight: 600;
+    }
+    
+    h2 {
+        color: white;
+        max-width: 600px;
+        font-weight: 500;
+        font-size: 25px;
+        margin-bottom: 50px;
     }
 
     span {
@@ -21,12 +30,13 @@
     }
 
     button {
-        height: 50px;
-        width: 200px;
-        background: #FFF;
-        border: none;
-        color: $green;
-        font-weight: 600;
+        height: 40px;
+        width: 120px;
+        background: transparent;
+        border: white solid 2px;
+        color: white;
+        font-weight: 400;
+        text-transform: uppercase;
     }
 }
 
@@ -34,8 +44,9 @@
 
 @media (max-width: 768px) {
 
-    .sign-up-banner {
-        height: 375px;
+    .contact-banner {
+        height: 300px;
+        padding: 0 45px;
 
         p {
             font-size: 20px;
@@ -47,6 +58,11 @@
         span {
             height: 35px;
         }
+
+        h2 {
+            font-size: 15px;
+        }
+
     }
 
 }
