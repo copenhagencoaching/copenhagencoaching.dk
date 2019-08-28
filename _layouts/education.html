@@ -4,48 +4,37 @@ layout: page
 
 <div class="education">
     <div class="row">
-        <div class="col-12 education-content">
-
-            <h1>Pris</h1>
-            <p>{{ page.price }}</p>
-            <h1>Kommende uddannelsstart</h1>
-
-            
-             {% for date in page.dates %}
-
-             <p>{{ date }}</p>
-
-             {% endfor %}
-
-             
-             {% if page.udates %}
-
-             <h1>Undervisningsdatoer</h1>
-
-             {% for udate in page.udates %}
-
-             <p>{{ udate }}</p>
-
-             {% endfor %}
-
-             {% endif %}
-
-             <!-- <a href="#"><button class="dates">Se alle undervisningsdatoer 2019/2020</button></a> -->
-
-             <hr>
+        <div class="col-12 col-md-8 col-lg-8 education-content">
             {{ page.content }}
 
             {% capture reg-url %}?n={{ page.title | uri_escape }}{% endcapture %}
-       
-            <hr>
-            <span class="education-bottom">
-                Har du brug for at høre mere, eller vil du i kontakt med den ansvarlige for {{ page.title }}?
+
+        </div>
+        <div class="col-12 col-md-4 col-lg-4 facta-column">
+            <div class="facta-box">
+                <b><p> {{ page.title }} </p></b>
+                <b><p>Pris:</p></b>
+                <p> {{ page.price }} </p>
+                <b><p>Start datoer:</p></b>
+                {% for date in page.dates %}
+                <p> {{ date }}</p>
+                {% endfor %}
+                {% if page.udates %}
+                <b><p>Undervisningsdatoer:</p></b>
+                    {% for udate in page.udates %}
+                    <p>{{ udate }}</p>
+                    {% endfor %}
+                    {% endif %}
+                <b><p>Har du lyst til at høre mere?</p></b>
+                <span>
+                    <a href="/employees/frederikkewinther" data-proofer-ignore>Frederikke Winther</a>
+                    <a href="tel:21194757" data-proofer-ignore>21 19 47 57</a>
+                    <a href="mailto:fw@copenhagencoaching.dk" data-proofer-ignore>fw@copenhagencoaching.dk</a>
+                </span>
                 <br>
-                Kontakt os på <a href="#" data-toggle="modal"
-                    data-target="#contact-modal">info@copenhagencoaching.dk</a>
-                <br>
-                
-                <a href="/registration/{{ reg-url }}"><button class="sign-up-button">Tilmeld dig her</button></a>
+                <b><p>Vigtige links</p></b>
+                <a href="/registration/{{ reg-url }}">Tilmeld dig her</a>
+
                 {% unless page.pdf %}
 
                 {% capture pdfvar %}
@@ -90,12 +79,9 @@ layout: page
                 {% endcapture %}
 
                 {% endif %}
-                
 
-                <a target="_blank" alt="{{ pdfmes | strip_newlines | strip }}" href="{{ pdfurl | strip_newlines | strip }}" class="pdf-download {{ pdfvar | strip_newlines | strip }}">Download PDF</a>
-                
-                <a class="read-more" href="/academy/">← Se flere uddannelser</a>
-            </span>
+                <a target="_blank" alt="{{ pdfmes | strip_newlines | strip }}" href="{{ pdfurl | strip_newlines | strip }}" class="{{ pdfvar | strip_newlines | strip }}">Download PDF</a>
+            </div>
         </div>
     </div>
 </div>

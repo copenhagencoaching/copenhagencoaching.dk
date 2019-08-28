@@ -1,12 +1,41 @@
-
-  
 .education {
+
+    padding: 0;
 
     .row {
         width: 1230px;
     }
 
-    padding: 0;
+    .education-content {
+        padding-left: 0;
+        padding-right: 50px !important;
+    }
+
+    .facta-column {
+        height: auto;
+        padding: 0;
+
+        a {
+            display: block;
+        }
+
+        .facta-box {
+            background: #000000;
+            color: #ffffff;
+            padding: 25px;
+            z-index: 100;
+
+            span {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+            }
+
+            p {
+                font-size: 16px;
+            }
+        }
+    }
 
     .education-title {
         display: none;
@@ -47,17 +76,7 @@
         font-size: inherit;
     }
 
-    .education-bottom {
-        display: block;
-        width: 100%;
-
-        .read-more {
-            padding-bottom: 0;
-            width: 100%;
-        }
-    }
-
-// Bruger vi dates classen mere??
+    // Bruger vi dates classen mere??
 
     .dates {
         height: 50px;
@@ -125,7 +144,7 @@
         width: 100%;
 
         .col-12 {
-            padding: 75px 0;
+            padding: 40px 0;
         }
 
         img {
@@ -141,7 +160,12 @@
             margin: 0;
             margin-top: 20px;
         }
+
+        .education-content {
+            padding-right: 0px !important;
+        }
     }
+
 
 }
 
