@@ -3,41 +3,30 @@ published: true
 category: ccc-netveark
 title: CCC Netværk
 image: /images/academy/b1.png
-price: 4.800,- ekskl. moms pr. år
-dates: [Datoer for efteråretsnetværksarrangement følger]
-pdf: no
+price: '4.800,- ekskl. moms pr. år'
+dates:
+  - Datoer for efteråretsnetværksarrangement følger
+pdf: 'no'
 ---
+# Et fællesskab for vedvarende læring og udvikling af dit lederskab
 
-# Hvorfor skal du vælge Netværk?
+Rigtig mange af vores tidligere og nuværende studerende og kunder har efterspurgt flere tilbud om netværk, efteruddannelse, faglig inspiration og supervision.
 
-Kunne du godt bruge noget sparring og inspiration i din daglige ledelse. Mangler du et frirum, hvor du har lov at sænke paraderne og kan møde ligesindede. Så meld dig til vores CCC-netværk. CCC-netværket er et nærværende og inspirerende medlemsbaseret netværk, der fokuserer på dialogisk kapacitet, selvindsigt og refleksivitet.  
+Derfor slår vi nu dørene op for CCC Community. Med dette fællesskab er det vores ønske at skabe et netværk, der kan styrke vitaliteten i lederskabet. Målet med CCC Community er at stimulere faglig udvikling og nysgerrighed på egen og andres ledelsesmæssige praksis.
 
-# Hvordan er uddannelsen bygget op?
+Pris: 2.500 kr. årligt
 
-Hovedaktiviteterne i netværksdelen vil være tre filosofiske arrangementer årligt samt en sommerfest. Medlemmerne bliver inddelt i mindre grupper. Til hvert filosofisk arrangement vil vi arbejde med ét relevant tema.
+Hvad får du:
+-	Netværk, inspiration og supervision på 3 årlige træningsaftener
+-	2 faglige arrangementer årligt
+-	Gratis bøger og udgivelser relateret til CCC – gælder nye udgivelser
+-	3 årlige nyhedsbreve
+-	Særlige tilbud på events og eksklusive arrangementer
+-	20% rabat på CCC’s uddannelser
 
-# Første temaaften vil tage udgangspunkt i intuition: 
+## Faglige arrangementer i 2019/20
+25 november 2019:	Mød Karl Tomm:
+En inspirerende aften i selskab med den legendariske systemiske tænker og Psykiater Karl Tomm
 
-Intuition kan være vanskelig at indkredse, eftersom det per definition handler om den uudtalte sammenhængskraft mellem mennesker. Vi vil afdække og belyse emnet ud fra forskellige tilgange, øvelser, refleksioner, samtaler mm. Det vil handle om at blive klogere på vores bevidsthed og bevidsthedens kapacitet. 
-
-# Anden temaaften vil tage udgangspunkt i lyd: 
-
-Til dette arrangement vil vi fokusere på lyd og lydens udstrækning i rummet. Når vi bevidstgør os lyde og deres vibrationer skærper vi samtidig den sanselige side af tænkning. Tanker transporteres af lyde og jo tættere vi kommer på lyden, desto klarere tanker har vi muligheden for at tænke. 
-
-# Tredje temaaften vil tage udgangspunkt i kroppen: 
-
-Den menneskelige kapacitet udspringer fra kroppen. Vi bevæger os i en sanselig sammenhæng med kroppen. Den rummer og reflekterer uanede mængder af information, som spejler en viden om det menneskelige. Kroppen udtrykker samtidig en form for endelighed, der bevidstgør os livsmulighederne. 
-
-# Fjerde temaaften er stadig under udarbejdelse ... mere info følger… 
-
-# Hvad får du ud af uddannelsen?
-
-Udover 4 årlige netværksarragementer, vil netværket også give dig: 
-
-- Muligheden for at blive en del af et spændende netværk 
-
-- Tilsendelse af artikler og seneste bogudgivelser forfattet af medarbejdere fra Copenhagen Coaching Center 
-
-- Adgang til ny viden, nye koncepter og teorier som vil danne afsættet for de filosofiske arrangementer 
-
-- Dig rabat ved køb af andre CCC-ydelser 
+April 2020:	Styrk det psykiske arbejdsmiljø
+Vi sætter fokus på de ledelsesmæssige udfordringer og muligheder i forhold til at skabe et velfungerende arbejdsmiljø
