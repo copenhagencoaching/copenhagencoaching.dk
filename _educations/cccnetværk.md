@@ -1,11 +1,9 @@
 ---
 published: true
 category: ccc-netveark
-title: CCC Netværk
+title: CCC Community
 image: /images/academy/b1.png
-price: '4.800,- ekskl. moms pr. år'
-dates:
-  - Datoer for efteråretsnetværksarrangement følger
+price: '2.500,- ekskl. moms pr. år'
 pdf: 'no'
 ---
 # Et fællesskab for vedvarende læring og udvikling af dit lederskab
