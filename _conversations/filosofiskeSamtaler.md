@@ -4,6 +4,7 @@ id: 2
 order: 3
 title: Filosofiske samtaler
 image: /images/coaching/c2.jpg
+contact-person: 1
 ---
 
 ### Det reflekterede arbejdsliv og den organisatoriske tænksomhed.

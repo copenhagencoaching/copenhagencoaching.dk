@@ -6,6 +6,7 @@ image: /images/academy/b3.png
 price: 70.000,- EKSKL. MOMS
 dates: Forløbet aftales individuelt
 pdf: /pdfs/Certificering-i-protreptik-efterår.pdf
+contact-person: 6
 ---
  
 # Hvorfor skal du vælge Certificering i Protreptik?

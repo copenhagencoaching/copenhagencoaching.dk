@@ -4,6 +4,7 @@ id: 4
 order: 2
 title: Personlig coaching
 image: /images/coaching/c3.jpg
+contact-person: 1
 ---
 
 ## Når personlige udfordringer forsinker handlekraften

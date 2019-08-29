@@ -6,6 +6,7 @@ image: /images/coaching/ledelsessparring.jpg
 price: xxx pris
 dates: [xxxx, xxyy]
 pdf:
+contact-person: 1
 ---
 
 # Hvorfor skal du vælge Executive Transition?

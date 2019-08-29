@@ -12,28 +12,45 @@ layout: page
         </div>
         <div class="col-12 col-md-4 col-lg-4 facta-column">
             <div class="facta-box">
-                <b><p> {{ page.title }} </p></b>
-                <b><p>Pris:</p></b>
+                <b>
+                    <p>Pris:</p>
+                </b>
                 <p> {{ page.price }} </p>
-                <b><p>Start datoer:</p></b>
+                <b>
+                    <p>Start datoer:</p>
+                </b>
                 {% for date in page.dates %}
                 <p> {{ date }}</p>
                 {% endfor %}
                 {% if page.udates %}
-                <b><p>Undervisningsdatoer:</p></b>
-                    {% for udate in page.udates %}
-                    <p>{{ udate }}</p>
+                <b>
+                    <p>Undervisningsdatoer:</p>
+                </b>
+                {% for udate in page.udates %}
+                <p>{{ udate }}</p>
+                {% endfor %}
+                {% endif %}
+
+                <span>
+
+                    {% if page.contact-person %}
+                    <b>
+                        <p>Kontaktperson:</p>
+                    </b>
+                    {% for employee in site.employees %}
+                    {% if employee.data-id == page.contact-person %}
+
+
+
+                    <a href="{{ employee.url }}" data-proofer-ignore>{{ employee.title }}</a>
+                    <a href="tel:{{ employee.call }}" data-proofer-ignore>{{ employee.call }}</a>
+                    <a href="mailto:{{ employee.email }}" data-proofer-ignore>{{ employee.email }}</a>
+                    {% endif %}
                     {% endfor %}
                     {% endif %}
-                <b><p>Har du lyst til at høre mere?</p></b>
-                <span>
-                    <a href="/employees/frederikkewinther" data-proofer-ignore>Frederikke Winther</a>
-                    <a href="tel:21194757" data-proofer-ignore>21 19 47 57</a>
-                    <a href="mailto:fw@copenhagencoaching.dk" data-proofer-ignore>fw@copenhagencoaching.dk</a>
                 </span>
                 <br>
-                <b><p>Vigtige links</p></b>
-                <a href="/registration/{{ reg-url }}">Tilmeld dig her</a>
+                <a class="reg-link" href="/registration/{{ reg-url }}">Tilmeld dig her</a>
 
                 {% unless page.pdf %}
 
@@ -52,7 +69,7 @@ layout: page
                 {% endunless %}
 
 
-                {% if page.pdf == false %}
+                {% if page.pdf == 'false' %}
 
                 {% capture pdfvar %}
                 hidden
@@ -80,7 +97,9 @@ layout: page
 
                 {% endif %}
 
-                <a target="_blank" alt="{{ pdfmes | strip_newlines | strip }}" href="{{ pdfurl | strip_newlines | strip }}" class="{{ pdfvar | strip_newlines | strip }}">Download PDF</a>
+                <a data-proofer-ignore target="_blank" alt="{{ pdfmes | strip_newlines | strip }}"
+                    href="{{ pdfurl | strip_newlines | strip }}" class="pdf-link {{ pdfvar | strip_newlines | strip }}">Download
+                 PDF</a>
             </div>
         </div>
     </div>

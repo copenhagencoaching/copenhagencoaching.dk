@@ -27,6 +27,13 @@ description: Coachingsamtaler er en effektiv måde at finde nye veje at gå.
                     <h1>{{ conversation.title }}</h1>
                     <div class="content">
                         {{ conversation.content }}
+
+                        {% for employee in site.employees %}
+                        {% if employee.data-id == conversation.contact-person %}
+                        Kontaktperson:<br>
+                        {{ employee.title }}, <a data-proofer-ignore href="tel:+45{{ employee.call }}">+45 {{ employee.call }}</a>, <a href="mailto:{{ employee.email }}">{{ employee.email }}</a>
+                        {% endif %}
+                        {% endfor %}
                     </div>
                 </div>
             </div>

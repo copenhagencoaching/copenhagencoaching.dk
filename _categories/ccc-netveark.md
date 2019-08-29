@@ -1,6 +1,6 @@
 ---
-title: CCC Netværk
-name: ccc-netveark
+title: CCC Community
+name: ccc-community
 onepage: ja
 image: /images/academy/b1.png
 order: 8

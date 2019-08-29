@@ -78,55 +78,26 @@
 
     // Bruger vi dates classen mere??
 
-    .dates {
-        height: 50px;
-        width: auto;
-        padding: 0 20px;
-        font-size: 18px;
-        font-weight: 600;
-        background: $green;
-        border: none;
-        color: #ffffff;
-        opacity: .9;
-    }
+a.reg-link, a.pdf-link {
+    color: #ffffff;
+    font-weight: 500;
+}
 
-    .sign-up-button {
-        margin: 25px 0 0 0;
-        height: 50px;
-        width: auto;
-        padding: 0 20px;
-        font-size: 18px;
-        font-weight: 600;
-        background: $green;
-        border: none;
-        color: #ffffff;
-        opacity: .9;
-    }
+ a.reg-link {
+     margin-bottom: 10px;
+ }
 
-    .pdf-download.muted {
-        border: 2px solid #c0c0c0 !important;
-        color: #c0c0c0 !important;
+    .muted {
+        opacity: 0.5;
         pointer-events: none;
+        cursor: default;
     }
 
-    .pdf-download.hidden {
-        display: none;
+    .hidden {
+        display: none !important;
     }
 
-    .pdf-download {
-        height: 100px;
-        width: auto;
-        padding: 10.5px 20px;
-        font-size: 18px;
-        font-weight: 600;
-        background: transparent;
-        color: $black;
-        border: 2px solid $black;
-        margin-top: 0;
-        flex-wrap: wrap;
-        margin-left: 10px;
-        opacity: .9;
-    }
+    
 
     .dates:hover,
     .sign-up-button:hover,

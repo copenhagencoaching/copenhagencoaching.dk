@@ -235,6 +235,35 @@ prose:
         field:
           element: "text"
           label: "Billed"
+      - name: "pdf"
+        field:
+          element: "text"
+          label: "Pdf"
+          help: "Hvis der ikke er en pdf og ikke skal være nogen pdf knap skal der stå 'false'"
+      - name: "contact-person"
+        field:
+          element: "select"
+          label: "Vælg kontaktperson"
+          placeholder: "kontaktperson"
+          options:
+            - name: "Lars Nyborg"
+              value: "5"
+            - name: "Andreas Bering"
+              value: "9"
+            - name: "Anni Rosengren Korsbæk"
+              value: "8"
+            - name: "Frederikke Winther"
+              value: "7"
+            - name: "Kim Gørtz"
+              value: "6"
+            - name: "Marie Arnbak"
+              value: "4"
+            - name: "Mette Mejhede"
+              value: "3"
+            - name: "Morten Bertelsen"
+              value: "1"
+            - name: "Morten Paustian"
+              value: "2"
     _employees:
       - name: "title"
         field:
@@ -279,6 +308,30 @@ prose:
         field:
           element: "text"
           label: "Billed"
+      - name: "contact-person"
+        field:
+          element: "select"
+          label: "Vælg kontaktperson"
+          placeholder: "kontaktperson"
+          options:
+            - name: "Lars Nyborg"
+              value: "5"
+            - name: "Andreas Bering"
+              value: "9"
+            - name: "Anni Rosengren Korsbæk"
+              value: "8"
+            - name: "Frederikke Winther"
+              value: "7"
+            - name: "Kim Gørtz"
+              value: "6"
+            - name: "Marie Arnbak"
+              value: "4"
+            - name: "Mette Mejhede"
+              value: "3"
+            - name: "Morten Bertelsen"
+              value: "1"
+            - name: "Morten Paustian"
+              value: "2"
     _conversations:
       - name: "title"
         field:
@@ -293,6 +346,30 @@ prose:
         field:
           element: "text"
           label: "Billed"
+      - name: "contact-person"
+        field:
+          element: "select"
+          label: "Vælg kontaktperson"
+          placeholder: "kontaktperson"
+          options:
+            - name: "Lars Nyborg"
+              value: "5"
+            - name: "Andreas Bering"
+              value: "9"
+            - name: "Anni Rosengren Korsbæk"
+              value: "8"
+            - name: "Frederikke Winther"
+              value: "7"
+            - name: "Kim Gørtz"
+              value: "6"
+            - name: "Marie Arnbak"
+              value: "4"
+            - name: "Mette Mejhede"
+              value: "3"
+            - name: "Morten Bertelsen"
+              value: "1"
+            - name: "Morten Paustian"
+              value: "2"
     _internationals:
       - name: "title"
         field:
@@ -307,6 +384,30 @@ prose:
         field:
           element: "text"
           label: "Billed"
+      - name: "contact-person"
+        field:
+          element: "select"
+          label: "Vælg kontaktperson"
+          placeholder: "kontaktperson"
+          options:
+            - name: "Lars Nyborg"
+              value: "5"
+            - name: "Andreas Bering"
+              value: "9"
+            - name: "Anni Rosengren Korsbæk"
+              value: "8"
+            - name: "Frederikke Winther"
+              value: "7"
+            - name: "Kim Gørtz"
+              value: "6"
+            - name: "Marie Arnbak"
+              value: "4"
+            - name: "Mette Mejhede"
+              value: "3"
+            - name: "Morten Bertelsen"
+              value: "1"
+            - name: "Morten Paustian"
+              value: "2"
     _fundament:
       - name: "title"
         field:

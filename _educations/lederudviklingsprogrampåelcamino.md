@@ -4,6 +4,7 @@ category: lederskab
 title: Leder udviklingsprogram på El Camino
 image: /images/educations/ed-1.jpg
 price: '29.500 EKSL. MOMS (heri er inkluderet fuld forplejning, materialer og rejse) '
+contact-person: 2
 pdf: /pdfs/lederudvikling-på-caminoen.pdf
 dates:
   - 3. Oktober - 9. Oktober 2019

@@ -1,10 +1,10 @@
 ---
 published: true
-category: ccc-netveark
+category: ccc-community
 title: CCC Community
 image: /images/academy/b1.png
 price: '2.500,- ekskl. moms pr. år'
-pdf: 'no'
+pdf: 'false'
 ---
 # Et fællesskab for vedvarende læring og udvikling af dit lederskab
 

@@ -1,6 +1,7 @@
 ---
 published: true
 title: Morten Paustian
+data-id: 2
 portrait-image: /images/about/morten-p.jpg
 order: 7
 call: 40 13 69 68

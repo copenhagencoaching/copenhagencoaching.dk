@@ -3,6 +3,7 @@ published: true
 title: Organisationsudvikling
 order: 3
 image: /images/consulting/c4.png
+contact-person: 9
 ---
 Kompleksiteten i organisationer og udenfor i samfundet er høj og foranderlig. Det kræver samarbejds-, kommunikations- og ledelsesformer i en organisation har de rigtige systemer, processer og tilgange til mennesket i organisationen for at lykkes.  
 

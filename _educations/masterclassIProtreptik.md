@@ -5,7 +5,8 @@ title: Masterclass i Protreptik
 image: /images/academy/b7.png
 price: 12.000,- EKSKL. MOMS
 dates: Kurset afholdes næste gang i 2020 – dato følger
-pdf: no
+pdf: false
+contact-person: 6
 ---
 
 # Hvorfor skal du vælge Masterclass i Protreptik?

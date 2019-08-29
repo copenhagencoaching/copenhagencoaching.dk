@@ -3,6 +3,7 @@ published: true
 title: Ledelsesudvikling
 order: 1
 image: /images/consulting/c3.jpg
+contact-person: 9
 ---
 
 Vi har en holdning til ledelse. Vi står på ledelsesdyder, den nyeste forskning og aktuelle metoder indenfor ledelse der sørger for at du får en målbar effekt og udvikler dig. I ledelse arbejder med forandring som en blivende størrelse.  
