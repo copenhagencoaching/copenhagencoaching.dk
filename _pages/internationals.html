@@ -46,7 +46,7 @@ description: This summer, Copenhagen Coaching Center will branch out into educat
                         {{ international.content }}
                         {% for employee in site.employees %}
                         {% if employee.data-id == international.contact-person %}
-                        Kontaktperson:<br>
+                        Contact:<br>
                         {{ employee.title }}, <a data-proofer-ignore href="tel:+45{{ employee.call }}">+45 {{ employee.call }}</a>, <a href="mailto:{{ employee.email }}">{{ employee.email }}</a>
                         {% endif %}
                         {% endfor %}

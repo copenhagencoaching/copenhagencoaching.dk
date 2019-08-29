@@ -31,7 +31,7 @@ description: For at udvikle sig bæredygtigt har virksomheder, organisationer og
 
                         {% for employee in site.employees %}
                         {% if employee.data-id == consultation.contact-person %}
-                        Kontaktperson:<br>
+                        Kontakt:<br>
                         {{ employee.title }}, <a data-proofer-ignore href="tel:+45{{ employee.call }}">+45 {{ employee.call }}</a>, <a href="mailto:{{ employee.email }}">{{ employee.email }}</a>
                         {% endif %}
                         {% endfor %}

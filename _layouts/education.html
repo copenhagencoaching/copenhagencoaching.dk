@@ -35,7 +35,7 @@ layout: page
 
                     {% if page.contact-person %}
                     <b>
-                        <p>Kontaktperson:</p>
+                        <p>Kontakt:</p>
                     </b>
                     {% for employee in site.employees %}
                     {% if employee.data-id == page.contact-person %}
@@ -104,5 +104,3 @@ layout: page
         </div>
     </div>
 </div>
-
-{% include testimonial.html %}
