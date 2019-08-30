@@ -20,10 +20,10 @@ Forløbet er bygget op af 4 workshops på hver 4 timer. Herefter ser forløbet s
 
 - Der vil være en introduktionsaften inden første workshop.  
 
-  - Workshop 1 omhandler din situation og personlige ambition.  
+- Workshop 1 omhandler din situation og personlige ambition.  
 
-  - Workshop 2 omhandler transition.  
+- Workshop 2 omhandler transition.  
 
-  - Workshop 3 omhandler identitet i ledelse og transition. 
+- Workshop 3 omhandler identitet i ledelse og transition. 
 
-  - Workshop 4 tematiserer performance i transition som afsluttes med en skræddersyet form for ’Løvens hule’.  
+- Workshop 4 tematiserer performance i transition som afsluttes med en skræddersyet form for ’Løvens hule’.  
