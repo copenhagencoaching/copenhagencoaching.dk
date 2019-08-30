@@ -3,11 +3,12 @@ published: true
 category: personlig-udvikling-og-transition
 title: Executive Transition
 image: /images/coaching/ledelsessparring.jpg
-price: xxx pris
-dates:
-  - xxxx
-  - xxyy
+price: '38.700,- EKSKL. MOMS (heri er inkluderet fuld forplejning, materialer)  '
 contact-person: '1'
+dates:
+  - >-
+    Nye seminarer til efteråret 2019 (datoer følger snarest).  Vi opstarter også
+    løbende hold
 ---
 
 
