@@ -6,7 +6,7 @@ image: /images/coaching/lesbos.jpg
 price: 30.000,- ekskl. moms (heri er inkluderet fuld forplejning, materialer og rejse)
 dates: [Øst (København) 12. TIL 19. SEPTEMBER 2019]
 pdf: /pdfs/ledelseskursus-på-lesbos.pdf
-contact-person: 6
+contact-person: '6'
 ---
 
 # Hvorfor skal du vælge Ledelseskursus på Lesbos?

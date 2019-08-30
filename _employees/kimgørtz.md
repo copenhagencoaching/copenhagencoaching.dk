@@ -2,7 +2,7 @@
 published: true
 title: Kim Gørtz
 order: 5
-data-id: 6
+data-id: '6'
 portrait-image: /images/about/kim.jpg
 call: 24 66 40 78
 email: kg@copenhagencoahing.dk

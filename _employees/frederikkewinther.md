@@ -1,7 +1,7 @@
 ---
 published: true
 order: 4
-data-id: 7
+data-id: '7'
 title: Frederikke Winther
 portrait-image: /images/about/frederikke.jpg
 call: 21 19 47 57

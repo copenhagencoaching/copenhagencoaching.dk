@@ -1,6 +1,6 @@
 ---
 published: true
-data-id: 1
+data-id: '1'
 order: 3
 title: Morten Bertelsen
 portrait-image: /images/about/morten-b.jpg
