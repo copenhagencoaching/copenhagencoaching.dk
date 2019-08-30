@@ -26,4 +26,32 @@ Forløbet er bygget op af 4 workshops på hver 4 timer. Herefter ser forløbet s
 
 - Workshop 3 omhandler identitet i ledelse og transition. 
 
-- Workshop 4 tematiserer performance i transition som afsluttes med en skræddersyet form for ’Løvens hule’.  
+- Workshop 4 tematiserer performance i transition som afsluttes med en skræddersyet form for ’Løvens hule’.
+
+
+Mellem modulerne vil der være individuel coaching af 90 minutters varighed. Efter hvert modul er der hjemmeopgaver med afsæt i det foregående modul men med link til næste modul.  
+
+Vi arbejder individuelt og i teams. Det betyder, at de 4 worksops vil foregå i teams, hvor man bliver udfordret og anerkendt af andre i samme situation, suppleret med individuelle coachingforløb der styrker din transition.  
+
+
+Som deltager på Executive Transition forløb får du først og fremmest personlig indsigt, kick startet med en Big Five Personality Test med individuel feedback, der kan være en kæmpe fordel i jobsøgning, dit nuværende arbejde, i dit nye arbejde eller karrierestop. Derudover får du: 
+
+Introaften 
+
+- 4 Executive workshops  
+
+- Brugbar præcis feedback på dig og din situation 
+
+- En personlig executive rådgiver der er højt uddannet coach  
+
+- Et stærkt netværk af personer med samme udfordringer og ambitioner 
+
+- Forplejning alle dage.  
+
+
+
+Citat:  
+
+Vi arbejder med mennesker i transition hver eneste dag og har årelang erfaring med at bringe mennesker på rette vej. 
+
+Det handler om: At finde mening i egne værdier – hvem er jeg når jeg ikke længere er direktør for X og skal i gang med noget andet? 
