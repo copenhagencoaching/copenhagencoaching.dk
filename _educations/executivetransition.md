@@ -16,7 +16,7 @@ contact-person: '1'
 
 Er du topleder og på vej til at skifte spor? Og ønske du at skrifte spor på en sådan måde, at du både får dig selv og det rigtige og vigtige med fra dit tidligere virke til det nye – hvad enten drejer sig om et karrierespring, et karriereskift eller et karrierestop? Det handler om at kunne oversætte egne værdier og kompetencer fra kontekst X til kontekst Y. At kunne stille skarpt på hvilke processuelle kompetencer og narrativer der skal til for at lykkedes i skiftet fra X til Y. At blive præcis på hvad det er for nogle personlige værdier og kompetencer der er betydningsfulde for, at du kan leve et meningsfyldt liv, hvor du opnår det, du gerne vil. 
 
-Forløbet er bygget op af 4 workshops på hver 4 timer. Herefter ser forløbet således ud:
+### Forløbet er bygget op af 4 workshops på hver 4 timer. Herefter ser forløbet således ud:
 
 - Der vil være en introduktionsaften inden første workshop.  
 
@@ -36,7 +36,7 @@ Vi arbejder individuelt og i teams. Det betyder, at de 4 worksops vil foregå i 
 
 Som deltager på Executive Transition forløb får du først og fremmest personlig indsigt, kick startet med en Big Five Personality Test med individuel feedback, der kan være en kæmpe fordel i jobsøgning, dit nuværende arbejde, i dit nye arbejde eller karrierestop. Derudover får du: 
 
-Introaften 
+- Introaften 
 
 - 4 Executive workshops  
 
@@ -50,7 +50,7 @@ Introaften
 
 
 
-Citat:  
+### Citat:
 
 Vi arbejder med mennesker i transition hver eneste dag og har årelang erfaring med at bringe mennesker på rette vej. 
 
