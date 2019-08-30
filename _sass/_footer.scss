@@ -1,3 +1,45 @@
+
+.footer-black {
+  background-color: rgb(37, 37, 37);
+
+  .stories-date {
+    color: rgb(187, 187, 187);
+  }
+
+  .footer-text {
+    color: rgb(187, 187, 187);
+  }
+
+  p {
+    color: #F8F9FA;
+  }
+
+  a,
+  .empty-anchor {
+    color: rgb(187, 187, 187);
+  }
+}
+
+.black-bar {
+
+  background-color: rgb(37, 37, 37) !important;
+  box-shadow: none !important;
+
+  p,
+  a {
+    color: #F8F9FA;
+
+  }
+
+  a:hover {
+    color: $green;
+  }
+}
+
+
+
+
+
 footer {
   height: 400px;
   width: 100%;
