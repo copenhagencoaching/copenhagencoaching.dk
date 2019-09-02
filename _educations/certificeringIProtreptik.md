@@ -2,7 +2,7 @@
 published: true
 title: Certificering i Protreptik
 category: [filosofi, lederskab, certificeringer]
-image: /images/academy/b3.png
+image: /images/academy/certificering-i-protreptik.jpg
 price: 70.000,- EKSKL. MOMS
 dates: Forløbet aftales individuelt
 pdf: /pdfs/Certificering-i-protreptik-efterår.pdf

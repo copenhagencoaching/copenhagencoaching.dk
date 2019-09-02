@@ -2,7 +2,7 @@
 published: true
 category: ccc-community
 title: CCC Community
-image: /images/academy/b1.png
+image: /images/academy/ccc-community.jpg
 price: '2.500,- ekskl. moms pr. år'
 pdf: 'false'
 ---

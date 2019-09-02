@@ -2,7 +2,7 @@
 published: true
 category: proces-og-strategi
 title: Proceslederuddannelse
-image: /images/coaching/ledelsessparring.jpg
+image: /images/academy/proceslederuddannelse.jpg
 price: 38.700,- EKSKL. MOMS (heri er inkluderet fuld forplejning, materialer) 
 pdf: /pdfs/proces-leder-uddannelse.pdf
 contact-person: '5'

@@ -2,7 +2,7 @@
 published: true
 category: personlig-udvikling-og-transition
 title: Executive Transition
-image: /images/coaching/ledelsessparring.jpg
+image: /images/academy/executive-transition.jpg
 price: '38.700,- EKSKL. MOMS (heri er inkluderet fuld forplejning, materialer)  '
 contact-person: '1'
 dates:

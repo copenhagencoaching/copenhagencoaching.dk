@@ -2,7 +2,7 @@
 published: true
 category: [filosofi, lederskab, personlig-udvikling-og-transition]
 title: Ledelseskursus på Lesbos
-image: /images/coaching/lesbos.jpg
+image: /images/academy/lesbos.jpg
 price: 30.000,- ekskl. moms (heri er inkluderet fuld forplejning, materialer og rejse)
 dates: [Øst (København) 12. TIL 19. SEPTEMBER 2019]
 pdf: /pdfs/ledelseskursus-på-lesbos.pdf
