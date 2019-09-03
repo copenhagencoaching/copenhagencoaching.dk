@@ -49,10 +49,3 @@ Som deltager på Executive Transition forløb får du først og fremmest personl
 
 - Forplejning alle dage.  
 
-
-
-### Citat:
-
-Vi arbejder med mennesker i transition hver eneste dag og har årelang erfaring med at bringe mennesker på rette vej. 
-
-Det handler om: At finde mening i egne værdier – hvem er jeg når jeg ikke længere er direktør for X og skal i gang med noget andet? 
