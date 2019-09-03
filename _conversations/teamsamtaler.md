@@ -4,7 +4,7 @@ id: 3
 order: 4
 title: Team samtaler
 image: /images/coaching/c4.jpg
-contact-person: 1
+contact-person: '1'
 ---
 
 ## Det reflekterede arbejdsliv og den organisatoriske tænksomhed.
