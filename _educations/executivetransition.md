@@ -3,7 +3,7 @@ published: true
 category: personlig-udvikling-og-transition
 title: Executive Transition
 image: /images/academy/executive-transition.jpg
-price: '38.700,- EKSKL. MOMS (heri er inkluderet fuld forplejning, materialer)  '
+price: '24.900,- EKSKL. MOMS  (heri er inkluderet fuld forplejning, materialer)  '
 contact-person: '1'
 dates:
   - >-
@@ -34,5 +34,4 @@ Som deltager på Executive Transition forløb får du først og fremmest personl
 
 - Et stærkt netværk af personer med samme udfordringer og ambitioner 
 
-- Forplejning alle dage  
-
+- Forplejning alle dage
