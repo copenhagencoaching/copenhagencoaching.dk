@@ -2,31 +2,7 @@
 layout: default
 ---
 
-<div class="modal fade" id="contact-modal" tabindex="-1" role="dialog" aria-labelledby="contact-modal"
-    aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="contact-modal">Kontakt Copenhagen Coaching Center</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span>&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <form action="https://formspree.io/kontakt@copenhagencoaching.dk" method="POST">
-                    <span>
-                        <input name="navn" placeholder="Dit navn">
-                        <input name="email" placeholder="Din email">
-                    </span>
-                    <textarea name="besked" cols="30" rows="10" placeholder="Din besked"></textarea>
-            </div>
-            <div class="modal-footer">
-                <button class="green-button" type="submit">Send besked</button>
-            </div>
-            </form>
-        </div>
-    </div>
-</div>
+{% include contact-modal.html %}
 
 <nav id="frontpage-nav">
     <div class="navbar navbar-expand-lg">
@@ -110,7 +86,7 @@ layout: default
             <div class="col-lg-12 col-md-12 col-12 col-sm-12">
                 <span>
                     <h1>Vores værdigrundlag
-                        <br>afspejles i dagligdagen</h1>
+                        <br>afspejles i dagligdagen</h1><a href="#" class="new">Hej</a>
                     <p>Vi vægter høj faglighed og sætter barren højt for vores produkter og leverancer, og giver
                         samtidig plads til at arbejde med ideer indenfor fællesskabets rammer. I CCC er det vigtigt at
                         værne om den andens værdighed - at se mennesket i mennesket med de forskelligheder der viser

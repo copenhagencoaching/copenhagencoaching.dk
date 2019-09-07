@@ -40,6 +40,18 @@
     });
   </script>
 
+
+
+  <script>
+
+  $('.contact-link').on('click', function () {
+    window.history.pushState('obj', 'newtitle', '/#contact');
+    
+  })
+  </script>
+
+
+
   <!-- Makes the navbar-nav longer in order to accomidate for the search input field -->
 
   <script>
@@ -61,19 +73,6 @@
   </script>
 
   <!-- Functionality for sharing articles on social media -->
-
-  <div id="fb-root"></div>
-
-  <script>
-    (function (d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s);
-      js.id = id;
-      js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
-  </script>
 
   <script>
     $(".expandable-pane-image:odd").addClass("reverse-pane-img")

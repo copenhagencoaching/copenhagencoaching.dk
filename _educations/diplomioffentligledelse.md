@@ -5,7 +5,7 @@ category: diplom-i-offentlig-ledelse
 image: /images/academy/b3.png
 price: Kontakt os for at høre om vores priser
 dates: Datoer for Diplom i offentlig ledelse kommer snarest
-pdf:
+pdf: 'false'
 ---
 
 # Hvorfor skal du vælge Diplom i offentlig ledelse?

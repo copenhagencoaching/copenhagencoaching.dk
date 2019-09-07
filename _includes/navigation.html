@@ -1,29 +1,4 @@
-<div class="modal fade" id="contact-modal" tabindex="-1" role="dialog" aria-labelledby="contact-modal"
-  aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="contact-modal">Kontakt Copenhagen Coaching Center</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span>&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <form action="https://formspree.io/kontakt@copenhagencoaching.dk" method="POST">
-          <span>
-            <input name="navn" placeholder="Dit navn">
-            <input name="email" placeholder="Din email">
-          </span>
-          <textarea name="besked" cols="30" rows="10" placeholder="Din besked"></textarea>
-      </div>
-      <div class="modal-footer">
-        <button class="green-button" type="submit">Send besked</button>
-      </div>
-      </form>
-    </div>
-  </div>
-</div>
-
+{% include contact-modal.html %}
 <nav>
   <div class="navbar navbar-expand-lg">
     <a class="navbar-brand" href="/"><img src="/images/ccc-logo-new.png" alt="CCC logo"></a>
@@ -50,7 +25,7 @@
         {% endif %}
         {% endfor %}
         <li class="nav-item">
-          <a class="contact-link nav-link" href="#" data-toggle="modal" data-target="#contact-modal">Kontakt</a>
+          <a class="contact-link nav-link" href="#contact" data-toggle="modal" data-target="#contact-modal">Kontakt</a>
         </li>
         <li id="search-button" class="nav-item nav-icon show">
           <i class="fas fa-search"></i>
