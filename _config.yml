@@ -9,7 +9,8 @@ prod_site: https://www.copenhagencoaching.dk
 
 logo: /images/seo_img.png
 
-
+whitelist:
+  - jekyll-redirect-from
 
 sass:
   style: compressed
@@ -31,6 +32,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-redirect-from
 
 collections:
   posts:
