@@ -4,8 +4,10 @@ title: Diplom i offentlig ledelse
 category: diplom-i-offentlig-ledelse
 image: /images/academy/b3.png
 price: Kontakt os for at høre om vores priser
-dates: Datoer for Diplom i offentlig ledelse kommer snarest
+dates:
+  - Datoer for Diplom i offentlig ledelse kommer snarest
 pdf: 'false'
+contact-person: '7'
 ---
 
 # Hvorfor skal du vælge Diplom i offentlig ledelse?
@@ -40,4 +42,4 @@ De forskellige DOLmoduler har forskellige form og varighed – kontakt os og få
 
 Ønsker du at tage en fuld diplom?
 
-CCC samarbejder med Københavns Professionshøjskole, og via dette samarbejde kan du kombinere dine fag, så du opnår en fuld diplom. Du kan se hvilke fag de har her (link) 
+CCC samarbejder med Københavns Professionshøjskole, og via dette samarbejde kan du kombinere dine fag, så du opnår en fuld diplom. Du kan se hvilke fag de har her (link)
