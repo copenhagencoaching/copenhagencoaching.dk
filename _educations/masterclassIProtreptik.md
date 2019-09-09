@@ -3,10 +3,11 @@ published: true
 category: filosofi
 title: Masterclass i Protreptik
 image: /images/academy/b7.png
-price: 12.000,- EKSKL. MOMS
-dates: Kurset afholdes næste gang i 2020 – dato følger
+price: '12.000,- EKSKL. MOMS / 3 dage'
 pdf: 'false'
 contact-person: '6'
+dates:
+  - '4, 5 og 27 maj 2020'
 ---
 
 # Hvorfor skal du vælge Masterclass i Protreptik?
@@ -21,4 +22,4 @@ Kurset vil være en blanding af teoretiske oplæg og praktiske individuelle, sam
 
 - 3 dags kursus 
 
-- Forplejning og litteratur 
+- Forplejning og litteratur
