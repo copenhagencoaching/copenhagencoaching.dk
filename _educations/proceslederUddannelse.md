@@ -3,11 +3,24 @@ published: true
 category: proces-og-strategi
 title: Proceslederuddannelse
 image: /images/academy/proceslederuddannelse.jpg
-price: 38.700,- EKSKL. MOMS (heri er inkluderet fuld forplejning, materialer) 
+price: >-
+  38.700,- EKSKL. MOMS (heri er inkluderet fuld forplejning, materialer med
+  videre)
 pdf: /pdfs/proces-leder-uddannelse.pdf
 contact-person: '5'
-dates: [29. AUGUST 2019 og 9. MARTS 2020, ]
-udates: [25.- 26. september 2019, 3. - 4. oktober 2019, 20. - 21. november 2019, 11. - 12. december 2019, 23. januar 2020, 9. og 10. marts 2020, 20. - 22. april 2020, 13. - 15. maj og 19. juni 2020]
+udates:
+  - 25-26 september 2019
+  - 3-4 oktober 2019
+  - 20-21 november 2019
+  - 11-12 december 2019
+  - 23 januar 2020
+  - 9-10 marts 2020
+  - 20-22 april 2020
+  - 13-15 maj
+  - 19 juni 2020
+dates:
+  - 25. september 2019
+  - 9. marts 2020
 ---
 
 # Hvorfor skal du vælge Proceslederuddannelsen?
@@ -44,4 +57,4 @@ Som studerende får du:
 
 - Mulighed for at tilvælge et eller flere DOL-moduler (Diplomuddannelse I Ledelse. Kontakt os for mere information.) 
 
-- Forplejning alle dage 
+- Forplejning alle dage
