@@ -22,10 +22,6 @@ jobs:
             ls -a
             git rev-parse --short HEAD
       - run:
-          name: If triggered by a tag, make sure it's annotated.
-          command: '[[ -z "$CIRCLE_TAG" ]] && echo "Not triggered by a tag" || git cat-file -p `git rev-parse $CIRCLE_TAG` | grep "^tag $CIRCLE_TAG$"'
-
-      - run:
           name: Introduce the user to the git repo, to prepare for delivery
           command: play --manuscript .circleci/play-proflow-cci-gh.yml --part git_set_user
       - run:
