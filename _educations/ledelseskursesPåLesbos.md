@@ -1,12 +1,15 @@
 ---
 published: true
-category: [filosofi, lederskab, personlig-udvikling-og-transition]
+category: filosofi
 title: Ledelseskursus på Lesbos
 image: /images/academy/lesbos.jpg
-price: 30.000,- ekskl. moms (heri er inkluderet fuld forplejning, materialer og rejse)
-dates: [Øst (København) 12. TIL 19. SEPTEMBER 2019]
+price: >-
+  30.000,- ekskl. moms (heri er inkluderet fuld forplejning, materialer og
+  rejse)
 pdf: /pdfs/ledelseskursus-på-lesbos.pdf
 contact-person: '6'
+dates:
+  - 4. - 11. juni & 10. - 17. September 2020
 ---
 
 # Hvorfor skal du vælge Ledelseskursus på Lesbos?
@@ -43,4 +46,4 @@ Turen til Lesbos varer 7 fulde dage
 
 - Flyrejse 
 
-- Guide på turen 
+- Guide på turen
