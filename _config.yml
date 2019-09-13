@@ -5,6 +5,7 @@ paginate: 24
 paginate_path: "/stories/title/"
 stage_site: https://stage.copenhagencoaching.dk
 prod_site: https://www.copenhagencoaching.dk
+image: /images/seo/ccc-seo-logo-dark.png
 
 
 logo: /images/seo_img.png
