@@ -8,7 +8,7 @@ prod_site: https://www.copenhagencoaching.dk
 image: /images/seo/ccc-seo-logo-dark.png
 
 
-logo: /images/seo_img.png
+logo: /images/ccc-logo-dark.png
 
 whitelist:
   - jekyll-redirect-from
