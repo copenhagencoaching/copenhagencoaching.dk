@@ -38,8 +38,7 @@ Hos CCC kan du tage følgende DOL-moduler:
 
 # Hvad får du ud af uddannelsen?
 
-De forskellige DOLmoduler har forskellige form og varighed – kontakt os og få mere information her (link) 
+De forskellige DOL-moduler har forskellige form og varighed – kontakt os og få mere information om de enkelte moduler.
 
-Ønsker du at tage en fuld diplom?
 
-CCC samarbejder med Københavns Professionshøjskole, og via dette samarbejde kan du kombinere dine fag, så du opnår en fuld diplom. Du kan se hvilke fag de har her (link)
+CCC samarbejder med Københavns Professionshøjskole, og via dette samarbejde kan du kombinere dine fag, så du opnår en fuld diplom. Du kan se hvilke fag de har [her](https://www.phmetropol.dk/videreuddannelser/diplomuddannelser/diplom+i+ledelse)
