@@ -12,7 +12,7 @@ description: For at udvikle sig bæredygtigt har virksomheder, organisationer og
     <div class="row">
 
         <div class="intro">
-            CCC har solid erfaring med strategiudvikling i organisationer. Siden 2004 har vi konsulteret alle former for virksomheder – fra nogle af Danmarks største organisationer til helt små start-ups - og dermed skabt perspektiv og plads til nye strategier, ideer og værdier. Vi gør det muligt at se sig selv med nye øjne.
+            <p>CCC har solid erfaring med strategiudvikling i organisationer. Siden 2004 har vi konsulteret alle former for virksomheder – fra nogle af Danmarks største organisationer til helt små start-ups - og dermed skabt perspektiv og plads til nye strategier, ideer og værdier. Vi gør det muligt at se sig selv med nye øjne.</p>
         </div>
 
         {% assign orderedconsultations = site.consultations | sort: "order" %}
@@ -22,19 +22,36 @@ description: For at udvikle sig bæredygtigt har virksomheder, organisationer og
             <div class="anchor" id="{{ consultation.title | remove:' ' }}"></div>
             <div class="row">
 
-                <div class="col-lg-5 col-12 expandable-pane-image"
-                    style="background-image: url('{{ consultation.image }}')"></div>
+                <div class="col-lg-5 col-12 expandable-pane-image">
+                    <div class="image-info-row">
+                      <div class="image-box-expandable" style="background-image: url('{{ consultation.image }}')">
+
+                      </div>
+                      <div class="image-box-expandable-info">
+                        <h4>Interesseret i at høre mere? Ring eller skriv og få en snak med:</h4>
+                        <div class="media">
+                          {% for employee in site.employees %}
+                          {% if employee.data-id == consultation.contact-person %}
+  <div class="mr-3 contact-img-outer">
+    <img class="contact-img" src="{{ employee.portrait-image }}" alt="{{ employee.title }}, {{ employee.description }}"></div>
+  <div class="media-body">
+
+    <h5>{{ employee.title }}</h5>
+      <h5><a data-proofer-ignore href="tel:+45{{ employee.call }}">+45 {{ employee.call }}</a></h5>
+      <h5><a href="mailto:{{ employee.email }}">{{ employee.email }}</a></h5>
+    {% endif %}
+    {% endfor %}
+  </div>
+</div>
+                      </div>
+                      </div>
+                  </div>
                 <div class="col-lg-7 col-12 expandable-pane-text">
                     <h1>{{ consultation.title }}</h1>
                     <div class="content">
                         {{ consultation.content }}
 
-                        {% for employee in site.employees %}
-                        {% if employee.data-id == consultation.contact-person %}
-                        Kontakt:<br>
-                        {{ employee.title }}, <a data-proofer-ignore href="tel:+45{{ employee.call }}">+45 {{ employee.call }}</a>, <a href="mailto:{{ employee.email }}">{{ employee.email }}</a>
-                        {% endif %}
-                        {% endfor %}
+
                     </div>
                 </div>
             </div>

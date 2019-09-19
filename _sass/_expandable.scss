@@ -10,7 +10,7 @@
     .expandable-pane:nth-of-type(1) {
       padding-top: 0;
     }
-  
+
     .expandable-pane:nth-of-type(4){
       padding-bottom: 0;
     }
@@ -21,7 +21,7 @@
       margin: 0;
       display: flex;
       flex-direction: row;
-      padding:40px 0;
+      padding:40px 0 60px 0;
       position: relative;
 
       .row {
@@ -39,7 +39,6 @@
         padding-left: 25px;
         display: flex;
         flex-direction: column;
-        justify-content: center;
 
         h1 {
           font-size: 20px;
@@ -77,7 +76,7 @@
           }
         }
 
-      
+
 
 
         button {
@@ -102,16 +101,67 @@
       }
 
       .expandable-pane-image {
-        height: 400px;
-        width: 100%;
         order: 1;
-        background-size: cover;
-        background-position: center center;
-        background-repeat: no-repeat;
       }
+
+      .image-info-row {
+        flex-direction: column;
+        width: 100%;
+        display: flex;
+        .image-box-expandable {
+          height: 400px;
+          width: 100%;
+          background-size: cover;
+          background-position: center center;
+          background-repeat: no-repeat;
+        }
+
 
     }
   }
+}
+
+}
+
+.image-box-expandable-info {
+
+.media-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center
+
+}
+
+  img[class] {
+  width: 100%;
+}
+
+  .contact-img-outer {
+  width: 64px;
+
+
+
+    .contact-img {
+      object-position: 50% 25%;
+      object-fit: fill;
+
+    }
+}
+
+  h4 {
+    font-size: 15px;
+    margin-top: 20px;
+  }
+  h5 {
+    font-size: 12px;
+    padding: 5px 0;
+    margin: 0;
+  }
+  a {
+    color:inherit;
+  }
+
+
 }
 
 hr {
@@ -168,7 +218,7 @@ hr {
         }
       }
 
-      .expandable-pane-image {
+      .image-box-expandable {
         height: 300px !important;
       }
 
@@ -193,6 +243,14 @@ hr {
 
   .expandable-pane:nth-of-type(4) .row {
     flex-direction: column-reverse !important;
+  }
+
+  .image-info-row:nth-of-type(2) {
+    flex-direction: column-reverse !important;
+  }
+
+  .image-info-row:nth-of-type(4) {
+    flex-direction: row-reverse !important;
   }
 }
 

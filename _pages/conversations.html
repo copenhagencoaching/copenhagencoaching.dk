@@ -11,7 +11,7 @@ description: Coachingsamtaler er en effektiv måde at finde nye veje at gå.
 <div class="expandable">
     <div class="row">
         <div class="intro">
-            Et coachingforløb hos CCC skærper dit fokus på personlig udvikling, forebyggelse af stress, styrkelse af balancen mellem arbejdsliv og privatliv og gør dig i stand til at håndtere de udfordringer, der er og måtte komme. Hos CCC er du altid er sikker på at møde en faglig og teoretisk dybt og bredt funderet coach med mange års erfaring med professionelle samtaler og som minimum en Master i Business Coaching. Da relationen er af afgørende betydning for effekten af coaching, gør vi en dyd ud af at finde den helt rigtige coach til dig og din situation. 
+            Et coachingforløb hos CCC skærper dit fokus på personlig udvikling, forebyggelse af stress, styrkelse af balancen mellem arbejdsliv og privatliv og gør dig i stand til at håndtere de udfordringer, der er og måtte komme. Hos CCC er du altid er sikker på at møde en faglig og teoretisk dybt og bredt funderet coach med mange års erfaring med professionelle samtaler og som minimum en Master i Business Coaching. Da relationen er af afgørende betydning for effekten af coaching, gør vi en dyd ud af at finde den helt rigtige coach til dig og din situation.
             </div>
 
             {% assign orderedcons = site.conversations | sort: "order" %}
@@ -21,23 +21,39 @@ description: Coachingsamtaler er en effektiv måde at finde nye veje at gå.
             <div class="anchor" id="{{ conversation.title | remove:' ' }}"></div>
             <div class="row">
 
-                <div class="col-lg-5 col-12 expandable-pane-image"
-                    style="background-image: url('{{ conversation.image }}')"></div>
+                <div class="col-lg-5 col-12 expandable-pane-image">
+                    <div class="image-info-row">
+                      <div class="image-box-expandable" style="background-image: url('{{ conversation.image }}')">
+
+                      </div>
+                      <div class="image-box-expandable-info">
+                        <h4>Interesseret i at høre mere? Ring eller skriv og få en snak med:</h4>
+                        <div class="media">
+                          {% for employee in site.employees %}
+                          {% if employee.data-id == conversation.contact-person %}
+  <div class="mr-3 contact-img-outer">
+    <img class="contact-img" src="{{ employee.portrait-image }}" alt="{{ employee.title }}, {{ employee.description }}"></div>
+  <div class="media-body">
+
+    <h5>{{ employee.title }}</h5>
+      <h5><a data-proofer-ignore href="tel:+45{{ employee.call }}">+45 {{ employee.call }}</a></h5>
+      <h5><a href="mailto:{{ employee.email }}">{{ employee.email }}</a></h5>
+    {% endif %}
+    {% endfor %}
+  </div>
+</div>
+                      </div>
+                      </div>
+                  </div>
                 <div class="col-lg-7 col-12 expandable-pane-text">
                     <h1>{{ conversation.title }}</h1>
                     <div class="content">
                         {{ conversation.content }}
 
-                        {% for employee in site.employees %}
-                        {% if employee.data-id == conversation.contact-person %}
-                        Kontakt:<br>
-                        {{ employee.title }}, <a data-proofer-ignore href="tel:+45{{ employee.call }}">+45 {{ employee.call }}</a>, <a href="mailto:{{ employee.email }}">{{ employee.email }}</a>
-                        {% endif %}
-                        {% endfor %}
+
                     </div>
                 </div>
             </div>
-
         </section>
         {% endfor %}
     </div>
