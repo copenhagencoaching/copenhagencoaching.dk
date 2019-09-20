@@ -4,10 +4,11 @@ title: Certificeringer i Big Five
 category: certificeringer
 image: /images/academy/b2.png
 price: '19.500,- EKSKL. MOMS / 3 KURSUSDAGE'
-dates:
-  - 18. November 2019
 pdf: /pdfs/certificering-i-big-five.pdf
 contact-person: '7'
+dates:
+  - 11. november
+Efterår 2019: 11 og 18 november samt 4 december
 ---
 
 # Hvorfor skal du vælge Certificering i Big Five?
