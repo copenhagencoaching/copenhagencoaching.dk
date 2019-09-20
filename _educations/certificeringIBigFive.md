@@ -6,9 +6,11 @@ image: /images/academy/b2.png
 price: '19.500,- EKSKL. MOMS / 3 KURSUSDAGE'
 pdf: /pdfs/certificering-i-big-five.pdf
 contact-person: '7'
-dates:
-  - 11. november
 Efterår 2019: 11 og 18 november samt 4 december
+dates:
+  - 11. november 2019
+  - 29 januar 2020
+  - 7 april 2020
 ---
 
 # Hvorfor skal du vælge Certificering i Big Five?
