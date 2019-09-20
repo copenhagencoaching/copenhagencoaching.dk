@@ -9,8 +9,8 @@ price: >-
 pdf: /pdfs/proces-leder-uddannelse.pdf
 contact-person: '5'
 udates: >-
-  Efterår 2019: 25-26 september, 3-4 oktober, 20-21 november, 11-12 december, 23
-  januar 2020
+  Efterår 2019: 25-26 september, 28-29 oktober, 20-21 november, 11-12 december,
+  23 januar 2020
 dates:
   - 25. september 2019
   - 9. marts 2020
