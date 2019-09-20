@@ -20,6 +20,4 @@ The price is 6.000 Euros pr. semester.   -->
 
 - 6.11 - 9.11 
 
-- 4.12 – 7.12 
-
-Find an extended description of the master program [here](/pdfs/MBC-english.pdf){:target="_blank"}.
+- 4.12 – 7.12
