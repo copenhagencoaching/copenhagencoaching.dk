@@ -33,7 +33,7 @@ description: For at udvikle sig bæredygtigt har virksomheder, organisationer og
                           {% for employee in site.employees %}
                           {% if employee.data-id == consultation.contact-person %}
   <div class="mr-3 contact-img-outer">
-    <img class="contact-img" src="{{ employee.portrait-image }}" alt="{{ employee.title }}, {{ employee.description }}"></div>
+    <img class="contact-img" src="{{ employee.small-portrait-image }}" alt="{{ employee.title }}, {{ employee.description }}"></div>
   <div class="media-body">
 
     <h5>{{ employee.title }}</h5>

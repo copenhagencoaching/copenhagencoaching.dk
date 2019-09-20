@@ -8,6 +8,7 @@ call: 24 27 28 71
 email: mm@copenhagencoahing.dk
 description: Direktør
 linkedin: https://www.linkedin.com/in/mette-mejlhede-a810632/
+small-portrait-image: /images/small-images/mette-small.jpg
 ---
 
 Fornemmelsen at blive set og føle sig forstået, er et af de indtryk, man efterlades med efter samtaler med Mette. Timing og måden at høre og fornemme præcis det, der er dybden og tyngden i dialogen, er en evne Mette har forfinet og perfektioneret gennem coaching og træning af ledere i de seneste 20 år. 

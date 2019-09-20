@@ -8,6 +8,7 @@ data-id: '4'
 order: 9
 description: Konsulent
 linkedin: https://www.linkedin.com/in/marie-arnbak-hartzberg-44a7171/
+small-portrait-image: /images/small-images/marie-small.jpg
 ---
 
 Marie har siden sin studietid på CBS været optaget af samtaler, dialogisk kapacitet og

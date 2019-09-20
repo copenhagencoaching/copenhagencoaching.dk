@@ -8,6 +8,7 @@ order: 8
 email: ark@copenhagencoaching.dk
 description: Associeret partner
 linkedin: 'https://www.linkedin.com/in/anni-rosengren-korsb%C3%A6k-85647890/'
+small-portrait-image: /images/small-images/anni-small.jpg
 ---
 Anni sætter mødet, det mellemmenneskelig nærvær og den gode, relationsskabebende dialog først.
 

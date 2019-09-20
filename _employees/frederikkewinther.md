@@ -8,6 +8,7 @@ call: 21 19 47 57
 email: fw@copenhagencoahing.dk
 description: Konsulent
 linkedin: 'https://www.linkedin.com/in/frederikke-winther-206b5450/'
+small-portrait-image: /images/small-images/frederikke-small.jpg
 ---
 
 Frederikke er drevet af en oprigtig nysgerrighed efter at vide, hvad der optager og former mennesker i deres arbejdsliv samt et ønske om at forstå, spejle, støtte og stimulere personlig og faglig udvikling gennem individuelle samtaler og sparringsforløb. 

@@ -8,6 +8,7 @@ call: 52 19 09 57
 email: mb@copenhagencoahing.dk
 description: Seniorkonsulent
 linkedin: https://www.linkedin.com/in/bertelsenmorten/
+small-portrait-image: /images/small-images/morten-b-small.jpg
 ---
 
 Morten har gennem de sidste 15 år arbejdet med udvikling af mennesker og organisationer i mange kontekster, herunder arbejdet med coachinguddannelser, lederudvikling, organisationsdesign og strategiimplementering, og også undervist på Københavns Universitet og Aalborg Universitet i teamudvikling og coaching. 

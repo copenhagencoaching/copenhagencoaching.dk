@@ -32,7 +32,7 @@ description: Coachingsamtaler er en effektiv måde at finde nye veje at gå.
                           {% for employee in site.employees %}
                           {% if employee.data-id == conversation.contact-person %}
   <div class="mr-3 contact-img-outer">
-    <img class="contact-img" src="{{ employee.portrait-image }}" alt="{{ employee.title }}, {{ employee.description }}"></div>
+    <img class="contact-img" src="{{ employee.small-portrait-image }}" alt="{{ employee.title }}, {{ employee.description }}"></div>
   <div class="media-body">
 
     <h5>{{ employee.title }}</h5>
