@@ -1,12 +1,16 @@
 ---
 published: true
-category: [master-of-business-coaching, lederskab, personlig-udvikling-og-transition]
+category: master-of-business-coaching
 title: Master of Business Coaching
 image: /images/coaching/ledelsessparring.jpg
-price: 45.900,- EKSKL. MOMS (heri er inkluderet fuld forplejning, materialer og rejse)
-dates: [Øst (KØBENHAVN) 12. AUGUST 2019 og 24. FEBRUAR 2020, Vest (FREDERICIA) 9. OKTOBER 2019]
+price: >-
+  45.900,- EKSKL. MOMS (heri er inkluderet fuld forplejning, materialer og
+  rejse)
 pdf: /pdfs/master-of-business-coaching.pdf
 contact-person: '7'
+dates:
+  - 'København: 24 februar 2020 & 7 september 2020'
+  - 'Vejle: 9 oktober 2019'
 ---
 
 # Hvorfor skal du vælge Masterclass of Business Coaching?
@@ -42,4 +46,4 @@ MBC’en består af 4 semestre, som du også kan tage individuelt. Et semester b
 
 - Coachingsamtaler med flere underviserer 
 
-- Forplejning alle dage 
+- Forplejning alle dage
