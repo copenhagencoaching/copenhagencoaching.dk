@@ -3,13 +3,33 @@ body {
   margin-top: 70px;
 }
 
+.page-row {
+  width: 1230px;
+  margin: 75px auto;
+
+  a {
+    color: $black;
+  }
+  a:hover {
+    color: $green;
+  }
+}
+
 .page {
   .row {
     margin: 75px auto;
   }
 
   .intro {
-    margin-bottom: 65px;
+    width: 1230px;
+        margin: 0 auto 65px auto;
+
+        a {
+          color: $black;
+        }
+        a:hover {
+          color: $green;
+        }
 
     h2 {
       margin: 0;
@@ -188,7 +208,7 @@ body {
 
   }
 
-  // hero image 
+  // hero image
 
   .hero-image {
     height: auto;
@@ -248,6 +268,10 @@ body {
     .row {
       margin: 50px auto;
     }
+  }
+
+  .page-row {
+    width: 90%;
   }
 
   .hero-image {
