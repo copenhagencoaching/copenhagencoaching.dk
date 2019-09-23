@@ -25,14 +25,35 @@
             padding: 25px;
             z-index: 100;
 
+            i {
+              font-size: 25px;
+              padding-bottom: 10px;
+            }
+
+            .collapse {
+              transition: 0.5s;
+            }
+
+            .date-links {
+              margin: 20px 0 0 0;
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              border-bottom: 2px solid;
+
+
+            }
+
             span {
                 display: flex;
                 flex-direction: column;
                 width: 100%;
+                margin-top: 20px;
             }
 
             p {
                 font-size: 16px;
+                margin: 10px 0;
             }
         }
     }
@@ -110,7 +131,7 @@ a.reg-link, a.pdf-link {
         display: none !important;
     }
 
-    
+
 
     .dates:hover,
     .sign-up-button:hover,
