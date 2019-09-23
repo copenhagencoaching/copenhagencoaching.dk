@@ -231,7 +231,13 @@ prose:
       - name: "dates"
         field:
           element: "multiselect"
-          label: "Tilføj datoer"
+          label: "Tilføj startdatoer"
+          placeholder: "dateor"
+          alterable: true
+      - name: "udates"
+        field:
+          element: "multiselect"
+          label: "Tilføj undervisningsdatoer"
           placeholder: "dateor"
           alterable: true
       - name: "image"
