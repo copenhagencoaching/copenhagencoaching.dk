@@ -5,7 +5,7 @@ order: 5
 data-id: '6'
 portrait-image: /images/about/kim.jpg
 call: 24 66 40 78
-email: kg@copenhagencoahing.dk
+email: kg@copenhagencoaching.dk
 description: Seniorkonsulent
 linkedin: https://www.linkedin.com/in/kim-g%C3%B8rtz-sagaro-b51b795a/
 small-portrait-image: /images/small-images/kim-small.jpg

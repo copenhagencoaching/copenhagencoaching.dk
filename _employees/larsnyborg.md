@@ -5,7 +5,7 @@ order: 6
 data-id: '5'
 portrait-image: /images/about/lars.jpg
 call: 27 11 42 44
-email: ln@copenhagencoahing.dk
+email: ln@copenhagencoaching.dk
 description: Associeret partner
 linkedin: https://www.linkedin.com/in/lars-nyborg-82608431/
 small-portrait-image: /images/small-images/lars-small.jpg

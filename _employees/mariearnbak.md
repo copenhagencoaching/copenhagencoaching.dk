@@ -14,7 +14,7 @@ small-portrait-image: /images/small-images/marie-small.jpg
 Marie har siden sin studietid på CBS været optaget af samtaler, dialogisk kapacitet og
 udvikling gennem refleksion. Først som studievejleder og siden i jobs hos Vestas og Novo
 Nordisk, hvor omdrejningspunktet altid har været kommunikation og
-medarbejderudvikling. 
+medarbejderudvikling.
 
 Undervisning har været en central del af Maries hverdag i mere en
 et årti og hun trives bedst på gulvet i dyb samtale med kursister eller som facilitator af

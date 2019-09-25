@@ -5,7 +5,7 @@ data-id: '2'
 portrait-image: /images/about/morten-p.jpg
 order: 7
 call: 40 13 69 68
-email: mp@copenhagencoahing.dk
+email: mp@copenhagencoaching.dk
 description: Associeret partner
 linkedin: 'https://www.linkedin.com/in/dr-mult-morten-paustian-230321/'
 small-portrait-image: /images/small-images/morten-p-small.jpg
