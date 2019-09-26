@@ -204,9 +204,10 @@ prose:
           label: "title"
       - name: "category"
         field:
-          element: "select"
-          label: "Vælg kategori"
-          placeholder: "Kategori"
+          element: "multiselect"
+          label: "Tilføj kategori"
+          placeholder: "kategori"
+          alterable: true
           options:
             - name: "CCC Netværk"
               value: "ccc-netveark"

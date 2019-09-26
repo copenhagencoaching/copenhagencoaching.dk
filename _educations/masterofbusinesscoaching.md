@@ -1,6 +1,6 @@
 ---
 published: true
-category: master-of-business-coaching
+category: [master-of-business-coaching, lederskab, personlig-udvikling-og-transition]
 title: Master of Business Coaching
 image: /images/coaching/ledelsessparring.jpg
 price: >-
