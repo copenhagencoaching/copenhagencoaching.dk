@@ -1,6 +1,7 @@
 ---
 published: true
-category: ccc-community
+category:
+  - ccc-community
 title: CCC Community
 image: /images/academy/ccc-community.jpg
 price: '2.500,- ekskl. moms pr. år'
@@ -18,10 +19,9 @@ Pris: 2.500 kr. årligt
 Hvad får du:
 -	Netværk, inspiration og supervision på 3 årlige træningsaftener
 -	2 faglige arrangementer årligt
--	Gratis bøger og udgivelser relateret til CCC – gælder nye udgivelser
+-	1 gratis eksemplar af nye CCC-udgivelser
 -	3 årlige nyhedsbreve
--	Særlige tilbud på events og eksklusive arrangementer
--	15% rabat på CCC’s uddannelser
+-	15% rabat på på events, eksklusive arrangementer og udvalgte kurser
 
 ## Faglige arrangementer i 2019/20
 25 november 2019:	Mød Karl Tomm:
