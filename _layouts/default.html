@@ -7,7 +7,7 @@
 {% include head.html %}
 
 <body>
-  
+
   <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TFM8TP7"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -46,7 +46,7 @@
 
   $('.contact-link').on('click', function () {
     window.history.pushState('obj', 'newtitle', '/#contact');
-    
+
   })
   </script>
 
@@ -183,6 +183,20 @@
       $this.text(linkText);
     });
 
+
+// Toggle between arrows in factabox
+
+$(".date-links").on("click", function () {
+  var $this = $(this);
+  if ($this.find(".fas").hasClass('fa-caret-down')) {
+    $this.find(".fas").addClass("fa-caret-up").removeClass("fa-caret-down");
+
+  }
+  else {
+    $this.find(".fas").addClass("fa-caret-down").removeClass("fa-caret-up");
+  }
+
+});
 
 
   </script>

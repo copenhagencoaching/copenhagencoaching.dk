@@ -3,112 +3,122 @@ layout: page
 ---
 
 <div class="education">
-    <div class="row">
-        <div class="col-12 col-md-8 col-lg-8 education-content">
-            {{ page.content }}
+  <div class="row">
+    <div class="col-12 col-md-8 col-lg-8 education-content">
+      {{ page.content }}
 
-            {% capture reg-url %}?n={{ page.title | uri_escape }}{% endcapture %}
+      {% capture reg-url %}?n={{ page.title | uri_escape }}{% endcapture %}
 
-        </div>
-        <div class="col-12 col-md-4 col-lg-4 facta-column">
-            <div class="facta-box">
-                <b>
-                    <p>Pris:</p>
-                </b>
-                <p> {{ page.price }} </p>
-{% if page.dates %}
-                    <a class="date-links" data-toggle="collapse" href="#dateCollapse" role="button" aria-expanded="false" aria-controls="dateCollapse">Startdatoer <i class="fas fa-sort-down"></i></a>
-
-                      <div id="dateCollapse" class="collapse">
-                        <ul>
-                        {% for date in page.dates %}
-                        <li><p>{{ date }}</p></li>
-                        {% endfor %}
-                        </ul>
-</div>
-                      {% endif %}
-{% if page.udates %}
-                      <a class="date-links" data-toggle="collapse" href="#udateCollapse" role="button" aria-expanded="false" aria-controls="udateCollapse">Undervisningsdatoer <i class="fas fa-sort-down"></i></a>
-
-                        <div id="udateCollapse" class="collapse">
-                          <ul>
-                          {% for udate in page.udates %}
-                          <li><p>{{ udate }}</p></li>
-                          {% endfor %}
-                          </ul>
-  </div>
-                        {% endif %}
-
-                <span>
-
-                    {% if page.contact-person %}
-                    <b>
-                        <p>Kontakt:</p>
-                    </b>
-                    {% for employee in site.employees %}
-                    {% if employee.data-id == page.contact-person %}
-
-
-
-                    <a href="{{ employee.url }}" data-proofer-ignore>{{ employee.title }}</a>
-                    <a href="tel:{{ employee.call }}" data-proofer-ignore>{{ employee.call }}</a>
-                    <a href="mailto:{{ employee.email }}" data-proofer-ignore>{{ employee.email }}</a>
-                    {% endif %}
-                    {% endfor %}
-                    {% endif %}
-                </span>
-                <br>
-                <a class="reg-link" href="/registration/{{ reg-url }}">Tilmeld dig her</a>
-
-                {% unless page.pdf %}
-
-                {% capture pdfvar %}
-                muted
-                {% endcapture %}
-
-                {% capture pdfmes %}
-                Pdf kommer snart
-                {% endcapture %}
-
-                {% capture pdfurl %}
-                #
-                {% endcapture %}
-
-                {% endunless %}
-
-
-                {% if page.pdf == 'false' %}
-
-                {% capture pdfvar %}
-                hidden
-                {% endcapture %}
-
-                {% capture pdfmes %}
-                #
-                {% endcapture %}
-
-                {% capture pdfurl %}
-                #
-                {% endcapture %}
-
-                {% endif %}
-
-                {% if page.pdf %}
-
-                {% capture pdfurl %}
-                {{ page.pdf }}
-                {% endcapture %}
-
-                {% capture pdfmes %}
-                PDF om {{ page.title }}
-                {% endcapture %}
-
-                {% endif %}
-
-                <a data-proofer-ignore target="_blank" alt="{{ pdfmes | strip_newlines | strip }}"
-                    href="{{ pdfurl | strip_newlines | strip }}" class="pdf-link {{ pdfvar | strip_newlines | strip }}">Download
-                 PDF</a>
-            </div>
-        </div>
     </div>
+    <div class="col-12 col-md-4 col-lg-4 facta-column">
+      <div class="facta-box">
+        <b>
+          <p>Pris:</p>
+        </b>
+        <p> {{ page.price }} </p>
+
+        <!-- Datoer  -->
+        {% if page.dates %}
+        <br>
+        <b>
+          <p>Datoer:</p>
+        </b>
+        {% for date in page.dates %}
+
+        {% if date.dag %}
+        <div class="date-box">
+          <a class="date-links" data-toggle="collapse" href="#dateCollapse{{ forloop.index }}" role="button" aria-expanded="false" aria-controls="dateCollapse{{ forloop.index }}">{{ date.start }}<i class="fas fa-caret-down"></i></a>
+          <div id="dateCollapse{{ forloop.index }}" class="collapse">
+            <ul>
+              {% for dag in date.dag %}
+              <li>{{ dag.dato }}</li>
+
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+        {% else %}
+        <div class="date-box">
+          {{ date.start }}
+        </div>
+        {% endif %}
+
+        {% endfor %}
+
+        {% endif %}
+
+
+
+
+        <span>
+
+          {% if page.contact-person %}
+          <b>
+            <p>Kontakt:</p>
+          </b>
+          {% for employee in site.employees %}
+          {% if employee.data-id == page.contact-person %}
+
+
+
+          <a href="{{ employee.url }}" data-proofer-ignore>{{ employee.title }}</a>
+          <a href="tel:{{ employee.call }}" data-proofer-ignore>{{ employee.call }}</a>
+          <a href="mailto:{{ employee.email }}" data-proofer-ignore>{{ employee.email }}</a>
+          {% endif %}
+          {% endfor %}
+          {% endif %}
+        </span>
+        <br>
+        <a class="reg-link" href="/registration/{{ reg-url }}">Tilmeld dig her</a>
+
+        {% unless page.pdf %}
+
+        {% capture pdfvar %}
+        muted
+        {% endcapture %}
+
+        {% capture pdfmes %}
+        Pdf kommer snart
+        {% endcapture %}
+
+        {% capture pdfurl %}
+        #
+        {% endcapture %}
+
+        {% endunless %}
+
+
+        {% if page.pdf == 'false' %}
+
+        {% capture pdfvar %}
+        hidden
+        {% endcapture %}
+
+        {% capture pdfmes %}
+        #
+        {% endcapture %}
+
+        {% capture pdfurl %}
+        #
+        {% endcapture %}
+
+        {% endif %}
+
+        {% if page.pdf %}
+
+        {% capture pdfurl %}
+        {{ page.pdf }}
+        {% endcapture %}
+
+        {% capture pdfmes %}
+        PDF om {{ page.title }}
+        {% endcapture %}
+
+        {% endif %}
+
+        <a data-proofer-ignore target="_blank" alt="{{ pdfmes | strip_newlines | strip }}" href="{{ pdfurl | strip_newlines | strip }}" class="pdf-link {{ pdfvar | strip_newlines | strip }}">Download
+          PDF</a>
+      </div>
+    </div>
+  </div>
 </div>

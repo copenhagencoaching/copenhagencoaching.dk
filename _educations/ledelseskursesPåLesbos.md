@@ -9,7 +9,10 @@ price: >-
 pdf: /pdfs/ledelseskursus-på-lesbos.pdf
 contact-person: '6'
 dates:
-  - 4-11 juni samt 10-17 september 2020
+  - start: 4. juni 2020
+    dag:
+    - dato: 4-11 juni
+    - dato: 10-17 september
 ---
 
 # Hvorfor skal du vælge Ledelseskursus på Lesbos?

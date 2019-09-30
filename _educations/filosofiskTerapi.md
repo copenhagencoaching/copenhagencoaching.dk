@@ -3,8 +3,9 @@ published: true
 category: proces-og-strategi
 title: Filosofisk terapi
 image: /images/coaching/MasterBusinessCoaching.jpg
-price: 29.000 eksl. moms (heri er inkluderet fuld forplejning, materialer) 
-dates: [Øst (KØBENHAVN) 30 September 2019]
+price: 29.000 eksl. moms (heri er inkluderet fuld forplejning, materialer)
+dates:
+  - start: Øst (KØBENHAVN) 30 September 20
 pdf: /pdfs/filosofisk-terapi.pdf
 contact-person: '2'
 ---
@@ -12,7 +13,7 @@ contact-person: '2'
 
 # Hvorfor skal du vælge Filosofisk terapi?
 
-Arbejder du med mennesker i et terapeutisk øjemed (terapeut, coach, behandler, psykolog etc.) og er du nysgerrig på, hvordan filosofi kan bruges i din kontekst? Ønsker du at kunne arbejde med terapeutiske relationsmetoder, filosofisk begrebs- og værdiafklaring samt alternative terapeutiske metoder? Er du optaget af at kunne indgå i arbejdsrelationer med en endnu højere grad af indlevelse og med en endnu stærkere intuition? Ønsker du metodisk inspiration ift. nye og anderledes metodiske greb og øvelser, som du formentlig ikke tidligere har prøvet før. 
+Arbejder du med mennesker i et terapeutisk øjemed (terapeut, coach, behandler, psykolog etc.) og er du nysgerrig på, hvordan filosofi kan bruges i din kontekst? Ønsker du at kunne arbejde med terapeutiske relationsmetoder, filosofisk begrebs- og værdiafklaring samt alternative terapeutiske metoder? Er du optaget af at kunne indgå i arbejdsrelationer med en endnu højere grad af indlevelse og med en endnu stærkere intuition? Ønsker du metodisk inspiration ift. nye og anderledes metodiske greb og øvelser, som du formentlig ikke tidligere har prøvet før.
 
 # Hvordan er uddannelsen bygget op?
 
@@ -22,12 +23,12 @@ Den filosofiske tradition rummer uanede muligheder i forhold til at styrke bevid
 
 Uddannelsen består af 8 hele undervisningsdage (9.30-16.00) fordelt på 3 måneder. Mellem hvert modul vil deltagerne skulle praktisere forskellige samtaleformer og dermed afprøve inspirationen fra kursusforløbet.  
 
-Som studerende får du: 
+Som studerende får du:
 
-- Undervisning af erfarne undervisere med solid viden inden for psykologi og filosofi 
+- Undervisning af erfarne undervisere med solid viden inden for psykologi og filosofi
 
-- Adgang til studieportal og litteratur 
+- Adgang til studieportal og litteratur
 
-- Forplejning alle dage 
+- Forplejning alle dage
 
-- Inspiration til nye samtaleformer, til en anden analytisk forståelse, til en fordybelse i din egen praksis og væren. 
+- Inspiration til nye samtaleformer, til en anden analytisk forståelse, til en fordybelse i din egen praksis og væren.
