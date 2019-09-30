@@ -207,7 +207,6 @@ prose:
           element: "multiselect"
           label: "Tilføj kategori"
           placeholder: "kategori"
-          alterable: true
           options:
             - name: "CCC Netværk"
               value: "ccc-netveark"
@@ -229,18 +228,6 @@ prose:
         field:
           element: "text"
           label: "Pris"
-      - name: "dates"
-        field:
-          element: "multiselect"
-          label: "Tilføj startdatoer"
-          placeholder: "dateor"
-          alterable: true
-      - name: "udates"
-        field:
-          element: "multiselect"
-          label: "Tilføj undervisningsdatoer"
-          placeholder: "dateor"
-          alterable: true
       - name: "image"
         field:
           element: "text"
