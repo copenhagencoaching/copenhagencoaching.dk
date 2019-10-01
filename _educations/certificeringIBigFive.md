@@ -1,7 +1,9 @@
 ---
 published: true
 title: Certificeringer i Big Five
-category: [certificeringer, proces-og-strategi]
+category:
+  - certificeringer
+  - proces-og-strategi
 image: /images/academy/b2.png
 price: '19.500,- EKSKL. MOMS / 3 KURSUSDAGE'
 pdf: /pdfs/certificering-i-big-five.pdf
@@ -9,15 +11,19 @@ contact-person: '7'
 dates:
   - start: 11. november 2019
     dag:
-    - dato: 11. november
-    - dato: 18. november
-    - dato: 4. december
+      - dato: 11. november
+      - dato: 18. november
+      - dato: 4. december
   - start: 29 januar 2020
     dag:
-    - dato: Undervisningsdatoer kommer...
-  - start: 7 april 2020
+      - dato: 29. januar
+      - dato: 5.  februar
+      - dato: 19. februar
+  - start: 7. april 2020
     dag:
-    - dato: Undervisningsdatoer kommer...
+      - dato: 7. april
+      - dato: 14. april
+      - dato: 29. april
 ---
 
 # Hvorfor skal du vælge Certificering i Big Five?
