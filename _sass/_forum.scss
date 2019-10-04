@@ -254,6 +254,11 @@
 // Medium devices (landscape tablets, 768px and down)
 
 @media (max-width: 768px) {
+
+  .page .intro {
+    width: 100% !important;
+  }
+
   .stories {
     padding-bottom: 50px;
 
