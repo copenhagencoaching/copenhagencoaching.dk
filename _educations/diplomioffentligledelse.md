@@ -35,7 +35,7 @@ Hos CCC kan du tage følgende DOL-moduler:
 
 - Ledelse og Filosofi (valgmodul, 5 ECTS)
 
-- Specialemodul /15 ECTS)
+- Specialemodul (15 ECTS)
 
 # Hvad får du ud af uddannelsen?
 
