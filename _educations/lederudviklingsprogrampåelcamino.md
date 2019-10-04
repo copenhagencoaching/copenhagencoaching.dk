@@ -7,9 +7,7 @@ price: '29.500 EKSL. MOMS (heri er inkluderet fuld forplejning, materialer og re
 contact-person: '2'
 pdf: /pdfs/lederudvikling-på-caminoen.pdf
 dates:
-  - start: 3. Oktober 2019
-    dag:
-    - dato: 3. - 9. oktober
+  - start: 3-9 oktober 2019
 ---
 
 # Hvorfor skal du vælge Lederudviklingsprogrammet på El Camino?

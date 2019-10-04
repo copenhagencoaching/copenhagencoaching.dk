@@ -17,6 +17,11 @@ dates:
     - dato: 11-12 december 2019
     - dato: 23 januar 2020
   - start: 9. marts 2020
+    dag:
+    - dato: 9-10 marts 2020
+    - dato: 20., 21. og 22. april 2020
+    - dato: 13., 14. og 15. maj 2020
+    - dato: 19. juni 2020
 ---
 
 # Hvorfor skal du vælge Proceslederuddannelsen?

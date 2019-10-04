@@ -5,7 +5,7 @@ title: Filosofisk terapi
 image: /images/coaching/MasterBusinessCoaching.jpg
 price: 29.000 eksl. moms (heri er inkluderet fuld forplejning, materialer)
 dates:
-  - start: Øst (KØBENHAVN) 30 September 20
+  - start: Datoer følger snarest
 pdf: /pdfs/filosofisk-terapi.pdf
 contact-person: '2'
 ---

@@ -5,8 +5,8 @@ title: Frustration skal ledes
 image: /images/academy/frustration-skal-ledes.jpg
 price: 38.700,- ekskl. moms (heri er inkluderet fuld forplejning, materialer)
 dates:
-  - start: September 2019
-pdf: /pdfs/fustration-skal-ledes.pdf
+  - start: Kurset afholdes som skræddersyet forløb og planlægges efter aftale med holdet.
+pdf: /pdfs/LAF-2019-efterar.pdf
 contact-person: '5'
 ---
 

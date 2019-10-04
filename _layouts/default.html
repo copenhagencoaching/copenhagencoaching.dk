@@ -190,10 +190,11 @@ $(".date-links").on("click", function () {
   var $this = $(this);
   if ($this.find(".fas").hasClass('fa-caret-down')) {
     $this.find(".fas").addClass("fa-caret-up").removeClass("fa-caret-down");
-
+    $this.next(".collapse-dates").addClass("show-dates");
   }
   else {
     $this.find(".fas").addClass("fa-caret-down").removeClass("fa-caret-up");
+    $this.next(".collapse-dates").removeClass("show-dates");
   }
 
 });

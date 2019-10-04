@@ -9,13 +9,38 @@ price: >-
 pdf: /pdfs/master-of-business-coaching.pdf
 contact-person: '7'
 dates:
-  - start: København
-    dag:
-    - dato: 24. februar 2020
-    - dato: 7. september 2020
-  - start: Vejle
-    dag:
-    - dato: 9. oktober 2019
+  - by: København
+    opstartsdatoer:
+      - start: 24. februar 2020
+        dag:
+        - dato: 24.-25. februar
+        - dato: 16.-17. marts
+        - dato: 23.-24. april
+        - dato: 18.-19. maj
+        - dato: 22.-23. juni
+      - start: 7. september 2020
+        dag:
+        - dato: 7.-8. september
+        - dato: 1.-2. oktober
+        - dato: 26.-27. oktober
+        - dato: 5.-6. november
+        - dato: 16.-17. december
+  - by: Vejle
+    opstartsdatoer:
+      - start: 5. februar 2020
+        dag:
+        - dato: 5.-6. februar
+        - dato: 2.-3. marts
+        - dato: 25.-26. marts
+        - dato: 27.-28. april
+        - dato: 11.-12. maj
+      - start: 27. august 2020
+        dag:
+        - dato: 27.-28. august
+        - dato: 29.-30. september
+        - dato: 6.-7. oktober
+        - dato: 2.-3. november
+        - dato: 2.-3. december
 ---
 
 # Hvorfor skal du vælge Masterclass of Business Coaching?
