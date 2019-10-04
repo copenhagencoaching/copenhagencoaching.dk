@@ -1,7 +1,8 @@
 ---
 published: true
 title: Diplom i offentlig ledelse
-category: diplom-i-offentlig-ledelse
+category:
+  - diplom-i-offentlig-ledelse
 image: /images/academy/b3.png
 price: Kontakt os for at høre om vores priser
 dates:
@@ -22,19 +23,19 @@ DOL-uddannelsen er en fleksibel professionsbachelor, hvor hvert modul giver 10 e
 
 Hos CCC kan du tage følgende DOL-moduler:
 
-- Det Personlige Lederskab og Forandring (Standardmodul)
+- Det Personlige Lederskab og Forandring (Standardmodul, 10 ECTS)
 
-- Ledelse af Medarbejdere og Faglig Udvikling (Standardmodul) (kommer snart)
+- Ledelse af Medarbejdere og Faglig Udvikling (Standardmodul, 10 ECTS) (kommer snart)
 
-- Ledelse af Forandrings- og Udviklingsprocesser i Offentlige Institutioner (Valgmodul) (kommer snart)
+- Ledelse af Forandrings- og Udviklingsprocesser (Valgmodul, 5 ECTS) (kommer snart)
 
-- Coaching (valgmodul)
+- Coaching (valgmodul, 5 ECTS)
 
-- Projektledelse (valgmodul)
+- Projektledelse (valgmodul, 5 ECTS)
 
-- Ledelse og Filosofi (valgmodul)
+- Ledelse og Filosofi (valgmodul, 5 ECTS)
 
-- Specialemodul  
+- Specialemodul /15 ECTS)
 
 # Hvad får du ud af uddannelsen?
 
