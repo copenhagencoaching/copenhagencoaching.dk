@@ -17,26 +17,31 @@
 
         h3 {
           display: block;
-          border-bottom: 2px solid #ffffff;
-          margin: 20px 0 0 0;
+          border-bottom: 2px solid rgba(255, 255, 255, 0.25);
+          margin: 20px 0 20px 0;
+          padding-bottom: 20px;
+
         }
+
 
         a {
             display: block;
         }
 
         .collapse-dates {
-          display: none;
-
+          height: 0;
+          overflow: hidden;
+          transition: all 5s ease-in-out;
         }
 
         .collapse-dates.show-dates {
-          display: inline-block;
+          height: auto;
         }
 
         .facta-box {
             background: $black;
             color: #ffffff;
+            transition: all 5s ease-in-out;
             padding: 25px;
             z-index: 100;
 
@@ -55,7 +60,7 @@
                 align-items: center;
                 color: #ffffff;
                 justify-content: space-between;
-                padding: 0;
+                padding-bottom: 10px;
                 margin-bottom: 7px;
                 cursor: pointer;
 
@@ -78,6 +83,10 @@
                 flex-direction: column;
                 width: 100%;
                 margin-top: 20px;
+
+                a {
+                  padding: 10px 0;
+                }
             }
 
             p {
