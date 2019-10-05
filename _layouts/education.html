@@ -46,8 +46,8 @@ layout: page
 
         {% if date.dag %}
         <div class="date-box">
-          <a class="date-links" data-toggle="collapse" href="#dateCollapse{{ forloop.index }}" role="button" aria-expanded="false" aria-controls="dateCollapse{{ forloop.index }}">{{ date.start }}<i class="fas fa-caret-down"></i></a>
-          <div id="dateCollapse{{ forloop.index }}" class="collapse">
+          <a class="date-links" role="button">{{ date.start }}<i class="fas fa-caret-down"></i></a>
+          <div id="dateCollapse" class="collapse-dates">
             <ul>
               {% for dag in date.dag %}
               <li>{{ dag.dato }}</li>
