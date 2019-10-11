@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Karl Tomm besøger CCC
 image: images/forum/KarlTomm.jpg
 author: Morten Bertelsen
