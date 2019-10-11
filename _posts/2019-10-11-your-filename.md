@@ -3,6 +3,9 @@ published: false
 title: ''
 image: images/forum/KarlTomm.jpg
 author: Morten Bertelsen
+tags:
+  - coaching
+  - events
 ---
 ## CCC Community afholder aftenarrangement med den verdensberømte, canadiske psykiater Karl Tomm. Det foregår på Blegdamsvej 104C, 2100 København Ø. Arrangementet finder sted fra kl. 17.00 og slutter kl. 21.00.  
 
