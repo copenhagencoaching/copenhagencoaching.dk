@@ -1,6 +1,6 @@
 ---
 published: false
-title: ''
+title: Karl Tomm besøger CCC
 image: images/forum/KarlTomm.jpg
 author: Morten Bertelsen
 tags:
