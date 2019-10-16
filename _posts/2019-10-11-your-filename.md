@@ -7,7 +7,7 @@ tags:
   - coaching
   - events
 ---
-## CCC Community afholder aftenarrangement med den verdensberømte, canadiske psykiater Karl Tomm. 
+## CCC Community afholder aftenarrangement med den verdensberømte, canadiske psykiater Karl Tomm d. 25. november kl. 17-21. 
 
 Karl Tomm er en særdeles erfaren og vis herre inden for samtaleterapi med et systemisk afsæt. Han har været en ledende skikkelse på sit felt, når det omhandler samtaler og forskellige tilgange til samtaler - samtaler om det væsentlige. 
 
