@@ -20,8 +20,7 @@ Vi vil udfolde emner som fx generøsitetens gestus, det frie lejde, ingenmandsla
 
 Således handler denne masterclass om at kunne blive den andens gidsel i filosofisk forstand, om anonymisering og bevarelsen af hinandens hemmeligheder, etableringen af et neutralt territorium og ikke mindst tilegnelsen af den grundstemning, som er fyldt af åbenhjertig og alvorlig mildhed.
 
-Undervisningen foregår alle dage fra 9.30 til 16.00 (lettere morgenforplejning fra kl. 9.00)
-Vi afslutter forløbet med en fælles middag om aftenen (den 27.5) på en nærliggende restaurant.
+Undervisningen foregår på Blegdamsvej 104C, 3. sal (baghuset th). Alle dage fra 9.30 til 16.00 (lettere morgenforplejning fra kl. 9.00). Vi afslutter forløbet med en fælles middag om aftenen (den 27.5) på en nærliggende restaurant.
 
 Er du medlem af CCC-community får du 15 % rabat (oplyses ved tilmelding).
 
