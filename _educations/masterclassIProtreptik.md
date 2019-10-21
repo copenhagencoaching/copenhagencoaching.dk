@@ -1,28 +1,31 @@
 ---
 published: true
-category: filosofi
+category:
+  - filosofi
 title: Masterclass i Protreptik
 image: /images/academy/b7.png
-price: '12.000,- EKSKL. MOMS / 3 dage'
+price: '12.000,- EKSKL. MOMS / 3 dage inklusiv frokost og lettere morgenforplejning'
 pdf: 'false'
 contact-person: '6'
 dates:
-  - start: 4. maj 2020
-    dag:
-    - dato: 4. - 5. maj
-    - dato: 27. maj
+  - start: '4., 5. & 27. maj 2020'
 ---
 
-# Hvorfor skal du vælge Masterclass i Protreptik?
+# LIVSSPEJLET: OM AT HOPPE UD AF det mulige SELVBEDRAG OG IND I DEN NORMATIVITET, DER KOMMER FRA HJERTET
 
-Hvert år sætter vi fokus på dele af protreptikken, som vi enten oplever kan være vanskeligt naturligt at bringe i spil i løbet af en protreptisk samtale eller som er for avanceret at arbejde med i vores almindelige protreptiske forløb. Så er du optaget af protreptikken og ønsker at arbejde endnu mere i dybden for at komme tættere på dig selv og dine værdier, er dette forløb rigtigt for dig.
+Velkommen til vores årlige masterclass i protreptik, som dette år (2020) sætter specielt fokus på gruppe-protreptikken. 
 
-# Hvordan er uddannelsen bygget op?
+Vi vil arbejde med de dynamikker og greb, som er særligt vigtige at have for øje og evne at praktisere, når denne filosofiske samtalekunst foregår i og med grupper (primært i størrelsesordenen: 3-6 stk.). Men vi vil også kigge på og arbejde med indstillingszonerne og dermed også med de 10 principper i protreptikken.
+Vi vil udfolde emner som fx generøsitetens gestus, det frie lejde, ingenmandslandet, refugiet, af-psykologiseringen og i det hele taget dyrke kapaciteten til at kunne holde begrebet/værdien svævende i ubestemthed.
 
-Kurset vil være en blanding af teoretiske oplæg og praktiske individuelle, samt gruppe protreptikker.
+Således handler denne masterclass om at kunne blive den andens gidsel i filosofisk forstand, om anonymisering og bevarelsen af hinandens hemmeligheder, etableringen af et neutralt territorium og ikke mindst tilegnelsen af den grundstemning, som er fyldt af åbenhjertig og alvorlig mildhed.
 
-# Hvad får du ud af uddannelsen?
+Undervisningen foregår alle dage fra 9.30 til 16.00 (lettere morgenforplejning fra kl. 9.00)
+Vi afslutter forløbet med en fælles middag om aftenen (den 27.5) på en nærliggende restaurant.
 
-- 3 dags kursus
+Er du medlem af CCC-community får du 15 % rabat (oplyses ved tilmelding).
 
-- Forplejning og litteratur
+# Om masterclasses:
+Hvert år sætter vi fokus på dele af protreptikken, som vi enten oplever kan være vanskeligt at bringe i spil i løbet af en protreptisk samtale eller som er for avanceret at arbejde med i vores almindelige protreptiske forløb. Så er du optaget af protreptikken og ønsker at arbejde endnu mere i dybden for at komme tættere på dig selv og dine værdier, er dette forløb rigtigt for dig.
+
+Masterclasses er baseret på en blanding af teoretiske oplæg og praktiske individuelle, samt gruppe protreptikker.
