@@ -9,7 +9,6 @@ dates:
   - start: Datoer for Diplom i offentlig ledelse kommer snarest
 pdf: 'false'
 contact-person: '7'
-location: Teststed
 ---
 
 Er du leder, eller drømmer du om at bliver det? Trænger du til at få styrket dine lederkompetencer, og samtidig få de nyeste og brugbare værktøjer til medarbejdersamtaler og til håndtering af konfliktsituationer? Så tag uddannelsen Diplom i Offentlig Ledelse (DOL) hos os!
