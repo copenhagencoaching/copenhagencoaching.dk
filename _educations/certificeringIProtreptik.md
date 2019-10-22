@@ -1,13 +1,17 @@
 ---
 published: true
 title: Certificering i Protreptik
-category: [filosofi, lederskab, certificeringer]
+category:
+  - certificeringer
+  - filosofi
+  - lederskab
 image: /images/academy/certificering-i-protreptik.jpg
-price: 70.000,- EKSKL. MOMS
+price: '70.000,- EKSKL. MOMS'
 dates:
   - start: Forløbet aftales individuelt
 pdf: /pdfs/Certificering-i-protreptik-efterår.pdf
 contact-person: '6'
+location: 'Blegdamsvej 104C, 3. sal, baghuset th., 2100 København Ø'
 ---
 
 # Hvorfor skal du vælge Certificering i Protreptik?
