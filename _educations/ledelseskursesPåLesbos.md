@@ -1,6 +1,9 @@
 ---
 published: true
-category: [filosofi, lederskab, personlig-udvikling-og-transition]
+category:
+  - filosofi
+  - lederskab
+  - personlig-udvikling-og-transition
 title: Ledelseskursus på Lesbos
 image: /images/academy/lesbos.jpg
 price: >-
@@ -11,6 +14,7 @@ contact-person: '6'
 dates:
   - start: 4-11 juni 2020
   - start: 10-17 september 2020
+location: Lesbos
 ---
 
 # Hvorfor skal du vælge Ledelseskursus på Lesbos?
