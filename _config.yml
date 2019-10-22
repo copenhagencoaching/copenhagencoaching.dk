@@ -237,6 +237,11 @@ prose:
           element: "text"
           label: "Pdf"
           help: "Hvis der ikke er en pdf og ikke skal være nogen pdf knap skal der stå 'false'"
+      - name: "location"
+        field:
+          element: "text"
+          label: "Lokation"
+          help: "Sted"
       - name: "contact-person"
         field:
           element: "select"

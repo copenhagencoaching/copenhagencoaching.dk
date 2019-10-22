@@ -17,6 +17,14 @@ layout: page
         </b>
         <p> {{ page.price }} </p>
 
+        {% if page.location %}
+        <b>
+          <p>Sted:</p>
+        </b>
+        <p> {{ page.location }} </p>
+
+        {% endif %}
+
         <!-- Datoer  -->
         {% if page.dates %}
         <br>
