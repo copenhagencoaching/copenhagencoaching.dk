@@ -7,6 +7,7 @@ image: /images/academy/ccc-community.jpg
 price: '2.500,- ekskl. moms pr. år'
 pdf: 'false'
 contact-person: '5'
+location: 'Blegdamsvej 104C, 3. sal, baghuset th., 2100 København Ø'
 ---
 # Et fællesskab for vedvarende læring og udvikling af dit lederskab
 
