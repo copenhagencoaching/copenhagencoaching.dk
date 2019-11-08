@@ -19,7 +19,7 @@ Arrangementet afholdes på Blegdamsvej 104C, 2100 København Ø. fra kl. 17.00 t
 
 Vi håber at se dig til denne særlige aften - vi glæder os selv meget. 
 
-Arrangementet er gratis for medlemmer af [CCC Community](https://www.copenhagencoaching.dk/academy/ccccommunity/) og koster uden medlemskab 950.- kr. + moms. Tilmelding kan ske ved at sende en mail til Morten Bertelsen, mb@copenhagencoaching.dk, eller via vores hjemmeside via dette [link](https://www.copenhagencoaching.dk/#contact)
+Arrangementet er gratis for medlemmer af [CCC Community](https://www.copenhagencoaching.dk/academy/ccccommunity/) og koster uden medlemskab 950.- kr. + moms. Tilmelding kan ske ved at sende en mail til Morten Bertelsen, mb@copenhagencoaching.dk.
  
 Der bliver rift om pladserne så vent ikke for længe med din tilmelding, hvis du vil være sikker på en plads. 
 
