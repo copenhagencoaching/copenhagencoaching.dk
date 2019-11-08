@@ -76,6 +76,6 @@ MBC’en består af 4 semestre, som du også kan tage individuelt. Et semester b
 
 - Løbende supervision og et stærkt netværk
 
-- Coachingsamtaler med flere underviserer
+- Coachingsamtaler med flere undervisere
 
 - Forplejning alle dage
