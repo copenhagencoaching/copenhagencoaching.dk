@@ -14,6 +14,11 @@ dates:
       - dato: 11. november
       - dato: 18. november
       - dato: 4. december
+  - start: 21. november 2019 (HERNING)
+    dag:
+      - dato: 21. november
+      - dato: 22. november
+      - dato: 11. december
   - start: 29 januar 2020
     dag:
       - dato: 29. januar
