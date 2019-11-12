@@ -45,7 +45,7 @@ dates:
 location: 'Blegdamsvej 104C, 3. sal, baghuset th., 2100 København Ø'
 ---
 
-# Hvorfor skal du vælge Masterclass of Business Coaching?
+# Hvorfor skal du vælge Master of Business Coaching?
 
 Ønsker du at blive dygtig til at føre produktive og virkningsfulde dialoger? At kunne flytte både grupper og individer i en mere konstruktiv retning og derved forebygge stress, organisatorisk stagnation og udbrændthed? Så vælg uddannelsen: Master of Business Coaching (MBC).
 
