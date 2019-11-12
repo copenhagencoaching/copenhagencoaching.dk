@@ -22,7 +22,7 @@ Hvad får du:
 -	2 faglige arrangementer årligt
 -	1 gratis eksemplar af nye CCC-udgivelser
 -	3 årlige nyhedsbreve
--	15% rabat på på events, eksklusive arrangementer og udvalgte kurser
+-	15% rabat på events, eksklusive arrangementer og udvalgte kurser
 
 ## Faglige arrangementer i 2019/20
 25 november 2019:	Mød Karl Tomm:
