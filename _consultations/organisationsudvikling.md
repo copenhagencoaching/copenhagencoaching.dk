@@ -13,10 +13,10 @@ Vi er optaget af og meget tydelige på, at det eksterne blik og den ekspertise v
 
 - Rekruttering & onboarding 
 
-- TekstfeltStrategi 
+- Strategi 
 
 - Procesfacilitering 
 
 - Teamudvikling 
 
-- Innovation 
+- Innovation
