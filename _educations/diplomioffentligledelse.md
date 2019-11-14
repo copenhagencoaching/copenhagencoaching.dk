@@ -15,7 +15,7 @@ Er du leder, eller drømmer du om at bliver det? Trænger du til at få styrket 
 
 Uddannelsen kan enten tages på åbne hold eller som skræddersyet forløb og det er muligt at tilrettelægge undervisningen således at der tages hensyn til de ønsker og behov, du har.
 
-DOL-uddannelsen er en fleksibel professionsbachelor, hvor hvert modul giver 10 eller 15 ECTS point. For at få en fuld diplomuddannelse skal du have tre standardmoduler og tre valgmoduler, svarende til 45 ECTS point, samt lave en afsluttende opgave (Specialemodulet), der svarer til 15 ECTS point – og derved opnås de 60 ECTS point, en fuld diplomuddannelse kræver.
+DOL-uddannelsen er en fleksibel professionsbachelor, hvor hvert modul giver 5, 10 eller 15 ECTS point. For at få en fuld diplomuddannelse skal du have tre standardmoduler og tre valgmoduler, svarende til 45 ECTS point, samt lave en afsluttende opgave (Specialemodulet), der svarer til 15 ECTS point – og derved opnås de 60 ECTS point, en fuld diplomuddannelse kræver.
 
 
 Hos CCC kan du tage følgende DOL-moduler:
