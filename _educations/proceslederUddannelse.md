@@ -10,13 +10,6 @@ price: >-
 pdf: /pdfs/proces-leder-uddannelse.pdf
 contact-person: '5'
 dates:
-  - start: 25. september 2019
-    dag:
-      - dato: 25-26 september 2019
-      - dato: 28-29 oktober 2019
-      - dato: 20-21 november 2019
-      - dato: 11-12 december 2019
-      - dato: 23 januar 2020
   - start: 9. marts 2020
     dag:
       - dato: 9-10 marts 2020
