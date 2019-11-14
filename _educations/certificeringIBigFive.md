@@ -9,11 +9,6 @@ price: '19.500,- EKSKL. MOMS / 3 KURSUSDAGE'
 pdf: /pdfs/certificering-i-big-five.pdf
 contact-person: '7'
 dates:
-  - start: 11. november 2019
-    dag:
-      - dato: 11. november
-      - dato: 18. november
-      - dato: 4. december
   - start: 21. november 2019 (HERNING)
     dag:
       - dato: 21. november
