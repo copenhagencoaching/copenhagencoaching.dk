@@ -9,11 +9,11 @@ price: '19.500,- EKSKL. MOMS / 3 KURSUSDAGE'
 pdf: /pdfs/certificering-i-big-five.pdf
 contact-person: '7'
 dates:
-  - start: 21. november 2019 (HERNING)
+  - start: 13. januar 2020 (Aarhus)
     dag:
-      - dato: 21. november
-      - dato: 22. november
-      - dato: 11. december
+      - dato: 13. januar
+      - dato: 14. januar
+      - dato: 30. januar
   - start: 29 januar 2020
     dag:
       - dato: 29. januar
