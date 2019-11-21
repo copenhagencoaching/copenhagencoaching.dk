@@ -15,6 +15,6 @@ Arbejdet med udfordringerne sker igennem tre forskellige psykologiske tilgange h
 
 Samtalerne er fortrolige og varer ca. 75 min.
 
-## Personlig coaching / 2000,- kr. ekskl. moms per session
+## Personlig coaching / 2200,- kr. ekskl. moms per session
 
-Du kan også købe klippekort á 5 sessioner (1800,- kr.ekskl. moms per klip) eller á 10 sessioner (1600,- kr. ekskl. moms per klip).
+Du kan også købe klippekort á 5 sessioner (1900,- kr.ekskl. moms per klip) eller á 10 sessioner (1700,- kr. ekskl. moms per klip).
