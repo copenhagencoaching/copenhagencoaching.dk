@@ -4,7 +4,7 @@ id: 1
 order: 1
 title: Executive coaching
 image: /images/coaching/c1.jpg
-contact-person: '1'
+contact-person: '3'
 ---
 
 **Når investering i topledelsen ses direkte på bundlinien**
