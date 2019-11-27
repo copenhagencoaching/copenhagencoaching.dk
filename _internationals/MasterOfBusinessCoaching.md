@@ -3,7 +3,7 @@ published: true
 title: Master of Business Coaching
 image: /images/international/i1.jpg
 order: 1
-contact-person: '2'
+contact-person: '4'
 ---
 
 The Master of Business Coaching is a 2-years program divided into four semesters providing students with conceptual frameworks reflecting a cognitive, psycho-dynamic and systemic-narrative approach. The education is anchored within both philosophical and psychological thinking. The MBC develops the student’s coaching capabilities in order to handle a variety of business related issues. We are facilitating a learning environment where students are developing skills in order to take on the responsibility of serving employees and leaders with coaching.
