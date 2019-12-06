@@ -15,6 +15,8 @@ I Copenhagen Coaching Center har vi udviklet en podcast-serie som stiller skarpt
 ## Protreptikkens sprog
 Hvad kan filosofien i praksis? Hvilken relevans har den filosofiske samtale i vores moderne samfundsliv? Podcasten stiller også skarpt på samtalens form, herunder meningen og betydningen af filosofi i en ledelseskontekst. Samtalen ledes frem af direktør og partner Mette Mejlhede, seniorkonsulent Kim Gørtz og associeret partner Morten Paustian.
 
+[Link til podcasten](https://soundcloud.com/user-167047692/protraeptik-den-filosofiske-samtale)
+
 Alle afsnit i serien:
 
 1.	Introduktion til coaching og ledelse
