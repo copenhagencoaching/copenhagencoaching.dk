@@ -1,8 +1,8 @@
 ---
 published: false
 title: >-
-  Introduktion til coaching og ledelse (1. afsnit i podcast-serien De
-  undersøgende rum)
+  Introduktion til De undersøgende rum, CCC og ledelsesfænomenet (1. afsnit i
+  podcast-serien De undersøgende rum)
 image: /images/forum/Podcast.jpg
 author: Morten Paustian
 tags:
@@ -27,6 +27,6 @@ De øvrige afsnit i serien:
 4.	Tankens magt
 5.	Syntesemodellen
 6.	Det decentrede subjekt 
-7.	Eventualerne 
+7.	Eventualerne - en måde at være i verden på
 
 Serien er produceret for Copenhagen Coaching Center af Morten Levinsen
