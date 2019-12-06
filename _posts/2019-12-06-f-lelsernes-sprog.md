@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Følelsernes sprog (2. afsnit i podcast-serien De undersøgende rum)
 image: /images/forum/Podcast.jpg
 author: Frederikke Winther

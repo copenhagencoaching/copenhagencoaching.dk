@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Det decentrerede subjekt (6. afsnit i podcast-serien De undersøgende rum)
 image: /images/forum/Podcast.jpg
 author: Morten Paustian

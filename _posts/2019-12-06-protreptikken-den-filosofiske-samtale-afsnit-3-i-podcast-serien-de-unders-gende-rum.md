@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: >-
   Protreptikken - den filosofiske samtale (3. afsnit i podcast-serien De
   undersøgende rum)

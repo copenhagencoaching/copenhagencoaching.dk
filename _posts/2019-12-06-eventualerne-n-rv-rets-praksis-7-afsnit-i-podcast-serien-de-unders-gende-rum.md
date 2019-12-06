@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: >-
   Eventualerne – en måde at være i verden på (7. afsnit i podcast-serien De
   undersøgende rum)

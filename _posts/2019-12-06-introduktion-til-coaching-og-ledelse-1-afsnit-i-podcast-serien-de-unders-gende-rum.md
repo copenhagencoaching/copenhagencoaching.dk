@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: >-
   Introduktion til De undersøgende rum, CCC og ledelsesfænomenet (1. afsnit i
   podcast-serien De undersøgende rum)

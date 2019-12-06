@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: >-
   Syntesemodellen – den refleksive ramme (5. afsnit i podcast-serien De
   undersøgende rum)
