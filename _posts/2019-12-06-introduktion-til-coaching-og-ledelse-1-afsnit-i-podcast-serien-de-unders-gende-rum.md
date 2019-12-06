@@ -4,7 +4,7 @@ title: >-
   Introduktion til coaching og ledelse (1. afsnit i podcast-serien De
   undersøgende rum)
 image: /images/forum/Podcast.jpg
-author: Frederikke Winther
+author: Morten Paustian
 tags:
   - coaching
   - ledelse
