@@ -1,6 +1,6 @@
 ---
 published: false
-title: Tankens Magt (3. afsnit i podcast-serien De undersøgende rum)
+title: Tankens Magt (4. afsnit i podcast-serien De undersøgende rum)
 image: /images/forum/Podcast.jpg
 author: Frederikke Winther
 tags:
