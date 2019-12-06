@@ -23,6 +23,6 @@ Alle afsnit i serien:
 4.	Tankens magt
 5.	Syntesemodellen - den refleksive ramme
 6.	Det decentrede subjekt 
-7.	Eventualerne - nærværets praksis
+7.	Eventualerne - en måde at være i verden på
 
 Serien er produceret for Copenhagen Coaching Center af Morten Levinsen
