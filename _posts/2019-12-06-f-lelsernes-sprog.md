@@ -1,6 +1,6 @@
 ---
 published: true
-title: Følelsernes sprog (2. afsnit i podcast-serien De undersøgende rum)
+title: Følelsernes sprog
 image: /images/forum/Podcast.jpg
 author: Frederikke Winther
 tags:
@@ -10,7 +10,7 @@ tags:
 ---
 I Copenhagen Coaching Center har vi udviklet en podcast-serie som stiller skarpt på centrale undersøgende rum inden for coaching og ledelse. Serien rummer syv afsnit, der tilsammen udgør spændende samtaler og essentielle markører i forståelsen af hvordan vi arbejder med coaching og ledelse. Lyt med og fordyb dig i såvel psykologiens som filosofiens verden.
 
-## Følelsernes sprog
+# Følelsernes sprog
 Hvad er følelser? Hvordan opleves de? Hvilken betydning har følelser i vores liv – dvs. hvad vil de os? I denne podcast berører vi følelsernes sprog og den æstetik der knytter sig til følelserne. Det foregår som en samtale mellem seniorkonsulent Kim Gørtz og associeret partner Morten Paustian, der sammen undersøger følelserne som en integreret del af den menneskelige eksistens.
 
 [Link til pdcasten](https://soundcloud.com/user-167047692/folelsernes-sprog)
