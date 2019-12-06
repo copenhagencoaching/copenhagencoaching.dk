@@ -6,9 +6,10 @@ category:
 image: /images/academy/b3.png
 price: 'Vejledende pris: 7.500 ekskl. moms pr. 5 ECTS'
 dates:
-  - by: Coaching
-    opstartsdatoer:
-      - start: '30/1, 12/2 og 5/3 (eksamen i maj)'
+  opstartsdatoer:
+    - start: Valgfagsmodul Coaching 30/1-19
+      dag:
+        - dato: '30/1, 12/2 og 5/3 (eksamen i maj)'
 pdf: 'false'
 contact-person: '7'
 ---
