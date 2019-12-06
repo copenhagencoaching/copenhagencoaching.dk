@@ -1,7 +1,7 @@
 ---
 published: false
 title: >-
-  Protreptikken - den filosofiske samtale (afsnit 3 i podcast-serien De
+  Protreptikken - den filosofiske samtale (3. afsnit i podcast-serien De
   undersøgende rum)
 image: /images/forum/Podcast.jpg
 author: Frederikke Winther
