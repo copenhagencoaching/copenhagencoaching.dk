@@ -9,7 +9,7 @@ price: '29.500 EKSL. MOMS (heri er inkluderet fuld forplejning, materialer og re
 contact-person: '2'
 pdf: /pdfs/lederudvikling-på-caminoen.pdf
 dates:
-  - start: Forår 2020 (specifikke tadoer følger snarest)
+  - start: Forår 2020 (specifikke datoer følger snarest)
 ---
 
 # Hvorfor skal du vælge Lederudviklingsprogrammet på El Camino?
