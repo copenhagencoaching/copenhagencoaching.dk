@@ -1,8 +1,8 @@
 ---
 published: false
-title: Følelsernes sprog (afsnit 2 i podcast-serien De undersøgende rum)
+title: Følelsernes sprog (2. afsnit i podcast-serien De undersøgende rum)
 image: /images/forum/Podcast.jpg
-author: Morten Paustian
+author: Frederikke Winther
 tags:
   - coaching
   - ledelse
