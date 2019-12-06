@@ -1,13 +1,14 @@
 ---
 published: true
-category: personlig-udvikling-og-transition
+category:
+  - personlig-udvikling-og-transition
 title: Executive Transition
 image: /images/academy/executive-transition.jpg
 price: '24.900,- EKSKL. MOMS  (heri er inkluderet fuld forplejning, materialer)  '
 pdf: 'false'
 contact-person: '1'
 dates:
-  - start: Nye seminarer til efteråret 2019 (datoer følger snarest). Vi opstarter også løbende hold
+  - start: Nye seminarer til foråret 2020 (datoer følger snarest)
 ---
 
 
