@@ -1,13 +1,15 @@
 ---
 published: true
-category: [lederskab, personlig-udvikling-og-transition]
+category:
+  - lederskab
+  - personlig-udvikling-og-transition
 title: Leder udviklingsprogram på El Camino
 image: /images/educations/ed-1.jpg
 price: '29.500 EKSL. MOMS (heri er inkluderet fuld forplejning, materialer og rejse) '
 contact-person: '2'
 pdf: /pdfs/lederudvikling-på-caminoen.pdf
 dates:
-  - start: 3-9 oktober 2019
+  - start: Forår 2020 (specifikke tadoer følger snarest)
 ---
 
 # Hvorfor skal du vælge Lederudviklingsprogrammet på El Camino?
