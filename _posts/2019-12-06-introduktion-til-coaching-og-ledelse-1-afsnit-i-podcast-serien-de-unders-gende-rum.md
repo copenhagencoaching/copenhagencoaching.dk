@@ -29,4 +29,6 @@ De øvrige afsnit i serien:
 6.	Det decentrede subjekt 
 7.	Eventualerne - en måde at være i verden på
 
+[Link til alle afsnit i De undersøgende rum](https://soundcloud.com/user-167047692)
+
 Serien er produceret for Copenhagen Coaching Center af Morten Levinsen
