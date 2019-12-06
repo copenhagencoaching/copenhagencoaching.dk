@@ -9,7 +9,7 @@ image: /images/academy/lesbos.jpg
 price: >-
   30.000,- ekskl. moms (heri er inkluderet fuld forplejning, materialer og
   rejse)
-pdf: /pdfs/ledelseskursus-på-lesbos.pdf
+pdf: /pdfs/Lesbos 2020.pdf
 contact-person: '6'
 dates:
   - start: 4-11 juni 2020
