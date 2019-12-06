@@ -13,6 +13,8 @@ I Copenhagen Coaching Center har vi udviklet en podcast-serie som stiller skarpt
 ## Det decentrerede subjekt
 I denne podcasts tager Morten Levinsen til Hellerup for at drøfte det systemisk-narrative spor i coaching. Her møder han seniorkonsulent Morten Bertelsen. I det systemisk-narrative spor kigges der på relationer og sammenhænge som selvskabende systemer. Og på mennesket som en eksistentiel udstrækning af relationer og deres betydning for selvopfattelse og identitet. Derudover berører podcasten også de mere akademiske og videnskabelige strømninger omkring socialkonstruktivismen, der er den videnskabelige hovedreference i forståelsen af den systemisk narrative tilgang.
 
+[Link til podcasten](https://soundcloud.com/user-167047692/det-decentrerede-subjekt-den-systemisk-narrative-tilgang-til-coaching)
+
 Alle afsnit i serien:
 
 1.	Introduktion til coaching og ledelse
