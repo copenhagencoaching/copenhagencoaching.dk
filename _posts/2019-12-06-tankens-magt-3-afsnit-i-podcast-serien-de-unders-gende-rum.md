@@ -15,7 +15,7 @@ Hvilken rolle spiller tanken for det enkelte menneske? Og hvordan mønstrer tank
 
 [Link til podcasten](https://soundcloud.com/user-167047692/tankens-magt-den-kognitive-tilgang-til-coaching)
 
-Alle afsnit i serien:
+#### Alle afsnit i serien:
 
 1.	Introduktion til De undersøgende rum, CCC og ledelsesfænomenet
 2.	Følelsernes sprog
