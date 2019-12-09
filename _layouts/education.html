@@ -29,7 +29,7 @@ layout: page
         {% if page.dates %}
         <br>
         <b>
-          <p>Kommende opstartsdatoer:</p>
+          {% if page.event-title %}<p>{{ page.event-title }}:</p>{% endif %}
         </b>
 
 

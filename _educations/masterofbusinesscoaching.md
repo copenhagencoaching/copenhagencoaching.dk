@@ -9,6 +9,7 @@ image: /images/coaching/ledelsessparring.jpg
 price: '45.900,- EKSKL. MOMS (heri er inkluderet fuld forplejning og kursusmaterialer)'
 pdf: /pdfs/master-of-business-coaching.pdf
 contact-person: '7'
+event-title: Kommende hold
 dates:
   - by: København
     opstartsdatoer:

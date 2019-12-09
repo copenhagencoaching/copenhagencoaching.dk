@@ -7,6 +7,7 @@ image: /images/academy/b7.png
 price: '12.000,- EKSKL. MOMS / 3 dage inklusiv frokost og lettere morgenforplejning'
 pdf: 'false'
 contact-person: '6'
+event-title: Kommende hold
 dates:
   - start: '4., 5. & 27. maj 2020'
 location: 'Blegdamsvej 104C, 3. sal, baghuset th., 2100 København Ø'

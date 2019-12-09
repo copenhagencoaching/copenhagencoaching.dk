@@ -8,6 +8,7 @@ image: /images/academy/b2.png
 price: '19.500,- EKSKL. MOMS / 3 KURSUSDAGE'
 pdf: /pdfs/certificering-i-big-five.pdf
 contact-person: '7'
+event-title: Kommende hold
 dates:
   - start: 13. januar 2020 (Aarhus)
     dag:

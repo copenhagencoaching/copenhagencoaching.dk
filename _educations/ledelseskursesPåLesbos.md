@@ -11,6 +11,7 @@ price: >-
   rejse)
 pdf: /pdfs/Lesbos 2020.pdf
 contact-person: '6'
+event-title: Kommende rejser
 dates:
   - start: 4-11 juni 2020
   - start: 10-17 september 2020

@@ -4,6 +4,7 @@ category: proces-og-strategi
 title: Filosofisk terapi
 image: /images/coaching/MasterBusinessCoaching.jpg
 price: 29.000 eksl. moms (heri er inkluderet fuld forplejning, materialer)
+event-title: Kommende hold
 dates:
   - start: Datoer følger snarest
 pdf: /pdfs/filosofisk-terapi.pdf
