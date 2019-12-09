@@ -6,7 +6,7 @@ author: Morten Paustian
 tags:
   - coaching
   - ledelse
-  - Podcasts
+  - Podcast
 ---
 
 
