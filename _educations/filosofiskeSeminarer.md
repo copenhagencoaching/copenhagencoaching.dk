@@ -6,6 +6,7 @@ image: /images/academy/b8.png
 price: 6.000,- EKSKL. MOMS
 dates:
   - start: Nye seminarer til efteråret 2019 (datoer følger snarest) 
+special: false
 ---
 
 # Hvorfor skal du vælge Filosofiske seminarer?

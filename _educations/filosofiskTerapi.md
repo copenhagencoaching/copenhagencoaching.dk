@@ -9,6 +9,7 @@ dates:
   - start: Datoer følger snarest
 pdf: /pdfs/filosofisk-terapi.pdf
 contact-person: '2'
+special: true
 ---
 
 

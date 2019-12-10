@@ -26,6 +26,7 @@ dates:
       - dato: 14. april
       - dato: 29. april
 location: 'Blegdamsvej 104C, 3. sal, baghuset th., 2100 København Ø'
+special: false
 ---
 
 # Hvorfor skal du vælge Certificering i Big Five?

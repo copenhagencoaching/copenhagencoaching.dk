@@ -8,6 +8,7 @@ dates:
   - start: Kurset afholdes som skræddersyet forløb og planlægges efter aftale med holdet.
 pdf: /pdfs/LAF-2019-efterar.pdf
 contact-person: '5'
+special: true
 ---
 
 # Hvorfor skal du vælge Frustration skal ledes?

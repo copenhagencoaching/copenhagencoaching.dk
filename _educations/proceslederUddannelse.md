@@ -18,6 +18,7 @@ dates:
       - dato: '13., 14. og 15. maj 2020'
       - dato: 19. juni 2020
 location: 'Blegdamsvej 104C, 3. sal, baghuset th., 2100 København Ø'
+special: false
 ---
 
 # Hvorfor skal du vælge Proceslederuddannelsen?

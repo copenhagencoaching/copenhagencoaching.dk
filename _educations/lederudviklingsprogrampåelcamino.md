@@ -11,6 +11,7 @@ pdf: /pdfs/lederudvikling-på-caminoen.pdf
 event-title: Kommende rejser
 dates:
   - start: Forår 2020 (specifikke datoer følger snarest)
+special: true
 ---
 
 # Hvorfor skal du vælge Lederudviklingsprogrammet på El Camino?

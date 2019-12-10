@@ -44,6 +44,7 @@ dates:
           - dato: 2.-3. november
           - dato: 2.-3. december
 location: 'Blegdamsvej 104C, 3. sal, baghuset th., 2100 København Ø'
+special: false
 ---
 
 # Hvorfor skal du vælge Master of Business Coaching?

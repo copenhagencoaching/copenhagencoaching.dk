@@ -1,8 +1,8 @@
 ---
 layout: academy-layout
-title: Academy
+title: Skræddersyede uddannelser
 signup: Uddannelses tilbud
-show: true
+show: false
 order: 1
 image: /images/academy/academy-banner.jpg
 description: CCC tilbyder åbne uddannelser, lederuddannelser og kurser til dig der ønsker høj faglig kvalitet og virkelighedsnære læreprocesser i samspillet mellem teori og praksis.
@@ -11,7 +11,7 @@ description: CCC tilbyder åbne uddannelser, lederuddannelser og kurser til dig 
 <div class="education-list">
   <div class="row">
     {% for education in site.educations %}
-    {% if education.special == false %}
+    {% if education.special == true %}
 
     <div class="col-lg-3 col-md-6 col-sm-6 col-12 education-box">
       <div class="card education-card">
@@ -28,17 +28,7 @@ description: CCC tilbyder åbne uddannelser, lederuddannelser og kurser til dig 
 
     {% endif %}
     {% endfor %}
-    <section class="category-list">
-      <div class="row justify-content-center">
-        <div class="outer-category col-12 col-lg-4 col-md-6 col-sm-6">
-          <a href="/costumeducations">
-            <div class="inner-category" style="background-image: url('/images/academy/b6.png')">
-              <h4>Skræddersyede uddannelser</h4>
-            </div>
-          </a>
-        </div>
-      </div>
+    <a class="read-more" href="/academy/">← Se flere uddannelser</a>
   </div>
-</section>
 </div>
 {% include contact.html %}

@@ -16,6 +16,7 @@ dates:
   - start: 4-11 juni 2020
   - start: 10-17 september 2020
 location: Lesbos
+special: false
 ---
 
 # Hvorfor skal du vælge Ledelseskursus på Lesbos?

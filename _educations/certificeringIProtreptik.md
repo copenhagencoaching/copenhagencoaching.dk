@@ -12,6 +12,7 @@ dates:
 pdf: /pdfs/Certificering-i-protreptik-efterår.pdf
 contact-person: '6'
 location: 'Blegdamsvej 104C, 3. sal, baghuset th., 2100 København Ø'
+special: false
 ---
 
 # Hvorfor skal du vælge Certificering i Protreptik?
