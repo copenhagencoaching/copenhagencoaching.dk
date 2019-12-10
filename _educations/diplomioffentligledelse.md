@@ -7,11 +7,12 @@ image: /images/academy/b3.png
 price: 'Vejledende pris: 7.500 ekskl. moms pr. 5 ECTS'
 event-title: Vi starter løbende hold op - ring og hør nærmere
 dates:
-    - start: Valgfagsmodul Coaching 30/1-19
+    - start: Coaching (valgfagsmodul) 30. januar 2020
       dag:
-        - dato: '30/1, 12/2 og 5/3 (eksamen i maj)'
+        - dato: '30/1, 13/2 og 5/3 (aflevering midt april og eksamen start maj)'
 pdf: 'false'
 contact-person: '7'
+special: false
 ---
 
 Er du leder, eller drømmer du om at bliver det? Trænger du til at få styrket dine lederkompetencer, og samtidig få de nyeste og brugbare værktøjer til medarbejdersamtaler og til håndtering af konfliktsituationer? Så tag uddannelsen Diplom i Offentlig Ledelse (DOL) hos os!
