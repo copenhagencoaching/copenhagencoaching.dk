@@ -34,4 +34,4 @@ Unummerede lister:
 - Tekst
 
 Billed:
-![Tekst der kommer frem når har musen over billedet](billed-url/sti "Billed titel")
+![Tekst der kommer frem når har musen over billedet](/images/forum/post.jpg "Billed titel")
