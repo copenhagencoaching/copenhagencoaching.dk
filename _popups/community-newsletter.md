@@ -1,7 +1,7 @@
 ---
 title: hi
 buttontext: text
-buttonlink: link
+buttonlink: https://www.copenhagencoaching.dk/registration/?n=CCC%20Community
 page: Community
 ---
 
