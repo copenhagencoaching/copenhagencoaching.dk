@@ -1,5 +1,6 @@
 ---
 title: Prose guide
+layout: page
 ---
 
 Overskrifter:
