@@ -21,6 +21,7 @@ description: Her kan du tilmelde dig vores uddannelser eller kurser. Vi sender d
                     {% for education in site.educations %}
                     <option value="{{ education.title }}">{{ education.title }}</option>
                     {% endfor %}
+                    <option value="community">community</option>
                 </select>
 
                 <input class="input-form" type="text" placeholder="Fornavn" name="fornavn">

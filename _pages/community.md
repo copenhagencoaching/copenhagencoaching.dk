@@ -8,9 +8,10 @@ price: '2.500,- ekskl. moms pr. år'
 pdf: 'false'
 contact-person: '5'
 location: 'Blegdamsvej 104C, 3. sal, baghuset th., 2100 København Ø'
-layout: 'education'
+layout: 'community'
 order: 4
 show: true
+modal: true
 ---
 # Et fællesskab for vedvarende læring og udvikling af dit lederskab
 

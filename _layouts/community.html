@@ -2,6 +2,41 @@
 layout: page
 ---
 
+{% for popup in site.popups%}
+{% if page.title == popup.page %}
+<div class="modal fade" id="newsletter" tabindex="-1" role="dialog" aria-labelledby="contact-modal"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel">
+                    {{ popup.title }} 
+                </h4>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                    &times;
+                </button>
+            </div>
+            <div class="modal-body">
+                {{ popup.content }}
+            </div>
+            <div class="modal-footer">
+                <div style="margin: auto">
+                    <a class="button btn" href="{{ popup.buttonlink }}" role="button">
+                        <p style="margin: 10px;">{{ popup.buttontext}}</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endif %}
+{% endfor %}
+<script type="text/javascript">
+    $(window).on('load', function () {
+        $('#newsletter').modal('show');
+    });
+</script>
+
 <div class="education">
   <div class="row">
     <div class="col-12 col-md-8 col-lg-8 education-content">

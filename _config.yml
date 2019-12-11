@@ -66,6 +66,9 @@ collections:
   testimonials:
     output: true
     permalink: /testimonials/:title/
+  popups:
+    output: true
+    permalink: /popups/:title/
 
 defaults:
   -
@@ -113,6 +116,11 @@ defaults:
       type: testimonials
     values:
       layout: category
+  -
+    scope:
+      type: popups
+    values:
+      layout: popup
 
 prose:
   rooturl: ''
@@ -424,7 +432,27 @@ prose:
         field:
           element: "text"
           label: "Billed"
-
+     _popups:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Titel"
+      - name: "header"
+        field:
+          element: "text"
+          label: "Overskrift"
+      - name: "buttontext"
+        field:
+          element: "text"
+          label: "knap tekst"
+      - name: "buttonlink"
+        field:
+          element: "text"
+          label: "url"
+      - name: "page"
+        field:
+          element: "text"
+          label: "Tilhørende side"
 
 
 
