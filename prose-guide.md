@@ -10,10 +10,10 @@ Overskrifter:
 #### Overskrift 4
 
 Links:
-[Tekst](url)
+[Tekst](https://www.eksempel.dk)
 
 Links der åbner i en ny fane
-[Tekst](url){:target="_blank"}
+[Tekst](https://www.eksempel.dk){:target="_blank"}
 
 Italic:
 *Tekst* eller _Tekst_
