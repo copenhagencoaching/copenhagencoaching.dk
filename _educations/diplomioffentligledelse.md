@@ -7,19 +7,21 @@ image: /images/academy/b3.png
 price: 'Vejledende pris: 7.500 ekskl. moms pr. 5 ECTS'
 event-title: Vi starter løbende hold op - ring og hør nærmere
 dates:
-    - start: Coaching (valgfagsmodul) 30. januar 2020
-      dag:
-        - dato: '30/1, 13/2 og 5/3 (aflevering midt april og eksamen start maj)'
+  - start: Coaching (valgfagsmodul) 30. januar 2020
+    dag:
+      - dato: '30/1, 13/2 og 5/3 (aflevering midt april og eksamen start maj)'
 pdf: 'false'
 contact-person: '7'
 special: false
 ---
 
-Er du leder, eller drømmer du om at bliver det? Trænger du til at få styrket dine lederkompetencer, og samtidig få de nyeste og brugbare værktøjer til medarbejdersamtaler og til håndtering af konfliktsituationer? Så tag uddannelsen Diplom i Offentlig Ledelse (DOL) hos os!
+Er du leder, eller drømmer du om at bliver det? Trænger du til at få styrket dine lederkompetencer, og samtidig få de nyeste og brugbare værktøjer til medarbejdersamtaler og til håndtering af konfliktsituationer? Så tag moduler i Den offentlige Lederuddannelse (DOL) hos os!
 
-Uddannelsen kan enten tages på åbne hold eller som skræddersyet forløb og det er muligt at tilrettelægge undervisningen således at der tages hensyn til de ønsker og behov, du har.
+Modulerne kan enten tages på åbne hold eller som skræddersyet forløb, og det er muligt at tilrettelægge undervisningen således, at der tages hensyn til de ønsker og behov, du har.
 
-DOL-uddannelsen er en fleksibel professionsbachelor, hvor hvert modul giver 5, 10 eller 15 ECTS point. For at få en fuld diplomuddannelse skal du have tre standardmoduler og tre valgmoduler, svarende til 45 ECTS point, samt lave en afsluttende opgave (Specialemodulet), der svarer til 15 ECTS point – og derved opnås de 60 ECTS point, en fuld diplomuddannelse kræver.
+DOL er en fleksibel lederuddannelse, hvor hvert modul giver 5, 10 eller 15 ECTS point. For at få en fuld DOL skal du have tre standardmoduler og tre valgmoduler, svarende til 45 ECTS point, samt lave en afsluttende opgave (Specialemodulet), der svarer til 15 ECTS point – i alt 60 ECTS point. 
+
+Du har herefter mulighed for at få konverteret den offentlige lederuddannelse til Diplomuddannelsen i ledelse ved en offentlig videregående uddannelsesinstitution, som udbyder diplomuddannelsen i ledelse.
 
 
 Hos CCC kan du tage følgende DOL-moduler:
@@ -28,7 +30,7 @@ Hos CCC kan du tage følgende DOL-moduler:
 
 - Ledelse af Medarbejdere og Faglig Udvikling (Standardmodul, 10 ECTS)
 
-- Organisation, udvikling og samskabelse (Valgmodul, 5 ECTS)
+-  Ledelse af forandrings- og udviklingsprocesser i offentlige organisationer (Valgmodul, 5 ECTS)
 
 - Coaching (valgmodul, 5 ECTS)
 
