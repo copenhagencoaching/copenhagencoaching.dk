@@ -6,6 +6,7 @@ category:
   - filosofi
   - lederskab
 image: /images/academy/certificering-i-protreptik.jpg
+order: 5
 price: '70.000,- EKSKL. MOMS'
 dates:
   - start: Forløbet aftales individuelt

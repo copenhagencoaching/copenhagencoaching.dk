@@ -3,6 +3,7 @@ published: true
 category:
   - filosofi
 title: Masterclass i Protreptik
+order: 4
 image: /images/academy/b7.png
 price: '12.000,- EKSKL. MOMS / 3 dage inklusiv frokost og lettere morgenforplejning'
 pdf: 'false'

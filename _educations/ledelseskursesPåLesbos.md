@@ -6,6 +6,7 @@ category:
   - personlig-udvikling-og-transition
 title: Ledelseskursus på Lesbos
 image: /images/academy/lesbos.jpg
+order: 3
 price: >-
   30.000,- ekskl. moms (heri er inkluderet fuld forplejning, materialer og
   rejse)

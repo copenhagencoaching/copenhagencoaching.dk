@@ -1,11 +1,12 @@
 ---
 published: true
-title: Diplom i offentlig ledelse
+title: Den offentlige lederuddannelse
 category:
   - diplom-i-offentlig-ledelse
 image: /images/academy/b3.png
 price: 'Vejledende pris: 7.500 ekskl. moms pr. 5 ECTS'
 event-title: Vi starter løbende hold op - ring og hør nærmere
+order: 7
 dates:
   - start: Coaching (valgfagsmodul) 30. januar 2020
     dag:
