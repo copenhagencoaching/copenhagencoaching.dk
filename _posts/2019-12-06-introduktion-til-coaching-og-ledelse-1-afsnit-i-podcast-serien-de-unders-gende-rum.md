@@ -15,7 +15,7 @@ I Copenhagen Coaching Center har vi udviklet en podcast-serie som stiller skarpt
 # De undersøgende rum, CCC og ledelsesfænomenet
 Denne podcast introducerer selve serien ’De undersøgende rum’. Foruden producent Morten Levinsen deltager seniorkonsulent Morten Bertelsen og associeret partner Morten Paustian. Temaerne handler indledningsvis om coaching som et overordnet ledelsesfænomen ud fra en psykologisk og filosofisk tilgang. Hvad tidsånden? Og hvilke vinde blæser inden for den ledelsesmæssige praksis?
 
-[Link til podcasten](https://soundcloud.com/user-167047692/protraeptik-den-filosofiske-samtale)
+[Link til podcasten](https://soundcloud.com/user-167047692/protraeptik-den-filosofiske-samtale){:target="_blank"}
 
 De øvrige afsnit i serien:
 
@@ -27,6 +27,6 @@ De øvrige afsnit i serien:
 6.	Det decentrede subjekt 
 7.	Eventualerne - en måde at være i verden på
 
-[Link til alle afsnit i De undersøgende rum](https://soundcloud.com/user-167047692)
+[Link til alle afsnit i De undersøgende rum](https://soundcloud.com/user-167047692){:target="_blank"}
 
 Serien er produceret for Copenhagen Coaching Center af Morten Levinsen
