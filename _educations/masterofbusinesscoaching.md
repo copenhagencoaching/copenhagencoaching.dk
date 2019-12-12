@@ -10,6 +10,7 @@ price: '45.900,- EKSKL. MOMS (heri er inkluderet fuld forplejning og kursusmater
 pdf: /pdfs/master-of-business-coaching.pdf
 contact-person: '7'
 event-title: Kommende hold
+order: 1
 dates:
   - by: København
     opstartsdatoer:

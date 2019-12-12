@@ -10,6 +10,7 @@ price: >-
 pdf: /pdfs/proces-leder-uddannelse.pdf
 contact-person: '5'
 event-title: Kommende hold
+order: 2
 dates:
   - start: 9. marts 2020
     dag:
