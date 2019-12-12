@@ -13,7 +13,7 @@ I Copenhagen Coaching Center har vi udviklet en podcast-serie som stiller skarpt
 # Eventualerne – nærværets praksis
 Er der mon nogle særlige værensformer, som kan fremme betingelserne for at gøre sig erkendelser? Og er der nogle bestemte tilgange, som fremelsker ledelse af den menneskelige eksistens? I denne podcast gennemgås der seks forskellige såkaldte eventualer, som udtrykker forskellige værensformer i samtalen. Eventualerne bliver reflekteret og eksemplificeret af direktør og partner Mette Mejlhede, seniorkonsulent Kim Gørtz og associeret partner Morten Paustian.
 
-[Link til podcasten](https://soundcloud.com/user-167047692/eventualer-en-made-at-vaere-i-verden-pa)
+[Link til podcasten](https://soundcloud.com/user-167047692/eventualer-en-made-at-vaere-i-verden-pa){:target="_blank"}
 
 Alle afsnit i serien:
 
