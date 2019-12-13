@@ -167,7 +167,8 @@ prose:
       - name: "teaser"
         field:
           element: "text"
-          label: "teaser"    
+          label: "teaser"
+          help: "Max 45 anslag"
       - name: "author"
         field:
           element: "select"
