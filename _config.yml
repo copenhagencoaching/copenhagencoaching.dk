@@ -164,6 +164,10 @@ prose:
         field:
           element: "text"
           label: "Billed"
+      - name: "teaser"
+        field:
+          element: "text"
+          label: "teaser"    
       - name: "author"
         field:
           element: "select"

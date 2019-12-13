@@ -5,6 +5,7 @@ image: /images/forum/post1.jpeg
 author: Bianca Godske Røjbæk
 tags: [ugebrev, ledelse, nyhed]
 signup: forskellige ydelser
+teaser: teaser
 ---
 
 Copenhagen Coaching Center har indgået et nyt formidlingssamarbejde med nyhedsmediet Økonomisk Ugebrev.
