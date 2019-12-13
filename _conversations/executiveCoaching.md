@@ -13,4 +13,4 @@ I et executive coachingforløb får du som topleder øget din beslutningskraft t
 
 **Executive Coaching  / 3.500,- eksl. moms per session**
 
-Du kan også købe klippekort à 5 (3.200,- kr ekskl. moms per klip) eller á 10 (2.700,- kr. ekskl. moms per klip) sessioner.
+Du kan også købe klippekort à 5 (3.200,- kr ekskl. moms per klip) eller á 10 (2.800,- kr. ekskl. moms per klip) sessioner.
