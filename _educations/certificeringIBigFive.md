@@ -16,9 +16,9 @@ dates:
       - dato: 13. januar
       - dato: 14. januar
       - dato: 30. januar
-  - start: 29 januar 2020
+  - start: 29 januar 2020 (København)
     dag:
-      - dato: 29. januar (København)
+      - dato: 29. januar
       - dato: 5.  februar
       - dato: 19. februar
   - start: 7. april 2020 (København)
