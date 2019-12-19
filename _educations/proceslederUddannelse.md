@@ -7,7 +7,7 @@ image: /images/academy/proceslederuddannelse.jpg
 price: >-
   38.700,- EKSKL. MOMS (heri er inkluderet fuld forplejning, materialer med
   videre)
-pdf: /pdfs/proces-leder-uddannelse.pdf
+pdf: /pdfs/PLU2020forår.pdf
 contact-person: '5'
 event-title: Kommende hold
 order: 2
