@@ -6,7 +6,7 @@ author: Morten Bertelsen
 tags:
   - coaching
   - events
-teaser: teaser
+teaser:
 ---
 ## CCC Community afholdt aftenarrangement med den verdensberømte, canadiske psykiater Karl Tomm d. 25. november kl. 17-21. 
 

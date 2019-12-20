@@ -7,7 +7,7 @@ tags:
   - coaching
   - ledelse
   - Podcast
-teaser: teaser
+teaser:
 ---
 
 

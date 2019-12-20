@@ -5,7 +5,7 @@ image: /images/forum/post8.jpg
 author: Frederikke Winther
 signup: forskellige ydelser
 tags: [kursus, master, business, coaching]
-teaser: teaser
+teaser:
 ---
 
 Nu åbner vi for tilmeldinger til nye uddannelsesforløb af vores Master of Business Coaching.
