@@ -1,5 +1,5 @@
 nav {
-  height: 70px;
+  height: 7vh;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -7,11 +7,11 @@ nav {
   z-index: 100;
   background: #ffffff;
   border-bottom: 1px solid rgba(0, 0, 0, 0.15);
-  margin-top: -70px; // Not the best solution, fix at a later date.
+  margin-top: -8vh; // Not the best solution, fix at a later date.
 }
 
 .navbar {
-  width: 1230px;
+  width: 162vh;
   display: flex;
   justify-content: space-between;
   z-index: 100;
@@ -21,7 +21,7 @@ nav {
   padding: 0;
 
   .navbar-brand {
-    height: 50px;
+    height: 5vh;
     width: auto;
 
     img {
@@ -38,17 +38,17 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 700px;
+    width: 70vh;
   }
 
   .navbar-nav-wider {
-    width: 900px;
+    width: 90vh;
   }
 
   .navbar-menu a,
   a {
     color: $black;
-    font-size: 16px;
+    font-size: 1.6vh;
     font-weight: 500;
     padding: 0;
   }
@@ -97,10 +97,10 @@ nav {
 .nav-icon {
   height: inherit;
   text-align: center;
-  width: 20px;
+  width: 2vh;
 
   .fas {
-    font-size: 16px;
+    font-size: 1.6vh;
   }
 }
 
@@ -156,6 +156,7 @@ nav {
     width: 100% !important;
     height: 70px !important;
     z-index: 3000;
+    margin-top: 0;
   }
 
   .navbar {

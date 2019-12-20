@@ -9,6 +9,10 @@ pdf: 'false'
 contact-person: '5'
 location: 'Blegdamsvej 104C, 3. sal, baghuset th., 2100 København Ø'
 layout: 'community'
+header: Community
+header-link:
+header-link-url:
+color-box: #fdcb61
 order: 4
 show: true
 modal: true
