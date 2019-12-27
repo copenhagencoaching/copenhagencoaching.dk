@@ -4,10 +4,10 @@ nav {
   display: flex;
   justify-content: center;
   position: fixed;
-  z-index: 100;
+  z-index: 10000;
   background: #ffffff;
   border-bottom: 1px solid rgba(0, 0, 0, 0.15);
-  margin-top: -8vh; // Not the best solution, fix at a later date.
+  margin-top: -7vh; // Not the best solution, fix at a later date.
 }
 
 .navbar {

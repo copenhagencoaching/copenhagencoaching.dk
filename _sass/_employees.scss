@@ -1,81 +1,44 @@
 .employees {
-  .row {
-    width: 1260px;
+  height: auto;
+  width: 100%;
+  background: #E1BCA7;
+  padding: 10vh 20vh;
 
-    .employee-box {
-      margin-bottom: 50px;
+  h1 {
+    font-size: 3vh;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    padding-bottom: 6vh;
+  }
 
-    }
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 4vh;
 
-    .card {
-      text-align: left;
-      -webkit-box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.16);
-      -moz-box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.16);
-      box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.16);
-      border: none;
-      height: 425px;
-      overflow: hidden;
+    .employee {
+      width: 100%;
+      height: 55vh;
+      color: #000000;
+      margin-bottom: 15vh;
 
-      a {
-        color:$black;
-        font-size: 16px;
+      img {
+        object-fit: cover;
+        width: inherit;
       }
 
-      a:hover {
-        text-decoration: none;
-        color: $green;
-      }
-
-      .showmore-button {
-        cursor: pointer;
-        border: none;
-        background: none;
-        margin: 10px 0 0;
-        font-size: 14px;
-        padding: 0;
-        background-color: none;
-        width: auto;
-        display: inline-block;
-      }
-
-      .card-body {
-        text-align: center;
-        color: $black;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-content: center;
-      }
-
-      .img-empl {
-        width: 100%;
-        min-height: 250px;
-        background-size: cover;
-        background-position: 0 30%;
-      }
-
-      .card-title {
-        font-size: 15px;
-        font-weight: 600;
-        margin-bottom: 0;
-        padding-bottom: 18px;
-        color: $black;
-      }
-
-      .card-subtitle {
-        font-size: 13px;
-        font-weight: 400;
-        color: $black;
+      h5 {
+        font-size: 3vh;
+        font-weight: 700;
+        padding: 3vh 0 0 0;
+        text-transform: uppercase;
+        font-family: 'Oswald', sans-serif;
       }
 
       p {
-        font-size: 13px;
-        font-weight: 400;
-        color: $green;
-      }
-
-      .showmore-button:hover {
-        color: $green;
+        background: transparent;
+        font-weight: 2vh;
+        line-height: 4vh;
       }
     }
   }
@@ -224,11 +187,11 @@
         margin: 0;
         font-weight: 500;
         padding: 5px 0;
-        
+
 
         a {
           font-size: 1rem;
-          padding:0;
+          padding: 0;
           color: $black;
         }
 
@@ -241,46 +204,27 @@
     img {
       width: 100%;
     }
-  
-}
+  }
+
   .employee-text {
     padding: 0 0 0 25px;
 
-    }
-
-   
-  
-}
-@media (max-width: 500px) {
   }
+}
 
 // Medium devices (landscape tablets, 768px and down)
+
 @media (max-width: 768px) {
-  .employee {
-    width: 100%;
 
+  .employees {
+    padding: 10vh 3vh;
 
+    .wrapper {
+      grid-template-columns: 1fr;
 
-
-
-
-
-      .fab {
-        font-size: 25px;
+      .employee {
+        margin-bottom: 32.5vh;
       }
-    
-
-    .information-box {
-      flex-direction: column;
-      margin-bottom: 50px;
-      width: 90%;
-      margin: 0 auto;
-
-      a,
-      p {
-        font-size: 16px;
-      }
-
     }
   }
 
@@ -290,6 +234,7 @@
 }
 
 /* Large devices (laptops/desktops, 992px and down) */
+
 @media (max-width: 992px) {
   .employees {
     .img-empl {
@@ -346,13 +291,13 @@
   }
 
 }
+
 @media (max-width: 1290px) {
   .information-card-text {
     span {
       width: 90%;
       height: auto;
     }
-
   }
 
   .employees {
@@ -377,10 +322,10 @@
 
         font-size: 0.9rem !important;
 
-      a {
-        font-size: 0.9rem !important;
-      }
-      
+        a {
+          font-size: 0.9rem !important;
+        }
+
       }
     }
   }
