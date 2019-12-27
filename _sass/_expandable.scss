@@ -1,269 +1,109 @@
-.expandable {
-  .row {
-    width: 1230px;
-    height: auto;
-
-    .col-12 {
-      padding: 0;
-    }
-
-    .expandable-pane:nth-of-type(1) {
-      padding-top: 0;
-    }
-
-    .expandable-pane:nth-of-type(4){
-      padding-bottom: 0;
-    }
-
-    .expandable-pane {
-      height: auto;
-      width: 100%;
-      margin: 0;
-      display: flex;
-      flex-direction: row;
-      padding:40px 0 60px 0;
-      position: relative;
-
-      .row {
-        margin: 0;
-      }
-
-      .anchor {
-        position: absolute;
-        top: -300px;
-      }
-
-      .expandable-pane-text {
-        order: 2;
-        width: 100%;
-        padding-left: 25px;
-        display: flex;
-        flex-direction: column;
-
-        h1 {
-          font-size: 20px;
-          font-weight: 600;
-
-        }
-
-        .content {
-
-          font-size: 16px;
-          font-weight: 400;
-          padding: 10px 0;
-          line-height: 24px;
-          height: auto;
-          padding-top: 10px !important;
-
-
-          h1,
-          h2,
-          h3,
-          h4,
-          h5, strong {
-
-            font-size: 16px;
-            font-weight: 500;
-            line-height: 24px;
-          }
-
-          a {
-            color: $black;
-          }
-
-          a:hover {
-            color:$green;
-          }
-        }
-
-
-
-
-        button {
-          height: 50px;
-          width: 175px;
-          background: $green;
-          border: none;
-          font-weight: 600;
-          opacity: .9;
-          color: #ffffff;
-          margin-top: 25px;
-        }
-
-        button:hover {
-          opacity: 1;
-        }
-      }
-
-      .expandable-pane-text:nth-child(1) {
-        padding-left: 0;
-        padding-right: 25px;
-      }
-
-      .expandable-pane-image {
-        order: 1;
-      }
-
-      .image-info-row {
-        flex-direction: column;
-        width: 100%;
-        display: flex;
-        .image-box-expandable {
-          height: 300px;
-          width: 100%;
-          background-size: cover;
-          background-position: center center;
-          background-repeat: no-repeat;
-        }
-
-
-    }
-  }
-}
-
-}
-
-.image-box-expandable-info {
-
-.media-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center
-
-}
-
-  img[class] {
+.content {
   width: 100%;
-}
+  height: auto;
+  padding: 0 20vh;
 
-  .contact-img-outer {
-  width: 64px;
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10vh 0;
 
-
-
-    .contact-img {
-      object-position: 50% 25%;
-      object-fit: fill;
-
+    img {
+      height: 55vh;
+      width: 55vh;
+      object-fit: cover;
     }
-}
 
-  h4 {
-    font-size: 15px;
-    margin-top: 20px;
+    span {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+
+      h1 {
+        color: #000000;
+        font-size: 11.5vh;
+        line-height: 12.5vh;
+        font-weight: 500;
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+      }
+
+      p {
+        width: 100%;
+        line-height: 3vh;
+        color: #000000;
+        font-size: 2vh;
+      }
+
+      h2 {
+        font-size: 1.6vh;
+        font-weight: 600;
+        padding-bottom: 2.5vh;
+      }
+
+      img {
+        height: 5vh;
+        width: 5vh;
+        margin-bottom: 2.5vh;
+      }
+
+      a {
+        text-decoration: none;
+        color: #000000;
+        font-weight: 400;
+        font-size: 1.6vh;
+      }
+    }
   }
-  h5 {
-    font-size: 12px;
-    padding: 5px 0;
-    margin: 0;
+
+  .wrapper:nth-child(even) {
+    direction: rtl;
   }
-  a {
-    color:inherit;
-  }
-
-
-}
-
-hr {
-  border: 1px solid #e1e4e8;
-  margin: 0;
-  width: 100% !important;
-}
-
-.expandable-pane .row:nth-of-type(1) {
-  margin-top: 0 !important;
-}
-
-.reverse-pane-img {
-  order: 2 !important;
-}
-
-.reverse-pane-text {
-  order: 1 !important;
-  padding-left: 0 !important;
-  padding-right: 25px !important;
-}
-
-.anchor {
-  height: 25px;
-  padding: 25px;
 }
 
 // Small devices (landscape phones, less than 768px)
-@media (max-width: 768px) {}
 
-/* Large devices (laptops/desktops, 992px and down) */
-@media (max-width: 992px) {
-  .expandable {
-    .col-12 {
-      flex: unset;
-    }
+@media (max-width: 768px) {
+  .content {
+    padding: 0 3vh;
 
-    .row {
-      padding-bottom: 0;
-    }
+    .wrapper {
+      display: grid;
+      grid-template-columns: 1fr;
+      padding: 10vh 0;
+      grid-auto-flow: column-reverse;
 
-    .expandable-pane {
-      height: auto !important;
-      flex-direction: column !important;
-      justify-content: center !important;
-      margin: 0 !important;
-      padding: 10px 0 !important;
+      img {
+        width: 100%;
+        height: auto;
+        grid-column-end: -1;
+      }
 
-      .expandable-pane-text {
-        padding: 0 !important;
+      span {
 
         h1 {
-          margin-top: 20px;
+          font-size: 5vh;
         }
-      }
 
-      .image-box-expandable {
-        height: 300px !important;
-      }
+        img {
+          height: 5vh;
+          width: 5vh;
+          margin-bottom: 2.5vh;
+        }
 
-      .content,
-      p {
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 24px;
-        height: auto;
-      }
-    }
-
-  }
-
-  .expandable-pane .row:nth-of-type(1) {
-    margin-top: 25px !important;
-  }
-
-  .expandable-pane:nth-of-type(2) .row {
-    flex-direction: column-reverse !important;
-  }
-
-  .expandable-pane:nth-of-type(4) .row {
-    flex-direction: column-reverse !important;
-  }
-
-  .image-info-row:nth-of-type(2) {
-    flex-direction: column-reverse !important;
-  }
-
-  .image-info-row:nth-of-type(4) {
-    flex-direction: row-reverse !important;
-  }
-}
-
-@media (max-width: 1290px) {
-  .expandable {
-    .row {
-      width: 90%;
-
-      .expandable-pane {
-        .row {
-          width: 100%;
+        h2,
+        a {
+          font-size: 2vh;
         }
       }
     }
+
+    .wrapper:nth-child(even) {
+      direction: reverse;
+    }
   }
 }
+
+/* Large devices (laptops/desktops, 992px and down) */
+
+@media (max-width: 992px) {}

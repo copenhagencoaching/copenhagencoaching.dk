@@ -6,7 +6,7 @@ signup: forskellige ydelser
 show: true
 header: Et passioneret uddannelsescenter
 header-link: Mød teamet ⟶
-header-link-url: #team
+header-link-url: '#team'
 color-box: #dfe619
 order: 5
 description: Vores team består af eksperter sammensat af profiler med omfattende ledelseserfaring, coachingerfaringer i praksis, og mange forskellige akademiske baggrunde. Copenhagen Coaching Center blev dannet i 2004 og er et partnerejet selskab, der udbyder en række uddannelser indenfor coaching og ledelse samt yder ledelsessparring, coaching og udfører konsulentopgaver, herunder skræddersyede udviklingsforløb for virksomheder og teams.
@@ -27,6 +27,19 @@ description: Vores team består af eksperter sammensat af profiler med omfattend
     {% endfor %}
 </div>
 </div>
+
+<section class="content">
+  {% assign orderedfundament = site.fundament | sort: "order" %}
+  {% for fundament in orderedfundament %}
+  <div class="wrapper">
+      <img src="{{ fundament.image }}" alt="#">
+      <span>
+          <h1>{{ fundament.title }}</h1>
+          <p>{{ fundament.content }}</p>
+      </span>
+  </div>
+  {% endfor %}
+</section>
 
 <section class="information-card">
   <h1>Brænder du inde med et spørgsmål?</h1>

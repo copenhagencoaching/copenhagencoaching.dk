@@ -45,9 +45,9 @@ collections:
   educations:
     output: true
     permalink: /academy/:title/
-  conversations:
+  coachings:
     output: true
-    permalink: /conversations/:title/
+    permalink: /coaching/:title/
   consultations:
     output: true
     permalink: /consultations/:title/
@@ -88,9 +88,9 @@ defaults:
       layout: education
   -
     scope:
-      type: conversations
+      type: coachings
     values:
-      layout: conversation
+      layout: coaching
   -
     scope:
       type: consultations
