@@ -107,14 +107,13 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 92.5vh;
+    width: 60%;
   }
 
   h1 {
     color: #000000;
     font-size: 11.5vh;
     line-height: 12.5vh;
-    max-width: 740;
     font-weight: 500;
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
@@ -123,8 +122,8 @@ body {
 
   p {
     padding: 3.5vh 0;
-    width: 110%;
-    line-height: 3vh;
+    width: 100%;
+    line-height: 4vh;
     color: #000000;
     font-size: 2vh;
   }
@@ -193,15 +192,15 @@ body {
     }
 
     h1 {
-      font-size: calc(5.357142857142857vw + 32.85714285714286px);
-      line-height: 6vh;
+      font-size: calc(44.22188px + 1.54083vw);
+      line-height: calc(50.22188px + 1.54083vw);
       padding: 15vh 0 5vh 0;
       font-weight: 500;
     }
 
     p {
-      font-size: 16px;
-      line-height: 32px;
+      font-size: 14px;
+      line-height: 35px;
       width: 100%;
       padding: 0;
       margin-bottom: 0;
@@ -212,7 +211,8 @@ body {
       font-size: 18px;
     }
 
-    .hero-image, .color-box {
+    .hero-image,
+    .color-box {
       display: none;
     }
 
@@ -220,9 +220,9 @@ body {
 
 }
 
-/* Large devices (laptops/desktops, 992px and down) */
+/* Large devices (laptops/desktops, 1024px and down) */
 
-@media (max-width: 992px) {
+@media (max-width: 1024px) {
   #fp-nav {
     display: none;
   }
