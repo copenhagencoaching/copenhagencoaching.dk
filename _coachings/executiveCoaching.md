@@ -2,7 +2,7 @@
 published: true
 id: 1
 order: 1
-title: Executive coaching
+title: Executive<br>coaching
 image: /images/coaching/c1.jpg
 contact-person: '3'
 ---

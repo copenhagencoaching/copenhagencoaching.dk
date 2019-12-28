@@ -2,7 +2,7 @@
 published: true
 id: 4
 order: 2
-title: Personlig coaching
+title: Personlig<br>coaching
 image: /images/coaching/c3.jpg
 contact-person: '4'
 ---

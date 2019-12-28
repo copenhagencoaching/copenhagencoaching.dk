@@ -2,7 +2,7 @@
 layout: page
 ---
 
-<section class="content">
+<section id="content-section" class="content">
     {% assign orderedconsultations = site.consultations | sort: "order" %}
     {% for consultation in orderedconsultations %}
     <div class="wrapper">
@@ -14,9 +14,9 @@ layout: page
             {% for employee in site.employees %}
             {% if employee.data-id == consultation.contact-person %}
             <!-- <img src="{{ employee.small-portrait-image }}" alt="{{ employee.title }}, {{ employee.description }}"> -->
-            <a href="{{ employee.url }}">{{ employee.title }}</a>
+            <a data-proofer-ignore href="{{ employee.url }}">{{ employee.title }}</a>
+            <a data-proofer-ignore href="mailto:{{ employee.email }}">{{ employee.email }}</a>
             <a data-proofer-ignore href="{{ employee.call }}">{{ employee.call }}</a>
-            <a href="mailto:{{ employee.email }}">{{ employee.email }}</a>
             {% endif %}
             {% endfor %}
         </span>

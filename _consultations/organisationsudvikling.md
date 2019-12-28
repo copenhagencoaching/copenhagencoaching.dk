@@ -1,6 +1,6 @@
 ---
 published: true
-title: Organisationsudvikling
+title: Organisations<br>udvikling
 order: 3
 image: /images/consulting/c4.png
 contact-person: '2'

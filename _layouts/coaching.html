@@ -10,13 +10,13 @@ layout: page
         <span>
             <h1>{{ coaching.title }}</h1>
             <p>{{ coaching.content }}</p>
-            <h2>Ineresseret i at høre mere? Ring eller skriv og få en snak med</h2>
+            <h2>Interesseret i at høre mere? Ring eller skriv og få en snak med</h2>
             {% for employee in site.employees %}
             {% if employee.data-id == coaching.contact-person %}
             <!-- <img src="{{ employee.small-portrait-image }}" alt="{{ employee.title }}, {{ employee.description }}"> -->
             <a data-proofer-ignore href="{{ employee.url }}">{{ employee.title }}</a>
-            <a data-proofer-ignore href="{{ employee.call }}">{{ employee.call }}</a>
             <a data-proofer-ignore href="mailto:{{ employee.email }}">{{ employee.email }}</a>
+            <a data-proofer-ignore href="{{ employee.call }}">{{ employee.call }}</a>
             {% endif %}
             {% endfor %}
         </span>

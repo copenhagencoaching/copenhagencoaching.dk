@@ -175,86 +175,52 @@ body {
 }
 
 // Medium devices (landscape tablets, 768px and down)
+
 @media (max-width: 768px) {
   body {
     margin: 0;
   }
 
-  // hero image
-
   .hero-banner {
     width: 100%;
     flex-direction: column;
     height: auto;
-    padding: 0 2.5vh 5vh 2.5vh;
+    padding: 0 3vh;
 
     span {
       width: inherit;
     }
 
     h1 {
-      font-size: 5vh;
+      font-size: calc(5.357142857142857vw + 32.85714285714286px);
       line-height: 6vh;
-      padding-top: 15vh;
-    }
-
-    p {
-      width: 100%;
-    }
-
-  }
-
-  .color-box {
-    display: none;
-  }
-
-  .hero-image {
-    height: auto;
-    margin-top: 70px;
-    background-image: none !important;
-    background-color: transparent;
-    color: $black;
-    text-shadow: none;
-
-    span {
-      width: 90% !important;
-      padding: 50px 0 0;
-      text-align: center;
-
-    }
-
-    h1 {
-      font-size: 30px;
-      line-height: 35px;
+      padding: 15vh 0 5vh 0;
       font-weight: 500;
-      margin: 0;
-      color: $black;
     }
 
-    a,
     p {
-      font-size: 14px;
+      font-size: 16px;
+      line-height: 32px;
       width: 100%;
-      color: $black;
-      text-shadow: none;
-
+      padding: 0;
+      margin-bottom: 0;
     }
 
-    p {
-      margin: 20px 0 0;
+    a {
+      margin-top: 5vh;
+      font-size: 18px;
     }
 
-  }
+    .hero-image, .color-box {
+      display: none;
+    }
 
-  .hero-image::before {
-    display: none;
-    background-image: none;
-    background-color: transparent;
   }
 
 }
 
 /* Large devices (laptops/desktops, 992px and down) */
+
 @media (max-width: 992px) {
   #fp-nav {
     display: none;
