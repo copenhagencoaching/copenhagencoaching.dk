@@ -95,8 +95,9 @@ body {
 .hero-banner {
   height: 85vh;
   display: flex;
-  width: 162vh;
+  width: inherit;
   margin: 0 auto;
+  padding: 0 20vh;
   justify-content: space-between;
   align-items: center;
   user-select: none;
