@@ -11,16 +11,6 @@
                 <a href="https://www.instagram.com/explore/tags/copenhagencoachingcenter/" target="_blank"><i class="fab fa-instagram"></i></a>
             </span>
         </div>
-        {% if site.fundament.size == 0 %}
-        
-        {% else %}
-        <div class="footer-row col-xs-12">
-            <p>Fundament</p>
-            {% for fundament in site.fundament %}
-            <a href="/vision_og_metodik/#{{ fundament.title }}">{{ fundament.title }}</a>
-            {% endfor %}
-        </div>
-        {% endif %}
         <div class="footer-row col-xs-12 articles">
             <p>Forum</p>
             {% for post in site.posts limit:3 %}

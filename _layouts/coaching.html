@@ -2,7 +2,7 @@
 layout: page
 ---
 
-<section class="content">
+<section id="content-section" class="content">
     {% assign orderedcoaching = site.coachings | sort: "order" %}
     {% for coaching in orderedcoaching %}
     <div class="wrapper">

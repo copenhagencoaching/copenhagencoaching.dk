@@ -2,7 +2,7 @@
 published: true
 id: 3
 order: 4
-title: Team samtaler
+title: Team<br>samtaler
 image: /images/coaching/c4.jpg
 contact-person: '1'
 ---
