@@ -1,9 +1,9 @@
-<footer class="footer-black">
+<footer class="footer">
     <div class="row">
         <div class="footer-row col-xs-12">
             <p>Copenhagen Coaching</p>
-            <p class="footer-text">Copenhagen Coaching Center blev dannet i 2004 og er et partnerejet selskab, der
-                udbyder åbne uddannelser.</p>
+            <p class="footer-text">Copenhagen Coaching Center blev dannet i 2004 og er et partnerejet selskab, der udbyder åbne uddannelser.</p>
+            <a class="footer-more" href="/about/">Læs mere om os</a>
             <span>
                 <a href="https://www.facebook.com/copenhagencoachingdk-169785200063933/" target="_blank"><i class="fab fa-facebook-f"></i></a>
                 <a href="#"><i class="fab fa-twitter"></i></a>
@@ -12,7 +12,7 @@
             </span>
         </div>
         <div class="footer-row col-xs-12 articles">
-            <p>Forum</p>
+            <p>Inspiration</p>
             {% for post in site.posts limit:3 %}
             <a class="footer-stories" href="{{ post.url }}">{{ post.title }}</a><p class="stories-date">{{ post.date | date: "%B %d, %Y" }}</p>
             {% endfor %}
@@ -27,7 +27,7 @@
         </div>
     </div>
 </footer>
-<div class="bottom-bar black-bar">
-    <a href="/pdfs/CCC-privatlivspolitik.pdf" target="_blank">Privatlivspolitik </a>|
+<div class="bottom-bar">
+    <a href="/pdfs/CCC-privatlivspolitik.pdf" target="_blank">Privatlivspolitik |</a>
     <p>&nbsp;Powered by</p><a href="https://www.prolike.io/" target="_blank">&nbsp;Prolike</a>
 </div>
