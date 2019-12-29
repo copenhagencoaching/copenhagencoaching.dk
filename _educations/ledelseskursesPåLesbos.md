@@ -5,6 +5,8 @@ category:
   - lederskab
   - personlig-udvikling-og-transition
 title: Ledelseskursus på Lesbos
+header: Ledelseskursus på Lesbos
+description: Tag med på en opdagelsesrejse, hvor vi sammen udforsker ledelseskunsten og finder ind til de vigtigste værdier i det at lede sig selv og fællesskabet.
 image: /images/academy/lesbos.jpg
 order: 3
 price: >-

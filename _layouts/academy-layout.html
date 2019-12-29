@@ -4,32 +4,17 @@ layout: default
 
 {% include navigation.html %}
 
-
-
-
-{% if page.image %}
-<div class="hero-image" style="background-image: url('{{ page.image }}')">
-        <span>
-            <h1>{{ page.title }}</h1>
-            {% if page.description %}
-            <p>{{ page.description }}</p>
-            {% endif %}
-        </span>
-    </div> 
-
-{% else %}
-
-<div class="hero-text">
-        <span>
-            <h1>{{ page.title }}</h1>
-            {% if page.description %}
-            <p>{{ page.description }}</p>
-            {% endif %}
-        </span>
-    </div> 
-
-{% endif %}
-
+<div class="hero-banner">
+    <span>
+        <h1>{{ page.title }}</h1>
+        {% if page.description %}
+        <p>{{ page.description }}</p>
+        {% endif %}
+        <a href="{{ page.header-link-url }}" data-proofer-ignore>{{ page.header-link }}</a>
+    </span>
+    <img class="hero-image" src="{{ page.image }}" alt="CCC Om Os Header">
+    <div class="color-box"></div>
+</div>
 
 <div class="page">
     {{ content }}

@@ -3,6 +3,8 @@ published: true
 category:
   - filosofi
 title: Masterclass i Protreptik
+header: Masterclass i Protreptik
+description: Deltag i den årlige Masterclass i protreptik. Hvert år tager vi fat på forskellige teoretiske temaer og afprøver dem med hinanden i praksis. Mød andre erfarne protreptikere og del dine erfaringer og indsigter.
 order: 4
 image: /images/academy/b7.png
 price: '12.000,- EKSKL. MOMS / 3 dage inklusiv frokost og lettere morgenforplejning'

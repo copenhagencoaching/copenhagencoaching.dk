@@ -3,6 +3,8 @@ published: true
 category:
   - proces-og-strategi
 title: Proceslederuddannelse
+header: Procesleder<br>uddannelse
+description: Styrk dine evner til at lede processer med en proceslederuddannelse.
 image: /images/academy/proceslederuddannelse.jpg
 price: >-
   38.700,- EKSKL. MOMS (heri er inkluderet fuld forplejning, materialer med

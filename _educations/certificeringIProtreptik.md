@@ -1,6 +1,8 @@
 ---
 published: true
 title: Certificering i Protreptik
+header: Certificering i Protreptik
+description: Kom helt i dybden med den filosofiske samtalekunst og ikke mindst de værdier du ønsker at stå for i din ledelse. Forløbet er individuelt og tilpasses dine behov.
 category:
   - certificeringer
   - filosofi

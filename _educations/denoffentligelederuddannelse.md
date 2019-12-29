@@ -1,6 +1,7 @@
 ---
 published: true
 title: Den offentlige lederuddannelse
+header: Den offentlige lederuddannelse
 category:
   - diplom-i-offentlig-ledelse
 image: /images/academy/b3.png

@@ -1,6 +1,8 @@
 ---
 published: true
 title: Certificeringer i Big Five
+header: Certificeringer i Big Five
+description: Bliv certificeret til at bruge markedets bedst underbyggede personlighedstest og lær at anvende den ved gruppesammensætning, rekruttering og processer.
 category:
   - certificeringer
   - proces-og-strategi

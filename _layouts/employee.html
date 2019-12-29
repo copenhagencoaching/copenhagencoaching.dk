@@ -2,30 +2,17 @@
 layout: page
 ---
 <section class="employee">
-
-
-                    <div class="row">
-                           
-                            
-                <div class="employee-image col-md-4 col-sm-6 col-12">
-                    <img class="img-fluid" src="{{ page.portrait-image }}" alt="{{ page.title }}">
-                    <div class="information-box">
-                            <div class="info-column"><a data-proofer-ignore href="tel:+45{{ page.call }}">+45 {{ page.call }}</a></div>
-                            <div class="info-column"><a href="mailto:{{ page.email }}">{{ page.email }}</a></div>
-                            <div class="info-column"><a class="linkedin" data-proofer-ignore href="{{ page.linkedin }}" target="_blank"><i class="fab fa-linkedin-in"></i></a></div>
-                            </div>
-                </div>
-               
-                <div class="employee-text col-md-8 col-sm-6 col-12">
-
-                        
-                               
-                            
-                    {{ page.content }}
-                    
-                </div>
-                
+    <div class="row">
+        <div class="employee-image col-md-4 col-sm-6 col-12">
+            <img class="img-fluid" src="{{ page.portrait-image }}" alt="image of {{ page.title }}">
+            <div class="information-box">
+                <div class="info-column"><a data-proofer-ignore href="tel:+45{{ page.call }}">{{ page.call }}</a></div>
+                <div class="info-column"><a data-proofer-ignore href="mailto:{{ page.email }}">{{ page.email }}</a></div>
+                <div class="info-column"><a data-proofer-ignore href="{{ page.linkedin }}" class="linkedin" data-proofer-ignore target="_blank"><i class="fab fa-linkedin-in"></i></a></div>
             </div>
-        
-
+        </div>
+        <div class="employee-text col-md-8 col-sm-6 col-12">
+            {{ page.content }}
+        </div>
+    </div>
 </section>

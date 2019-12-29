@@ -2,6 +2,7 @@
 published: false
 category: certificeringer
 title: Coach-certificering (EMCC)
+header: Coach-certificering (EMCC)
 image: /images/academy/b4.png
 price: xxx pris
 dates: [xxxx, xxyy]

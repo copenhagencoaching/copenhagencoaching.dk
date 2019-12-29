@@ -1,6 +1,8 @@
 ---
 published: false
 title: Filosofiske seminarer
+header: Filosofisk seminarer
+description: Lær at løfte samtalen ud af konteksten og skab refleksiv handlekraft. Bliv mere effektiv i din kommunikation og lær at stil kritiske og åbne spørgsmål.
 category: filosofi
 image: /images/academy/b8.png
 price: 6.000,- EKSKL. MOMS

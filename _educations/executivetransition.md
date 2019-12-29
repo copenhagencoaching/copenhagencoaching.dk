@@ -3,6 +3,7 @@ published: true
 category:
   - personlig-udvikling-og-transition
 title: Executive Transition
+header: Executive Transition
 image: /images/academy/executive-transition.jpg
 price: '24.900,- EKSKL. MOMS  (heri er inkluderet fuld forplejning, materialer)  '
 pdf: 'false'
