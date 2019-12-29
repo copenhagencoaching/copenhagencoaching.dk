@@ -1,7 +1,7 @@
 ---
 published: true
 order: 1
-title: Master of Business Coaching
+title: Master of<br>Business<br>Coaching
 image: /images/international/i1.jpg
 contact-person: '4'
 ---

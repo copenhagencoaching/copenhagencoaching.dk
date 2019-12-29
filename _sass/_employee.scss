@@ -1,0 +1,73 @@
+.employee-overview {
+    height: auto;
+    width: 100%;
+    padding: 15vh 20vh;
+
+    h1 {
+        font-size: 65px;
+        line-height: 65px;
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+    }
+
+    p {
+        font-size: 16px;
+        padding: 2vh 0 1vh 0;
+    }
+
+    a {
+        color: $black;
+        font-weight: 600;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}
+
+.individual-employee {
+    height: auto;
+    width: 100%;
+    padding: 10vh 20vh;
+    background: #f3f4f7;
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    img {
+        width: 75vh;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 45px;
+        line-height: 45px;
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        padding-bottom: 1.5vh;
+    }
+
+    h2 {
+        font-size: 16px;
+        font-weight: 600;
+        padding-bottom: 2vh;
+    }
+
+    p {
+        font-size: 16px;
+        color: #4a4a4a;
+    }
+
+    a {
+        display: flex;
+        color: $black;
+        font-weight: 600;
+        padding: 1vh 0;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}

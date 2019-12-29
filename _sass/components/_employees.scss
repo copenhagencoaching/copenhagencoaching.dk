@@ -43,6 +43,9 @@
         font-weight: 2vh;
         line-height: 4vh;
       }
+      &:hover {
+        text-decoration: none;
+      }
     }
   }
 }
@@ -56,13 +59,14 @@
 
     h1 {
       font-size: 3vh;
+      text-align: center;
     }
 
     .wrapper {
       grid-template-columns: 1fr;
 
       .employee {
-        margin-bottom: 32.5vh;
+        margin-bottom: 30vh;
       }
     }
   }

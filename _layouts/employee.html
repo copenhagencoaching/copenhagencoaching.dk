@@ -1,18 +1,23 @@
 ---
 layout: page
 ---
-<section class="employee">
-    <div class="row">
-        <div class="employee-image col-md-4 col-sm-6 col-12">
-            <img class="img-fluid" src="{{ page.portrait-image }}" alt="image of {{ page.title }}">
-            <div class="information-box">
-                <div class="info-column"><a data-proofer-ignore href="tel:+45{{ page.call }}">{{ page.call }}</a></div>
-                <div class="info-column"><a data-proofer-ignore href="mailto:{{ page.email }}">{{ page.email }}</a></div>
-                <div class="info-column"><a data-proofer-ignore href="{{ page.linkedin }}" class="linkedin" data-proofer-ignore target="_blank"><i class="fab fa-linkedin-in"></i></a></div>
-            </div>
-        </div>
-        <div class="employee-text col-md-8 col-sm-6 col-12">
-            {{ page.content }}
-        </div>
+
+<div class="employee-overview">
+    <h1>Mød teamet</h1>
+    <p>We are a multi-disciplinary team of strategists, planners, designers and technologists</p>
+    <a href="/about/">⟵ Tilbage</a>
+</div>
+
+<section class="individual-employee">
+    <div class="wrapper">
+        <img src="{{ page.portrait-image }}" alt="Billede af {{ page.title }}">
+        <span>
+            <h1>{{ page.title }}</h1>
+            <h2>{{ page.description }}</h2>
+            <p>{{ page.content }}</p>
+            <a data-proofer-ignore href="tel:+45{{ page.call }}">{{ page.call }}</a>
+            <a data-proofer-ignore href="mailto:{{ page.email }}">{{ page.email }}</a>
+            <a data-proofer-ignore href="{{ page.linkedin }}" target="_blank">LinkedIn</a>
+        </span>
     </div>
 </section>

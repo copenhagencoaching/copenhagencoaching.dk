@@ -13,8 +13,8 @@ html {
 
 .col-12 {
   .row {
-      margin:  0 0 75px 0;
-      padding: 0 !important;
+    margin: 0 0 75px 0;
+    padding: 0 !important;
   }
 }
 
@@ -83,21 +83,12 @@ html {
   }
 
   h1 {
-    color: $black;
-    font-size: 11.5vh;
-    line-height: 12.5vh;
-    font-weight: 500;
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-
+    @include header-1;
   }
 
   p {
+    @include paragraph;
     padding: 3.5vh 0;
-    width: 100%;
-    line-height: 4vh;
-    color: $black;
-    font-size: 2vh;
   }
 
   a {
@@ -164,15 +155,15 @@ html {
     }
 
     h1 {
-      font-size: calc(44.22188px + 1.54083vw);
-      line-height: calc(50.22188px + 1.54083vw);
+      font-size: calc(42.22188px + 1.54083vw);
+      line-height: calc(48.22188px + 1.54083vw);
       padding: 17.5vh 0 5vh 0;
       font-weight: 500;
     }
 
     p {
-      font-size: 14px;
-      line-height: 35px;
+      font-size: 13px;
+      line-height: 32.5px;
       width: 100%;
       padding: 0;
       margin-bottom: 0;
