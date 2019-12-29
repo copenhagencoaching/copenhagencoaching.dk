@@ -1,15 +1,15 @@
 ---
 published: true
-category:
-  - filosofi
+order: 4
 title: Masterclass i Protreptik
+image: /images/academy/b7.png
+contact-person: '6'
 header: Masterclass i Protreptik
 description: Deltag i den årlige Masterclass i protreptik. Hvert år tager vi fat på forskellige teoretiske temaer og afprøver dem med hinanden i praksis. Mød andre erfarne protreptikere og del dine erfaringer og indsigter.
-order: 4
-image: /images/academy/b7.png
+category:
+  - filosofi
 price: '12.000,- EKSKL. MOMS / 3 dage inklusiv frokost og lettere morgenforplejning'
 pdf: 'false'
-contact-person: '6'
 event-title: Kommende hold
 dates:
   - start: '4., 5. & 27. maj 2020'

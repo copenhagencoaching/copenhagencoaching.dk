@@ -1,15 +1,16 @@
 ---
 published: true
-title: Anni Rosengren Korsbæk
-portrait-image: /images/about/anniRKorsbæk.jpg
-data-id: '8'
-call: 51 48 84 33
 order: 8
+data-id: '8'
+title: Anni Rosengren Korsbæk
+portrait-image: /images/about/employees/anniRKorsbæk.jpg
+small-portrait-image: /images/small-images/anni-small.jpg
+call: 51 48 84 33
 email: ark@copenhagencoaching.dk
 description: Associeret partner
 linkedin: 'https://www.linkedin.com/in/anni-rosengren-korsb%C3%A6k-85647890/'
-small-portrait-image: /images/small-images/anni-small.jpg
 ---
+
 Anni sætter mødet, det mellemmenneskelig nærvær og den gode, relationsskabebende dialog først.
 
 De sidste mange, mange år har Anni på forskellige måder arbejdet med det andet menneskes mod og selvværd. Ingen er gået fra en dialog med Anni, uden at de giver udtryk for at være blevet mødt i nuet i en form, der giver lyst til mere af livet, for de har fået en tro på, at de kan. Det er sket igennem den protreptiske samtale, en coach session eller et psykoterapeutisk forløb.

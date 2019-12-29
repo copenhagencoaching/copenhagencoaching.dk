@@ -1,19 +1,19 @@
 ---
 published: true
+order: 3
+title: Ledelseskursus på Lesbos
+image: /images/academy/lesbos.jpg
+contact-person: '6'
+header: Ledelseskursus på Lesbos
+description: Tag med på en opdagelsesrejse, hvor vi sammen udforsker ledelseskunsten og finder ind til de vigtigste værdier i det at lede sig selv og fællesskabet.
 category:
   - filosofi
   - lederskab
   - personlig-udvikling-og-transition
-title: Ledelseskursus på Lesbos
-header: Ledelseskursus på Lesbos
-description: Tag med på en opdagelsesrejse, hvor vi sammen udforsker ledelseskunsten og finder ind til de vigtigste værdier i det at lede sig selv og fællesskabet.
-image: /images/academy/lesbos.jpg
-order: 3
 price: >-
   30.000,- ekskl. moms (heri er inkluderet fuld forplejning, materialer og
   rejse)
 pdf: /pdfs/Lesbos 2020.pdf
-contact-person: '6'
 event-title: Kommende rejser
 dates:
   - start: 4-11 juni 2020

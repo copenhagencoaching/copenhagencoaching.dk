@@ -1,27 +1,27 @@
 .registration {
 
-.row {
-  width: 1230px;
-  justify-content: center;
-  .form-section {
-    .row {
-      margin: 0 auto;
-      width: 1230px;
-      justify-content: center;
-      form {
-        width: 100%;
-        input, select, textarea {
+  .row {
+    width: 1230px;
+    justify-content: center;
+
+    .form-section {
+      .row {
+        margin: 0 auto;
+        width: 1230px;
+        justify-content: center;
+
+        form {
           width: 100%;
-        }
+
+          input,
+          select,
+          textarea {
+            width: 100%;
+          }
         }
       }
     }
   }
-
- 
-
-
-
 
   .col-12 {
     margin: 0;
@@ -65,13 +65,11 @@
       width: auto !important;
     }
 
-
     p {
       margin-top: -5px;
       margin-left: 15px;
       width: auto;
     }
-
   }
 
   button {
@@ -93,29 +91,9 @@
   .green-button:hover {
     opacity: 1;
   }
-
 }
 
-/* Extra small devices (phones, 600px and down) */
-
-@media only screen and (max-width: 600px) {
-
- 
-}
-
-// Medium devices (landscape tablets, 768px and down)
-
-@media (max-width: 768px) {
-
-  
-}
-
-/* Large devices (laptops/desktops, 992px and down) */
-
-@media (max-width: 992px) {
-
-  
-}
+/* Large devices (laptops/desktops, 1290px and down) */
 
 @media (max-width: 1290px) {
 
@@ -132,7 +110,10 @@
 
           form {
             width: 100%;
-            input, select, textarea {
+
+            input,
+            select,
+            textarea {
               width: 100%;
             }
           }

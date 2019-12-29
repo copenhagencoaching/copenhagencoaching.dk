@@ -1,14 +1,14 @@
 ---
 published: true
-order: 2
 title: Mette Mejhede
+order: 2
 data-id: '3'
-portrait-image: /images/about/mette.jpg
+portrait-image: /images/about/employees/mette.jpg
+small-portrait-image: /images/small-images/mette-small.jpg
 call: 24 27 28 71
 email: mm@copenhagencoaching.dk
 description: Direktør
 linkedin: https://www.linkedin.com/in/mette-mejlhede-a810632/
-small-portrait-image: /images/small-images/mette-small.jpg
 ---
 
 Fornemmelsen at blive set og føle sig forstået, er et af de indtryk, man efterlades med efter samtaler med Mette. Timing og måden at høre og fornemme præcis det, der er dybden og tyngden i dialogen, er en evne Mette har forfinet og perfektioneret gennem coaching og træning af ledere i de seneste 20 år.

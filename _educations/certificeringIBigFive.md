@@ -1,17 +1,17 @@
 ---
 published: true
+order: 6
 title: Certificeringer i Big Five
+image: /images/academy/b2.png
+contact-person: '7'
 header: Certificeringer i Big Five
 description: Bliv certificeret til at bruge markedets bedst underbyggede personlighedstest og lær at anvende den ved gruppesammensætning, rekruttering og processer.
 category:
   - certificeringer
   - proces-og-strategi
-image: /images/academy/b2.png
 price: '19.500,- EKSKL. MOMS / 3 KURSUSDAGE'
 pdf: /pdfs/certificering-i-big-five.pdf
-contact-person: '7'
 event-title: Kommende hold
-order: 6
 dates:
   - start: 13. januar 2020 (Aarhus)
     dag:

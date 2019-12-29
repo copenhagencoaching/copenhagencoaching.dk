@@ -1,11 +1,11 @@
 ---
 published: false
-category: certificeringer
 title: Coach-certificering (EMCC)
-header: Coach-certificering (EMCC)
 image: /images/academy/b4.png
+header: Coach-certificering (EMCC)
 price: xxx pris
 dates: [xxxx, xxyy]
+category: certificeringer
 ---
 
 # Hvorfor skal du vælge Coach-certificering (EMCC)?

@@ -1,8 +1,8 @@
 ---
 published: true
+order: 2
 title: Consulting
 image: /images/international/i2.jpg
-order: 2
 contact-person: '2'
 ---
 

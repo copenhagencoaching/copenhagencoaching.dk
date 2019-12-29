@@ -1,6 +1,21 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
 body {
   width: 100%;
   margin-top: 7vh;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.col-12 {
+  .row {
+      margin:  0 0 75px 0;
+      padding: 0 !important;
+  }
 }
 
 .page-row {
@@ -68,7 +83,7 @@ body {
   }
 
   h1 {
-    color: #000000;
+    color: $black;
     font-size: 11.5vh;
     line-height: 12.5vh;
     font-weight: 500;
@@ -81,13 +96,13 @@ body {
     padding: 3.5vh 0;
     width: 100%;
     line-height: 4vh;
-    color: #000000;
+    color: $black;
     font-size: 2vh;
   }
 
   a {
     text-decoration: none;
-    color: #000000;
+    color: $black;
     font-size: 2vh;
     font-weight: 600;
   }
@@ -172,9 +187,7 @@ body {
     .color-box {
       display: none;
     }
-
   }
-
 }
 
 /* Large devices (laptops/desktops, 1024px and down) */
@@ -212,5 +225,4 @@ body {
   .color-box {
     display: none !important;
   }
-
 }

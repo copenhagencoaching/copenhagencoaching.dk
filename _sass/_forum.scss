@@ -38,6 +38,7 @@
     margin: 30px auto 50px auto !important;
     padding: 0;
   }
+
   .blog-tags-list {
     justify-content: center;
     flex-wrap: wrap;
@@ -52,16 +53,15 @@
       padding: 5px 10px;
       background-color: $green;
       border-radius: 3px;
-      color: white;
+      color: $white;
 
       a {
-        color: white;
+        color: $white;
       }
 
       a:hover {
-        color: white;
+        color: $white;
       }
-
     }
   }
 
@@ -73,7 +73,7 @@
 
   a,
   a:hover {
-    color: white;
+    color: $white;
   }
 
   .hidden {
@@ -153,7 +153,6 @@
     p {
       font-size: 18px;
       font-weight: 400;
-
     }
 
     p {
@@ -168,23 +167,19 @@
     h1 {
       font-weight: 600;
       font-size: 22px;
-
     }
 
     h2,
     p {
       font-size: 15px;
       font-weight: 400;
-
     }
 
     p {
       padding: 10px 0;
       width: 75%;
     }
-
   }
-
 }
 
 // Styling for the individual stories
@@ -229,7 +224,6 @@
     padding: 0;
     color: $green;
   }
-
 }
 
 .share-icons {
@@ -285,7 +279,6 @@
     }
 
     .tag-section {
-
       width: 90%;
 
       p {
@@ -313,7 +306,6 @@
     .story {
       height: 350px;
     }
-
 
     h1,
     h2,
@@ -356,5 +348,4 @@
       }
     }
   }
-
 }

@@ -8,81 +8,56 @@ description: Her kan du tilmelde dig vores uddannelser eller kurser. Vi sender d
 
 <div class="registration">
     <div class="row">
-
-
         <div class="col-12">
             <section class="form-section">
-                    <div class="row">
-                            <div class="col-12 col-lg-6 col-md-6">
-            <form action="https://formspree.io/tilmelding@copenhagencoaching.dk" method="POST">
-
-                <select class="input-form udd" name="uddannelse">
-                    <option value="uddannelse">Uddannelse</option>
-                    {% for education in site.educations %}
-                    <option value="{{ education.title }}">{{ education.title }}</option>
-                    {% endfor %}
-                    <option value="community">community</option>
-                </select>
-
-                <input class="input-form" type="text" placeholder="Fornavn" name="fornavn">
-
-                <input class="input-form" type="text" placeholder="Efternavn" name="efternavn">
-
-                <input class="input-form" type="text" placeholder="Firma" name="firma">
-
-                <input class="input-form" type="text" placeholder="Fakturaadresse" name="faktura">
-
-                <input class="input-form" type="text" placeholder="Post nr." name="postnr">
-
-                <input class="input-form" type="text" placeholder="By" name="by">
-
-                <input class="input-form" type="text" placeholder="Tlf." name="tlf">
-
-                <input class="input-form" type="text" placeholder="EAN" name="ean">
-
-                <input class="input-form" type="text" placeholder="CVR nr." name="cvr">
-
-                <input class="input-form" type="email" placeholder="Email" name="email">
-
-                <textarea class="input-area-form" type="textarea" cols="40" rows="10"
-                    placeholder="Evt. kommentarer"></textarea>
-
-                <div class="checkbox">
-                    <input class="checkbox-box" type="checkbox" value="GDPR-check">
-                    <p>Jeg accepterer at mine informationer gemmes <br>
-                        og lagres i virksomehedens interne GDPR register.</p>
+                <div class="row">
+                    <div class="col-12 col-lg-6 col-md-6">
+                        <form action="https://formspree.io/tilmelding@copenhagencoaching.dk" method="POST">
+                            <select class="input-form udd" name="uddannelse">
+                                <option value="uddannelse">Uddannelse</option>
+                                {% for education in site.educations %}
+                                <option value="{{ education.title }}">{{ education.title }}</option>
+                                {% endfor %}
+                                <option value="community">community</option>
+                            </select>
+                            <input class="input-form" type="text" placeholder="Fornavn" name="fornavn">
+                            <input class="input-form" type="text" placeholder="Efternavn" name="efternavn">
+                            <input class="input-form" type="text" placeholder="Firma" name="firma">
+                            <input class="input-form" type="text" placeholder="Fakturaadresse" name="faktura">
+                            <input class="input-form" type="text" placeholder="Post nr." name="postnr">
+                            <input class="input-form" type="text" placeholder="By" name="by">
+                            <input class="input-form" type="text" placeholder="Tlf." name="tlf">
+                            <input class="input-form" type="text" placeholder="EAN" name="ean">
+                            <input class="input-form" type="text" placeholder="CVR nr." name="cvr">
+                            <input class="input-form" type="email" placeholder="Email" name="email">
+                            <textarea class="input-area-form" type="textarea" cols="40" rows="10"
+                                placeholder="Evt. kommentarer"></textarea>
+                            <div class="checkbox">
+                                <input class="checkbox-box" type="checkbox" value="GDPR-check">
+                                <p>Jeg accepterer at mine informationer gemmes <br>
+                                    og lagres i virksomehedens interne GDPR register.</p>
+                            </div>
+                            <input class="green-button" type="submit" value="Tilmeld">
+                        </form>
+                    </div>
                 </div>
-                <input class="green-button" type="submit" value="Tilmeld">
-            </form>
-            </div>
-        </div>
-        </section>
+            </section>
             <br>
             <h6>HVAD SKER DER MED MIN PERSONDATA NÅR JEG TILMELDER MIG VIA TILMELDINGSFORMULAREN?</h6>
-
-            <p>Når du tilmelder dig en uddannelse via tilmeldingsformularen, ender din tilmelding i
-                en sikret emailboks, som kun én medarbejder i CCC har adgang til. Derefter gemmes din data i vores
-                kundedatabase som også er en sikker database efter de nye GDPR regler.</p>
-
-            <p>Vi bruger, efter din tilmelding, dine kontaktoplysninger til at tage kontakt til dig, ang. din
-                tilmelding, og din faktureringsdata til at sende dig en faktura.</p>
-
-            <p>Ved at tilmelde dig en uddannelse siger du ikke ja til at modtage nyhedsmails eller
-                andet materiale fra os.</p>
+            <p>Når du tilmelder dig en uddannelse via tilmeldingsformularen, ender din tilmelding i en sikret emailboks, som kun én medarbejder i CCC har adgang til. Derefter gemmes din data i vores kundedatabase som også er en sikker database efter de nye GDPR regler.</p>
+            <p>Vi bruger, efter din tilmelding, dine kontaktoplysninger til at tage kontakt til dig, ang. din tilmelding, og din faktureringsdata til at sende dig en faktura.</p>
+            <p>Ved at tilmelde dig en uddannelse siger du ikke ja til at modtage nyhedsmails eller andet materiale fra os.</p>
         </div>
     </div>
-
 </div>
-
-
-
 
 <script>
     // this script will automatically fill name and price fields 
     // depending on what's passed in the url
     var fillForm = function () {
         var queryString = document.location.search.split("+").join(" ");
-        var params = {}, tokens, re = /[?&]?([^=]+)=([^&]*)/g;
+        var params = {},
+            tokens, re = /[?&]?([^=]+)=([^&]*)/g;
 
         while (tokens = re.exec(queryString)) {
             params[decodeURIComponent(tokens[1])] = decodeURIComponent(tokens[2]);
@@ -96,5 +71,4 @@ description: Her kan du tilmelde dig vores uddannelser eller kurser. Vi sender d
             document.getElementsByName('uddannelse')[0].value = params.n;
         }
     }();
-
 </script>

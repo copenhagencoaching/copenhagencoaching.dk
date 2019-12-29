@@ -1,210 +1,176 @@
 <!DOCTYPE html>
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
-<!--[if !IE]><!-->
+
 <html lang="en">
-<!--<![endif]-->
 
 {% include head.html %}
 
-<body>
+  <body>
 
-  <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TFM8TP7"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
+    <!-- Google Tag Manager (noscript) -->
 
-  {{ content }}
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TFM8TP7" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    
+    <!-- End Google Tag Manager (noscript) -->
 
-  {% include scripts/plugin.html %}
+    {{ content }}
 
-  <!-- Expands and collapses the divs on Consulting, Coaching and International pages -->
+    {% include scripts/plugin.html %}
 
-  <script>
-    $(".show-more").on("click", function () {
-      var $this = $(this);
-      var $content = $this.prev(".content");
-      var linkText = $this.text().toUpperCase();
+    <!-- Expands and collapses the divs on Consulting, Coaching and International pages -->
 
+    <script>
+      $(".show-more").on("click", function () {
+        var $this = $(this);
+        var $content = $this.prev(".content");
+        var linkText = $this.text().toUpperCase();
+        if (linkText === "VIS MERE") {
+          linkText = "Vis mindre";
+          $content.attr("class", "content showContent"), 400;
+          $this.attr("class", "show-less");
+        } else {
+          linkText = "Vis mere";
+          $content.attr("class", "content hideContent"), 400;
+          $this.attr("class", "show-more");
+        };
+        $this.text(linkText);
+      });
+    </script>
 
-      if (linkText === "VIS MERE") {
-        linkText = "Vis mindre";
-        $content.attr("class", "content showContent"), 400;
-        $this.attr("class", "show-less");
-      } else {
-        linkText = "Vis mere";
-        $content.attr("class", "content hideContent"), 400;
-        $this.attr("class", "show-more");
-      };
+    <script>
+      $('.contact-link').on('click', function () {
+        window.history.pushState('obj', 'newtitle', '/#contact');
+      })
+    </script>
 
-      $this.text(linkText);
-    });
-  </script>
+    <!-- Makes the navbar-nav longer in order to accomidate for the search input field -->
 
+    <script>
+      $('#search-button').on('click', function () {
+        $('.navbar-nav').addClass('navbar-nav-wider'),
+          $('#search').addClass('show'),
+          $('.search-cross').addClass('show'),
+          $('#search-button').addClass('hide');
+      });
+      $('.search-cross').on('click', function () {
+        $('.navbar-nav').removeClass('navbar-nav-wider'),
+          $('#search').removeClass('show'),
+          $('.search-cross').removeClass('show'),
+          $('#search-button').removeClass('hide');
+      });
+    </script>
 
+    <!-- Functionality for sharing articles on social media -->
 
-  <script>
+    <script>
+      $(".expandable-pane-image:odd").addClass("reverse-pane-img")
+      $(".expandable-pane-text:odd").addClass("reverse-pane-text")
+    </script>
 
-  $('.contact-link').on('click', function () {
-    window.history.pushState('obj', 'newtitle', '/#contact');
-
-  })
-  </script>
-
-
-
-  <!-- Makes the navbar-nav longer in order to accomidate for the search input field -->
-
-  <script>
-    $('#search-button').on('click', function () {
-      $('.navbar-nav').addClass('navbar-nav-wider'),
-        $('#search').addClass('show'),
-        $('.search-cross').addClass('show'),
-        $('#search-button').addClass('hide');
-
-
-    });
-    $('.search-cross').on('click', function () {
-      $('.navbar-nav').removeClass('navbar-nav-wider'),
-        $('#search').removeClass('show'),
-        $('.search-cross').removeClass('show'),
-        $('#search-button').removeClass('hide');
-    });
-
-  </script>
-
-  <!-- Functionality for sharing articles on social media -->
-
-  <script>
-    $(".expandable-pane-image:odd").addClass("reverse-pane-img")
-    $(".expandable-pane-text:odd").addClass("reverse-pane-text")
-  </script>
-
-  <!-- <script>
-        $(".stories .story-row div:nth-child(1)").attr("class", "col-lg-12");
-        $(".stories .story-row div:nth-child(5)").attr("class", "col-lg-12");
-        $(".stories .story-row div:nth-child(1) a div div").attr("class", "large-article-text");
-        $(".stories .story-row div:nth-child(5) a div div").attr("class", "large-article-text");
+    <!-- <script>
+      $(".stories .story-row div:nth-child(1)").attr("class", "col-lg-12");
+      $(".stories .story-row div:nth-child(5)").attr("class", "col-lg-12");
+      $(".stories .story-row div:nth-child(1) a div div").attr("class", "large-article-text");
+      $(".stories .story-row div:nth-child(5) a div div").attr("class", "large-article-text");
     </script> -->
 
-  <script>
-    $('.expandable .row').last().find('hr').css('display', 'none');
-    $('.carousel-item').first().addClass('active');
-    $('.carousel-indicators li').first().addClass('active');
-  </script>
+    <script>
+      $('.expandable .row').last().find('hr').css('display', 'none');
+      $('.carousel-item').first().addClass('active');
+      $('.carousel-indicators li').first().addClass('active');
+    </script>
 
-  <script>
-
-
-
-
-    function filter(tag) {
-      setActiveTag(tag);
-      showContainer(tag);
-      hideAll();
-      btnAll();
-
-
-    }
-
-    function showallRow() {
-      showAll();
-    }
-
-    if (window.location.hash) {
-      var tag = window.location.hash.split('#')[1];
-      filter(tag);
-    }
-
-    function setActiveTag(tag) {
-      // loop through all items and remove active class
-
-      var items = document.getElementsByClassName('blog-tag-item');
-      for (var i = 0; i < items.length; i++) {
-        items[i].setAttribute('class', 'blog-tag-item');
+    <script>
+      function filter(tag) {
+        setActiveTag(tag);
+        showContainer(tag);
+        hideAll();
+        btnAll();
       }
 
-      // set the selected tag's item to active
-      var item = document.getElementById(tag + '-item');
-      if (item) {
-        item.setAttribute('class', 'blog-tag-item active');
-      }
-    }
-
-    function showContainer(tag) {
-      // loop through all lists and hide them
-      var lists = document.getElementsByClassName('blog-list-container');
-      for (var i = 0; i < lists.length; i++) {
-        lists[i].setAttribute('class', 'blog-list-container hidden row');
+      function showallRow() {
+        showAll();
       }
 
-      // remove the hidden class from the list corresponding to the selected tag
-
-      var list = document.getElementById(tag + '-container');
-      if (list) {
-        list.setAttribute('class', 'blog-list-container row active-card');
+      if (window.location.hash) {
+        var tag = window.location.hash.split('#')[1];
+        filter(tag);
       }
-    }
 
+      function setActiveTag(tag) {
 
+        // loop through all items and remove active class
 
-    function hideAll() {
-      var all_h = document.getElementById('row_all')
-      all_h.setAttribute('class', 'hidden');
-    }
+        var items = document.getElementsByClassName('blog-tag-item');
+        for (var i = 0; i < items.length; i++) {
+          items[i].setAttribute('class', 'blog-tag-item');
+        }
 
-    function btnAll() {
-      var all_btn = document.getElementById('showAllBtn')
-      all_btn.setAttribute('class', ' tags');
-    }
+        // set the selected tag's item to active
 
-    function showAll() {
-      var show_all = document.getElementById('row_all')
-      show_all.setAttribute('class', 'row');
+        var item = document.getElementById(tag + '-item');
+        if (item) {
+          item.setAttribute('class', 'blog-tag-item active');
+        }
+      }
 
-      var all_btn = document.getElementById('showAllBtn')
-      all_btn.setAttribute('class', ' tags');
+      function showContainer(tag) {
 
+        // loop through all lists and hide them
 
+        var lists = document.getElementsByClassName('blog-list-container');
+        for (var i = 0; i < lists.length; i++) {
+          lists[i].setAttribute('class', 'blog-list-container hidden row');
+        }
 
+        // remove the hidden class from the list corresponding to the selected tag
 
-    }
+        var list = document.getElementById(tag + '-container');
+        if (list) {
+          list.setAttribute('class', 'blog-list-container row active-card');
+        }
+      }
 
-    $("#collapsible").on("click", function () {
-      var $this = $(this);
-      var linkText = $this.text().toUpperCase();
+      function hideAll() {
+        var all_h = document.getElementById('row_all')
+        all_h.setAttribute('class', 'hidden');
+      }
 
+      function btnAll() {
+        var all_btn = document.getElementById('showAllBtn')
+        all_btn.setAttribute('class', ' tags');
+      }
 
-      if (linkText === "VIS MERE") {
-        linkText = "Vis mindre";
-      } else {
-        linkText = "Vis mere";
-      };
+      function showAll() {
+        var show_all = document.getElementById('row_all')
+        show_all.setAttribute('class', 'row');
 
-      $this.text(linkText);
-    });
+        var all_btn = document.getElementById('showAllBtn')
+        all_btn.setAttribute('class', ' tags');
+      }
 
+      $("#collapsible").on("click", function () {
+        var $this = $(this);
+        var linkText = $this.text().toUpperCase();
+        if (linkText === "VIS MERE") {
+          linkText = "Vis mindre";
+        } else {
+          linkText = "Vis mere";
+        };
+        $this.text(linkText);
+      });
 
-// Toggle between arrows in factabox
+      // Toggle between arrows in factabox
 
-$(".date-links").on("click", function () {
-  var $this = $(this);
-  if ($this.find(".fas").hasClass('fa-caret-down')) {
-    $this.find(".fas").addClass("fa-caret-up").removeClass("fa-caret-down");
-    $this.next(".collapse-dates").addClass("show-dates");
-  }
-  else {
-    $this.find(".fas").addClass("fa-caret-down").removeClass("fa-caret-up");
-    $this.next(".collapse-dates").removeClass("show-dates");
-  }
-
-});
-
-
-  </script>
-
-
-
-
-</body>
-
+      $(".date-links").on("click", function () {
+        var $this = $(this);
+        if ($this.find(".fas").hasClass('fa-caret-down')) {
+          $this.find(".fas").addClass("fa-caret-up").removeClass("fa-caret-down");
+          $this.next(".collapse-dates").addClass("show-dates");
+        } else {
+          $this.find(".fas").addClass("fa-caret-down").removeClass("fa-caret-up");
+          $this.next(".collapse-dates").removeClass("show-dates");
+        }
+      });
+    </script>
+  </body>
 </html>

@@ -1,8 +1,8 @@
 ---
 published: true
+order: 3
 title: Coaching
 image: /images/international/i3.jpg
-order: 3
 contact-person: '1'
 ---
 

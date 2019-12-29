@@ -76,7 +76,7 @@ nav {
     border-radius: 2.5px;
     background-color: $green;
     font-weight: 400;
-    color: white;
+    color: $white;
     max-width: 70px !important;
     text-transform: uppercase;
     border: none;
@@ -223,9 +223,7 @@ nav {
 
   .navbar-brand {
     margin-left: 5% !important;
-
   }
-
 }
 
 /* Large devices (laptops/desktops, 992px and down) */
@@ -304,7 +302,6 @@ nav {
     margin-top: 10px;
     height: 10vh;
   }
-
 }
 
 @media (max-width: 1290px) {
@@ -318,5 +315,4 @@ nav {
     margin-left: 5%;
 
   }
-
 }

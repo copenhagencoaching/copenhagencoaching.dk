@@ -6,7 +6,6 @@ layout: page
   <div class="row">
     <div class="col-12 col-md-8 col-lg-8 education-content">
       {{ page.content }}
-        
       {% capture reg-url %}?n={{ page.title | uri_escape }}{% endcapture %}
     </div>
     <div class="col-12 col-md-4 col-lg-4 facta-column">
@@ -15,26 +14,24 @@ layout: page
           <p>Pris:</p>
         </b>
         <p> {{ page.price }} </p>
-
         {% if page.location %}
         <b>
           <p>Sted:</p>
         </b>
         <p> {{ page.location }} </p>
-
         {% endif %}
 
         <!-- Datoer  -->
+
         {% if page.dates %}
         <br>
         <b>
           {% if page.event-title %}<p>{{ page.event-title }}:</p>{% endif %}
         </b>
-
-
         {% for date in page.dates %}
 
         <!-- Hvis der er kategoriseret efter by -->
+
         {% if date.by %}
         <h3>{{ date.by }}</h3>
         {% for opstartsdatoer in date.opstartsdatoer %}
@@ -50,7 +47,6 @@ layout: page
         </div>
         {% endfor %}
         {% else %}
-
         {% if date.dag %}
         <div class="date-box">
           <a class="date-links" role="button">{{ date.start }}<i class="fas fa-caret-down"></i></a>
@@ -58,7 +54,6 @@ layout: page
             <ul>
               {% for dag in date.dag %}
               <li>{{ dag.dato }}</li>
-
               {% endfor %}
             </ul>
           </div>
@@ -70,25 +65,14 @@ layout: page
         {% endif %}
         {% endif %}
         {% endfor %}
-
-
-
         {% endif %}
-
-
-
-
         <span>
-
           {% if page.contact-person %}
           <b>
             <p>Kontakt:</p>
           </b>
           {% for employee in site.employees %}
           {% if employee.data-id == page.contact-person %}
-
-
-
           <a href="{{ employee.url }}" data-proofer-ignore>{{ employee.title }}</a>
           <a href="tel:{{ employee.call }}" data-proofer-ignore>{{ employee.call }}</a>
           <a href="mailto:{{ employee.email }}" data-proofer-ignore>{{ employee.email }}</a>
@@ -98,55 +82,37 @@ layout: page
         </span>
         <br>
         <a class="reg-link" href="/registration/{{ reg-url }}">Tilmeld dig her</a>
-
         {% unless page.pdf %}
-
         {% capture pdfvar %}
         muted
         {% endcapture %}
-
         {% capture pdfmes %}
         Pdf kommer snart
         {% endcapture %}
-
         {% capture pdfurl %}
         #
         {% endcapture %}
-
         {% endunless %}
-
-
         {% if page.pdf == 'false' %}
-
         {% capture pdfvar %}
         hidden
         {% endcapture %}
-
         {% capture pdfmes %}
         #
         {% endcapture %}
-
         {% capture pdfurl %}
         #
         {% endcapture %}
-
         {% endif %}
-
         {% if page.pdf %}
-
         {% capture pdfurl %}
         {{ page.pdf }}
         {% endcapture %}
-
         {% capture pdfmes %}
         PDF om {{ page.title }}
         {% endcapture %}
-
         {% endif %}
-
-        <a data-proofer-ignore target="_blank" alt="{{ pdfmes | strip_newlines | strip }}"
-          href="{{ pdfurl | strip_newlines | strip }}" class="pdf-link {{ pdfvar | strip_newlines | strip }}">Download
-          PDF</a>
+        <a data-proofer-ignore target="_blank" alt="{{ pdfmes | strip_newlines | strip }}" href="{{ pdfurl | strip_newlines | strip }}" class="pdf-link {{ pdfvar | strip_newlines | strip }}">Download PDF</a>
       </div>
     </div>
   </div>

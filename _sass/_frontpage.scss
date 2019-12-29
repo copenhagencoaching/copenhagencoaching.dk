@@ -109,8 +109,13 @@
 }
 
 @keyframes blinkingArrow {
-    0%   {opacity: 1;}
-    50%  {opacity: .25;}
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: .25;
+    }
 }
 
 // Front page navigation - this is a hackerman solution and might have to be changed further on down the line
@@ -144,7 +149,6 @@
 
     .frontpage {
 
-
         h1 {
             font-size: 30px; // denne bliver overskrevet
         }
@@ -154,16 +158,12 @@
             width: 100%
         }
 
-
-
         .green-button,
         .transparent-button {
             width: 150px;
             height: 40px;
             font-size: 16px;
         }
-
-
     }
 
     #frontpage-nav {
@@ -171,5 +171,4 @@
             width: 100%; //Denne bliver overskrevet
         }
     }
-
 }

@@ -1,116 +1,104 @@
-// styling for the pages with educations list with the selected category
-
 .education-list {
 
-    .row {
-      width: 1250px;
-  
-      .education-box {
-        margin-bottom: 20px;
-  
-        .card {
+  .row {
+    width: 1250px;
+
+    .education-box {
+      margin-bottom: 20px;
+
+      .card {
+        width: 100%;
+        text-align: left;
+        -webkit-box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.16);
+        -moz-box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.16);
+        box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.16);
+        border: none;
+        transition: all ease-in-out .3s;
+        padding: 10px;
+        min-height: 200px;
+
+        .card-body {
+          padding: 0;
+        }
+
+        .education-image {
           width: 100%;
-          text-align: left;
-          -webkit-box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.16);
-          -moz-box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.16);
-          box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.16);
-          border: none;
-          transition: all ease-in-out .3s;
-          padding: 10px;
-          min-height: 200px;
-  
-          .card-body {
-            padding: 0;
-          }
-  
-          .education-image {
-            width: 100%;
-            height: 150px;
-            background-size: cover;
-            background-position: center center;
-            margin: auto;
-          }
-  
-          .card-title {
-            text-align: center;
-            margin: 20px 0 31px;
-            font-size: 16px;
-            font-weight: 500;
-            display: block;
-            height: 20px;
-          }
-  
-          .card-text {
-            text-align: center;
+          height: 150px;
+          background-size: cover;
+          background-position: center center;
+          margin: auto;
+        }
+
+        .card-title {
+          text-align: center;
+          margin: 20px 0 31px;
+          font-size: 16px;
+          font-weight: 500;
+          display: block;
+          height: 20px;
+        }
+
+        .card-text {
+          text-align: center;
+          font-size: 14px;
+          font-weight: 300;
+          margin-bottom: 31px;
+          height: 40px;
+          overflow: hidden;
+
+          h1,
+          h2,
+          h3,
+          h4 {
             font-size: 14px;
             font-weight: 300;
-            margin-bottom: 31px;
-            height: 40px;
-            overflow: hidden;
-  
-            h1,
-            h2,
-            h3,
-            h4 {
-              font-size: 14px;
-              font-weight: 300;
-  
-            }
-          }
-  
-          .showmore-button {
-            cursor: pointer;
-            border: none;
-            background: none;
-            margin: 0 0 15px;
-            font-size: 14px;
-            padding: 0;
-            background-color: none;
-            width: auto;
-            display: inline-block;
-          }
-  
-          .showmore-button:hover {
-            color: $green;
-          }
-  
-          a {
-            color: $black;
-          }
-  
-          a:hover {
-            text-decoration: none;
-            color: $green;
-          }
-  
-        }
-      }
-    }
-  }
 
-  // Medium devices (landscape tablets, 768px and down)
-@media (max-width: 768px) {
-    
-  
-  }
-  
-  /* Large devices (laptops/desktops, 992px and down) */
-  @media (max-width: 992px) {
-   
-    }
-  
-    @media (max-width: 1290px) {
-    
-      .education-list {
-        .read-more {
-          text-align: center;
-          margin-right: 0;
-          justify-content: center !important; // Jeg kan ikke forstå hvorfor der bliver nødt til at være importent her.
-          width: 100% !important;
+          }
         }
-    
-        .row {
-          width: 95% !important;
+
+        .showmore-button {
+          cursor: pointer;
+          border: none;
+          background: none;
+          margin: 0 0 15px;
+          font-size: 14px;
+          padding: 0;
+          background-color: none;
+          width: auto;
+          display: inline-block;
+        }
+
+        .showmore-button:hover {
+          color: $green;
+        }
+
+        a {
+          color: $black;
+        }
+
+        a:hover {
+          text-decoration: none;
+          color: $green;
         }
       }
     }
+  }
+}
+
+/* Large devices (laptops/desktops, 1290px and down) */
+
+@media (max-width: 1290px) {
+
+  .education-list {
+    .read-more {
+      text-align: center;
+      margin-right: 0;
+      justify-content: center !important; // Jeg kan ikke forstå hvorfor der bliver nødt til at være importent her.
+      width: 100% !important;
+    }
+
+    .row {
+      width: 95% !important;
+    }
+  }
+}

@@ -1,18 +1,18 @@
 ---
 published: true
+order: 1
+title: Master of Business Coaching
+image: /images/coaching/ledelsessparring.jpg
+contact-person: '7'
+header: Master of Business Coaching
+description: Bliv samtaleekspert med vores Master i Business Coaching – en eksklusiv coachinguddannelse, der er akkrediteret på højeste EMCC-niveau.
 category:
   - lederskab
   - personlig-udvikling-og-transition
   - master-of-business-coaching
-title: Master of Business Coaching
-header: Master of Business Coaching
-description: Bliv samtaleekspert med vores Master i Business Coaching – en eksklusiv coachinguddannelse, der er akkrediteret på højeste EMCC-niveau.
-image: /images/coaching/ledelsessparring.jpg
 price: '45.900,- EKSKL. MOMS (heri er inkluderet fuld forplejning og kursusmaterialer)'
 pdf: /pdfs/master-of-business-coaching.pdf
-contact-person: '7'
 event-title: Kommende hold
-order: 1
 dates:
   - by: København
     opstartsdatoer:
@@ -57,7 +57,6 @@ special: false
 Med en Master of Business Coaching får du en af landets bedste coachinguddannelser, hvor du både kan foretage traditionelle coachingsamtaler og den filosofiske samtale.
 
 Uddannelsen er akkrediteret igennem EMCC. [Læs om vores EMCC akkreditering](/emcc-akkreditering/)
-
 
 # Hvordan er uddannelsen bygget op?
 

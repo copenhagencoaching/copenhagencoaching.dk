@@ -1,19 +1,18 @@
 ---
 published: true
+title: Executive Transition
+image: /images/academy/executive-transition.jpg
+contact-person: '1'
+header: Executive Transition
 category:
   - personlig-udvikling-og-transition
-title: Executive Transition
-header: Executive Transition
-image: /images/academy/executive-transition.jpg
 price: '24.900,- EKSKL. MOMS  (heri er inkluderet fuld forplejning, materialer)  '
 pdf: 'false'
-contact-person: '1'
 event-title: Kommende hold
 dates:
   - start: Nye seminarer til foråret 2020 (datoer følger snarest)
 special: true
 ---
-
 
 # Hvorfor skal du vælge Executive Transition?
 ## Med fokus på at bære det rigtige og sig selv videre
@@ -23,7 +22,6 @@ Er du topleder og på vej til at skifte spor? Og ønsker du at skifte spor på e
 Forløbet er bygget op af en introduktionsaften efterfulgt af 4 workshops på hver 4 timer, hvor vi arbejder med  temaerne identitet, ambition, transition og performance. Mellem modulerne vil der være individuel coaching á 90 minutters varighed. Imellem modulerne forventes deltagerne at arbejde med egen transitionsproces gennem konkrete opgaver og udfordringer.
 
 Vi arbejder både individuelt og i teams: De 4 workshops foregår i teams, hvor deltagerne anderkendes og udfordres af andre i samme situation, og suppleres af individuelle coachingforløb der styrker den personlige transitionsproces.  
-
 
 Som deltager på Executive Transition forløb får du først og fremmest personlig indsigt, kickstartet med en Big Five Personality Test med individuel feedback, som kan styrke jobsøgning, dit nuværende arbejde, dit nye arbejde eller karrierestop. Derudover får du:
 

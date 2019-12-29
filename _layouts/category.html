@@ -1,6 +1,7 @@
 ---
 layout: page
 ---
+
 <div class="education-list">
   <div class="row">
     {% for education in site.educations %}
@@ -11,9 +12,6 @@ layout: page
         <div class="education-image" style="background-image: url('{{ education.image }}')"></div>
         <div class="card-body d-flex justify-content-center align-items-center flex-column">
           <h5 class="card-title">{{ education.title }}</h5>
-          <!-- <div class="card-text" id="content">
-            
-          </div> -->
           <a class="showmore-button" href="{{ education.url }}">Læs mere</a>
         </div>
       </div>

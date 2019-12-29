@@ -1,122 +1,58 @@
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
-
         {% capture indicators %}
-
         {% if page.category %}
         {% for testimonial in site.testimonials %}
-
         {% assign cats = page.category %}
-
         {% assign tagss = testimonial.tags %}
-
         {% for c in cats %}
-
-
-
         {% for t in tagss %}
-
-
-
         {% if c == t %}
-
-
-
         x,
-
-
         {% endif %}
         {% endfor %}
         {% endfor %}
-
-
         {% endfor %}
-
-
         {% else %}
-
         {% for testimonial in site.testimonials %}
-
         x,
-
         {% endfor %}
-
         {% endif %}
         {% endcapture %}
-
         {% assign indi = indicators | split: "," %}
-
         {% for i in indi offset: 1 %}
         <li class="hej" data-target="#carouselExampleIndicators" data-slide-to="{{ forloop.index0 }}"></li>
         {% endfor %}
-
     </ol>
     <div class="carousel-inner">
-
-
-
         {% if page.category %}
         {% for testimonial in site.testimonials %}
-
         {% assign cats = page.category %}
-
         {% assign tagss = testimonial.tags %}
-
         {% for c in cats %}
-
-
-
         {% for t in tagss %}
-
-
-
         {% if c == t %}
-
-
-
         <div class="carousel-item">
             <img class="testimonial-person" src="{{ testimonial.image | uniq }}"
                 alt="Picture of a person giving a testimonial">
             <h2>{{ testimonial.title }}</h2>
             <h3>{{ testimonial.description }}</h3>
             <p>{{ testimonial.content }}</p>
-
-
-
-
         </div>
-
-
-
         {% endif %}
         {% endfor %}
         {% endfor %}
-
-
         {% endfor %}
-
-
         {% else %}
-
         {% for testimonial in site.testimonials %}
-
         <div class="carousel-item">
             <img class="testimonial-person" src="{{ testimonial.image }}"
                 alt="Picture of a person giving a testimonial">
             <h2>{{ testimonial.title }}</h2>
             <h3>{{ testimonial.description }}</h3>
             <p>{{ testimonial.content }}</p>
-
-
-
-
         </div>
         {% endfor %}
-
         {% endif %}
-
-
-
-
     </div>
 </div>

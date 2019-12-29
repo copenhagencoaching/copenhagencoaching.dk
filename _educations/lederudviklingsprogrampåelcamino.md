@@ -1,14 +1,14 @@
 ---
 published: true
+title: Leder udviklingsprogram på El Camino
+image: /images/educations/ed-1.jpg
+contact-person: '2'
+header: Leder udviklings-<br>program på El Camino
+description: Kurset henvender sig til topledere i både den offentlige og private sektor, der har ansvar og fokus på strategiudvikling igennem social innovation. Rammen for kurset er El Camino i Nordspanien.
 category:
   - lederskab
   - personlig-udvikling-og-transition
-title: Leder udviklingsprogram på El Camino
-header: Leder udviklings-<br>program på El Camino
-description: Kurset henvender sig til topledere i både den offentlige og private sektor, der har ansvar og fokus på strategiudvikling igennem social innovation. Rammen for kurset er El Camino i Nordspanien.
-image: /images/educations/ed-1.jpg
 price: '29.500 EKSL. MOMS (heri er inkluderet fuld forplejning, materialer og rejse) '
-contact-person: '2'
 pdf: /pdfs/lederudvikling-på-caminoen.pdf
 event-title: Kommende rejser
 dates:

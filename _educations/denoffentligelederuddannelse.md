@@ -1,19 +1,19 @@
 ---
 published: true
+order: 7
 title: Den offentlige lederuddannelse
+image: /images/academy/b3.png
+contact-person: '7'
 header: Den offentlige lederuddannelse
 category:
   - diplom-i-offentlig-ledelse
-image: /images/academy/b3.png
 price: 'Vejledende pris: 7.500 ekskl. moms pr. 5 ECTS'
+pdf: 'false'
 event-title: Vi starter løbende hold op - ring og hør nærmere
-order: 7
 dates:
   - start: Coaching (valgfagsmodul) 30. januar 2020
     dag:
       - dato: '30/1, 13/2 og 5/3 (aflevering midt april og eksamen start maj)'
-pdf: 'false'
-contact-person: '7'
 special: false
 ---
 
@@ -25,14 +25,13 @@ DOL er en fleksibel lederuddannelse, hvor hvert modul giver 5, 10 eller 15 ECTS 
 
 Du har herefter mulighed for at få konverteret den offentlige lederuddannelse til Diplomuddannelsen i ledelse ved en offentlig videregående uddannelsesinstitution, som udbyder diplomuddannelsen i ledelse.
 
-
 Hos CCC kan du tage følgende DOL-moduler:
 
 - Det Personlige Lederskab og Forandring (Standardmodul, 10 ECTS)
 
 - Ledelse af Medarbejdere og Faglig Udvikling (Standardmodul, 10 ECTS)
 
--  Ledelse af forandrings- og udviklingsprocesser i offentlige organisationer (Valgmodul, 5 ECTS)
+- Ledelse af forandrings- og udviklingsprocesser i offentlige organisationer (Valgmodul, 5 ECTS)
 
 - Coaching (valgmodul, 5 ECTS)
 
@@ -42,8 +41,6 @@ Hos CCC kan du tage følgende DOL-moduler:
 
 - Specialemodul (15 ECTS)
 
-
 De forskellige DOL-moduler har forskellige form og varighed – kontakt os og få mere information om de enkelte moduler.
-
 
 CCC samarbejder med Københavns Professionshøjskole, og via dette samarbejde kan du kombinere dine fag, så du opnår en fuld diplom. Du kan se hvilke fag de har [her](https://www.phmetropol.dk/videreuddannelser/diplomuddannelser/diplom+i+ledelse)

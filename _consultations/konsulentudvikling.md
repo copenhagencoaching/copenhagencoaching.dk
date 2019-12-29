@@ -1,8 +1,8 @@
 ---
 published: true
+order: 2
 title: Konsulent<br>udvikling
 image: /images/consulting/c2.jpg
-order: 2
 contact-person: '1'
 ---
 

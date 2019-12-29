@@ -1,9 +1,8 @@
 {% include contact-modal.html %}
 <nav>
   <div class="navbar navbar-expand-lg">
-    <a class="navbar-brand" href="/"><img src="/images/ccc-logo-new.png" alt="CCC logo"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <a class="navbar-brand" href="/"><img src="/images/logo/ccc-logo-new.png" alt="CCC logo"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <i class="fas fa-bars"></i>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
@@ -13,20 +12,17 @@
         {% if node.show %}
         {% if page.url == node.url %}
         <li class="nav-item">
-          <a class="nav-link active-page"
-            href="{{node.url}}">{{ node.title | truncatewords: 2, "" | remove: "Tilmelding" | remove: "Search" }}</a>
+          <a class="nav-link active-page" href="{{node.url}}">{{ node.title | truncatewords: 2, "" | remove: "Tilmelding" | remove: "Search" }}</a>
         </li>
         {% else %}
         <li class="nav-item">
-          <a class="nav-link"
-            href="{{node.url}}">{{ node.title | truncatewords: 2, "" | remove: "Tilmelding" | remove: "Search" }}</a>
+          <a class="nav-link" href="{{node.url}}">{{ node.title | truncatewords: 2, "" | remove: "Tilmelding" | remove: "Search" }}</a>
         </li>
         {% endif %}
         {% endif %}
         {% endfor %}
         <li class="nav-item">
-          <a class="contact-link nav-link" data-proofer-ignore href="#contact" data-toggle="modal"
-            data-target="#contact-modal"><i class="fas fa-envelope"></i></a>
+          <a class="contact-link nav-link" data-proofer-ignore href="#contact" data-toggle="modal" data-target="#contact-modal"><i class="fas fa-envelope"></i></a>
         </li>
         <li id="search-button" class="nav-item nav-icon show">
           <i class="fas fa-search"></i>
@@ -40,8 +36,7 @@
           <button class="search-cross"><i class="fas fa-times"></i></button>
         </li>
         <li class="nav-item nav-icon">
-          <a href="https://www.edu.copenhagencoaching.dk/login/index.php" target="_blank"><i
-              class="fas fa-user-graduate"></i></a>
+          <a href="https://www.edu.copenhagencoaching.dk/login/index.php" target="_blank"><i class="fas fa-user-graduate"></i></a>
         </li>
       </ul>
     </div>

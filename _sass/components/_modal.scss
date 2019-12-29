@@ -65,7 +65,8 @@
         flex-wrap: wrap;
         justify-content: flex-start;
 
-        button, .button {
+        button,
+        .button {
             height: 50px;
             width: 175px;
             background: $green;
@@ -74,9 +75,9 @@
             font-weight: 600;
             opacity: .85;
         }
-        
 
-        button:hover, .button:hover {
+        button:hover,
+        .button:hover {
             opacity: 1;
         }
 

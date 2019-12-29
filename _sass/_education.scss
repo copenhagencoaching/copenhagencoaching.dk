@@ -1,5 +1,4 @@
 .education {
-
     padding: 0;
 
     .row {
@@ -16,26 +15,24 @@
         padding: 0;
 
         h3 {
-          display: block;
-          border-bottom: 2px solid rgba(255, 255, 255, 0.25);
-          margin: 20px 0 20px 0;
-          padding-bottom: 20px;
-
+            display: block;
+            border-bottom: 2px solid rgba(255, 255, 255, 0.25);
+            margin: 20px 0 20px 0;
+            padding-bottom: 20px;
         }
-
 
         a {
             display: block;
         }
 
         .collapse-dates {
-          height: 0;
-          overflow: hidden;
-          transition: all 5s ease-in-out;
+            height: 0;
+            overflow: hidden;
+            transition: all 5s ease-in-out;
         }
 
         .collapse-dates.show-dates {
-          height: auto;
+            height: auto;
         }
 
         .facta-box {
@@ -46,32 +43,27 @@
             z-index: 100;
 
             i {
-              font-size: 25px;
-              padding:0;
+                font-size: 25px;
+                padding: 0;
             }
+
             .date-box {
 
-              // background-color: $green;
-              // padding: 3px 10px 0px 10px;
-              // margin-bottom: 7px;
-
-              .date-links {
-                display: flex;
-                align-items: center;
-                color: #ffffff;
-                justify-content: space-between;
-                padding-bottom: 10px;
-                margin-bottom: 7px;
-                cursor: pointer;
-
-              }
-
-              ul {
-                li {
-                  padding: 0;
+                .date-links {
+                    display: flex;
+                    align-items: center;
+                    color: #ffffff;
+                    justify-content: space-between;
+                    padding-bottom: 10px;
+                    margin-bottom: 7px;
+                    cursor: pointer;
                 }
-              }
 
+                ul {
+                    li {
+                        padding: 0;
+                    }
+                }
             }
 
             span {
@@ -81,7 +73,7 @@
                 margin-top: 20px;
 
                 a {
-                  padding: 10px 0;
+                    padding: 10px 0;
                 }
             }
 
@@ -144,16 +136,15 @@
         font-size: inherit;
     }
 
-    // Bruger vi dates classen mere??
+    a.reg-link,
+    a.pdf-link {
+        color: #ffffff;
+        font-weight: 500;
+    }
 
-a.reg-link, a.pdf-link {
-    color: #ffffff;
-    font-weight: 500;
-}
-
- a.reg-link {
-     margin-bottom: 10px;
- }
+    a.reg-link {
+        margin-bottom: 10px;
+    }
 
     .muted {
         opacity: 0.5;
@@ -165,14 +156,11 @@ a.reg-link, a.pdf-link {
         display: none !important;
     }
 
-
-
     .dates:hover,
     .sign-up-button:hover,
     .pdf-download:hover {
         opacity: 1;
     }
-
 }
 
 // Medium devices (landscape tablets, 768px and down)
@@ -204,9 +192,9 @@ a.reg-link, a.pdf-link {
             padding-right: 0px !important;
         }
     }
-
-
 }
+
+/* Large devices (laptops/desktops, 1290px and down) */
 
 @media (max-width: 1290px) {
 
@@ -215,5 +203,4 @@ a.reg-link, a.pdf-link {
             width: 90%;
         }
     }
-
 }

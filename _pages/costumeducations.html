@@ -12,23 +12,19 @@ description: CCC tilbyder åbne uddannelser, lederuddannelser og kurser til dig 
   <div class="row">
     {% for education in site.educations %}
     {% if education.special == true %}
-
     <div class="col-lg-3 col-md-6 col-sm-6 col-12 education-box">
       <div class="card education-card">
         <div class="education-image" style="background-image: url('{{ education.image }}')"></div>
         <div class="card-body d-flex justify-content-center align-items-center flex-column">
           <h5 class="card-title">{{ education.title }}</h5>
-          <!-- <div class="card-text" id="content">
-            
-          </div> -->
           <a class="showmore-button" href="{{ education.url }}">Læs mere</a>
         </div>
       </div>
     </div>
-
     {% endif %}
     {% endfor %}
     <a class="read-more" href="/academy/">← Se flere uddannelser</a>
   </div>
 </div>
+
 {% include contact.html %}

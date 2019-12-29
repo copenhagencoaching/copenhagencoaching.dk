@@ -1,7 +1,7 @@
 ---
 published: true
-title: Ledelses<br>udvikling
 order: 1
+title: Ledelses<br>udvikling
 image: /images/consulting/c3.jpg
 contact-person: '5'
 ---

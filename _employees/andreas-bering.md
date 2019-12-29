@@ -3,12 +3,12 @@ published: true
 order: 1
 data-id: '9'
 title: Andreas Bering
-portrait-image: /images/about/andreas.jpg
+portrait-image: /images/about/employees/andreas.jpg
+small-portrait-image: /images/small-images/andreas-small.jpg
 call: 40 14 92 92
 email: ab@copenhagencoaching.dk
 description: Direktør og GDPR ansvarlig
 linkedin: https://www.linkedin.com/in/andreas-bering-4a554b5/
-small-portrait-image: /images/small-images/andreas-small.jpg
 ---
 
 Andreas mestrer om nogen at perspektivere teorien, så den bliver levende og omsættelig i praksis. Dette, kombineret med Andreas’ evne til at fange og indkredse det væsentlige, gør, at man altid føler sig inspireret af ham.

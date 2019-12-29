@@ -1,8 +1,8 @@
 ---
 published: true
+order: 4
 title: Medarbejder<br>udvikling
 image: /images/consulting/c1.jpg
-order: 4
 contact-person: '9'
 ---
 

@@ -1,7 +1,7 @@
 ---
 published: true
-title: Organisations<br>udvikling
 order: 3
+title: Organisations<br>udvikling
 image: /images/consulting/c4.png
 contact-person: '2'
 ---
