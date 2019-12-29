@@ -71,3 +71,41 @@
         }
     }
 }
+
+// Medium devices (landscape tablets, 768px and down)
+
+@media (max-width: 768px) {
+
+    .employee-overview {
+        padding: 20vh 3vh 7.5vh 3vh;
+
+        h1 {
+            font-size: calc(42.22188px + 1.54083vw);
+            line-height: calc(48.22188px + 1.54083vw);
+        }
+
+        p {
+            font-size: 13px;
+            line-height: 35px;
+        }
+    }
+
+    .individual-employee {
+        padding: 10vh 3vh;
+
+        .wrapper {
+            grid-template-columns: 1fr;
+        }
+
+        img {
+            width: 100%;
+            padding-bottom: 7.5vh;
+        }
+
+        h1 {
+            font-size: calc(42.22188px + 1.54083vw);
+            line-height: calc(48.22188px + 1.54083vw);
+        }
+    }
+
+}
