@@ -1,7 +1,7 @@
 ---
 layout: inspiration
 title: Inspiration
-image: /images/forum/forum-banner.jpg
+image: /images/inspiration/blurchristmas.jpg
 signup: forskellige ydelser
 show: false
 order: 6

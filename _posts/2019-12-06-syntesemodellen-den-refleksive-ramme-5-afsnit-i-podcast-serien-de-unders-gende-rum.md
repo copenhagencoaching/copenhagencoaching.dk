@@ -1,7 +1,7 @@
 ---
 published: true
 title: Syntesemodellen – den refleksive ramme
-image: /images/forum/Podcast.jpg
+image: /images/inspiration/Podcast.jpg
 author: Frederikke Winther
 tags:
   - coaching

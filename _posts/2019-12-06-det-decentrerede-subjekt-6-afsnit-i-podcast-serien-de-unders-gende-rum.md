@@ -1,7 +1,7 @@
 ---
 published: true
 title: Det decentrerede subjekt
-image: /images/forum/Podcast.jpg
+image: /images/inspiration/Podcast.jpg
 author: Morten Paustian
 tags:
   - coaching

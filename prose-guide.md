@@ -35,4 +35,4 @@ Unummerede lister:
 - Tekst
 
 Billed:
-![Tekst der kommer frem når har musen over billedet](/images/forum/post.jpg "Billed titel")
+![Tekst der kommer frem når har musen over billedet](/images/inspiration/post.jpg "Billed titel")

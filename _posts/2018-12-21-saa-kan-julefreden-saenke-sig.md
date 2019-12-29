@@ -1,7 +1,7 @@
 ---
 published: true
 title: Så kan julefreden endelig sænke sig over det lille CCC-akademi
-image: /images/forum/post2.jpeg
+image: /images/inspiration/post2.jpeg
 author: Frederikke Winther
 tags: [fest, jul]
 signup: forskellige ydelser

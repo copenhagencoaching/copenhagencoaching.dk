@@ -1,34 +1,33 @@
-<footer class="footer">
-    <div class="row">
-        <div class="footer-row col-xs-12">
-            <p>Copenhagen Coaching</p>
-            <p class="footer-text">Copenhagen Coaching Center blev dannet i 2004 og er et partnerejet selskab, der udbyder åbne uddannelser.</p>
-            <a class="footer-more" href="/about/">Læs mere om os</a>
-            <span>
-                <a href="https://www.facebook.com/copenhagencoachingdk-169785200063933/" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="https://www.linkedin.com/company/copenhagen-coaching-center" target="_blank" data-proofer-ignore><i class="fab fa-linkedin-in"></i></a>
-                <a href="https://www.instagram.com/explore/tags/copenhagencoachingcenter/" target="_blank"><i class="fab fa-instagram"></i></a>
-            </span>
+<footer>
+    <span class="footer-ccc">
+        <h2>Copenhagen Coaching Center</h2>
+        <p>Copenhagen Coaching Center blev dannet i 2004 og er et partnerejet selskab, der udbyder åbne uddannelser.</p>
+            <a data-proofer-ignore href="/about/">Læs mere om os</a>
+        <div>
+            <a data-proofer-ignore href="https://www.facebook.com/copenhagencoachingdk-169785200063933/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a data-proofer-ignore href="#"><i class="fab fa-twitter"></i></a>
+            <a data-proofer-ignore href="https://www.linkedin.com/company/copenhagen-coaching-center" target="_blank" data-proofer-ignore><i class="fab fa-linkedin-in"></i></a>
+            <a data-proofer-ignore href="https://www.instagram.com/explore/tags/copenhagencoachingcenter/" target="_blank"><i class="fab fa-instagram"></i></a>
         </div>
-        <div class="footer-row col-xs-12 articles">
-            <p>Inspiration</p>
-            {% for post in site.posts limit:3 %}
-            <a class="footer-stories" href="{{ post.url }}">{{ post.title }}</a><p class="stories-date">{{ post.date | date: "%B %d, %Y" }}</p>
-            {% endfor %}
-        </div>
-        <div class="footer-row col-xs-12">
-            <p>Kontakt</p>
-            <a data-proofer-ignore href="tel:+4539201020">+45 39 20 10 20</a>
-            <a href="#" data-toggle="modal" data-target="#contact-modal">Skriv til os</a>
-            <p class="empty-anchor"> Blegdamsvej 104 A, 2. Sal</p>
-            <p class="empty-anchor"> 2100 Kbh Ø</p>
-            <a href="https://goo.gl/maps/a2Tb1RTMDKQ3G8Vz5" target="_blank">Rutevejledning</a>
-        </div>
-    </div>
+    </span>
+    <span class="footer-inspiration">
+        <h2>Inspiration</h2>
+        {% for post in site.posts limit:3 %}
+        <a class="footer-stories" href="{{ post.url }}">{{ post.title }}</a>
+        <p class="stories-date">{{ post.date | date: "%B %d, %Y" }}</p>
+        {% endfor %}
+    </span>
+    <span class="footer-contact">
+        <h2>Kontakt</h2>
+        <a data-proofer-ignore href="tel:+4539201020">+45 39 20 10 20</a>
+        <a data-proofer-ignore href="#" data-toggle="modal" data-target="#contact-modal">Skriv til os</a>
+        <p>Blegdamsvej 104 A, 2. Sal</p>
+        <p>2100 Kbh Ø</p>
+        <a data-proofer-ignore href="https://goo.gl/maps/a2Tb1RTMDKQ3G8Vz5" target="_blank">Rutevejledning</a>
+    </span>
 </footer>
 
-<div class="bottom-bar">
+<!-- <div class="bottom-bar">
     <a href="/pdfs/CCC-privatlivspolitik.pdf" target="_blank">Privatlivspolitik |</a>
     <p>&nbsp;Powered by</p><a href="https://www.prolike.io/" target="_blank">&nbsp;Prolike</a>
-</div>
+</div> -->

@@ -1,7 +1,7 @@
 ---
 published: true
 title: Karl Tomm besøger CCC
-image: /images/forum/KarlTomm.jpg
+image: /images/inspiration/KarlTomm.jpg
 author: Morten Bertelsen
 tags:
   - coaching

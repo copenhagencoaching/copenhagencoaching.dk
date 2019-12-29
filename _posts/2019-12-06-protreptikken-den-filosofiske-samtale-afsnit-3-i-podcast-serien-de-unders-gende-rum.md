@@ -1,7 +1,7 @@
 ---
 published: true
 title: Protreptikken - den filosofiske samtale
-image: /images/forum/Podcast.jpg
+image: /images/inspiration/Podcast.jpg
 author: Morten Paustian
 tags:
   - coaching
