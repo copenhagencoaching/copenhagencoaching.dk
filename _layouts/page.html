@@ -4,17 +4,17 @@ layout: default
 
 {% include navigation.html %}
 
+{% if page.image %}
 <div class="hero-banner">
     <span>
         <h1>{{ page.header }}</h1>
-        {% if page.description %}
         <p>{{ page.description }}</p>
-        {% endif %}
         <a href="{{ page.header-link-url }}" data-proofer-ignore>{{ page.header-link }}</a>
     </span>
-    <img class="hero-image" src="{{ page.image }}" alt="CCC Om Os Header">
+    <img class="hero-image" src="{{ page.image }}" alt="CCC Header">
     <div class="color-box"></div>
 </div>
+{% endif %}
 
 <div class="page">
     {{ content }}
