@@ -56,7 +56,7 @@ special: false
 
 Med en Master of Business Coaching får du en af landets bedste coachinguddannelser, hvor du både kan foretage traditionelle coachingsamtaler og den filosofiske samtale.
 
-Uddannelsen er akkrediteret igennem EMCC. [Læs om vores EMCC akkreditering](/emcc-akkreditering/)
+Uddannelsen er akkrediteret igennem EMCC. [Læs om vores EMCC akkreditering](/fundament/emcc-akkreditering/)
 
 # Hvordan er uddannelsen bygget op?
 
