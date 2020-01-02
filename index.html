@@ -54,38 +54,28 @@ layout: default
 </nav>
 
 {% for popup in site.popups%}
-<div class="modal fade" id="newsletter" tabindex="-1" role="dialog" aria-labelledby="newsletter-modal"
-    aria-hidden="true">
-    <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content" id="newsletter-content">
-            <div class="modal-header">
-                <h4 class="modal-title" id="myModalLabel">
-                    {{ popup.title }} 
-                </h4>
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
-                    &times;
-                </button>
-            </div>
-            <div class="modal-body">
-                {{ popup.content }}
-            </div>
-            <div class="modal-footer">
-                <div style="margin: auto">
-                    <a class="button btn" href="{{ popup.buttonlink }}" role="button">
-                        <p style="margin: 10px;">{{ popup.buttontext }}</p>
-                    </a>
-                </div>
-            </div>
+    
+    <div class="form-popup" id="myForm">
+      <div class="form-container">
+        <h4 style="display: inline;">{{ popup.title }}</h4>
+        <i class="fas fa-times" onclick="closeForm()" style="float: right;"></i>
+        
+        <p>{{ popup.content }}</p>
+    
+        <div style="margin: auto">
+            <a class="button btn" href="{{ popup.buttonlink }}" role="button">
+                <p style="margin: 10px;">{{ popup.buttontext }}</p>
+            </a>
         </div>
+      </div>
     </div>
-</div>
+    
+    <script>
+    function closeForm() {
+      document.getElementById("myForm").style.display = "none";
+    }
+    </script>
 {% endfor %}
-<script type="text/javascript">
-    $(window).on('load', function () {
-        $('#newsletter').modal('show');
-        $('.modal-backdrop').removeClass("modal-backdrop");
-    });
-</script>
 
 <script>
     $('.contact-link').on('click', function () {
