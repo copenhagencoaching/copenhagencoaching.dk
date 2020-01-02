@@ -1,5 +1,6 @@
 ---
 layout: inspiration
+header: Inspiration
 title: Inspiration
 image: /images/inspiration/blurchristmas.jpg
 signup: forskellige ydelser
