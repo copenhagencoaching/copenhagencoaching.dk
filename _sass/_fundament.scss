@@ -1,0 +1,49 @@
+.wide-hero-banner {
+    height: 85vh;
+    display: flex;
+    width: 750px;
+    margin: 0 auto 40px auto;
+    justify-content: flex-start;
+    user-select: none;
+    position: relative;
+  
+    .hero-image {
+      height: 60vh;
+      width: 80%;
+      object-fit: cover;
+      z-index: 1000;
+      margin: auto 0;
+    }
+    
+    .color-box {
+      height: 60vh;
+      width: 80%;
+      background-color: $green;
+      position: absolute;
+      top: 23vh;
+      left:20vh;
+    }
+  }
+
+
+  .individual-fundament {
+      margin: auto;
+      width: 750px;
+      padding-bottom: 50px;
+      h1 {
+          margin-bottom: 20px;
+      }
+
+      a {
+          color: $black;
+          font-weight: 600;
+        opacity: .7;
+        transition: .2s all ease-in;
+    
+        &:hover {
+          text-decoration: none;
+          opacity: 1;
+          color: inherit;
+        }
+      }
+  }

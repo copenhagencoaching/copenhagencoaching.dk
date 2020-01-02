@@ -51,7 +51,20 @@
 
   .wrapper:nth-child(even) {
     direction: rtl;
+    p {
+      direction: ltr;
+    }
+    a {
+      direction: ltr;
+    }
   }
+}
+
+.fundament-link {
+  text-decoration: none;
+  color: #000;
+  font-size: 2vh;
+  font-weight: 600 !important;
 }
 
 /* Large devices (laptops/desktops, 1024px and down) */

@@ -184,32 +184,7 @@
 
 // Styling for the individual stories
 
-.hero-banner-story {
-  height: 85vh;
-  display: flex;
-  width: 750px;
-  margin: 0 auto;
-  justify-content: flex-end;
-  user-select: none;
-  position: relative;
 
-  .hero-image {
-    height: 55vh;
-    width: 90%;
-    object-fit: cover;
-    z-index: 1000;
-    margin: auto 0;
-  }
-  
-  .color-box {
-    height: 55vh;
-    width: 90%;
-    background-color: $green;
-    position: absolute;
-    top: 23vh;
-    right: 8vh;
-  }
-}
 
 .individual-stories {
   height: 100%;

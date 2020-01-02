@@ -1,6 +1,7 @@
 ---
 published: true
 title: Metodik
+header: Metodik
 image: /images/fundament/f1.jpg
 ---
 
