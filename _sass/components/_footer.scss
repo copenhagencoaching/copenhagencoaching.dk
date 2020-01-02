@@ -96,3 +96,9 @@ footer {
     }
   }
 }
+
+@media (max-width: 1024px) {
+  footer {
+    padding: 10vh 1vh;
+  }
+}

@@ -2,6 +2,12 @@
   font-family: 'Poppins', sans-serif;
 }
 
+@media (width: 1024px) {
+  p {
+    font-size: calc(100% + 5px) !important;
+  }
+}
+
 body {
   width: 100%;
   margin-top: 7vh;
@@ -38,7 +44,7 @@ html {
   }
 
   .intro {
-    width: 1230px;
+    width: 100%;
     margin: 0 auto 65px auto;
 
     a {
@@ -139,7 +145,7 @@ html {
 
 // Medium devices (landscape tablets, 768px and down)
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   body {
     margin: 0;
   }
