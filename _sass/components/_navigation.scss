@@ -4,17 +4,18 @@ nav {
   display: flex;
   justify-content: center;
   position: fixed;
+  top: 0;
   z-index: 10000;
   background: #ffffff;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 4px 0px;
   padding: 0 20vh;
 }
 
-@media (min-width: 1026px) {
+/* @media (min-width: 1026px) {
   nav {
-    margin-top: -7vh; // Not the best solution, fix at a later date.
+    margin-top: -7vh; 
   }
-}
+} */
 
 .navbar {
   width: inherit;

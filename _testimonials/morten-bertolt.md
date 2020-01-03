@@ -1,9 +1,0 @@
----
-title: Morten Berbolt
-image: /images/graphic/morten-bertolt.jpeg
-description: MBC Studerende og professionel fodboldspiller
-tags: [diplom-i-offentlig-ledelse]
----
-
-Jeg har brudt min comfortzone mere i 2016 end de foregående 31 år af mit liv, og nysgerrigheden på mig
-selv og andre mennesker, har gjort min hverdag meget mere inspirerende og interessant.

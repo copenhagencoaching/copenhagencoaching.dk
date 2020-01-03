@@ -6,6 +6,5 @@ $(document).ready(function () {
     resize: true,
     menu: '#menu',
     anchors: ['why', 'how', 'what'],
-    paddingTop: '70px'
   });
 });

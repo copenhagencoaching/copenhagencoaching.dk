@@ -60,12 +60,6 @@ collections:
   pages:
     output: true
     permalink: /:title/
-  categories:
-    output: true
-    permalink: /:name/
-  testimonials:
-    output: true
-    permalink: /testimonials/:title/
   popups:
     output: true
     permalink: /popups/:title/
@@ -106,16 +100,6 @@ defaults:
       type: internationals
     values:
       layout: international
-  -
-    scope:
-      type: categories
-    values:
-      layout: category
-  -
-    scope:
-      type: testimonials
-    values:
-      layout: category
   -
     scope:
       type: popups
