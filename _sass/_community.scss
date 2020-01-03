@@ -2,12 +2,14 @@
     width: 100%;
     height: auto;
     padding: 0 20vh 10vh 20vh;
+
     .wrapper {
-    grid-gap: 30px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: 'contents contents events'
-                        'inspiration inspiration inspiration';
+        grid-gap: 30px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas:
+            'contents contents events'
+            'inspiration inspiration inspiration';
     }
 
 
@@ -15,8 +17,9 @@
         grid-area: contents;
         background-color: #fde1e1af;
         padding: 3vh;
+
         ul {
-            padding-left:2vh;
+            padding-left: 2vh;
             margin: 0;
         }
 
@@ -26,6 +29,7 @@
             padding-bottom: 2.5vh;
         }
     }
+
     .event-section {
         grid-area: events;
 
@@ -40,48 +44,50 @@
 
         h2 {
             padding-top: 5vh;
-           
-  a{
-    color: $black;
-    font-size: 2vh;
-    line-height: 4vh;
-    margin-bottom: 0;
-    opacity: .7;
-    font-size: 4vh;
-    transition: .2s all ease-in;
-    text-transform: uppercase;
-    font-weight: 500;
 
-    &:hover {
-      text-decoration: none;
-      opacity: 1;
-      color: inherit;
-    }
-  }
+            a {
+                color: $black;
+                font-size: 2vh;
+                line-height: 4vh;
+                margin-bottom: 0;
+                opacity: .7;
+                font-size: 4vh;
+                transition: .2s all ease-in;
+                text-transform: uppercase;
+                font-weight: 500;
+
+                &:hover {
+                    text-decoration: none;
+                    opacity: 1;
+                    color: inherit;
+                }
+            }
         }
+
         h1 {
-     color: #000;
-    grid-area: header;
-    font-size: 11vh;
-    line-height: 12.5vh;
-    margin: 5vh 0;
-    font-weight: 500;
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
+            color: #000;
+            grid-area: header;
+            font-size: 11vh;
+            line-height: 12.5vh;
+            margin: 5vh 0;
+            font-weight: 500;
+            font-family: 'Oswald', sans-serif;
+            text-transform: uppercase;
         }
 
         .inspirations-wrapper {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
-            grid-gap: 30px;
+            grid-gap: 15px;
 
             a:hover {
                 text-decoration: none;
             }
+
             .post-box {
                 height: 50vh;
                 background-size: cover;
-                display:flex;
+                display: flex;
                 align-items: flex-end;
                 text-align: left;
                 position: relative;
@@ -89,28 +95,30 @@
 
                 .post-box-text {
                     z-index: 100;
-                h2 {
-                    color: #fff;
-                    font-size: 6vh;
-                    font-weight: 500;
-                    padding: 0;
-                    margin: 0;
-                    font-family: 'Oswald', sans-serif;
-                    text-transform: uppercase;
 
-        }
+                    h2 {
+                        color: #fff;
+                        font-size: 6vh;
+                        font-weight: 500;
+                        padding: 0;
+                        margin: 0;
+                        font-family: 'Oswald', sans-serif;
+                        text-transform: uppercase;
 
-        p {
-            color: #fff;
-            font-size: 3vh;
-            font-weight: 500;
-            padding: 0;
-            margin: 0;
-            font-family: 'Oswald', sans-serif;
-            text-transform: uppercase;
-        }
-    }
+                    }
+
+                    p {
+                        color: #fff;
+                        font-size: 3vh;
+                        font-weight: 500;
+                        padding: 0;
+                        margin: 0;
+                        font-family: 'Oswald', sans-serif;
+                        text-transform: uppercase;
+                    }
+                }
             }
+
             .post-box::before {
                 content: ' ';
                 display: block;
@@ -123,14 +131,14 @@
                 opacity: .6;
                 background: $black;
                 background-size: cover;
-              }
+            }
 
-          
+
         }
     }
 }
 
-@media (max-width: 1800px) { 
+@media (max-width: 1800px) {
     .community {
         .wrapper {
             .inspiration-section {
@@ -139,6 +147,7 @@
                         font-size: 5vh !important;
 
                     }
+
                     p {
                         font-size: 3vh;
                     }
@@ -148,18 +157,21 @@
     }
 }
 
-@media (max-width: 1500px) { 
+@media (max-width: 1500px) {
     .community {
-        padding: 0 10vh 5vh 10vh;
+        padding: 0 2vh 3vh 2vh;
+
         .wrapper {
             .inspiration-section {
                 .inspirations-wrapper {
                     display: grid;
-                    grid-template-columns: 1fr 1fr;
+                    grid-template-columns: 1fr;
+
                     h2 {
                         font-size: 4vh;
 
                     }
+
                     p {
                         font-size: 2vh;
                     }
@@ -169,24 +181,29 @@
     }
 }
 
-@media (max-width: 900px) { 
+@media (max-width: 900px) {
     .community {
         .wrapper {
             grid-template-columns: 1fr;
-            grid-template-areas: 'contents'
-                                    'events'
-                        'inspiration';
+            grid-template-areas:
+                'contents'
+                'events'
+                'inspiration';
+
             .inspiration-section {
                 h1 {
                     font-size: calc(42.22188px + 1.54083vw);
                 }
+
                 .inspirations-wrapper {
                     display: grid;
                     grid-template-columns: 1fr;
+
                     h2 {
                         font-size: 4vh;
 
                     }
+
                     p {
                         font-size: 2vh;
                     }

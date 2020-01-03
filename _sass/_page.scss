@@ -125,7 +125,7 @@ html {
   color: $green;
   display: flex;
   justify-content: left;
-  width: 1230px;
+  width: 100%;
   padding: 0;
   margin: 30px 0 0;
 }
@@ -163,7 +163,7 @@ html {
     h1 {
       font-size: calc(42.22188px + 1.54083vw);
       line-height: calc(48.22188px + 1.54083vw);
-      padding: 17.5vh 0 5vh 0;
+      padding: 15vh 0 5vh 0;
       font-weight: 500;
     }
 

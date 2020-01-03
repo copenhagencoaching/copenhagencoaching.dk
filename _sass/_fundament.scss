@@ -47,3 +47,23 @@
         }
       }
   }
+
+@media (max-width: 1024px) {
+  .wide-hero-banner {
+    height: 85vh;
+    display: flex;
+    width: 100%;
+    margin: 0 auto 40px auto;
+    justify-content: flex-start;
+    user-select: none;
+    position: relative;
+  
+    .hero-image {
+      height: 60vh;
+      width: 100%;
+      object-fit: cover;
+      z-index: 1000;
+      margin: auto 0;
+    }
+  }
+}
