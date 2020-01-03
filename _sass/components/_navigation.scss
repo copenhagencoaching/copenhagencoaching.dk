@@ -7,13 +7,12 @@ nav {
   z-index: 10000;
   background: #ffffff;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 4px 0px;
- // Not the best solution, fix at a later date.
   padding: 0 20vh;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1026px) {
   nav {
-    margin-top: -7vh;
+    margin-top: -7vh; // Not the best solution, fix at a later date.
   }
 }
 
