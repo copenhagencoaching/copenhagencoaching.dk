@@ -94,12 +94,13 @@
         padding: 10vh 3vh;
 
         .wrapper {
+            display: grid;
             grid-template-columns: 1fr;
         }
 
         img {
             width: 100%;
-            padding-bottom: 7.5vh;
+            //padding-bottom: 7.5vh;
         }
 
         h1 {
