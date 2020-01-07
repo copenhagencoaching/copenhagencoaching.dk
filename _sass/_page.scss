@@ -75,7 +75,7 @@ html {
   display: flex;
   width: inherit;
   margin: 0 auto;
-  padding: 0 20vh;
+  padding: 0vh 20vh;
   justify-content: space-between;
   align-items: center;
   user-select: none;
@@ -208,7 +208,6 @@ html {
   }
 
   .hero-image {
-    width: 100%;
 
     span {
       width: 90%;
@@ -216,10 +215,6 @@ html {
   }
 
   .hero-banner {
-    width: 100% !important;
-  }
-
-  .color-box {
-    display: none !important;
+    width: 100%;
   }
 }
