@@ -7,5 +7,5 @@ layout: page
 published: true
 ---
 
-CCC inviterer alle venner af huset, kunder, kursister og samarbejdspartnere, til nytårskur fredag d. 17. janar. Vi skænker op fra kl. 16 og byder som altid på lidt godt både til ganen, hjernen og hjertet! Ses vi?
+Kom til nytårskur på CCC fredag d. 17. janar - Vi skænker op fra kl. 16 og byder som altid på lidt godt både til ganen, hjernen og hjertet! Alle er velkomne - Ses vi?
 
