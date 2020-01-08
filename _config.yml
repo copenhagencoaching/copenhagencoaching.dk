@@ -112,7 +112,7 @@ defaults:
     scope:
       type: text
     values:
-      layout:
+      layout: default
 
 prose:
   rooturl: ''
