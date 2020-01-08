@@ -2,11 +2,15 @@
 published: true
 title: Filosofisk terapi
 image: /images/coaching/MasterBusinessCoaching.jpg
-contact-person: '2'
+contact-person: '3'
 header: Filosofisk terapi
-description: Kurset filosofisk terapi kombinerer den psykologiske indlevelse med en filosofisk undersøgende tilgang, hvilket giver dig et nyt praktisk anvendeligt samtaleværktøj.
-category: proces-og-strategi
-price: 29.000 eksl. moms (heri er inkluderet fuld forplejning, materialer)
+description: >-
+  Kurset filosofisk terapi kombinerer den psykologiske indlevelse med en
+  filosofisk undersøgende tilgang, hvilket giver dig et nyt praktisk anvendeligt
+  samtaleværktøj.
+category:
+  - proces-og-strategi
+price: '29.000 eksl. moms (heri er inkluderet fuld forplejning, materialer)'
 pdf: /pdfs/filosofisk-terapi.pdf
 event-title: Kommende hold
 dates:
