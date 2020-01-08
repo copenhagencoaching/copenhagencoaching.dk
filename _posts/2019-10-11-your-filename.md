@@ -1,12 +1,11 @@
 ---
 published: true
-title: Karl Tomm besøger CCC
+title: Karl Tomm besøgte CCC
 image: /images/inspiration/KarlTomm.jpg
 author: Morten Bertelsen
 tags:
   - coaching
   - events
-teaser:
 ---
 ## CCC Community afholdt aftenarrangement med den verdensberømte, canadiske psykiater Karl Tomm d. 25. november kl. 17-21. 
 
