@@ -216,5 +216,10 @@ html {
 
   .hero-banner {
     width: 100%;
+
+    span {
+      width: inherit;
+      padding-right: 5vh !important;
+    }
   }
 }

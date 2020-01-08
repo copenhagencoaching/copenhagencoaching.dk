@@ -1,8 +1,13 @@
 <footer>
     <span class="footer-ccc">
         <h2>Copenhagen Coaching Center</h2>
-        <p>Copenhagen Coaching Center blev dannet i 2004 og er et partnerejet selskab, der udbyder åbne uddannelser.</p>
-            <a data-proofer-ignore href="/about/">Læs mere om os</a>
+        {% for text in site.texts %}
+        {% if text.page == "footer" %}
+        {{ text.content | markdownify }}
+        <a data-proofer-ignore href="{{ text.link }}">{{ text.link-text }}</a>
+        {% endif %}
+        {% endfor %}
+            
         <div>
             <a data-proofer-ignore href="https://www.facebook.com/copenhagencoachingdk-169785200063933/" target="_blank"><i class="fab fa-facebook-f"></i></a>
             <a data-proofer-ignore href="#"><i class="fab fa-twitter"></i></a>

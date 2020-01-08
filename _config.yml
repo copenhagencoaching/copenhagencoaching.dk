@@ -63,6 +63,9 @@ collections:
   popups:
     output: true
     permalink: /popups/:title/
+  texts:
+    output: true
+    permalink: /tekster/:title/
 
 defaults:
   -
@@ -105,6 +108,11 @@ defaults:
       type: popups
     values:
       layout: popup
+  -
+    scope:
+      type: text
+    values:
+      layout:
 
 prose:
   rooturl: ''
@@ -442,6 +450,21 @@ prose:
         field:
           element: "text"
           label: "Tilhørende side"
+    _texts:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Titel"
+      - name: "link"
+        field:
+          element: "text"
+          label: "Url"
+          help: "Hvis der er et link relateret til teksten skal du skrive url'en her"
+      - name: "link-text"
+        field:
+          element: "text"
+          label: "Link tekst"
+          help: "Hvis der er et link relateret til teksten skal du skrive teksten til linket her"
 
 
 
