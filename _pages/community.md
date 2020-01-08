@@ -9,6 +9,7 @@ header-link:
 header-link-url:
 price: '2.500,- ekskl. moms pr. år'
 pdf: 'false'
+order: 2
 contact-person: '5'
 description: Et fællesskab for vedvarende læring og udvikling af dit lederskab
 events:
