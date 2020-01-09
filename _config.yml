@@ -135,7 +135,8 @@ prose:
     - devserve.sh
     - .gitignore
     - /img
-    - /pages
+    - /pages/search.html
+    - /pages/studieportal.html
     - _config.yml
     - /_layouts
     - /_includes
@@ -207,32 +208,14 @@ prose:
         field:
           element: "text"
           label: "title"
-      - name: "category"
-        field:
-          element: "multiselect"
-          label: "Tilføj kategori"
-          placeholder: "kategori"
-          options:
-            - name: "CCC Netværk"
-              value: "ccc-netveark"
-            - name: "Certificeringer"
-              value: "certificeringer"
-            - name: "Diplom i offentlig ledelse"
-              value: "diplom-i-offentlig-ledelse"
-            - name: "Filosofi"
-              value: "filosofi"
-            - name: "Lederskab"
-              value: "lederskab"
-            - name: "Master i business coaching"
-              value: "master-i-business-coaching"
-            - name: "Personlig udvikling og transition"
-              value: "personlig-udvikling-og-transition"
-            - name: "Proces og strategi"
-              value: "proces-og-strategi"
       - name: "price"
         field:
           element: "text"
           label: "Pris"
+      - name: "special"
+        field:
+          element: "checkbox"
+          label: "Skræddersyet uddannelse?"
       - name: "image"
         field:
           element: "text"

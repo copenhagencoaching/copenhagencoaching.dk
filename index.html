@@ -93,8 +93,14 @@ layout: default
         <div class="row">
             <div class="col-lg-12 col-md-12 col-12 col-sm-12">
                 <span>
-                    <h1>Fordi erkendelse skaber værdi</h1>
-                    <p>Copenhagen Coaching Center skaber betingelserne og rammen for din personlige og faglige udvikling – du vil opleve en styrket ledelseskapacitet, en klarere indsigt i dit værdigrundlag og et nærvær til dig selv og din omverden. Vi tilbyder dig et kompetenceløft, en ny metodisk praksis og et fagligt stærkt forum. </p>
+                    {% for text in site.texts %}
+                    {% if text.page == "frontpage" %}
+                    {% if text.order == 1 %}
+                    <h1>{{ text.title }}</h1>
+                    {{ text.content }}
+                    {% endif %}
+                    {% endif %}
+                    {% endfor %}
                 </span>
             </div>
         </div>
@@ -107,9 +113,14 @@ layout: default
         <div class="row">
             <div class="col-lg-12 col-md-12 col-12 col-sm-12">
                 <span>
-                    <h1>Når værdier skaber hverdagen
-                        <br>afspejles det i dagligdagen</h1>
-                    <p>Vi vægter høj faglighed og sætter barren højt for vores produkter og leverancer, og giver samtidig plads til at arbejde med ideer indenfor fællesskabets rammer. I CCC er det vigtigt at værne om den andens værdighed - at se mennesket i mennesket med de forskelligheder der viser sig. Vi skaber med andre ord udvikling i kraft af den menneskelige værdi.</p>
+                    {% for text in site.texts %}
+                    {% if text.page == "frontpage" %}
+                    {% if text.order == 2 %}
+                    <h1>{{ text.title }}</h1>
+                    {{ text.content }}
+                    {% endif %}
+                    {% endif %}
+                    {% endfor %}  
                 </span>
             </div>
         </div>
@@ -122,8 +133,14 @@ layout: default
         <div class="row">
             <div class="col-lg-12 col-md-12 col-12 col-sm-12">
                 <span>
-                    <h1>Vi tilbyder et eksklusivt udvalg <br> af uddannelser, kurser og konsulentydelser</h1>
-                    <p>CCC er et ledelsesfilosofisk epicenter med fire forretningsområder. Vi tilbyder individuel coaching, ledelsessupervision, lederuddannelser og konsulentopgaver. Vores fokus er dygtiggørelse af medarbejdere og ledere, som ønsker at udvikle deres dialogiske færdigheder, refleksive kompetencer og ledelsesmæssige kapacitet.
+                    {% for text in site.texts %}
+                    {% if text.page == "frontpage" %}
+                    {% if text.order == 3 %}
+                    <h1>{{ text.title }}</h1>
+                    {{ text.content }}
+                    {% endif %}
+                    {% endif %}
+                    {% endfor %}  
                 </span>
             </div>
         </div>
