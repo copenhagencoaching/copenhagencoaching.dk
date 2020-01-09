@@ -6,10 +6,6 @@ image: /images/academy/certificering-i-protreptik.jpg
 contact-person: '6'
 header: Certificering i Protreptik
 description: Kom helt i dybden med den filosofiske samtalekunst og ikke mindst de værdier du ønsker at stå for i din ledelse. Forløbet er individuelt og tilpasses dine behov.
-category:
-  - certificeringer
-  - filosofi
-  - lederskab
 price: '70.000,- EKSKL. MOMS'
 pdf: /pdfs/Certificering-i-protreptik-efterår.pdf
 dates:

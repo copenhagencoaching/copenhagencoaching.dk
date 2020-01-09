@@ -6,10 +6,6 @@ image: /images/academy/lesbos.jpg
 contact-person: '6'
 header: Ledelseskursus på Lesbos
 description: Tag med på en opdagelsesrejse, hvor vi sammen udforsker ledelseskunsten og finder ind til de vigtigste værdier i det at lede sig selv og fællesskabet.
-category:
-  - filosofi
-  - lederskab
-  - personlig-udvikling-og-transition
 price: >-
   30.000,- ekskl. moms (heri er inkluderet fuld forplejning, materialer og
   rejse)

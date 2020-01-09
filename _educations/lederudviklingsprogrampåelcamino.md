@@ -8,9 +8,6 @@ description: >-
   Kurset henvender sig til topledere i både den offentlige og private sektor,
   der har ansvar og fokus på strategiudvikling igennem social innovation. Rammen
   for kurset er El Camino i Nordspanien.
-category:
-  - lederskab
-  - personlig-udvikling-og-transition
 price: '29.500 EKSL. MOMS (heri er inkluderet fuld forplejning, materialer og rejse) '
 pdf: /pdfs/lederudvikling-på-caminoen.pdf
 event-title: Kommende rejser

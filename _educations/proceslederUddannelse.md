@@ -1,7 +1,5 @@
 ---
 published: true
-category:
-  - proces-og-strategi
 title: Proceslederuddannelse
 header: Procesleder<br>uddannelse
 description: Styrk dine evner til at lede processer med en proceslederuddannelse.

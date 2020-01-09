@@ -5,8 +5,6 @@ title: Den offentlige lederuddannelse
 image: /images/academy/b3.png
 contact-person: '7'
 header: Den offentlige lederuddannelse
-category:
-  - diplom-i-offentlig-ledelse
 price: 'Vejledende pris: 7.500 ekskl. moms pr. 5 ECTS'
 pdf: 'false'
 event-title: Vi starter løbende hold op - ring og hør nærmere

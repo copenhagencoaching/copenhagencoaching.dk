@@ -5,7 +5,6 @@ image: /images/academy/frustration-skal-ledes.jpg
 contact-person: '5'
 header: Frustration skal ledes
 description: Er du leder og arbejder i en organisation med forhøjet frustrationsniveau, så meld dig til denne skræddersyet uddannelse, hvor frustration betragtes som et organisatorisk vilkår. Mulighed for tilkøb af DOL-moduler.
-category: proces-og-strategi
 price: 38.700,- ekskl. moms (heri er inkluderet fuld forplejning, materialer)
 pdf: /pdfs/LAF-2019-efterar.pdf
 dates:

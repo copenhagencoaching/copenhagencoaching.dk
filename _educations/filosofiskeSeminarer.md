@@ -4,7 +4,6 @@ title: Filosofiske seminarer
 image: /images/academy/b8.png
 header: Filosofisk seminarer
 description: Lær at løfte samtalen ud af konteksten og skab refleksiv handlekraft. Bliv mere effektiv i din kommunikation og lær at stil kritiske og åbne spørgsmål.
-category: filosofi
 price: 6.000,- EKSKL. MOMS
 dates:
   - start: Nye seminarer til efteråret 2019 (datoer følger snarest) 

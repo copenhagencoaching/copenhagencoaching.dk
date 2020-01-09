@@ -121,8 +121,6 @@ prose:
   media: 'img/blog'
   ignore:
     - htmlproofer.sh
-    - /_pages
-    - /_testimonials
     - index.html
     - /portraits
     - robots.txt
@@ -135,8 +133,8 @@ prose:
     - devserve.sh
     - .gitignore
     - /img
-    - /pages/search.html
-    - /pages/studieportal.html
+    - /_pages/search.html
+    - /_pages/studieportal.html
     - _config.yml
     - /_layouts
     - /_includes
@@ -208,10 +206,20 @@ prose:
         field:
           element: "text"
           label: "title"
+      - name: "header"
+        field:
+          element: "text"
+          label: "Header tekst"
+          help: "Overskriften i headeren"
       - name: "price"
         field:
           element: "text"
           label: "Pris"
+      - name: "event-title"
+        field:
+          element: "text"
+          label: "Begivenheds overkrift"
+          help: "Kommende hold eller kommende rejser osv."
       - name: "special"
         field:
           element: "checkbox"
@@ -229,7 +237,11 @@ prose:
         field:
           element: "text"
           label: "Lokation"
-          help: "Sted"
+      - name: "description"
+        field:
+          element: "text"
+          label: "Header tekst"
+          help: "Teksten der står under overskriften i headeren"
       - name: "contact-person"
         field:
           element: "select"
@@ -412,6 +424,11 @@ prose:
         field:
           element: "text"
           label: "Billed"
+      - name: "header"
+        field:
+          element: "text"
+          label: "Header tekst"
+          help: "Overskriften i headeren"
     _popups:
       - name: "title"
         field:
@@ -448,6 +465,47 @@ prose:
           element: "text"
           label: "Link tekst"
           help: "Hvis der er et link relateret til teksten skal du skrive teksten til linket her"
+    _pages:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Titel"
+      - name: "show"
+        field:
+          element: "checkbox"
+          label: "Vis i menuen"
+          help: "Skal siden linkes fra menuen?"
+      - name: "order"
+        field:
+          element: "number"
+          label: "Rækkefølge"
+          help: "Hvis siden skal linkes fra menuen hvilket nr i rækkefølgen skal siden være?"
+      - name: "image"
+        field:
+          element: "text"
+          label: "Billed"
+          help: "Billedstien"
+      - name: "header"
+        field:
+          element: "text"
+          label: "Header tekst"
+          help: "Overskriften i headeren"
+      - name: "header-link"
+        field:
+          element: "text"
+          label: "Header link tekst"
+          help: "Teksten til det link der er i headeren"
+      - name: "header-link-url"
+        field:
+          element: "text"
+          label: "Adressen til linket"
+          help: "Du kan linke til et bestemt sted på siden ved hjælp af hashtag, f.eks #team. Eller du kan linke til en side f.eks. /academy/"
+      - name: "description"
+        field:
+          element: "text"
+          label: "Header tekst"
+          help: "Teksten der står under overskriften i headeren"
+  
 
 
 
