@@ -1,7 +1,7 @@
 ---
 title: Tak for et fantastisk 2019!
 buttontext: Tilmeld dig her
-buttonlink: 'https://www.copenhagencoaching.dk/registration/?n=CCC%20Community'
+buttonlink: '/registration/?n=Nytårskur'
 page: Community
 layout: page
 published: true

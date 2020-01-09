@@ -1,11 +1,6 @@
 ---
 layout: page
-title: Tilmelding
-image: /images/graphic/sign-up-background.jpg
-signup: Uddannelses tilbud
-description: Her kan du tilmelde dig vores uddannelser eller kurser. Vi sender dig en bekræftelse og afregner særskilt, når vi har modtaget alle dine oplysninger.
 ---
-
 <div class="registration">
     <div class="row">
         <div class="col-12">
@@ -18,7 +13,10 @@ description: Her kan du tilmelde dig vores uddannelser eller kurser. Vi sender d
                                 {% for education in site.educations %}
                                 <option value="{{ education.title }}">{{ education.title }}</option>
                                 {% endfor %}
-                                <option value="community">community</option>
+                                <option value="Nytårskur">Nytårskur</option>
+                                <option value="Sommerfest">Sommerfest</option>
+                                <option value="community-medlemsskab">Community Medlemsskab</option>
+                                <option value="community-arrangement">Community Arrangement</option>
                             </select>
                             <input class="input-form" type="text" placeholder="Fornavn" name="fornavn">
                             <input class="input-form" type="text" placeholder="Efternavn" name="efternavn">
