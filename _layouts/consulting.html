@@ -13,7 +13,9 @@ layout: page
             <h2>Ineresseret i at høre mere? Ring eller skriv og få en snak med</h2>
             {% for employee in site.employees %}
             {% if employee.data-id == consultation.contact-person %}
-            <!-- <img src="{{ employee.small-portrait-image }}" alt="{{ employee.title }}, {{ employee.description }}"> -->
+            <div class="mr-3 contact-img-outer">
+                <img class="contact-img" src="{{ employee.small-portrait-image }}" alt="{{ employee.title }}, {{ employee.description}}">
+            </div>  
             <a data-proofer-ignore href="{{ employee.url }}">{{ employee.title }}</a>
             <a data-proofer-ignore href="mailto:{{ employee.email }}">{{ employee.email }}</a>
             <a data-proofer-ignore href="{{ employee.call }}">{{ employee.call }}</a>
