@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: academy
 show: true
 order: 1
 title: Academy
