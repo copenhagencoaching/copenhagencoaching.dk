@@ -52,8 +52,8 @@
   .wide-hero-banner {
     height: 85vh;
     display: flex;
-    width: 100%;
-    margin: 0 auto 40px auto;
+    width: 80%;
+    margin: 0 auto 0 auto;
     justify-content: flex-start;
     user-select: none;
     position: relative;
@@ -65,5 +65,18 @@
       z-index: 1000;
       margin: auto 0;
     }
+
+    .color-box {
+      left: 19vh;
+    }
+  }
+}
+
+@media only screen and (max-width: 665px) {
+  .wide-hero-banner {
+    width: 100%;
+  }
+  .color-box {
+    position: relative !important;
   }
 }
