@@ -1,22 +1,21 @@
 ---
-layout: 'community'
+layout: community
 published: true
 show: true
 title: Community
 image: /images/academy/ccc-community.jpg
 header: Community
-header-link:
-header-link-url:
 price: '2.500,- ekskl. moms pr. år'
 pdf: 'false'
 order: 2
 contact-person: '5'
 description: Et fællesskab for vedvarende læring og udvikling af dit lederskab
 events:
-  - date: 25 november 2019
-    text: 'Mød Karl Tomm: En inspirerende aften i selskab med den legendariske systemiske tænker og Psykiater Karl Tomm'
   - date: April 2020
-    text: 'Styrk det psykiske arbejdsmiljø Vi sætter fokus på de ledelsesmæssige udfordringer og muligheder i forhold til at skabe et velfungerende arbejdsmiljø'
+    text: >-
+      Styrk det psykiske arbejdsmiljø Vi sætter fokus på de ledelsesmæssige
+      udfordringer og muligheder i forhold til at skabe et velfungerende
+      arbejdsmiljø
 ---
 
 Rigtig mange af vores tidligere og nuværende studerende og kunder har efterspurgt flere tilbud om netværk, efteruddannelse, faglig inspiration og supervision.
