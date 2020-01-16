@@ -5,8 +5,12 @@ title: Master of Business Coaching
 image: /images/coaching/ledelsessparring.jpg
 contact-person: '7'
 header: Master of Business Coaching
-description: Bliv samtaleekspert med vores Master i Business Coaching – en eksklusiv coachinguddannelse, der er akkrediteret på højeste EMCC-niveau.
-price: '45.900,- EKSKL. MOMS (heri er inkluderet fuld forplejning og kursusmaterialer)'
+description: >-
+  Bliv samtaleekspert med vores Master i Business Coaching – en eksklusiv
+  coachinguddannelse, der er akkrediteret på højeste EMCC-niveau.
+price: >-
+  45.900,- EKSKL. MOMS PR. SEMESTER (heri er inkluderet fuld forplejning og
+  kursusmaterialer)
 pdf: /pdfs/master-of-business-coaching.pdf
 event-title: Kommende hold
 dates:
