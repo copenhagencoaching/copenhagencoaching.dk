@@ -12,16 +12,12 @@ price: '19.500,- EKSKL. MOMS / 3 KURSUSDAGE'
 pdf: /pdfs/certificering-i-big-five.pdf
 event-title: Kommende hold
 dates:
-  - start: 29 januar 2020 (København)
-    dag:
-      - dato: 29. januar
-      - dato: 5.  februar
-      - dato: 19. februar
   - start: 7. april 2020 (København)
     dag:
       - dato: 7. april
       - dato: 14. april
       - dato: 29. april
+  - start: Vi kører 2 hold i efteråret 2020 - datoer er på vej.
 location: 'Blegdamsvej 104C, 3. sal, baghuset th., 2100 København Ø'
 special: false
 ---
@@ -32,7 +28,7 @@ Bliv klædt på til at bruge markedets bedst underbyggede personlighedstest i re
 
 # Hvordan er uddannelsen bygget op?
 
-Big Five testen måler de 5 basale personlighedstræk (Big Five), nemlig behov for stabilitet, udadvendthed, åbenhed, imødekommenhed og samvittighedsfuldhed, suppleret med 24 underliggende facetter af de 5 hovedtræk.
+Big Five testen måler de 5 basale personlighedstræk (Big Five):
 
 - Neuroticism (N): Behov for stabilitet
 
@@ -44,7 +40,7 @@ Big Five testen måler de 5 basale personlighedstræk (Big Five), nemlig behov f
 
 - Conscientiousness (C): Samvittighedsfuldhed
 
-Testen giver et overblik over, hvor en person befinder sig i forhold til et empirisk gennemsnit af personligheder, ledsaget af en kort beskrivelse. Teorien om The Big Five personality er det stærkest underbyggede bud på en klassificering af menneskers personlighedstræk. På certificeringskurset vil du blive klædt på til at skabe en givende og etisk dialog omkring testen. Du vil på kurset også blive certificeret i en kognitiv færdighedstest og i erhvervsrettet testning. Viden om en persons kognitive kapacitet gør det muligt at få et indblik i, i hvilket omfang og tempo det enkelte individ er i stand til at løse problemstillinger og optage ny information.
+Testen giver et overblik over, hvor en person befinder sig i forhold til et empirisk gennemsnit af personligheder, ledsaget af en kort beskrivelse. Teorien om The Big Five er det stærkest teoretisk og empirisk underbyggede bud på en klassificering af menneskers personlighedstræk. På certificeringskurset vil du blive klædt på til at skabe en givende og etisk dialog omkring testen. Du vil på kurset også blive certificeret i erhvervsrettet testning og en kognitiv færdighedstest. Viden om en persons kognitive kapacitet gør det muligt at få et indblik i, i hvilket omfang og tempo det enkelte individ er i stand til at løse problemstillinger og optage ny information.
 
 # Hvad får du ud af uddannelsen?
 
