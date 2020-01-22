@@ -1,5 +1,6 @@
 ---
 title: Supervision og sparring
+image: /images/coaching/ledelsessparring.jpg
 ---
 
 ## Nye perspektiver - andre handlemuligheder

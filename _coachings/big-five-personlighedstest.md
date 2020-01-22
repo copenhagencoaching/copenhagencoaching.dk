@@ -1,5 +1,6 @@
 ---
 title: Big Five personlighedstest-samtale
+image: /images/coaching/ledelsessparring.jpg
 ---
 
 ## Når din personlighedstest bliver et udviklingsværktøj

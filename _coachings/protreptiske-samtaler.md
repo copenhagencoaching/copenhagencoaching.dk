@@ -1,5 +1,6 @@
 ---
 title: Protreptiske samtaler
+image: /images/coaching/ledelsessparring.jpg
 ---
 
 **Når du vil tæt på det væsentlige**
