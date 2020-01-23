@@ -1,7 +1,8 @@
 ---
 title: Protreptiske samtaler
-image: /images/coaching/Protreptisk samtale.jpg
+image: /_coachings/protreptiske-samtaler.md
 published: true
+contact-person: '6'
 ---
 
 **Når du vil tæt på det væsentlige**
