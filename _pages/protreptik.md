@@ -11,7 +11,7 @@ description: >-
   at vi er trænet godt op i den protreptiske dialogform, fordi vi mener at den
   er ligeså vigtig som alle de psykologiske coaching-metoder, som vi behersker.
 published: true
-order: 0
+order: 5
 ---
 
 Hvad angår Protreptikken er den som samtaledisciplin at finde helt tilbage i antikkens filosofi, hvor specielt Platon og Aristoteles har forholdt sig til den og bygget videre herpå. Men Protreptikken har også historisk set udviklet sig op gennem Kristendommens æra, og specielt langt ind i den psykologiserende Katolicisme, hvor syndsforladelse og sjæleransagelse bliver dominerende kendetegn. I forhold til den moderne protreptik har vi kunnet finde mange inspirationer lige fra den tyske oplysningsfilosofi (ved fx Immanuel Kant), indover Romantikken (1800-tallet med specielt Søren Kierkegaard) og frem til 1900-tallets filosofi, med fx Martin Heidegger, Michael Foucault og Gilles Deleuze. Imidlertid er Aristoteles og den dialogfilosofiske disciplin (med Martin Buber, Gabriel Marcel og Emmanuel Levinas), dem, der bærer fanen højest og dermed danner det etiske og sprogfilosofiske grundlag for vores indgang til og respekt for den protreptiske samtalekunst. 
