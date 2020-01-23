@@ -22,11 +22,8 @@ location: 'Blegdamsvej 104C, 3. sal, baghuset th., 2100 København Ø'
 special: false
 ---
 
-# Hvorfor skal du vælge Certificering i Big Five?
 
 Bliv klædt på til at bruge markedets bedst underbyggede personlighedstest i rekruttering og ledelses- og medarbejderudviklingssammenhæng.
-
-# Hvordan er uddannelsen bygget op?
 
 Big Five testen måler de 5 basale personlighedstræk (Big Five):
 
@@ -42,7 +39,6 @@ Big Five testen måler de 5 basale personlighedstræk (Big Five):
 
 Testen giver et overblik over, hvor en person befinder sig i forhold til et empirisk gennemsnit af personligheder, ledsaget af en kort beskrivelse. Teorien om The Big Five er det stærkest teoretisk og empirisk underbyggede bud på en klassificering af menneskers personlighedstræk. På certificeringskurset vil du blive klædt på til at skabe en givende og etisk dialog omkring testen. Du vil på kurset også blive certificeret i erhvervsrettet testning og en kognitiv færdighedstest. Viden om en persons kognitive kapacitet gør det muligt at få et indblik i, i hvilket omfang og tempo det enkelte individ er i stand til at løse problemstillinger og optage ny information.
 
-# Hvad får du ud af uddannelsen?
 
 På CCCs 3 dages kursus i Big Five test certificering får du:
 
