@@ -1,7 +1,8 @@
 ---
 title: Big Five-samtale
-image: /images/coaching/Big Five samtaler.jpg
+image: /images/coaching/Big Five samtaler lille.jpeg
 published: true
+contact-person: '7'
 ---
 
 ## Når din personlighedstest bliver et udviklingsværktøj
