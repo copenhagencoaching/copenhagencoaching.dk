@@ -1,5 +1,5 @@
 ---
-title: Big Five personlighedstest-samtale
+title: Big Five-samtale
 image: /images/coaching/Big Five samtaler.jpg
 published: true
 ---
