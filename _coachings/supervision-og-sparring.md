@@ -1,7 +1,8 @@
 ---
 title: Supervision og sparring
-image: /images/coaching/Supervision og sparring.jpg
+image: /images/coaching/Supervision og sparring lille.jpeg
 published: true
+contact-person: '9'
 ---
 
 ## Nye perspektiver - andre handlemuligheder
