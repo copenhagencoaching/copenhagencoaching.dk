@@ -1,12 +1,17 @@
 ---
 layout: protreptik
-show: false
+show: true
 title: Protreptik
-image: /images/about/about-banner.jpg
-header: PROTREPTIK – FORDI ORDENE VI SIGER, BETYDER NOGET
-header-link:
-header-link-url:
-description: Vi har i CCC altid været optaget af Protreptikken, dvs. den filosofiske samtalekunst, der formår at få os mennesker til at komme i kontakt med det væsentlige i os selv og i det gældende fællesskab. Det gælder for alle i CCC at vi er trænet godt op i den protreptiske dialogform, fordi vi mener at den er ligeså vigtig som alle de psykologiske coaching-metoder, som vi behersker. 
+image: images/Protreptik.jpeg
+header: 'PROTREPTIK – FORDI ORDENE, VI SIGER, BETYDER NOGET'
+description: >-
+  Vi har i CCC altid været optaget af Protreptikken, dvs. den filosofiske
+  samtalekunst, der formår at få os mennesker til at komme i kontakt med det
+  væsentlige i os selv og i det gældende fællesskab. Det gælder for alle i CCC
+  at vi er trænet godt op i den protreptiske dialogform, fordi vi mener at den
+  er ligeså vigtig som alle de psykologiske coaching-metoder, som vi behersker.
+published: true
+order: 0
 ---
 
 Hvad angår Protreptikken er den som samtaledisciplin at finde helt tilbage i antikkens filosofi, hvor specielt Platon og Aristoteles har forholdt sig til den og bygget videre herpå. Men Protreptikken har også historisk set udviklet sig op gennem Kristendommens æra, og specielt langt ind i den psykologiserende Katolicisme, hvor syndsforladelse og sjæleransagelse bliver dominerende kendetegn. I forhold til den moderne protreptik har vi kunnet finde mange inspirationer lige fra den tyske oplysningsfilosofi (ved fx Immanuel Kant), indover Romantikken (1800-tallet med specielt Søren Kierkegaard) og frem til 1900-tallets filosofi, med fx Martin Heidegger, Michael Foucault og Gilles Deleuze. Imidlertid er Aristoteles og den dialogfilosofiske disciplin (med Martin Buber, Gabriel Marcel og Emmanuel Levinas), dem, der bærer fanen højest og dermed danner det etiske og sprogfilosofiske grundlag for vores indgang til og respekt for den protreptiske samtalekunst. 
@@ -39,4 +44,4 @@ I 2015 lykkes det Mette Mejlhede og Kim Gørtz at få skrevet og udgivet: “Pro
 
 Den bliver brugt flittigt, både ift ovenstående forløb, og bredt ud i det danske erhvervsliv, kan vi også se og høre, at folk nyder gavn af dens meget praktiske vinkel på, hvordan man fører en protreptik… Og mon ikke de er på vej til at udgive en follow-up, der rummer “findings”, erfaringer, metoder og teori-konstruktioner indenfor de seneste 5 år… 
 
-Husk det handler om at få væsentlige samtaler til at lykkes… 
+Husk det handler om at få væsentlige samtaler til at lykkes…
