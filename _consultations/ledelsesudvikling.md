@@ -24,4 +24,5 @@ Teamsamarbejdet i ledelsen har stor betydning for såvel virksomhedens resultate
 - dialog og konstruktiv feedback
 - ledelse af lederteamet
 
+
 I arbejdet med udvikling af ledelsesteamet kan der bl.a. indgå testning med Big Five personlighedstest, herunder både individuelle profiler og teamprofiler.
