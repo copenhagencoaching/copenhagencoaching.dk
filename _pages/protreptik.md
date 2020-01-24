@@ -2,7 +2,7 @@
 layout: protreptik
 show: true
 title: Protreptik
-image: images/Protreptik.jpeg
+image: /images/Protreptik.jpeg
 header: 'PROTREPTIK – FORDI ORDENE, VI SIGER, BETYDER NOGET'
 description: >-
   Vi har i CCC altid været optaget af Protreptikken, dvs. den filosofiske
@@ -23,7 +23,7 @@ I forhold til den moderne Protreptik har vi kunnet finde mange inspirationer. Li
 
 Det tog os nogle år at indse, at Proteptikken fortjente et helt semester for sig selv på vores masteruddannelse. Således begyndte de første hold (tilbage til omkring 2004 og frem til omtrent 2008) med både at have psykologisk coaching, protreptik og filosofi allerede på 1. semester. Vi indså hen ad vejen, at det var for voldsomt og samtidig gjorde protreptikken til skamme. Derfor besluttede vi os for, henover 2009, at skabe plads til, at de 10 dage som semester 3 varer, kun skal handle om protreptik. Og det er stadig det længste og mest intensive sammenhængende forløb, der findes i Danmark (og formentlig også i verden) omkring Protreptik. Se mere om semester 3, som også kan tages som et selvstændigt uddannelsesforløb, [her](https://www.copenhagencoaching.dk/academy/ledelseskursesP%C3%A5Lesbos/). 
 
-Og vores semester 4 på MBC udfolder endvidere mere moderne, filosofiske inspirationer til denne samtalekunst (jvf. ovenstående navne). Se mere om semester 4 [her](pdfs/master-of-business-coaching.pdf).
+Og vores semester 4 på MBC udfolder endvidere mere moderne, filosofiske inspirationer til denne samtalekunst (jvf. ovenstående navne). Se mere om semester 4 [her](/pdfs/master-of-business-coaching.pdf).
 
 Det gælder for begge semestre, at man kan tage dem uden at have været igennem semester 1 og semester 2. 
 
@@ -42,7 +42,7 @@ Vi har igennem de sidste 10 år været vidt omkring og lavet mindre forløb i og
 ## Bøger om protreptik 
 
 I 2015 lykkedes det Mette Mejlhede og Kim Gørtz at få skrevet og udgivet: “Protreptik i praksis”.
-![]({{site.baseurl}}/images/PRotreptik i praksis.jpg)
+![image](/images/PRotreptikipraksis.jpg)
 
 Den bliver brugt flittigt, både ift ovenstående forløb, og bredt ud i det danske erhvervsliv kan vi også se og høre, at folk nyder gavn af dens meget praktiske vinkel på, hvordan man fører en protreptik. Og mon ikke de er på vej til at udgive en follow-up, der rummer “findings”, erfaringer, metoder og teori-konstruktioner indenfor de seneste 5 år…?
 
