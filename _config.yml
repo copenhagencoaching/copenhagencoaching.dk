@@ -105,11 +105,6 @@ defaults:
       layout: international
   -
     scope:
-      type: popups
-    values:
-      layout: popup
-  -
-    scope:
       type: text
     values:
       layout: default
@@ -429,27 +424,6 @@ prose:
           element: "text"
           label: "Header tekst"
           help: "Overskriften i headeren"
-    _popups:
-      - name: "title"
-        field:
-          element: "text"
-          label: "Titel"
-      - name: "header"
-        field:
-          element: "text"
-          label: "Overskrift"
-      - name: "buttontext"
-        field:
-          element: "text"
-          label: "knap tekst"
-      - name: "buttonlink"
-        field:
-          element: "text"
-          label: "url"
-      - name: "page"
-        field:
-          element: "text"
-          label: "Tilhørende side"
     _texts:
       - name: "title"
         field:
