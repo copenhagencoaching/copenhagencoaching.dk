@@ -9,17 +9,12 @@ sections:
   create: all
 - type: directory
   path: _texts
-  label: Texts
-  create: all
-  match: "**/*"
-- type: directory
-  path: _popups
-  label: Popups
+  label: Tekster
   create: all
   match: "**/*"
 - type: directory
   path: _pages
-  label: Pages
+  label: Sider
   create: all
   match: "**/*"
 - type: directory
@@ -44,7 +39,7 @@ sections:
   match: "**/*"
 - type: directory
   path: _educations
-  label: Educations
+  label: Academy
   create: all
   match: "**/*"
 - type: directory
