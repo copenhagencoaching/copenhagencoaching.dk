@@ -11,10 +11,12 @@ Derfor er det vigtigt at vide, hvad man gør, hvordan man arbejder og, ikke mind
 
 I CCC har vi over 15 års erfaring i arbejdet med situationer, hvor en given organisatorisk praksis skal justeres, udfoldes eller decideret transformeres. Temaer, som vi typisk holder meget øje med, kan bistå med ekspertise til samt installere opmærksomhedsfelter og greb, teknikker og metoder i forhold til, er:
 
-•	Ledelse; hvem holder tovet, bærer ansvaret, samt sikrer sig, at tingene sker?
-•	Kommunikation; dialog, formidling, briefing og evaluering.
-•	Rekruttering & onboarding; hvem skal med og hvorfor? Om roller og positioner.
-•	Strategiske processer; hvem holder overblikket, og hvad er formålet?
-•	Proceshåndtering; hvordan kører vi processen?
-•	Teamudvikling; hvem skal nu arbejde sammen med og hvordan?
-•	Nye ideer: kreative rum og innovative scenarier.
+- Ledelse; hvem holder tovet, bærer ansvaret, samt sikrer sig, at tingene sker?
+- Kommunikation; dialog, formidling, briefing og evaluering.
+- Rekruttering & onboarding; hvem skal med og hvorfor? Om roller og positioner.
+- Strategiske processer; hvem holder overblikket, og hvad er formålet?
+- Proceshåndtering; hvordan kører vi processen?
+- Teamudvikling; hvem skal nu arbejde sammen med og hvordan?
+- Nye ideer: kreative rum og innovative scenarier.
+
+
