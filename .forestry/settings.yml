@@ -14,7 +14,7 @@ sections:
   label: Sider
   create: all
   match: "**/*"
-  exclude: search.html
+  exclude: "*.html"
 - type: directory
   path: _fundament
   label: Fundament
@@ -48,7 +48,6 @@ sections:
 - type: jekyll-posts
   label: Posts
   create: all
-  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
