@@ -7,7 +7,7 @@ tags:
   - ledelse
   - kurser
   - Protreptik
-image: images/inspiration/Protreptik i naturen.jpg
+image: images/inspiration/Protreptikinaturen.jpg
 ---
 GoNorth og Copenhagen Coaching Center udbyder nu en bootcamp på 24 timer med fokus på at flytte grænser og udfordre værdier. Vi bevæger os fysisk og mentalt for at finde ind til de værdier, du som menneske og leder står for.
 
@@ -33,5 +33,5 @@ vi mødes på Hellerup Station og kører samlet af sted i biler. Opsamling evt. 
 
 
 ## Pris: 9600 kr. ex moms (inklusiv forplejning og materiale)
-
-![]({{site.baseurl}}/images/inspiration/Protreptik i naturen2.jpg) ![]({{site.baseurl}}/images/inspiration/Protreptik i naturen3.jpg)
+images/inspiration/Protreptikinaturen2.jpg
+images/inspiration/Protreptikinaturen3.jpg
