@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Protreptik i naturen
 author: Kim Gørtz
 teaser: '- find værdierne i din ledelse gennem dialog'
