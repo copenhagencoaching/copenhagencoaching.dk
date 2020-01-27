@@ -1,20 +1,24 @@
 ---
-published: true
 order: 7
 title: Den offentlige lederuddannelse
-image: /images/academy/b3.png
+image: "/images/academy/b3.png"
 contact-person: '7'
 header: Den offentlige lederuddannelse
 price: 'Vejledende pris: 7.500 ekskl. moms pr. 5 ECTS'
 pdf: 'false'
 event-title: Vi starter løbende hold op - ring og hør nærmere
 dates:
-  - start: Coaching (valgfagsmodul) 30. januar 2020
-    dag:
-      - dato: '30/1, 13/2 og 5/3 (aflevering midt april og eksamen start maj)'
+- start: Coaching (valgfagsmodul) 30. januar 2020
+  dag:
+  - dato: 30/1, 13/2 og 5/3 (aflevering midt april og eksamen start maj)
 special: false
----
+hold_eller_begivenheder: true
+events:
+- overskrift: Coaching (valgfagsmodul) 30. januar 2020
+  dato:
+  - 30/1, 13/2 og 5/3 (aflevering midt april og eksamen start maj)
 
+---
 Er du leder, eller drømmer du om at bliver det? Trænger du til at få styrket dine lederkompetencer, og samtidig få de nyeste og brugbare værktøjer til medarbejdersamtaler og til håndtering af konfliktsituationer? Så tag moduler i Den offentlige Lederuddannelse (DOL) hos os!
 
 Modulerne kan enten tages på åbne hold eller som skræddersyet forløb, og det er muligt at tilrettelægge undervisningen således, at der tages hensyn til de ønsker og behov, du har.
