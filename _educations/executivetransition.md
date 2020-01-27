@@ -1,17 +1,20 @@
 ---
-published: true
 title: Executive Transition
-image: /images/academy/executive-transition.jpg
-contact-person: '1'
+image: "/images/academy/executive-transition.jpg"
+contact-person: _employees/morten-bertelsen.md
 header: Executive Transition
 price: '24.900,- EKSKL. MOMS  (heri er inkluderet fuld forplejning, materialer)  '
 pdf: 'false'
 event-title: Kommende hold
 dates:
-  - start: Nye seminarer til foråret 2020 (datoer følger snarest)
+- start: Nye seminarer til foråret 2020 (datoer følger snarest)
 special: true
----
+hold_eller_begivenheder: true
+events:
+- overskrift: Nye seminarer til foråret 2020 (datoer følger snarest)
+order: '2'
 
+---
 # Hvorfor skal du vælge Executive Transition?
 ## Med fokus på at bære det rigtige og sig selv videre
 
