@@ -1,0 +1,19 @@
+---
+label: Posts
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: file
+  name: image
+  label: image
+- type: text
+  name: author
+  label: author
+- type: list
+  name: tags
+  label: tags
+- type: text
+  name: teaser
+  label: teaser
