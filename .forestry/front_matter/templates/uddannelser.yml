@@ -64,34 +64,37 @@ fields:
 - type: boolean
   name: special
   label: special
+- name: events
+  type: field_group_list
+  fields:
+  - name: hold
+    type: field_group_list
+    fields:
+    - name: hold_navn
+      type: text
+      config:
+        required: false
+      label: Hold navn
+    - name: datoer
+      type: list
+      config:
+        use_select: false
+        min: 
+        max: 
+      label: datoer
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Hold
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Hold/events
+  description: Liste af hold eller begivenheder.
 - name: pdf
   type: file
   config:
     maxSize: 250
   label: PDF
-- name: events
-  type: field_group
-  config: {}
-  fields:
-  - name: overskrift
-    type: text
-    config:
-      required: false
-    label: Overskrift
-  - name: dates
-    type: field_group_list
-    fields:
-    - name: event
-      type: text
-      config:
-        required: false
-        max: '25'
-      label: Event/hold dato/navn
-      description: Dato eller holdnavn. Som f.eks 27. nov - 19. dec 2020
-    config:
-      min: 
-      max: 
-      labelField: 
-    label: Datoer/hold
-    description: 'Overskriften - f. eks: København eller Forår 2019'
-  label: Hold/events
