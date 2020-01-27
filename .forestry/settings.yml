@@ -40,6 +40,8 @@ sections:
   label: Academy
   create: all
   match: "**/*"
+  templates:
+  - uddannelser
 - type: directory
   path: _employees
   label: Employees
