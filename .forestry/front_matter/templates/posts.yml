@@ -4,16 +4,31 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  description: Titel på artiklen
+  label: Titel
+  config:
+    max: '60'
+    min: '3'
+    required: true
 - type: file
   name: image
-  label: image
+  label: Billed
+  description: Upload billedet der kommer til at ligge i headeren
 - type: text
   name: author
-  label: author
+  label: Forfatter
+  description: Forfatteren til artiklen
 - type: list
   name: tags
-  label: tags
+  label: Tags
+  description: Tags der relatere til artiklen
+  config:
+    use_select: false
+    source:
+      type: simple
 - type: text
   name: teaser
-  label: teaser
+  label: Teaser
+  description: En kort teaser, som bliver vist på billedet i Inspirations oversigten
+  config:
+    max: '90'
