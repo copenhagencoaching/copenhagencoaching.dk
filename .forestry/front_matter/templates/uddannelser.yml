@@ -51,19 +51,14 @@ fields:
   config:
     max: '30'
   description: 'Eksempler: Kommende datoer eller kommende uddannelser'
-- type: field_group_list
-  name: dates
-  label: Datoer
-  fields:
-  - type: datetime
-    name: start
-    label: start
 - type: text
   name: location
-  label: location
+  label: Lokation
+  description: Overordnet lokation for uddannelsen
 - type: boolean
   name: special
-  label: special
+  label: Skræddersyet uddannelse
+  description: Er denne uddannelse en skræddersyet uddannelse
 - name: events
   type: field_group_list
   fields:
