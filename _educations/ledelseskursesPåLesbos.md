@@ -1,23 +1,25 @@
 ---
-published: true
 order: 3
 title: Ledelseskursus på Lesbos
-image: /images/academy/lesbos.jpg
-contact-person: '6'
+image: "/images/academy/lesbos.jpg"
+contact-person: _employees/kim-gørtz.md
 header: Ledelseskursus på Lesbos
-description: Tag med på en opdagelsesrejse, hvor vi sammen udforsker ledelseskunsten og finder ind til de vigtigste værdier i det at lede sig selv og fællesskabet.
-price: >-
-  30.000,- ekskl. moms (heri er inkluderet fuld forplejning, materialer og
-  rejse)
-pdf: /pdfs/Lesbos 2020.pdf
+description: Tag med på en opdagelsesrejse, hvor vi sammen udforsker ledelseskunsten
+  og finder ind til de vigtigste værdier i det at lede sig selv og fællesskabet.
+price: 30.000,- ekskl. moms (heri er inkluderet fuld forplejning, materialer og rejse)
+pdf: "/pdfs/Lesbos 2020.pdf"
 event-title: Kommende rejser
 dates:
-  - start: 4-11 juni 2020
-  - start: 10-17 september 2020
+- start: 4-11 juni 2020
+- start: 10-17 september 2020
 location: Lesbos
 special: false
----
+hold_eller_begivenheder: true
+events:
+- overskrift: 4-11 juni 2020
+- overskrift: 10-17 september 2020
 
+---
 # Hvorfor skal du vælge Ledelseskursus på Lesbos?
 
 Har du givet dig selv mulighed for at finde det der betyder mest for dig, når du leder? Ønsker du at kunne bevare overblikket og agere tydeligt. Oplever du at det kan være svært at udfordre med et åbent sind og samtidig skabe tryghed omkring dig? Synes du nogle gange det er svært at bevæge sig i det uforudsigelige eller medskabe noget gennem fællesskabets værdier? Nu har du muligheden for at tænke over det, mærke efter det og blive til det.
