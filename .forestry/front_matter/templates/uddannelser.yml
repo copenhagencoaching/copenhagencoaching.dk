@@ -69,7 +69,24 @@ fields:
   config:
     maxSize: 250
   label: PDF
-- name: vla
+- name: events
   type: field_group
   config: {}
-  label: vla
+  fields:
+  - name: title
+    type: field_group_list
+    fields:
+    - name: event
+      type: text
+      config:
+        required: false
+        max: '25'
+      label: Event/hold dato/navn
+      description: Dato eller holdnavn. Som f.eks 27. nov - 19. dec 2020
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Overkrift
+    description: 'Overskriften - f. eks: København eller Forår 2019'
+  label: Hold/events
