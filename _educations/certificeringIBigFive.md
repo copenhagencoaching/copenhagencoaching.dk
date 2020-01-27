@@ -2,7 +2,7 @@
 order: 6
 title: Certificeringer i Big Five
 image: "/images/academy/b2.png"
-contact-person: '7'
+contact-person: _employees/frederikke-winther.md
 header: Certificeringer i Big Five
 description: Bliv certificeret til at bruge markedets bedst underbyggede personlighedstest
   og lær at anvende den ved gruppesammensætning, rekruttering og processer.
@@ -20,12 +20,12 @@ location: Blegdamsvej 104C, 3. sal, baghuset th., 2100 København Ø
 special: false
 hold_eller_begivenheder: true
 events:
-- overskrift: 7. april 2020
+- overskrift: 7. april 2020 (København)
   dato:
   - 7. april
   - 14. april
   - 29. april
-- overskrift: Vi kører 2 hold
+- overskrift: Vi kører 2 hold i efteråret 2020 - datoer er på vej.
 
 ---
 Bliv klædt på til at bruge markedets bedst underbyggede personlighedstest i rekruttering og ledelses- og medarbejderudviklingssammenhæng.
