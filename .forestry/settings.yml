@@ -12,7 +12,7 @@ sections:
 - type: directory
   path: _pages
   label: Sider
-  create: all
+  create: none
   match: "**/*"
   exclude: "*.html"
 - type: directory
