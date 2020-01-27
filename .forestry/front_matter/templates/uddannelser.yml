@@ -76,7 +76,7 @@ fields:
     type: text
     config:
       required: false
-      max: '20'
+      max: '100'
     label: Overskrift
     description: Overskriften på hold/event kategorien, f.eks København eller Forår
       2019
