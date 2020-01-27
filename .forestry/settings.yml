@@ -7,7 +7,7 @@ sections:
 - type: directory
   path: _texts
   label: Tekster
-  create: all
+  create: none
   match: "**/*"
 - type: directory
   path: _pages
