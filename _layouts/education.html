@@ -23,62 +23,83 @@ layout: page
 
         <!-- Datoer  -->
 
-        {% if page.dates %}
-        <br>
+        {% if page.hold_eller_begivenheder == true %}
+        <b><p>{{page.event-title}}:</p></b>
+  
+        {% for event in page.events %}
+
+        {% if event.subcategory == true %}
+       
+        
+          <h3>{{ event.overskrift }}</h3>
+    
+        {% for subcat in event.subcat %}
+        <div class="date-box">
+          <a class="date-links" role="button">
+            {{ subcat.sub-cat-title }}<i class="fas fa-caret-down"></i>
+          </a>
+          <div id="dateCollapse" class="collapse-dates">
+            <ul>
+              {% for dato in subcat.datoer %}
+              <li>
+                {{ dato }}
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+        {% endfor %}
+
+        {% else %}
+
+        {% if event.dato %}
+        <div class="date-box">
+          <a class="date-links" role="button">
+            {{ event.overskrift }}<i class="fas fa-caret-down"></i>
+          </a>
+          <div id="dateCollapse" class="collapse-dates">
+            <ul>
+              {% for dato in event.dato %}
+              <li>
+                {{ dato }}
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+        {% else %}
+        <div class="date-box">{{ event.overskrift }}</div>
+
+        {% endif %}
+
+
+        {% endif %}
+
+
+        {% endfor %}
+
+
+        {% else %}
+        <!--1-->
+        {{ page.hold_information }}
+        {% endif %}
+        <!--1-->
+
+
+
+
+        {% if page.contact-person %}
         <b>
-          {% if page.event-title %}<p>{{ page.event-title }}:</p>{% endif %}
+          <p>Kontakt:</p>
         </b>
-        {% for date in page.dates %}
-
-        <!-- Hvis der er kategoriseret efter by -->
-
-        {% if date.by %}
-        <h3>{{ date.by }}</h3>
-        {% for opstartsdatoer in date.opstartsdatoer %}
-        <div class="date-box">
-          <a class="date-links" role="button">{{ opstartsdatoer.start }}<i class="fas fa-caret-down"></i></a>
-          <div id="dateCollapse" class="collapse-dates">
-            <ul>
-              {% for dag in opstartsdatoer.dag %}
-              <li>{{ dag.dato }}</li>
-              {% endfor %}
-            </ul>
-          </div>
-        </div>
-        {% endfor %}
-        {% else %}
-        {% if date.dag %}
-        <div class="date-box">
-          <a class="date-links" role="button">{{ date.start }}<i class="fas fa-caret-down"></i></a>
-          <div id="dateCollapse" class="collapse-dates">
-            <ul>
-              {% for dag in date.dag %}
-              <li>{{ dag.dato }}</li>
-              {% endfor %}
-            </ul>
-          </div>
-        </div>
-        {% else %}
-        <div class="date-box">
-          {{ date.start }}
-        </div>
-        {% endif %}
+        {% for employee in site.employees %}
+        {% if employee.data-id == page.contact-person %}
+        <a href="{{ employee.url }}" data-proofer-ignore>{{ employee.title }}</a>
+        <a href="tel:{{ employee.call }}" data-proofer-ignore>{{ employee.call }}</a>
+        <a href="mailto:{{ employee.email }}" data-proofer-ignore>{{ employee.email }}</a>
         {% endif %}
         {% endfor %}
         {% endif %}
-        <span>
-          {% if page.contact-person %}
-          <b>
-            <p>Kontakt:</p>
-          </b>
-          {% for employee in site.employees %}
-          {% if employee.title == page.contact-person %}
-          <a href="{{ employee.url }}" data-proofer-ignore>{{ employee.title }}</a>
-          <a href="tel:{{ employee.call }}" data-proofer-ignore>{{ employee.call }}</a>
-          <a href="mailto:{{ employee.email }}" data-proofer-ignore>{{ employee.email }}</a>
-          {% endif %}
-          {% endfor %}
-          {% endif %}
         </span>
         <br>
         <a class="reg-link" href="/registration/{{ reg-url }}">Tilmeld dig her</a>
@@ -112,7 +133,9 @@ layout: page
         PDF om {{ page.title }}
         {% endcapture %}
         {% endif %}
-        <a data-proofer-ignore target="_blank" alt="{{ pdfmes | strip_newlines | strip }}" href="{{ pdfurl | strip_newlines | strip }}" class="pdf-link {{ pdfvar | strip_newlines | strip }}">Download PDF</a>
+        <a data-proofer-ignore target="_blank" alt="{{ pdfmes | strip_newlines | strip }}"
+          href="{{ pdfurl | strip_newlines | strip }}" class="pdf-link {{ pdfvar | strip_newlines | strip }}">Download
+          PDF</a>
       </div>
     </div>
   </div>

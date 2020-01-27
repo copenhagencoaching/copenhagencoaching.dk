@@ -7,9 +7,7 @@ description: Er du leder og arbejder i en organisation med forhøjet frustration
   så meld dig til denne skræddersyet uddannelse, hvor frustration betragtes som et
   organisatorisk vilkår. Mulighed for tilkøb af DOL-moduler.
 price: 38.700,- ekskl. moms (heri er inkluderet fuld forplejning, materialer)
-pdf: "/pdfs/LAF-2019-efterar.pdf"
-dates:
-- start: Kurset afholdes som skræddersyet forløb og planlægges efter aftale med holdet.
+pdf: /pdfs/LAF-2019-efterar.pdf
 special: true
 order: 4
 hold_information: Kurset afholdes som skræddersyet forløb og planlægges efter aftale

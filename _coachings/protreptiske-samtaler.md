@@ -1,6 +1,6 @@
 ---
 title: Protreptiske samtaler
-image: /images/coaching/Protreptisk samtale Mette.jpeg
+image: /images/coaching/ProtreptisksamtaleMette.jpeg
 published: true
 contact-person: '6'
 ---

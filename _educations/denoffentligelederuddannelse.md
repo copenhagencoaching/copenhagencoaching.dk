@@ -7,10 +7,6 @@ header: Den offentlige lederuddannelse
 price: 'Vejledende pris: 7.500 ekskl. moms pr. 5 ECTS'
 pdf: 'false'
 event-title: Vi starter løbende hold op - ring og hør nærmere
-dates:
-- start: Coaching (valgfagsmodul) 30. januar 2020
-  dag:
-  - dato: 30/1, 13/2 og 5/3 (aflevering midt april og eksamen start maj)
 special: false
 hold_eller_begivenheder: true
 events:

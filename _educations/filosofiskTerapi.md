@@ -8,8 +8,6 @@ description: Kurset filosofisk terapi kombinerer den psykologiske indlevelse med
 price: 29.000 eksl. moms (heri er inkluderet fuld forplejning, materialer)
 pdf: "/pdfs/filosofisk-terapi.pdf"
 event-title: Kommende hold
-dates:
-- start: Datoer følger snarest
 special: true
 order: 3
 hold_eller_begivenheder: true

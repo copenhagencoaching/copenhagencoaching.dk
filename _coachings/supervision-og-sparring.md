@@ -1,6 +1,6 @@
 ---
 title: Supervision og sparring
-image: /images/coaching/Supervision og sparring lille.jpeg
+image: /images/coaching/Supervisionogsparringlille.jpeg
 published: true
 contact-person: '9'
 ---

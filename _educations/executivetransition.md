@@ -6,8 +6,6 @@ header: Executive Transition
 price: '24.900,- EKSKL. MOMS  (heri er inkluderet fuld forplejning, materialer)  '
 pdf: 'false'
 event-title: Kommende hold
-dates:
-- start: Nye seminarer til foråret 2020 (datoer følger snarest)
 special: true
 hold_eller_begivenheder: true
 events:

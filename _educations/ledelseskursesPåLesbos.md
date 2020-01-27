@@ -9,9 +9,6 @@ description: Tag med på en opdagelsesrejse, hvor vi sammen udforsker ledelsesku
 price: 30.000,- ekskl. moms (heri er inkluderet fuld forplejning, materialer og rejse)
 pdf: "/pdfs/Lesbos 2020.pdf"
 event-title: Kommende rejser
-dates:
-- start: 4-11 juni 2020
-- start: 10-17 september 2020
 location: Lesbos
 special: false
 hold_eller_begivenheder: true

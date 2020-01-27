@@ -1,6 +1,6 @@
 ---
 title: Big Five-samtale
-image: /images/coaching/Big Five samtaler lille.jpeg
+image: /images/coaching/BigFivesamtalerlille.jpeg
 published: true
 contact-person: '7'
 ---

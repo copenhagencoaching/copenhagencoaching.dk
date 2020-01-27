@@ -31,5 +31,5 @@ Jan Andreassen (GONORTH): 25 10 02 51, jan@gonorth.nu
 ## Sted: I de sydsvenske skove (overnatning i luksus-telte)
 vi mødes på Hellerup Station og kører samlet af sted i biler. Opsamling evt. muligt på Helsingør havn. Mere info vedr. transport og overnatning så tal med Jan.
 
-
 ## Pris: 9600 kr. ex moms (inklusiv forplejning og materiale)
+
