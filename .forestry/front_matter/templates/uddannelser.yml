@@ -1,0 +1,44 @@
+---
+label: Uddannelser
+hide_body: false
+fields:
+- type: number
+  name: order
+  label: order
+- type: text
+  name: title
+  label: title
+- type: file
+  name: image
+  label: image
+- type: text
+  name: contact-person
+  label: contact-person
+- type: text
+  name: header
+  label: header
+- type: textarea
+  name: description
+  label: description
+- type: text
+  name: price
+  label: price
+- type: text
+  name: pdf
+  label: pdf
+- type: text
+  name: event-title
+  label: event-title
+- type: field_group_list
+  name: dates
+  label: dates
+  fields:
+  - type: datetime
+    name: start
+    label: start
+- type: text
+  name: location
+  label: location
+- type: boolean
+  name: special
+  label: special
