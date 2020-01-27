@@ -2,7 +2,7 @@
 order: 5
 title: Certificering i Protreptik
 image: "/images/academy/certificering-i-protreptik.jpg"
-contact-person: '6'
+contact-person: _employees/kim-gørtz.md
 header: Certificering i Protreptik
 description: Kom helt i dybden med den filosofiske samtalekunst og ikke mindst de
   værdier du ønsker at stå for i din ledelse. Forløbet er individuelt og tilpasses
