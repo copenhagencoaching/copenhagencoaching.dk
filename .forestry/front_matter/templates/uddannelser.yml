@@ -67,30 +67,26 @@ fields:
 - name: events
   type: field_group_list
   fields:
-  - name: hold
-    type: field_group_list
-    fields:
-    - name: hold_navn
-      type: text
-      config:
-        required: false
-      label: Hold navn
-    - name: datoer
-      type: list
-      config:
-        use_select: false
-        min: 
-        max: 
-      label: datoer
+  - name: overskrift
+    type: text
     config:
+      required: false
+      max: '20'
+    label: Overskrift
+    description: Overskriften på hold/event kategorien, f.eks København eller Forår
+      2019
+  - name: dato
+    type: list
+    config:
+      use_select: false
       min: 
       max: 
-      labelField: 
-    label: Hold
+    label: Datoer
+    description: Her kan du tilføje datoer eller hold, f.eks 29.jun - 25. sep
   config:
     min: 
     max: 
-    labelField: 
+    labelField: overskrift
   label: Hold/events
   description: Liste af hold eller begivenheder.
 - name: pdf
