@@ -1,27 +1,32 @@
 ---
-published: true
 title: Proceslederuddannelse
 header: Procesleder<br>uddannelse
 description: Styrk dine evner til at lede processer med en proceslederuddannelse.
-image: /images/academy/proceslederuddannelse.jpg
-price: >-
-  38.700,- EKSKL. MOMS (heri er inkluderet fuld forplejning, materialer med
-  videre)
-pdf: /pdfs/PLU2020forår.pdf
+image: "/images/academy/proceslederuddannelse.jpg"
+price: 38.700,- EKSKL. MOMS (heri er inkluderet fuld forplejning, materialer med videre)
+pdf: "/pdfs/PLU2020forår.pdf"
 contact-person: '5'
 event-title: Kommende hold
 order: 2
 dates:
-  - start: 9. marts 2020
-    dag:
-      - dato: 9-10 marts 2020
-      - dato: '20., 21. og 22. april 2020'
-      - dato: '13., 14. og 15. maj 2020'
-      - dato: 19. juni 2020
-location: 'Blegdamsvej 104C, 3. sal, baghuset th., 2100 København Ø'
+- start: 9. marts 2020
+  dag:
+  - dato: 9-10 marts 2020
+  - dato: 20., 21. og 22. april 2020
+  - dato: 13., 14. og 15. maj 2020
+  - dato: 19. juni 2020
+location: Blegdamsvej 104C, 3. sal, baghuset th., 2100 København Ø
 special: false
----
+hold_eller_begivenheder: true
+events:
+- overskrift: 9. marts 2020
+  dato:
+  - 9-10 marts 2020
+  - 20.,21. og 22. april 2020
+  - 13.,14 og 15. maj 2020
+  - 19. juni 2020
 
+---
 # Hvorfor skal du vælge Proceslederuddannelsen?
 
 Uddannelsen henvender sig til ledere og konsulenter, som har ansvar for, leder og håndterer forandringer og processer i organisationen, internt som eksternt.
