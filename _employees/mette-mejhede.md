@@ -2,7 +2,6 @@
 published: true
 title: Mette Mejlhede
 order: 2
-data-id: '3'
 portrait-image: /images/about/employees/mette.jpg
 small-portrait-image: /images/small-images/mette-small.jpg
 call: 24 27 28 71

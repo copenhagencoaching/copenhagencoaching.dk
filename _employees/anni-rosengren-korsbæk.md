@@ -1,7 +1,6 @@
 ---
 published: true
 order: 8
-data-id: '8'
 title: Anni Rosengren Korsbæk
 portrait-image: /images/about/employees/anniRKorsbæk.jpg
 small-portrait-image: /images/small-images/anni-small.jpg

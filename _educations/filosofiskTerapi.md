@@ -11,7 +11,7 @@ event-title: Kommende hold
 dates:
 - start: Datoer følger snarest
 special: true
-order: '3'
+order: 3
 hold_eller_begivenheder: true
 events:
 - overskrift: Datoer følger snarest

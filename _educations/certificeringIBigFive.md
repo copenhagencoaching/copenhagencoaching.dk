@@ -2,7 +2,7 @@
 order: 6
 title: Certificeringer i Big Five
 image: "/images/academy/b2.png"
-contact-person: _employees/frederikke-winther.md
+contact-person: Frederikke Winther
 header: Certificeringer i Big Five
 description: Bliv certificeret til at bruge markedets bedst underbyggede personlighedstest
   og lær at anvende den ved gruppesammensætning, rekruttering og processer.

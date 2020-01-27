@@ -12,7 +12,7 @@ special: true
 hold_eller_begivenheder: true
 events:
 - overskrift: Nye seminarer til foråret 2020 (datoer følger snarest)
-order: '2'
+order: 2
 
 ---
 # Hvorfor skal du vælge Executive Transition?

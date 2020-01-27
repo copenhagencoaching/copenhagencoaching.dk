@@ -1,7 +1,6 @@
 ---
 published: true
 order: 1
-data-id: '9'
 title: Andreas Bering
 portrait-image: /images/about/employees/andreas.jpg
 small-portrait-image: /images/small-images/andreas-small.jpg

@@ -72,7 +72,7 @@ layout: page
             <p>Kontakt:</p>
           </b>
           {% for employee in site.employees %}
-          {% if employee.data-id == page.contact-person %}
+          {% if employee.title == page.contact-person %}
           <a href="{{ employee.url }}" data-proofer-ignore>{{ employee.title }}</a>
           <a href="tel:{{ employee.call }}" data-proofer-ignore>{{ employee.call }}</a>
           <a href="mailto:{{ employee.email }}" data-proofer-ignore>{{ employee.email }}</a>

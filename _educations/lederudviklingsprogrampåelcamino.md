@@ -2,7 +2,7 @@
 published: false
 title: Leder udviklingsprogram på El Camino
 image: /images/educations/ed-1.jpg
-contact-person: '2'
+contact-person: 2
 header: Leder udviklings-<br>program på El Camino
 description: >-
   Kurset henvender sig til topledere i både den offentlige og private sektor,

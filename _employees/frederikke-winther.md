@@ -1,7 +1,6 @@
 ---
 published: true
 order: 4
-data-id: '7'
 title: Frederikke Winther
 portrait-image: /images/about/employees/frederikke.jpg
 small-portrait-image: /images/small-images/frederikke-small.jpg

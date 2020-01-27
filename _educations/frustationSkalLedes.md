@@ -11,7 +11,7 @@ pdf: "/pdfs/LAF-2019-efterar.pdf"
 dates:
 - start: Kurset afholdes som skræddersyet forløb og planlægges efter aftale med holdet.
 special: true
-order: '4'
+order: 4
 hold_information: Kurset afholdes som skræddersyet forløb og planlægges efter aftale
   med holdet.
 

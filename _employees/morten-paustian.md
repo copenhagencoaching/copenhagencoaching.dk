@@ -1,7 +1,6 @@
 ---
 title: Morten Paustian
-order: "7"
-data-id: "2"
+order: 7
 portrait-image: "/images/about/employees/morten-p.jpg"
 small-portrait-image: "/images/small-images/morten-p-small.jpg"
 call: 40 13 69 68

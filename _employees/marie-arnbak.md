@@ -2,7 +2,6 @@
 published: true
 title: Marie Arnbak
 order: 9
-data-id: '4'
 portrait-image: /images/about/employees/marie.jpg
 small-portrait-image: /images/small-images/marie-small.jpg
 call: 26 18 03 00

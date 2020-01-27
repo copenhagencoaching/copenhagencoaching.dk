@@ -2,7 +2,6 @@
 published: true
 title: Lars Nyborg
 order: 6
-data-id: '5'
 portrait-image: /images/about/employees/lars.jpg
 small-portrait-image: /images/small-images/lars-small.jpg
 call: 27 11 42 44

@@ -1,7 +1,6 @@
 ---
 published: true
 order: 5
-data-id: '6'
 title: Kim Gørtz
 portrait-image: /images/about/employees/kim.jpg
 small-portrait-image: /images/small-images/kim-small.jpg
