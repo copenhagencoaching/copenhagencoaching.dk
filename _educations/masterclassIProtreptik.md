@@ -1,20 +1,24 @@
 ---
-published: true
 order: 4
 title: Masterclass i Protreptik
-image: /images/academy/b7.png
-contact-person: '6'
+image: "/images/academy/b7.png"
+contact-person: _employees/kim-gørtz.md
 header: Masterclass i Protreptik
-description: Deltag i den årlige Masterclass i protreptik. Hvert år tager vi fat på forskellige teoretiske temaer og afprøver dem med hinanden i praksis. Mød andre erfarne protreptikere og del dine erfaringer og indsigter.
-price: '12.000,- EKSKL. MOMS / 3 dage inklusiv frokost og lettere morgenforplejning'
+description: Deltag i den årlige Masterclass i protreptik. Hvert år tager vi fat på
+  forskellige teoretiske temaer og afprøver dem med hinanden i praksis. Mød andre
+  erfarne protreptikere og del dine erfaringer og indsigter.
+price: 12.000,- EKSKL. MOMS / 3 dage inklusiv frokost og lettere morgenforplejning
 pdf: 'false'
 event-title: Kommende hold
 dates:
-  - start: '4., 5. & 27. maj 2020'
-location: 'Blegdamsvej 104C, 3. sal, baghuset th., 2100 København Ø'
+- start: 4., 5. & 27. maj 2020
+location: Blegdamsvej 104C, 3. sal, baghuset th., 2100 København Ø
 special: false
----
+hold_eller_begivenheder: true
+events:
+- overskrift: 4., 5. & 27. maj 2020
 
+---
 # LIVSSPEJLET: OM AT HOPPE UD AF det mulige SELVBEDRAG OG IND I DEN NORMATIVITET, DER KOMMER FRA HJERTET
 
 Velkommen til vores årlige masterclass i protreptik, som dette år (2020) sætter specielt fokus på gruppe-protreptikken. 
