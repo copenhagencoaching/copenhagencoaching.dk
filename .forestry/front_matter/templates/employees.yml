@@ -1,0 +1,31 @@
+---
+label: Employees
+hide_body: false
+fields:
+- type: number
+  name: order
+  label: order
+- type: text
+  name: data-id
+  label: data-id
+- type: text
+  name: title
+  label: title
+- type: file
+  name: portrait-image
+  label: portrait-image
+- type: file
+  name: small-portrait-image
+  label: small-portrait-image
+- type: text
+  name: call
+  label: call
+- type: text
+  name: email
+  label: email
+- type: text
+  name: description
+  label: description
+- type: text
+  name: linkedin
+  label: linkedin
