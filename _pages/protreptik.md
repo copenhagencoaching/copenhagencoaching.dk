@@ -2,7 +2,7 @@
 layout: protreptik
 show: true
 title: Protreptik
-image: /images/Protreptik.jpeg
+image: /images/protreptik/Protreptik.jpeg
 header: 'PROTREPTIK – FORDI ORDENE, VI SIGER, BETYDER NOGET'
 description: >-
   Vi har i CCC altid været optaget af Protreptikken, dvs. den filosofiske
@@ -42,7 +42,7 @@ Vi har igennem de sidste 10 år været vidt omkring og lavet mindre forløb i og
 ## Bøger om protreptik 
 
 I 2015 lykkedes det Mette Mejlhede og Kim Gørtz at få skrevet og udgivet: “Protreptik i praksis”.
-![image](/images/PRotreptikipraksis.jpg)
+![image](/images/protreptik/PRotreptikipraksis.jpg)
 
 Den bliver brugt flittigt, både ift ovenstående forløb, og bredt ud i det danske erhvervsliv kan vi også se og høre, at folk nyder gavn af dens meget praktiske vinkel på, hvordan man fører en protreptik. Og mon ikke de er på vej til at udgive en follow-up, der rummer “findings”, erfaringer, metoder og teori-konstruktioner indenfor de seneste 5 år…?
 
