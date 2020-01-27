@@ -9,29 +9,6 @@ fields:
 - type: file
   name: image
   label: Billed
-- type: number
-  name: order
-  label: Rækkefølge
-  description: Nummer på den rækkefølge uddannelsen skal ligge i
-  config:
-    required: true
-- name: contact-person
-  type: select
-  default: []
-  config:
-    required: false
-    options: []
-    source:
-      type: pages
-      section: employees
-      file: 
-      path: 
-  label: Kontakt person
-- type: text
-  name: header
-  label: Overskrift
-  config:
-    max: ''
 - type: textarea
   name: description
   label: Beskrivelse
@@ -45,6 +22,37 @@ fields:
   label: Pris
   config:
     max: '100'
+- type: number
+  name: order
+  label: Rækkefølge
+  description: Nummer på den rækkefølge uddannelsen skal ligge i
+  config:
+    required: true
+- name: contact-person
+  type: select
+  default: ''
+  config:
+    required: false
+    options:
+    - Andreas Bering
+    - Anni Rosengren Korsbæk
+    - Frederikke Winther
+    - Kim Gørtz
+    - Lars Nyborg
+    - Marie Arnbak
+    - Mette Mejlhede
+    - Morten Bertelsen
+    source:
+      type: simple
+      section: employees
+      file: 
+      path: 
+  label: Kontakt person
+- type: text
+  name: header
+  label: Overskrift
+  config:
+    max: ''
 - type: text
   name: event-title
   label: Event overskrift
