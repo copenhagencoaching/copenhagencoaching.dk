@@ -1,7 +1,7 @@
 ---
 title: Frustration skal ledes
 image: "/images/academy/frustration-skal-ledes.jpg"
-contact-person: _employees/lars-nyborg.md
+contact-person: Lars Nyborg
 header: Frustration skal ledes
 description: Er du leder og arbejder i en organisation med forhøjet frustrationsniveau,
   så meld dig til denne skræddersyet uddannelse, hvor frustration betragtes som et

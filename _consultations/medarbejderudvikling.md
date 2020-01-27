@@ -3,7 +3,7 @@ published: true
 order: 4
 title: Medarbejder<br>udvikling
 image: /images/consulting/c1.jpg
-contact-person: '9'
+contact-person: Andreas Bering
 ---
 
 I alle organisationer er dét at løfte medarbejdere nødvendigt. I CCC arbejder vi med kompetenceudviklende aktiviteter for medarbejdere i alle typer organisationer. Vi har særligt fokus på bedre, mere eller nye former for samarbejde samt øget motivation og deltagelse. Målet er at løfte medarbejdernes dialogiske kapacitet samt at skærpe blikket på sig selv i organisationen med henblik på nye kompetencer, større engagement og bedre trivsel.

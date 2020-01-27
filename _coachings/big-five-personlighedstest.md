@@ -2,7 +2,7 @@
 title: Big Five-samtale
 image: /images/coaching/BigFivesamtalerlille.jpeg
 published: true
-contact-person: '7'
+contact-person: Frederikke Winther
 ---
 
 ## Når din personlighedstest bliver et udviklingsværktøj

@@ -1,7 +1,7 @@
 ---
 title: Executive Transition
 image: "/images/academy/executive-transition.jpg"
-contact-person: _employees/morten-bertelsen.md
+contact-person: Morten Bertelsen
 header: Executive Transition
 price: '24.900,- EKSKL. MOMS  (heri er inkluderet fuld forplejning, materialer)  '
 pdf: 'false'

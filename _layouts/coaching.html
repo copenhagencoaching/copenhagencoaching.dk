@@ -14,7 +14,7 @@ layout: page
             <p>{{ coaching.content }}</p>
             <h2>Interesseret i at høre mere? Ring eller skriv og få en snak med</h2>
             {% for employee in site.employees %}
-            {% if employee.data-id == coaching.contact-person %}
+            {% if employee.title == coaching.contact-person %}
 
             <div class="mr-3 contact-img-outer">
                 <img class="contact-img" src="{{ employee.small-portrait-image }}" alt="{{ employee.title }}, {{ employee.description}}">

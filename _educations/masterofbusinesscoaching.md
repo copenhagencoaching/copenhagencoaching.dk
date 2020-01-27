@@ -2,7 +2,7 @@
 order: 1
 title: Master of Business Coaching
 image: "/images/coaching/ledelsessparring.jpg"
-contact-person: _employees/frederikke-winther.md
+contact-person: Frederikke Winther
 header: Master of Business Coaching
 description: Bliv samtaleekspert med vores Master i Business Coaching
 price: 45.900,- EKSKL. MOMS PR. SEMESTER (heri er inkluderet fuld forplejning og kursusmaterialer)

@@ -1,7 +1,7 @@
 ---
 title: Filosofisk terapi
 image: "/images/coaching/MasterBusinessCoaching.jpg"
-contact-person: _employees/mette-mejhede.md
+contact-person: Mette Mejlhede
 header: Filosofisk terapi
 description: Kurset filosofisk terapi kombinerer den psykologiske indlevelse med en
   filosofisk undersøgende tilgang, hvilket giver dig et nyt praktisk anvendeligt samtaleværktøj.

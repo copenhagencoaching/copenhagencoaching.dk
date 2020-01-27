@@ -3,7 +3,7 @@ published: true
 order: 2
 title: Konsulent<br>udvikling
 image: /images/consulting/c2.jpg
-contact-person: '1'
+contact-person: Morten Bertelsen
 ---
 
 Vi arbejder med konsulentrollen ud fra principper der gør det nemmere at forstå og understøtte organisationens arbejde, mål og retning samtidig med at du som intern eller ekstern konsulent får redskaber og tydelighed om din position i organisationen.

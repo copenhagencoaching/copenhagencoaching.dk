@@ -2,7 +2,7 @@
 title: Protreptiske samtaler
 image: /images/coaching/ProtreptisksamtaleMette.jpeg
 published: true
-contact-person: '6'
+contact-person: Kim Gørtz
 ---
 
 **Når du vil tæt på det væsentlige**

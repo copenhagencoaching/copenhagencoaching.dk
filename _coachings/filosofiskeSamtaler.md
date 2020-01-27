@@ -4,7 +4,7 @@ id: 2
 order: 3
 title: Filosofiske<br>samtaler
 image: /images/coaching/c2.jpg
-contact-person: '6'
+contact-person: Kim Gørtz
 ---
 
 ## Det reflekterede arbejdsliv og den organisatoriske tænksomhed.

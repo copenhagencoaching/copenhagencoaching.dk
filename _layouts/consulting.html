@@ -12,7 +12,7 @@ layout: page
             <p>{{ consultation.content }}</p>
             <h2>Ineresseret i at høre mere? Ring eller skriv og få en snak med</h2>
             {% for employee in site.employees %}
-            {% if employee.data-id == consultation.contact-person %}
+            {% if employee.title == consultation.contact-person %}
             <div class="mr-3 contact-img-outer">
                 <img class="contact-img" src="{{ employee.small-portrait-image }}" alt="{{ employee.title }}, {{ employee.description}}">
             </div>  

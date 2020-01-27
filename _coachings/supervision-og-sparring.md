@@ -2,7 +2,7 @@
 title: Supervision og sparring
 image: /images/coaching/Supervisionogsparringlille.jpeg
 published: true
-contact-person: '9'
+contact-person: Andreas Bering
 ---
 
 ## Nye perspektiver - andre handlemuligheder
