@@ -2,30 +2,33 @@
 label: Employees
 hide_body: false
 fields:
-- type: number
-  name: order
-  label: order
 - type: text
   name: data-id
   label: data-id
+  hidden: true
 - type: text
   name: title
-  label: title
+  label: Titel
+  description: Navnet på medarbejderen
 - type: file
   name: portrait-image
-  label: portrait-image
+  label: Billed
 - type: file
   name: small-portrait-image
   label: small-portrait-image
+  hidden: true
 - type: text
   name: call
-  label: call
+  label: Telefon
+- type: number
+  name: order
+  label: Rækkefølge
 - type: text
   name: email
-  label: email
+  label: Email
 - type: text
   name: description
-  label: description
+  label: Beskrivelse
 - type: text
   name: linkedin
-  label: linkedin
+  label: LinkedIn
