@@ -33,5 +33,3 @@ vi mødes på Hellerup Station og kører samlet af sted i biler. Opsamling evt. 
 
 
 ## Pris: 9600 kr. ex moms (inklusiv forplejning og materiale)
-images/inspiration/Protreptikinaturen2.jpg
-images/inspiration/Protreptikinaturen3.jpg
