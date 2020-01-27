@@ -1,28 +1,33 @@
 ---
-published: true
 order: 6
 title: Certificeringer i Big Five
-image: /images/academy/b2.png
+image: "/images/academy/b2.png"
 contact-person: '7'
 header: Certificeringer i Big Five
-description: >-
-  Bliv certificeret til at bruge markedets bedst underbyggede personlighedstest
+description: Bliv certificeret til at bruge markedets bedst underbyggede personlighedstest
   og lær at anvende den ved gruppesammensætning, rekruttering og processer.
-price: '19.500,- EKSKL. MOMS / 3 KURSUSDAGE'
-pdf: /pdfs/certificering-i-big-five.pdf
+price: 19.500,-
+pdf: "/pdfs/certificering-i-big-five.pdf"
 event-title: Kommende hold
 dates:
-  - start: 7. april 2020 (København)
-    dag:
-      - dato: 7. april
-      - dato: 14. april
-      - dato: 29. april
-  - start: Vi kører 2 hold i efteråret 2020 - datoer er på vej.
-location: 'Blegdamsvej 104C, 3. sal, baghuset th., 2100 København Ø'
+- start: 7. april 2020 (København)
+  dag:
+  - dato: 7. april
+  - dato: 14. april
+  - dato: 29. april
+- start: Vi kører 2 hold i efteråret 2020 - datoer er på vej.
+location: Blegdamsvej 104C, 3. sal, baghuset th., 2100 København Ø
 special: false
+hold_eller_begivenheder: true
+events:
+- overskrift: 7. april 2020
+  dato:
+  - 7. april
+  - 14. april
+  - 29. april
+- overskrift: Vi kører 2 hold
+
 ---
-
-
 Bliv klædt på til at bruge markedets bedst underbyggede personlighedstest i rekruttering og ledelses- og medarbejderudviklingssammenhæng.
 
 Big Five testen måler de 5 basale personlighedstræk (Big Five):
