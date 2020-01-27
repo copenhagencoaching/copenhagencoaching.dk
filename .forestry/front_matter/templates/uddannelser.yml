@@ -83,6 +83,8 @@ fields:
       max: 
     label: Datoer
     description: Her kan du tilføje datoer eller hold, f.eks 29.jun - 25. sep
+    showOnly:
+      field: subcategory
   - name: subcategory
     type: boolean
     label: Underkategorier
