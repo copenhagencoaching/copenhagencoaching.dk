@@ -59,6 +59,16 @@ fields:
   name: special
   label: Skræddersyet uddannelse
   description: Er denne uddannelse en skræddersyet uddannelse
+- name: hold_information
+  type: text
+  config:
+    required: false
+  label: Hold information
+  showOnly:
+    field: hold_eller_begivenheder
+- name: hold_eller_begivenheder
+  type: boolean
+  label: Hold eller begivenheder
 - name: events
   type: field_group_list
   fields:
@@ -113,8 +123,11 @@ fields:
     min: 
     max: 
     labelField: overskrift
-  label: Hold/events
+  label: Hold/ellerbegivenheder
   description: Liste af hold eller begivenheder.
+  showOnly:
+    field: hold_eller_begivenheder
+    value: true
 - name: pdf
   type: file
   config:
