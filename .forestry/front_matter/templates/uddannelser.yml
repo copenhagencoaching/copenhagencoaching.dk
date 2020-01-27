@@ -73,7 +73,12 @@ fields:
   type: field_group
   config: {}
   fields:
-  - name: title
+  - name: overskrift
+    type: text
+    config:
+      required: false
+    label: Overskrift
+  - name: dates
     type: field_group_list
     fields:
     - name: event
@@ -87,6 +92,6 @@ fields:
       min: 
       max: 
       labelField: 
-    label: Overkrift
+    label: Datoer/hold
     description: 'Overskriften - f. eks: København eller Forår 2019'
   label: Hold/events
