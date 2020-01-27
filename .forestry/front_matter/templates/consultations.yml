@@ -4,13 +4,22 @@ hide_body: false
 fields:
 - type: number
   name: order
-  label: order
+  label: Rækkefølge
 - type: text
   name: title
-  label: title
+  label: Titel
 - type: file
   name: image
-  label: image
-- type: text
-  name: contact-person
-  label: contact-person
+  label: Billed
+- name: contact-person
+  type: select
+  default: ''
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: employees
+      file: 
+      path: 
+  label: Kontakt person
