@@ -2,36 +2,58 @@
 label: Uddannelser
 hide_body: false
 fields:
-- type: number
-  name: order
-  label: order
 - type: text
   name: title
-  label: title
+  label: Titel
+  description: Titel på uddannelsen
 - type: file
   name: image
-  label: image
-- type: text
-  name: contact-person
-  label: contact-person
+  label: Billed
+- type: number
+  name: order
+  label: Rækkefølge
+  description: Nummer på den rækkefølge uddannelsen skal ligge i
+  config:
+    required: true
+- name: contact-person
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: employees
+      file: 
+      path: 
+  label: Kontakt person
 - type: text
   name: header
-  label: header
+  label: Overskrift
+  config:
+    max: '40'
 - type: textarea
   name: description
-  label: description
+  label: Beskrivelse
+  description: Den tekst der kommer til at stå under overskriften i headeren
+  config:
+    wysiwyg: false
+    max: '60'
+  default: ''
 - type: text
   name: price
-  label: price
-- type: text
-  name: pdf
-  label: pdf
+  label: Pris
+  config:
+    max: '20'
 - type: text
   name: event-title
-  label: event-title
+  label: Event overskrift
+  config:
+    max: '30'
+  description: 'Eksempler: Kommende datoer eller kommende uddannelser'
 - type: field_group_list
   name: dates
-  label: dates
+  label: Datoer
   fields:
   - type: datetime
     name: start
@@ -42,3 +64,8 @@ fields:
 - type: boolean
   name: special
   label: special
+- name: pdf
+  type: file
+  config:
+    maxSize: 250
+  label: PDF
