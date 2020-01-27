@@ -1,21 +1,22 @@
 ---
-published: true
 title: Filosofisk terapi
-image: /images/coaching/MasterBusinessCoaching.jpg
-contact-person: '3'
+image: "/images/coaching/MasterBusinessCoaching.jpg"
+contact-person: _employees/mette-mejhede.md
 header: Filosofisk terapi
-description: >-
-  Kurset filosofisk terapi kombinerer den psykologiske indlevelse med en
-  filosofisk undersøgende tilgang, hvilket giver dig et nyt praktisk anvendeligt
-  samtaleværktøj.
-price: '29.000 eksl. moms (heri er inkluderet fuld forplejning, materialer)'
-pdf: /pdfs/filosofisk-terapi.pdf
+description: Kurset filosofisk terapi kombinerer den psykologiske indlevelse med en
+  filosofisk undersøgende tilgang, hvilket giver dig et nyt praktisk anvendeligt samtaleværktøj.
+price: 29.000 eksl. moms (heri er inkluderet fuld forplejning, materialer)
+pdf: "/pdfs/filosofisk-terapi.pdf"
 event-title: Kommende hold
 dates:
-  - start: Datoer følger snarest
+- start: Datoer følger snarest
 special: true
----
+order: '3'
+hold_eller_begivenheder: true
+events:
+- overskrift: Datoer følger snarest
 
+---
 # Hvorfor skal du vælge Filosofisk terapi?
 
 Arbejder du med mennesker i et terapeutisk øjemed (terapeut, coach, behandler, psykolog etc.) og er du nysgerrig på, hvordan filosofi kan bruges i din kontekst? Ønsker du at kunne arbejde med terapeutiske relationsmetoder, filosofisk begrebs- og værdiafklaring samt alternative terapeutiske metoder? Er du optaget af at kunne indgå i arbejdsrelationer med en endnu højere grad af indlevelse og med en endnu stærkere intuition? Ønsker du metodisk inspiration ift. nye og anderledes metodiske greb og øvelser, som du formentlig ikke tidligere har prøvet før.
