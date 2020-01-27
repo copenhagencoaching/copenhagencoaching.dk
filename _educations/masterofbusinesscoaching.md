@@ -1,55 +1,86 @@
 ---
-published: true
 order: 1
 title: Master of Business Coaching
-image: /images/coaching/ledelsessparring.jpg
-contact-person: '7'
+image: "/images/coaching/ledelsessparring.jpg"
+contact-person: _employees/frederikke-winther.md
 header: Master of Business Coaching
-description: >-
-  Bliv samtaleekspert med vores Master i Business Coaching – en eksklusiv
-  coachinguddannelse, der er akkrediteret på højeste EMCC-niveau.
-price: >-
-  45.900,- EKSKL. MOMS PR. SEMESTER (heri er inkluderet fuld forplejning og
-  kursusmaterialer)
-pdf: /pdfs/master-of-business-coaching.pdf
+description: Bliv samtaleekspert med vores Master i Business Coaching
+price: 45.900,-
+pdf: "/pdfs/master-of-business-coaching.pdf"
 event-title: Kommende hold
 dates:
-  - by: København
-    opstartsdatoer:
-      - start: 24. februar 2020
-        dag:
-          - dato: 24.-25. februar
-          - dato: 16.-17. marts
-          - dato: 23.-24. april
-          - dato: 18.-19. maj
-          - dato: 22.-23. juni
-      - start: 7. september 2020
-        dag:
-          - dato: 7.-8. september
-          - dato: 1.-2. oktober
-          - dato: 26.-27. oktober
-          - dato: 5.-6. november
-          - dato: 16.-17. december
-  - by: Vejle
-    opstartsdatoer:
-      - start: 5. februar 2020
-        dag:
-          - dato: 5.-6. februar
-          - dato: 2.-3. marts
-          - dato: 25.-26. marts
-          - dato: 27.-28. april
-          - dato: 11.-12. maj
-      - start: 27. august 2020
-        dag:
-          - dato: 27.-28. august
-          - dato: 29.-30. september
-          - dato: 6.-7. oktober
-          - dato: 2.-3. november
-          - dato: 2.-3. december
-location: 'Blegdamsvej 104C, 3. sal, baghuset th., 2100 København Ø'
+- by: København
+  opstartsdatoer:
+  - start: 24. februar 2020
+    dag:
+    - dato: 24.-25. februar
+    - dato: 16.-17. marts
+    - dato: 23.-24. april
+    - dato: 18.-19. maj
+    - dato: 22.-23. juni
+  - start: 7. september 2020
+    dag:
+    - dato: 7.-8. september
+    - dato: 1.-2. oktober
+    - dato: 26.-27. oktober
+    - dato: 5.-6. november
+    - dato: 16.-17. december
+- by: Vejle
+  opstartsdatoer:
+  - start: 5. februar 2020
+    dag:
+    - dato: 5.-6. februar
+    - dato: 2.-3. marts
+    - dato: 25.-26. marts
+    - dato: 27.-28. april
+    - dato: 11.-12. maj
+  - start: 27. august 2020
+    dag:
+    - dato: 27.-28. august
+    - dato: 29.-30. september
+    - dato: 6.-7. oktober
+    - dato: 2.-3. november
+    - dato: 2.-3. december
+location: Blegdamsvej 104C, 3. sal, baghuset th., 2100 København Ø
 special: false
----
+hold_eller_begivenheder: true
+events:
+- subcategory: true
+  subcat:
+  - sub-cat-title: 27. august 2020
+    datoer:
+    - 27.-28. august
+    - 29.-30. september
+    - 6.-7. oktober
+    - 2.-3. november
+    - 2.-3. december
+  - sub-cat-title: 5. februar 2020
+    datoer:
+    - 5.-6. februar
+    - 2.-3. marts
+    - 25.-26. marts
+    - 27.-28. april
+    - 11.-12. maj
+  overskrift: Vejle
+- overskrift: København
+  subcategory: true
+  subcat:
+  - sub-cat-title: 24. februar 2020
+    datoer:
+    - 24.-25. februar
+    - 16.-17. marts
+    - 23.-24. april
+    - 18.-19. maj
+    - 22.-23. juni
+  - sub-cat-title: 7. september 2020
+    datoer:
+    - 7.-8. september
+    - 1.-2. oktober
+    - 26.-27. oktober
+    - 5.-6. november
+    - 16.-17. december
 
+---
 # Hvorfor skal du vælge Master of Business Coaching?
 
 Ønsker du at blive dygtig til at føre produktive og virkningsfulde dialoger? At kunne flytte både grupper og individer i en mere konstruktiv retning og derved forebygge stress, organisatorisk stagnation og udbrændthed? Så vælg uddannelsen: Master of Business Coaching (MBC).
