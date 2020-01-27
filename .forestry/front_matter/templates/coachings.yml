@@ -1,0 +1,19 @@
+---
+label: Coachings
+hide_body: false
+fields:
+- type: number
+  name: id
+  label: id
+- type: number
+  name: order
+  label: order
+- type: text
+  name: title
+  label: title
+- type: file
+  name: image
+  label: image
+- type: text
+  name: contact-person
+  label: contact-person
