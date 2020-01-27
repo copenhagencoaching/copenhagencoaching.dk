@@ -31,14 +31,14 @@ fields:
   name: header
   label: Overskrift
   config:
-    max: '40'
+    max: ''
 - type: textarea
   name: description
   label: Beskrivelse
   description: Den tekst der kommer til at stå under overskriften i headeren
   config:
     wysiwyg: false
-    max: '60'
+    max: ''
   default: ''
 - type: text
   name: price
