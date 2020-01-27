@@ -7,7 +7,7 @@ tags:
   - ledelse
   - kurser
   - Protreptik
-image: images/inspiration/Protreptikinaturen.jpg
+image:
 ---
 GoNorth og Copenhagen Coaching Center udbyder nu en bootcamp på 24 timer med fokus på at flytte grænser og udfordre værdier. Vi bevæger os fysisk og mentalt for at finde ind til de værdier, du som menneske og leder står for.
 
