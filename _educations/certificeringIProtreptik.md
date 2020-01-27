@@ -1,22 +1,21 @@
 ---
-published: true
 order: 5
 title: Certificering i Protreptik
-image: /images/academy/certificering-i-protreptik.jpg
+image: "/images/academy/certificering-i-protreptik.jpg"
 contact-person: '6'
 header: Certificering i Protreptik
-description: >-
-  Kom helt i dybden med den filosofiske samtalekunst og ikke mindst de værdier
-  du ønsker at stå for i din ledelse. Forløbet er individuelt og tilpasses dine
-  behov.
-price: '70.000,- EKSKL. MOMS'
-pdf: /pdfs/Certificering-i-protreptik-efterår.pdf
+description: Kom helt i dybden med den filosofiske samtalekunst og ikke mindst de
+  værdier du ønsker at stå for i din ledelse. Forløbet er individuelt og tilpasses
+  dine behov.
+price: 70.000,- EKSKL. MOMS
+pdf: "/pdfs/Certificering-i-protreptik-efterår.pdf"
 dates:
-  - start: Forløbet aftales individuelt
-location: 'Blegdamsvej 104C, 3. sal, baghuset th., 2100 København Ø'
+- start: Forløbet aftales individuelt
+location: Blegdamsvej 104C, 3. sal, baghuset th., 2100 København Ø
 special: false
----
+hold_information: Forløbet aftales individuelt
 
+---
 Dette forløb er din chance og mulighed for at komme helt i dybden med denne filosofiske samtalekunst og ikke mindst dig selv og de værdier du står for i din ledelse, dit arbejdsliv og tilværelse generelt.
 
 Det er vores erfaring at det fungerer bedst sådan, at vi sammen skræddersyer forløbet efter de behov, du måtte have – og at vi på den baggrund planlægger doseringen af indhold – både hvad angår den teoretiske side af protreptikken (dvs. læsning af de relevante bøger – som er en del af prisen) og den praktiske træning i protreptikken.  
