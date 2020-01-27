@@ -44,7 +44,7 @@ fields:
   name: price
   label: Pris
   config:
-    max: '20'
+    max: '50'
 - type: text
   name: event-title
   label: Event overskrift
