@@ -61,7 +61,7 @@ build:
   preview_env:
   - JEKYLL_ENV=staging
   preview_output_directory: "//app/_site"
-  preview_docker_image: carolineolivia/jekyll-plus-plus
+  preview_docker_image: carolineolivia94/jekyll-plus-plus
   mount_path: "//app"
   working_dir: "//app"
   instant_preview_command: jekyll serve --drafts --unpublished --future --port 8080
