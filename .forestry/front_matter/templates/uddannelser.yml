@@ -83,6 +83,35 @@ fields:
       max: 
     label: Datoer
     description: Her kan du tilføje datoer eller hold, f.eks 29.jun - 25. sep
+  - name: subcategory
+    type: boolean
+    label: Underkategorier
+    description: Hvis du har flere underkategorier
+  - name: subcat
+    type: field_group_list
+    fields:
+    - name: sub-cat-title
+      type: text
+      config:
+        required: false
+      label: Overskrift
+      description: Titlen på underkategori
+    - name: datoer
+      type: list
+      config:
+        use_select: false
+        min: 
+        max: '20'
+      label: Datoer
+      description: Datoer/hold navne
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Underkategori
+    showOnly:
+      field: subcategory
+      value: true
   config:
     min: 
     max: 
