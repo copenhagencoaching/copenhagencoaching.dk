@@ -60,10 +60,9 @@ file_template: ":filename:"
 build:
   preview_env:
   - JEKYLL_ENV=staging
-  preview_output_directory: _site
-  install_dependencies_command: bundle install --path vendor/bundle
-  preview_docker_image: forestryio/ruby:2.6
-  mount_path: "/srv"
-  working_dir: "/srv"
-  instant_preview_command: bundle exec jekyll serve --drafts --unpublished --future
-    --port 8080 --host 0.0.0.0 -d _site
+  preview_output_directory: "//app/_site"
+  preview_docker_image: lakruzz/jekyll-plus
+  mount_path: "//app"
+  working_dir: "//app"
+  instant_preview_command: jekyll serve --drafts --unpublished --future --port 8080
+    --host 0.0.0.0 -d _site
