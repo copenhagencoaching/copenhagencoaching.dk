@@ -5,15 +5,27 @@ fields:
 - type: number
   name: id
   label: id
-- type: number
-  name: order
-  label: order
+  hidden: true
 - type: text
   name: title
-  label: title
+  label: Titel
+- type: number
+  name: order
+  label: Rækkefølge
+  config:
+    required: true
 - type: file
   name: image
-  label: image
-- type: text
-  name: contact-person
-  label: contact-person
+  label: Billed
+- name: contact-person
+  type: select
+  default: ''
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: employees
+      file: 
+      path: 
+  label: Kontakt person
