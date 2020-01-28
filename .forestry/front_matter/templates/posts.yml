@@ -32,3 +32,108 @@ fields:
   description: En kort teaser, som bliver vist på billedet i Inspirations oversigten
   config:
     max: '90'
+- name: facta-box
+  type: boolean
+  label: Faktaboks
+  description: Skal der være faktaboks?
+  showOnly:
+    field: facta-box
+    value: true
+- name: contact-person
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Andreas Bering
+    - Frederikke Winther
+    - Kim Gørtz
+    - Lars Nyborg
+    - Marie Arnbak
+    - Mette Mejlhede
+    - Morten Paustian
+    - Morten Bertelsen
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Kontakt
+  showOnly:
+    field: facta-box
+- name: location
+  type: text
+  config:
+    required: false
+  label: Sted
+  showOnly:
+    field: facta-box
+- name: event-title
+  type: text
+  config:
+    required: false
+  label: Hold/dato overskrift
+  description: 'Eksempler: Datoer eller kommende hold'
+  showOnly:
+    field: facta-box
+    value: true
+- name: price
+  type: text
+  config:
+    required: false
+  label: Pris
+  showOnly:
+    field: facta-box
+    value: true
+- name: events
+  type: field_group_list
+  fields:
+  - name: overskrift
+    type: text
+    config:
+      required: false
+    label: Overskrift
+  - name: dato
+    type: list
+    config:
+      use_select: false
+      min: 
+      max: 
+    label: Datoer
+    showOnly:
+      field: subcategory
+  - name: subcategory
+    type: boolean
+    label: Underkategorier
+  - name: subcat
+    type: field_group_list
+    fields:
+    - name: sub-cat-title
+      type: text
+      config:
+        required: false
+      label: Overskrift
+      description: Titlen på underkategori
+    - name: datoer
+      type: list
+      config:
+        use_select: false
+        min: 
+        max: 
+      label: Datoer
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Underkategori
+    showOnly:
+      field: subcategory
+      value: true
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Datoer
+  showOnly:
+    field: facta-box
+    value: true
