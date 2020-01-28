@@ -9,38 +9,41 @@ layout: default
     <span>
         <h1>{{ page.header }}</h1>
         <p>{{ page.description }}</p>
- <!--        {% if page.title == "Coaching" %}
-            {% if page.breadcrumb == true %}
-                <div class="breadcrumb">
-                    {% for section in site.coachings %}
-                        <a href="#{{ section.title | remove: ' ' | strip_html }}" data-proofer-ignore>{{ section.title | strip_html }}</a>
-                    {% endfor %}
-                </div>
-            {% else %}
-                <a href="{{ page.header-link-url }}" data-proofer-ignore>{{ page.header-link }}</a>
-            {% endif %}
-        {% elsif page.title == "Consulting" %}
-            {% if page.breadcrumb == true %}
-                <div class="breadcrumb">
-                    {% for section in site.consultations %}
-                        <a href="#{{ section.title | remove: ' ' | strip_html }}" data-proofer-ignore>{{ section.title | strip_html }}</a>
-                    {% endfor %}
-                </div>
-            {% else %}
-                <a href="{{ page.header-link-url }}" data-proofer-ignore>{{ page.header-link }}</a>
-            {% endif %}
-        {% elsif page.title == "International" %}
-            {% if page.breadcrumb == true %}
-                <div class="breadcrumb">
-                    {% for section in site.internationals %}
-                        <a href="#{{ section.title | remove: ' ' | strip_html }}" data-proofer-ignore>{{ section.title | strip_html }}</a>
-                    {% endfor %}
-                </div>
-            {% endif %}
+        {% if page.title == "Coaching" %}
+        {% if page.breadcrumb == true %}
+        <div class="breadcrumb">
+            {% for section in site.coachings %}
+            <a href="#{{ section.title | remove: ' ' | strip_html }}"
+                data-proofer-ignore>{{ section.title | strip_html }}</a>
+            {% endfor %}
+        </div>
         {% else %}
-            <a href="{{ page.header-link-url }}" data-proofer-ignore>{{ page.header-link }}</a>
+        <a href="{{ page.header-link-url }}" data-proofer-ignore>{{ page.header-link }}</a>
         {% endif %}
- -->
+        {% elsif page.title == "Consulting" %}
+        {% if page.breadcrumb == true %}
+        <div class="breadcrumb">
+            {% for section in site.consultations %}
+            <a href="#{{ section.title | remove: ' ' | strip_html }}"
+                data-proofer-ignore>{{ section.title | strip_html }}</a>
+            {% endfor %}
+        </div>
+        {% else %}
+        <a href="{{ page.header-link-url }}" data-proofer-ignore>{{ page.header-link }}</a>
+        {% endif %}
+        {% elsif page.title == "International" %}
+        {% if page.breadcrumb == true %}
+        <div class="breadcrumb">
+            {% for section in site.internationals %}
+            <a href="#{{ section.title | remove: ' ' | strip_html }}"
+                data-proofer-ignore>{{ section.title | strip_html }}</a>
+            {% endfor %}
+        </div>
+        {% endif %}
+        {% else %}
+        <a href="{{ page.header-link-url }}" data-proofer-ignore>{{ page.header-link }}</a>
+        {% endif %}
+
     </span>
     <img class="hero-image" src="{{ page.image }}" alt="CCC Header">
     <div class="color-box"></div>

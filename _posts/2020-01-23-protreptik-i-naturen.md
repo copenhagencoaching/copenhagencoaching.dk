@@ -3,6 +3,15 @@ published: true
 title: Protreptik i naturen
 author: Kim Gørtz
 teaser: '- find værdierne i din ledelse gennem dialog'
+facta-box: true
+contact-person: Kim Gørtz
+price: 9600 kr. ex moms (inklusiv forplejning og materiale)
+location: I de sydsvenske skove (overnatning i luksus-telte)
+events:
+  - overskrift: 21.- 22. april 2020 kl. 17.00 til 17.00
+  - overskrift: 12.- 13. maj 2020 kl. 17.00 til 17.00
+event-title: Datoer
+hold_eller_begivenheder: true
 tags:
   - ledelse
   - kurser

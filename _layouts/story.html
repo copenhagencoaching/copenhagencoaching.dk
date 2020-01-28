@@ -6,8 +6,8 @@ layout: default
     <div class="color-box"></div>
 </div>
 
-<div class="individual-stories">
-    <div class="row">
+<div class="individual-stories row">
+    <div class="col-lg-8 col-sm-12">
         <h1 class="header-one">{{ page.title }}</h1>
         <span class="stories-information">
             {{ page.date | date: "%B %d, %Y" }} af&nbsp;
@@ -21,4 +21,98 @@ layout: default
         {{ content }}
         <a class="read-more" href="/inspiration/">← Læs flere historier</a>
     </div>
+
+    {% if page.facta-box == true %}
+
+    <div class="facta-box col-lg-4 col-sm-12">
+
+        <h4>Pris:</h4>
+        <p> {{ page.price }} </p>
+        {% if page.location %}
+
+        <h4>Sted:</h4>
+        <p> {{ page.location }} </p>
+        {% endif %}
+
+        <!-- Datoer  -->
+
+        {% if page.hold_eller_begivenheder == true %}
+        <h4>{{page.event-title}}:</h4>
+  
+        {% for event in page.events %}
+
+        {% if event.subcategory == true %}
+       
+        
+          <h3>{{ event.overskrift }}</h3>
+    
+        {% for subcat in event.subcat %}
+        <div class="date-box">
+          <a class="date-links" role="button">
+            {{ subcat.sub-cat-title }}<i class="fas fa-caret-down"></i>
+          </a>
+          <div id="dateCollapse" class="collapse-dates">
+            <ul>
+              {% for dato in subcat.datoer %}
+              <li>
+                {{ dato }}
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+        {% endfor %}
+
+        {% else %}
+
+        {% if event.dato %}
+        <div class="date-box">
+          <a class="date-links" role="button">
+            {{ event.overskrift }}<i class="fas fa-caret-down"></i>
+          </a>
+          <div id="dateCollapse" class="collapse-dates">
+            <ul>
+              {% for dato in event.dato %}
+              <li>
+                {{ dato }}
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+        {% else %}
+        <div class="date-box">{{ event.overskrift }}</div>
+
+        {% endif %}
+
+
+        {% endif %}
+
+
+        {% endfor %}
+
+
+        {% else %}
+        <!--1-->
+        {{ page.hold_information }}
+        {% endif %}
+        <!--1-->
+
+
+
+
+        {% if page.contact-person %}
+        <h4 class="kontakt">Kontakt:</h4>
+        {% for employee in site.employees %}
+        {% if employee.title == page.contact-person %}
+        <a href="{{ employee.url }}" data-proofer-ignore>{{ employee.title }}</a>
+        <a href="tel:{{ employee.call }}" data-proofer-ignore>{{ employee.call }}</a>
+        <a href="mailto:{{ employee.email }}" data-proofer-ignore>{{ employee.email }}</a>
+        {% endif %}
+        {% endfor %}
+        {% endif %}
+        </span>
+       
+      </div>
+    {% endif %}
 </div>

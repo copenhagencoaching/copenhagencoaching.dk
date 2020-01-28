@@ -191,13 +191,9 @@
   margin: 0 auto;
   display: flex;
   justify-content: center;
-
-  .row {
-    display: block;
-    width: 750px;
+    width: 1000px;
     height: auto;
     padding: 0;
-    margin: 50px 0;
 
     .header-one {
       color: #000;
@@ -216,6 +212,9 @@
       margin: 0;
       padding: 0;
     }
+    h2 {
+      font-size: 3vh;
+    }
 
     p {
       font-size: 18px;
@@ -224,7 +223,25 @@
     a {
       color: $green;
     }
-  }
+  
+
+    .facta-box {
+      font-size: 2vh;
+      margin-top:20vh;
+      h4 {
+        padding:0;
+        margin: 1vh 0 2vh 0;
+        font-size: 2.5vh;
+      }
+      .kontakt {
+        margin-top: 2vh;
+      }
+
+      a {
+        display: block;
+
+      }
+    }
 }
 
 .stories-information {
@@ -255,11 +272,28 @@
   .fab:hover {
     color: $green;
   }
+
+
+  
 }
+
+
+@media (max-width: 992px) {
+  .individual-stories { 
+    .facta-box {
+      margin: 10vh 0;
+    }
+  }
+}
+
 
 // Medium devices (landscape tablets, 768px and down)
 
 @media (max-width: 768px) {
+
+  
+  
+
 
   .page .intro {
     width: 100% !important;
