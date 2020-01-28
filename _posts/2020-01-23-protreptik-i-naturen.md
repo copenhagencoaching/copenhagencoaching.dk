@@ -1,22 +1,22 @@
 ---
-published: true
 title: Protreptik i naturen
 author: Kim Gørtz
-teaser: '- find værdierne i din ledelse gennem dialog'
+teaser: "- find værdierne i din ledelse gennem dialog"
 facta-box: true
 contact-person: Kim Gørtz
 price: 9600 kr. ex moms (inklusiv forplejning og materiale)
 location: I de sydsvenske skove (overnatning i luksus-telte)
 events:
-  - overskrift: 21.- 22. april 2020 kl. 17.00 til 17.00
-  - overskrift: 12.- 13. maj 2020 kl. 17.00 til 17.00
+- overskrift: 21.- 22. april 2020 kl. 17.00 til 17.00
+- overskrift: 12.- 13. maj 2020 kl. 17.00 til 17.00
 event-title: Datoer
 hold_eller_begivenheder: true
 tags:
-  - ledelse
-  - kurser
-  - Protreptik
-image: /images/protreptik/Protreptik.jpeg
+- ledelse
+- kurser
+- Protreptik
+image: "/uploads/Protreptikinaturena.jpg"
+
 ---
 GoNorth og Copenhagen Coaching Center udbyder nu en bootcamp på 24 timer med fokus på at flytte grænser og udfordre værdier. Vi bevæger os fysisk og mentalt for at finde ind til de værdier, du som menneske og leder står for.
 
@@ -28,17 +28,13 @@ Ordet Protrepo er græsk og henviser til ’at vende den enkelte mod dét, der e
 
 Når vi går i naturen, samtaler vi. Men meget af tiden bliver brugt til refleksion. Det er der plads til, når der er højt til loftet. Og det er ikke altid, svarene kommer i løbet af selve turen og på dagen. Nogle gange skal tiden gå, før erkendelserne indtræffer.
 
-Det lyder stort. Og det er det også! 
+Det lyder stort. Og det er det også!
 
-## Kontakt os for mere information – eller tilmelding.
+###### Kontakt os for mere information – eller tilmelding.
+
 Kim Gørtz (CCC): 24 66 40 78, kg@copenhagencoaching.dk
 Jan Andreassen (GONORTH): 25 10 02 51, jan@gonorth.nu
 
-
-## Datoer: 21.- 22. april 2020 kl. 17.00 til 17.00 eller 12.- 13. maj 2020 kl. 17.00 til 17.00.
-
-## Sted: I de sydsvenske skove (overnatning i luksus-telte)
 vi mødes på Hellerup Station og kører samlet af sted i biler. Opsamling evt. muligt på Helsingør havn. Mere info vedr. transport og overnatning så tal med Jan.
 
-## Pris: 9600 kr. ex moms (inklusiv forplejning og materiale)
-
+![Protreptik i naturen](/uploads/Protreptikinaturenc.jpg "Protreptik i naturen")![Protreptik i naturen](/uploads/Protreptikinaturenb.jpg "Protreptik i naturen")
