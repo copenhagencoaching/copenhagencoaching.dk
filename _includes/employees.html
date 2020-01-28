@@ -3,11 +3,11 @@
     <div class="wrapper">
         {% assign sorted_empl = site.employees | sort: "order" %}
         {% for employee in sorted_empl %}
-        <a class="employee" href="{{ employee.url }}">
+        <a class="{{ employee.title }}" href="{{ employee.url }}">
             <img src="{{ employee.portrait-image }}" alt="image of {{ employee.title }}">
             <h5>{{ employee.title }}</h5>
             <p>{{ employee.description }}<br>{{ employee.email }}<br>{{ employee.call }}</p>
         </a>
         {% endfor %}
     </div>
-</div>
+  </div>

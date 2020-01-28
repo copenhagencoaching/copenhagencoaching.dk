@@ -5,7 +5,7 @@ layout: page
 <section id="content-section" class="content">
     {% assign orderedconsultations = site.consultations | sort: "order" %}
     {% for consultation in orderedconsultations %}
-    <div class="wrapper">
+    <div class="wrapper" id="{{ consultation.title | remove: ' ' | strip_html }}">
         <img src="{{ consultation.image }}" alt="#">
         <span>
             <h1>{{ consultation.title }}</h1>

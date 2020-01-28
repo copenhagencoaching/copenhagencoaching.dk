@@ -5,7 +5,7 @@ layout: page
 <section id="content-section" class="content">
     {% assign orderedinternational = site.internationals | sort: "order" %}
     {% for international in orderedinternational %}
-    <div class="wrapper">
+    <div class="wrapper" id="{{ international.title | remove: ' ' | strip_html }}">
         <img src="{{ international.image }}" alt="#">
         <span>
             <h1>{{ international.title }}</h1>

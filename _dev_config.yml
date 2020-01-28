@@ -43,8 +43,6 @@ future: false
 unpublished: false
 
 # Make the machine talk to you
-verbose: true
+verbose: false
 profile: true
 
-liquid:
-  error_mode: strict

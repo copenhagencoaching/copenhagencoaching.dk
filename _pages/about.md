@@ -7,6 +7,7 @@ image: /images/about/about-banner.jpg
 header: Eksperter i ledelse og coaching
 header-link: Mød teamet ⟶
 header-link-url: '#team'
+hader-crumbs: true
 description: >-
   Vores team består af eksperter sammensat af profiler med omfattende
   ledelseserfaring, coachingerfaringer i praksis, og mange forskellige

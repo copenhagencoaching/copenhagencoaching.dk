@@ -103,6 +103,15 @@ html {
     font-size: 2vh;
     font-weight: 600;
   }
+
+  .breadcrumb {
+    display: flex;
+    background-color: unset;
+   
+    a {
+      padding-right: 20px;
+    }
+  }
 }
 
 .hero-image {

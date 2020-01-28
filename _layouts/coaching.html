@@ -5,10 +5,9 @@ layout: page
 <section id="content-section" class="content">
     {% assign orderedcoaching = site.coachings | sort: "order" %}
     {% for coaching in orderedcoaching %}
-    <div class="wrapper">
+    <div class="wrapper" id="{{ coaching.title | remove: ' ' | strip_html }}">
         <img src="{{ coaching.image }}" alt="#">
         <span>
-
             
             <h1>{{ coaching.title }}</h1>
             <p>{{ coaching.content }}</p>

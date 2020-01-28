@@ -7,6 +7,7 @@ show: true
 header: International
 header-link: What we offer ⟶
 header-link-url: '#content-section'
+breadcrumb: true
 color-box: null
 order: 7
 description: >-

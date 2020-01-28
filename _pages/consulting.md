@@ -8,6 +8,7 @@ order: 4
 header: Consulting
 header-link: Se hvad vi tilbyder ⟶
 header-link-url: '#content-section'
+breadcrumb: true
 color-box: #636e72
 description:
  For at udvikle sig bæredygtigt har virksomheder, organisationer og mennesker brug for friske øjne og nye perspektiver. CCC har solid erfaring med strategiudvikling i organisationer.
