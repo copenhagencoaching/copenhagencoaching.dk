@@ -51,7 +51,7 @@ sections:
   label: Posts
   create: all
   templates:
-  - uddannelser
+  - posts
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
