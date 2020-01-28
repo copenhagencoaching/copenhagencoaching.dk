@@ -61,6 +61,7 @@ fields:
   label: Kontakt
   showOnly:
     field: facta-box
+    value: true
 - name: location
   type: text
   config:
@@ -68,6 +69,7 @@ fields:
   label: Sted
   showOnly:
     field: facta-box
+    value: true
 - name: event-title
   type: text
   config:
