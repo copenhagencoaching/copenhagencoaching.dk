@@ -38,7 +38,6 @@ fields:
   label: Faktaboks
   description: Skal der være faktaboks?
   showOnly:
-    field: facta-box
     value: true
 - name: contact-person
   type: select
