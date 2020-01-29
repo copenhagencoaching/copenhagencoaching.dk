@@ -33,8 +33,9 @@ Det lyder stort. Og det er det også!
 ###### Kontakt os for mere information – eller tilmelding.
 
 Kim Gørtz (CCC): 24 66 40 78, kg@copenhagencoaching.dk
+
 Jan Andreassen (GONORTH): 25 10 02 51, jan@gonorth.nu
 
-vi mødes på Hellerup Station og kører samlet af sted i biler. Opsamling evt. muligt på Helsingør havn. Mere info vedr. transport og overnatning så tal med Jan.
+vi mødes på Hellerup Station og kører samlet af sted i biler. Opsamling evt. muligt på Helsingør havn. Mere info vedr. transport og overnatning kan fås hos Jan.
 
-![Protreptik i naturen](/uploads/Protreptikinaturenc.jpg "Protreptik i naturen")![Protreptik i naturen](/uploads/Protreptikinaturenb.jpg "Protreptik i naturen")
+![Protreptik i naturen](/uploads/Protreptikinaturenc.jpg "Protreptik i naturen")       ![Protreptik i naturen](/uploads/Protreptikinaturenb.jpg "Protreptik i naturen")
