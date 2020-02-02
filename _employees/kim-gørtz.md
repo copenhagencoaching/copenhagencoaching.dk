@@ -1,15 +1,14 @@
 ---
-published: true
-order: 5
+order: "5"
 title: Kim Gørtz
-portrait-image: /images/about/employees/kim.jpg
-small-portrait-image: /images/small-images/kim-small.jpg
+portrait-image: "/images/about/employees/Kim_profilbillede.jpeg"
+small-portrait-image: "/images/small-images/Kim_small.jpeg"
 call: 24 66 40 78
 email: kg@copenhagencoaching.dk
 description: Seniorkonsulent
 linkedin: https://www.linkedin.com/in/kim-g%C3%B8rtz-sagaro-b51b795a/
----
 
+---
 Energi og god Karma lyser ud af Kim, og det er svært ikke at blive inspireret og fascineret i mødet med ham. Man ved aldrig helt, hvor et oplæg eller en dialog med Kim fører én hen, og ofte rækker oplevelsen meget længere ud end selve mødet.
 
 Kim går meget langt på literen, og har skrevet bøger nok til at fylde de flestes bogreoler. Hans teoretiske dybde føles som bundløs, og Kim er altid i stand til at gå endnu et spadestik dybere.
