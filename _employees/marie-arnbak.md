@@ -2,7 +2,7 @@
 title: Marie Arnbak
 order: 9
 portrait-image: /images/about/employees/marie.jpeg
-small-portrait-image: /images/small-images/marie-small.jpg
+small-portrait-image: /images/small-images/marie_small.jpeg
 call: 26 18 03 00
 email: ma@copenhagencoaching.dk
 description: Konsulent

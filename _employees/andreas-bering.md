@@ -1,8 +1,8 @@
 ---
-order: "1"
+order: 1
 title: Andreas Bering
 portrait-image: /images/about/employees/andreas.jpeg
-small-portrait-image: /images/small-images/andreas-small.jpg
+small-portrait-image: /images/small-images/andreas_small.jpeg
 call: 40 14 92 92
 email: ab@copenhagencoaching.dk
 description: Direktør og GDPR ansvarlig

@@ -2,7 +2,7 @@
 title: Morten Paustian
 order: 7
 portrait-image: "/images/about/employees/morten-p.jpeg"
-small-portrait-image: "/images/small-images/morten-p-small.jpg"
+small-portrait-image: "/images/small-images/MortenP_small.jpeg"
 call: 40 13 69 68
 email: mp@copenhagencoaching.dk
 description: Associeret partner
