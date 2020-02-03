@@ -4,7 +4,7 @@
         {% assign sorted_empl = site.employees | sort: "order" %}
         {% for employee in sorted_empl %}
         <a class="{{ employee.title }}" href="{{ employee.url }}">
-            <img src="{{ employee.portrait-image }}" alt="image of {{ employee.title }}">
+            <img class="emp-image" src="{{ employee.portrait-image }}" alt="image of {{ employee.title }}">
             <h5>{{ employee.title }}</h5>
             <p>{{ employee.description }}<br>{{ employee.email }}<br>{{ employee.call }}</p>
         </a>

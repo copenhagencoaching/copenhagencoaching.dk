@@ -19,15 +19,13 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-column-gap: 4vh;
 
-    .employee {
-      width: 100%;
-      height: 55vh;
-      color: $black;
-      margin-bottom: 15vh;
+    
 
-      img {
+      .emp-image {
         object-fit: cover;
-        width: inherit;
+        width: 100%;
+        height: 400px;
+        object-position: center;
       }
 
       h5 {
@@ -38,6 +36,10 @@
         font-family: 'Oswald', sans-serif;
       }
 
+      a, a:hover {
+        color: black;
+      }
+
       p {
         background: transparent;
         font-weight: 2vh;
@@ -46,6 +48,32 @@
       &:hover {
         text-decoration: none;
       }
+    
+  }
+}
+
+@media (max-width: 1800px) {
+
+  .employees {
+
+
+    .wrapper {
+      grid-template-columns: 1fr 1fr 1fr;
+
+
+    }
+  }
+}
+
+@media (max-width: 1500px) {
+
+  .employees {
+
+
+    .wrapper {
+      grid-template-columns: 1fr 1fr;
+
+
     }
   }
 }
@@ -53,6 +81,27 @@
 // Medium devices (landscape tablets, 1024px and down)
 
 @media (max-width: 1024px) {
+
+  .employees {
+    padding: 10vh 3vh;
+
+    h1 {
+      font-size: 3vh;
+      text-align: center;
+    }
+
+    .wrapper {
+      grid-template-columns: 1fr 1fr;
+
+      .employee {
+        margin-bottom: 30vh;
+        height: 75vh;
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
 
   .employees {
     padding: 10vh 3vh;
