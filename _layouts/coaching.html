@@ -2,27 +2,43 @@
 layout: page
 ---
 
+{% assign orderedcoaching = site.coachings | sort: "order" %}
+<div class="header-navigation">
+    <div class="wrapper">
+{% for coaching in orderedcoaching %}
+
+<a href="#{{ coaching.title | remove: ' ' | strip_html }}"><button >{{ coaching.title }}</button></a>
+{% endfor %}
+</div>
+</div>
 <section id="content-section" class="content">
-    {% assign orderedcoaching = site.coachings | sort: "order" %}
+
     {% for coaching in orderedcoaching %}
     <div class="wrapper" id="{{ coaching.title | remove: ' ' | strip_html }}">
-        <img src="{{ coaching.image }}" alt="#">
+        <img class="content-img" src="{{ coaching.image }}" alt="#">
         <span>
             
             <h1>{{ coaching.title }}</h1>
             <p>{{ coaching.content }}</p>
+            <div class="contact-box">
             <h2>Interesseret i at høre mere? Ring eller skriv og få en snak med</h2>
+            <div class="contact">
             {% for employee in site.employees %}
             {% if employee.title == coaching.contact-person %}
 
-            <div class="mr-3 contact-img-outer">
-                <img class="contact-img" src="{{ employee.small-portrait-image }}" alt="{{ employee.title }}, {{ employee.description}}">
-            </div>  
+           
+                <img class="contact-img" src="{{ employee.portrait-image }}" alt="{{ employee.title }}, {{ employee.description}}">
+
+            <div class="contact-text">
             <a data-proofer-ignore href="{{ employee.url }}">{{ employee.title }}</a>
-            <a data-proofer-ignore href="mailto:{{ employee.email }}">{{ employee.email }}</a>
+           
             <a data-proofer-ignore href="{{ employee.call }}">{{ employee.call }}</a>
+            <a data-proofer-ignore href="mailto:{{ employee.email }}">{{ employee.email }}</a>
+        </div>
             {% endif %}
             {% endfor %}
+            </div>
+        </div>
         </span>
     </div>
     {% endfor %}

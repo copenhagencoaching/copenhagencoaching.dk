@@ -8,10 +8,13 @@
     grid-template-columns: 1fr 1fr;
     padding: 10vh 0;
 
-    img {
+
+
+    .content-img {
       height: 55vh;
       width: 55vh;
       object-fit: cover;
+      place-self: start center;
     }
 
     span {
@@ -25,12 +28,12 @@
 
       p {
         @include paragraph;
+        line-height: 3vh;
       }
 
       h2 {
-        font-size: 2vh;
+        font-size: 2.3vh;
         font-weight: 600;
-        padding-bottom: 2.5vh;
       }
 
       ul {
@@ -39,19 +42,34 @@
         }
       }
 
-      img {
-        height: 5vh;
-        width: 5vh;
-        margin-bottom: 2.5vh;
-      }
-
       a {
         text-decoration: none;
         color: $black;
         font-weight: 400;
-        font-size: 2vh;
-        line-height: 4vh;
+        font-size: 1.8vh;
       }
+      .contact-box {
+        background-color: lightgray;
+        padding: 1.8vh;
+
+      .contact {
+      
+        width: 100%;
+        img {
+         width:10vh;
+         height:10vh;
+          object-fit: cover;
+          float: left;
+        }
+
+        div {
+          display: grid;
+          grid-area: div;
+          padding: 1vh;
+        }
+      }
+
+    }
     }
   }
 
@@ -61,6 +79,9 @@
       direction: ltr;
     }
     a {
+      direction: ltr;
+    }
+    span {
       direction: ltr;
     }
   }
@@ -73,11 +94,13 @@
   font-weight: 600 !important;
 }
 
+
+
 /* Large devices (laptops/desktops, 1024px and down) */
 
-@media (max-width: 1024px) {
+@media (max-width: 1500px) {
   .content {
-    padding: 0 3vh 15vh 3vh;
+    padding: 0 20vh;
 
     .wrapper {
       display: grid;
@@ -85,7 +108,7 @@
       padding: 10vh 0 0 0;
       grid-auto-flow: column-reverse;
 
-      img {
+      .content-img {
         width: 100%;
         height: auto;
         grid-column-end: -1;
@@ -101,22 +124,24 @@
           word-break: break-all;
         }
 
-        img {
-          height: 5vh;
-          width: 5vh;
-          margin-bottom: 2.5vh;
-        }
 
         h2 {
-          font-size: 16px;
+          font-size: 2vh;
           line-height: 32px;
         }
 
-        p, a {
-          font-size: 13px;
-          line-height: 35px;
+        p, ul li {
+          font-size: 1.7vh;
+          line-height:3.5vh;
         }
       }
     }
   }
+}
+
+@media (max-width: 1024px) {
+  .content {
+    padding: 0 3vh 5vh 3vh;
+  }
+  
 }

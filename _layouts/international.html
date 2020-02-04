@@ -2,25 +2,43 @@
 layout: page
 ---
 
+{% assign orderedcoaching = site.internationals | sort: "order" %}
+<div class="header-navigation">
+    <div class="wrapper">
+{% for coaching in orderedcoaching %}
+
+<a href="#{{ coaching.title | remove: ' ' | strip_html }}"><button >{{ coaching.title }}</button></a>
+{% endfor %}
+</div>
+</div>
 <section id="content-section" class="content">
-    {% assign orderedinternational = site.internationals | sort: "order" %}
-    {% for international in orderedinternational %}
-    <div class="wrapper" id="{{ international.title | remove: ' ' | strip_html }}">
-        <img src="{{ international.image }}" alt="#">
+
+    {% for coaching in orderedcoaching %}
+    <div class="wrapper" id="{{ coaching.title | remove: ' ' | strip_html }}">
+        <img class="content-img" src="{{ coaching.image }}" alt="#">
         <span>
-            <h1>{{ international.title }}</h1>
-            <p>{{ international.content }}</p>
-            <h2>Please, contact us for further information</h2>
+            
+            <h1>{{ coaching.title }}</h1>
+            <p>{{ coaching.content }}</p>
+            <div class="contact-box">
+            <h2>Interesseret i at høre mere? Ring eller skriv og få en snak med</h2>
+            <div class="contact">
             {% for employee in site.employees %}
-            {% if employee.title == international.contact-person %}
-            <div class="mr-3 contact-img-outer">
-                <img class="contact-img" src="{{ employee.small-portrait-image }}" alt="{{ employee.title }}, {{ employee.description}}">
-            </div>  
+            {% if employee.title == coaching.contact-person %}
+
+           
+                <img class="contact-img" src="{{ employee.portrait-image }}" alt="{{ employee.title }}, {{ employee.description}}">
+
+            <div class="contact-text">
             <a data-proofer-ignore href="{{ employee.url }}">{{ employee.title }}</a>
+           
             <a data-proofer-ignore href="{{ employee.call }}">{{ employee.call }}</a>
             <a data-proofer-ignore href="mailto:{{ employee.email }}">{{ employee.email }}</a>
+        </div>
             {% endif %}
             {% endfor %}
+            </div>
+        </div>
         </span>
     </div>
     {% endfor %}

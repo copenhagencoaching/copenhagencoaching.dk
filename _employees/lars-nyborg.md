@@ -1,8 +1,8 @@
 ---
 title: Lars Nyborg
 order: 6
-portrait-image: /images/about/employees/lars.jpeg
-small-portrait-image: /images/small-images/Lars_small.jpeg
+portrait-image: /images/about/employees/lars.png
+small-portrait-image: /images/about/employees/lars.png
 call: 27 11 42 44
 email: ln@copenhagencoaching.dk
 description: Associeret partner

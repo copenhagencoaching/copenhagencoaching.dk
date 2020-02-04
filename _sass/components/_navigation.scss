@@ -157,21 +157,23 @@ nav {
 
 /* Extra small devices (phones, 600px and down) */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1024px) {
 
   nav {
     width: 100% !important;
     height: 70px !important;
     z-index: 3000;
     margin-top: 0;
-    padding: 0 !important;
+    padding: 0 3vh 5vh 3vh;
+
   }
 
   .navbar {
 
     background: #ffffff;
     border-bottom: 1px solid #a9a9a9;
-    padding: 0 !important;
+    
+    
 
     .navbar-nav {
       height: 100vh;
@@ -225,21 +227,11 @@ nav {
 
 // Medium devices (landscape tablets, 768px and down)
 
-@media (max-width: 768px) {
 
-  .navbar-toggler,
-  .navbar-nav {
-    padding-right: 5% !important;
-  }
-
-  .navbar-brand {
-    margin-left: 5% !important;
-  }
-}
 
 /* Large devices (laptops/desktops, 992px and down) */
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
 
   nav {
     width: 100% !important;
@@ -250,14 +242,13 @@ nav {
   .navbar {
 
     background: #ffffff;
-    border-bottom: 1px solid #a9a9a9;
     padding: 0 !important;
     padding-left: 20px;
     padding-right: 20px;
 
     .navbar-nav {
       height: 100vh;
-      width: inherit;
+      width: 100%;
       background: #ffffff;
       align-content: center;
       align-items: center;
@@ -312,21 +303,11 @@ nav {
   .navbar-collapse {
     margin-top: 10px;
     height: 10vh;
+    padding: 0 -50%;
   }
 }
 
-@media (max-width: 1290px) {
 
-  .navbar-toggler,
-  .navbar-nav {
-    padding-right: 5%;
-  }
-
-  .navbar-brand {
-    margin-left: 5%;
-
-  }
-}
 
 @media (max-width: 768px) {
     nav {
@@ -334,14 +315,3 @@ nav {
     }
 }
 
-@media (max-width: 1024px) {
-  nav {
-    padding: 0;
-
-  }
-
-  .navbar-brand {
-    margin-left: 1.5%;
-
-  }
-}

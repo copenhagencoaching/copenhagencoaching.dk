@@ -1,9 +1,36 @@
 .protreptik {
     padding: 10vh 20vh;
+
+    img {
+        display: block;
+        margin: 3vh auto;
+    }
+
+    h2 {
+        font-size: 2.3vh;
+        font-weight: 600;
+      }
+
+      a, a:hover {
+          color: black;
+      }
 }
+
+@media only screen and (max-width: 1000px) {
+    .protreptik {
+        padding: 5vh 2.5vh;
+        img {
+            width: 100%;
+            }
+    }
+
+
+  }
 
 @media only screen and (max-width: 768px) {
     .protreptik {
         padding: 5vh 2.5vh;
     }
+
+
   }

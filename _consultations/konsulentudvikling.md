@@ -1,7 +1,7 @@
 ---
 published: true
 order: 2
-title: Konsulent<br>udvikling
+title: Konsulent udvikling
 image: /images/consulting/c2.jpg
 contact-person: Morten Bertelsen
 ---

@@ -1,7 +1,7 @@
 ---
 published: true
 order: 4
-title: Medarbejder<br>udvikling
+title: Medarbejder udvikling
 image: /images/consulting/c1.jpg
 contact-person: Andreas Bering
 ---

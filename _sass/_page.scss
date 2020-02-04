@@ -39,6 +39,35 @@ html {
 
 .page {
 
+
+  .header-navigation {
+   padding: 0 20vh 0 20vh;
+    background-color: lightgray;
+    text-align: center;
+
+
+    .wrapper {
+      width: 100%;
+      padding: 5vh 0;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+
+      button {
+        margin:2vh;
+        text-transform: uppercase;
+        background-color: transparent;
+        border:none;
+        color: #474747;
+        text-decoration: none;
+        font-weight: 500;
+      }
+      a:hover {
+        color: $green;
+      }
+      
+    }
+  } 
   .row {
     margin: 75px auto;
   }
@@ -63,13 +92,16 @@ html {
     li {
       padding-bottom: 10px;
     }
+    
+
+    
   }
 }
 
 // Hero image
 
 .hero-banner {
-  height: 85vh;
+  min-height: 85vh;
   display: flex;
   width: inherit;
   margin: 0 auto;
@@ -84,6 +116,7 @@ html {
     flex-direction: column;
     justify-content: center;
     width: 60%;
+    
   }
 
   h1 {
@@ -93,6 +126,8 @@ html {
   p {
     @include paragraph;
     padding: 3.5vh 0;
+    padding-right: 10vh;
+
   }
 
   a {
@@ -150,6 +185,41 @@ html {
   }
 }
 
+@media (max-width: 1460px) {
+  .hero-banner {
+    min-height: 65vh;
+  
+    h1 {
+      font-size: 6vh;
+      line-height: 5.5vh;
+    }
+
+  
+    p {
+      font-size: 1.5vh;
+      line-height: 2.7vh;
+      padding-right: 10vh;
+      padding: 0;
+      margin-bottom: 0;
+      margin-top: 2vh;
+    }
+  
+ 
+    img, .color-box {
+      width: 33vh;
+      height: 33vh;
+    }
+  
+  }
+  
+
+ 
+
+
+  
+}
+
+
 // Medium devices (landscape tablets, 768px and down)
 
 @media (max-width: 1024px) {
@@ -160,11 +230,15 @@ html {
   .hero-banner {
     width: 100%;
     flex-direction: column;
-    height: auto;
-    padding: 0 3vh 5vh 3vh;
+    min-height: auto !important;
+    padding: 0 3vh;
 
     span {
       width: inherit;
+
+      p {
+        width: 100%;
+      }
     }
 
     h1 {
@@ -174,34 +248,41 @@ html {
       font-weight: 500;
     }
 
-    p {
-      font-size: 13px;
-      line-height: 35px;
-      width: 100%;
-      padding: 0;
-      margin-bottom: 0;
-    }
+    
 
     a {
       margin-top: 5vh;
       font-size: 18px;
     }
 
-    .hero-image,
-    .color-box {
+    img, .color-box {
       display: none;
     }
+
+ 
   }
-}
 
-/* Large devices (laptops/desktops, 1024px and down) */
+  .page {
+    .header-navigation {
+      padding: 3vh 0;
+      .wrapper {
+        padding: 0 3vh;
+       
+      }
+    }
+  }
 
-@media (max-width: 1024px) {
   #fp-nav {
     display: none;
   }
 
 }
+
+
+
+
+/* Large devices (laptops/desktops, 1024px and down) */
+
 
 @media (max-width: 1290px) {
   .page {

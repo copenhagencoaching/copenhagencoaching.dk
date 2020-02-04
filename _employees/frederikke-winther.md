@@ -1,8 +1,8 @@
 ---
 order: 4
 title: Frederikke Winther
-portrait-image: /images/about/employees/frederikke.jpeg
-small-portrait-image: /images/small-images/Frederikke_small.jpeg
+portrait-image: /images/about/employees/frederikke.png
+small-portrait-image: /images/about/employees/frederikke.png
 call: 21 19 47 57
 email: fw@copenhagencoaching.dk
 description: Konsulent

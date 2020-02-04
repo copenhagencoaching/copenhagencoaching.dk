@@ -2,9 +2,9 @@
 published: true
 id: 3
 order: 4
-title: Team<br>samtaler
+title: Team samtaler
 image: /images/coaching/c4.jpg
-contact-person: '1'
+contact-person: Andreas Bering
 ---
 
 ## Få sammenhængskraft, klarhed og effektivitet i temaet
