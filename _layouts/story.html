@@ -1,13 +1,18 @@
 ---
-layout: default
+layout: only-page
 ---
 <div class="wide-hero-banner">
     <img class="hero-image" src="{{ page.image }}" alt="CCC Header">
     <div class="color-box"></div>
 </div>
 
-<div class="individual-stories row">
-    <div class="col-lg-8 col-sm-12">
+{% if page.facta-box == true %}
+{% assign cols = "8" %}
+{% else %}
+{% assign cols = "12" %}
+{% endif %}
+<div class="individual-stories wrapper row">
+    <div class="story-content col-lg-{{ cols }} col-sm-12">
         <h1 class="header-one">{{ page.title }}</h1>
         <span class="stories-information">
             {{ page.date | date: "%B %d, %Y" }} af&nbsp;

@@ -233,22 +233,29 @@ nav {
 
 @media (max-width: 1200px) {
 
+  body {
+    position: relative;
+  }
+
   nav {
     width: 100% !important;
     height: 70px !important;
     z-index: 3000;
+
   }
 
   .navbar {
-
+    position: relative;
     background: #ffffff;
     padding: 0 !important;
     padding-left: 20px;
     padding-right: 20px;
 
     .navbar-nav {
+      position: fixed;
       height: 100vh;
       width: 100%;
+left: 0;
       background: #ffffff;
       align-content: center;
       align-items: center;

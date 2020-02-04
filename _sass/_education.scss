@@ -47,6 +47,30 @@
                 padding: 0;
             }
 
+            .contact {
+                width: 100%;
+                img {
+                  width:10vh;
+                  height:10vh;
+                  object-fit: cover;
+                  float: left;
+                  object-position: top;
+                }
+        
+                div {
+                    a {
+                        color: $green;
+                    }
+                  display: grid;
+                  grid-area: div;
+                  padding: 1vh;
+                  font-size: 1.8vh;
+                  font-family: 'Oswald', sans-serif;
+                  text-transform: uppercase;
+                  user-select: none;
+                }
+              }
+
             .date-box {
 
                 .date-links {
@@ -111,10 +135,7 @@
         font-size: 16px;
     }
 
-    img {
-        height: 500px;
-        padding: 50px 0px;
-    }
+
 
     hr {
         display: block;

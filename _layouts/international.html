@@ -21,13 +21,13 @@ layout: page
             <h1>{{ coaching.title }}</h1>
             <p>{{ coaching.content }}</p>
             <div class="contact-box">
-            <h2>Interesseret i at høre mere? Ring eller skriv og få en snak med</h2>
+            <h2>Please, contact us for further information</h2>
             <div class="contact">
             {% for employee in site.employees %}
             {% if employee.title == coaching.contact-person %}
 
            
-                <img class="contact-img" src="{{ employee.portrait-image }}" alt="{{ employee.title }}, {{ employee.description}}">
+                <img class="contact-img" src="{{ employee.small-portrait-image }}" alt="{{ employee.title }}, {{ employee.description}}">
 
             <div class="contact-text">
             <a data-proofer-ignore href="{{ employee.url }}">{{ employee.title }}</a>

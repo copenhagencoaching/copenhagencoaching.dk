@@ -29,12 +29,12 @@
     height: auto;
     width: 100%;
     padding: 10vh 20vh;
-    background: #f3f4f7;
+    background: #d8d8d8;
 
     .wrapper {
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-column-gap: 1vh;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 3vh;
     }
 
     img {

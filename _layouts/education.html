@@ -94,9 +94,13 @@ layout: page
         </b>
         {% for employee in site.employees %}
         {% if employee.title == page.contact-person %}
+        <div class="contact">
+        <img class="contact-img" src="{{ employee.small-portrait-image }}" alt="{{ employee.title }}, {{ employee.description}}">
+        <div>
         <a href="{{ employee.url }}" data-proofer-ignore>{{ employee.title }}</a>
         <a href="tel:{{ employee.call }}" data-proofer-ignore>{{ employee.call }}</a>
-        <a href="mailto:{{ employee.email }}" data-proofer-ignore>{{ employee.email }}</a>
+        <a href="mailto:{{ employee.email }}" data-proofer-ignore>{{ employee.email }}</a></div>
+      </div>
         {% endif %}
         {% endfor %}
         {% endif %}

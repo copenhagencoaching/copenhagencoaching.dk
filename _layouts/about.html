@@ -9,7 +9,7 @@ title: About
   {% assign orderedfundament = site.fundament | sort: "order" %}
   {% for fundament in orderedfundament %}
   <div class="wrapper">
-      <img src="{{ fundament.image }}" alt="metodik og vision billeder">
+      <img class="content-img" src="{{ fundament.image }}" alt="metodik og vision billeder">
       <span>
           <h1>{{ fundament.title }}</h1>
           <p>{{ fundament.content | truncatewords: 60, "" }}...</p>

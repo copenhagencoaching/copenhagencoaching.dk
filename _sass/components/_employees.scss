@@ -65,7 +65,7 @@
   }
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 900px) {
 
   .employees {
 
@@ -80,10 +80,11 @@
 
 // Medium devices (landscape tablets, 1024px and down)
 
-@media (max-width: 1024px) {
+@media (max-width: 1320px) {
 
   .employees {
     padding: 10vh 3vh;
+    margin-top: 10vh;
 
     h1 {
       font-size: 3vh;

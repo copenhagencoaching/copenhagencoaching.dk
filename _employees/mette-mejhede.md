@@ -2,7 +2,7 @@
 title: Mette Mejlhede
 order: 2
 portrait-image: "/images/about/employees/mette.png"
-small-portrait-image: "/images/about/employees/mette.png"
+small-portrait-image: /images/about/small-images/mette-small.png
 call: 24 27 28 71
 email: mm@copenhagencoaching.dk
 description: Direktør

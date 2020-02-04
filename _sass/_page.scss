@@ -39,10 +39,11 @@ html {
 
 .page {
 
+  padding-bottom: 20vh;
 
   .header-navigation {
    padding: 0 20vh 0 20vh;
-    background-color: lightgray;
+   background-color: #F6F5F3;
     text-align: center;
 
 
@@ -54,13 +55,16 @@ html {
       flex-wrap: wrap;
 
       button {
-        margin:2vh;
-        text-transform: uppercase;
+        margin:1.7vh;
         background-color: transparent;
         border:none;
-        color: #474747;
         text-decoration: none;
+        font-size: 2.4vh;
         font-weight: 500;
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        opacity: .5;
+        user-select: none;
       }
       a:hover {
         color: $green;
@@ -115,7 +119,7 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 60%;
+    margin-right: 5vh;
     
   }
 
@@ -125,8 +129,6 @@ html {
 
   p {
     @include paragraph;
-    padding: 3.5vh 0;
-    padding-right: 10vh;
 
   }
 
@@ -185,9 +187,11 @@ html {
   }
 }
 
-@media (max-width: 1460px) {
+@media (max-width: 1200px) {
   .hero-banner {
     min-height: 65vh;
+
+  
   
     h1 {
       font-size: 6vh;
@@ -196,7 +200,6 @@ html {
 
   
     p {
-      font-size: 1.5vh;
       line-height: 2.7vh;
       padding-right: 10vh;
       padding: 0;
@@ -208,6 +211,10 @@ html {
     img, .color-box {
       width: 33vh;
       height: 33vh;
+    }
+    .color-box {
+      top: 20vh;
+      right: 17vh;
     }
   
   }
@@ -231,13 +238,16 @@ html {
     width: 100%;
     flex-direction: column;
     min-height: auto !important;
-    padding: 0 3vh;
+    padding: 0 3vh 10vh 3vh;
 
     span {
       width: inherit;
+      margin: 0;
+      
 
       p {
         width: 100%;
+        line-height: 3.6vh;
       }
     }
 
@@ -304,10 +314,9 @@ html {
 
   .hero-banner {
     width: 100%;
-
     span {
       width: inherit;
-      padding-right: 5vh !important;
+      
     }
   }
 }

@@ -1,7 +1,7 @@
 .wide-hero-banner {
     height: 85vh;
     display: flex;
-    width: 750px;
+    width: 90vh;
     margin: 0 auto 40px auto;
     justify-content: flex-start;
     user-select: none;
@@ -9,7 +9,7 @@
   
     .hero-image {
       height: 60vh;
-      width: 80%;
+      width: 70vh;
       object-fit: cover;
       z-index: 1000;
       margin: auto 0;
@@ -17,7 +17,7 @@
     
     .color-box {
       height: 60vh;
-      width: 80%;
+      width: 70%;
       background-color: $green;
       position: absolute;
       top: 23vh;
@@ -50,9 +50,11 @@
 
 @media (max-width: 1024px) {
   .wide-hero-banner {
-    height: 85vh;
+    height: auto;
     display: flex;
-    width: 80%;
+    width: 100%;
+      padding: 15vh 3vh 0 3vh;
+
     margin: 0 auto 0 auto;
     justify-content: flex-start;
     user-select: none;
@@ -67,16 +69,12 @@
     }
 
     .color-box {
-      left: 19vh;
+      display: none;
     }
   }
 }
 
 @media only screen and (max-width: 665px) {
-  .wide-hero-banner {
-    width: 100%;
-  }
-  .color-box {
-    position: relative !important;
-  }
+  
+  
 }
