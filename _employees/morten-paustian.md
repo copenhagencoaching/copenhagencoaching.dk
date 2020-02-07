@@ -1,12 +1,13 @@
 ---
 title: Morten Paustian
-order: 7
+order: "7"
 portrait-image: "/images/about/employees/morten-p.png"
-small-portrait-image: /images/about/small-images/morten-p-small.png
+small-portrait-image: "/images/about/small-images/morten-p-small.png"
 call: 40 13 69 68
 email: mp@copenhagencoaching.dk
 description: Associeret partner
 linkedin: https://www.linkedin.com/in/dr-mult-morten-paustian-230321/
+published: false
 
 ---
 Morten favner bredt og dybt. Hans vidensniveau er højt med en humanistisk tilgang. Han har undervist, arbejdet som konsulent med forretnings- og lederudvikling og er forfatter til en lang række bøger indenfor filosofi, ledelse, kunst og erhvervsøkonomi.
