@@ -6,6 +6,9 @@ layout: default
 <div class="hero-banner">
     <span>
         <h1>{{ page.header }}</h1>
+        {% if page.sub-header %}
+        <h2>{{ page.sub-header }}</h2>
+        {% endif %}
         <p>{{ page.description }}</p>
         <a href="{{ page.header-link-url }}" data-proofer-ignore>{{ page.header-link }}</a>
     </span>

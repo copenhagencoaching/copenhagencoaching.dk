@@ -3,7 +3,8 @@ layout: protreptik
 show: true
 title: Protreptik
 image: /images/protreptik/Protreptik.jpeg
-header: 'PROTREPTIK – FORDI ORDENE, VI SIGER, BETYDER NOGET'
+header: 'PROTREPTIK'
+sub-header: FORDI ORDENE, VI SIGER, BETYDER NOGET
 description: >-
   Vi har i CCC altid været optaget af Protreptikken, dvs. den filosofiske
   samtalekunst, der formår at få os mennesker til at komme i kontakt med det
@@ -12,7 +13,6 @@ description: >-
   er ligeså vigtig som alle de psykologiske coaching-metoder, som vi behersker.
 published: true
 order: 5
-contact-person: ´6`
 ---
 
 Hvad angår Protreptikken, er den som samtaledisciplin at finde helt tilbage i antikkens filosofi, hvor specielt Platon og Aristoteles har forholdt sig til den og bygget videre herpå. Men Protreptikken har også historisk set udviklet sig op gennem Kristendommens æra og specielt langt ind i den psykologiserende Katolicisme, hvor syndsforladelse og sjæleransagelse bliver dominerende kendetegn. 
