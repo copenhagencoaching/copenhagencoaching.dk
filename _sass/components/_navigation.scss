@@ -28,7 +28,7 @@ nav {
   padding: 0;
 
   .navbar-brand {
-    height: 5vh;
+    height: 6vh;
     width: auto;
 
     img {
@@ -45,17 +45,17 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 70vh;
+    width: 85vh;
   }
 
   .navbar-nav-wider {
-    width: 90vh;
+    width: 100vh;
   }
 
   .navbar-menu a,
   a {
     color: $black;
-    font-size: 1.6vh;
+    font-size: 1.8vh;
     font-weight: 500;
     padding: 0;
   }
@@ -107,7 +107,7 @@ nav {
   width: 2vh;
 
   .fas {
-    font-size: 1.6vh;
+    font-size: 1.8vh;
   }
 }
 
