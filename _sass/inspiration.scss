@@ -224,7 +224,7 @@
     }
 
     p {
-      font-size: 18px;
+      font-size: 1.8vh;
     }
 
     a {
@@ -233,7 +233,7 @@
   
 
     .facta-box {
-      font-size: 2vh;
+      font-size: 1.8vh;
       margin-top:20vh;
       background-color: #F6F5F3;
       padding: 2vh;
@@ -260,6 +260,7 @@
   align-items: center;
   padding: 15px 0;
   flex-wrap: wrap;
+  font-size: 1.8vh;
 
   a {
     padding: 0;
@@ -275,7 +276,7 @@
   .fab {
     color: $grey;
     padding-right: 10px;
-    font-size: 15px;
+    font-size: 20px;
   }
 
   .fab:hover {

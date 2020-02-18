@@ -17,6 +17,7 @@
         grid-area: contents;
         background-color: #fde1e1af;
         padding: 3vh;
+        font-size: 1.8vh;
 
         ul {
             padding-left: 2vh;
@@ -36,6 +37,10 @@
         h1 {
             margin-bottom: 2vh;
         }
+
+        p {
+            font-size: 1.8vh;
+        }
     }
 
     .inspiration-section {
@@ -47,11 +52,10 @@
 
             a {
                 color: $black;
-                font-size: 2vh;
+                font-size: 4vh;
                 line-height: 4vh;
                 margin-bottom: 0;
                 opacity: .7;
-                font-size: 4vh;
                 transition: .2s all ease-in;
                 text-transform: uppercase;
                 font-weight: 500;
