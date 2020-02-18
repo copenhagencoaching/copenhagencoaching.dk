@@ -1,7 +1,7 @@
 ---
 published: true
 id: 4
-order: 2
+order: 4
 title: Personlig coaching
 image: /images/coaching/c3.jpg
 contact-person: Marie Arnbak

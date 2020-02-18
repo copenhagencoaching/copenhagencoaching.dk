@@ -2,6 +2,8 @@
 title: Protreptiske samtaler
 image: /images/coaching/ProtreptisksamtaleMette.jpeg
 published: true
+id: 6
+order: 6
 contact-person: Kim Gørtz
 ---
 

@@ -2,6 +2,8 @@
 title: Supervision og sparring
 image: /images/coaching/Supervisionogsparringlille.jpeg
 published: true
+id: 2
+order: 2
 contact-person: Andreas Bering
 ---
 

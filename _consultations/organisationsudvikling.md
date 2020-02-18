@@ -1,7 +1,7 @@
 ---
 published: true
 order: 3
-title: Organisations udvikling
+title: Organisationsudvikling
 image: /images/consulting/c4.png
 contact-person: Andreas Bering
 ---

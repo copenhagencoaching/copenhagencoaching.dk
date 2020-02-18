@@ -1,7 +1,7 @@
 ---
 published: true
 order: 1
-title: Ledelses udvikling
+title: Ledelsesudvikling
 image: /images/consulting/c3.jpg
 contact-person: Lars Nyborg
 ---
