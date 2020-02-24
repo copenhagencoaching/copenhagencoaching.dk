@@ -11,8 +11,7 @@
     }
 
     p {
-        font-size: 16px;
-        padding: 2vh 0 1vh 0;
+        @include paragraph;
     }
 
     a {
@@ -33,7 +32,7 @@
 
     .wrapper {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
         grid-column-gap: 3vh;
     }
 
@@ -56,8 +55,8 @@
     }
 
     p {
-        font-size: 16px;
         color: #4a4a4a;
+        @include paragraph;
     }
 
     a {
@@ -84,7 +83,7 @@
         
     }
     img {
-        width: 75%;
+        width: 50%;
     }
 
     }

@@ -39,11 +39,10 @@ html {
 
 .page {
 
-  padding-bottom: 20vh;
 
   .header-navigation {
-   padding: 0 20vh 0 20vh;
-   background-color: #F6F5F3;
+    padding: 0 20vh 0 20vh;
+    background-color: #F6F5F3;
     text-align: center;
 
 
@@ -55,9 +54,9 @@ html {
       flex-wrap: wrap;
 
       button {
-        margin:1.7vh;
+        margin: 1.7vh;
         background-color: transparent;
-        border:none;
+        border: none;
         text-decoration: none;
         font-size: 2.4vh;
         font-weight: 500;
@@ -66,12 +65,14 @@ html {
         opacity: .5;
         user-select: none;
       }
+
       a:hover {
         color: $green;
       }
-      
+
     }
-  } 
+  }
+
   .row {
     margin: 75px auto;
   }
@@ -96,88 +97,72 @@ html {
     li {
       padding-bottom: 10px;
     }
-    
 
-    
+
+
   }
 }
 
 // Hero image
 
 .hero-banner {
-  min-height: 60vh;
-  display: flex;
-  width: inherit;
-  margin: 0 auto;
-  padding: 0vh 20vh;
-  justify-content: space-between;
-  align-items: center;
-  user-select: none;
+  padding: 5vh 20vh 5vh 20vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 75vh;
+  column-gap: 4vh;
 
-  span {
-    height: inherit;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-right: 5vh;
-    
-  }
+  .hero-banner-text {
+    display: grid;
+    align-items: center;
+    align-content: center;
 
-  h1 {
-    @include header-1;
-  }
-
-  p {
-    @include paragraph;
-
-  }
-
-  h2 {
+    h1 {
+      color: #000;
+    font-size: 11.5vh;
+    line-height: 12.5vh;
+    font-weight: 500;
     font-family: 'Oswald', sans-serif;
-  }
+    text-transform: uppercase;
+    }
 
-  a {
-    text-decoration: none;
-    color: $black;
-    font-size: 1.8vh;
-    font-weight: 600;
-  }
-
-  .breadcrumb {
-    display: flex;
-    background-color: unset;
-
-    a {
-      padding-right: 20px;
+    p {
+      @include paragraph;
     }
   }
-  
+
+  .hero-banner-image {
+
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+    .hero-image {
+      grid-row-start: 2;
+      grid-row-end: 7;
+      grid-column-start: 2;
+      grid-column-end: 7;
+
+      img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .color-box {
+      grid-row-start: 3;
+      grid-row-end: 8;
+      grid-column-start: 3;
+      grid-column-end: 8;
+      background-color: #ff7979;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
 }
 
-.hero-image {
-  height: 45vh;
-  width: 45vh;
-  object-fit: cover;
-  z-index: 1000;
-}
-
-.color-box {
-  height: 45vh;
-  width: 45vh;
-  background-color: #ff7979;
-  position: absolute;
-  top: 20vh;
-  right: 15vh;
-}
-
-.read-more {
-  color: $green;
-  display: flex;
-  justify-content: left;
-  width: 100%;
-  padding: 0;
-  margin: 30px 0 0;
-}
 
 // Button animations
 
@@ -196,14 +181,14 @@ html {
   .hero-banner {
     min-height: 65vh;
 
-  
-  
+
+
     h1 {
       font-size: 6vh;
       line-height: 5.5vh;
     }
 
-  
+
     p {
       line-height: 2.7vh;
       padding-right: 10vh;
@@ -211,24 +196,26 @@ html {
       margin-bottom: 0;
       margin-top: 2vh;
     }
-  
- 
-    img, .color-box {
+
+
+    img,
+    .color-box {
       width: 33vh;
       height: 33vh;
     }
+
     .color-box {
       top: 20vh;
       right: 17vh;
     }
-  
+
   }
-  
-
- 
 
 
-  
+
+
+
+
 }
 
 
@@ -248,7 +235,7 @@ html {
     span {
       width: inherit;
       margin: 0;
-      
+
 
       p {
         width: 100%;
@@ -263,26 +250,28 @@ html {
       font-weight: 500;
     }
 
-    
+
 
     a {
       margin-top: 5vh;
       font-size: 18px;
     }
 
-    img, .color-box {
+    img,
+    .color-box {
       display: none;
     }
 
- 
+
   }
 
   .page {
     .header-navigation {
       padding: 3vh 0;
+
       .wrapper {
         padding: 0 3vh;
-       
+
       }
     }
   }
@@ -310,18 +299,12 @@ html {
     width: 90%;
   }
 
-  .hero-image {
-
-    span {
-      width: 90%;
-    }
-  }
+  
 
   .hero-banner {
-    width: 100%;
-    span {
-      width: inherit;
-      
+    .hero-banner-image {
+      display: none;
     }
+    grid-template-columns: 1fr;
   }
 }

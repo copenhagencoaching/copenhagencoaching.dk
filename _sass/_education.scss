@@ -1,16 +1,21 @@
 .education {
     padding: 0;
 
-    .row {
-        width: 1230px;
+    .wrapper {
+        padding: 0 20vh 0 20vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
     .education-content {
+        grid-column-start: 1;
+        grid-column-end: 3;
         padding-left: 0;
         padding-right: 50px !important;
     }
 
     .facta-column {
+        grid-column-start: 3;
         height: auto;
         padding: 0;
 
@@ -19,6 +24,7 @@
             border-bottom: 2px solid rgba(255, 255, 255, 0.25);
             margin: 20px 0 20px 0;
             padding-bottom: 20px;
+           
         }
 
         a {
@@ -102,7 +108,8 @@
             }
 
             p {
-                font-size: 16px;
+                @include paragraph;
+                color: white;
                 margin: 10px 0;
             }
         }
@@ -132,7 +139,7 @@
 
 
     p {
-        font-size: 16px;
+        @include paragraph;
     }
 
 

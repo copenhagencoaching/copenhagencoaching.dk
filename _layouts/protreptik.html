@@ -4,16 +4,18 @@ layout: default
 
 {% if page.header %}
 <div class="hero-banner">
-    <span>
+   
+    <div class="hero-banner-text">
         <h1>{{ page.header }}</h1>
-        {% if page.sub-header %}
-        <h2>{{ page.sub-header }}</h2>
-        {% endif %}
         <p>{{ page.description }}</p>
-        <a href="{{ page.header-link-url }}" data-proofer-ignore>{{ page.header-link }}</a>
-    </span>
-    <img class="hero-image" src="{{ page.image }}" alt="CCC Header">
+    </div>
+    <div class="hero-banner-image">
+
     <div class="color-box"></div>
+    <div class="hero-image">
+        <img src="{{ page.image }}" alt="CCC Header"></div>
+</div>
+
 </div>
 {% endif %}
 

@@ -3,12 +3,12 @@ layout: page
 ---
 
 <div class="education">
-  <div class="row">
-    <div class="col-12 col-md-8 col-lg-8 education-content">
+  <div class="wrapper">
+    <div class="education-content">
       {{ page.content }}
       {% capture reg-url %}?n={{ page.title | uri_escape }}{% endcapture %}
     </div>
-    <div class="col-12 col-md-4 col-lg-4 facta-column">
+    <div class="facta-column">
       <div class="facta-box">
         <b>
           <p>Pris:</p>
@@ -142,5 +142,5 @@ layout: page
           PDF</a>
       </div>
     </div>
-  </div>
+
 </div>
