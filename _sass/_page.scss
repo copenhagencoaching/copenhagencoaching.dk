@@ -138,9 +138,9 @@ html {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 
     .hero-image {
-      grid-row-start: 2;
+      grid-row-start: 1;
       grid-row-end: 7;
-      grid-column-start: 2;
+      grid-column-start: 1;
       grid-column-end: 7;
 
       img {
@@ -151,9 +151,9 @@ html {
     }
 
     .color-box {
-      grid-row-start: 3;
+      grid-row-start: 2;
       grid-row-end: 8;
-      grid-column-start: 3;
+      grid-column-start: 2;
       grid-column-end: 8;
       background-color: #ff7979;
       width: 100%;
