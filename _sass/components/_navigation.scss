@@ -292,10 +292,7 @@ left: 0;
     }
   }
 
-  .navbar .navbar-menu a,
-  .navbar a {
-    font-size: 30px;
-  }
+  
 
   .nav-icon {
     height: auto;
@@ -319,6 +316,7 @@ left: 0;
 @media (max-width: 768px) {
     nav {
       margin-top: unset;
+      li a {font-size: 2vh;}
     }
 }
 

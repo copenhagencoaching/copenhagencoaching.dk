@@ -117,13 +117,7 @@
 
 @media (max-width: 1250px) {
   .page {
-    .contact {
-      h2 {
-font-size: 3vh;
-      }
-      
-
-    }
+  
   }
   .content {
     padding: 0 20vh 20vh 20vh;
@@ -137,13 +131,14 @@ font-size: 3vh;
       .content-img {
         width: 100%;
         grid-column-end: -1;
+        height: 30vh;
       }
 
       span {
 
+      
+
         h1 {
-          font-size: calc(42.22188px + 1.54083vw);
-          line-height: calc(48.22188px + 1.54083vw);
           padding-top: 7.5vh;
           font-weight: 500;
           word-break: break-all;
@@ -160,13 +155,43 @@ font-size: 3vh;
           line-height: 3.5vh;
         }
       }
+
+     
     }
   }
 }
 
 @media (max-width: 1024px) {
   .content {
+
     padding: 0 3vh 5vh 3vh;
+    .wrapper {
+      span {
+
+        .contact-box {
+          .contact {
+            img {
+              float: none;
+            }
+
+            div {
+              padding-left: 0;
+            }
+  
+          }
+        }
+
+        h1 {
+          font-size: 4vh;
+
+          line-height: 5vh;
+    
+        }
+      }
+     
+    }
+
+   
   }
   
 }

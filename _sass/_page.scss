@@ -244,8 +244,7 @@ html {
     }
 
     h1 {
-      font-size: calc(42.22188px + 1.54083vw);
-      line-height: calc(48.22188px + 1.54083vw);
+      font-size: 3vh;
       padding: 15vh 0 5vh 0;
       font-weight: 500;
     }
@@ -279,6 +278,16 @@ html {
   #fp-nav {
     display: none;
   }
+
+  .hero-banner {
+    .hero-banner-text {
+  
+      h1 {
+      font-size: 7vh;
+      line-height:normal;
+      }
+  }
+}
 
 }
 
