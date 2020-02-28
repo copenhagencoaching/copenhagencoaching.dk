@@ -6,7 +6,7 @@ author: Frederikke Winther
 tags: []
 teaser: En aften med Rasmus Willig om psykisk arbejdsmiljø, ytringsfrihed og tavshedskultur
 facta-box: true
-location: Blegdamsvej 104C (baghuset), 2100 Kbh Ø
+location: Tirsdag 28. april kl. 17-20 på Blegdamsvej 104C (baghuset), 2100 Kbh Ø
 event-title: 'Tidspunkt:'
 price: Fri entré for Community-medlemmer, ellers 950 kr ekskl. moms
 events:
