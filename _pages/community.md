@@ -6,7 +6,7 @@ image: "/images/academy/ccc-community.jpg"
 header: Community
 price: 2.500,- ekskl. moms pr. år
 pdf: 'false'
-order: "2"
+order: 2
 contact-person: ''
 description: Et fællesskab for vedvarende læring og udvikling af dit lederskab
 events:
