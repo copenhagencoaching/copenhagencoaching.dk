@@ -8,7 +8,7 @@ teaser: En aften med Rasmus Willig om psykisk arbejdsmiljø, ytringsfrihed og ta
 facta-box: true
 location: Tirsdag 28. april kl. 17-20 på Blegdamsvej 104C (baghuset), 2100 Kbh Ø
 event-title: 'Tidspunkt:'
-price: Fri entré for Community-medlemmer, ellers 950 kr ekskl. moms
+price: '950 kr ekskl. moms inkl. let middag. NB: Fri entré for Community-medlemmer'
 events:
 - overskrift: 28. april 2020 kl. 17-20
   dato: []
