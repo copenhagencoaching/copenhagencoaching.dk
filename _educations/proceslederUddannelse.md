@@ -8,7 +8,7 @@ pdf: "/pdfs/PLU2020forår.pdf"
 contact-person: Lars Nyborg
 event-title: Kommende hold
 order: 2
-location: Blegdamsvej 104C, 3. sal, baghuset th., 2100 København Ø
+location: Blegdamsvej 104C, 3., baghuset th., 2100 København Ø
 special: false
 hold_eller_begivenheder: true
 events:
