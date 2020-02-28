@@ -232,3 +232,19 @@
         }
     }
 }
+
+@media (max-width: 468px) {
+    .education {
+        .wrapper {
+            padding: 0 5vh 0 5vh;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr;
+        }
+
+        .facta-column {
+            grid-column-start: unset;
+            padding-bottom: 5vh;
+        }
+    }
+}
