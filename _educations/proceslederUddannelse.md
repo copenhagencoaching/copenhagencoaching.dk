@@ -12,12 +12,12 @@ location: Blegdamsvej 104C, 3. sal, baghuset th., 2100 København Ø
 special: false
 hold_eller_begivenheder: true
 events:
-- overskrift: 9. marts 2020
+- overskrift: 20. april 2020
   dato:
-  - 9-10 marts 2020
-  - 20.,21. og 22. april 2020
-  - 13.,14 og 15. maj 2020
-  - 19. juni 2020
+  - 20. og 21. april 2020
+  - 13., 14. og 15. maj 2020
+  - 18. og 19. juni 2020
+  - 27. august 2020
 
 ---
 # Hvorfor skal du vælge Proceslederuddannelsen?
