@@ -139,3 +139,5 @@ fields:
   showOnly:
     field: facta-box
     value: true
+pages:
+- _posts/fra-flexicurity-til-flexisme.md
