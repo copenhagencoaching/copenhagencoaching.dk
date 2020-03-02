@@ -6,13 +6,16 @@ image: "/images/academy/ccc-community.jpg"
 header: Community
 price: 2.500,- ekskl. moms pr. år
 pdf: 'false'
-order: 2
+order: "2"
 contact-person: ''
 description: Et fællesskab for vedvarende læring og udvikling af dit lederskab
 events:
-- date: April 2020
-  text: Styrk det psykiske arbejdsmiljø Vi sætter fokus på de ledelsesmæssige udfordringer
-    og muligheder i forhold til at skabe et velfungerende arbejdsmiljø
+- date: 28. april 2020 kl. 17-20
+  text: 'Kom og bliv inspireret af en af Danmarks mest prominente sociologer, Rasmus
+    Willig, der vil holde oplæg om forholdet mellem psykisk arbejdsmiljø, ytringsfrihed
+    og opkomsten af en ny type tavshedskultur på arbejdspladsen. Læs mere om arrangementet
+    her: https://www.copenhagencoaching.dk/inspiration/fra-flexicurity-til-flexisme/'
+  overskrift: Fra Flexicurity til Flexisme
 
 ---
 Rigtig mange af vores tidligere og nuværende studerende og kunder har efterspurgt flere tilbud om netværk, efteruddannelse, faglig inspiration og supervision.
