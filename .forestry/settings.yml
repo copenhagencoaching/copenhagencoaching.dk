@@ -15,8 +15,6 @@ sections:
   create: none
   match: "**/*"
   exclude: "*.html"
-  templates:
-  - side
 - type: directory
   path: _fundament
   label: Fundament
