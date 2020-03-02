@@ -6,4 +6,4 @@ link-text: Tilmeld dig her
 layout: default
 
 ---
-Så tilmeldt dig vores nyhedsbrev og bliv løbende opdateret om kommende kurser, events og aktiviteter hos CCC!
+Så tilmeldt dig vores nyhedsbrev HER og bliv løbende opdateret om kommende kurser, events og aktiviteter hos CCC!
