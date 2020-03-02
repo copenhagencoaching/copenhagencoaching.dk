@@ -1,0 +1,44 @@
+---
+label: Side
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: boolean
+  name: show
+  label: show
+- type: text
+  name: title
+  label: title
+- type: file
+  name: image
+  label: image
+- type: text
+  name: header
+  label: header
+- type: text
+  name: price
+  label: price
+- type: text
+  name: pdf
+  label: pdf
+- type: number
+  name: order
+  label: order
+- type: text
+  name: contact-person
+  label: contact-person
+- type: text
+  name: description
+  label: description
+- type: field_group_list
+  name: events
+  label: events
+  fields:
+  - type: text
+    name: date
+    label: date
+  - type: textarea
+    name: text
+    label: text
