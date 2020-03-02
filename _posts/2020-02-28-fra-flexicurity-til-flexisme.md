@@ -7,12 +7,11 @@ tags: []
 teaser: En aften med Rasmus Willig om psykisk arbejdsmiljø, ytringsfrihed og tavshedskultur
 facta-box: true
 location: Blegdamsvej 104C (baghuset), 2100 Kbh Ø
-event-title: 'Tidspunkt:'
+event-title: Tidspunkt
 price: '950 kr ekskl. moms inkl. let middag. NB: Fri entré for Community-medlemmer'
 events:
-- overskrift: Tirsdag 28. april 2020
-  dato:
-  - kl. 17-20
+- overskrift: Tirsdag 28. april 2020 kl. 17-20
+  dato: []
   subcategory: false
   subcat: []
 hold_eller_begivenheder: true
