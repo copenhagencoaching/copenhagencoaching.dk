@@ -13,11 +13,13 @@ layout: default
         
         <p>{{ text.content }}</p>
     
+        {% if text.link %}
         <div style="margin: auto">
             <a class="button btn" href="{{ text.link }}" role="button">
                 <p style="margin: 10px;">{{ text.link-text }}</p>
             </a>
         </div>
+        {% endif %}
       </div>
     </div>
     
