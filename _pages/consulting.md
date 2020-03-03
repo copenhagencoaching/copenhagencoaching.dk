@@ -4,7 +4,7 @@ title: Consulting
 image: /images/consulting/consulting-banner.jpg
 signup: Konsulentydelser
 show: true
-order: 4
+order: '4'
 header: Consulting
 header-link: Se hvad vi tilbyder ⟶
 header-link-url: '#content-section'

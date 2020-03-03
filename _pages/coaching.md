@@ -1,7 +1,7 @@
 ---
 layout: coaching
 show: true
-order: 3
+order: '3'
 title: Coaching
 image: /images/coaching/coaching-banner.jpg
 header: Coaching

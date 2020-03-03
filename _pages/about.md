@@ -1,7 +1,7 @@
 ---
 layout: about
 show: true
-order: 6
+order: '6'
 title: Om os
 image: /images/about/about-banner.jpg
 header: Eksperter i ledelse og coaching

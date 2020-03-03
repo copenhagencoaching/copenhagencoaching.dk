@@ -1,7 +1,7 @@
 ---
 layout: academy
 show: true
-order: 1
+order: '1'
 title: Academy
 image: /images/academy/academy-banner.jpg
 header: Academy

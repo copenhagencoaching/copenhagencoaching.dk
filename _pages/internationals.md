@@ -9,7 +9,7 @@ header-link: What we offer ⟶
 header-link-url: '#content-section'
 breadcrumb: true
 color-box: null
-order: 7
+order: '7'
 description: >-
   At Copenhagen Coaching Center we strive to improve the quality of coaching and
   leadership by providing people with knowledge and methodologies that enables

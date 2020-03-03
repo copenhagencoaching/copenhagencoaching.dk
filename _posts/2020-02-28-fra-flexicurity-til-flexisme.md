@@ -11,9 +11,6 @@ event-title: Tidspunkt
 price: '950 kr ekskl. moms inkl. let middag. NB: Fri entré for Community-medlemmer'
 events:
 - overskrift: Tirsdag 28. april 2020 kl. 17-20
-  dato: []
-  subcategory: false
-  subcat: []
 hold_eller_begivenheder: true
 
 ---
