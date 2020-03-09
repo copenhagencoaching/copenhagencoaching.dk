@@ -1,6 +1,6 @@
 ---
 title: Proceslederuddannelse
-header: Procesleder<br>uddannelse
+header: Procesleder-<br>uddannelse
 description: Styrk dine evner til at styre, rumme og kreere processer
 image: "/images/academy/proceslederuddannelse.jpg"
 price: 38.700,- EKSKL. MOMS (heri er inkluderet fuld forplejning, materialer med videre)
