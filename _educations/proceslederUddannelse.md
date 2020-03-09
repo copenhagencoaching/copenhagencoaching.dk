@@ -1,10 +1,10 @@
 ---
 title: Proceslederuddannelse
 header: Procesleder<br>uddannelse
-description: Styrk dine evner til at lede processer med en proceslederuddannelse.
+description: Styrk dine evner til at styre, rumme og kreere processer
 image: "/images/academy/proceslederuddannelse.jpg"
 price: 38.700,- EKSKL. MOMS (heri er inkluderet fuld forplejning, materialer med videre)
-pdf: "/pdfs/PLU2020forår.pdf"
+pdf: ''
 contact-person: Lars Nyborg
 event-title: Kommende hold
 order: 2
@@ -20,38 +20,59 @@ events:
   - 27. august 2020
 
 ---
-# Hvorfor skal du vælge Proceslederuddannelsen?
+Du vil kunne mestre den sunde og veldesignede proces, der giver jeres arbejde retning og mening. 
 
-Uddannelsen henvender sig til ledere og konsulenter, som har ansvar for, leder og håndterer forandringer og processer i organisationen, internt som eksternt.
+Du vil kunne samle organisationen og inspirere til den gode idé eller den ekstra indsats. 
 
-Krav om konstant forandring, omorganisering, økonomisk pres m.v. skaber behov for professionel procesledelse. Ønsker om medinddragelse og samskabelse som en del af virksomhedens kultur, drift og udvikling kalder ligeledes på et højt niveau af procesledelse. Dårligt designede processer er bekostelige og potentielt set skadelige for organisationen. God procesledelse kræver evner til at styre, rumme og stimulere menneskelig og faglig mangfoldighed i retning af fælles udvikling og mål. Med proceslederuddannelsen bliver du bedre til at styre, rumme og kreere processer., samt håndtere frustrationer i organisationer. Ligeledes lærer du at producere nye handlemuligheder og skabe og sikre følgeskab.
+Med en proceslederuddannelse fra CCC får du markedets stærkeste uddannelse i at planlægge, styre og fastholde processer. Uddannelsen henvender sig til ledere og konsulenter, som har ansvar for, leder og håndterer forandringer og processer i organisationen, internt eller eksternt.
 
-# Hvordan er uddannelsen bygget op?
+**Hvorfor skal du vælge Proceslederuddannelsen?**
 
-På uddannelsen arbejder vi med processer fra tre forskellige perspektiver:
+Krav om konstant forandring, omorganisering, økonomisk pres m.v. skaber behov for professionel procesledelse. Ønsker om medinddragelse og samskabelse som en del af virksomhedens kultur, drift og udvikling kalder ligeledes på et højt niveau af procesledelse. God procesledelse kræver evner til at styre, rumme og stimulere menneskelig og faglig mangfoldighed i retning af fælles udvikling og mål.
 
-Strategisk håndtering – at styre processer: Mange processer er styret af klare og veldefinerede mål. Måske vil man øge produktiviteten, effektivisere møderne eller implementere tiltag systematisk. Man skal derfor kontrollere og have styr på processen, herunder være bevidst om organisationsdesign, dataopsamling, systematik i arbejdsgangene mv.
+Med proceslederuddannelsen bliver du bedre til:
 
-Emotionel håndtering – at fornemme og rumme processer: Ved processtart, ved forestående forandringer og undervejs i udviklings- og forandringsforløb kan der dukke følelser og stemninger op, som virker forvirrende eller ødelæggende for processen. Disse stemninger skal du og organisationen kunne rumme og arbejde med på en konstruktiv måde.
+* at styre, rumme og kreere processer
+* at håndtere frustrationer i organisationer
+* at producere nye handlemuligheder
+* at skabe og sikre følgeskab.
 
-Kreativ Håndtering – at kreere processer: Mange processer er uforudsigelige – og nogle processer kan eller skal føre gruppen et uforudset sted hen. Du skal derfor evne også at kunne sætte processen fri og følge med udviklingen, også når den fører til noget uventet og ikke planlagt.
+**Hvordan er uddannelsen bygget op?**
 
-Med Proceslederuddannelsen får du mulighed for at få 10 ECTS point
+På uddannelsen arbejder vi med processer fra tre forskellige perspektiver og med en række relevante temaer:
 
-# Hvad får du ud af uddannelsen?
+Strategisk håndtering – at styre processer:   
+ Mange processer er styret af klare og veldefinerede mål. Måske vil man øge produktiviteten, effektivisere møderne eller implementere tiltag systematisk. Man skal derfor kontrollere og have styr på processen, herunder være bevidst om organisationsdesign, dataopsamling, systematik i arbejdsgangene mv.
 
-Proceslederuddannelsen består af 9 intense undervisningsdage (9.30-16.00)
+Emotionel håndtering – at fornemme og rumme processer:  
+ Ved processtart, ved forestående forandringer og undervejs i udviklings- og forandringsforløb kan der dukke følelser og stemninger op, som virker forvirrende eller ødelæggende for processen. Disse stemninger skal du og organisationen kunne rumme og arbejde med på en konstruktiv måde.
 
-Som studerende får du:
+Kreativ håndtering – at kreere processer:   
+ Mange processer er uforudsigelige – og nogle processer kan eller skal føre gruppen et uforudset sted hen. Du skal derfor evne også at kunne sætte processen fri og følge med udviklingen, også når den fører til noget uventet og ikke planlagt.
 
-- Adgang til vidensportal, værktøjer, faglitteratur, artikler og cases
+På uddannelsen kommer vi desuden omkring følgende temaer:
 
-- Big Five Personality Test med individuel tilbagemelding
+* Teamsamarbejde og udvikling
+* innovation
+* forandringsledelse
+* frustration og modstand
+* Implementering
 
-- Løbende supervision og et stærkt netværk
+**Hvad får du ud af uddannelsen?**
 
-- Mulighed for selv at blive certificeret i Big Five Personality Test
+Proceslederuddannelsen består af 8 intense undervisningsdage (9.30-16.00). Imellem de enkelte kursusgange arbejder du aktivt i din egen organisation med et selvvalgt projekt.
 
-- Mulighed for at tilvælge et eller flere DOL-moduler (Diplomuddannelse I Ledelse. Kontakt os for mere information.)
+Som studerende lærer du:
 
-- Forplejning alle dage
+* at styre, designe og lede processer
+* at have personlig opmærksomhed på håndtering af vanskeligheder i processer
+* at anvende innovative og kreative redskaber i processer
+* at anvende forskellige pragmatiske perspektiver på processer
+
+Du får desuden:
+
+* Adgang til vidensportal, værktøjer, faglitteratur, artikler og cases
+* Løbende supervision og et stærkt netværk
+* Big Five Personlighedstest med individuel tilbagemelding
+* Mulighed for selv at blive certificeret i Big Five Personality Test
+* Mulighed for at tilvælge et eller flere DOL-moduler, svarende til 10 ETCS point (Den Offentlige Lederuddannelse. Kontakt os for mere information.)
