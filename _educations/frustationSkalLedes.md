@@ -14,13 +14,13 @@ hold_information: Kurset afholdes som skræddersyet forløb og planlægges efter
   med holdet.
 
 ---
-# Hvorfor skal du vælge Frustration skal ledes?
+### Hvorfor skal du vælge Frustration skal ledes?
 
 Fælles for de fleste offentlige organisationer og institutioner er, at ledelsen befinder sig i et krydspres. Krav om konstant forandring, omorganisering, økonomisk pres og new public management er alle faktorer, som kan påvirke frustrationsniveauet i organisationen. Når en medarbejdergruppe føler sig presset, overset, tromlet, truet eller afprofessionaliseret stiger frustrationsniveauet, hvilket kan medføre stress, forråelse, forhøjet medarbejderudskiftning og faldende, faglig kvalitet.
 
 Krydspres og frustrationer er ofte et vilkår i offentlige organisationer og institutioner, men giver samtidig en mulighed for ledelsesmæssig udvikling og forandring. Uddannelsens fokus er at udvikle evnen til at rumme og tackle medarbejderes reaktioner på stress og pres, skabe sammenhæng og følgeskab samt sikre et godt arbejdsmiljø.
 
-# Hvordan er uddannelsen bygget op?
+### Hvordan er uddannelsen bygget op?
 
 På uddannelsen arbejder vi med tre måder at håndtere frustration på:
 
@@ -42,7 +42,7 @@ Kreativ håndtering
 
 - du lærer at se problemer og udfordringer fra et andet eller nyt perspektiv
 
-# Hvad får du ud af uddannelsen?
+### Hvad får du ud af uddannelsen?
 
 Frustration skal ledes består af 9 intense undervisningsdage (9.30-16.00) fordelt på 5 måneder
 

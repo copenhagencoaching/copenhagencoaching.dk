@@ -49,7 +49,7 @@ layout: default
                     {% for text in site.texts %}
                     {% if text.page == "frontpage" %}
                     {% if text.order == 1 %}
-                    <h1>{{ text.title }}</h1>
+                    <h1 class="title">{{ text.title }}</h1>
                     {{ text.content }}
                     {% endif %}
                     {% endif %}
@@ -69,7 +69,7 @@ layout: default
                     {% for text in site.texts %}
                     {% if text.page == "frontpage" %}
                     {% if text.order == 2 %}
-                    <h1>{{ text.title }}</h1>
+                    <h1 class="title">{{ text.title }}</h1>
                     {{ text.content }}
                     {% endif %}
                     {% endif %}
@@ -89,7 +89,7 @@ layout: default
                     {% for text in site.texts %}
                     {% if text.page == "frontpage" %}
                     {% if text.order == 3 %}
-                    <h1>{{ text.title }}</h1>
+                    <h1 class="title">{{ text.title }}</h1>
                     {{ text.content }}
                     {% endif %}
                     {% endif %}

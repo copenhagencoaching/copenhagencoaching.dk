@@ -13,6 +13,6 @@ Gennem kyndig vejledning og sparring i forhold til specifikke udfordringer eller
 
 Supervisionerne er fortrolige og varer ca. 75 min. 
 
-## Supervision & sparring /3500,- kr ekskl. moms per session. 
+**Supervision & sparring /3500,- kr ekskl. moms per session.** 
 
 Du kan også købe et klippekort a 5 sessioner (3.200,- ekskl. moms per klip) eller a 10 sessioner (2.800,- ekskl. moms per klip).

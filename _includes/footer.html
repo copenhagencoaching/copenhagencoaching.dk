@@ -1,6 +1,6 @@
 <footer>
     <span class="footer-ccc">
-        <h2>Copenhagen Coaching Center</h2>
+        <h4>Copenhagen Coaching Center</h4>
         {% for text in site.texts %}
         {% if text.page == "footer" %}
         {{ text.content | markdownify }}
@@ -16,14 +16,14 @@
         </div>
     </span>
     <span class="footer-inspiration">
-        <h2>Inspiration</h2>
+        <h4>Inspiration</h4>
         {% for post in site.posts limit:3 %}
         <a class="footer-stories" href="{{ post.url }}">{{ post.title }}</a>
         <p class="stories-date">{{ post.date | date: "%B %d, %Y" }}</p>
         {% endfor %}
     </span>
     <span class="footer-contact">
-        <h2>Kontakt</h2>
+        <h4>Kontakt</h4>
         <a data-proofer-ignore href="tel:+4539201020">+45 39 20 10 20</a>
         <a data-proofer-ignore href="#" data-toggle="modal" data-target="#contact-modal">Skriv til os</a>
         <p>Blegdamsvej 104 A, 2. Sal</p>

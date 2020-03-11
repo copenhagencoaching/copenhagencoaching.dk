@@ -13,8 +13,8 @@ events:
 order: 2
 
 ---
-# Hvorfor skal du vælge Executive Transition?
-## Med fokus på at bære det rigtige og sig selv videre
+### Hvorfor skal du vælge Executive Transition?
+#### Med fokus på at bære det rigtige og sig selv videre
 
 Er du topleder og på vej til at skifte spor? Og ønsker du at skifte spor på en sådan måde, at du både får dig selv og det rigtige og vigtige med fra dit tidligere virke til det nye – hvad enten drejer sig om et karrierespring, et karriereskift eller et karrierestop? Executive Transition handler om at kunne omsætte egne værdier og kompetencer fra kontekst X til kontekst Y. At kunne stille skarpt på, hvilke processuelle kompetencer og narrativer, der skal til for at lykkes i skiftet fra X til Y. At blive præcis på, hvad det er for nogle personlige værdier og kompetencer der er betydningsfulde for, at du kan leve et meningsfyldt liv, hvor du opnår det, du gerne vil.
 

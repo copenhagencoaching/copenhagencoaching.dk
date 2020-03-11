@@ -15,5 +15,5 @@ Big Five-samtalen tager udgangspunkt i din Big Five testrapport. Vi gennemgår o
 ​
 Samtalen er fortrolig og varer ca. 1½ - 2 timer.
 ​
-## Pris for test, rapport og samtale: 5000,- kr. ekskl. moms.
+**Pris for test, rapport og samtale: 5000,- kr. ekskl. moms.**
 ​

@@ -8,11 +8,11 @@ price: 6.000,- EKSKL. MOMS
 special: false
 ---
 
-# Hvorfor skal du vælge Filosofiske seminarer?
+### Hvorfor skal du vælge Filosofiske seminarer?
 
 Du kender lidt til protreptikken og vil gerne blive bedre til at arbejde med denne filosofiske samtaleform.
 
-# Hvordan er uddannelsen bygget op?
+### Hvordan er uddannelsen bygget op?
 
 På kurset stiller vi skarpt på:
 
@@ -22,7 +22,7 @@ På kurset stiller vi skarpt på:
 
 - at kalibrere samtalens opmærksomhedszoner
 
-# Hvad får du ud af uddannelsen?
+### Hvad får du ud af uddannelsen?
 
 - 2 dags kursus
 

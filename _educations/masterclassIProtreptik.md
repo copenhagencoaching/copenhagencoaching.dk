@@ -17,7 +17,7 @@ events:
 - overskrift: 4., 5. & 27. maj 2020
 
 ---
-# LIVSSPEJLET: OM AT HOPPE UD AF det mulige SELVBEDRAG OG IND I DEN NORMATIVITET, DER KOMMER FRA HJERTET
+### LIVSSPEJLET: OM AT HOPPE UD AF det mulige SELVBEDRAG OG IND I DEN NORMATIVITET, DER KOMMER FRA HJERTET
 
 Velkommen til vores årlige masterclass i protreptik, som dette år (2020) sætter specielt fokus på gruppe-protreptikken. 
 
@@ -30,7 +30,7 @@ Undervisningen foregår på Blegdamsvej 104C, 3. sal (baghuset th). Alle dage fr
 
 Er du medlem af CCC-community får du 15 % rabat (oplyses ved tilmelding).
 
-# Om masterclasses:
+### Om masterclasses:
 Hvert år sætter vi fokus på dele af protreptikken, som vi enten oplever kan være vanskeligt at bringe i spil i løbet af en protreptisk samtale eller som er for avanceret at arbejde med i vores almindelige protreptiske forløb. Så er du optaget af protreptikken og ønsker at arbejde endnu mere i dybden for at komme tættere på dig selv og dine værdier, er dette forløb rigtigt for dig.
 
 Masterclasses er baseret på en blanding af teoretiske oplæg og praktiske individuelle, samt gruppe protreptikker.

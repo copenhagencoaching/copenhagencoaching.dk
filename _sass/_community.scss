@@ -17,7 +17,7 @@
         grid-area: contents;
         background-color: #fde1e1af;
         padding: 3vh;
-        font-size: 1.8vh;
+        //font-size: 1.8vh;
 
         ul {
             padding-left: 2vh;
@@ -25,7 +25,7 @@
         }
 
         h2 {
-            font-size: 2vh;
+            //font-size: 2vh;
             font-weight: 600;
             padding-bottom: 2.5vh;
         }
@@ -49,7 +49,7 @@
 
             a {
                 color: $black;
-                font-size: 4vh;
+                //font-size: 4vh;
                 line-height: 4vh;
                 margin-bottom: 0;
                 opacity: .7;
@@ -68,7 +68,7 @@
         h1 {
             color: #000;
             grid-area: header;
-            font-size: 11vh;
+            //font-size: 11vh;
             line-height: 12.5vh;
             margin: 5vh 0;
             font-weight: 500;
@@ -99,7 +99,7 @@
 
                     h2 {
                         color: #fff;
-                        font-size: 6vh;
+                        //font-size: 6vh;
                         font-weight: 500;
                         padding: 0;
                         margin: 0;
@@ -110,7 +110,7 @@
 
                     p {
                         color: #fff;
-                        font-size: 3vh;
+                        //font-size: 3vh;
                         font-weight: 500;
                         padding: 0;
                         margin: 0;
@@ -145,12 +145,12 @@
             .inspiration-section {
                 .inspirations-wrapper {
                     h2 {
-                        font-size: 5vh !important;
+                        //font-size: 5vh !important;
 
                     }
 
                     p {
-                        font-size: 3vh;
+                        //font-size: 3vh;
                     }
                 }
             }
@@ -169,12 +169,12 @@
                     grid-template-columns: 1fr 1fr;
 
                     h2 {
-                        font-size: 4vh;
+                        //font-size: 4vh;
 
                     }
 
                     p {
-                        font-size: 2vh;
+                        //font-size: 2vh;
                     }
                 }
             }
@@ -194,7 +194,7 @@
 
             .inspiration-section {
                 h1 {
-                    font-size: calc(42.22188px + 1.54083vw);
+                    //font-size: calc(42.22188px + 1.54083vw);
                 }
 
                 .inspirations-wrapper {
@@ -202,12 +202,12 @@
                     grid-template-columns: 1fr;
 
                     h2 {
-                        font-size: 4vh;
+                        //font-size: 4vh;
 
                     }
 
                     p {
-                        font-size: 2vh;
+                        //font-size: 2vh;
                     }
                 }
             }

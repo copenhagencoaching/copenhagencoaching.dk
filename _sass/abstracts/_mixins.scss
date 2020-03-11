@@ -1,6 +1,6 @@
 @mixin header-1 {
     color: $black;
-    font-size: 7.5vh;
+   // font-size: 7.5vh;
     line-height: 8.5vh;
     font-weight: 500;
     font-family: 'Oswald', sans-serif;
@@ -11,5 +11,9 @@
     width: 100%;
     line-height: 3.5vh;
     color: $black;
-    font-size: 1.9vh;
+   // font-size: 1.9vh;
 }
+
+// .title {
+//     font-size: 4em;
+// }

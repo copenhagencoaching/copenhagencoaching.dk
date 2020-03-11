@@ -55,7 +55,7 @@ nav {
   .navbar-menu a,
   a {
     color: $black;
-    font-size: 1.8vh;
+   // font-size: 1.8vh;
     font-weight: 500;
     padding: 0;
   }
@@ -86,7 +86,7 @@ nav {
     max-width: 70px !important;
     text-transform: uppercase;
     border: none;
-    font-size: 20px;
+   // font-size: 20px;
     margin-left: 5px;
   }
 }
@@ -107,7 +107,7 @@ nav {
   width: 2vh;
 
   .fas {
-    font-size: 1.8vh;
+   // font-size: 1.8vh;
   }
 }
 
@@ -195,14 +195,14 @@ nav {
 
     .contact-button {
       background: none;
-      font-size: 25px;
+     // font-size: 25px;
       color: $black;
     }
   }
 
   .navbar .navbar-menu a,
   .navbar a {
-    font-size: 25px;
+   // font-size: 25px;
   }
 
   .nav-icon {
@@ -210,7 +210,7 @@ nav {
     
 
     .fas {
-      font-size: 4vh;
+     // font-size: 4vh;
     }
   }
 
@@ -271,7 +271,7 @@ left: 0;
     }
 
     .navbar-toggler {
-      font-size: 20px;
+     // font-size: 20px;
       line-height: 1;
       background-color: transparent;
       border: 1px solid transparent;
@@ -281,13 +281,13 @@ left: 0;
       text-align: right;
 
       .fas {
-        font-size: 20px;
+       // font-size: 20px;
       }
     }
 
     .contact-button {
       background: none;
-      font-size: 30px;
+     // font-size: 30px;
       color: $black;
     }
   }
@@ -316,7 +316,9 @@ left: 0;
 @media (max-width: 768px) {
     nav {
       margin-top: unset;
-      li a {font-size: 2vh;}
+      li a {
+       // font-size: 2vh;
+      }
     }
 }
 

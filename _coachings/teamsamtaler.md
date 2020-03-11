@@ -17,4 +17,4 @@ I CCC arbejder vi med teamcoaching, der tydeligt sætter fokus på det, der skal
 
 Samtalerne er fortrolige og varer typisk 2-3 timer.
 
-## Team samtaler / 3000,- kr. pr. time ekskl. moms (kontakt os for tilbud på længere forløb med flere sessioner).
+**Team samtaler / 3000,- kr. pr. time ekskl. moms (kontakt os for tilbud på længere forløb med flere sessioner).**

@@ -17,7 +17,7 @@ events:
 - overskrift: 10-17 september 2020
 
 ---
-# Hvorfor skal du vælge Ledelseskursus på Lesbos?
+### Hvorfor skal du vælge Ledelseskursus på Lesbos?
 
 Har du givet dig selv mulighed for at finde det der betyder mest for dig, når du leder? Ønsker du at kunne bevare overblikket og agere tydeligt. Oplever du at det kan være svært at udfordre med et åbent sind og samtidig skabe tryghed omkring dig? Synes du nogle gange det er svært at bevæge sig i det uforudsigelige eller medskabe noget gennem fællesskabets værdier? Nu har du muligheden for at tænke over det, mærke efter det og blive til det.
 
@@ -25,13 +25,13 @@ Tag med på denne opdagelsesrejse på den græske ø Lesbos sammen med andre led
 
 Dette intense forløb skærper dine refleksioner over og fornemmelser for det der afgør dine handlinger i din ledelsespraksis. Med andre ord bliver du tydelig omkring dine grundværdier og dit råderum, når du leder.
 
-# Hvordan er uddannelsen bygget op?
+### Hvordan er uddannelsen bygget op?
 
 Turen til Lesbos handler først og fremmest om undervisning og træning. Alle dage har fastlagte destinationer og indlagte træningsseancer.  Du bliver trænet, vejledt og udfordret undervejs.
 
 Arbejdet omkring værdier vil på turen ske igennem læren fra den filosofiske samtale, protreptikken. Vi arbejder med protreptikken fra et nyt og moderne perspektiv, hvor der i høj grad er fokus på, hvordan du som leder kan fremstå oprigtig og imødekommende og i din ledelse. Hele ugen bliver du præsenteret for teoretiske ståsteder der med grundig vejledning bliver omsat i din ledelsespraksis.
 
-# Hvad får du ud af uddannelsen?
+### Hvad får du ud af uddannelsen?
 
 Turen til Lesbos varer 7 fulde dage
 

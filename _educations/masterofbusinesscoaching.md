@@ -48,7 +48,7 @@ events:
     - 16.-17. december
 
 ---
-# Hvorfor skal du vælge Master of Business Coaching?
+### Hvorfor skal du vælge Master of Business Coaching?
 
 Ønsker du at blive dygtig til at føre produktive og virkningsfulde dialoger? At kunne flytte både grupper og individer i en mere konstruktiv retning og derved forebygge stress, organisatorisk stagnation og udbrændthed? Så vælg uddannelsen: Master of Business Coaching (MBC).
 
@@ -56,7 +56,7 @@ Med en Master of Business Coaching får du en af landets bedste coachinguddannel
 
 Uddannelsen er akkrediteret igennem EMCC. [Læs om vores EMCC akkreditering](/fundament/emcc-akkreditering/)
 
-# Hvordan er uddannelsen bygget op?
+### Hvordan er uddannelsen bygget op?
 
 Dialoger der forandrer både dig selv og den anden, handler ikke blot om at stille de rigtige spørgsmål. Forskning viser at den værdiskabende samtale i højere grad handler om at coachen skal være nærværende i samtalen – også når temaerne bliver udfordrende.
 
@@ -64,7 +64,7 @@ På uddannelsen trænes du I at være nærværende og ansvarstagende også når 
 
 MBC er en anerkendt international master. Uddannelsen er normeret til et studieårsværk, og uddannelsen afsluttes med en 60 siders masterafhandling med mundtligt forsvar.
 
-# Hvad får du ud af uddannelsen?
+### Hvad får du ud af uddannelsen?
 
 MBC’en består af 4 semestre, som du også kan tage individuelt. Et semester består af ca. 10 undervisningsdage med undervisning fra 9.30 – 16.00
 

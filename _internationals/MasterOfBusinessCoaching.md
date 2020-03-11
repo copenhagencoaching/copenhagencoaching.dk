@@ -12,7 +12,7 @@ CCC offers an International Master of Business Coaching in Copenhagen. The teach
 
 The price is 6.000 Euros pr. semester.
 
-## The dates for our next open program in 2020 are: 
+#### The dates for our next open program in 2020 are: 
 
 19.-20. February
 25.-26. March
