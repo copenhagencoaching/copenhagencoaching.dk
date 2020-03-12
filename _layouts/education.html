@@ -110,39 +110,17 @@ layout: page
         </span>
         <br>
         <a class="reg-link" href="/registration/{{ reg-url }}">Tilmeld dig her</a>
-        {% unless page.pdf %}
-        {% capture pdfvar %}
-        muted
-        {% endcapture %}
-        {% capture pdfmes %}
-        Pdf kommer snart
-        {% endcapture %}
-        {% capture pdfurl %}
-        #
-        {% endcapture %}
-        {% endunless %}
-        {% if page.pdf == 'false' %}
-        {% capture pdfvar %}
-        hidden
-        {% endcapture %}
-        {% capture pdfmes %}
-        #
-        {% endcapture %}
-        {% capture pdfurl %}
-        #
-        {% endcapture %}
-        {% endif %}
+      
         {% if page.pdf %}
-        {% capture pdfurl %}
-        {{ page.pdf }}
-        {% endcapture %}
-        {% capture pdfmes %}
-        PDF om {{ page.title }}
-        {% endcapture %}
+        {% if page.pdf != "" %}
+        <a data-proofer-ignore target="_blank" alt="pdf {{ page.title }}"
+        href="{{ page.pdf }}" class="pdf-link">Download
+        PDF</a>
         {% endif %}
-        <a data-proofer-ignore target="_blank" alt="{{ pdfmes | strip_newlines | strip }}"
-          href="{{ pdfurl | strip_newlines | strip }}" class="pdf-link {{ pdfvar | strip_newlines | strip }}">Download
-          PDF</a>
+        
+       
+       
+          {% endif %}
       </div>
     </div>
 
