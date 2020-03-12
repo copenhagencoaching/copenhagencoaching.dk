@@ -8,6 +8,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 10vh 0 0 0;
+    grid-column-gap:20px;
 
 
 
@@ -106,7 +107,31 @@
   font-weight: 600 !important;
 }
 
+@media (max-width: 1800px) {
 
+  .content {
+    .wrapper {
+      .contact-box {
+        .contact {
+          img {
+            float: none !important;
+          }
+
+          div {
+            padding-left: 0 !important;
+          }
+
+        }
+      }
+      .content-img {
+        width: 30vh;
+        height: 30vh;
+      }
+    }
+   
+  }
+ 
+ }
 
 /* Large devices (laptops/desktops, 1024px and down) */
 
@@ -168,19 +193,6 @@
     padding: 0 3vh 5vh 3vh;
     .wrapper {
       span {
-
-        .contact-box {
-          .contact {
-            img {
-              float: none;
-            }
-
-            div {
-              padding-left: 0;
-            }
-  
-          }
-        }
 
         h1 {
           line-height: 5vh;
