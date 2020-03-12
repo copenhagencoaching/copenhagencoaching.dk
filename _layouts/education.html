@@ -24,15 +24,17 @@ layout: page
         <!-- Datoer  -->
 
         {% if page.hold_eller_begivenheder == true %}
-        <b><p>{{page.event-title}}:</p></b>
-  
+        <b>
+          <p>{{page.event-title}}:</p>
+        </b>
+
         {% for event in page.events %}
 
         {% if event.subcategory == true %}
-       
-        
-          <h3>{{ event.overskrift }}</h3>
-    
+
+
+        <h3>{{ event.overskrift }}</h3>
+
         {% for subcat in event.subcat %}
         <div class="date-box">
           <a class="date-links" role="button">
@@ -95,12 +97,13 @@ layout: page
         {% for employee in site.employees %}
         {% if employee.title == page.contact-person %}
         <div class="contact">
-        <img class="contact-img" src="{{ employee.small-portrait-image }}" alt="{{ employee.title }}, {{ employee.description}}">
-        <div>
-        <a href="{{ employee.url }}" data-proofer-ignore>{{ employee.title }}</a>
-        <a href="tel:{{ employee.call }}" data-proofer-ignore>{{ employee.call }}</a>
-        <a href="mailto:{{ employee.email }}" data-proofer-ignore>{{ employee.email }}</a></div>
-      </div>
+          <img class="contact-img" src="{{ employee.small-portrait-image }}"
+            alt="{{ employee.title }}, {{ employee.description}}">
+          <div>
+            <a href="{{ employee.url }}" data-proofer-ignore>{{ employee.title }}</a>
+            <a href="tel:{{ employee.call }}" data-proofer-ignore>{{ employee.call }}</a>
+            <a href="mailto:{{ employee.email }}" data-proofer-ignore>{{ employee.email }}</a></div>
+        </div>
         {% endif %}
         {% endfor %}
         {% endif %}
@@ -143,4 +146,4 @@ layout: page
       </div>
     </div>
 
-</div>
+  </div>

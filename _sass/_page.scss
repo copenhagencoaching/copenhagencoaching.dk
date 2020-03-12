@@ -2,11 +2,7 @@
   font-family: 'Poppins', sans-serif;
 }
 
-@media (width: 1024px) {
-  p {
-    //font-size: calc(100% + 5px) !important;
-  }
-}
+
 
 body {
   width: 100%;
@@ -58,7 +54,6 @@ html {
         background-color: transparent;
         border: none;
         text-decoration: none;
-        //font-size: 2.4vh;
         font-weight: 500;
         font-family: 'Oswald', sans-serif;
         text-transform: uppercase;
@@ -91,7 +86,6 @@ html {
 
     h2 {
       margin: 0;
-      //font-size: 22px;
     }
 
     li {
@@ -119,7 +113,6 @@ html {
 
     h1 {
     color: #000;
-    //font-size: 11.5vh;
     line-height: 12.5vh;
     font-weight: 500;
     font-family: 'Oswald', sans-serif;
@@ -184,7 +177,6 @@ html {
 
 
     h1 {
-      //font-size: 6vh;
       line-height: 5.5vh;
     }
 
@@ -244,7 +236,6 @@ html {
     }
 
     h1 {
-     // font-size: 3vh;
       padding: 15vh 0 5vh 0;
       font-weight: 500;
     }
@@ -253,7 +244,6 @@ html {
 
     a {
       margin-top: 5vh;
-      //font-size: 18px;
     }
 
     img,
@@ -283,7 +273,6 @@ html {
     .hero-banner-text {
   
       h1 {
-      //font-size: 7vh;
       line-height:normal;
       }
   }

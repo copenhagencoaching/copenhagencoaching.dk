@@ -11,11 +11,6 @@ nav {
   padding: 0 20vh;
 }
 
-/* @media (min-width: 1026px) {
-  nav {
-    margin-top: -7vh; 
-  }
-} */
 
 .navbar {
   width: inherit;
@@ -55,7 +50,6 @@ nav {
   .navbar-menu a,
   a {
     color: $black;
-   // font-size: 1.8vh;
     font-weight: 500;
     padding: 0;
   }
@@ -86,7 +80,6 @@ nav {
     max-width: 70px !important;
     text-transform: uppercase;
     border: none;
-   // font-size: 20px;
     margin-left: 5px;
   }
 }
@@ -106,9 +99,7 @@ nav {
   text-align: center;
   width: 2vh;
 
-  .fas {
-   // font-size: 1.8vh;
-  }
+
 }
 
 .show {
@@ -195,24 +186,17 @@ nav {
 
     .contact-button {
       background: none;
-     // font-size: 25px;
       color: $black;
     }
   }
 
-  .navbar .navbar-menu a,
-  .navbar a {
-   // font-size: 25px;
-  }
+
 
   .nav-icon {
     height: auto;
     
 
-    .fas {
-     // font-size: 4vh;
-    }
-  }
+
 
   .navbar-toggler:active,
   .navbar-toggler:focus {
@@ -271,7 +255,6 @@ left: 0;
     }
 
     .navbar-toggler {
-     // font-size: 20px;
       line-height: 1;
       background-color: transparent;
       border: 1px solid transparent;
@@ -280,14 +263,11 @@ left: 0;
       right: 0;
       text-align: right;
 
-      .fas {
-       // font-size: 20px;
-      }
+
     }
 
     .contact-button {
       background: none;
-     // font-size: 30px;
       color: $black;
     }
   }
@@ -317,8 +297,8 @@ left: 0;
     nav {
       margin-top: unset;
       li a {
-       // font-size: 2vh;
       }
     }
 }
 
+}

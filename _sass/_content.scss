@@ -33,7 +33,6 @@
       }
 
       h2 {
-        //font-size: 2.3vh;
         font-weight: 600;
       }
 
@@ -47,7 +46,6 @@
         text-decoration: none;
         color: $black;
         font-weight: 400;
-        //font-size: 1.8vh;
       }
       .contact-box {
         background-color: #F6F5F3;
@@ -55,7 +53,6 @@
 
         
         h4 {
-          //font-size: 2vh;
           font-weight: 500;
           font-family: 'Oswald', sans-serif;
           text-transform: uppercase;
@@ -78,7 +75,6 @@
           display: grid;
           grid-area: div;
           padding: 1vh;
-          //font-size: 1.8vh;
           font-family: 'Oswald', sans-serif;
           text-transform: uppercase;
           opacity: .5;
@@ -107,7 +103,6 @@
 .fundament-link {
   text-decoration: none;
   color: #000;
-  //font-size: 2vh;
   font-weight: 600 !important;
 }
 
@@ -134,23 +129,25 @@
         height: 30vh;
       }
 
+
       span {
 
       
 
         h1 {
           padding-top: 7.5vh;
+          line-height: 40px !important;
           font-weight: 500;
+          word-break: break-all;
         }
 
 
         h2 {
-          //font-size: 2vh;
+          word-break: break-all;
           line-height: 32px;
         }
 
         p, ul li {
-          //font-size: 1.8vh;
           line-height: 3.5vh;
         }
       }
@@ -181,8 +178,6 @@
         }
 
         h1 {
-         // font-size: 4vh;
-
           line-height: 5vh;
     
         }
