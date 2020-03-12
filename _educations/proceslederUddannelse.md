@@ -26,7 +26,7 @@ Du vil kunne samle organisationen og inspirere til den gode idé eller den ekstr
 
 Med en proceslederuddannelse fra CCC får du markedets stærkeste uddannelse i at planlægge, styre og fastholde processer. Uddannelsen henvender sig til ledere, konsulenter og medarbejdere, som har ansvar for og håndterer processer og forandringer i organisationen, internt eller eksternt.
 
-**Hvorfor skal du vælge Proceslederuddannelsen?**
+## Hvorfor skal du vælge Proceslederuddannelsen?
 
 Krav om konstant forandring, omorganisering, økonomisk pres m.v. skaber behov for professionel procesledelse. Ønsker om medinddragelse og samskabelse som en del af virksomhedens kultur, drift og udvikling kalder ligeledes på et højt niveau af procesledelse. God procesledelse kræver evner til at styre, rumme og stimulere menneskelig og faglig mangfoldighed i retning af fælles udvikling og mål.
 
@@ -37,7 +37,7 @@ Med proceslederuddannelsen bliver du bedre til:
 * at producere nye handlemuligheder
 * at skabe og sikre følgeskab.
 
-**Hvordan er uddannelsen bygget op?**
+## Hvordan er uddannelsen bygget op?
 
 På uddannelsen arbejder vi med processer fra tre forskellige perspektiver:
 
@@ -58,7 +58,7 @@ På uddannelsen arbejder vi desuden med en række centrale temaer:
 * frustration og modstand
 * Implementering
 
-**Hvad får du ud af uddannelsen?**
+## Hvad får du ud af uddannelsen?
 
 Proceslederuddannelsen består af 8 intense undervisningsdage (9.30-16.00). Imellem de enkelte kursusgange arbejder du aktivt i din egen organisation med et selvvalgt projekt.
 
