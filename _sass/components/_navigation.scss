@@ -40,11 +40,15 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 85vh;
+    // width: 85vh;
   }
 
   .navbar-nav-wider {
     width: 100vh;
+  }
+
+  li {
+    padding-left: 10px !important;
   }
 
   .navbar-menu a,
@@ -97,9 +101,6 @@ nav {
 .nav-icon {
   height: inherit;
   text-align: center;
-  width: 2vh;
-
-
 }
 
 .show {
@@ -180,6 +181,10 @@ nav {
       width: auto;
     }
 
+    li {
+      padding-left: 0 !important;
+    }
+
     .fas {
       color: $black;
     }
@@ -239,7 +244,7 @@ nav {
       position: fixed;
       height: 100vh;
       width: 100%;
-left: 0;
+      left: 0;
       background: #ffffff;
       align-content: center;
       align-items: center;

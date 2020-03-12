@@ -203,11 +203,6 @@ html {
 
   }
 
-
-
-
-
-
 }
 
 
@@ -216,6 +211,12 @@ html {
 @media (max-width: 1024px) {
   body {
     margin: 0;
+  }
+
+  .page {
+    .wrapper {
+      padding: 0 3vh 10vh 3vh;
+    }
   }
 
   .hero-banner {

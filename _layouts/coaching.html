@@ -18,10 +18,10 @@ layout: page
         <img class="content-img" src="{{ coaching.image }}" alt="#">
         <span>
             
-            <h1>{{ coaching.title }}</h1>
+            <h1 class="title">{{ coaching.title }}</h1>
             <p>{{ coaching.content }}</p>
             <div class="contact-box">
-            <h4>Interesseret i at høre mere? Ring eller skriv og få en snak med</h4>
+            <h5>Interesseret i at høre mere? Ring eller skriv og få en snak med</h5>
             <div class="contact">
             {% for employee in site.employees %}
             {% if employee.title == coaching.contact-person %}

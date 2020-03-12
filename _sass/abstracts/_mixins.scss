@@ -13,9 +13,25 @@
 }
 
 .title {
-    font-size: 2em;
+    font-size: 5em;
 }
 
 .banner-title {
-    font-size: 3em;
+    font-size: 6.8em;
 }
+
+@media only screen and (max-width: 500px) {
+
+    .title {
+        font-size: 2em;
+    }
+    
+    .banner-title {
+        font-size: 3em;
+    }
+
+}
+
+// p {
+//     font-size: 1.1em;
+// }

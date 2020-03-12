@@ -7,7 +7,7 @@ image: /images/coaching/c2.jpg
 contact-person: Kim Gørtz
 ---
 
-## Det reflekterede arbejdsliv og den organisatoriske tænksomhed.
+**Det reflekterede arbejdsliv og den organisatoriske tænksomhed.**
 
 Gennem den filosofiske samtale lærer du hvordan du tænker, hvornår du tænker bedst, og hvad du skal tænke for at styrke din praksis. Der arbejdes med metaplaner, refleksive variationer og kognitive perspektiveringer.
 

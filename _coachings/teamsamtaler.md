@@ -7,7 +7,7 @@ image: /images/coaching/c4.jpg
 contact-person: Andreas Bering
 ---
 
-## Få sammenhængskraft, klarhed og effektivitet i temaet
+**Få sammenhængskraft, klarhed og effektivitet i temaet**
 
 Teamcoaching gør det tydeligt hvad der binder teamet sammen og hvordan teamets sammenhængskraft og klarhed i opgaver kan skabe effektivitet. Når man arbejder som team skal man have en fælles platform, noget vi samles om. Noget der gør os stærkere sammen – som team og ikke blot som en flok individer.
 

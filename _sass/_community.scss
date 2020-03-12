@@ -69,7 +69,7 @@
         h1 {
             color: #000;
             grid-area: header;
-            line-height: 12.5vh;
+            // line-height: 12.5vh;
             margin: 5vh 0;
             font-weight: 500;
             font-family: 'Oswald', sans-serif;
@@ -97,7 +97,7 @@
                 .post-box-text {
                     z-index: 100;
 
-                    h2 {
+                    h1 {
                         color: #fff;
                         font-weight: 500;
                         padding: 0;
