@@ -1,6 +1,5 @@
 @mixin header-1 {
     color: $black;
-    line-height: 8.5vh;
     font-weight: 500;
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
@@ -8,7 +7,6 @@
 
 @mixin paragraph {
     width: 100%;
-    line-height: 3.5vh;
     color: $black;
 }
 
