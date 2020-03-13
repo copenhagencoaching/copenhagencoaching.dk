@@ -43,7 +43,7 @@ events:
     datoer: []
 
 ---
-**Du kan trygt melde dig til vores næste hold. Vi følger situationen og de løbende retningslinjer nøje for at undgå spredningen af covid-19. Hvis og såfremt, at covid-19 stadig står på, udskydes eller konverteres undervisningen til onlineforløb, således at alle får deres undervisning.**
+**Du kan trygt melde dig til vores næste hold. Vi følger situationen og de løbende retningslinjer nøje for at undgå spredningen af covid-19. Hvis og såfremt, at covid-19 stadig står på, udskydes eller konverteres dele af undervisningen til onlineforløb, således at alle får deres undervisning.**
 
 ### Hvorfor skal du vælge Master of Business Coaching?
 
