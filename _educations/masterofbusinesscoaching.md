@@ -32,13 +32,6 @@ events:
 - overskrift: København
   subcategory: true
   subcat:
-  - sub-cat-title: 24. februar 2020
-    datoer:
-    - 24.-25. februar
-    - 16.-17. marts
-    - 23.-24. april
-    - 18.-19. maj
-    - 22.-23. juni
   - sub-cat-title: 7. september 2020
     datoer:
     - 7.-8. september
@@ -46,6 +39,8 @@ events:
     - 26.-27. oktober
     - 5.-6. november
     - 16.-17. december
+  - sub-cat-title: Februar 2021 (datoer er på vej)
+    datoer: []
 
 ---
 **Du kan trygt melde dig til vores næste hold. Vi følger situationen og de løbende retningslinjer nøje for at undgå spredningen af covid-19. Hvis og såfremt, at covid-19 stadig står på, udskydes eller konverteres undervisningen til onlineforløb, således at alle får deres undervisning.**
