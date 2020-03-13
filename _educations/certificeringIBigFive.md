@@ -19,23 +19,21 @@ events:
   - 14. april
   - 29. april
 - overskrift: Vi kører 2 hold i efteråret 2020 - datoer er på vej.
+
 ---
+**Du kan trygt melde dig til vores næste hold. Vi følger situationen og de løbende retningslinjer nøje for at undgå spredningen af covid-19. Hvis og såfremt, at covid-19 stadig står på, udskydes eller konverteres undervisningen til onlineforløb, således at alle får deres undervisning.**
+
 Bliv klædt på til at bruge markedets bedst underbyggede personlighedstest i rekruttering og ledelses- og medarbejderudviklingssammenhæng.
 
 Big Five testen måler de 5 basale personlighedstræk (Big Five):
 
-- Neuroticism (N): Behov for stabilitet
-
-- Extraversion (E): Udadvendthed
-
-- Openness (O): Åbenhed
-
-- Agreeableness (A): Imødekommenhed
-
-- Conscientiousness (C): Samvittighedsfuldhed
+* Neuroticism (N): Behov for stabilitet
+* Extraversion (E): Udadvendthed
+* Openness (O): Åbenhed
+* Agreeableness (A): Imødekommenhed
+* Conscientiousness (C): Samvittighedsfuldhed
 
 Testen giver et overblik over, hvor en person befinder sig i forhold til et empirisk gennemsnit af personligheder, ledsaget af en kort beskrivelse. Teorien om The Big Five er det stærkest teoretisk og empirisk underbyggede bud på en klassificering af menneskers personlighedstræk. På certificeringskurset vil du blive klædt på til at skabe en givende og etisk dialog omkring testen. Du vil på kurset også blive certificeret i erhvervsrettet testning og en kognitiv færdighedstest. Viden om en persons kognitive kapacitet gør det muligt at få et indblik i, i hvilket omfang og tempo det enkelte individ er i stand til at løse problemstillinger og optage ny information.
-
 
 På CCCs 3 dages kursus i Big Five test certificering får du:
 
