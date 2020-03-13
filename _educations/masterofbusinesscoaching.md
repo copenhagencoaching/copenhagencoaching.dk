@@ -48,6 +48,8 @@ events:
     - 16.-17. december
 
 ---
+**Du kan trygt melde dig til vores næste hold. Vi følger situationen og de løbende retningslinjer nøje for at undgå spredningen af covid-19. Hvis og såfremt, at covid-19 stadig står på, udskydes eller konverteres undervisningen til onlineforløb, således at alle får deres undervisning.**
+
 ### Hvorfor skal du vælge Master of Business Coaching?
 
 Ønsker du at blive dygtig til at føre produktive og virkningsfulde dialoger? At kunne flytte både grupper og individer i en mere konstruktiv retning og derved forebygge stress, organisatorisk stagnation og udbrændthed? Så vælg uddannelsen: Master of Business Coaching (MBC).
@@ -68,16 +70,10 @@ MBC er en anerkendt international master. Uddannelsen er normeret til et studie�
 
 MBC’en består af 4 semestre, som du også kan tage individuelt. Et semester består af ca. 10 undervisningsdage med undervisning fra 9.30 – 16.00
 
-- Som MBC studerende får du:
-
-- Adgang til vidensportal, værktøjer, faglitteratur, artikler og cases
-
-- Big Five personlighedstest med individuel tilbagemelding
-
-- Mulighed for at blive certificeret i Big Five, så du selv kan anvende personlighedstest
-
-- Løbende supervision og et stærkt netværk
-
-- Coachingsamtaler med flere undervisere
-
-- Forplejning alle dage
+* Som MBC studerende får du:
+* Adgang til vidensportal, værktøjer, faglitteratur, artikler og cases
+* Big Five personlighedstest med individuel tilbagemelding
+* Mulighed for at blive certificeret i Big Five, så du selv kan anvende personlighedstest
+* Løbende supervision og et stærkt netværk
+* Coachingsamtaler med flere undervisere
+* Forplejning alle dage
