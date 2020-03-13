@@ -15,6 +15,8 @@ events:
 - overskrift: Datoer følger snarest
 
 ---
+**Du kan trygt melde dig til vores næste hold. Vi følger situationen og de løbende retningslinjer nøje for at undgå spredningen af covid-19. Hvis og såfremt, at covid-19 stadig står på, udskydes eller konverteres undervisningen til onlineforløb, således at alle får deres undervisning.**
+
 ### Hvorfor skal du vælge Filosofisk terapi?
 
 Arbejder du med mennesker i et terapeutisk øjemed (terapeut, coach, behandler, psykolog etc.) og er du nysgerrig på, hvordan filosofi kan bruges i din kontekst? Ønsker du at kunne arbejde med terapeutiske relationsmetoder, filosofisk begrebs- og værdiafklaring samt alternative terapeutiske metoder? Er du optaget af at kunne indgå i arbejdsrelationer med en endnu højere grad af indlevelse og med en endnu stærkere intuition? Ønsker du metodisk inspiration ift. nye og anderledes metodiske greb og øvelser, som du formentlig ikke tidligere har prøvet før.
@@ -25,14 +27,11 @@ Den filosofiske tradition rummer uanede muligheder i forhold til at styrke bevid
 
 ### Hvad får du ud af uddannelsen?
 
-Uddannelsen består af 8 hele undervisningsdage (9.30-16.00) fordelt på 3 måneder. Mellem hvert modul vil deltagerne skulle praktisere forskellige samtaleformer og dermed afprøve inspirationen fra kursusforløbet.  
+Uddannelsen består af 8 hele undervisningsdage (9.30-16.00) fordelt på 3 måneder. Mellem hvert modul vil deltagerne skulle praktisere forskellige samtaleformer og dermed afprøve inspirationen fra kursusforløbet.
 
 Som studerende får du:
 
-- Undervisning af erfarne undervisere med solid viden inden for psykologi og filosofi
-
-- Adgang til studieportal og litteratur
-
-- Forplejning alle dage
-
-- Inspiration til nye samtaleformer, til en anden analytisk forståelse, til en fordybelse i din egen praksis og væren.
+* Undervisning af erfarne undervisere med solid viden inden for psykologi og filosofi
+* Adgang til studieportal og litteratur
+* Forplejning alle dage
+* Inspiration til nye samtaleformer, til en anden analytisk forståelse, til en fordybelse i din egen praksis og væren.
