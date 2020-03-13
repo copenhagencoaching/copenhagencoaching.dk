@@ -14,7 +14,7 @@ hold_information: Kurset afholdes som skræddersyet forløb og planlægges efter
   med holdet.
 
 ---
-**Du kan trygt melde dig til vores næste hold. Vi følger situationen og de løbende retningslinjer nøje for at undgå spredningen af covid-19. Hvis og såfremt, at covid-19 stadig står på, udskydes eller konverteres dele af undervisningen til onlineforløb, således at alle får deres undervisning.**
+**Du kan trygt melde dig uddannelsen. Vi følger situationen og de løbende retningslinjer nøje for at undgå spredningen af covid-19. Hvis og såfremt, at covid-19 stadig står på, udskydes eller konverteres dele af undervisningen til onlineforløb, således at alle får deres undervisning.**
 
 ### Hvorfor skal du vælge Frustration skal ledes?
 
