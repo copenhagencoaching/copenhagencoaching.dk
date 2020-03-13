@@ -17,7 +17,7 @@ events:
 - overskrift: 4., 5. & 27. maj 2020
 
 ---
-**Du kan trygt melde dig til vores næste hold. Vi følger situationen og de løbende retningslinjer nøje for at undgå spredningen af covid-19. Hvis og såfremt, at covid-19 stadig står på, udskydes eller konverteres dele af undervisningen til onlineforløb, således at alle får deres undervisning.**
+**Du kan trygt melde dig til vores næste forløb. Vi følger situationen og de løbende retningslinjer nøje for at undgå spredningen af covid-19. Hvis og såfremt, at covid-19 stadig står på, udskydes eller konverteres dele af undervisningen til onlineforløb, således at alle får deres undervisning.**
 
 ### LIVSSPEJLET: OM AT HOPPE UD AF det mulige SELVBEDRAG OG IND I DEN NORMATIVITET, DER KOMMER FRA HJERTET
 
