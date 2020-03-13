@@ -17,9 +17,11 @@ events:
 - overskrift: 4., 5. & 27. maj 2020
 
 ---
+**Du kan trygt melde dig til vores næste hold. Vi følger situationen og de løbende retningslinjer nøje for at undgå spredningen af covid-19. Hvis og såfremt, at covid-19 stadig står på, udskydes eller konverteres undervisningen til onlineforløb, således at alle får deres undervisning.**
+
 ### LIVSSPEJLET: OM AT HOPPE UD AF det mulige SELVBEDRAG OG IND I DEN NORMATIVITET, DER KOMMER FRA HJERTET
 
-Velkommen til vores årlige masterclass i protreptik, som dette år (2020) sætter specielt fokus på gruppe-protreptikken. 
+Velkommen til vores årlige masterclass i protreptik, som dette år (2020) sætter specielt fokus på gruppe-protreptikken.
 
 Vi vil arbejde med de dynamikker og greb, som er særligt vigtige at have for øje og evne at praktisere, når denne filosofiske samtalekunst foregår i og med grupper (primært i størrelsesordenen: 3-6 stk.). Men vi vil også kigge på og arbejde med indstillingszonerne og dermed også med de 10 principper i protreptikken.
 Vi vil udfolde emner som fx generøsitetens gestus, det frie lejde, ingenmandslandet, refugiet, af-psykologiseringen og i det hele taget dyrke kapaciteten til at kunne holde begrebet/værdien svævende i ubestemthed.
@@ -31,6 +33,7 @@ Undervisningen foregår på Blegdamsvej 104C, 3. sal (baghuset th). Alle dage fr
 Er du medlem af CCC-community får du 15 % rabat (oplyses ved tilmelding).
 
 ### Om masterclasses:
+
 Hvert år sætter vi fokus på dele af protreptikken, som vi enten oplever kan være vanskeligt at bringe i spil i løbet af en protreptisk samtale eller som er for avanceret at arbejde med i vores almindelige protreptiske forløb. Så er du optaget af protreptikken og ønsker at arbejde endnu mere i dybden for at komme tættere på dig selv og dine værdier, er dette forløb rigtigt for dig.
 
 Masterclasses er baseret på en blanding af teoretiske oplæg og praktiske individuelle, samt gruppe protreptikker.
