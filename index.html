@@ -15,7 +15,7 @@ layout: default
     
         {% if text.link %}
         <div style="margin: auto">
-            <a class="button btn" href="{{ text.link }}" role="button">
+            <a class="button btn" href="{{ text.link }}" data-target="#contact-modal" data-toggle="modal" data-proofer-ignore role="button">
                 <p style="margin: 10px;">{{ text.link-text }}</p>
             </a>
         </div>
