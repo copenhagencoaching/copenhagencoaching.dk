@@ -17,6 +17,8 @@ events:
 - overskrift: 10-17 september 2020
 
 ---
+**NB: Du kan trygt melde dig den næste rejse. Vi følger situationen og de løbende retningslinjer nøje for at undgå spredningen af covid-19. Hvis det i sidste ende viser sig umuligt at rejse ud, har vi et dansk alternativ, som bliver mindst lige så intenst og lærerigt, som turen til Lesbos.**
+
 ### Hvorfor skal du vælge Ledelseskursus på Lesbos?
 
 Har du givet dig selv mulighed for at finde det der betyder mest for dig, når du leder? Ønsker du at kunne bevare overblikket og agere tydeligt. Oplever du at det kan være svært at udfordre med et åbent sind og samtidig skabe tryghed omkring dig? Synes du nogle gange det er svært at bevæge sig i det uforudsigelige eller medskabe noget gennem fællesskabets værdier? Nu har du muligheden for at tænke over det, mærke efter det og blive til det.
@@ -35,20 +37,12 @@ Arbejdet omkring værdier vil på turen ske igennem læren fra den filosofiske s
 
 Turen til Lesbos varer 7 fulde dage
 
-- Som deltager får du:
-
-- Et nøje planlagt undervisningsforløb
-
-- Litteratur og materialer
-
-- Samtaletræning med undervisere samt medkursister
-
-- Stærkt netværk
-
-- Ophold på et skønt hotel i byen Plomari
-
-- Forplejning
-
-- Flyrejse
-
-- Guide på turen
+* Som deltager får du:
+* Et nøje planlagt undervisningsforløb
+* Litteratur og materialer
+* Samtaletræning med undervisere samt medkursister
+* Stærkt netværk
+* Ophold på et skønt hotel i byen Plomari
+* Forplejning
+* Flyrejse
+* Guide på turen
