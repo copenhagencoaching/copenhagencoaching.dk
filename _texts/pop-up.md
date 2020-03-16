@@ -2,7 +2,7 @@
 page: pop-up
 title: Vi er her stadig!
 link: "/contact/"
-link-text: Kontakt os
+link-text: Tilmelding til CCC nyhedsbrev
 layout: default
 
 ---
