@@ -8,7 +8,7 @@ description: Deltag i den årlige Masterclass i protreptik. Hvert år tager vi f
   forskellige teoretiske temaer og afprøver dem med hinanden i praksis. Mød andre
   erfarne protreptikere og del dine erfaringer og indsigter.
 price: 12.000,- EKSKL. MOMS / 3 dage inklusiv frokost og lettere morgenforplejning
-pdf: 'false'
+pdf: ''
 event-title: Kommende hold
 location: Blegdamsvej 104C, 3. sal, baghuset th., 2100 København Ø
 special: false
