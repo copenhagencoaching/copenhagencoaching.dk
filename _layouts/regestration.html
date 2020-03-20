@@ -33,19 +33,26 @@ layout: page
                                 placeholder="Evt. kommentarer"></textarea>
                             <div class="checkbox">
                                 <input class="checkbox-box" type="checkbox" value="GDPR-check">
-                                <p>Jeg accepterer at mine informationer gemmes <br>
-                                    og lagres i virksomehedens interne GDPR register.</p>
+                                <p>{% for text in site.texts %}
+
+                                    {% if text.page == "registration" %}
+                                    {{ text.gdpr-text }}
+                                   {% endif %}
+                                    {% endfor %}</p>
                             </div>
                             <input class="green-button" type="submit" value="Tilmeld">
                         </form>
                     </div>
                 </div>
             </section>
-            <br>
-            <h6>HVAD SKER DER MED MIN PERSONDATA NÅR JEG TILMELDER MIG VIA TILMELDINGSFORMULAREN?</h6>
-            <p>Når du tilmelder dig en uddannelse via tilmeldingsformularen, ender din tilmelding i en sikret emailboks, som kun én medarbejder i CCC har adgang til. Derefter gemmes din data i vores kundedatabase som også er en sikker database efter de nye GDPR regler.</p>
-            <p>Vi bruger, efter din tilmelding, dine kontaktoplysninger til at tage kontakt til dig, ang. din tilmelding, og din faktureringsdata til at sende dig en faktura.</p>
-            <p>Ved at tilmelde dig en uddannelse siger du ikke ja til at modtage nyhedsmails eller andet materiale fra os.</p>
+            <div>
+         {% for text in site.texts %}
+
+         {% if text.page == "registration" %}
+         {{ text | markdownify }}
+        {% endif %}
+         {% endfor %}
+        </div>
         </div>
     </div>
 </div>
