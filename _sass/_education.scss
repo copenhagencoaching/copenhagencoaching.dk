@@ -58,18 +58,14 @@
                   width:10vh;
                   height:10vh;
                   object-fit: cover;
-                  float: left;
-                  object-position: top;
                 }
         
                 div {
                     a {
                         color: $green;
-                        word-break: break-all;
+                        font-size: .8rem;
                     }
-                  display: grid;
-                  grid-area: div;
-                  padding: 1vh;
+                    padding-top: 5px;
                   font-family: 'Oswald', sans-serif;
                   text-transform: uppercase;
                   user-select: none;
@@ -183,6 +179,23 @@
     .education {
         width: 100%;
 
+        .wrapper {
+            padding: 0 5vh 0 5vh;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr;
+
+            .education-content {
+                grid-column-start: unset;
+                grid-column-end: unset;
+            }
+        }
+
+        .facta-column {
+            grid-column-start: unset;
+            padding-bottom: 5vh;
+        }
+
         .col-12 {
             padding: 40px 0;
         }
@@ -219,17 +232,5 @@
 }
 
 @media (max-width: 468px) {
-    .education {
-        .wrapper {
-            padding: 0 5vh 0 5vh;
-            display: grid;
-            grid-template-columns: 1fr;
-            grid-template-rows: 1fr;
-        }
-
-        .facta-column {
-            grid-column-start: unset;
-            padding-bottom: 5vh;
-        }
-    }
+   
 }
