@@ -1,6 +1,6 @@
 ---
 title: Morten Bertelsen
-order: 3
+order: "3"
 portrait-image: /images/about/employees/morten-b.jpeg
 small-portrait-image: /images/about/small-images/morten-b-small.png
 call: 52 19 09 57

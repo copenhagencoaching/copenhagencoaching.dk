@@ -1,5 +1,5 @@
 ---
-order: 1
+order: "1"
 title: Master of Business Coaching
 image: "/images/coaching/ledelsessparring.jpg"
 contact-person: Frederikke Winther

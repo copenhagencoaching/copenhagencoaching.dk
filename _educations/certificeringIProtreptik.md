@@ -1,5 +1,5 @@
 ---
-order: 5
+order: "5"
 title: Certificering i Protreptik
 image: "/images/academy/certificering-i-protreptik.jpg"
 contact-person: Kim Gørtz

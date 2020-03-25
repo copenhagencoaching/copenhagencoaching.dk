@@ -1,6 +1,6 @@
 ---
 published: true
-order: 1
+order: "1"
 title: Master of Business Coaching
 image: /images/international/i1.jpg
 contact-person: Marie Arnbak

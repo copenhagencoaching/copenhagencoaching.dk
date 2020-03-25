@@ -10,7 +10,7 @@ special: true
 hold_eller_begivenheder: true
 events:
 - overskrift: Nye seminarer til foråret 2020 (datoer følger snarest)
-order: 2
+order: "2"
 
 ---
 **Du kan trygt melde dig forløbet. Vi følger situationen og de løbende retningslinjer nøje for at undgå spredningen af covid-19. Hvis og såfremt, at covid-19 stadig står på, udskydes eller konverteres dele af undervisningen til onlineforløb, således at alle får deres undervisning.**

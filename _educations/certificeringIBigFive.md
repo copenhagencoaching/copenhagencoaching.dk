@@ -1,5 +1,5 @@
 ---
-order: 6
+order: "6"
 title: Certificeringer i Big Five
 image: "/images/academy/b2.png"
 contact-person: Frederikke Winther

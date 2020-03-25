@@ -1,6 +1,6 @@
 ---
 published: true
-order: 3
+order: "3"
 title: Coaching
 image: /images/international/i3.jpg
 contact-person: Morten Bertelsen

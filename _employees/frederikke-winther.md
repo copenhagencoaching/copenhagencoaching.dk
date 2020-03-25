@@ -1,5 +1,5 @@
 ---
-order: 4
+order: "4"
 title: Frederikke Winther
 portrait-image: /images/about/employees/frederikke.png
 small-portrait-image: /images/about/small-images/frederikke-small.png

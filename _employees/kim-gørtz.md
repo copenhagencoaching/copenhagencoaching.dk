@@ -1,5 +1,5 @@
 ---
-order: 5
+order: "5"
 title: Kim Gørtz
 portrait-image: /images/about/employees/kim.png
 small-portrait-image: /images/about/small-images/kim-small.png

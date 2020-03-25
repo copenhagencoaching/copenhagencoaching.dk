@@ -1,5 +1,5 @@
 ---
-order: 4
+order: "4"
 title: Masterclass i Protreptik
 image: "/images/academy/b7.png"
 contact-person: Kim Gørtz

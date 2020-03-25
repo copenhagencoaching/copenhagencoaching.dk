@@ -1,7 +1,7 @@
 ---
 published: true
-id: 5
-order: 5
+id: "5"
+order: "5"
 title: Filosofiske samtaler
 image: /images/coaching/c2.jpg
 contact-person: Kim Gørtz

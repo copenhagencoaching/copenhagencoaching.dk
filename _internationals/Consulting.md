@@ -1,6 +1,6 @@
 ---
 published: true
-order: 2
+order: "2"
 title: Consulting
 image: /images/international/i2.jpg
 contact-person: Morten Bertelsen

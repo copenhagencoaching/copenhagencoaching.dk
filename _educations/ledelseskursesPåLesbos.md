@@ -1,5 +1,5 @@
 ---
-order: 3
+order: "3"
 title: Ledelseskursus på Lesbos
 image: "/images/academy/lesbos.jpg"
 contact-person: Kim Gørtz

@@ -2,7 +2,7 @@
 title: EMCC akkreditering
 header: EMCC akkreditering
 image: /images/fundament/f2.jpg
-order: 3
+order: "3"
 ---
 #### Det højeste niveau for en Business Coach uddannelse
 

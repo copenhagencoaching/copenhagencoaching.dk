@@ -1,5 +1,5 @@
 ---
-order: 7
+order: "7"
 title: Den offentlige lederuddannelse
 image: "/images/academy/b3.png"
 contact-person: Frederikke Winther

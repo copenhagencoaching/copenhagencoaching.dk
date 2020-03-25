@@ -2,8 +2,8 @@
 title: Big Five-samtale
 image: /images/coaching/BigFivesamtalerlille.jpeg
 published: true
-id: 7
-order: 7
+id: "7"
+order: "7"
 contact-person: Frederikke Winther
 ---
 

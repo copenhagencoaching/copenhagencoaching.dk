@@ -1,6 +1,6 @@
 ---
 published: true
-order: 4
+order: "4"
 title: Medarbejderudvikling
 image: /images/consulting/c1.jpg
 contact-person: Andreas Bering
