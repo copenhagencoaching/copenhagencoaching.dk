@@ -1,6 +1,6 @@
 ---
 title: Filosofisk Affirmation
-image: ''
+image: "/uploads/Canva - Back View Of A Young Man and Woman Facing The Sea.jpg"
 description: Om at stille spørgsmål … og finde svar…
 price: 6.500,- kr. ex. moms (Inkl. lettere forplejning og materialer)
 order: 3
