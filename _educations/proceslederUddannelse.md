@@ -7,7 +7,7 @@ price: 38.700,- EKSKL. MOMS (heri er inkluderet fuld forplejning, materialer med
 pdf: ''
 contact-person: Lars Nyborg
 event-title: Kommende hold
-order: 2
+order: "2"
 location: Blegdamsvej 104C, 3., baghuset th., 2100 København Ø
 special: false
 hold_eller_begivenheder: true
