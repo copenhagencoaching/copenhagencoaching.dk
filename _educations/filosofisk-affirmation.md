@@ -21,7 +21,7 @@ published: false
 ---
 **FILOSOFISK AFFIRMATION**
 
-**Om at stille spørgsmål … og finde svar…**
+> **Om at stille spørgsmål … og finde svar…**
 
 _Ved Kim Gørtz, filosof, Ph.d og seniorkonsulent i Copenhagen Coaching Center_
 
