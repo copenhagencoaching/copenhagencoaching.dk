@@ -19,9 +19,11 @@ fields:
 - type: text
   name: header
   label: header
-- type: number
-  name: order
-  label: order
 - type: text
   name: description
   label: description
+- name: order
+  type: text
+  config:
+    required: false
+  label: order

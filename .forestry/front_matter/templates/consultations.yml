@@ -2,9 +2,6 @@
 label: Consultations
 hide_body: false
 fields:
-- type: number
-  name: order
-  label: Rækkefølge
 - type: text
   name: title
   label: Titel
@@ -23,3 +20,8 @@ fields:
       file: 
       path: 
   label: Kontakt person
+- name: order
+  type: text
+  config:
+    required: false
+  label: Rækkefølge

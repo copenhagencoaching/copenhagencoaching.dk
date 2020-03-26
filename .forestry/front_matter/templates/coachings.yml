@@ -9,11 +9,6 @@ fields:
 - type: text
   name: title
   label: Titel
-- type: number
-  name: order
-  label: Rækkefølge
-  config:
-    required: true
 - type: file
   name: image
   label: Billed
@@ -29,3 +24,8 @@ fields:
       file: 
       path: 
   label: Kontakt person
+- name: order
+  type: text
+  config:
+    required: false
+  label: Rækkefølge

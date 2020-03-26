@@ -20,9 +20,6 @@ fields:
 - type: text
   name: call
   label: Telefon
-- type: number
-  name: order
-  label: Rækkefølge
 - type: text
   name: email
   label: Email
@@ -32,3 +29,8 @@ fields:
 - type: text
   name: linkedin
   label: LinkedIn
+- name: order
+  type: text
+  config:
+    required: false
+  label: Rækkefølge

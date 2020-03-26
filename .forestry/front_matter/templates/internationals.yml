@@ -8,9 +8,6 @@ fields:
 - type: file
   name: image
   label: Billed
-- type: number
-  name: order
-  label: Rækkefølge
 - name: contact-person
   type: select
   default: []
@@ -23,3 +20,9 @@ fields:
       file: 
       path: 
   label: Kontakt person
+- name: order
+  type: text
+  config:
+    required: false
+  label: Rækkefølge
+  description: Nummer på den rækkefølge uddannelsen skal ligge i
