@@ -7,7 +7,7 @@ price: 38.700,- EKSKL. MOMS (heri er inkluderet fuld forplejning, materialer med
 pdf: ''
 contact-person: Lars Nyborg
 event-title: Kommende hold
-order: "2"
+order: 2
 location: Blegdamsvej 104C, 3., baghuset th., 2100 København Ø
 special: false
 hold_eller_begivenheder: true
@@ -18,6 +18,12 @@ events:
   - 13., 14. og 15. maj 2020
   - 18. og 19. juni 2020
   - 27. august 2020
+- overskrift: 27. august 2020
+  dato:
+  - 27.-28. august 2020
+  - 28., 29. & 30. september 2020
+  - 28.-29. oktober 2020
+  - 25. november 2020
 
 ---
 **NB: Du kan trygt melde dig til vores næste hold. Vi følger situationen og de løbende retningslinjer nøje for at undgå spredningen af covid-19. Hvis og såfremt, at covid-19 stadig står på, udskydes eller konverteres dele af undervisningen til onlineforløb, således at alle får deres undervisning.**
