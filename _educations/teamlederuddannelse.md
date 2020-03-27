@@ -1,5 +1,5 @@
 ---
-title: TEAMLEDERUDDANNELSE
+title: Teamlederuddannelse
 image: ''
 description: For IT og teknologi-virksomheder
 price: ''
