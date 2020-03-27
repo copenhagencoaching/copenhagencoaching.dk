@@ -22,12 +22,6 @@ fields:
   label: Pris
   config:
     max: '100'
-- type: number
-  name: order
-  label: Rækkefølge
-  description: Nummer på den rækkefølge uddannelsen skal ligge i
-  config:
-    required: true
 - name: contact-person
   type: select
   default: ''
@@ -141,6 +135,11 @@ fields:
   config:
     maxSize: 250
   label: PDF
+- name: order
+  type: text
+  config:
+    required: false
+  label: Rækkefølge
 pages:
 - _educations/filosofisk-affirmation.md
 - _educations/masterclass-i-coaching.md
