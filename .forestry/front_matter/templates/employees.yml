@@ -35,6 +35,7 @@ fields:
     required: false
   label: Rækkefølge
 pages:
+- _employees/lars-nyborg.md
 - _employees/marie-arnbak.md
 - _employees/mette-mejhede.md
 - _employees/morten-bertelsen.md
