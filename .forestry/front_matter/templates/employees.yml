@@ -35,6 +35,8 @@ fields:
     required: false
   label: Rækkefølge
 pages:
+- _employees/frederikke-winther.md
+- _employees/kim-gørtz.md
 - _employees/lars-nyborg.md
 - _employees/marie-arnbak.md
 - _employees/mette-mejhede.md
