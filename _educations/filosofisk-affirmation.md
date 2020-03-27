@@ -16,7 +16,6 @@ hold_information: ''
 hold_eller_begivenheder: false
 events: []
 pdf: "/uploads/FILOSOFISK_AFFIRMATION_CCC.pdf"
-published: false
 
 ---
 **FILOSOFISK AFFIRMATION**
