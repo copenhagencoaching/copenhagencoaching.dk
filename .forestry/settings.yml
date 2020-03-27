@@ -52,6 +52,12 @@ sections:
   create: all
   templates:
   - posts
+- type: heading
+  label: "⚠ Developer only"
+- type: document
+  path: _config.yml
+  label: Jekyll configuration file
+  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
