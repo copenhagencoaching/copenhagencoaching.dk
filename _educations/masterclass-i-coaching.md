@@ -6,7 +6,7 @@ description: Denne masterclass henvender sig til dem, der arbejder med gruppe-su
   og organisatorisk kontekst, for selvstændige coaches, terapeuter samt behandlere
   indenfor den dialogiske branche.
 price: 12.000,- kr. ex. moms
-order: 5
+order: "5"
 contact-person: Kim Gørtz
 header: SELV-FORNEMMELSENS FIRE LAG I COACHING-PRAKSIS
 event-title: 'Datoer: 23.11, 30.11 og 7.12, 2020'
