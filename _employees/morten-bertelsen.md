@@ -1,12 +1,13 @@
 ---
 title: Morten Bertelsen
 order: "3"
-portrait-image: /images/about/employees/morten-b.jpeg
-small-portrait-image: /images/about/small-images/morten-b-small.png
+portrait-image: "/images/about/employees/morten-b.jpeg"
+small-portrait-image: "/images/about/small-images/morten-b-small.png"
 call: 52 19 09 57
 email: mb@copenhagencoaching.dk
 description: Seniorkonsulent
 linkedin: https://www.linkedin.com/in/bertelsenmorten/
+data-id: ''
 
 ---
 Morten har gennem de sidste 15 år arbejdet med udvikling af mennesker og organisationer i mange kontekster, herunder arbejdet med coachinguddannelser, lederudvikling, organisationsdesign og strategiimplementering, og også undervist på Københavns Universitet og Aalborg Universitet i teamudvikling og coaching.
