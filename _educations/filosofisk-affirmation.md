@@ -6,7 +6,7 @@ price: 6.500,- kr. ex. moms (Inkl. lettere forplejning og materialer)
 order: "3"
 contact-person: Kim Gørtz
 header: Filosofisk affirmation
-event-title: Start september 2020 - Slut maj 2020
+event-title: ''
 location: København
 special: false
 hold_information: ''
