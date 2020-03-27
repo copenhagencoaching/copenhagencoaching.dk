@@ -34,3 +34,5 @@ fields:
   config:
     required: false
   label: Rækkefølge
+pages:
+- _employees/mette-mejhede.md
