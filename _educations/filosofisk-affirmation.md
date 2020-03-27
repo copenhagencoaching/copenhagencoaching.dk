@@ -6,21 +6,21 @@ price: 6.500,- kr. ex. moms (Inkl. lettere forplejning og materialer)
 order: "3"
 contact-person: Kim Gørtz
 header: Filosofisk affirmation
-event-title: ''
+event-title: Affirmationshold 2020/2021
 location: København
 special: false
 hold_information: ''
 hold_eller_begivenheder: true
 events:
-- overskrift: Affirmationshold 2020/2021
+- overskrift: 'Opstart: Tirsdag 29. september 2020'
   dato:
-  - Tirsdag 29. september 2020 kl. 17-20
-  - Onsdag 4. november 2020 kl. 17-20
-  - Tirsdag 15. december 2020 kl. 17-20
-  - Tirsdag 26. januar 2021 kl. 17-20
-  - Tirsdag 2. marts 2021 kl. 17-20
-  - Tirsdag 6. april 2021 kl. 17-20
-  - Søndag 9. maj 2021 kl. 10-14
+  - Tirsdag 29. september kl. 17-20
+  - Onsdag 4. november kl. 17-20
+  - Tirsdag 15. december kl. 17-20
+  - Tirsdag 26. januar kl. 17-20
+  - Tirsdag 2. marts kl. 17-20
+  - Tirsdag 6. april kl. 17-20
+  - Søndag 9. maj kl. 10-14
   subcategory: false
   subcat: []
 pdf: "/uploads/FILOSOFISK_AFFIRMATION_CCC.pdf"
