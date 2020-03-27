@@ -16,18 +16,17 @@ hold_information: ''
 hold_eller_begivenheder: false
 events: []
 pdf: ''
-published: false
 
 ---
-> **MASTERCLASS I COACHING** 
+> **MASTERCLASS I COACHING**
 >
 > **SELV-FORNEMMELSENS FIRE LAG I COACHING-PRAKSIS**
 >
 > **Om at arbejde med livshistorier og følelsesmæssig tilknytning**
 >
-> I denne masterclass giver vi dig muligheden for at blive opdateret på dit felt i en travl hverdag. I en vekselvirkning mellem teori og praktiske øvelser, vil vi bl.a. arbejde i spændingsfeltet mellem den meta-kognitive psykologi (primært Nicole Rosenberg) og tilknytnings-teorien (specielt adult assesment interview). 
+> I denne masterclass giver vi dig muligheden for at blive opdateret på dit felt i en travl hverdag. I en vekselvirkning mellem teori og praktiske øvelser, vil vi bl.a. arbejde i spændingsfeltet mellem den meta-kognitive psykologi (primært Nicole Rosenberg) og tilknytningsteorien (specielt adult assesment interview).
 >
-> Her udforskes eksempelvis coachees fortællerstil ud fra følgende parametre: 
+> Her udforskes eksempelvis coachees fortællerstil ud fra følgende parametre:
 >
 > A) den måde, hvorpå livshistorien fortælles; B) hvor meget der fortælles; C) hvilken sammenhæng der er i fortællingen; D) hvor frit og med hvilke følelsesmæssige nuancer der fortælles.
 >
