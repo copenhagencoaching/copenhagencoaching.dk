@@ -1,12 +1,13 @@
 ---
 title: Marie Arnbak
 order: "9"
-portrait-image: /images/about/employees/marie.png
-small-portrait-image: /images/about/small-images/marie-small.png
+portrait-image: "/images/about/employees/marie.png"
+small-portrait-image: "/images/about/small-images/marie-small.png"
 call: 26 18 03 00
 email: ma@copenhagencoaching.dk
 description: Konsulent
 linkedin: https://www.linkedin.com/in/marie-arnbak-hartzberg-44a7171/
+data-id: ''
 
 ---
 Marie har siden sin studietid på CBS været optaget af samtaler, dialogisk kapacitet og udvikling gennem refleksion. Først som studievejleder og siden i jobs hos Vestas og Novo Nordisk, hvor omdrejningspunktet altid har været kommunikation og medarbejderudvikling.
