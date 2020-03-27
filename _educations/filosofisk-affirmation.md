@@ -5,10 +5,7 @@ description: Om at stille spørgsmål … og finde svar…
 price: 6.500,- kr. ex. moms (Inkl. lettere forplejning og materialer)
 order: "3"
 contact-person: Kim Gørtz
-header: 'Konceptet retter sig mod unge (13-15-årige), som gerne vil affirmeres indenfor
-  det filosofiske univers, som et alternativ til eller som supplement til den kristelige
-  konfirmation. Forløbet har et dannelsesperspektiv, som knytter sig til den etiske
-  og tankemæssige tradition i den vestlige, filosofiske kulturhistorie. '
+header: Filosofisk affirmation
 event-title: Start september 2020 - Slut maj 2020
 location: København
 special: false
@@ -18,36 +15,31 @@ events: []
 pdf: "/uploads/FILOSOFISK_AFFIRMATION_CCC.pdf"
 
 ---
-**FILOSOFISK AFFIRMATION**
+**At stille spørgsmål … og finde svar…**
 
-> **Om at stille spørgsmål … og finde svar…**
+Dette tilbud retter sig mod unge (13-15-årige), som gerne vil affirmeres indenfor det filosofiske univers, som et alternativ eller et supplement til den kristne konfirmation. 
 
-_Ved Kim Gørtz, filosof, Ph.d og seniorkonsulent i Copenhagen Coaching Center_
+Forløbet er en forberedelse til voksenlivet og foregår på et reflekteret grundlag, som åbner for tanker og viden omkring, hvad det vil sige at være til som menneske, sammen og hver for sig. Forløbet har et dannelsesperspektiv, som knytter sig til den etiske og tankemæssige tradition i den vestlige, filosofiske kulturhistorie.
 
-Dette tilbud retter sig mod unge (13-15-årige), som gerne vil affirmeres indenfor det filosofiske univers, som et alternativ til eller som supplement til den kristelige konfirmation. Forløbet har et dannelsesperspektiv, som knytter sig til den etiske og tankemæssige tradition i den vestlige, filosofiske kulturhistorie. 
-
-Forløbet er således en forberedelse til voksenlivet, og foregår på et reflekteret grundlag, som åbner for tanker og viden omkring, hvad det vil sige at være til som menneske, sammen og hver for sig.
-
-Møderne består gennemgående af faglige inputs og reflekterende dialoger i par, grupper eller på holdbasis. Vi vil bl.a arbejde med film og dagbøger. Det forventes at deltagerne er aktive. 
+Møderne består gennemgående af faglige inputs og reflekterende dialoger i par, grupper eller på holdbasis. Vi vil bl.a arbejde med film og dagbøger. Det forventes at deltagerne er aktive.
 
 Deltagerne modtager et filosofisk affirmationsbevis efter endt forløb.
 
-  
 Bekræftelsen i den filosofiske affirmation handler om fire følgende temaer i forhold til “kærligheden til indsigt” (Philosophia). Dette munder ud i den endelige rituelle affirmation på forløbets sidste gang.
 
-1. **OREXIS**
+**Appetit og nysgerrighed på livet**
 
 Det vil blive bekræftet, at den filosofiske affirmand har appetit på livet, og derved udtrykker nysgerrighed omkring tilværelsens forskellige aspekter (Græsk; Orexis). Her handler det om at vise interesse og være undrende.
 
-2. **OUSIA**
+**Søgen efter det betydningsfulde i tilværelsen**
 
-Det vil blive bekræftet, at den filosofiske affirmand søger efter det vigtige og dermed udtrykker væsentlighed om tilværelsens forskellige aspekter (Græsk: Ousia). Her handler det om at vide noget om betydningsfulde og substantielle.
+Det vil blive bekræftet, at den filosofiske affirmand søger efter det vigtige og dermed udtrykker væsentlighed om tilværelsens forskellige aspekter (Græsk: Ousia). Her handler det om at vide noget om det betydningsfulde og substantielle.
 
-3. **THEORIA**
+**Fordybelse i ideernes verden**
 
 Det vil blive bekræftet, at den filosofiske affirmand har ideer og kan udtrykke abstrakte forestillinger om tilværelsens forskellige aspekter (Græsk: Theoria). Her handler det om at kunne være i fordybelsen og refleksionen.
 
-4. **THAUMAZEIN**
+**At forfølge det ukendte og vente det uvante** 
 
 Det vil blive bekræftet, at den filosofiske affirmand søger anderledesheden, og derved kan skabe åbninger til nye perspektiver i tilværelsens forskellige aspekter (Græsk: Thaumazein). Her handler det om at muliggøre “miraklet” og finde det vid-underlige.
 
@@ -91,6 +83,6 @@ Der er begrænsede pladser: Max 20 stk. Tilmelding senest: 01.08. 2020)
 
 Kontakt Kim Gørtz for nærmere info og tilmeld via: [kg@copenhagencoaching.dk](mailto:kg@copenhagencoaching.dk) eller på tlf.: +45 24664078 Pris: 6500 kr ex moms (inklusive materialer og lettere forplejning)
 
-Tidsperiode: Start september, 2020 Slut maj 2021 
+Tidsperiode: Start september, 2020 Slut maj 2021
 
 Dag 1-6: Kl. 17.00 - 20.00 / Dag 7: Kl. 10.00 - Kl. 14.00
