@@ -7,6 +7,7 @@ call: 40 13 69 68
 email: mp@copenhagencoaching.dk
 description: Associeret partner
 linkedin: https://www.linkedin.com/in/dr-mult-morten-paustian-230321/
+data-id: ''
 published: false
 
 ---
