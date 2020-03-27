@@ -1,7 +1,7 @@
 ---
 title: Filosofisk Affirmation
 image: "/uploads/Canva - Back View Of A Young Man and Woman Facing The Sea.jpg"
-description: Om at stille spørgsmål … og finde svar…
+description: At stille spørgsmål … og finde svar…
 price: 6.500,- kr. ex. moms (Inkl. lettere forplejning og materialer)
 order: "3"
 contact-person: Kim Gørtz
@@ -26,9 +26,7 @@ events:
 pdf: "/uploads/FILOSOFISK_AFFIRMATION_CCC.pdf"
 
 ---
-**At stille spørgsmål … og finde svar…**
-
-Dette tilbud retter sig mod unge (13-15-årige), som gerne vil affirmeres indenfor det filosofiske univers, som et alternativ eller et supplement til den kristne konfirmation. 
+Filosofisk affirmation er for unge (13-15-årige), som gerne vil _affirmeres_ indenfor det filosofiske univers, som et alternativ eller et supplement til den kristne konfirmation.
 
 Forløbet er en forberedelse til voksenlivet og foregår på et reflekteret grundlag, som åbner for tanker og viden omkring, hvad det vil sige at være til som menneske, sammen og hver for sig. Forløbet har et dannelsesperspektiv, som knytter sig til den etiske og tankemæssige tradition i den vestlige, filosofiske kulturhistorie.
 
@@ -50,11 +48,11 @@ Det vil blive bekræftet, at den filosofiske affirmand søger efter det vigtige 
 
 Det vil blive bekræftet, at den filosofiske affirmand har ideer og kan udtrykke abstrakte forestillinger om tilværelsens forskellige aspekter (Græsk: Theoria). Her handler det om at kunne være i fordybelsen og refleksionen.
 
-**At forfølge det ukendte og vente det uvante** 
+**At forfølge det ukendte og vente det uvante**
 
 Det vil blive bekræftet, at den filosofiske affirmand søger anderledesheden, og derved kan skabe åbninger til nye perspektiver i tilværelsens forskellige aspekter (Græsk: Thaumazein). Her handler det om at muliggøre “miraklet” og finde det vid-underlige.
 
-Der er et begrænset antal pladser: Max 20 stk. 
+Der er et begrænset antal pladser: Max 20 stk.
 
 Tilmelding senest: 1. august 2020
 
