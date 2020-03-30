@@ -16,6 +16,7 @@ hold_information: ''
 hold_eller_begivenheder: false
 events: []
 pdf: ''
+published: false
 
 ---
 > **MASTERCLASS I COACHING**
