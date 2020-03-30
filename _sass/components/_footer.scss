@@ -1,8 +1,9 @@
 footer {
   height: auto;
   width: 100%;
+  color: $white;
   padding: 10vh 20vh;
-  background-color: $white;
+  background-color: #222222;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -20,19 +21,23 @@ footer {
     user-select: none;
   }
 
-  a,
-  p {
-    display: flex;
-    color: $black;
-    margin-bottom: 0;
-    opacity: .7;
-    transition: .2s all ease-in;
+  a {
 
     &:hover {
-      text-decoration: none;
-      opacity: 1;
       color: inherit;
+      opacity: .7;
+      transition: .2s all ease-in;
+      text-decoration: none;
     }
+  }
+  a,
+  p {
+    font-size: 1rem;
+    display: flex;
+    color: $white;
+    margin-bottom: 0;
+
+   
   }
 
   p {
