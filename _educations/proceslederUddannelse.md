@@ -12,12 +12,6 @@ location: Blegdamsvej 104C, 3., baghuset th., 2100 København Ø
 special: false
 hold_eller_begivenheder: true
 events:
-- overskrift: 20. april 2020
-  dato:
-  - 20. og 21. april 2020
-  - 13., 14. og 15. maj 2020
-  - 18. og 19. juni 2020
-  - 27. august 2020
 - overskrift: 27. august 2020
   dato:
   - 27.-28. august 2020
@@ -26,8 +20,6 @@ events:
   - 25. november 2020
 
 ---
-**NB: Du kan trygt melde dig til vores næste hold. Vi følger situationen og de løbende retningslinjer nøje for at undgå spredningen af covid-19. Hvis og såfremt, at covid-19 stadig står på, udskydes eller konverteres dele af undervisningen til onlineforløb, således at alle får deres undervisning.**
-
 Du vil kunne mestre den sunde og veldesignede proces, der giver jeres arbejde retning og mening.
 
 Du vil kunne samle organisationen og inspirere til den gode idé eller den ekstra indsats.
