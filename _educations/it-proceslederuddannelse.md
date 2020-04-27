@@ -19,7 +19,6 @@ events:
   subcat: []
 pdf: ''
 order: ''
-published: false
 
 ---
 I en tid, hvor IT systemer er en integreret del af ethvert arbejdsliv, hvor morgendagen er svær at forudsige, og forandringer og dermed øget kompleksitet er blevet et vilkår, er der mere end nogensinde brug for personer, der ikke bare kan lede processer, men også lykkes med dem. Det er således ikke kun vigtigt at have gode IT-systemer og udvikle dem i den rigtige retning, det er lige så afgørende om virksomheden formår at omsætte og understøtte systemerne til gode og meningsfulde arbejdsprocesser for virksomheden, såvel som de involverede parter. Uddannelsen har således fokus på, hvordan du bevæger dig fra at være projektleder til at mestre procesledelse, med et tydeligt fokus på opgaveløsningen i virksomheden.
