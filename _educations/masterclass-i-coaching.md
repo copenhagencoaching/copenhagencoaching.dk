@@ -23,7 +23,7 @@ events:
 pdf: ''
 
 ---
-> ##### SELV-FORNEMMELSENS FIRE LAG I COACHING-PRAKSIS
+> ### SELV-FORNEMMELSENS FIRE LAG I COACHING-PRAKSIS
 >
 > **Om at arbejde med livshistorier og følelsesmæssig tilknytning**
 >
