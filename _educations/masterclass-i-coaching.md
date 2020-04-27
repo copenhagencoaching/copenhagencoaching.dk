@@ -2,7 +2,7 @@
 title: Masterclass i Coaching
 image: "/uploads/IMG_9683.jpg"
 description: Deltag i den årlige Masterclass i coaching, hvor vi tager forskellige
-  teoretiske temaer op og afprøver dem med hinanden i praksis.
+  teoretiske temaer op, udfolder dem og afprøver dem sammen i praksis.
 price: 12.000,- kr. ex. moms
 order: "5"
 contact-person: Kim Gørtz
