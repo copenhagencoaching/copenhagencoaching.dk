@@ -1,7 +1,8 @@
 ---
 title: Masterclass i Coaching
 image: "/uploads/IMG_9683.jpg"
-description: SELV-FORNEMMELSENS FIRE LAG I COACHING-PRAKSIS
+description: Deltag i den årlige Masterclass i coaching, hvor vi tager forskellige
+  teoretiske temaer op og afprøver dem med hinanden i praksis.
 price: 12.000,- kr. ex. moms
 order: "5"
 contact-person: Kim Gørtz
@@ -22,6 +23,8 @@ events:
 pdf: ''
 
 ---
+> ##### SELV-FORNEMMELSENS FIRE LAG I COACHING-PRAKSIS
+>
 > **Om at arbejde med livshistorier og følelsesmæssig tilknytning**
 >
 > I denne masterclass giver vi dig muligheden for at blive opdateret på dit felt i en travl hverdag. I en vekselvirkning mellem teori og praktiske øvelser, vil vi bl.a. arbejde i spændingsfeltet mellem den meta-kognitive psykologi (primært Nicole Rosenberg) og tilknytningsteorien (specielt adult assesment interview).
