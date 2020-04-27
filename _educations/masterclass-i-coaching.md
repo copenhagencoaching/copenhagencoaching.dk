@@ -37,12 +37,12 @@ pdf: ''
 >
 > Efter at have deltaget i denne master class, vil du opleve at have fået:
 >
-> 1. Yderligere supplement til din coachende/terapeutiske praksis i form af nye teoretiske og praktiske indsigter og kompetencer
-> 2. Udvidet og kvalificeret dit refleksive råderum i en samtale
-> 3. Et skærpet blik for dig selv som redskab og resonansrum for din coachee
-> 4. Øget forståelsen og styrket dit fundament, når arbejdet foregår i krydsfeltet mellem det kognitive og det psykodynamiske univers
-> 5. Praktisk træning i at iagttage og intervenere passende ift. de emotioner og indsigter, der opstår gennem en samtale
-> 6. Tilføjet et ekstra lag i din analytiske kapacitet, når din coachee udfolder sin livshistorie (herunder give dig en tydelig fornemmelse for kroppens betydning)
-> 7. Flere konkrete situationseksempler og demonstrationer på, hvordan man anvender konkrete samtaleværktøjer
-> 8. Mulighed for at få sparring på egne problemstillinger og dilemmaer fra eksperter og ligesindede og danne nye faglige netværk
-> 9. Inspiration og indsigt i de nyeste trends indenfor coaching feltet
+> * Yderligere supplement til din coachende/terapeutiske praksis i form af nye teoretiske og praktiske indsigter og kompetencer
+> * Udvidet og kvalificeret dit refleksive råderum i en samtale
+> * Et skærpet blik for dig selv som redskab og resonansrum for din coachee
+> * Øget forståelsen og styrket dit fundament, når arbejdet foregår i krydsfeltet mellem det kognitive og det psykodynamiske univers
+> * Praktisk træning i at iagttage og intervenere passende ift. de emotioner og indsigter, der opstår gennem en samtale
+> * Tilføjet et ekstra lag i din analytiske kapacitet, når din coachee udfolder sin livshistorie (herunder give dig en tydelig fornemmelse for kroppens betydning)
+> * Flere konkrete situationseksempler og demonstrationer på, hvordan man anvender konkrete samtaleværktøjer
+> * Mulighed for at få sparring på egne problemstillinger og dilemmaer fra eksperter og ligesindede og danne nye faglige netværk
+> * Inspiration og indsigt i de nyeste trends indenfor coaching feltet
