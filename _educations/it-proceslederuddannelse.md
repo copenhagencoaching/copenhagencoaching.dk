@@ -1,10 +1,10 @@
 ---
-title: IT proceslederuddannelse
+title: IT proceslederuddannelsen
 image: ''
 description: Tænk komplekst, kommunikér enkelt
 price: 14.000 kr ekskl. moms (fuld forplejning og materialer er inkluderet)
 contact-person: Morten Bertelsen
-header: IT proceslederuddannelse
+header: IT proceslederuddannelsen
 event-title: Kommende forløb
 location: Blegdamsvej 104C (baghuset), 2100 Kbh Ø
 special: false
