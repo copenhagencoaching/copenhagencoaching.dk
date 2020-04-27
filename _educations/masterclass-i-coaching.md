@@ -1,6 +1,6 @@
 ---
 title: Masterclass i Coaching
-image: ''
+image: "/uploads/IMG_9683.jpg"
 description: Denne masterclass henvender sig til dem, der arbejder med gruppe-supervision,
   teamcoaching samt individuelle forløb. Forløbet giver mening ift. en ledelsesmæssig
   og organisatorisk kontekst, for selvstændige coaches, terapeuter samt behandlere
