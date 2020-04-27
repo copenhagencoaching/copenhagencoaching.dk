@@ -1,14 +1,11 @@
 ---
 title: Masterclass i Coaching
 image: "/uploads/IMG_9683.jpg"
-description: Denne masterclass henvender sig til dem, der arbejder med gruppe-supervision,
-  teamcoaching samt individuelle forløb. Forløbet giver mening ift. en ledelsesmæssig
-  og organisatorisk kontekst, for selvstændige coaches, terapeuter samt behandlere
-  indenfor den dialogiske branche.
+description: SELV-FORNEMMELSENS FIRE LAG I COACHING-PRAKSIS
 price: 12.000,- kr. ex. moms
 order: "5"
 contact-person: Kim Gørtz
-header: SELV-FORNEMMELSENS FIRE LAG I COACHING-PRAKSIS
+header: Masterclass i Coaching
 event-title: 'Datoer: 23.11, 30.11 og 7.12, 2020'
 location: Copenhagen Coaching Center, Blegdamsvej 104, 2100 København Ø.
 special: false
@@ -18,13 +15,9 @@ events: []
 pdf: ''
 
 ---
-> **MASTERCLASS I COACHING**
->
-> **SELV-FORNEMMELSENS FIRE LAG I COACHING-PRAKSIS**
->
 > **Om at arbejde med livshistorier og følelsesmæssig tilknytning**
 >
-> I denne masterclass giver vi dig muligheden for at blive opdateret på dit felt i en travl hverdag. I en vekselvirkning mellem teori og praktiske øvelser, vil vi bl.a. arbejde i spændingsfeltet mellem den meta-kognitive psykologi (primært Nicole Rosenberg) og tilknytningsteorien (specielt adult assesment interview). 
+> I denne masterclass giver vi dig muligheden for at blive opdateret på dit felt i en travl hverdag. I en vekselvirkning mellem teori og praktiske øvelser, vil vi bl.a. arbejde i spændingsfeltet mellem den meta-kognitive psykologi (primært Nicole Rosenberg) og tilknytningsteorien (specielt adult assesment interview).
 >
 > Her udforskes eksempelvis coachees fortællerstil ud fra følgende parametre: A) den måde, hvorpå livshistorien fortælles; B) hvor meget der fortælles; C) hvilken sammenhæng der er i fortællingen; D) hvor frit og med hvilke følelsesmæssige nuancer der fortælles. Denne iagttagelsestræning og dertilhørende interventionsreaktion vil blive koblet med forskellige tilknytningsmønstre (fra autonom, sikker tilknytning til utryg og undvigende), og placeres ift. fire menneskelige grundfølelser; glæde, vrede, sorg og angst med henblik på at kvalificere egen resonans, udforske selvfornemmelsens fire lag (jvf. Daniel Stern) samt at opnå øget indsigt i eget tilknytningsmønster.
 >
