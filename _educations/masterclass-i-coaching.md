@@ -6,12 +6,19 @@ price: 12.000,- kr. ex. moms
 order: "5"
 contact-person: Kim Gørtz
 header: Masterclass i Coaching
-event-title: 'Datoer: 23.11, 30.11 og 7.12, 2020'
+event-title: Næste masterclass
 location: Copenhagen Coaching Center, Blegdamsvej 104, 2100 København Ø.
 special: false
 hold_information: ''
-hold_eller_begivenheder: false
-events: []
+hold_eller_begivenheder: true
+events:
+- overskrift: Efterår 2020
+  dato:
+  - 23. november
+  - 30. november
+  - 7. december
+  subcategory: false
+  subcat: []
 pdf: ''
 
 ---
