@@ -15,7 +15,8 @@ layout: page
       <h1>Faglige arrangementer</h1>
 
       {% for event in page.events %}
-      <h3>{{ event.date }}</h3>
+      <h3>{{ event.overskrift }}</h3>
+      <h5>{{ event.date }}</h5>
       <p>{{ event.text }}</p>
       {% endfor %}
     </section>
