@@ -66,7 +66,7 @@ manuscript:
             command: git config user.email
         - run:
             caption: Add a remote that has permissions to write
-            command: git remote add stage https://$PHLOW_GHTOKEN@github.com/$PLAY_TARGET_GH_REPO.git
+            command: git remote add stage https://$GHTOKEN@github.com/$PLAY_TARGET_GH_REPO.git
             die_on_err: yes
         - run:
             command: git add -A .
@@ -89,7 +89,7 @@ manuscript:
       lines:
         - run:
             caption: Add a remote that has permissions to write
-            command: git remote add integrated https://$PHLOW_GHTOKEN@github.com/$PLAY_REPOSITORY.git
+            command: git remote add integrated https://$GHTOKEN@github.com/$PLAY_REPOSITORY.git
             die_on_err: yes
         - run:
             caption: Push current branch to GitHub
