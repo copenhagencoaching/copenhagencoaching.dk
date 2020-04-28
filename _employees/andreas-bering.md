@@ -10,6 +10,7 @@ linkedin: https://www.linkedin.com/in/andreas-bering-4a554b5/
 data-id: ''
 
 ---
+
 Andreas mestrer om nogen at perspektivere teorien, så den bliver levende og omsættelig i praksis. Dette, kombineret med Andreas’ evne til at fange og indkredse det væsentlige, gør, at man altid føler sig inspireret af ham.
 
 Humor og kreativitet er bærende elementer i Andreas’ arbejde. Andreas forstår at skabe en kombination af lethed og dybde, hvilket betyder, at samarbejde og samtaler med Andreas altid bliver en sjov oplevelse, som samtidig giver mulighed for refleksion og nytænkning.   
