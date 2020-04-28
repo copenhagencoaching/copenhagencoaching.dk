@@ -35,3 +35,5 @@ fields:
 - type: list
   name: events
   label: events
+pages:
+- _pages/community.md
