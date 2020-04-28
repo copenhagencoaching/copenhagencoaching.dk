@@ -108,20 +108,26 @@
 }
 
 @media (max-width: 1800px) {
+  .content {
+  .contact {
+    img {
+      float: none !important;
+    }
+
+    div {
+      padding-left: 0 !important;
+    }
+
+  }
+}
+}
+
+@media (max-width: 1300px) {
 
   .content {
     .wrapper {
       .contact-box {
-        .contact {
-          img {
-            float: none !important;
-          }
 
-          div {
-            padding-left: 0 !important;
-          }
-
-        }
       }
       .content-img {
         width: 30vh;
@@ -151,7 +157,7 @@
       .content-img {
         width: 100%;
         grid-column-end: -1;
-        height: 30vh;
+        height: 40vh;
       }
 
 
