@@ -13,12 +13,9 @@ location: Lesbos
 special: false
 hold_eller_begivenheder: true
 events:
-- overskrift: 4-11 juni 2020
 - overskrift: 10-17 september 2020
 
 ---
-**NB: Du kan trygt melde dig den næste rejse. Vi følger situationen og de løbende retningslinjer nøje for at undgå spredningen af covid-19. Hvis det i sidste ende viser sig umuligt at rejse ud, har vi et dansk alternativ, som bliver mindst lige så intenst og lærerigt, som turen til Lesbos.**
-
 ### Hvorfor skal du vælge Ledelseskursus på Lesbos?
 
 Har du givet dig selv mulighed for at finde det der betyder mest for dig, når du leder? Ønsker du at kunne bevare overblikket og agere tydeligt. Oplever du at det kan være svært at udfordre med et åbent sind og samtidig skabe tryghed omkring dig? Synes du nogle gange det er svært at bevæge sig i det uforudsigelige eller medskabe noget gennem fællesskabets værdier? Nu har du muligheden for at tænke over det, mærke efter det og blive til det.

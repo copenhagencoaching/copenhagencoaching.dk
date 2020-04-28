@@ -21,13 +21,6 @@ events:
     - 6.-7. oktober
     - 2.-3. november
     - 2.-3. december
-  - sub-cat-title: 5. februar 2020
-    datoer:
-    - 5.-6. februar
-    - 2.-3. marts
-    - 25.-26. marts
-    - 27.-28. april
-    - 11.-12. maj
   overskrift: Vejle
 - overskrift: København
   subcategory: true
