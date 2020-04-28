@@ -1,6 +1,6 @@
 ---
 title: IT proceslederuddannelsen
-image: "/uploads/thumbnail_large-1(4).jpg"
+image: "/uploads/thumbnail_Canva - Person Holding White Tablet Computer.jpg"
 description: Tænk komplekst, kommunikér enkelt
 price: 14.000 kr ekskl. moms (fuld forplejning og materialer er inkluderet)
 contact-person: Morten Bertelsen
