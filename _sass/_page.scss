@@ -40,6 +40,7 @@ html {
     padding: 0 20vh 0 20vh;
     background-color: #F6F5F3;
     text-align: center;
+    
 
 
     .wrapper {
@@ -69,7 +70,7 @@ html {
   }
 
   .row {
-    margin: 75px auto;
+    margin: 0 auto;
   }
 
   .intro {
@@ -100,23 +101,37 @@ html {
 // Hero image
 
 .hero-banner {
-  padding: 5vh 20vh 5vh 20vh;
+
+  padding: 5vh 20vh 0 20vh;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  min-height: 75vh;
+min-height: 200px;
+  max-height: 75vh;
   column-gap: 4vh;
-
+  overflow: hidden;
   .hero-banner-text {
     display: grid;
     align-items: center;
     align-content: center;
+    overflow: hidden;
+    
 
     h1 {
     color: #000;
     font-weight: 500;
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
+/*     overflow-wrap: break-word;
+    word-wrap: break-word; */
+    max-width: 70%;
+  
+
+    @include for-ipad-pro {
+      max-width: 70%;
     }
+    }
+
+
 
     p {
       @include paragraph;
@@ -126,14 +141,15 @@ html {
   .hero-banner-image {
 
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    height: 400px;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 
     .hero-image {
-      grid-row-start: 2;
-      grid-row-end: 7;
-      grid-column-start: 2;
-      grid-column-end: 7;
+      grid-row-start: 1;
+      grid-row-end: 5;
+      grid-column-start: 3;
+      grid-column-end: 6;
 
       img {
         object-fit: cover;
@@ -143,10 +159,10 @@ html {
     }
 
     .color-box {
-      grid-row-start: 3;
-      grid-row-end: 8;
-      grid-column-start: 3;
-      grid-column-end: 8;
+      grid-row-start: 2;
+      grid-row-end: 6;
+      grid-column-start: 4;
+      grid-column-end: 7;
       background-color: #ff7979;
       width: 100%;
       height: 100%;
@@ -171,7 +187,6 @@ html {
 
 @media (max-width: 1200px) {
   .hero-banner {
-    min-height: 65vh;
 
 
 
@@ -219,8 +234,7 @@ html {
   .hero-banner {
     width: 100%;
     flex-direction: column;
-    min-height: auto !important;
-    padding: 0 3vh 10vh 3vh;
+    padding: 0 3vh 0 3vh;
 
     span {
       width: inherit;
@@ -233,7 +247,7 @@ html {
     }
 
     h1 {
-      padding: 15vh 0 5vh 0;
+      padding: 15vh 0 0 0;
       font-weight: 500;
     }
 

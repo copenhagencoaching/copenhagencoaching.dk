@@ -1,3 +1,30 @@
+// Media querries
+
+@mixin for-phone-only() {
+    @media (max-width: 550px) {
+      @content;
+    }
+  }
+  
+  @mixin for-tablet() {
+    @media (max-width: 768px) {
+      @content;
+    }
+  }
+  
+  @mixin for-ipad-pro() {
+    @media (max-width: 1024px) {
+      @content;
+    }
+  }
+  
+  
+  @mixin for-laptop() {
+    @media (max-width: 1300px) {
+      @content;
+    }
+  }
+
 @mixin header-1 {
     color: $black;
     font-weight: 500;
@@ -6,16 +33,39 @@
 }
 
 @mixin paragraph {
-    width: 100%;
     color: $black;
+}
+
+@mixin basic-padding {
+    padding: 30px 20vh ;
+    @include for-ipad-pro {
+        padding: 80px 3vh 5vh 3vh;
+    }
+}
+
+.newsletter {
+position: fixed;
+top: 15px;
+right: 20vh;
+@include for-ipad-pro {
+    right: 3vh;
+    
+}
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+    .newsletter {
+        top: 30px;
+    }
 }
 
 
 .green-button {
-    height: 50px;
-    width: 175px;
     background: $green;
     border: none;
+    padding: 10px 20px;
     color: #ffffff;
     font-weight: 600;
     opacity: .9;
@@ -32,7 +82,15 @@
 
 }
 
+@media only screen and (max-width: 900px) {
+    .newsletter {
+        display:none;
+        }
+}
+
 @media only screen and (max-width: 1800px) {
+
+    
 
     .title {
         font-size: 3em;
