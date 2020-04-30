@@ -182,17 +182,30 @@
     animation: .5s ease-out 0s 1 slideIn;
     a {
         color: black;
+
         &:hover {
             color: $green;
             text-decoration: none;
         }
     }
 
+
     /* Add styles to the form container */
     .form-container {
         border-radius: 5px;
         padding: 20px;
         background-color: white;
+
+        .fas {
+            cursor: pointer;
+            font-size: 2em;
+            opacity: 0.8;
+            &:hover {
+                opacity: 1;
+            }
+
+
+        }
     }
 
     /* Set a style for the submit/login button */
