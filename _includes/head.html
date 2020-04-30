@@ -7,6 +7,14 @@
       {% assign site_prefix = site.stage_site %}
     {% endif %}
 
+    <title>
+      {%if page.title %}
+        {{ site.title }} - {{ page.title }}
+      {% else %}
+          {{ site.title }}
+      {% endif %}
+   </title>
+
     <!-- Meta -->
 
     <meta charset="utf-8">
