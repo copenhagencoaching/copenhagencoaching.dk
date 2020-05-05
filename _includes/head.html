@@ -7,14 +7,8 @@
       {% assign site_prefix = site.stage_site %}
     {% endif %}
 
-    <title>
-      {%if page.title %}
-        {{ page.title }} | {{ site.title }}
-      {% else %}
-          {{ site.title }}
-      {% endif %}
-   </title>
 
+   {% seo %}
     <!-- Meta -->
 
     <meta charset="utf-8">
@@ -26,7 +20,7 @@
 
     <!-- Open Graph tags -->
 
-    <meta property="og:locale" content="en_US">
+    <meta property="og:locale" content="da">
     <meta data-proofer-ignore property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
     <meta data-proofer-ignore property="og:url" content="{{ site_prefix }}{{ page.url }}">
     <meta data-proofer-ignore property="og:image" content="{% if page.image %}{{ site_prefix }}{{ page.image | remove: '..' }}{% else %}{{ site_prefix }}{{ site.image }}{% endif %}" />
