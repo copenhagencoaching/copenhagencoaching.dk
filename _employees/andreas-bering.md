@@ -8,7 +8,8 @@ email: ab@copenhagencoaching.dk
 description: Direktør og GDPR ansvarlig
 linkedin: https://www.linkedin.com/in/andreas-bering-4a554b5/
 data-id: ''
-
+redirect_from:
+  - /member/andreas-bering/
 ---
 
 Andreas mestrer om nogen at perspektivere teorien, så den bliver levende og omsættelig i praksis. Dette, kombineret med Andreas’ evne til at fange og indkredse det væsentlige, gør, at man altid føler sig inspireret af ham.
