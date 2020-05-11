@@ -4,7 +4,7 @@
 #cookie-bar p {margin:0; padding:0;}
 #cookie-bar a {color:#ffffff; display:inline-block; border-radius:3px; text-decoration:none; padding:5px 7px; margin-left:8px; margin-bottom: 5px;}
 #cookie-bar a.non-button {padding: 0; margin:0;}
-#cookie-bar a:hover { opacity: 0.8;}
+#cookie-bar a:hover { color: white !important; opacity: 0.8;}
 #cookie-bar .cb-enable {background: rgb(34, 172, 64);}
 #cookie-bar .cb-enable:hover {background: rgb(29, 143, 53);}
 #cookie-bar .cb-disable {background:#da6262;}
