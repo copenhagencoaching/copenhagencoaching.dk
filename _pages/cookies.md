@@ -25,7 +25,7 @@ Nogle browsere giver dig også mulighed for at gøre opmærksom på, at du ikke 
 
 Cookies er datafiler, som et website downloader til din enhed, fx computer, tablet eller telefon. Formålet er at genkende enheden og derved observere, hvordan du anvender websitet. I dag anvender praktisk talt alle websites cookies. I mange tilfælde er cookies nødvendige for at sikre en ordentlig funktionalitet og service på websitet. En cookie er en passiv fil, som ikke kan samle den information som er på din enhed eller sprede virus og andre ondsindede programmer. Nogle cookies bliver kun opbevaret på din enhed så længe, du har din browser åben, de kaldes session cookies. Andre cookies bliver på din enhed i en længere periode, disse kaldes persistent cookies. Hvis du vender tilbage til et website, bliver de relevante cookies typisk fornyet automatisk. Ofte bliver cookies opbevaret fra andre parter, end den som ejer et givent website, tredjeparts cookies. Det kan være cookies med alment indhold, men også analyse værktøjer og indlejrede kommentarfelter.
 
-Oplysninger om tredjeparter: [Google Analytics](https://analytics.google.dk){:target="_blank"}, [Mailchimp](https://mailchimp.com){:target="_blank"}
+Oplysninger om tredjeparter: [Google Analytics](https://analytics.google.com/){:target="_blank"}, [Mailchimp](https://mailchimp.com){:target="_blank"}
 
 På **Copenhagencoaching.dk** anvender vi bl.a. cookies til at forbedrede websitet ved at undersøge, hvordan vores brugere af websitet anvender det. Den information vi indsamler er anonym, og kan ikke blive sporet tilbage til navngivne brugere. Vi anvender følgende typer af cookies på Copenhagencoaching.dk:
 
