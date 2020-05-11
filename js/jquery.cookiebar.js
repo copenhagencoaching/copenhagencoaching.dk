@@ -32,7 +32,7 @@
 			declineFunction: function(cookieValue){if(cookieValue=='enabled' || cookieValue=='accepted') window.location = window.location.href;}, //Function to run after decline
 			policyButton: false, //Set to true to show Privacy Policy button
 			policyText: 'Læs mere om vores cookies og privatpolitik', //Text on Privacy Policy button
-			policyURL: '/privatlivs-og-cookie-politik/', //URL of Privacy Policy
+			policyURL: '', //URL of Privacy Policy
 			autoEnable: true, //Set to true for cookies to be accepted automatically. Banner still shows
 			acceptOnContinue: false, //Set to true to accept cookies when visitor moves to another page
 			acceptOnScroll: false, //Set to true to accept cookies when visitor scrolls X pixels up or down
