@@ -1,11 +1,13 @@
-#cookie-bar {z-index: 10000; background:#3b3b3b; height:auto; line-height:24px; color:#eeeeee; text-align:center; padding:3px 0;}
-#cookie-bar.fixed {position:fixed; bottom:0; left:0; width:100%; padding:15px;}
+#cookie-bar {z-index: 10000; font-size: 0.8em; background:rgb(49, 49, 49); height:auto; color:#ffffffb6; text-align:center; padding:3px 0;}
+#cookie-bar.fixed {position:fixed; bottom:0; left:0; width:100%; padding:10px;}
 #cookie-bar.fixed.bottom {bottom:0; top:auto;}
 #cookie-bar p {margin:0; padding:0;}
 #cookie-bar a {color:#ffffff; display:inline-block; border-radius:3px; text-decoration:none; padding:5px 7px; margin-left:8px; margin-bottom: 5px;}
-#cookie-bar .cb-enable {background: rgb(20, 150, 124);}
-#cookie-bar .cb-enable:hover {background: #1ABC9C;}
-#cookie-bar .cb-disable {background:#990000;}
-#cookie-bar .cb-disable:hover {background:#bb0000;}
-#cookie-bar .cb-policy {background:#666666;}
-#cookie-bar .cb-policy:hover {background: #707070;}
+#cookie-bar a.non-button {padding: 0; margin:0;}
+#cookie-bar a:hover { opacity: 0.8;}
+#cookie-bar .cb-enable {background: rgb(34, 172, 64);}
+#cookie-bar .cb-enable:hover {background: rgb(29, 143, 53);}
+#cookie-bar .cb-disable {background:#da6262;}
+#cookie-bar .cb-disable:hover {background:#c55252;}
+#cookie-bar .cb-policy {background:#707070;}
+#cookie-bar .cb-policy:hover {background: #666666;}

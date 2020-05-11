@@ -25,6 +25,22 @@
     }
   }
 
+// Basic links
+
+  a {
+    opacity: 0.9;
+    text-decoration: none;
+    font-size: 0.9em;
+    color: $black;
+    &:hover {
+      color: $green !important;
+      text-decoration: none;
+      opacity: 1;
+    }
+  }
+
+// Header
+
 @mixin header-1 {
     color: $black;
     font-weight: 500;
@@ -41,6 +57,15 @@
     @include for-ipad-pro {
         padding: 80px 3vh 5vh 3vh;
     }
+}
+
+@mixin side-padding {
+  padding-left: 20vh;
+  padding-right: 20vh;
+  @include for-ipad-pro {
+    padding-left: 3vh;
+    padding-right: 3vh;
+  }
 }
 
 .newsletter {
@@ -118,6 +143,6 @@ right: 20vh;
 
 }
 
-p {
-    font-size: 1.1em;
+p, ul {
+    font-size: 0.9em;
 }

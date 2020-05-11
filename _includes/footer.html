@@ -1,6 +1,6 @@
 <footer>
-    <span class="footer-ccc">
-        <h4>Copenhagen Coaching Center</h4>
+    <div class="footer-col col-lg-3 col-md-6 col-12">
+        <h2>Copenhagen Coaching Center</h2>
         {% for text in site.texts %}
         {% if text.page == "footer" %}
         {{ text.content | markdownify }}
@@ -8,28 +8,47 @@
         {% endif %}
         {% endfor %}
             
-        <div>
+        <div class="social">
             <a data-proofer-ignore href="https://www.facebook.com/copenhagencoachingdk-169785200063933/" target="_blank"><i class="fab fa-facebook-f"></i></a>
             <a data-proofer-ignore href="#"><i class="fab fa-twitter"></i></a>
             <a data-proofer-ignore href="https://www.linkedin.com/company/copenhagen-coaching-center" target="_blank" data-proofer-ignore><i class="fab fa-linkedin-in"></i></a>
             <a data-proofer-ignore href="https://www.instagram.com/explore/tags/copenhagencoachingcenter/" target="_blank"><i class="fab fa-instagram"></i></a>
         </div>
-    </span>
-    <span class="footer-inspiration">
-        <h4>Inspiration</h4>
+    </div>
+    <div class="footer-col col-lg-3 col-md-6 col-12">
+        <h2>Inspiration</h2>
         {% for post in site.posts limit:3 %}
         <a class="footer-stories" href="{{ post.url }}">{{ post.title }}</a>
         <p class="stories-date">{{ post.date | date: "%B %d, %Y" }}</p>
         {% endfor %}
-    </span>
-    <span class="footer-contact">
-        <h4>Kontakt</h4>
-        <a data-proofer-ignore href="tel:+4539201020">+45 39 20 10 20</a>
-        <a data-proofer-ignore href="#" data-toggle="modal" data-target="#contact-modal">Skriv til os</a>
-        <p>Blegdamsvej 104 A, 2. Sal</p>
-        <p>2100 Kbh Ø</p>
-        <a data-proofer-ignore href="https://goo.gl/maps/a2Tb1RTMDKQ3G8Vz5" target="_blank">Rutevejledning</a>
-    </span>
+    </div>
+    <div class="footer-col col-lg-3 col-md-6 col-12">
+        <h2>Navigation</h2>
+        <ul>
+            {% assign sorted-navi = site.pages | sort: "order" %}
+            {% for page in sorted-navi %}
+            {% if page.show %}
+            <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+            {% endif %}
+            {% endfor %}
+        </ul>
+        <hr>
+        <ul>
+            <li><a href="/cookies/">Cookie politik</a></li>
+            <li><a href="/sitemap/">Sitemap</a></li>
+        </ul>
+    </div>
+    <div class="footer-col col-lg-3 col-md-6 col-12">
+        <h2>Kontakt</h2>
+        <ul>
+            <li><a data-proofer-ignore href="tel:+4539201020">+45 39 20 10 20</a></li>
+            <li><a data-proofer-ignore href="#" data-toggle="modal" data-target="#contact-modal">Skriv til os</a></li>
+            <li>Blegdamsvej 104 A, 2. Sal</li>
+            <li>2100 Kbh Ø</li>
+            <li><a data-proofer-ignore href="https://goo.gl/maps/a2Tb1RTMDKQ3G8Vz5" target="_blank">Rutevejledning</a></li>
+        </ul>
+        
+    </div>
 </footer>
 
 <!-- <div class="bottom-bar">

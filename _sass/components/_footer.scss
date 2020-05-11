@@ -2,103 +2,55 @@ footer {
   height: auto;
   width: 100%;
   color: $white;
-  padding: 10vh 20vh;
   background-color: #222222;
-  margin-top: 5vh;
-  display: flex;
-  flex-direction: row;
+  margin: 0;
   justify-content: space-between;
-  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  display: -ms-flexbox;
+  -ms-flex-wrap: wrap;
+  padding-top: 20px;
+  padding-bottom: 20px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 4px 4px;
+  @include side-padding;
 
-  span {
-    box-sizing: border-box;
-    flex-wrap: wrap;
+  .footer-col {
+
+    @include for-laptop {
+      margin-bottom: 30px;
+    }
+  h2 {
+    font-size: 1.3rem;
   }
 
-  h2 {
-    padding-bottom: 2vh;
-    font-weight: 600;
-    user-select: none;
+  ul {
+    margin:0;
+    list-style-type: none;
+    padding: 0;
+  }
+
+  hr {
+    border-color: white;
+    opacity: 0.2;
+    width: 100px;
+    margin: 10px 0;
   }
 
   a {
-
-    &:hover {
-      color: inherit;
-      opacity: .7;
-      transition: .2s all ease-in;
-      text-decoration: none;
-    }
+    color: white;
   }
-  a,
-  p {
-    font-size: 1rem;
-    display: flex;
-    color: $white;
-    margin-bottom: 0;
+  
 
-   
+  .stories-date {
+    opacity: 0.6;
   }
 
-  p {
-    user-select: none;
-  }
-
-  .footer-ccc {
-    width: 25%;
-
-    p {
-      padding-bottom: 2vh;
-    }
-
-    div {
-      display: flex;
-      flex-direction: row;
-      margin-top: 2.5vh;
-
-      .fab {
-        margin-right: 2vh;
-      }
-    }
-  }
-
-  .footer-inspiration {
-    p {
-      opacity: .5;
+  .social {
+    padding: 15px 0;
+    a {
+      margin: 0 10px 0 0;
     }
   }
 }
 
-// Medium devices (landscape tablets, 768px and down)
-
-@media (max-width: 768px) {
-
-  footer {
-    padding: 7.5vh 3vh;
-    flex-direction: column;
-    justify-content: left;
-    align-items: initial;
-
-    h2 {
-      line-height: 27px;
-    }
-
-    a,
-    p {
-      line-height: 20px;
-    }
-
-    .footer-ccc, .footer-inspiration {
-      line-height: 35px;
-      width: 100%;
-      padding-bottom: 7.5vh;
-    }
-  }
-}
-
-@media (max-width: 1024px) {
-  footer {
-    padding: 10vh 1vh;
-  }
 }

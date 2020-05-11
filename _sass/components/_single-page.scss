@@ -1,5 +1,11 @@
 .simple-text {
     @include basic-padding;
-
+    .wrapper {
+        width: 800px;
+        margin:auto;
+        @include for-ipad-pro {
+            width: 100%;
+        }
+    }
 }
 
