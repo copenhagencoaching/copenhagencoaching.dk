@@ -61,18 +61,6 @@ jobs:
             - _site
             - .circleci
 
-  html-proofer:
-    working_directory: /app
-    docker:
-      - image: 18fgsa/html-proofer
-    steps:
-      - restore_cache:
-          keys:
-            - the-built-repo-
-      - run:
-          name: Htmlproofer
-          command: htmlproofer --allow-hash-href  --check-favicon --check-opengraph --report-missing-names --report-invalid-tags  -- _site
-
   deliver:
     working_directory: /app
     docker:
@@ -151,7 +139,6 @@ workflows:
           requires:
             - prep-repo
             - jekyll-build
-            - html-proofer
           filters:
             branches:
               only:
@@ -160,7 +147,6 @@ workflows:
           requires:
             - prep-repo
             - jekyll-build
-            - html-proofer
           filters:
             branches:
               only:
@@ -169,7 +155,6 @@ workflows:
           requires:
             - prep-repo
             - jekyll-build
-            - html-proofer
           filters:
             branches:
               ignore: /.*/
