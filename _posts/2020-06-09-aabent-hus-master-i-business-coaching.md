@@ -13,14 +13,13 @@ tags:
 - mbc
 image: "/images/inspiration/aabent-hus.jpg"
 color-box-color: blue
-price: Gratis
 place-link: https://www.facebook.com/copenhagencoaching.dk/live
 ---
 ##### Vil du gerne styrke eller opøve din dialogiske kapacitet og dit menneskelige beredskab?
 
 Og vil du gerne akkrediteres som Business Coach på det højest mulige niveau? EMCC MBC-akkrediteringen er et internationalt kvalitetsstempel. Både i forhold til uddannelsens faglige og etiske standard, men også en garanti for, at du får en uddannelse, der er internationalt anerkendt, og som du derfor også kan bruge i udlandet og i internationalt orienterede virksomheder.
 
-Kom til **Online Åbent hus** og hør om vores kommende master hold med opstart i september 2020.
+Kom til **[Online Åbent Hus](https://www.facebook.com/copenhagencoaching.dk/live){:target="_blank"}** og hør om vores kommende master hold med opstart i september 2020.
 
 Copenhagen Coaching Center (CCC) har eksisteret i over 15 år som konsulentvirksomhed og som uddannelsesinstitution, og har gennem denne periode haft over 30 hold igennem den 2-årige master-uddannelse i business coaching.
 
