@@ -14,6 +14,7 @@ tags:
 image: "/images/inspiration/aabent-hus.jpg"
 color-box-color: blue
 place-link: https://www.facebook.com/copenhagencoaching.dk/live
+extra: <a href="/academy/master-of-business-coaching">Læs mere om vores Master of Business Coaching</a>
 ---
 ##### Vil du gerne styrke eller opøve din dialogiske kapacitet og dit menneskelige beredskab?
 

@@ -127,6 +127,11 @@ layout: only-page
         {% endif %}
         {% endfor %}
         {% endif %}
+
+        {% if page.extra %}
+        <br><hr>
+        <h5>{{ page.extra }}</h5>
+        {% endif %}
         </span>
        
       </div>
