@@ -1,8 +1,8 @@
 ---
 order: "5"
 title: Kim Gørtz
-portrait-image: "/images/about/employees/kim.png"
-small-portrait-image: "/images/about/small-images/kim-small.png"
+portrait-image: "/images/about/employees/kim-gørtz.png"
+small-portrait-image: "/images/about/small-images/kim-gørtz.png"
 call: 24 66 40 78
 email: kg@copenhagencoaching.dk
 description: Seniorkonsulent

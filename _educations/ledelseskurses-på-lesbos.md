@@ -1,7 +1,7 @@
 ---
 order: "3"
 title: Ledelseskursus på Lesbos
-image: "/images/academy/lesbos.jpg"
+image: "/images/academy/ledelseskursus-paa-lesbos.jpg"
 contact-person: Kim Gørtz
 header: Ledelseskursus på Lesbos
 description: Tag med på en opdagelsesrejse, hvor vi sammen udforsker ledelseskunsten

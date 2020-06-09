@@ -1,8 +1,8 @@
 ---
 title: Morten Bertelsen
 order: "3"
-portrait-image: "/images/about/employees/morten-b.jpeg"
-small-portrait-image: "/images/about/small-images/morten-b-small.png"
+portrait-image: "/images/about/employees/morten-bertelsen.jpeg"
+small-portrait-image: "/images/about/small-images/morten-bertelsen.png"
 call: 52 19 09 57
 email: mb@copenhagencoaching.dk
 description: Seniorkonsulent

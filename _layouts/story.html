@@ -2,8 +2,13 @@
 layout: only-page
 ---
 <div class="wide-hero-banner">
-    <img class="hero-image" src="{{ page.image }}" alt="CCC Header">
+    <img class="hero-image" src="{{ page.image }}" alt="{{ page.title }}">
+   {% if page.color-box-color %} 
+    <div class="color-box {{ page.color-box-color }}" ></div>
+    {% else %}
     <div class="color-box"></div>
+
+    {% endif %}
 </div>
 
 {% if page.facta-box == true %}
@@ -30,19 +35,25 @@ layout: only-page
     {% if page.facta-box == true %}
 
     <div class="facta-box col-lg-4 col-sm-12">
-
-        <h4>Pris:</h4>
+{% if page.price %}
+        <h5>Pris:</h5>
         <p> {{ page.price }} </p>
+        {% endif %}
         {% if page.location %}
-
-        <h4>Sted:</h4>
+        {% if page.place-link %}
+        <h5>Sted:</h5>
+        <p> <a href="{{ page.place-link }}" target="_blank">{{ page.location }} </a></p>
+        {% endif %}
+      
+{% else %}
+        <h5>Sted:</h5>
         <p> {{ page.location }} </p>
         {% endif %}
 
         <!-- Datoer  -->
 
         {% if page.hold_eller_begivenheder == true %}
-        <h4>{{page.event-title}}:</h4>
+        <h5>{{page.event-title}}:</h5>
   
         {% for event in page.events %}
 

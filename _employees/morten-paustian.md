@@ -9,7 +9,6 @@ description: Associeret partner
 linkedin: https://www.linkedin.com/in/dr-mult-morten-paustian-230321/
 data-id: ''
 published: false
-
 ---
 Morten favner bredt og dybt. Hans vidensniveau er højt med en humanistisk tilgang. Han har undervist, arbejdet som konsulent med forretnings- og lederudvikling og er forfatter til en lang række bøger indenfor filosofi, ledelse, kunst og erhvervsøkonomi.
 

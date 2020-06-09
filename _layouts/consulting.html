@@ -15,7 +15,7 @@ layout: page
 
     {% for coaching in orderedcoaching %}
     <div class="wrapper" id="{{ coaching.title | remove: ' ' | strip_html }}">
-        <img class="content-img" src="{{ coaching.image }}" alt="#">
+        <img class="content-img" src="{{ coaching.image }}" alt="{{ employee.title }}, {{ employee.description}}">
         <span>
 
             <h1 class="title">{{ coaching.title }}</h1>

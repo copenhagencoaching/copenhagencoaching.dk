@@ -1,5 +1,5 @@
 .wide-hero-banner {
-    height: 85vh;
+    height: 350px;
     display: flex;
     width: 90vh;
     margin: 0 auto 40px auto;
@@ -8,7 +8,7 @@
     position: relative;
   
     .hero-image {
-      height: 60vh;
+      height: 300px;
       width: 70vh;
       object-fit: cover;
       z-index: 1000;
@@ -16,12 +16,12 @@
     }
     
     .color-box {
-      height: 60vh;
+      height: 300px;
       width: 70%;
       background-color: $green;
       position: absolute;
-      top: 23vh;
-      left:20vh;
+      top: 60px;
+      left:100px;
     }
   }
 

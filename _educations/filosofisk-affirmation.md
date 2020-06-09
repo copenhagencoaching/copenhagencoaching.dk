@@ -1,6 +1,6 @@
 ---
 title: Filosofisk Affirmation
-image: "/uploads/thumbnail_large-1(4).jpg"
+image: "/uploads/filosofisk-affirmation.jpg"
 description: At stille spørgsmål … og finde svar…
 price: 6.500,- kr. ex. moms (Inkl. lettere forplejning og materialer)
 order: "3"

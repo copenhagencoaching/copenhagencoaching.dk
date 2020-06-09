@@ -3,7 +3,7 @@ layout: academy
 show: true
 order: "1"
 title: Academy
-image: "/images/academy/academy-banner.jpg"
+image: "/images/academy/coaching-uddannelser.jpg"
 header: Academy
 header-link: 
 header-link-url: 

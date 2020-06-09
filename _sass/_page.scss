@@ -317,3 +317,9 @@ min-height: 200px;
     grid-template-columns: 1fr;
   }
 }
+
+.color-box {
+  &.blue {
+    background-color: #566e8d !important;
+  }
+}
