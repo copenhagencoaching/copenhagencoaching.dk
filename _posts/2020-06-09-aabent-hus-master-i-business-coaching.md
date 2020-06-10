@@ -1,6 +1,6 @@
 ---
 title: Kom til online info møde om vores 2-årige Master uddannelse i Business Coaching
-author: Camilla Ingversen
+author: Camilla Ingwersen
 teaser: Kom til online info møde om vores 2-årige Master uddannelse i Business Coaching
 facta-box: true
 location: LIVE session via Facebook
