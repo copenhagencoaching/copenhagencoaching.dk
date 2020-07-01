@@ -4,33 +4,6 @@ layout: default
 
 {% include contact-modal.html %}
 
-{% for text in site.texts %}
-    {% if text.page == "pop-up" %}
-    <div class="form-popup" id="myForm">
-      <div class="form-container">
-        <h4 style="display: inline;">{{ text.title }}</h4>
-        <i class="fas fa-times" onclick="closeForm()" style="float: right"></i>
-        
-        <p>{{ text.content }}</p>
-    
-        {% if text.link %}
-        <div style="margin: auto">
-            <a class="button btn" href="{{ text.link }}" data-target="#contact-modal" data-toggle="modal" data-proofer-ignore role="button">
-                <p style="margin: 10px;">{{ text.link-text }}</p>
-            </a>
-        </div>
-        {% endif %}
-      </div>
-    </div>
-    
-    <script>
-    function closeForm() {
-      document.getElementById("myForm").style.display = "none";
-    }
-    </script>
-
-    {% endif %}
-{% endfor %}
 
 <script>
     $('.contact-link').on('click', function () {
