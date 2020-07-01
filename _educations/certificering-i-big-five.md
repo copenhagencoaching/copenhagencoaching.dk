@@ -13,13 +13,7 @@ location: Blegdamsvej 104C, 3. sal, baghuset th., 2100 København Ø
 special: false
 hold_eller_begivenheder: true
 events:
-- overskrift: 7. april 2020 (København)
-  dato:
-  - 7. april
-  - 14. april
-  - 29. april
 - overskrift: Vi kører 2 hold i efteråret 2020 - datoer er på vej.
-
 ---
 **Du kan trygt melde dig til vores næste hold. Vi følger situationen og de løbende retningslinjer nøje for at undgå spredningen af covid-19. Hvis og såfremt, at covid-19 stadig står på, udskydes eller konverteres dele af undervisningen til onlineforløb, således at alle får deres undervisning.**
 
