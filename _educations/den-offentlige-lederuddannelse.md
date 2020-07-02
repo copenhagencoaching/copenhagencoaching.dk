@@ -15,7 +15,7 @@ events:
   - 30/1, 13/2 og 5/3 (aflevering midt april og eksamen start maj)
 
 ---
-**Du kan trygt melde dig et forløb. Vi følger situationen og de løbende retningslinjer nøje for at undgå spredningen af covid-19. Hvis og såfremt, at covid-19 stadig står på, udskydes eller konverteres dele af undervisningen til onlineforløb, således at alle får deres undervisning.**
+**Du kan trygt melde dig til vores næste hold. Vi følger situationen og de løbende retningslinjer nøje for at undgå spredningen af covid-19.**
 
 Er du leder, eller drømmer du om at bliver det? Trænger du til at få styrket dine lederkompetencer, og samtidig få de nyeste og brugbare værktøjer til medarbejdersamtaler og til håndtering af konfliktsituationer? Så tag moduler i Den offentlige Lederuddannelse (DOL) hos os!
 
