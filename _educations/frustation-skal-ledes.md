@@ -10,9 +10,9 @@ price: 38.700,- ekskl. moms (heri er inkluderet fuld forplejning, materialer)
 pdf: "/pdfs/LAF-2019-efterar.pdf"
 special: true
 order: "4"
-hold_information: Kurset afholdes som skræddersyet forløb og planlægges efter aftale
+event-title: Kurset afholdes som skræddersyet forløb og planlægges efter aftale
   med holdet.
-
+cat: "skræddersyede udd."
 ---
 **Du kan trygt melde dig til vores næste hold. Vi følger situationen og de løbende retningslinjer nøje for at undgå spredningen af covid-19.**
 

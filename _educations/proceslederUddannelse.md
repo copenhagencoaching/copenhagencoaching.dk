@@ -9,16 +9,14 @@ contact-person: Lars Nyborg
 event-title: Kommende hold
 order: "2"
 location: Blegdamsvej 104C, 3., baghuset th., 2100 København Ø
-special: false
-hold_eller_begivenheder: true
-events:
-- overskrift: 27. august 2020
-  dato:
-  - 27.-28. august 2020
-  - 28., 29. & 30. september 2020
-  - 28.-29. oktober 2020
-  - 25. november 2020
-
+classes:
+- title: August 2020
+  dates:
+  - date: 27.-28. august 2020
+  - date: 28., 29. & 30. september 2020
+  - date: 28.-29. oktober 2020
+  - date: 25. november 2020
+cat: "certificeringer"
 ---
 Du vil kunne mestre den sunde og veldesignede proces, der giver jeres arbejde retning og mening.
 

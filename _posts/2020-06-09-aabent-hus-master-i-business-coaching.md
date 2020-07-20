@@ -5,7 +5,8 @@ teaser: Kom til online info møde om vores 2-årige Master uddannelse i Business
 facta-box: true
 location: LIVE session via Facebook
 events:
-- overskrift: 25. juni 2020 kl. 20.00 – 21.00
+- overskrift: 13. august 2020 kl. 20.00 – 21.00
+- overskrift: 27. august 2020 kl. 20.00 – 21.00
 event-title: Dato
 hold_eller_begivenheder: true
 tags:

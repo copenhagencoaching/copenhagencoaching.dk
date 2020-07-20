@@ -9,11 +9,17 @@ pdf: 'false'
 event-title: Vi starter løbende hold op - ring og hør nærmere
 special: false
 hold_eller_begivenheder: true
-events:
-- overskrift: Coaching (valgfagsmodul) 30. januar 2020
-  dato:
-  - 30/1, 13/2 og 5/3 (aflevering midt april og eksamen start maj)
-
+classes:
+- title: Coaching - valgfagsmodul Januar 2020
+  place: København
+  dates:
+  - title: Undervisning
+    date: 30. januar
+  - title: Undervisning
+    date: 12. februar
+  - title: Undervisning
+    date: 5. marts
+cat: certificeringer
 ---
 **Du kan trygt melde dig til vores næste hold. Vi følger situationen og de løbende retningslinjer nøje for at undgå spredningen af covid-19.**
 

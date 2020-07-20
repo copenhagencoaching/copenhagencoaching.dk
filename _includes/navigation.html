@@ -1,52 +1,188 @@
-{% include contact-modal.html %}
-<nav>
-  <div class="navbar navbar-expand-xl">
-    <a class="navbar-brand" href="/"><img src="/images/logo/ccc-logo-new.png" alt="Copenhagen Coaching Center Logo"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <i class="fas fa-bars"></i>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ml-auto">
-        {% assign sorted_nodes = site.pages | sort: "order" %}
-        {% for node in sorted_nodes %}
-        {% if node.show %}
-        {% if page.url == node.url %}
-        <li class="nav-item">
-          <a class="nav-link active-page" href="{{node.url}}">{{ node.title | truncatewords: 2, "" | remove: "Tilmelding" | remove: "Search" }}</a>
-        </li>
-        {% else %}
-        <li class="nav-item">
-          <a class="nav-link" href="{{node.url}}">{{ node.title | truncatewords: 2, "" | remove: "Tilmelding" | remove: "Search" }}</a>
-        </li>
-        {% endif %}
-        {% endif %}
-        {% endfor %}
-        <li class="nav-item nav-icon">
-          <a class="contact-link nav-link" data-proofer-ignore href="#contact" data-toggle="modal" data-target="#contact-modal"><i class="fas fa-envelope"></i></a>
-        </li>
-        <li id="search-button" class="nav-item nav-icon show">
-          <i class="fas fa-search"></i>
-        </li>
-        <li id="search" class="nav-item">
-          <form class="form" action="/search" method="get">
-            <label for="search-box"></label>
-            <input type="text" id="search-box" name="query">
-            <button class="green-search-button" type="submit">Søg</button>
-          </form>
-          <button class="search-cross"><i class="fas fa-times"></i></button>
-        </li>
-        <li class="nav-item nav-icon">
-          <a href="https://www.edu.copenhagencoaching.dk/login/index.php" target="_blank"><i class="fas fa-user-graduate"></i></a>
-        </li>
-      </ul>
-    </div>
-  </div>
 
-  <!-- <button class="green-button newsletter">Tilmeld nyhedsbrev</button> -->
+<nav class="navbar fixed-top navbar-expand-lg navbar-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/"><img src="/images/logo/ccc-logo-new.png" alt=""></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+   
+   
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+     
+
+      <ul class="navbar-nav social ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" target="_blank" href="https://www.edu.copenhagencoaching.dk/login/index.php">Studieportal</a>
+        </li>
+  
+        <li class="nav-item">
+          <a class="nav-link" href="#contact" data-toggle="modal" data-target="#contact-modal">Join</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact" data-toggle="modal" data-target="#contact-modal">Kontakt</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="/about/">Om os</a>
+        </li>
+
+        <li class="nav-item"><button class="btn btn-sm" data-toggle="modal" data-target="#newsletter-modal">Tilmeld nyhedsbrev</button></li>
+
+      </ul>
+
+      <ul class="navbar-nav head-menu ml-auto">
+
+        <!-- Kompetenceudvikling -->
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Transition
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <div class="container-fluid container-narrow">
+              <h5 class="dropdown-over-header">Kompetenceudvikling</h5>
+              {% capture grid-length-two %}{% for cat in site.education-categories %}{% if forloop.first %}{{ forloop.length | plus: 1 }}{% endif %}{% endfor %}{% endcapture %}
+              <div class="dropdown-container grid-{{ grid-length-two }}">
+
+                {% for cat in site.education-categories %}
+                <div class="dropdown-list">
+                  <h6 class="dropdown-header">{{ cat.title }}</h6>
+                  {% assign ordered-edu = site.educations | sort: "order" %}
+                  {% for education in ordered-edu %}
+                  {% for cate in education.cat %}
+                  {% if cate == cat.title %}
+                  <a class="dropdown-item" href="{{ education.url }}">{{ education.title }}</a>
+                  {% endif %}
+
+                  {% endfor %}
+                  {% endfor %}
+                </div>
+                {% endfor %}
+                <div class="dropdown-list">
+                  <h6 class="dropdown-header">Mere info</h6>
+                  <a href="#" data-toggle="modal" data-target="#contact-modal" class="dropdown-item">I tvivl?</a>
+                  <a href="#" data-toggle="modal" data-target="#newsletter-modal" class="dropdown-item">Bliv inspireret og inviteret</a>
+                 
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <!-- sparring -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Konsulentydelser
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <div class="container-fluid container-narrow">
+              <h5 class="dropdown-over-header">Konsulentydelser</h5>
+              {% capture grid-length %}{% for cat in site.consultation-categories %}{% if forloop.first %}{{ forloop.length}}{% endif %}{% endfor %}{% endcapture %}
+
+              <div class="dropdown-container grid-{{ grid-length }}">
+
+                {% for cat in site.consultation-categories %}
+                <div class="dropdown-list">
+                  <h6 class="dropdown-header">{{ cat.title }}</h6>
+                  {% for cons in site.consultations %}
+                  {% for cate in cons.cat %}
+                  {% if cate == cat.title %}
+
+                  <a class="dropdown-item" href="{{ cons.url }}">{{ cons.title }}</a>
+                  {% endif %}
+                  {% endfor %}
+                  {% endfor %}
+                </div>
+                {% endfor %}
+
+
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <!-- samskabelse -->
+       <!--  <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Samskabelse
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <div class="container-fluid container-narrow">
+
+              {% capture grid-length %}{% for cat in site.customer-categories %}{% if forloop.first %}{{ forloop.length}}{% endif %}{% endfor %}{% endcapture %}
+
+              <div class="dropdown-container grid-{{ grid-length }}">
+
+                {% for cat in site.customer-categories %}
+                <div class="dropdown-list">
+                  <h6 class="dropdown-header">{{ cat.title }}</h6>
+                  {% for cust in site.customers %}
+                  {% for cate in cust.cat %}
+                  {% if cate == cat.title %}
+
+                  <a class="dropdown-item" href="{{ cust.url }}">{{ cust.title }}</a>
+                  {% endif %}
+                  {% endfor %}
+                  {% endfor %}
+                </div>
+                {% endfor %}
+
+
+              </div>
+            </div>
+          </div>
+        </li> -->
+
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Frirum
+          </a>
+          <div class="dropdown-menu mr-auto" aria-labelledby="navbarDropdown">
+            <div class="container-fluid small-dropdown">
+              
+              
+                  <a class="nav-link small-nav-link" href="/inspiration/protreptik-i-naturen/">Protreptik i Naturen</a>
+              
+                  <a class="nav-link small-nav-link" href="/academy/ledelseskurses-på-lesbos/">Lesbos</a>
+
+            
+            </div>
+          </div>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Resonans
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <div class="container-fluid small-dropdown">
+              
+              
+                  <a class="nav-link small-nav-link" href="/community/">Community</a>
+                  <a class="nav-link small-nav-link" href="/inspiration/">Blog</a>
+              
+                  
+
+            
+            </div>
+          </div>
+        </li>
+
+      </ul>
+
+    </div>
+   
+  </div>
 </nav>
 
-<script>
-  $('.contact-link').on('click', function () {
-    $('.navbar-toggler').click();
-  });
-</script>
+
+  
+  

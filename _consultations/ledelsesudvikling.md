@@ -1,9 +1,10 @@
 ---
-published: true
+published: false
 order: "1"
 title: Ledelsesudvikling
 image: /images/consulting/c3.jpg
 contact-person: Lars Nyborg
+cat: ledelsesudvikling
 ---
 
 ## Selvindsigt og praktisk dømmekraft

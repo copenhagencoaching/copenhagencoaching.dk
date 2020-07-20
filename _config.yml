@@ -36,6 +36,37 @@ plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
 
+education-categories:
+  - title: masteruddannelser
+    header: Masteruddannelse på højt niveau
+    order: 1
+  - title: masterclass
+    header: Vi er masters i masterclasses
+    description: Velit nostrud ullamco labore pariatur occaecat aliquip velit deserunt cupidatat non. Sit duis minim culpa elit. Laborum Lorem excepteur enim labore anim ea ullamco reprehenderit cillum culpa. Eiusmod reprehenderit fugiat nisi ut ipsum ullamco occaecat ipsum adipisicing nostrud nostrud aliquip nostrud. Fugiat dolore mollit dolore reprehenderit consectetur voluptate do eiusmod eiusmod. Laborum tempor do tempor est.
+    order: 2
+  - title: certificeringer
+    order: 3
+  - title: skræddersyede udd.
+    order: 4
+
+consultation-categories:
+  - title: organisationsudvikling
+    order: 1
+  - title: ledelsesudvikling
+    order: 2
+  - title: medarbejderudvikling
+    order: 3
+
+customer-categories:
+  - title: sundhed & omsorg
+    order: 1
+  - title: børn & unge
+    order: 2
+  - title: kultur & forlystelse
+    order: 3
+  - title: sport & fritid
+    order: 4
+
 collections:
   posts:
     output: true

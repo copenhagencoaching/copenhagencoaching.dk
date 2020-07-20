@@ -2,45 +2,47 @@
 layout: page
 ---
 
-{% assign orderedcoaching = site.consultations | sort: "order" %}
-<div class="header-navigation">
-    <div class="wrapper">
-        {% for coaching in orderedcoaching %}
+<div class="container-fluid grid-side-menu consultation container-narrow min-height">
+    <div class="container-body">
+        <h1>{{ page.title }}</h2>
+            {{ page.content }}
 
-        <a href="#{{ coaching.title | remove: ' ' | strip_html }}"><button>{{ coaching.title }}</button></a>
-        {% endfor %}
-    </div>
-</div>
-<section id="content-section" class="content">
-
-    {% for coaching in orderedcoaching %}
-    <div class="wrapper" id="{{ coaching.title | remove: ' ' | strip_html }}">
-        <img class="content-img" src="{{ coaching.image }}" alt="{{ employee.title }}, {{ employee.description}}">
-        <span>
-
-            <h1 class="title">{{ coaching.title }}</h1>
-            <p>{{ coaching.content }}</p>
+            {% for emp in site.employees %}
+            {% if emp.title == page.contact-person %}
             <div class="contact-box">
-                <h5>Interesseret i at høre mere? Ring eller skriv og få en snak med</h5>
-                <div class="contact">
-                    {% for employee in site.employees %}
-                    {% if employee.title == coaching.contact-person %}
-
-
-                    <img class="contact-img" src="{{ employee.small-portrait-image }}"
-                        alt="{{ employee.title }}, {{ employee.description}}">
-
-                    <div class="contact-text">
-                        <a data-proofer-ignore href="{{ employee.url }}">{{ employee.title }}</a>
-
-                        <a data-proofer-ignore href="{{ employee.call }}">{{ employee.call }}</a>
-                        <a data-proofer-ignore href="mailto:{{ employee.email }}">{{ employee.email }}</a>
-                    </div>
-                    {% endif %}
-                    {% endfor %}
-                </div>
+              <div class="contact-img">
+                  <img src="{{ emp.small-portrait-image }}" alt="{{ emp.title}}">
+              </div>
+              <div class="contact-body">
+                  <h6>Ring og få en snak med {{ emp.title }}</h6>
+                  <span><i class="fas fa-phone"></i> <a href="phone:{{ emp.call }}">{{ emp.call }}</a></span>
+                <span><i class="far fa-envelope"></i> <a href="mailto:{{ emp.email }}">{{ emp.email }}</a></span>
+              </div>
             </div>
-        </span>
+            {% endif %}
+            {% endfor %}
     </div>
-    {% endfor %}
-</section>
+    <div >
+
+        <div class="hero-banner-image">
+            <div class="color-box"></div>
+            <div class="hero-image">
+                <img src="{{ page.image }}" alt="" class="image-fluid"></div>
+
+        </div>
+
+    
+
+
+    </div>
+
+
+</div>
+
+<script>
+    $(document).ready(function () {
+        var numb = $('.tag-number').text() /* get tag length from div */
+        var x = $('#demo'); /* write the number in a div */
+        $('#demo').text(+ Math.floor((Math.random() * parseInt(numb)) + 1)); /* tak that variation of numbers and pick a random one */
+    });
+</script>

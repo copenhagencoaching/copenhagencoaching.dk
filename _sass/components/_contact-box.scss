@@ -1,0 +1,75 @@
+.contact-box{
+    @include grid;
+    max-width: 500px;
+    grid-template-columns: auto 1fr;
+    align-content: center;
+    @include gray-box;
+    @include for-bot {
+        width: 100%;
+    }
+
+    .card {
+        margin-bottom: 10px;
+    }
+
+    .contact-img {
+        height: 75px;
+        width: 100%;
+        img {
+            object-fit: cover;
+            height: 100%;
+            border-radius: 100px;
+        }
+    }
+    .contact-body {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-content: center;
+    }
+}
+
+.gray-box {
+    @include gray-box;
+    margin-bottom: 20px;
+    .card {
+        margin-bottom: 10px;
+        background-color: rgba(235,235,235,0.5);
+        padding: 10px;
+        .card-body {
+            padding: 10px 0 0 0;
+        }
+
+        i {
+            padding: 0 15px 0 0;
+            position: absolute;
+            right: 0;
+            font-size: 1.2rem;
+        }
+    }
+    
+    
+
+    .edu-relative {
+        height:auto;
+    }
+
+    &.row-gap-20 {
+        row-gap: 20px;
+    }
+}
+
+.date-links {
+    cursor: pointer;
+}
+
+.collapse-dates {
+    max-height:0;
+    overflow: hidden;
+    transition: max-height 1s ease-out;
+}
+
+.collapse-dates.show-dates {
+    transition: max-height 1s ease-in;
+    max-height:10000px;
+    
+}

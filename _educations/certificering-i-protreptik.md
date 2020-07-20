@@ -12,8 +12,8 @@ price: '70.000,- EKSKL. MOMS'
 pdf: /pdfs/Certificering-i-protreptik-efterår.pdf
 location: 'Blegdamsvej 104C, 3. sal, baghuset th., 2100 København Ø'
 special: false
-hold_information: Forløbet aftales individuelt
-
+event-title: Forløbet aftales individuelt
+cat: certificeringer
 ---
 Dette forløb er din chance og mulighed for at komme helt i dybden med denne filosofiske samtalekunst og ikke mindst dig selv og de værdier du står for i din ledelse, dit arbejdsliv og tilværelse generelt.
 

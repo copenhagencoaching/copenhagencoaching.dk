@@ -11,11 +11,9 @@ price: 12.000,- EKSKL. MOMS / 3 dage inklusiv frokost og lettere morgenforplejni
 pdf: ''
 event-title: Kommende hold
 location: Blegdamsvej 104C, 3. sal, baghuset th., 2100 København Ø
-special: false
-hold_eller_begivenheder: true
-events:
-- overskrift: 5., 6. & 23. oktober 2020
-
+classes:
+- title: 5., 6. & 23. oktober 2020
+cat: masterclass
 ---
 ### LIVSSPEJLET: OM AT HOPPE UD AF det mulige SELVBEDRAG OG IND I DEN NORMATIVITET, DER KOMMER FRA HJERTET
 

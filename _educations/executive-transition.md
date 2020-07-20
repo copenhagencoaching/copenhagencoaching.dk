@@ -8,10 +8,10 @@ pdf: 'false'
 event-title: Kommende hold
 special: true
 hold_eller_begivenheder: true
-events:
-- overskrift: Nye seminarer til foråret 2020 (datoer følger snarest)
+classes:
+- title: Nye seminarer til foråret 2020 (datoer følger snarest)
 order: "2"
-
+cat: "skræddersyede udd."
 ---
 **Du kan trygt melde dig til vores næste hold. Vi følger situationen og de løbende retningslinjer nøje for at undgå spredningen af covid-19.**
 

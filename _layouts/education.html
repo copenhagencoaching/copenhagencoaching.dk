@@ -1,127 +1,104 @@
 ---
-layout: page
+layout: default
 ---
+{% capture reg-url %}?n={{ page.title | uri_escape }}{% endcapture %}
+<div class="container-fluid grid-side-menu narrow-container">
+  <div class="container-body">
 
-<div class="education">
-  <div class="wrapper">
-    <div class="education-content">
-      {{ page.content }}
-      {% capture reg-url %}?n={{ page.title | uri_escape }}{% endcapture %}
+    <div class="hero-banner-image">
+      <div class="color-box"></div>
+      <div class="hero-image">
+        <img src="{{ page.image }}" alt="" class="image-fluid"></div>
     </div>
-    <div class="facta-column">
-      <div class="facta-box">
-        <b>
-          <p>Pris:</p>
-        </b>
-        <p> {{ page.price }} </p>
+
+    <h1>{{ page.header }}</h1>
+    {{ page.content }}
+  </div>
+  <div class="container-side">
+
+    <div class="edu-relative">
+
+      <a class="big-grey-btn" href="/registration/{{ reg-url }}">
+        <h4>Tilmeld dig her</h4>
+      </a>
+      <div class="grid-1 gray-box row-gap-20">
+
+
+        <h4>Info</h4>
+
+        {% if page.price %}
+        <div>
+          <h6>Pris</h6>
+          <p>{{ page.price }}</p>
+        </div>
+        {% endif %}
+
+
         {% if page.location %}
-        <b>
-          <p>Sted:</p>
-        </b>
-        <p> {{ page.location }} </p>
+        <div>
+          <h6>Sted</h6>
+          <p>{{ page.location }}</p>
+        </div>
         {% endif %}
 
-        <!-- Datoer  -->
 
-        {% if page.hold_eller_begivenheder == true %}
-        <b>
-          <p>{{page.event-title}}:</p>
-        </b>
+        <!-- Datoer-->
+        {% if page.classes %}
+<div>
+        <h6>{{ page.event-title }}:</h6>
 
-        {% for event in page.events %}
-
-        {% if event.subcategory == true %}
-
-
-        <h3>{{ event.overskrift }}</h3>
-
-        {% for subcat in event.subcat %}
-        <div class="date-box">
-          <a class="date-links" role="button">
-            {{ subcat.sub-cat-title }}<i class="fas fa-caret-down"></i>
-          </a>
+        {% for class in page.classes %}
+        <div class="card fa-box-dates">
+          <a class="date-links" role="button"> {{ class.title }} {% if class.place %}- {{ class.place }} {% endif %} {% if class.dates %}<i
+              class="fas fa-caret-down"></i> {% endif %}</a>
+              {% if class.dates %}
           <div id="dateCollapse" class="collapse-dates">
-            <ul>
-              {% for dato in subcat.datoer %}
-              <li>
-                {{ dato }}
-              </li>
-              {% endfor %}
-            </ul>
+            <div class="card-body">
+              <ul class="list-group">
+                {% for cl in class.dates %}
+                <li>{{ cl.date }}</li>
+                {% endfor %}
+              </ul>
+
+            </div>
+
+          </div>
+          {% endif %}
+        </div>
+        {% endfor %}
+      </div>
+      {% else %}
+      <h6>{{ page.event-title }}</h6>
+        {% endif %}
+
+        <div>
+        <h6>Kontakt person</h6>
+        {% for emp in site.employees %}
+        {% if emp.title == page.contact-person %}
+        <div class="contact-box">
+          <div class="contact-img">
+            <img src="{{ emp.small-portrait-image }}" alt="{{ emp.title}}">
+          </div>
+          <div class="contact-body">
+            <span><a href="{{ emp.url }}">{{ emp.title }}</a></span>
+            <span><i class="fas fa-phone"></i> <a href="phone:{{ emp.call }}">{{ emp.call }}</a></span>
+            <span><i class="far fa-envelope"></i> <a href="mailto:{{ emp.email }}">{{ emp.email }}</a></span>
           </div>
         </div>
-        {% endfor %}
-
-        {% else %}
-
-        {% if event.dato %}
-        <div class="date-box">
-          <a class="date-links" role="button">
-            {{ event.overskrift }}<i class="fas fa-caret-down"></i>
-          </a>
-          <div id="dateCollapse" class="collapse-dates">
-            <ul>
-              {% for dato in event.dato %}
-              <li>
-                {{ dato }}
-              </li>
-              {% endfor %}
-            </ul>
-          </div>
-        </div>
-        {% else %}
-        <div class="date-box">{{ event.overskrift }}</div>
-
-        {% endif %}
-
-
-        {% endif %}
-
-
-        {% endfor %}
-
-
-        {% else %}
-        <!--1-->
-        {{ page.hold_information }}
-        {% endif %}
-        <!--1-->
-
-
-
-
-        {% if page.contact-person %}
-        <b>
-          <p>Kontakt:</p>
-        </b>
-        {% for employee in site.employees %}
-        {% if employee.title == page.contact-person %}
-        <div class="contact">
-          <img class="contact-img" src="{{ employee.small-portrait-image }}"
-            alt="{{ employee.title }}, {{ employee.description}}">
-          <div>
-            <a href="{{ employee.url }}" data-proofer-ignore>{{ employee.title }}</a>
-            <a href="tel:{{ employee.call }}" data-proofer-ignore>{{ employee.call }}</a>
-            <a href="mailto:{{ employee.email }}" data-proofer-ignore>{{ employee.email }}</a></div>
-        </div>
         {% endif %}
         {% endfor %}
-        {% endif %}
-        </span>
-        <br>
-        <a class="reg-link" href="/registration/{{ reg-url }}">Tilmeld dig her</a>
-      
+      </div>
+
+
         {% if page.pdf %}
         {% if page.pdf != "" %}
-        <a data-proofer-ignore target="_blank" alt="pdf {{ page.title }}"
-        href="{{ page.pdf }}" class="pdf-link">Download
-        PDF</a>
+        {% if page.pdf != "false" %}
+        <a class="green-button" href="{{ page.pdf }}" target="_blank">Download PDF</a>
         {% endif %}
-        
-       
-       
-          {% endif %}
+        {% endif %}
+        {% endif %}
       </div>
     </div>
 
   </div>
+</div>
