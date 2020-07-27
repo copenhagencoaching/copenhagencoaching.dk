@@ -599,9 +599,16 @@ ul {
 
 .grid-30-70 {
   grid-template-columns: 65% 35%;
+  @include for-bot {
+    grid-template-columns: 1fr;
+
+    .border-left {
+      padding-left: 0;
+      border-left: none !important;
+    }
+  }
 }
 
 .border-left {
-  
   padding-left: 40px;
 }

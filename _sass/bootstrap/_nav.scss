@@ -24,6 +24,10 @@ box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.17);
     display: inline;
     text-transform: none !important;
     font-size: .875rem !important;
+    @include for-bot {
+      font-weight: 400;
+      font-size: 0.8rem;
+    }
   }
 
   @include hover-focus {

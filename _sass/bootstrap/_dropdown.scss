@@ -142,6 +142,13 @@ box-shadow: inset 0px 3px 6px 0px rgba(0,0,0,0.17);
     right: auto;
     bottom: auto;
   }
+  padding-left: 10px;
+
+  @include for-bot {
+    .grid, .grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7 {
+      grid-template-columns: 1fr;
+    }
+  }
 }
 
 // Dividers (basically an `<hr>`) within the dropdown
@@ -163,6 +170,10 @@ box-shadow: inset 0px 3px 6px 0px rgba(0,0,0,0.17);
   white-space: nowrap; // prevent links from randomly breaking onto new lines
   background-color: transparent; // For `<button>`s
   border: 0; // For `<button>`s
+  @include for-bot {
+    font-weight: 400;
+    font-size: 0.8rem;
+  }
 
   // Prevent dropdown overflow if there's no padding
   // See https://github.com/twbs/bootstrap/pull/27703
@@ -212,7 +223,9 @@ box-shadow: inset 0px 3px 6px 0px rgba(0,0,0,0.17);
   white-space: nowrap; // as with > li > a
 
  @include for-bot {
-  border-bottom: $border-width solid $border-color;
+  font-weight: 500;
+  font-size: 0.9rem;
+  margin-top: 10px;
  }
    
   
@@ -225,11 +238,18 @@ box-shadow: inset 0px 3px 6px 0px rgba(0,0,0,0.17);
   white-space: nowrap; // as with > li > a
   margin-bottom: 20px;
   text-transform: uppercase;
+
+  @include for-bot {
+    display: none;
+  }
 }
 
 // Dropdown text
 .dropdown-item-text {
   display: block;
-  padding: $dropdown-item-padding-y $dropdown-item-padding-x;
-  color: $dropdown-link-color;
+  padding: 0 0 10px 0;
+  font-weight: 300;
+  @include for-bot {
+    display: none;
+  }
 }

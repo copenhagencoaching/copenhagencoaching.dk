@@ -48,10 +48,16 @@ display: flex;
 
    }
     @include for-bot {
+      .nav-item {
+        font-weight: 600;
+      }
       .social {
-        flex-direction: row;
-        .nav-link {
-          padding: .5rem;
+        flex-direction: column-reverse;
+        button {
+          margin: 10px 0 0 0;
+        }
+        .nav-link, .nav-item {
+          
         }
       }
     }
