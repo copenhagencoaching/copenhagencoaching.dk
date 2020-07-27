@@ -2,6 +2,19 @@
 layout: page
 title: About
 ---
+<div id="team" class="employees">
+  <h1>Mød teamet</h1>
+  <div class="wrapper">
+      {% assign sorted_empl = site.employees | sort: "order" %}
+      {% for employee in sorted_empl %}
+      <a class="{{ employee.title }}" href="{{ employee.url }}">
+          <img class="emp-image" src="{{ employee.portrait-image }}" alt="{{ employee.title }}">
+          <h5>{{ employee.title }}</h5>
+          <p>{{ employee.description }}<br>{{ employee.email }}<br>{{ employee.call }}</p>
+      </a>
+      {% endfor %}
+  </div>
+</div>
 
 {% include partners.html %}
 
@@ -21,19 +34,7 @@ title: About
 
 
 
-<div id="team" class="employees">
-  <h1>Mød teamet</h1>
-  <div class="wrapper">
-      {% assign sorted_empl = site.employees | sort: "order" %}
-      {% for employee in sorted_empl %}
-      <a class="{{ employee.title }}" href="{{ employee.url }}">
-          <img class="emp-image" src="{{ employee.portrait-image }}" alt="{{ employee.title }}">
-          <h5>{{ employee.title }}</h5>
-          <p>{{ employee.description }}<br>{{ employee.email }}<br>{{ employee.call }}</p>
-      </a>
-      {% endfor %}
-  </div>
-</div>
+
 
 <!-- Placer EMCC-akkreditering her -->
 
