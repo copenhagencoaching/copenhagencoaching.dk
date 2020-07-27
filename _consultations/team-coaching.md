@@ -5,7 +5,7 @@ order: "3"
 title: Team coaching
 image: /images/coaching/c4.jpg
 contact-person: Andreas Bering
-cat: organisationsudvikling
+cat: m-leder
 ---
 
 **Få sammenhængskraft, klarhed og effektivitet i temaet**

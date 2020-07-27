@@ -4,7 +4,7 @@ order: "4"
 title: Fagpersonlig udvikling
 image: "/images/coaching/c4.jpg"
 contact-person: Andreas Bering
-cat: medarbejderudvikling
+cat: medarbejder
 ---
 **Når personlige udfordringer forsinker handlekraften**
 

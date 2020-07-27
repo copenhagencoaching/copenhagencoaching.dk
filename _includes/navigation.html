@@ -48,7 +48,7 @@
 
                 {% for cat in site.education-categories %}
                 <div class="dropdown-list">
-                  <h6 class="dropdown-header">{{ cat.title }}</h6>
+                  <h5 class="dropdown-header">{{ cat.title }}</h5>
                   {% assign ordered-edu = site.educations | sort: "order" %}
                   {% for education in ordered-edu %}
                   {% for cate in education.cat %}
@@ -61,7 +61,7 @@
                 </div>
                 {% endfor %}
                 <div class="dropdown-list">
-                  <h6 class="dropdown-header">Mere info</h6>
+                  <h5 class="dropdown-header">Mere info</h5>
                   <a href="#" data-toggle="modal" data-target="#contact-modal" class="dropdown-item">I tvivl?</a>
                   <a href="#" data-toggle="modal" data-target="#newsletter-modal" class="dropdown-item">Bliv inspireret og inviteret</a>
                  
@@ -80,14 +80,20 @@
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <div class="container-fluid container-narrow">
-              <h5 class="dropdown-over-header">Konsulentydelser</h5>
-              {% capture grid-length %}{% for cat in site.consultation-categories %}{% if forloop.first %}{{ forloop.length}}{% endif %}{% endfor %}{% endcapture %}
+              <h5 class="dropdown-over-header">Vi kan hjælpe dig/jer med Rådgivning og Sparring</h5>
+              <!-- {% capture grid-length %}{% for cat in site.consultation-categories %}{% if forloop.first %}{{ forloop.length}}{% endif %}{% endfor %}{% endcapture %} -->
 
-              <div class="dropdown-container grid-{{ grid-length }}">
 
+              <div class="dropdown-container grid-2 grid-30-70">
+
+<div class="grid">
+  <h6 class="dropdown-item">Til dig som</h6>
+                {% capture grid-length %}{% for cat in site.consultation-categories %}{% if forloop.first %}{{ forloop.length}}{% endif %}{% endfor %}{% endcapture %}
+                <div class="grid-{{ grid-length }}">
+                  
                 {% for cat in site.consultation-categories %}
                 <div class="dropdown-list">
-                  <h6 class="dropdown-header">{{ cat.title }}</h6>
+                  <h5 class="dropdown-header">{{ cat.name }}</h5>
                   {% for cons in site.consultations %}
                   {% for cate in cons.cat %}
                   {% if cate == cat.title %}
@@ -99,7 +105,16 @@
                 </div>
                 {% endfor %}
 
+                
+              </div>
+              </div>
 
+              <div class="dropdown-list border-left">
+                <h5 class="dropdown-header">Lær os bedre at kende</h5>
+                <a href="/inspiration" class="dropdown-item">Har du læst?</a>
+                <br>
+               <h5><a href="#contact" data-toggle="modal" data-target="#contact-modal">Vores dør er altid åben - book en samtale <i class="fas fa-long-arrow-alt-right"></i></a></h5>
+              </div>
               </div>
             </div>
           </div>

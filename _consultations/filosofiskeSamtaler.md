@@ -5,7 +5,7 @@ order: "5"
 title: Filosofiske samtaler
 image: /images/coaching/c2.jpg
 contact-person: Kim Gørtz
-cat: ledelsesudvikling
+cat: top-leder
 ---
 
 **Det reflekterede arbejdsliv og den organisatoriske tænksomhed.**

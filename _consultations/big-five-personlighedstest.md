@@ -6,8 +6,8 @@ id: "7"
 order: "7"
 contact-person: Frederikke Winther
 cat:
-- medarbejderudvikling
-- ledelsesudvikling
+- privatperson
+- medarbejder
 ---
 
 **Når din personlighedstest bliver et udviklingsværktøj**

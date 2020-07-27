@@ -5,7 +5,9 @@ order: "1"
 title: Executive coaching
 image: /images/coaching/c1.jpg
 contact-person: Mette Mejlhede
-cat: ledelsesudvikling
+cat:
+- m-leder
+- top-leder
 ---
 
 **Når investering i topledelsen ses direkte på bundlinien**

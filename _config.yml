@@ -50,12 +50,18 @@ education-categories:
     order: 4
 
 consultation-categories:
-  - title: organisationsudvikling
+  - title: privatperson
+    name: Privatperson
     order: 1
-  - title: ledelsesudvikling
+  - title: medarbejder
+    name: Medarbejder
     order: 2
-  - title: medarbejderudvikling
+  - title: m-leder
+    name: M. Leder
     order: 3
+  - title: top-leder
+    name: Top Leder
+    order: 4
 
 customer-categories:
   - title: sundhed & omsorg

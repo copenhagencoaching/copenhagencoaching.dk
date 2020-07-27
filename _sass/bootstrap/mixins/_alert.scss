@@ -596,3 +596,12 @@ ul {
     transform: scale(1.05);
   }
 }
+
+.grid-30-70 {
+  grid-template-columns: 65% 35%;
+}
+
+.border-left {
+  
+  padding-left: 40px;
+}

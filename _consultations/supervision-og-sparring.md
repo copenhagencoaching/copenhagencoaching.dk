@@ -5,7 +5,7 @@ published: true
 id: "2"
 order: "2"
 contact-person: Andreas Bering
-cat: organisationsudvikling
+cat: m-leder
 ---
 
 **Nye perspektiver - andre handlemuligheder**

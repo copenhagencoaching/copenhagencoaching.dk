@@ -6,8 +6,8 @@ id: "6"
 order: "6"
 contact-person: Kim Gørtz
 cat:
-- medarbejderudvikling
-- ledelsesudvikling
+- medarbejder
+- m-leder
 ---
 
 **Når du vil tæt på det væsentlige**

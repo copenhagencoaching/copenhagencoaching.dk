@@ -155,7 +155,7 @@ box-shadow: inset 0px 3px 6px 0px rgba(0,0,0,0.17);
 .dropdown-item {
   width: 100%; // For `<button>`s
   display: block;
-  padding: $dropdown-item-padding-y $dropdown-item-padding-x;
+  padding: $dropdown-item-padding-y 0;
   clear: both;
   font-weight: $font-weight-normal;
   color: $dark-grey;
@@ -206,24 +206,25 @@ box-shadow: inset 0px 3px 6px 0px rgba(0,0,0,0.17);
 // Dropdown section headers
 .dropdown-header {
   display: block;
-  padding: $dropdown-header-padding-y $dropdown-item-padding-x;
+  padding: 5px 0 5px 0;
   margin-bottom: 0; // for use with heading elements
   color: $dark-grey;
   white-space: nowrap; // as with > li > a
-  text-transform: uppercase;
-  @include for-bot {
-    border-bottom: 2px solid $faded-grey;
-  }
+
+ @include for-bot {
+  border-bottom: $border-width solid $border-color;
+ }
+   
+  
 }
 
 .dropdown-over-header {
   display: block;
-  padding: $dropdown-header-padding-y $dropdown-item-padding-x;
+  padding: 0 0 10px 0;
   color: $dark-grey;
   white-space: nowrap; // as with > li > a
-  text-transform: uppercase;
-  font-size: inherit;
   margin-bottom: 20px;
+  text-transform: uppercase;
 }
 
 // Dropdown text
