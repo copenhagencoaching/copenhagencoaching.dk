@@ -328,3 +328,27 @@ textarea.form-control {
     }
   }
 }
+
+.contact-form {
+  background-color: $faded-grey;
+  padding: 50px 70px;
+  input, textarea {
+    width: 100%;
+    margin: 0 0 20px;
+    padding: 10px;
+    border: none;
+
+  }
+  input, button {
+    
+    display: block;
+    
+  }
+
+  button {
+    margin-top: 0;
+  }
+  h3 {
+    margin-bottom: 20px;
+  }
+}

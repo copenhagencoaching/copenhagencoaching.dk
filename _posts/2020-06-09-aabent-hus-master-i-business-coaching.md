@@ -4,17 +4,16 @@ author: Camilla Ingwersen
 teaser: Kom til online info møde om vores 2-årige Master uddannelse i Business Coaching
 facta-box: true
 location: LIVE session via Facebook
-events:
-- overskrift: 13. august 2020 kl. 20.00 – 21.00
-- overskrift: 27. august 2020 kl. 20.00 – 21.00
-event-title: Dato
-hold_eller_begivenheder: true
+time: 20:00 - 21:00
+dates:
+- 25. juli
 tags:
 - mbc
 image: "/images/inspiration/aabent-hus.jpg"
 color-box-color: blue
-place-link: https://www.facebook.com/copenhagencoaching.dk/live
+location-link: https://www.facebook.com/copenhagencoaching.dk/live
 extra: <a href="/academy/master-of-business-coaching">Læs mere om vores Master of Business Coaching</a>
+contac-person: Camilla Ingwersen
 ---
 ##### Vil du gerne styrke eller opøve din dialogiske kapacitet og dit menneskelige beredskab?
 

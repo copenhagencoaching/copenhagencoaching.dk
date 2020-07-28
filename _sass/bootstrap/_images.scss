@@ -40,3 +40,9 @@
   @include font-size($figure-caption-font-size);
   color: $figure-caption-color;
 }
+
+
+.big-image {
+  width: 100%;
+  margin-bottom: 50px;
+}
