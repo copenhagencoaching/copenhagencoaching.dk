@@ -8,26 +8,23 @@ contact-person: Kim Gørtz
 header: Filosofisk affirmation
 event-title: Affirmationshold 2020/2021
 location: København
-classes:
-- title: 'Opstart: Tirsdag 29. september 2020'
-  place: København
-  dates:
-  - title: Undervisning
-    date: Tirsdag d. 29.09.2020 1. mødegang fra 17-20.00
-  - title: Undervisning
-    date: Tirsdag d. 27.10.2020 2. mødegang fra 17-20.00
-  - title: Undervisning
-    date: Tirsdag d. 24.11.2020 3. mødegang fra 17-20.00
-  - title: Undervisning
-    date: Tirsdag d. 26.01.2020 4. mødegang fra 17-20.00
-  - title: Undervisning
-    date: Tirsdag d. 30.03.2020 5. mødegang fra 17-20.00
-  - title: Undervisning
-    date: Tirsdag d. 27.04.2020 6. mødegang fra 17-20.00
-  - title: Undevisning
-    date: Søndag d. 09.05.2020 7. mødegang fra 10-14.00
+special: false
+hold_information: ''
+hold_eller_begivenheder: true
+events:
+- overskrift: 'Opstart: Tirsdag 29. september 2020'
+  dato:
+  - Tirsdag 29. september kl. 17-20
+  - Onsdag 4. november kl. 17-20
+  - Tirsdag 15. december kl. 17-20
+  - Tirsdag 26. januar kl. 17-20
+  - Tirsdag 2. marts kl. 17-20
+  - Tirsdag 6. april kl. 17-20
+  - Søndag 9. maj kl. 10-14
+  subcategory: false
+  subcat: []
 pdf: "/uploads/FILOSOFISK_AFFIRMATION_CCC.pdf"
-cat: "skræddersyede udd."
+
 ---
 Filosofisk affirmation er for unge (13-15-årige), som gerne vil _affirmeres_ indenfor det filosofiske univers, som et alternativ eller et supplement til den kristne konfirmation.
 
@@ -57,6 +54,6 @@ Det vil blive bekræftet, at den filosofiske affirmand søger anderledesheden, o
 
 Der er et begrænset antal pladser: Max 20 stk.
 
-Tilmelding senest: 1. september 2020
+Tilmelding senest: 1. august 2020
 
 ...er du voksen og er blevet nysgerrig på selv at deltage på et lignende forløb, skal du være velkommen til at kontakte os for også at høre nærmere om det.

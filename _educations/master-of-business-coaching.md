@@ -1,9 +1,9 @@
 ---
 order: "1"
-title: Master i Business Coaching
+title: Master of Business Coaching
 image: "/images/coaching/ledelsessparring.jpg"
 contact-person: Frederikke Winther
-header: Master i Business Coaching
+header: Master of Business Coaching
 description: Bliv samtaleekspert med vores Master i Business Coaching
 price: 45.900,- EKSKL. MOMS PR. SEMESTER (heri er inkluderet fuld forplejning og kursusmaterialer)
 pdf: "/pdfs/master-of-business-coaching.pdf"
@@ -11,27 +11,32 @@ event-title: Kommende hold
 location: Blegdamsvej 104C, 3. sal, baghuset th., 2100 København Ø
 special: false
 hold_eller_begivenheder: true
-classes:
-- title: August 2020
-  place: Vejle
-  dates:
-  - date: 27.-28. august
-  - date: 29.-30. september
-  - date: 6.-7. oktober
-  - date: 2.-3. november
-  - date: 2.-3. december
-- title: September 2020
-  place: København
-  dates:
-  - date: 7.-8. september
-  - date: 1.-2. oktober
-  - date: 26.-27. oktober
-  - date: 5.-6. november
-  - date: 16.-17. december
-- title: Februar 2021 (datoer er på vej)
+events:
+- subcategory: true
+  subcat:
+  - sub-cat-title: 27. august 2020
+    datoer:
+    - 27.-28. august
+    - 29.-30. september
+    - 6.-7. oktober
+    - 2.-3. november
+    - 2.-3. december
+  overskrift: Vejle
+- overskrift: København
+  subcategory: true
+  subcat:
+  - sub-cat-title: 7. september 2020
+    datoer:
+    - 7.-8. september
+    - 1.-2. oktober
+    - 26.-27. oktober
+    - 5.-6. november
+    - 16.-17. december
+  - sub-cat-title: Februar 2021 (datoer er på vej)
+    datoer: []
 redirect_from:
   - /master-business-coaching-mbc/
-cat: masteruddannelser
+
 ---
 **Du kan trygt melde dig til vores næste hold. Vi følger situationen og de løbende retningslinjer nøje for at undgå spredningen af covid-19.**
 

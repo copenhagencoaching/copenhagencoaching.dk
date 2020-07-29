@@ -1,80 +1,139 @@
 ---
-layout: default
+layout: only-page
 ---
-<div class="container-fluid narrow-container">
-  <div class="short-hero-image">
-    <img src="{{ page.image}}" alt="">
-  </div>
+<div class="wide-hero-banner">
+    <img class="hero-image" src="{{ page.image }}" alt="{{ page.title }}">
+   {% if page.color-box-color %} 
+    <div class="color-box {{ page.color-box-color }}" ></div>
+    {% else %}
+    <div class="color-box"></div>
 
+    {% endif %}
+</div>
 
+{% if page.facta-box == true %}
+{% assign cols = "8" %}
+{% else %}
+{% assign cols = "12" %}
+{% endif %}
+<div class="individual-stories wrapper row">
+    <div class="story-content col-lg-{{ cols }} col-sm-12">
+        <h1 class="header-one title">{{ page.title }}</h1>
+        <span class="stories-information">
+            {{ page.date | date: "%B %d, %Y" }} af&nbsp;
+            <a href="/employees/{{ page.author | replace: ' ', '-'| downcase }}/" data-proofer-ignore>{{ page.author}}</a>
+        </span>
+        <div class="share-icons">
+            <a href="https://www.facebook.com/sharer.php?u={{ page.url | prepend: 'https://stage.copenhagencoaching.dk' }}"><i class="fab fa-facebook-f" title="Del på Facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter" title="Del på Twitter"></i></a>
+            <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ post.url | prepend: 'https://stage.copenhagencoaching.dk' }}"><i class="fab fa-linkedin-in" title="Del på LinkedIn"></i></a>
+        </div>
+        {{ content }}
+        <a class="read-more" href="/inspiration/">← Læs flere historier</a>
+    </div>
 
+    {% if page.facta-box == true %}
 
-  <h1>{{ page.title }}</h1>
-  {% if page.category == "blog" %}
-  <h6>{{ page.date | date: "%d. %b %Y" }}</h6>
-  <h5><a href="/employees/{{ page.author | replace: ' ', '-'| downcase }}/" data-proofer-ignore>{{ page.author}}</a>
-  </h5>{% endif %}
-
-
-  <div class="text-content">
-
-    {% if page.price or page.location or page.time or page.contact.person %}
-
-    <div class="dynamic-info-box green grid-1">
-
-      {% if page.dates %}
-      <span>
-        <h5>Dato:</h5>
-        {% for date in page.dates %}
-        <p>{{ date }}</p>
-        {% endfor %}
-      </span>
-      {% endif %}
-
-      {% if page.time %}
-      <h5>Tid:</h5>
-      <p>{{ page.time }}</p>
-      {% endif %}
-
-      {% if page.price %}
-      <span>
+    <div class="facta-box col-lg-4 col-sm-12">
+{% if page.price %}
         <h5>Pris:</h5>
         <p> {{ page.price }} </p>
-      </span>
-      {% endif %}
-
-      {% if page.location %}
-      <span>
+        {% endif %}
+        {% if page.location %}
+        {% if page.place-link %}
         <h5>Sted:</h5>
-        <p>{% if page.location-link %}<a href="{{ page.location-link }}"
-            target="_blank">{% endif %}{{ page.location }}{% if page.location-link %} </a> {% endif %}</p>
-      </span>
-      {% endif %}
+        <p> <a href="{{ page.place-link }}" target="_blank">{{ page.location }} </a></p>
+        {% endif %}
+      
+{% else %}
+        <h5>Sted:</h5>
+        <p> {{ page.location }} </p>
+        {% endif %}
+
+        <!-- Datoer  -->
+
+        {% if page.hold_eller_begivenheder == true %}
+        <h5>{{page.event-title}}:</h5>
+  
+        {% for event in page.events %}
+
+        {% if event.subcategory == true %}
+       
+        
+          <h3>{{ event.overskrift }}</h3>
+    
+        {% for subcat in event.subcat %}
+        <div class="date-box">
+          <a class="date-links" role="button">
+            {{ subcat.sub-cat-title }}<i class="fas fa-caret-down"></i>
+          </a>
+          <div id="dateCollapse" class="collapse-dates">
+            <ul>
+              {% for dato in subcat.datoer %}
+              <li>
+                {{ dato }}
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+        {% endfor %}
+
+        {% else %}
+
+        {% if event.dato %}
+        <div class="date-box">
+          <a class="date-links" role="button">
+            {{ event.overskrift }}<i class="fas fa-caret-down"></i>
+          </a>
+          <div id="dateCollapse" class="collapse-dates">
+            <ul>
+              {% for dato in event.dato %}
+              <li>
+                {{ dato }}
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+        {% else %}
+        <div class="date-box">{{ event.overskrift }}</div>
+
+        {% endif %}
 
 
-      {% if page.contact-person %}
-      <span>
-        <h5>Kontakt:</h5>
+        {% endif %}
+
+
+        {% endfor %}
+
+
+        {% else %}
+        <!--1-->
+        {{ page.hold_information }}
+        {% endif %}
+        <!--1-->
+
+
+
+
+        {% if page.contact-person %}
+        <h4 class="kontakt">Kontakt:</h4>
         {% for employee in site.employees %}
         {% if employee.title == page.contact-person %}
-        <a href="{{ employee.url }}" data-proofer-ignore>{{ employee.title }}</a><br>
-        <a href="tel:{{ employee.call }}" data-proofer-ignore>{{ employee.call }}</a><br>
+        <a href="{{ employee.url }}" data-proofer-ignore>{{ employee.title }}</a>
+        <a href="tel:{{ employee.call }}" data-proofer-ignore>{{ employee.call }}</a>
         <a href="mailto:{{ employee.email }}" data-proofer-ignore>{{ employee.email }}</a>
         {% endif %}
         {% endfor %}
-      </span>
-      {% endif %}
+        {% endif %}
 
-
-    </div>
+        {% if page.extra %}
+        <br><hr>
+        <h5>{{ page.extra }}</h5>
+        {% endif %}
+        </span>
+       
+      </div>
     {% endif %}
-    <div class="share-icons">
-      <a href="https://www.facebook.com/sharer.php?u={{ page.url | prepend: 'https://stage.copenhagencoaching.dk' }}"><i
-          class="fab fa-facebook-f" title="Del på Facebook"></i></a>
-      <a
-        href="https://www.linkedin.com/shareArticle?mini=true&url={{ post.url | prepend: 'https://stage.copenhagencoaching.dk' }}"><i
-          class="fab fa-linkedin-in" title="Del på LinkedIn"></i></a>
-    </div>
-    {{ page.content }}
-  </div>
 </div>

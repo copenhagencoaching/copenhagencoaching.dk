@@ -1,9 +1,9 @@
 ---
 order: "6"
-title: Certificeringer i Big Five test
+title: Certificeringer i Big Five
 image: "/images/academy/certificering-i-big-five.png"
 contact-person: Frederikke Winther
-header: Certificeringer i Big Five test
+header: Certificeringer i Big Five
 description: Bliv certificeret til at bruge markedets bedst underbyggede personlighedstest
   og lær at anvende den ved gruppesammensætning, rekruttering og processer.
 price: 19.500,- EKSKL. MOMS / 3 KURSUSDAGE
@@ -12,9 +12,8 @@ event-title: Kommende hold
 location: Blegdamsvej 104C, 3. sal, baghuset th., 2100 København Ø
 special: false
 hold_eller_begivenheder: true
-classes:
-- title: Vi kører 2 hold i efteråret 2020 - datoer er på vej.
-cat: certificeringer
+events:
+- overskrift: Vi kører 2 hold i efteråret 2020 - datoer er på vej.
 ---
 **Du kan trygt melde dig til vores næste hold. Vi følger situationen og de løbende retningslinjer nøje for at undgå spredningen af covid-19.**
 

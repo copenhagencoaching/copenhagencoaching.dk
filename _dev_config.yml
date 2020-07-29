@@ -39,7 +39,7 @@ strict_front_matter: true
 
 # How much to render? These all default to false
 show_drafts: false
-future: false
+future: true
 unpublished: false
 
 # Make the machine talk to you

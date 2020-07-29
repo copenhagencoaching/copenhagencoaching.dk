@@ -10,9 +10,11 @@ price: 30.000,- ekskl. moms (heri er inkluderet fuld forplejning, materialer og 
 pdf: "/pdfs/Lesbos 2020.pdf"
 event-title: Kommende rejser
 location: Lesbos
-classes:
-- title: 10. - 17. september 2020
-cat: "certificeringer"
+special: false
+hold_eller_begivenheder: true
+events:
+- overskrift: 10-17 september 2020
+
 ---
 ### Hvorfor skal du vælge Ledelseskursus på Lesbos?
 

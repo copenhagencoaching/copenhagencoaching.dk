@@ -9,15 +9,19 @@ contact-person: Kim Gørtz
 header: Masterclass i Coaching
 event-title: Næste masterclass
 location: Copenhagen Coaching Center, Blegdamsvej 104, 2100 København Ø.
-classes:
-- title: Efterår 2020
-  place: København
-  dates:
-  - date: 23. november
-  - date: 30. november
-  - date: 7. december
+special: false
+hold_information: ''
+hold_eller_begivenheder: true
+events:
+- overskrift: Efterår 2020
+  dato:
+  - 23. november
+  - 30. november
+  - 7. december
+  subcategory: false
+  subcat: []
 pdf: ''
-cat: masterclass
+
 ---
 > ### SELV-FORNEMMELSENS FIRE LAG I COACHING-PRAKSIS
 >

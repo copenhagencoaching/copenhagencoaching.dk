@@ -7,7 +7,7 @@ paginate_path: "/stories/title/"
 stage_site: https://stage.copenhagencoaching.dk
 prod_site: https://www.copenhagencoaching.dk
 image: /images/seo/ccc-seo-logo-dark.png
-
+future: true
 
 logo: /images/logo/ccc-logo-dark.png
 
@@ -35,44 +35,6 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-redirect-from
-
-education-categories:
-  - title: masteruddannelser
-    name: Masteruddannelser
-    order: 1
-  - title: masterclass
-    name: Masterclasses
-    order: 2
-  - title: certificeringer
-    name: Certificeringer
-    order: 3
-  - title: skræddersyede udd.
-    name: Skræddersyede udd.
-    order: 4
-
-consultation-categories:
-  - title: privatperson
-    name: Privatperson
-    order: 1
-  - title: medarbejder
-    name: Medarbejder
-    order: 2
-  - title: m-leder
-    name: M. Leder
-    order: 3
-  - title: top-leder
-    name: Top Leder
-    order: 4
-
-customer-categories:
-  - title: sundhed & omsorg
-    order: 1
-  - title: børn & unge
-    order: 2
-  - title: kultur & forlystelse
-    order: 3
-  - title: sport & fritid
-    order: 4
 
 collections:
   posts:

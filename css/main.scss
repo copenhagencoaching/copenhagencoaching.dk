@@ -3,8 +3,9 @@
 @charset "utf-8";
 
 // Abstracts
-@import "bootstrap/bootstrap.scss";
 
+@import "abstracts/variables.scss";
+@import "abstracts/mixins.scss";
 
 // Miscellaneous
 
@@ -21,7 +22,6 @@
 @import "fundament.scss";
 @import "community.scss";
 @import "protreptik.scss";
-@import "info-box.scss";
 
 // Components
 
@@ -34,4 +34,3 @@
 @import "components/employees.scss";
 @import "components/footer.scss";
 @import "components/single-page.scss";
-@import "components/contact-box.scss";
