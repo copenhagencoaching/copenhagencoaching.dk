@@ -14,13 +14,13 @@ hold_eller_begivenheder: true
 events:
 - overskrift: 'Opstart: Tirsdag 29. september 2020'
   dato:
-  - Tirsdag 29. september kl. 17-20
-  - Onsdag 4. november kl. 17-20
-  - Tirsdag 15. december kl. 17-20
-  - Tirsdag 26. januar kl. 17-20
-  - Tirsdag 2. marts kl. 17-20
-  - Tirsdag 6. april kl. 17-20
-  - Søndag 9. maj kl. 10-14
+  - Tirsdag d. 29.09.2020 1. mødegang fra 17-20.00
+  - Tirsdag d. 27.10.2020 2. mødegang fra 17-20.00
+  - Tirsdag d. 24.11.2020 3. mødegang fra 17-20.00
+  - Tirsdag d. 26.01.2021 4. mødegang fra 17-20.00
+  - Tirsdag d. 30.03.2021 5. mødegang fra 17-20.00
+  - Tirsdag d. 27.04.2021 6. mødegang fra 17-20.00
+  - Søndag d. 09.05.2021 7. mødegang fra 10-14.00
   subcategory: false
   subcat: []
 pdf: "/uploads/FILOSOFISK_AFFIRMATION_CCC.pdf"

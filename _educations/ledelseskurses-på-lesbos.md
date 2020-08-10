@@ -13,7 +13,7 @@ location: Lesbos
 special: false
 hold_eller_begivenheder: true
 events:
-- overskrift: 10-17 september 2020
+- overskrift: 10-16 september 2020
 
 ---
 ### Hvorfor skal du vælge Ledelseskursus på Lesbos?
