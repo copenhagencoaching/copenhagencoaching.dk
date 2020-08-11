@@ -1,11 +1,9 @@
 
 .grid-auto-5 {
     grid-template-columns: 1fr 578px;
-    @include for-cont {
-        grid-template-columns: 1fr 300px;
-    }
+   
 
-    @include for-bot {
+    @include for-ipad-pro {
         grid-template-columns: 1fr;
     }
 }
@@ -24,9 +22,9 @@
         padding: 0;
         width: 578px;
         margin-bottom: 50px;
-        @include for-cont {
+/*         @include for-cont {
             width: 400px;
-          }
+          } */
           @include for-bot {
               width: 100%;
           }

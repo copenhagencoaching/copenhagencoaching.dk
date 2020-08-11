@@ -107,7 +107,7 @@ html {
   justify-content: space-between;
     grid-template-columns: 1fr 578px;
 min-height: 200px;
-  max-height: 400px;
+  max-height: 320px;
   column-gap: 90px;
   overflow: hidden;
   &.wide {
@@ -115,7 +115,7 @@ min-height: 200px;
   }
 
   @include for-cont {
-    grid-template-columns: 1fr 400px;
+   
     max-height: 600px;
   }
   b {
