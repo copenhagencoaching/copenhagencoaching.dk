@@ -107,7 +107,6 @@ html {
   justify-content: space-between;
     grid-template-columns: 1fr 578px;
 min-height: 200px;
-  max-height: 320px;
   column-gap: 90px;
   overflow: hidden;
   &.wide {
@@ -132,11 +131,15 @@ min-height: 200px;
     }
     
 
+
     h1 {
     color: #000;
     font-weight: 500;
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
+    @include for-bot {
+      margin-top: 50px;
+    }
 /*     overflow-wrap: break-word;
     word-wrap: break-word; */
  
@@ -158,8 +161,9 @@ min-height: 200px;
     
     display: grid;
     height: 400px;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-bottom: 30px;
 
     .hero-image {
       grid-row-start: 1;
