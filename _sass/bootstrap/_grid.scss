@@ -1,0 +1,114 @@
+// Container widths
+//
+// Set the container width, and override it for fixed navbars in media queries.
+
+@if $enable-grid-classes {
+  .container {
+    @include make-container();
+    @include make-container-max-widths();
+  }
+}
+
+
+
+.container-fluid {
+  &.no-up-n-down {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  &.no-down {
+    padding-bottom: 0;
+  }
+&.narrow-container {
+  max-width: 1600px;
+  &.menu {
+    padding-top: 20px;
+  }
+  
+  
+
+  .wide-bg {
+    padding: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    &:last-child {
+      margin-bottom: 0;
+    }
+    &.blue {
+      background-color: $faded-blue;
+    }
+    &.green {
+      background-color: #d5d6ce;
+    }
+    hr {
+      border: 1px solid;
+      width: 80%;
+    }
+  }
+}
+
+&.extra-narrow-container {
+  max-width: 900px;
+  &.menu {
+    padding-top: 20px;
+  }
+}
+  
+}
+
+// Fluid container
+//
+// Utilizes the mixin meant for fixed width containers, but with 100% width for
+// fluid, full width layouts.
+
+@if $enable-grid-classes {
+  .container-fluid {
+    @include make-container();
+  }
+}
+
+.container-fluid.small-dropdown {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: right;
+
+ @include for-bot {
+   display: grid;
+   grid-template-columns: 1fr;
+   text-align: left;
+   height: auto;
+   overflow-y: hidden;
+   overflow-x: hidden;
+ } 
+}
+
+// Row
+//
+// Rows contain and clear the floats of your columns.
+
+@if $enable-grid-classes {
+  .row {
+    @include make-row();
+  }
+
+  // Remove the negative margin from default .row, then the horizontal padding
+  // from all immediate children columns (to prevent runaway style inheritance).
+  .no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+
+    > .col,
+    > [class*="col-"] {
+      padding-right: 0;
+      padding-left: 0;
+    }
+  }
+}
+
+// Columns
+//
+// Common styles for small and large grid columns
+
+@if $enable-grid-classes {
+  @include make-grid-columns();
+}

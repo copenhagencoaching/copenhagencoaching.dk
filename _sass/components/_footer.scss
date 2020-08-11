@@ -8,6 +8,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   display: -ms-flexbox;
+  column-gap: 20px;
   -ms-flex-wrap: wrap;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -27,6 +28,11 @@ footer {
     margin:0;
     list-style-type: none;
     padding: 0;
+  }
+
+  p {
+    color: white !important;
+    opacity: .8;
   }
 
   hr {

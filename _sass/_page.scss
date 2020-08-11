@@ -104,16 +104,32 @@ html {
 
   padding: 5vh 20vh 20px 20vh;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+    grid-template-columns: 1fr 578px;
 min-height: 200px;
-  max-height: 75vh;
-  column-gap: 4vh;
+  max-height: 400px;
+  column-gap: 90px;
   overflow: hidden;
+  &.wide {
+    padding: 0;
+  }
+
+  @include for-cont {
+    grid-template-columns: 1fr 400px;
+    max-height: 600px;
+  }
+  b {
+    color: #566d8d;
+}
   .hero-banner-text {
     display: grid;
     align-items: center;
     align-content: center;
     overflow: hidden;
+    padding-right: 100px;
+    @include for-cont {
+      padding-right: 20px;
+    }
     
 
     h1 {
@@ -139,17 +155,17 @@ min-height: 200px;
   }
 
   .hero-banner-image {
-
+    
     display: grid;
     height: 400px;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 
     .hero-image {
       grid-row-start: 1;
-      grid-row-end: 5;
-      grid-column-start: 3;
-      grid-column-end: 6;
+      grid-row-end: 6;
+      grid-column-start: 1;
+      grid-column-end: 9;
 
       img {
         object-fit: cover;
@@ -160,10 +176,10 @@ min-height: 200px;
 
     .color-box {
       grid-row-start: 2;
-      grid-row-end: 6;
-      grid-column-start: 4;
-      grid-column-end: 7;
-      background-color: #ff7979;
+      grid-row-end: 7;
+      grid-column-start: 2;
+      grid-column-end: 10;
+      background-color: #566d8d;
       width: 100%;
       height: 100%;
     }
@@ -247,7 +263,7 @@ min-height: 200px;
     }
 
     h1 {
-      padding: 15vh 0 0 0;
+    
       font-weight: 500;
     }
 

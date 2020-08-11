@@ -3,10 +3,8 @@ title: Dialog er dannelse i praksis
 image: "/images/academy/dialog-er-dannelse-i-praksis.png"
 contact-person: Kim Gørtz
 header: Dialog er dannelse i praksis
-description: '"Dialog er dannelse i praksis" vil i et
-kursusforløb i efteråret 2020 udfolde en
-række nye dialogformer og knytte an til
-konkret undervisningspraksis.'
+description: '"Dialog er dannelse i praksis" vil i et kursusforløb i efteråret 2020 udfolde en række nye dialogformer og knytte an til konkret undervisningspraksis.'
+teaser: '"Dialog er dannelse i praksis" vil i et <b>kursusforløb i efteråret 2020</b> udfolde en række nye dialogformer og knytte an til konkret undervisningspraksis.'
 price: PRISEN BLIVER ENDELIGT AFTALT I EFTERÅRET, OG VIL VÆRE I PRISLEJET 12.000 KR. PR. DELTAGER
 pdf: "/pdfs/dialog-er-dannelse-i-praksis-program.pdf"
 event-title: Kommende hold
@@ -42,13 +40,13 @@ events:
 
 Dannelse er den ene del af gymnasiets
 dobbelte formål, og at dannelse er en del af
-lovgrundlaget er helt særligtfor
+lovgrundlaget er helt særligt for
 gymnasieuddannelsen.
 
 
 Vi er stolte af at skulle danne eleverne til
 fællesskabsorienterede og aktive
-medborgere,til selvstændigt og kritisk
+medborgere, til selvstændigt og kritisk
 tænkende mennesker. Samtidig er dannelse
 også en flydende betegner og i sagens natur
 vanskelig at sætte ind i en traditionel
@@ -67,11 +65,11 @@ vigtig for læring og dannelse, er det også af
 stor betydning, hele tiden at styrke
 dialogformerne og give dem et eftersyn.
 Ikke mindst med henvisning til nogle af de
-udfordringer, vi har med atfå skabt gode
+udfordringer, vi har med at få skabt gode
 dialoger i klasserummet.
 
 
-Diversiteti elevgruppen og dermed de
+Diversitet i elevgruppen og dermed de
 mange forskellige faglige såvel som
 sociale forudsætninger samt de sociale
 mediers indtog i undervisningsrummet er
@@ -119,12 +117,7 @@ didaktiske mål og faglige emner eller
 forskellige mødeformer i organisationen.
 
 
-Centrale temaer på kurset er protreptisk
-dialog som en særlig måde at skabe værdiog begrebsafklaring og fokus på det
-væsentlige på og dialogorienteret
-didaktik, hvor kvalificeringen af elever til
-at indgå i faglige samtaler med hinanden
-og læreren er i centrum.
+Centrale temaer på kurset er protreptisk dialog som en særlig måde at skabe værdi og begrebsafklaring, fokus på det væsentlige og dialogorienteret didaktik, hvor kvalificeringen af elever til at indgå i faglige samtaler med hinanden og læreren, er i centrum.
 
 
 Der veksles mellem oplæg, fælles

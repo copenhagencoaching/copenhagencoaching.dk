@@ -12,7 +12,7 @@ layout: default
         {% if page.sub-header %}	
         <h2>{{ page.sub-header }}</h2>	
         {% endif %}
-        <p>{{ page.description }}</p>
+        {% if page.teaser %}<p>{{ page.teaser }}</p>{% else %}<p>{{ page.description }}</p> {% endif %}
     </div>
     <div class="hero-banner-image">
 

@@ -1,23 +1,35 @@
-.education {
-    padding: 0;
 
-    .wrapper {
-        padding: 0 20vh 0 20vh;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+.grid-auto-5 {
+    grid-template-columns: 1fr 578px;
+    @include for-cont {
+        grid-template-columns: 1fr 300px;
     }
 
+    @include for-bot {
+        grid-template-columns: 1fr;
+    }
+}
+
     .education-content {
-        grid-column-start: 1;
-        grid-column-end: 3;
         padding-left: 0;
         padding-right: 50px !important;
+        @include for-cont {
+           
+        }
+       
     }
 
     .facta-column {
-        grid-column-start: 3;
         height: auto;
         padding: 0;
+        width: 578px;
+        margin-bottom: 50px;
+        @include for-cont {
+            width: 400px;
+          }
+          @include for-bot {
+              width: 100%;
+          }
 
         h3 {
             display: block;
@@ -25,9 +37,12 @@
             margin: 20px 0 20px 0;
             padding-bottom: 20px;
             font-size: 1.2rem;
+            
            
         }
-
+        h1, h2, h3, h4, h5 {
+            color: white !important;
+        }
         a {
             display: block;
         }
@@ -135,11 +150,7 @@
         margin: 50px 0;
     }
 
-    .col-12 {
-        padding: 0;
-        margin-top: 0 !important;
-        margin-bottom: 0 !important;
-    }
+    
 
     a {
         color: $green;
@@ -171,7 +182,7 @@
     .pdf-download:hover {
         opacity: 1;
     }
-}
+
 
 // Medium devices (landscape tablets, 768px and down)
 
@@ -226,6 +237,9 @@
 @media (max-width: 1290px) {
 
     .education {
+        .wrapper {
+            grid-template-columns: 1fr;
+        }
         .row {
             width: 90%;
         }

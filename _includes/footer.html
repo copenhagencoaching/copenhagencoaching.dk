@@ -1,5 +1,6 @@
 <footer>
-    <div class="footer-col col-lg-3 col-md-6 col-12">
+    <div class="container-fluid narrow-container grid-4 gap-40">
+    <div class="footer-col">
         <h2>Copenhagen Coaching Center</h2>
         {% for text in site.texts %}
         {% if text.page == "footer" %}
@@ -15,14 +16,14 @@
             <a data-proofer-ignore href="https://www.instagram.com/explore/tags/copenhagencoachingcenter/" target="_blank"><i class="fab fa-instagram"></i></a>
         </div>
     </div>
-    <div class="footer-col col-lg-3 col-md-6 col-12">
+    <div class="footer-col">
         <h2>Inspiration</h2>
         {% for post in site.posts limit:3 %}
         <a class="footer-stories" href="{{ post.url }}">{{ post.title }}</a>
         <p class="stories-date">{{ post.date | date: "%B %d, %Y" }}</p>
         {% endfor %}
     </div>
-    <div class="footer-col col-lg-3 col-md-6 col-12">
+    <div class="footer-col">
         <h2>Navigation</h2>
         <ul>
             {% assign sorted-navi = site.pages | sort: "order" %}
@@ -38,7 +39,7 @@
             <li><a data-proofer-ignore href="/sitemap/">Sitemap</a></li>
         </ul>
     </div>
-    <div class="footer-col col-lg-3 col-md-6 col-12">
+    <div class="footer-col">
         <h2>Kontakt</h2>
         <ul>
             <li><a data-proofer-ignore href="tel:+4539201020">+45 39 20 10 20</a></li>
@@ -49,6 +50,7 @@
         </ul>
         
     </div>
+</div>
 </footer>
 
 <!-- <div class="bottom-bar">

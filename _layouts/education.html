@@ -1,9 +1,28 @@
 ---
-layout: page
+layout: default
 ---
 
-<div class="education">
-  <div class="wrapper">
+<div class="container-fluid narrow-container">
+  {% if page.header %}
+<div class="hero-banner wide">
+   
+    <div class="hero-banner-text">
+        <h1 class="banner-title">{{ page.header }}</h1>
+        {% if page.sub-header %}	
+        <h2>{{ page.sub-header }}</h2>	
+        {% endif %}
+        {% if page.teaser %}<p>{{ page.teaser }}</p>{% else %}<p>{{ page.description }}</p> {% endif %}
+    </div>
+    <div class="hero-banner-image">
+
+    <div class="color-box"></div>
+    <div class="hero-image">
+        <img src="{{ page.image }}" data-proofer-ignore alt="Copenhagen Coaching Center"></div>
+</div>
+
+</div>
+{% endif %}
+  <div class="grid-2 justify-content-between grid-auto-5">
     <div class="education-content">
       {{ page.content }}
       {% capture reg-url %}?n={{ page.title | uri_escape }}{% endcapture %}
@@ -124,4 +143,5 @@ layout: page
       </div>
     </div>
 
+  </div>
   </div>

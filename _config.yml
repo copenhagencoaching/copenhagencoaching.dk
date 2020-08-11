@@ -7,7 +7,7 @@ paginate_path: "/stories/title/"
 stage_site: https://stage.copenhagencoaching.dk
 prod_site: https://www.copenhagencoaching.dk
 image: /images/seo/ccc-seo-logo-dark.png
-
+future: true
 
 logo: /images/logo/ccc-logo-dark.png
 
