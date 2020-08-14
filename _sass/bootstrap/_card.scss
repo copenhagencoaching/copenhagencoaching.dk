@@ -280,3 +280,10 @@
     }
   }
 }
+
+
+.visit-card {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  column-gap: 20px;
+}

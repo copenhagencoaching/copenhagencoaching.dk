@@ -13,6 +13,7 @@ description: >-
   er ligeså vigtig som alle de psykologiske coaching-metoder, som vi behersker.
 published: true
 order: '5'
+image-position: top
 ---
 
 Hvad angår Protreptikken, er den som samtaledisciplin at finde helt tilbage i antikkens filosofi, hvor specielt Platon og Aristoteles har forholdt sig til den og bygget videre herpå. Men Protreptikken har også historisk set udviklet sig op gennem Kristendommens æra og specielt langt ind i den psykologiserende Katolicisme, hvor syndsforladelse og sjæleransagelse bliver dominerende kendetegn. 

@@ -1,9 +1,11 @@
 
 .grid-auto-5 {
     grid-template-columns: 1fr 578px;
-   
+    @include for-laptop {
+        grid-template-columns: 1fr 350px;
+    }
 
-    @include for-ipad-pro {
+    @include for-bot{
         grid-template-columns: 1fr;
     }
 }
@@ -20,14 +22,14 @@
     .facta-column {
         height: auto;
         padding: 0;
-        width: 578px;
+        width:100%;
         margin-bottom: 50px;
 /*         @include for-cont {
             width: 400px;
           } */
-          @include for-bot {
-              width: 100%;
-          }
+         
+
+        
 
         h3 {
             display: block;

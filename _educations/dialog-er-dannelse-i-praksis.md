@@ -130,5 +130,61 @@ inspirere til konkret handling, som kan
 kvalificere lærer- og lederarbejdet
 yderligere.
 
-**Undervisere:** Kim Gørtz, Mette Mejlhede,
-Steen Beck, Mette Trangbæk
+### Undervisere:
+<br>
+
+<div class="grid-1 r-gap-20">
+
+        <div class="r-gap-20 visit-card">
+            <div><img class="object-fit small-round-image" src="/images/about/employees/mette-mejlhede.png"
+                    alt="Mette Mejlhede"></div>
+            <div class="grid-1 align-content-center">
+                
+                <h4>Mette Mejlhede</h4><p>
+                Direktør i Copenhagen Coaching Center<br>
+                Cand.merc HRM Copenhagen Business School<br>
+                Master i Business Coaching, EIA Master Akkrediteret Coach<br>
+                Email: <a href="mailto:mm@copenhagencoaching.dk">mm@copenhagencoaching.dk</a></p>
+            </div>
+        </div>
+
+        <div class="r-gap-20 visit-card">
+            <div><img class="object-fit small-round-image" src="/images/about/partners/mette-trangbæk.png"
+                    alt="Mette Trangbæk"></div>
+            <div class="grid-1 align-content-center">
+                
+                <h4>Mette Trangbæk</h4><p>
+                Rektor ved Greve Gymnasium<br>
+                Cand. Mag. i dansk og idræt fra København Universitet<br>
+                Master i Business Coaching fra CCC<br>
+                Email: <a href="mailto:mettetrangbaek.hammer@greve-gym.dk">mettetrangbaek.hammer@greve-gym.dk</a></p>
+            </div>
+        </div>
+
+        <div class="r-gap-20 visit-card">
+            <div><img class="object-fit small-round-image" src="/images/about/employees/kim-gørtz-geryscale.png"
+                    alt="Kim Gørtz"></div>
+            <div class="grid-1 align-content-center">
+                
+                <h4>Kim Gørtz</h4><p>
+                Cand. Mag i filosofi fra Københavns Universitet, Ph.d<br>
+                Seniorkonsulent i Copenhagen Coaching Center<br>
+                Master i Business Coaching fra CCC<br>
+                Email: <a href="mailto:kg@copenhagencoaching.dk">kg@copenhagencoaching.dk</a></p>
+            </div>
+        </div>
+
+        <div class="r-gap-20 visit-card">
+            <div><img class="object-fit small-round-image" src="/images/about/partners/steen-beck.png"
+                    alt="Steen Beck"></div>
+            <div class="grid-1 align-content-center">
+                
+                <h4>Steen Beck</h4><p>
+                Mag. Art. i litteraturvidenskab og Lektor<br>
+                Ph.d. ved Institut for Kulturvidenskaber, Syddansk Universitet<br>
+                Har i mange år forsket i didaktik og dannelsesprocesser i gymnasiet<br>
+                Email: <a href="mailto:steen.beck@sdu.dk">steen.beck@sdu.dk</a></p>
+            </div>
+        </div>
+
+    </div>

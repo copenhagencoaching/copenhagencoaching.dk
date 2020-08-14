@@ -109,11 +109,9 @@ html {
   height: auto;
   column-gap: 90px;
   overflow: hidden;
-min-height: 250px;
+min-height: 300px;
 
-&.udd {
-  min-height: unset;
-}
+
   &.wide {
     padding: 0;
   }
@@ -179,7 +177,7 @@ min-height: 250px;
       position: absolute;
       top: 0;
       left: 0;
-      width: 90%;
+      width: 98%;
       height: 94%;
 
       &.on-page {
@@ -327,7 +325,7 @@ min-height: 250px;
 /* Large devices (laptops/desktops, 1024px and down) */
 
 
-@media (max-width: 1290px) {
+@media (max-width: 1200px) {
   .page {
     .row {
       margin: 50px auto;
