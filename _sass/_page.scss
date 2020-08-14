@@ -40,7 +40,7 @@ html {
     padding: 0 20vh 0 20vh;
     background-color: #F6F5F3;
     text-align: center;
-    
+
 
 
     .wrapper {
@@ -105,49 +105,59 @@ html {
   padding: 5vh 20vh 20px 20vh;
   display: grid;
   justify-content: space-between;
-    grid-template-columns: 1fr 578px;
-min-height: 200px;
+  grid-template-columns: 1fr 578px;
+  height: auto;
   column-gap: 90px;
   overflow: hidden;
+min-height: 250px;
+
+&.udd {
+  min-height: unset;
+}
   &.wide {
     padding: 0;
   }
 
   @include for-cont {
-   
+
     max-height: 600px;
   }
+
   b {
     color: #566d8d;
-}
+  }
+
   .hero-banner-text {
     display: grid;
     align-items: center;
     align-content: center;
     overflow: hidden;
     padding-right: 100px;
+
     @include for-cont {
       padding-right: 20px;
     }
-    
+
 
 
     h1 {
-    color: #000;
-    font-weight: 500;
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-    @include for-bot {
-      margin-top: 50px;
-    }
-/*     overflow-wrap: break-word;
-    word-wrap: break-word; */
- 
-  
+      color: #000;
+      font-weight: 500;
+      font-family: 'Oswald', sans-serif;
+      text-transform: uppercase;
 
-    @include for-ipad-pro {
-      max-width: 70%;
-    }
+      @include for-bot {
+        margin-top: 50px;
+      }
+
+      /*     overflow-wrap: break-word;
+    word-wrap: break-word; */
+
+
+
+      @include for-ipad-pro {
+        max-width: 70%;
+      }
     }
 
 
@@ -158,21 +168,22 @@ min-height: 200px;
   }
 
   .hero-banner-image {
+    padding: 20px 0 0 20px;
     position: relative;
     width: 100%;
     margin-bottom: 20px;
-    height: 400px;
-    
+    height: auto;
+
     .hero-image {
-  
+
       position: absolute;
       top: 0;
       left: 0;
-      width: 96%;
-      height: 380px;
+      width: 90%;
+      height: 94%;
 
       &.on-page {
-        width: 99%;
+        width: 95%;
       }
 
       img {
@@ -183,10 +194,8 @@ min-height: 200px;
     }
 
     .color-box {
-      height: 379px;
+      height: 100%;
       width: 100%;
-    
-      margin: 20px 0 0 20px;
       background-color: $ccc-brown;
     }
   }
@@ -212,8 +221,7 @@ min-height: 200px;
 
 
 
-    h1 {
-    }
+    h1 {}
 
 
     p {
@@ -269,7 +277,7 @@ min-height: 200px;
     }
 
     h1 {
-    
+
       font-weight: 500;
     }
 
@@ -304,12 +312,12 @@ min-height: 200px;
 
   .hero-banner {
     .hero-banner-text {
-  
+
       h1 {
-      line-height:normal;
+        line-height: normal;
       }
+    }
   }
-}
 
 }
 
@@ -330,12 +338,13 @@ min-height: 200px;
     width: 90%;
   }
 
-  
+
 
   .hero-banner {
     .hero-banner-image {
       display: none;
     }
+
     grid-template-columns: 1fr;
   }
 }
