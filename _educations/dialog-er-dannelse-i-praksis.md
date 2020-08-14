@@ -36,7 +36,7 @@ events:
     - 5. november
 ---
 
-#### Baggrund
+### Baggrund
 
 Dannelse er den ene del af gymnasiets
 dobbelte formål, og at dannelse er en del af
@@ -93,7 +93,7 @@ kursusforløb i efteråret 2020 udfolde en
 række nye dialogformer og knytte an til
 konkret undervisningspraksis.
 
-#### Formål
+### Formål
 
 
 Formålet med “Dialog er dannelse i praksis”

@@ -158,18 +158,22 @@ min-height: 200px;
   }
 
   .hero-banner-image {
-    
-    display: grid;
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
     height: 400px;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    margin-bottom: 30px;
-
+    
     .hero-image {
-      grid-row-start: 1;
-      grid-row-end: 6;
-      grid-column-start: 1;
-      grid-column-end: 9;
+  
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 96%;
+      height: 380px;
+
+      &.on-page {
+        width: 99%;
+      }
 
       img {
         object-fit: cover;
@@ -179,13 +183,11 @@ min-height: 200px;
     }
 
     .color-box {
-      grid-row-start: 2;
-      grid-row-end: 7;
-      grid-column-start: 2;
-      grid-column-end: 10;
-      background-color: #566d8d;
+      height: 379px;
       width: 100%;
-      height: 100%;
+    
+      margin: 20px 0 0 20px;
+      background-color: $ccc-brown;
     }
   }
 
