@@ -15,10 +15,10 @@ layout: default
 
     <!-- Why ? -->
 
-    <div class="section frontpage">
-        <div class="row">
-            <div class="col-lg-12 col-md-12 col-12 col-sm-12">
-                <span>
+    <div class="section frontpage grid-1">
+      
+                <div class="container-fluid narrow-container">
+                    <div>
                     {% for text in site.texts %}
                     {% if text.page == "frontpage" %}
                     {% if text.order == 1 %}
@@ -27,18 +27,18 @@ layout: default
                     {% endif %}
                     {% endif %}
                     {% endfor %}
-                </span>
-            </div>
-        </div>
+                </div>
+                </div>
+       
         <a href="#how" data-proofer-ignore class="scroll-down"><i class="fas fa-chevron-down"></i></a>
     </div>
 
     <!-- How ? -->
 
-    <div class="section frontpage" id="how">
-        <div class="row">
-            <div class="col-lg-12 col-md-12 col-12 col-sm-12">
-                <span>
+    <div class="section frontpage grid-1" id="how">
+       
+                <div class="container-fluid narrow-container">
+                    <div>
                     {% for text in site.texts %}
                     {% if text.page == "frontpage" %}
                     {% if text.order == 2 %}
@@ -47,18 +47,18 @@ layout: default
                     {% endif %}
                     {% endif %}
                     {% endfor %}  
-                </span>
-            </div>
-        </div>
+                </div>
+                </div>
+
         <a href="/#what" data-proofer-ignore class="scroll-down"><i class="fas fa-chevron-down"></i></a>
     </div>
 
     <!-- What ? -->
 
-    <div class="section frontpage" id="what">
-        <div class="row">
-            <div class="col-lg-12 col-md-12 col-12 col-sm-12">
-                <span>
+    <div class="section frontpage grid-1" id="what">
+       
+                <div class="container-fluid narrow-container">
+                    <div>
                     {% for text in site.texts %}
                     {% if text.page == "frontpage" %}
                     {% if text.order == 3 %}
@@ -67,8 +67,8 @@ layout: default
                     {% endif %}
                     {% endif %}
                     {% endfor %}  
-                </span>
-            </div>
-        </div>
+                </div>
+                </div>
+
     </div>
 </div>
