@@ -121,6 +121,11 @@ min-height: 300px;
     max-height: 600px;
   }
 
+  @include for-bot {
+    margin-bottom: 20px;
+    min-height: 0;
+  }
+
   b {
     color: #566d8d;
   }
@@ -145,7 +150,7 @@ min-height: 300px;
       text-transform: uppercase;
 
       @include for-bot {
-        margin-top: 50px;
+
       }
 
       /*     overflow-wrap: break-word;
@@ -155,6 +160,10 @@ min-height: 300px;
 
       @include for-ipad-pro {
         max-width: 70%;
+      }
+
+      @include for-bot {
+        max-width: 100%;
       }
     }
 

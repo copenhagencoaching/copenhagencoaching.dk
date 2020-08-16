@@ -143,8 +143,7 @@ yderligere.
                 <h4>Mette Mejlhede</h4><p>
                 Direktør i Copenhagen Coaching Center<br>
                 Cand.merc HRM Copenhagen Business School<br>
-                Master i Business Coaching, EIA Master Akkrediteret Coach<br>
-                Email: <a href="mailto:mm@copenhagencoaching.dk">mm@copenhagencoaching.dk</a></p>
+                Master i Business Coaching, EIA Master Akkrediteret Coach</p>
             </div>
         </div>
 
@@ -156,8 +155,7 @@ yderligere.
                 <h4>Mette Trangbæk</h4><p>
                 Rektor ved Greve Gymnasium<br>
                 Cand. Mag. i dansk og idræt fra København Universitet<br>
-                Master i Business Coaching fra CCC<br>
-                Email: <a href="mailto:mettetrangbaek.hammer@greve-gym.dk">mettetrangbaek.hammer@greve-gym.dk</a></p>
+                Master i Business Coaching fra CCC</p>
             </div>
         </div>
 
@@ -169,8 +167,7 @@ yderligere.
                 <h4>Kim Gørtz</h4><p>
                 Cand. Mag i filosofi fra Københavns Universitet, Ph.d<br>
                 Seniorkonsulent i Copenhagen Coaching Center<br>
-                Master i Business Coaching fra CCC<br>
-                Email: <a href="mailto:kg@copenhagencoaching.dk">kg@copenhagencoaching.dk</a></p>
+                Master i Business Coaching fra CCC</p>
             </div>
         </div>
 
@@ -182,8 +179,7 @@ yderligere.
                 <h4>Steen Beck</h4><p>
                 Mag. Art. i litteraturvidenskab og Lektor<br>
                 Ph.d. ved Institut for Kulturvidenskaber, Syddansk Universitet<br>
-                Har i mange år forsket i didaktik og dannelsesprocesser i gymnasiet<br>
-                Email: <a href="mailto:steen.beck@sdu.dk">steen.beck@sdu.dk</a></p>
+                Har i mange år forsket i didaktik og dannelsesprocesser i gymnasiet</p>
             </div>
         </div>
 
