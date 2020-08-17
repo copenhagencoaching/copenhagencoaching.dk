@@ -71,14 +71,12 @@ html {
 
 .hero-banner {
   display: grid;
-  
   justify-content: space-between;
   grid-template-columns: 1fr 578px;
   height: auto;
   column-gap: 90px;
   overflow: hidden;
-min-height: 300px;
-
+  min-height: 300px;
 
   &.wide {
     padding: 0;
@@ -153,11 +151,11 @@ min-height: 300px;
       position: absolute;
       top: 0;
       left: 0;
-      width: 98%;
-      height: 94%;
+      width: 97%;
+      height: 95%;
 
       &.on-page {
-        width: 95%;
+        width: 97%;
       }
 
       img {
