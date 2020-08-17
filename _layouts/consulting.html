@@ -1,9 +1,35 @@
 ---
-layout: page
+layout: default
 ---
+
+
+{% if page.header %}
+<div class="container-fluid container-narrow no-down">
+    <div class="hero-banner wide">
+
+        <div class="hero-banner-text">
+            <h1 class="banner-title">{{ page.header }}</h1>
+            {% if page.sub-header %}
+            <h2>{{ page.sub-header }}</h2>
+            {% endif %}
+            <p>{{ page.description }}</p>
+        </div>
+        <div class="hero-banner-image">
+
+            <div class="color-box"></div>
+            <div class="hero-image">
+                <img src="{{ page.image }}" class="image-position-{{ page.image-position }}"
+                    alt="Protreptik Copenhagen Coaching Center"></div>
+        </div>
+
+    </div>
+</div>
+{% endif %}
+
 
 {% assign orderedcoaching = site.consultations | sort: "order" %}
 <div class="header-navigation">
+    <div class="container-fluid narrow-container">
     <div class="wrapper">
         {% for coaching in orderedcoaching %}
 
@@ -11,36 +37,41 @@ layout: page
         {% endfor %}
     </div>
 </div>
-<section id="content-section" class="content">
+</div>
 
-    {% for coaching in orderedcoaching %}
-    <div class="wrapper" id="{{ coaching.title | remove: ' ' | strip_html }}">
-        <img class="content-img" src="{{ coaching.image }}" alt="{{ employee.title }}, {{ employee.description}}">
-        <span>
+<div class="container-fluid container-narrow no-up">
+    <section id="content-section" class="content">
 
-            <h1 class="title">{{ coaching.title }}</h1>
-            <p>{{ coaching.content }}</p>
-            <div class="contact-box">
-                <h5>Interesseret i at høre mere? Ring eller skriv og få en snak med</h5>
-                <div class="contact">
-                    {% for employee in site.employees %}
-                    {% if employee.title == coaching.contact-person %}
+        {% for coaching in orderedcoaching %}
+        <div class="wrapper" id="{{ coaching.title | remove: ' ' | strip_html }}">
+            <img class="content-img" src="{{ coaching.image }}" alt="{{ coaching.title }}">
+            <span>
+
+                <h1 class="title">{{ coaching.title }}</h1>
+                {{ coaching.content }}
+                <div class="contact-box">
+                    <h5>Interesseret i at høre mere? Ring eller skriv og få en snak med</h5>
+                    <div class="contact">
+                        {% for employee in site.employees %}
+                        {% if employee.title == coaching.contact-person %}
 
 
-                    <img class="contact-img" src="{{ employee.small-portrait-image }}"
-                        alt="{{ employee.title }}, {{ employee.description}}">
+                        <img class="contact-img" src="{{ employee.small-portrait-image }}"
+                            alt="{{ employee.title }}, {{ employee.description}}">
 
-                    <div class="contact-text">
-                        <a data-proofer-ignore href="{{ employee.url }}">{{ employee.title }}</a>
+                        <div class="contact-text">
+                            <a data-proofer-ignore href="{{ employee.url }}">{{ employee.title }}</a>
 
-                        <a data-proofer-ignore href="{{ employee.call }}">{{ employee.call }}</a>
-                        <a data-proofer-ignore href="mailto:{{ employee.email }}">{{ employee.email }}</a>
+                            <a data-proofer-ignore href="{{ employee.call }}">{{ employee.call }}</a>
+                            <a data-proofer-ignore href="mailto:{{ employee.email }}">{{ employee.email }}</a>
+                        </div>
+                        {% endif %}
+                        {% endfor %}
                     </div>
-                    {% endif %}
-                    {% endfor %}
                 </div>
-            </div>
-        </span>
-    </div>
-    {% endfor %}
-</section>
+            </span>
+        </div>
+        {% endfor %}
+    </section>
+
+</div>

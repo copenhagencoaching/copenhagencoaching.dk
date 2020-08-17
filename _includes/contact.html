@@ -1,8 +1,10 @@
 <div class="contact-banner">
+        <div class="container-fluid narrow-container">
         {% for text in site.texts %}
         {% if text.page == "contact" %}
         {{ text.content | markdownify }}
         {% endif %}
         {% endfor %}
         <a href="#" data-toggle="modal" data-target="#contact-modal"><button class="sign-up-button">Kontakt os</button></a>
+</div>
 </div>

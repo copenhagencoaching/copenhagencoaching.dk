@@ -13,7 +13,8 @@
   }
 
   @include for-bot {
-    padding-top: 100px;
+
+    padding-top: 20px;
   }
   &.container-narrow {
     max-width: 1600px;

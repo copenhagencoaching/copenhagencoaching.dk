@@ -2,9 +2,6 @@
     background: #141B21;
     height: auto;
     width: 100%;
-    padding: 10vh 20vh;
-    display: flex;
-    flex-direction: row;
 
     span {
         display: flex;
@@ -48,6 +45,9 @@
         width: 75vh;
         align-self: center;
         border: none;
+        @include for-laptop {
+            width: 100%;
+        }
     }
 }
 
@@ -56,7 +56,6 @@
 @media (max-width: 1024px) {
 
     .information {
-        padding: 10vh 3vh;
         flex-direction: column;
 
         span {
@@ -76,9 +75,6 @@
             }
         }
 
-        iframe {
-            height: 55vh;
-            width: 100%;
-        }
+       
     }
 }

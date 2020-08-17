@@ -3,15 +3,8 @@
     width: 100%;
     padding: 15vh 20vh;
 
-    h1 {
-        line-height: 65px;
-        font-family: 'Oswald', sans-serif;
-        text-transform: uppercase;
-    }
+ 
 
-    p {
-        @include paragraph;
-    }
 
     a {
         color: $black;
@@ -53,7 +46,7 @@
 
     p {
         color: #4a4a4a;
-        @include paragraph;
+     
     }
 
     a {

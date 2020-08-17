@@ -1,9 +1,9 @@
 .community {
     width: 100%;
     height: auto;
-    padding: 0 20vh 10vh 20vh;
 
     .wrapper {
+        padding: 0;
         grid-gap: 30px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -155,7 +155,7 @@
 
 @media (max-width: 900px) {
     .community {
-        padding: 0 0 10vh 0;
+     
         .wrapper {
             grid-template-columns: 1fr;
             grid-template-areas:

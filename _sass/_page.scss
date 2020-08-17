@@ -36,38 +36,7 @@ html {
 .page {
 
 
-  .header-navigation {
-    padding: 0 20vh 0 20vh;
-    background-color: #F6F5F3;
-    text-align: center;
 
-
-
-    .wrapper {
-      width: 100%;
-      padding: 5vh 0;
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-
-      button {
-        margin: 1.7vh;
-        background-color: transparent;
-        border: none;
-        text-decoration: none;
-        font-weight: 500;
-        font-family: 'Oswald', sans-serif;
-        text-transform: uppercase;
-        opacity: .5;
-        user-select: none;
-      }
-
-      a:hover {
-        color: $green;
-      }
-
-    }
-  }
 
   .row {
     margin: 0 auto;
@@ -101,9 +70,8 @@ html {
 // Hero image
 
 .hero-banner {
-
-  padding: 5vh 20vh 20px 20vh;
   display: grid;
+  
   justify-content: space-between;
   grid-template-columns: 1fr 578px;
   height: auto;
@@ -123,6 +91,7 @@ min-height: 300px;
 
   @include for-bot {
     margin-bottom: 20px;
+    margin-top: 20px;
     min-height: 0;
   }
 
@@ -169,17 +138,15 @@ min-height: 300px;
 
 
 
-    p {
-      @include paragraph;
-    }
   }
 
   .hero-banner-image {
     padding: 20px 0 0 20px;
     position: relative;
     width: 100%;
-    margin-bottom: 20px;
     height: auto;
+   
+      margin-bottom: 20px;
 
     .hero-image {
 
@@ -255,6 +222,11 @@ min-height: 300px;
 }
 
 
+body {
+  @include for-bot {
+    padding-top: 50px;
+  }
+}
 // Medium devices (landscape tablets, 768px and down)
 
 @media (max-width: 1024px) {
@@ -271,7 +243,7 @@ min-height: 300px;
   .hero-banner {
     width: 100%;
     flex-direction: column;
-    padding: 0 3vh 20px 3vh;
+   
 
     span {
       width: inherit;
@@ -302,16 +274,7 @@ min-height: 300px;
 
   }
 
-  .page {
-    .header-navigation {
-      padding: 3vh 0;
-
-      .wrapper {
-        padding: 0 3vh;
-
-      }
-    }
-  }
+  
 
   #fp-nav {
     display: none;
@@ -359,5 +322,37 @@ min-height: 300px;
 .color-box {
   &.blue {
     background-color: #566e8d !important;
+  }
+}
+
+.header-navigation {
+  background-color: #F6F5F3;
+  text-align: center;
+
+
+
+  .wrapper {
+    width: 100%;
+    padding: 5vh 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    button {
+      margin: 1.7vh;
+      background-color: transparent;
+      border: none;
+      text-decoration: none;
+      font-weight: 500;
+      font-family: 'Oswald', sans-serif;
+      text-transform: uppercase;
+      opacity: .5;
+      user-select: none;
+    }
+
+    a:hover {
+      color: $green;
+    }
+
   }
 }

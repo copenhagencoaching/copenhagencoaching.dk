@@ -24,6 +24,10 @@
   &.menu {
     padding-top: 20px;
   }
+
+  &.small-b {
+    padding-bottom: 20px;
+  }
   
   
 
@@ -111,4 +115,15 @@
 
 @if $enable-grid-classes {
   @include make-grid-columns();
+}
+
+
+
+
+.r-box {
+  margin-bottom: 90px;
+}
+
+.place-right {
+  justify-self: end;
 }

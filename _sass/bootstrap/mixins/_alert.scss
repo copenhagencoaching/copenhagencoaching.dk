@@ -128,16 +128,9 @@ a {
 
 
 
-@mixin header-1 {
-  color: $black;
-  font-weight: 500;
-  font-family: 'Oswald', sans-serif;
-  text-transform: uppercase;
-}
 
-@mixin paragraph {
-  color: $black;
-}
+
+
 
 // padding
 
