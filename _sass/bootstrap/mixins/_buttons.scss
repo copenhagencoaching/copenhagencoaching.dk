@@ -105,3 +105,10 @@
   // Manually declare to provide an override to the browser default
   @include border-radius($border-radius, 0);
 }
+
+// Cookie bot buttons
+
+a#CybotCookiebotDialogBodyLevelButtonAccept, a#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll {
+  background-color: $ccc-green;
+  border: 1px solid $ccc-green;
+}
