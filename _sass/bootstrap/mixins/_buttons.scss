@@ -108,7 +108,7 @@
 
 // Cookie bot buttons
 
-a#CybotCookiebotDialogBodyLevelButtonAccept, a#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll {
-  background-color: $ccc-green;
-  border: 1px solid $ccc-green;
+a#CybotCookiebotDialogBodyLevelButtonAccept, a#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll, a#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection {
+  background-color: $ccc-green !important;
+  border: 1px solid $ccc-green !important;
 }
