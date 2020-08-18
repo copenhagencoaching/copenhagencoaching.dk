@@ -11,7 +11,14 @@ event-title: Kommende hold
 hold_eller_begivenheder: true
 contact-person: Morten Bertelsen
 events:
-- overskrift: Afholdes i september 2020
+- overskrift: Hold 1
+  dato:
+  - 15. - 16. september
+  - 9. oktober
+- overskrift: Hold 2
+  dato:
+  - 9. - 10. november
+  - 8. december
 ---
 
 ### Hvordan skaber man velfungerende teams, der også præsterer?
