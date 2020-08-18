@@ -1,6 +1,7 @@
 ---
 title: Cookies politik
 layout: single-page
+cookie: true
 ---
 
 Vi anvender cookies på **Copenhagencoaching.dk** for at kunne yde den bedste service til dem, som bruger vores website. I vores cookiepolitik kan du læse mere omkring, hvilke cookies vi anvender, og hvordan de bliver brugt.
