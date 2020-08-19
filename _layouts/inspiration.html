@@ -2,6 +2,7 @@
 layout: page
 ---
 
+<div class="container-fluid narrow-container no-up center">
 <section class="stories">
 
 
@@ -32,22 +33,12 @@ layout: page
 
         <!-- default row -->
 
-        <div class="story-row" id="story-row">
+        <div class="story-row hideContent" id="story-row">
             <div class="row">
                 {% assign sorted_stories = site.posts | sort: "date" | reverse %}
-                {% for post in sorted_stories limit:8 %}
-                {% if forloop.index == 1 or forloop.index == 5 or forloop.index == 9 %}
-                <div class="col-lg-12 story-box">
-                    <a href="{{ post.url }}">
-                        <div class="story" style="background-image: url('{{ post.image }}')">
-                            <div class="large-article-text">
-                                <h1>{{ post.title }}</h1>
-                                {{ post.teaser | truncatewords: 40, '...' }}
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                {% else %}
+                {% for post in sorted_stories %}
+            {% if post.category contains "blog" %}
+                
                 <div class="col-lg-4 story-box">
                     <a href="{{ post.url }}">
                         <div class="story" style="background-image: url('{{ post.image }}')">
@@ -58,6 +49,7 @@ layout: page
                         </div>
                     </a>
                 </div>
+                
                 {% endif %}
                 {% endfor %}
             </div>
@@ -67,27 +59,10 @@ layout: page
 
         <!-- row all -->
 
-        <div class="collapse" id="collapseExample">
-            <div class="row">
-                {% assign sorted_stories = site.posts | sort: "date" | reverse %}
-                {% for post in sorted_stories offset: 8 %}
-                <div class="col-lg-4 story-box">
-                    <a href="{{ post.url }}">
-                        <div class="story" style="background-image: url('{{ post.image }}')">
-                            <div class="small-article-text">
-                                <h1>{{ post.title }}</h1>
-                                {{ post.teaser | truncatewords: 40, '...' }}
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                {% endfor %}
-            </div>
-        </div>
 
-        <section class="show-all-post">
-            <button id="collapsible" class="show-more-btn" data-toggle="collapse" data-target="#collapseExample">Vis mere</button>
-        </section>
+       <div class="show-more"><a class="green-button">Vis mere</a></div>
+           
+   
     </div>
 
     <!-- row all end -->
@@ -120,9 +95,13 @@ layout: page
                 </div>
             </a>
         </div>
+
         {% endif %}
         {% endif %}
         {% endfor %}
     </div>
+    
     {% endfor %}
 </section>
+</div>
+

@@ -1,8 +1,11 @@
 ---
-layout: only-page
+layout: default
 ---
+
+<div class="container-fluid narrow-container">
 <div class="wide-hero-banner">
-    <img class="hero-image" src="{{ page.image }}" alt="{{ page.title }}">
+  <div class="hero-image">
+    <img src="{{ page.image }}" alt="{{ page.title }}"></div>
    {% if page.color-box-color %} 
     <div class="color-box {{ page.color-box-color }}" ></div>
     {% else %}
@@ -136,4 +139,5 @@ layout: only-page
        
       </div>
     {% endif %}
+</div>
 </div>

@@ -184,12 +184,13 @@ a {
   background: $ccc-green;
   border: none;
   padding: 10px 20px;
-  color: #ffffff;
+  color: #ffffff !important;
   font-weight: 600;
   opacity: .9;
   margin-top: 20px;
   text-emphasis: none;
   text-align: center;
+  cursor: pointer;
 }
 
 .green-button:hover {

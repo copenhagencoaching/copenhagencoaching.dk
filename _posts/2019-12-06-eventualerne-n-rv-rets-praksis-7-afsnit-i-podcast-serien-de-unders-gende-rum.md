@@ -3,6 +3,9 @@ published: true
 title: 'Eventualerne – en måde at være i verden på '
 image: /images/inspiration/Podcast.jpg
 author: Morten Paustian
+category:
+- podcast
+- blog
 tags:
   - coaching
   - ledelse

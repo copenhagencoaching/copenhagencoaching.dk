@@ -5,7 +5,7 @@ teaser: Kom til online info møde om vores 2-årige Master uddannelse i Business
 facta-box: true
 location: LIVE session via Facebook
 events:
-- overskrift: 13. August 2020 kl. 20.00 – 21.00
+- overskrift: 27. August 2020 kl. 20.00 – 21.00
 event-title: Dato
 hold_eller_begivenheder: true
 tags:
@@ -14,6 +14,7 @@ image: "/images/inspiration/aabent-hus.jpg"
 color-box-color: blue
 place-link: https://www.facebook.com/copenhagencoaching.dk/live
 extra: <a href="/academy/master-of-business-coaching">Læs mere om vores Master of Business Coaching</a>
+category: event
 ---
 ##### Vil du gerne styrke eller opøve din dialogiske kapacitet og dit menneskelige beredskab?
 
@@ -31,4 +32,4 @@ Du skal blot klikke på linket [her](https://www.facebook.com/copenhagencoaching
 
 **Tilmelding** er ikke nødvendig, men skriv dig gerne op til vores nyhedsbrev [her](#contact){: data-toggle="modal" data-target="#contact-modal"}, så du fremover får besked om kommende events og nyheder fra CCC.
 
-Vi glæder os til at se dig den 13. august!
+Vi glæder os til at se dig den 27. august!

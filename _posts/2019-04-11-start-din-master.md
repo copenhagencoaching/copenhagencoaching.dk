@@ -5,6 +5,7 @@ image: /images/inspiration/post8.jpg
 author: Frederikke Winther
 signup: forskellige ydelser
 tags: [kursus, master, business, coaching]
+category: blog
 teaser:
 ---
 

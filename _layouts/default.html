@@ -22,23 +22,7 @@
 
   <!-- Expands and collapses the divs on Consulting, Coaching and International pages -->
 
-  <script>
-    $(".show-more").on("click", function () {
-      var $this = $(this);
-      var $content = $this.prev(".content");
-      var linkText = $this.text().toUpperCase();
-      if (linkText === "VIS MERE") {
-        linkText = "Vis mindre";
-        $content.attr("class", "content showContent"), 400;
-        $this.attr("class", "show-less");
-      } else {
-        linkText = "Vis mere";
-        $content.attr("class", "content hideContent"), 400;
-        $this.attr("class", "show-more");
-      };
-      $this.text(linkText);
-    });
-  </script>
+  
 
   <script>
     $('.contact-link').on('click', function () {
@@ -152,16 +136,7 @@
       all_btn.setAttribute('class', ' tags');
     }
 
-    $("#collapsible").on("click", function () {
-      var $this = $(this);
-      var linkText = $this.text().toUpperCase();
-      if (linkText === "VIS MERE") {
-        linkText = "Vis mindre";
-      } else {
-        linkText = "Vis mere";
-      };
-      $this.text(linkText);
-    });
+   
 
     // Toggle between arrows in factabox
 
@@ -176,6 +151,24 @@
       }
     });
   </script>
+
+<script>
+  $(".show-more a").on("click", function() {
+  var $this = $(this); 
+  var $content = $this.parent().prev("div.story-row");
+  var linkText = $this.text().toUpperCase();    
+  
+  if(linkText === "VIS MERE"){
+      linkText = "Vis mindre";
+      $content.switchClass("hideContent", "showContent", 400);
+  } else {
+      linkText = "Vis mere";
+      $content.switchClass("showContent", "hideContent", 400);
+  };
+
+  $this.text(linkText);
+});
+</script>
  
 </body>
 

@@ -10,4 +10,7 @@ description: >-
   Her finder du artikler, podcasts, film og andet stof til faglig inspiration og
   eftertanke.
 published: true
+category:
+- blog
+- event
 ---

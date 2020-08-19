@@ -6,6 +6,7 @@ author: Frederikke Winther
 signup: forskellige ydelser
 tags: [ledelse]
 teaser:
+category: blog
 ---
 Så har vi startet et spændende forløb med en gruppe ledere fra Ungdomscentret i Aarhus Kommune, hvor bl.a. temaer som det frisættende lederskab, sårbarhed og at kunne være der på den andens vegne er sat i spil.
 

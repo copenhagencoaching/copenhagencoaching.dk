@@ -2,33 +2,38 @@
 layout: page
 ---
 
-<div class="container-fluid narrow-container">
+<div class="container-fluid narrow-container no-up">
 <div class="community">
   <div class="wrapper">
     <section class="content-section">
 
       {{ page.content }}
+      <br>
+      <br>
       {% capture reg-url %}?n={{ page.title | uri_escape }}{% endcapture %}
+      <a class="blue-button" href="/registration/{{ reg-url }}">Tilmeld dig her</a>
 
 
     </section>
     <section class="event-section">
       
-      <h1>Faglige arrangementer</h1>
+      <h1>Kommende arrangementer</h1>
 
-      {% for event in page.events %}
-      <h3>{{ event.overskrift }}</h3>
-      <h5>{{ event.date }}</h5>
-      <p>{{ event.text }}</p>
+      {% for post in site.categories.community %}
+      <h3>{{ post.title }}</h3>
+      <span class="thin">{{ post.date | date: "%B %d, %Y" }} | {{ post.time }}</span>
+      {{ post.content }}
       {% endfor %}
+      <hr class="no-m-up">
     </section>
     <section class="inspiration-section">
 
       <h1 class="banner-title">Inspiration</h1>
 
       <div class="inspirations-wrapper">
-        {% assign ordered_posts = site.posts | sort: 'order' %}
-        {% for post in ordered_posts limit: 6 %}
+        {% assign ordered_posts = site.categories.blog | sort: 'order' %}
+        {% for post in ordered_posts limit:6  %}
+        {% if post.category != "community" %}
         <a href="{{ post.url }}"><div class="post-box" style="background-image: url('{{ post.image }}');">
           <div class="post-box-text">
             <h1>{{ post.title }}</h1>
@@ -38,6 +43,7 @@ layout: page
           </div>
         </div>
       </a>
+      {% endif %}
         {% endfor %}
 
       </div>

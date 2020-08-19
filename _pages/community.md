@@ -9,14 +9,6 @@ pdf: 'false'
 order: "2"
 contact-person: ''
 description: Et fællesskab for vedvarende læring og udvikling af dit lederskab
-events:
-- date: Arrangementet er blevet udskudt til efteråret - dato kommer snarest.
-  text: 'Kom og bliv inspireret af en af Danmarks mest prominente sociologer, Rasmus
-    Willig, der vil holde oplæg om forholdet mellem psykisk arbejdsmiljø, ytringsfrihed
-    og opkomsten af en ny type tavshedskultur på arbejdspladsen. Læs mere om arrangementet
-    her: https://www.copenhagencoaching.dk/inspiration/fra-flexicurity-til-flexisme/'
-  overskrift: Fra Flexicurity til Flexisme
-
 ---
 Rigtig mange af vores tidligere og nuværende studerende og kunder har efterspurgt flere tilbud om netværk, efteruddannelse, faglig inspiration og supervision.
 
@@ -24,7 +16,7 @@ Derfor slår vi nu dørene op for CCC Community. Med dette fællesskab er det vo
 
 Pris: 2.500 kr. årligt
 
-Hvad får du:
+Som medlem af CCC Community har du gratis adgang til en lang række gå-hjem møder og arrangementer hos os, samt adgang til:
 
 -	Netværk, inspiration og supervision på 3 årlige træningsaftener
 -	2 faglige arrangementer årligt

@@ -6,7 +6,7 @@
   }
 
   .row {
-    width: 1260px;
+    
     margin: 100px auto 0 auto;
   }
 
@@ -25,12 +25,17 @@
   }
 
   .story-row {
+    margin-bottom: 30px;
     .row {
       margin: 0 auto;
 
-      .story-box:nth-child(1) {
-        margin-top: 0;
-      }
+      
+    }
+  }
+
+  @include for-bot {
+    .green-button {
+      margin-top: 100px;
     }
   }
 
@@ -94,6 +99,7 @@
   .story {
     box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.15);
     background-size: cover;
+    text-align: left;
     padding: 20px;
     height: 350px;
     position: relative;
@@ -143,6 +149,7 @@
 
     h1 {
       font-weight: 600;
+      color: white;
 
     }
 
@@ -162,6 +169,7 @@
 
     h1 {
       font-weight: 600;
+      color: white;
     }
 
     h2,
@@ -186,7 +194,6 @@
   display: flex;
   justify-content: center;
   height: auto;
-  padding: 30px 20vh;
 
   .col-sm-12, .col-lg-8 {
     margin: 0;
@@ -196,22 +203,8 @@
     padding-right: 3vh;
   }
 
-    .header-one {
-      color: #000;
-      grid-area: header;
-      padding: 0;
-      margin: 0;
-      font-weight: 500;
-      font-family: 'Oswald', sans-serif;
-      text-transform: uppercase;
-      word-wrap: break-word;
-    }
 
-    h1 {
-      margin: 0;
-      padding: 0;
-    }
-
+  
 
     a {
       color: $green;
@@ -219,7 +212,7 @@
   
 
     .facta-box {
-      margin-top:20vh;
+      margin-top: 30px;
       background-color: #F6F5F3;
       padding: 2vh;
       h4 {
@@ -269,128 +262,13 @@
   
 }
 
-@media (max-width: 1024px) {
-  .individual-stories {
-    padding: 0 3vh 0 3vh;
 
-   
-  }
-  
+
+.hideContent {
+  overflow: hidden;
+  height: 375px;
 }
 
-
-@media (max-width: 992px) {
-  .individual-stories { 
-    .facta-box {
-      margin: 10vh 0 0 0;
-      
-    }
-  }
-}
-
-
-// Medium devices (landscape tablets, 768px and down)
-
-@media (max-width: 768px) {
-
-  
-  
-
-
-  .page .intro {
-    width: 100% !important;
-  }
-
-  .stories {
-    padding-bottom: 50px;
-
-    #row_all {
-      width: 100%;
-
-      .story-row {
-        width: 100%;
-        margin: 0 auto;
-
-        .row {
-          padding-left: 0;
-          padding-right: 0;
-          width: 90%;
-        }
-      }
-
-      .collapse {
-        .row {
-          .row {
-            padding-left: 0;
-            padding-right: 0;
-            width: 90%;
-          }
-        }
-      }
-    }
-
-    .tag-section {
-      width: 90%;
-
-      p {
-        text-align: center;
-      }
-    }
-
-    .show-all-post {
-      width: 100%;
-    }
-
-    .row {
-      width: 90%;
-    }
-
-    .col-lg-12,
-    .col-lg-4 {
-      padding: 0 !important;
-    }
-
-    p {
-      padding: 25px 0;
-    }
-
-    .story {
-      height: 350px;
-    }
-
-    p {
-      padding: 10px 0;
-      width: 100% !important;
-    }
-
-  }
-}
-
-@media (max-width: 1290px) {
-
-  .tag-section {
-    width: 90% !important;
-
-    p {
-      text-align: center;
-    }
-  }
-
-  .individual-stories {
-    .row {
-      width: 90%;
-      padding: 0;
-    }
-  }
-
-  .stories {
-    .row {
-      width: 90%;
-
-      .col-lg-12,
-      .col-lg-4 {
-        margin: 10px 0;
-      }
-    }
-  }
+.showContent {
+  height: auto;
 }

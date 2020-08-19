@@ -3,6 +3,9 @@ published: true
 title: 'De undersøgende rum, CCC og ledelsesfænomenet'
 image: /images/inspiration/Podcast.jpg
 author: Morten Paustian
+category:
+- podcast
+- blog
 tags:
   - coaching
   - ledelse

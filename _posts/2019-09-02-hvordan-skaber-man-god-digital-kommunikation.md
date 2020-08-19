@@ -4,6 +4,7 @@ title: Hvordan skaber man god digital kommunikation?
 image: /images/inspiration/aula.jpg
 author: Frederikke Winther
 tags: [digital, kommunikation, aula, proces]
+category: blog
 teaser:
 ---
 

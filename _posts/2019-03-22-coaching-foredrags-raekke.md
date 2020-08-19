@@ -4,6 +4,7 @@ title: Coaching-foredragsrække på Københavns Universitet
 image: /images/inspiration/post7.jpeg
 author: Frederikke Winther
 signup: forskellige ydelser
+category: blog
 tags:
   - samarbejde
 ---
