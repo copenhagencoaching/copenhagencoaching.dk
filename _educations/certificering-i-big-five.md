@@ -13,19 +13,7 @@ location: Blegdamsvej 104C, 3. sal, baghuset th., 2100 København Ø
 special: false
 hold_eller_begivenheder: true
 events:
-- subcategory: true
-  subcat:
-  - sub-cat-title: Undervisning
-    datoer:
-    - Ons 21/10 | 9.30-16.00 | On site | Introdag på Blegdamsvej
-    - Ons 4/11 | 10.00-12.00 | Online | Q&A i forlængelse af webinarer
-    - Tor 12/11 | 9.30-14.00 | Online | Workshop, tilbagemeldingssamtalen
-    - Ons 25/11 | 9.30-16.00 | Online | Certificering
-  - sub-cat-title: Selvstudie
-    datoer:
-    - 21/10-4/11 | webinar 1-3 (1. Personlighedspsykologi, 2. Big Five model/teori, 3. Big Five testrapport og feedback)
-    - 221/10-25/11 | webinar 4 (Erhvervsrettet testning)
-  overskrift: BF-C hold 7
+- overskrift: Vi kører 2 hold i efteråret 2020 - datoer er på vej.
 
 ---
 **Du kan trygt melde dig til vores næste hold. Vi følger situationen og de løbende retningslinjer nøje for at undgå spredningen af covid-19.**
