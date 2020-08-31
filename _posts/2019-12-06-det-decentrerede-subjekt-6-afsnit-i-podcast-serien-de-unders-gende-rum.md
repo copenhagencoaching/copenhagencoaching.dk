@@ -11,6 +11,7 @@ tags:
   - ledelse
   - Podcast
 teaser:
+description: I denne podcasts tager Morten Levinsen til Hellerup for at drøfte det systemisk-narrative spor i coaching. Her møder han seniorkonsulent Morten Bertelsen.
 ---
 I Copenhagen Coaching Center har vi udviklet en podcast-serie som stiller skarpt på centrale undersøgende rum inden for coaching og ledelse. Serien rummer syv afsnit, der tilsammen udgør spændende samtaler og essentielle markører i forståelsen af, hvordan vi arbejder med coaching og ledelse. Lyt med og fordyb dig i såvel psykologiens som filosofiens verden.
 

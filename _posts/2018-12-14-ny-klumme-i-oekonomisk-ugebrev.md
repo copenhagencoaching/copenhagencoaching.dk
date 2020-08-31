@@ -7,6 +7,7 @@ tags: [ugebrev, ledelse, nyhed]
 signup: forskellige ydelser
 teaser:
 category: blog
+description: Copenhagen Coaching Center har indgået et nyt formidlingssamarbejde med nyhedsmediet Økonomisk Ugebrev.
 ---
 
 Copenhagen Coaching Center har indgået et nyt formidlingssamarbejde med nyhedsmediet Økonomisk Ugebrev.

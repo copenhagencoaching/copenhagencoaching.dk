@@ -10,7 +10,8 @@ tags:
   - coaching
   - ledelse
   - Podcast
-teaser:
+teaser: 
+description: Podcasten stiller også skarpt på samtalens form, herunder meningen og betydningen af filosofi i en ledelseskontekst. Samtalen ledes frem af direktør og partner Mette Mejlhede, seniorkonsulent Kim Gørtz og associeret partner Morten Paustian.
 ---
 
 I Copenhagen Coaching Center har vi udviklet en podcast-serie som stiller skarpt på centrale undersøgende rum inden for coaching og ledelse. Serien rummer syv afsnit, der tilsammen udgør spændende samtaler og essentielle markører i forståelsen af, hvordan vi arbejder med coaching og ledelse. Lyt med og fordyb dig i såvel psykologiens som filosofiens verden.

@@ -18,7 +18,8 @@ events:
   - 28., 29. & 30. september 2020
   - 28.-29. oktober 2020
   - 25. november 2020
-
+redirect_from:
+  - /coaching/proceslederuddannelse/
 ---
 Du vil kunne mestre den sunde og veldesignede proces, der giver jeres arbejde retning og mening.
 

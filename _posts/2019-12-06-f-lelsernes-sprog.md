@@ -11,6 +11,7 @@ tags:
   - ledelse
   - Podcast
 teaser:
+description: I denne podcast berører vi følelsernes sprog og den æstetik der knytter sig til følelserne. Det foregår som en samtale mellem seniorkonsulent Kim Gørtz og associeret partner Morten Paustian, der sammen undersøger følelserne som en integreret del af den menneskelige eksistens.
 ---
 I Copenhagen Coaching Center har vi udviklet en podcast-serie som stiller skarpt på centrale undersøgende rum inden for coaching og ledelse. Serien rummer syv afsnit, der tilsammen udgør spændende samtaler og essentielle markører i forståelsen af hvordan vi arbejder med coaching og ledelse. Lyt med og fordyb dig i såvel psykologiens som filosofiens verden.
 

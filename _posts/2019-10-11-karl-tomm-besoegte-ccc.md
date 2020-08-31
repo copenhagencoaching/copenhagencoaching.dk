@@ -7,6 +7,8 @@ category: blog
 tags:
   - coaching
   - events
+redirect_from:
+  - /inspiration/your-filename/
 ---
 ## CCC Community afholdt aftenarrangement med den verdensberømte, canadiske psykiater Karl Tomm d. 25. november kl. 17-21. 
 

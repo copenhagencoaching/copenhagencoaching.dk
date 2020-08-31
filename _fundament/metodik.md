@@ -3,6 +3,7 @@ published: true
 title: Metodik
 header: Metodik
 image: /images/fundament/f1.jpg
+description: CCC har siden virksomhedens start i 2004 arbejdet for at skabe de bedste uddannelser for ledere og konsulenter. Vores undervisning er praktisk orienteret og enkel at omsætte og anvende i dagligdagen.
 ---
 
 CCC har siden virksomhedens start i 2004 arbejdet for at skabe de bedste uddannelser for ledere og konsulenter. Vores undervisning er praktisk orienteret og enkel at omsætte og anvende i dagligdagen. Produkter og metoder er forskningsbaserede og vokser ud af en kombination af velkendte og underbyggede teorier. Da vi er uddannelsesinstitution for nye såvel som garvede ledere og konsulenter, er vi altid opdateret på vores specialer. 

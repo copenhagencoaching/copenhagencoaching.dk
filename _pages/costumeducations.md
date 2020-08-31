@@ -7,5 +7,8 @@ show: false
 order: '1'
 image: /images/academy/b6.png
 description: CCC tilbyder åbne uddannelser, lederuddannelser og kurser til dig der ønsker høj faglig kvalitet og virkelighedsnære læreprocesser i samspillet mellem teori og praksis.
+permalink: /academy/skraeddersyde-uddannelser/
+redirect_from:
+  - /costumeducations/
 ---
 

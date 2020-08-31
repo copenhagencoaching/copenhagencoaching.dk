@@ -4,6 +4,7 @@ order: "3"
 title: Organisationsudvikling
 image: /images/consulting/c4.png
 contact-person: Andreas Bering
+description: I CCC har vi over 15 års erfaring i arbejdet med situationer, hvor en given organisatorisk praksis skal justeres, udfoldes eller decideret transformeres.
 ---
 Organisationer rummer i sig selv sin egen iboende kompleksitet og mulighed for at gå på tværs af sine egne rutiner og regelmæssigheder. Det kræver imidlertid som regel en opøvelse i at kunne se, hvor de produktive brud og potentielle ændringer kan komme fra. Endvidere afstedkommer brud, sprækker og uregelmæssigheder en generel utryghed, usikkerhed og menneskelig såvel som systemisk forstyrrelse, som skal håndteres.
 

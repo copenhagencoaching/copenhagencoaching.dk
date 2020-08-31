@@ -7,6 +7,7 @@ signup: forskellige ydelser
 tags: [samarbejde, projekt]
 teaser:
 category: blog
+description: Det er med stor glæde og stolthed, at vi hermed kan fortælle, at vi netop har indgået en aftale med Herning Bibliotekerne om et nyt, spændende samarbejde omkring visionsudvikling og procesledelse i bibliotekerne.
 ---
 
 Det er med stor glæde og stolthed, at vi hermed kan fortælle, at vi netop har indgået en aftale med Herning Bibliotekerne om et nyt, spændende samarbejde omkring visionsudvikling og procesledelse i bibliotekerne. Projektet løber gennem hele 2019 og involvere blandt andet et kursusforløb for chefer, ledere og procesledere samt udviklingen af et ny online værktøj til visions- og procesarbejde på folkebiblioteket.

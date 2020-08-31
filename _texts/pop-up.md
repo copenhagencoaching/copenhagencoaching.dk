@@ -4,7 +4,6 @@ title: Vi er her stadig!
 link: "#contact"
 link-text: Tilmelding til CCC nyhedsbrev
 layout: default
-
 ---
 og afholder fortsat samtaler, nu telefonisk eller online. Det er også muligt at booke samtale både aften og weekend efter behov.
 

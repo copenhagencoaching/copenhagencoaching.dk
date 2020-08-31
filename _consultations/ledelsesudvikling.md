@@ -4,6 +4,8 @@ order: "1"
 title: Ledelsesudvikling
 image: /images/consulting/c3.jpg
 contact-person: Lars Nyborg
+description: 'Ledelse er helt centralt for virksomheders og organisationers udvikling og kvalitet.
+I vores arbejde med ledelsesudvikling arbejder vi i to spor: Den individuelle lederudvikling & Udvikling af ledelsesteamet.'
 ---
 
 ## Selvindsigt og praktisk dømmekraft
