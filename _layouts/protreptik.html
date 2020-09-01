@@ -2,18 +2,11 @@
 layout: default
 ---
 
-<div class="container-fluid narrow-container">
-    {% if page.header %}
-    <div class="hero-banner wide">
+<div class="container-fluid narrow-container extra-narrow-container">
 
-        <div class="hero-banner-text">
-            <h1 class="banner-title">{{ page.header }}</h1>
-            {% if page.sub-header %}
-            <h2>{{ page.sub-header }}</h2>
-            {% endif %}
-            <p>{{ page.description }}</p>
-        </div>
-        <div class="hero-banner-image">
+
+
+        <div class="hero-banner-image-alone">
 
             <div class="color-box"></div>
             <div class="hero-image">
@@ -21,8 +14,16 @@ layout: default
                     alt="Protreptik Copenhagen Coaching Center"></div>
         </div>
 
-    </div>
+
+
+    <h1>{{ page.header }}</h1>
+    {% if page.sub-header %}
+    <h4>- {{ page.sub-header }}</h4>
     {% endif %}
+    <div class="small-grey-box">
+       <p>Kom og oplev <a href="/protreptik-i-naturen/">Protreptik i Naturen</a></p>
+    </div>
+    <p> {{ page.description }}</p>
 
 
     {{ content }}

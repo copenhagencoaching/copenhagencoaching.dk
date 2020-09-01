@@ -54,6 +54,6 @@ Det vil blive bekræftet, at den filosofiske affirmand søger anderledesheden, o
 
 Der er et begrænset antal pladser: Max 20 stk.
 
-Tilmelding senest: 1. august 2020
+Tilmelding sker løbende.
 
 ...er du voksen og er blevet nysgerrig på selv at deltage på et lignende forløb, skal du være velkommen til at kontakte os for også at høre nærmere om det.
