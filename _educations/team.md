@@ -15,7 +15,6 @@ events:
   dato:
   - 14. - 15. Oktober
   - 12. November
-  - 
 - overskrift: Hold 2 - 2020
   dato:
   - 9. - 10. November
