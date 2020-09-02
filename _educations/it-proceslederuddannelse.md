@@ -1,5 +1,6 @@
 ---
 title: IT procesleder-uddannelsen
+published: false
 image: "/uploads/thumbnail_Canva - Person Holding White Tablet Computer.jpg"
 description: Tænk komplekst, kommunikér enkelt
 price: 14.000 kr ekskl. moms (fuld forplejning og materialer er inkluderet)
