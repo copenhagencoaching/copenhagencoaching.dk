@@ -14,15 +14,31 @@
   <!-- End Google Tag Manager (noscript) -->
   {% include navigation.html %}
 
-{{ content }}
+  {{ content }}
 
   {% include footer.html %}
 
-     {% include scripts/plugin.html %}
+  {% include scripts/plugin.html %}
 
-  <!-- Expands and collapses the divs on Consulting, Coaching and International pages -->
 
-  
+  <!-- Mailchimp hides on succesful submit-->
+
+<!--   <script>
+    $(function(){
+        //$("#mcm_hide_on_submit").hide();
+        $(".mc-btn").on("click", function(){
+          if($('#mce-success-response').css('display') == 'block') {
+                console.log('Successfully signed up');
+                $('#mc-embedded-subscribe-form').hide();
+                $('#mailchimp-success-message').toggleClass('show');
+            }
+            else {
+              console.log('Not successfull')
+            }
+        });
+    }); 
+</script> -->
+
 
   <script>
     $('.contact-link').on('click', function () {
@@ -136,7 +152,7 @@
       all_btn.setAttribute('class', ' tags');
     }
 
-   
+
 
     // Toggle between arrows in factabox
 
@@ -152,24 +168,24 @@
     });
   </script>
 
-<script>
-  $(".show-more a").on("click", function() {
-  var $this = $(this); 
-  var $content = $this.parent().prev("div.story-row");
-  var linkText = $this.text().toUpperCase();    
-  
-  if(linkText === "VIS MERE"){
-      linkText = "Vis mindre";
-      $content.switchClass("hideContent", "showContent", 400);
-  } else {
-      linkText = "Vis mere";
-      $content.switchClass("showContent", "hideContent", 400);
-  };
+  <script>
+    $(".show-more a").on("click", function () {
+      var $this = $(this);
+      var $content = $this.parent().prev("div.story-row");
+      var linkText = $this.text().toUpperCase();
 
-  $this.text(linkText);
-});
-</script>
- 
+      if (linkText === "VIS MERE") {
+        linkText = "Vis mindre";
+        $content.switchClass("hideContent", "showContent", 400);
+      } else {
+        linkText = "Vis mere";
+        $content.switchClass("showContent", "hideContent", 400);
+      };
+
+      $this.text(linkText);
+    });
+  </script>
+
 </body>
 
 </html>

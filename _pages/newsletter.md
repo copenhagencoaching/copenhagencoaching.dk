@@ -1,5 +1,5 @@
 ---
-Title: Nyhedsbrev
+title: Nyhedsbrev
 layout: newsletter
 permalink: /nyhedsbrev/
 ---
