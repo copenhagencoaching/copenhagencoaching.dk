@@ -49,3 +49,9 @@
     @include alert-variant(theme-color-level($color, $alert-bg-level), theme-color-level($color, $alert-border-level), theme-color-level($color, $alert-color-level));
   }
 }
+
+.inner-mc-success-message {
+  background-color: $ccc-green;
+  padding: 10px;
+  color: white;
+}
