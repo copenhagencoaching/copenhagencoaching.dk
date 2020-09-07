@@ -34,6 +34,38 @@ layout: default
             <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ post.url | prepend: 'https://stage.copenhagencoaching.dk' }}"><i class="fab fa-linkedin-in" title="Del på LinkedIn"></i></a>
         </div>
         {{ content }}
+
+        {% if page.eventbrite %}
+        <h3>Tilmeld dig her nedenfor</h3>
+        {% if page.eventbrite-id %}
+
+        <div id="eventbrite-widget-container-{{ page.eventbrite-id }}"></div>
+        <div id="eb-id" class="hidden">{{ page.eventbrite-id }}</div>
+
+<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+
+<script type="text/javascript">
+    var exampleCallback = function() {
+        console.log('Order complete!');
+    };
+
+    var ebID = document.getElementById('eb-id').innerHTML;
+    window.EBWidgets.createWidget({
+        // Required
+        widgetType: 'checkout',
+        eventId: ebID,
+        iframeContainerId: 'eventbrite-widget-container-' + ebID,
+
+        // Optional
+        iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
+        onOrderComplete: exampleCallback  // Method called when an order has successfully completed
+    });
+</script>
+{% else %}
+<h4>Tilmelding kommer snart...</h4>
+        {% endif %}
+
+        {% endif %}
         <a class="read-more" href="/inspiration/">← Læs flere historier</a>
     </div>
 
@@ -48,13 +80,13 @@ layout: default
         {% if page.place-link %}
         <h5>Sted:</h5>
         <p> <a href="{{ page.place-link }}" target="_blank">{{ page.location }} </a></p>
-        {% endif %}
+        
       
 {% else %}
         <h5>Sted:</h5>
         <p> {{ page.location }} </p>
         {% endif %}
-
+        {% endif %}
         <!-- Datoer  -->
 
         {% if page.hold_eller_begivenheder == true %}
