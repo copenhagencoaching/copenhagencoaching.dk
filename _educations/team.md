@@ -13,7 +13,7 @@ contact-person: Morten Bertelsen
 events:
 - overskrift: Hold 1 - 2020
   dato:
-  - 14. - 15. Oktober
+  - 21. - 22. Oktober
   - 12. November
 - overskrift: Hold 2 - 2020
   dato:
