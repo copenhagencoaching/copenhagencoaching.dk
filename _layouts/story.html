@@ -73,7 +73,7 @@ layout: default
 
     <div class="facta-box col-lg-4 col-sm-12">
 {% if page.price %}
-        <h5>Pris:</h5>
+        <h4>Pris:</h4>
         <p> {{ page.price }} </p>
         {% endif %}
         {% if page.location %}
@@ -83,14 +83,14 @@ layout: default
         
       
 {% else %}
-        <h5>Sted:</h5>
+        <h4>Sted:</h4>
         <p> {{ page.location }} </p>
         {% endif %}
         {% endif %}
         <!-- Datoer  -->
 
         {% if page.hold_eller_begivenheder == true %}
-        <h5>{{page.event-title}}:</h5>
+        <h4>{{page.event-title}}:</h4>
   
         {% for event in page.events %}
 
@@ -165,8 +165,31 @@ layout: default
         {% endfor %}
         {% endif %}
 
+        {% if page.practical-information %}
+        <br>
+        <a data-toggle="collapse" href="#informationCollapse" role="button" aria-expanded="false" aria-controls="informationCollapse">
+         <h4>Praktiske oplysninger <i class="fas fa-caret-down"></i></h4>
+        </a>
+        <div class="collapse" id="informationCollapse">
+          <div class="card card-body">
+
+              {% for info in page.practical-information %}
+              <p>
+                <b>{{ info.title }}</b><br>
+                {{ info.text }}
+              </p>
+              {% endfor %}
+
+
+          </div>
+        </div>
+        {% endif %}
+
+
+      
+
         {% if page.extra %}
-        <br><hr>
+        <hr>
         <h5>{{ page.extra }}</h5>
         {% endif %}
         </span>

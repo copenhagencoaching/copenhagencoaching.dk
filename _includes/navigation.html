@@ -23,23 +23,16 @@
         {% endif %}
         {% endif %}
         {% endfor %}
+
         <li class="nav-item nav-icon">
           <a class="contact-link nav-link" data-proofer-ignore href="#contact" data-toggle="modal" data-target="#contact-modal"><i class="fas fa-envelope"></i></a>
-        </li>
-        <li id="search-button" class="nav-item nav-icon show">
-          <i class="fas fa-search"></i>
-        </li>
-        <li id="search" class="nav-item">
-          <form class="form" action="/search" method="get">
-            <label for="search-box"></label>
-            <input type="text" id="search-box" name="query">
-            <button class="green-search-button" type="submit">Søg</button>
-          </form>
-          <button class="search-cross"><i class="fas fa-times"></i></button>
         </li>
         <li class="nav-item nav-icon">
           <a href="https://www.edu.copenhagencoaching.dk/login/index.php" target="_blank"><i class="fas fa-user-graduate"></i></a>
         </li>
+
+         
+
       </ul>
     </div>
   </nav>
@@ -47,7 +40,7 @@
   <!-- <button class="green-button newsletter">Tilmeld nyhedsbrev</button> -->
 </div>
 </nav>
-
+<button class="btn nl-btn" onclick="window.location.href='/nyhedsbrev/'">Tilmeld nyhedsbrev</button>
 <script>
   $('.contact-link').on('click', function () {
     $('.navbar-toggler').click();

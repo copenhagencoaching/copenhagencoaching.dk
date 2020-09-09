@@ -13,6 +13,13 @@ location: Hos CCC på Blegdamsvej 104a, 2. sal.
 eventbrite: true
 eventbrite-id: 119862131863
 image: /images/inspiration/intet-over-teamet.jpg
+practical-information:
+- title: Hvor afholdes Gå-hjem-mødet?
+  text: Gå hjem mødet afholdes hos Copenhagen Coaching Center, Blegdamsvej 104A, 2. sal, 2100 Kbh- Ø
+- title: Kan jeg parkere ved Copenhagen Coaching Center?
+  text: Der er parkeringspladser på Blegdamsvej mod betaling, ellers anbefaler vi offentlig transport. Metroen ved Trianglen ligger 4 mins gang fra CCC.
+- title: Vil der være forplejning?
+  text: Der vil være lettere forplejning
 ---
 
 I CCC inviterer vi til et fagligt gå hjem møde om teamet. På baggrund af en kvantitativ undersøgelse og en mængde dyberegående interview blandt ledere, teammedlemmer og HR-konsulenter, vil vi gerne dele ud af den viden, vi har fået indsamlet om teamet, som det har det i dag.

@@ -1,5 +1,5 @@
 ---
-title: Privatlivs- og cookies politik
+title: Cookie politik
 layout: single-page
 ---
 

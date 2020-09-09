@@ -21,6 +21,8 @@
   {% include scripts/plugin.html %}
 
 
+
+
   <!-- Mailchimp hides on succesful submit-->
 
   <script>
@@ -34,6 +36,15 @@
          $('#mc-embedded-subscribe-form').hide();
         $("#mailchimp-success-message").toggleClass("show"); }
     });
+  </script>
+
+  <!-- Eventbrite overwrites-->
+
+  <script>
+    if ($('js-ticket-widget-ticket-price').html('Free')) {
+      $('.js-ticket-widget-ticket-price').html("Gratis"); 
+    }
+    
   </script>
 
 

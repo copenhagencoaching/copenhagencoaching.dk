@@ -138,3 +138,11 @@ input[type="button"] {
 .mc-btn {
   background-color: $ccc-green !important;
 }
+
+.nl-btn {
+  position: fixed;
+  top: 90px;
+  right: 10px;
+  z-index: 10000;
+}
+
