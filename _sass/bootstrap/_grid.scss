@@ -130,3 +130,22 @@
 .place-right {
   justify-self: end;
 }
+
+.blue-background {
+  background-color: $ccc-blue;
+  padding-bottom: 50px;
+}
+
+.no-border {
+  border: none !important;
+}
+
+.white {
+  color: white !important;
+}
+
+// margins
+
+.mb-30 {
+  margin-bottom: 30px;
+}

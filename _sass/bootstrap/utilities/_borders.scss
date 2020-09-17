@@ -73,3 +73,41 @@
 .rounded-0 {
   border-radius: 0 !important;
 }
+
+
+.border-seperated-list {
+  @include for-cont {
+    column-gap: 46px;
+    row-gap: 40px;
+    
+  }
+  div {
+    border-right: 2px solid $gray-300;
+    padding: 20px;
+
+    @include for-cont {
+      border-right: 0;
+
+    }
+
+    @include for-laptop {
+      padding: 0;
+    }
+
+  }
+div:last-of-type {
+  border: none;
+}
+
+div:last-of-type {
+  border: none;
+  padding-right: 0;
+}
+
+div:first-of-type {
+  padding-left: 0;
+}
+
+
+
+}

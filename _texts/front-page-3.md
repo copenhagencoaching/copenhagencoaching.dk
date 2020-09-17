@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Vi tilbyder et eksklusivt udvalg <br> af uddannelser, kurser og konsulentydelser
+title: Lyt til vores podcasts
 page: frontpage
 order: 3
+image: /images/frontpage/frontpage-6.jpg
 ---
-CCC er et ledelsesfilosofisk epicenter med fire forretningsområder. Vi tilbyder individuel coaching, ledelsessupervision, lederuddannelser og konsulentopgaver. Vores fokus er dygtiggørelse af medarbejdere og ledere, som ønsker at udvikle deres dialogiske færdigheder, refleksive kompetencer og ledelsesmæssige kapacitet.
+Cupidatat cupidatat sint velit nisi in ut eiusmod do pariatur minim aliquip. Velit ad sunt id nisi ea aliqua. Nulla commodo enim magna id esse ut deserunt voluptate. Aliqua sit laborum duis proident dolor id dolore aute officia dolore Lorem in mollit ex. Aliqua dolore mollit minim nisi incididunt labore magna ea commodo. Irure in mollit commodo nisi sint ad laborum amet. Excepteur adipisicing eu tempor aliqua pariatur nostrud consectetur est deserunt.

@@ -19,6 +19,14 @@ events:
   dato:
   - 9. - 10. November
   - 8. December
+- overskrift: Hold 3 - 2021
+  dato:
+  - 13. - 14. Januar
+  - 16. Februar
+- overskrift: Hold 4 - 2021
+  dato:
+  - 3. - 4. Februar
+  - 2. Marts
 ---
 
 ### Hvordan skaber man velfungerende teams, der også præsterer?

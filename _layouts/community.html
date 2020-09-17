@@ -21,6 +21,9 @@ layout: page
 
       {% for post in site.categories.community %}
       <h3>{{ post.title }}</h3>
+      <div class="outer-image-150">
+        <img class="object-fit" src="{{ post.image }}" alt="{{ post.title }}">
+      </div>
       <span class="thin">{{ post.date | date: "%B %d, %Y" }} | {{ post.time }}</span>
       {{ post.content }}
       {% endfor %}

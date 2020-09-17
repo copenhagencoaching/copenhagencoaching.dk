@@ -1,6 +1,7 @@
 ---
 title: INTET over TEAMET
 category: event
+time: 17:00 - 19:00
 events:
 - overskrift: 10. November 2020 | Fra kl. 17.00 til kl. 19.00.
 event-title: Dato
@@ -21,7 +22,6 @@ practical-information:
 - title: Vil der være forplejning?
   text: Der vil være lettere forplejning
 ---
-
 I CCC inviterer vi til et fagligt gå hjem møde om teamet. På baggrund af en kvantitativ undersøgelse og en mængde dyberegående interview blandt ledere, teammedlemmer og HR-konsulenter, vil vi gerne dele ud af den viden, vi har fået indsamlet om teamet, som det har det i dag.
 
  

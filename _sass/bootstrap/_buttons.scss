@@ -12,7 +12,7 @@ button {
   display: inline-block;
   text-align: center;
   vertical-align: middle;
-  color: #ffffff;
+  color: #ffffff !important;
   user-select: none;
   background-color: $ccc-green;
   border: $btn-border-width solid transparent;
@@ -139,10 +139,18 @@ input[type="button"] {
   background-color: $ccc-green !important;
 }
 
-.nl-btn {
-  position: fixed;
-  top: 90px;
-  right: 10px;
-  z-index: 10000;
-}
 
+.nl-btn {
+  border:none;
+  text-transform: uppercase;
+  padding: 20px 40px;
+  position: fixed;
+  right: 20px;
+  z-index: 10000;
+  bottom: 20px;
+  background-color: $ccc-blue;
+  color: white !important;
+  -webkit-box-shadow: 4px 4px 11px 0px rgba(0,0,0,0.28);
+  -moz-box-shadow: 4px 4px 11px 0px rgba(0,0,0,0.28);
+  box-shadow: 4px 4px 11px 0px rgba(0,0,0,0.28);
+}

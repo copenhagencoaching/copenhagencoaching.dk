@@ -11,64 +11,80 @@ layout: default
     });
 </script>
 
-<div>
 
-    <!-- Why ? -->
-
-    <div class="section frontpage grid-1">
-      
-                <div class="container-fluid extra-narrow-container">
-                    <div>
-                    {% for text in site.texts %}
-                    {% if text.page == "frontpage" %}
-                    {% if text.order == 1 %}
-                    <h1 class="title">{{ text.title }}</h1>
+<div class="front-slider">
+    {% for text in site.texts %}
+    {% if text.page == "frontpage" %}
+    <div class="big-header">
+        <div class="inner-front" style="background-image: url('{{ text.image }}');">
+            <div class="front-text container-fluid narrow-container no-down">
+                <div class="front-box">
+                    <h1>{{ text.title }}</h1>
                     {{ text.content }}
-                    {% endif %}
-                    {% endif %}
-                    {% endfor %}
+                    <a href="#"><h4>Læs mere her <i class="fas fa-long-arrow-alt-right"></i></h4></a>
                 </div>
+                <div class="color-box">
+
                 </div>
-       
-        <a href="#how" data-proofer-ignore class="scroll-down"><i class="fas fa-chevron-down"></i></a>
+            </div>
+        </div>
+
     </div>
+    {% endif %}
+    {% endfor %}
+</div>
 
-    <!-- How ? -->
-
-    <div class="section frontpage grid-1" id="how">
-       
-                <div class="container-fluid extra-narrow-container">
-                    <div>
-                    {% for text in site.texts %}
-                    {% if text.page == "frontpage" %}
-                    {% if text.order == 2 %}
-                    <h1 class="title">{{ text.title }}</h1>
-                    {{ text.content }}
-                    {% endif %}
-                    {% endif %}
-                    {% endfor %}  
-                </div>
-                </div>
-
-        <a href="/#what" data-proofer-ignore class="scroll-down"><i class="fas fa-chevron-down"></i></a>
+<div class="grid-3 container-fluid narrow-container border-seperated-list">
+    <div class="border-right">
+        <h2>Academy</h2>
+       <p class="large">CCC tilbyder åbne uddannelser, lederuddannelser og kurser til dig, der
+  ønsker høj faglig kvalitet og virkelighedsnære læreprocesser i samspillet mellem
+  teori og praksis.</p> 
     </div>
+    <div class="border-right">
+<h2>Consulting</h2>
+<p class="large">For at udvikle sig bæredygtigt har virksomheder, organisationer og mennesker brug for friske øjne og nye perspektiver. CCC har solid erfaring med strategiudvikling i organisationer.</p>
+    </div>
+    <div>
+<h2>Community</h2>
+<p class="large">Et fællesskab for vedvarende læring og udvikling af dit lederskab</p>
+    </div>
+</div>
 
-    <!-- What ? -->
 
-    <div class="section frontpage grid-1" id="what">
-       
-                <div class="container-fluid extra-narrow-container">
-                    <div>
-                    {% for text in site.texts %}
-                    {% if text.page == "frontpage" %}
-                    {% if text.order == 3 %}
-                    <h1 class="title">{{ text.title }}</h1>
-                    {{ text.content }}
-                    {% endif %}
-                    {% endif %}
-                    {% endfor %}  
+
+<div class="blue-background">
+    <div class="container-fluid narrow-container">
+        <h1 class="center white mb-30">Kommende events</h1>
+
+        <div class="grid-3 gap-40 r-gap-40">
+            {% assign curDate = site.time | date: '%s' %}
+            {% assign sorted_stories = site.posts | sort: "date" %}
+            {% for post in sorted_stories %}
+            {% assign postStartDate = post.date | date: '%s' %}
+            {% if postStartDate >= curDate %}
+            {% if post.category == "community" %}{% assign link = "/community/" %}{% else %}{% assign link = post.url %}{% endif %}
+
+            <div class=" card no-border">
+                <div class="card-header no-border">
+                    <h2 class="card-title">{{ post.title }}</h2>
+                    <div class="card-subtitle"><span class="thin">{{ post.date | date: "%B %d, %Y" }} |
+                            {{ post.time }}</span></div>
                 </div>
-                </div>
+                <img class="card-img-top short no-radius" src="{{ post.image }}" alt="Card image cap">
 
+                <div class="card-body no-y-padding">
+
+                    <p class="card-text">{{ post.excerpt }}</p>
+
+                </div>
+                <div class="card-footer no-border center">
+                    <a href="{{ link }}" class="center highlighted large">Læs mere</a>
+                </div>
+            </div>
+
+            {% endif %}
+            {% endfor %}
+        </div>
     </div>
 </div>

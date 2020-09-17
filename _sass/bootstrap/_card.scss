@@ -44,6 +44,10 @@
   min-height: 1px;
   padding: $card-spacer-x;
   color: $card-color;
+
+  &.no-y-padding {
+    padding: 0 $card-spacer-x;
+  }
 }
 
 .card-title {
@@ -139,12 +143,20 @@
 .card-img,
 .card-img-top {
   @include border-top-radius($card-inner-border-radius);
+  &.short {
+    height: 200px;
+    object-fit: cover;
+  }
+  &.no-radius {
+    border-radius: 0 !important;
+  }
 }
 
 .card-img,
 .card-img-bottom {
   @include border-bottom-radius($card-inner-border-radius);
 }
+
 
 
 // Card deck
