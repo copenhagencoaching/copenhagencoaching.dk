@@ -10,7 +10,7 @@ layout: default
         $('.navbar-toggler').click();
     });
 </script>
-
+<!-- 
 
 <div class="front-slider">
     {% for text in site.texts %}
@@ -86,5 +86,67 @@ layout: default
             {% endif %}
             {% endfor %}
         </div>
+    </div>
+</div> -->
+
+<div>
+
+    <!-- Why ? -->
+
+    <div class="section frontpage grid-1">
+      
+                <div class="container-fluid extra-narrow-container">
+                    <div>
+                    {% for text in site.texts %}
+                    {% if text.page == "frontpage" %}
+                    {% if text.order == 1 %}
+                    <h1 class="title">{{ text.title }}</h1>
+                    {{ text.content }}
+                    {% endif %}
+                    {% endif %}
+                    {% endfor %}
+                </div>
+                </div>
+       
+        <a href="#how" data-proofer-ignore class="scroll-down"><i class="fas fa-chevron-down"></i></a>
+    </div>
+
+    <!-- How ? -->
+
+    <div class="section frontpage grid-1" id="how">
+       
+                <div class="container-fluid extra-narrow-container">
+                    <div>
+                    {% for text in site.texts %}
+                    {% if text.page == "frontpage" %}
+                    {% if text.order == 2 %}
+                    <h1 class="title">{{ text.title }}</h1>
+                    {{ text.content }}
+                    {% endif %}
+                    {% endif %}
+                    {% endfor %}  
+                </div>
+                </div>
+
+        <a href="/#what" data-proofer-ignore class="scroll-down"><i class="fas fa-chevron-down"></i></a>
+    </div>
+
+    <!-- What ? -->
+
+    <div class="section frontpage grid-1" id="what">
+       
+                <div class="container-fluid extra-narrow-container">
+                    <div>
+                    {% for text in site.texts %}
+                    {% if text.page == "frontpage" %}
+                    {% if text.order == 3 %}
+                    <h1 class="title">{{ text.title }}</h1>
+                    {{ text.content }}
+                    {% endif %}
+                    {% endif %}
+                    {% endfor %}  
+                </div>
+                </div>
+
     </div>
 </div>

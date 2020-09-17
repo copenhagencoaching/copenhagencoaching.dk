@@ -15,7 +15,8 @@ special: false
 hold_eller_begivenheder: true
 events:
 - overskrift: 5., 6. & 23. oktober 2020
-
+redirect_from:
+  - /academy/masterclassIProtreptik/
 ---
 ### LIVSSPEJLET: OM AT HOPPE UD AF det mulige SELVBEDRAG OG IND I DEN NORMATIVITET, DER KOMMER FRA HJERTET
 

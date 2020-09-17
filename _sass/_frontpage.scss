@@ -1,4 +1,4 @@
-
+/* 
 .front-slider {
     visibility: hidden;
 }
@@ -65,4 +65,251 @@
       }
   
     }
+  } */
+
+
+
+
+  .frontpage {
+    color: #ffffff;
+    background-image: url(/images/frontpage/frontpage-1.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-color: #000;
+    align-content: center;
+    align-items: center;
+    height: 95vh;
+    justify-content: center;
+    justify-items: center;
+
+    div.container-fluid {
+        position: relative;
+        height: 100%;
+        width: auto;
+
+        div {
+           
+
+            @include for-bot {
+                padding: 0;
+            }
+        }
+    }
+
+    h1, p {
+        color: white;
+    }
+
+   
+
+    .green-button {
+        height: 50px;
+        width: 175px;
+        background: $green;
+        border: none;
+        color: #ffffff;
+        font-weight: 600;
+        margin-right: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .transparent-button {
+        height: 50px;
+        width: 175px;
+        background: transparent;
+        border: 2px solid #ffffff;
+        color: #ffffff;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .frontpage-buttons {
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+    }
+
+    .scroll-down {
+        font-size: 30px;
+        color: #ffffff;
+        width: 100%;
+        height: auto;
+        position: absolute;
+        bottom: 0;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 50px;
+        animation: blinkingArrow 3s infinite;
+    }
+}
+
+.frontpage::before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+    opacity: .7;
+    background: $black;
+    background-size: cover;
+}
+
+.frontpage:nth-child(2) {
+    background-image: url(/images/frontpage/frontpage-2.jpg);
+}
+
+.frontpage:nth-child(3) {
+    background-image: url(/images/frontpage/frontpage-3.jpg);
+}
+
+#fp-nav ul li a span {
+    background: $green !important;
+}
+
+@keyframes blinkingArrow {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: .25;
+    }
+}
+
+// Front page navigation - this is a hackerman solution and might have to be changed further on down the line
+
+#frontpage-nav {
+    margin-top: 0;
+}
+
+// Smaller than our page width
+
+@media (max-width: 1290px) {
+
+    .frontpage {
+        span {
+            width: 90%;
+        }
+
+        .frontpage-buttons {
+            width: 100%;
+        }
+    }
+
+    .scroll-down {
+        display: none;
+    }
+}
+
+// Medium devices (landscape tablets, 768px and down)
+
+@media (max-width: 768px) {
+
+    .frontpage {
+
+        p {
+            width: 100%
+        }
+
+        .green-button,
+        .transparent-button {
+            width: 150px;
+            height: 40px;
+        }
+    }
+
+    #frontpage-nav {
+        .navbar {
+            width: 100%; //Denne bliver overskrevet
+        }
+    }
+}
+
+@keyframes slideIn {
+    0% {
+      transform: translateY(100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
   }
+
+/* The popup form - hidden by default */
+.form-popup {
+    width: 25%;
+    position: fixed;
+    bottom: 25px;
+    right: 15px;
+    z-index: 999999999;
+    animation: .5s ease-out 0s 1 slideIn;
+    a {
+        color: black;
+
+        &:hover {
+            color: $green;
+            text-decoration: none;
+        }
+    }
+
+
+    /* Add styles to the form container */
+    .form-container {
+        border-radius: 5px;
+        padding: 20px;
+        background-color: white;
+
+        .fas {
+            cursor: pointer;
+            font-size: 2em;
+            opacity: 0.8;
+            &:hover {
+                opacity: 1;
+            }
+
+
+        }
+    }
+
+    /* Set a style for the submit/login button */
+    .form-container .btn {
+        background-color: #4CAF50;
+        color: white;
+        padding: 16px 20px;
+        cursor: pointer;
+        width: 100%;
+        margin-bottom: 10px;
+        opacity: 0.8;
+    }
+
+    /* Add a red background color to the cancel button */
+    .form-container .cancel {
+        background-color: red;
+    }
+
+    /* Add some hover effects to buttons */
+    .form-container .btn:hover,
+    .open-button:hover {
+        opacity: 1;
+    }
+
+}
+
+@media (max-width: 1024px) {
+    .form-popup {
+        width: 100% !important;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+}
