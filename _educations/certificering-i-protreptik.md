@@ -15,6 +15,7 @@ special: false
 hold_information: Forløbet aftales individuelt
 redirect_from:
   - /academy/certificeringIProtreptik/
+  - /academy/certificeringiprotreptik/
 ---
 Dette forløb er din chance og mulighed for at komme helt i dybden med denne filosofiske samtalekunst og ikke mindst dig selv og de værdier du står for i din ledelse, dit arbejdsliv og tilværelse generelt.
 

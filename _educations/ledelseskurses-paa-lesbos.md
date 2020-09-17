@@ -17,6 +17,7 @@ events:
 redirect_from:
   - /academy/ledelseskursesPåLesbos/
   - /academy/ledelseskursus-på-lesbos/
+  - /academy/ledelseskursuspålesbos/
 ---
 ### Hvorfor skal du vælge Ledelseskursus på Lesbos?
 
