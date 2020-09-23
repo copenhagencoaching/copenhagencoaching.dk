@@ -7,6 +7,7 @@ events:
 event-title: Dato
 description: Gratis gå-hjem-møde hos CCC om teamets tilstand og (oversete) muligheder.
 hold_eller_begivenheder: true
+published: false
 facta-box: true
 extra: <a href="/academy/team">Læs mere om vores Team uddannelse her</a>
 color-box: blue
