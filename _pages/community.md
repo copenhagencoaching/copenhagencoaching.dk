@@ -25,11 +25,7 @@ Derfor har vi slået dørene op for CCC Community, et fysisk og virtuelt fælles
 Som medlem får du gratis adgang til en lang række gå-hjem møder og arrangementer hos os, samt adgang til:
 
 - Netværk, inspiration og supervision på 3 årlige træningsaftener
-
 - Min. to faglige arrangementer årligt
-
 - 1 gratis eksemplar af nye CCC-udgivelser
-
 - Seks årlige nyhedsbreve
-
 - 15% rabat på events, eksklusive arrangementer og udvalgte kurser
