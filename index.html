@@ -10,7 +10,7 @@ layout: default
         $('.navbar-toggler').click();
     });
 </script>
-<!-- 
+
 
 <div class="front-slider">
     {% for text in site.texts %}
@@ -21,11 +21,9 @@ layout: default
                 <div class="front-box">
                     <h1>{{ text.title }}</h1>
                     {{ text.content }}
-                    <a href="#"><h4>Læs mere her <i class="fas fa-long-arrow-alt-right"></i></h4></a>
+                    
                 </div>
-                <div class="color-box">
-
-                </div>
+             
             </div>
         </div>
 
@@ -33,7 +31,7 @@ layout: default
     {% endif %}
     {% endfor %}
 </div>
-
+<!-- 
 <div class="grid-3 container-fluid narrow-container border-seperated-list">
     <div class="border-right">
         <h2>Academy</h2>
@@ -50,14 +48,14 @@ layout: default
 <p class="large">Et fællesskab for vedvarende læring og udvikling af dit lederskab</p>
     </div>
 </div>
+ -->
 
 
+<div >
+    <div class="container-fluid narrow-container extra-narrow-container">
+        <h1 class="center mb-30">Kommende events</h1>
 
-<div class="blue-background">
-    <div class="container-fluid narrow-container">
-        <h1 class="center white mb-30">Kommende events</h1>
-
-        <div class="grid-3 gap-40 r-gap-40">
+        <div class="grid-1 gap-40 r-gap-40">
             {% assign curDate = site.time | date: '%s' %}
             {% assign sorted_stories = site.posts | sort: "date" %}
             {% for post in sorted_stories %}
@@ -65,33 +63,36 @@ layout: default
             {% if postStartDate >= curDate %}
             {% if post.category == "community" %}{% assign link = "/community/" %}{% else %}{% assign link = post.url %}{% endif %}
 
-            <div class=" card no-border">
+
+            <div class="grid-2">
+                <img src="{{post.image }}" alt="" class="object-fit">
+     <div class=" card no-border blue">
                 <div class="card-header no-border">
                     <h2 class="card-title">{{ post.title }}</h2>
                     <div class="card-subtitle"><span class="thin">{{ post.date | date: "%B %d, %Y" }} |
                             {{ post.time }}</span></div>
                 </div>
-                <img class="card-img-top short no-radius" src="{{ post.image }}" alt="Card image cap">
+                
 
                 <div class="card-body no-y-padding">
 
-                    <p class="card-text">{{ post.excerpt }}</p>
+                    <p>{{ post.excerpt }}</p>
 
                 </div>
-                <div class="card-footer no-border center">
-                    <a href="{{ link }}" class="center highlighted large">Læs mere</a>
+                <div class="card-footer no-border">
+                    <a href="{{ link }}" class="large white">Læs mere</a>
                 </div>
-            </div>
-
+            </div> 
+        </div>
             {% endif %}
             {% endfor %}
         </div>
     </div>
-</div> -->
+</div> 
 
-<div>
+<!-- <div>
 
-    <!-- Why ? -->
+
 
     <div class="section frontpage grid-1">
       
@@ -111,7 +112,7 @@ layout: default
         <a href="#how" data-proofer-ignore class="scroll-down"><i class="fas fa-chevron-down"></i></a>
     </div>
 
-    <!-- How ? -->
+
 
     <div class="section frontpage grid-1" id="how">
        
@@ -131,7 +132,7 @@ layout: default
         <a href="/#what" data-proofer-ignore class="scroll-down"><i class="fas fa-chevron-down"></i></a>
     </div>
 
-    <!-- What ? -->
+
 
     <div class="section frontpage grid-1" id="what">
        
@@ -149,4 +150,4 @@ layout: default
                 </div>
 
     </div>
-</div>
+</div> -->

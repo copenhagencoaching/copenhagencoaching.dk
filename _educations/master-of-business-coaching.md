@@ -32,8 +32,13 @@ events:
     - 26.-27. oktober
     - 5.-6. november
     - 16.-17. december
-  - sub-cat-title: Februar 2021 (datoer er på vej)
-    datoer: []
+  - sub-cat-title: 10. februar 2021
+    datoer:
+    - 10.-11. februar
+    - 22.-23. marts
+    - 7.-8. april
+    - 4.-5. maj
+    - 16.-18. juni
 redirect_from:
   - /master-business-coaching-mbc/
 
