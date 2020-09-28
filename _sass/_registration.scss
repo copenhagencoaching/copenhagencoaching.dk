@@ -1,3 +1,82 @@
+.outer-signup-form {
+  background-color: white;
+  border-radius: 5px;
+  padding: 0 20px;
+  margin-bottom: 30px;
+  form {
+    width: 100%;
+
+    input,
+    select,
+    textarea {
+      width: 100%;
+    }
+  }
+
+  .input-form {
+    margin: 25px 0 0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    color: #818181;
+    box-sizing: border-box;
+    height: 45px;
+  }
+
+  .input-area-form {
+    margin: 25px 0 0;
+    margin-bottom: 25px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    color: #818181;
+    box-sizing: border-box;
+  }
+
+  textarea {
+    resize: none;
+  }
+
+
+  .checkbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+
+    .checkbox-box {
+      width: auto !important;
+    }
+
+    p {
+      margin-top: -5px;
+      margin-left: 15px;
+      width: auto;
+    }
+  }
+
+  button {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .green-button {
+    height: 50px;
+    width: 175px;
+    background: $green;
+    border: none;
+    color: #ffffff;
+    font-weight: 600;
+    opacity: .9;
+    margin: 50px 0;
+  }
+
+  .green-button:hover {
+    opacity: 1;
+  }
+
+}
+
+
 .registration {
 
   .row {
