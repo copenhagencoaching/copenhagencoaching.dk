@@ -10,16 +10,26 @@ order: "2"
 contact-person: ''
 description: Et fællesskab for vedvarende læring og udvikling af dit lederskab
 ---
-Rigtig mange af vores tidligere og nuværende studerende og kunder har efterspurgt flere tilbud om netværk, efteruddannelse, faglig inspiration og supervision.
+### ØNSKER DU ET FÆLLESSKAB FOR VEDVARENDE LÆRING OG UDVIKLING AF DIT LEDERSKAB?
+{:.white}
 
-Derfor slår vi nu dørene op for CCC Community. Med dette fællesskab er det vores ønske at skabe et netværk, der kan styrke vitaliteten i lederskabet. Målet med CCC Community er at stimulere faglig udvikling og nysgerrighed på egen og andres ledelsesmæssige praksis.
+##### Formålet med CCC Community er, at er at løfte den dialogiske ledelseskvalitet – og kapacitet i Danmark. Vi udvikler og uddanner ledere via rådgivning, coaching, sparring, netværk, kurser og testværktøjer. Sammen skaber vi rammerne for, hvordan du som leder skaber værdi for din selv, din organisation og for samfundet.
+{:.white}
 
-Pris: 2.500 kr. årligt
+Rigtig mange af vores tidligere og nuværende studerende, samt kunder efterspørger flere tilbud om netværk, efteruddannelse, faglig inspiration og supervision.
 
-Som medlem af CCC Community har du gratis adgang til en lang række gå-hjem møder og arrangementer hos os, samt adgang til:
+Derfor har vi slået dørene op for CCC Community, et fysisk og virtuelt fælleskab. Det er vores ønske at skabe et netværk, der kan styrke vitaliteten i dit lederskab og stimulere til faglige udvikling og nysgerrighed på egen og andres ledelsesmæssige praksis.
 
--	Netværk, inspiration og supervision på 3 årlige træningsaftener
--	2 faglige arrangementer årligt
--	1 gratis eksemplar af nye CCC-udgivelser
--	3 årlige nyhedsbreve
--	15% rabat på events, eksklusive arrangementer og udvalgte kurser
+Årligt kontingent: 2.500 kr.
+
+Som medlem får du gratis adgang til en lang række gå-hjem møder og arrangementer hos os, samt adgang til:
+
+- Netværk, inspiration og supervision på 3 årlige træningsaftener
+
+- Min. to faglige arrangementer årligt
+
+- 1 gratis eksemplar af nye CCC-udgivelser
+
+- Seks årlige nyhedsbreve
+
+- 15% rabat på events, eksklusive arrangementer og udvalgte kurser

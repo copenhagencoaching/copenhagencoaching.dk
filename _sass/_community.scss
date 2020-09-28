@@ -15,7 +15,8 @@
 
     .content-section {
         grid-area: contents;
-        background-color: #fde1e1af;
+        background-color: $ccc-blue;
+        color: white !important;
         padding: 3vh;
 
         ul {
