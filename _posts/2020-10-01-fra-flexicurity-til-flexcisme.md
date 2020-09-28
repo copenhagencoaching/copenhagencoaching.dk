@@ -5,7 +5,7 @@ image: /images/community/rasmus-willig.jpg
 category: community
 description: Kom og bliv inspireret af en af Danmarks mest prominente sociologer, Rasmus Willig, der vil holde oplæg om forholdet mellem psykisk arbejdsmiljø, ytringsfrihed og opkomsten af en ny type tavshedskultur på arbejdspladsen.
 ---
-**Online foredrag med Rasmus Willig, en af Danmarks mest prominente sociologer, forsker og forfatter. Vi streamer direkte via Facebook Live.**
+**Online foredrag med Rasmus Willig, forsker og forfatter, samt en af Danmarks mest prominente sociologer. Vi streamer direkte via Facebook Live.**
 
 Willig stiller spørgsmålstegn ved moderne begreber som coaching, robusthed, anerkendende ledelse og selvledelse.
 
