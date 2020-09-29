@@ -62,6 +62,13 @@ max-width: 200px;
   object-position: top;
 }
 
+@include for-tablet {
+  .outer-object-fit {
+    max-height: 300px;
+  }
+}
+
+
 .object-fit {
   object-fit: cover;
   width: 100%;
