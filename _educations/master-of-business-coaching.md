@@ -39,6 +39,13 @@ events:
     - 7.-8. april
     - 4.-5. maj
     - 16.-18. juni
+  - sub-cat-title: 1. september 2021
+    datoer:
+    - 1.-2. september
+    - 4.-5. oktober
+    - 3.-4. november
+    - 29.-30. november
+    - 14.-16. december
 redirect_from:
   - /master-business-coaching-mbc/
 
@@ -66,7 +73,7 @@ MBC er en anerkendt international master. Uddannelsen er normeret til et studie�
 
 MBC’en består af 4 semestre, som du også kan tage individuelt. Et semester består af ca. 10 undervisningsdage med undervisning fra 9.30 – 16.00
 
-* Som MBC studerende får du:
+**Som MBC studerende får du:**
 * Adgang til vidensportal, værktøjer, faglitteratur, artikler og cases
 * Big Five personlighedstest med individuel tilbagemelding
 * Mulighed for at blive certificeret i Big Five, så du selv kan anvende personlighedstest

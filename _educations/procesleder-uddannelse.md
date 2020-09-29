@@ -14,10 +14,16 @@ hold_eller_begivenheder: true
 events:
 - overskrift: 27. august 2020
   dato:
-  - 27.-28. august 2020
-  - 28., 29. & 30. september 2020
-  - 28.-29. oktober 2020
-  - 25. november 2020
+  - 27.-28. august
+  - 28., 29. & 30. september
+  - 28.-29. oktober
+  - 25. november
+- overskrift: 17. marts 2021
+  dato:
+  - 17.-18. marts
+  - 13., 14. og 15. april
+  - 17.-18. maj
+  - 14. juni
 redirect_from:
   - /coaching/proceslederuddannelse/
 ---

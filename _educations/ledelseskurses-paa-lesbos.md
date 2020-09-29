@@ -13,7 +13,8 @@ location: Lesbos
 special: false
 hold_eller_begivenheder: true
 events:
-- overskrift: 10-16 september 2020
+- overskrift: 27. maj - 3. juni 2021
+- overskrift: 9. - 16. september 2021
 redirect_from:
   - /academy/ledelseskursesPåLesbos/
   - /academy/ledelseskursus-på-lesbos/
