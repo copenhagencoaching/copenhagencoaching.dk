@@ -16,6 +16,7 @@ place-link: https://www.facebook.com/copenhagencoaching.dk/live
 extra: <a href="/academy/master-of-business-coaching">Læs mere om vores Master of Business Coaching</a>
 category: event
 description: Kom til Online Åbent hus og hør om vores kommende master hold med opstart i september 2020.
+published: false
 ---
 ##### Vil du gerne styrke eller opøve din dialogiske kapacitet og dit menneskelige beredskab?
 

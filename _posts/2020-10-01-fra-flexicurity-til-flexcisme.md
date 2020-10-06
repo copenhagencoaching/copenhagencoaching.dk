@@ -2,8 +2,11 @@
 title: Fra Flexicurity til Flexisme – den succesfulde formel for fiasko.
 time: 17:00 - 20:00
 image: /images/community/rasmus-willig.jpg
-category: community
+category:
+- community
+- event
 description: Kom og bliv inspireret af en af Danmarks mest prominente sociologer, Rasmus Willig, der vil holde oplæg om forholdet mellem psykisk arbejdsmiljø, ytringsfrihed og opkomsten af en ny type tavshedskultur på arbejdspladsen.
+published: false
 ---
 **Online foredrag med Rasmus Willig, forsker og forfatter, samt en af Danmarks mest prominente sociologer. Vi streamer direkte via Facebook Live.**
 

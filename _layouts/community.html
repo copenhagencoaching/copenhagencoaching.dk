@@ -19,6 +19,7 @@ layout: page
       
       <h1>Kommende arrangementer</h1>
 
+      {% if site.categories.community.size > 0 %}
       {% for post in site.categories.community %}
       <h3>{{ post.title }}</h3>
       <div class="outer-image-150">
@@ -27,6 +28,9 @@ layout: page
       <span class="thin">{{ post.date | date: "%B %d, %Y" }} | {{ post.time }}</span>
       {{ post.content }}
       {% endfor %}
+      {% else %}
+      <p>Der er i øjeblikket ikke nogen kommende events i Community</p>
+      {% endif %}
       <hr class="no-m-up">
     </section>
     <section class="inspiration-section">
@@ -48,6 +52,7 @@ layout: page
       </a>
       {% endif %}
         {% endfor %}
+
 
       </div>
       <h2><a data-proofer-ignore href="/inspiration/">Få mere inspiration ⟶</a></h2>
