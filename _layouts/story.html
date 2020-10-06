@@ -35,32 +35,13 @@ layout: default
         </div>
         {{ content }}
 
-        {% if page.eventbrite %}
+        {% if page.billetto %}
         <h3>Tilmeld dig her nedenfor</h3>
-        {% if page.eventbrite-id %}
+        {% if page.billettoid %}
 
-        <div id="eventbrite-widget-container-{{ page.eventbrite-id }}"></div>
-        <div id="eb-id" class="hidden">{{ page.eventbrite-id }}</div>
+        <script src="https://billetto.dk/embed.js" data-identifier="intet-over-teamet-billetter-{{ page.billettoid }}" data-color="#969c92" data-locale="da"  data-whitelabel="true"></script>
 
-<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
 
-<script type="text/javascript">
-    var exampleCallback = function() {
-        console.log('Order complete!');
-    };
-
-    var ebID = document.getElementById('eb-id').innerHTML;
-    window.EBWidgets.createWidget({
-        // Required
-        widgetType: 'checkout',
-        eventId: ebID,
-        iframeContainerId: 'eventbrite-widget-container-' + ebID,
-
-        // Optional
-        iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
-        onOrderComplete: exampleCallback  // Method called when an order has successfully completed
-    });
-</script>
 {% else %}
 <h4>Tilmelding kommer snart...</h4>
         {% endif %}
