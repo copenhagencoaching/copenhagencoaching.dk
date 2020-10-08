@@ -8,6 +8,10 @@ soundcloud-id: 1141063549
 category:
 - blog
 - podcast
+tags:
+- coaching
+- ledelse
+- Podcast
 ---
 *I Copenhagen Coaching Center har vi vores egen podcast kanal, Vibe, hvor vi løbede stiller skarpt på centrale problemstillinger inden for coaching og ledelse.*
 
