@@ -57,3 +57,14 @@ div._2lqh {
 
 }
 
+// facebook event container
+
+.facebool-event-container {
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    .fb-page {
+        width: 100% !important;
+    }
+}
