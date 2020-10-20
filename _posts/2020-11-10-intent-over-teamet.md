@@ -13,7 +13,7 @@ extra: <a href="/academy/team">Læs mere om vores Team uddannelse her</a>
 color-box: blue
 location: Hos CCC på Blegdamsvej 104a, 2. sal.
 billetto: true
-billettoid: 484523
+billettoid: 487455
 image: /images/inspiration/intet-over-teamet.jpg
 practical-information:
 - title: Hvor afholdes Gå-hjem-mødet?
