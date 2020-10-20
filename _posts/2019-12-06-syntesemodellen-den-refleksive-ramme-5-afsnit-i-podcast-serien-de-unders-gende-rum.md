@@ -19,7 +19,7 @@ I Copenhagen Coaching Center har vi udviklet en podcast-serie som stiller skarpt
 # Syntesemodellen – den refleksive ramme
 Hvad er egentlig den vidensmæssige orienteringsramme for Copenhagen Coaching Center? Dette belyses af seniorkonsulent Kim Gørtz og direktør Mette Mejlhede, der optegner den akademiske indramning af tre forskellige måder at gribe coaching an på. Det er en gennemgang af den såkaldte syntesemodel, som er en eklektisk sammensat referenceramme af både teoretisk og praktisk karakter.
 
-[Link til podcasten](https://soundcloud.com/user-167047692/syntesemodellen){:target="_blank"}
+[Link til podcasten](https://soundcloud.com/cccpodcastdur/syntesemodellen){:target="_blank"}
 
 Alle afsnit i serien:
 

@@ -18,7 +18,7 @@ I Copenhagen Coaching Center har vi udviklet en podcast-serie som stiller skarpt
 # Følelsernes sprog
 Hvad er følelser? Hvordan opleves de? Hvilken betydning har følelser i vores liv – dvs. hvad vil de os? I denne podcast berører vi følelsernes sprog og den æstetik der knytter sig til følelserne. Det foregår som en samtale mellem seniorkonsulent Kim Gørtz og associeret partner Morten Paustian, der sammen undersøger følelserne som en integreret del af den menneskelige eksistens.
 
-[Link til pdcasten](https://soundcloud.com/user-167047692/folelsernes-sprog){:target="_blank"}
+[Link til pdcasten](https://soundcloud.com/cccpodcastdur/folelsernes-sprog){:target="_blank"}
 
 Alle afsnit i serien:
 

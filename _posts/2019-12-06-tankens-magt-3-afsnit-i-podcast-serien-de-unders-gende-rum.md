@@ -19,7 +19,7 @@ I Copenhagen Coaching Center har vi udviklet en podcast-serie som stiller skarpt
 # Tankens magt
 Hvilken rolle spiller tanken for det enkelte menneske? Og hvordan mønstrer tankerne sig? Rummer de en struktur? Eller er de båret frem af en tilfældighed? I denne podcast lytter vi til konsulent Frederikke Winther og direktør Mette Mejlhede, som pointerer de væsentligste karakteristika for den kognitive tilgang inden for psykologien og coaching. Emnerne, der belyses her, er ’negative automatiske tanker’, ’leveregler’ og ’skemata’ samt ’den kognitive diamant’ og personlighedstesten ’BIG 5’.
 
-[Link til podcasten](https://soundcloud.com/user-167047692/tankens-magt-den-kognitive-tilgang-til-coaching){:target="_blank"}
+[Link til podcasten](https://soundcloud.com/cccpodcastdur/tankens-magt-den-kognitive-tilgang-til-coaching){:target="_blank"}
 
 Alle afsnit i serien:
 
