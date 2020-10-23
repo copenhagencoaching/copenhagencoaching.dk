@@ -14,7 +14,7 @@ location: Blegdamsvej 104C, 3. sal, baghuset th., 2100 København Ø
 special: false
 hold_eller_begivenheder: true
 events:
-- overskrift: 5., 6. & 23. oktober 2020
+- overskrift: Der er i øjeblikket ingen startdatoer
 redirect_from:
   - /academy/masterclassIProtreptik/
   - /academy/masterclassiprotreptik/

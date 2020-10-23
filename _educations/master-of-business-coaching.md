@@ -12,26 +12,9 @@ location: Blegdamsvej 104C, 3. sal, baghuset th., 2100 København Ø
 special: false
 hold_eller_begivenheder: true
 events:
-- subcategory: true
-  subcat:
-  - sub-cat-title: 27. august 2020
-    datoer:
-    - 27.-28. august
-    - 29.-30. september
-    - 6.-7. oktober
-    - 2.-3. november
-    - 2.-3. december
-  overskrift: Vejle
 - overskrift: København
   subcategory: true
   subcat:
-  - sub-cat-title: 7. september 2020
-    datoer:
-    - 7.-8. september
-    - 1.-2. oktober
-    - 26.-27. oktober
-    - 5.-6. november
-    - 16.-17. december
   - sub-cat-title: 10. februar 2021
     datoer:
     - 10.-11. februar
@@ -39,13 +22,6 @@ events:
     - 7.-8. april
     - 4.-5. maj
     - 16.-18. juni
-  - sub-cat-title: 1. september 2021
-    datoer:
-    - 1.-2. september
-    - 4.-5. oktober
-    - 3.-4. november
-    - 29.-30. november
-    - 14.-16. december
 redirect_from:
   - /master-business-coaching-mbc/
 

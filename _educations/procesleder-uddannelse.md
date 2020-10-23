@@ -12,12 +12,6 @@ location: Blegdamsvej 104C, 3., baghuset th., 2100 København Ø
 special: false
 hold_eller_begivenheder: true
 events:
-- overskrift: 27. august 2020
-  dato:
-  - 27.-28. august
-  - 28., 29. & 30. september
-  - 28.-29. oktober
-  - 25. november
 - overskrift: 17. marts 2021
   dato:
   - 17.-18. marts
