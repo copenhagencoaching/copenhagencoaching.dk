@@ -21,7 +21,7 @@ events:
   subcategory: false
   subcat: []
 pdf: ''
-
+published: false
 ---
 > ### SELV-FORNEMMELSENS FIRE LAG I COACHING-PRAKSIS
 >
