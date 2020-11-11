@@ -3,7 +3,7 @@ title: INTET over TEAMET
 category: event
 time: 17:00 - 19:00
 events:
-- overskrift: 10. November 2020 | Fra kl. 17.00 til kl. 19.00.
+- overskrift: 8. December 2020 | Fra kl. 17.00 til kl. 19.00.
 event-title: Dato
 description: Gratis gå-hjem-møde hos CCC om teamets tilstand og (oversete) muligheder.
 hold_eller_begivenheder: true
@@ -41,4 +41,4 @@ Vi byder, ud over faglighed, på et spændende netværk og lidt til ganen i vore
 
  
 
-Vi glæder os til at se dig 10. november på Blegdamsvej 104 i baghuset.
+Vi glæder os til at se dig 8. December på Blegdamsvej 104 i baghuset.
