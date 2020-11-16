@@ -63,6 +63,16 @@
             padding: 25px;
             z-index: 100;
 
+            .card {
+                background-color: $ccc-blue;
+                padding-bottom: 0;
+
+                a, a:hover {
+                    color: white !important;
+
+                }
+            }
+
             i {
                 padding: 0;
             }

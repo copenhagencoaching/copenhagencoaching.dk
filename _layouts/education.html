@@ -29,6 +29,22 @@ layout: default
     </div>
     <div class="facta-column">
       <div class="facta-box">
+
+        {% if page.extern-event %}
+        {% for post in site.posts %}
+        {% if post.title == page.extern-event %}
+        <div class="card">
+          <div class="card-body">
+            <a href="{{ post.url }}">
+            <h4>Kom med til vores Team event:</h4>
+            <b>{{ post.title }}</b> - <i>Gratis gå-hjem-møde hos CCC om teamets tilstand og (oversete) muligheder.</i>
+          </a>
+          </div>
+        </div>
+        
+        {% endif %}
+        {% endfor %}
+        {% endif %}
         <b>
           <p>Pris:</p>
         </b>

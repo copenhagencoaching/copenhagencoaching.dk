@@ -5,20 +5,13 @@ header: "TEAM: At coache, lede og deltage kvalificeret i et team"
 price: 11.900 kr ex moms
 image: /images/academy/teamudvikling.jpg
 pdf: ''
+extern-event: INTET over TEAMET
 location: Blegdamsvej 104C, 3., baghuset th., 2100 København Ø
 special: false
 event-title: Kommende hold
 hold_eller_begivenheder: true
 contact-person: Morten Bertelsen
 events:
-- overskrift: Hold 1 - 2020
-  dato:
-  - 21. - 22. Oktober
-  - 12. November
-- overskrift: Hold 2 - 2020
-  dato:
-  - 9. - 10. November
-  - 8. December
 - overskrift: Hold 3 - 2021
   dato:
   - 13. - 14. Januar
