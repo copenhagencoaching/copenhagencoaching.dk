@@ -14,7 +14,7 @@ color-box: blue
 location: Hos CCC på Blegdamsvej 104a, 2. sal.
 billetto: true
 billettoid: 492060
-image: /images/inspiration/intet-over-teamet.jpg
+image: /images/inspiration/team.png
 practical-information:
 - title: Hvor afholdes Gå-hjem-mødet?
   text: Gå hjem mødet afholdes hos Copenhagen Coaching Center, Blegdamsvej 104A, 2. sal, 2100 Kbh- Ø

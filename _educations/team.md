@@ -3,9 +3,10 @@ title: "TEAM: At coache, lede og deltage kvalificeret i et team"
 description: 3-dages seminar i Copenhagen Coaching Center
 header: "TEAM: At coache, lede og deltage kvalificeret i et team"
 price: 11.900 kr ex moms
-image: /images/academy/teamudvikling.jpg
+image: /images/academy/team.png
 pdf: ''
 extern-event: INTET over TEAMET
+extern-event-text: 'Vil du opdateres på seneste nye viden omkring teams, samarbejde og hvilke forudsætninger, der skal være til stede for at et team fungerer og præsterer optimalt? Så meld dig til vores næste gå-hjem-møde.'
 location: Blegdamsvej 104C, 3., baghuset th., 2100 København Ø
 special: false
 event-title: Kommende hold
