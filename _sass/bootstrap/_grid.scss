@@ -135,7 +135,7 @@
   background-color: $ccc-blue;
   padding-bottom: 50px;
 
-  h1, h2, h3, h4, h5, h6, a, p {
+  h1, h2, h3, h4, h5, h6, a, p, blockquote {
     color: white;
   }
   &.with-padding {
@@ -158,6 +158,25 @@
   margin-bottom: 30px;
 }
 
+.video-container {
+  width: 30%;
+  padding-right: 30px;
+
+  @include for-laptop {
+    width: 50%;
+  }
+
+  @include for-bot {
+    width: 100%;
+    padding-right: 0;
+  }
+
+}
+
 video {
   margin-right: 30px;
+
+  width: 100%;
+  height: auto;
+
 }
