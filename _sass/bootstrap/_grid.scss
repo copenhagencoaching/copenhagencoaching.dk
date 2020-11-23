@@ -161,6 +161,7 @@
 .video-container {
   width: 30%;
   padding-right: 30px;
+  float: left;
 
   @include for-laptop {
     width: 50%;
@@ -169,6 +170,7 @@
   @include for-bot {
     width: 100%;
     padding-right: 0;
+    float: unset !important;
   }
 
 }
