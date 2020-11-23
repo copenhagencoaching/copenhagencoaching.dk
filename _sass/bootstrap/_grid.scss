@@ -134,6 +134,14 @@
 .blue-background {
   background-color: $ccc-blue;
   padding-bottom: 50px;
+
+  h1, h2, h3, h4, h5, h6, a, p {
+    color: white;
+  }
+  &.with-padding {
+    padding: 20px;
+    margin: 20px 0;
+  }
 }
 
 .no-border {
@@ -148,4 +156,8 @@
 
 .mb-30 {
   margin-bottom: 30px;
+}
+
+video {
+  margin-right: 30px;
 }

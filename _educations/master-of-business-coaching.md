@@ -1,5 +1,6 @@
 ---
 order: "1"
+layout: mbc-campaign
 title: Master of Business Coaching
 image: "/images/coaching/ledelsessparring.jpg"
 contact-person: Frederikke Winther
