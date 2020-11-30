@@ -1,6 +1,8 @@
 ---
 title: Julekalender
 layout: christmas-calendar
+permalink: /julekalender/
+redirect_from: /christmas-calendar/
 ---
 ## VELKOMMEN TIL CCC'S JULEKALENDER - JULESTUE MED KIM & CAMILLA
 
