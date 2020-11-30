@@ -4,11 +4,12 @@ layout: default
 
 <div class="christmas-background">
     <div class="container-fluid extra-narrow-container white center">
-        <h1>{{ page.title }}</h1>
+        {{ page.content }}
         <!-- Begin Mailchimp Signup Form -->
+<!-- Begin Mailchimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
 <style type="text/css">
-	#mc_embed_signup{background:rgba(255, 255, 255, 0); clear:left; font:14px Helvetica,Arial,sans-serif; color: white;}
+	#mc_embed_signup{background:rgba(255, 255, 255, 0); clear:left; font:14px Helvetica,Arial,sans-serif; color: white; }
 	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
 	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 </style>
@@ -24,24 +25,26 @@ layout: default
 	
 <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
 <div class="mc-field-group">
-	<label for="mce-EMAIL">Email  <span class="asterisk">*</span>
+	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
 </label>
 	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
 </div>
 <div class="mc-field-group">
-	<label for="mce-FNAME">Fornavn </label>
-	<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+	<label for="mce-FNAME">First Name  <span class="asterisk">*</span>
+</label>
+	<input type="text" value="" name="FNAME" class="required" id="mce-FNAME">
 </div>
 <div class="mc-field-group">
-	<label for="mce-LNAME">Efternavn </label>
-	<input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+	<label for="mce-LNAME">Last Name  <span class="asterisk">*</span>
+</label>
+	<input type="text" value="" name="LNAME" class="required" id="mce-LNAME">
 </div>
 <div id="mergeRow-gdpr" class="mergeRow gdpr-mergeRow content__gdprBlock mc-field-group">
     <div class="content__gdpr">
-        <label>Marketing tilladelser</label>
-        <p>Vælg hvilke platforme du vil modtage CCC's julekalender.</p>
+        <label>Betingelser</label>
+        <p>Se konkurrencebetingelser for CCC’s julekalender <a href="https://www.copenhagencoaching.dk/julekalender-betingelser/"> <b>her</b></a>.</p>
         <fieldset class="mc_fieldset gdprRequired mc-field-group" name="interestgroup_field">
-		<label class="checkbox subfield" for="gdpr_62828"><input type="checkbox" id="gdpr_62828" name="gdpr[62828]" value="Y" class="av-checkbox gdpr"><span>Email</span> </label>
+		<label class="checkbox subfield" for="gdpr_62828"><input type="checkbox" id="gdpr_62828" name="gdpr[62828]" value="Y" class="av-checkbox gdpr"><span> Jeg accepterer betingelserne for jeres julekalender.</span> </label>
         </fieldset>
         <p>Du kan altid framelde dig vores julekalender.</p>
     </div>
