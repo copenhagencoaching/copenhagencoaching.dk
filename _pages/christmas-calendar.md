@@ -6,7 +6,8 @@ redirect_from: /christmas-calendar/
 ---
 ## VELKOMMEN TIL CCC'S JULEKALENDER - JULESTUE MED KIM & CAMILLA
 
-**Gå ikke glip af årets store julekalender hos CCC. Tilmeld dig allerede i dag, så er du sikker på, at julehyggen også når frem til dig.**
+
+### Gå ikke glip af årets store julekalender hos CCC. Tilmeld dig allerede i dag, så er du sikker på, at julehyggen også når frem til dig.
 
 Vi har samlet nogle fine præmier, som vi glæder os til at uddele til de heldige vindere af vores julekalender, som bliver udtrukket hver søndag.
 
