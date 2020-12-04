@@ -2,9 +2,27 @@
 layout: default
 ---
 
-<div class="container-fluid narrow-container">
-    {% if page.header %}
-    <div class="hero-banner wide udd">
+
+{% if page.header %}
+
+<div class="wb-hero-banner">
+    <div class="container-fluid narrow-container grid-2 gap-40 align-items-center">
+        <div class="hero-banner-text">
+            <h1 class="banner-title">{{ page.header }}</h1>
+            {% if page.sub-header %}
+            <h2>{{ page.sub-header }}</h2>
+            {% endif %}
+            {% if page.teaser %}<p>{{ page.teaser }}</p>{% else %}<p>{{ page.description }}</p> {% endif %}
+        </div>
+
+
+
+        <div class="hero-image">
+            <img src="{{ page.image }}" data-proofer-ignore alt="{{ page.title }}"></div>
+    </div>
+</div>
+<div class="container-fluid narrow-container no-up">
+    <!--     <div class="hero-banner wide udd">
 
         <div class="hero-banner-text">
             <h1 class="banner-title">{{ page.header }}</h1>
@@ -22,10 +40,10 @@ layout: default
 
 
 
-    </div>
+    </div> -->
 
     {% endif %}
-    <div class="blue-background with-padding">
+    <div class="dark-green-background with-padding">
 
         <div class="video-container"><video controls>
                 <source src="/videos/noeddesbo-ccc.mp4" type="video/mp4">
@@ -34,21 +52,23 @@ layout: default
         <div>
             <div class="testimonial-quote group right">
                 <div class="quote-container">
-                  <div>
-                    <blockquote>
-                      <p>Det er fantastisk</p>
-                    </blockquote>
-                    
-                  </div>
+                    <div>
+                        <blockquote>
+                            <p>Det er fantastisk</p>
+                        </blockquote>
+
+                    </div>
                 </div>
-              </div>
-            
-            
+            </div>
+
+
             <h4>Det startede som mentale udfordringer. Med tiden har det udviklet sig til en ny passion</h4>
             <p>Nu uddanner Bjerringbro-Silkeborg Håndbolds Jesper Nøddesbo sig gennem Copenhagen Coaching Center. Og
                 uddannelsen gør, at han nogle gange ligefrem glæder sig til livet efter håndbold.</p>
         </div>
-        <a target="_blank" href="https://4-player.dk/uddannelse-og-udvikling/online-uddannelse/international-master-of-business-coaching/"><button class="btn">Se mere på 4Player</button></a>
+        <a target="_blank"
+            href="https://4-player.dk/uddannelse-og-udvikling/online-uddannelse/international-master-of-business-coaching/"><button
+                class="btn">Se mere på 4Player</button></a>
         <div class="clearfix"></div>
     </div>
     <div class="grid-2 justify-content-between grid-auto-5 r-gap-40">
@@ -187,6 +207,8 @@ layout: default
 
 
                 {% endif %}
+<br>
+                <p>Du kan trygt melde dig til vores næste hold. Vi følger situationen og de løbende retningslinjer nøje for at undgå spredningen af covid-19.</p>
             </div>
         </div>
 

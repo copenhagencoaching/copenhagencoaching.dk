@@ -1,6 +1,7 @@
 ---
 order: "1"
 title: Master of Business Coaching
+layout: mbc-campaign
 image: "/images/coaching/ledelsessparring.jpg"
 contact-person: Frederikke Winther
 header: Master of Business Coaching
@@ -26,8 +27,6 @@ redirect_from:
   - /master-business-coaching-mbc/
 
 ---
-**Du kan trygt melde dig til vores næste hold. Vi følger situationen og de løbende retningslinjer nøje for at undgå spredningen af covid-19.**
-
 
 ### Hvorfor skal du vælge Master of Business Coaching?
 

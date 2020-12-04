@@ -400,3 +400,33 @@ margin: 20px 0;
 text-align: center;
 
 } 
+
+.wb-hero-banner {
+  background-color: $ccc-brown;
+  padding: 20px;
+  align-items: center;
+  width: 100%;
+  
+  .container-fluid {
+    padding-bottom: 20px !important;
+    padding-top: 40px !important;
+  
+  }
+
+  h1, h2, h3, h4, h5, h6, p {
+    color: black !important;
+  }
+
+
+  .hero-image {
+    text-align: right;
+    width: 100%;
+    height: 300px;
+
+    img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

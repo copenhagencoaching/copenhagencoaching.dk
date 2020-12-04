@@ -144,6 +144,20 @@
   }
 }
 
+.dark-green-background {
+  background-color: #184f3C;
+  padding-bottom: 50px;
+
+
+  h1, h2, h3, h4, h5, h6, a, p, blockquote {
+    color: white;
+  }
+  &.with-padding {
+    padding: 20px;
+    margin: 70px 0 70px 0;
+  }
+}
+
 .no-border {
   border: none !important;
 }
