@@ -1,9 +1,9 @@
 ---
 layout: community
 show: true
-title: CCC Community
+title: Community
 image: "/images/academy/ccc-community.jpg"
-header: Community
+header: CCC Community
 price: 2.500,- ekskl. moms pr. år
 pdf: 'false'
 order: "2"
