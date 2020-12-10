@@ -1,9 +1,32 @@
 ---
-layout: page
+layout: default
 ---
-
-
 <div class="container-fluid narrow-container">
+{% if page.header %}
+<div class="hero-banner wide">
+
+    <div class="hero-banner-text">
+        <h1 class="banner-title">{{ page.header }}</h1>
+        {% if page.sub-header %}
+        <h2>{{ page.sub-header }}</h2>
+        {% endif %}
+        <p class="xlarge">{{ page.description }}</p>
+    </div>
+    <div class="hero-banner-image">
+
+        <div class="color-box"></div>
+        <div class="hero-image">
+            <img src="{{ page.image }}" class="image-position-{{ page.image-position }}"
+                alt="Protreptik Copenhagen Coaching Center"></div>
+    </div>
+
+</div>
+{% endif %}
+</div>
+
+<div class="container-fluid narrow-container no-up">
+
+
   <div class="grid-2 grid-70-30 r-gap-40">
     <div class="blue-background with-padding no-margin">
       {{ page.content }}
@@ -29,9 +52,10 @@ layout: page
 </div>
 
 <div class="green-background">
-  <div class="container-fluid narrow-container">
+  <div class="container-fluid narrow-container small-t no-down">
     <h1>Kalender</h1>
-    <div class="grid-2 gap-40 r-gap-40">
+    
+    <div class="grid-2 gap-40 r-gap-40 m-t-20">
       
       <div>
         

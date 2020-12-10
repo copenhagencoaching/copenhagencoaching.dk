@@ -22,6 +22,9 @@
   &.no-up {
     padding-top: 0;
   }
+  &.no-left {
+    padding-left: 0;
+  }
 &.narrow-container {
   max-width: 1600px;
   &.menu {
@@ -30,6 +33,9 @@
 
   &.small-b {
     padding-bottom: 20px;
+  }
+  &.small-t {
+    padding-top: 20px;
   }
   
   
@@ -228,4 +234,8 @@ video {
   @include for-bot {
     padding-left: 0;
   }
+}
+
+.m-t-20 {
+  margin-top: 20px;
 }
