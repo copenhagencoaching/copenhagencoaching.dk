@@ -4,7 +4,7 @@ layout: page
 
 
 <div class="container-fluid narrow-container">
-  <div class="grid-2 grid-70-30 gap-40">
+  <div class="grid-2 grid-70-30 r-gap-40">
     <div class="blue-background with-padding no-margin">
       {{ page.content }}
 
@@ -12,23 +12,18 @@ layout: page
       <button class="blue-button" onclick="location.href='/registration/?n=community-medlemsskab'" >Tilmeld dig her</button>
 
     </div>
-    <div >
+    <div class="padding-40-left">
        
-      <h1>Kommende arrangementer</h1>
-
-      {% if site.categories.community.size > 0 %}
-      {% for post in site.categories.community %}
-      <h3>{{ post.title }}</h3>
-      <div class="outer-image-150">
-        <img class="object-fit" src="{{ post.image }}" alt="{{ post.title }}">
-      </div>
-      <span class="thin">{{ post.date | date: "%B %d, %Y" }} | {{ post.time }}</span>
-      {{ post.content }}
-      {% endfor %}
-      {% else %}
-      <p>Der er i øjeblikket ikke nogen kommende events i Community</p>
-      {% endif %}
-      
+      <h1>Fordele</h1>
+<p class="large">Som medlem får du gratis adgang til en lang række gå-hjem møder og arrangementer hos os, samt adgang til:</p>
+     
+      <ul>
+        <li>Netværk, inspiration og supervision på 3 årlige træningsaftener</li>
+        <li>Min. to faglige arrangementer årligt</li>
+        <li>1 gratis eksemplar af nye CCC-udgivelser</li>
+        <li>Seks årlige nyhedsbreve</li>
+        <li>15% rabat på events, eksklusive arrangementer og udvalgte kurser</li>
+      </ul>
     </div>
   </div>
 </div>
@@ -40,10 +35,11 @@ layout: page
       
       <div>
         
-        <div class="card-backg align-content-end grid-1" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/graphic/foredrag.jpg'); background-size: cover;">
+        <div class="card-backg align-content-end grid-1" style="background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/images/graphic/foredrag.jpg'); background-size: cover;">
         <div>
           <p class="small dark">Juni og november</p>
           <h2>Kom til foredrag</h2>
+          <br>
           <p >Exercitation incididunt dolore et eiusmod mollit. Est voluptate minim esse ea. Enim magna culpa officia elit cupidatat do.</p>
         </div>
         </div>
@@ -53,10 +49,11 @@ layout: page
      
       <div>
        
-        <div class="card-backg align-content-end grid-1" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/frontpage/frontpage-3.jpg'); background-size: cover;">
+        <div class="card-backg align-content-end grid-1" style="background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/images/frontpage/frontpage-3.jpg'); background-size: cover;">
         <div>
-          <p class="small">Juni og november</p>
+          <p class="small dark">Juni og november</p>
           <h2>Oplæg med Kim Gørtz</h2>
+          <br>
           <p >Exercitation incididunt dolore et eiusmod mollit. Est voluptate minim esse ea. Enim magna culpa officia elit cupidatat do.</p>
         </div>
         </div>
@@ -65,10 +62,11 @@ layout: page
 
       <div>
        
-        <div class="card-backg align-content-end grid-1" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/graphic/big-five-temaer.jpg'); background-size: cover;">
+        <div class="card-backg align-content-end grid-1" style="background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/images/graphic/big-five-temaer.jpg'); background-size: cover;">
         <div>
-          <p class="small">Juni og november</p>
+          <p class="small dark">Juni og november</p>
           <h2>Dyk med ned i de 6 Big Five temaer</h2>
+          <br>
           <p >Exercitation incididunt dolore et eiusmod mollit. Est voluptate minim esse ea. Enim magna culpa officia elit cupidatat do.</p>
         </div>
         </div>
@@ -77,10 +75,11 @@ layout: page
 
       <div>
         
-        <div class="card-backg align-content-end grid-1" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/graphic/supervisions-aftener.jpg'); background-size: cover;">
+        <div class="card-backg align-content-end grid-1" style="background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/images/graphic/supervisions-aftener.jpg'); background-size: cover;">
         <div>
-          <p class="small">Juni og november</p>
+          <p class="small dark">Juni og november</p>
           <h2>4 årlige supervisionsaftener</h2>
+          <br>
           <p >Exercitation incididunt dolore et eiusmod mollit. Est voluptate minim esse ea. Enim magna culpa officia elit cupidatat do.</p>
         </div>
         </div>

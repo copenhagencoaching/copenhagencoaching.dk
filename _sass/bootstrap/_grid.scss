@@ -217,3 +217,15 @@ video {
   height: auto;
 
 }
+
+.padding-40-left {
+  padding-left: 40px;
+
+  @include for-laptop {
+    padding-left: 20px;
+
+  }
+  @include for-bot {
+    padding-left: 0;
+  }
+}
