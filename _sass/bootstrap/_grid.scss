@@ -135,17 +135,35 @@
   background-color: $ccc-blue;
   padding-bottom: 50px;
 
-  h1, h2, h3, h4, h5, h6, a, p, blockquote {
+  h1, h2, h3, h4, h5, h6, a, p, blockquote, li {
     color: white;
   }
   &.with-padding {
     padding: 20px;
     margin: 20px 0;
+    &.no-margin {
+      margin: 0;
+    }
   }
 }
 
 .dark-green-background {
   background-color: #184f3C;
+  padding-bottom: 50px;
+
+
+  h1, h2, h3, h4, h5, h6, a, p, blockquote {
+    color: white;
+  }
+  &.with-padding {
+    padding: 20px;
+    margin: 70px 0 70px 0;
+  }
+}
+
+
+.green-background {
+  background-color: $ccc-green;
   padding-bottom: 50px;
 
 

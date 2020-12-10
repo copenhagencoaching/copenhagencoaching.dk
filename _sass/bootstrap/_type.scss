@@ -79,6 +79,10 @@ small,
   @include font-size($small-font-size);
   font-weight: $font-weight-normal;
   opacity: .8;
+
+  &.dark {
+    opacity: .6;
+  }
 }
 
 mark,

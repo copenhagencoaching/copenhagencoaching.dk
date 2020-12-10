@@ -2,21 +2,18 @@
 layout: page
 ---
 
-<div class="container-fluid narrow-container no-up">
-<div class="community">
-  <div class="wrapper">
-    <section class="content-section">
 
+<div class="container-fluid narrow-container">
+  <div class="grid-2 grid-70-30 gap-40">
+    <div class="blue-background with-padding no-margin">
       {{ page.content }}
-      <br>
-      <br>
-      
-      <a class="blue-button" href="/registration/?n=community-medlemsskab">Tilmeld dig her</a>
 
-
-    </section>
-    <section class="event-section">
       
+      <button class="blue-button" onclick="location.href='/registration/?n=community-medlemsskab'" >Tilmeld dig her</button>
+
+    </div>
+    <div >
+       
       <h1>Kommende arrangementer</h1>
 
       {% if site.categories.community.size > 0 %}
@@ -31,35 +28,106 @@ layout: page
       {% else %}
       <p>Der er i øjeblikket ikke nogen kommende events i Community</p>
       {% endif %}
-      <hr class="no-m-up">
-    </section>
-    <section class="inspiration-section">
+      
+    </div>
+  </div>
+</div>
 
-      <h1 class="banner-title">Inspiration</h1>
-
-      <div class="inspirations-wrapper">
-        {% assign ordered_posts = site.categories.blog | sort: 'order' %}
-        {% for post in ordered_posts limit:6  %}
-        {% if post.category != "community" %}
-        <a href="{{ post.url }}"><div class="post-box" style="background-image: url('{{ post.image }}');">
-          <div class="post-box-text">
-            <h1>{{ post.title }}</h1>
-            <p>{% for tag in post.tags %}
-            #{{ tag }}
-            {% endfor %}</p>
-          </div>
+<div class="green-background">
+  <div class="container-fluid narrow-container">
+    <h1>Kalender</h1>
+    <div class="grid-2 gap-40 r-gap-40">
+      
+      <div>
+        
+        <div class="card-backg align-content-end grid-1" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/graphic/foredrag.jpg'); background-size: cover;">
+        <div>
+          <p class="small dark">Juni og november</p>
+          <h2>Kom til foredrag</h2>
+          <p >Exercitation incididunt dolore et eiusmod mollit. Est voluptate minim esse ea. Enim magna culpa officia elit cupidatat do.</p>
         </div>
-      </a>
-      {% endif %}
-        {% endfor %}
-
-
+        </div>
+        
       </div>
-      <h2><a data-proofer-ignore href="/inspiration/">Få mere inspiration ⟶</a></h2>
-    </section>
+
+     
+      <div>
+       
+        <div class="card-backg align-content-end grid-1" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/frontpage/frontpage-3.jpg'); background-size: cover;">
+        <div>
+          <p class="small">Juni og november</p>
+          <h2>Oplæg med Kim Gørtz</h2>
+          <p >Exercitation incididunt dolore et eiusmod mollit. Est voluptate minim esse ea. Enim magna culpa officia elit cupidatat do.</p>
+        </div>
+        </div>
+        
+      </div>
+
+      <div>
+       
+        <div class="card-backg align-content-end grid-1" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/graphic/big-five-temaer.jpg'); background-size: cover;">
+        <div>
+          <p class="small">Juni og november</p>
+          <h2>Dyk med ned i de 6 Big Five temaer</h2>
+          <p >Exercitation incididunt dolore et eiusmod mollit. Est voluptate minim esse ea. Enim magna culpa officia elit cupidatat do.</p>
+        </div>
+        </div>
+        
+      </div>
+
+      <div>
+        
+        <div class="card-backg align-content-end grid-1" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/graphic/supervisions-aftener.jpg'); background-size: cover;">
+        <div>
+          <p class="small">Juni og november</p>
+          <h2>4 årlige supervisionsaftener</h2>
+          <p >Exercitation incididunt dolore et eiusmod mollit. Est voluptate minim esse ea. Enim magna culpa officia elit cupidatat do.</p>
+        </div>
+        </div>
+        
+      </div>
+    </div>
   </div>
 
+</div>
+
+
+
+
+<div class="container-fluid narrow-container no-up">
+  <div class="community">
+    <div class="wrapper">
+      
+
+      <section class="inspiration-section">
+  
+        <h1 class="banner-title">Inspiration</h1>
+  
+        <div class="inspirations-wrapper">
+          {% assign ordered_posts = site.categories.blog | sort: 'order' %}
+          {% for post in ordered_posts limit:6  %}
+          {% if post.category != "community" %}
+          <a href="{{ post.url }}"><div class="post-box" style="background-image: url('{{ post.image }}');">
+            <div class="post-box-text">
+              <h1>{{ post.title }}</h1>
+              <p>{% for tag in post.tags %}
+              #{{ tag }}
+              {% endfor %}</p>
+            </div>
+          </div>
+        </a>
+        {% endif %}
+          {% endfor %}
+  
+  
+        </div>
+        <h2><a data-proofer-ignore href="/inspiration/">Få mere inspiration ⟶</a></h2>
+      </section>
+    </div>
+  
+   
+  
+  </div>
+  </div>
  
 
-</div>
-</div>
