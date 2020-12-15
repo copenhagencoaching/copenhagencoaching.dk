@@ -114,6 +114,9 @@ mark,
 .large {
   font-size: $font-size-lg;
   color: $medium-dark-grey;
+  &.white {
+    color: white;
+  }
 }
 
 .xlarge {

@@ -204,12 +204,11 @@ a {
 }
 
 .blue-button {
-  background: #336380;
+  background:$ccc-blue;
   border: none;
-  padding: 10px 20px;
+  padding: 15px 25px;
   color: #ffffff;
   font-weight: 600;
-  opacity: .9;
   margin-top: 20px;
   text-emphasis: none;
   text-align: center;

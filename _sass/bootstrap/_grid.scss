@@ -188,7 +188,7 @@
 
 .white {
   color: white !important;
-  h1, h2, h3, h4, h5, h6, a, p, blockquote {
+  h1, h2, h3, h4, h5, h6, a, p, blockquote, i {
     color: white;
   }
 }
@@ -241,3 +241,9 @@ video {
 }
 
 
+.floating-top {
+  background-color: $ccc-blue;
+  margin-top: -300px;
+  padding: 40px;
+
+}
