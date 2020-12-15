@@ -11,10 +11,10 @@ contact-person: ''
 description: Et fællesskab for vedvarende læring og udvikling af dit lederskab
 ---
 ## ØNSKER DU ET FÆLLESSKAB FOR VEDVARENDE LÆRING OG UDVIKLING AF DIT LEDERSKAB?
-{:.white}
+
 
 Formålet med CCC Community er, at er at løfte den dialogiske ledelseskvalitet – og kapacitet i Danmark. Vi udvikler og uddanner ledere via rådgivning, coaching, sparring, netværk, kurser og testværktøjer. Sammen skaber vi rammerne for, hvordan du som leder skaber værdi for din selv, din organisation og for samfundet.
-{:.white}
+
 
 Rigtig mange af vores tidligere og nuværende studerende, samt kunder efterspørger flere tilbud om netværk, efteruddannelse, faglig inspiration og supervision.
 

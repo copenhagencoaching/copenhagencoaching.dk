@@ -1,6 +1,142 @@
 ---
 layout: default
 ---
+
+<div class="full-banner community grid-1 align-items-center align-content-center">
+  <div class="container-fluid narrow-container white">
+    <div>
+      <p class="thin">Bliv medlem af</p>
+      <h1>{{ page.header }}</h1>
+      <hr class="half-margin">
+      <h3>{{ page.description }}</h3><br>
+      <button class="btn-lg btn thin" onclick="location.href='#mere'">Læs mere</button>
+    </div>
+
+  </div>
+</div>
+<div id="mere"></div>
+<div class="container-fluid narrow-container grid-2 gap-40 r-gap-40">
+  <div style="background-image: url('{{ page.image }}'); background-position: center; background-size: cover;">
+
+
+  </div>
+  <div>
+    {{ page.content }}
+    <button class="slide-btn thin dark large" onclick="location.href='/registration/?n=community-medlemsskab'" >Tilmeld dig her</button>
+  </div>
+
+  <div>
+    <h2>Fordele</h2>
+    <p class="large">Som medlem får du gratis adgang til en lang række gå-hjem møder og arrangementer hos os, samt
+      adgang til:</p>
+
+    <ul>
+      <li>Netværk, inspiration og supervision på 3 årlige træningsaftener</li>
+      <li>Min. to faglige arrangementer årligt</li>
+      <li>1 gratis eksemplar af nye CCC-udgivelser</li>
+      <li>Seks årlige nyhedsbreve</li>
+      <li>15% rabat på events, eksklusive arrangementer og udvalgte kurser</li>
+    </ul>
+  </div>
+  <div style="background-image: url('/images/consulting/c4.png'); background-position: center; background-size: cover;">
+
+
+  </div>
+
+</div>
+
+<div class="blue-background">
+  <div class="container-fluid narrow-container small-t">
+    <br>
+    <div class="align-center">
+      <h1>Kalender</h1>
+    </div>
+    <br><br>
+    <div class="grid-2 gap-90 r-gap-60">
+
+      <div
+        style="background: url('/images/graphic/foredrag.jpg'); background-size: cover; height: 400px">
+      </div>
+      <div>
+        <p class="small thin">Juni og november</p>
+        <h2>Kom til foredrag</h2>
+        <hr class="half-margin">
+
+        <p>Dolor non dolore ullamco mollit nisi. Occaecat adipisicing est aute commodo est magna cupidatat sit eu id
+          elit id. Non aliqua enim culpa minim deserunt. Est magna aute laborum magna amet ipsum esse consectetur eu
+          ullamco.
+
+          Magna laborum labore ullamco enim occaecat culpa in eu Lorem ea. Ut culpa eu qui adipisicing ea consectetur
+          nisi. Laborum amet amet labore do excepteur eiusmod mollit ipsum non irure cillum cillum. Nisi consequat anim
+          consequat esse. Amet velit in anim id. Culpa laboris mollit ipsum et id dolore consequat occaecat ex deserunt.
+        </p>
+        <button class="slide-btn thin">Se mere</button>
+      </div>
+
+    
+      <div>
+        <p class="small thin">Juni og november</p>
+        <h2>Oplæg med Kim Gørtz</h2>
+        <hr class="half-margin">
+
+        <p>Dolor non dolore ullamco mollit nisi. Occaecat adipisicing est aute commodo est magna cupidatat sit eu id
+          elit id. Non aliqua enim culpa minim deserunt. Est magna aute laborum magna amet ipsum esse consectetur eu
+          ullamco.
+
+          Magna laborum labore ullamco enim occaecat culpa in eu Lorem ea. Ut culpa eu qui adipisicing ea consectetur
+          nisi. Laborum amet amet labore do excepteur eiusmod mollit ipsum non irure cillum cillum. Nisi consequat anim
+          consequat esse. Amet velit in anim id. Culpa laboris mollit ipsum et id dolore consequat occaecat ex deserunt.
+        </p>
+        <button class="slide-btn thin">Se mere</button>
+      </div>
+      <div
+      style="background: url('/images/frontpage/frontpage-3.jpg'); background-size: cover; height: 400px">
+    </div>
+
+    <div
+        style="background: url('/images/graphic/big-five-temaer.jpg'); background-size: cover; height: 400px">
+      </div>
+      <div>
+        <p class="small thin">Juni og november</p>
+        <h2>Dyk med ned i de 6 Big Five temaer</h2>
+        <hr class="half-margin">
+
+        <p>Dolor non dolore ullamco mollit nisi. Occaecat adipisicing est aute commodo est magna cupidatat sit eu id
+          elit id. Non aliqua enim culpa minim deserunt. Est magna aute laborum magna amet ipsum esse consectetur eu
+          ullamco.
+
+          Magna laborum labore ullamco enim occaecat culpa in eu Lorem ea. Ut culpa eu qui adipisicing ea consectetur
+          nisi. Laborum amet amet labore do excepteur eiusmod mollit ipsum non irure cillum cillum. Nisi consequat anim
+          consequat esse. Amet velit in anim id. Culpa laboris mollit ipsum et id dolore consequat occaecat ex deserunt.
+        </p>
+        <button class="slide-btn thin">Se mere</button>
+      </div>
+
+      <div>
+        <p class="small thin">Juni og november</p>
+        <h2>4 årlige supervisionsaftener</h2>
+        <hr class="half-margin">
+
+        <p>Dolor non dolore ullamco mollit nisi. Occaecat adipisicing est aute commodo est magna cupidatat sit eu id
+          elit id. Non aliqua enim culpa minim deserunt. Est magna aute laborum magna amet ipsum esse consectetur eu
+          ullamco.
+
+          Magna laborum labore ullamco enim occaecat culpa in eu Lorem ea. Ut culpa eu qui adipisicing ea consectetur
+          nisi. Laborum amet amet labore do excepteur eiusmod mollit ipsum non irure cillum cillum. Nisi consequat anim
+          consequat esse. Amet velit in anim id. Culpa laboris mollit ipsum et id dolore consequat occaecat ex deserunt.
+        </p>
+        <button class="slide-btn thin">Se mere</button>
+      </div>
+      <div
+      style="background: url('/images/graphic/supervisions-aftener.jpg'); background-size: cover; height: 400px">
+    </div>
+
+
+    </div>
+  </div>
+</div>
+
+  <!-- 
 <div class="container-fluid narrow-container">
 {% if page.header %}
 <div class="hero-banner wide">
@@ -152,5 +288,4 @@ layout: default
   
   </div>
   </div>
- 
-
+  -->

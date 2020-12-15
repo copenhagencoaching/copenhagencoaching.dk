@@ -67,6 +67,15 @@ hr {
   width: 100%;
   border: 0;
   border-top: $hr-border-width solid $hr-border-color;
+
+  &.half-margin {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  &.black {
+    border-top: 1px solid rgb(19, 19, 19);
+  }
 }
 
 
@@ -83,6 +92,16 @@ small,
   &.dark {
     opacity: .6;
   }
+
+  &.thin {
+    font-weight: 200;
+    text-transform: uppercase;
+  }
+}
+
+.thin {
+  font-weight: 200;
+  text-transform: uppercase;
 }
 
 mark,
@@ -146,4 +165,16 @@ mark,
   &::before {
     content: "\2014\00A0"; // em dash, nbsp
   }
+}
+
+
+.black {
+  color: rgb(19, 19, 19) !important;
+  h1, h2, h3, h4, h5, h6, a, p, blockquote {
+    color: rgb(19, 19, 19);
+  }
+}
+
+.align-center {
+  text-align: center;
 }
