@@ -27,6 +27,11 @@
       font-weight: 400 !important;
     }
   }
+  &.transparent {
+    background: none;
+    border: none;
+    min-height: 300px;
+  }
 
   > hr {
     margin-right: 0;
@@ -56,7 +61,7 @@
   // Workaround for the image size bug in IE
   // See: https://github.com/twbs/bootstrap/pull/28855
   min-height: 1px;
-  padding: $card-spacer-x;
+/*   padding: $card-spacer-x; */
   color: $card-color;
 
   &.no-y-padding {
@@ -111,10 +116,10 @@
 }
 
 .card-footer {
-  padding: $card-spacer-y $card-spacer-x;
+  /* padding: $card-spacer-y $card-spacer-x; */
   color: $card-cap-color;
-  background-color: $card-cap-bg;
-  border-top: $card-border-width solid $card-border-color;
+/*   background-color: $card-cap-bg;
+  border-top: $card-border-width solid $card-border-color; */
 
   &:last-child {
     @include border-radius(0 0 $card-inner-border-radius $card-inner-border-radius);
@@ -158,6 +163,12 @@
 .card-img,
 .card-img-top {
   @include border-top-radius($card-inner-border-radius);
+
+  img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
   &.short {
     height: 200px;
     object-fit: cover;

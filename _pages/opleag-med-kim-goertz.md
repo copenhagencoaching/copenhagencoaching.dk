@@ -1,7 +1,7 @@
 ---
 title: Oplæg med Kim Gørtz
 layout: event
-image: /images/frontpage/frontpage-3.jpg
+image: /images/about/employees/kim-gørtz.png
 ---
 
 ## DEN FILOSOFISKE LEDELSESTERAPI, ANNO 2021
