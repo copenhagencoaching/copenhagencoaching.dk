@@ -2,6 +2,7 @@
 title: Dyk ned i de 6 Big Five temaer
 layout: event
 image: /images/graphic/big-five-temaer.jpg
+event-type: Seminar
 ---
 
 ### Personlighedens paradokser

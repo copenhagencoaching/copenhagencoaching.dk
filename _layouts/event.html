@@ -2,6 +2,32 @@
 layout: default
 ---
 
+<div style="background-color: rgb(97, 114, 140);">
+
+<div class="container-fluid narrow-container white">
+  <div class="overlay-banner">
+    <div class="overlay-banner-img" style="background: linear-gradient(rgba(19, 19, 19, 0.5), rgba(19, 19, 19, 0.5)), url('{{ page.image }}'); background-size: cover; background-position: center;">
+    </div>
+    <div class="overlay-banner-text">
+      <p class="thin">{{ page.event-type }}</p>
+<h1 class="h1-l">{{ page.title }}</h1>
+
+<p class="thin large">{{ page.description }}</p>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid white extra-narrow-container no-up">
+<div class="grid-2">
+  <div><p class="thin xlarge">500,-</p></div>
+  <div><p class="thin xlarge">Blegdamsvej 104, 2100 København Ø</p></div>
+</div>
+  {{ page.content }}
+</div>
+</div>
+
+
+<!-- 
 <div class="full-banner grid-1 align-items-center align-content-center" style="background: linear-gradient(rgba(19, 19, 19, 0.5), rgba(19, 19, 19, 0.5)), url('{{ page.image }}'); background-size: cover; background-position: center;">
     <div class="container-fluid narrow-container white">
       <div>
@@ -18,4 +44,4 @@ layout: default
       <div class="floating-top white">
           {{ page.content }}
       </div>
-  </div>
+  </div> -->
