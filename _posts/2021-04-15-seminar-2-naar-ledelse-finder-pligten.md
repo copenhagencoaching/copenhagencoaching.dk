@@ -5,8 +5,15 @@ time: 17-20
 community-free: true
 image: /images/about/employees/kim-gørtz.png
 layout: event
-tags: kim
+tags:
+- kim
+- event
 place: Blegdamsvej 104 A, 2. Sal, 2100 København Ø
+event-type: seminar
+price: 450
+ex-moms: true
+billetto: true
+billetto-nr: 504691
 ---
 #### Seminar 2: Når ledelse finder pligten (med Kant som inspiration)
 

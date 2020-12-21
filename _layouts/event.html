@@ -28,27 +28,40 @@ layout: default
     
   
     {{ page.content }}
+
+    {% if page.billetto %}
+    <h3>Tilmeld dig her nedenfor</h3>
+    {% if page.billetto-nr %}
+
+    <script src="https://billetto.dk/embed.js" data-identifier="intet-over-teamet-billetter-{{ page.billetto-nr }}"
+      data-color="#969c92" data-locale="da" data-whitelabel="true"></script>
+
+
+    {% else %}
+    <h4>Tilmelding kommer snart...</h4>
+    {% endif %}
+    {% endif %}
   </div>
 </div>
 
 
 <div class="container-fluid extra-narrow-container">
-  <div class="grid-2 gap-40">
+ 
 
-    <div>
-      <h2>Bliv medlem</h2>
+    <div class="align-center">
+      <h1>Bliv medlem</h1>
       <p>Et medlemskab af CCC Community giver dig adgang til et eksklusivt lukket fagligt netværk, samt gratis adgang
         til flere CCC arrangementer året rundt.</p>
     </div>
 
 
-    <div>
+    <div class="align-center">
       <h2>Medlemsfordele</h2>
       <p>Som CCC Community-medlem bliver du både klogere på din og andres ledelse og får derudover en lang række
         økonomiske fordele</p>
     </div>
-  </div>
-  <div class="align-center"><br><a href="/community" class="brown-btn thin white">Se mere</a></div>
+  
+  
 
 </div>
 

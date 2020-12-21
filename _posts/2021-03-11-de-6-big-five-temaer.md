@@ -6,7 +6,7 @@ image: /images/graphic/big-five-temaer.jpg
 event-type: Seminar
 tags:
 - community
-- event
+- eventgroup
 ready: true
 order: 2
 sub-pages: big-five

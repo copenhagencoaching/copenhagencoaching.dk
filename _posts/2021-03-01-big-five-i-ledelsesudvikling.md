@@ -1,7 +1,9 @@
 ---
 title: Big Five i ledelsesudvikling
 layout: event
-tags: big-five
+tags:
+- big-five
+- event
 only-month: true
 price: 950
 ex-moms: true

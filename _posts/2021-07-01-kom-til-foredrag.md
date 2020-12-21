@@ -5,6 +5,8 @@ description: Kom til foredrag hos CCC. Mere info kommer snarest.
 image: /images/graphic/foredrag.jpg
 tags:
 - community
-- event
+- eventgroup
 ready: false
+price: 750
+ex-moms: true
 ---

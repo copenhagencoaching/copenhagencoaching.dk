@@ -52,52 +52,45 @@ layout: default
 
 
 <div>
-    <div class="container-fluid narrow-container extra-narrow-container">
+    <div class="container-fluid narrow-container">
         <h1 class="center mb-30">Kommende events</h1>
 
         
-        <div class="grid-1 gap-40 r-gap-40">
+        <div class="grid-4 gap-40 r-gap-60">
 
-            {% if site.categories.event.size > 0 %}
-            
-            {% assign curDate = site.time | date: '%s' %}
-            {% assign sorted_stories = site.categories.event | sort: "date" %}
-            {% for post in sorted_stories %}
-            {% assign postStartDate = post.date | date: '%s' %}
-            
-            {% if postStartDate >= curDate %}
-            {% if post.category == "community" %}{% assign link = "/community/" %}{% else %}{% assign link = post.url %}{% endif %}
-
-            
-            <div class="grid-2">
-                <div class="outer-object-fit">
-                    <img src="{{post.image }}" alt="" class="object-fit">
-                </div>
-                <div class=" card no-border blue">
-                    <div class="card-header no-border">
-                        <h2 class="card-title">{{ post.title }}</h2>
-                        <div class="card-subtitle"><span class="thin">{{ post.date | date: "%B %d, %Y" }} |
-                                {{ post.time }}</span></div>
-                    </div>
-
-
-                    <div class="card-body no-y-padding">
-
-                        <p>{{ post.excerpt }}</p>
-
-                    </div>
-                    <div class="card-footer no-border">
-                        <a href="{{ link }}" class="large white">Læs mere</a>
-                    </div>
-                </div>
-            </div>
+            {% assign orderedPosts = site.posts | sort: order %}
+            {% for post in orderedPosts %}
+            {% for tag in post.tags %}
+      
+            {% if tag == "eventgroup" %}
+            <div class="card transparent">
+              
+              <div class="card-img-top short">
+                <img src="{{ post.image }}" alt="">
+              </div>
+               <div class="card-body">
+                 <p class="thin">{{ post.event-type }}</p>
+                 <h3 class="card-title thin">{{ post.title }}</h3>
+                 <p class="card-text">{{ post.description }}</p>
+      
+                 <br>
+               </div>
+                 <div class="card-footer">
+                   
+                   <a href="{{ post.url }}" class="brown-btn thin white">Se mere</a>
+                   
+                 </div>
+             </div>
+      
             {% endif %}
+          {% endfor %}
             {% endfor %}
-            {% else %}
-            <p class="center">Der ikke nogen kommende events i øjeblikket</p>
-            {% endif %}
-
-        </div>
+      
+      
+      
+      
+      
+          </div>
         
     
     </div>
