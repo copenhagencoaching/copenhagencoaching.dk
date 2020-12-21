@@ -65,41 +65,11 @@ layout: default
           <img src="{{ post.image }}" alt="">
         </div>
          <div class="card-body">
-           <p class="thin">Juni og november</p>
+           <p class="thin">{{ post.subtitle }}</p>
            <h3 class="card-title thin">{{ post.title }}</h3>
            <p class="card-text">{{ post.description }}</p>
 
-           {% assign postmonth = post.date | date: "%m" %}
-           
-           
-           {% if postmonth == "01" %}
-           {% assign monthName = "Januar" %}
-           {% elsif postmonth == "02" %}
-           {% assign monthName = "Fenbruar" %}
-           {% elsif postmonth == "03" %}
-           {% assign monthName = "Marts" %}
-           {% elsif postmonth == "04" %}
-           {% assign monthName = "April" %}
-           {% elsif postmonth == "05" %}
-           {% assign monthName = "Maj" %}
-           {% elsif postmonth == "06" %}
-           {% assign monthName = "Juni" %}
-           {% elsif postmonth == "07" %}
-           {% assign monthName = "Juli" %}
-           {% elsif postmonth == "08" %}
-           {% assign monthName = "August" %}
-           {% elsif postmonth == "09" %}
-           {% assign monthName = "September" %}
-           {% elsif postmonth == "10" %}
-           {% assign monthName = "Oktober" %}
-           {% elsif postmonth == "11" %}
-           {% assign monthName = "November" %}
-           {% elsif postmonth == "12" %}
-           {% assign monthName = "December" %}
-           {% endif %}
-      
-           <p class="xthin">{{ post.date | date: "%d. "}} {{ monthName }}{{ post.date | date: ", %Y"}}</p>
-           <p class="xthin">{{ post.price }}</p>
+           <br>
          </div>
            <div class="card-footer">
              {% if post.ready == true %}

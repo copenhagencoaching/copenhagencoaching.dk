@@ -6,6 +6,7 @@ community-free: true
 image: /images/about/employees/kim-gørtz.png
 layout: event
 tags: kim
+place: Blegdamsvej 104 A, 2. Sal, 2100 København Ø
 ---
 
 #### Seminar 1: Når ledelse finder sjælen (med Aristoteles som inspiration)

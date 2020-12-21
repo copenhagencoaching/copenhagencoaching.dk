@@ -1,6 +1,7 @@
 ---
 title: Eksklusiv seminarrække med Kim Gørtz
 layout: sub-event
+subtitle: Februar
 event-type: Seminar
 image: /images/about/employees/kim-gørtz.png
 description: En tetralogisk seminarrække om dannelse og etik i den moderne ledelsespraksis
@@ -9,7 +10,6 @@ tags:
 - event
 ready: true
 order: 1
-price: 500 kr.
 place: Blegdamsvej 104, 2100 København Ø
 sub-pages: kim
 ---
