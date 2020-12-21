@@ -190,3 +190,12 @@ mark,
 .align-center {
   text-align: center;
 }
+
+.align-right {
+  text-align: right;
+  &.no-mobile {
+    @include for-bot {
+      text-align: left ;
+    }
+  }
+}

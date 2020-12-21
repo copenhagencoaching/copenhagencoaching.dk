@@ -27,10 +27,20 @@
       font-weight: 400 !important;
     }
   }
+
+  &.blue {
+    background: $ccc-blue;
+    border: none;
+    padding: 20px 20px 30px 20px;
+  }
   &.transparent {
     background: none;
     border: none;
     min-height: 300px;
+    &.no-min-height {
+      height: auto;
+      min-height: unset;
+    }
   }
 
   > hr {
