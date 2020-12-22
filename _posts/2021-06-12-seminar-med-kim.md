@@ -10,8 +10,9 @@ tags:
 - eventgroup
 ready: true
 order: 1
-place: Blegdamsvej 104, 2100 København Ø
+place: Blegdamsvej 104 A, 2100 København Ø
 sub-pages: kim
+community: Gratis for Community medlemmer
 ---
 
 ## DEN FILOSOFISKE LEDELSESTERAPI, ANNO 2021

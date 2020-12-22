@@ -1,12 +1,14 @@
 ---
 title: Kom til foredrag
-layout: event
+layout: sub-event
 description: Kom til foredrag hos CCC. Mere info kommer snarest.
+sub-pages: foredrag
 image: /images/graphic/foredrag.jpg
 tags:
 - community
 - eventgroup
-ready: false
-price: 750
-ex-moms: true
+ready: true
+order: 4
+only-month: true
+community: Gratis for Community medlemmer
 ---

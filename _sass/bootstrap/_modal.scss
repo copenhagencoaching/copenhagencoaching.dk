@@ -230,3 +230,13 @@
 @include media-breakpoint-up(xl) {
   .modal-xl { max-width: $modal-xl; }
 }
+
+
+.white-box {
+  padding: 20px;
+  margin-bottom: 20px;
+  border: white solid 1px;
+  h1, h2, h3, h4, h5, h6, p, i, a {
+    margin: 0;
+  }
+}

@@ -263,15 +263,26 @@ video {
 .overlay-banner {
   height: 500px;
   position: relative;
+  margin-bottom: 30px;
   
+  @include for-bot {
+    height: auto;
+    margin-bottom: 0;
+  }
+
 
   .overlay-banner-text {
     position: absolute;
-    max-width: 600px;
+    width: 50%;
     top: 50%;
     right: 0;
+    @include for-laptop {
+      width: 70%;
+    }
+
     @include for-bot {
       position: unset;
+      width: 100%;
     }
 
   }

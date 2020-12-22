@@ -4,7 +4,7 @@ layout: default
 
 <div style="background-color: rgb(97, 114, 140);">
 
-  <div class="container-fluid narrow-container white">
+  <div class="container-fluid narrow-container white no-down">
     <div class="overlay-banner">
       <div class="overlay-banner-img"
         style="background: linear-gradient(rgba(19, 19, 19, 0.5), rgba(19, 19, 19, 0.5)), url('{{ page.image }}'); background-size: cover; background-position: center;">
@@ -19,11 +19,14 @@ layout: default
     </div>
   </div>
 
-  <div class="container-fluid white extra-narrow-container no-up">
+  {% if page.content %}
+
+  <div class="container-fluid white extra-narrow-container no-up-n-down">
 
     {{ page.content }}
 
   </div>
+  {% endif %}
   <div class="container-fluid extra-narrow-container white no-up">
 
     <div class="grid-2 gap-40 r-gap-40">
@@ -46,7 +49,7 @@ layout: default
           {% if postmonth == "01" %}
           {% assign monthName = "Januar" %}
           {% elsif postmonth == "02" %}
-          {% assign monthName = "Fenbruar" %}
+          {% assign monthName = "Februar" %}
           {% elsif postmonth == "03" %}
           {% assign monthName = "Marts" %}
           {% elsif postmonth == "04" %}
@@ -71,19 +74,19 @@ layout: default
 
           <div class="grid-2">
             <div>
-          {% if post.only-month == true %}
-          <p class="xthin">{{ monthName }}</p>
+              {% if post.only-month == true %}
+              <p class="xthin">{{ monthName }}</p>
 
-          {% else %}
-          <p class="xthin">{{ post.date | date: "%d. "}} {{ monthName }}{{ post.date | date: ", %Y"}}</p>
-          {% endif %}
-        </div>
-        {% if post.price %}
-        <div class="align-right no-mobile">
-          <p class="xthin">{{ post.price }},-</p>
-        </div>
-        {% endif %}
-        </div>
+              {% else %}
+              <p class="xthin">{{ post.date | date: "%d. "}} {{ monthName }}{{ post.date | date: ", %Y"}}</p>
+              {% endif %}
+            </div>
+            {% if post.price %}
+            <div class="align-right no-mobile">
+              <p class="xthin">{{ post.price }}</p>
+            </div>
+            {% endif %}
+          </div>
         </div>
         <div class="card-footer">
 
@@ -116,14 +119,104 @@ layout: default
     {% if post.url != page.url %}
     <div class="card transparent">
 
-      <div class="card-img-top short">
+      <div class="card-img-top short position-relative">
+        {% if post.community %}
+        <div class="overlay-label">{{ post.community }}</div>
+        {% endif %}
         <img src="{{ post.image }}" alt="">
       </div>
       <div class="card-body">
-        <p class="thin">{{ post.subtitle }}</p>
+
+        <div class="grid-2">
+          <div>
+            {% capture alldates %}
+            {% assign orderposts = site.posts | order: "date" | reverse %}
+            {% for item in orderposts %}
+
+            {% for tag in item.tags %}
+            {% if tag == post.sub-pages %}
+
+            {% assign postmonth = item.date | date: "%m" %}
+
+
+            {% if postmonth == "01" %}
+            {% assign monthName = "Januar" %}
+            {% elsif postmonth == "02" %}
+            {% assign monthName = "Februar" %}
+            {% elsif postmonth == "03" %}
+            {% assign monthName = "Marts" %}
+            {% elsif postmonth == "04" %}
+            {% assign monthName = "April" %}
+            {% elsif postmonth == "05" %}
+            {% assign monthName = "Maj" %}
+            {% elsif postmonth == "06" %}
+            {% assign monthName = "Juni" %}
+            {% elsif postmonth == "07" %}
+            {% assign monthName = "Juli" %}
+            {% elsif postmonth == "08" %}
+            {% assign monthName = "August" %}
+            {% elsif postmonth == "09" %}
+            {% assign monthName = "September" %}
+            {% elsif postmonth == "10" %}
+            {% assign monthName = "Oktober" %}
+            {% elsif postmonth == "11" %}
+            {% assign monthName = "November" %}
+            {% elsif postmonth == "12" %}
+            {% assign monthName = "December" %}
+            {% endif %}
+
+            {% if item.only-month == true %}
+            {{ monthName }},
+            {% else %}
+            {{ post.date | date: "%d. "}} {{ monthName }}{{ post.date | date: ", %Y"}},
+            {% endif %}
+            {% endif %}
+            {% endfor %}
+            {% endfor %}
+            {% endcapture %}
+            {% assign alldatessplit = alldates | split: "," %}
+            {% for date in alldatessplit limit: 1 %}
+            <p class="large no-m-b"><b>{{ date }}</b></p>
+            {% endfor %}
+          </div>
+          <div class="align-right">
+
+            {% capture allprices %}
+            {% assign orderposts = site.posts | order: "date" | reverse %}
+            {% for item in orderposts %}
+
+            {% for tag in item.tags %}
+            {% if tag == post.sub-pages %}
+            {{ item.price }}.
+            {% endif %}
+            {% endfor %}
+            {% endfor %}
+            {% endcapture %}
+            {% assign allpricesplit = allprices | split: "." %}
+            {% for price in allpricesplit limit: 1 %}
+            <p class="large no-m-b"><b>{{ price }}</b></p>
+
+            {% endfor %}
+          </div>
+        </div>
         <h3 class="card-title thin">{{ post.title }}</h3>
         <p class="card-text">{{ post.description }}</p>
-<br>
+        {% capture allplaces %}
+        {% assign orderposts = site.posts | order: "date" | reverse %}
+        {% for item in orderposts %}
+
+        {% for tag in item.tags %}
+        {% if tag == post.sub-pages %}
+        {{ item.place }}.
+        {% endif %}
+        {% endfor %}
+        {% endfor %}
+        {% endcapture %}
+        {% assign allplacesplit = allplaces | split: "." %}
+        {% for place in allplacesplit limit: 1 %}
+        <p><b>{{ place }}</b></p>
+
+        {% endfor %}
       </div>
       <div class="card-footer">
         {% if post.ready == true %}

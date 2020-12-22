@@ -55,3 +55,13 @@
   padding: 10px;
   color: white;
 }
+
+.overlay-label {
+  position: absolute;
+  z-index:1000;
+  background-color: $ccc-blue;
+  color: white;
+  bottom: 10px;
+  right: -10px;
+  padding: 5px 10px;
+}

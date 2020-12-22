@@ -8,9 +8,9 @@ layout: event
 tags:
 - kim
 - event
-place: Blegdamsvej 104 A, 2. Sal, 2100 København Ø
+place: Blegdamsvej 104 A, 2100 København Ø
 event-type: seminar
-price: 450
+price: 450,-
 ex-moms: true
 ---
 #### Seminar 4: Når ledelse finde intentionen (med Husserl som inspiration)

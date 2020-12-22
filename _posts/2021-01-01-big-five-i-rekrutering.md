@@ -1,14 +1,17 @@
 ---
 title: Big Five i rekrutering
 layout: event
+subtitle: seminar
 tags:
 - big-five
 - event
 only-month: true
-price: 950
+price: 950,-
 ex-moms: true
-image: /images/graphic/big-five-temaer.jpg
+image: /images/events/big-five-event-3.jpg
 time: 17-20
+place: Blegdamsvej 104 A, 2100 København Ø
+community-discount: 40%
 ---
 
 ### Brug af big five i rekruttering af projektansatte

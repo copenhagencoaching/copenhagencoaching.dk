@@ -4,14 +4,52 @@ layout: default
 
 <div style="background-color: rgb(97, 114, 140);">
 
-  <div class="container-fluid narrow-container white">
+  <div class="container-fluid narrow-container white no-down">
     <div class="overlay-banner">
       <div class="overlay-banner-img"
         style="background: linear-gradient(rgba(19, 19, 19, 0.5), rgba(19, 19, 19, 0.5)), url('{{ page.image }}'); background-size: cover; background-position: center;">
       </div>
       <div class="overlay-banner-text">
-        <p class="thin">{{ page.subtitle }}</p>
+        <p class="thin">{{ page.event-type }}</p>
+
+        {% assign postmonth = page.date | date: "%m" %}
+
+
+          {% if postmonth == "01" %}
+          {% assign monthName = "Januar" %}
+          {% elsif postmonth == "02" %}
+          {% assign monthName = "Februar" %}
+          {% elsif postmonth == "03" %}
+          {% assign monthName = "Marts" %}
+          {% elsif postmonth == "04" %}
+          {% assign monthName = "April" %}
+          {% elsif postmonth == "05" %}
+          {% assign monthName = "Maj" %}
+          {% elsif postmonth == "06" %}
+          {% assign monthName = "Juni" %}
+          {% elsif postmonth == "07" %}
+          {% assign monthName = "Juli" %}
+          {% elsif postmonth == "08" %}
+          {% assign monthName = "August" %}
+          {% elsif postmonth == "09" %}
+          {% assign monthName = "September" %}
+          {% elsif postmonth == "10" %}
+          {% assign monthName = "Oktober" %}
+          {% elsif postmonth == "11" %}
+          {% assign monthName = "November" %}
+          {% elsif postmonth == "12" %}
+          {% assign monthName = "December" %}
+          {% endif %}
+
+          {% if page.only-month == true %}
+          <h3>{{ monthName }}</h3>
+
+          {% else %}
+          <h3>{{ page.date | date: "%d. "}} {{ monthName }}{{ page.date | date: ", %Y"}}</h3>
+          {% endif %}
+          <br>
         <h1 class="h1-l">{{ page.title }}</h1>
+
 
         <p class="thin large">{{ page.description }}</p>
       </div>
@@ -19,14 +57,35 @@ layout: default
   </div>
 
   <div class="container-fluid white extra-narrow-container no-up">
+
+<div class="grid-3 white-box align-content-center align-items-center">
+
+
+
+  <div><p class="thin">{{ page.price }}{% if page.ex-moms == true %} (Eksl. moms){% endif %}
+    {% for tag in page.tags %}
+    {% for post in site.posts %}
+    {% if tag == post.sub-pages %}
+    {% if post.community %}
+{% if page.price %}
+    <br>{{ post.community }}
+    {% else %}
+    {{ post.community }}
+    {% endif %}
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+    {% endfor %}
+  </p>
+  </div>
+  <div class="align-center"><p class="thin">{{ page.place }}</p></div>
+  <div class="align-right"><p class="thin">kl. {{ page.time }}</p></div>
+</div>
     
+
     
-        <p class="xthin">{{ page.price }}{% if page.ex-moms == true %},- (Eksl. moms) {% else %},-{% endif %}</p>
-        <p class="xthin">{{ page.time }}</p>
-     
-        <p class="xthin">{{ page.place }}</p>
-    
-  
+
+
     {{ page.content }}
 
     {% if page.billetto %}
@@ -46,22 +105,22 @@ layout: default
 
 
 <div class="container-fluid extra-narrow-container">
- 
-
-    <div class="align-center">
-      <h1>Bliv medlem</h1>
-      <p>Et medlemskab af CCC Community giver dig adgang til et eksklusivt lukket fagligt netværk, samt gratis adgang
-        til flere CCC arrangementer året rundt.</p>
-    </div>
 
 
-    <div class="align-center">
-      <h2>Medlemsfordele</h2>
-      <p>Som CCC Community-medlem bliver du både klogere på din og andres ledelse og får derudover en lang række
-        økonomiske fordele</p>
-    </div>
-  
-  
+  <div class="align-center">
+    <h1>Bliv medlem</h1>
+    <p>Et medlemskab af CCC Community giver dig adgang til et eksklusivt lukket fagligt netværk, samt gratis adgang
+      til flere CCC arrangementer året rundt.</p>
+  </div>
+
+
+  <div class="align-center">
+    <h2>Medlemsfordele</h2>
+    <p>Som CCC Community-medlem bliver du både klogere på din og andres ledelse og får derudover en lang række
+      økonomiske fordele</p>
+  </div>
+
+
 
 </div>
 
