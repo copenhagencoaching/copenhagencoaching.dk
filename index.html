@@ -55,80 +55,101 @@ layout: default
     <div class="container-fluid narrow-container">
         <h1 class="center mb-30">Kommende events</h1>
 
-        
+
         <div class="grid-4 gap-40 r-gap-60">
 
             {% assign orderedPosts = site.posts | sort: order %}
             {% for post in orderedPosts %}
             {% for tag in post.tags %}
-        
+
             {% if tag == "eventgroup" %}
-           
+
             <div class="card transparent">
-        
-              <div class="card-img-top short position-relative">
-                  {% if post.community %}
-                  <div class="overlay-label">{{ post.community }}</div>
-                  {% endif %}
-                <img src="{{ post.image }}" alt="">
-              </div>
-              <div class="card-body">
-        
-                <div class="grid-2">
-                  <div>
-                    {% capture alldates %}
+
+                <div class="card-img-top short position-relative">
+                    {% if post.community %}
+                    <div class="overlay-label">{{ post.community }}</div>
+                    {% endif %}
+                    <img src="{{ post.image }}" alt="">
+                </div>
+                <div class="card-body">
+
+                    <div class="grid-2">
+                        <div>
+                            {% capture alldates %}
+                            {% assign orderposts = site.posts | order: "date" | reverse %}
+                            {% for item in orderposts %}
+
+                            {% for tag in item.tags %}
+                            {% if tag == post.sub-pages %}
+
+                            {% assign postmonth = item.date | date: "%m" %}
+
+
+                            {% if postmonth == "01" %}
+                            {% assign monthName = "Januar" %}
+                            {% elsif postmonth == "02" %}
+                            {% assign monthName = "Februar" %}
+                            {% elsif postmonth == "03" %}
+                            {% assign monthName = "Marts" %}
+                            {% elsif postmonth == "04" %}
+                            {% assign monthName = "April" %}
+                            {% elsif postmonth == "05" %}
+                            {% assign monthName = "Maj" %}
+                            {% elsif postmonth == "06" %}
+                            {% assign monthName = "Juni" %}
+                            {% elsif postmonth == "07" %}
+                            {% assign monthName = "Juli" %}
+                            {% elsif postmonth == "08" %}
+                            {% assign monthName = "August" %}
+                            {% elsif postmonth == "09" %}
+                            {% assign monthName = "September" %}
+                            {% elsif postmonth == "10" %}
+                            {% assign monthName = "Oktober" %}
+                            {% elsif postmonth == "11" %}
+                            {% assign monthName = "November" %}
+                            {% elsif postmonth == "12" %}
+                            {% assign monthName = "December" %}
+                            {% endif %}
+
+
+                            {{ monthName }},
+                            {% endif %}
+                            {% endfor %}
+                            {% endfor %}
+                            {% endcapture %}
+                            {% assign alldatessplit = alldates | split: "," %}
+                            {% for date in alldatessplit limit: 1 %}
+                            <p class="no-m-b">{{ date }}</p>
+                            {% endfor %}
+                        </div>
+                        <div class="align-right">
+
+
+                        </div>
+                    </div>
+                    <h3 class="card-title thin">{{ post.title }}</h3>
+                    <p class="card-text">{{ post.description }}</p>
+                    {% capture allplaces %}
                     {% assign orderposts = site.posts | order: "date" | reverse %}
                     {% for item in orderposts %}
-        
+
                     {% for tag in item.tags %}
                     {% if tag == post.sub-pages %}
-        
-                    {% assign postmonth = item.date | date: "%m" %}
-        
-        
-                    {% if postmonth == "01" %}
-                    {% assign monthName = "Januar" %}
-                    {% elsif postmonth == "02" %}
-                    {% assign monthName = "Februar" %}
-                    {% elsif postmonth == "03" %}
-                    {% assign monthName = "Marts" %}
-                    {% elsif postmonth == "04" %}
-                    {% assign monthName = "April" %}
-                    {% elsif postmonth == "05" %}
-                    {% assign monthName = "Maj" %}
-                    {% elsif postmonth == "06" %}
-                    {% assign monthName = "Juni" %}
-                    {% elsif postmonth == "07" %}
-                    {% assign monthName = "Juli" %}
-                    {% elsif postmonth == "08" %}
-                    {% assign monthName = "August" %}
-                    {% elsif postmonth == "09" %}
-                    {% assign monthName = "September" %}
-                    {% elsif postmonth == "10" %}
-                    {% assign monthName = "Oktober" %}
-                    {% elsif postmonth == "11" %}
-                    {% assign monthName = "November" %}
-                    {% elsif postmonth == "12" %}
-                    {% assign monthName = "December" %}
-                    {% endif %}
-        
-                   
-                    {{ monthName }},
+                    {{ item.time }}.
                     {% endif %}
                     {% endfor %}
                     {% endfor %}
                     {% endcapture %}
-                    {% assign alldatessplit = alldates | split: "," %}
-                    {% for date in alldatessplit limit: 1 %}
-                    <p class="no-m-b">{{ date }}</p>
+                    {% assign allplacesplit = allplaces | split: "." %}
+                    {% for place in allplacesplit limit: 1 %}
+                    <p>kl. {{ place }}</p>
+
                     {% endfor %}
-                  </div>
-                  <div class="align-right">
-        
                     {% capture allprices %}
                     {% assign orderposts = site.posts | order: "date" | reverse %}
                     {% for item in orderposts %}
-        
+
                     {% for tag in item.tags %}
                     {% if tag == post.sub-pages %}
                     {{ item.price }}.
@@ -140,47 +161,27 @@ layout: default
                     {% for price in allpricesplit limit: 1 %}
                     <p class="no-m-b">{{ price }}{% if post.ex-moms == true %} (eksl. moms){% endif %}
                     </p>
-        
+
                     {% endfor %}
-                  </div>
                 </div>
-                <h3 class="card-title thin">{{ post.title }}</h3>
-                <p class="card-text">{{ post.description }}</p>
-                {% capture allplaces %}
-                {% assign orderposts = site.posts | order: "date" | reverse %}
-                {% for item in orderposts %}
-        
-                {% for tag in item.tags %}
-                {% if tag == post.sub-pages %}
-                {{ item.time }}.
-                {% endif %}
-                {% endfor %}
-                {% endfor %}
-                {% endcapture %}
-                {% assign allplacesplit = allplaces | split: "." %}
-                {% for place in allplacesplit limit: 1 %}
-                <p>kl. {{ place }}</p>
-        
-                {% endfor %}
-              </div>
-              <div class="card-footer">
-                {% if post.ready == true %}
-                <a href="{{ post.url }}" class="brown-btn thin white">Læs mere</a>
-                {% endif %}
-        
-              </div>
+                <div class="card-footer">
+                    {% if post.ready == true %}
+                    <a href="{{ post.url }}" class="brown-btn thin white">Læs mere</a>
+                    {% endif %}
+
+                </div>
             </div>
-      
+
             {% endif %}
             {% endfor %}
             {% endfor %}
-        
-        
-        
-        
-        
-          </div>
-    
+
+
+
+
+
+        </div>
+
     </div>
 </div>
 

@@ -122,22 +122,7 @@ layout: default
             </div>
             <div class="align-right">
 
-              {% capture allprices %}
-              {% assign orderposts = site.posts | order: "date" | reverse %}
-              {% for item in orderposts %}
-
-              {% for tag in item.tags %}
-              {% if tag == post.sub-pages %}
-              {{ item.price }}.
-              {% endif %}
-              {% endfor %}
-              {% endfor %}
-              {% endcapture %}
-              {% assign allpricesplit = allprices | split: "." %}
-              {% for price in allpricesplit limit: 1 %}
-              <p class="large no-m-b"><b>{{ price }}{% if post.ex-moms == true %} (eksl. moms){% endif %}</b></p>
-
-              {% endfor %}
+              
             </div>
           </div>
           <h3 class="card-title thin">{{ post.title }}</h3>
@@ -158,6 +143,22 @@ layout: default
           <p><b>kl. {{ place }}</b></p>
 
           {% endfor %}
+          {% capture allprices %}
+              {% assign orderposts = site.posts | order: "date" | reverse %}
+              {% for item in orderposts %}
+
+              {% for tag in item.tags %}
+              {% if tag == post.sub-pages %}
+              {{ item.price }}.
+              {% endif %}
+              {% endfor %}
+              {% endfor %}
+              {% endcapture %}
+              {% assign allpricesplit = allprices | split: "." %}
+              {% for price in allpricesplit limit: 1 %}
+              <p><b>{{ price }}{% if post.ex-moms == true %} (eksl. moms){% endif %}</b></p>
+
+              {% endfor %}
         </div>
         <div class="card-footer">
           {% if post.ready == true %}
