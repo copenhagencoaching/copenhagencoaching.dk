@@ -12,6 +12,7 @@ image: /images/events/big-five-event-4.jpg
 time: 17-20
 place: Blegdamsvej 104 A, 2100 København Ø
 community-discount: 40%
+time: 17-20
 ---
 
 ### Personlighedens paradokser

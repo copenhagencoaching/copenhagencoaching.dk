@@ -12,5 +12,6 @@ ready: true
 order: 2
 sub-pages: big-five
 only-month: true
-community: 40% rabat for community medlemmer
+community: 40% rabat for CCC Community medlemmer
+ex-moms: true
 ---

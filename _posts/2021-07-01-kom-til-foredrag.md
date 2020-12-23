@@ -10,5 +10,7 @@ tags:
 ready: true
 order: 4
 only-month: true
-community: Gratis for Community medlemmer
+community: Gratis for CCC Community medlemmer
+ex-moms: true
+time: 17-20
 ---

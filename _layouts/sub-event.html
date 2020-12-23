@@ -83,14 +83,19 @@ layout: default
             </div>
             {% if post.price %}
             <div class="align-right no-mobile">
-              <p class="xthin">{{ post.price }}</p>
+              <p class="xthin">{{ post.price }} {% if post.ex-moms == true %} (eksl. moms){% endif %}</p>
+            </div>
+            {% endif %}
+            {% if post.time %}
+            <div>
+              <p class="xthin">Kl. {{ post.time }}</p>
             </div>
             {% endif %}
           </div>
         </div>
         <div class="card-footer">
 
-          <a href="{{ post.url }}" class="brown-btn thin white">Se mere</a>
+          <a href="{{ post.url }}" class="brown-btn thin white">Læs mere</a>
 
         </div>
       </div>
@@ -165,11 +170,9 @@ layout: default
             {% assign monthName = "December" %}
             {% endif %}
 
-            {% if item.only-month == true %}
+            
             {{ monthName }},
-            {% else %}
-            {{ post.date | date: "%d. "}} {{ monthName }}{{ post.date | date: ", %Y"}},
-            {% endif %}
+            
             {% endif %}
             {% endfor %}
             {% endfor %}
@@ -194,7 +197,7 @@ layout: default
             {% endcapture %}
             {% assign allpricesplit = allprices | split: "." %}
             {% for price in allpricesplit limit: 1 %}
-            <p class="large no-m-b"><b>{{ price }}</b></p>
+            <p class="large no-m-b"><b>{{ price }}{% if post.ex-moms == true %} (eksl. moms){% endif %}</b></p>
 
             {% endfor %}
           </div>
@@ -207,20 +210,20 @@ layout: default
 
         {% for tag in item.tags %}
         {% if tag == post.sub-pages %}
-        {{ item.place }}.
+        {{ item.time }}.
         {% endif %}
         {% endfor %}
         {% endfor %}
         {% endcapture %}
         {% assign allplacesplit = allplaces | split: "." %}
         {% for place in allplacesplit limit: 1 %}
-        <p><b>{{ place }}</b></p>
+        <p><b>kl. {{ place }}</b></p>
 
         {% endfor %}
       </div>
       <div class="card-footer">
         {% if post.ready == true %}
-        <a href="{{ post.url }}" class="brown-btn thin white">Se mere</a>
+        <a href="{{ post.url }}" class="brown-btn thin white">Læs mere</a>
         {% endif %}
 
       </div>

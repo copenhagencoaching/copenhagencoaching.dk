@@ -12,7 +12,10 @@ ready: true
 order: 1
 place: Blegdamsvej 104 A, 2100 København Ø
 sub-pages: kim
-community: Gratis for Community medlemmer
+community: Gratis for CCC Community medlemmer
+only-month: true
+ex-moms: true
+time: 17-20
 ---
 
 ## DEN FILOSOFISKE LEDELSESTERAPI, ANNO 2021

@@ -12,6 +12,7 @@ place: Blegdamsvej 104 A, 2100 København Ø
 event-type: seminar
 price: 450,-
 ex-moms: true
+time: 17-20
 ---
 #### Seminar 4: Når ledelse finde intentionen (med Husserl som inspiration)
 
