@@ -1,5 +1,5 @@
 ---
-title: Big Five i rekrutering
+title: Big Five i rekruttering
 layout: event
 subtitle: seminar
 tags:
