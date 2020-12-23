@@ -10,7 +10,7 @@ location: Blegdamsvej 104C (baghuset), 2100 Kbh Ø
 event-title: Tidspunkt
 price: '950 kr ekskl. moms inkl. let middag. NB: Fri entré for Community-medlemmer'
 events:
-- overskrift: Tirsdag 28. april 2020 kl. 17-20
+- overskrift: Tirsdag 28. april 2020 kl. 17.00-20.00
   dato: []
   subcategory: false
   subcat: []
@@ -21,7 +21,7 @@ hold_eller_begivenheder: true
 
 Kom og bliv inspireret af en af Danmarks mest prominente sociologer, Rasmus Willig, der vil holde oplæg om forholdet mellem psykisk arbejdsmiljø, ytringsfrihed og opkomsten af en ny type af tavshedskultur. Willing fortæller om den nyeste udvikling på det danske arbejdsmarked, hvor vi er ved at bevæge os væk fra den berømte Flexicurity model over en model, der er præget af Flexploitation og nu Flexisme. Et paradigme hvor man skal lære at finde sig i (og elske!) dét, som er hårdt og svært, selvom man er på randen af et sammenbrud. Kritik bliver enten afvæbnet, neutraliseret eller returneret – Flexismens ”ideal-menneske” er robust og hærdet til at kunne håndtere neoliberalismens til stadighed større pres.
 
-Oplægget ”Fra Flexicurity til Flexism” foregår d 28. april mellem 17-20 og inkluderer en let middag.
+Oplægget ”Fra Flexicurity til Flexism” foregår d 28. april mellem 17.00-20.00 og inkluderer en let middag.
 
 **Om Rasmus Willig**
 

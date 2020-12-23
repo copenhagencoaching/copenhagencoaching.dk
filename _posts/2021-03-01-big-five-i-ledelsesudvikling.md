@@ -9,10 +9,10 @@ only-month: true
 price: 950,-
 ex-moms: true
 image: /images/events/big-five-event-2.jpg
-time: 17-20
+time: 17.00-20.00
 place: Blegdamsvej 104 A, 2100 København Ø
 community-discount: 40%
-time: 17-20
+time: 17.00-20.00
 ---
 
 ### Brug af Big Five i rekruttering og udvikling af ledere

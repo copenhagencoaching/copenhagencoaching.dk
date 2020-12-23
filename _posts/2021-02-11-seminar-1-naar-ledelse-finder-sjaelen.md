@@ -1,7 +1,7 @@
 ---
 title: Når ledelse finder sjælen
 subtitle: Seminar 1
-time: 17-20
+time: 17.00-20.00
 community-free: true
 image: /images/about/employees/kim-gørtz.png
 layout: event

@@ -15,7 +15,7 @@ sub-pages: kim
 community: Gratis for CCC Community medlemmer
 only-month: true
 ex-moms: true
-time: 17-20
+time: 17.00-20.00
 ---
 
 ## DEN FILOSOFISKE LEDELSESTERAPI, ANNO 2021

@@ -1,7 +1,7 @@
 ---
 title: Når ledelse finder syntesen
 subtitle: Seminar 3
-time: 17-20
+time: 17.00-20.00
 community-free: true
 image: /images/about/employees/kim-gørtz.png
 layout: event
@@ -12,7 +12,7 @@ place: Blegdamsvej 104 A, 2100 København Ø
 event-type: seminar
 price: 450,-
 ex-moms: true
-time: 17-20
+time: 17.00-20.00
 ---
 #### Seminar 3: Når ledelse finder syntesen (med Hegel som inspiration)
 

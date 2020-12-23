@@ -1,7 +1,7 @@
 ---
 title: Når ledelse finder pligten
 subtitle: Seminar 2
-time: 17-20
+time: 17.00-20.00
 community-free: true
 image: /images/about/employees/kim-gørtz.png
 layout: event
@@ -14,7 +14,7 @@ price: 450,-
 ex-moms: true
 billetto: true
 billetto-nr: 504691
-time: 17-20
+time: 17.00-20.00
 ---
 #### Seminar 2: Når ledelse finder pligten (med Kant som inspiration)
 

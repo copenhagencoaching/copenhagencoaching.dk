@@ -9,6 +9,6 @@ tags:
 - supervision
 only-month: true
 place: Online
-time: 17-20
+time: 17.00-20.00
 ---
 

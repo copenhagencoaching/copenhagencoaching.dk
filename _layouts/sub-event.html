@@ -189,20 +189,20 @@ layout: default
         </div>
         <h3 class="card-title thin">{{ post.title }}</h3>
         <p class="card-text">{{ post.description }}</p>
-        {% capture allplaces %}
+        {% capture alltime %}
         {% assign orderposts = site.posts | order: "date" | reverse %}
         {% for item in orderposts %}
 
         {% for tag in item.tags %}
         {% if tag == post.sub-pages %}
-        {{ item.time }}.
+        {{ item.time }},
         {% endif %}
         {% endfor %}
         {% endfor %}
         {% endcapture %}
-        {% assign allplacesplit = allplaces | split: "." %}
-        {% for place in allplacesplit limit: 1 %}
-        <p><b>kl. {{ place }}</b></p>
+        {% assign alltimesplit = alltime | split: "," %}
+        {% for time in alltimesplit limit: 1 %}
+        <p><b>kl. {{ time }}</b></p>
 
         {% endfor %}
         {% capture allprices %}
@@ -219,6 +219,23 @@ layout: default
         {% assign allpricesplit = allprices | split: "." %}
         {% for price in allpricesplit limit: 1 %}
         <p><b>{{ price }}{% if post.ex-moms == true %} (eksl. moms){% endif %}</b></p>
+
+        {% endfor %}
+
+        {% capture allplaces %}
+        {% assign orderposts = site.posts | order: "date" | reverse %}
+        {% for item in orderposts %}
+
+        {% for tag in item.tags %}
+        {% if tag == post.sub-pages %}
+        {{ item.place }}.
+        {% endif %}
+        {% endfor %}
+        {% endfor %}
+        {% endcapture %}
+        {% assign allplacesplit = allplaces | split: "." %}
+        {% for place in allplacesplit limit: 1 %}
+        <p><b>{{ place }}</b></p>
 
         {% endfor %}
       </div>
