@@ -143,7 +143,7 @@ layout: default
                     {% endcapture %}
                     {% assign alltimesplit = alltime | split: "," %}
                     {% for time in alltimesplit limit: 1 %}
-                    <p><b>kl. {{ time }}</b></p>
+                    <p><b>Tid: {{ time }}</b></p>
             
                     {% endfor %}
                     {% capture allprices %}
@@ -152,7 +152,9 @@ layout: default
 
                     {% for tag in item.tags %}
                     {% if tag == post.sub-pages %}
-                    {{ item.price }}.
+                    {% if item.price %}
+                    Pris: {{ item.price }}.
+                    {% endif %}
                     {% endif %}
                     {% endfor %}
                     {% endfor %}
@@ -177,7 +179,7 @@ layout: default
                     {% endcapture %}
                     {% assign allplacesplit = allplaces | split: "." %}
                     {% for place in allplacesplit limit: 1 %}
-                    <p><b>{{ place }}</b></p>
+                    <p><b>Sted: {{ place }}</b></p>
             
                     {% endfor %}
                 </div>

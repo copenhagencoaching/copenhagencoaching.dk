@@ -31,12 +31,13 @@ layout: default
       adgang til:</p>
 
     <ul>
-      <li>Netværk, inspiration og supervision på 3 årlige træningsaftener</li>
+      <li>Netværk, inspiration og supervison på min. 3 årlige træningsaftener</li>
       <li>Min. to faglige arrangementer årligt</li>
       <li>1 gratis eksemplar af nye CCC-udgivelser</li>
-      <li>Seks årlige nyhedsbreve</li>
+      <li>12 årlige nyhedsbreve</li>
       <li>15% rabat på events, eksklusive arrangementer og udvalgte kurser</li>
     </ul>
+    <p>Årligt kontingent: Kr. 2500,- eksl. moms</p>
   </div>
   <div style="background-image: url('{{ page.image }}'); background-position: center; background-size: cover;">
 
@@ -140,7 +141,7 @@ layout: default
           {% endcapture %}
           {% assign alltimesplit = alltime | split: "," %}
           {% for time in alltimesplit limit: 1 %}
-          <p><b>kl. {{ time }}</b></p>
+          <p><b>Tid: {{ time }}</b></p>
   
           {% endfor %}
           {% capture allprices %}
@@ -149,7 +150,10 @@ layout: default
 
               {% for tag in item.tags %}
               {% if tag == post.sub-pages %}
-              {{ item.price }}.
+              {% if item.price %}
+
+              Pris: {{ item.price }}.
+              {% endif %}
               {% endif %}
               {% endfor %}
               {% endfor %}
@@ -172,7 +176,7 @@ layout: default
               {% endcapture %}
               {% assign allplacesplit = allplaces | split: "." %}
               {% for place in allplacesplit limit: 1 %}
-              <p><b>{{ place }}</b></p>
+              <p><b>Sted: {{ place }}</b></p>
       
               {% endfor %}
         </div>
