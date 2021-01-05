@@ -13,6 +13,8 @@ event-type: seminar
 price: 450,-
 ex-moms: true
 time: 17.00-20.00
+billetto: true
+billetto-nr: 504703
 ---
 #### Seminar 4: Når ledelse finde intentionen (med Husserl som inspiration)
 

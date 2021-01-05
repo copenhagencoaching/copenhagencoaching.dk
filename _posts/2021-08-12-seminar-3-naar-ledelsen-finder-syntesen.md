@@ -13,6 +13,8 @@ event-type: seminar
 price: 450,-
 ex-moms: true
 time: 17.00-20.00
+billetto: true
+billetto-nr: 504700
 ---
 #### Seminar 3: Når ledelse finder syntesen (med Hegel som inspiration)
 
