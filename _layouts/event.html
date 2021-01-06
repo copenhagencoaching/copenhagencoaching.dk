@@ -45,7 +45,7 @@ layout: default
           <h3>{{ monthName }}</h3>
 
           {% else %}
-          <h3>{{ page.date | date: "%d. "}} {{ monthName }}{{ page.date | date: ", %Y"}}</h3>
+          <h3>{{ page.date | date: "%d. "}} {{ monthName }}{{ page.date | date: " %Y"}}</h3>
           {% endif %}
           <br>
         <h1 class="h1-l">{{ page.title }}</h1>
@@ -62,7 +62,7 @@ layout: default
 
 
 
-  <div><p class="thin">{{ page.price }}{% if page.ex-moms == true %} (Eksl. moms){% endif %}
+  <div><p class="thin">{{ page.price }}{% if page.ex-moms == true %} (ekskl. moms){% endif %}
     {% for tag in page.tags %}
     {% for post in site.posts %}
     {% if tag == post.sub-pages %}

@@ -161,7 +161,7 @@ layout: default
                     {% endcapture %}
                     {% assign allpricesplit = allprices | split: "." %}
                     {% for price in allpricesplit limit: 1 %}
-                    <p><b>{{ price }}{% if post.ex-moms == true %} (eksl. moms){% endif %}</b>
+                    <p><b>{{ price }}{% if post.ex-moms == true %} (ekskl. moms){% endif %}</b>
                     </p>
                     
 

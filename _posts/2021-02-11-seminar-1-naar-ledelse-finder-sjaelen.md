@@ -1,5 +1,6 @@
 ---
 title: Når ledelse finder sjælen
+description: Eksklusivt oplæg af Kim Gørtz
 subtitle: Seminar 1
 time: 17.00-20.00
 community-free: true
@@ -9,7 +10,7 @@ tags:
 - kim
 - event
 place: Blegdamsvej 104 A, 2100 København Ø
-event-type: seminar
+event-type: CCC Seminar
 price: 450,-
 ex-moms: true
 billetto: true

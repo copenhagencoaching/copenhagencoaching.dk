@@ -37,7 +37,7 @@ layout: default
       <li>12 årlige nyhedsbreve</li>
       <li>15% rabat på events, eksklusive arrangementer og udvalgte kurser</li>
     </ul>
-    <p>Årligt kontingent: Kr. 2500,- eksl. moms</p>
+    <p>Årligt kontingent: Kr. 2500,- ekskl. moms</p>
   </div>
   <div style="background-image: url('{{ page.image }}'); background-position: center; background-size: cover;">
 
@@ -160,7 +160,7 @@ layout: default
               {% endcapture %}
               {% assign allpricesplit = allprices | split: "." %}
               {% for price in allpricesplit limit: 1 %}
-              <p><b>{{ price }}{% if post.ex-moms == true %} (eksl. moms){% endif %}</b></p>
+              <p><b>{{ price }}{% if post.ex-moms == true %} (ekskl. moms){% endif %}</b></p>
 
               {% endfor %}
               {% capture allplaces %}

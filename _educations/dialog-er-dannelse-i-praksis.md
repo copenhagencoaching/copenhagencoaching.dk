@@ -120,7 +120,7 @@ forskellige mødeformer i organisationen.
 Centrale temaer på kurset er protreptisk dialog som en særlig måde at skabe værdi og begrebsafklaring, fokus på det væsentlige og dialogorienteret didaktik, hvor kvalificeringen af elever til at indgå i faglige samtaler med hinanden og læreren, er i centrum.
 
 
-Der veksles mellem oplæg, fælles
+Der vekskles mellem oplæg, fælles
 drøftelser, caseanalyser og design af
 forløb, og formålet med kurset er dermed
 på een gang at være et reflektorium, hvor

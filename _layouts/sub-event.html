@@ -93,7 +93,7 @@ layout: default
             </div>
             {% if post.price %}
             <div class="align-right no-mobile">
-              <p class="xthin">{{ post.price }} {% if post.ex-moms == true %} (eksl. moms){% endif %}</p>
+              <p class="xthin">{{ post.price }} {% if post.ex-moms == true %} (ekskl. moms){% endif %}</p>
             </div>
             {% endif %}
             {% if post.time %}
@@ -230,7 +230,7 @@ layout: default
         {% endcapture %}
         {% assign allpricesplit = allprices | split: "." %}
         {% for price in allpricesplit limit: 1 %}
-        <p><b>{{ price }}{% if post.ex-moms == true %} (eksl. moms){% endif %}</b></p>
+        <p><b>{{ price }}{% if post.ex-moms == true %} (ekskl. moms){% endif %}</b></p>
 
         {% endfor %}
 

@@ -1,6 +1,7 @@
 ---
 title: Når ledelse finder syntesen
 subtitle: Seminar 3
+description: Eksklusivt oplæg af Kim Gørtz
 time: 17.00-20.00
 community-free: true
 image: /images/about/employees/kim-gørtz.png
@@ -9,7 +10,7 @@ tags:
 - kim
 - event
 place: Blegdamsvej 104 A, 2100 København Ø
-event-type: seminar
+event-type: CCC Seminar
 price: 450,-
 ex-moms: true
 time: 17.00-20.00
