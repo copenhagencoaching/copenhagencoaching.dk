@@ -26,43 +26,53 @@
         {% if tag == "eventgroup" %}
         {% if post.category == "community" %}{% assign link = "/community/" %}{% else %}{% assign link = post.url %}{% endif %}
         <a class="footer-stories" href="{{ link }}">{{ post.title }}</a>
-        {% assign postmonth = post.date | date: "%m" %}
+        {% capture alldates %}
+        {% assign orderposts = site.posts | order: "date" | reverse %}
+        {% for item in orderposts %}
+
+        {% for tag in item.tags %}
+        {% if tag == post.sub-pages %}
+
+        {% assign postmonth = item.date | date: "%m" %}
 
 
-          {% if postmonth == "01" %}
-          {% assign monthName = "Januar" %}
-          {% elsif postmonth == "02" %}
-          {% assign monthName = "Fenbruar" %}
-          {% elsif postmonth == "03" %}
-          {% assign monthName = "Marts" %}
-          {% elsif postmonth == "04" %}
-          {% assign monthName = "April" %}
-          {% elsif postmonth == "05" %}
-          {% assign monthName = "Maj" %}
-          {% elsif postmonth == "06" %}
-          {% assign monthName = "Juni" %}
-          {% elsif postmonth == "07" %}
-          {% assign monthName = "Juli" %}
-          {% elsif postmonth == "08" %}
-          {% assign monthName = "August" %}
-          {% elsif postmonth == "09" %}
-          {% assign monthName = "September" %}
-          {% elsif postmonth == "10" %}
-          {% assign monthName = "Oktober" %}
-          {% elsif postmonth == "11" %}
-          {% assign monthName = "November" %}
-          {% elsif postmonth == "12" %}
-          {% assign monthName = "December" %}
-          {% endif %}
+        {% if postmonth == "01" %}
+        {% assign monthName = "Januar" %}
+        {% elsif postmonth == "02" %}
+        {% assign monthName = "Februar" %}
+        {% elsif postmonth == "03" %}
+        {% assign monthName = "Marts" %}
+        {% elsif postmonth == "04" %}
+        {% assign monthName = "April" %}
+        {% elsif postmonth == "05" %}
+        {% assign monthName = "Maj" %}
+        {% elsif postmonth == "06" %}
+        {% assign monthName = "Juni" %}
+        {% elsif postmonth == "07" %}
+        {% assign monthName = "Juli" %}
+        {% elsif postmonth == "08" %}
+        {% assign monthName = "August" %}
+        {% elsif postmonth == "09" %}
+        {% assign monthName = "September" %}
+        {% elsif postmonth == "10" %}
+        {% assign monthName = "Oktober" %}
+        {% elsif postmonth == "11" %}
+        {% assign monthName = "November" %}
+        {% elsif postmonth == "12" %}
+        {% assign monthName = "December" %}
+        {% endif %}
 
-
-          {% if post.only-month == true %}
-          <p class="stories-date">{{ monthName }}</p>
-
-          {% else %}
-          <p class="stories-date">{{ post.date | date: "%d. "}} {{ monthName }}{{ post.date | date: ", %Y"}}</p>
-          {% endif %}
-       
+        
+        {{ monthName }},
+        
+        {% endif %}
+        {% endfor %}
+        {% endfor %}
+        {% endcapture %}
+        {% assign alldatessplit = alldates | split: "," %}
+        {% for date in alldatessplit limit: 1 %}
+        <p class="stories-date">{{ date }}</p>
+        {% endfor %}
         {% endif %}
         {% endfor %}
         {% endif %}

@@ -12,6 +12,7 @@ sub-pages: supervision
 place: Blegdamsvej 104 A, 2100 København Ø
 community: CCC Community arrangement
 time: 17.00-20.00
+only-month: true
 ---
 
 ### Fire årlige træningsaftener

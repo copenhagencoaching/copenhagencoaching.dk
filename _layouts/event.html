@@ -58,28 +58,67 @@ layout: default
 
   <div class="container-fluid white extra-narrow-container no-up">
 
-<div class="grid-3 white-box align-content-center align-items-center">
+<div class="white-box align-content-center align-items-center">
 
-
-
-  <div><p class="thin">{{ page.price }}{% if page.ex-moms == true %} (ekskl. moms){% endif %}
-    {% for tag in page.tags %}
-    {% for post in site.posts %}
-    {% if tag == post.sub-pages %}
-    {% if post.community %}
+<p><b>Pris:</b> {{ page.price }}{% if page.ex-moms == true %} (ekskl. moms){% endif %}</p>
+<!-- {% for tag in page.tags %}
+{% for post in site.posts %}
+{% if tag == post.sub-pages %}
+{% if post.community %}
 {% if page.price %}
-    <br>{{ post.community }}
-    {% else %}
-    {{ post.community }}
-    {% endif %}
-    {% endif %}
-    {% endif %}
-    {% endfor %}
-    {% endfor %}
-  </p>
-  </div>
-  <div class="align-center"><p class="thin">{{ page.place }}</p></div>
-  <div class="align-right"><p class="thin">kl. {{ page.time }}</p></div>
+<br>{{ post.community }}
+{% else %}
+{{ post.community }}
+{% endif %}
+{% endif %}
+{% endif %}
+{% endfor %}
+{% endfor %} -->
+
+{% if page.community-free == true %}
+<p>GRATIS for medlemmer af CCC Community – tilmelding <a href="/registration/?n=community-medlemsskab"><b>her</b></a></p>
+{% endif %}
+
+{% if page.community-discount %}
+<p>{{ page.community-discount }} rabat for CCC Community medlemmer – tilmelding <a href="/registration/?n=community-medlemsskab"><b>her</b></a></p>
+{% endif %}
+
+{% assign postmonth = page.date | date: "%m" %}
+
+
+{% if postmonth == "01" %}
+{% assign monthName = "Januar" %}
+{% elsif postmonth == "02" %}
+{% assign monthName = "Februar" %}
+{% elsif postmonth == "03" %}
+{% assign monthName = "Marts" %}
+{% elsif postmonth == "04" %}
+{% assign monthName = "April" %}
+{% elsif postmonth == "05" %}
+{% assign monthName = "Maj" %}
+{% elsif postmonth == "06" %}
+{% assign monthName = "Juni" %}
+{% elsif postmonth == "07" %}
+{% assign monthName = "Juli" %}
+{% elsif postmonth == "08" %}
+{% assign monthName = "August" %}
+{% elsif postmonth == "09" %}
+{% assign monthName = "September" %}
+{% elsif postmonth == "10" %}
+{% assign monthName = "Oktober" %}
+{% elsif postmonth == "11" %}
+{% assign monthName = "November" %}
+{% elsif postmonth == "12" %}
+{% assign monthName = "December" %}
+{% endif %}
+
+{% if page.only-month == true %}
+<p><b>{{ monthName }}</b></p>
+{% else %}
+<p><b>Tid:</b> {{ page.date | date: "%d. "}} {{ monthName }}{{ page.date | date: " %Y"}}  {{ page.time }}</p>
+  {% endif %}
+  <p><b>Sted:</b> {{ page.place }}</p>
+ 
 </div>
     
 
@@ -101,6 +140,17 @@ layout: default
     {% else %}
     <h4>Tilmelding kommer snart...</h4>
     {% endif %}
+
+    {% for post in site.posts %}
+    {% for tag in page.tags %}
+    {% if tag == post.sub-pages %}
+    {% if post.billetto-group-discount == true %}
+    <br><br>
+    <script src="https://billetto.dk/embed.js"></script><style>.billetto-btn { line-height: 1.75rem; position: relative; display: inline-block; font-weight: 400; white-space: nowrap; text-align: center; background-image: none; border: 1px solid transparent; cursor: pointer; user-select: none; touch-action: manipulation; height: 32px; padding: 1px 15px; font-size: 16px; border-radius: 6px; color: #fff; background: #c5a88c; border-color: #c5a88c; text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12); box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045); text-decoration: none; } .billetto-btn:hover, .billetto-btn:focus, .billetto-btn:active { text-decoration: none; outline: 0; box-shadow: none; } .billetto-btn[disabled] { cursor: not-allowed; } .billetto-btn[disabled], .billetto-btn[disabled]:hover, .billetto-btn[disabled]:focus, .billetto-btn[disabled]:active { color: rgba(0, 0, 0, 0.25); background: #f5f5f5; border-color: #d9d9d9; text-shadow: none; box-shadow: none; }</style><a class="billetto-btn" href="https://billetto.dk/e/eksklusiv-seminarraekke-med-kim-gortz-billetter-{{ post.billetto-nr }}/select?color=%23414344">Køb alle fire seminarer for 1500,- (ekls. moms)</a>
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+    {% endfor %}
   </div>
   </div>
 </div>
