@@ -76,13 +76,13 @@ layout: default
 {% endfor %} -->
 
       {% if page.community-free == true %}
-      <p>GRATIS for medlemmer af CCC Community – tilmelding <a
-          href="/registration/?n=community-medlemsskab"><b>her</b></a></p>
+      <p><b>GRATIS</b> for medlemmer af CCC Community – <a
+          href="/registration/?n=community-medlemsskab"><b>Tilmelding her</b></a></p>
       {% endif %}
 
       {% if page.community-discount %}
-      <p>{{ page.community-discount }} rabat for CCC Community medlemmer – tilmelding <a
-          href="/registration/?n=community-medlemsskab"><b>her</b></a></p>
+      <p><b>{{ page.community-discount }} rabat</b> for CCC Community medlemmer – <a
+          href="/registration/?n=community-medlemsskab"><b>Tilmelding her</b></a></p>
       {% endif %}
 
       {% assign postmonth = page.date | date: "%m" %}
@@ -247,8 +247,8 @@ layout: default
           box-shadow: none;
         }
         .group-ticket {
-          background-color: #EFE4D6 !important;
-          border-color: #EFE4D6 !important;
+          background-color: #f0e5d8 !important;
+          border-color: #f0e5d8!important;
           color: #333333 !important;
         }
       </style><a class="billetto-btn group-ticket"
