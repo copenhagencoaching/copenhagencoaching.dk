@@ -10,6 +10,9 @@ linkedin: https://www.linkedin.com/in/kim-g%C3%B8rtz-sagaro-b51b795a/
 data-id: ''
 
 ---
+
+Kim har netop vundet prisen for *Årets Filosofiske Initiativ* ud af et meget stærkt felt af nominerede. **[Læs mere om Kims anerkendelse her](https://dsfp.dk/){:target="_blank"}**. Lige nu er Kim også aktuel med en tetralogisk seminarrække om dannelse og etik i den moderne ledelsespraksis - **[læs mere og tilmeld dig her](/inspiration/seminar-med-kim/).**
+
 Energi og god Karma lyser ud af Kim, og det er svært ikke at blive inspireret og fascineret i mødet med ham. Man ved aldrig helt, hvor et oplæg eller en dialog med Kim fører én hen, og ofte rækker oplevelsen meget længere ud end selve mødet.
 
 Kim går meget langt på literen, og har skrevet bøger nok til at fylde de flestes bogreoler. Hans teoretiske dybde føles som bundløs, og Kim er altid i stand til at gå endnu et spadestik dybere.

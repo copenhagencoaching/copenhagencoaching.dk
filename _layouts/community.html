@@ -160,13 +160,13 @@ layout: default
               {% if item.price %}
               {% if item.community-free == true %}
 
-              <b>Pris</b><br>
+              <b>Pris:</b><br>
               Medlemmer: 0 kr. <br>
               Ikke medlemmer: {{ item.price }} {% if item.ex-moms %}  (ekskl. moms){% endif %} |
 
               {% else %}
               {% if item.community-price %}
-              <b>Pris</b><br>
+              <b>Pris:</b><br>
               Medlemmer: {{ item.community-price }} {% if item.ex-moms %} (ekskl. moms){% endif %}<br>
               Ikke medlemmer: {{ item.price }} {% if item.ex-moms %}  (ekskl. moms){% endif %} |
 
