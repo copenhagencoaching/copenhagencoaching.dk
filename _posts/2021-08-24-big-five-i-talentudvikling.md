@@ -5,7 +5,6 @@ subtitle: seminar
 tags:
 - big-five
 - event
-only-month: true
 price: 950,-
 ex-moms: true
 image: /images/graphic/big-five-temaer.jpg
@@ -13,6 +12,8 @@ time: 17.00-20.00
 place: Blegdamsvej 104 A, 2100 København Ø
 community-discount: 40%
 time: 17.00-20.00
+billetto: true
+billetto-nr: 506110
 ---
 
 ### Big Five i talentudvikling og transition

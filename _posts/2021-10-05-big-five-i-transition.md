@@ -4,8 +4,7 @@ layout: event
 subtitle: seminar
 tags:
 - big-five
-- event
-only-month: true
+- events
 price: 950,-
 ex-moms: true
 image: /images/events/big-five-event-2.jpg
@@ -13,6 +12,8 @@ time: 17.00-20.00
 place: Blegdamsvej 104 A, 2100 København Ø
 community-discount: 40%
 time: 17.00-20.00
+billetto: true
+billetto-nr: 506111
 ---
 
 ### Jobprofil og kompetenceramme som grundlag for personlighedstestning

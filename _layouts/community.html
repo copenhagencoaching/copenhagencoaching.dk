@@ -71,8 +71,8 @@ layout: default
         </div>
         <div class="card-body">
 
-          <div class="grid-2 grid-30-70">
-            <div>
+          <div >
+          
               {% capture alldates %}
               {% assign orderposts = site.posts | order: "date" | reverse %}
               {% for item in orderposts %}
@@ -117,14 +117,19 @@ layout: default
               {% endfor %}
               {% endcapture %}
               {% assign alldatessplit = alldates | split: "," %}
-              {% for date in alldatessplit limit: 1 %}
-              <p class="large no-m-b"><b>{{ date }}</b></p>
+              <div>
+              {% for date in alldatessplit %}
+              {% if forloop.last %}
+            
+            {% else %}
+            <div class="label">
+              {{ date }} 
+            </div>
+            {% endif %}
               {% endfor %}
             </div>
-            <div class="align-right">
+            
 
-              
-            </div>
           </div>
           <h3 class="card-title thin">{{ post.title }}</h3>
           <p class="card-text">{{ post.description }}</p>
