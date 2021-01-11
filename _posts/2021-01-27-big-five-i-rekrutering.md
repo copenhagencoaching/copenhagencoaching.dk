@@ -9,10 +9,11 @@ price: 950,-
 ex-moms: true
 image: /images/events/big-five-event-3.jpg
 time: 17.00-20.00
-place: Blegdamsvej 104 A, 2100 København Ø
+place: Online
 community-discount: 40%
 billetto: true
 billetto-nr: 506107
+community-price: 570,-
 ---
 
 ### Brug af big five i rekruttering af projektansatte

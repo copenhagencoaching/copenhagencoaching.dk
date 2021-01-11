@@ -62,6 +62,62 @@ layout: default
       {% if tag == "community" %}
 
       <div class="card transparent">
+        {% capture alldates %}
+        {% assign orderposts = site.posts | order: "date" | reverse %}
+        {% for item in orderposts %}
+
+        {% for tag in item.tags %}
+        {% if tag == post.sub-pages %}
+
+        {% assign postmonth = item.date | date: "%m" %}
+
+
+        {% if postmonth == "01" %}
+        {% assign monthName = "Januar" %}
+        {% elsif postmonth == "02" %}
+        {% assign monthName = "Februar" %}
+        {% elsif postmonth == "03" %}
+        {% assign monthName = "Marts" %}
+        {% elsif postmonth == "04" %}
+        {% assign monthName = "April" %}
+        {% elsif postmonth == "05" %}
+        {% assign monthName = "Maj" %}
+        {% elsif postmonth == "06" %}
+        {% assign monthName = "Juni" %}
+        {% elsif postmonth == "07" %}
+        {% assign monthName = "Juli" %}
+        {% elsif postmonth == "08" %}
+        {% assign monthName = "August" %}
+        {% elsif postmonth == "09" %}
+        {% assign monthName = "September" %}
+        {% elsif postmonth == "10" %}
+        {% assign monthName = "Oktober" %}
+        {% elsif postmonth == "11" %}
+        {% assign monthName = "November" %}
+        {% elsif postmonth == "12" %}
+        {% assign monthName = "December" %}
+        {% endif %}
+
+        
+        {{ monthName }},
+        
+        {% endif %}
+        {% endfor %}
+        {% endfor %}
+        {% endcapture %}
+        {% assign alldatessplit = alldates | split: "," %}
+        <div>
+        {% for date in alldatessplit %}
+        {% if forloop.last %}
+      
+      {% else %}
+      <div class="label small">
+        {{ date }} 
+      </div>
+      {% endif %}
+        {% endfor %}
+      </div>
+
 
         <div class="card-img-top short position-relative">
           {% if post.community %}
@@ -73,61 +129,7 @@ layout: default
 
           <div >
           
-              {% capture alldates %}
-              {% assign orderposts = site.posts | order: "date" | reverse %}
-              {% for item in orderposts %}
 
-              {% for tag in item.tags %}
-              {% if tag == post.sub-pages %}
-
-              {% assign postmonth = item.date | date: "%m" %}
-
-
-              {% if postmonth == "01" %}
-              {% assign monthName = "Januar" %}
-              {% elsif postmonth == "02" %}
-              {% assign monthName = "Februar" %}
-              {% elsif postmonth == "03" %}
-              {% assign monthName = "Marts" %}
-              {% elsif postmonth == "04" %}
-              {% assign monthName = "April" %}
-              {% elsif postmonth == "05" %}
-              {% assign monthName = "Maj" %}
-              {% elsif postmonth == "06" %}
-              {% assign monthName = "Juni" %}
-              {% elsif postmonth == "07" %}
-              {% assign monthName = "Juli" %}
-              {% elsif postmonth == "08" %}
-              {% assign monthName = "August" %}
-              {% elsif postmonth == "09" %}
-              {% assign monthName = "September" %}
-              {% elsif postmonth == "10" %}
-              {% assign monthName = "Oktober" %}
-              {% elsif postmonth == "11" %}
-              {% assign monthName = "November" %}
-              {% elsif postmonth == "12" %}
-              {% assign monthName = "December" %}
-              {% endif %}
-
-              
-              {{ monthName }},
-              
-              {% endif %}
-              {% endfor %}
-              {% endfor %}
-              {% endcapture %}
-              {% assign alldatessplit = alldates | split: "," %}
-              <div>
-              {% for date in alldatessplit %}
-              {% if forloop.last %}
-            
-            {% else %}
-            <div class="label">
-              {{ date }} 
-            </div>
-            {% endif %}
-              {% endfor %}
-            </div>
             
 
           </div>
@@ -156,18 +158,36 @@ layout: default
               {% for tag in item.tags %}
               {% if tag == post.sub-pages %}
               {% if item.price %}
+              {% if item.community-free == true %}
 
-              Pris: {{ item.price }}.
+              <b>Pris</b><br>
+              Medlemmer: 0 kr. <br>
+              Ikke medlemmer: {{ item.price }} {% if item.ex-moms %}  (ekskl. moms){% endif %} |
+
+              {% else %}
+              {% if item.community-price %}
+              <b>Pris</b><br>
+              Medlemmer: {{ item.community-price }} {% if item.ex-moms %} (ekskl. moms){% endif %}<br>
+              Ikke medlemmer: {{ item.price }} {% if item.ex-moms %}  (ekskl. moms){% endif %} |
+
+              {% else %}
+
+              <b>Pris: {{ item.price }} {% if item.ex-moms %}  (ekskl. moms){% endif %}</b>|
+              {% endif %}
+              {% endif %}
               {% endif %}
               {% endif %}
               {% endfor %}
               {% endfor %}
               {% endcapture %}
-              {% assign allpricesplit = allprices | split: "." %}
+              {% assign allpricesplit = allprices | split: "|" %}
               {% for price in allpricesplit limit: 1 %}
-              <p><b>{{ price }}{% if post.ex-moms == true %} (ekskl. moms){% endif %}</b></p>
+              <p>{{ price }}</p>
 
               {% endfor %}
+
+
+
               {% capture allplaces %}
               {% assign orderposts = site.posts | order: "date" | reverse %}
               {% for item in orderposts %}
