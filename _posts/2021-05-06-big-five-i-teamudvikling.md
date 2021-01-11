@@ -17,7 +17,7 @@ billetto-nr: 506109
 community-price: 570,-
 ---
 
-### Big five i teamdannelse og -udvikling
+### Big Five i teamdannelse og -udvikling
 Nogle teams defineres alene på baggrund af faglige kompetencer, andre motiveres af personlige interesser, mens andre igen primært sammensættes alene på grund af fysisk tilstedeværelse og tid til rådighed. Men uanset grundlaget for teamets etablering, har det sociale samspil og dynamikkerne imellem team-deltagerne en afgørende betydning for, hvor velfungerende og produktivt teamet kan blive. 
 
 Inddragelse af Big Five personprofiler er et frugtbart redskab til at få sat fokus på teamets styrker og udfordringer. Enten som vejledende input i etableringen af et team, eller som omdrejningspunkt for undersøgelsen af muligheder, behov og udfordringer i opgavehåndtering og samarbejde i det etablerede team. 
