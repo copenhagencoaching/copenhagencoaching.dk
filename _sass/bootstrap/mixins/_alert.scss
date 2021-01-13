@@ -409,6 +409,24 @@ a {
   @include for-tablet {
     grid-template-columns: 1fr;
   }
+
+  &.slow-grid {
+    @include for-laptop {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  
+    @include for-bot {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    @include for-tablet {
+      grid-template-columns: 1fr 1fr;
+    }
+  
+    @include for-phone-only {
+      grid-template-columns: 1fr;
+    }
+  }
 }
 
 .grid-6 {

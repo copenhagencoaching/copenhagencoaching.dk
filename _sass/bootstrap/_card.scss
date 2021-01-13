@@ -15,6 +15,22 @@
   @include border-radius($card-border-radius);
   padding-bottom: 20px;
 
+  &.h-200 {
+    min-height: 200px;
+  }
+  &.no-border {
+    border: none;
+  }
+
+  &.right-bottom {
+    text-align: right;
+    align-items: flex-end;
+    align-content: flex-end;
+    padding: 20px 20px 5px 20px;
+    justify-content: flex-end;
+    justify-items: flex-end;
+  }
+
   &.blue {
     background-color: $ccc-blue;
     color: white !important;
@@ -83,6 +99,8 @@
 .card-title {
   margin-bottom: $card-spacer-y;
   margin-top: 5px;
+
+  
 }
 
 .card-subtitle {
@@ -162,6 +180,8 @@
   bottom: 0;
   left: 0;
   padding: $card-img-overlay-padding;
+  height: 200px;
+
 }
 
 .card-img,

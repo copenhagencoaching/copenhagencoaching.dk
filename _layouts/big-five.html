@@ -1,0 +1,124 @@
+---
+layout: default
+---
+<div class="full-banner grid-1 align-items-center align-content-center"
+    style="background: linear-gradient(rgba(19, 19, 19, 0.6), rgba(19, 19, 19, 0.6)), url('{{ page.image }}'); background-position: center; background-size: cover;">
+    <div class="container-fluid extra-narrow-container white">
+        <div>
+            <h1 class="h1-l">{{ page.header }}</h1>
+            <hr class="half-margin">
+
+            {% if page.sub-header %}
+            <h3>{{ page.sub-header }}</h3>
+            {% endif %}
+            {% if page.teaser %}<p>{{ page.teaser }}</p>{% else %}<p>{{ page.description }}</p> {% endif %}
+        </div>
+
+    </div>
+</div>
+
+<div class="container-fluid extra-narrow-container">
+
+
+    <div>
+        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+            <a class="nav-item nav-link active" id="nav-1-tab" data-toggle="tab" href="#nav-1" role="tab"
+                aria-controls="nav-coaching" aria-selected="false">Kursets opbygning</a>
+            <a class="nav-item nav-link" id="nav-2-tab" data-toggle="tab" href="#nav-2" role="tab" aria-controls="nav-2"
+                aria-selected="false">Deltager profil</a>
+            <a class="nav-item nav-link" id="nav-3-tab" data-toggle="tab" href="#nav-3" role="tab" aria-controls="nav-3"
+                aria-selected="false">Testimonials</a>
+            <a class="nav-item nav-link" id="nav-4-tab" data-toggle="tab" href="#nav-4" role="tab" aria-controls="nav-4"
+                aria-selected="false">Optagelseskrav</a>
+            <a class="nav-item nav-link" id="nav-5-tab" data-toggle="tab" href="#nav-5" role="tab" aria-controls="nav-5"
+                aria-selected="false">Praktisk info</a>
+            <a class="nav-item nav-link" id="nav-6-tab" data-toggle="tab" href="#nav-6" role="tab" aria-controls="nav-6"
+                aria-selected="false">Tilmelding</a>
+        </div>
+    </div>
+    <div class="tab-content" id="nav-tabContent">
+
+        <div class="tab-pane fade show active" id="nav-1" role="tabpanel" aria-labelledby="nav-1-tab">
+            <h2>Kursets opbygning</h2>
+            <h4>Enim nulla ut incididunt incididunt eiusmod minim reprehenderit irure.</h4>
+            <p>Ex exercitation ad ea esse labore consequat. Esse aute eu ad ipsum occaecat. Exercitation
+                cupidatat nisi proident et dolor id fugiat tempor cupidatat excepteur. Enim proident anim
+                deserunt voluptate mollit amet sint anim do dolor commodo. Ut in magna minim veniam anim velit
+                magna.</p>
+        </div>
+        <div class="tab-pane fade" id="nav-2" role="tabpanel" aria-labelledby="nav-2-tab">
+            <h2>Deltagerprofil</h2>
+            <h4>Enim nulla ut incididunt incididunt eiusmod minim reprehenderit irure.</h4>
+            <p>Ex exercitation ad ea esse labore consequat. Esse aute eu ad ipsum occaecat. Exercitation
+                cupidatat nisi proident et dolor id fugiat tempor cupidatat excepteur. Enim proident anim
+                deserunt voluptate mollit amet sint anim do dolor commodo. Ut in magna minim veniam anim velit
+                magna.</p>
+        </div>
+
+        <div class="tab-pane fade" id="nav-3" role="tabpanel" aria-labelledby="nav-3-tab">
+            <h2>Testimonials</h2>
+            <h4>Enim nulla ut incididunt incididunt eiusmod minim reprehenderit irure.</h4>
+            <p>Ex exercitation ad ea esse labore consequat. Esse aute eu ad ipsum occaecat. Exercitation
+                cupidatat nisi proident et dolor id fugiat tempor cupidatat excepteur. Enim proident anim
+                deserunt voluptate mollit amet sint anim do dolor commodo. Ut in magna minim veniam anim velit
+                magna.</p>
+        </div>
+        <div class="tab-pane fade" id="nav-4" role="tabpanel" aria-labelledby="nav-4-tab">
+            <h2>Optagelseskrav</h2>
+            <h4>Enim nulla ut incididunt incididunt eiusmod minim reprehenderit irure.</h4>
+            <p>Ex exercitation ad ea esse labore consequat. Esse aute eu ad ipsum occaecat. Exercitation
+                cupidatat nisi proident et dolor id fugiat tempor cupidatat excepteur. Enim proident anim
+                deserunt voluptate mollit amet sint anim do dolor commodo. Ut in magna minim veniam anim velit
+                magna.</p>
+        </div>
+
+        <div class="tab-pane fade" id="nav-5" role="tabpanel" aria-labelledby="nav-5-tab">
+            <h2>Praktisk info</h2>
+            <h4>Enim nulla ut incididunt incididunt eiusmod minim reprehenderit irure.</h4>
+            <p>Ex exercitation ad ea esse labore consequat. Esse aute eu ad ipsum occaecat. Exercitation
+                cupidatat nisi proident et dolor id fugiat tempor cupidatat excepteur. Enim proident anim
+                deserunt voluptate mollit amet sint anim do dolor commodo. Ut in magna minim veniam anim velit
+                magna.</p>
+        </div>
+        <div class="tab-pane fade" id="nav-6" role="tabpanel" aria-labelledby="nav-6-tab">
+            <h2>Tilmelding</h2>
+            <h4>Enim nulla ut incididunt incididunt eiusmod minim reprehenderit irure.</h4>
+            <p>Ex exercitation ad ea esse labore consequat. Esse aute eu ad ipsum occaecat. Exercitation
+                cupidatat nisi proident et dolor id fugiat tempor cupidatat excepteur. Enim proident anim
+                deserunt voluptate mollit amet sint anim do dolor commodo. Ut in magna minim veniam anim velit
+                magna.</p>
+        </div>
+    </div>
+    {% capture reg-url %}?n={{ page.title | uri_escape }}{% endcapture %}
+
+</div>
+
+<div style="background-color: #E1DCD8;">
+    <div class="container-fluid no-up narrow-container">
+        <div class="align-center">
+            <br>
+            <h3>Flere uddannelser</h3>
+          </div>
+          <br>
+        <div class="grid-5 slow-grid gap-40 r-gap-40 white">
+            {% assign educations = site.educations | where_exp:"item",
+"item.url != page.url" %}
+            {% for edu in educations limit: 5 %}
+           
+            <a href="{{ edu.url }}">
+
+            <div class="card no-border h-200 right-bottom" style="background: linear-gradient(rgba(19, 19, 19, 0.6), rgba(19, 19, 19, 0.6)), url('{{ edu.image }}'); background-position: center; background-size: cover;">
+                
+                   
+                        <h4 class="thin card-title">{{ edu.title }}</h3>
+                
+                  
+
+
+            </div>
+        </a>
+          
+            {% endfor %}
+        </div>
+    </div>
+</div>
