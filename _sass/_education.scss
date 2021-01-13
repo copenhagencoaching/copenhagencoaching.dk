@@ -12,9 +12,9 @@
 
     .education-content {
         padding-left: 0;
-        padding-right: 50px !important;
+        padding-right: 50px;
         @include for-cont {
-           
+           padding-right: 0;
         }
        
     }

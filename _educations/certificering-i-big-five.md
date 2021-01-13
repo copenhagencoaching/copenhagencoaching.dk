@@ -12,28 +12,15 @@ event-title: Kommende hold
 location: Blegdamsvej 104C, 3. sal, baghuset th., 2100 København Ø
 special: false
 hold_eller_begivenheder: true
+classes: big-five
 events:
-- overskrift: Hold 7 - Efterår 2020
-  subcategory: true
-  subcat:
-  - sub-cat-title: On site
-    datoer:
-    - Ons 21/10 | 9.30-16.00 | Introdag på Blegdamsvej
-  - sub-cat-title: Online
-    datoer:
-    - Ons 4/11 | 10.00-12.00 | Q&A i forlængelse af webinarer
-    - Tor 12/11 | 9.30-14.00 | Workshop, tilbagemeldingssamtalen
-    - Ons 25/11 | 9.30-16.00 | Certificering
-  - sub-cat-title: Selvstudie
-    datoer:
-    - 21/10 - 4/11 | Webinar 1-3
-    - 21/10 - 25/11 | Webinar 4
-  - sub-cat-title: Webinarer (á ca 2 timers varighed)
-    datoer:
-    - 1. Personlighedspsykologi
-    - 2. Big Five model/teori
-    - 3. Big Five testrapport og feedback
-    - 4. Erhvervsrettet testning
+- overskrift: Online Big Five Feb 2021
+  dato:
+  - 2. februar
+  - 8. februar
+  - 23. februar
+  - 1. marts
+  - 3. marts
 ---
 **Du kan trygt melde dig til vores næste hold. Vi følger situationen og de løbende retningslinjer nøje for at undgå spredningen af covid-19.**
 

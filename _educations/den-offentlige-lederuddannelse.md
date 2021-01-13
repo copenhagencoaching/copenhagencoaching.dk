@@ -3,17 +3,13 @@ order: "7"
 title: Den offentlige lederuddannelse
 image: "/images/academy/den-offentlige-lederuddannelse.png"
 contact-person: Frederikke Winther
+layout: dol
 header: Den offentlige lederuddannelse
+sub-header: Få ny indsigt - og større udsyn - i dit lederskab
 price: 'Vejledende pris: 7.500 ekskl. moms pr. 5 ECTS'
 pdf: 'false'
 event-title: Vi starter løbende hold op - ring og hør nærmere
 special: false
-hold_eller_begivenheder: true
-events:
-- overskrift: Coaching (valgfagsmodul) 30. januar 2020
-  dato:
-  - 30/1, 13/2 og 5/3 (aflevering midt april og eksamen start maj)
-
 ---
 **Du kan trygt melde dig til vores næste hold. Vi følger situationen og de løbende retningslinjer nøje for at undgå spredningen af covid-19.**
 
@@ -36,5 +32,9 @@ Hos CCC kan du tage følgende DOL-moduler:
 * Specialemodul (15 ECTS)
 
 De forskellige DOL-moduler har forskellige form og varighed – kontakt os og få mere information om de enkelte moduler.
+
+### Optagelseskrav
+
+For at deltage i modulerne skal du have en gymnasial uddannelse + 2 års erhvervserfaring. Det er dog også muligt at få foretaget en realkompetencevurdering, hvis du ikke opfylder de formelle krav
 
 CCC samarbejder med Københavns Professionshøjskole, og via dette samarbejde kan du kombinere dine fag, så du opnår en fuld diplom. Du kan se hvilke fag de har [her](https://www.phmetropol.dk/videreuddannelser/diplomuddannelser/diplom+i+ledelse)

@@ -45,15 +45,22 @@
 //
 
 .nav-tabs {
-  border-bottom: $nav-tabs-border-width solid $nav-tabs-border-color;
+  
+  
 
   .nav-item {
     margin-bottom: -$nav-tabs-border-width;
+    
   }
 
   .nav-link {
     border: $nav-tabs-border-width solid transparent;
-    @include border-top-radius($nav-tabs-border-radius);
+    /* @include border-top-radius($nav-tabs-border-radius); */
+    background-color: $ccc-blue;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    color: white;
+    padding: 5px 10px;
 
    
 
@@ -61,6 +68,11 @@
       color: $nav-link-disabled-color;
       background-color: transparent;
       border-color: transparent;
+    }
+
+    &.active {
+      background-color: $ccc-green;
+      color: white;
     }
   }
 
@@ -122,6 +134,7 @@
 // Hide tabbable panes to start, show them when `.active`
 
 .tab-content {
+  padding-top: 20px;
   > .tab-pane {
     display: none;
   }
