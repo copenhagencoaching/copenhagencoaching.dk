@@ -21,6 +21,7 @@
     display: inline;
     text-transform: none !important;
     font-size: .875rem !important;
+
     @include for-bot {
       font-weight: 400;
       font-size: 0.8rem;
@@ -45,12 +46,21 @@
 //
 
 .nav-tabs {
-  
-  
+
+  &.brown-pallette {
+    .nav-link {
+      background-color: #E1DCD8;
+      color: #333333;
+      &.active {
+        background-color: #B9927A;
+      }
+    }
+  }
+
 
   .nav-item {
     margin-bottom: -$nav-tabs-border-width;
-    
+
   }
 
   .nav-link {
@@ -62,7 +72,6 @@
     color: white;
     padding: 5px 10px;
 
-   
 
     &.disabled {
       color: $nav-link-disabled-color;
@@ -73,10 +82,14 @@
     &.active {
       background-color: $ccc-green;
       color: white;
+
+      &.brown-pallette {
+        background-color: #B9927A;
+      }
     }
   }
 
-  
+
   .nav-item.show .nav-link {
     color: $dark-grey;
     background-color: $nav-tabs-link-active-bg;
@@ -102,8 +115,8 @@
   }
 
   .nav-link.active,
-  .show > .nav-link {
-    
+  .show>.nav-link {
+
     background-color: $nav-pills-link-active-bg;
   }
 }
@@ -135,10 +148,12 @@
 
 .tab-content {
   padding-top: 20px;
-  > .tab-pane {
+
+  >.tab-pane {
     display: none;
   }
-  > .active {
+
+  >.active {
     display: block;
   }
 }

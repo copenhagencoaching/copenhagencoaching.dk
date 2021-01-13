@@ -90,7 +90,7 @@ layout: default
 
     <div class="grid-2 gap-40 r-gap-40">
 
-      {% assign orderedPosts = site.posts | sort: order %}
+      {% assign orderedPosts = site.tags.event | sort: order %}
       {% for post in orderedPosts %}
       {% for tag in post.tags %}
 

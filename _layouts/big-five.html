@@ -11,7 +11,13 @@ layout: default
             {% if page.sub-header %}
             <h3>{{ page.sub-header }}</h3>
             {% endif %}
-            {% if page.teaser %}<p>{{ page.teaser }}</p>{% else %}<p>{{ page.description }}</p> {% endif %}
+            {% if page.teaser %}<p class="large">{{ page.teaser }}</p>{% else %}<p class="large">{{ page.description }}
+            </p> {% endif %}
+            <br>
+            <a class="brown-btn large thin white">
+                Hør mere
+            </a>
+
         </div>
 
     </div>
@@ -21,7 +27,7 @@ layout: default
 
 
     <div>
-        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+        <div class="nav nav-tabs brown-pallette" id="nav-tab" role="tablist">
             <a class="nav-item nav-link active" id="nav-1-tab" data-toggle="tab" href="#nav-1" role="tab"
                 aria-controls="nav-coaching" aria-selected="false">Kursets opbygning</a>
             <a class="nav-item nav-link" id="nav-2-tab" data-toggle="tab" href="#nav-2" role="tab" aria-controls="nav-2"
@@ -34,6 +40,8 @@ layout: default
                 aria-selected="false">Praktisk info</a>
             <a class="nav-item nav-link" id="nav-6-tab" data-toggle="tab" href="#nav-6" role="tab" aria-controls="nav-6"
                 aria-selected="false">Tilmelding</a>
+            <a class="nav-item nav-link" id="nav-7-tab" data-toggle="tab" href="#nav-7" role="tab" aria-controls="nav-7"
+                aria-selected="false">Seminarer</a>
         </div>
     </div>
     <div class="tab-content" id="nav-tabContent">
@@ -88,37 +96,83 @@ layout: default
                 deserunt voluptate mollit amet sint anim do dolor commodo. Ut in magna minim veniam anim velit
                 magna.</p>
         </div>
+        <div class="tab-pane fade" id="nav-7" role="tabpanel" aria-labelledby="nav-7-tab">
+            <h2>Seminarer</h2>
+            <h4>Enim nulla ut incididunt incididunt eiusmod minim reprehenderit irure.</h4>
+            <p>Ex exercitation ad ea esse labore consequat. Esse aute eu ad ipsum occaecat. Exercitation
+                cupidatat nisi proident et dolor id fugiat tempor cupidatat excepteur. Enim proident anim
+                deserunt voluptate mollit amet sint anim do dolor commodo. Ut in magna minim veniam anim velit
+                magna.</p>
+            <a href="/inspiration/de-6-big-five-temaer" class="lightbrown-btn thin white">
+                Læs mere
+            </a>
+        </div>
     </div>
     {% capture reg-url %}?n={{ page.title | uri_escape }}{% endcapture %}
 
 </div>
 
 <div style="background-color: #E1DCD8;">
-    <div class="container-fluid no-up narrow-container">
+    <div class="container-fluid narrow-container">
         <div class="align-center">
-            <br>
-            <h3>Flere uddannelser</h3>
-          </div>
-          <br>
+            <h3>Interesseret i vores andre uddannelser?</h3>
+        </div>
+        <br>
         <div class="grid-5 slow-grid gap-40 r-gap-40 white">
             {% assign educations = site.educations | where_exp:"item",
-"item.url != page.url" %}
+            "item.url != page.url" %}
             {% for edu in educations limit: 5 %}
-           
+
             <a href="{{ edu.url }}">
 
-            <div class="card no-border h-200 right-bottom" style="background: linear-gradient(rgba(19, 19, 19, 0.6), rgba(19, 19, 19, 0.6)), url('{{ edu.image }}'); background-position: center; background-size: cover;">
-                
-                   
-                        <h4 class="thin card-title">{{ edu.title }}</h3>
-                
-                  
+                <div class="card no-border h-200 right-bottom"
+                    style="background: linear-gradient(rgba(19, 19, 19, 0.6), rgba(19, 19, 19, 0.6)), url('{{ edu.image }}'); background-position: center; background-size: cover;">
 
+                    <h4 class="capped medium card-title">{{ edu.title }}</h3>
 
-            </div>
-        </a>
-          
+                </div>
+            </a>
+
             {% endfor %}
         </div>
     </div>
+    <br><br>
 </div>
+<br><br>
+
+<div style="background-color: #949C9B;">
+<div class="container-fluid extra-narrow-container">
+
+
+
+
+    <div class="grid-2 gap-40 white">
+        <div>
+            <h3>Bliv ven af huset</h3>
+            <h1>Følg os</h1>
+            <p>Modtag information og tilbud om vores kommende kurser og events, samt andre inspirerende nyheder fra
+                CCC.</p>
+                <a href="/nyhedsbrev" class="brown-btn thin white">Tilmeld mig nyhedsbrev</a>
+        </div>
+        <div class="align-center">
+            <h4>Du kan også følge os og komme i dialog med os på nedenstående kanaler:</h4><br>
+            <div class="social-a">
+                <a data-proofer-ignore href="https://www.facebook.com/copenhagencoachingdk-169785200063933/"
+                    target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a data-proofer-ignore href="https://www.linkedin.com/company/copenhagen-coaching-center"
+                    target="_blank" data-proofer-ignore><i class="fab fa-linkedin-in"></i></a>
+                <a data-proofer-ignore href="https://www.instagram.com/explore/tags/copenhagencoachingcenter/"
+                    target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+
+            <br>
+           
+        </div>
+    </div>
+
+
+
+</div>
+</div>
+<br>
+<br>

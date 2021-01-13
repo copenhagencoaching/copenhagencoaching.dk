@@ -113,6 +113,14 @@ small,
   text-transform: uppercase;
 }
 
+.medium {
+  font-weight: 400;
+}
+
+.capped {
+  text-transform: uppercase;
+}
+
 mark,
 .mark {
   padding: $mark-padding;
