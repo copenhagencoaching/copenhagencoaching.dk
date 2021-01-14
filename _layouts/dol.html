@@ -2,269 +2,275 @@
 layout: default
 ---
 
-<div class="container-fluid narrow-container">
-    {% if page.header %}
-    <div class="hero-banner wide udd">
+<div class="full-banner grid-1 align-items-center align-content-center"
+    style="background: linear-gradient(rgba(19, 19, 19, 0.6), rgba(19, 19, 19, 0.6)), url('{{ page.image }}'); background-position: center; background-size: cover;">
+    <div class="container-fluid extra-narrow-container white">
+        <div>
+            <h1 class="h1-l">{{ page.header }}</h1>
+            <hr class="half-margin">
 
-        <div class="hero-banner-text">
-            <h1 class="banner-title">{{ page.header }}</h1>
             {% if page.sub-header %}
-            <h2>{{ page.sub-header }}</h2>
+            <h3>{{ page.sub-header }}</h3>
             {% endif %}
-            {% if page.teaser %}<p>{{ page.teaser }}</p>{% else %}<p>{{ page.description }}</p> {% endif %}
-        </div>
-        <div class="hero-banner-image m-bottom">
+            {% if page.teaser %}<p class="large">{{ page.teaser }}</p>{% else %}<p class="large">{{ page.description }}
+            </p> {% endif %}
+            <br>
+            <a class="dust-green-btn large thin white" data-proofer-ignore href="#big-five" data-toggle="modal"
+                data-target="#bf-modal">Hør mere</a>
 
-            <div class="color-box"></div>
-            <div class="hero-image">
-                <img src="{{ page.image }}" data-proofer-ignore alt="{{ page.title }}">
-            </div>
-        </div>
-
-    </div>
-    {% endif %}
-    <div class="grid-2 justify-content-between grid-auto-5 r-gap-40">
-        <div class="education-content">
-            <div>
-                <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                    <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab"
-                        aria-controls="nav-home" aria-selected="true">Info</a>
-                    <a class="nav-item nav-link" id="nav-coaching-tab" data-toggle="tab" href="#nav-coaching" role="tab"
-                        aria-controls="nav-coaching" aria-selected="false">Coaching</a>
-                    <a class="nav-item nav-link" id="nav-2-tab" data-toggle="tab" href="#nav-2" role="tab"
-                        aria-controls="nav-2" aria-selected="false">Ledelse og filosofi</a>
-                    <a class="nav-item nav-link" id="nav-3-tab" data-toggle="tab" href="#nav-3" role="tab"
-                        aria-controls="nav-3" aria-selected="false">Ledelse af forandring og udviklingsprocesser</a>
-                    <a class="nav-item nav-link" id="nav-4-tab" data-toggle="tab" href="#nav-4" role="tab"
-                        aria-controls="nav-4" aria-selected="false">Projektledelse</a>
-                    <a class="nav-item nav-link" id="nav-5-tab" data-toggle="tab" href="#nav-5" role="tab"
-                        aria-controls="nav-5" aria-selected="false">Specialemodul</a>
-                </div>
-            </div>
-            <div class="tab-content" id="nav-tabContent">
-                <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-                    <h2>Info</h2>
-                    {{ page.content }}
-                </div>
-                <div class="tab-pane fade" id="nav-coaching" role="tabpanel" aria-labelledby="nav-coaching-tab">
-                    <h2>Coaching</h2>
-                    <h4>START: 15. DECEMBER 2020 / 5 ECTS POINTS / PRIS 7.500,- KR EKSKL. MOMS </h4>
-                    <p>Få udviklet dine dialogiske kompetencer, så du kan gøre brug af de mest basale
-                        coachingværktøjer efter behov i din daglige praksis. Få overblik over de forskellige praktiske
-                        og teoretiske tilgange, der er til coaching. Du får også viden om, hvordan coaching kan bruges
-                        i organisationer - herunder den strategiske anvendelse, funktion og kobling. Du trænes i at
-                        diskutere og håndtere coachingopgaver og -udfordringer på et fagligt kvalificeret niveau.
-                        Forløbet er baseret på online undervisning i små hold samt et personligt, individuelt
-                        vejledningsforløb frem mod aflevering af en skriftlig opgave (5-6 sider), efterfulgt af en
-                        mundtlig eksamination.</p>
-                    <p><b>5 online sessioner á 3 timers varighed: 15/12, 22/12, 6/1, 12/1 og 18/1. Alle dage
-                            9.00-12.00.</b></p>
-                    <p>Eksamen afholdes ca. 3 uger efter endt undervisning.</p>
-                </div>
-                <div class="tab-pane fade" id="nav-2" role="tabpanel" aria-labelledby="nav-2-tab">
-                    <h2>Ledelse og filosofi</h2>
-                    <h4>START: 14. JANUAR 2021 / 5 ECTS POINTS / PRIS 7.500,- KR EKSKL. MOMS</h4>
-                    <p>Få forståelse for, hvordan forskellige filosofiske tilgange til ledelsespraktikken kan bidrage og
-                        løfte dig i dine ledelsesfunktioner. Herunder indblik i logikken bag forskellige etiske
-                        positioner med henblik på at kunne handle i overensstemmelse med de rette etiske grunde på
-                        relevant vis i forhold til konkrete situationer. Du bliver kompetent til at skelne mellem
-                        systemisk, filosofisk, narrativt m.m. grundlag for ledelse med henblik på at kunne operere på
-                        disse baggrunde i din daglige ledelse. Modulet giver dig, som offentlig leder eller kommende
-                        leder, handlingsorienteret viden om, hvordan etik og filosofi kan anvendes i den organisatoriske
-                        praksis. Gennem cases som du selv medbringer fra dit ledelsesmæssige virke arbejder du med
-                        filosofiske teorier med henblik på at sætte "de gode grunde" i spil i den offentlige
-                        organisation. Forløbet er baseret på online undervisning i små hold samt et personligt,
-                        individuelt vejledningsforløb frem mod aflevering af en skriftlig opgave (5-6 sider), efterfulgt
-                        af en mundtlig eksamination.</p>
-                    <p><b>5 online sessioner á 3 timers varighed: 14/1, 21/1, 28/1, 3/2 og 9/2. Alle dage 9.00-12.00</b>
-                    </p>
-                    <p>Eksamen afholdes ca. 3 uger efter endt undervisning.</p>
-                </div>
-
-                <div class="tab-pane fade" id="nav-3" role="tabpanel" aria-labelledby="nav-3-tab">
-                    <h2>Ledelse af forandring og udviklingsprocesser</h2>
-                    <h4>START: 11. MARTS 2021 / 5 ECTS POINTS / PRIS 7.500,- KR EKSKL. MOMS</h4>
-                    <p>Få viden, værktøjer og inspiration til at se, forstå, lede og vejlede forandringsprocesser med
-                        henblik på udvikling og fornyelse i organisationen. Både de processer, du selv sætter i gang som
-                        leder, og også dem, du indgår i som deltager. Modulet vil gøre dig i stand til at omsætte
-                        teorier og modeller om forandringsledelse og organisationsudvikling i praksis således, at din
-                        måde at lede udvikling og forandring i organisationen på bliver praktisk begrundet, teoretisk
-                        funderet og tilpasset konkrete situationer, kontekster og mål. Forløbet er baseret på online
-                        undervisning i små hold samt et personligt, individuelt vejledningsforløb frem mod aflevering af
-                        en skriftlig opgave (5-6 sider), efterfulgt af en mundtlig eksamination.</p>
-                    <p><b>5 online sessioner á 3 timers varighed: 11/3, 18/3, 25/3, 31/3 og 8/4. Alle dage
-                            9.00-12.00.</b>
-                    </p>
-                    <p>Eksamen afholdes ca. 3 uger efter endt undervisning.</p>
-                </div>
-                <div class="tab-pane fade" id="nav-4" role="tabpanel" aria-labelledby="nav-4-tab">
-                    <h2>Projektledelse</h2>
-                    <h4>START: EFTERÅR 2021 / 5 ECTS POINTS / PRIS 7.500,- KR EKSKL. MOMS</h4>
-                    <p>Lær at lede projekter på en måde, som både er målrettet, inkluderende og kreativ. Du får
-                        indsigt i projektarbejdets forskellige faser og dimensioner og bliver trænet i at genkende og
-                        håndtere de muligheder og udfordringer, der knytter sig til menneskelige udviklings-,
-                        samarbejds- og forandringsprocesser. Du får desuden redskaber til at planlægge, gennemføre og
-                        evaluere projekter på måder, som er i overensstemmelse med projekternes omgivelser, deltagere,
-                        ressourcer og målsætning og skaber ny viden og værdi for organisationen. Forløbet er baseret på
-                        online undervisning i små hold samt et personligt, individuelt vejledningsforløb frem mod
-                        aflevering af en skriftlig opgave (5-6 sider), efterfulgt af en mundtlig eksamination.</p>
-                    <p><b>5 online sessioner á 3 timers varighed: [datoer følger] Alle dage 9.00-12.00. </b>
-                    </p>
-                    <p>Eksamen afholdes ca. 3 uger efter endt undervisning.</p>
-                </div>
-
-                <div class="tab-pane fade" id="nav-5" role="tabpanel" aria-labelledby="nav-5-tab">
-                    <h2>Specialemodul</h2>
-                    <h4>START: EFTERÅR 2021 / 15 ECTS POINTS / PRIS 21.000,- KR EKSKL. MOMS </h4>
-                    <p>Modulet kvalificerer dig til at kunne identificere, reflektere og analysere en tværfaglig
-                        ledelsesproblemstilling fra praksis og angive løsninger og handlemuligheder gennem udvalgte
-                        teorier, strategier og metoder med relevans for pågældende problematik. På modulet arbejder du
-                        med en syntese af strategiske, metodiske og videnskabsteoretiske perspektiver i sammenhæng med
-                        dit eget (kommende) lederskab i en konkret praksissammenhæng. Omdrejnings-punktet for specialet
-                        vil som hovedregel være et tema/-problemstilling fra dagligdagen, men kan også vedrøre mere
-                        overordnede organisatoriske, teoretiske eller samfundsmæssige udfordringer. Faglige vinkler og
-                        interesseområder fra øvrige moduler på uddannelsen integreres og kobles sammen, således at såvel
-                        undersøgelsesprocessen som det færdige speciale vil udfolde og afspejle den professionelle
-                        kompetenceudvikling, du har gennemgået på den offentlige lederuddannelse. Forløbet er baseret på
-                        online undervisning i små hold samt et personligt, individuelt vejledningsforløb.</p>
-                    <p><b>8 online sessioner á 3 timers varighed: [datoer følger] Alle dage 9.00-12.00.</b>
-                    </p>
-                    <p>Eksamen afholdes ca. 3 uger efter endt undervisning.</p>
-                </div>
-            </div>
-            {% capture reg-url %}?n={{ page.title | uri_escape }}{% endcapture %}
-        </div>
-        <div class="facta-column">
-            <div class="facta-box">
-
-                {% if page.extern-event %}
-                {% for post in site.posts %}
-                {% if post.title == page.extern-event %}
-                <div class="card">
-                    <div class="card-body">
-                        <a href="{{ post.url }}">
-                            <h4>{{ post.title }}</h4>
-
-                            <p>{{ page.extern-event-text}}</p>
-
-                        </a>
-                    </div>
-                </div>
-
-                {% endif %}
-                {% endfor %}
-                {% endif %}
-                <b>
-                    <p>Pris:</p>
-                </b>
-                <p> {{ page.price }} </p>
-                {% if page.location %}
-                <b>
-                    <p>Sted:</p>
-                </b>
-                <p> {{ page.location }} </p>
-                {% endif %}
-
-                <!-- Datoer  -->
-
-                {% if page.hold_eller_begivenheder == true %}
-                <b>
-                    <p>{{page.event-title}}:</p>
-                </b>
-
-                {% for event in page.events %}
-
-                {% if event.subcategory == true %}
-
-
-                <h3>{{ event.overskrift }}</h3>
-
-                {% for subcat in event.subcat %}
-                <div class="date-box">
-                    <a class="date-links" role="button">
-                        {{ subcat.sub-cat-title }}<i class="fas fa-caret-down"></i>
-                    </a>
-                    <div id="dateCollapse" class="collapse-dates">
-                        <ul>
-                            {% for dato in subcat.datoer %}
-                            <li>
-                                {{ dato }}
-                            </li>
-                            {% endfor %}
-                        </ul>
-                    </div>
-                </div>
-                {% endfor %}
-
-                {% else %}
-
-                {% if event.dato %}
-                <div class="date-box">
-                    <a class="date-links" role="button">
-                        {{ event.overskrift }}<i class="fas fa-caret-down"></i>
-                    </a>
-                    <div id="dateCollapse" class="collapse-dates">
-                        <ul>
-                            {% for dato in event.dato %}
-                            <li>
-                                {{ dato }}
-                            </li>
-                            {% endfor %}
-                        </ul>
-                    </div>
-                </div>
-                {% else %}
-                <div class="date-box">{{ event.overskrift }}</div>
-
-                {% endif %}
-
-
-                {% endif %}
-
-
-                {% endfor %}
-
-
-                {% else %}
-                <!--1-->
-                {{ page.hold_information }}
-                {% endif %}
-                <!--1-->
-
-                {% if page.contact-person %}
-                <b>
-                    <p>Kontakt:</p>
-                </b>
-                {% for employee in site.employees %}
-                {% if employee.title == page.contact-person %}
-                <div class="contact">
-                    <img class="contact-img" src="{{ employee.small-portrait-image }}"
-                        alt="{{ employee.title }}, {{ employee.description}}">
-                    <div>
-                        <a href="{{ employee.url }}" data-proofer-ignore>{{ employee.title }}</a>
-                        <a href="tel:{{ employee.call }}" data-proofer-ignore>{{ employee.call }}</a>
-                        <a href="mailto:{{ employee.email }}" data-proofer-ignore>{{ employee.email }}</a>
-                    </div>
-                </div>
-                {% endif %}
-                {% endfor %}
-                {% endif %}
-                </span>
-                <br>
-                <a class="reg-link" href="/registration/{{ reg-url }}">Tilmeld dig her</a>
-
-                {% if page.pdf %}
-                {% if page.pdf != "" %}
-                <a data-proofer-ignore target="_blank" alt="pdf {{ page.title }}" href="{{ page.pdf }}"
-                    class="pdf-link">Download
-                    PDF</a>
-                {% endif %}
-
-
-
-                {% endif %}
-            </div>
         </div>
 
     </div>
 </div>
+
+<div class="container-fluid extra-narrow-container">
+
+
+    <div>
+        <div class="nav nav-tabs black-pallette" id="nav-tab" role="tablist">
+            <a class="nav-item nav-link active" id="nav-1-tab" data-toggle="tab" href="#nav-1" role="tab"
+                aria-controls="nav-coaching" aria-selected="false">Overblik</a>
+            <a class="nav-item nav-link" id="nav-2-tab" data-toggle="tab" href="#nav-2" role="tab" aria-controls="nav-2"
+                aria-selected="false">Opbygning</a>
+            <a class="nav-item nav-link" id="nav-3-tab" data-toggle="tab" href="#nav-3" role="tab" aria-controls="nav-3"
+                aria-selected="false">Deltagerprofil</a>
+            <a class="nav-item nav-link" id="nav-4-tab" data-toggle="tab" href="#nav-4" role="tab" aria-controls="nav-4"
+                aria-selected="false">Anbefalinger</a>
+            <a class="nav-item nav-link" id="nav-5-tab" data-toggle="tab" href="#nav-5" role="tab" aria-controls="nav-5"
+                aria-selected="false">Undervisere</a>
+            <a class="nav-item nav-link" id="nav-6-tab" data-toggle="tab" href="#nav-6" role="tab" aria-controls="nav-6"
+                aria-selected="false">Praktisk</a>
+            <a class="nav-item nav-link" id="nav-8-tab" data-toggle="tab" href="#nav-8" role="tab" aria-controls="nav-8"
+                aria-selected="false">Tilmelding</a>
+            <a class="nav-item nav-link" id="nav-9-tab" data-toggle="tab" href="#nav-9" role="tab" aria-controls="nav-9"
+                aria-selected="false">Seminarer</a>
+        </div>
+    </div>
+    <div class="tab-content" id="nav-tabContent">
+
+        <div class="tab-pane fade show active" id="nav-1" role="tabpanel" aria-labelledby="nav-1-tab">
+            {{ page.content }}
+
+           
+
+            <div class="grid-3 slow-grid gap-20 white">
+                <div><button class="dust-green-btn full-width">
+                        <div class="grid-80-20">
+                            <div class="align-left">
+                                Tilmeld dig nu
+                            </div>
+                            <div class="align-right"><i class="fas fa-check"></i></div></i>
+                        </div>
+                    </button>
+                </div>
+                <div><button class="dust-green-btn full-width">
+                        <div class="grid-80-20">
+                            <div class="align-left">
+                                Reservér plads
+                            </div>
+                            <div class="align-right"><i class="fas fa-chair"></i></div></i>
+                        </div>
+                </div>
+                <div><button class="dust-green-btn full-width">
+                        <div class="grid-80-20">
+                            <div class="align-left">
+                                Download brochure
+                            </div>
+                            <div class="align-right"><i class="fas fa-download"></i></div></i>
+                        </div>
+                    </button></div>
+
+            </div>
+        </div>
+        <div class="tab-pane fade" id="nav-2" role="tabpanel" aria-labelledby="nav-2-tab">
+            <h2>Opbygning</h2>
+            <h4>Enim nulla ut incididunt incididunt eiusmod minim reprehenderit irure.</h4>
+            <p>Ex exercitation ad ea esse labore consequat. Esse aute eu ad ipsum occaecat. Exercitation
+                cupidatat nisi proident et dolor id fugiat tempor cupidatat excepteur. Enim proident anim
+                deserunt voluptate mollit amet sint anim do dolor commodo. Ut in magna minim veniam anim velit
+                magna.</p>
+        </div>
+
+        <div class="tab-pane fade" id="nav-3" role="tabpanel" aria-labelledby="nav-3-tab">
+            <h2>Deltagerprofil</h2>
+            <h4>Enim nulla ut incididunt incididunt eiusmod minim reprehenderit irure.</h4>
+            <p>Ex exercitation ad ea esse labore consequat. Esse aute eu ad ipsum occaecat. Exercitation
+                cupidatat nisi proident et dolor id fugiat tempor cupidatat excepteur. Enim proident anim
+                deserunt voluptate mollit amet sint anim do dolor commodo. Ut in magna minim veniam anim velit
+                magna.</p>
+        </div>
+        <div class="tab-pane fade" id="nav-4" role="tabpanel" aria-labelledby="nav-4-tab">
+            <h2>Anbefalinger</h2>
+            <h4>Enim nulla ut incididunt incididunt eiusmod minim reprehenderit irure.</h4>
+            <p>Ex exercitation ad ea esse labore consequat. Esse aute eu ad ipsum occaecat. Exercitation
+                cupidatat nisi proident et dolor id fugiat tempor cupidatat excepteur. Enim proident anim
+                deserunt voluptate mollit amet sint anim do dolor commodo. Ut in magna minim veniam anim velit
+                magna.</p>
+        </div>
+
+        <div class="tab-pane fade" id="nav-5" role="tabpanel" aria-labelledby="nav-5-tab">
+            <h2>Undervisere</h2>
+            <h4>Enim nulla ut incididunt incididunt eiusmod minim reprehenderit irure.</h4>
+            <p>Ex exercitation ad ea esse labore consequat. Esse aute eu ad ipsum occaecat. Exercitation
+                cupidatat nisi proident et dolor id fugiat tempor cupidatat excepteur. Enim proident anim
+                deserunt voluptate mollit amet sint anim do dolor commodo. Ut in magna minim veniam anim velit
+                magna.</p>
+        </div>
+        <div class="tab-pane fade" id="nav-6" role="tabpanel" aria-labelledby="nav-6-tab">
+            <h2>Praktisk</h2>
+            <h4>Enim nulla ut incididunt incididunt eiusmod minim reprehenderit irure.</h4>
+            <p>Ex exercitation ad ea esse labore consequat. Esse aute eu ad ipsum occaecat. Exercitation
+                cupidatat nisi proident et dolor id fugiat tempor cupidatat excepteur. Enim proident anim
+                deserunt voluptate mollit amet sint anim do dolor commodo. Ut in magna minim veniam anim velit
+                magna.</p>
+            <h3>Finansering</h3>
+            <h4>Enim nulla ut incididunt incididunt eiusmod minim reprehenderit irure.</h4>
+            <p>Ex exercitation ad ea esse labore consequat. Esse aute eu ad ipsum occaecat. Exercitation
+                cupidatat nisi proident et dolor id fugiat tempor cupidatat excepteur. Enim proident anim
+                deserunt voluptate mollit amet sint anim do dolor commodo. Ut in magna minim veniam anim velit
+                magna.</p>
+        </div>
+
+        <div class="tab-pane fade" id="nav-8" role="tabpanel" aria-labelledby="nav-8-tab">
+            <h2>Tilmelding</h2>
+            <h4>Enim nulla ut incididunt incididunt eiusmod minim reprehenderit irure.</h4>
+            <p>Ex exercitation ad ea esse labore consequat. Esse aute eu ad ipsum occaecat. Exercitation
+                cupidatat nisi proident et dolor id fugiat tempor cupidatat excepteur. Enim proident anim
+                deserunt voluptate mollit amet sint anim do dolor commodo. Ut in magna minim veniam anim velit
+                magna.</p>
+        </div>
+        <div class="tab-pane fade" id="nav-9" role="tabpanel" aria-labelledby="nav-9-tab">
+            <h2>Seminarer</h2>
+            <h4>Enim nulla ut incididunt incididunt eiusmod minim reprehenderit irure.</h4>
+            <p>Ex exercitation ad ea esse labore consequat. Esse aute eu ad ipsum occaecat. Exercitation
+                cupidatat nisi proident et dolor id fugiat tempor cupidatat excepteur. Enim proident anim
+                deserunt voluptate mollit amet sint anim do dolor commodo. Ut in magna minim veniam anim velit
+                magna.</p>
+
+        </div>
+    </div>
+    {% capture reg-url %}?n={{ page.title | uri_escape }}{% endcapture %}
+
+</div>
+
+<div class="align-center container-fluid no-down">
+    <h1>Valgfag</h1>
+</div>
+<br>
+
+<div class="bg-platinum">
+    <div class="container-fluid extra-narrow-container">
+        
+        <h2>Coaching</h2>
+        <p><b>START: 15. DECEMBER 2020 / 5 ECTS POINTS / PRIS 7.500,- KR EKSKL. MOMS</b></p>
+        <p>Få udviklet dine dialogiske kompetencer, så du kan gøre brug af de mest basale
+            coachingværktøjer efter behov i din daglige praksis. Få overblik over de forskellige praktiske
+            og teoretiske tilgange, der er til coaching. Du får også viden om, hvordan coaching kan bruges
+            i organisationer - herunder den strategiske anvendelse, funktion og kobling. Du trænes i at
+            diskutere og håndtere coachingopgaver og -udfordringer på et fagligt kvalificeret niveau.
+            Forløbet er baseret på online undervisning i små hold samt et personligt, individuelt
+            vejledningsforløb frem mod aflevering af en skriftlig opgave (5-6 sider), efterfulgt af en
+            mundtlig eksamination.</p>
+        <p><b>5 online sessioner á 3 timers varighed: 15/12, 22/12, 6/1, 12/1 og 18/1. Alle dage
+                9.00-12.00.</b></p>
+        <p>Eksamen afholdes ca. 3 uger efter endt undervisning.</p>
+    </div>
+</div>
+
+
+<div class="container-fluid extra-narrow-container">
+    <h2>Ledelse og filosofi</h2>
+    <p><b>START: 14. JANUAR 2021 / 5 ECTS POINTS / PRIS 7.500,- KR EKSKL. MOMS</b></p>
+    <p>Få forståelse for, hvordan forskellige filosofiske tilgange til ledelsespraktikken kan bidrage og
+        løfte dig i dine ledelsesfunktioner. Herunder indblik i logikken bag forskellige etiske
+        positioner med henblik på at kunne handle i overensstemmelse med de rette etiske grunde på
+        relevant vis i forhold til konkrete situationer. Du bliver kompetent til at skelne mellem
+        systemisk, filosofisk, narrativt m.m. grundlag for ledelse med henblik på at kunne operere på
+        disse baggrunde i din daglige ledelse. Modulet giver dig, som offentlig leder eller kommende
+        leder, handlingsorienteret viden om, hvordan etik og filosofi kan anvendes i den organisatoriske
+        praksis. Gennem cases som du selv medbringer fra dit ledelsesmæssige virke arbejder du med
+        filosofiske teorier med henblik på at sætte "de gode grunde" i spil i den offentlige
+        organisation. Forløbet er baseret på online undervisning i små hold samt et personligt,
+        individuelt vejledningsforløb frem mod aflevering af en skriftlig opgave (5-6 sider), efterfulgt
+        af en mundtlig eksamination.</p>
+    <p><b>5 online sessioner á 3 timers varighed: 14/1, 21/1, 28/1, 3/2 og 9/2. Alle dage 9.00-12.00</b>
+    </p>
+    <p>Eksamen afholdes ca. 3 uger efter endt undervisning.</p>
+</div>
+
+
+<div class="bg-platinum">
+    <div class="container-fluid extra-narrow-container">
+        <h2>Ledelse af forandring og udviklingsprocesser</h2>
+        <p><b>START: 11. MARTS 2021 / 5 ECTS POINTS / PRIS 7.500,- KR EKSKL. MOMS</b></p>
+        <p>Få viden, værktøjer og inspiration til at se, forstå, lede og vejlede forandringsprocesser med
+            henblik på udvikling og fornyelse i organisationen. Både de processer, du selv sætter i gang som
+            leder, og også dem, du indgår i som deltager. Modulet vil gøre dig i stand til at omsætte
+            teorier og modeller om forandringsledelse og organisationsudvikling i praksis således, at din
+            måde at lede udvikling og forandring i organisationen på bliver praktisk begrundet, teoretisk
+            funderet og tilpasset konkrete situationer, kontekster og mål. Forløbet er baseret på online
+            undervisning i små hold samt et personligt, individuelt vejledningsforløb frem mod aflevering af
+            en skriftlig opgave (5-6 sider), efterfulgt af en mundtlig eksamination.</p>
+        <p><b>5 online sessioner á 3 timers varighed: 11/3, 18/3, 25/3, 31/3 og 8/4. Alle dage
+                9.00-12.00.</b>
+        </p>
+        <p>Eksamen afholdes ca. 3 uger efter endt undervisning.</p>
+
+    </div>
+</div>
+
+<div class="container-fluid extra-narrow-container">
+    <h2>Projektledelse</h2>
+    <p><b>START: EFTERÅR 2021 / 5 ECTS POINTS / PRIS 7.500,- KR EKSKL. MOMS</b></p>
+    <p>Lær at lede projekter på en måde, som både er målrettet, inkluderende og kreativ. Du får
+        indsigt i projektarbejdets forskellige faser og dimensioner og bliver trænet i at genkende og
+        håndtere de muligheder og udfordringer, der knytter sig til menneskelige udviklings-,
+        samarbejds- og forandringsprocesser. Du får desuden redskaber til at planlægge, gennemføre og
+        evaluere projekter på måder, som er i overensstemmelse med projekternes omgivelser, deltagere,
+        ressourcer og målsætning og skaber ny viden og værdi for organisationen. Forløbet er baseret på
+        online undervisning i små hold samt et personligt, individuelt vejledningsforløb frem mod
+        aflevering af en skriftlig opgave (5-6 sider), efterfulgt af en mundtlig eksamination.</p>
+    <p><b>5 online sessioner á 3 timers varighed: [datoer følger] Alle dage 9.00-12.00. </b>
+    </p>
+    <p>Eksamen afholdes ca. 3 uger efter endt undervisning.</p>
+</div>
+
+<div class="bg-platinum">
+    <div class="container-fluid extra-narrow-container">
+        <h2>Specialemodul</h2>
+        <p><b>START: EFTERÅR 2021 / 15 ECTS POINTS / PRIS 21.000,- KR EKSKL. MOMS</b></p>
+        <p>Modulet kvalificerer dig til at kunne identificere, reflektere og analysere en tværfaglig
+            ledelsesproblemstilling fra praksis og angive løsninger og handlemuligheder gennem udvalgte
+            teorier, strategier og metoder med relevans for pågældende problematik. På modulet arbejder du
+            med en syntese af strategiske, metodiske og videnskabsteoretiske perspektiver i sammenhæng med
+            dit eget (kommende) lederskab i en konkret praksissammenhæng. Omdrejnings-punktet for specialet
+            vil som hovedregel være et tema/-problemstilling fra dagligdagen, men kan også vedrøre mere
+            overordnede organisatoriske, teoretiske eller samfundsmæssige udfordringer. Faglige vinkler og
+            interesseområder fra øvrige moduler på uddannelsen integreres og kobles sammen, således at såvel
+            undersøgelsesprocessen som det færdige speciale vil udfolde og afspejle den professionelle
+            kompetenceudvikling, du har gennemgået på den offentlige lederuddannelse. Forløbet er baseret på
+            online undervisning i små hold samt et personligt, individuelt vejledningsforløb.</p>
+        <p><b>8 online sessioner á 3 timers varighed: [datoer følger] Alle dage 9.00-12.00.</b>
+        </p>
+        <p>Eksamen afholdes ca. 3 uger efter endt undervisning.</p>
+
+    </div>
+</div>
+
+
+{% assign pageurl = page.url %}
+
+<div class="bg-silver-chalice white">
+    {% include secments/other-courses.html url=pageurl %}
+</div>
+
+
+
+{% include secments/vision.html %}
+
+
+<div class="bg-black-coral white">
+    {% include secments/newsletter.html %}
+</div>
+
+{% include secments/events.html %}

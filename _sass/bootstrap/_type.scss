@@ -216,8 +216,15 @@ mark,
   text-align: right;
   &.no-mobile {
     @include for-bot {
-      text-align: left ;
+      text-align: left;
     }
+  }
+}
+
+.align-center-mobile {
+
+  @include for-bot {
+    text-align: center;
   }
 }
 

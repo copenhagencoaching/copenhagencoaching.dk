@@ -57,6 +57,26 @@
   }
 }
 
+@mixin full-width {
+  &.full-width {
+    width: 100%;
+  }
+  
+}
+
+@mixin button {
+  font-weight: 600;
+  margin-top: 20px;
+  border-radius: 5px;
+  text-emphasis: none;
+  text-align: center;
+  border: none;
+  padding: 5px 10px;
+  @include full-width;
+}
+
+
+
 @mixin side-card {
   position: relative;
 
@@ -203,68 +223,9 @@ a {
   text-decoration: none;
 }
 
-.blue-button {
-  background:$ccc-blue;
-  border: none;
-  padding: 15px 25px;
-  color: #ffffff;
-  font-weight: 600;
-  margin-top: 20px;
-  text-emphasis: none;
-  text-align: center;
-}
 
-.brown-btn {
-  background:$ccc-brown;
-  border: none;
-  padding: 5px 10px;
-  color: #ffffff;
-  font-weight: 600;
-  margin-top: 20px;
-  border-radius: 5px;
-  text-emphasis: none;
-  text-align: center;
-}
 
-.darkbrown-btn {
-  background:#49413D;
-  border: none;
-  padding: 5px 10px;
-  color: #ffffff;
-  font-weight: 600;
-  margin-top: 20px;
-  border-radius: 5px;
-  text-emphasis: none;
-  text-align: center;
-}
 
-.lightbrown-btn {
-  background:#B9927A;
-  border: none;
-  padding: 5px 10px;
-  color: #ffffff;
-  font-weight: 600;
-  margin-top: 20px;
-  border-radius: 5px;
-  text-emphasis: none;
-  text-align: center;
-}
-
-.dust-green-btn {
-  background:$ccc-dust-green;
-  border: none;
-  padding: 5px 10px;
-  color: #ffffff;
-  font-weight: 600;
-  margin-top: 20px;
-  border-radius: 5px;
-  text-emphasis: none;
-  text-align: center;
-
-  &.full-width {
-    width: 100%;
-  }
-}
 
 .title {
   font-size: 5em;
@@ -413,6 +374,24 @@ a {
 
   @include for-tablet {
     grid-template-columns: 1fr;
+  }
+
+  &.slow-grid {
+    @include for-laptop {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  
+    @include for-bot {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    @include for-tablet {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  
+    @include for-phone-only {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
   }
 }
 

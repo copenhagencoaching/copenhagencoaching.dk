@@ -174,3 +174,52 @@ input[type="button"] {
 
   }
 }
+
+.blue-button {
+  @include button;
+  background:$ccc-blue;
+  color: #ffffff;
+}
+
+.brown-btn {
+  @include button;
+  background:$ccc-brown;
+  color: #ffffff;
+
+}
+
+.darkbrown-btn {
+  @include button;
+  background:#49413D;
+  color: #ffffff;
+}
+
+.lightbrown-btn {
+  @include button;
+  background:#B9927A;
+  color: #ffffff;
+}
+
+.dust-green-btn {
+  @include button;
+  background:$ccc-dust-green;
+  color: #ffffff;
+}
+
+.cinereous-btn {
+  @include button;
+  color: white;
+  background-color: $cinereous;
+}
+
+.jet-btn {
+  @include button;
+  color: white;
+  background-color: $jet;
+}
+
+.silver-chalice-btn {
+  @include button;
+  color: #333333 !important;
+  background-color: $silver-chalice;
+}

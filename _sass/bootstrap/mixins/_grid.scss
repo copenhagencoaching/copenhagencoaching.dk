@@ -12,6 +12,10 @@
   @include for-bot {
 
     padding-top: 40px;
+
+    &.normal-top-mobile {
+      @include basic-padding;
+    }
   }
   &.container-narrow {
     max-width: 1600px;

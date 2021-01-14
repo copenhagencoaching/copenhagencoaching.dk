@@ -28,6 +28,9 @@
   &.small-t {
     padding-top: 20px;
   }
+  &.small-b {
+    padding-bottom: 20px;
+  }
 
 &.narrow-container {
   max-width: 1600px;
@@ -157,9 +160,12 @@
   }
 }
 
+.bg-silver-chalice {
+  background-color: $silver-chalice;
+}
+
 .dark-green-background {
   background-color: #184f3C;
-  padding-bottom: 50px;
 
 
   h1, h2, h3, h4, h5, h6, a, p, blockquote {
@@ -266,7 +272,12 @@ video {
   &.right {
     margin: 0 0 0 auto;
     text-align: right;
+    @include for-bot {
+      text-align: center;
+      margin: auto;
+    }
   }
+  
 }
 
 .overlay-banner {
