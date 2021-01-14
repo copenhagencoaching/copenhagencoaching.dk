@@ -250,8 +250,8 @@ a {
   text-align: center;
 }
 
-.lightgray-btn {
-  background:#949C9B;
+.dust-green-btn {
+  background:$ccc-dust-green;
   border: none;
   padding: 5px 10px;
   color: #ffffff;
@@ -260,6 +260,10 @@ a {
   border-radius: 5px;
   text-emphasis: none;
   text-align: center;
+
+  &.full-width {
+    width: 100%;
+  }
 }
 
 .title {
@@ -759,11 +763,18 @@ a {
   }
 }
 
-.grid-80-20 {
+.grid-20-80 {
+  display: grid;
   grid-template-columns: 20% 80%;
+}
+
+.grid-80-20 {
+  display: grid;
+  grid-template-columns: 80% 20%;
   align-items: center;
   align-content: center;
 }
+
 
 .grid-60-40 {
   grid-template-columns: 60% 40%;

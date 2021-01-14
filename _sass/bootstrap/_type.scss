@@ -203,6 +203,15 @@ mark,
   text-align: center;
 }
 
+.align-left {
+  text-align: left;
+}
+
+.align-justify {
+  text-align: justify;
+}
+
+
 .align-right {
   text-align: right;
   &.no-mobile {
@@ -211,3 +220,15 @@ mark,
     }
   }
 }
+
+//Colounms
+
+// Devide into two cols
+
+.GFG { 
+  -webkit-columns: 40px 2; 
+  /* Chrome, Safari, Opera */ 
+  -moz-columns: 60px 2; 
+  /* Firefox */ 
+  columns: 60px 2; 
+} 
