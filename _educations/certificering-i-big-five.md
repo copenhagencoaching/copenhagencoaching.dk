@@ -1,7 +1,7 @@
 ---
 order: "6"
 title: Certificeringer i Big Five
-image: "/images/academy/certificering-i-big-five.png"
+image: "/images/events/big-five-event-5.jpg"
 layout: big-five
 contact-person: Frederikke Winther
 header: Certificeringer i Big Five

@@ -645,4 +645,8 @@ template {
     background-color: $ccc-blue;
     color: white !important;
   }
+
+  &.pointy {
+    border-radius: 0;
+  }
 }
