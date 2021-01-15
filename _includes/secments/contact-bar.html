@@ -7,10 +7,7 @@
 
             
                 <div> <h3 class="xthin">
-                    Har du brug for personlig rådgivning ift. anvendelsen af BIG FIVE i din organisation eller som
-                    selvstændig?
-
-                    Kontakt {{ employee.title | truncatewords: 1, "" }} nedenfor og lad os hjælpe dig.
+                    {{ include.text-1 }}
                 </h3></div>
               
                 <div class="grid-fr-120 gap-20 r-gap-20">
@@ -33,7 +30,7 @@
         </div>
 
         <div class="bg-platinum a-items-c align-center p-20 white" style="background: linear-gradient(rgba(19, 19, 19, 0.6), rgba(19, 19, 19, 0.6)), url('/images/graphic/mennesker.jpg'); background-position: center; background-size: cover;">
-            <h3>Hør om andres erfaringer med Big Five</h3>
+            <h3>{{ include.text-2 }}</h3>
             <div><button class="dust-green-btn">Se mere <i class="fas fa-arrow-right"></i></button></div>
 
         </div>
