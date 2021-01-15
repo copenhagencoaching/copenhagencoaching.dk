@@ -2,7 +2,7 @@
 order: "1"
 title: Master of Business Coaching
 layout: mbc-campaign
-image: "/images/coaching/ledelsessparring.jpg"
+image: "/images/international/i3.jpg"
 contact-person: Frederikke Winther
 header: Master of Business Coaching
 description: Bliv samtaleekspert med vores Master i Business Coaching
