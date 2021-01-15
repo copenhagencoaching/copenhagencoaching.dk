@@ -229,3 +229,9 @@ input[type="button"] {
   color: #333333 !important;
   background-color: $alabaster;
 }
+
+.black-coral-btn {
+  @include button;
+  color: white;
+  background-color: $black-coral;
+}

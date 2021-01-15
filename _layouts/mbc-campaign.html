@@ -26,7 +26,7 @@ layout: default
     </div>
 </div>
 
-{% include secments/four-player.html %}
+
 
 <div class="container-fluid extra-narrow-container pt-50">
 
@@ -72,6 +72,7 @@ layout: default
                             </div>
                             <div class="align-right"><i class="fas fa-chair"></i></div></i>
                         </div>
+
                 </div>
                 <div><button class="silver-chalice-btn full-width">
                         <div class="grid-80-20">
@@ -174,7 +175,9 @@ layout: default
 
 {% include secments/contact-bar.html contact=page-contact contact-color="deep-taupe" %}
 
-{% include secments/virtual-text.html container-classes="no-up pb-100 extra-narrow-container" %}
+{% include secments/four-player.html %}
+
+{% include secments/virtual-text.html container-classes="pt-100 pb-100 extra-narrow-container" %}
 
 {% assign pageurl = page.url %}
 
@@ -190,7 +193,7 @@ layout: default
     {% include secments/newsletter.html %}
 </div>
 
-
-{% include secments/events.html container-classes="pt-50" btn-color="dust-green-btn" %}
-
+<div class="bg-light-brown">
+{% include secments/events.html container-classes="pt-50 mb-50 mt-50" btn-color="dust-green-btn" %}
+</div>
 <!-- end -->
