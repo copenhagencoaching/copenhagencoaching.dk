@@ -1,0 +1,42 @@
+<div class="container-fluid medium-narrow-container pt-50 pb-100">
+
+    <div class="grid-55-5-40">
+        <div class="bg-orange white p-20">
+
+            <div>
+                <div> <h4 class="capped">
+                    Har du brug for personlig rådgivning ift. anvendelsen af BIG FIVE i din organisation eller som
+                    selvstændig?
+
+                    Kontakt Frederikke nedenfor og lad os hjælpe dig.
+                </h4></div>
+                {% for employee in site.employees %}
+                {% if employee.title == include.contact %}
+                <div class="grid-fr-120 gap-20 p-20 r-gap-20">
+                    <div class="align-right a-items-c">
+                        <div>
+                        <b><a href="{{ employee.url }}" class="large" data-proofer-ignore>{{ employee.title }}</a></b> <br>
+                        <span class="thin"><a href="tel:{{ employee.call }}" data-proofer-ignore>+45 {{ employee.call }}</a></span> <br>
+                        <span class="thin"><a href="mailto:{{ employee.email }}" data-proofer-ignore>{{ employee.email }}</a></span>
+                    </div>
+                    </div>
+                    <div class="outer-small-round-image">
+                        <img class="small-round-image" src="{{ employee.small-portrait-image }}"
+                            alt="{{ employee.title }}, {{ employee.description}}">
+                    </div>
+                   
+                </div>
+                {% endif %}
+                {% endfor %}
+            </div>
+
+        </div>
+
+        <div class="bg-platinum a-items-c align-center">
+            <h3>Hør om andres erfaringer med Big Five</h3>
+            <div><button class="dust-green-btn">Se mere <i class="fas fa-arrow-right"></i></button></div>
+
+        </div>
+
+    </div>
+</div>

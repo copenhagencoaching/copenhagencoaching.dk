@@ -1,8 +1,8 @@
-<div class="container-fluid narrow-container normal-top-mobile">
-    <div class="align-center">
+<div class="container-fluid narrow-container normal-top-mobile pt-50">
+    <div class="align-center mb-50">
         <h3>Interesseret i vores andre uddannelser?</h3>
     </div>
-    <br>
+
     <div class="grid-5 slow-grid gap-40 r-gap-40 white">
         {% assign educations = site.educations | where_exp:"item",
         "item.url != include.url" %}
@@ -21,4 +21,3 @@
         {% endfor %}
     </div>
 </div>
-<br><br>

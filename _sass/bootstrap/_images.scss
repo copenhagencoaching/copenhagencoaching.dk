@@ -48,10 +48,17 @@
 }
 
 .small-round-image {
-object-fit: cover;
-width: 100%;
-max-width: 200px;
+  object-fit: cover;
+  width: 100%;
+  max-width: 200px;
   border-radius: 1000px;
+}
+
+.outer-small-round-image {
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  display: inline-block;
 }
 
 .center {
@@ -76,7 +83,7 @@ max-width: 200px;
 }
 
 .image-square {
-  height:50vh;
+  height: 50vh;
   width: 50vh;
 }
 

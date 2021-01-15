@@ -73,6 +73,13 @@
     padding-top: 20px;
   }
 }
+
+&.medium-narrow-container {
+  max-width: 1200px;
+  &.menu {
+    padding-top: 20px;
+  }
+}
   
 }
 

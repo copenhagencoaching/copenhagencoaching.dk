@@ -136,14 +136,47 @@ mark,
   }
 }
 
-.no-m-b {
-  margin-bottom: 0;
-}
+
 
 .xlarge {
   font-size: $font-size-xlg;
 }
 
+// margins
+
+.no-m-b {
+  margin-bottom: 0;
+}
+
+.mb-50 {
+  margin-bottom: 50px !important;
+}
+.mt-50 {
+  margin-top: 50px !important;
+}
+
+.pb-50 {
+  padding-bottom: 50px !important;
+}
+
+.pt-50 {
+  padding-top: 50px !important;
+}
+
+.mb-100 {
+  margin-bottom: 100px !important;
+}
+.mt-100 {
+  margin-top: 100px !important;
+}
+
+.pb-100 {
+  padding-bottom: 100px !important;
+}
+
+.pt-100 {
+  padding-top: 100px !important;
+}
 //
 // Lists
 //
@@ -209,6 +242,12 @@ mark,
 
 .align-justify {
   text-align: justify;
+}
+
+.a-items-c {
+  display: grid;
+  align-content: center;
+  align-items: center;
 }
 
 

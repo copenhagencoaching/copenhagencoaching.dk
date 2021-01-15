@@ -223,3 +223,9 @@ input[type="button"] {
   color: #333333 !important;
   background-color: $silver-chalice;
 }
+
+.alabaster-btn {
+  @include button;
+  color: #333333 !important;
+  background-color: $alabaster;
+}

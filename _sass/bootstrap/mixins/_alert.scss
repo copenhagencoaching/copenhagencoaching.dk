@@ -498,6 +498,62 @@ a {
   }
 }
 
+.grid-50-10-40 {
+  display: grid;
+  grid-template-columns: 50% 40%;
+  column-gap: 10%;
+}
+
+.grid-55-5-40 {
+  display: grid;
+  grid-template-columns: 55% 40%;
+  column-gap: 5%;
+}
+
+.grid-60-10-30 {
+  display: grid;
+  grid-template-columns: 60% 30%;
+  column-gap: 10%;
+}
+
+.grid-65-5-30 {
+  display: grid;
+  grid-template-columns: 65% 30%;
+  column-gap: 5%;
+}
+
+.grid-70-10-20 {
+  display: grid;
+  grid-template-columns: 70% 20%;
+  column-gap: 10%;
+}
+
+.grid-80-5-15 {
+  display: grid;
+  grid-template-columns: 80% 15%;
+  column-gap: 5%;
+}
+
+.grid-75-5-20 {
+  display: grid;
+  grid-template-columns: 75% 20%;
+  column-gap: 5%;
+}
+
+.grid-70-5-25 {
+  display: grid;
+  grid-template-columns: 70% 25%;
+  column-gap: 5%;
+}
+
+.grid-fr-120 {
+  display: grid;
+  grid-template-columns: 1fr 120px;
+  @include for-bot {
+    grid-template-columns: 1fr;
+  }
+}
+
 //twisted grid
 
 .twisted-grid {

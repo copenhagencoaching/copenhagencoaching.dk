@@ -155,6 +155,11 @@ layout: default
     {% capture reg-url %}?n={{ page.title | uri_escape }}{% endcapture %}
 
 </div>
+{% assign page-contact = page.contact-person %}
+
+
+    {% include secments/contact-bar.html contact=page-contact %}
+
 
 {% assign pageurl = page.url %}
 
@@ -166,7 +171,7 @@ layout: default
     {% include secments/vision.html %}
 
 
-<div style="background-color: #949C9B;">
+<div class="bg-dust-green white">
     {% include secments/newsletter.html %}
 </div>
 
