@@ -76,6 +76,8 @@
 }
 
 
+
+
 .object-fit {
   object-fit: cover;
   width: 100%;
@@ -92,4 +94,38 @@
 .outer-image-150 {
   height: 150px;
   margin-bottom: 10px;
+}
+
+.img-h300 {
+  height: 300px;
+  width: 100%;
+
+  img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+
+.img-h200 {
+  height: 200px;
+  width: 100%;
+
+  img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.img-100 {
+  height: 100%;
+  width: 100%;
+
+  img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
 }

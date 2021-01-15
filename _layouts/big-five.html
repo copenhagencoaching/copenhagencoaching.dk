@@ -22,7 +22,7 @@ layout: default
     </div>
 </div>
 
-<div class="container-fluid extra-narrow-container">
+<div class="container-fluid extra-narrow-container pt-50">
 
 
     <div>
@@ -158,21 +158,26 @@ layout: default
 {% assign page-contact = page.contact-person %}
 
 
-    {% include secments/contact-bar.html contact=page-contact %}
+{% include secments/contact-bar.html contact=page-contact contact-color="orange" %}
+{% include secments/virtual-text.html container-classes="no-up pb-100 extra-narrow-container" %}
 
 
 {% assign pageurl = page.url %}
 
-<div style="background-color: #E1DCD8;">
+<div class="bg-light-brown">
     {% include secments/other-courses.html url=pageurl %}
 </div>
 
 
-    {% include secments/vision.html %}
+{% include secments/vision.html %}
 
 
 <div class="bg-dust-green white">
     {% include secments/newsletter.html %}
 </div>
 
-{% include secments/events.html %}
+
+
+<div class="bg-light-brown">
+{% include secments/events.html container-classes="mb-50 mt-50 pt-50" btn-color="dust-green-btn" %}
+</div>

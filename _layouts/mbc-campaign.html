@@ -14,18 +14,21 @@ layout: default
             {% if page.teaser %}<p class="large">{{ page.teaser }}</p>{% else %}<p class="large">{{ page.description }}
             </p> {% endif %}
             <br>
+            <span class="large bg-black-coral p-10 white">Udbydes nu også ONLINE</span>
+            <br><br>
+            <br>
             <a class="cinereous-btn large thin" data-proofer-ignore href="#big-five" data-toggle="modal"
                 data-target="#bf-modal">Hør mere</a>
 
         </div>
 
-        
+
     </div>
 </div>
 
 {% include secments/four-player.html %}
 
-<div class="container-fluid extra-narrow-container">
+<div class="container-fluid extra-narrow-container pt-50">
 
 
     <div>
@@ -97,7 +100,7 @@ layout: default
                     uddannelsen
                     afsluttes med en 60 siders masterafhandling med mundtligt forsvar.</b></p>
 
-            
+
         </div>
 
         <div class="tab-pane fade" id="nav-3" role="tabpanel" aria-labelledby="nav-3-tab">
@@ -166,6 +169,12 @@ layout: default
     {% capture reg-url %}?n={{ page.title | uri_escape }}{% endcapture %}
 
 </div>
+{% assign page-contact = page.contact-person %}
+
+
+{% include secments/contact-bar.html contact=page-contact contact-color="deep-taupe" %}
+
+{% include secments/virtual-text.html container-classes="no-up pb-100 extra-narrow-container" %}
 
 {% assign pageurl = page.url %}
 
@@ -181,6 +190,7 @@ layout: default
     {% include secments/newsletter.html %}
 </div>
 
-{% include secments/events.html %}
+
+{% include secments/events.html container-classes="pt-50" btn-color="dust-green-btn" %}
 
 <!-- end -->

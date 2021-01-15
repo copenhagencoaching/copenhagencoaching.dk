@@ -297,6 +297,10 @@ a {
   column-gap: 20px !important;
 }
 
+.gap-10 {
+  column-gap: 20px !important;
+}
+
 
 .r-gap-40 {
   row-gap: 40px;
@@ -310,6 +314,9 @@ a {
   row-gap: 20px;
 }
 
+.r-gap-10 {
+  row-gap: 10px;
+}
 
 .grid-side-menu {
   @include grid;
@@ -508,6 +515,11 @@ a {
   display: grid;
   grid-template-columns: 55% 40%;
   column-gap: 5%;
+
+  @include for-tablet {
+    grid-template-columns: 1fr;
+  }
+
 }
 
 .grid-60-10-30 {
@@ -549,9 +561,7 @@ a {
 .grid-fr-120 {
   display: grid;
   grid-template-columns: 1fr 120px;
-  @include for-bot {
-    grid-template-columns: 1fr;
-  }
+
 }
 
 //twisted grid

@@ -1,18 +1,19 @@
+{% for employee in site.employees %}
+{% if employee.title == include.contact %}
 <div class="container-fluid medium-narrow-container pt-50 pb-100">
 
-    <div class="grid-55-5-40">
-        <div class="bg-orange white p-20">
+    <div class="grid-55-5-40 r-gap-40">
+        <div class="bg-{{ include.contact-color }} white p-20 grid-1 r-gap-20">
 
-            <div>
-                <div> <h4 class="capped">
+            
+                <div> <h3 class="xthin">
                     Har du brug for personlig rådgivning ift. anvendelsen af BIG FIVE i din organisation eller som
                     selvstændig?
 
-                    Kontakt Frederikke nedenfor og lad os hjælpe dig.
-                </h4></div>
-                {% for employee in site.employees %}
-                {% if employee.title == include.contact %}
-                <div class="grid-fr-120 gap-20 p-20 r-gap-20">
+                    Kontakt {{ employee.title | truncatewords: 1, "" }} nedenfor og lad os hjælpe dig.
+                </h3></div>
+              
+                <div class="grid-fr-120 gap-20 r-gap-20">
                     <div class="align-right a-items-c">
                         <div>
                         <b><a href="{{ employee.url }}" class="large" data-proofer-ignore>{{ employee.title }}</a></b> <br>
@@ -26,13 +27,12 @@
                     </div>
                    
                 </div>
-                {% endif %}
-                {% endfor %}
-            </div>
+
+           
 
         </div>
 
-        <div class="bg-platinum a-items-c align-center">
+        <div class="bg-platinum a-items-c align-center p-20">
             <h3>Hør om andres erfaringer med Big Five</h3>
             <div><button class="dust-green-btn">Se mere <i class="fas fa-arrow-right"></i></button></div>
 
@@ -40,3 +40,6 @@
 
     </div>
 </div>
+
+{% endif %}
+{% endfor %}

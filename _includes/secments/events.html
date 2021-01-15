@@ -1,4 +1,4 @@
-<div class="container-fluid narrow-container pt-50">
+<div class="container-fluid narrow-container {{ include.container-classes }}">
     <div class="align-center">
         <h1 class="mb-50">Kalender</h1>
     </div>
@@ -155,7 +155,7 @@
             </div>
             <div class="card-footer">
                 {% if post.ready == true %}
-                <a href="{{ post.url }}" class="brown-btn thin white">Læs mere</a>
+                <a href="{{ post.url }}" class="{{ include.btn-color }} thin white">Læs mere</a>
                 {% endif %}
             </div>
         </div>
