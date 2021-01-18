@@ -3,13 +3,34 @@ order: "7"
 title: Den offentlige lederuddannelse
 image: "/images/academy/den-offentlige-lederuddannelse.png"
 contact-person: Frederikke Winther
-layout: dol
 header: Den offentlige lederuddannelse
 sub-header: Få ny indsigt - og større udsyn - i dit lederskab
 price: 'Vejledende pris: 7.500 ekskl. moms pr. 5 ECTS'
 pdf: 'false'
 event-title: Vi starter løbende hold op - ring og hør nærmere
 special: false
+hold_eller_begivenheder: true
+events:
+- overskrift: Ledelse og filosofi 2021
+  dato:
+  - 14. januar
+  - 21. januar
+  - 28. januar
+  - 3. februar
+  - 9. februar
+- overskrift: Ledelse af forandring og udviklingsprocesser 2021
+  dato:
+  - 11. marts
+  - 18. marts
+  - 25. marts
+  - 31. marts
+  - 8. april
+- overskrift: Projektledelse 2021
+  dato:
+  - Efterår 2021 - datoer kommer snarest
+- overskrift: Specialemodul 2021
+  dato:
+  - Efterår 2021 - datoer kommer snarest
 ---
 **Du kan trygt melde dig til vores næste hold. Vi følger situationen og de løbende retningslinjer nøje for at undgå spredningen af covid-19.**
 
