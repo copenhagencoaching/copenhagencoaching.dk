@@ -28,10 +28,10 @@ redirect_from:
 
 ---
 
-### Hvorfor skal du vælge Master of Business Coaching?
-
-Ønsker du at blive dygtig til at føre produktive og virkningsfulde dialoger? At kunne flytte både grupper og individer i en mere konstruktiv retning og derved forebygge stress, organisatorisk stagnation og udbrændthed? Så vælg uddannelsen: Master of Business Coaching (MBC).
-
-**Med en Master of Business Coaching får du en af landets bedste coachinguddannelser, hvor du både kan foretage traditionelle coachingsamtaler og den filosofiske samtale.**
+### Med en Master of Business Coaching får du en af landets bedste coachinguddannelser, hvor du både kan foretage traditionelle coachingsamtaler og den filosofiske samtale.
 
 Uddannelsen er akkrediteret igennem EMCC. [Læs om vores EMCC akkreditering](/fundament/emcc-akkreditering/)
+
+### DK's førende lederuddannelse målrettet private og offentlige virksomheder og organisationer
+
+Med tryk på Business-delen af Coaching er uddannelsen målrettet erhvervslivet med den hensigt at løfte de studerendes dialogiske kapacitet i professionelle kontekster.
