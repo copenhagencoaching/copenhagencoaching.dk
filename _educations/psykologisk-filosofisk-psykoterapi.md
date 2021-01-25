@@ -5,6 +5,7 @@ location: Blegdamsvej 104C, 3. sal, baghuset th., 2100 København Ø
 special: false
 image: /images/educations/psykologisk-filosofisk-psykoterapi.png
 layout: pfp
+published: false
 ---
 Culpa commodo nostrud et eu consectetur aliqua ut excepteur est dolor enim culpa aliqua. Minim cupidatat sint fugiat nulla. Est ipsum Lorem aliquip cillum cupidatat consequat cupidatat nostrud. Consequat aliquip et esse Lorem fugiat esse mollit. Aute deserunt do cupidatat exercitation qui cillum quis. Nisi enim exercitation non elit cillum deserunt excepteur aliqua. Ullamco nulla sint do laboris esse veniam occaecat laborum culpa reprehenderit laborum ipsum velit ea.
 
