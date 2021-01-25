@@ -286,6 +286,15 @@ th {
   text-align: inherit;
 }
 
+.soft-table {
+  border: 1px solid #c9c9c9;
+  width: 100%;
+  td {
+    padding: 10px;
+    border: 1px solid #c9c9c9;
+  }
+}
+
 
 //
 // Forms
