@@ -6,24 +6,24 @@
 
 <body>
   <div id="fb-root"></div>
-  <script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
-  fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));</script>
-  
- 
+  <script>(function (d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+
   <!-- Google Tag Manager (noscript) -->
 
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TFM8TP7" height="0" width="0"
       style="display:none;visibility:hidden"></iframe></noscript>
 
-      
+
   <!-- End Google Tag Manager (noscript) -->
 
-  
+
   {% include navigation.html %}
 
   {{ content }}
@@ -41,41 +41,42 @@
     var mc1Submitted = false;
     jQuery('#mc-embedded-subscribe-form').on('submit reset', function (event) {
       console.log(event);
-       if ("submit" === event.type) {
-         mc1Submitted = true;
-       } else if ( "reset" === event.type && mc1Submitted ) {
-         console.log('success');
-         $('#mc-embedded-subscribe-form').hide();
-        $("#mailchimp-success-message").toggleClass("show"); }
+      if ("submit" === event.type) {
+        mc1Submitted = true;
+      } else if ("reset" === event.type && mc1Submitted) {
+        console.log('success');
+        $('#mc-embedded-subscribe-form').hide();
+        $("#mailchimp-success-message").toggleClass("show");
+      }
     });
   </script>
 
-<!-- Slick sliders-->
+  <!-- Slick sliders-->
 
-<script>
-$('.front-slider').slick({
-  dots: true,
-  infinite: true,
-  speed: 800,
-  fade: true,
-  cssEase: 'linear',
-  autoplay: true,
-  autoplaySpeed: 5000,
-  pauseOnFocus: false,
-  pauseOnHover: false,
-  arrows: false,
-  dots: false,
-});
-	
-</script>
+  <script>
+    $('.front-slider').slick({
+      dots: true,
+      infinite: true,
+      speed: 800,
+      fade: true,
+      cssEase: 'linear',
+      autoplay: true,
+      autoplaySpeed: 5000,
+      pauseOnFocus: false,
+      pauseOnHover: false,
+      arrows: false,
+      dots: false,
+    });
+
+  </script>
 
   <!-- Eventbrite overwrites-->
 
   <script>
     if ($('js-ticket-widget-ticket-price').html('Free')) {
-      $('.js-ticket-widget-ticket-price').html("Gratis"); 
+      $('.js-ticket-widget-ticket-price').html("Gratis");
     }
-    
+
   </script>
 
 
@@ -223,6 +224,23 @@ $('.front-slider').slick({
 
       $this.text(linkText);
     });
+  </script>
+
+  <script>
+/*     $('#myTab a').click(function (e) {
+      e.preventDefault();
+      $(this).tab('show');
+    });
+
+    // store the currently selected tab in the hash value
+    $("ul.nav-tabs > li > a").on("shown.bs.tab", function (e) {
+      var id = $(e.target).attr("href").substr(1);
+      window.location.hash = id;
+    });
+
+    // on load of the page: switch to the currently selected tab
+    var hash = window.location.hash;
+    $('#myTab a[href="' + hash + '"]').tab('show'); */
   </script>
 
 </body>
