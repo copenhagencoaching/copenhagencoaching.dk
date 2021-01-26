@@ -71,22 +71,26 @@ fieldset:disabled a.btn {
 // Link buttons
 //
 
+h2 {
+  .btn-link {
+    font-family: "Oswald",sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #707070;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 20px
+  }
+}
+
 // Make a button look and behave like a link
 .btn-link {
-  font-weight: $font-weight-normal;
-  color: $link-color;
-  text-decoration: $link-decoration;
+  border: none;
+  background: none;
 
-  @include hover {
-    color: $link-hover-color;
-    text-decoration: $link-hover-decoration;
-  }
 
-  &:focus,
-  &.focus {
-    text-decoration: $link-hover-decoration;
-    box-shadow: none;
-  }
+
+
 
   &:disabled,
   &.disabled {

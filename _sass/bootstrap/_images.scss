@@ -130,9 +130,33 @@
   }
 }
 
+
+
 .img-h100 {
   height: 100px;
-  width: 100px;
+  width: 100%;
+
+  img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.img-h150 {
+  height: 150px;
+  width: 100%;
+
+  img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.img-minh100 {
+  min-height: 100px;
+  width: 100%;
 
   img {
     object-fit: cover;
