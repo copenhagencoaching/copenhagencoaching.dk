@@ -130,6 +130,60 @@
   }
 }
 
+.img-h100 {
+  height: 100px;
+  width: 100px;
+
+  img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.img-hw150 {
+  height: 150px;
+  width: 150px;
+
+  img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+
 .white-border {
   border: 4px solid white;
+}
+
+.course-id-1113869 {
+  #ui-id-1, #ui-id-2, #ui-id-17, #ui-id-18, #ui-id-21, #ui-id-22 {
+      background-color: #847068 !important;
+     
+      ._content-item__link_nffvg8, ._chapter-item__title_d57kmg {
+        color: #ffffff !important;
+      }
+  }
+      #ui-id-3, #ui-id-4, #ui-id-19, #ui-id-20, #ui-id-23, #ui-id-24 {
+      background-color: #E4E3DD !important;
+  }
+    #ui-id-5, #ui-id-6, #ui-id-11, #ui-id-12 {
+      background-color: #969c92 !important;
+      ._content-item__link_nffvg8, ._chapter-item__title_d57kmg {
+        color: #ffffff !important;
+      }
+  }
+   #ui-id-7, #ui-id-8, #ui-id-13, #ui-id-14 {
+      background-color: #57606d !important;
+      ._content-item__link_nffvg8, ._chapter-item__title_d57kmg {
+        color: #ffffff !important;
+      }
+  }
+  #ui-id-9, #ui-id-10, #ui-id-15, #ui-id-16 {
+      background-color: #cf8672 !important;
+      ._content-item__link_nffvg8, ._chapter-item__title_d57kmg {
+        color: #ffffff !important;
+      }
+  }
 }

@@ -235,3 +235,15 @@ input[type="button"] {
   color: white;
   background-color: $black-coral;
 }
+
+.rifle-green-btn {
+  @include button;
+  color: white;
+  background-color: $rifle-green;
+}
+
+.copper-red-btn {
+  @include button;
+  color: white;
+  background-color: $copper-red;
+}
