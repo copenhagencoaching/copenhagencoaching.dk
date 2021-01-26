@@ -90,7 +90,10 @@ h2 {
 
 
 
-
+&:focus {
+  border: none;
+  outline: none;
+}
 
   &:disabled,
   &.disabled {
