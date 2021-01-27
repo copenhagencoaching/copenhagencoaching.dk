@@ -10,6 +10,7 @@ description: Deltag i den årlige Masterclass i protreptik. Hvert år tager vi f
 price: 12.000,- EKSKL. MOMS / 3 dage inklusiv frokost og lettere morgenforplejning
 pdf: ''
 event-title: Kommende hold
+oe-order: 4
 location: Blegdamsvej 104C, 3. sal, baghuset th., 2100 København Ø
 special: false
 hold_eller_begivenheder: true

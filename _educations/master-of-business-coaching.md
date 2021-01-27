@@ -12,6 +12,7 @@ event-title: Kommende hold
 location: Blegdamsvej 104C, 3. sal, baghuset th., 2100 København Ø
 special: false
 hold_eller_begivenheder: true
+oe-order: 1
 events:
 - overskrift: København
   subcategory: true
