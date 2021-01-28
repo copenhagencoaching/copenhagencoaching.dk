@@ -87,6 +87,14 @@ display: flex;
   }
 }
 
+@media (min-width: 1200px) {
+  .navbar-collapse.show {
+    display: flex !important;
+    flex-basis: auto;
+}
+}
+
+
 
 // Navbar nav
 //
