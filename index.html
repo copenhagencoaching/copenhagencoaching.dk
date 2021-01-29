@@ -64,9 +64,10 @@ layout: default
       
             {% if tag == "community" %}
       
+            
             <div class="card transparent">
               {% capture alldates %}
-              {% assign orderposts = site.posts | order: "date" | reverse %}
+              {% assign orderposts = site.tags.event | order: "date" | reverse %}
               {% for item in orderposts %}
       
               {% for tag in item.tags %}
@@ -115,9 +116,11 @@ layout: default
             
             {% else %}
             <div class="label invert small">
+               
               {{ date }} 
             </div>
             {% endif %}
+            
               {% endfor %}
             </div>
       
