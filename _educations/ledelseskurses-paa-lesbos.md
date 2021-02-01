@@ -14,8 +14,8 @@ oe-order: 2
 special: false
 hold_eller_begivenheder: true
 events:
-- overskrift: 27. maj - 3. juni 2021
-- overskrift: 9. - 16. september 2021
+- overskrift: Torsdag den 27.5 til onsdag den 2.6 (med mellemlanding)
+- overskrift: Torsdag den 9.9 til onsdag den 15.9 (med mellemlanding)
 redirect_from:
   - /academy/ledelseskursesPåLesbos/
   - /academy/ledelseskursus-på-lesbos/
