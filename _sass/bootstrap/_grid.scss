@@ -354,3 +354,14 @@ video {
   margin: 10px 0;
   border-top: 2px solid $almond;
 }
+
+
+.justify-content-right {
+  justify-content: end;
+  justify-items: end;
+}
+
+.justify-center {
+  justify-content: center;
+  justify-items: center;
+}

@@ -3,6 +3,7 @@ order: "8"
 title: Anni Rosengren Korsbæk
 portrait-image: "/images/about/employees/anni-r-korsbæk.jpg"
 small-portrait-image: "/images/about/employees/anni-r-korsbæk.jpg"
+grey-portrait: /images/about/medarbejdere-sort-hvid/anni-r-korsbæk-sort-hvid.jpg
 call: 51 48 84 33
 email: ark@copenhagencoaching.dk
 description: Associeret partner

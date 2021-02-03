@@ -61,6 +61,25 @@
   display: inline-block;
 }
 
+.medium-round-image {
+  object-fit: cover;
+  width: 100%;
+  max-width: 350px;
+  border-radius: 1000px;
+}
+
+.outer-medium-round-image {
+  height: 80%;
+  width: 80%;
+  text-align: center;
+  display: inline-block;
+
+ /*  @include for-laptop {
+    height: 30%;
+    width: 30%;
+  } */
+}
+
 .center {
   text-align: center;
 }
@@ -76,7 +95,10 @@
 }
 
 
-
+.full-width-of {
+  width: 100%;
+  height: 30%;
+}
 
 .object-fit {
   object-fit: cover;

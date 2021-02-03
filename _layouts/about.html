@@ -2,39 +2,58 @@
 layout: page
 title: About
 ---
-<div id="team" class="employees">
-  <div class="container-fluid narrow-container no-up">
-  <h1>Mød teamet</h1>
-  <div class="wrapper">
+
+<div class="bg-blue">
+  <div class="container-fluid narrow-container">
+    <h1 class="white">Mød teamet</h1>
+    <br>
+    <div class="grid-3 medium-slow-grid r-gap-60 gap-60">
+
       {% assign sorted_empl = site.employees | sort: "order" %}
       {% for employee in sorted_empl %}
-      <a class="{{ employee.title }}" href="{{ employee.url }}">
-          <img class="emp-image" src="{{ employee.portrait-image }}" alt="{{ employee.title }}">
-          <h5>{{ employee.title }}</h5>
-          <p>{{ employee.description }}<br>{{ employee.email }}<br>{{ employee.call }}</p>
-      </a>
+      <div class="bg-platinum p-20">
+        <a class="{{ employee.title }}" href="{{ employee.url }}">
+          <div class="grid-1">
+            <div>
+              <h4 class="mb-0">{{ employee.title }}</h4>
+              <p class="thin">{{ employee.description }}</p>
+              <p>{{ employee.email }}<br>{{ employee.call }}</p>
+            </div>
+            <div class="grid-1 align-right justify-content-right">
+              <div class="outer-medium-round-image">
+                <img class="medium-round-image" src="{{ employee.grey-portrait }}" alt="{{ employee.title }}">
+              </div>
+            </div>
+
+          </div>
+
+        </a>
+      </div>
+
       {% endfor %}
+    </div>
+
+
   </div>
-</div>
 </div>
 
 
 {% include partners.html %}
 
 <div class="container-fluid narrow-container">
-<section class="content">
-  {% assign orderedfundament = site.fundament | sort: "order" %}
-  {% for fundament in orderedfundament %}
-  <div class="wrapper">
+  <section class="content">
+    {% assign orderedfundament = site.fundament | sort: "order" %}
+    {% for fundament in orderedfundament %}
+    <div class="wrapper">
       <img class="content-img" src="{{ fundament.image }}" alt="{{ fundament.title }}">
       <span>
-          <h1 class="title">{{ fundament.title }}</h1>
-          <p>{{ fundament.content | truncatewords: 60, "" }}...</p>
+        <h1 class="title">{{ fundament.title }}</h1>
+        <p>{{ fundament.content | truncatewords: 60, "" }}...</p>
         <a class="fundament-link" href="{{ fundament.url }}">Læs mere om {{ fundament.title }} her ⟶</a>
       </span>
-  </div>
-  {% endfor %}
-</section>
+    </div>
+    {% endfor %}
+  </section>
 
 </div>
 

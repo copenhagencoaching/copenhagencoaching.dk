@@ -26,6 +26,12 @@
   }
 }
 
+@mixin under-phone() {
+  @media (max-width: 340px) {
+    @content;
+  }
+}
+
 @mixin for-tablet() {
   @media (max-width: 768px) {
     @content;
@@ -293,6 +299,10 @@ a {
   column-gap: 90px !important;
 }
 
+.gap-60 {
+  column-gap: 60px !important;
+}
+
 .gap-20 {
   column-gap: 20px !important;
 }
@@ -368,6 +378,12 @@ a {
   @include for-tablet {
     grid-template-columns: 1fr;
   }
+
+  &.fast-grid {
+    @include for-laptop {
+      grid-template-columns: 1fr;
+    }
+  }
 }
 
 .grid-3 {
@@ -398,6 +414,17 @@ a {
   
     @include for-phone-only {
       grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+
+  &.medium-slow-grid {
+  
+    @include for-bot {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    @include for-phone-only {
+      grid-template-columns: 1fr;
     }
   }
 }
