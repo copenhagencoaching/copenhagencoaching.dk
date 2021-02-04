@@ -9,6 +9,7 @@ sub-header: Få ny indsigt - og større udsyn - i dit lederskab
 price: 'Vejledende pris: 7.500 ekskl. moms pr. 5 ECTS'
 pdf: 'false'
 event-title: Vi starter løbende hold op - ring og hør nærmere
+oe-order: 5
 special: false
 hold_eller_begivenheder: true
 events:
@@ -60,3 +61,4 @@ De forskellige DOL-moduler har forskellige form og varighed – kontakt os og f�
 For at deltage i modulerne skal du have en gymnasial uddannelse + 2 års erhvervserfaring. Det er dog også muligt at få foretaget en realkompetencevurdering, hvis du ikke opfylder de formelle krav
 
 CCC samarbejder med Københavns Professionshøjskole, og via dette samarbejde kan du kombinere dine fag, så du opnår en fuld diplom. Du kan se hvilke fag de har [her](https://www.phmetropol.dk/videreuddannelser/diplomuddannelser/diplom+i+ledelse)
+

@@ -30,8 +30,8 @@ layout: default
 </div>
 
 
-<div class="container-fluid extra-narrow-container pt-30 no-down">
-    <div>
+<div class="container-fluid extra-narrow-container pt-30 pb-30 align-center">
+    
         <div class="nav nav-tabs mb-0 fade-pallette" id="myTab" role="tablist">
             <a class="nav-item nav-link active" id="nav-1-tab" data-toggle="tab" href="#nav-1" role="tab"
                 aria-controls="nav-coaching" aria-selected="false">Overblik</a>
@@ -48,12 +48,11 @@ layout: default
                 aria-selected="false">FAQ</a>
             <a class="nav-item nav-link" id="nav-8-tab" data-toggle="tab" href="#nav-8" role="tab" aria-controls="nav-8"
                 aria-selected="false">Tilmelding</a>
-        </div>
+       
     </div>
 </div>
 
 
-<br>
 
 
 <div class="tab-content" id="nav-tabContent">
@@ -383,18 +382,17 @@ layout: default
             style="background: linear-gradient(rgba(19, 19, 19, 0.6), rgba(19, 19, 19, 0.6)), url('/images/pfp/7.png'); background-position: center; background-size: cover;">
             <div class="container-fluid extra-narrow-container white">
                 <div>
-                    <h2>Start din tilmelding her</h2>
-                    <br>
-
                     <p class="large thin max-500">Her kan du søge om optagelse på CCC’s 4 årige uddannelse til Psykologisk Filosofisk
                         Psykoterapeut.</p>
                     <br>
-                    <br>
                     <p>
-                        <a class="copper-red-btn large thin" data-proofer-ignore href="#big-five" data-toggle="modal"
-                            data-target="#bf-modal">Ansøg her</a>
+                        <a class="copper-red-btn xlarge thin letter-spaced-1-5" data-proofer-ignore href="#big-five" data-toggle="modal"
+                            data-target="#bf-modal">START DIN TILMELDING HER</a>
                     </p>
                     <br>
+
+                   
+
 
 
                 </div>
@@ -413,10 +411,10 @@ layout: default
         <div class="bg-blue white p-20 grid-1 r-gap-20">
 
             
-                <div> <h3 class="xthin">
-                    Har du spørgsmål til
-        vores Psykologisk Filsofisk Terapi? Kontakt Kim nedenfor. Vi glæder os til at besvare dine spørgsmål.
-                </h3></div>
+                <div>
+                    <p class="large"><b>Har du spørgsmål til
+                        uddannelsen?</b> Kontakt Kim nedenfor. Vi glæder os til at besvare dine spørgsmål.</p>
+                  </div>
               
                 <div class="grid-fr-120 gap-20 r-gap-20">
                     <div class="align-right a-items-c">
@@ -1409,7 +1407,7 @@ layout: default
             "item.url != include.url" %}
             {% for edu in educations %}
             {% if edu.title == "Master of Business Coaching" or edu.title == "Ledelseskursus på Lesbos" or edu.title ==
-            "Certificering i Protreptik" or edu.title == "Masterclass i Protreptik" or edu.title == "Dialog er dannelse i praksis" %}
+            "Certificering i Protreptik" or edu.title == "Masterclass i Protreptik" or edu.title == "Den offentlige lederuddannelse" %}
             <a href="{{ edu.url }}">
 
                 <div class="card no-border h-200 right-bottom"
@@ -1429,7 +1427,7 @@ layout: default
 {% include secments/vision.html %}
 
 
-<div class="bg-orange white">
+<div class="bg-deep-taupe white">
     {% include secments/newsletter.html %}
 </div>
 

@@ -7,7 +7,6 @@ description: '"Dialog er dannelse i praksis" vil i et kursusforløb i efteråret
 teaser: '"Dialog er dannelse i praksis" vil i et <b>kursusforløb i efteråret 2020</b> udfolde en række nye dialogformer og knytte an til konkret undervisningspraksis.'
 price: PRISEN BLIVER ENDELIGT AFTALT I EFTERÅRET, OG VIL VÆRE I PRISLEJET 12.000 KR. PR. DELTAGER
 pdf: "/pdfs/dialog-er-dannelse-i-praksis-program.pdf"
-oe-order: 5
 event-title: Kommende hold
 location: Bautahøj Kursuscenter, Bautahøjvej 39, 3630 Jægerspris
 special: false

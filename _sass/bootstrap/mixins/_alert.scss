@@ -79,9 +79,23 @@
   border: none;
   padding: 7px 12px;
   @include full-width;
+
+  &.thin {
+    font-weight: 400;
+  }
+
+  &.xthin {
+    font-weight: 200;
+    
+  }
 }
 
-
+.letter-spaced-2 {
+  letter-spacing: 2px;
+}
+.letter-spaced-1-5 {
+  letter-spacing: 1.5px;
+}
 
 @mixin side-card {
   position: relative;
