@@ -50,6 +50,12 @@
   justify-items: center;
   justify-content: center;
 
+  &.large {
+    .nav-link {
+      font-size: $font-size-lg;
+    }
+  }
+
   &.brown-pallette {
     .nav-link {
       background-color: #E1DCD8;
