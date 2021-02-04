@@ -932,3 +932,7 @@ a {
     grid-template-columns: 1fr;
   }
 }
+
+.override-flex {
+  display: grid !important;
+}
