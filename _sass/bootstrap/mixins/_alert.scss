@@ -926,3 +926,9 @@ a {
     border: none !important;
   }
 }
+
+.split-phone {
+  @include for-tablet {
+    grid-template-columns: 1fr;
+  }
+}

@@ -431,3 +431,23 @@ textarea.form-control {
   }
 
 }
+
+.white-form {
+  max-width: 500px;
+  margin: auto;
+  input, textarea, select {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid#bbbbbb;
+  }
+  textarea {
+    height: 200px;
+  }
+
+  button {
+    margin: auto;
+    display: block;
+  }
+}
