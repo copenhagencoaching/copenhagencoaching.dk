@@ -2,7 +2,7 @@
     <div class="align-center">
         <h1 class="mb-50">Kalender</h1>
     </div>
-    <div class="grid-4 gap-20 r-gap-60">
+    <div class="grid-4 gap-40 r-gap-60">
 
         {% assign orderedPosts = site.posts | sort: order %}
         {% for post in orderedPosts %}
@@ -10,7 +10,7 @@
 
         {% if tag == "community" %}
 
-        <div class="card transparent white-border">
+        <div class="card transparent zoom">
             {% capture alldates %}
             {% assign orderposts = site.tags.event | order: "date" | reverse %}
             {% for item in orderposts %}

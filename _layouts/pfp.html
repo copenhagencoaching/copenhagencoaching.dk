@@ -15,8 +15,13 @@ layout: default
             </p> {% endif %}
             <br>
             <br>
-            <a class="copper-red-btn large thin" data-proofer-ignore href="#big-five" data-toggle="modal"
-                data-target="#bf-modal">Hør mere</a>
+            <p>
+                <a class="copper-red-btn large thin" data-proofer-ignore href="#big-five" data-toggle="modal"
+                    data-target="#bf-modal">Hør mere</a>
+            </p>
+            <br>
+            <p> <a class="orange-btn large thin" data-proofer-ignore href="#big-five" data-toggle="modal"
+                    data-target="#bf-modal">Få tilsendt brochure</a></p>
 
         </div>
 
@@ -34,8 +39,7 @@ layout: default
                 aria-selected="false">Moduler</a>
             <a class="nav-item nav-link" id="nav-3-tab" data-toggle="tab" href="#nav-3" role="tab" aria-controls="nav-3"
                 aria-selected="false">Deltagerprofil</a>
-            <a class="nav-item nav-link" id="nav-4-tab" data-toggle="tab" href="#nav-4" role="tab" aria-controls="nav-4"
-                aria-selected="false">Anbefalinger</a>
+
             <a class="nav-item nav-link" id="nav-5-tab" data-toggle="tab" href="#nav-5" role="tab" aria-controls="nav-5"
                 aria-selected="false">Undervisere</a>
             <a class="nav-item nav-link" id="nav-6-tab" data-toggle="tab" href="#nav-6" role="tab" aria-controls="nav-6"
@@ -371,21 +375,80 @@ layout: default
 
             </div>
             <br>
-            <div class="align-center">
-                <h3>Start din tilmelding her.</h3>
-                <p>Her kan du søge om optagelse på CCC’s 4 årige uddannelse til Psykologisk Filosofisk Psykoterapeut.
-                </p>
-                <a href="#" class="btn large">Ansøg her</a>
-                <br><br>
-                <hr class="beige-hr">
-            </div>
+
 
         </div>
-        {% assign page-contact = page.contact-person %}
-        {% include secments/contact-bar.html contact=page-contact contact-color="blue" text-1="Har du spørgsmål til
-        vores Psykoterapeut uddannelse? Kontakt Kim nedenfor. Vi glæder os til at besvare dine spørgsmål." text-2="Hør
-        om andres
-        erfaringer med Psykologisk Filsofisk Terapi" %}
+
+        <div class="full-banner-small grid-1 align-items-center align-content-center"
+            style="background: linear-gradient(rgba(19, 19, 19, 0.6), rgba(19, 19, 19, 0.6)), url('/images/pfp/7.png'); background-position: center; background-size: cover;">
+            <div class="container-fluid extra-narrow-container white">
+                <div>
+                    <h2>Start din tilmelding her</h2>
+                    <br>
+
+                    <p class="large thin max-500">Her kan du søge om optagelse på CCC’s 4 årige uddannelse til Psykologisk Filosofisk
+                        Psykoterapeut.</p>
+                    <br>
+                    <br>
+                    <p>
+                        <a class="copper-red-btn large thin" data-proofer-ignore href="#big-five" data-toggle="modal"
+                            data-target="#bf-modal">Ansøg her</a>
+                    </p>
+                    <br>
+
+
+                </div>
+
+
+            </div>
+        </div>
+
+        
+
+        {% for employee in site.employees %}
+{% if employee.title == page.contact-person %}
+<div class="container-fluid medium-narrow-container pt-100 pb-100">
+
+    <div class="grid-55-5-40 r-gap-40">
+        <div class="bg-blue white p-20 grid-1 r-gap-20">
+
+            
+                <div> <h3 class="xthin">
+                    Har du spørgsmål til
+        vores Psykologisk Filsofisk Terapi? Kontakt Kim nedenfor. Vi glæder os til at besvare dine spørgsmål.
+                </h3></div>
+              
+                <div class="grid-fr-120 gap-20 r-gap-20">
+                    <div class="align-right a-items-c">
+                        <div>
+                        <b><a href="{{ employee.url }}" class="large" data-proofer-ignore>{{ employee.title }}</a></b> <br>
+                        <span class="thin"><a href="tel:{{ employee.call }}" data-proofer-ignore>+45 {{ employee.call }}</a></span> <br>
+                        <span class="thin"><a href="mailto:{{ employee.email }}" data-proofer-ignore>{{ employee.email }}</a></span>
+                    </div>
+                    </div>
+                    <div class="outer-small-round-image">
+                        <img class="small-round-image" src="{{ employee.small-portrait-image }}"
+                            alt="{{ employee.title }}, {{ employee.description}}">
+                    </div>
+                   
+                </div>
+
+           
+
+        </div>
+
+        <div class="bg-platinum a-items-c align-center p-20 white" style="background: linear-gradient(rgba(19, 19, 19, 0.6), rgba(19, 19, 19, 0.6)), url('/images/graphic/mennesker.jpg'); background-position: center; background-size: cover;">
+            <h3>Vil du lære os bedre at kende?</h3>
+            <br>
+            <div><a class="dust-green-btn" href="/about/">Se mere <i class="fas fa-arrow-right"></i></a></div>
+
+        </div>
+
+    </div>
+</div>
+
+{% endif %}
+{% endfor %}
 
     </div>
 
@@ -432,7 +495,7 @@ layout: default
                                 <td><b> INTRO-MODUL <br>
                                         En indføring i uddannelsens grundlæggende teori- og arbejdsramme </b>
                                 </td>
-                                <td style="width: 500px;">
+                                <td class="bg-platinum-2" style="width: 500px;">
                                     <p>På dette internat arbejdes der grundlæggende på to spor; 1) at styrke
                                         tilegnelsen af hele uddannelsens teoretiske arbejds-ramme, gennem
                                         øvelser og refleksioner, og 2) at understøtte holdets modningsproces og
@@ -451,7 +514,7 @@ layout: default
                                         Professionelle samtaler; et grundmodul på 4 dages eksternat (2-dages
                                         intro-forløb påkrævet)</b>
                                 </td>
-                                <td style="width: 500px;">
+                                <td class="bg-platinum-2" style="width: 500px;">
                                     <p>På dette modul arbejder vi med dialogisk grundtræning, fx at skabe kontakt, lave
                                         og evt genforhandle psykologisk kontrakt, bryde ind, holde form og struktur,
                                         eller slippe og følge det dynamiske flow, lytte, og stille åbne og lukkede
@@ -471,7 +534,7 @@ layout: default
                                 <td><b>Modul 2<br>
                                         Følelsesmæssige ubalancer; et grundmodul på 4 dages eksternat</b>
                                 </td>
-                                <td style="width: 500px;">
+                                <td class="bg-platinum-2" style="width: 500px;">
                                     <p>På dette modul arbejder vi gennemgående med at balancere og dosere den
                                         terapeutiske kritik og åbenhed, 1) dels gennem at koble fire grundfølelser med
                                         menneskets kognitive skemata og herved undersøge en række neurokemiske pointer
@@ -491,7 +554,7 @@ layout: default
                                 <td><b>Modul 3<br>
                                         Stresshåndtering; et grundmodul på 4 dages eksternat inkl. eksamen</b>
                                 </td>
-                                <td style="width: 500px;">
+                                <td class="bg-platinum-2" style="width: 500px;">
                                     <p>
 
                                         På dette modul arbejder vi med bl.a. low- & high arousal, og med hvordan man
@@ -512,7 +575,7 @@ layout: default
                                 <td><b>Modul 4<br>
                                         Filosofisk terapi; et grundmodul på 4 dages eksternat</b>
                                 </td>
-                                <td style="width: 500px;">
+                                <td class="bg-platinum-2" style="width: 500px;">
                                     <p>På dette modul arbejder vi gennemgående med at etablere pusterum, fristeder, hvor
                                         intensitet og betydning kan tydeliggøre, de værdier, der er blevet ramt, og på
                                         den baggrund styrke færdigheden i at kunne trække en værdi ud af den
@@ -533,7 +596,7 @@ layout: default
                                 <td><b>Modul 5<br>
                                         Traume-forebyggelse; et grundmodul på 4 dages eksternat</b>
                                 </td>
-                                <td style="width: 500px;">
+                                <td class="bg-platinum-2" style="width: 500px;">
                                     <p>På dette modul arbejder vi noget mere dybdegående med bl.a. tab af
                                         betydningsfulde forhold, skader på sjælen og invaliderende krænkelser. Men
                                         fokuserer primært på fx hvad der forårsager traumet, fysiske såvel som psykiske,
@@ -552,7 +615,7 @@ layout: default
                                 <td><b>Modul 6<br>
                                         Klinisk praksis; et grundmodul på 4 dages eksternat</b>
                                 </td>
-                                <td style="width: 500px;">
+                                <td class="bg-platinum-2" style="width: 500px;">
                                     <p>På dette modul arbejder vi med at integrere indhold og metoder fra modul 1-5 med
                                         særligt fokus på at praktisere dette i kombinerede varianter. Således er dette
                                         modul primært praksis-nært hvad angår at træne og øve sig og få feedback herpå
@@ -946,17 +1009,6 @@ layout: default
 
     </div>
 
-    <div class="tab-pane fade" id="nav-4" role="tabpanel" aria-labelledby="nav-4-tab">
-        <div class="container-fluid extra-narrow-container no-up">
-            <h2>Anbefalinger</h2>
-            <h4>Enim nulla ut incididunt incididunt eiusmod minim reprehenderit irure.</h4>
-            <p>Ex exercitation ad ea esse labore consequat. Esse aute eu ad ipsum occaecat. Exercitation
-                cupidatat nisi proident et dolor id fugiat tempor cupidatat excepteur. Enim proident anim
-                deserunt voluptate mollit amet sint anim do dolor commodo. Ut in magna minim veniam anim velit
-                magna.</p>
-        </div>
-    </div>
-
     <div class="tab-pane fade" id="nav-5" role="tabpanel" aria-labelledby="nav-5-tab">
         <div class="container-fluid extra-narrow-container no-up">
             <hr class="hr-small-t">
@@ -1325,6 +1377,13 @@ layout: default
 
 
 </div>
+
+
+
+
+
+
+
 {% capture reg-url %}?n={{ page.title | uri_escape }}{% endcapture %}
 
 
@@ -1350,8 +1409,7 @@ layout: default
             "item.url != include.url" %}
             {% for edu in educations %}
             {% if edu.title == "Master of Business Coaching" or edu.title == "Ledelseskursus på Lesbos" or edu.title ==
-            "Certificering i Protreptik" or edu.title == "Masterclass i Protreptik" or edu.title == "Dialog er dannelse
-            i praksis" %}
+            "Certificering i Protreptik" or edu.title == "Masterclass i Protreptik" or edu.title == "Dialog er dannelse i praksis" %}
             <a href="{{ edu.url }}">
 
                 <div class="card no-border h-200 right-bottom"
@@ -1371,11 +1429,11 @@ layout: default
 {% include secments/vision.html %}
 
 
-<div class="bg-platinum-2">
+<div class="bg-orange white">
     {% include secments/newsletter.html %}
 </div>
 
 <div class="bg-darker-green white">
-    {% include secments/events.html container-classes="pt-50 mb-50 mt-50" btn-color="dust-green-btn" %}
+    {% include secments/events.html container-classes="pt-50 mb-50 mt-50" btn-color="dust-green-btn" zoom="yes" %}
 </div>
 <!-- end -->

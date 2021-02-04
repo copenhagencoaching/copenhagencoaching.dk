@@ -254,3 +254,9 @@ input[type="button"] {
   color: white;
   background-color: $copper-red;
 }
+
+.orange-btn {
+  @include button;
+  color: white;
+  background-color: $ccc-orange;
+}

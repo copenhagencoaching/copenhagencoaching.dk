@@ -40,6 +40,18 @@
   
 }
 
+.full-banner-small {
+  min-height: 400px;
+  text-align: center;
+
+  &.community {
+    background: linear-gradient(rgba(19, 19, 19, 0.6), rgba(19, 19, 19, 0.6)), url('/images/community/community.jpg');
+    background-position: center;
+    background-size: cover;
+  }
+  
+}
+
 
 .bg-blue {
   background-color: $ccc-blue;

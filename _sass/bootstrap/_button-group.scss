@@ -161,3 +161,42 @@
     }
   }
 }
+
+
+// Arrow buttons
+/* Button-arrow CSS: */
+
+// NOTE: I feel I could re-write the CSS to make a little more sense, but it's pretty good as-is:
+
+a.arrow{
+  height:50px;
+  line-height:50px;
+  vertical-align:middle;
+  text-align:center;
+  padding:0 10px;
+  color:#ffffff;
+  background-color:#007bff;
+  position:relative;
+  display:inline-block;
+}
+a.arrow:after{
+  position:absolute;
+  right:-20px;
+  content:" ";
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 25px 0 25px 20px;
+  border-color: transparent transparent transparent #007bff;
+}
+a.arrow:hover{
+  background-color:red;
+}
+a.arrow:hover:after{
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 25px 0 25px 20px;
+  border-color: transparent transparent transparent #ff0000;
+}
+
