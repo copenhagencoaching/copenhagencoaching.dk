@@ -260,3 +260,19 @@ input[type="button"] {
   color: white;
   background-color: $ccc-orange;
 }
+
+.border-button {
+  background-color: none;
+  border: 2px solid #dadada;
+  padding: 12px 20px 10px 20px;
+  display: block;
+  height: 50px;
+  width: 250px;
+  margin: auto;
+  text-transform: uppercase;
+  text-align: center;
+
+  &.big {
+    font-size: 2rem;
+  }
+}
