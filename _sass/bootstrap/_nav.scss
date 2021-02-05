@@ -67,6 +67,12 @@
 
   }
 
+  &.bold {
+    .nav-link {
+    font-weight: 600;
+    }
+  }
+
   &.fade-pallette {
     .nav-link {
       background-color: $beaver;

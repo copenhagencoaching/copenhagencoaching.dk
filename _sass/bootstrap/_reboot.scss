@@ -659,4 +659,10 @@ template {
   &.pointy {
     border-radius: 0;
   }
+
+  &.border {
+    background-color: none;
+    border-radius: 0;
+    border: 1.5px solid #c9c9c9;
+  }
 }

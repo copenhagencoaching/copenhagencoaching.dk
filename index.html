@@ -86,13 +86,240 @@ layout: default
             <div>
                 <h2>Vi tilbyder et eksklusivt udvalg af konsulentydelser</h2>
                 <br>
-                <a href="#" class="border-button w-100 large white">Se vores konsulentydelser</a>
+                <a href="#" class="border-button w-100 large white">Se vores konsulentydelser <i class="fas fa-long-arrow-alt-right"></i></a> 
             </div>
         </div>
     
     </div>
  
 </div>
+
+{% assign orderevents = site.tags.eventgroup | order: "date" | reverse %}
+
+{% for event in orderevents limit: 4 %}
+
+{% if forloop.index == 1 or forloop.index == 3 %}
+<div class="grid-2 gap-0">
+
+    <div class="container-fluid max-500 pt-20 pb-20 grid-1 align-content-center align-items-center">
+        
+        <!-- Months -->
+        {% capture alldates %}
+        {% assign orderposts = site.tags.event | order: "date" | reverse %}
+        {% for item in orderposts %}
+
+        {% for tag in item.tags %}
+        {% if tag == event.sub-pages %}
+
+        {% assign postmonth = item.date | date: "%m" %}
+
+
+        {% if postmonth == "01" %}
+        {% assign monthName = "Januar" %}
+        {% elsif postmonth == "02" %}
+        {% assign monthName = "Februar" %}
+        {% elsif postmonth == "03" %}
+        {% assign monthName = "Marts" %}
+        {% elsif postmonth == "04" %}
+        {% assign monthName = "April" %}
+        {% elsif postmonth == "05" %}
+        {% assign monthName = "Maj" %}
+        {% elsif postmonth == "06" %}
+        {% assign monthName = "Juni" %}
+        {% elsif postmonth == "07" %}
+        {% assign monthName = "Juli" %}
+        {% elsif postmonth == "08" %}
+        {% assign monthName = "August" %}
+        {% elsif postmonth == "09" %}
+        {% assign monthName = "September" %}
+        {% elsif postmonth == "10" %}
+        {% assign monthName = "Oktober" %}
+        {% elsif postmonth == "11" %}
+        {% assign monthName = "November" %}
+        {% elsif postmonth == "12" %}
+        {% assign monthName = "December" %}
+        {% endif %}
+
+
+        {{ monthName }},
+
+        {% endif %}
+        {% endfor %}
+        {% endfor %}
+        {% endcapture %}
+        {% assign alldatessplit = alldates | split: "," %}
+        <div>
+            {% for date in alldatessplit %}
+            {% if forloop.last %}
+
+            {% else %}
+            <div class="label border small">
+
+                {{ date }}
+            </div>
+            
+            {% endif %}
+
+            {% endfor %}
+            <br>
+            <br>
+        </div>
+        <!-- months end -->
+
+        
+
+        
+        <h2>{{ event.title }}</h2>
+        <p>{{ event.description }}</p>
+
+        <div class="grid-25-75 grid-2">
+            <div>
+                {% capture alltime %}
+                {% assign orderposts = site.posts | order: "date" | reverse %}
+                {% for item in orderposts %}
+
+                {% for tag in item.tags %}
+                {% if tag == event.sub-pages %}
+                {{ item.time }},
+                {% endif %}
+                {% endfor %}
+                {% endfor %}
+                {% endcapture %}
+                {% assign alltimesplit = alltime | split: "," %}
+                {% for time in alltimesplit limit: 1 %}
+                <p><b>Tid:</b> <br>
+                    {{ time }}
+                </p>
+
+                {% endfor %}
+            </div>
+            <div>
+                {% capture allprices %}
+                {% assign orderposts = site.posts | order: "date" | reverse %}
+                {% for item in orderposts %}
+
+                {% for tag in item.tags %}
+                {% if tag == event.sub-pages %}
+                {% if item.price %}
+                {% if item.community-free == true %}
+
+                <b>Pris:</b><br>
+                Medlemmer: 0 kr. <br>
+                Ikke medlemmer: {{ item.price }} {% if item.ex-moms %} (ekskl. moms){% endif %} |
+
+                {% else %}
+                {% if item.community-price %}
+                <b>Pris:</b><br>
+                Medlemmer: {{ item.community-price }} {% if item.ex-moms %} (ekskl. moms){% endif %}<br>
+                Ikke medlemmer: {{ item.price }} {% if item.ex-moms %} (ekskl. moms){% endif %} |
+
+                {% else %}
+
+                <b>Pris: {{ item.price }} {% if item.ex-moms %} (ekskl. moms){% endif %}</b>|
+                {% endif %}
+                {% endif %}
+                {% endif %}
+                {% endif %}
+                {% endfor %}
+                {% endfor %}
+                {% endcapture %}
+                {% assign allpricesplit = allprices | split: "|" %}
+                {% for price in allpricesplit limit: 1 %}
+                <p>{{ price }}</p>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+    <div class="object-fit-full-width h-400">
+        <img src="{{ event.image }}" class="object-fit" alt="">
+    </div>
+
+</div>
+
+{% else %}
+<div class="grid-2 gap-0">
+
+    
+
+    <div class="object-fit-full-width h-400">
+        <img src="{{ event.image }}" class="object-fit" alt="">
+    </div>
+    <div class="container-fluid extra-narrow-container gap-0 pt-20 pb-20 grid-1 align-content-center align-items-center">
+         <!-- Months -->
+         {% capture alldates %}
+         {% assign orderposts = site.tags.event | order: "date" | reverse %}
+         {% for item in orderposts %}
+ 
+         {% for tag in item.tags %}
+         {% if tag == event.sub-pages %}
+ 
+         {% assign postmonth = item.date | date: "%m" %}
+ 
+ 
+         {% if postmonth == "01" %}
+         {% assign monthName = "Januar" %}
+         {% elsif postmonth == "02" %}
+         {% assign monthName = "Februar" %}
+         {% elsif postmonth == "03" %}
+         {% assign monthName = "Marts" %}
+         {% elsif postmonth == "04" %}
+         {% assign monthName = "April" %}
+         {% elsif postmonth == "05" %}
+         {% assign monthName = "Maj" %}
+         {% elsif postmonth == "06" %}
+         {% assign monthName = "Juni" %}
+         {% elsif postmonth == "07" %}
+         {% assign monthName = "Juli" %}
+         {% elsif postmonth == "08" %}
+         {% assign monthName = "August" %}
+         {% elsif postmonth == "09" %}
+         {% assign monthName = "September" %}
+         {% elsif postmonth == "10" %}
+         {% assign monthName = "Oktober" %}
+         {% elsif postmonth == "11" %}
+         {% assign monthName = "November" %}
+         {% elsif postmonth == "12" %}
+         {% assign monthName = "December" %}
+         {% endif %}
+ 
+ 
+         {{ monthName }},
+ 
+         {% endif %}
+         {% endfor %}
+         {% endfor %}
+         {% endcapture %}
+         {% assign alldatessplit = alldates | split: "," %}
+         <div>
+             {% for date in alldatessplit %}
+             {% if forloop.last %}
+ 
+             {% else %}
+             <div class="label border small">
+ 
+                 {{ date }}
+             </div>
+             
+             {% endif %}
+ 
+             {% endfor %}
+             <br>
+             <br>
+         </div>
+         <!-- months end -->
+        <h2>{{ event.title }}</h2>
+        <p>{{ event.description }}</p>
+    </div>
+
+</div>
+{% endif %}
+
+{% endfor %}
+
+
+
+
 
 
 <div class="bg-dust-green white">
@@ -201,6 +428,8 @@ layout: default
                     <p><b>Tid: {{ time }}</b></p>
 
                     {% endfor %}
+
+
                     {% capture allprices %}
                     {% assign orderposts = site.posts | order: "date" | reverse %}
                     {% for item in orderposts %}

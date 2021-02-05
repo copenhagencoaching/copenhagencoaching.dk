@@ -2,12 +2,23 @@
 layout: default
 ---
 
+
+
+<div class="full-banner-xsmall grid-1 align-items-center align-content-center"
+    style="background: linear-gradient(rgba(19, 19, 19, 0.6), rgba(19, 19, 19, 0.6)), url('{{ page.image }}'); background-position: center; background-size: cover;">
+    <div class="container-fluid extra-narrow-container white">
+        <div>
+            {% if page.pre-title %}
+            <p class="thin large capped mb-0">{{ page.pre-title }}</p>
+            {% endif %}
+            <h1>{{ page.title }}</h1>
+        </div>
+
+
+    </div>
+</div>
 <div class="container-fluid extra-narrow-container no-down">
-    {% if page.pre-title %}
-    <p class="thin capped mb-0">{{ page.pre-title }}</p>
-    {% endif %}
-    <h1>{{ page.title }}</h1>
-    <br>
+
     {{ page.content }}
     <br>
     <a href="/academy/psykologisk-filosofisk-psykoterapi/" class="thin capped"><i

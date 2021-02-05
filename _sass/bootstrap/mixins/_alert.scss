@@ -200,6 +200,10 @@ a {
 
 }
 
+.side-padding {
+  @include side-padding;
+}
+
 .newsletter {
   position: fixed;
   top: 15px;
@@ -305,6 +309,10 @@ a {
   column-gap: 10px;
 }
 
+.gap-0 {
+  column-gap: 0 !important;
+}
+
 .gap-40 {
   column-gap: 40px !important;
 }
@@ -378,6 +386,10 @@ a {
     }
   }
 
+}
+
+.grid-reverse {
+  grid-auto-flow: dense;
 }
 
 .grid-1 {
@@ -825,6 +837,14 @@ a {
 .grid-2-on-bot {
   @include for-bot {
     grid-template-columns: 1fr 1fr;
+  }
+}
+
+.grid-25-75 {
+  grid-template-columns: 25% 70%;
+  column-gap: 5%;
+  @include for-bot {
+    grid-template-columns: 1fr;
   }
 }
 
