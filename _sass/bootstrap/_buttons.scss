@@ -275,4 +275,22 @@ input[type="button"] {
   &.big {
     font-size: 2rem;
   }
+
+  &.w-100 {
+    width: 100%;
+  }
+
+  &.dark {
+    border: 2px solid #a7a7a7;
+    color: #888888 !important;
+  }
+
+  .wider {
+    width: 400px;
+  }
+
+  .white {
+    border: 2px solid white;
+  }
+  
 }

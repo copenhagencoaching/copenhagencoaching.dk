@@ -2,12 +2,12 @@
 layout: default
 ---
 
-<div class="container-fluid extra-narrow-container">
+<div class="container-fluid extra-narrow-container no-down">
     {% if page.pre-title %}
     <p class="thin capped mb-0">{{ page.pre-title }}</p>
     {% endif %}
     <h1>{{ page.title }}</h1>
-<br>
+    <br>
     {{ page.content }}
     <br>
     <a href="/academy/psykologisk-filosofisk-psykoterapi/" class="thin capped"><i
@@ -16,30 +16,28 @@ layout: default
 </div>
 
 
+<!-- <div class="bg-platinum-2 mt-50">
+    <div class="container-fluid extra-narrow-container pt-50">
+        <div class="grid-2 gap-40 r-gap-40">
+            <div class="object-fit-full-width">
+                <img class="object-fit" src="/images/pfp/17.png" alt="">
+            </div>
 
-<div class="full-banner-small grid-1 align-items-center align-content-center"
-    style="background: linear-gradient(rgba(19, 19, 19, 0.6), rgba(19, 19, 19, 0.6)), url('/images/pfp/7.png'); background-position: center; background-size: cover;">
-    <div class="container-fluid extra-narrow-container white">
-        <div>
-            <p class="large thin max-500">Her kan du søge om optagelse på CCC’s 4 årige uddannelse til Psykologisk
-                Filosofisk
-                Psykoterapeut.</p>
-            <br>
-            <p>
-                <a class="copper-red-btn xlarge thin letter-spaced-1-5" data-proofer-ignore href="#big-five"
-                    data-toggle="modal" data-target="#bf-modal">START DIN TILMELDING HER</a>
-            </p>
-            <br>
+            {% assign kontakt = "Kim Gørtz" %}
 
 
+            <div>
+                <a href="#" class="border-button w-100 capped dark large">Download brouchure</a>
+                <br>
+                <h3>I tvivl om uddannelsen er den rette for dig?</h3>
+                <p>Kontakt Kim nedenfor på <a href="mailto:kgcopenhagencoaching.dk">kg@copenhagencoaching.dk</a></p>
 
-
-
+            </div>
         </div>
-
-
     </div>
 </div>
+ -->
+
 
 {% assign kontakt = "Kim Gørtz" %}
 
@@ -52,8 +50,7 @@ layout: default
 
 
             <div>
-                <p class="large"><b>Har du spørgsmål til
-                        uddannelsen?</b> Kontakt Kim nedenfor. Vi glæder os til at besvare dine spørgsmål.</p>
+                <p class="large"><b>I tvivl om uddannelsen er den rette for dig?</b> Kontakt Kim nedenfor. Vi glæder os til at besvare dine spørgsmål.</p>
             </div>
 
             <div class="grid-fr-120 gap-20 r-gap-20">
@@ -79,10 +76,10 @@ layout: default
         </div>
 
         <div class="bg-platinum a-items-c align-center p-20 white"
-            style="background: linear-gradient(rgba(19, 19, 19, 0.6), rgba(19, 19, 19, 0.6)), url('/images/graphic/mennesker.jpg'); background-position: center; background-size: cover;">
-            <h3>Vil du lære os bedre at kende?</h3>
+            style="background: linear-gradient(rgba(19, 19, 19, 0.6), rgba(19, 19, 19, 0.6)), url('/images/graphic/download.png'); background-position: center; background-size: cover;">
+            <h3>Vil du vide mere om uddannelsen?</h3>
             <br>
-            <div><a class="dust-green-btn" href="/about/">Se mere <i class="fas fa-arrow-right"></i></a></div>
+            <div><a class="dust-green-btn" href="/about/">Hent brochure</a></div>
 
         </div>
 
@@ -91,6 +88,8 @@ layout: default
 
 {% endif %}
 {% endfor %}
+
+{% include secments/pfp-tilmelding.html %}
 
 <div class="bg-light-brown">
     <div class="container-fluid narrow-container normal-top-mobile pt-50">
@@ -124,5 +123,5 @@ layout: default
 </div>
 
 <br><br>
-    {% include secments/newsletter.html %}
+{% include secments/newsletter.html %}
 <br><br>

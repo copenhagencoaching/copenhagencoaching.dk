@@ -13,6 +13,7 @@ layout: default
 
 
 <div class="front-slider">
+
     {% for text in site.texts %}
     {% if text.page == "frontpage" %}
     <div class="big-header">
@@ -21,6 +22,14 @@ layout: default
                 <div class="front-box">
                     <h1>{{ text.title }}</h1>
                     {{ text.content }}
+                    <br> <br>
+
+                    {% if text.link %}
+                    <div class="align-right">
+                        <a href="{{ text.link }}" class="dust-green-btn capped">Se mere <i
+                                class="fas fa-long-arrow-alt-right"></i></a>
+                    </div>
+                    {% endif %}
 
                 </div>
             </div>
@@ -50,135 +59,170 @@ layout: default
 </div>
  -->
 
+<div class="container-fluid extra-narrow-container">
+    <div class="align-center">
+        <h1>Vi er mere end bare uddannelse</h1>
+    </div>
+    <br>
+    <div class="grid-2 gap-40 r-gap-40">
+        <div>
+            <p>CCC er et ledelsesfilosofisk epicenter med fire forretningsområder. Vi tilbyder individuel coaching,
+                ledelsessupervision, lederuddannelser og konsulentopgaver. Vores fokus er dygtiggørelse af medarbejdere
+                og ledere, som ønsker at udvikle deres dialogiske færdigheder, refleksive kompetencer og ledelsesmæssige
+                kapacitet.</p>
+        </div>
 
-<div>
+        <div>
+            <p>Copenhagen Coaching Center skaber betingelserne og rammen for din personlige og faglige udvikling – du vil opleve en styrket ledelseskapacitet, en klarere indsigt i dit værdigrundlag og et nærvær til dig selv og din omverden. Vi tilbyder dig et kompetenceløft, en ny metodisk praksis og et fagligt stærkt forum.</p>
+        </div>
+    </div>
+</div>
+
+
+<div style="background: linear-gradient(rgba(19, 19, 19, 0.6), rgba(19, 19, 19, 0.6)), url('/images/graphic/lights.png'); background-position: center; background-size: cover; background-attachment: fixed;">
+
+    <div class="container-fluid extra-narrow-container pb-100 pt-100">
+        <div class="grid-2 white">
+            <div>
+                <h2>Vi tilbyder et eksklusivt udvalg af konsulentydelser</h2>
+                <br>
+                <a href="#" class="border-button w-100 large white">Se vores konsulentydelser</a>
+            </div>
+        </div>
+    
+    </div>
+ 
+</div>
+
+
+<div class="bg-dust-green white">
     <div class="container-fluid narrow-container">
         <h1 class="center mb-30">Kommende events</h1>
-<br>
+        <br>
 
         <div class="grid-4 gap-40 r-gap-60">
 
             {% assign orderedPosts = site.posts | sort: order %}
             {% for post in orderedPosts %}
             {% for tag in post.tags %}
-      
+
             {% if tag == "community" %}
-      
-            
+
+
             <div class="card transparent">
-              {% capture alldates %}
-              {% assign orderposts = site.tags.event | order: "date" | reverse %}
-              {% for item in orderposts %}
-      
-              {% for tag in item.tags %}
-              {% if tag == post.sub-pages %}
-      
-              {% assign postmonth = item.date | date: "%m" %}
-      
-      
-              {% if postmonth == "01" %}
-              {% assign monthName = "Januar" %}
-              {% elsif postmonth == "02" %}
-              {% assign monthName = "Februar" %}
-              {% elsif postmonth == "03" %}
-              {% assign monthName = "Marts" %}
-              {% elsif postmonth == "04" %}
-              {% assign monthName = "April" %}
-              {% elsif postmonth == "05" %}
-              {% assign monthName = "Maj" %}
-              {% elsif postmonth == "06" %}
-              {% assign monthName = "Juni" %}
-              {% elsif postmonth == "07" %}
-              {% assign monthName = "Juli" %}
-              {% elsif postmonth == "08" %}
-              {% assign monthName = "August" %}
-              {% elsif postmonth == "09" %}
-              {% assign monthName = "September" %}
-              {% elsif postmonth == "10" %}
-              {% assign monthName = "Oktober" %}
-              {% elsif postmonth == "11" %}
-              {% assign monthName = "November" %}
-              {% elsif postmonth == "12" %}
-              {% assign monthName = "December" %}
-              {% endif %}
-      
-              
-              {{ monthName }},
-              
-              {% endif %}
-              {% endfor %}
-              {% endfor %}
-              {% endcapture %}
-              {% assign alldatessplit = alldates | split: "," %}
-              <div>
-              {% for date in alldatessplit %}
-              {% if forloop.last %}
-            
-            {% else %}
-            <div class="label invert small">
-               
-              {{ date }} 
-            </div>
-            {% endif %}
-            
-              {% endfor %}
-            </div>
-      
-      
-              <div class="card-img-top short position-relative">
-                {% if post.community %}
-                <div class="overlay-label">{{ post.community }}</div>
-                {% endif %}
-                <img src="{{ post.image }}" alt="">
-              </div>
-              <div class="card-body">
-      
-                <div >
-                
-      
-                  
-      
-                </div>
-                <h3 class="card-title thin">{{ post.title }}</h3>
-                <p class="card-text">{{ post.description }}</p>
-                {% capture alltime %}
-                {% assign orderposts = site.posts | order: "date" | reverse %}
+                {% capture alldates %}
+                {% assign orderposts = site.tags.event | order: "date" | reverse %}
                 {% for item in orderposts %}
-        
+
                 {% for tag in item.tags %}
                 {% if tag == post.sub-pages %}
-                {{ item.time }},
+
+                {% assign postmonth = item.date | date: "%m" %}
+
+
+                {% if postmonth == "01" %}
+                {% assign monthName = "Januar" %}
+                {% elsif postmonth == "02" %}
+                {% assign monthName = "Februar" %}
+                {% elsif postmonth == "03" %}
+                {% assign monthName = "Marts" %}
+                {% elsif postmonth == "04" %}
+                {% assign monthName = "April" %}
+                {% elsif postmonth == "05" %}
+                {% assign monthName = "Maj" %}
+                {% elsif postmonth == "06" %}
+                {% assign monthName = "Juni" %}
+                {% elsif postmonth == "07" %}
+                {% assign monthName = "Juli" %}
+                {% elsif postmonth == "08" %}
+                {% assign monthName = "August" %}
+                {% elsif postmonth == "09" %}
+                {% assign monthName = "September" %}
+                {% elsif postmonth == "10" %}
+                {% assign monthName = "Oktober" %}
+                {% elsif postmonth == "11" %}
+                {% assign monthName = "November" %}
+                {% elsif postmonth == "12" %}
+                {% assign monthName = "December" %}
+                {% endif %}
+
+
+                {{ monthName }},
+
                 {% endif %}
                 {% endfor %}
                 {% endfor %}
                 {% endcapture %}
-                {% assign alltimesplit = alltime | split: "," %}
-                {% for time in alltimesplit limit: 1 %}
-                <p><b>Tid: {{ time }}</b></p>
-        
-                {% endfor %}
-                {% capture allprices %}
+                {% assign alldatessplit = alldates | split: "," %}
+                <div>
+                    {% for date in alldatessplit %}
+                    {% if forloop.last %}
+
+                    {% else %}
+                    <div class="label invert small">
+
+                        {{ date }}
+                    </div>
+                    {% endif %}
+
+                    {% endfor %}
+                </div>
+
+
+                <div class="card-img-top short position-relative">
+                    {% if post.community %}
+                    <div class="overlay-label">{{ post.community }}</div>
+                    {% endif %}
+                    <img src="{{ post.image }}" alt="">
+                </div>
+                <div class="card-body">
+
+                    <div>
+
+
+
+
+                    </div>
+                    <h3 class="card-title thin">{{ post.title }}</h3>
+                    <p class="card-text">{{ post.description }}</p>
+                    {% capture alltime %}
                     {% assign orderposts = site.posts | order: "date" | reverse %}
                     {% for item in orderposts %}
-      
+
+                    {% for tag in item.tags %}
+                    {% if tag == post.sub-pages %}
+                    {{ item.time }},
+                    {% endif %}
+                    {% endfor %}
+                    {% endfor %}
+                    {% endcapture %}
+                    {% assign alltimesplit = alltime | split: "," %}
+                    {% for time in alltimesplit limit: 1 %}
+                    <p><b>Tid: {{ time }}</b></p>
+
+                    {% endfor %}
+                    {% capture allprices %}
+                    {% assign orderposts = site.posts | order: "date" | reverse %}
+                    {% for item in orderposts %}
+
                     {% for tag in item.tags %}
                     {% if tag == post.sub-pages %}
                     {% if item.price %}
                     {% if item.community-free == true %}
-      
+
                     <b>Pris:</b><br>
                     Medlemmer: 0 kr. <br>
-                    Ikke medlemmer: {{ item.price }} {% if item.ex-moms %}  (ekskl. moms){% endif %} |
-      
+                    Ikke medlemmer: {{ item.price }} {% if item.ex-moms %} (ekskl. moms){% endif %} |
+
                     {% else %}
                     {% if item.community-price %}
                     <b>Pris:</b><br>
                     Medlemmer: {{ item.community-price }} {% if item.ex-moms %} (ekskl. moms){% endif %}<br>
-                    Ikke medlemmer: {{ item.price }} {% if item.ex-moms %}  (ekskl. moms){% endif %} |
-      
+                    Ikke medlemmer: {{ item.price }} {% if item.ex-moms %} (ekskl. moms){% endif %} |
+
                     {% else %}
-      
-                    <b>Pris: {{ item.price }} {% if item.ex-moms %}  (ekskl. moms){% endif %}</b>|
+
+                    <b>Pris: {{ item.price }} {% if item.ex-moms %} (ekskl. moms){% endif %}</b>|
                     {% endif %}
                     {% endif %}
                     {% endif %}
@@ -189,15 +233,15 @@ layout: default
                     {% assign allpricesplit = allprices | split: "|" %}
                     {% for price in allpricesplit limit: 1 %}
                     <p>{{ price }}</p>
-      
+
                     {% endfor %}
-      
-      
-      
+
+
+
                     {% capture allplaces %}
                     {% assign orderposts = site.posts | order: "date" | reverse %}
                     {% for item in orderposts %}
-            
+
                     {% for tag in item.tags %}
                     {% if tag == post.sub-pages %}
                     {{ item.place }}.
@@ -208,31 +252,106 @@ layout: default
                     {% assign allplacesplit = allplaces | split: "." %}
                     {% for place in allplacesplit limit: 1 %}
                     <p><b>Sted: {{ place }}</b></p>
-            
+
                     {% endfor %}
-              </div>
-              <div class="card-footer">
-                {% if post.ready == true %}
-                <a href="{{ post.url }}" class="brown-btn thin white">Læs mere</a>
-                {% endif %}
-      
-              </div>
+                </div>
+                <div class="card-footer">
+                    {% if post.ready == true %}
+                    <a href="{{ post.url }}" class="brown-btn thin white">Læs mere</a>
+                    {% endif %}
+
+                </div>
             </div>
-      
+
             {% endif %}
             {% endfor %}
             {% endfor %}
-      
-      
-      
-      
-      
-          </div>
+
+
+
+
+
+        </div>
 
     </div>
 </div>
 
 
+{% include secments/vision.html %}
+
+<div class="bg-platinum-2 mt-50">
+    <div class="container-fluid extra-narrow-container pt-50">
+        <div class="grid-2 gap-40 r-gap-40">
+            <div class="object-fit-full-width">
+                <img class="object-fit" src="/images/graphic/company.png" alt="">
+            </div>
+
+
+
+
+            <div>
+                <h2>Hvordan skal din virksomhed ledes?</h2>
+                <br>
+                <p>Tempor excepteur irure tempor veniam dolore ex duis dolor. Qui laboris eu irure ullamco. Duis
+                    reprehenderit do ex minim anim laborum nostrud ut nulla sit commodo aliquip consectetur.</p>
+                <p>Deserunt labore in occaecat adipisicing sit consequat dolor minim nostrud laborum in veniam. Deserunt
+                    quis voluptate id veniam minim aliquip ex ipsum nostrud anim magna commodo.</p>
+
+            </div>
+        </div>
+    </div>
+</div>
+<br><br>
+{% include secments/newsletter.html %}
+<br><br>
+
+{% assign contact = "Andreas Bering" %}
+
+{% for employee in site.employees %}
+{% if employee.title == contact %}
+<div class="bg-blue">
+    <div class="container-fluid xs-extra-narrow-container pt-50 pb-50 white">
+
+
+        <div class="bg-blue p-20 grid-1 r-gap-20">
+
+
+            <div>
+                <h2 class="thin">
+                    Har du brug for hjælp i forhold til uddannelse?
+                </h2>
+
+            </div>
+
+            <div class="grid-fr-120 gap-20 r-gap-20">
+                <div class="align-right a-items-c">
+                    <div>
+                        <p class="mb-0">Så kontakt</p>
+                        <b><a href="{{ employee.url }}" class="large" data-proofer-ignore>{{ employee.title }}</a></b>
+                        <br>
+                        <span class="thin"><a href="tel:{{ employee.call }}" data-proofer-ignore>+45 {{ employee.call
+                                }}</a></span> <br>
+                        <span class="thin"><a href="mailto:{{ employee.email }}" data-proofer-ignore>{{ employee.email
+                                }}</a></span>
+                    </div>
+                </div>
+                <div class="outer-small-round-image">
+                    <img class="small-round-image" src="{{ employee.small-portrait-image }}"
+                        alt="{{ employee.title }}, {{ employee.description}}">
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+
+
+    </div>
+</div>
+{% endif %}
+{% endfor %}
 <!-- <div>
 
 

@@ -64,6 +64,7 @@
         background-color: #B9927A;
       }
     }
+
   }
 
   &.fade-pallette {
@@ -72,6 +73,11 @@
       &.active {
         background-color: $deep-taupe;
       }
+
+
+    &:hover {
+      background-color: $deep-taupe;
+    }
     }
   }
 
