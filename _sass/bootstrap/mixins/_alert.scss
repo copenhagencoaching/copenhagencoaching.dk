@@ -956,3 +956,8 @@ a {
 .override-flex {
   display: grid !important;
 }
+
+.display-inline {
+  display: inline !important;
+  width: unset !important;
+}

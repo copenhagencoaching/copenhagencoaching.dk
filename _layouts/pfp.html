@@ -47,8 +47,8 @@ layout: default
             <a class="nav-item nav-link" id="nav-7-tab" data-toggle="tab" href="#nav-7" role="tab" aria-controls="nav-7"
                 aria-selected="false">FAQ</a>
 
-               <!--  <a class="nav-item nav-link" id="nav-10-tab" data-toggle="tab" href="#nav-10" role="tab" aria-controls="nav-10"
-                aria-selected="false">Infomøde</a> -->
+                <a class="nav-item nav-link" id="nav-10-tab" data-toggle="tab" href="#nav-10" role="tab" aria-controls="nav-10"
+                aria-selected="false">Infomøde</a>
             <a class="nav-item nav-link" href="#pfp" data-toggle="modal"
             data-target="#pfp-modal">Tilmelding</a>
        
@@ -178,18 +178,6 @@ layout: default
 
 
 
-            <div id="accordion">
-
-               
-             
-
-
-
-
-
-
-
-            </div>
             <br>
 
 
@@ -998,16 +986,30 @@ layout: default
     </div>
 
     <div class="tab-pane fade" id="nav-10" role="tabpanel" aria-labelledby="nav-10-tab">
-        <div class="container-fluid extra-narrow-container no-up">
-            <hr class="hr-small-t">
-            <h2>Lyder uddannelsen som noget for dig, så meld dig til vores kommende infomøde</h2>
-            <hr class="hr-small-b">
-            <p>Målgruppen er primært frontmedarbejdere indenfor den sociale sektor og behandlings-forvaltning, dvs.
-                behandlere i kommunalt regi, job-center-medarbejdere, men også (mellem)ledere, team-ledere,
-                HR-medarbejdere og mennesker, der generelt arbejder med dialog og mellemmenneskelig kommunikation i
-                grupper såvel som individuelt (fx borgere, kunder, klienter, kollegaer, etc.) vil finde anvendelse i
-                uddannelsens effekter, virkninger og opøvede færdigheder, fx ift konflikthåndtering og målrettede
-                samtaler.</p>
+        <div class="container-fluid extra-narrow-container no-up align-center">
+            <h3>Lyder uddannelsen som noget for dig, så meld dig til vores kommende infomøde</h3>
+            
+            <br><p class="large">22. Februar 2021 kl. 15-16.00</p>
+            <br>
+            
+            <form action="https://formspree.io/f/myybvnyp" method="POST" class="white-form">
+                <span>
+                <input class="input-form" type="text" placeholder="Fornavn" name="_fname" required>
+                <input class="input-form" type="text" placeholder="Efternavn" name="_lname" required>
+                
+                <input class="input-form" type="email" placeholder="Email" name="email" required>
+                <input class="input-form" type="text" placeholder="Telefon" name="tlf" required>
+                </span>
+
+                
+                 
+                 <p><input class="display-inline" type="checkbox" name="_optin"/> Jeg vil gerne tilmeldes CCC's nyhedsbrev.</p>
+                   
+      
+               
+                <button class="green-button" type="submit">Tilmeld</button>
+            </form>
+           
         </div>
 
     </div>
