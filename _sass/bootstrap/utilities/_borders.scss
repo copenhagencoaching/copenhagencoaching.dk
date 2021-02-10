@@ -74,6 +74,9 @@
   border-radius: 0 !important;
 }
 
+.smooth-border {
+  border: 2px solid #e7e7e7;
+}
 
 .border-seperated-list {
   @include for-cont {

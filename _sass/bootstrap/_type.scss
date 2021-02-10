@@ -154,6 +154,14 @@ mark,
   max-width: 500px;
 }
 
+.max-700 {
+  max-width: 700px;
+}
+
+.max-900 {
+  max-width: 900px;
+}
+
 // margins
 
 .no-m-b {
@@ -173,6 +181,21 @@ mark,
 
 .pt-50 {
   padding-top: 50px !important;
+}
+
+.mb-75 {
+  margin-bottom: 75px !important;
+}
+.mt-75 {
+  margin-top: 75px !important;
+}
+
+.pb-75 {
+  padding-bottom: 75px !important;
+}
+
+.pt-75 {
+  padding-top: 75px !important;
 }
 
 .mb-100 {
@@ -212,7 +235,7 @@ mark,
   margin-top: 10px !important;
 }
 
-.pb-21 {
+.pb-10 {
   padding-bottom: 10px !important;
 }
 
@@ -234,6 +257,22 @@ mark,
 .pt-30 {
   padding-top: 20px !important;
 }
+
+.mb-200 {
+  margin-bottom: 200px !important;
+}
+.mt-200 {
+  margin-top: 200px !important;
+}
+
+.pb-200 {
+  padding-bottom: 200px !important;
+}
+
+.pt-200 {
+  padding-top: 200px !important;
+}
+
 
 .pr-0 {
   padding-right: 0 !important;
@@ -344,4 +383,9 @@ mark,
   -moz-columns: 60px 2; 
   /* Firefox */ 
   columns: 60px 2; 
-} 
+}
+
+
+.w-100 {
+  width: 100%;
+}

@@ -388,6 +388,12 @@ a {
 
 }
 
+.grid-10-5-85 {
+  @include grid;
+  grid-template-columns: 10% 1fr;
+  column-gap: 5%;
+}
+
 .grid-reverse {
   grid-auto-flow: dense;
 }
@@ -879,6 +885,10 @@ a {
   grid-template-columns: 80% 20%;
   align-items: center;
   align-content: center;
+  &.left {
+    align-items: unset;
+    align-content: unset;
+  }
 }
 
 

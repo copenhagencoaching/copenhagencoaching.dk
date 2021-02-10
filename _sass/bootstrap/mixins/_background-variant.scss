@@ -37,7 +37,18 @@
     background-position: center;
     background-size: cover;
   }
+
+  .left {
+    text-align: left;
+  }
   
+}
+
+
+
+.justify-left {
+  justify-content: start;
+  justify-items: start;
 }
 
 .full-banner-small {

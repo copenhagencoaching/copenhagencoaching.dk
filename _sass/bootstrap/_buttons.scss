@@ -261,6 +261,12 @@ input[type="button"] {
   background-color: $ccc-orange;
 }
 
+.light-brown-btn {
+  @include button;
+  background-color: $ccc-light-brown;
+}
+
+
 .border-button {
   background-color: none;
   border: 2px solid #dadada;
