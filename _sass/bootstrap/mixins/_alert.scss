@@ -317,6 +317,15 @@ a {
   column-gap: 40px !important;
 }
 
+.gap-200 {
+  column-gap: 200px !important;
+
+  @include for-laptop {
+    column-gap: 90px !important;
+  }
+}
+
+
 .gap-90 {
   column-gap: 90px !important;
 }
@@ -333,6 +342,13 @@ a {
   column-gap: 20px !important;
 }
 
+.r-gap-100 {
+  row-gap: 100px;
+}
+
+.r-gap-90 {
+  row-gap: 90px;
+}
 
 .r-gap-40 {
   row-gap: 40px;
@@ -880,6 +896,12 @@ a {
   grid-template-columns: 20% 80%;
 }
 
+.grid-90-3-7 {
+  display: grid;
+  grid-template-columns: 84% 1fr;
+  
+}
+
 .grid-80-20 {
   display: grid;
   grid-template-columns: 80% 20%;
@@ -925,6 +947,12 @@ a {
   grid-template-columns: 20% 50% 30%;
 }
 
+.pt-0-small {
+  @include for-laptop {
+    padding-top: 0;
+  }
+}
+
 .only-big {
   @include for-bot {
     display: none;
@@ -934,6 +962,16 @@ a {
 .only-for-bot {
   display: none;
   @include for-bot {
+    display: block;
+    a {
+      display:block;
+    }
+  }
+}
+
+.only-for-tablet {
+  display: none;
+  @include for-tablet {
     display: block;
     a {
       display:block;

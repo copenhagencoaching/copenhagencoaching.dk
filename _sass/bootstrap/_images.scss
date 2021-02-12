@@ -116,6 +116,16 @@
   height: 500px;
 }
 
+.h-800 {
+  height: 800px;
+}
+
+.big-on-small-screen {
+  @include for-bot {
+    height: 1000px;
+  }
+}
+
 .object-fit {
   object-fit: cover;
   width: 100%;
