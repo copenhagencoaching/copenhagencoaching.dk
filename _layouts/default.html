@@ -226,7 +226,7 @@
     });
 
 
-    $('.collapse').on('shown.bs.collapse', function (e) {
+    $('.modul-collapse').on('shown.bs.modul-collapse', function (e) {
     var $panel = $(this).closest('.panel');
     $('html,body').animate({
         scrollTop: $panel.offset().top
@@ -236,6 +236,36 @@
 
 
   </script>
+  <script>
+    $('.year-one-link').on('click', function (e) {
+      $('.tab-2').addClass('active show');
+      $('#nav-2-tab').addClass('active show');
+      $('#nav-7').removeClass('show');
+      $('#nav-7').removeClass('active');
+      $('#nav-7-tab').removeClass('active');
+      $('#nav-7-tab').removeClass('show');
+      $('.year-one-collapse').addClass('show');
+      $('#collapseB').removeClass('show');
+
+      var $panel = $('.year-one-collapse').closest('.panel');
+    $('html,body').animate({
+        scrollTop: $panel.offset().top
+    }, 1); 
+    });
+  </script>
+
+<script>
+  $('.info-event-link').on('click', function (e) {
+    $('#nav-10').addClass('active show');
+    $('#nav-10-tab').addClass('active show');
+    $('#nav-7').removeClass('show');
+    $('#nav-7').removeClass('active');
+    $('#nav-7-tab').removeClass('active');
+    $('#nav-7-tab').removeClass('show');
+    $('#collapseN').removeClass('show');
+   
+  });
+</script>
 
   <script>
 /*     $('#myTab a').click(function (e) {

@@ -67,6 +67,9 @@ collections:
   texts:
     output: true
     permalink: /tekster/:title/
+  pfp-sites:
+    output: true
+    permalink: /pfp/:title/
 
 defaults:
   -
@@ -109,6 +112,12 @@ defaults:
       type: text
     values:
       layout: default
+  -
+    scope:
+      type: pfp-site
+    values:
+      layout: pfp-info
+  
 
 prose:
   rooturl: ''

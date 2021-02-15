@@ -97,86 +97,25 @@ layout: default
 
             <div class="container-fluid extra-narrow-container align-center no-up pb-100">
                 <div class="grid-3 gap-20 r-gap-20">
+
+                    {% assign ordered-pfp-sites = site.pfp-sites | sort: "order" %}
+                    {% for psite in ordered-pfp-sites %}
+
                     <div>
-                        <a href="/pfp/om-uddannelsen/">
+                        <a href="{{ psite.url }}">
 
                             <div class="card white no-border h-200 align-center align-content-center align-items-center override-flex pb-0"
-                                style="background: linear-gradient(rgba(19, 19, 19, 0.6), rgba(19, 19, 19, 0.6)), url('/images/pfp/27.png'); background-position: center; background-size: cover;">
+                                style="background: linear-gradient(rgba(19, 19, 19, 0.6), rgba(19, 19, 19, 0.6)), url('{{ psite.image }}'); background-position: center; background-size: cover;">
 
-                                <h3 class="capped medium card-title">Om uddannelsen</h3>
-
-                            </div>
-                        </a>
-                    </div>
-                    <div>
-                        <a href="/pfp/terapisyn/">
-
-                            <div class="card white no-border h-200 align-center align-content-center align-items-center override-flex pb-0"
-                                style="background: linear-gradient(rgba(19, 19, 19, 0.6), rgba(19, 19, 19, 0.6)), url('/images/pfp/11.png'); background-position: center; background-size: cover;">
-
-                                <h3 class="capped medium card-title">Terapisyn</h3>
-
-                            </div>
-                        </a>
-                    </div>
-                    <div>
-                        <a href="/pfp/fleksibel-videreuddannelse/">
-
-                            <div class="card white no-border h-200 align-center align-content-center align-items-center override-flex pb-0"
-                                style="background: linear-gradient(rgba(19, 19, 19, 0.6), rgba(19, 19, 19, 0.6)), url('/images/pfp/5.png'); background-position: center; background-size: cover;">
-
-                                <h3 class="capped medium card-title">Fleksibel videreuddannelse</h3>
-
-                            </div>
-                        </a>
-                    </div>
-                    <div>
-                        <a href="/pfp/undervisning-og-forberedelse/">
-
-                            <div class="card white no-border h-200 align-center align-content-center align-items-center override-flex pb-0"
-                                style="background: linear-gradient(rgba(19, 19, 19, 0.6), rgba(19, 19, 19, 0.6)), url('/images/pfp/19.png'); background-position: center; background-size: cover;">
-
-                                <h3 class="capped medium card-title">Undervisning og forberedelse</h3>
+                                <h3 class="capped medium card-title">{{ psite.title }}</h3>
 
                             </div>
                         </a>
                     </div>
 
-                    <div>
-                        <a href="/pfp/udbytte/">
+                    {% endfor %}
 
-                            <div class="card white no-border h-200 align-center align-content-center align-items-center override-flex pb-0"
-                                style="background: linear-gradient(rgba(19, 19, 19, 0.6), rgba(19, 19, 19, 0.6)), url('/images/pfp/15.png'); background-position: center; background-size: cover;">
 
-                                <h3 class="capped medium card-title">Udbytte</h3>
-
-                            </div>
-                        </a>
-                    </div>
-
-                    <div>
-                        <a href="/pfp/advisory-board/">
-
-                            <div class="card white no-border h-200 align-center align-content-center align-items-center override-flex pb-0"
-                                style="background: linear-gradient(rgba(19, 19, 19, 0.6), rgba(19, 19, 19, 0.6)), url('/images/graphic/water.jpg'); background-position: center; background-size: cover;">
-
-                                <h3 class="capped medium card-title">Advisory Board</h3>
-
-                            </div>
-                        </a>
-                    </div>
-
-                    <div>
-                        <a href="/pfp/kvalitetsvurdering/">
-
-                            <div class="card white no-border h-200 align-center align-content-center align-items-center override-flex pb-0"
-                                style="background: linear-gradient(rgba(19, 19, 19, 0.6), rgba(19, 19, 19, 0.6)), url('/images/pfp/kvalitet.png'); background-position: center; background-size: cover;">
-
-                                <h3 class="capped medium card-title">Kvalitetsvurdering</h3>
-
-                            </div>
-                        </a>
-                    </div>
 
 
                 </div>
@@ -196,7 +135,7 @@ layout: default
     </div>
 
 
-    <div class="tab-pane fade" id="nav-2" role="tabpanel" aria-labelledby="nav-2-tab">
+    <div class="tab-pane fade tab-2" id="nav-2" role="tabpanel" aria-labelledby="nav-2-tab">
         <div class="container-fluid extra-narrow-container no-up-n-down">
 
             {% include pfp-moduls.html %}
@@ -273,7 +212,7 @@ layout: default
                         <p>
 
                             Psykoterapeut, Foredragsholder, Supervisor og underviser.<br>
-                            
+
                             20 års erfaring med afhængighed i forskellige kontekster.</p>
                     </div>
 
@@ -296,9 +235,7 @@ layout: default
             </div>
         </div>
 
-        <!--  <div class="container-fluid extra-narrow-container pb-100 pt-100" style="background-image: url('/images/pfp/10.png'); background-position: center; background-size: cover;">
 
-        </div> -->
 
 
         <div class="container-fluid extra-narrow-container pt-75">
@@ -333,6 +270,25 @@ layout: default
                     </div>
                 </div>
 
+                <div class="grid-2 gap-40 pt-30">
+                    <div class="object-fit-full-width h-400">
+                        <img src="/images/pfp/kvalitet.png" alt="" class="object-fit">
+                    </div>
+                    <div>
+                        <h2>Kvalitetsvurdering</h2>
+                        <p><b>Vores uddannelse er pt ved at blive evalueret af Dansk Psykoterapeutforening og Reflektor
+                                således, at vi som leverandør og privat udbyder lever op til de ministerielle kriterier
+                                for private psykoterapeutuddannelser uden afvigelser.</b></p>
+                        <p>Evalueringen er vigtig både for os – og for dig, fordi den er et bevis og en dokumentation
+                            for, at vores uddannelse er tidssvarende, og at standarden i undervisningen er høj. For at
+                            blive evalueret og godkendt kræves der en stærk sammenhæng imellem de teoretiske
+                            grundpiller, som instituttet hviler på, de metoder vi underviser dig i, litteraturen vi
+                            anbefaler dig at læse og måden, vi eksaminerer dig på.</p>
+                        <p>Vi holder jer løbende orienteret om processen og I er altid velkomne til at spørge os, hvis I
+                            ønsker yderligere information omkring vores uddannelse</p>
+                    </div>
+                </div>
+
             </div>
         </div>
 
@@ -347,28 +303,79 @@ layout: default
 
                 <p><b>Find venligst nedenfor de mest almindelige spørgsmål og svar vedrørende login på
                         Studieportalen:</b></p>
-                <h3>Hvad er Thinkific?</h3>
-                <p>Thinkific er den virtuelle e-learnings platform, som vi bruger til alle praktiske informationer
-                    omkring
-                    uddannelsen, inkl. læseplaner, faglitteratur, videoer, opgaver mm.</p>
 
-                <p>Den første undervisningsgang, får du en grundig introduktion til platformen. Det er dog en
-                    forudsætning,
-                    at du forud for første mødegang har været logget ind og gjort dig bekendt med de forskellige
-                    sektioner,
-                    der knytter sig til dit første modul, således at du også er forberedt forud for undervisningen.</p>
+                <div id="accordion">
+                    <div class="panel">
+                        <div id="headingOne">
+                            <h3 class="mb-0">
+                                <a href="#" role="button" class="btn-link collapsed" data-toggle="collapse"
+                                    data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Hvad er Thinkific?
+                                </a>
+                            </h3>
+                        </div>
 
-                <p> Når du skal deltage i webinarer eller virtuelle studiegrupper via Studieportalen, bør du benytte et
-                    headset og i øvrigt altid huske at have lyd og video aktiveret på din computer.</p>
+                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
 
-                <h3>Hvordan logger jeg ind?</h3>
-                <p>Du får tilsendt et personligt login fra Copenhagen Coaching Center til Thinkific. Dit login består
-                    af en studiemail og et kodeord. Du kan først logge ind på studieportalen, når du har modtaget
-                    intromailen fra vores studieansvarlige.</p>
+                            <p>Thinkific er den virtuelle e-learnings platform, som vi bruger til alle praktiske
+                                informationer
+                                omkring
+                                uddannelsen, inkl. læseplaner, faglitteratur, videoer, opgaver mm.</p>
+                            <p>Den første undervisningsgang, får du en grundig introduktion til platformen. Det er
+                                dog en
+                                forudsætning,
+                                at du forud for første mødegang har været logget ind og gjort dig bekendt med de
+                                forskellige
+                                sektioner,
+                                der knytter sig til dit første modul, således at du også er forberedt forud for
+                                undervisningen.</p>
 
-                <h3>Problemer med at logge ind?</h3>
-                <p>Har i spørgsmål til, eller problemer med, selve studieportalen kontakt Caroline på <a
-                        href="mailto:cof@copenhagencoaching.dk">cof@copenhagencoaching.dk</a></p>
+                            <p> Når du skal deltage i webinarer eller virtuelle studiegrupper via Studieportalen,
+                                bør du benytte et
+                                headset og i øvrigt altid huske at have lyd og video aktiveret på din computer.</p>
+
+                        </div>
+                    </div>
+                    <br>
+                    <div class="panel">
+                        <div id="headingTwo">
+                            <h3 class="mb-0">
+                                <a href="#" role="button" class="btn-link collapsed" data-toggle="collapse"
+                                    data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Hvordan logger jeg ind?
+                                </a>
+                            </h3>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+
+                            <p>Du får tilsendt et personligt login fra Copenhagen Coaching Center til Thinkific. Dit
+                                login består
+                                af en studiemail og et kodeord. Du kan først logge ind på studieportalen, når du har
+                                modtaget
+                                intromailen fra vores studieansvarlige.</p>
+
+                        </div>
+                    </div>
+                    <br>
+                    <div class="panel">
+                        <div id="headingThree">
+                            <h3 class="mb-0">
+                                <a href="#" role="button" class="btn-link collapsed" data-toggle="collapse"
+                                    data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Problemer med at logge ind?
+                                </a>
+                            </h3>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                            data-parent="#accordion">
+
+                            <p>Har i spørgsmål til, eller problemer med, selve studieportalen kontakt Caroline på <a
+                                    href="mailto:cof@copenhagencoaching.dk">cof@copenhagencoaching.dk</a></p>
+
+                        </div>
+                    </div>
+                </div>
+
 
             </div>
         </div>
@@ -448,109 +455,9 @@ layout: default
 
     <div class="tab-pane fade" id="nav-7" role="tabpanel" aria-labelledby="nav-7-tab">
         <div class="container-fluid extra-narrow-container no-up">
-            <h2>FAQ</h2>
-            <h3>Er uddannelsen 1-årig, 2-årig eller 4-årig?</h3>
-            <p><i>Copenhagen Coaching Center tilbyder både 1-årig, 2-årig og 4-årig uddannelse.</i><br><br>
-                Tager du alle fire års undervisning, bliver du uddannet til Psykologisk Filosofisk Psykoterapeut. Du kan
-                også vælge kun at tage år et eller år to og dermed kvalificerere dig til at kunne tage lettere
-                terapeutiske samtaler på et relativt højt teknisk niveau. Mange vælger dog at fortsætte på uddannelsens
-                andet år og udvikle sig yderligere i feltet.</p>
-            <br>
-            <h3>Hvornår starter næste hold?</h3>
-            <p><i>23. marts 2021</i><br><br>
-                Vi starter førsteårshold allerede 23 marts. Ring gerne til os på xx xx xx xx og hør, om der er pladser
-                tilbage på holdet. Du kan finde datoerne for det næste hold lige her: (link til år et)</p>
+{% include pfp/faq.html %}
 
-            <br>
-            <h3>Hvordan og hvornår foregår undervisningen?</h3>
-            <p><i>Et uddannelsesår består af seks moduler. Hvert modul er af 4 dages varighed</i><br><br>
-                Alle dage er fra kl. 9-16.30. På hvert modul vil du møde mindst to forskellige lærere, og undervisningen
-                vil være en dynamisk vekselvirkning mellem teori, selvrefleksion og træning for at sikre optimal læring.
-            </p>
-            <br>
-            <h3>Hvor foregår undervisningen?</h3>
-            <p><i>Al undervisning foregår som eksternat.</i></p>
-            <br>
-
-            <h3>Hvad koster uddannelsen?</h3>
-            <p><i>Uddannelsen koster kr. 42.000,- første år, efterfølgende år kr. 40.000,-.</i>
-                Et års uddannelse koster 42.500,- kr. <br>
-                To års uddannelse koster 82.000,- kr. <br>
-                Tre års uddannelse koster 122.000,- kr. <br>
-                Fire års uddannelse koster 162.000,- kr.
-                <br><br>
-                Du betaler for et år ad gangen.
-            </p>
-
-            <h3>Skal jeg betale for hele uddannelsen på én gang?</h3>
-            <p><i>Det behøver du ikke, vi tilbyder forskellige betalingsmuligheder – Kontakt os venligst for aftale</i>
-            </p>
-
-            <h3>Kan jeg få økonomisk støtte til uddannelsen</h3>
-            <p><i>Uddannelsen er ikke SU-berettiget og er ikke en diplom-uddannelse. Men ring til os, for der er mange
-                    andre muligheder ift økonomi.</i></p>
-            <p>Hvis du er ansat, kan du spørge din arbejdsgiver om du kan betale for uddannelsen via
-                bruttolønsordningen. Du kan læse om bruttolønsordningen på <a target="_blank"
-                    href="https://skat.dk/skat.aspx?oid=2234833">Skats hjemmeside</a>.</p>
-            <p>Er du medlem af et fagforbund, kan du kontakte dem og spørge om, det er muligt at søge midler via
-                forbundets kompetencefond.</p>
-            <p>Grunduddannelsens første og andet år er relevant på de fleste arbejdspladser. Den kan bl.a. hjælpe jer
-                med at mindske stress, håndtere konflikter og øge trivslen. Hvis din arbejdsgiver vil betale helt eller
-                delvist for din uddannelse, kan vi hjælpe med at dele betalingen op.</p>
-            <p>Du er meget velkommen til at ringe eller skrive til os, hvis du vil vide mere eller vende dine muligheder
-                med os.</p>
-            <p>Send os en mail på:<br>
-                <a href="mailto:info@copenhagencoaching.dk">info@copenhagencoaching.dk</a><br>
-                Eller ring på: Xx xx xx xx
-            </p>
-
-            <h3>Hvor meget tid skal jeg regne med at bruge mellem modulerne?</h3>
-            <p><i>Som udgangspunkt er uddannelsen lavet, så du kan have både fuldtidsarbejde og familie samtidig med, at
-                    du studerer</i></p>
-            <p>Vi opfordrer til, at du mødes med din studiegruppe mindst en gang mellem modulerne på et møde af cirka 3
-                timers varighed, hvor I sammen vil gennemgå modulets læring og integrere den teori og undervisning, du
-                har modtaget</p>
-
-            <p>Når du tilmelder dig uddannelsen, får du en litteraturliste som består af forskellige fagbøger.</p>
-
-            <p>Du er velkommen til at kontakte os på xx xx xx xx, hvis du vil høre mere om, hvor meget tid vores
-                kursister bruger på uddannelsen og hvis du har brug for at vende, hvordan uddannelsen harmonerer med dit
-                familie- og arbejdsliv.</p>
-
-            <h3>Hvor mange deltagere er der på hvert hold?</h3>
-
-            <p><i>Vi bestræber os på at have max 16 deltagere på hvert hold</i></p>
-
-            <h3>Hvordan bliver man optaget på uddannelsen?</h3>
-            <p><i>Man sender en ansøgning eller en tilkendegivelse via vores tilmeldingsformular på siden med reference
-                    til den gruppe man søger i (§1, §2, §3)</i></p>
-
-            <p>Du kan læse mere om optagelseskrav her på siden (indsæt link til adgangskrav). Når vi har modtaget din
-                ansøgning indkalder vi dig til en realkompetencevurdering, samt forventningsafstemmende samtale (det gør
-                alle) Først herefter får du besked om du er optaget på uddannelsen.</p>
-
-            <h3>Er der krav om, hvor længe jeg må være om at tage uddannelsen?</h3>
-            <p><i>Ja, det er der.</i></p>
-            <p>Som udgangspunkt skal du færdiggøre uddannelsens 4 år inden for 6 år fra din studiestart. Dispensation
-                for dette krav og dermed muligheden for et længere studieforløb kan gives i særlige tilfælde og vurderes
-                individuelt.</p>
-
-            <h3>Hvem er underviserne på uddannelsen?</h3>
-            <p><i>Udover at du vil møde et meget kompetent underviserteam fra CCC, bruger vi også veluddannede og
-                    dygtige, eksterne undervisere i forskellige temaer</i></p>
-
-            <h3>Kan jeg møde jer, før jeg tilmelder mig uddannelsen?</h3>
-            <p><i>Ja, det kan du</i></p>
-            <p>Ca. 1 gang om måneden inviterer vi til infoaften – virtuelt eller fysisk.</p>
-            <p>På vores informationsaftener vil vi fortælle om uddannelsens indhold og det videnskabelige grundlag, som
-                vores uddannelse hviler på. Du får en smagsprøve på det, du vil lære på uddannelsen, og du hører om de
-                krav, der stilles til dig i løbet af uddannelsen.</p>
-            <p>Du kan også altid møde os over telefonen på xx xx xx xx. Ring gerne med ethvert spørgsmål, stort som
-                småt.</p>
-
-            <h3>Hvornår er næste informationsaften?</h3>
-            <p><i>Se mere om vores næste informationsaften, samt hvor det foregår i Infomøde tabben øverst på
-                    siden.</a></i></p>
+           
         </div>
     </div>
 
