@@ -4,7 +4,7 @@ subtitle: Seminar 3
 description: Eksklusivt oplæg af Kim Gørtz
 time: 17.00-20.00
 community-free: true
-image: /images/about/employees/kim-gørtz.png
+image: /images/about/employees/kim-gørtz.jpg
 layout: event
 tags:
 - kim

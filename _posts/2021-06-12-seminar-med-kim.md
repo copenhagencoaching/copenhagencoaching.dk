@@ -3,7 +3,7 @@ title: Eksklusiv seminarrække med Kim Gørtz
 layout: sub-event
 subtitle: Februar
 event-type: Seminar
-image: /images/about/employees/kim-gørtz.png
+image: /images/about/employees/kim-gørtz.jpg
 description: En tetralogisk seminarrække om dannelse og etik i den moderne ledelsespraksis
 tags:
 - community

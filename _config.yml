@@ -20,12 +20,8 @@ sass:
 highlighter: rouge
 exclude:
   - "*README.md"
-  - bower_components
-  - node_modules
   - gulpfile.js
   - LICENSE
-  - package.json
-  - package-lock.json
 timezone: Europe/Copenhagen
 markdown: kramdown
 permalink: /:categories/:title/
