@@ -4,7 +4,9 @@ layout: default
 
 {% if page.group == true %}
 <div class="container-fluid extra-narrow-container">
-
+    <a href="/protrptik-som-behandlingsform-og-ledelsesdisciplin/" class="thin capped"><i
+        class="fas fa-long-arrow-alt-left"></i> Tilbage til Protreptik som behandlingsform og ledelsesdisciplin</a>
+<br><br>
     <p class="thin large capped">Bidragsyder</p>
     
     <h2>{{ page.title }} v. {% for person in page.persons %} {% if forloop.last %}{{ person.name }}{% else %}{{
@@ -35,6 +37,9 @@ layout: default
 {% else %}
 
 <div class="container-fluid extra-narrow-container">
+    <a href="/protrptik-som-behandlingsform-og-ledelsesdisciplin/" class="thin capped"><i
+        class="fas fa-long-arrow-alt-left"></i> Tilbage til Protreptik som behandlingsform og ledelsesdisciplin</a>
+        <br><br>
     <p class="thin large capped">Bidragsyder</p>
     {% for person in page.persons %}
     <div class="w-150p h-150 float-left mr-20 mb-10">

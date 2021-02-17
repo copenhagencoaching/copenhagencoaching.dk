@@ -151,45 +151,49 @@ title: Protreptik som behandlingsform og ledelsesdisciplin
                 <h2 class="align-center mb-20 white">Bidragsydere</h2>
 
                 <div class="white">
-                    <div class="p-20 pb-0 grid-2 grid-20-80 split-phone r-gap-20 white">
-                        <div class="img-hw150"><img src="/images/graphic/Ccclogosortstor1.png" alt=""></div>
-                        <div>
-                            <h4>CCC</h4>
 
-                            <p>Den filosofiske samtalekunst og dialogiske disciplin; Protreptikken, der trækker aner tilbage
-                                til den græske, antikke tænkning (Sokrates, Platon og Aristoteles), har i de seneste 15 år
-                                fået støt stigende opmærksomhed og fundet sin pasform indenfor store dele af
-                                ledelsespraktikken, offentlig såvel som i privat regi. Endvidere er der indenfor
-                                skoleverdenen vakt stor interesse herfor, specielt omkring temaer som dannelse og etik. I
-                                forhold til ledelse og undervisning har den protreptiske tilgang indtil videre primært
-                                kredset omkring værdi-afklaring og bibragt nytænkning samt øget grad af intensitet i forhold
-                                til at finde frem til hvem man er og hvad man står for som leder og lærer.</p>
-                        </div>
 
+                    <div class="w-150p h-150 float-left mr-20 mb-10">
+                        <img src="/images/graphic/Ccclogosortstor1.png" alt="" class="object-fit">
                     </div>
-                    <div class="p-20">
-                        
-                        <p>Imidlertid er et nyt erfarings-rum trådt mere og mere frem i de senere år, nemlig protreptik
-                            som behandlingsform og som et vægtigt bidrag til filosofisk terapi. Både som supplement og
-                            alternativ til de mere psykologiske terapi- og behandlingsformer viser det sig med større og
-                            større klarhed, at den protreptiske arbejdsform har noget at komme med, endda i en sådan
-                            grad at erfaringspuljen hermed er blevet ganske tungt-vejende, og tyder på at der ligefrem
-                            tegner sig former for evidens og klare effekter af den protreptiske tilgang som
-                            behandlingsform indenfor den sociale sektor.</p>
-                        <p>Det er derfor med stor taknemmelig overfor bidragsyderne og med stolthed og respekt at vi i
-                            dette forår vil kunne byde velkommen til en række velfunderede erfaringer og erkendelser
-                            omkring protreptikkens funktion og ydeevne indenfor områder, hvor der bl.a. arbejdes med
-                            “psykisk sårbare” og “udsatte unge” samt ikke mindst hele organiseringen og ledelsen heraf.
-                        </p>
-                    </div>
+
+
+                    <h4>CCC</h4>
+
+                    <p>Den filosofiske samtalekunst og dialogiske disciplin; Protreptikken, der trækker aner tilbage
+                        til den græske, antikke tænkning (Sokrates, Platon og Aristoteles), har i de seneste 15 år
+                        fået støt stigende opmærksomhed og fundet sin pasform indenfor store dele af
+                        ledelsespraktikken, offentlig såvel som i privat regi. Endvidere er der indenfor
+                        skoleverdenen vakt stor interesse herfor, specielt omkring temaer som dannelse og etik. I
+                        forhold til ledelse og undervisning har den protreptiske tilgang indtil videre primært
+                        kredset omkring værdi-afklaring og bibragt nytænkning samt øget grad af intensitet i forhold
+                        til at finde frem til hvem man er og hvad man står for som leder og lærer.</p>
+                    <p>Imidlertid er et nyt erfarings-rum trådt mere og mere frem i de senere år, nemlig protreptik
+                        som behandlingsform og som et vægtigt bidrag til filosofisk terapi. Både som supplement og
+                        alternativ til de mere psykologiske terapi- og behandlingsformer viser det sig med større og
+                        større klarhed, at den protreptiske arbejdsform har noget at komme med, endda i en sådan
+                        grad at erfaringspuljen hermed er blevet ganske tungt-vejende, og tyder på at der ligefrem
+                        tegner sig former for evidens og klare effekter af den protreptiske tilgang som
+                        behandlingsform indenfor den sociale sektor.</p>
+                    <p>Det er derfor med stor taknemmelig overfor bidragsyderne og med stolthed og respekt at vi i
+                        dette forår vil kunne byde velkommen til en række velfunderede erfaringer og erkendelser
+                        omkring protreptikkens funktion og ydeevne indenfor områder, hvor der bl.a. arbejdes med
+                        “psykisk sårbare” og “udsatte unge” samt ikke mindst hele organiseringen og ledelsen heraf.
+                    </p>
+
+
+
+
                 </div>
 
                 {% for cont in site.pip-contributors %}
                 <div class="bg-platinum p-20">
 
+                    <p class="thin capped">{{ cont.dato }}</p>
                     {% if cont.group == true %}
-                    <h3>{{ cont.title }} v. {% for person in cont.persons %} {% if forloop.last %}{{ person.name }}{% else %}{{ person.name }}, {% endif %}{% endfor %}</h3>
-                    
+                    <h3>{{ cont.title }} v. {% for person in cont.persons %} {% if forloop.last %}{{ person.name }}{%
+                        else %}{{ person.name }}, {% endif %}{% endfor %}</h3>
+
                     {% else %}
                     <h3>{{ cont.title }}</h3>
                     {% endif %}
@@ -215,23 +219,23 @@ title: Protreptik som behandlingsform og ledelsesdisciplin
                         </div>
                     </div>
                     <br>
-                   
+
 
                     {% endfor %}
 
                     {% if cont.link == true %}
-                    <br>
-                     <a class="large" href="{{ cont.url }}">Læs mere omkring bidragsyderen <i class="fas fa-arrow-right"></i></a>
-                     {% endif %}
+                    <a class="large" href="{{ cont.url }}">Læs mere omkring bidragsyderen <i
+                            class="fas fa-arrow-right"></i></a>
+                    {% endif %}
                 </div>
                 <br>
                 {% endfor %}
 
 
 
-             
 
-            
+
+
 
 
 
