@@ -7,4 +7,4 @@ image: /images/graphic/community-1.png
 link: /community/
 ---
 
-Est laboris pariatur incididunt non qui laboris. Eu esse consequat elit et anim non irure. Officia adipisicing cupidatat veniam ullamco incididunt adipisicing commodo aliquip sit elit in id. Elit non pariatur nulla pariatur consequat in incididunt proident magna mollit.
+Formålet med CCC Community er, at er at løfte den dialogiske ledelseskvalitet – og kapacitet i Danmark. Vi udvikler og uddanner ledere via rådgivning, coaching, sparring, netværk, kurser og testværktøjer. 
