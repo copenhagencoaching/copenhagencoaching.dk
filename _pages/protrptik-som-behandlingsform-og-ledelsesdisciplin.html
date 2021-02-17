@@ -141,35 +141,34 @@ title: Protreptik som behandlingsform og ledelsesdisciplin
 
 
     <div class="tab-pane fade" id="nav-2" role="tabpanel" aria-labelledby="nav-2-tab">
-        <div class="bg-deep-taupe white">
+
+
+
+
+
+        <div class="bg-deep-taupe">
             <div class="container-fluid extra-narrow-container pt-50">
+                <h2 class="align-center mb-20 white">Bidragsydere</h2>
 
-                <h2 class="align-center mb-20">Bidragsydere</h2>
-
-                <div>
-                    <div class="p-20 pb-0 grid-2 grid-20-80 split-phone r-gap-20">
+                <div class="white">
+                    <div class="p-20 pb-0 grid-2 grid-20-80 split-phone r-gap-20 white">
                         <div class="img-hw150"><img src="/images/graphic/Ccclogosortstor1.png" alt=""></div>
                         <div>
                             <h4>CCC</h4>
 
-                            <p>(Biografi) Qui labore proident dolore sint cillum nisi aute Lorem amet id minim quis
-                                deserunt.
-                                Excepteur
-                                nostrud ipsum commodo pariatur proident. Qui mollit mollit anim consequat culpa aute
-                                officia
-                                mollit do deserunt duis consectetur sint.</p>
+                            <p>Den filosofiske samtalekunst og dialogiske disciplin; Protreptikken, der trækker aner tilbage
+                                til den græske, antikke tænkning (Sokrates, Platon og Aristoteles), har i de seneste 15 år
+                                fået støt stigende opmærksomhed og fundet sin pasform indenfor store dele af
+                                ledelsespraktikken, offentlig såvel som i privat regi. Endvidere er der indenfor
+                                skoleverdenen vakt stor interesse herfor, specielt omkring temaer som dannelse og etik. I
+                                forhold til ledelse og undervisning har den protreptiske tilgang indtil videre primært
+                                kredset omkring værdi-afklaring og bibragt nytænkning samt øget grad af intensitet i forhold
+                                til at finde frem til hvem man er og hvad man står for som leder og lærer.</p>
                         </div>
 
                     </div>
                     <div class="p-20">
-                        <p>Den filosofiske samtalekunst og dialogiske disciplin; Protreptikken, der trækker aner tilbage
-                            til den græske, antikke tænkning (Sokrates, Platon og Aristoteles), har i de seneste 15 år
-                            fået støt stigende opmærksomhed og fundet sin pasform indenfor store dele af
-                            ledelsespraktikken, offentlig såvel som i privat regi. Endvidere er der indenfor
-                            skoleverdenen vakt stor interesse herfor, specielt omkring temaer som dannelse og etik. I
-                            forhold til ledelse og undervisning har den protreptiske tilgang indtil videre primært
-                            kredset omkring værdi-afklaring og bibragt nytænkning samt øget grad af intensitet i forhold
-                            til at finde frem til hvem man er og hvad man står for som leder og lærer.</p>
+                        
                         <p>Imidlertid er et nyt erfarings-rum trådt mere og mere frem i de senere år, nemlig protreptik
                             som behandlingsform og som et vægtigt bidrag til filosofisk terapi. Både som supplement og
                             alternativ til de mere psykologiske terapi- og behandlingsformer viser det sig med større og
@@ -184,292 +183,61 @@ title: Protreptik som behandlingsform og ledelsesdisciplin
                         </p>
                     </div>
                 </div>
-                <div>
-                    <div class="p-20 pb-0 grid-2 grid-80-20 left split-phone r-gap-20">
 
+                {% for cont in site.pip-contributors %}
+                <div class="bg-platinum p-20">
+
+                    {% if cont.group == true %}
+                    <h3>{{ cont.title }} v. {% for person in cont.persons %} {% if forloop.last %}{{ person.name }}{% else %}{{ person.name }}, {% endif %}{% endfor %}</h3>
+                    
+                    {% else %}
+                    <h3>{{ cont.title }}</h3>
+                    {% endif %}
+
+                    {{ cont.excerpt }}
+
+                    {% for person in cont.persons %}
+
+                    <div class="grid-20-80 h-150">
                         <div>
-                            <h4>Morten Randløv</h4>
-                            <p>Morten Randløv arbejder som Centerchef i Aarhus kommune i Ungecentret Skanderborgvej.
-                                Morten er oprindeligt uddannet pædagog og har arbejdet som leder de sidste 14 år. De
-                                sidste 6 år med ledelse af ledere.
-                                Morten er pt. i gang med at afslutte sin Master of Business Coaching ved Copenhagen
-                                Coaching Center.</p>
+                            <div class="object-fit-full-width h-150">
+                                <img src="{{ person.image }}" alt="" class="object-fit">
+                            </div>
                         </div>
-                        <div class="img-hw150"><img src="/images/pip/morten-randloev.jpg" alt=""></div>
 
+
+                        <div class="p-20 pt-0">
+                            {% if cont.group == true %}
+                            <h4>{{ person.name }}</h4>
+                            {% endif %}
+                            <p class="xthin">{{ person.title }}</p>
+                            <p>{{ person.bio }}</p>
+                        </div>
                     </div>
-                    <div class="p-20">
-                        <p>Skabelsen af betydningsfulde rum med protreptikken som refleksivt ledelses-greb
-                            Morten Randløv er centerchef for ungecentret i Aarhus kommune. I sit bidrag beskriver han,
-                            hvordan han benytter protreptikken som en måde at stimulere refleksionen over det væsentlige
-                            blandt lederne til gavn for det organisatoriske fællesskab. Randløv mener, at protreptiske
-                            dialoger kan bidrage til øget ’væredygtighed’ i ledelse, fordi de protreptiske spørgsmål
-                            kalder lederne ind i ’det betydningsfulde rum’, hvor den personlige vilje, intention,
-                            konflikt og reaktion opstår fra. Ved en øget opmærksomhed hos lederne på det individuelt
-                            væsentlige øges også opmærksomheden på det fælles meningsfulde. Gennem et par udfoldede
-                            eksempler på protreptiske samtaler med ungecenterets ledere om eksempelvis faglighed og
-                            ledelse, viser Randløv, hvordan den protreptiske dialogform sætter gang i tankerne på nye og
-                            overraskende måder. I stedet for at fiksere og fastholde forståelsen, åbnes og udfordres
-                            idéen om det pågældende begreb. En central pointe er her, at dialogen ikke slutter med den
-                            konkrete samtale, men at refleksionerne arbejder videre i deltagerne efterfølgende, og
-                            skaber fornyet opmærksomhed omkring begrebet i hverdagens ledelsespraksis. Randløv’s bidrag
-                            viser således, hvordan protreptikken kan bidrage til ledelse af ledere i en subtil og
-                            individuel form, hvor refleksioner over væsentlige forhold for den enkelte kan sprede sig
-                            som ringe i vandet og stimulere omsorg og opmærksomhed omkring det alment menneskelige og
-                            alment væsentlige i og for det organisatoriske fællesskab.</p>
-                    </div>
+                    <br>
+                   
+
+                    {% endfor %}
+
+                    {% if cont.link == true %}
+                    <br>
+                     <a class="large" href="{{ cont.url }}">Læs mere omkring bidragsyderen <i class="fas fa-arrow-right"></i></a>
+                     {% endif %}
                 </div>
-                <h3>Skovvænget</h3>
-                <div>
-                    <div class="p-20 pb-0 grid-2 grid-20-80 split-phone r-gap-20">
-                        <div class="img-hw150"><img src="/images/graphic/placeholder-profile.jpg" alt=""></div>
-                        <div>
-                            <h4>Bo Christoffersen</h4>
-                            <p>(Biografi) Qui labore proident dolore sint cillum nisi aute Lorem amet id minim quis
-                                deserunt.
-                                Excepteur
-                                nostrud ipsum commodo pariatur proident. Qui mollit mollit anim consequat culpa aute
-                                officia
-                                mollit do deserunt duis consectetur sint.</p>
-                        </div>
+                <br>
+                {% endfor %}
 
 
-                    </div>
-                    <div class="p-20">
-                        <p>(Bidrag) Elit magna dolor ex laborum veniam officia. Irure id tempor amet sit nisi pariatur
-                            do sit ad
-                            consectetur fugiat ex cillum. Voluptate sint minim excepteur ex aliquip deserunt eu quis
-                            dolore.</p>
-                    </div>
-                </div>
-                <h3>Sputnik</h3>
-                <div>
-                    <div class="p-20 pb-0 grid-2 grid-80-20 left split-phone r-gap-20">
 
-                        <div>
-                            <h4>Bettina Råschou</h4>
-                            <p>Afdelingsleder, Familiehuset i Borgercenter Handicap, Københavns Kommune.
-                                Uddannet socialpædagog og cand.pæd.pæd.psyk. Efteruddannet i systemisk-narrativ
-                                familieterapi og autismespecifik metodeudvikling. VISO-specialist for Socialstyrelsen.
-                                Tidligere afdelingsleder i Sputnik. Pt. studerende på CCC’s Master i Business Coaching.
-                            </p>
-                        </div>
-                        <div class="img-hw150"><img src="/images/pip/bettina-råschou.jpg" alt=""></div>
+             
 
-                    </div>
-                    <div class="p-20 pb-0 grid-2 grid-80-20 left split-phone r-gap-20">
-
-                        <div>
-                            <h4>Carsten Gylling</h4>
-                            <p>Områdechef for Sputnikkollegiet og Sputnik STU og medlem af Sputniks øverste ledelse.
-                                Uddannet pædagog og Master i Uddannelsesledelse med speciale fra CCC’s Master of
-                                Business Coaching. Efteruddannet i systemisk-narrativ familieterapi
-                                .</p>
-                        </div>
-                        <div class="img-hw150"><img src="/images/pip/carsten-gylling.jpg" alt=""></div>
-
-                    </div>
-
-                    <div class="p-20 pb-0 grid-2 grid-80-20 left split-phone r-gap-20">
-
-                        <div>
-                            <h4>Jesper Larsen</h4>
-                            <p>Områdechef for Skolen Sputnik og medlem af Sputniks øverste ledelse.
-                                Uddannet lærer og Master i Uddannelsesledelse med speciale fra CCC’s Master of Business
-                                Coaching. Efteruddannet i systemisk-narrativ familieterapi og uddannelsesansvarlig for
-                                Kursuscenter Sputniks systemisk-narrative lederuddannelse.
-                            </p>
-                        </div>
-                        <div class="img-hw150"><img src="/images/pip/jesper-larsen.jpg" alt=""></div>
-
-                    </div>
-
-                    <div class="p-20 pb-0 grid-2 grid-80-20 left split-phone r-gap-20">
-
-                        <div>
-                            <h4>Lene Holst Holmgård</h4>
-                            <p>Medlem af Sputniks øverste ledelse med lederansvar for Kursuscenter Sputnik, Sputniks
-                                psykologteam og kommunikationsindsats.
-                                Uddannet cand.mag. i retorik og er censor i retorik på KU og AU. Efteruddannet fra
-                                Københavns Kommunes lederudviklingsprogram og Sputniks systemisk-narrative
-                                lederuddannelse.
-                            </p>
-                        </div>
-                        <div class="img-hw150"><img src="/images/pip/lene-holmgaard.jpg" alt=""></div>
-
-                    </div>
-
-                    <div class="p-20">
-                        <p>(Bidrag) Elit magna dolor ex laborum veniam officia. Irure id tempor amet sit nisi pariatur
-                            do sit ad
-                            consectetur fugiat ex cillum. Voluptate sint minim excepteur ex aliquip deserunt eu quis
-                            dolore.</p>
-                    </div>
-                </div>
-                <div>
-                    <div class="p-20 pb-0 grid-2 grid-20-80 split-phone r-gap-20">
-                        <div class="img-hw150"><img src="/images/graphic/placeholder-profile.jpg" alt=""></div>
-                        <div>
-                            <h4>Søren og Kristine</h4>
-                            <p>(Biografi) Qui labore proident dolore sint cillum nisi aute Lorem amet id minim quis
-                                deserunt.
-                                Excepteur
-                                nostrud ipsum commodo pariatur proident. Qui mollit mollit anim consequat culpa aute
-                                officia
-                                mollit do deserunt duis consectetur sint.</p>
-                        </div>
+            
 
 
-                    </div>
-                    <div class="p-20">
-                        <p>(Bidrag) Elit magna dolor ex laborum veniam officia. Irure id tempor amet sit nisi pariatur
-                            do sit ad
-                            consectetur fugiat ex cillum. Voluptate sint minim excepteur ex aliquip deserunt eu quis
-                            dolore.</p>
-                    </div>
-                </div>
-                <div>
-                    <div class="p-20 pb-0 grid-2 grid-80-20 left split-phone r-gap-20">
-
-                        <div>
-                            <h4>Jack Købke</h4>
-                            <p>Jack har igennem de sidste 20 år arbejdet med afhængighed i forskellige kontekster. I
-                                store linjer kan nævnes ungebehandling i døgnregi, ledelse af dagbehandling, faglig
-                                leder i kommunalt regi, samt ledelse af behandlingsafdeling i lukket fængsel. De sidste
-                                7 år som selvstændig med facilitering af den øverste ledelse i en lille koncern inden
-                                for samme branche. </p>
-                            <p>Jack har erfaring som foredragsholder, underviser, individuel- samt gruppeterapeut.
-                                Supervisor samt ledelse på både taktisk, operationelt og strategisk niveau. Jack har
-                                tilegnet sig meget af sin viden om afhængighed gennem praktisk erfaring, samt en del
-                                kurser i Danmark og forskellige stater i USA.</p>
-                        </div>
-                        <div class="img-hw150"><img src="/images/pip/jack-købke.jpeg" alt=""></div>
-
-                    </div>
-                    <div class="p-20">
-                        <p>(Bidrag) Elit magna dolor ex laborum veniam officia. Irure id tempor amet sit nisi pariatur
-                            do sit ad
-                            consectetur fugiat ex cillum. Voluptate sint minim excepteur ex aliquip deserunt eu quis
-                            dolore.</p>
-                    </div>
-                </div>
-                <div>
-                    <div class="p-20 pb-0 grid-2 grid-20-80 split-phone r-gap-20">
-                        <div class="img-hw150"><img src="/images/graphic/placeholder-profile.jpg" alt=""></div>
-                        <div>
-                            <h4>Niels Jørn Routhe</h4>
-                            <p>Stilling: Dagtilbudsleder Dagtilbud Vejgaard – Aalborg kommune</p>
-                            <p>Niels fungerer også som mentor for kommende ledere og erfarne ledere i Aalborg kommune
-                                samt lederaspiranter i Aalborg, Brønderslev og Rebild kommune. Niels har praktiseret
-                                ledelse i mere end 30 år. Uddannet Master i Business Coaching fra Copenhagen Coaching
-                                Center i 2014. Diplomuddannelse i Ledelse 2011, og Diplomuddannelse i Pædagogisk arbejde
-                                fra 1999. Oprindeligt uddannet Pædagog i 1980.</p>
-                        </div>
 
 
-                    </div>
-                    <div class="p-20">
-                        <p>(Bidrag) Elit magna dolor ex laborum veniam officia. Irure id tempor amet sit nisi pariatur
-                            do sit ad
-                            consectetur fugiat ex cillum. Voluptate sint minim excepteur ex aliquip deserunt eu quis
-                            dolore.</p>
-                    </div>
-                </div>
-                <h3>CBS-trioen</h3>
-                <div>
-                    <div class="p-20 pb-0 grid-2 grid-80-20 left split-phone r-gap-20">
-
-                        <div>
-                            <h4>Cecilia</h4>
-                            <p>Cecilia er 25 år og bosat i København.
-                                Arbejder til dagligt som HR & Process Administrator i en stor global virksomhed.
-                                Uddannet Cand.merc. i Erhvervsøkonomi og Psykologi fra Copenhagen Business School, 2019.
-                            </p>
-                        </div>
-                        <div class="img-hw150"><img src="/images/pip/Cecilia.png" alt=""></div>
-
-                    </div>
-                    <div class="p-20 pb-0 grid-2 grid-80-20 left split-phone r-gap-20">
-
-                        <div>
-                            <h4>Freja Holm Pedersen</h4>
-
-                            <p>Arbejder som HR Development Consultant at NNE
-                                Uddannet Cand.merc.(psyk.) fra CBS.
-                            </p>
-                          
-                        </div>
-                        <div class="img-hw150"><img src="/images/pip/Freja.jpg" alt=""></div>
-
-                    </div>
-
-                    <div class="p-20 pb-0 grid-2 grid-80-20 left split-phone r-gap-20">
-
-                        <div>
-                            <h4>Michell Mailind</h4>
-
-                            <p>27 år og bosat i København.
-                                Arbejder til dagligt som fuldmægtig hos Skattestyrelsen.
-                                Uddannet Cand.merc. i Erhvervsøkonomi og Psykologi fra Copenhagen Business School i
-                                2019.
-                            </p>
-                          
-                        </div>
-                        <div class="img-hw150"><img src="/images/pip/Michell.jpg" alt=""></div>
-
-                    </div>
-
-                    <div class="p-20">
-                        <p>(Bidrag) Elit magna dolor ex laborum veniam officia. Irure id tempor amet sit nisi pariatur
-                            do sit ad
-                            consectetur fugiat ex cillum. Voluptate sint minim excepteur ex aliquip deserunt eu quis
-                            dolore.</p>
-                    </div>
-                </div>
-                <div>
-                    <div class="p-20 pb-0 grid-2 grid-20-80 split-phone r-gap-20">
-                        <div class="img-hw150"><img src="/images/graphic/placeholder-profile.jpg" alt=""></div>
-                        <div>
-                            <h4>Lars Worning</h4>
-                            <p>(Biografi) Qui labore proident dolore sint cillum nisi aute Lorem amet id minim quis
-                                deserunt.
-                                Excepteur
-                                nostrud ipsum commodo pariatur proident. Qui mollit mollit anim consequat culpa aute
-                                officia
-                                mollit do deserunt duis consectetur sint.</p>
-                        </div>
 
 
-                    </div>
-                    <div class="p-20">
-                        <p>(Bidrag) Elit magna dolor ex laborum veniam officia. Irure id tempor amet sit nisi pariatur
-                            do sit ad
-                            consectetur fugiat ex cillum. Voluptate sint minim excepteur ex aliquip deserunt eu quis
-                            dolore.</p>
-                    </div>
-                </div>
-                <div>
-                    <div class="p-20 pb-0 grid-2 grid-20-80 split-phone r-gap-20">
-                        <div class="img-hw150"><img src="/images/graphic/placeholder-profile.jpg" alt=""></div>
-                        <div>
-                            <h4>Søren Dahlsgaard</h4>
-                            <p>(Biografi) Qui labore proident dolore sint cillum nisi aute Lorem amet id minim quis
-                                deserunt.
-                                Excepteur
-                                nostrud ipsum commodo pariatur proident. Qui mollit mollit anim consequat culpa aute
-                                officia
-                                mollit do deserunt duis consectetur sint.</p>
-                        </div>
-
-
-                    </div>
-                    <div class="p-20">
-                        <p>(Bidrag) Elit magna dolor ex laborum veniam officia. Irure id tempor amet sit nisi pariatur
-                            do sit ad
-                            consectetur fugiat ex cillum. Voluptate sint minim excepteur ex aliquip deserunt eu quis
-                            dolore.</p>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
@@ -601,7 +369,7 @@ title: Protreptik som behandlingsform og ledelsesdisciplin
                 selve erkendelsesinteressen at være den næring og drivkraft i helbredelses-processen, der kan drive
                 forløsning, forsoning, accept og frelse frem, og i sidste ende muliggøre at en tilgivelse kan finde
                 sted.</p>
-        
+
         </div>
 
         <div class="object-fit-full-width h-500">
@@ -614,9 +382,9 @@ title: Protreptik som behandlingsform og ledelsesdisciplin
 <div
     style="background: linear-gradient(rgba(19, 19, 19, 0.6), rgba(19, 19, 19, 0.6)), url('/images/educations/psykologisk-filosofisk-psykoterapi.png'); background-attachment: fixed; background-size: cover;">
     <div class="container-fluid extra-narrow-container pt-100 pb-100 white">
-        
+
         <h2>Vil du høre mere om vores uddannelse til PSYKOLOGISK FILOSOFISK PSYKOTERAPEAUT?</h2>
-        
+
         <br>
         <a class="copper-red-btn" href="/academy/psykologisk-filosofisk-psykoterapi/">Læs mere</a>
     </div>

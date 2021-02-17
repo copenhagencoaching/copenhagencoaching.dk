@@ -66,6 +66,9 @@ collections:
   pfp-sites:
     output: true
     permalink: /pfp/:title/
+  pip-contributors:
+    output: true
+    permalink: /protrptik-som-behandlingsform-og-ledelsesdisciplin/bidragsydere/:title/
 
 defaults:
   -
@@ -113,7 +116,11 @@ defaults:
       type: pfp-site
     values:
       layout: pfp-info
-  
+  -
+    scope:
+      type: pip-contributors
+    values:
+      layout: pip-contributors
 
 prose:
   rooturl: ''
