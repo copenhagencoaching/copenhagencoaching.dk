@@ -2,15 +2,20 @@
     <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h2 class="modal-title" id="pfp-modal">Tilmelding</h2>
+          <h2 class="modal-title" id="pfp-modal">Ansøgning</h2>
 
           <button type="button" class="close close-modal-button" data-dismiss="modal" aria-label="Close">
             <span>&times;</span>
           </button>
         </div>
         <div class="modal-body">
-<p><b>Tilmelding på info@copenhagencoaching.dk</b></p>
-<p>Du er også meget velkommen til at ringe til os på xx xx xx xx – eller sende os en sms om, hvornår det passer dig, at vi ringer dig op. Vi glæder os til at høre fra dig. </p>
+<p>Hvis du har spørgsmål omkring uddannelsen, din tilmelding eller andet er du velkommen til at ringe til os på
+
+ <a href="tel:24 27 28 71">24 27 28 71</a> – eller sende os en sms om, hvornår det passer dig at blive ringet op. Du kan også altid skrive til <a href="mailto:info@copenhagencoaching.dk">info@copenhagencoaching.dk</a>  for mere info.
+  
+  Din ansøgning nedenfor er ikke bindende. Din optagelse vil udover nedenstående oplysninger, også bero på en personlig samtale.
+  
+  Vi glæder os til at høre fra dig</p>
 
 <p>Første hold starter den 23. marts 2021
 </p>
@@ -21,20 +26,34 @@
           >
            
               
-              <input type="text" name="name" placeholder="Navn" required>
-              <input type="text" name="email" placeholder="E-mail" required>
-
-              <input type="text" name="tlf" placeholder="Tlf">
-              <input type="text" name="virksomhed" placeholder="Virksomhed">
+              <input type="text" name="name" placeholder="Navn*" required>
+              <input type="text" name="email" placeholder="E-mail*" required>
+              <input type="text" name="adress" placeholder="Adresse*" required>
+              <div class="grid-2">
+                <input type="text" name="zip-code" placeholder="Postnummer*" required>
+                <input type="text" name="town" placeholder="By*">
+              </div>
+              <input type="date" name="birthday" placeholder="Fødselsdato*" required>
+              <input type="tel" name="mobile" pattern="[0-9]{8}" placeholder="Mobil*" required>
+              <input type="text" name="work-phone" pattern="[0-9]{8}" placeholder="Arbejdstelefon">
+              <input type="text" name="virksomhed" placeholder="Virksomhed*" required>
                 <textarea name="besked" cols="30" rows="10" placeholder="Evt. kommentar"></textarea>
          
-          
+                
+                  <p><b>Samtykkeerklæring*</b></p>
+                  <p class="small">
+                  <input class="checkbox" type="checkbox" name="_optin" required/> Jeg giver samtykke til, at CCC må bruge mine oplysninger til at behandle min ansøgning. Derudover giver jeg samtykke til, at CCC opbevarer og behandler mine persondata som er beskrevet i CCC's privatlivspolitik.
+                </p>
+                    
+       <br>
+                 
             <!-- your other form fields go here -->
           
-            <button class="dust-green-btn" type="submit">Tilmeld</button>
+            <button class="dust-green-btn" type="submit">Ansøg</button>
           </form>
 
         </form>
+        <br>
     </div>
   </div>
 </div>
