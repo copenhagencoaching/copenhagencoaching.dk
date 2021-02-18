@@ -3,6 +3,7 @@ group: true
 title: CBS
 link: false
 week: false
+dato: 10. maj 2021
 published: true
 persons:
 - name: Cecilia

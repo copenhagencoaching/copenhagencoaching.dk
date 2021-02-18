@@ -4,6 +4,7 @@ group: false
 link: false
 week: false
 published: true
+dato: 12. april 2021
 persons:
 - name: Jack Købke
   title: Direktør i Kompagniet & Alkoholrådgivningen

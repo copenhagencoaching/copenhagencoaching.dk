@@ -4,6 +4,7 @@ title: Skovvænget
 link: false
 week: false
 published: true
+dato: 1. marts 2021
 persons:
 - name: Bo Christoffersen
   title: Forstander. Skovvænget. Region Hovedstaden. Den Sociale virksomhed

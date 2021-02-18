@@ -4,6 +4,7 @@ title: Lars Worning
 link: false
 week: false
 published: true
+dato: 24. maj 2021
 persons:
 - name: Lars Worning
   title: tekst

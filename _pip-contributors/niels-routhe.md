@@ -3,6 +3,7 @@ title: Niels Jørn Routhe
 group: false
 link: false
 week: false
+dato: 26. april 2021
 published: true
 persons:
 - name: Niels Jørn Routhe

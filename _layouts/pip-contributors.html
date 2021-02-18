@@ -50,10 +50,12 @@ layout: default
         <h2>{{ person.name }}</h2>
         <p class="xthin">{{ person.title }}</p>
         <p>{{ person.bio }}</p>
+        {% if page.video %}
         <video id="video" controls preload="metadata">
             <source src="/videos/morten-randloev.mp4" type="video/mp4">
             <track label="Danish" kind="subtitles" srclang="dk" src="/videos/subtitles/undertekster-morten-randloev.dk_DK.srt" default>
          </video>
+         {% endif %}
     
   {{ page.content }}
 
