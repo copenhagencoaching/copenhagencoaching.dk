@@ -3,6 +3,8 @@ title: Morten Randløv
 group: false
 link: true
 published: true
+video: /videos/morten-randloev.mp4
+subtitles: undertekster-morten-randloev.dk_DK.srt
 dato: 15. februar 2021
 persons:
 - name: Morten Randløv
