@@ -1,8 +1,9 @@
 ---
 group: true
+week: false
 title: Sputnik
 link: true
-published: false
+published: true
 persons:
 - name: Bettina Råschou
   title: Afdelingsleder, Familiehuset i Borgercenter Handicap, Københavns Kommune.

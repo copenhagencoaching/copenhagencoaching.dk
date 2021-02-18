@@ -2,7 +2,8 @@
 group: false
 title: Lars Worning
 link: false
-published: false
+week: false
+published: true
 persons:
 - name: Lars Worning
   title: tekst

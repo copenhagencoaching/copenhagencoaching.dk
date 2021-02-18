@@ -2,7 +2,8 @@
 group: true
 title: Skovvænget
 link: false
-published: false
+week: false
+published: true
 persons:
 - name: Bo Christoffersen
   title: Forstander. Skovvænget. Region Hovedstaden. Den Sociale virksomhed

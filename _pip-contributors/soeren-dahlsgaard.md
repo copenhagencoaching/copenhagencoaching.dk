@@ -2,7 +2,8 @@
 group: false
 title: Søren Dahlsgaard
 link: false
-published: false
+week: false
+published: true
 persons:
 - name: Søren Dahlsgaard
   title: tekst

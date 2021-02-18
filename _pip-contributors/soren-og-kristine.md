@@ -2,7 +2,8 @@
 group: false
 title: Søren og Kristine
 link: false
-published: false
+week: false
+published: true
 persons:
 - name: Søren
   title: tekst

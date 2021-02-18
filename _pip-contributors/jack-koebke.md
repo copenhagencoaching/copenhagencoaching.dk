@@ -2,7 +2,8 @@
 title: Jack Købke
 group: false
 link: false
-published: false
+week: false
+published: true
 persons:
 - name: Jack Købke
   title: Direktør i Kompagniet & Alkoholrådgivningen

@@ -2,7 +2,8 @@
 title: Niels Jørn Routhe
 group: false
 link: false
-published: false
+week: false
+published: true
 persons:
 - name: Niels Jørn Routhe
   title: Dagtilbudsleder Dagtilbud Vejgaard – Aalborg kommune

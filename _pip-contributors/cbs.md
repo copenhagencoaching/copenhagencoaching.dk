@@ -2,7 +2,8 @@
 group: true
 title: CBS
 link: false
-published: false
+week: false
+published: true
 persons:
 - name: Cecilia
   title: Uddannet Cand.merc. i Erhvervsøkonomi og Psykologi fra Copenhagen Business School, 2019.
