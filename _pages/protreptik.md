@@ -6,11 +6,7 @@ image: /images/protreptik/Protreptik.jpeg
 header: 'PROTREPTIK'
 sub-header: FORDI ORDENE, VI SIGER, BETYDER NOGET
 description: >-
-  Vi har i CCC altid været optaget af Protreptikken, dvs. den filosofiske
-  samtalekunst, der formår at få os mennesker til at komme i kontakt med det
-  væsentlige i os selv og i det gældende fællesskab. Det gælder for alle i CCC
-  at vi er trænet godt op i den protreptiske dialogform, fordi vi mener at den
-  er ligeså vigtig som alle de psykologiske coaching-metoder, som vi behersker.
+  Vi har i CCC altid været optaget af Protreptikken, dvs. den filosofiske samtalekunst, der formår at få os mennesker til at komme i kontakt med det væsentlige i os selv og i det gældende fællesskab. Det gælder for alle i CCC, at vi er trænet godt op i den protreptiske dialogform, fordi vi mener, at den er ligeså vigtig som alle de psykologiske coaching-metoder, som vi behersker.
 published: true
 order: '5'
 image-position: top
