@@ -2,6 +2,7 @@
 group: false
 title: Søren og Kristine
 link: false
+order: 4
 week: false
 dato: 29. marts 2021
 published: true

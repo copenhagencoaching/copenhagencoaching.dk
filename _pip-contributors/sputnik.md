@@ -4,6 +4,7 @@ week: false
 title: Sputnik
 dato: 15. marts 2021
 link: true
+order: 3
 published: true
 persons:
 - name: Bettina Råschou

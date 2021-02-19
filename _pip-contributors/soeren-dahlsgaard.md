@@ -2,6 +2,7 @@
 group: false
 title: Søren Dahlsgaard
 link: false
+order: 9
 week: false
 dato: 7. juni
 published: true

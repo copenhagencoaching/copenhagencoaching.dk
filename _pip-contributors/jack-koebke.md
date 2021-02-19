@@ -2,6 +2,7 @@
 title: Jack Købke
 group: false
 link: false
+order: 5
 week: false
 published: true
 dato: 12. april 2021
