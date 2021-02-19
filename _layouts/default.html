@@ -264,7 +264,9 @@
     $('#nav-7-tab').removeClass('active');
     $('#nav-7-tab').removeClass('show');
     $('#collapseN').removeClass('show');
-   
+    $('html,body').animate({
+        scrollTop: $('#max').offset().top
+    }, 1); 
   });
 </script>
 

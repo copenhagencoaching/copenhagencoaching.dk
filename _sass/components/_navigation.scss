@@ -305,3 +305,26 @@ nav {
 }
 
 }
+
+.panel-heading .accordion-toggle:after {
+  content: "\f106";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  float: right;
+}
+.panel-heading .accordion-toggle.collapsed:after {
+  content: "\f107";
+}
+
+.faq-panel {
+  background-color: $platinum;
+  padding: 25px 20px 20px 20px;
+  p:first-of-type {
+    padding-top: 20px;
+  }
+}
+
+.faq-accordion {
+  max-width: 750px;
+  margin: auto;
+}
