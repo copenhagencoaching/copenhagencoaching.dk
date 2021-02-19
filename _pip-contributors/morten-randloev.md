@@ -7,6 +7,11 @@ week: true
 video: /videos/morten-randloev.mp4
 subtitles: /videos/subtitles/captions.srt
 dato: 15. februar 2021
+links:
+- text: Følg Morten Randløv her
+  url: https://www.linkedin.com/in/morten-randl%C3%B8v-97772a44/
+- text: Følg Ungecenteret Skanderborg her
+  url: https://www.facebook.com/ungdomscentretaarhuskommune
 persons:
 - name: Morten Randløv
   title: Centerchef, Ungecentret, Skanderborgvej, Aarhus Kommune
