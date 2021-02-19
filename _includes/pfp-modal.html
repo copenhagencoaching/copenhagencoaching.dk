@@ -39,21 +39,68 @@
           <input type="text" name="work-phone" pattern="[0-9]{8}" placeholder="Arbejdstelefon">
           <input type="text" name="virksomhed" placeholder="Virksomhed*" required>
           <textarea name="besked" cols="30" rows="10" placeholder="Evt. kommentar"></textarea>
+          <label><b>Uddannelsesmlæssig baggrund:</b><br>
+            <i>Skriv venligst en liste over alle dine formelle uddannelser</i></label>
+          <textarea name="uddannelses-baggrund" cols="30" rows="10"></textarea>
 
+          <label><b>Relevante kurser og efteruddannelser:</b><br>
+            <i>Herunder registrerede alternative uddannelser</i></label>
+          <textarea name="relevante-kurser" cols="30" rows="10"></textarea>
 
-          <p><b>Samtykkeerklæring*</b></p>
-          <p class="small">
-            <input class="checkbox" type="checkbox" name="_optin" required /> Jeg giver samtykke til, at CCC må bruge
-            mine oplysninger til at behandle min ansøgning. Derudover giver jeg samtykke til, at CCC opbevarer og
-            behandler mine persondata som er beskrevet i CCC's privatlivspolitik.
-          </p>
+          <label><b>Relevant livs- og erhvervserfaring:</b><br>
+            <i>Enhver form for arbejde med menneskelig kontakt og ansvar for andre mennesker. f.eks. ledelse, HR,
+              tillidshverv, ansvarlig for lærlinge/elever. Frivilligt socialt arbejde spejderleder, fodboldtræner eller
+              lignende.
+            </i></label>
+          <textarea name="livs-erhvervserfaring" cols="30" rows="10"></textarea>
+
+          <label><b>Egenterapi og deltagelse i terapigrupper:</b></label>
+          <textarea name="terapi-erfaring" cols="30" rows="10"></textarea>
+
+          <label><b>Personlig motivation for at søge optagelse:</b></label>
+          <textarea name="motivation" cols="30" rows="10"></textarea>
+
+          <label><b>Jeg søger optagelse via:</b><br>
+          <input class="checkbox" type="radio" id="male" name="kvote" value="§1"> §1 <br><input class="checkbox" type="radio" id="male" name="kvote" value="§2"> §2 <br><input class="checkbox" type="radio" id="male" name="kvote" value="§3"> §3</label>
+<br><br>
+  <label><b>Merit:</b><br>
+  <input class="checkbox" type="checkbox" name="merit"/>
+  Jeg søger meritoverførsel fra anden tilsvarende psykoterapeutuddannelse</label><br>
+<br>
+
+<label><b>Hvor har du hørt om os?:</b><br>
+  <input class="checkbox" type="checkbox" name="google" /> Google<br>
+  <input class="checkbox" type="checkbox" name="facebook" /> Facebook<br>
+  <input class="checkbox" type="checkbox" name="instagram" /> Instagram<br>
+  <input class="checkbox" type="checkbox" name="linkedin" /> Linkedin<br>
+  <input class="checkbox" type="checkbox" name="anbefaling" /> Anbefaling fra andre<br>
+  <input class="checkbox" type="checkbox" name="andet" /> Andet
+
+  </label>
+<br>
+<br>
+<label>  
+  <input class="checkbox" type="checkbox" name="_optin" required /> Jeg vil gerne modtaget CCC's nyhedsbrev
+</label>
+<br>
+<br>
+<label>
+  <b>Samtykkeerklæring*</b><br>
+  <input class="checkbox" type="checkbox" name="samtykke" required /> <span class="small inline">Jeg giver samtykke til, at CCC må bruge
+  mine oplysninger til at behandle min ansøgning. Derudover giver jeg samtykke til, at CCC opbevarer og
+  behandler mine persondata som er beskrevet i CCC's privatlivspolitik.</span>
+</label>
+
+         <br>
+          
 
           <br>
+
 
           <!-- your other form fields go here -->
 
           <button class="dust-green-btn" type="submit">Ansøg</button>
-          
+
         </form>
 
         </form>
