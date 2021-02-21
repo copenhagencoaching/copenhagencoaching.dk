@@ -57,7 +57,9 @@ layout: default
          </video>
          {% endif %}
     
+         <div class="align-justify">
   {{ page.content }}
+</div>
 <br>
 {% for link in page.links %}
 <a class="border-button h-auto" target="_blank" href="{{ link.url }}">{{ link.text }}</a>
