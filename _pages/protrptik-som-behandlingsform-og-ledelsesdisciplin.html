@@ -200,24 +200,25 @@ title: Protreptik som behandlingsform og ledelsesdisciplin
 
                     {% else %}
                     <h2>{{ cont.title }}</h2>
+                    
                     {% endif %}
-<div class="align-justify">
-                    {{ cont.excerpt }}</div>
+                    <div class="align-justify">
+                        {{ cont.excerpt }}</div>
                     {% if cont.link == true %}
                     <a href="{{ cont.url }}">Læs mere om {{ cont.title }}s bidrag <i class="fas fa-arrow-right"></i></a>
                     <br> <br>
                     {% endif %}
                     {% for person in cont.persons %}
 
-                    <div class="grid-20-80 h-150">
+                    <div class="grid-20-80 h-150 responsive-grid responsive-height-auto">
                         <div>
-                            <div class="object-fit-full-width h-150">
+                            <div class="object-fit-full-width h-150 h-400-bot">
                                 <img src="{{ person.image }}" alt="" class="object-fit">
                             </div>
                         </div>
 
 
-                        <div class="p-20 pt-0">
+                        <div class="p-20 pt-0 no-padding-bot">
                             {% if cont.group == true %}
                             <h4>{{ person.name }}</h4>
                             {% endif %}
@@ -266,9 +267,11 @@ title: Protreptik som behandlingsform og ledelsesdisciplin
 
             {% assign ordered-conts = site.pip-contributors | sort: "order" %}
             {% for cont in ordered-conts %}
-            <a href="{{ cont.url }}">
+           {% if cont.done == true %} 
+            <a href="{{ cont.url }}"> {% endif %} 
                 <div class="grid-10-5-85 smooth-border p-10">
-                    <div class="bg-beaver p-10 white align-center grid-1 align-center align-content-center align-items-center">
+                    <div
+                        class="bg-beaver p-10 white align-center grid-1 align-center align-content-center align-items-center">
                         {% capture date %}
 
                         {{ cont.dato }}
@@ -301,21 +304,21 @@ title: Protreptik som behandlingsform og ledelsesdisciplin
                         <h4>{{ person.name }}</h4>
                         <p>{{ person.title }}</p>
                         {% endif %}
-                       
+
 
                         {% endfor %}
-     
+
                         {% else %}
                         <h3>{{ cont.title }}</h3>
                         {% for person in cont.persons %}
                         <p class="mb-0">{{ person.title }}</p>
                         {% endfor %}
                         {% endif %}
-                        
+
 
                     </div>
                 </div>
-            </a>
+                {% if cont.done == true %}   </a> {% endif %}
             {% endfor %}
 
 

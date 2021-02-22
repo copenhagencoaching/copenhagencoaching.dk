@@ -5,6 +5,7 @@ link: false
 week: false
 published: true
 order: 2
+done: false
 dato: 1. marts 2021
 persons:
 - name: Bo Christoffersen

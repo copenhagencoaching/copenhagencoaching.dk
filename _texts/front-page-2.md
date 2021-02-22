@@ -1,10 +1,9 @@
 ---
 layout: default
-title: Bliv en del af fællesskabet
+title: NÅR VÆRDIER SKABER HVERDAGEN, AFSPEJLES DET I DAGLIGDAGEN
 page: frontpage
 order: 2
-image: /images/graphic/community-1.png
-link: /community/
+image: /images/frontpage/frontpage-5.jpg
 ---
 
-Formålet med CCC Community er, at er at løfte den dialogiske ledelseskvalitet – og kapacitet i Danmark. Vi udvikler og uddanner ledere via rådgivning, coaching, sparring, netværk, kurser og testværktøjer. 
+Vi vægter høj faglighed og sætter barren højt for vores produkter og leverancer, og giver samtidig plads til at arbejde med ideer indenfor fællesskabets rammer. I CCC er det vigtigt at værne om den andens værdighed - at se mennesket i mennesket med de forskelligheder der viser sig. Vi skaber med andre ord udvikling i kraft af den menneskelige værdi.

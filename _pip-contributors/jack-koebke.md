@@ -4,6 +4,7 @@ group: false
 link: false
 order: 5
 week: false
+done: false
 published: true
 dato: 12. april 2021
 persons:

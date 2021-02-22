@@ -3,6 +3,7 @@ group: true
 title: CBS
 link: false
 week: false
+done: false
 order: 7
 dato: 10. maj 2021
 published: true

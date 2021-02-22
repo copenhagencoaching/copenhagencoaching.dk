@@ -894,6 +894,11 @@ a {
 .grid-20-80 {
   display: grid;
   grid-template-columns: 20% 80%;
+  &.responsive-grid {
+    @include for-phone-only {
+      grid-template-columns: 1fr;
+    }
+  }
 }
 
 .grid-90-3-7 {
@@ -1008,4 +1013,28 @@ a {
 .display-inline {
   display: inline !important;
   width: unset !important;
+}
+
+.no-padding-bot {
+  @include for-phone-only {
+    padding: 0 !important;
+  }
+}
+
+.image-top-bot {
+  @include for-bot {
+    object-position: top;
+  }
+}
+
+.h-200-bot {
+  @include for-bot {
+    height: 200px;
+  }
+}
+
+.h-400-bot {
+  @include for-phone-only {
+    height: 400px !important;
+  }
 }
