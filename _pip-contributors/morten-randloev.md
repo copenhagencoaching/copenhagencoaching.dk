@@ -4,7 +4,7 @@ group: false
 link: true
 published: true
 week: true
-done: false
+done: true
 video: /videos/morten-randloev.mp4
 subtitles: /videos/subtitles/captions.srt
 dato: 15. februar 2021
