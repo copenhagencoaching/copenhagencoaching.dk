@@ -48,7 +48,27 @@
 .nav-tabs {
   margin-bottom: 20px;
   justify-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  column-gap: 5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+  &.mid-tabs {
+    display: flex !important;
+    justify-content: center;
+    .nav-link {
+      width: unset !important;
+    }
+  }
+
+  @include for-bot {
+    display: flex !important;
+    justify-content: center;
+    .nav-link {
+      width: unset !important;
+    }
+  }
+
 
   &.large {
     .nav-link {
@@ -60,6 +80,7 @@
     .nav-link {
       background-color: #E1DCD8;
       color: #333333;
+
       &.active {
         background-color: #B9927A;
       }
@@ -69,27 +90,29 @@
 
   &.bold {
     .nav-link {
-    font-weight: 600;
+      font-weight: 600;
     }
   }
 
   &.fade-pallette {
     .nav-link {
       background-color: $beaver;
+
       &.active {
         background-color: $deep-taupe;
       }
 
 
-    &:hover {
-      background-color: $deep-taupe;
-    }
+      &:hover {
+        background-color: $deep-taupe;
+      }
     }
   }
 
   &.black-pallette {
     .nav-link {
       background-color: $black-coral;
+
       &.active {
         background-color: $jet;
       }
@@ -105,10 +128,11 @@
     border: $nav-tabs-border-width solid transparent;
     /* @include border-top-radius($nav-tabs-border-radius); */
     background-color: $ccc-blue;
-    margin-right: 5px;
     margin-bottom: 5px;
     color: white;
-    padding: 5px 10px;
+    padding: 5px 15px;
+    width: 100%;
+    text-align: center;
 
 
     &.disabled {
@@ -121,7 +145,8 @@
       background-color: $ccc-green;
       color: white;
 
-     
+
+
     }
   }
 

@@ -877,6 +877,15 @@ a {
   }
 }
 
+.grid-30-65 {
+  grid-template-columns: 30% 65%;
+  display: grid;
+  column-gap: 5%;
+  @include for-bot {
+    grid-template-columns: 1fr;
+  }
+}
+
 .grid-35-65 {
   grid-template-columns: 65% 35%;
   @include for-bot {
@@ -918,6 +927,16 @@ a {
   }
 }
 
+
+.grid-150-fr {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+}
+
+.grid-fr-150 {
+  display: grid;
+  grid-template-columns: 1fr 150px;
+}
 
 .grid-60-40 {
   grid-template-columns: 60% 40%;
