@@ -5,7 +5,7 @@ layout: default
 
 {% if page.header %}
 
-<div class="wb-hero-banner">
+<div class="wb-hero-banner clear-background">
     <div class="container-fluid narrow-container grid-2 gap-40 align-items-center">
         <div class="hero-banner-text">
             <h1 class="banner-title">{{ page.header }}</h1>
@@ -43,7 +43,7 @@ layout: default
     </div> -->
 
     {% endif %}
-    <div class="dark-green-background with-padding">
+    <div class="with-padding">
 
         <div class="video-container"><video controls>
                 <source src="/videos/noeddesbo-ccc.mp4" type="video/mp4">
@@ -54,7 +54,7 @@ layout: default
                 <div class="quote-container">
                     <div>
                         <blockquote>
-                            <p>Det er fantastisk</p>
+                            <p class="black">Det er fantastisk</p>
                         </blockquote>
 
                     </div>
@@ -71,6 +71,7 @@ layout: default
                 class="btn">Se mere på 4Player</button></a>
         <div class="clearfix"></div>
     </div>
+    <br><br>
     <div class="grid-2 justify-content-between grid-auto-5 r-gap-40">
         <div class="education-content">
             {{ page.content }}

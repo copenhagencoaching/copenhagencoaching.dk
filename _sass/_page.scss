@@ -406,6 +406,10 @@ text-align: center;
   padding: 20px;
   align-items: center;
   width: 100%;
+
+  &.clear-background {
+    background: none !important;
+  }
   
   .container-fluid {
     padding-bottom: 20px !important;

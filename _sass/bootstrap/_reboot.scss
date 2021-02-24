@@ -553,6 +553,9 @@ template {
 .testimonial-quote blockquote p {
   color: #ffffff; 
   line-height: 1.4 !important;
+  &.black {
+    color: #707070 !important;
+  }
 }
 
 .testimonial-quote blockquote p:first-child:before {

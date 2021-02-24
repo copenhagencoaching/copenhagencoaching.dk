@@ -1,7 +1,6 @@
 ---
 order: "7"
 title: Den offentlige lederuddannelse
-layout: dol
 image: "/images/academy/den-offentlige-lederuddannelse.png"
 contact-person: Frederikke Winther
 header: Den offentlige lederuddannelse

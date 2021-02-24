@@ -1,7 +1,7 @@
 ---
 order: "1"
 title: Master of Business Coaching
-layout: mbc-campaign
+layout: mbc
 image: "/images/international/i3.jpg"
 contact-person: Frederikke Winther
 header: Master of Business Coaching
@@ -17,13 +17,20 @@ events:
 - overskrift: København
   subcategory: true
   subcat:
-  - sub-cat-title: 10. februar 2021
+  - sub-cat-title: Semester 1 Forår 2021
     datoer:
-    - 10.-11. februar
-    - 22.-23. marts
-    - 7.-8. april
-    - 4.-5. maj
-    - 16.-18. juni
+    - 22. - 23. marts
+    - 7. - 8. april
+    - 28. - 29. april
+    - 10. - 11. maj
+    - 16. - 17. juni (Eksamensdage)
+  - sub-cat-title: Semester 2 Efterår 2021
+    datoer:
+    - 23. - 24. august
+    - 22. - 23. september
+    - 11. - 12. oktober
+    - 8. - 9. november
+    - 7. - 9. december
 redirect_from:
   - /master-business-coaching-mbc/
 
