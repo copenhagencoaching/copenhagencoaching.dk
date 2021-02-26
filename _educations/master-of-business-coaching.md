@@ -31,6 +31,20 @@ events:
     - 11. - 12. oktober
     - 8. - 9. november
     - 7. - 9. december
+  - sub-cat-title: Efterår 2021
+    datoer:
+    - 1. - 2. september
+    - 4. - 5. oktober
+    - 3. - 4. november
+    - 29. - 30. november
+    - 14. - 16. december
+  - sub-cat-title: Forår 2022
+    datoer:
+    - 9. - 10. februar
+    - 21. - 22. marts
+    - 6. - 7. april
+    - 3. - 5. maj
+    - 14. - 16. juni
 redirect_from:
   - /master-business-coaching-mbc/
 
