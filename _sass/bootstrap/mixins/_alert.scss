@@ -637,6 +637,10 @@ a {
   display: grid;
   grid-template-columns: 1fr 120px;
 
+  @include for-phone-only {
+    grid-template-columns: 1fr;
+  }
+
 }
 
 //twisted grid

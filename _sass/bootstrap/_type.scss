@@ -25,6 +25,11 @@ h1, .h1, h2, .h2 {
 h1.h1-l {
   @include font-size($h1-font-size-lg);
 }
+.h1-scale {
+  @include for-tablet {
+    font-size: $h1-font-size !important;
+  }
+}
 
 h1, .h1 { @include font-size($h1-font-size); }
 h2, .h2 { @include font-size($h2-font-size); }
