@@ -92,3 +92,20 @@
 .p-10 {
   padding: 10px;
 }
+
+
+.position-relative {
+  position: relative;
+}
+
+.placed-top-left {
+  position: absolute;
+  top: -40px;
+  left: 20px;
+}
+
+.placed-top-right {
+  position: absolute;
+  top: -40px;
+  right: 20px;
+}

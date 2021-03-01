@@ -271,6 +271,8 @@ input[type="button"] {
 }
 
 
+
+
 .border-button {
   background-color: none;
   border: 2px solid #dadada;
@@ -335,10 +337,18 @@ input[type="button"] {
   margin: auto;
   text-transform: uppercase;
   text-align: center;
-  transition: 0.3s;
+  
   &:hover {
     background-color: #707070;
     color: #ffffff;
     border: 2px solid #707070;
+    transition: 0.3s;
+  }
+
+  &.small {
+    padding: 10px 5px;
+    width: 50px;
+    height: 30px;
+    margin: 0;
   }
 }

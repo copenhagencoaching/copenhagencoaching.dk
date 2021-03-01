@@ -12,17 +12,7 @@ special: false
 hold_information: ''
 hold_eller_begivenheder: true
 events:
-- overskrift: 'Hold 2020/2021'
-  dato:
-  - 'Formøde (Obligatorisk): 15. december 2020 (17:00 - 20:00)'
-  - 19. januar 2021 (17:00 - 20:00)
-  - 23. februar 2021 (17:00 - 20:00)
-  - 23. marts 2021 (17:00 - 20:00)
-  - 20. april 2021 (17:00 - 20:00)
-  - 18. maj 2021 (17:00 - 20:00)
-  - 23. maj 2021 (10:00 - 14:00)
-  subcategory: false
-  subcat: []
+- overskrift: Nyt hold til efteråret 2021 – skriv til os for mere information.
 pdf: "/uploads/FILOSOFISK_AFFIRMATION_CCC.pdf"
 
 ---

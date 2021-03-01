@@ -80,6 +80,10 @@
   } */
 }
 
+.round-image {
+  border-radius: 1000px;
+}
+
 .center {
   text-align: center;
 }
@@ -102,6 +106,9 @@
 
 .object-fit-full-width {
   width: 100%;
+}
+.h-100p {
+  height: 100px;
 }
 
 .h-150 {
