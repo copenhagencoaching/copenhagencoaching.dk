@@ -345,10 +345,11 @@ input[type="button"] {
     transition: 0.3s;
   }
 
-  &.small {
-    padding: 10px 5px;
-    width: 50px;
-    height: 30px;
-    margin: 0;
+  &.small-b {
+    padding: 5px 10px;
+    width: auto;
+    height: auto;
+    margin: 0 0 10px 0;
+    display: inline-block;
   }
 }
