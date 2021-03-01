@@ -203,7 +203,11 @@ title: Protreptik som behandlingsform og ledelsesdisciplin
                     
                     {% endif %}
                     <div class="align-justify">
-                        {{ cont.excerpt }}</div>
+                        {% if cont.description %}
+                        {{ cont.description }}
+                        {% else %}
+                        {{ cont.excerpt }}{% endif %}</div>
+                        <br>
                     {% if cont.link == true %}
                     <a href="{{ cont.url }}">Læs mere om {{ cont.title }}s bidrag <i class="fas fa-arrow-right"></i></a>
                     <br> <br>
@@ -387,6 +391,7 @@ title: Protreptik som behandlingsform og ledelsesdisciplin
             <img src="/images/pip/graeker.png" class="object-fit position-top" alt="">
         </div>
         <div>
+
 
             <h2>Protreptik</h2>
 

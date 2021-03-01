@@ -1,9 +1,9 @@
 ---
 title: Morten Randløv
 group: false
-link: true
+link: false
 published: true
-week: true
+week: false
 done: true
 video: /videos/morten-randloev.mp4
 subtitles: /videos/subtitles/captions.srt
