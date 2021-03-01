@@ -154,6 +154,7 @@ title: Protreptik som behandlingsform og ledelsesdisciplin
                 <div class="white align-justify">
 
 
+
                     <div class="w-150p h-150 float-left mr-20 mb-10">
                         <img src="/images/graphic/Ccclogosortstor1.png" alt="" class="object-fit">
                     </div>
@@ -190,28 +191,35 @@ title: Protreptik som behandlingsform og ledelsesdisciplin
                 {% assign week-cont = site.pip-contributors | where_exp:"item",
                 "item.week == true" %}
 
+                
+
                 {% for cont in week-cont %}
 
                 <div class="bg-platinum p-20">
 
                     <p class="thin capped">{{ cont.dato }}</p>
-                    {% if cont.group == true %}
-                    <h3 class="capped">{{ cont.title }} v. {% for person in cont.persons %} {% if forloop.last %}{{ person.name }}{%
-                        else %}{{ person.name }}, {% endif %}{% endfor %}</h3>
 
-                    {% else %}
-                    <h2 class="capped">{{ cont.title }}</h2>
-                    
-                    {% endif %}
+                    <h2>{{ cont.title }}
+                        {% if cont.show-v %}
+                        <br>v. {% for person in cont.persons %} {% if forloop.last %}{{ person.name }}{% else %}{{
+                        person.name }}, {% endif %}{% endfor %}
+                        {% else %}
+                        <br>{{ cont.second-title }}
+                        {% endif %}
+                    </h2>
+
+
                     <div class="align-justify">
                         {% if cont.description %}
                         {{ cont.description }}
                         {% else %}
                         {{ cont.excerpt }}{% endif %}</div>
-                        <br>
+                    <br>
+
                     {% if cont.link == true %}
 
-                    <a href="{{ cont.url }}">Læs mere om {{ cont.title | truncatewords: 1, ''  }}s bidrag <i class="fas fa-arrow-right"></i></a>
+                    <a href="{{ cont.url }}">Læs mere om {{ cont.title | truncatewords: 1, '' | remove: "," }}s bidrag
+                        <i class="fas fa-arrow-right"></i></a>
                     <br> <br>
                     {% endif %}
                     {% for person in cont.persons %}
@@ -262,12 +270,12 @@ title: Protreptik som behandlingsform og ledelsesdisciplin
 
 
 
-            
+
 
             {% assign ordered-conts = site.pip-contributors | sort: "order" %}
             {% for cont in ordered-conts %}
-           {% if cont.done == true %} 
-            <a href="{{ cont.url }}"> {% endif %} 
+            {% if cont.done == true %}
+            <a href="{{ cont.url }}"> {% endif %}
                 <div class="grid-10-5-85 smooth-border p-10">
                     <div
                         class="bg-beaver p-10 white align-center grid-1 align-center align-content-center align-items-center">
@@ -317,7 +325,8 @@ title: Protreptik som behandlingsform og ledelsesdisciplin
 
                     </div>
                 </div>
-                {% if cont.done == true %}   </a> {% endif %}
+                {% if cont.done == true %}
+            </a> {% endif %}
             {% endfor %}
 
 
@@ -329,10 +338,12 @@ title: Protreptik som behandlingsform og ledelsesdisciplin
 
 <div class="bg-beaver">
     <div class="container-fluid extra-narrow-container pb-75 pt-75 white align-center">
-        <p class="xlarge">Modtag et uddrag af Morten Randløvs kapitel fra vores kommende antologi <b>Protreptik som behandlingsform og ledelsesdisciplin. Skriv dig op til vores nyhedsbrev nedenfor</b></p>
+        <p class="xlarge">Modtag et uddrag af Morten Randløvs kapitel fra vores kommende antologi <b>Protreptik som
+                behandlingsform og ledelsesdisciplin. Skriv dig op til vores nyhedsbrev nedenfor</b></p>
         <p><b>Antologien udkommer august 2021</b></p>
         <br>
-        <a href="/protrptik-som-behandlingsform-og-ledelsesdisciplin/tilmeld-nyhedsbrev-og-modtag-kapitel/" class="border-button h-auto">Tilmeld</a>
+        <a href="/protrptik-som-behandlingsform-og-ledelsesdisciplin/tilmeld-nyhedsbrev-og-modtag-kapitel/"
+            class="border-button h-auto">Tilmeld</a>
     </div>
 </div>
 
@@ -383,7 +394,7 @@ title: Protreptik som behandlingsform og ledelsesdisciplin
         <br>
         <a class="copper-red-btn" href="/academy/psykologisk-filosofisk-psykoterapi/">Læs mere</a>
     </div>
-    
+
 </div>
 
 <div class="container-fluid narrow-container pb-100 pt-100">

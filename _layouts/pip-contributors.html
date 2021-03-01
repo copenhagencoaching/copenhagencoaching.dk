@@ -2,6 +2,7 @@
 layout: default
 ---
 
+
 {% if page.group == true %}
 <div class="container-fluid extra-narrow-container">
     <a href="/protrptik-som-behandlingsform-og-ledelsesdisciplin/" class="thin capped"><i
@@ -9,10 +10,14 @@ layout: default
 <br><br>
     <p class="thin large capped">Bidragsyder</p>
     
-    <h2>{{ page.title }} v. {% for person in page.persons %} {% if forloop.last %}{{ person.name }}{% else %}{{
-        person.name }}, {% endif %}{% endfor %}</h2>
-
-
+    <h2>{{ page.title }}
+    {% if page.show-v %}
+        <br>v. {% for person in page.persons %} {% if forloop.last %}{{ person.name }}{% else %}{{
+        person.name }}, {% endif %}{% endfor %}
+        {% else %}
+        <br>{{ page.second-title }}
+{% endif %}
+</h2>
     <p>{{ page.content }}</p>
 
     {% for person in page.persons %}

@@ -1,6 +1,7 @@
 ---
 group: true
-title: Skovvænget V. Bo Christoffersen, Irene Koldtoft og Elvira Marie Svarre Vistisen, Skovvænget, Region Hovedstaden. Den Sociale virksomhed.
+title: Skovvænget, Region Hovedstaden, Den Sociale Virksomhed
+second-title: v/ Bo Christoffersen, Irene Koldtoft og Elvira Marie Svarre Vistisen
 link: true
 week: true
 published: true
