@@ -10,6 +10,8 @@ done: true
 links:
 - text: Læs mere om Skovvænget
   url: https://www.densocialevirksomhed.dk/Skovvaenget/Sider/default.aspx
+- text: Skovvængets hjemmesite
+  url: www.skovvænget.dk
 dato: 1. marts 2021
 description: I bidraget beskriver de 3 ledere af det socialpsykiatriske bo- og rehabiliteringssted Skovvænget, hvordan de bruger protreptiske samtaler som kickstarter af eksempelvis faglige diskussioner og udviklingsprocesser, fordi protreptik er en effektiv metode til at zoome ind og skabe et fælles fokus på det, der betyder noget for dem. 
 persons:
