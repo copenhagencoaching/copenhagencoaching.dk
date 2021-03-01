@@ -38,6 +38,10 @@ layout: default
     <br>
     {% endfor %}
 
+    {% for link in page.links %}
+<a class="border-button-dark h-auto" target="_blank" href="{{ link.url }}">{{ link.text }}</a>
+<br>
+{% endfor %}
 </div>
 {% else %}
 
@@ -66,12 +70,13 @@ layout: default
   {{ page.content }}
 </div>
 <br>
-{% for link in page.links %}
+
+
+    {% endfor %}
+    {% for link in page.links %}
 <a class="border-button-dark h-auto" target="_blank" href="{{ link.url }}">{{ link.text }}</a>
 <br>
 {% endfor %}
-
-    {% endfor %}
 </div>
 {% endif %}
 
