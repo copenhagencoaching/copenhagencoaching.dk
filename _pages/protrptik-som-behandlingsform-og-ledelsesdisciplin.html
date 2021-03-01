@@ -61,6 +61,7 @@ title: Protreptik som behandlingsform og ledelsesdisciplin
                         vakt stor interesse herfor, specielt omkring
                         temaer som dannelse og etik.</p>
                 </div>
+
                 <div>
                     <p>I forhold til ledelse og undervisning har den
                         protreptiske tilgang indtil videre primært
@@ -195,11 +196,11 @@ title: Protreptik som behandlingsform og ledelsesdisciplin
 
                     <p class="thin capped">{{ cont.dato }}</p>
                     {% if cont.group == true %}
-                    <h3>{{ cont.title }} v. {% for person in cont.persons %} {% if forloop.last %}{{ person.name }}{%
+                    <h3 class="capped">{{ cont.title }} v. {% for person in cont.persons %} {% if forloop.last %}{{ person.name }}{%
                         else %}{{ person.name }}, {% endif %}{% endfor %}</h3>
 
                     {% else %}
-                    <h2>{{ cont.title }}</h2>
+                    <h2 class="capped">{{ cont.title }}</h2>
                     
                     {% endif %}
                     <div class="align-justify">
@@ -209,7 +210,8 @@ title: Protreptik som behandlingsform og ledelsesdisciplin
                         {{ cont.excerpt }}{% endif %}</div>
                         <br>
                     {% if cont.link == true %}
-                    <a href="{{ cont.url }}">Læs mere om {{ cont.title }}s bidrag <i class="fas fa-arrow-right"></i></a>
+
+                    <a href="{{ cont.url }}">Læs mere om {{ cont.title | truncatewords: 1, ''  }}s bidrag <i class="fas fa-arrow-right"></i></a>
                     <br> <br>
                     {% endif %}
                     {% for person in cont.persons %}
