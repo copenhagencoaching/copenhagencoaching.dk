@@ -7,7 +7,6 @@ header: Den offentlige lederuddannelse
 sub-header: Få ny indsigt - og større udsyn - i dit lederskab
 price: 'Vejledende pris: 7.500 ekskl. moms pr. 5 ECTS'
 pdf: 'false'
-layout: dol
 event-title: Vi starter løbende hold op - ring og hør nærmere
 oe-order: 5
 special: false
