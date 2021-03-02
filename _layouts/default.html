@@ -228,11 +228,11 @@
 
 
     $('.modul-collapse').on('shown.bs.modul-collapse', function (e) {
-    var $panel = $(this).closest('.panel');
-    $('html,body').animate({
+      var $panel = $(this).closest('.panel');
+      $('html,body').animate({
         scrollTop: $panel.offset().top
-    }, 1); 
-}); 
+      }, 1);
+    });
 
 
 
@@ -249,44 +249,68 @@
       $('#collapseB').removeClass('show');
 
       var $panel = $('.year-one-collapse').closest('.panel');
-    $('html,body').animate({
+      $('html,body').animate({
         scrollTop: $panel.offset().top
-    }, 1); 
+      }, 1);
     });
   </script>
-
-<script>
-  $('.info-event-link').on('click', function (e) {
-    $('#nav-10').addClass('active show');
-    $('#nav-10-tab').addClass('active show');
-    $('#nav-7').removeClass('show');
-    $('#nav-7').removeClass('active');
-    $('#nav-7-tab').removeClass('active');
-    $('#nav-7-tab').removeClass('show');
-    $('#collapseN').removeClass('show');
-    $('html,body').animate({
-        scrollTop: $('#max').offset().top
-    }, 1); 
-  });
-</script>
 
   <script>
-/*     $('#myTab a').click(function (e) {
-      e.preventDefault();
-      $(this).tab('show');
+    $('.info-event-link').on('click', function (e) {
+      $('#nav-10').addClass('active show');
+      $('#nav-10-tab').addClass('active show');
+      $('#nav-7').removeClass('show');
+      $('#nav-7').removeClass('active');
+      $('#nav-7-tab').removeClass('active');
+      $('#nav-7-tab').removeClass('show');
+      $('#collapseN').removeClass('show');
+      $('html,body').animate({
+        scrollTop: $('#max').offset().top
+      }, 1);
     });
-
-    // store the currently selected tab in the hash value
-    $("ul.nav-tabs > li > a").on("shown.bs.tab", function (e) {
-      var id = $(e.target).attr("href").substr(1);
-      window.location.hash = id;
-    });
-
-    // on load of the page: switch to the currently selected tab
-    var hash = window.location.hash;
-    $('#myTab a[href="' + hash + '"]').tab('show'); */
   </script>
 
+  <script>
+    /*     $('#myTab a').click(function (e) {
+          e.preventDefault();
+          $(this).tab('show');
+        });
+    
+        // store the currently selected tab in the hash value
+        $("ul.nav-tabs > li > a").on("shown.bs.tab", function (e) {
+          var id = $(e.target).attr("href").substr(1);
+          window.location.hash = id;
+        });
+    
+        // on load of the page: switch to the currently selected tab
+        var hash = window.location.hash;
+        $('#myTab a[href="' + hash + '"]').tab('show'); */
+  </script>
+
+
+  <script>
+    window.onload = function () {
+      const queryString = window.location.search;
+      const urlParams = new URLSearchParams(queryString);
+      const mes = urlParams.get('message')
+      if (mes == 'besked') {
+        $('#thanks-modal').modal('show')
+        $('.thanks-mes-title').html('Tak for din besked')
+        $('.thanks-mes-body').html('Du høre fra os snarrest')
+      }
+      if (mes == 'anmodning') {
+        $('#thanks-modal').modal('show')
+        $('.thanks-mes-title').html('Tak for din andmodning')
+        $('.thanks-mes-body').html('Du høre fra os snarrest')
+      }
+      if (mes == 'reg') {
+        $('#thanks-modal').modal('show')
+        $('.thanks-mes-title').html('Tak for din tilmelding')
+        $('.thanks-mes-body').html('Du høre fra os snarrest')
+      }
+    }
+// shirt
+  </script>
 </body>
 
 </html>

@@ -150,6 +150,16 @@ layout: default
               <p class="xthin">Kl. {{ post.time }}</p>
             </div>
             {% endif %}
+            {% if post.place %}
+            <div class="align-right">
+              {% if post.place == "Afvikles online - invitation sendes særskilt efter tilmelding" %}
+              <p class="m-large"><b>Sted: {{ post.place | truncatewords: 2, '' | remove: "Afvikles " }}</b></p>
+              
+              {% else %}
+              <p class="m-large"><b>Sted: {{ post.place }}</b></p>
+              {% endif %}
+            </div>
+            {% endif %}
           </div>
         </div>
         <div class="card-footer">

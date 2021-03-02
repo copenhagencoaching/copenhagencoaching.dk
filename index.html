@@ -12,16 +12,31 @@ layout: default
 </script>
 
 
-<div style="background: linear-gradient(rgba(19, 19, 19, 0.6), rgba(19, 19, 19, 0.6)), url('/images/graphic/frontpage-1.png'); background-position: center; background-size: cover; background-attachment: fixed;">
-<div class="container-fluid extra-narrow-container pt-50 h-600 white grid-1 align-content-center align-items-center">
-    <div class="max-500">
-    <h1 class="h1-l">Når værdien skaber hverdagen, afspejles det i dagligdagen</h1>
-</div>
-</div>
-</div>
+<!-- <div class="front-slider">
+    {% for text in site.texts %}
+    {% if text.page == "frontpage" %}
+    <div>
+
+        <div style="background: linear-gradient(rgba(19, 19, 19, 0.6), rgba(19, 19, 19, 0.6)), url('{{ text.image }}'); background-position: center; background-size: cover; background-attachment: fixed;">
+            <div class="extra-narrow-container container-fluid pt-50 h-600 white grid-1 align-content-center align-items-center">
+                <div class="max-500">
+                    <h1 class="h1-l">{{ text.title }}</h1>
+                    <a href="{{ text.link }}" class="large display-inline-block border-button w-100">Se mere</a>
+                </div>
+              
+            </div>
+
+        </div>
 
 
-<!--  <div class="front-slider">
+    </div>
+
+    {% endif %}
+    {% endfor %}
+</div> -->
+ -->
+
+ <div class="front-slider">
     {% for text in site.texts %}
     {% if text.page == "frontpage" %}
     <div class="big-header">
@@ -41,7 +56,7 @@ layout: default
 
     {% endif %}
     {% endfor %}
-</div> -->
+</div> 
 <!-- 
 <div class="grid-3 container-fluid narrow-container border-seperated-list">
     <div class="border-right">
@@ -61,7 +76,7 @@ layout: default
 </div>
  -->
 
-<div class="container-fluid extra-narrow-container pt-75 pb-75">
+<!-- <div class="container-fluid extra-narrow-container pt-75 pb-75">
     <div class="align-center">
         <h1>Vi er mere end bare uddannelse</h1>
     </div>
@@ -83,9 +98,9 @@ layout: default
                 forum.</p>
         </div>
     </div>
-</div>
+</div> -->
 
-<div class="bg-blue">
+<!-- <div class="bg-blue">
     <div class="container-fluid narrow-container pb-0 pt-100">
         <div class="grid-6 gap-20 r-gap-20 align-center">
             <div class="grid-1 white">
@@ -170,9 +185,9 @@ layout: default
 
         </div>
     </div>
-</div>
+</div> -->
 
-<div
+<!-- <div
     style="background: linear-gradient(rgba(19, 19, 19, 0.6), rgba(19, 19, 19, 0.6)), url('/images/graphic/lights.png'); background-position: center; background-size: cover; background-attachment: fixed;">
 
     <div class="container-fluid extra-narrow-container pb-100 pt-100">
@@ -187,7 +202,7 @@ layout: default
 
     </div>
 
-</div>
+</div> -->
 
 
 <div>
@@ -330,6 +345,7 @@ layout: default
                     <p>{{ price }}</p>
 
                     {% endfor %}
+                    
 
 
 
@@ -344,6 +360,7 @@ layout: default
                     {% endfor %}
                     {% endfor %}
                     {% endcapture %}
+
                     {% assign allplacesplit = allplaces | split: "." %}
                     {% for place in allplacesplit limit: 1 %}
                     <p><b>Sted: {{ place }}</b></p>
