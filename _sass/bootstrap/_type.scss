@@ -167,7 +167,9 @@ mark,
   }
 }
 
-
+.m-large {
+  font-size: $font-size-ml;  
+}
 
 .xlarge {
   font-size: $font-size-xlg;
@@ -176,6 +178,11 @@ mark,
 .xxlarge {
   font-size: $font-size-xxlg;
 }
+
+.faded {
+  opacity: .8;
+}
+
 
 .max-500 {
   max-width: 500px;

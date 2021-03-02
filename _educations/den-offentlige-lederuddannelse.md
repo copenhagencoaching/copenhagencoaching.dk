@@ -4,6 +4,7 @@ title: Den offentlige lederuddannelse
 image: "/images/academy/den-offentlige-lederuddannelse.png"
 contact-person: Frederikke Winther
 header: Den offentlige lederuddannelse
+layout: dol
 sub-header: Få ny indsigt - og større udsyn - i dit lederskab
 price: 'Vejledende pris: 7.500 ekskl. moms pr. 5 ECTS'
 pdf: 'false'
