@@ -341,31 +341,21 @@ layout: default
                     {% endfor %}
                     {% endcapture %}
                     {% assign allpricesplit = allprices | split: "|" %}
+
                     {% for price in allpricesplit limit: 1 %}
                     <p>{{ price }}</p>
 
                     {% endfor %}
+
+
+
+
                     
 
-
-
-                    {% capture allplaces %}
-                    {% assign orderposts = site.posts | order: "date" | reverse %}
-                    {% for item in orderposts %}
-
-                    {% for tag in item.tags %}
-                    {% if tag == post.sub-pages %}
-                    {{ item.place }}.
-                    {% endif %}
-                    {% endfor %}
-                    {% endfor %}
-                    {% endcapture %}
-
-                    {% assign allplacesplit = allplaces | split: "." %}
-                    {% for place in allplacesplit limit: 1 %}
-                    <p><b>Sted: {{ place }}</b></p>
-
-                    {% endfor %}
+                   {% if post.place %}
+                    <p><b>Sted:</b> {{ post.place }}</p>
+{% endif %}
+                   
                 </div>
                 <div class="card-footer">
                     {% if post.ready == true %}
