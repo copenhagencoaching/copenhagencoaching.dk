@@ -14,7 +14,7 @@ oe-order: 2
 special: false
 hold_eller_begivenheder: true
 events:
-- overskrift: Torsdag den 27.5 til onsdag den 2.6
+- overskrift: Søndag den 30.5 til søndag den 6.6
 - overskrift: Torsdag den 9.9 til onsdag den 15.9
 redirect_from:
   - /academy/ledelseskursesPåLesbos/
