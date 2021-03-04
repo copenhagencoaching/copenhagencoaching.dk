@@ -17,20 +17,13 @@ events:
 - overskrift: København
   subcategory: true
   subcat:
-  - sub-cat-title: Semester 1 Forår 2021
+  - sub-cat-title: Forår 2021
     datoer:
     - 22. - 23. marts
     - 7. - 8. april
     - 28. - 29. april
     - 10. - 11. maj
-    - 16. - 17. juni (Eksamensdage)
-  - sub-cat-title: Semester 2 Efterår 2021
-    datoer:
-    - 23. - 24. august
-    - 22. - 23. september
-    - 11. - 12. oktober
-    - 8. - 9. november
-    - 7. - 9. december
+    - 16. - 17. juni
   - sub-cat-title: Efterår 2021
     datoer:
     - 1. - 2. september
