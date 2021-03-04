@@ -345,6 +345,10 @@ select {
   text-transform: none; // Remove the inheritance of text transform in Firefox
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
 // Remove the inheritance of word-wrap in Safari.
 //
 // Details at https://github.com/twbs/bootstrap/issues/24990
