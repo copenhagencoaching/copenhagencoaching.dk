@@ -6,7 +6,7 @@ link: true
 week: true
 published: true
 video: /videos/skovvaenget.mp4
-subtitles: /videos/subtitles/captions-skov.da_DK.srt
+subtitles: /videos/subtitles/skov.vtt
 order: 2
 done: true
 links:

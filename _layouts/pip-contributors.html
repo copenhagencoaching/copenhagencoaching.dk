@@ -17,9 +17,10 @@ layout: default
         {% else %}
         <br>{{ page.second-title }}
 {% endif %}
+
 </h2>
 {% if page.video %}
-<video id="video" controls preload="metadata">
+<video id="video" controls="controls" preload="metadata">
     <source src="{{ page.video }}" type="video/mp4">
     <track label="Danish" kind="subtitles" srclang="dk" src="{{ page.subtitles }}" default>
  </video>
