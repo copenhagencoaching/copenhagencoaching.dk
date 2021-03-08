@@ -95,12 +95,16 @@ layout: default
       {% for tag in post.tags %}
 
       {% if tag == page.sub-pages %}
+      {% if post.past %}
+      {% else %}
       <div class="card blue">
 
         <div class="card-body">
           <p class="thin">{{ post.subtitle }}</p>
           <h3 class="card-title thin">{{ post.title }}</h3>
           <p class="card-text">{{ post.description }}</p>
+
+
 
           {% assign postmonth = post.date | date: "%m" %}
 
@@ -154,13 +158,14 @@ layout: default
             <div class="align-right">
               {% if post.place == "Afvikles online - invitation sendes særskilt efter tilmelding" %}
               <p class="m-large"><b>Sted: {{ post.place | truncatewords: 2, '' | remove: "Afvikles " }}</b></p>
-              
+
               {% else %}
               <p class="m-large"><b>Sted: {{ post.place }}</b></p>
               {% endif %}
             </div>
             {% endif %}
           </div>
+
         </div>
         <div class="card-footer">
 
@@ -168,7 +173,7 @@ layout: default
 
         </div>
       </div>
-
+      {% endif %}
       {% endif %}
       {% endfor %}
       {% endfor %}
@@ -177,6 +182,37 @@ layout: default
 
 
     </div>
+    <br>
+    <br>
+    {% if page.past %}
+    <h3>Afholdte arrangementer</h3>
+<br>
+    <div class="grid-2 gap-40 r-gap-40">
+      {% assign orderedPosts = site.tags.event | sort: order %}
+      {% for post in orderedPosts %}
+      {% for tag in post.tags %}
+
+      {% if tag == page.sub-pages %}
+      {% if post.past %}
+      <div class="card blue">
+
+        <div class="card-body">
+          <p class="thin">{{ post.subtitle }}</p>
+          <h3 class="card-title thin">{{ post.title }}</h3>
+          <p>Arrangementet er afholdt</p>
+        </div>
+        <div class="card-footer">
+
+          <a href="{{ post.url }}" class="brown-btn thin white">Læs mere</a>
+
+        </div>
+      </div>
+      {% endif %}
+      {% endif %}
+      {% endfor %}
+      {% endfor %}
+    </div>
+    {% endif %}
   </div>
 
 </div>

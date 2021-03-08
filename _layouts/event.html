@@ -60,6 +60,9 @@ layout: default
 
     <div class="white-box align-content-center align-items-center">
 
+      {% if page.past %}
+      <p>Arrangementet er afholdt</p>
+      {% else %}
       <p><b>Pris:</b> {{ page.price }}{% if page.ex-moms == true %} (ekskl. moms){% endif %}</p>
       <!-- {% for tag in page.tags %}
 {% for post in site.posts %}
@@ -120,7 +123,7 @@ layout: default
       <p><b>Tid:</b> {{ page.date | date: "%d. "}} {{ monthName }}{{ page.date | date: " %Y"}} {{ page.time }}</p>
       {% endif %}
       <p><b>Sted:</b> {{ page.place }}</p>
-
+{% endif %}
     </div>
 
 
@@ -129,6 +132,9 @@ layout: default
 
     {{ page.content }}
 
+    {% if page.past %}
+      
+      {% else %}
     <div class="align-center">
       {% if page.billetto %}
       {% if page.billetto-nr %}
@@ -255,6 +261,7 @@ layout: default
       {% endfor %}
       {% endfor %}
     </div>
+    {% endif %}
   </div>
 </div>
 

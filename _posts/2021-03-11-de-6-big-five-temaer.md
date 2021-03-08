@@ -10,6 +10,7 @@ tags:
 - eventgroup
 ready: true
 order: 2
+past: true
 sub-pages: big-five
 only-month: true
 community: 40% rabat for CCC Community medlemmer

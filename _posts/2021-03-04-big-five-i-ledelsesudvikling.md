@@ -14,6 +14,7 @@ community-discount: 40%
 time: 17.00-20.00
 billetto: true
 billetto-nr: 506108
+past: true
 ---
 
 ### Brug af Big Five i rekruttering og udvikling af ledere

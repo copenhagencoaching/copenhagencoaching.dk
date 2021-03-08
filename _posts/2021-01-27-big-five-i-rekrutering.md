@@ -14,6 +14,7 @@ community-discount: 40%
 billetto: true
 billetto-nr: 506107
 community-price: 570,-
+past: true
 ---
 
 ### Brug af BIG FIVE i rekruttering af projektansatte
