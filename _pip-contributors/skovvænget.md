@@ -5,6 +5,8 @@ second-title: v/ Bo Christoffersen, Irene Koldtoft og Elvira Marie Svarre Vistis
 link: true
 week: true
 published: true
+video: /videos/skovvaenget.mp4
+subtitles: /videos/subtitles/captions-skov.da_DK.srt
 order: 2
 done: true
 links:
@@ -22,6 +24,7 @@ persons:
   - Linkedin
   image: /images/pip/bo-christoffersen.jpg
 ---
+
 ### Protreptikken påvirker alle i rummet, med en helende effekt
 
 Af Bo Christoffersen, Irene Koldtoft og Elvira Marie Svarre Vistisen, Skovvænget, Region Hovedstaden. Den Sociale virksomhed.

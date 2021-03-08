@@ -18,7 +18,14 @@ layout: default
         <br>{{ page.second-title }}
 {% endif %}
 </h2>
+{% if page.video %}
+<video id="video" controls preload="metadata">
+    <source src="{{ page.video }}" type="video/mp4">
+    <track label="Danish" kind="subtitles" srclang="dk" src="{{ page.subtitles }}" default>
+ </video>
+ {% endif %}
     <p>{{ page.content }}</p>
+
 
     {% for person in page.persons %}
     <div class="grid-20-80">
@@ -52,6 +59,7 @@ layout: default
     <p class="thin large capped">Bidragsyder</p>
     {% for person in page.persons %}
     <div class="w-150p h-150 float-left mr-20 mb-10">
+
         <img src="{{ person.image }}" alt="" class="object-fit">
     </div>
    
@@ -77,6 +85,7 @@ layout: default
 <a class="border-button-dark h-auto" target="_blank" href="{{ link.url }}">{{ link.text }}</a>
 <br>
 {% endfor %}
+
 </div>
 {% endif %}
 
