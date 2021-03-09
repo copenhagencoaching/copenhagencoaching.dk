@@ -295,3 +295,11 @@
       }
   }
 }
+
+.teamwork-image {
+  background-image: url('/images/graphic/team-work.png');
+  background-size: cover;
+  @include for-tablet {
+    background: linear-gradient(rgba(19, 19, 19, 0.5), rgba(19, 19, 19, 0.5)), url('/images/graphic/team-work.png');
+  }
+}

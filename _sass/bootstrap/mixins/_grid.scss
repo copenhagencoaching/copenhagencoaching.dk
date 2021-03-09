@@ -93,6 +93,10 @@
   padding: 10px;
 }
 
+.position-absolute {
+  position: absolute;
+}
+
 
 .position-relative {
   position: relative;
@@ -108,4 +112,14 @@
   position: absolute;
   top: -40px;
   right: 20px;
+}
+
+.heavy {
+  font-weight: 700;
+}
+
+.opacity-tablet {
+  @include for-tablet {
+    opacity: .6;
+  }
 }

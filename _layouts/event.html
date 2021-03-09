@@ -79,13 +79,11 @@ layout: default
 {% endfor %} -->
 
       {% if page.community-free == true %}
-      <p><b>GRATIS</b> for medlemmer af CCC Community – <a
-          href="/registration/?n=community-medlemsskab"><b>Tilmeld dig CCC Community her</b></a></p>
+      <p><b>GRATIS</b> for medlemmer af CCC Community</p>
       {% endif %}
 
       {% if page.community-price %}
-      <p><b>{{ page.community-price }}</b> for CCC Community medlemmer – <a
-          href="/registration/?n=community-medlemsskab"><b>Tilmeld dig CCC Community her</b></a></p>
+      <p><b>{{ page.community-price }}</b>{% if page.ex-moms == true %} (ekskl. moms){% endif %} for CCC Community medlemmer</p>
       {% endif %}
 
       {% assign postmonth = page.date | date: "%m" %}
@@ -139,7 +137,6 @@ layout: default
       {% if page.billetto %}
       {% if page.billetto-nr %}
       <br>
-
       <script src="https://billetto.dk/embed.js"></script>
       <style>
         .billetto-btn {
@@ -153,77 +150,22 @@ layout: default
           cursor: pointer;
           user-select: none;
           touch-action: manipulation;
-          padding: 1px 15px;
-          font-size: 16px;
+          padding: 10px 20px;
+          font-size: 20px;
           border-radius: 6px;
           color: #fff;
+          width: 200px;
           background: #c5a88c;
           border-color: #c5a88c;
           text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
           box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
           text-decoration: none;
+          transition: 0.25s ease-in-out; 
         }
 
-        .billetto-btn:hover,
-        .billetto-btn:focus,
-        .billetto-btn:active {
-          text-decoration: none;
-          outline: 0;
-          box-shadow: none;
-        }
-
-        .billetto-btn[disabled] {
-          cursor: not-allowed;
-        }
-
-        .billetto-btn[disabled],
-        .billetto-btn[disabled]:hover,
-        .billetto-btn[disabled]:focus,
-        .billetto-btn[disabled]:active {
-          color: rgba(0, 0, 0, 0.25);
-          background: #f5f5f5;
-          border-color: #d9d9d9;
-          text-shadow: none;
-          box-shadow: none;
-        }
-      </style><a class="billetto-btn"
-        href="https://billetto.dk/e/nar-ledelse-finder-sjaelen-billetter-{{ page.billetto-nr }}/select?color=%23414344&whitelabel=true">Find
-        enkeltbilletter</a>
-
-
-
-      {% endif %}
-      {% else %}
-      <h4>Tilmelding kommer snart...</h4>
-      {% endif %}
-
-      {% for post in site.posts %}
-      {% for tag in page.tags %}
-      {% if tag == post.sub-pages %}
-      {% if post.billetto-group-discount == true %}
-      <br><br>
-      <script src="https://billetto.dk/embed.js"></script>
-      <style>
-        .billetto-btn {
-          line-height: 1.75rem;
-          position: relative;
-          display: inline-block;
-          font-weight: 400;
-          text-align: center;
-          background-image: none;
-          border: 1px solid transparent;
-          cursor: pointer;
-          user-select: none;
-          touch-action: manipulation;
-          padding: 1px 15px;
-          font-size: 16px;
-          border-radius: 6px;
-          color: #fff;
-          background: #c5a88c;
-          border-color: #c5a88c;
-          text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
-          box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
-          text-decoration: none;
+        .billetto-btn:hover {
+          background: #ac9179;
+          border-color: #ac9179;
         }
 
         .billetto-btn:hover,
@@ -253,7 +195,24 @@ layout: default
           border-color: #f0e5d8!important;
           color: #333333 !important;
         }
-      </style><a class="billetto-btn group-ticket"
+      </style>
+      
+    <a class="billetto-btn"
+        href="https://billetto.dk/e/nar-ledelse-finder-sjaelen-billetter-{{ page.billetto-nr }}/select?color=%23414344&whitelabel=true">TILMELD</a>
+
+
+
+      {% endif %}
+      {% else %}
+      <h4>Tilmelding kommer snart...</h4>
+      {% endif %}
+
+      {% for post in site.posts %}
+      {% for tag in page.tags %}
+      {% if tag == post.sub-pages %}
+      {% if post.billetto-group-discount == true %}
+      <br><br>
+      <a class="billetto-btn group-ticket"
         href="https://billetto.dk/e/eksklusiv-seminarraekke-med-kim-gortz-billetter-{{ post.billetto-nr }}/select?color=%23414344">Særtilbud:
         Køb alle fire seminarer for 1500,- ekskl. moms</a>
       {% endif %}
@@ -265,8 +224,47 @@ layout: default
   </div>
 </div>
 
+<div class="grid-2 position-relative">
+  <div class="w-100 position-absolute">
+    <div class="container-fluid narrow-container pt-0 pb-0">
+      <div class="grid-2 gap-90 align-content-center align-items-center h-400">
+        <div>
 
-<div class="container-fluid extra-narrow-container">
+        </div>
+        <div class="grid-1 align-content-center align-items-center white-tablet">
+          {% if page.community-free == true %}
+          
+            {% capture com-mes %}<b class="heavy">gratis</b>{% endcapture %}
+          {% endif %}
+    
+          {% if page.community-price %}
+          {% capture com-mes %}
+          for <b class="heavy">{{ page.community-price }}</b> (ekskl. moms)
+            {% endcapture %}
+          
+         
+          {% endif %}
+          <p class="xlarge thin capped">Bliv medlem af CCC Community og få adgang til {{ page.title }} {{ com-mes }}.</h2>
+
+            <p>Som medlem får du også:</p>
+            <ul>
+              <li>Netværk, inspiration og supervison på min. 3 årlige træningsaftener</li>
+              <li>Min. to faglige arrangementer årligt</li>
+              <li>1 gratis eksemplar af nye CCC-udgivelser</li>
+              <li>12 årlige nyhedsbreve</li>
+              <li>15% rabat på events, eksklusive arrangementer og udvalgte kurser</li>
+            </ul>
+            <a href="/community/" class="border-button-dark ml-0">Tilmeld dig community her</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="h-400 teamwork-image"></div>
+  <div></div>
+</div>
+
+<!-- <div class="container-fluid extra-narrow-container">
 
 
   <div class="align-center">
@@ -284,7 +282,7 @@ layout: default
 
 
 
-</div>
+</div> -->
 
 
 
