@@ -1,6 +1,7 @@
 ---
 title: ONLINE Træningsaftener – KUN for CCC Community medlemmer
 image: /images/graphic/supervisions-aftener.jpg
+under-title: supervisions aftenerne
 description: Din mulighed for at få trænet og styrket din praksis med ligestillede, der enten har afsluttet en uddannelse hos CCC eller som netop er ved det.
 tags:
 - community

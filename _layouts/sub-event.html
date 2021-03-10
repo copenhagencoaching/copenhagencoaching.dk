@@ -171,6 +171,48 @@ layout: default
   </div>
 
 </div>
+<div class="grid-2 position-relative">
+  <div class="w-100 position-absolute">
+    <div class="container-fluid narrow-container pt-0 pb-0">
+      <div class="grid-2 gap-90 align-content-center align-items-center h-400">
+        <div>
+
+        </div>
+        <div class="grid-1 align-content-center align-items-center white-tablet">
+          {% if page.community-free == true %}
+          
+            {% capture com-mes %}<b class="heavy">gratis</b>{% endcapture %}
+          {% endif %}
+    
+          {% if page.community-price %}
+          {% capture com-mes %}
+          for <b class="heavy">{{ page.community-price }}</b> (ekskl. moms)
+            {% endcapture %}
+          
+         
+            
+          {% endif %}
+          
+          <p class="xlarge thin capped">Bliv medlem af CCC Community og få adgang til {{ page.under-title }} {{ com-mes }}.</h2>
+      
+            <p>Som medlem får du også:</p>
+            <ul>
+              <li>Netværk, inspiration og supervison på min. 3 årlige træningsaftener</li>
+              <li>Min. to faglige arrangementer årligt</li>
+              <li>1 gratis eksemplar af nye CCC-udgivelser</li>
+              <li>12 årlige nyhedsbreve</li>
+              <li>15% rabat på events, eksklusive arrangementer og udvalgte kurser</li>
+            </ul>
+            <a href="/community/" class="border-button-dark w-auto ml-0">Tilmeld dig community her</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  
+  <div class="h-400 teamwork-image"></div>
+  <div></div>
+</div>
 <div class="container-fluid narrow-container">
   <h2>Andre CCC arrangementer</h2>
 

@@ -1,6 +1,7 @@
 ---
 title: Dyk ned i de 6 Big Five temaer
 subtitle: Januar
+under-title: Big Five seminarerne
 layout: sub-event
 image: "/images/academy/certificering-i-big-five.png"
 event-type: Seminar
@@ -15,4 +16,6 @@ sub-pages: big-five
 only-month: true
 community: 40% rabat for CCC Community medlemmer
 ex-moms: true
+community-price: 570,-
+price: 950,-
 ---

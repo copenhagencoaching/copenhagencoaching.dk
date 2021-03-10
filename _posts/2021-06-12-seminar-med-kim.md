@@ -1,6 +1,7 @@
 ---
 title: Eksklusiv seminarrække med Kim Gørtz
 layout: sub-event
+under-title: Kims seminarer
 subtitle: Februar
 event-type: Seminar
 image: /images/about/employees/kim-gørtz.jpg
@@ -18,6 +19,7 @@ ex-moms: true
 time: 17.00-20.00
 billetto-group-discount: true
 billetto-nr: 505746
+community-free: true
 ---
 
 ## DEN FILOSOFISKE LEDELSESTERAPI, ANNO 2021
