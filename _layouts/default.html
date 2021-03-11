@@ -297,6 +297,11 @@
         $('.thanks-mes-title').html('Tak for din tilmelding')
         $('.thanks-mes-body').html('Du høre fra os snarrest')
       }
+      if (mes == 'community') {
+        $('#thanks-modal').modal('show')
+        $('.thanks-mes-title').html('Tak for din tilmelding til CCC Community')
+        $('.thanks-mes-body').html('Du vil nu modtage en velkomstmail med din rabat kode. Husk at kigge i din spam indboks, hvis du ikke har modtaget velkomstmailen.')
+      }
       if (mes == 'infomode') {
         $('#nav-10').addClass('active show');
       $('#nav-10-tab').addClass('active show');

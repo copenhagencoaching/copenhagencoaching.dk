@@ -12,20 +12,22 @@
           
         </div>
         <div class="modal-body">
-            <form action="https://formspree.io/f/xpzokkyl" method="POST">
-                <span>
-                <input class="input-form" type="text" placeholder="Fornavn" name="_fname">
-                <input class="input-form" type="text" placeholder="Efternavn" name="_lname">
-                <input class="input-form" type="email" placeholder="Email" name="email">
-                </span>
+            <form action="https://formspree.io/f/xpzokkyl" method="POST" class="white-form">
+                
+                <input class="input-form" type="text" placeholder="Fornavn*" name="_fname" required>
+                <input class="input-form" type="text" placeholder="Efternavn*" name="_lname" required>
+                <input class="input-form" type="email" placeholder="Email*" name="email" required>
+                
+                <input class="input-form" type="text" placeholder="Tlf." name="tlf">
+                <input class="input-form" type="text" placeholder="Virksomhed" name="virksomhed">
                 <textarea class="input-area-form" name="kommentarer" type="textarea" cols="40" rows="10"
                     placeholder="Evt. kommentarer"></textarea>
-                <div class="checkbox">
-                 <p><b>Accept af vores privatlivspolitik</b></p>
-                 <p><input type="checkbox" name="_optin" required/> Jeg accepterer, at mine informationer gemmes og lagres i CCC’s interne GDPR register, og at jeg fremover modtager information på mail omkring CCC Community og andre relevante nyheder. </p>
-                   
-      
-                </div>
+
+                    <label>
+                      <b>Accept af vores privatlivspolitik*</b><br>
+                      <input class="checkbox" type="checkbox" name="_optin" required /> <span class="inline">Jeg accepterer, at mine informationer gemmes og lagres i CCC’s interne GDPR register, og at jeg fremover modtager information på mail omkring CCC Community og andre relevante nyheder.</span>
+                    </label>
+                    <br><br>
                 <button class="green-button" type="submit">Tilmeld</button>
             </form>
         </div>
