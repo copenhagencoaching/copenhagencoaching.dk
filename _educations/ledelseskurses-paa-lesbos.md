@@ -15,7 +15,7 @@ special: false
 hold_eller_begivenheder: true
 events:
 - overskrift: Søndag den 30.5 til søndag den 6.6
-- overskrift: Torsdag den 9.9 til onsdag den 15.9
+- overskrift: Søndag den 12.9 til søndag den 19.9
 redirect_from:
   - /academy/ledelseskursesPåLesbos/
   - /academy/ledelseskursus-på-lesbos/
