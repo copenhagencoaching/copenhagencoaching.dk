@@ -58,6 +58,7 @@ layout: default
         class="fas fa-long-arrow-alt-left"></i> Tilbage til Protreptik som behandlingsform og ledelsesdisciplin</a>
         <br><br>
     <p class="thin large capped">Bidragsyder</p>
+
     {% for person in page.persons %}
     <div class="w-150p h-150 float-left mr-20 mb-10">
 
@@ -68,6 +69,10 @@ layout: default
         <h2>{{ person.name }}</h2>
         <p class="xthin">{{ person.title }}</p>
         <p>{{ person.bio }}</p>
+        {% if page.pdf %}
+        <a class="border-button-dark h-auto ml-0 w-100" target="_blank" href="{{ page.pdf }}">Download gratis uddrag</a>
+        {% endif %}
+        <br>
         {% if page.video %}
         <video id="video" controls preload="metadata">
             <source src="{{ page.video }}" type="video/mp4">
@@ -76,6 +81,7 @@ layout: default
          {% endif %}
     
          <div class="align-justify">
+
   {{ page.content }}
 </div>
 <br>
@@ -90,10 +96,12 @@ layout: default
 </div>
 {% endif %}
 
+
+
 {% if page.signup %}
 <div class="bg-beaver">
     <div class="container-fluid extra-narrow-container pb-75 pt-75 white align-center">
-        <p class="xlarge">Modtag et uddrag af Morten Randløvs kapitel fra vores kommende antologi <b>Protreptik som behandlingsform og ledelsesdisciplin. Skriv dig op til vores nyhedsbrev nedenfor</b></p>
+        <p class="xlarge">Modtag et uddrag af Skovvængets kapitel fra vores kommende antologi <b>Protreptik som behandlingsform og ledelsesdisciplin. Skriv dig op til vores nyhedsbrev nedenfor</b></p>
         <p><b>Antologien udkommer august 2021</b></p>
         <br>
         <a href="/protrptik-som-behandlingsform-og-ledelsesdisciplin/tilmeld-nyhedsbrev-og-modtag-kapitel/" class="border-button h-auto">Tilmeld</a>

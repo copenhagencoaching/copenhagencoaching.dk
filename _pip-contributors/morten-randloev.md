@@ -14,6 +14,7 @@ signup: true
 video: /videos/morten-randloev.mp4
 subtitles: /videos/subtitles/captions.srt
 dato: 15. februar 2021
+pdf: /pdfs/MortenRandløv_CCC_intro02.03.2021.pdf
 order: 1
 persons:
 - name: Morten Randløv
