@@ -7,6 +7,10 @@ link: true
 show-v: true
 done: true
 links:
+- url: https://www.facebook.com/sputnik.skole.stu.kollegie.efteruddannelse
+  text: Facebook
+- url: https://www.linkedin.com/company/sputnik---skole-stu-kollegie-efteruddannelse/
+  text: Linkedin
 - url: https://kursuscentersputnik.dk/
   text: Læs mere om Sputnik
 order: 3
@@ -37,6 +41,8 @@ persons:
   - Linkedin
   image: /images/pip/lene-holmgaard.jpg
 ---
+Sputnik er en social organisation, der giver børn og unge med særlige behov mulighed for læring, trivsel og udvikling. Sputnik har dagbehandlingsskoler, særligt tilrettelagt ungdomsuddannelse, botilbud og kursuscenter. Herudover er Sputnik VISO-leverandør for Socialstyrelsen og rådgiver bl.a. i autisme, ADHD, angst og skolevægring.
+
 Sputniks ledelse reflekterer her over protreptik som en metode til at synliggøre og udvikle den etiske dimension i ledelsen af socialt arbejde. De oplever protreptikken ”som en frisættende dialogisk form, der [kan] genføde en nysgerrighed over for organisationens værdisæt og ledelsesformer og give os mulighed for at undersøge elementer i vores kerneopgave”.
 
  
