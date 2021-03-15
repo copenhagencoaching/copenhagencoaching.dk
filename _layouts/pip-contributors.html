@@ -6,28 +6,40 @@ layout: default
 {% if page.group == true %}
 <div class="container-fluid extra-narrow-container">
     <a href="/protrptik-som-behandlingsform-og-ledelsesdisciplin/" class="thin capped"><i
-        class="fas fa-long-arrow-alt-left"></i> Tilbage til Protreptik som behandlingsform og ledelsesdisciplin</a>
-<br><br>
+            class="fas fa-long-arrow-alt-left"></i> Tilbage til Protreptik som behandlingsform og ledelsesdisciplin</a>
+    <br><br>
     <p class="thin large capped">Bidragsyder</p>
-    
+
     <h2>{{ page.title }}
-    {% if page.show-v %}
-        <br>v. {% for person in page.persons %} {% if forloop.last %}{{ person.name }}{% else %}{{
-        person.name }}, {% endif %}{% endfor %}
+        {% if page.show-v %}
+        <br>v. {% for person in page.persons %}{% if forloop.last %} og {{ person.name }}{% elsif forloop.first %}{{ person.name }}{% else %}, {{
+            person.name }}{% endif %}{% endfor %}
         {% else %}
         <br>{{ page.second-title }}
-{% endif %}
+        {% endif %}
+        
 
-</h2>
-{% if page.video %}
-<video id="video" controls="controls" preload="metadata">
-    <source src="{{ page.video }}" type="video/mp4">
-    <track label="Danish" kind="subtitles" srclang="dk" src="{{ page.subtitles }}" default>
- </video>
- {% endif %}
+    </h2>
+    {% if page.bio %}
+                        <p>{{ page.bio }}</p>
+                        
+                        {% endif %}
+
+                       
+    {% if page.video %}
+    <video id="video" controls="controls" preload="metadata">
+        <source src="{{ page.video }}" type="video/mp4">
+        <track label="Danish" kind="subtitles" srclang="dk" src="{{ page.subtitles }}" default>
+    </video>
+    {% endif %}
+    {% if page.bio-heading %}
+    <h4>{{ page.bio-heading }} {% for person in page.persons %}{% if forloop.last %} og {{ person.name }}{% elsif forloop.first %}{{ person.name }}{% else %}, {{
+        person.name }}{% endif %}{% endfor %}</h4>
+    
+    {% endif %}
     <p>{{ page.content }}</p>
 
-<hr>
+    <hr>
     {% for person in page.persons %}
     <div class="grid-20-80">
         <div>
@@ -36,9 +48,9 @@ layout: default
             </div>
         </div>
         <div class="p-20 pt-0">
-            
+
             <h4>{{ person.name }}</h4>
-            
+
             <p class="xthin">{{ person.title }}</p>
             <p>{{ person.bio }}</p>
         </div>
@@ -47,16 +59,16 @@ layout: default
     {% endfor %}
 
     {% for link in page.links %}
-<a class="border-button-dark h-auto" target="_blank" href="{{ link.url }}">{{ link.text }}</a>
-<br>
-{% endfor %}
+    <a class="border-button-dark h-auto" target="_blank" href="{{ link.url }}">{{ link.text }}</a>
+    <br>
+    {% endfor %}
 </div>
 {% else %}
 
 <div class="container-fluid extra-narrow-container">
     <a href="/protrptik-som-behandlingsform-og-ledelsesdisciplin/" class="thin capped"><i
-        class="fas fa-long-arrow-alt-left"></i> Tilbage til Protreptik som behandlingsform og ledelsesdisciplin</a>
-        <br><br>
+            class="fas fa-long-arrow-alt-left"></i> Tilbage til Protreptik som behandlingsform og ledelsesdisciplin</a>
+    <br><br>
     <p class="thin large capped">Bidragsyder</p>
 
     {% for person in page.persons %}
@@ -64,34 +76,34 @@ layout: default
 
         <img src="{{ person.image }}" alt="" class="object-fit">
     </div>
-   
-    
-        <h2>{{ person.name }}</h2>
-        <p class="xthin">{{ person.title }}</p>
-        <p>{{ person.bio }}</p>
-        {% if page.pdf %}
-        <a class="border-button-dark h-auto ml-0 w-100" target="_blank" href="{{ page.pdf }}">Download gratis uddrag</a>
-        {% endif %}
-        <br>
-        {% if page.video %}
-        <video id="video" controls preload="metadata">
-            <source src="{{ page.video }}" type="video/mp4">
-            <track label="Danish" kind="subtitles" srclang="dk" src="{{ page.subtitles }}" default>
-         </video>
-         {% endif %}
-    
-         <div class="align-justify">
 
-  {{ page.content }}
-</div>
-<br>
+
+    <h2>{{ person.name }}</h2>
+    <p class="xthin">{{ person.title }}</p>
+    <p>{{ person.bio }}</p>
+    {% if page.pdf %}
+    <a class="border-button-dark h-auto ml-0 w-100" target="_blank" href="{{ page.pdf }}">Download gratis uddrag</a>
+    {% endif %}
+    <br>
+    {% if page.video %}
+    <video id="video" controls preload="metadata">
+        <source src="{{ page.video }}" type="video/mp4">
+        <track label="Danish" kind="subtitles" srclang="dk" src="{{ page.subtitles }}" default>
+    </video>
+    {% endif %}
+
+    <div class="align-justify">
+
+        {{ page.content }}
+    </div>
+    <br>
 
 
     {% endfor %}
     {% for link in page.links %}
-<a class="border-button-dark h-auto" target="_blank" href="{{ link.url }}">{{ link.text }}</a>
-<br>
-{% endfor %}
+    <a class="border-button-dark h-auto" target="_blank" href="{{ link.url }}">{{ link.text }}</a>
+    <br>
+    {% endfor %}
 
 </div>
 {% endif %}
@@ -101,10 +113,12 @@ layout: default
 {% if page.signup %}
 <div class="bg-beaver">
     <div class="container-fluid extra-narrow-container pb-75 pt-75 white align-center">
-        <p class="xlarge">Modtag et uddrag af Skovvængets kapitel fra vores kommende antologi <b>Protreptik som behandlingsform og ledelsesdisciplin. Skriv dig op til vores nyhedsbrev nedenfor</b></p>
+        <p class="xlarge">Modtag et uddrag af Skovvængets kapitel fra vores kommende antologi <b>Protreptik som
+                behandlingsform og ledelsesdisciplin. Skriv dig op til vores nyhedsbrev nedenfor</b></p>
         <p><b>Antologien udkommer august 2021</b></p>
         <br>
-        <a href="/protrptik-som-behandlingsform-og-ledelsesdisciplin/tilmeld-nyhedsbrev-og-modtag-kapitel/" class="border-button h-auto">Tilmeld</a>
+        <a href="/protrptik-som-behandlingsform-og-ledelsesdisciplin/tilmeld-nyhedsbrev-og-modtag-kapitel/"
+            class="border-button h-auto">Tilmeld</a>
     </div>
 </div>
 {% endif %}

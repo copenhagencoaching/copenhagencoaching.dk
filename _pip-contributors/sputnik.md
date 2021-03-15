@@ -4,6 +4,8 @@ week: true
 title: Sputnik
 dato: 15. marts 2021
 link: true
+bio-heading: Tredje bidrag v/
+bio: Sputnik er en social organisation, der giver børn og unge med særlige behov mulighed for læring, trivsel og udvikling. Sputnik har dagbehandlingsskoler, særligt tilrettelagt ungdomsuddannelse, botilbud og kursuscenter. Herudover er Sputnik VISO-leverandør for Socialstyrelsen og rådgiver bl.a. i autisme, ADHD, angst og skolevægring.
 show-v: true
 done: true
 links:
@@ -41,9 +43,8 @@ persons:
   - Linkedin
   image: /images/pip/lene-holmgaard.jpg
 ---
-Sputnik er en social organisation, der giver børn og unge med særlige behov mulighed for læring, trivsel og udvikling. Sputnik har dagbehandlingsskoler, særligt tilrettelagt ungdomsuddannelse, botilbud og kursuscenter. Herudover er Sputnik VISO-leverandør for Socialstyrelsen og rådgiver bl.a. i autisme, ADHD, angst og skolevægring.
 
-Sputniks ledelse reflekterer her over protreptik som en metode til at synliggøre og udvikle den etiske dimension i ledelsen af socialt arbejde. De oplever protreptikken ”som en frisættende dialogisk form, der [kan] genføde en nysgerrighed over for organisationens værdisæt og ledelsesformer og give os mulighed for at undersøge elementer i vores kerneopgave”.
+Sputniks ledelse reflekterer i deres kommende kapitel over protreptik som en metode til at synliggøre og udvikle den etiske dimension i ledelsen af socialt arbejde. De oplever protreptikken ”som en frisættende dialogisk form, der [kan] genføde en nysgerrighed over for organisationens værdisæt og ledelsesformer og give os mulighed for at undersøge elementer i vores kerneopgave”.
 
  
 

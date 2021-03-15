@@ -210,8 +210,20 @@ title: Protreptik som behandlingsform og ledelsesdisciplin
 
 
                     <div class="align-justify">
+                        {% if cont.bio %}
+                        <p>{{ cont.bio }}</p>
+                        
+                        {% endif %}
+
+                        {% if cont.bio-heading %}
+                        <h4>{{ cont.bio-heading }} {% for person in cont.persons %}{% if forloop.last %} og {{ person.name }}{% elsif forloop.first %}{{ person.name }}{% else %}, {{
+                            person.name }}{% endif %}{% endfor %}</h4>
+                        
+                        {% endif %}
                         {% if cont.description %}
                         {{ cont.description }}
+
+                    
                         {% else %}
                         {{ cont.excerpt }}{% endif %}</div>
                     
