@@ -17,7 +17,7 @@ persons:
   bio: Uddannet socialpædagog og cand.pæd.pæd.psyk. Efteruddannet i systemisk-narrativ familieterapi og autismespecifik metodeudvikling. VISO-specialist for Socialstyrelsen. Tidligere afdelingsleder i Sputnik. Pt. studerende på CCC’s Master i Business Coaching.
   socials:
   - Linkedin
-  image: /images/pip/bettina-råschou.jpg
+  image: /images/pip/bettina-raaschou.jpg
 - name: Carsten Gylling
   title: Områdechef for Sputnikkollegiet og Sputnik STU.
   bio: Medlem af Sputniks øverste ledelse. Uddannet pædagog og Master i Uddannelsesledelse med speciale fra CCC’s Master of Business Coaching. Efteruddannet i systemisk-narrativ familieterapi .
