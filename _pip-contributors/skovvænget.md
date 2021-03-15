@@ -3,7 +3,7 @@ group: true
 title: Skovvænget, Region Hovedstaden, Den Sociale Virksomhed
 second-title: v/ Bo Christoffersen, Irene Koldtoft og Elvira Marie Svarre Vistisen
 link: true
-week: true
+week: false
 published: true
 video: /videos/skovvaenget.mp4
 subtitles: /videos/subtitles/skov.vtt

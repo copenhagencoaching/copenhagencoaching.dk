@@ -1,10 +1,14 @@
 ---
 group: true
-week: false
+week: true
 title: Sputnik
 dato: 15. marts 2021
 link: true
-done: false
+show-v: true
+done: true
+links:
+- url: https://kursuscentersputnik.dk/
+  text: Læs mere om Sputnik
 order: 3
 published: true
 persons:
@@ -33,4 +37,24 @@ persons:
   - Linkedin
   image: /images/pip/lene-holmgaard.jpg
 ---
-Tekst tekst
+Sputniks ledelse reflekterer her over protreptik som en metode til at synliggøre og udvikle den etiske dimension i ledelsen af socialt arbejde. De oplever protreptikken ”som en frisættende dialogisk form, der [kan] genføde en nysgerrighed over for organisationens værdisæt og ledelsesformer og give os mulighed for at undersøge elementer i vores kerneopgave”.
+
+ 
+
+Hos Sputnik bliver den protreptiske samtale en anledning til at opholde sig lidt længere i eftertænksomheden i arbejdet med psykisk sårbarhed. Således hjælper protreptikken ledere og medarbejdere med at ”holde sig på sporet”. 
+
+ 
+
+Når den sociale sektor er under pres af øget regulering, stigende dokumentationskrav og mindre økonomisk råderum, gør protreptikken det muligt at genbesøge og genforhandle kerneopgaven i overensstemmelse med grundlæggende faglige og menneskelige værdier i det sociale virke.
+
+ 
+
+I Sputnik stilles protreptikken desuden to helt konkrete opgaver: 
+
+ 
+
+At holde tanken og sproget flydende så organisationen forbliver dynamisk og elastisk i sit væsen
+
+ 
+
+At fungere som modgift mod forråelse ved hele tiden at minde om det værdifulde fundament, socialt arbejde bygger på og bygger op mellem mennesker.
