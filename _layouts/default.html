@@ -353,8 +353,8 @@
           card: card,
           billing_details: {
             // Include any additional collected billing details.
-            name: "Jenny Rosen",
-            email: "jenny@rosen.com",
+            name: getElementsByTagName("_fname").value + getElementsByTagName("_lname").value,
+            email: getElementsByTagName("email").value,
           },
         })
         .then(stripePaymentMethodHandler);
@@ -365,12 +365,12 @@
         console.log("Error creating payment method");
       } else {
         // First submission attempt
-        fetch("https://formspree.io/f/FORM_ID", {
+        fetch("https://formspree.io/f/xpzokkyl", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
             _payment_method: result.paymentMethod.id,
-            email: "jenny@rosen.com",
+            email: getElementsByTagName("email").value,
           }),
         }).then(function (response) {
           // Handle server response (see Step 4)
@@ -407,13 +407,13 @@
       } else {
         // The card action has been handled
         // The PaymentIntent can be confirmed again on the server
-        fetch("https://formspree.io/f/FORM_ID", {
+        fetch("https://formspree.io/f/xpzokkyl", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
             _payment_intent: result.paymentIntent.id,
             _resubmit_key: resubmit_key,
-            email: "jenny@rosen.com",
+            email: getElementsByTagName("email").value,
           }),
         })
           .then(function (confirmResult) {
