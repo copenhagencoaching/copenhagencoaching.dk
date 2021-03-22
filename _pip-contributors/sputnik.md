@@ -3,6 +3,8 @@ group: true
 week: true
 title: Sputnik
 dato: 15. marts 2021
+video: /videos/sputnik.mp4
+subtitles: /videos/subtitles/sputnik.vtt
 link: true
 bio-heading: Tredje bidrag v/
 bio: Sputnik er en social organisation, der giver børn og unge med særlige behov mulighed for læring, trivsel og udvikling. Sputnik har dagbehandlingsskoler, særligt tilrettelagt ungdomsuddannelse, botilbud og kursuscenter. Herudover er Sputnik VISO-leverandør for Socialstyrelsen og rådgiver bl.a. i autisme, ADHD, angst og skolevægring.

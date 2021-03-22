@@ -32,6 +32,7 @@ layout: default
         <track label="Danish" kind="subtitles" srclang="dk" src="{{ page.subtitles }}" default>
     </video>
     {% endif %}
+    <br><br>
     {% if page.bio-heading %}
     <h4>{{ page.bio-heading }} {% for person in page.persons %}{% if forloop.last %} og {{ person.name }}{% elsif forloop.first %}{{ person.name }}{% else %}, {{
         person.name }}{% endif %}{% endfor %}</h4>
@@ -91,7 +92,7 @@ layout: default
         <track label="Danish" kind="subtitles" srclang="dk" src="{{ page.subtitles }}" default>
     </video>
     {% endif %}
-
+    <br><br>
     <div class="align-justify">
 
         {{ page.content }}
