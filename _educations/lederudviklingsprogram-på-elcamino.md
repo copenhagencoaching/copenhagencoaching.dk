@@ -11,8 +11,8 @@ description: >-
 price: '29.500 ekskl. MOMS (heri er inkluderet fuld forplejning, materialer og rejse) '
 pdf: /pdfs/lederudvikling-på-caminoen.pdf
 event-title: Kommende rejser
-dates:
-  - start: Forår 2020 (specifikke datoer følger snarest)
+events:
+- overskrift: Vi har desværre ingen aktuelle datoer at tilbyde dig lige nu. Kontakt os meget gerne for mere information på info@copenhagencoaching.dk
 special: true
 ---
 

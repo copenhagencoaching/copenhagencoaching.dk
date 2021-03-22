@@ -5,22 +5,13 @@ header: "TEAM: At coache, lede og deltage kvalificeret i et team"
 price: 11.900 kr ex moms
 image: /images/academy/team.png
 pdf: ''
-extern-event: INTET over TEAMET
-extern-event-text: 'Vil du opdateres på seneste nye viden omkring teams, samarbejde og hvilke forudsætninger, der skal være til stede for at et team fungerer og præsterer optimalt? Så meld dig til vores næste gå-hjem-møde.'
 location: Blegdamsvej 104C, 3., baghuset th., 2100 København Ø
 special: false
 event-title: Kommende hold
 hold_eller_begivenheder: true
-contact-person: Morten Bertelsen
+contact-person: Mette Mejlhede
 events:
-- overskrift: Hold 3 - 2021
-  dato:
-  - 13. - 14. Januar
-  - 16. Februar
-- overskrift: Hold 4 - 2021
-  dato:
-  - 3. - 4. Februar
-  - 2. Marts
+- overskrift: Vi har desværre ingen aktuelle datoer at tilbyde dig lige nu. Kontakt os meget gerne for mere information på info@copenhagencoaching.dk
 ---
 
 ### Hvordan skaber man velfungerende teams, der også præsterer?

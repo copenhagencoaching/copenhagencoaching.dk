@@ -14,13 +14,7 @@ special: false
 hold_eller_begivenheder: true
 classes: big-five
 events:
-- overskrift: Online Big Five Feb 2021
-  dato:
-  - 2. februar
-  - 8. februar
-  - 23. februar
-  - 1. marts
-  - 3. marts
+- overskrift: Vi har desværre ingen aktuelle datoer at tilbyde dig lige nu. Kontakt os meget gerne for mere information på info@copenhagencoaching.dk
 ---
 **Du kan trygt melde dig til vores næste hold. Vi følger situationen og de løbende retningslinjer nøje for at undgå spredningen af covid-19.**
 

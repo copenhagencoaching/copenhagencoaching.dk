@@ -17,9 +17,9 @@ community: Gratis for CCC Community medlemmer
 only-month: true
 ex-moms: true
 time: 17.00-20.00
-billetto-group-discount: true
 billetto-nr: 505746
 community-free: true
+past: true
 ---
 
 ## DEN FILOSOFISKE LEDELSESTERAPI, ANNO 2021

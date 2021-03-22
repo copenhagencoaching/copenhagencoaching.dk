@@ -12,28 +12,7 @@ location: Bautahøj Kursuscenter, Bautahøjvej 39, 3630 Jægerspris
 special: false
 hold_eller_begivenheder: true
 events:
-- subcategory: true
-  subcat:
-  - sub-cat-title: Internat 31.8-1.9 (Lærere og ledere)
-    datoer:
-    - 31. august
-    - 1. september
-  - sub-cat-title: Internat 3-4.12 (Lærere og ledere)
-    datoer:
-    - 3. december
-    - 4. december
-  overskrift: Bautahøj Kursuscenter
-- overskrift: Greve Gymnasium
-  subcategory: true
-  subcat:
-  - sub-cat-title: Eksternat 28-29.10 (Lærergruppen)
-    datoer:
-    - 28. oktober
-    - 29. oktober
-  - sub-cat-title: Eksternat 4-5.11 (Ledergruppen)
-    datoer:
-    - 4. novbember
-    - 5. november
+- overskrift: Vi har desværre ingen aktuelle datoer at tilbyde dig lige nu. Kontakt os meget gerne for mere information på info@copenhagencoaching.dk
 ---
 
 ### Baggrund

@@ -15,6 +15,7 @@ price: 450,-
 ex-moms: true
 billetto: true
 billetto-nr: 504685
+past: true
 ---
 
 #### Seminar 1: Når ledelse finder sjælen (med Aristoteles som inspiration)

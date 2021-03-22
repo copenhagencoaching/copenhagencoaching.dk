@@ -12,20 +12,6 @@ oe-order: 5
 special: false
 hold_eller_begivenheder: true
 events:
-- overskrift: Ledelse og filosofi 2021
-  dato:
-  - 14. januar
-  - 21. januar
-  - 28. januar
-  - 3. februar
-  - 9. februar
-- overskrift: Ledelse af forandring og udviklingsprocesser 2021
-  dato:
-  - 11. marts
-  - 18. marts
-  - 25. marts
-  - 31. marts
-  - 8. april
 - overskrift: Projektledelse 2021
   dato:
   - Efterår 2021 - datoer kommer snarest

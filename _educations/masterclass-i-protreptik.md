@@ -15,7 +15,7 @@ location: Blegdamsvej 104C, 3. sal, baghuset th., 2100 København Ø
 special: false
 hold_eller_begivenheder: true
 events:
-- overskrift: Der er i øjeblikket ingen startdatoer
+- overskrift: Vi har desværre ingen aktuelle datoer at tilbyde dig lige nu. Kontakt os meget gerne for mere information på info@copenhagencoaching.dk
 redirect_from:
   - /academy/masterclassIProtreptik/
   - /academy/masterclassiprotreptik/
