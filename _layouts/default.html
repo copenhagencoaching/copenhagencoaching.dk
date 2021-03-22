@@ -353,8 +353,8 @@
           card: card,
           billing_details: {
             // Include any additional collected billing details.
-            name: getElementById("f-name").value + getElementById("l-name").value,
-            email: getElementById("input-email").value,
+            name: getElementById("f-name").value() + getElementById("l-name").value(),
+            email: getElementById("input-email").value(),
           },
         })
         .then(stripePaymentMethodHandler);
@@ -370,7 +370,7 @@
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
             _payment_method: result.paymentMethod.id,
-            email: getElementById("input-email").value,
+            email: getElementById("input-email").value(),
           }),
         }).then(function (response) {
           // Handle server response (see Step 4)
@@ -413,7 +413,7 @@
           body: JSON.stringify({
             _payment_intent: result.paymentIntent.id,
             _resubmit_key: resubmit_key,
-            email: getElementById("input-email").value,
+            email: getElementById("input-email").value(),
           }),
         })
           .then(function (confirmResult) {
