@@ -9,6 +9,7 @@ link: true
 bio-heading: Tredje bidrag v/
 bio: Sputnik er en social organisation, der giver børn og unge med særlige behov mulighed for læring, trivsel og udvikling. Sputnik har dagbehandlingsskoler, særligt tilrettelagt ungdomsuddannelse, botilbud og kursuscenter. Herudover er Sputnik VISO-leverandør for Socialstyrelsen og rådgiver bl.a. i autisme, ADHD, angst og skolevægring.
 show-v: true
+sign-up: true
 done: true
 links:
 - url: https://www.facebook.com/sputnik.skole.stu.kollegie.efteruddannelse
