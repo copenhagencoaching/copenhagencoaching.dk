@@ -32,8 +32,9 @@ layout: default
         <source src="{{ page.video }}" type="video/mp4">
         <track label="Danish" kind="subtitles" srclang="dk" src="{{ page.subtitles }}" default>
     </video>
-    {% endif %}
     <br><br>
+    {% endif %}
+    
     {% if page.bio-heading %}
     <h4>{{ page.bio-heading }} {% for person in page.persons %}{% if forloop.last %} og {{ person.name }}{% elsif forloop.first %}{{ person.name }}{% else %}, {{
         person.name }}{% endif %}{% endfor %}</h4>
@@ -53,7 +54,9 @@ layout: default
 
             <h4>{{ person.name }}</h4>
 
-            <p class="xthin">{{ person.title }}</p>
+            <p class="xthin mb-0">{{ person.title }}
+                {% if person.linkedin %}<br><a class="large" target="_blank" href="{{ person.linkedin }}"><i class="fab fa-linkedin"></i></a>{% endif %}</p>
+            
             <p>{{ person.bio }}</p>
         </div>
     </div>
@@ -114,14 +117,5 @@ layout: default
 
 
 {% if page.signup %}
-<div class="bg-beaver">
-    <div class="container-fluid extra-narrow-container pb-75 pt-75 white align-center">
-        <p class="xlarge">Modtag et uddrag af Skovvængets kapitel fra vores kommende antologi <b>Protreptik som
-                behandlingsform og ledelsesdisciplin. Skriv dig op til vores nyhedsbrev nedenfor</b></p>
-        <p><b>Antologien udkommer september 2021</b></p>
-        <br>
-        <a href="/protrptik-som-behandlingsform-og-ledelsesdisciplin/tilmeld-nyhedsbrev-og-modtag-kapitel/"
-            class="border-button h-auto">Tilmeld</a>
-    </div>
-</div>
+{% include chapter.html %}
 {% endif %}
