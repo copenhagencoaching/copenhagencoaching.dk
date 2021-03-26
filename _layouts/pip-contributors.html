@@ -18,7 +18,7 @@ layout: default
         {% else %}
         <br>{{ page.second-title }}
         {% endif %}
-        
+      
 
     </h2>
     {% if page.bio %}
@@ -41,7 +41,9 @@ layout: default
     
     {% endif %}
     <p>{{ page.content }}</p>
-
+    {% if page.pdf %}
+    <a class="border-button-dark h-auto ml-auto mr-auto" target="_blank" href="{{ page.pdf }}">Download gratis uddrag</a>
+    {% endif %}
     <hr>
     {% for person in page.persons %}
     <div class="grid-20-80">

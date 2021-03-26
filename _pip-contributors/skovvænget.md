@@ -7,6 +7,7 @@ week: false
 published: true
 video: /videos/skovvaenget.mp4
 subtitles: /videos/subtitles/skov.vtt
+pdf: /pdfs/skovvænget-Bidrag.pdf
 order: 2
 done: true
 links:
