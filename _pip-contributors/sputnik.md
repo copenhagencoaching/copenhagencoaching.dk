@@ -1,6 +1,6 @@
 ---
 group: true
-week: true
+week: false
 title: Sputnik
 dato: 15. marts 2021
 video: /videos/sputnik.mp4

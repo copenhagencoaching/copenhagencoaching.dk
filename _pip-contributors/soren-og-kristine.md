@@ -1,13 +1,13 @@
 ---
 group: true
 title: Ungecenteret, Skanderborgvej, Aarhus kommune
-link: false
+link: true
 order: 4
-week: false
-done: false
+week: true
+done: true
 dato: 29. marts 2021
 published: true
-bio:
+bio: Kristine Küsch Larsen og Søren Skytte Rasmussens bidrag bygger på en en protreptisk/ filosofisk undersøgelse og analyse af værdisammenstød imellem medarbejdere og ledere i en større dansk pædagogisk organisation i en krisetid – i Coronatid. Og dermed også i en tid, hvor der stilles krav om hurtige beslutninger, hvor der skal skabes tryghed, og hvor der er mange følelser på spil. I bidraget stiller forfatterne skarpt på situationer, hvor de selv oplever sig udfordret i deres ledelsespraksis. Situationer, hvor den ønskværdige nysgerrighed til tider erstattes af hurtige domme og forhøjet følelsesberedskab.
 persons:
 - name: Søren Skytte Rasmussens
   title: Leder, Ungecentret, Skanderborgvej, Aarhus Kommune
