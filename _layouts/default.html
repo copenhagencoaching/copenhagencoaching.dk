@@ -321,7 +321,7 @@
   // Stripe
   $(document).ready(function () {
     // Stripe settings
-    var stripe = Stripe("pk_live_51HNEkULP16G7K8GRyMcClY4AYRLCPZxth79GJ6FE2dfApunT8uaNq7H9j8V2CGLMa1NvFXKs8pkiHH97YIt9y5QK00Y4kDJrAp");
+    var stripe = Stripe("pk_test_51HNEkULP16G7K8GRRqlPUImuItaviXYM3hg54DuGRuAihfSAYNMjHCfuI4pWOQO3VZKCblFmzRjjKM1vcGZqhA2000CBtc7Pmm");
     var elements = stripe.elements();
     var style = {
       base: {
@@ -365,7 +365,7 @@
         console.log("Error creating payment method");
       } else {
         // First submission attempt
-        fetch("https://formspree.io/f/xpzokkyl", {
+        fetch("https://formspree.io/f/mbjqjpva", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
@@ -407,7 +407,7 @@
       } else {
         // The card action has been handled
         // The PaymentIntent can be confirmed again on the server
-        fetch("https://formspree.io/f/xpzokkyl", {
+        fetch("https://formspree.io/f/mbjqjpva", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
