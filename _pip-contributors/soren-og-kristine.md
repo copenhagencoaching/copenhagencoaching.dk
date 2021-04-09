@@ -24,7 +24,7 @@ persons:
   linkedin: https://www.linkedin.com/in/kristinekuschlarsen/
   image: /images/pip/kristine.jpeg
 ---
-### I betydningernes fodspor
+### I betydningens fodspor
 
 Kristine Küsch Larsen og Søren Asmussens bidrag bygger på en en protreptisk/ filosofisk undersøgelse og analyse af værdisammenstød imellem medarbejdere og ledere i en større dansk pædagogisk organisation i en krisetid – i Coronatid. Og dermed også i en tid, hvor der stilles krav om hurtige beslutninger, hvor der skal skabes tryghed, og hvor der er mange følelser på spil. I bidraget stiller forfatterne skarpt på situationer, hvor de selv oplever sig udfordret i deres ledelsespraksis. Situationer, hvor den ønskværdige nysgerrighed til tider erstattes af hurtige domme og forhøjet følelsesberedskab. 
 
