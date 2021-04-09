@@ -13,7 +13,7 @@ description: Kristine Küsch Larsen og Søren Asmussens bidrag bygger på en en 
 published: true
 experpt-count: 2
 persons:
-- name: Søren Asmussens
+- name: Søren Asmussen
   title: Leder, Ungecentret, Skanderborgvej, Aarhus Kommune
   bio: Uddannet Pædagog, Master i læreprocesser med specialisering ledelse og organisationspsykologi og Master i Business Coaching fra CCC. Arbejdsfokus på udsatte og anbragte unge i 20 år som leder.
   linkedin: https://www.linkedin.com/in/skytteasmussen/

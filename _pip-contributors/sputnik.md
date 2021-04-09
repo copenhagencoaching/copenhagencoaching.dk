@@ -3,6 +3,7 @@ group: true
 week: false
 title: Sputnik
 dato: 15. marts 2021
+pdf: /pdfs/Sputnik-uddrag-26-03-2021.pdf
 video: /videos/sputnik.mp4
 subtitles: /videos/subtitles/sputnik.vtt
 link: true
