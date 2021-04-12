@@ -7,6 +7,7 @@ week: true
 done: true
 published: true
 dato: 12. april 2021
+signup: true
 links:
 - url: https://www.linkedin.com/in/jack-kure-købke-bbb3022/
   text: Besøg Jacks linkedin profil
@@ -31,7 +32,12 @@ Jack mener, at det blandt andet skyldes, at protreptikken lader klienterne tale 
 
 Derfor anbefaler Jack Købke også, at protreptikken i langt højere grad inddrages i arbejdet med psykisk sårbare og udsatte, for eksempel af kommuners frontpersonale. Den kan, ifølge ham, nemlig meget mere og andet end at stimulere værdibaseret og personlig udvikling blandt ledere i erhvervslivet.
 
+### Om Jack Købke
+
 Jack har erfaring som foredragsholder, underviser, individuel- samt gruppeterapeut. Supervisor samt ledelse på både taktisk, operationelt og strategisk niveau. Jeg har tilegnet mig min viden om afhængighed gennem praktisk erfaring, samt en del kurser i Danmark og forskellige stater i USA.
 
 Specialties: Afhængighedens biologiske, psykologiske og sociale faktorer. Kriminalitetsbehandling. Ressourceskabende interventioner fra individ til organisation. Ledelse, udvikling & implementering, rammer & struktur. Jack beskæftiger sig med: Foredrag, Undervisning, Psykoterapi, Coaching, Ledelsesmæssig sparring og supervision på taktisk, stratetisk og operationelt niveau."
 
+### Om Kompagniet
+
+Kompagniet er en dagbehandling, som igennem mere end 9 år har stået for målrettet, at hjælpe mennesker til en bedre og stoffri tilværelse. Vores langvarige engagement og unikke evne til at møde mennesket, skaber ideel grobund for personlig vækst. Vi skræddersyer vores forløb, så hvad enten målet er stoffrihed, sanering af sidemisbrug eller hjælp til mestringsstrategier ved psykisk sårbarhed, vil Kompagniet matche brugerens behov.
