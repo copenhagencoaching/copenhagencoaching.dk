@@ -9,7 +9,7 @@
         </button>
       </div>
       <div class="modal-body">
-        <p>Hvis du har spørgsmål omkring uddannelsen, din tilmelding eller andet er du velkommen til at ringe til os på
+        <p>Hvis du har spørgsmål omkring uddannelsen, din tilmelding eller andet er du velkommen til at ringe til Mette Mejlhede på
 
           <a href="tel:24 27 28 71">24 27 28 71</a> – eller sende os en sms om, hvornår det passer dig at blive ringet
           op. Du kan også altid skrive til <a href="mailto:info@copenhagencoaching.dk">info@copenhagencoaching.dk</a>
@@ -18,29 +18,32 @@
           Din ansøgning nedenfor er ikke bindende. Din optagelse vil udover nedenstående oplysninger, også bero på en
           personlig samtale.
 
-          Vi glæder os til at høre fra dig
+          Vi glæder os til at høre fra dig.
         </p>
 
-        <p>Første hold starter den 10. juni 2021
+        <p>Første hold starter den 10. juni 2021.
         </p>
         <br>
         <form class="white-form" action="https://formspree.io/f/mvovyqez" method="POST">
 
 
           <input type="text" name="name" placeholder="Navn*" required>
-          <input type="text" name="email" placeholder="E-mail*" required>
+          <input type="email" name="email" placeholder="E-mail*" required>
           <input type="text" name="adress" placeholder="Adresse*" required>
           <div class="grid-2">
             <input type="text" name="zip-code" placeholder="Postnummer*" required>
             <input type="text" name="town" placeholder="By*">
           </div>
+          <label for="birthday">
+            Fødselsdato:</label>
+          
           <input type="date" name="birthday" placeholder="Fødselsdato*" required>
           <input type="tel" name="mobile" pattern="[0-9]{8}" placeholder="Mobil*" required>
           <input type="text" name="work-phone" pattern="[0-9]{8}" placeholder="Arbejdstelefon">
-          <input type="text" name="virksomhed" placeholder="Virksomhed*" required>
+          <input type="text" name="virksomhed" placeholder="Virksomhed">
           <textarea name="besked" cols="30" rows="10" placeholder="Evt. kommentar"></textarea>
-          <label><b>Uddannelsesmlæssig baggrund:</b><br>
-            <i>Skriv venligst en liste over alle dine formelle uddannelser</i></label>
+          <label><b>Uddannelsesmæssig baggrund:</b><br>
+            <i>Skriv venligst dine formelle uddannelser</i></label>
           <textarea name="uddannelses-baggrund" cols="30" rows="10"></textarea>
 
           <label><b>Relevante kurser og efteruddannelser:</b><br>
@@ -49,19 +52,28 @@
 
           <label><b>Relevant livs- og erhvervserfaring:</b><br>
             <i>Enhver form for arbejde med menneskelig kontakt og ansvar for andre mennesker. f.eks. ledelse, HR,
-              tillidshverv, ansvarlig for lærlinge/elever. Frivilligt socialt arbejde spejderleder, fodboldtræner eller
+              tillidsehverv, ansvarlig for lærlinge/elever. Frivilligt socialt arbejde spejderleder, fodboldtræner eller
               lignende.
             </i></label>
           <textarea name="livs-erhvervserfaring" cols="30" rows="10"></textarea>
-
-          <label><b>Egenterapi og deltagelse i terapigrupper:</b></label>
-          <textarea name="terapi-erfaring" cols="30" rows="10"></textarea>
+          <br>
+          <label>  
+            <input class="checkbox" type="checkbox" name="egen-terapi" required /> <b>Egen-terapi</b> (Sæt kryds, hvis ja)
+          </label>
+          <br><br>
+          <label>  
+            <input class="checkbox" type="checkbox" name="terapigrupper" required /> <b>Terapigrupper</b> (Sæt kryds, hvis ja)
+          </label>
+          <br>
+          <br>
+          
 
           <label><b>Personlig motivation for at søge optagelse:</b></label>
           <textarea name="motivation" cols="30" rows="10"></textarea>
 
           <label><b>Jeg søger optagelse via:</b><br>
           <input class="checkbox" type="radio" id="male" name="kvote" value="§1"> §1 <br><input class="checkbox" type="radio" id="male" name="kvote" value="§2"> §2 <br><input class="checkbox" type="radio" id="male" name="kvote" value="§3"> §3</label>
+          <br><a href="/pfp/adgangskrav/" target="_blank" class="small">Læs om kvoter og adgangskrav her</a>
 <br><br>
   <label><b>Merit:</b><br>
   <input class="checkbox" type="checkbox" name="merit"/>
