@@ -1,12 +1,19 @@
 ---
 title: Jack Købke
 group: false
-link: false
+link: true
 order: 5
-week: false
-done: false
+week: true
+done: true
 published: true
 dato: 12. april 2021
+links:
+- url: https://www.linkedin.com/in/jack-kure-købke-bbb3022/
+  text: Besøg Jacks linkedin profil
+- url: https://www.facebook.com/kompagniet.nu
+  text: Besøg Kompagniets facebook side
+- url: https://kompagniet.nu/
+  text: Læs mere om Kompagniet
 persons:
 - name: Jack Købke
   title: Direktør i Kompagniet & Alkoholrådgivningen
@@ -16,8 +23,15 @@ persons:
   image: /images/pip/jack-købke.jpeg
 ---
 
-Skabelsen af betydningsfulde rum med protreptikken som refleksivt ledelses-greb Morten Randløv er centerchef for ungecentret i Aarhus kommune. I sit bidrag beskriver han, hvordan han benytter protreptikken som en måde at stimulere refleksionen over det væsentlige blandt lederne til gavn for det organisatoriske fællesskab.
+Leder af dagbehandlingstilbuddet Kompagniet, Jack Købke, beskriver i sit bidrag, hvordan protreptikken er gjort til en fuldt integreret del af behandlingsformen i huset, fordi den filosofiske tilgang giver klienterne et langt bredere og dybere eksistentielt perspektiv, end hvad den psykologiske tilgang alene kan i en mere traditionel behandlingstilgang.
 
-Randløv mener, at protreptiske dialoger kan bidrage til øget ’væredygtighed’ i ledelse, fordi de protreptiske spørgsmål kalder lederne ind i ’det betydningsfulde rum’, hvor den personlige vilje, intention, konflikt og reaktion opstår fra. Ved en øget opmærksomhed hos lederne på det individuelt væsentlige øges også opmærksomheden på det fælles meningsfulde. Gennem et par udfoldede eksempler på protreptiske samtaler med ungecenterets ledere om eksempelvis faglighed og ledelse, viser Randløv, hvordan den protreptiske dialogform sætter gang i tankerne på nye og overraskende måder. I stedet for at fiksere og fastholde forståelsen, åbnes og udfordres idéen om det pågældende begreb.
+De protreptiske samtaler gør klienten i stand til at vende sig mod det væsentlige i deres liv og gør det dermed muligt, allerede fra starten af et behandlingsforløb, at tage hul på dialoger med et indhold, som ellers først ville være mulige efter flere måneders stoffrihed.
 
-En central pointe er her, at dialogen ikke slutter med den konkrete samtale, men at refleksionerne arbejder videre i deltagerne efterfølgende, og skaber fornyet opmærksomhed omkring begrebet i hverdagens ledelsespraksis. Randløv’s bidrag viser således, hvordan protreptikken kan bidrage til ledelse af ledere i en subtil og individuel form, hvor refleksioner over væsentlige forhold for den enkelte kan sprede sig som ringe i vandet og stimulere omsorg og opmærksomhed omkring det alment menneskelige og alment væsentlige i og for det organisatoriske fællesskab.
+Jack mener, at det blandt andet skyldes, at protreptikken lader klienterne tale rundt om essentielle temaer og begivenheder på en måde, der tillader, ”at de kun føler det, de kan rumme, uden den direkte konfrontation der kan aktivere følelse af skam, skyld og mindreværd”.
+
+Derfor anbefaler Jack Købke også, at protreptikken i langt højere grad inddrages i arbejdet med psykisk sårbare og udsatte, for eksempel af kommuners frontpersonale. Den kan, ifølge ham, nemlig meget mere og andet end at stimulere værdibaseret og personlig udvikling blandt ledere i erhvervslivet.
+
+Jack har erfaring som foredragsholder, underviser, individuel- samt gruppeterapeut. Supervisor samt ledelse på både taktisk, operationelt og strategisk niveau. Jeg har tilegnet mig min viden om afhængighed gennem praktisk erfaring, samt en del kurser i Danmark og forskellige stater i USA.
+
+Specialties: Afhængighedens biologiske, psykologiske og sociale faktorer. Kriminalitetsbehandling. Ressourceskabende interventioner fra individ til organisation. Ledelse, udvikling & implementering, rammer & struktur. Jack beskæftiger sig med: Foredrag, Undervisning, Psykoterapi, Coaching, Ledelsesmæssig sparring og supervision på taktisk, stratetisk og operationelt niveau."
+

@@ -94,14 +94,16 @@ layout: default
     {% if page.pdf %}
     <a class="border-button-dark h-auto ml-0 w-100" target="_blank" href="{{ page.pdf }}">Download gratis uddrag</a>
     {% endif %}
-    <br>
+    
     {% if page.video %}
+    <br>
     <video id="video" controls preload="metadata">
         <source src="{{ page.video }}" type="video/mp4">
         <track label="Danish" kind="subtitles" srclang="dk" src="{{ page.subtitles }}" default>
     </video>
-    {% endif %}
     <br><br>
+    {% endif %}
+    
     <div class="align-justify">
 
         {{ page.content }}
