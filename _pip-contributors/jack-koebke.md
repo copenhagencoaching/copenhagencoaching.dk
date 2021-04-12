@@ -18,13 +18,11 @@ links:
 persons:
 - name: Jack Købke
   title: Direktør i Kompagniet & Alkoholrådgivningen
-  bio: Jack har igennem de sidste 20 år arbejdet med afhængighed i forskellige kontekster. I store linjer kan nævnes ungebehandling i døgnregi, ledelse af dagbehandling, faglig leder i kommunalt regi, samt ledelse af behandlingsafdeling i lukket fængsel. De sidste 7 år som selvstændig med facilitering af den øverste ledelse i en lille koncern inden for samme branche.
+  bio: Leder af dagbehandlingstilbuddet Kompagniet, Jack Købke, beskriver i sit bidrag, hvordan protreptikken er gjort til en fuldt integreret del af behandlingsformen i huset, fordi den filosofiske tilgang giver klienterne et langt bredere og dybere eksistentielt perspektiv, end hvad den psykologiske tilgang alene kan i en mere traditionel behandlingstilgang.
   socials:
   - Linkedin
   image: /images/pip/jack-købke.jpeg
 ---
-
-Leder af dagbehandlingstilbuddet Kompagniet, Jack Købke, beskriver i sit bidrag, hvordan protreptikken er gjort til en fuldt integreret del af behandlingsformen i huset, fordi den filosofiske tilgang giver klienterne et langt bredere og dybere eksistentielt perspektiv, end hvad den psykologiske tilgang alene kan i en mere traditionel behandlingstilgang.
 
 De protreptiske samtaler gør klienten i stand til at vende sig mod det væsentlige i deres liv og gør det dermed muligt, allerede fra starten af et behandlingsforløb, at tage hul på dialoger med et indhold, som ellers først ville være mulige efter flere måneders stoffrihed.
 
@@ -33,6 +31,8 @@ Jack mener, at det blandt andet skyldes, at protreptikken lader klienterne tale 
 Derfor anbefaler Jack Købke også, at protreptikken i langt højere grad inddrages i arbejdet med psykisk sårbare og udsatte, for eksempel af kommuners frontpersonale. Den kan, ifølge ham, nemlig meget mere og andet end at stimulere værdibaseret og personlig udvikling blandt ledere i erhvervslivet.
 
 ### Om Jack Købke
+
+Jack har igennem de sidste 20 år arbejdet med afhængighed i forskellige kontekster. I store linjer kan nævnes ungebehandling i døgnregi, ledelse af dagbehandling, faglig leder i kommunalt regi, samt ledelse af behandlingsafdeling i lukket fængsel. De sidste 7 år som selvstændig med facilitering af den øverste ledelse i en lille koncern inden for samme branche.
 
 Jack har erfaring som foredragsholder, underviser, individuel- samt gruppeterapeut. Supervisor samt ledelse på både taktisk, operationelt og strategisk niveau. Jeg har tilegnet mig min viden om afhængighed gennem praktisk erfaring, samt en del kurser i Danmark og forskellige stater i USA.
 
