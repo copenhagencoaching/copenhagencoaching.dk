@@ -11,16 +11,16 @@ layout: default
       <input class="input-form" id="l-name" type="text" placeholder="Efternavn*" name="_lname" required>
       <input class="input-form" id="input-email" type="email" placeholder="Email*" name="email" required>
 
-      <input class="input-form" type="text" placeholder="Tlf." name="tlf">
-      <input class="input-form" type="text" placeholder="Virksomhed" name="virksomhed">
-      <textarea class="input-area-form" name="kommentarer" type="textarea" cols="40" rows="10"
+      <input class="input-form" id="phone" type="text" placeholder="Tlf." name="tlf">
+      <input class="input-form" id="company" type="text" placeholder="Virksomhed" name="virksomhed">
+      <textarea class="input-area-form" id="comments" name="kommentarer" type="textarea" cols="40" rows="10"
         placeholder="Evt. kommentarer"></textarea>
 <div id="card-element"></div>
       <div id="card-errors" role="alert"></div> 
 
       <label>
         <b>Accept af vores privatlivspolitik*</b><br>
-        <input class="checkbox" type="checkbox" name="_optin" required /> <span class="inline">Jeg accepterer, at
+        <input class="checkbox" id="optin" type="checkbox" name="_optin" required /> <span class="inline">Jeg accepterer, at
           mine informationer gemmes og lagres i CCC’s interne GDPR register, og at jeg fremover modtager information
           på mail omkring CCC Community og andre relevante nyheder.</span>
       </label>

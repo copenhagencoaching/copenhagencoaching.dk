@@ -371,6 +371,12 @@
           body: JSON.stringify({
             _payment_method: result.paymentMethod.id,
             email: document.getElementById("input-email").value,
+            _fname: document.getElementById("f-name").value,
+            _lname: document.getElementById("l-name").value,
+            company: document.getElementById("company").value,
+            phone: document.getElementById("phone").value,
+            comments: document.getElementById("comments").value,
+            _optin: document.getElementById("optin").value,
           }),
         }).then(function (response) {
           // Handle server response (see Step 4)
