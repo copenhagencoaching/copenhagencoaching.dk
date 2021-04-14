@@ -1,9 +1,10 @@
 ---
-title: Kom til foredrag
-under-title: foredragene
+title: Eksklusive foredragsaftener
+under-title: Foredrag
 layout: sub-event
-description: Kom til foredrag hos CCC. Mere info kommer snarest.
+description: En aften i dialog mellem ledende overlæge, Ph.d., Dr. Med., Morten Ziebell & filosof, Ph.d., seniorkonsulent i CCC, Kim Gørtz; Syntesemodellen set fra hjernens synspunkt med perspektiver på ledelse og samtale-praksis
 sub-pages: foredrag
+manchet: En aften i dialog mellem ledende overlæge, Ph.d., Dr. Med., Morten Ziebell & filosof, Ph.d., seniorkonsulent i CCC, Kim Gørtz
 image: /images/graphic/foredrag.jpg
 tags:
 - community

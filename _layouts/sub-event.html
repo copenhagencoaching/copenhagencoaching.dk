@@ -14,7 +14,8 @@ layout: default
         <h1 class="h1-l">{{ page.title }}</h1>
 
 
-        <p class="thin large">{{ page.description }}</p>
+        {% if page.manchet %}<p class="thin large">{{ page.manchet }}</p>{% else %}
+        <p class="thin large">{{ page.description }}</p>{% endif %}
       </div>
     </div>
   </div>
@@ -290,6 +291,7 @@ layout: default
           </div>
         </div>
         <h3 class="card-title thin">{{ post.title }}</h3>
+        
         <p class="card-text">{{ post.description }}</p>
         {% capture alltime %}
         {% assign orderposts = site.posts | order: "date" | reverse %}

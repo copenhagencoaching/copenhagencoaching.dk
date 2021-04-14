@@ -10,9 +10,9 @@ tags:
 - foredrag
 layout: event
 only-month: false
-price: Kommer snart
-ex-moms: false
-community-free: false
+price: 950,-
+ex-moms: true
+community-free: true
 place: Blegdamsvej 104 A, 2100 København Ø
 time: 17.00-20.00
 ---
