@@ -11,11 +11,14 @@ tags:
 layout: event
 only-month: false
 price: 950,-
+billetto: true
+billetto-nr: 524607
 ex-moms: true
 community-free: true
 place: Blegdamsvej 104 A, 2100 København Ø
 time: 17.00-20.00
 ---
+
 
 *En aften i dialog mellem ledende overlæge, Ph.d., Dr. Med., Morten Ziebell & filosof, Ph.d., seniorkonsulent i CCC, Kim Gørtz*
 
