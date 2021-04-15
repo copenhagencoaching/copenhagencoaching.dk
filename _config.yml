@@ -36,6 +36,8 @@ collections:
   posts:
     output: true
     permalink: /inspiration/:title/
+  advisory-board:
+    output: false
   employees:
     output: true
     permalink: /employees/:title/
