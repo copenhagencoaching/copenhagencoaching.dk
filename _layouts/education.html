@@ -177,8 +177,68 @@ layout: default
         {% endif %}
         </span>
         <br>
+        {% if page.emails %}
+        <div class="modal fade black" id="{{ page.title | remove: " " }}-modal" tabindex="-1" role="dialog" aria-labelledby="pfp-c-modal" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-lg black" role="document">
+            <div class="modal-content black">
+              <div class="modal-header">
+                 
+                <h2 class="modal-title" id="pfp-modal">Tilmeld dig {{ page.title }}</h2>
+                <button type="button" class="close close-modal-button" data-dismiss="modal" aria-label="Close">
+                  <span>&times;</span>
+                </button>
+              </div>
+              
+              <div class="modal-body">
+                <form
+                action="https://formspree.io/f/mjvpqjbq" class="full-width round"
+                method="POST"
+              >
+              <span>
+              
+                 
+                
+                <input type="text" name="_fname" placeholder="Fornavn*" required/>
+                <input type="hidden" name="emails" value="{% for email in page.emails %}{% if forloop.last %}{{ email }}{% else %}{{ email }},{% endif %}{% endfor %}"/>
+                <input type="hidden" name="uddannelse" value="{{ page.title }}"/>
+                <input type="text" name="_lname" placeholder="Efternavn*" required/>
+                <input type="email" name="email" placeholder="Email*" required>
+                <input type="tel" name="mobil" pattern="[0-9]{8}" placeholder="Mobil*" required>
+                <input type="text" name="virksomhed" placeholder="Virksomhed"/>
+                <input type="text" name="EAN" placeholder="EAN*" required/>
+                <input type="text" name="fakturaadresse" placeholder="Faktura adresse" required/>
+                <div class="grid-2">
+                  <input type="text" name="postnummer" placeholder="Postnummer*" required>
+                  <input type="text" name="by" placeholder="By*" required>
+                </div>
+                <input type="text" name="cvr" placeholder="CVR*" required/>
+                  
+              </span>
+              
+                  <textarea name="besked" cols="30" rows="10" placeholder="Evt. kommentarer"></textarea>
+              <br><br>
+                  <label class="white"> 
+                    <b>Nyhedsbrev</b><br>
+                    <input class="checkbox" type="checkbox" name="_optin"/> Ja tak, jeg vil gerne modtage CCC's nyhedsbrev
+                  </label><br><br>
+                  <label class="white">
+                    <b>Samtykkeerklæring*</b><br>
+                    <input class="checkbox" type="checkbox" name="samtykke" required /> <span class="small inline white">Jeg giver samtykke til, at CCC må bruge
+                    mine oplysninger til at behandle min tilmleding. Derudover giver jeg samtykke til, at CCC opbevarer og
+                    behandler mine persondata som er beskrevet i CCC's privatlivspolitik.</span>
+                  </label>
+                <!-- your other form fields go here -->
+                <button class="green-button w-100 capped" type="submit">Tilmeld</button>
+              </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <a class="reg-link" href="#" data-toggle="modal" data-target="#{{ page.title | remove: " " }}-modal">Tilmeld dig her</a>
+        {% else %}
         <a class="reg-link" href="/registration/{{ reg-url }}">Tilmeld dig her</a>
-      
+      {% endif %}
         {% if page.pdf %}
         {% if page.pdf != "" %}
         <a data-proofer-ignore target="_blank" alt="pdf {{ page.title }}"

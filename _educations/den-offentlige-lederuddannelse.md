@@ -9,6 +9,8 @@ price: 'Vejledende pris: 7.500 ekskl. moms pr. 5 ECTS'
 pdf: 'false'
 event-title: Vi starter løbende hold op - ring og hør nærmere
 oe-order: 5
+emails:
+- ln@copenhagencoaching.dk
 special: false
 hold_eller_begivenheder: true
 events:
