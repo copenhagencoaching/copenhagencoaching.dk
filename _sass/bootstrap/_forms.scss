@@ -390,6 +390,16 @@ textarea.form-control {
   }
 }
 
+// Stripe / foprmspree
+
+#stripe-success-message {
+  display: none;
+  min-height: 500px;
+  &.show {
+    display: block;
+  }
+}
+
 // Jotform
 
 .formFooter, .formFooter-wrapper {
