@@ -5,6 +5,8 @@ link: true
 order: 5
 week: true
 done: true
+video: /videos/jack-kobke.mp4
+subtitles: /videos/subtitles/captions-jack.da_DK.vtt
 published: true
 dato: 12. april 2021
 signup: true
