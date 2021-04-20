@@ -217,10 +217,10 @@ layout: default
                       
                          
                         
-                        <input type="text" name="_fname" placeholder="Fornavn*" required/>
+                        <input type="text" name="FNAME" placeholder="Fornavn*" required/>
                         <input type="hidden" name="emails" value="{% for email in page.emails %}{% if forloop.last %}{{ email }}{% else %}{{ email }},{% endif %}{% endfor %}"/>
                         <input type="hidden" name="uddannelse" value="{{ page.title }}"/>
-                        <input type="text" name="_lname" placeholder="Efternavn*" required/>
+                        <input type="text" name="FNAME" placeholder="Efternavn*" required/>
                         <input type="email" name="email" placeholder="Email*" required>
                         <input type="tel" name="mobil" pattern="[0-9]{8}" placeholder="Mobil*" required>
                         <input type="text" name="virksomhed" placeholder="Virksomhed"/>
