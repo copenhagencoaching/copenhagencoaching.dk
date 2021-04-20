@@ -20,12 +20,19 @@
       
         <form action="https://formspree.io/f/xpzokkyl" method="POST" class="white-form" >
 
-          <input class="input-form" type="text" placeholder="Fornavn*" name="_fname" required>
-          <input class="input-form" type="text" placeholder="Efternavn*" name="_lname" required>
+          <input class="input-form" type="text" placeholder="Fornavn*" name="FNAME" required>
+          <input class="input-form" type="text" placeholder="Efternavn*" name="LNAME" required>
           <input class="input-form" type="email" placeholder="Email*" name="email" required>
 
           <input class="input-form" type="text" placeholder="Tlf." name="tlf">
-          <input class="input-form" type="text" placeholder="Virksomhed" name="virksomhed">
+          <input class="input-form" type="text" name="virksomhed" placeholder="Virksomhed">
+          <input class="input-form" type="text" name="cvr" placeholder="CVR nummer">
+          <input class="input-form" type="text" name="ean" placeholder="EAN">
+          <input class="input-form" type="text" name="adress" placeholder="Fakturerings adresse">
+          <div class="grid-2">
+            <input type="text" name="zip-code" placeholder="Postnummer">
+            <input type="text" name="town" placeholder="By">
+          </div>
           <textarea class="input-area-form" name="kommentarer" type="textarea" cols="40" rows="10"
             placeholder="Evt. kommentarer"></textarea>
 

@@ -16,6 +16,6 @@ sub-pages: big-five
 only-month: true
 community: 40% rabat for CCC Community medlemmer
 ex-moms: true
-community-price: 570,-
-price: 950,-
+community-price: 270,-
+price: 450,-
 ---

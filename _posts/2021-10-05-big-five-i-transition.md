@@ -5,7 +5,7 @@ subtitle: seminar
 tags:
 - big-five
 - event
-price: 950,-
+price: 450,-
 ex-moms: true
 image: /images/events/big-five-event-2.jpg
 time: 17.00-20.00
@@ -14,7 +14,7 @@ community-discount: 40%
 time: 17.00-20.00
 billetto: true
 billetto-nr: 506111
-community-price: 570,-
+community-price: 270,-
 ---
 
 ### Jobprofil og kompetenceramme som grundlag for personlighedstestning
