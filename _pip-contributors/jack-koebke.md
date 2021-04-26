@@ -3,7 +3,7 @@ title: Jack Købke
 group: false
 link: true
 order: 5
-week: true
+week: false
 done: true
 video: /videos/jack-kobke.mp4
 subtitles: /videos/subtitles/captions-jack.da_DK.vtt
