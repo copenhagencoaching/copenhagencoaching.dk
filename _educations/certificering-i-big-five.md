@@ -8,6 +8,8 @@ description: Bliv certificeret til at bruge markedets bedst underbyggede personl
   og lær at anvende den ved gruppesammensætning, rekruttering og processer.
 price: 19.500,- EKSKL. MOMS / 3 KURSUSDAGE
 event-title: Kommende hold
+hold:
+- BFC-21 Forår - start 28. maj
 location: Al undervisning foregår online på Zoom. 6 online sessioner á 2-4 timers varighed.
 special: false
 hold_eller_begivenheder: true

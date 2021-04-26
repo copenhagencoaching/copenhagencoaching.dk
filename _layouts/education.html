@@ -196,8 +196,15 @@ layout: default
               >
               <span>
               
-                 
-                
+                 {% if page.hold %}
+                <select class="input-form udd" name="uddannelse">
+                  <option value="uddannelse">Vælg hold</option>
+                  {% for h in page.hold %}
+                  <option value="{{ h }}">{{ h }}</option>
+                  {% endfor %}
+                  
+              </select>
+              {% endif %}
                 <input type="text" name="FNAME" placeholder="Fornavn*" required/>
                 <input type="hidden" name="emails" value="{% for email in page.emails %}{% if forloop.last %}{{ email }}{% else %}{{ email }},{% endif %}{% endfor %}"/>
                 <input type="hidden" name="uddannelse" value="{{ page.title }}"/>
@@ -225,7 +232,7 @@ layout: default
                     <b>Samtykkeerklæring*</b><br>
                     <input class="checkbox" type="checkbox" name="samtykke" required /> <span class="small inline white">Jeg giver samtykke til, at CCC må bruge
                     mine oplysninger til at behandle min tilmelding. Derudover giver jeg samtykke til, at CCC opbevarer og
-                    behandler mine persondata som er beskrevet i CCC's <a href="/privatlivspolitik/">privatlivspolitik</a>.</span>
+                    behandler mine persondata som er beskrevet i CCC's <a class="inline" href="/privatlivspolitik/">privatlivspolitik</a>.</span>
                   </label>
                 <!-- your other form fields go here -->
                 <button class="green-button w-100 capped" type="submit">Tilmeld</button>

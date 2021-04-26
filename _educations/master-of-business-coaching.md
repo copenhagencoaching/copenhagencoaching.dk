@@ -13,27 +13,33 @@ emails:
 event-title: Kommende hold
 location: Blegdamsvej 104C, 3. sal, baghuset th., 2100 København Ø
 special: false
+hold:
+- MBC34 - 1. semester - Efterår 2021
+- MBC33 - 2. semester - Efterår 2021
+- MBC32 - 3. semester - Efterår 2021
+- MBC31 - 4. semester - Efterår 2021
+- MBC35 - 1. semester - Forår 2022
 hold_eller_begivenheder: true
 oe-order: 1
 events:
 - overskrift: København
   subcategory: true
   subcat:
-  - sub-cat-title: Forår 2021
+  - sub-cat-title: 1. semester - Forår 2021
     datoer:
     - 22. - 23. marts
     - 7. - 8. april
     - 28. - 29. april
     - 10. - 11. maj
     - 16. - 17. juni
-  - sub-cat-title: Efterår 2021
+  - sub-cat-title: 1. semester - Efterår 2021
     datoer:
     - 1. - 2. september
     - 4. - 5. oktober
     - 3. - 4. november
     - 29. - 30. november
     - 14. - 16. december
-  - sub-cat-title: Forår 2022
+  - sub-cat-title: 1. semester - Forår 2022
     datoer:
     - 9. - 10. februar
     - 21. - 22. marts
