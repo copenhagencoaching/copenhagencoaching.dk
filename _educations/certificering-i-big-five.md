@@ -9,7 +9,7 @@ description: Bliv certificeret til at bruge markedets bedst underbyggede personl
 price: 19.500,- EKSKL. MOMS / 3 KURSUSDAGE
 event-title: Kommende hold
 hold:
-- BFC-21 Forår - start 28. maj
+- BFC-21 Forår - start 10. august
 location: Al undervisning foregår online på Zoom. 6 online sessioner á 2-4 timers varighed.
 special: false
 hold_eller_begivenheder: true
@@ -17,7 +17,13 @@ classes: big-five
 emails:
 - fw@copenhagencoaching.dk
 events:
-- overskrift: BFC-21 Forår - start 28. maj
+- overskrift: BFC-21 Forår - start 10. august
+  dato:
+  - 10. august 2021 - 13.00 - 15.00
+  - 16. august 2021 - 13.00 - 15.00
+  - 20. august 2021 - 13.00 - 15.00
+  - 27. august 2021 - 10.00 - 15.00
+  - 3. september 2021 - 10.00 - 15.00
 ---
 
 Bliv klædt på til at bruge markedets bedst underbyggede personlighedstest i rekruttering og ledelses- og medarbejderudviklingssammenhæng.

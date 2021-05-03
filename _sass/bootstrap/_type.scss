@@ -179,6 +179,10 @@ mark,
   font-size: $font-size-xxlg;
 }
 
+.xxxlarge {
+  font-size: $font-size-xxxlg;
+}
+
 .faded {
   opacity: .8;
 }
@@ -320,6 +324,18 @@ mark,
 
 .mr-20 {
   margin-right: 20px;
+} 
+
+.pl-200 {
+  padding-left: 200px;
+} 
+
+.pl-150 {
+  padding-left: 150px;
+} 
+
+.pr-50 {
+  padding-right: 150px;
 } 
 //
 // Lists

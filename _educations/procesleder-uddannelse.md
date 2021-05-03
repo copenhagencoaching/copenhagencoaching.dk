@@ -5,6 +5,8 @@ description: Styrk dine evner til at styre, rumme og kreere processer
 image: "/images/academy/proceslederuddannelse.jpg"
 price: 38.700,- EKSKL. MOMS (heri er inkluderet fuld forplejning, materialer med videre)
 pdf: ''
+hold:
+- PLU26 Efterår 2021 - start 25. oktober
 contact-person: Lars Nyborg
 event-title: Kommende hold
 order: "2"
@@ -14,7 +16,12 @@ emails:
 - ln@copenhagencoaching.dk
 hold_eller_begivenheder: true
 events:
-- overskrift: Vi har desværre ingen aktuelle datoer at tilbyde dig lige nu. Kontakt os meget gerne for mere information på info@copenhagencoaching.dk
+- overskrift: PLU26 Efterår 2021
+  dato:
+  - 25. - 26. oktober 2021
+  - 17. - 19. november 2021
+  - 12. - 13. januar 2022
+  - 8. februar 2022
 redirect_from:
   - /coaching/proceslederuddannelse/
 ---
