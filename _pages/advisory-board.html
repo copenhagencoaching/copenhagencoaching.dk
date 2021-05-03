@@ -17,32 +17,14 @@ image: /images/graphic/water.jpg
 
 <p>På nuværende tidspunkt består vores kompetente og professionelle advisory board af:
 </p>
-<br>
-<div class="grid-2 gap-40 r-gap-40">
-    {% for person in site.advisory-board %}
-    <div class="bg-platinum p-20 position-relative radius-l-100 h-150">
-        <div class="outer-normal-round-image mr-auto ml-auto mb-20 position-left">
-            <img src="{{ person.image }}" alt="" class="normal-round-image">
-           
-        </div>
-        <div class="pl-150 position-relative pr-50">
-            <h4 class="capped">{{ person.title }}</h4>
-            <p class="thin">{{ person.work }}</p>
-            <p class="thin">{{ person.education }}</p>
-            <a data-proofer-ignore href="{{ person.linkedin }}" target="_blank" class="placed-top-right-20"
-                data-proofer-ignore><i class="fab fa-linkedin xxxlarge mt-20"></i></a>
-        </div>
-        
-    </div>
-   {% endfor %}
-</div>
+
 
 
 <div class="grid-4 gap-40 r-gap-40 g-4-2 position-relative mt-50">
     {% for person in site.advisory-board %}
     
         <div>
-<div class="bg-blue white p-20 align-center min-h-400 position-relative">
+<div class="bg-blue white p-20 align-center min-h-450 position-relative">
     <div class="outer-normal-round-image mr-auto ml-auto mb-20">
         <img src="{{ person.image }}" alt="" class="normal-round-image">
        
