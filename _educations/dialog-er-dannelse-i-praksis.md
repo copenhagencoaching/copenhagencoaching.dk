@@ -112,51 +112,63 @@ yderligere.
 ### Undervisere:
 <br>
 
-<div class="grid-1 r-gap-20">
+<div class="grid-2 r-gap-20 gap-40">
 
-        <div class="r-gap-20 visit-card">
-            <div><img class="object-fit small-round-image" src="/images/about/employees/mette-mejlhede.png"
-                    alt="Mette Mejlhede"></div>
+        <div class="r-gap-20 gap-20 visit-card">
+
+         <div>
+        <div class="outer-small-round-image"><img class="small-round-image" src="/images/about/employees/mette-mejlhede.png"
+                    alt="Mette Mejlhede"></div></div>
+
+           
             <div class="grid-1 align-content-center">
                 
                 <h4>Mette Mejlhede</h4><p>
-                Direktør i Copenhagen Coaching Center<br>
+                <b>Direktør i Copenhagen Coaching Center</b><br>
                 Cand.merc HRM Copenhagen Business School<br>
                 Master i Business Coaching, EIA Master Akkrediteret Coach</p>
             </div>
         </div>
 
-        <div class="r-gap-20 visit-card">
-            <div><img class="object-fit small-round-image" src="/images/about/partners/mette-trangbæk.png"
-                    alt="Mette Trangbæk"></div>
+        <div class="r-gap-20 gap-20 visit-card">
+        <div>
+        <div class="outer-small-round-image"><img class="small-round-image" src="/images/about/partners/mette-trangbæk.png"
+                    alt="Mette Trangbæk"></div></div>
+           
             <div class="grid-1 align-content-center">
                 
                 <h4>Mette Trangbæk</h4><p>
-                Rektor ved Greve Gymnasium<br>
+                <b>Rektor ved Greve Gymnasium</b><br>
                 Cand. Mag. i dansk og idræt fra København Universitet<br>
                 Master i Business Coaching fra CCC</p>
             </div>
         </div>
 
-        <div class="r-gap-20 visit-card">
-            <div><img class="object-fit small-round-image" src="/images/about/employees/kim-gørtz-geryscale.png"
-                    alt="Kim Gørtz"></div>
+        <div class="r-gap-20 gap-20 visit-card">
+            <div>
+            <div class="outer-small-round-image"><img class="small-round-image" src="/images/about/employees/kim-gørtz-geryscale.png"
+                    alt="Kim Gørtz"></div></div>
             <div class="grid-1 align-content-center">
                 
                 <h4>Kim Gørtz</h4><p>
+                <b>Seniorkonsulent i Copenhagen Coaching Center</b><br>
                 Cand. Mag i filosofi fra Københavns Universitet, Ph.d<br>
-                Seniorkonsulent i Copenhagen Coaching Center<br>
+                
                 Master i Business Coaching fra CCC</p>
             </div>
         </div>
 
-        <div class="r-gap-20 visit-card">
-            <div><img class="object-fit small-round-image" src="/images/about/partners/steen-beck.png"
-                    alt="Steen Beck"></div>
+        <div class="r-gap-20 gap-20 visit-card">
+
+         <div>
+        <div class="outer-small-round-image"><img class="small-round-image" src="/images/about/partners/steen-beck.png"
+                    alt="Steen Beck"></div></div>
+
+           
             <div class="grid-1 align-content-center">
                 
                 <h4>Steen Beck</h4><p>
-                Mag. Art. i litteraturvidenskab og Lektor<br>
+                <b>Mag. Art. i litteraturvidenskab og Lektor</b><br>
                 Ph.d. ved Institut for Kulturvidenskaber, Syddansk Universitet<br>
                 Har i mange år forsket i didaktik og dannelsesprocesser i gymnasiet</p>
             </div>
