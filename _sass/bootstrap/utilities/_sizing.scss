@@ -19,7 +19,24 @@
 .min-h-300 { min-height: 300px;}
 .min-h-350 { min-height: 350px;}
 .min-h-400 { min-height: 400px;}
-.min-h-450 { min-height: 450px;}
+.min-h-420 { min-height: 420px;}
+.min-h-450 {min-height: 450px;
+@include for-cont {
+  min-height: 530px;
+
+}
+
+@include for-laptop {
+  min-height: 450px;
+  
+}
+}
+.min-h-475 {
+  min-height: 475px;
+  @include for-bot {
+    min-height: 400px;
+  }
+}
 
 .h-150 { min-height: 150px;}
 

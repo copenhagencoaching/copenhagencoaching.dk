@@ -12,7 +12,29 @@ layout: default
 </script>
 
 
+<div class="front-slider">
+    {% for text in site.texts %}
+    {% if text.page == "frontpage" %}
+    <div>
 
+        <div style="background: linear-gradient(rgba(19, 19, 19, 0.6), rgba(19, 19, 19, 0.6)), url('{{ text.image }}'); background-position: center; background-size: cover; background-attachment: fixed;">
+            <div class="extra-narrow-container container-fluid pt-50 h-600 white grid-1 align-content-center align-items-center">
+                <div class="max-500">
+                    <h1 class="h1-l">{{ text.title }}</h1>
+                    <a href="{{ text.link }}" class="large display-inline-block border-button w-100">Se mere</a>
+                </div>
+              
+            </div>
+
+        </div>
+
+
+    </div>
+
+    {% endif %}
+    {% endfor %}
+</div>
+ -->
 
  <div class="front-slider">
     {% for text in site.texts %}
@@ -36,13 +58,151 @@ layout: default
     {% endfor %}
 </div> 
 
+<!-- <div class="grid-3 container-fluid narrow-container border-seperated-list">
+    <div class="border-right">
+        <h2>Academy</h2>
+       <p class="large">CCC tilbyder åbne uddannelser, lederuddannelser og kurser til dig, der
+  ønsker høj faglig kvalitet og virkelighedsnære læreprocesser i samspillet mellem
+  teori og praksis.</p> 
+    </div>
+    <div class="border-right">
+<h2>Consulting</h2>
+<p class="large">For at udvikle sig bæredygtigt har virksomheder, organisationer og mennesker brug for friske øjne og nye perspektiver. CCC har solid erfaring med strategiudvikling i organisationer.</p>
+    </div>
+    <div>
+<h2>Community</h2>
+<p class="large">Et fællesskab for vedvarende læring og udvikling af dit lederskab</p>
+    </div>
+</div> -->
 
 
+<div class="container-fluid extra-narrow-container pt-75 pb-75">
+    <div class="align-center">
+        <h1>Vi er mere end bare uddannelse</h1>
+    </div>
+    <br>
+    <div class="grid-2 gap-40 r-gap-40">
+        <div>
+            <p class="mb-0">CCC er et ledelsesfilosofisk epicenter med fire forretningsområder. Vi tilbyder individuel
+                coaching,
+                ledelsessupervision, lederuddannelser og konsulentopgaver. Vores fokus er dygtiggørelse af medarbejdere
+                og ledere, som ønsker at udvikle deres dialogiske færdigheder, refleksive kompetencer og ledelsesmæssige
+                kapacitet.</p>
+        </div>
+
+        <div>
+            <p class="mb-0">Copenhagen Coaching Center skaber betingelserne og rammen for din personlige og faglige
+                udvikling – du
+                vil opleve en styrket ledelseskapacitet, en klarere indsigt i dit værdigrundlag og et nærvær til dig
+                selv og din omverden. Vi tilbyder dig et kompetenceløft, en ny metodisk praksis og et fagligt stærkt
+                forum.</p>
+        </div>
+    </div>
+</div>
+
+<div class="bg-blue">
+    <div class="container-fluid narrow-container pb-0 pt-100">
+        <div class="grid-6 gap-20 r-gap-20 align-center">
+            <div class="grid-1 white">
+                <div class="pt-20"></div>
+                <div><img src="/images/graphic/master-icon.png" alt="" width="80px"></div>
+                <div class="pt-10 align-center">
+                    <h2>Masteruddannelser</h2>
+                   
+                        
+                </div>
+            </div>
+            <div class="grid-1 white align-center">
+                <div><img src="/images/graphic/leadership-icon.png" alt="" width="100px"></div>
+                <div class="pt-10 align-center">
+                    <h2>Lederskab</h2>
+                   
+                        
+                </div>
+            </div>
+            <div class="grid-1 white align-center">
+                <div class="pt-20"></div>
+                <div><img src="/images/graphic/certified-icon.png" alt="" width="80px"></div>
+                <div class="pt-10 align-center">
+                    <h2>Certificeringer</h2>
+                   
+                        
+                </div>
+            </div>
+            <div class="grid-1 white align-center">
+                <div class="pt-20"></div>
+                <div><img src="/images/graphic/coaching-icon.png" alt="" width="80px"></div>
+                <div class="pt-10 align-center">
+                    <h2>Coaching</h2>
+                   
+                        
+                </div>
+            </div>
+            <div class="grid-1 white align-center">
+                <div><img src="/images/graphic/filosofi-icon.png" alt="" width="100px"></div>
+                <div class="pt-10 align-center">
+                    <h2>Filosofi</h2>
+                   
+                        
+                </div>
+            </div>
+            <div class="grid-1 white align-center">
+                <div class="pt-20"></div>
+                <div><img src="/images/graphic/process-iocon.png" alt="" width="80px"></div>
+                <div class="pt-10 align-center">
+                    <h2>Proces og strategi</h2>
+                   
+                        
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid narrow-container pb-100 pt-100">
+        <div class="grid-2 gap-40 r-gap-40">
+            <div class="grid-1 bg-alabaster">
+                <div class="h-300"><img src="/images/graphic/company.png" alt="" class="object-fit"></div>
+                <div class="p-20">
+                    <h2>Kompetenceudvikling</h2>
+                    <p class="mb-0">Fugiat aute eu irure officia eu sint exercitation fugiat anim ex tempor ea anim exercitation. Ut
+                        anim deserunt cillum consequat dolor qui. Do do cillum qui pariatur sint. Irure in eiusmod
+                        labore aliquip duis adipisicing esse.</p>
+                        <br>
+                        <a href="/" class="border-button-dark ml-0">Læs mere</a>
+                </div>
+            </div>
+            <div class="grid-1 bg-alabaster">
+                <div class="h-300"><img src="/images/graphic/shaking-hands.png" alt="" class="object-fit"></div>
+                <div class="p-20">
+                    <h2>Konsuelentydelser</h2>
+                    <p class="mb-0">Ea in laborum minim cillum laboris aute adipisicing nulla enim duis eu. In enim pariatur
+                        reprehenderit voluptate et dolor do eiusmod voluptate aute commodo ipsum ullamco. Laboris nisi
+                        aliquip occaecat enim eiusmod id et. Labore adipisicing non labore voluptate.</p>
+                        <br>
+                        <a href="/" class="border-button-dark ml-0">Læs mere</a>
+                </div>
+            </div>
 
 
+        </div>
+    </div>
+</div>
 
+<div
+    style="background: linear-gradient(rgba(19, 19, 19, 0.6), rgba(19, 19, 19, 0.6)), url('/images/graphic/lights.png'); background-position: center; background-size: cover; background-attachment: fixed;">
 
+    <div class="container-fluid extra-narrow-container pb-100 pt-100">
+        <div class="grid-2 white">
+            <div>
+                <h1>Vi tilbyder et eksklusivt udvalg af konsulentydelser</h1>
+                <br>
+                <a href="#" class="border-button w-100 large">Se vores konsulentydelser <i
+                        class="fas fa-long-arrow-alt-right"></i></a>
+            </div>
+        </div>
 
+    </div>
+
+</div>
 
 
 <div>

@@ -1,0 +1,169 @@
+---
+layout: default
+---
+
+
+
+<div class="full-banner-xsmall grid-1 align-items-center align-content-center"
+    style="background: linear-gradient(rgba(19, 19, 19, 0.6), rgba(19, 19, 19, 0.6)), url('{{ page.image }}'); background-position: center; background-size: cover;">
+    <div class="container-fluid extra-narrow-container white">
+        <div>
+            {% if page.pre-title %}
+            <p class="thin large capped mb-0">{{ page.pre-title }}</p>
+            {% endif %}
+            <h1>{{ page.title }}</h1>
+        </div>
+
+
+    </div>
+    
+</div>
+
+<div class="container-fluid extra-narrow-container">
+    <a href="/academy/psykologisk-filosofisk-psykoterapi/" class="thin capped"><i
+        class="fas fa-long-arrow-alt-left"></i> Tilbage til Psykologisk filosofisk psykoterapi</a>
+        <br><br>
+        <br>
+    <p>Vi bliver på uddannelsen Psykologisk Filosofisk Psykoterapeut vejledt og støttet af et kompetent Advisory Board, hvis
+        formål er at supplere og supportere med den nødvendige faglige ekspertise og know-how på alle aspekter inden for
+        forskning, teori, praksis, drift, udvikling, evaluering m.v. af vores psykoterapeutuddannelse.</p>
+    
+    <p>
+    
+        Medlemmerne af vores Advisory Board bidrager deres ekspertviden, kompetencer og indsigt på frivillig basis og så
+        længe behovet er tilstede.
+    </p>
+    
+    <p>På nuværende tidspunkt består vores kompetente og professionelle advisory board af:
+    </p>
+</div>
+
+<div class="container-fluid narrow-container no-up no-down">
+   
+    {{ page.content }}
+  
+   
+
+</div>
+
+
+<!-- <div class="bg-platinum-2 mt-50">
+    <div class="container-fluid extra-narrow-container pt-50">
+        <div class="grid-2 gap-40 r-gap-40">
+            <div class="object-fit-full-width">
+                <img class="object-fit" src="/images/pfp/17.png" alt="">
+            </div>
+
+            {% assign kontakt = "Kim Gørtz" %}
+
+
+            <div>
+                <a href="#" class="border-button w-100 capped dark large">Download brouchure</a>
+                <br>
+                <h3>I tvivl om uddannelsen er den rette for dig?</h3>
+                <p>Kontakt Kim nedenfor på <a href="mailto:kgcopenhagencoaching.dk">kg@copenhagencoaching.dk</a></p>
+
+            </div>
+        </div>
+    </div>
+</div>
+ -->
+
+
+{% assign kontakt = "Kim Gørtz" %}
+
+{% for employee in site.employees %}
+{% if employee.title == kontakt %}
+<div class="container-fluid medium-narrow-container pt-100 pb-100">
+
+    <div class="grid-55-5-40 r-gap-40">
+        <div class="bg-blue white p-20 grid-1 r-gap-20">
+
+
+            <div>
+                <p class="large"><b>I tvivl om uddannelsen er den rette for dig?</b> Kontakt Kim nedenfor. Vi glæder os til at besvare dine spørgsmål.</p>
+            </div>
+
+            <div class="grid-fr-120 gap-20 r-gap-20">
+                <div class="align-right a-items-c">
+                    <div>
+                        <b><a href="{{ employee.url }}" class="large" data-proofer-ignore>{{ employee.title }}</a></b>
+                        <br>
+                        <span class="thin"><a href="tel:{{ employee.call }}" data-proofer-ignore>+45 {{ employee.call
+                                }}</a></span> <br>
+                        <span class="thin"><a href="mailto:{{ employee.email }}" data-proofer-ignore>{{ employee.email
+                                }}</a></span>
+                    </div>
+                </div>
+                <div class="outer-small-round-image">
+                    <img class="small-round-image" src="{{ employee.small-portrait-image }}"
+                        alt="{{ employee.title }}, {{ employee.description}}">
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+        <div class="bg-platinum a-items-c align-center p-20 white"
+            style="background: linear-gradient(rgba(19, 19, 19, 0.6), rgba(19, 19, 19, 0.6)), url('/images/graphic/download.png'); background-position: center; background-size: cover;">
+            <h3>Vil du vide mere om uddannelsen?</h3>
+            <br>
+            <div><a class="dust-green-btn" href="/about/">Hent brochure</a></div>
+
+        </div>
+
+    </div>
+</div>
+
+{% endif %}
+{% endfor %}
+
+<div
+    style="background: linear-gradient(rgba(19, 19, 19, 0.6), rgba(19, 19, 19, 0.6)), url('/images/graphic/PSBOL.jpg'); background-attachment: fixed; background-size: cover;">
+    <div class="container-fluid extra-narrow-container pt-100 pb-100 white">
+        <p class="large">Ny antologi på vej</p>
+        <h2>Protreptik som behandlingsform og ledelsesdisciplin</h2>
+        <p class="large thin capped">Udkommer August 2021</p>
+        <br>
+        <a class="copper-red-btn" href="/protrptik-som-behandlingsform-og-ledelsesdisciplin/">Læs mere</a>
+    </div>
+</div>
+
+{% include secments/pfp-tilmelding.html %}
+
+<div class="bg-light-brown">
+    <div class="container-fluid narrow-container normal-top-mobile pt-50">
+        <div class="align-center mb-50">
+            <h3>Interesseret i vores andre uddannelser?</h3>
+        </div>
+
+        <div class="grid-5 slow-grid gap-40 r-gap-40 white">
+
+            {% assign ordered-edus = site.educations | sort: "oe-order" %}
+
+            {% assign educations = ordered-edus | where_exp:"item",
+            "item.url != include.url" %}
+            {% for edu in educations %}
+            {% if edu.title == "Master of Business Coaching" or edu.title == "Ledelseskursus på Lesbos" or edu.title ==
+            "Certificering i Protreptik" or edu.title == "Masterclass i Protreptik" or edu.title == "Den offentlige lederuddannelse" %}
+            <a href="{{ edu.url }}">
+
+                <div class="card no-border h-200 right-bottom"
+                    style="background: linear-gradient(rgba(19, 19, 19, 0.6), rgba(19, 19, 19, 0.6)), url('{{ edu.image }}'); background-position: center; background-size: cover;">
+
+                    <h4 class="capped medium card-title">{{ edu.title }}</h3>
+
+                </div>
+            </a>
+            {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+
+</div>
+
+<br><br>
+{% include secments/newsletter.html %}
+<br><br>

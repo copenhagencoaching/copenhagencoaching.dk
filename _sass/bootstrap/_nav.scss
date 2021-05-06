@@ -119,6 +119,16 @@
     }
   }
 
+  &.blu-brown-pallette {
+    .nav-link {
+      background-color: $black-coral;
+
+      &.active {
+        background-color: $deep-taupe;
+      }
+    }
+  }
+
   .nav-item {
     margin-bottom: -$nav-tabs-border-width;
 
