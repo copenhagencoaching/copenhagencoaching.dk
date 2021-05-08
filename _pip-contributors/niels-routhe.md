@@ -4,6 +4,7 @@ group: false
 link: true
 week: true
 order: 6
+signup: true
 done: true
 dato: 26. april 2021
 published: true

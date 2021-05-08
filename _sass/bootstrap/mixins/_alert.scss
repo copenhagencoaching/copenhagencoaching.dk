@@ -578,11 +578,11 @@ a {
 }
 
 .grid-8 {
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   @include grid;
 
   @include for-laptop {
-    grid-template-columns: 1fr 1fr 1fr 1fr
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
 
   @include for-bot {

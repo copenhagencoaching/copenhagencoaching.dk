@@ -227,6 +227,21 @@
  
 }
 
+.center-table {
+  margin: auto;
+  max-width: 1000px;
+  th {
+    font-weight: 600;
+  }
+  td, th {
+    padding: 10px;
+  }
+}
+
+.border-black {
+  border: 2px solid #5c5c5c;
+} 
+
 // margins
 
 .mb-30 {
