@@ -2,7 +2,7 @@
 title: Niels Jørn Routhe
 group: false
 link: true
-week: true
+week: false
 order: 6
 signup: true
 done: true
