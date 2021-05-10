@@ -15,19 +15,19 @@ persons:
   bio:
   socials:
   - Linkedin
-  image: /images/pip/cecilia.png
+  image: /images/pip/cecilia-maarlev.png
 - name: Freja Holm Pedersen
   title: HR Development Consultant i NNE. Uddannet Cand.merc.(psyk.) fra CBS.
   bio:
   socials:
   - Linkedin
-  image: /images/pip/freja.jpg
+  image: /images/pip/freja-holm-pedersen.jpg
 - name: Michell Mailind
   title: Uddannet Cand.merc. i Erhvervsøkonomi og Psykologi fra Copenhagen Business School i 2019.
   bio:
   socials:
   - Linkedin
-  image: /images/pip/michell.jpg
+  image: /images/pip/michell-mailind.jpg
 ---
 ### Det protreptiske paradoks
 
