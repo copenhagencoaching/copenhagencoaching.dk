@@ -318,7 +318,20 @@ layout: default
             <h2>Anbefalinger</h2>
 
         </div>
-        {% include secments/four-player.html %}
+
+        <div class="h-400">
+            <div class="grid-2">
+                <div>
+                    <video autoplay class="fourplayer-video video">
+                        <source src="/videos/noeddesbo-ccc.mp4" type="video/mp4">
+                        Your browser does not support HTML video.
+                    </video>
+                </div>
+            </div>
+            
+            <button onclick="enableMute()" type="button" class="blue-button">Mute sound</button>
+        </div>
+       <!--  {% include secments/four-player.html %} -->
     </div>
 
     <div class="tab-pane fade" id="nav-5" role="tabpanel" aria-labelledby="nav-5-tab">
@@ -538,3 +551,12 @@ om MBC? Så kontakt Frederikke nedenfor." text-2="Hør om andres erfaringer med 
     {% include secments/events.html container-classes="pt-50 mb-50 mt-50" btn-color="dust-green-btn" %}
 </div>
 <!-- end -->
+
+
+<script>
+var vid = document.getElementsByClassName("fourplayer-video");
+
+function enableMute() { 
+    vid.muted = true;
+}
+</script>
