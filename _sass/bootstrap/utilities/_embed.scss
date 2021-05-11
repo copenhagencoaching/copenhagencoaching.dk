@@ -49,3 +49,18 @@
 .responsive-video {
   height: 500px;
 }
+
+.vidback-video {
+  min-height: 500px;
+
+  @include for-cont {
+    min-height: 400px;
+  }
+  @include for-laptop {
+    min-height: 350px;
+  }
+
+  @include for-tablet {
+    min-height: 300px;
+  }
+}
