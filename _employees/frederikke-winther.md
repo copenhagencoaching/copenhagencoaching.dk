@@ -5,6 +5,10 @@ portrait-image: "/images/about/employees/frederikke-winther.png"
 small-portrait-image: "/images/about/small-images/frederikke-winther.png"
 grey-portrait: /images/about/medarbejdere-sort-hvid/frederikke-winther-sort-hvid.png
 call: 21 19 47 57
+mbc: true
+edu:
+- Ph.d., Cand. Mag i retorik fra Københavns Universitet
+- Master i Business Coaching
 email: fw@copenhagencoaching.dk
 description: Konsulent
 linkedin: https://www.linkedin.com/in/frederikke-winther-206b5450/

@@ -5,7 +5,11 @@ portrait-image: /images/about/employees/kim-gørtz.jpg
 small-portrait-image: /images/about/small-images/kim-gørtz.png
 grey-portrait: /images/about/employees/kim-gørtz.jpg
 call: 24 66 40 78
+mbc: true
 email: kg@copenhagencoaching.dk
+edu:
+- Ph.d., Cand. Mag i filosofi og psykologi fra Københavns Universitet
+- Master i Business Coaching
 description: Seniorkonsulent
 linkedin: https://www.linkedin.com/in/kim-g%C3%B8rtz-sagaro-b51b795a/
 data-id: ''

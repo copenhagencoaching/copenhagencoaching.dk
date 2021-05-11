@@ -280,6 +280,17 @@
   }
 }
 
+.img-hw100 {
+  height: 100px;
+  width: 100px;
+
+  img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+}
+
 
 .white-border {
   border: 4px solid white;

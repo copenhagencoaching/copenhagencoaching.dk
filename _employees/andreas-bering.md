@@ -6,6 +6,10 @@ small-portrait-image: "/images/about/small-images/andreas-bering.png"
 grey-portrait: /images/about/medarbejdere-sort-hvid/andreas-bering-sort-hvid.png
 call: 40 14 92 92
 email: ab@copenhagencoaching.dk
+mbc: true
+edu:
+- Cand. Comm. fra Roskilde Universitet
+- Master i Business Coaching
 description: Direktør og GDPR ansvarlig
 linkedin: https://www.linkedin.com/in/andreas-bering-4a554b5/
 data-id: ''

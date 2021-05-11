@@ -188,6 +188,18 @@ mark,
 }
 
 
+
+
+.max-w-200 {
+  max-width: 200px;
+}
+
+
+.max-w-400 {
+  max-width: 400px;
+}
+
+
 .max-500 {
   max-width: 500px;
 }
@@ -335,9 +347,11 @@ mark,
 } 
 
 .pr-50 {
-  padding-right: 150px;
+  padding-right: 50px;
 } 
-//
+
+
+
 // Lists
 //
 
@@ -384,6 +398,80 @@ mark,
   }
 }
 
+
+
+
+
+.groucho {
+  position: relative;
+  font-family: 'Sanchez', serif;
+  font-size: 2.4em;
+  line-height: 1.5em;;
+  
+  .quote-footer {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 0.6em;
+    font-weight: 700;
+    color: #d6d6d698;
+    float: right;
+
+    
+    &:before {
+      content: '\2015';  
+    }
+  }
+  &:after {
+      content: '\201D';
+      position: absolute;
+      top: 0.28em;
+      right: 20px;
+      font-size: 6em;
+      font-style: italic;
+      color: #d6d6d698;
+      z-index: 10;
+   }
+}
+
+
+.testi {
+  position: relative;
+
+  font-size: 1em;
+  line-height: 1.5em;;
+  margin: 0;
+  
+  .quote-footer {
+    font-size: 1.4em !important;
+    font-weight: 400;
+    color: #949494c5;
+    float: right;
+    margin-top: 20px;
+
+    p {
+      font-size: .8rem !important;
+      font-weight: 400;
+      text-transform: uppercase;
+      text-align: right;
+      margin: 0;
+    }
+    
+    &:before {
+      content: '\2015';  
+      
+    }
+  }
+  &:after {
+      content: '\201D';
+      font-family: 'Sanchez', serif;
+      position: absolute;
+      top: 0.28em;
+      right: 20px;
+      font-size: 10em!important;
+      font-style: italic;
+      color: #94949486;
+      z-index: 10;
+   }
+}
 
 .black {
   color: rgb(19, 19, 19) !important;

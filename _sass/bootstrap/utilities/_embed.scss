@@ -41,7 +41,11 @@
 
 .video {
 
-    width: 100%;
-    max-height: 100%;
+  width: 100%;
+  height: auto;
 
+}
+
+.responsive-video {
+  height: 500px;
 }

@@ -6,6 +6,10 @@ small-portrait-image: "/images/about/small-images/mette-mejlhede.png"
 grey-portrait: /images/about/small-images/mette-mejlhede.png
 call: 24 27 28 71
 email: mm@copenhagencoaching.dk
+mbc: true
+edu:
+- Cand.merc HRM Copenhagen Business School
+- Master i Business Coaching, EIA Master Akkrediteret Coach
 description: Direktør
 linkedin: https://www.linkedin.com/in/mette-mejlhede-a810632/
 data-id: ''
