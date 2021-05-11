@@ -47,8 +47,7 @@ layout: default
                 aria-selected="false">Praktisk</a>
             <a class="nav-item nav-link" id="nav-7-tab" data-toggle="tab" href="#nav-7" role="tab" aria-controls="nav-7"
                 aria-selected="false">FAQ</a>
-            <a class="nav-item nav-link" id="nav-8-tab" data-toggle="tab" href="#nav-8" role="tab" aria-controls="nav-8"
-                aria-selected="false">Tilmelding</a>
+                <a class="nav-item nav-link" href="#ansøgning" data-toggle="modal" data-target="#mbc-application-modal">Ansøg</a>
         </div>
     </div>
 </div>
@@ -394,7 +393,7 @@ layout: default
         <div class="mb-50 bg-black-coral white">
             <div class="grid-2 grid-65-5-30 faster-grid gap-40">
                 <div class="vidback-video">
-                    <video autoplay muted controls class="vidbacking object-fit">
+                    <video muted controls class="vidbacking object-fit">
                         <source src="/videos/noeddesbo-ccc.mp4" type="video/mp4">
                         Your browser does not support HTML video.
                     </video> 
@@ -559,17 +558,132 @@ layout: default
         </div>
     </div>
 
-    <div class="tab-pane fade" id="nav-8" role="tabpanel" aria-labelledby="nav-8-tab">
-        <div class="container-fluid extra-narrow-container pt-30">
-            <h2>Tilmelding</h2>
-            <h4>Enim nulla ut incididunt incididunt eiusmod minim reprehenderit irure.</h4>
-            <p>Ex exercitation ad ea esse labore consequat. Esse aute eu ad ipsum occaecat. Exercitation
-                cupidatat nisi proident et dolor id fugiat tempor cupidatat excepteur. Enim proident anim
-                deserunt voluptate mollit amet sint anim do dolor commodo. Ut in magna minim veniam anim velit
-                magna.</p>
+
+    <div class="modal fade" id="mbc-application-modal" tabindex="-1" role="dialog" aria-labelledby="mbc-application-modal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 class="modal-title" id="mbc-application">Ansøgning</h2>
+      
+              <button type="button" class="close close-modal-button" data-dismiss="modal" aria-label="Close">
+                <span>&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>Hvis du har spørgsmål omkring uddannelsen, din tilmelding eller andet er du velkommen til at ringe til Frederikke Winther på
+      
+                <a href="tel:21 19 47 57">21 19 47 57</a> – eller sende os en sms om, hvornår det passer dig at blive ringet
+                op. Du kan også altid skrive til <a href="mailto:info@copenhagencoaching.dk">info@copenhagencoaching.dk</a>
+                for mere info.
+      
+                Din ansøgning nedenfor er ikke bindende. Din optagelse vil udover nedenstående oplysninger, også bero på en
+                personlig samtale.
+      
+                Vi glæder os til at høre fra dig.
+              </p>
+      
+           
+              <br>
+              <form class="white-form" action="https://formspree.io/f/mzbyzbyg" method="POST">
+      
+
+                {% if page.hold %}
+                <select class="input-form udd" name="uddannelse">
+                  <option value="hold">Vælg hold</option>
+                  {% for h in page.hold %}
+                  <option value="{{ h }}">{{ h }}</option>
+                  {% endfor %}
+                  
+              </select>
+              {% endif %}
+              <input type="hidden" name="uddannelse" value="{{ page.title }}"/>
+                <input type="text" name="FNAME" placeholder="Fornavn*" required>
+                <input type="text" name="LNAME" placeholder="Efternavn*" required>
+                <input type="text" name="virksomhed" placeholder="Virksomhed">
+                <input type="text" name="cvr" placeholder="CVR nummer">
+                <input type="text" name="ean" placeholder="EAN">
+                <input type="text" name="adress" placeholder="Fakturerings adresse*" required>
+                <div class="grid-2">
+                  <input type="text" name="zip-code" placeholder="Postnummer*" required>
+                  <input type="text" name="town" placeholder="By*">
+                </div>
+                
+                
+               
+                <input type="tel" name="mobile" pattern="[0-9]{8}" placeholder="Arb. tlf." required>
+                <input type="tel" name="mobile" pattern="[0-9]{8}" placeholder="Mobil">
+                <input type="email" name="email" placeholder="E-mail*" required>
+                
+                
+                <input type="text" name="cvr" placeholder="CVR nummer">
+                <textarea name="besked" cols="30" rows="10" placeholder="Evt. kommentar"></textarea>
+                <label><b>Uddannelsesmæssig baggrund:</b><br>
+                  <i>Skriv venligst dine formelle uddannelser</i></label>
+                <textarea name="uddannelses-baggrund" cols="30" rows="10"></textarea>
+      
+                <label><b>Relevante kurser og efteruddannelser:</b><br>
+                  <i>Herunder registrerede alternative uddannelser</i></label>
+                <textarea name="relevante-kurser" cols="30" rows="10"></textarea>
+      
+                <label><b>Relevant livs- og erhvervserfaring:</b></label>
+                <textarea name="livs-erhvervserfaring" cols="30" rows="10"></textarea>
+                
+      
+                <label><b>Personlig motivation for at søge optagelse:</b></label>
+                <textarea name="motivation" cols="30" rows="10"></textarea>
+      
+           <!--      <label><b>Jeg søger optagelse via:</b><br>
+                <input class="checkbox" type="radio" id="male" name="kvote" value="§1"> §1 <br><input class="checkbox" type="radio" id="male" name="kvote" value="§2"> §2 <br><input class="checkbox" type="radio" id="male" name="kvote" value="§3"> §3</label>
+                <br><a href="/pfp/adgangskrav/" target="_blank" class="small">Læs om kvoter og adgangskrav her</a> -->
+      <br>
+       <!--  <label><b>Merit:</b><br>
+        <input class="checkbox" type="checkbox" name="merit"/>
+        Jeg søger meritoverførsel fra anden tilsvarende psykoterapeutuddannelse</label><br>
+      <br> -->
+      
+      <label><b>Hvor har du hørt om os?:</b><br>
+        <input class="checkbox" type="checkbox" name="google" /> Google<br>
+        <input class="checkbox" type="checkbox" name="facebook" /> Facebook<br>
+        <input class="checkbox" type="checkbox" name="instagram" /> Instagram<br>
+        <input class="checkbox" type="checkbox" name="linkedin" /> LinkedIn<br>
+        <input class="checkbox" type="checkbox" name="anbefaling" /> Anbefaling fra andre<br>
+        <input class="checkbox" type="checkbox" name="andet" /> Andet
+      
+        </label>
+      <br>
+      <br>
+      <label>  
+        <input class="checkbox" type="checkbox" name="_optin" required /> Jeg vil gerne modtaget CCC's nyhedsbrev
+      </label>
+      <br>
+      <br>
+      <label>
+        <b>Samtykkeerklæring*</b><br>
+        <input class="checkbox" type="checkbox" name="samtykke" required /> <span class="small inline">Jeg giver samtykke til, at CCC må bruge
+        mine oplysninger til at behandle min ansøgning. Derudover giver jeg samtykke til, at CCC opbevarer og
+        behandler mine persondata som er beskrevet i CCC's <a href="/privatlivspolitik/">privatlivspolitik</a>.</span>
+      </label>
+      <input type="hidden" name="ansvarlig" value="{% for email in page.emails %}{% if forloop.last %}{{ email }}{% else %}{{ email }},{% endif %}{% endfor %}"/>
+      
+               <br>
+                
+      
+                <br>
+      
+      
+                <!-- your other form fields go here -->
+      
+                <button class="dust-green-btn" type="submit">Ansøg</button>
+      
+              </form>
+      
+            
+              <br>
+            </div>
+          </div>
         </div>
-    </div>
-</div>
+      </div>
+
 {% capture reg-url %}?n={{ page.title | uri_escape }}{% endcapture %}
 
 
