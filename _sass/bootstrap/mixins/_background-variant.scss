@@ -124,6 +124,10 @@
   background-color: $deep-taupe;
 }
 
+.bg-cadet-gray {
+  background-color: $cadet-gray;
+}
+
 .bg-jet {
   background-color: $jet;
 }
@@ -163,4 +167,11 @@
   position: absolute;
   top: 0;
   left: 0;
+}
+
+
+.collapse {
+  &.show {
+    display: block;
+  }
 }

@@ -72,6 +72,9 @@ collections:
   pip-contributors:
     output: true
     permalink: /protrptik-som-behandlingsform-og-ledelsesdisciplin/bidragsydere/:title/
+  tests:
+    output: true
+    permalink: /:title/
 
 defaults:
   -
@@ -124,6 +127,11 @@ defaults:
       type: pip-contributors
     values:
       layout: pip-contributors
+  -
+    scope:
+      type: tests
+    values:
+      layout: default
 
 prose:
   rooturl: ''

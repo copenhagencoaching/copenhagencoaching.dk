@@ -47,7 +47,8 @@ layout: default
                 aria-selected="false">Praktisk</a>
             <a class="nav-item nav-link" id="nav-7-tab" data-toggle="tab" href="#nav-7" role="tab" aria-controls="nav-7"
                 aria-selected="false">FAQ</a>
-                <a class="nav-item nav-link" href="#ansøgning" data-toggle="modal" data-target="#mbc-application-modal">Ansøg</a>
+            <a class="nav-item nav-link" href="#ansøgning" data-toggle="modal"
+                data-target="#mbc-application-modal">Ansøg</a>
         </div>
     </div>
 </div>
@@ -55,7 +56,7 @@ layout: default
 
     <div class="tab-pane fade show active" id="nav-1" role="tabpanel" aria-labelledby="nav-1-tab">
 
-        <div class="container-fluid extra-narrow-container pt-20 pb-50">
+        <div class="container-fluid medium-narrow-container pt-20 pb-50">
             <div class="grid-30-65 r-gap-20">
                 <div class="h-300">
                     <img src="/images/mbc/image--003.jpg" alt="" class="object-fit">
@@ -71,8 +72,156 @@ layout: default
                 </div>
             </div>
         </div>
-        <div class="container-fluid extra-narrow-container no-up">
+        <div class="bg-cadet-gray">
+            <div class="container-fluid medium-narrow-container only-for-bot white pt-50 pb-75">
+
+                <h2 class="align-center">Kursus oversigt</h2><br><br>
+                <div class="grid-1 r-gap-5">
+                    {% for semester in page.semesters %}
+                    <div>
+                        
+                        <a class="bg-black-coral semester-heading collapsed" data-toggle="collapse"
+                                href="#hold{{ forloop.index}}" role="button" aria-expanded="false"
+                                aria-controls="">
+                                <div class="grid-1 bg-black-coral p-20 gap-20 r-gap-10 p-left-60">
+                                    <div>
+                                        <p class="mb-0 large"><b>Hold:</b> {{ semester.title }}</p>
+                                   </div>
+    
+                                     <div>
+                                        <p class="mb-0 faded"><b>Pris:</b> {{ semester.price }}</p>
+                                     </div>
+                                     
+                                </div>
+                                </a>
+                                <div class="bg-black-coral collapse" id="hold{{ forloop.index}}">
+
+                                    <div class="switching-list">
+                                        {% for date in semester.dates %}
+                                        <div class="grid-1 p-20 list-item">
+                                            <div>
+                                                <p class="mb-0"><b>Dato:</b> {{ date.title }}</p>
+                                            </div>
+                                            <div>
+                                                <p class="mb-0"><b>Dag:</b> {{ date.dag }}</p>
+                                            </div>
+                                            <div>
+                                                <p class="mb-0"><b>Tid:</b> {{ date.time }}</p>
             
+                                            </div>
+                                            <div>
+                                                <p class="mb-0"><b>Modul:</b> {{ date.modul }}</p>
+                                            </div>
+                                            <div>
+                                                <p class="mb-0"><b>Sted:</b> {{ date.sted }}</p>
+                                            </div>
+                                        </div>
+                                       
+        
+        
+        
+                                        {% endfor %}
+                                    
+                                    </div>
+                                </div>
+                    </div>
+                    {% endfor %}
+                </div>
+               
+            </div>
+            <div class="container-fluid medium-narrow-container white pt-50 pb-75 only-big">
+                <h2 class="align-center">Kursus oversigt</h2><br><br>
+                <div class="grid-1 gap-20 r-gap-5">
+                    <div class="grid-3 p-20 p-left-60 pb-0 capped">
+                        <div>
+                            <p class="mb-0"><b>Hold</b></p>
+                         </div>
+                        <div>
+                           <p class="mb-0"><b>Dato</b></p>
+                        </div>
+                         <div>
+                            <p class="mb-0"><b>Pris</b></p>
+                         </div>
+                         <div></div>
+                    </div>
+                    {% for semester in page.semesters %}
+                    <div>
+
+                        <a class="bg-black-coral semester-heading collapsed" data-toggle="collapse"
+                            href="#hold{{ forloop.index}}" role="button" aria-expanded="false"
+                            aria-controls="">
+                            <div class="grid-3 bg-black-coral p-20 gap-20">
+                                <div>
+                                    <p class="mb-0">{{ semester.title }}</p>
+                               </div>
+                                <div>
+                                     <p class="mb-0">{{ semester.span }}</p>
+                                </div>
+
+                                 <div>
+                                    <p class="mb-0">{{ semester.price }}</p>
+                                 </div>
+                                 <div></div>
+                            </div>
+                            </a>
+                        <div class="bg-black-coral collapse" id="hold{{ forloop.index}}">
+                            <div class="grid-50-50-50-auto-auto grid-5 p-20 bg-deep-taupe">
+                                <div>
+                                    <p class="mb-0">Dato</p>
+                                </div>
+                                <div>
+                                    <p class="mb-0">Dag</p>
+                                </div>
+                                <div>
+                                    <p class="mb-0">Tid</p>
+
+                                </div>
+                                <div>
+                                    <p class="mb-0">Modul</p>
+                                </div>
+                                <div>
+                                    <p class="mb-0">Sted</p>
+                                </div>
+                            </div>
+                            <div class="switching-list">
+                                {% for date in semester.dates %}
+                                <div class="grid-50-50-50-auto-auto grid-5 p-20 list-item">
+                                    <div>
+                                        <p class="mb-0">{{ date.title }}</p>
+                                    </div>
+                                    <div>
+                                        <p class="mb-0">{{ date.dag }}</p>
+                                    </div>
+                                    <div>
+                                        <p class="mb-0">{{ date.time }}</p>
+    
+                                    </div>
+                                    <div>
+                                        <p class="mb-0">{{ date.modul }}</p>
+                                    </div>
+                                    <div>
+                                        <p class="mb-0">{{ date.sted }}</p>
+                                    </div>
+                                </div>
+                               
+
+
+
+                                {% endfor %}
+                            
+                            </div>
+                        </div>
+                    </div>
+
+                    {% endfor %}
+                </div>
+
+            </div>
+
+
+        </div>
+        <div class="container-fluid medium-narrow-container pt-50">
+
             <div class="grid-2 gap-40 r-gap-40">
                 <div>
                     <h2>UDBYTTE OG ANVENDELSE</h2>
@@ -82,26 +231,31 @@ layout: default
                     <p>På MBC er der derfor også fokus på din egen personlige udvikling
                         og dannelse, hvem du selv er, og hvad netop du betyder for
                         dialogen.</p>
-                        <p>MBC'en gør den studerende i stand til at stå og indgå i mange
-                            forskellige situationer og samtaler, herunder team- og
-                            medarbejderudvikling, konflikt- og krisehåndtering, procesledelse
-                            og organisationsudvikling.</p>
+                    <p>MBC'en gør den studerende i stand til at stå og indgå i mange
+                        forskellige situationer og samtaler, herunder team- og
+                        medarbejderudvikling, konflikt- og krisehåndtering, procesledelse
+                        og organisationsudvikling.</p>
                 </div>
                 <div>
                     <h2 class="capped">Viden på CCC</h2>
-                    <p>Master of Business Coaching er mere end en uddannelse. Vi er en platform, hvor ledere fra alle dele af
-                        den offentlige og private sektor mødes for at blive klogere på, hvordan ledelse kan skabe værdi for
-                        vores samfund. På CCC holder vi os opdateret på udviklingen inden for offentlig ledelse og prioriterer
-                        at dele og diskutere den. </p><p>
+                    <p>Master of Business Coaching er mere end en uddannelse. Vi er en platform, hvor ledere fra alle
+                        dele af
+                        den offentlige og private sektor mødes for at blive klogere på, hvordan ledelse kan skabe værdi
+                        for
+                        vores samfund. På CCC holder vi os opdateret på udviklingen inden for offentlig ledelse og
+                        prioriterer
+                        at dele og diskutere den. </p>
+                    <p>
                         Derfor inviterer vi løbende til debatmøder om aktuelle tematikker på området,
-                        og fire gange årligt har du mulighed for at komme til inspirationsmøder, hvor du kan høre om uddannelsen
+                        og fire gange årligt har du mulighed for at komme til inspirationsmøder, hvor du kan høre om
+                        uddannelsen
                         og møde studerende samt repræsentanter fra studieledelsen og sekretariatet.</p>
                 </div>
             </div>
 
 
-           
-            
+
+
 
         </div>
         <div
@@ -221,7 +375,7 @@ layout: default
                 </div>
             </div>
 
-            
+
 
         </div>
         <div class="bg-platinum">
@@ -234,12 +388,13 @@ layout: default
                         <ul class="mb-0">
                             <li>Adgang til vidensportal, værktøjer, faglitteratur, artikler og cases</li>
                             <li>Big Five personlighedstest med individuel tilbagemelding</li>
-                            <li>Mulighed for at blive certificeret i Big Five, så du selv kan anvende personlighedstest</li>
+                            <li>Mulighed for at blive certificeret i Big Five, så du selv kan anvende personlighedstest
+                            </li>
                             <li>Løbende supervision og et stærkt netværk</li>
                             <li>Coachingsamtaler med flere undervisere</li>
                             <li>Forplejning alle dage</li>
                         </ul>
-        
+
                         <br>
                     </div>
                     <div>
@@ -247,9 +402,9 @@ layout: default
                             <img class="object-fit" src="/images/mbc/image--000.jpg" alt="">
                         </div>
                     </div>
-                   
+
                 </div>
- 
+
 
 
             </div>
@@ -306,7 +461,7 @@ layout: default
                 <p class="table-row">Fag</p>
 
             </div>
- 
+
         </div>
 
 
@@ -330,62 +485,78 @@ layout: default
             <br>
 
             <div class="grid-3 faster-grid gap-40 r-gap-40">
-                
-                <div class="shadow-round-box grid-100-fr r-gap-20 gap-20">
-                    <div class="img-hw100"><img class="small-round-image" src="/images/graphic/placeholder-profile.jpg" alt="">
-                    </div>
-                        <blockquote class="testi">
-                            <div class="pr-50">
-                            Eiusmod cupidatat exercitation sint eiusmod consectetur est aliqua do. Magna exercitation minim tempor quis quis fugiat consectetur laborum aute. Voluptate tempor consectetur mollit reprehenderit quis nostrud est exercitation aute sint sint in deserunt consectetur. Enim cillum laborum commodo sunt sint. Voluptate veniam laboris ipsum quis dolor excepteur.</div>
-                             <div class="quote-footer">Anders Andersen <br>
-                                <p>MBC studerende</p>
-                                </div>
-                             
-                           </blockquote>
 
-                    
+                <div class="shadow-round-box grid-100-fr r-gap-20 gap-20">
+                    <div class="img-hw100"><img class="small-round-image" src="/images/graphic/placeholder-profile.jpg"
+                            alt="">
+                    </div>
+                    <blockquote class="testi">
+                        <div class="pr-50">
+                            Eiusmod cupidatat exercitation sint eiusmod consectetur est aliqua do. Magna exercitation
+                            minim tempor quis quis fugiat consectetur laborum aute. Voluptate tempor consectetur mollit
+                            reprehenderit quis nostrud est exercitation aute sint sint in deserunt consectetur. Enim
+                            cillum laborum commodo sunt sint. Voluptate veniam laboris ipsum quis dolor excepteur.</div>
+                        <div class="quote-footer">Anders Andersen <br>
+                            <p>MBC studerende</p>
+                        </div>
+
+                    </blockquote>
+
+
                 </div>
 
                 <div class="shadow-round-box grid-100-fr r-gap-20 gap-20">
-                    <div class="img-hw100"><img class="small-round-image" src="/images/graphic/placeholder-profile.jpg" alt="">
+                    <div class="img-hw100"><img class="small-round-image" src="/images/graphic/placeholder-profile.jpg"
+                            alt="">
                     </div>
-                        <blockquote class="testi">
-                            <div class="pr-50">
-                            Eiusmod cupidatat exercitation sint eiusmod consectetur est aliqua do. Magna exercitation minim tempor quis quis fugiat consectetur laborum aute. Voluptate tempor consectetur mollit reprehenderit quis nostrud est exercitation aute sint sint in deserunt consectetur. Enim cillum laborum commodo sunt sint. Voluptate veniam laboris ipsum quis dolor excepteur.</div>
-                            <div class="quote-footer">Anders Andersen <br>
-                                <p>MBC studerende</p>
-                                </div>
-                           </blockquote>
+                    <blockquote class="testi">
+                        <div class="pr-50">
+                            Eiusmod cupidatat exercitation sint eiusmod consectetur est aliqua do. Magna exercitation
+                            minim tempor quis quis fugiat consectetur laborum aute. Voluptate tempor consectetur mollit
+                            reprehenderit quis nostrud est exercitation aute sint sint in deserunt consectetur. Enim
+                            cillum laborum commodo sunt sint. Voluptate veniam laboris ipsum quis dolor excepteur.</div>
+                        <div class="quote-footer">Anders Andersen <br>
+                            <p>MBC studerende</p>
+                        </div>
+                    </blockquote>
 
-                    
+
                 </div>
 
                 <div class="shadow-round-box grid-100-fr r-gap-20 gap-20">
-                    <div class="img-hw100"><img class="small-round-image" src="/images/graphic/placeholder-profile.jpg" alt="">
+                    <div class="img-hw100"><img class="small-round-image" src="/images/graphic/placeholder-profile.jpg"
+                            alt="">
                     </div>
-                        <blockquote class="testi">
-                            <div class="pr-50">
-                            Eiusmod cupidatat exercitation sint eiusmod consectetur est aliqua do. Magna exercitation minim tempor quis quis fugiat consectetur laborum aute. Voluptate tempor consectetur mollit reprehenderit quis nostrud est exercitation aute sint sint in deserunt consectetur. Enim cillum laborum commodo sunt sint. Voluptate veniam laboris ipsum quis dolor excepteur.</div>
-                            <div class="quote-footer">Anders Andersen <br>
-                                <p>MBC studerende</p>
-                                </div>
-                           </blockquote>
+                    <blockquote class="testi">
+                        <div class="pr-50">
+                            Eiusmod cupidatat exercitation sint eiusmod consectetur est aliqua do. Magna exercitation
+                            minim tempor quis quis fugiat consectetur laborum aute. Voluptate tempor consectetur mollit
+                            reprehenderit quis nostrud est exercitation aute sint sint in deserunt consectetur. Enim
+                            cillum laborum commodo sunt sint. Voluptate veniam laboris ipsum quis dolor excepteur.</div>
+                        <div class="quote-footer">Anders Andersen <br>
+                            <p>MBC studerende</p>
+                        </div>
+                    </blockquote>
 
-                    
+
                 </div>
 
                 <div class="shadow-round-box grid-100-fr r-gap-20 gap-20">
-                    <div class="img-hw100"><img class="small-round-image" src="/images/graphic/placeholder-profile.jpg" alt="">
+                    <div class="img-hw100"><img class="small-round-image" src="/images/graphic/placeholder-profile.jpg"
+                            alt="">
                     </div>
-                        <blockquote class="testi">
-                            <div class="pr-50">
-                            Eiusmod cupidatat exercitation sint eiusmod consectetur est aliqua do. Magna exercitation minim tempor quis quis fugiat consectetur laborum aute. Voluptate tempor consectetur mollit reprehenderit quis nostrud est exercitation aute sint sint in deserunt consectetur. Enim cillum laborum commodo sunt sint. Voluptate veniam laboris ipsum quis dolor excepteur.</div>
-                            <div class="quote-footer">Anders Andersen <br>
-                                <p>MBC studerende</p>
-                                </div>
-                           </blockquote>
+                    <blockquote class="testi">
+                        <div class="pr-50">
+                            Eiusmod cupidatat exercitation sint eiusmod consectetur est aliqua do. Magna exercitation
+                            minim tempor quis quis fugiat consectetur laborum aute. Voluptate tempor consectetur mollit
+                            reprehenderit quis nostrud est exercitation aute sint sint in deserunt consectetur. Enim
+                            cillum laborum commodo sunt sint. Voluptate veniam laboris ipsum quis dolor excepteur.</div>
+                        <div class="quote-footer">Anders Andersen <br>
+                            <p>MBC studerende</p>
+                        </div>
+                    </blockquote>
 
-                    
+
                 </div>
             </div>
         </div>
@@ -396,40 +567,40 @@ layout: default
                     <video muted controls class="vidbacking object-fit">
                         <source src="/videos/noeddesbo-ccc.mp4" type="video/mp4">
                         Your browser does not support HTML video.
-                    </video> 
+                    </video>
                 </div>
                 <div class="p-20 pb-50 grid-1 align-content-center align-items-center">
-                    
+
                     <div class="max-w-400">
-                       <blockquote class="groucho">
+                        <blockquote class="groucho">
                             Det er fantastisk!
-                             <div class="quote-footer">Jesper Nøddesbo</div>
-                           </blockquote>
+                            <div class="quote-footer">Jesper Nøddesbo</div>
+                        </blockquote>
                     </div>
-                       
-<br><br>
-                       <h3>Det startede som mentale udfordringer. Med tiden har det udviklet sig til en ny passion.</h3>
-                       <div class="max-700">
+
+                    <br><br>
+                    <h3>Det startede som mentale udfordringer. Med tiden har det udviklet sig til en ny passion.</h3>
+                    <div class="max-700">
                         <p>Nu uddanner Bjerringbro-Silkeborg Håndbolds Jesper Nøddesbo sig gennem Copenhagen
                             Coaching Center. Og
                             uddannelsen gør, at han nogle gange ligefrem glæder sig til livet efter håndbold.</p>
-                       </div>
-                       
-       
-                       <a target="_blank"
-                           href="https://4-player.dk/uddannelse-og-udvikling/online-uddannelse/international-master-of-business-coaching/"><button
-                               class="cinereous-btn">Se mere på 4Player</button></a>
+                    </div>
+
+
+                    <a target="_blank"
+                        href="https://4-player.dk/uddannelse-og-udvikling/online-uddannelse/international-master-of-business-coaching/"><button
+                            class="cinereous-btn">Se mere på 4Player</button></a>
                 </div>
             </div>
-            
-           
+
+
         </div>
-       <!--  {% include secments/four-player.html %} -->
+        <!--  {% include secments/four-player.html %} -->
     </div>
 
     <div class="tab-pane fade" id="nav-5" role="tabpanel" aria-labelledby="nav-5-tab">
         <div class="container-fluid extra-narrow-container pt-30">
-            
+
             <h2>Undervisere</h2>
             <p>Undervisningen på MBC varetages af erfarne undervisere og forskere fra både Copenhagen Business School,
                 Københavns Universitet, Aalborg Universitet, Aarhus Universitet og RUC. Undervisernes tilgang er altid
@@ -450,28 +621,29 @@ layout: default
 
                     <div>
                         <a href="{{ emp.url }}">
-                        <div class="align-content-center align-items-center grid-150-fr split-phone r-gap-20 white">
-                            <div class="img-hw150"><img class="small-round-image" src="{{ emp.grey-portrait }}" alt="">
+                            <div class="align-content-center align-items-center grid-150-fr split-phone r-gap-20 white">
+                                <div class="img-hw150"><img class="small-round-image" src="{{ emp.grey-portrait }}"
+                                        alt="">
+                                </div>
+                                <div class="p-20">
+                                    <h4>{{ emp.title }}</h4>
+
+                                    <p>{{ emp.description }}<br><br>
+                                        {% for education in emp.edu %}
+                                        {{ education }}<br>
+                                        {% endfor %}
+                                </div>
+
+
                             </div>
-                            <div class="p-20">
-                             <h4>{{ emp.title }}</h4>
-
-                                <p>{{ emp.description }}<br><br>
-                                    {% for education in emp.edu %}
-                                    {{ education }}<br>
-                                    {% endfor %}
-                            </div>
-
-
-                        </div>
-                    </a>
+                        </a>
                     </div>
                     {% endif %}
 
                     {% endfor %}
 
 
-                  
+
 
                 </div>
 
@@ -495,12 +667,14 @@ layout: default
                     <br>
                     <h2>Pris og finansiering</h2>
                     <p>Prisen for hele uddannelsen er 183.000,- kr. (ekskl. moms).
-    
-                        Betalingen inkluderer: Undervisning, supervision, undervisningsmateriale og forplejning på de enkelte kursusdage.
-                        
-                        Beløbet opkræves forud for semesterstart over fire gange. 45.900 (ekskl. moms) pr. semester. Kontakt os gerne for mere information om finansering.</p>
-    
-    
+
+                        Betalingen inkluderer: Undervisning, supervision, undervisningsmateriale og forplejning på de
+                        enkelte kursusdage.
+
+                        Beløbet opkræves forud for semesterstart over fire gange. 45.900 (ekskl. moms) pr. semester.
+                        Kontakt os gerne for mere information om finansering.</p>
+
+
                 </div>
                 <div>
                     <h2>Undervisningssted</h2>
@@ -514,7 +688,7 @@ layout: default
             <div class="grid-2 gap-40 r-gap-20 pt-30">
                 <div class="object-fit-full-width h-300">
                     <img src="/images/mbc/image--008.jpg" alt="" class="object-fit">
-        <br>
+                    <br>
                 </div>
                 <div>
                     <h2>Adgangskrav</h2>
@@ -559,161 +733,170 @@ layout: default
     </div>
 
 
-    <div class="modal fade" id="mbc-application-modal" tabindex="-1" role="dialog" aria-labelledby="mbc-application-modal" aria-hidden="true">
+    <div class="modal fade" id="mbc-application-modal" tabindex="-1" role="dialog"
+        aria-labelledby="mbc-application-modal" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h2 class="modal-title" id="mbc-application">Ansøgning</h2>
-      
-              <button type="button" class="close close-modal-button" data-dismiss="modal" aria-label="Close">
-                <span>&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <p>Hvis du har spørgsmål omkring uddannelsen, din tilmelding eller andet er du velkommen til at ringe til Frederikke Winther på
-      
-                <a href="tel:21 19 47 57">21 19 47 57</a> – eller sende os en sms om, hvornår det passer dig at blive ringet
-                op. Du kan også altid skrive til <a href="mailto:info@copenhagencoaching.dk">info@copenhagencoaching.dk</a>
-                for mere info.
-      
-                Din ansøgning nedenfor er ikke bindende. Din optagelse vil udover nedenstående oplysninger, også bero på en
-                personlig samtale.
-      
-                Vi glæder os til at høre fra dig.
-              </p>
-      
-           
-              <br>
-              <form class="white-form" action="https://formspree.io/f/mzbyzbyg" method="POST">
-      
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title" id="mbc-application">Ansøgning</h2>
 
-                {% if page.hold %}
-                <select class="input-form udd" name="uddannelse">
-                  <option value="hold">Vælg hold</option>
-                  {% for h in page.hold %}
-                  <option value="{{ h }}">{{ h }}</option>
-                  {% endfor %}
-                  
-              </select>
-              {% endif %}
-              <input type="hidden" name="uddannelse" value="{{ page.title }}"/>
-                <input type="text" name="FNAME" placeholder="Fornavn*" required>
-                <input type="text" name="LNAME" placeholder="Efternavn*" required>
-                <input type="text" name="virksomhed" placeholder="Virksomhed">
-                <input type="text" name="cvr" placeholder="CVR nummer">
-                <input type="text" name="ean" placeholder="EAN">
-                <input type="text" name="adress" placeholder="Fakturerings adresse*" required>
-                <div class="grid-2">
-                  <input type="text" name="zip-code" placeholder="Postnummer*" required>
-                  <input type="text" name="town" placeholder="By*">
+                    <button type="button" class="close close-modal-button" data-dismiss="modal" aria-label="Close">
+                        <span>&times;</span>
+                    </button>
                 </div>
-                
-                
-               
-                <input type="tel" name="mobile" pattern="[0-9]{8}" placeholder="Arb. tlf." required>
-                <input type="tel" name="mobile" pattern="[0-9]{8}" placeholder="Mobil">
-                <input type="email" name="email" placeholder="E-mail*" required>
-                
-                
-                <input type="text" name="cvr" placeholder="CVR nummer">
-                <textarea name="besked" cols="30" rows="10" placeholder="Evt. kommentar"></textarea>
-                <label><b>Uddannelsesmæssig baggrund:</b><br>
-                  <i>Skriv venligst dine formelle uddannelser</i></label>
-                <textarea name="uddannelses-baggrund" cols="30" rows="10"></textarea>
-      
-                <label><b>Relevante kurser og efteruddannelser:</b><br>
-                  <i>Herunder registrerede alternative uddannelser</i></label>
-                <textarea name="relevante-kurser" cols="30" rows="10"></textarea>
-      
-                <label><b>Relevant livs- og erhvervserfaring:</b></label>
-                <textarea name="livs-erhvervserfaring" cols="30" rows="10"></textarea>
-                
-      
-                <label><b>Personlig motivation for at søge optagelse:</b></label>
-                <textarea name="motivation" cols="30" rows="10"></textarea>
-      
-           <!--      <label><b>Jeg søger optagelse via:</b><br>
+                <div class="modal-body">
+                    <p>Hvis du har spørgsmål omkring uddannelsen, din ansøgning eller andet er du velkommen til at ringe
+                        til Frederikke Winther på
+
+                        <a href="tel:21 19 47 57">21 19 47 57</a> – eller sende os en sms om, hvornår det passer dig at
+                        blive ringet
+                        op. Du kan også altid skrive til <a
+                            href="mailto:info@copenhagencoaching.dk">info@copenhagencoaching.dk</a>
+                        for mere info.
+
+                        Din ansøgning nedenfor er ikke bindende. Din optagelse vil udover nedenstående oplysninger, også
+                        bero på en
+                        personlig samtale.
+
+                        Vi glæder os til at høre fra dig.
+                    </p>
+
+
+                    <br>
+                    <form class="white-form" action="https://formspree.io/f/mzbyzbyg" method="POST">
+
+
+                        {% if page.hold %}
+                        <select class="input-form udd" name="uddannelse">
+                            <option value="hold">Vælg hold</option>
+                            {% for h in page.hold %}
+                            <option value="{{ h }}">{{ h }}</option>
+                            {% endfor %}
+
+                        </select>
+                        {% endif %}
+                        <input type="hidden" name="uddannelse" value="{{ page.title }}" />
+                        <input type="text" name="FNAME" placeholder="Fornavn*" required>
+                        <input type="text" name="LNAME" placeholder="Efternavn*" required>
+                        <input type="text" name="virksomhed" placeholder="Virksomhed">
+                        <input type="text" name="cvr" placeholder="CVR nummer">
+                        <input type="text" name="ean" placeholder="EAN">
+                        <input type="text" name="adress" placeholder="Fakturerings adresse*" required>
+                        <div class="grid-2">
+                            <input type="text" name="zip-code" placeholder="Postnummer*" required>
+                            <input type="text" name="town" placeholder="By*">
+                        </div>
+
+
+
+                        <input type="tel" name="mobile" pattern="[0-9]{8}" placeholder="Arb. tlf." required>
+                        <input type="tel" name="mobile" pattern="[0-9]{8}" placeholder="Mobil">
+                        <input type="email" name="email" placeholder="E-mail*" required>
+
+
+                        <input type="text" name="cvr" placeholder="CVR nummer">
+                        <textarea name="besked" cols="30" rows="10" placeholder="Evt. kommentar"></textarea>
+                        <label><b>Uddannelsesmæssig baggrund:</b><br>
+                            <i>Skriv venligst dine formelle uddannelser</i></label>
+                        <textarea name="uddannelses-baggrund" cols="30" rows="10"></textarea>
+
+                        <label><b>Relevante kurser og efteruddannelser:</b><br>
+                            <i>Herunder registrerede alternative uddannelser</i></label>
+                        <textarea name="relevante-kurser" cols="30" rows="10"></textarea>
+
+                        <label><b>Relevant livs- og erhvervserfaring:</b></label>
+                        <textarea name="livs-erhvervserfaring" cols="30" rows="10"></textarea>
+
+
+                        <label><b>Personlig motivation for at søge optagelse:</b></label>
+                        <textarea name="motivation" cols="30" rows="10"></textarea>
+
+                        <!--      <label><b>Jeg søger optagelse via:</b><br>
                 <input class="checkbox" type="radio" id="male" name="kvote" value="§1"> §1 <br><input class="checkbox" type="radio" id="male" name="kvote" value="§2"> §2 <br><input class="checkbox" type="radio" id="male" name="kvote" value="§3"> §3</label>
                 <br><a href="/pfp/adgangskrav/" target="_blank" class="small">Læs om kvoter og adgangskrav her</a> -->
-      <br>
-       <!--  <label><b>Merit:</b><br>
+                        <br>
+                        <!--  <label><b>Merit:</b><br>
         <input class="checkbox" type="checkbox" name="merit"/>
         Jeg søger meritoverførsel fra anden tilsvarende psykoterapeutuddannelse</label><br>
       <br> -->
-      
-      <label><b>Hvor har du hørt om os?:</b><br>
-        <input class="checkbox" type="checkbox" name="google" /> Google<br>
-        <input class="checkbox" type="checkbox" name="facebook" /> Facebook<br>
-        <input class="checkbox" type="checkbox" name="instagram" /> Instagram<br>
-        <input class="checkbox" type="checkbox" name="linkedin" /> LinkedIn<br>
-        <input class="checkbox" type="checkbox" name="anbefaling" /> Anbefaling fra andre<br>
-        <input class="checkbox" type="checkbox" name="andet" /> Andet
-      
-        </label>
-      <br>
-      <br>
-      <label>  
-        <input class="checkbox" type="checkbox" name="_optin" required /> Jeg vil gerne modtaget CCC's nyhedsbrev
-      </label>
-      <br>
-      <br>
-      <label>
-        <b>Samtykkeerklæring*</b><br>
-        <input class="checkbox" type="checkbox" name="samtykke" required /> <span class="small inline">Jeg giver samtykke til, at CCC må bruge
-        mine oplysninger til at behandle min ansøgning. Derudover giver jeg samtykke til, at CCC opbevarer og
-        behandler mine persondata som er beskrevet i CCC's <a href="/privatlivspolitik/">privatlivspolitik</a>.</span>
-      </label>
-      <input type="hidden" name="ansvarlig" value="{% for email in page.emails %}{% if forloop.last %}{{ email }}{% else %}{{ email }},{% endif %}{% endfor %}"/>
-      
-               <br>
-                
-      
-                <br>
-      
-      
-                <!-- your other form fields go here -->
-      
-                <button class="dust-green-btn" type="submit">Ansøg</button>
-      
-              </form>
-      
-            
-              <br>
+
+                        <label><b>Hvor har du hørt om os?:</b><br>
+                            <input class="checkbox" type="checkbox" name="google" /> Google<br>
+                            <input class="checkbox" type="checkbox" name="facebook" /> Facebook<br>
+                            <input class="checkbox" type="checkbox" name="instagram" /> Instagram<br>
+                            <input class="checkbox" type="checkbox" name="linkedin" /> LinkedIn<br>
+                            <input class="checkbox" type="checkbox" name="anbefaling" /> Anbefaling fra andre<br>
+                            <input class="checkbox" type="checkbox" name="andet" /> Andet
+
+                        </label>
+                        <br>
+                        <br>
+                        <label>
+                            <input class="checkbox" type="checkbox" name="_optin" required /> Jeg vil gerne modtage
+                            CCC's nyhedsbrev
+                        </label>
+                        <br>
+                        <br>
+                        <label>
+                            <b>Samtykkeerklæring*</b><br>
+                            <input class="checkbox" type="checkbox" name="samtykke" required /> <span
+                                class="small inline">Jeg giver samtykke til, at CCC må bruge
+                                mine oplysninger til at behandle min ansøgning. Derudover giver jeg samtykke til, at CCC
+                                opbevarer og
+                                behandler mine persondata som er beskrevet i CCC's <a
+                                    href="/privatlivspolitik/">privatlivspolitik</a>.</span>
+                        </label>
+                        <input type="hidden" name="ansvarlig"
+                            value="{% for email in page.emails %}{% if forloop.last %}{{ email }}{% else %}{{ email }},{% endif %}{% endfor %}" />
+
+                        <br>
+
+
+                        <br>
+
+
+                        <!-- your other form fields go here -->
+
+                        <button class="dust-green-btn" type="submit">Ansøg</button>
+
+                    </form>
+
+
+                    <br>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
+    </div>
 
-{% capture reg-url %}?n={{ page.title | uri_escape }}{% endcapture %}
-
-
-{% assign page-contact = page.contact-person %}
+    {% capture reg-url %}?n={{ page.title | uri_escape }}{% endcapture %}
 
 
-{% include secments/contact-bar.html contact=page-contact contact-color="deep-taupe" text-1="Interesseret i at høre mere
-om MBC? Så kontakt Frederikke nedenfor." text-2="Hør om andres erfaringer med MBC" %}
+    {% assign page-contact = page.contact-person %}
+
+
+    {% include secments/contact-bar.html contact=page-contact contact-color="deep-taupe" text-1="Interesseret i at høre
+    mere
+    om MBC? Så kontakt Frederikke nedenfor." text-2="Hør om andres erfaringer med MBC" %}
 
 
 
-{% include secments/virtual-text.html container-classes="pt-30 pb-100 extra-narrow-container" %}
+    {% include secments/virtual-text.html container-classes="pt-30 pb-100 extra-narrow-container" %}
 
-{% assign pageurl = page.url %}
-
-
-<div class="bg-black-coral white">
-    {% include secments/other-courses.html url=pageurl %}
-</div>
-
-{% include secments/vision.html %}
+    {% assign pageurl = page.url %}
 
 
-<div class="bg-platinum">
-    {% include secments/newsletter.html %}
-</div>
+    <div class="bg-black-coral white">
+        {% include secments/other-courses.html url=pageurl %}
+    </div>
 
-<div class="bg-light-brown">
-    {% include secments/events.html container-classes="pt-50 mb-50 mt-50" btn-color="dust-green-btn" %}
-</div>
-<!-- end -->
+    {% include secments/vision.html %}
 
 
+    <div class="bg-platinum">
+        {% include secments/newsletter.html %}
+    </div>
+
+    <div class="bg-light-brown">
+        {% include secments/events.html container-classes="pt-50 mb-50 mt-50" btn-color="dust-green-btn" %}
+    </div>
+    <!-- end -->

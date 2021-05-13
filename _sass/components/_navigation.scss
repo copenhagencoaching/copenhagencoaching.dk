@@ -178,6 +178,7 @@ nav {
       align-items: center;
       padding-top: 100px;
       padding-bottom: 100px;
+
       .nav-item {
         margin: 2vh 0;
         font-size: .9rem;
@@ -209,7 +210,7 @@ nav {
     }
   }
 
-  
+
 
   .nav-icon {
     height: auto;
@@ -245,8 +246,8 @@ nav {
 
     background: #ffffff;
     border-bottom: 1px solid #a9a9a9;
-    
-    
+
+
 
     .navbar-nav {
       height: 100vh;
@@ -279,30 +280,30 @@ nav {
 
   .nav-icon {
     height: auto;
-    
 
 
 
-  .navbar-toggler:active,
-  .navbar-toggler:focus {
-    outline: none;
-    box-shadow: none;
+
+    .navbar-toggler:active,
+    .navbar-toggler:focus {
+      outline: none;
+      box-shadow: none;
+    }
+
+    .navbar-collapse {
+      margin-top: 10px;
+    }
   }
 
-  .navbar-collapse {
-    margin-top: 10px;
-  }
-}
-
-// Medium devices (landscape tablets, 768px and down)
+  // Medium devices (landscape tablets, 768px and down)
 
 
 
-@media (max-width: 768px) {
+  @media (max-width: 768px) {
     nav {
       margin-top: unset;
     }
-}
+  }
 
 }
 
@@ -312,6 +313,7 @@ nav {
   font-weight: 900;
   float: right;
 }
+
 .panel-heading .accordion-toggle.collapsed:after {
   content: "\f107";
 }
@@ -319,6 +321,7 @@ nav {
 .faq-panel {
   background-color: $platinum;
   padding: 25px 20px 20px 20px;
+
   p:first-of-type {
     padding-top: 20px;
   }
@@ -329,4 +332,55 @@ nav {
   margin: auto;
 
 
+}
+
+.p-left-60 {
+  padding-left: 60px;
+}
+
+.semester-heading {
+  position: relative;
+
+
+  .grid-3 {
+    padding-left: 60px;
+  }
+}
+
+.semester-heading[data-toggle="collapse"]:after {
+  content: "\f106";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  float: right;
+  position: absolute;
+  background: none;
+  left: 20px;
+  font-size: 1.8rem;
+  top: 20px;
+
+
+
+  /* rotate "play" icon from > (right arrow) to down arrow */
+
+}
+
+.semester-heading[data-toggle="collapse"].collapsed:after {
+  content: "\f107";
+}
+
+.switching-list .list-item:nth-child(odd) {
+  background-color: #f0f0f0;
+
+  p {
+    color: #333333 !important;
+  }
+
+}
+
+.switching-list .list-item:nth-child(even) {
+  background-color: #e7e7e7;
+
+  p {
+    color: #333333 !important;
+  }
 }

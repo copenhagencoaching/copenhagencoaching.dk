@@ -332,7 +332,9 @@ a {
     column-gap: 90px !important;
   }
 }
-
+.gap-5 {
+  column-gap: 5px !important;
+}
 
 .gap-90 {
   column-gap: 90px !important;
@@ -349,6 +351,11 @@ a {
 .gap-10 {
   column-gap: 20px !important;
 }
+
+.r-gap-5 {
+  row-gap: 5px;
+}
+
 
 .r-gap-100 {
   row-gap: 100px;
@@ -639,6 +646,14 @@ a {
     grid-template-columns: 1fr;
   }
 
+}
+
+.grid-50-50-50-auto-auto {
+  display: grid;
+  grid-template-columns: 150px 120px 150px 300px 1fr;
+  @include for-bot {
+    grid-template-columns: 1fr;
+  }
 }
 
 .grid-60-10-30 {
