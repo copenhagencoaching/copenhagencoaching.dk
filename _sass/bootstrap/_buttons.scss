@@ -251,6 +251,10 @@ input[type="button"] {
     border-radius: 0;
     margin-top: 0;
   }
+  &:hover {
+    color: white !important;
+    opacity: .7;
+  }
 }
 
 .rifle-green-btn {
@@ -429,4 +433,10 @@ input[type="button"] {
 .group-ticket:hover {
   background-color: #cfc4b6 !important;
   border-color: #cfc4b6!important;
+}
+
+.close-button-file {
+position: absolute;
+right: -20px;
+top: 15px;
 }

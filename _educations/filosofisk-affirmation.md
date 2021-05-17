@@ -14,7 +14,9 @@ hold_eller_begivenheder: true
 events:
 - overskrift: Nyt hold til efteråret 2021 – skriv til os for mere information.
 pdf: "/uploads/FILOSOFISK_AFFIRMATION_CCC.pdf"
-
+cat:
+- skræddersyedeuddannelser
+- procesogtest
 ---
 Filosofisk affirmation er for unge (13-15-årige), som gerne vil _affirmeres_ indenfor det filosofiske univers, som et alternativ eller et supplement til den kristne konfirmation.
 

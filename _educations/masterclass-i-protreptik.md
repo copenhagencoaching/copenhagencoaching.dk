@@ -19,6 +19,9 @@ events:
 redirect_from:
   - /academy/masterclassIProtreptik/
   - /academy/masterclassiprotreptik/
+cat:
+- coaching
+- filosofi
 ---
 ### LIVSSPEJLET: OM AT HOPPE UD AF det mulige SELVBEDRAG OG IND I DEN NORMATIVITET, DER KOMMER FRA HJERTET
 

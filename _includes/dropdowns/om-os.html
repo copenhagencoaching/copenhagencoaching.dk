@@ -1,0 +1,89 @@
+<div class="container-fluid narrow-container no-up">
+    <div class="grid-2 grid-50-50">
+      <div>
+        <h5>CCC indefra</h5>
+        <br>
+        <div>
+
+          <div class="slider-two only-big">
+            {% for emp in site.employees %}
+
+            <div class="center">
+              <img src="{{ emp.small-portrait-image }}" class="small-kvart-image ml-auto mr-auto center" alt="">
+              <p class="small"><b>{{ emp.title }}</b><br><span
+                  class="highlighted green">{{ emp.call }}</span><br>{{ emp.email }}</p>
+            </div>
+
+            {% endfor %}
+
+          </div>
+        </div>
+
+        <hr>
+
+        <h5>CCC udefra</h5>
+        <br>
+        <div class="slider-one">
+          {% for testi in site.testimonials %}
+          <div class="one-slide">
+            <div class="testimonial-quote group right">
+              <img src="{{ testi.image }}">
+              <div class="quote-container">
+                <div>
+                  <blockquote>
+                    <p>{{ testi.content }}</p>
+                  </blockquote>
+                  <cite><span>{{ testi.title }}</span><br>
+                    {{ testi.description }}
+                  </cite>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          {% endfor %}
+
+        </div>
+
+      </div>
+      <div class="border-left grid-1 r-gap-40">
+        <div class="grid-1">
+          {% for fund in site.fundament %}
+          {% if fund.title contains "EMCC" %}
+          <div class="card">
+            <img src="{{ fund.image }}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">{{ fund.title }}</h5>
+              <p class="card-text small m-b-20">{{ fund.description }}</p>
+
+            </div>
+            <div class="card-footer"> <a href="{{ fund.url }}" class="btn">Læs mere</a></div>
+          </div>
+          {% endif %}
+          {% endfor %}
+        </div>
+        <div class="grid-2 gap-40 r-gap-40">
+          {% for fund in site.fundament %}
+          {% if fund.title != "EMCC akkreditering" %}
+          <div class="card">
+            <img src="{{ fund.image }}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">{{ fund.title }}</h5>
+              <p class="card-text small m-b-20">{{ fund.description }}</p>
+
+            </div>
+            <div class="card-footer"> <a href="{{ fund.url }}" class="btn">Læs mere</a></div>
+          </div>
+          {% endif %}
+          {% endfor %}
+        </div>
+        <div class="grid-1">
+          <a class="dropdown-item got-icon" href="#"><i
+              class="fas fa-chevron-right"></i>Persondatapolitik</a>
+          <a class="dropdown-item got-icon" href="#"><i class="fas fa-chevron-right"></i>Praktisk
+            Information</a>
+        </div>
+      </div>
+
+    </div>
+  </div>

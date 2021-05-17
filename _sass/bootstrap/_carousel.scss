@@ -196,26 +196,28 @@
   text-align: center;
 }
 
-.slider {
+.slider,
+.slider-5 {
 
-  
 
-  
-  & > .generic-item-wrap-class {
-      visibility: hidden;
+  @include for-bot {
+    display: none !important;
   }
-  
+
+  &>.generic-item-wrap-class {
+    visibility: hidden;
+  }
+
   &.slick-initialized {
-      background: none;
-  
-      & > .generic-item-wrap-class {
-          visibility: visible;
-      }
-  }
-  }
+    background: none;
 
-  .slider {
-    @include for-bot {
-      display: none !important;
+    &>.generic-item-wrap-class {
+      visibility: visible;
     }
   }
+}
+
+.grid-20-80.left {
+  align-items: unset;
+  align-content: unset;
+}

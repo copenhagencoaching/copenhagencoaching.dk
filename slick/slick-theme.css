@@ -36,7 +36,7 @@
     z-index: 100000;
     cursor: pointer;
 
-    color: rgb(255, 255, 255);
+    color: rgb(177, 177, 177);
     border: none;
     outline: none;
     background: transparent;
@@ -70,7 +70,7 @@
     font-size: 2rem;
     line-height: 1;
 
-    color: rgb(255, 255, 255);
+    color: rgb(177, 177, 177);
     
 
     -webkit-font-smoothing: antialiased;
@@ -79,7 +79,7 @@
 
 .slick-prev
 {
-    left: 10px;
+    left: 5px;
 }
 [dir='rtl'] .slick-prev
 {
@@ -97,7 +97,7 @@
 
 .slick-next
 {
-    right: 22px;
+    right: 5px;
 }
 [dir='rtl'] .slick-next
 {
@@ -116,13 +116,13 @@
 /* Dots */
 .slick-dotted.slick-slider
 {
-    
+    margin-bottom: 30px;
 }
 
 .slick-dots
 {
     position: absolute;
-    bottom: 25px;
+    bottom: -25px;
 
     display: block;
 
@@ -192,7 +192,7 @@
     text-align: center;
 
     
-    color: rgb(255, 255, 255);
+    color: rgb(136, 136, 136);
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -200,7 +200,7 @@
 .slick-dots li.slick-active button:before
 {
     
-    color: rgb(153, 153, 153);
+    color: rgb(63, 63, 63);
 }
 
 

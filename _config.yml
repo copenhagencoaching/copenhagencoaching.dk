@@ -33,6 +33,49 @@ plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
 
+themes:
+  - title: ledelsesudvikling
+    order: 1
+    name: Ledelsesudvikling
+  - title: organisationsudvikling
+    order: 2
+    name: Organisationsudvikling
+  - title: teamudvikling
+    order: 3
+    name: Teamudvikling
+  - title: procesledelse
+    order: 4
+    name: Procesledelse
+  - title: procesogtest
+    order: 5
+    name: Ansættelsesproces og testværktøjer
+    
+consultation-categories:
+  - title: Fagområder
+    order: 1
+  - title: Vores tilgang
+    order: 2
+  - title: Vores medarbejdere
+    order: 3
+  - title: Vores værdigrundlag
+    order: 4
+  - title: Eksempler på aktiviteter
+    order: 5
+  - title: Praktisk
+    order: 6
+  - title: Samarbejdspartnerer
+    order: 7
+
+customer-categories:
+  - title: sundhed & omsorg
+    order: 1
+  - title: børn & unge
+    order: 2
+  - title: kultur & forlystelse
+    order: 3
+  - title: sport & fritid
+    order: 4
+
 collections:
   posts:
     output: true
@@ -73,6 +116,11 @@ collections:
     output: true
     permalink: /protrptik-som-behandlingsform-og-ledelsesdisciplin/bidragsydere/:title/
   tests:
+    output: true
+    permalink: /:title/
+  testimonials:
+    output: false
+  edu-categories:
     output: true
     permalink: /:title/
 
@@ -130,6 +178,11 @@ defaults:
   -
     scope:
       type: tests
+    values:
+      layout: default
+  -
+    scope:
+      type: edu-categories
     values:
       layout: default
 

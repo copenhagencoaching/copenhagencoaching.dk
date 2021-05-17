@@ -20,6 +20,11 @@ redirect_from:
   - /academy/ledelseskursesPåLesbos/
   - /academy/ledelseskursus-på-lesbos/
   - /academy/ledelseskursuspålesbos/
+cat:
+- lederskab
+- put
+- coaching
+- filosofi
 ---
 ### Hvorfor skal du vælge Ledelseskursus på Lesbos?
 

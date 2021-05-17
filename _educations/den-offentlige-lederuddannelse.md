@@ -12,6 +12,8 @@ oe-order: 5
 emails:
 - ln@copenhagencoaching.dk
 special: false
+cat:
+- diplom
 hold_eller_begivenheder: true
 events:
 - overskrift: Projektledelse 2021

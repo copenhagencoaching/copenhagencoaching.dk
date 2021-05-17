@@ -1,0 +1,84 @@
+<div class="container-fluid narrow-container no-up">
+    <div class="only-for-laptop">
+      <div class="navigation-link">
+        <a data-proofer-ignore="" href="#contact" data-toggle="modal" data-target="#contact-modal">Skriv til
+          os</a>
+      </div>
+      <div class="navigation-link">
+        <a href="/about/">Om os</a>
+      </div>
+      <div class="navigation-link">
+        <a href="#footer">Find os her</a>
+      </div>
+    </div>
+
+    <div class="grid-2 grid-70-30 gap-40 r-gap-20 laptop-1fr only-big">
+      <div class="grid-1">
+        <div class="grid-2 grid-30-70 r-gap-20">
+          <div>
+
+            <h5>Find os her:</h5>
+            <address>Blegdamsvej 104 A, 2. Sal <br>2100 Kbh Ø</address>
+            <iframe class="i-frame small"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2248.53044321456!2d12.571180315826155!3d55.69715098053854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465252fc41a2fdff%3A0x5cffffd334cabc42!2sBlegdamsvej%20104A%2C%202100%20K%C3%B8benhavn!5e0!3m2!1sen!2sdk!4v1577555981422!5m2!1sen!2sdk"></iframe>
+
+          </div>
+          <div class="grid-1">
+          <div class="grid-2 border-left border-none-laptop r-gap-20">
+            <div>
+              <h5>I tvivl om uddannelsesretning?</h5>
+              <span>Ring og få en snak med:</span>
+              <div class="grid-2 grid-20-80">
+                {% for emp in site.employees %}
+                {% if emp.title == "Frederikke Winther" %}
+                <img class="small-round-image" src="{{ emp.small-portrait-image }}" alt="">
+                <span class="small"><b>{{ emp.title }}</b><br><span
+                    class="highlighted green">{{ emp.call }}</span><br>{{ emp.email }}</span>
+                {% endif %}
+                {% endfor %}
+              </div>
+            </div>
+            <div>
+              <h5>Skal vi skræddersy et forløb til jer?</h5>
+              <span>Ring og få en snak med:</span>
+              <div class="grid-2 grid-20-80">
+                {% for emp in site.employees %}
+                {% if emp.title == "Andreas Bering" %}
+                <img class="small-round-image" src="{{ emp.small-portrait-image }}" alt="">
+                <span class="small"><b>{{ emp.title }}</b><br><span
+                    class="highlighted green">{{ emp.call }}</span><br>{{ emp.email }}</span>
+                {% endif %}
+                {% endfor %}
+              </div>
+            </div>
+
+
+
+          </div>
+          <div class="border-left">
+            <h3>Bliv en del af CCC Community</h3>
+            <p>Et fællesskab for vedvarende læring og udvikling af dit lederskab</p>
+            <a href="/community/" class="blue-button">Se mere</a>
+          </div>
+        </div>
+        </div>
+
+       
+
+      </div>
+      <div>
+        <form action="https://formspree.io/moqllqyp" method="POST" class="small-form">
+          <h4>Skriv til os</h4>
+          <p class="mb-0">Vi svarer dig hurtigst muligt</p>
+          <br>
+          <span>
+            <input type="text" name="navn" placeholder="Navn">
+            <input type="text" name="email" placeholder="Email">
+          </span>
+          <textarea name="besked"placeholder="Besked"></textarea>
+          <!-- your other form fields go here -->
+          <button class="blue-button" type="submit">SEND</button>
+        </form>
+      </div>
+    </div>
+  </div>

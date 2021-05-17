@@ -6,6 +6,8 @@ header: Coach-certificering (EMCC)
 price: xxx pris
 dates: [xxxx, xxyy]
 category: certificeringer
+cat:
+- diplom
 ---
 
 ### Hvorfor skal du vælge Coach-certificering (EMCC)?

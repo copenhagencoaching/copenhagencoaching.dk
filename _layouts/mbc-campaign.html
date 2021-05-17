@@ -47,7 +47,7 @@ layout: default
                 aria-selected="false">Praktisk</a>
             <a class="nav-item nav-link" id="nav-7-tab" data-toggle="tab" href="#nav-7" role="tab" aria-controls="nav-7"
                 aria-selected="false">FAQ</a>
-            <a class="nav-item nav-link" href="#ansøgning" data-toggle="modal"
+            <a class="nav-item nav-link open_modal" href="#ansøgning" data-toggle="modal" data-id="hold"
                 data-target="#mbc-application-modal">Ansøg</a>
         </div>
     </div>
@@ -79,55 +79,54 @@ layout: default
                 <div class="grid-1 r-gap-5">
                     {% for semester in page.semesters %}
                     <div>
-                        
-                        <a class="bg-black-coral semester-heading collapsed" data-toggle="collapse"
-                                href="#hold{{ forloop.index}}" role="button" aria-expanded="false"
-                                aria-controls="">
-                                <div class="grid-1 bg-black-coral p-20 gap-20 r-gap-10 p-left-60">
-                                    <div>
-                                        <p class="mb-0 large"><b>Hold:</b> {{ semester.title }}</p>
-                                   </div>
-    
-                                     <div>
-                                        <p class="mb-0 faded"><b>Pris:</b> {{ semester.price }}</p>
-                                     </div>
-                                     
-                                </div>
-                                </a>
-                                <div class="bg-black-coral collapse" id="hold{{ forloop.index}}">
 
-                                    <div class="switching-list">
-                                        {% for date in semester.dates %}
-                                        <div class="grid-1 p-20 list-item">
-                                            <div>
-                                                <p class="mb-0"><b>Dato:</b> {{ date.title }}</p>
-                                            </div>
-                                            <div>
-                                                <p class="mb-0"><b>Dag:</b> {{ date.dag }}</p>
-                                            </div>
-                                            <div>
-                                                <p class="mb-0"><b>Tid:</b> {{ date.time }}</p>
-            
-                                            </div>
-                                            <div>
-                                                <p class="mb-0"><b>Modul:</b> {{ date.modul }}</p>
-                                            </div>
-                                            <div>
-                                                <p class="mb-0"><b>Sted:</b> {{ date.sted }}</p>
-                                            </div>
-                                        </div>
-                                       
-        
-        
-        
-                                        {% endfor %}
-                                    
+                        <a class="bg-black-coral semester-heading collapsed" data-toggle="collapse"
+                            href="#hold{{ forloop.index}}" role="button" aria-expanded="false" aria-controls="">
+                            <div class="grid-1 bg-black-coral p-20 gap-20 r-gap-10 p-left-60">
+                                <div>
+                                    <p class="mb-0 large"><b>Hold:</b> {{ semester.title }}</p>
+                                </div>
+
+                                <div>
+                                    <p class="mb-0 faded"><b>Pris:</b> {{ semester.price }}</p>
+                                </div>
+
+                            </div>
+                        </a>
+                        <div class="bg-black-coral collapse" id="hold{{ forloop.index}}">
+
+                            <div class="switching-list">
+                                {% for date in semester.dates %}
+                                <div class="grid-1 p-20 list-item">
+                                    <div>
+                                        <p class="mb-0"><b>Dato:</b> {{ date.title }}</p>
+                                    </div>
+                                    <div>
+                                        <p class="mb-0"><b>Dag:</b> {{ date.dag }}</p>
+                                    </div>
+                                    <div>
+                                        <p class="mb-0"><b>Tid:</b> {{ date.time }}</p>
+
+                                    </div>
+                                    <div>
+                                        <p class="mb-0"><b>Modul:</b> {{ date.modul }}</p>
+                                    </div>
+                                    <div>
+                                        <p class="mb-0"><b>Sted:</b> {{ date.sted }}</p>
                                     </div>
                                 </div>
+
+
+
+
+                                {% endfor %}
+
+                            </div>
+                        </div>
                     </div>
                     {% endfor %}
                 </div>
-               
+
             </div>
             <div class="container-fluid medium-narrow-container white pt-50 pb-75 only-big">
                 <h2 class="align-center">Kursus oversigt</h2><br><br>
@@ -135,35 +134,39 @@ layout: default
                     <div class="grid-3 p-20 p-left-60 pb-0 capped">
                         <div>
                             <p class="mb-0"><b>Hold</b></p>
-                         </div>
-                        <div>
-                           <p class="mb-0"><b>Dato</b></p>
                         </div>
-                         <div>
+                        <div>
+                            <p class="mb-0"><b>Dato</b></p>
+                        </div>
+                        <div>
                             <p class="mb-0"><b>Pris</b></p>
-                         </div>
-                         <div></div>
+                        </div>
+                        <div></div>
                     </div>
                     {% for semester in page.semesters %}
                     <div>
+                        <div class="position-relative">
+                            <a class="bg-black-coral semester-heading collapsed" data-toggle="collapse"
+                                href="#hold{{ forloop.index}}" role="button" aria-expanded="false" aria-controls="">
+                                <div class="grid-3 bg-black-coral p-20 gap-20 p-left-60">
+                                    <div>
+                                        <p class="mb-0">{{ semester.title }}</p>
+                                    </div>
+                                    <div>
+                                        <p class="mb-0">{{ semester.span }}</p>
+                                    </div>
 
-                        <a class="bg-black-coral semester-heading collapsed" data-toggle="collapse"
-                            href="#hold{{ forloop.index}}" role="button" aria-expanded="false"
-                            aria-controls="">
-                            <div class="grid-3 bg-black-coral p-20 gap-20">
-                                <div>
-                                    <p class="mb-0">{{ semester.title }}</p>
-                               </div>
-                                <div>
-                                     <p class="mb-0">{{ semester.span }}</p>
+                                    <div>
+                                        <p class="mb-0">{{ semester.price }}</p>
+                                    </div>
+
+
                                 </div>
-
-                                 <div>
-                                    <p class="mb-0">{{ semester.price }}</p>
-                                 </div>
-                                 <div></div>
-                            </div>
                             </a>
+                            <a class="cinereous-btn position-right open_modal" href="#ansøgning"
+                                data-id="{{ semester.title }}" data-toggle="modal"
+                                data-target="#mbc-application-modal">Ansøg</a>
+                        </div>
                         <div class="bg-black-coral collapse" id="hold{{ forloop.index}}">
                             <div class="grid-50-50-50-auto-auto grid-5 p-20 bg-deep-taupe">
                                 <div>
@@ -194,7 +197,7 @@ layout: default
                                     </div>
                                     <div>
                                         <p class="mb-0">{{ date.time }}</p>
-    
+
                                     </div>
                                     <div>
                                         <p class="mb-0">{{ date.modul }}</p>
@@ -203,12 +206,12 @@ layout: default
                                         <p class="mb-0">{{ date.sted }}</p>
                                     </div>
                                 </div>
-                               
+
 
 
 
                                 {% endfor %}
-                            
+
                             </div>
                         </div>
                     </div>
@@ -763,24 +766,39 @@ layout: default
 
 
                     <br>
-                    <form class="white-form" action="https://formspree.io/f/mzbyzbyg" method="POST">
+                    <form class="white-form" action="https://formspree.io/f/mzbyzbyg" method="POST" enctype="multipart/form-data">
 
 
-                        {% if page.hold %}
-                        <select class="input-form udd" name="uddannelse">
+
+
+                        <select class="input-form udd mbc-hold" id="mbc-hold" name="mbc-hold">
                             <option value="hold">Vælg hold</option>
-                            {% for h in page.hold %}
-                            <option value="{{ h }}">{{ h }}</option>
+                            {% for h in page.semesters %}
+                            <option value="{{ h.title }}">{{ h.title }}</option>
                             {% endfor %}
 
                         </select>
-                        {% endif %}
+
                         <input type="hidden" name="uddannelse" value="{{ page.title }}" />
                         <input type="text" name="FNAME" placeholder="Fornavn*" required>
                         <input type="text" name="LNAME" placeholder="Efternavn*" required>
                         <input type="text" name="virksomhed" placeholder="Virksomhed">
-                        <input type="text" name="cvr" placeholder="CVR nummer">
-                        <input type="text" name="ean" placeholder="EAN">
+                        <label><b>Hvem skal betale?</b></label>
+                        <br>
+                        <label>
+                            <input type="radio" class="checkbox privat" checked id="privat" name="betaling"
+                                value="privat">
+                            Privat</label>
+                        <br>
+                        <label class="mb-20">
+                            <input type="radio" class="checkbox virksomhed" id="virksomhed" name="betaling"
+                                value="virksomhed">
+                            Virksomhed</label>
+                        <br>
+                        <div id="virksomhed-box">
+
+                        </div>
+
                         <input type="text" name="adress" placeholder="Fakturerings adresse*" required>
                         <div class="grid-2">
                             <input type="text" name="zip-code" placeholder="Postnummer*" required>
@@ -789,12 +807,12 @@ layout: default
 
 
 
-                        <input type="tel" name="mobile" pattern="[0-9]{8}" placeholder="Arb. tlf." required>
+                        <input type="tel" name="arb-tlf" pattern="[0-9]{8}" placeholder="Arb. tlf.*" required>
                         <input type="tel" name="mobile" pattern="[0-9]{8}" placeholder="Mobil">
                         <input type="email" name="email" placeholder="E-mail*" required>
 
 
-                        <input type="text" name="cvr" placeholder="CVR nummer">
+                        
                         <textarea name="besked" cols="30" rows="10" placeholder="Evt. kommentar"></textarea>
                         <label><b>Uddannelsesmæssig baggrund:</b><br>
                             <i>Skriv venligst dine formelle uddannelser</i></label>
@@ -814,26 +832,51 @@ layout: default
                         <!--      <label><b>Jeg søger optagelse via:</b><br>
                 <input class="checkbox" type="radio" id="male" name="kvote" value="§1"> §1 <br><input class="checkbox" type="radio" id="male" name="kvote" value="§2"> §2 <br><input class="checkbox" type="radio" id="male" name="kvote" value="§3"> §3</label>
                 <br><a href="/pfp/adgangskrav/" target="_blank" class="small">Læs om kvoter og adgangskrav her</a> -->
-                        <br>
+
                         <!--  <label><b>Merit:</b><br>
         <input class="checkbox" type="checkbox" name="merit"/>
         Jeg søger meritoverførsel fra anden tilsvarende psykoterapeutuddannelse</label><br>
       <br> -->
 
-                        <label><b>Hvor har du hørt om os?:</b><br>
-                            <input class="checkbox" type="checkbox" name="google" /> Google<br>
-                            <input class="checkbox" type="checkbox" name="facebook" /> Facebook<br>
-                            <input class="checkbox" type="checkbox" name="instagram" /> Instagram<br>
-                            <input class="checkbox" type="checkbox" name="linkedin" /> LinkedIn<br>
-                            <input class="checkbox" type="checkbox" name="anbefaling" /> Anbefaling fra andre<br>
-                            <input class="checkbox" type="checkbox" name="andet" /> Andet
-
+                        <br>
+                        <label class="mb-0" id="file-upload">
+                            <b>Vedhæft relevante dokumenter:</b>
+                            <input type="file" name="upload"
+                                accept=".doc,.docx,.pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document">
                         </label>
                         <br>
+                        <label>
+                            <a href="#flere" class="black-coral-btn faded small thin add-more-files">Tilføj flere</a>
+                        </label>
+                        <br><br>
+                        <label><b>Hvor har du hørt om os?:</b></label><br>
+                        <label><input class="checkbox" type="checkbox" name="hoert-om-os" value="Google" />
+                            Google</label>
+                        <br>
+                        <label><input class="checkbox" type="checkbox" name="hoert-om-os" value="facebook" />
+                            Facebook</label>
                         <br>
                         <label>
-                            <input class="checkbox" type="checkbox" name="_optin" required /> Jeg vil gerne modtage
-                            CCC's nyhedsbrev
+                            <input class="checkbox" type="checkbox" name="hoert-om-os" value="instagram" />
+                            Instagram
+                        </label>
+                        <br>
+                        <label><input class="checkbox" type="checkbox" name="hoert-om-os" value="linkedin" />
+                            LinkedIn</label>
+                        <br>
+                        <label><input class="checkbox" type="checkbox" name="hoert-om-os" value="anbefaling" />
+                            Anbefaling
+                            fra andre</label>
+                        <br>
+                        <label><input class="checkbox" type="checkbox" name="hoert-om-os" value="andet" /> Andet</label>
+
+
+
+
+                        <br><br>
+                        <label>
+                            <input class="checkbox" type="checkbox" name="_optin" /> Jeg vil gerne modtage
+                            CCC's nyhedsbrev via mail.
                         </label>
                         <br>
                         <br>
@@ -857,7 +900,7 @@ layout: default
 
                         <!-- your other form fields go here -->
 
-                        <button class="dust-green-btn" type="submit">Ansøg</button>
+                        <button class="black-coral-btn w-100 large thin capped" type="submit">Ansøg</button>
 
                     </form>
 
@@ -892,11 +935,59 @@ layout: default
     {% include secments/vision.html %}
 
 
-    <div class="bg-platinum">
+    <div class="bg-black-coral white">
         {% include secments/newsletter.html %}
     </div>
 
     <div class="bg-light-brown">
-        {% include secments/events.html container-classes="pt-50 mb-50 mt-50" btn-color="dust-green-btn" %}
+        {% include secments/events.html container-classes="pt-50 mb-0 mt-0" btn-color="dust-green-btn" %}
     </div>
     <!-- end -->
+
+    <script>
+        $(document).on("click", ".open_modal", function () {
+            var product = $(this).data('id');
+            console.log(product);
+            var selecter = document.getElementById('mbc-hold');
+            console.log(selecter);
+            selecter.value = product;
+        });
+
+        var numner = 1;
+        $(document).on("click", ".add-more-files", function () {
+            var new_num = 1;
+            var boxx = document.getElementById('file-upload');
+            var close_box = document.createElement('a');
+            close_box.innerHTML = "<i class='fas fa-times'></i>";
+            close_box.className = "close-button-file"
+            close_box.href = "#close"
+            var the_div = document.createElement("div");
+            the_div.className = "position-relative";
+            var elements = document.createElement("input");
+
+            elements.type = "file";
+            elements.name = "upload-" + new_num + 1;
+            elements.accept = ".doc,.docx,.pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document";
+            the_div.appendChild(elements);
+            the_div.appendChild(close_box);
+            boxx.appendChild(the_div);
+        });
+
+        $(document).on("click", ".close-button-file", function () {
+            var cross = $(this)
+            cross.parent().remove()
+        });
+
+        $(document).on("click", "#privat", function () {
+            var hehe = $("#cvr")
+            hehe.parent().remove();
+
+        });
+
+
+        $(document).on("click", "#virksomhed", function () {
+            $('#virksomhed-box').html('<div><input type="text" name="cvr" id="cvr" placeholder="CVR nummer"><input type="text" name="ean" placeholder="EAN"></div>')
+
+        });
+
+    </script>

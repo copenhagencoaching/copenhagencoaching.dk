@@ -14,6 +14,10 @@ location: Al undervisning foregår online på Zoom. 6 online sessioner á 2-4 ti
 special: false
 hold_eller_begivenheder: true
 classes: big-five
+cat:
+- proces
+- rot
+- certificeringer
 emails:
 - fw@copenhagencoaching.dk
 events:

@@ -24,6 +24,8 @@ events:
   - 8. februar 2022
 redirect_from:
   - /coaching/proceslederuddannelse/
+cat:
+- procesledelse
 ---
 Du vil kunne mestre den sunde og veldesignede proces, der giver jeres arbejde retning og mening.
 

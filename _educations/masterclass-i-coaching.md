@@ -16,6 +16,8 @@ events:
 - overskrift: Vi har desværre ingen aktuelle datoer at tilbyde dig lige nu. Kontakt os meget gerne for mere information på info@copenhagencoaching.dk
 pdf: ''
 published: false
+cat:
+- coaching
 ---
 > ### SELV-FORNEMMELSENS FIRE LAG I COACHING-PRAKSIS
 >

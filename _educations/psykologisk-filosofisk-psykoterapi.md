@@ -6,4 +6,7 @@ special: false
 image: /images/educations/psykologisk-filosofisk-psykoterapi.png
 layout: pfp
 contact-person: Kim Gørtz
+cat:
+- master-4
+- put
 ---

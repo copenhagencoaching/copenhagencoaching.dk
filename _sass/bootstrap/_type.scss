@@ -498,6 +498,13 @@ mark,
   align-items: center;
 }
 
+.position-right {
+  position: absolute;
+  right: 20px;
+  top: -7px;
+  width: 100px;
+}
+
 
 .align-right {
   text-align: right;
@@ -555,4 +562,8 @@ mark,
 
 .w-100p {
   width: 100px;
+}
+
+.slider-two {
+  max-width: 100%;
 }

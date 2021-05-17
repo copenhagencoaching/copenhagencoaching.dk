@@ -1,0 +1,128 @@
+<div class="container-fluid narrow-container no-up no-down only-for-bot">
+
+  <h4 class="list-header">Vælg uddannelsestype</h4>
+  {% for theme in site.education-categories %}
+  <a class="got-icon navigation-link" href="#"><i class="fas fa-chevron-right"></i> {{ theme.name }}</a>
+  {% endfor %}
+
+</div>
+
+
+<div class="container-fluid narrow-container no-up only-big">
+
+<!--   <div class="grid-4 gap-40 r-gap-40">
+    {% assign ordered_themes = site.edu-categories | sort: "order" %}
+
+    {% for cat in ordered_themes %}
+   <div>
+    <h4 class="list-header">{{ cat.title }}</h4>
+    {% for edu in site.educations %}
+    {% for cate in edu.cat %}
+    {% if cate == cat.name %}
+
+    <a class="navigation-link got-icon" href="{{ edu.url }}"></i>
+      {{ edu.title }}</a>
+    {% endif %}
+    {% endfor %}
+    {% endfor %}
+   </div>
+   
+ 
+    {% endfor %}
+  </div> -->
+
+
+
+  <div class="grid-4 gap-40">
+    <div>
+
+ {% assign ordered_themes = site.edu-categories | sort: "order" %}
+
+      {% for cat in ordered_themes %}
+      {% if cat.side == "left" %}
+      <h5 class="list-header capped">{{ cat.title }}</h5>
+      {% for edu in site.educations %}
+      {% for cate in edu.cat %}
+      {% if cate == cat.name %}
+
+      <a class="navigation-link got-icon" href="{{ edu.url }}">
+        {{ edu.title }}</a>
+      {% endif %}
+      {% endfor %}
+      {% endfor %}
+      {% endif %}
+      {% endfor %}
+      
+
+    
+  </div>
+  <div>
+    {% for cat in ordered_themes %}
+    {% if cat.side == "middle" %}
+    <h5 class="list-header capped">{{ cat.title }}</h5>
+    {% for edu in site.educations %}
+    {% for cate in edu.cat %}
+    {% if cate == cat.name %}
+
+    <a class="navigation-link got-icon" href="{{ edu.url }}">
+      {{ edu.title }}</a>
+    {% endif %}
+    {% endfor %}
+    {% endfor %}
+    {% endif %}
+    {% endfor %}
+  </div>
+
+  <div>
+    {% for cat in ordered_themes %}
+    {% if cat.side == "right" %}
+
+    {% if cat.title == "Filosofi" %}
+    {% else %}
+    <h5 class="list-header capped">{{ cat.title }}</h5>
+    {% for edu in site.educations %}
+    {% for cate in edu.cat %}
+    {% if cate == cat.name %}
+
+    <a class="navigation-link got-icon" href="{{ edu.url }}">
+      {{ edu.title }}</a>
+    {% endif %}
+    {% endfor %}
+    {% endfor %}
+{% endif %}
+
+    {% endif %}
+    {% endfor %}
+  </div>
+  <div>
+    {% for cat in ordered_themes %}
+    {% if cat.side == "right" %}
+
+    {% if cat.title == "Filosofi" %}
+   
+    <h5 class="list-header capped">{{ cat.title }}</h5>
+    {% for edu in site.educations %}
+    {% for cate in edu.cat %}
+    {% if cate == cat.name %}
+
+    <a class="navigation-link got-icon" href="{{ edu.url }}">
+      {{ edu.title }}</a>
+    {% endif %}
+    {% endfor %}
+    {% endfor %}
+{% endif %}
+
+
+    {% endif %}
+    {% endfor %}
+    <br>
+    <p class="highlighted mb-0">Tilmeld dig vores nyhedsbrev og bliv opdateret omkring kommende hold start, nye uddannelser og eksklusive tilbud.</p>
+    <button class="blue-button w-100" data-toggle="modal" data-target="#newsletter-modal">Tilmeld
+      nyhedsbrev</button>
+  </div>
+
+  </div>
+
+
+
+  </div>

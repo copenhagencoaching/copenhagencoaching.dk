@@ -12,7 +12,8 @@ special: true
 order: "4"
 hold_information: Kurset afholdes som skræddersyet forløb og planlægges efter aftale
   med holdet.
-
+cat:
+- proces
 ---
 **Du kan trygt melde dig til vores næste hold. Vi følger situationen og de løbende retningslinjer nøje for at undgå spredningen af covid-19.**
 

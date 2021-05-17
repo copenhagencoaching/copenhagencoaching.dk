@@ -1,0 +1,59 @@
+<div class="container-fluid narrow-container no-up">
+  <div class="grid-2 grid-20-80">
+
+    <div>
+      {% assign orderedcats = site.consultation-categories | sort: "order" %}
+      {% for cat in orderedcats %}
+      <h4 class="list-header">{{ cat.title }}</h4>
+      {% endfor %}
+
+
+    </div>
+    <div>
+      
+        <div class="grid-3 gap-40">
+          <div>
+            <h5 class="list-header capped">Privat</h5>
+            <p>Magna labore ipsum nostrud velit eiusmod ullamco laboris id sint exercitation fugiat Lorem
+              consectetur.</p>
+            <a href="/inspiration" class="navigation-link got-icon"><i class="fas fa-chevron-right"></i> Læs
+              mere</a>
+          </div>
+          <div>
+            <h5 class="list-header">Offentlig</h5>
+            <p>Magna labore ipsum nostrud velit eiusmod ullamco laboris id sint exercitation fugiat Lorem
+              consectetur.</p>
+            <a href="/inspiration" class="navigation-link got-icon"> <i class="fas fa-chevron-right"></i> Læs
+              mere</a>
+          </div>
+        
+        <div>
+          <h5 class="list-header">Lær os bedre at kende</h5>
+              <a href="/inspiration" class="navigation-link got-icon"><i class="fas fa-chevron-right"></i> Tilmeld nyhedsbrev</a>
+              <a href="/inspiration" class="navigation-link got-icon"><i class="fas fa-chevron-right"></i> Har du læst?</a>
+              <br>
+              <a href="#contact" data-toggle="modal" data-target="#contact-modal"
+                class="navigation-link got-icon highlighted blue"><i class="fas fa-chevron-right"></i> Vores dør
+                er altid åben -
+                book
+                en samtale</a>
+        </div>
+      </div>
+      <h4 class="list-header">Mød vores konsulenter</h4><br>
+      <div class="slider-two">
+        {% for emp in site.employees %}
+
+        <div class="center">
+          <img src="{{ emp.small-portrait-image }}" class="small-kvart-image ml-auto mr-auto center" alt="">
+          <p class="small"><b>{{ emp.title }}</b><br><span class="highlighted green">{{ emp.call }}</span><br>{{
+            emp.email }}</p>
+        </div>
+
+        {% endfor %}
+
+      </div>
+    </div>
+
+
+  </div>
+</div>

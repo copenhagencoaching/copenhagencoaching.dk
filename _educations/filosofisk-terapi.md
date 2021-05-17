@@ -13,7 +13,8 @@ order: "3"
 hold_eller_begivenheder: true
 events:
 - overskrift: Datoer følger snarest
-
+cat:
+- proces
 ---
 **Du kan trygt melde dig til vores næste hold. Vi følger situationen og de løbende retningslinjer nøje for at undgå spredningen af covid-19.**
 

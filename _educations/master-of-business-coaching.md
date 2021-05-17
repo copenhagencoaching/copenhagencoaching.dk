@@ -48,7 +48,11 @@ events:
     - 14. - 16. juni
 redirect_from:
   - /master-business-coaching-mbc/
-
+cat:
+- master-2
+- lederskab
+- put
+- coaching
 ---
 
 ### Hvorfor skal du vælge Master of Business Coaching?
