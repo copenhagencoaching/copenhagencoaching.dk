@@ -1,0 +1,232 @@
+---
+layout: default
+---
+
+
+<div class="container-fluid narrow-container">
+  <div class="grid-2 gap-90">
+    <div class="bg-platinum p-40">
+      <div>
+        <h2>Undervisnings kalender</h2>
+        <p>Her kan du se alle undervisnings datoer</p>
+      </div>
+      <div class="calendar-list">
+        {% assign curYear = 'now' | date: "%Y" %}
+        {% assign curMonth = 'now' | date: "%m" %}
+
+        {% assign orderedposts = site.calendar | sort: "date" | reversed %}
+        {% assign postsByYear = orderedposts | group_by_exp:"post", "post.date | date: '%Y'" %}
+
+
+        {% for year in postsByYear %}
+
+        {% if year.name == curYear %}
+
+
+
+        <h1>{{ year.name }}</h1>
+        <hr class="hr-no-m">
+        <br>
+        {% assign postsByMonth = year.items | group_by_exp:"post", "post.date | date: '%m'" %}
+
+        {% for month in postsByMonth %}
+        {% if month.name >= curMonth %}
+
+        {% if month.name == "01" %}
+        {% assign monthName = "Januar" %}
+        {% elsif month.name == "02" %}
+        {% assign monthName = "Februar" %}
+        {% elsif month.name == "03" %}
+        {% assign monthName = "Marts" %}
+        {% elsif month.name == "04" %}
+        {% assign monthName = "April" %}
+        {% elsif month.name == "05" %}
+        {% assign monthName = "Maj" %}
+        {% elsif month.name == "06" %}
+        {% assign monthName = "Juni" %}
+        {% elsif month.name == "07" %}
+        {% assign monthName = "Juli" %}
+        {% elsif month.name == "08" %}
+        {% assign monthName = "August" %}
+        {% elsif month.name == "09" %}
+        {% assign monthName = "September" %}
+        {% elsif month.name == "10" %}
+        {% assign monthName = "Oktober" %}
+        {% elsif month.name == "11" %}
+        {% assign monthName = "November" %}
+        {% elsif month.name == "12" %}
+        {% assign monthName = "December" %}
+        {% endif %}
+
+
+        <h2>{{ monthName }}</h2>
+
+        <ul>
+
+          {% for post in month.items %}
+          <li>
+            <div class="calendar-list__date">
+              <span class="bigmonth">{{ post.date | date: "%d" }} {% if post.enddate %}
+              </span><span> | </span> <span>{{ post.enddate }} {% endif %}</span>
+            </div>
+            <div class="calendar-list__desc">
+              <span>{{ post.title }}</span>
+              <span>{% if post.time %}<i class="far fa-clock"></i> {{ post.time }}{% endif %}</span>
+            </div>
+          </li>
+          {% endfor %}
+
+
+        </ul>
+        {% endif %}
+        {% endfor %}
+
+
+
+        
+        {% elsif year.name > curYear %}
+
+        <h1>{{ year.name }}</h1>
+        <hr class="hr-no-m">
+        <br>
+        {% assign postsByMonth = year.items | group_by_exp:"post", "post.date | date: '%m'" %}
+
+        {% for month in postsByMonth %}
+        
+
+        {% if month.name == "01" %}
+        {% assign monthName = "Januar" %}
+        {% elsif month.name == "02" %}
+        {% assign monthName = "Februar" %}
+        {% elsif month.name == "03" %}
+        {% assign monthName = "Marts" %}
+        {% elsif month.name == "04" %}
+        {% assign monthName = "April" %}
+        {% elsif month.name == "05" %}
+        {% assign monthName = "Maj" %}
+        {% elsif month.name == "06" %}
+        {% assign monthName = "Juni" %}
+        {% elsif month.name == "07" %}
+        {% assign monthName = "Juli" %}
+        {% elsif month.name == "08" %}
+        {% assign monthName = "August" %}
+        {% elsif month.name == "09" %}
+        {% assign monthName = "September" %}
+        {% elsif month.name == "10" %}
+        {% assign monthName = "Oktober" %}
+        {% elsif month.name == "11" %}
+        {% assign monthName = "November" %}
+        {% elsif month.name == "12" %}
+        {% assign monthName = "December" %}
+        {% endif %}
+
+
+        <h2>{{ monthName }}</h2>
+
+        <ul>
+          {% for post in month.items %}
+          <li>
+            <div class="calendar-list__date">
+              <span class="bigmonth">{{ post.date | date: "%d" }} {% if post.enddate %}
+              </span><span> | </span> <span>{{ post.enddate }} {% endif %}</span>
+            </div>
+            <div class="calendar-list__desc">
+              <span>{{ post.title }}</span>
+              <span>{% if post.time %}<i class="far fa-clock"></i> {{ post.time }}{% endif %}</span>
+            </div>
+          </li>
+          {% endfor %}
+
+
+        </ul>
+       
+        {% endfor %}
+{% endif %}
+        {% endfor %}
+      </div>
+    </div>
+    <div class="bg-platinum p-40">
+      <div>
+
+        <h2>Event kalender</h2>
+        <p>Her kan du se alle event datoer</p>
+      </div>
+      <div class="calendar-list">
+
+
+        {% assign curYear = 'now' | date: "%Y" %}
+        {% assign curMonth = 'now' | date: "%m" %}
+
+        {% assign orderedposts = site.tags.event | sort: "date" | reversed %}
+        {% assign postsByYear = orderedposts | group_by_exp:"post", "post.date | date: '%Y'" %}
+
+
+        {% for year in postsByYear %}
+
+{% if year.name >= curYear %}
+
+
+        <h1>{{ year.name }}</h1>
+        <hr class="hr-no-m">
+        <br>
+        {% assign postsByMonth = year.items | group_by_exp:"post", "post.date | date: '%m'" %}
+
+        {% for month in postsByMonth %}
+
+    {% if month.name >= curMonth %}
+        {% if month.name == "01" %}
+        {% assign monthName = "Januar" %}
+        {% elsif month.name == "02" %}
+        {% assign monthName = "Fenbruar" %}
+        {% elsif month.name == "03" %}
+        {% assign monthName = "Marts" %}
+        {% elsif month.name == "04" %}
+        {% assign monthName = "April" %}
+        {% elsif month.name == "05" %}
+        {% assign monthName = "Maj" %}
+        {% elsif month.name == "06" %}
+        {% assign monthName = "Juni" %}
+        {% elsif month.name == "07" %}
+        {% assign monthName = "Juli" %}
+        {% elsif month.name == "08" %}
+        {% assign monthName = "August" %}
+        {% elsif month.name == "09" %}
+        {% assign monthName = "September" %}
+        {% elsif month.name == "10" %}
+        {% assign monthName = "Oktober" %}
+        {% elsif month.name == "11" %}
+        {% assign monthName = "November" %}
+        {% elsif month.name == "12" %}
+        {% assign monthName = "December" %}
+        {% endif %}
+
+
+        <h2>{{ monthName }}</h2>
+
+        <ul>
+          {% for post in month.items %}
+          <li>
+            <div class="calendar-list__date">
+              <span class="bigmonth">{{ post.date | date: "%d" }} {% if post.enddate %}
+              </span><span> | </span> <span>{{ post.enddate }} {% endif %}</span>
+            </div>
+            <div class="calendar-list__desc">
+              <span><a href="{{ post.url }}">{{ post.title }}</a></span>
+              <span>{% if post.time %}<i class="far fa-clock"></i> {{ post.time }}{% endif %}</span>
+            </div>
+          </li>
+          
+          {% endfor %}
+
+        </ul>
+        {% endif %}
+        {% endfor %}
+
+{% endif %}
+
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+</div>

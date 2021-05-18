@@ -67,10 +67,10 @@
 $('.slider-two').slick({
   dots: false,
   infinite: true,
+  draggable: false,
   slidesToShow: 6,
   slidesToScroll: 1,
   mobileFirst: false,
-  arrows: true,
   responsive: [
     {
       breakpoint: 1600,
@@ -78,7 +78,8 @@ $('.slider-two').slick({
         slidesToShow: 5,
         slidesToScroll: 1,
         infinite: true,
-        dots: false
+        dots: false,
+        arrows: true
       }
     },
 

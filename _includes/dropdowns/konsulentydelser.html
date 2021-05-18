@@ -1,5 +1,21 @@
 <div class="container-fluid narrow-container no-up">
-  <div class="grid-2 grid-20-80">
+  <div class="only-for-laptop">
+    <div class="navigation-link">
+      <a data-proofer-ignore="" href="#contact" data-toggle="modal" data-target="#contact-modal">Skriv til
+        os</a>
+    </div>
+    {% assign orderedcats = site.consultation-categories | sort: "order" %}
+      {% for cat in orderedcats %}
+      <h4 class="list-header">{{ cat.title }}</h4>
+      {% endfor %}
+    <div class="navigation-link">
+      <a href="/about/">Om os</a>
+    </div>
+    <div class="navigation-link">
+      <a href="#footer">Find os her</a>
+    </div>
+  </div>
+  <div class="grid-2 grid-20-80 only-big-2">
 
     <div>
       {% assign orderedcats = site.consultation-categories | sort: "order" %}
@@ -40,13 +56,14 @@
         </div>
       </div>
       <h4 class="list-header">Mød vores konsulenter</h4><br>
-      <div class="slider-two">
+      <div class="slider-two position-relative">
         {% for emp in site.employees %}
 
         <div class="center">
           <img src="{{ emp.small-portrait-image }}" class="small-kvart-image ml-auto mr-auto center" alt="">
-          <p class="small"><b>{{ emp.title }}</b><br><span class="highlighted green">{{ emp.call }}</span><br>{{
-            emp.email }}</p>
+            <p class="mb-0 highlighted">{{ emp.title }}</p>
+            <p class="mb-0 small">{{ emp.call }}</p>
+            <p class="mb-0 small">{{ emp.email }}</p>
         </div>
 
         {% endfor %}

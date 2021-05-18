@@ -1054,6 +1054,23 @@ a {
   }
 }
 
+.only-big-2 {
+  @include for-laptop {
+    display: none;
+  }
+}
+
+
+.only-for-laptop {
+  display: none;
+  @include for-laptop {
+    display: block;
+    a {
+      display:block;
+    }
+  }
+}
+
 .only-for-bot {
   display: none;
   @include for-bot {

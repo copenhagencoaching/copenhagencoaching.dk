@@ -123,6 +123,9 @@ collections:
   edu-categories:
     output: true
     permalink: /:title/
+  calendar:
+    output: true
+    permalink: /:title/
 
 defaults:
   -
@@ -183,6 +186,11 @@ defaults:
   -
     scope:
       type: edu-categories
+    values:
+      layout: default
+  -
+    scope:
+      type: calendar
     values:
       layout: default
 

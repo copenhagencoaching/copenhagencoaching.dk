@@ -16,6 +16,10 @@
     src: url('./fonts/slick.eot?#iefix') format('embedded-opentype'), url('./fonts/slick.woff') format('woff'), url('./fonts/slick.ttf') format('truetype'), url('./fonts/slick.svg#slick') format('svg');
 }
 /* Arrows */
+
+.slider-two .slick-next {
+right: 100px !important;
+}
 .slick-prev,
 .slick-next
 {
@@ -33,10 +37,10 @@
     -webkit-transform: translate(0, -50%);
     -ms-transform: translate(0, -50%);
     transform: translate(0, -50%);
-    z-index: 100000;
+    z-index: 100;
     cursor: pointer;
 
-    color: rgb(177, 177, 177);
+    color: rgb(145, 145, 145);
     border: none;
     outline: none;
     background: transparent;
