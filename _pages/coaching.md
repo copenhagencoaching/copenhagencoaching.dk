@@ -1,6 +1,7 @@
 ---
 layout: coaching
 show: true
+published: true
 order: '3'
 title: Coaching
 image: /images/coaching/coaching-banner.jpg
