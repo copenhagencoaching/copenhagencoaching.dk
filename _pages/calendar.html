@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-test
 ---
 
 
@@ -83,7 +83,7 @@ layout: default
 
 
 
-        
+
         {% elsif year.name > curYear %}
 
         <h1>{{ year.name }}</h1>
@@ -92,7 +92,7 @@ layout: default
         {% assign postsByMonth = year.items | group_by_exp:"post", "post.date | date: '%m'" %}
 
         {% for month in postsByMonth %}
-        
+
 
         {% if month.name == "01" %}
         {% assign monthName = "Januar" %}
@@ -127,8 +127,8 @@ layout: default
           {% for post in month.items %}
           <li>
             <div class="calendar-list__date">
-              <span class="bigmonth">{{ post.date | date: "%d" }} {% if post.enddate %}
-              </span><span> | </span> <span>{{ post.enddate }} {% endif %}</span>
+              <span class="bigmonth"><span>{{ post.date | date: "%d" | slice: 0 }}</span><span>{{ post.date | date: "%d"
+                  | slice: 1 }}</span></span>
             </div>
             <div class="calendar-list__desc">
               <span>{{ post.title }}</span>
@@ -139,9 +139,9 @@ layout: default
 
 
         </ul>
-       
+
         {% endfor %}
-{% endif %}
+        {% endif %}
         {% endfor %}
       </div>
     </div>
@@ -163,7 +163,7 @@ layout: default
 
         {% for year in postsByYear %}
 
-{% if year.name >= curYear %}
+        {% if year.name >= curYear %}
 
 
         <h1>{{ year.name }}</h1>
@@ -173,7 +173,7 @@ layout: default
 
         {% for month in postsByMonth %}
 
-    {% if month.name >= curMonth %}
+        {% if month.name >= curMonth %}
         {% if month.name == "01" %}
         {% assign monthName = "Januar" %}
         {% elsif month.name == "02" %}
@@ -215,14 +215,14 @@ layout: default
               <span>{% if post.time %}<i class="far fa-clock"></i> {{ post.time }}{% endif %}</span>
             </div>
           </li>
-          
+
           {% endfor %}
 
         </ul>
         {% endif %}
         {% endfor %}
 
-{% endif %}
+        {% endif %}
 
         {% endfor %}
       </div>
