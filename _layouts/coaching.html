@@ -1,9 +1,6 @@
 ---
 layout: page
 ---
-
-
-
 {% assign orderedcoaching = site.coachings | sort: "order" %}
 <div class="header-navigation">
     <div class="container-fluid narrow-container">
@@ -20,6 +17,8 @@ layout: page
 <div class="container-fluid container-narrow no-up">
     <section id="content-section" class="content">
 
+        
+
         {% for coaching in orderedcoaching %}
         <div class="wrapper" id="{{ coaching.title | remove: ' ' | strip_html }}">
             <img class="content-img" src="{{ coaching.image }}" alt="{{ coaching.title }}">
@@ -30,6 +29,7 @@ layout: page
                 <div class="contact-box">
                     <h5>Interesseret i at høre mere? Ring eller skriv og få en snak med</h5>
                     <div class="contact">
+                        
                         {% for employee in site.employees %}
                         {% if employee.title == coaching.contact-person %}
 
