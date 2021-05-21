@@ -31,6 +31,7 @@ layout: default
 <div class="header-navigation">
     <div class="container-fluid narrow-container">
     <div class="wrapper">
+        
         {% for coaching in orderedcoaching %}
 
         <a href="#{{ coaching.title | remove: ' ' | strip_html }}"><button>{{ coaching.title }}</button></a>
