@@ -2,7 +2,7 @@
 group: true
 title: CBS
 link: true
-week: true
+week: false
 done: true
 signup: true
 order: 7
