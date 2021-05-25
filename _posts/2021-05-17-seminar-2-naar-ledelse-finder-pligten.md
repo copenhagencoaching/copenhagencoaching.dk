@@ -15,6 +15,7 @@ price: 450,-
 ex-moms: true
 billetto: true
 billetto-nr: 504691
+past: true
 ---
 #### Seminar 2: Når ledelse finder pligten (med Kant som inspiration)
 

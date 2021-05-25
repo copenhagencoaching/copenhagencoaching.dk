@@ -4,6 +4,11 @@ title: Lars Worning
 link: true
 week: true
 order: 8
+links:
+- url: http://linkedin.com/in/lars-worning-30b67825
+  text: Besøg Lars Wornings linkedin profil
+- url: http://resonanshuset.dk/
+  text: Læs mere om Resonanshuset her
 done: true
 published: true
 signup: true
