@@ -1,5 +1,5 @@
 ---
-order: "7"
+order: 4
 title: Den offentlige lederuddannelse
 image: "/images/academy/den-offentlige-lederuddannelse.png"
 contact-person: Mette Mejlhede

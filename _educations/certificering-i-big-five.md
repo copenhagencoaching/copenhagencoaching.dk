@@ -1,5 +1,5 @@
 ---
-order: "6"
+order: 3
 title: Certificering i Big Five
 image: "/images/events/big-five-event-5.jpg"
 contact-person: Frederikke Winther

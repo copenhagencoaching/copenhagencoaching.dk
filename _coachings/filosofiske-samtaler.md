@@ -8,6 +8,7 @@ contact-person: Kim Gørtz
 redirect_from:
   - /coaching/filosofiskeSamtaler/
 description: Gennem den filosofiske samtale lærer du hvordan du tænker, hvornår du tænker bedst, og hvad du skal tænke for at styrke din praksis. Der arbejdes med metaplaner, refleksive variationer og kognitive perspektiveringer.
+menu-order: 6
 ---
 
 **Det reflekterede arbejdsliv og den organisatoriske tænksomhed.**

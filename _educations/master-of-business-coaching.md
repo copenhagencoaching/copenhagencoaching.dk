@@ -1,5 +1,5 @@
 ---
-order: "1"
+order: 1
 title: Master of Business Coaching
 layout: mbc
 image: "/images/international/i3.jpg"

@@ -1,0 +1,33 @@
+<div class="container-fluid narrow-container no-up">
+
+  <div class="grid-2 grid-20-80 only-big-2">
+    <div>
+      <h4>Coaching</h4>
+      {% assign orderedcoaching = site.coachings | sort: "menu-order" %}
+      {% for coaching in orderedcoaching %}
+      <a class="navigation-link got-icon" href="#">
+        {{ coaching.title }}</a>
+      {% endfor %}
+    </div>
+    <div>
+      <div class="grid-2 gap-90">
+        <div>
+          <h4>Overskrift</h4>
+          <p>Sint adipisicing aute commodo culpa incididunt ipsum amet est est culpa labore voluptate. Et tempor duis eu eu deserunt officia aliquip magna laborum sit consequat.</p>
+          <a class="navigation-link got-icon" href="#">
+            Læs mere </a>
+    
+        </div>
+        <div>
+          <h4>Overskrift</h4>
+          <p>Sint adipisicing aute commodo culpa incididunt ipsum amet est est culpa labore voluptate.</p>
+          <a class="navigation-link got-icon" href="#">
+            Læs mere </a>
+    
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  </div>

@@ -65,6 +65,13 @@
         <div class="nav-list big-nav">
 
           <div class="navigation-link drop">
+            <a class="main-nav-link" href="#">Coaching</a>
+            <div class="dd-container">
+              {% include dropdowns/coaching.html %}
+            </div>
+          </div>
+
+          <div class="navigation-link drop">
             <a class="main-nav-link" href="#">Kompetenceudvikling</a>
             <div class="dd-container">
               {% include dropdowns/kompetenceudvikling.html %}
@@ -80,7 +87,7 @@
             </div>
           </div>
 
-          <div class="navigation-link drop">
+ <!--          <div class="navigation-link drop">
             <a class="main-nav-link" href="#">Frirum</a>
             <div class="dd-container dd-small">
               <div class="container-fluid narrow-container no-up-n-down">
@@ -88,15 +95,14 @@
                 <div class="navigation-link"><a href="/academy/ledelseskurses-på-lesbos/">Lesbos</a></div>
               </div>
             </div>
-          </div>
+          </div> -->
 
           <div class="navigation-link drop">
             <a class="main-nav-link" href="#">Resonans</a>
-            <div class="dd-container dd-small">
-              <div class="container-fluid narrow-container no-up-n-down">
-                <div class="navigation-link"><a href="/community/">Community</a></div>
-                <div class="navigation-link"><a href="/inspiration">Blog</a></div>
-              </div>
+            <div class="dd-container">
+              
+                {% include dropdowns/resonans.html %}
+            
             </div>
           </div>
 

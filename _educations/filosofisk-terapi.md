@@ -9,7 +9,7 @@ price: 29.000 ekskl. moms (heri er inkluderet fuld forplejning, materialer)
 pdf: "/pdfs/filosofisk-terapi.pdf"
 event-title: Kommende hold
 special: true
-order: "3"
+order: 22
 hold_eller_begivenheder: true
 events:
 - overskrift: Datoer følger snarest

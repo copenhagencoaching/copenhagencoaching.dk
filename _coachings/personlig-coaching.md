@@ -7,6 +7,7 @@ contact-person: Andreas Bering
 redirect_from:
   - /coaching/personligCoaching/
 description: Gennem et coachingforløb på Copenhagen Coaching Center bliver du støttet og udfordret i forhold til de temaer og udfordringer du rejser. Endvidere styrkes dine evner til at anskue og analysere de situationer, der påvirker dit daglige virke.
+menu-order: 2
 ---
 **Når personlige udfordringer forsinker handlekraften**
 

@@ -6,6 +6,7 @@ id: "7"
 order: "7"
 contact-person: Frederikke Winther
 description: Big Five-personlighedstesten er markedets bedst underbyggede personlighedstest og et effektivt redskab til både rekruttering og ledelses-, medarbejder- og teamudvikling. Testen inspirerer til såvel personlig som faglig refleksion og udvikling.
+menu-order: 4
 ---
 **Når din personlighedstest bliver et udviklingsværktøj**
 ​

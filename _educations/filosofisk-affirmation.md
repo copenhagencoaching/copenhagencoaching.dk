@@ -8,6 +8,7 @@ contact-person: Kim Gørtz
 header: Filosofisk affirmation
 event-title: Hold datoer
 location: København
+published: false
 special: false
 hold_information: ''
 hold_eller_begivenheder: true

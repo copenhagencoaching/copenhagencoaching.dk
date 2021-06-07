@@ -5,6 +5,7 @@ header: "TEAM: At coache, lede og deltage kvalificeret i et team"
 price: 11.900 kr ex moms
 image: /images/academy/team.png
 pdf: ''
+published: false
 location: Blegdamsvej 104C, 3., baghuset th., 2100 København Ø
 special: false
 event-title: Kommende hold

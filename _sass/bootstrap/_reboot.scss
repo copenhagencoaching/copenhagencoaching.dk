@@ -539,7 +539,7 @@ template {
 
   background: none;
   color: rgb(255, 255, 255);
-  font-size: 2rem;
+  font-size: 1rem;
   font-style: italic;
   line-height: 1.4 !important;
   margin: 0;
@@ -555,7 +555,7 @@ template {
 }
 
 .testimonial-quote blockquote p {
-  color: #ffffff; 
+  color: #505050; 
   line-height: 1.4 !important;
   &.black {
     color: #707070 !important;
@@ -564,13 +564,13 @@ template {
 
 .testimonial-quote blockquote p:first-child:before {
   content: '\201C';
-  color: white;
-  font-size: 5em;
+  color: #373737;
+  font-size: 7em;
   font-weight: 700;
-  opacity: .3;
+  opacity: .15;
   position: absolute;
-  top: -.37em;
-  left: 57.5%;    
+  top: -.45em;
+  left: -20px;    
   text-shadow: none;
   z-index: -300;
 

@@ -12,6 +12,7 @@ event-title: Kommende hold
 order: "2"
 location: Blegdamsvej 104C, 3., baghuset th., 2100 København Ø
 special: false
+published: false
 emails:
 - ln@copenhagencoaching.dk
 hold_eller_begivenheder: true

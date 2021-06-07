@@ -10,7 +10,7 @@ special: true
 hold_eller_begivenheder: true
 events:
 - overskrift: Vi har desværre ingen aktuelle datoer at tilbyde dig lige nu. Kontakt os meget gerne for mere information på info@copenhagencoaching.dk
-order: "2"
+order: 33
 cat:
 - put
 ---

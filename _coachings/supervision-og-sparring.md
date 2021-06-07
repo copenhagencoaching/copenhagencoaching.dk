@@ -6,6 +6,7 @@ id: "2"
 order: "2"
 contact-person: Andreas Bering
 description: Gennem kyndig vejledning og sparring i forhold til specifikke udfordringer eller dilemmaer i arbejdslivet får du og dine kollegaer/medarbejdere nye perspektiver og dermed andre muligheder for handling.
+menu-order: 3
 ---
 
 **Nye perspektiver - andre handlemuligheder**
