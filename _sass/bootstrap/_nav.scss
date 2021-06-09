@@ -119,6 +119,17 @@
     }
   }
 
+  &.gray-pallette {
+    color: #333333 !important;
+    .nav-link {
+      background-color: #dadada;
+
+      &.active {
+        background-color: #adadad;
+      }
+    }
+  }
+
   &.blu-brown-pallette {
     .nav-link {
       background-color: $black-coral;

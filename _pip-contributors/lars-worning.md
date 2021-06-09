@@ -2,7 +2,7 @@
 group: false
 title: Lars Worning
 link: true
-week: true
+week: false
 order: 8
 links:
 - url: http://linkedin.com/in/lars-worning-30b67825
