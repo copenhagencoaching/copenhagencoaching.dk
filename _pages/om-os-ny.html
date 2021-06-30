@@ -1,0 +1,165 @@
+---
+layout: default-test
+title: Om os
+---
+
+<div
+    style="background: linear-gradient(rgba(19, 19, 19, 0.6), rgba(19, 19, 19, 0.6)), url('/images/graphic/skilt.png'); background-attachment: fixed; background-size: cover; background-position: bottom;">
+    <div class="container-fluid narrow-container white pt-200 pb-200">
+        <h1 class="h1-l max-900 h1-scale">Om os</h1>
+        <br>
+        <h2 class="">Labore enim minim voluptate aliqua et laboris quis excepteur do sunt.</h2>
+    </div>
+
+</div>
+
+<div class="container-fluid extra-narrow-container pt-50 pb-50 align-center">
+
+    <div class="nav nav-tabs mid-tabs bold mb-0 black-pallette" id="myTab" role="tablist">
+        <a class="nav-item nav-link active" id="nav-1-tab" data-toggle="tab" href="#nav-1" role="tab"
+            aria-controls="nav-coaching" aria-selected="false">Vision</a>
+        <a class="nav-item nav-link" id="nav-2-tab" data-toggle="tab" href="#nav-2" role="tab" aria-controls="nav-2"
+            aria-selected="false">Mød os</a>
+        <a class="nav-item nav-link" id="nav-3-tab" data-toggle="tab" href="#nav-3" role="tab" aria-controls="nav-3"
+            aria-selected="false">Akkreditering</a>
+
+
+
+    </div>
+</div>
+
+<div class="tab-content" id="nav-tabContent">
+
+    <div class="tab-pane fade show active" id="nav-1" role="tabpanel" aria-labelledby="nav-1-tab">
+        <div class="container-fluid medium-narrow-container pt-20">
+            <div class="align-center w-100 pb-20">
+                <h1>Vores vision</h1>
+            </div>
+           
+            <div class="grid-2 gap-40 align-justify">
+                <div>
+                    CCCs vision er at løfte niveauet for coaching og ledelse i erhvervslivet. Det gør vi dels gennem
+                    vores uddannelser og kurser, hvor vi altid tilstræber at være foran de trends, der viser sig i
+                    markedet. Dels gennem vores coaching, sparring og rådgivning, som altid har til formål at hjælpe det
+                    enkelte menneske til at lykkes med det, der er væsentligt for vedkommende selv og for de vigtige
+                    fællesskaber, vedkommende indgår i.
+                </div>
+                <div>
+                    Værdierne frihed og værdighed er helt grundlæggende for vores daglige arbejde og den røde tråd i
+                    understøttelse af udvikling hos vores studerende, kunder og kursister. Vi mener, at man kommer
+                    længst ved at værne om den andens værdighed og se mennesket i mennesket med de forskelligheder der
+                    viser sig.
+                </div>
+            </div>
+        </div>
+        <div class="bg-blue">
+            <div class="container-fluid medium-narrow-container white pb-50 pt-50">
+                <div class="align-center w-100 pb-20">
+                    <h1>Metodik</h1>
+                </div>
+                <div class="grid-3 gap-40">
+                    <div>
+                        CCC har siden virksomhedens start i 2004 arbejdet for at skabe de bedste uddannelser for ledere og
+                        konsulenter. Vores undervisning er praktisk orienteret og enkel at omsætte og anvende i dagligdagen.
+                        Produkter og metoder er forskningsbaserede og vokser ud af en kombination af velkendte og
+                        underbyggede teorier. Da vi er uddannelsesinstitution for nye såvel som garvede ledere og
+                        konsulenter, er vi altid opdateret på vores specialer.
+                    </div>
+                    <div>
+                        Vores undervisningsmetodik tager praktisk udgangspunkt i vores egen model, Syntesemodellen, som er
+                        en pædagogisk og didaktisk model, baseret på tre grundperspektiver eller vidensparadigmer: det
+                        kognitive, det psykodynamiske og det systemisk-narrative. Syntesemodellen er ikke en statisk model,
+                        men under konstant udvikling i takt med nye trends, som kan behandles og forstås ud fra modellen og
+                        omvendt.
+                    </div>
+                    <div>
+                        Med vores brede teoretiske grundlag, forsøger vi at møde den enkelte i sin egen, individuelle
+                        lærerproces for herigennem at skabe høj faglig og personlig læring – individuelt, men også
+                        kollektivt. Vores opgave er derfor at støtte det udforskende projekt som læring kan være!
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            
+        
+
+    </div>
+
+
+
+
+
+
+    <div class="tab-pane fade" id="nav-2" role="tabpanel" aria-labelledby="nav-2-tab">
+
+
+
+
+        <div class="bg-blue">
+            <div class="container-fluid narrow-container pt-50">
+
+
+                <div class="grid-3 medium-slow-grid r-gap-60 gap-60">
+
+                    {% assign sorted_empl = site.employees | sort: "order" %}
+                    {% for employee in sorted_empl %}
+                    <div class="bg-platinum p-20">
+                        <a class="{{ employee.title }}" href="{{ employee.url }}">
+                            <div class="grid-1">
+                                <div>
+                                    <h4 class="mb-0">{{ employee.title }}</h4>
+                                    <p class="thin">{{ employee.description }}</p>
+                                    <p>{{ employee.email }}<br>{{ employee.call }}</p>
+                                </div>
+
+                                <div class="grid-1 align-right justify-content-right">
+                                    <div class="outer-medium-round-image">
+                                        <img class="medium-round-image" src="{{ employee.grey-portrait }}"
+                                            alt="{{ employee.title }}">
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </a>
+                    </div>
+
+                    {% endfor %}
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="tab-pane fade" id="nav-3" role="tabpanel" aria-labelledby="nav-3-tab">
+        <div class="container-fluid extra-narrow-container grid-1 pt-0 r-gap-20">
+
+
+<h1>Det højeste niveau for en Business Coach uddannelse</h1>
+<p>CCCs mål er at tilbyde den bedste uddannelse indenfor coaching. Med EMCC’s højeste akkreditering, Master Practitioner, har du en garanti for, at det er det du får!</p>
+
+<p>Hos CCC har vi siden starten af 2004 stræbt efter at sætte nye standarder inden for coaching-feltet. Denne drivkraft har ledt til samarbejde med førende professorer, virksomhedsledere og coaching praktikere, blandt andet i udviklingen af vores masteruddannelse i Business coaching. Det målrettede arbejde resulterede i 2012 i EMCC’s højeste akkreditering. Vi er meget stolte af at være den eneste danske uddannelsesvirksomhed, der har opnået denne internationale godkendelse af en uddannelse, der udbydes eksternt.</p>
+
+<p>EMCC AKKREDITERINGEN ER ET KVALITETSTEMPEL. Både i forhold til uddannelsens faglige og etiske standard, men også en garanti for, at at deltagerne får en uddannelse, som er internationalt anerkendt, og som de derfor også kan bruge i udlandet og i internationalt orienterede virksomheder.</p>
+
+<p>EMCC (European Mentoring and Coaching Council) blev grundlagt i 1992 og er en uafhængig, upartisk og non-profit organisation. Copenhagen Coaching Center har valgt at blive akkrediteret ved denne organisation, fordi den med sit brede grundlag arbejder for at styrke kvaliteten af coaching og mentoring uddannelser i Europa og udgør derfor den tungeste og mest veldokumenterede akkreditering af dem, der findes.</p>
+
+<p>EMCC’s akkreditering bygger på den såkaldte Bologna-erklæring, hvor alle EU-landenes undervisningsministre har vedtaget en lang række kvalitetskriterier, der gælder for de formelle videregående uddannelser.</p>
+
+        </div>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+<div class="bg-platinum">
+    {% include secments/other-courses.html %}
+</div>

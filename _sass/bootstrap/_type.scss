@@ -11,6 +11,22 @@ h3, h4, h5, h6,
   font-weight: $headings-font-weight;
   line-height: $headings-line-height;
   color: $dark-grey;
+
+  span.blue {
+    margin-bottom: $headings-margin-bottom;
+    font-family: $headings-font-family;
+    font-weight: $headings-font-weight !important;
+    line-height: $headings-line-height;
+    color: #336380 !important;
+  }
+
+  span.grey {
+    margin-bottom: $headings-margin-bottom;
+    font-family: $headings-font-family;
+    font-weight: $headings-font-weight !important;
+    line-height: $headings-line-height;
+    color: #d6d6d6dc !important;
+  }
 }
 
 h1, .h1, h2, .h2 {
@@ -20,6 +36,20 @@ h1, .h1, h2, .h2 {
   line-height: $headings-line-height;
   color: $dark-grey;
   text-transform: uppercase;
+  span.blue {
+    margin-bottom: $headings-margin-bottom;
+    font-family: $headings-font-family;
+    font-weight: $headings-font-weight !important;
+    line-height: $headings-line-height;
+    color: #336380 !important;
+  }
+  span.grey {
+    margin-bottom: $headings-margin-bottom;
+    font-family: $headings-font-family;
+    font-weight: $headings-font-weight !important;
+    line-height: $headings-line-height;
+    color: #d6d6d6dc !important;
+  }
 }
 
 h1.h1-l {
@@ -332,6 +362,10 @@ mark,
 .pl-0 {
   padding-left: 0 !important;
   
+}
+
+.mt-0 {
+  margin-top: 0 !important;
 }
 
 .mr-20 {

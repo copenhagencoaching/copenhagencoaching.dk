@@ -69,7 +69,16 @@ layout: default-test
               <span class="bigmonth">{{ post.date | date: "%d" }} {% if post.enddate %}
               </span><span> | </span> <span>{{ post.enddate }} {% endif %}</span>
             </div>
-            <div class="calendar-list__desc">
+            {% capture bg_color %}
+{% if post.title contains "MBC" %}
+blue
+
+{% elsif post.title contains "BFC" %}
+red
+{% endif %}
+            {% endcapture %}
+            <div class="calendar-list__desc co-{{ bg_color | strip_newlines }}">
+
               <span>{{ post.title }}</span>
               <span>{% if post.time %}<i class="far fa-clock"></i> {{ post.time }}{% endif %}</span>
             </div>

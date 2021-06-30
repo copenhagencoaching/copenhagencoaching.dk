@@ -15,6 +15,20 @@ div._2lqh {
 .big-header {
     height: 500px;
 
+    &.bigger {
+        height: 700px;
+        .inner-front {
+            height: 700px;
+        }
+
+        @include for-laptop {
+            height: 500px;
+            .inner-front {
+                height: 500px;
+            }
+        }
+    }
+
     @include for-bot {
         height: 550px;
     }
@@ -37,6 +51,10 @@ div._2lqh {
             align-content: center;
             align-items: center;
             height: 100%;
+
+            &.left {
+                justify-content: start;
+            }
 
             .front-box {
                 background-color: rgba(255, 255, 255, 0.849);
