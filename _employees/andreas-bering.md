@@ -1,7 +1,7 @@
 ---
 order: "1"
 title: Andreas Bering
-portrait-image: "/images/about/employees/andreas-bering.png"
+portrait-image: "/images/about/employees/andreas-bering.jpg"
 small-portrait-image: "/images/about/small-images/andreas-bering.png"
 grey-portrait: /images/about/medarbejdere-sort-hvid/andreas-bering-sort-hvid.png
 call: 40 14 92 92

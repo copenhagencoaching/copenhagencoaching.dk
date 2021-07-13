@@ -1,6 +1,6 @@
 ---
 title: Dialog er dannelse i praksis
-image: "/images/academy/dialog-er-dannelse-i-praksis-coaching-uddannelse.png"
+image: "/images/academy/dialog-er-dannelse-i-praksis-coaching-uddannelse.jpg"
 contact-person: Kim Gørtz
 header: Dialog er dannelse i praksis
 description: '"Dialog er dannelse i praksis" vil i et kursusforløb i efteråret 2020 udfolde en række nye dialogformer og knytte an til konkret undervisningspraksis.'

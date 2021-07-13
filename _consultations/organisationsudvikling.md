@@ -2,7 +2,7 @@
 published: true
 order: "3"
 title: Organisationsudvikling
-image: /images/consulting/c4.png
+image: /images/consulting/c4.jpg
 contact-person: Andreas Bering
 description: I CCC har vi over 15 års erfaring i arbejdet med situationer, hvor en given organisatorisk praksis skal justeres, udfoldes eller decideret transformeres.
 ---
