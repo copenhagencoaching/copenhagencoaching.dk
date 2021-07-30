@@ -1,0 +1,348 @@
+---
+title: quiz
+layout: default
+---
+
+<style>
+    .question{
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.quiz-box {
+  background-color: rgb(230, 230, 230);
+}
+
+.message {
+  padding: 10px;
+}
+
+.bg-blue {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+
+
+.answers {
+  text-align: left;
+  display: inline-block;
+}
+.answers label{
+  display: block;
+  margin-bottom: 10px;
+}
+
+button {
+	background-color: rgb(85, 85, 85);
+	color: #fff;
+	border: 0px;
+	border-radius: 5px;
+	padding: 10px;
+	cursor: pointer;
+}
+button:hover{
+	background-color: rgb(153, 153, 153);
+}
+
+button.disabled {
+  pointer-events: none;
+  opacity: .4;
+}
+
+.slide{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.active-slide{
+  opacity: 1;
+  z-index: 2;
+}
+.quiz-container{
+  position: relative;
+  min-height: 130px;
+  margin-top: 10px;
+}
+
+
+</style>
+
+<div class="bg-blue">
+  <div class="container-fluid extra-narrow-container white pl-0 pr-0">
+    <h1>Gæt en facet øvelse</h1>
+    <p>Herunder finder du en række udsagn, som knytter sig til én af de 24 facetter (N1, N2, N3, N4, N5, E1, E2…osv.). Læs udsagnet og skriv det rigtige svar. Prøv så vidt muligt ikke at bruge hjælpemidler. Eller støt dig til dokumenter og eller egne noter første gang, og forsøg så at besvare spørgeskemaet igen uden dem.
+    </p>
+  </div>
+  <div class="container-fluid extra-narrow-container quiz-box pb-20 pt-20">
+    
+<div class="quiz-container">
+  <div id="quiz"></div>
+</div>
+<div id="results"></div>
+<button id="check">Tjek svar</button>
+<br>
+<br>
+<button id="previous">Forrige spørgsmål</button>
+<button id="next">Næste spørgsmål</button>
+<button id="submit">Vis facitliste</button>
+
+</div>
+</div>
+
+
+<script>
+    (function(){
+  // Functions
+  function buildQuiz(){
+    // variable to store the HTML output
+    const output = [];
+   
+    // for each question...
+    myQuestions.forEach(
+      (currentQuestion, questionNumber) => {
+
+        // variable to store the list of possible answers
+        const answers = [];
+
+        
+
+          // ...add an HTML text input
+          answers.push(
+            `<label>
+              <input type="text" class="qqq" id="question${questionNumber}" name="question${questionNumber}">
+            </label>`
+          );
+        
+
+        // add this question and its answers to the output
+        output.push(
+          `<div class="slide">
+            <div class="question"> <p class="xlarge">${currentQuestion.question} </p></div>
+            <div class="answers"> ${answers.join("")} </div><p class="message"></p>
+            
+          </div>
+         
+          `
+        );
+      }
+    );
+
+    // finally combine our output list into one string of HTML and put it on the page
+    quizContainer.innerHTML = output.join('');
+  }
+
+  function checkAnswer(){
+    const answerContainers = quizContainer.querySelectorAll('.question');
+    const messageContainers = quizContainer.querySelectorAll('.message');
+
+    myQuestions.forEach( (currentQuestion, questionNumber) => {
+        
+// find selected answer
+const answerContainer = answerContainers[questionNumber];
+const selector = `input[name=question${questionNumber}]`;
+const userAnswer = quizContainer.querySelectorAll('.qqq');
+const aws = userAnswer[questionNumber].value
+
+
+if(questionNumber === currentSlide) {
+    if(aws === currentQuestion.correctAnswer){
+  // add to the number of correct answers
+  
+  messageContainers[questionNumber].innerHTML = "Korrekt";
+  // color the answers green
+  messageContainers[questionNumber].style.background = 'lightgreen';
+  messageContainers[questionNumber].style.color = 'black';
+
+  if(currentSlide === slides.length-1){
+    $( "#next" ).addClass( "disabled" );
+    $( "#submit" ).removeClass( "disabled" );
+      
+    }
+    else {
+      $( "#next" ).removeClass( "disabled" );
+
+      $( "#submit" ).addClass( "disabled" );
+    }
+    
+}
+// if answer is wrong or blank
+else{
+  // color the answers red
+  messageContainers[questionNumber].style.background = 'red';
+  messageContainers[questionNumber].style.color = 'white';
+  messageContainers[questionNumber].innerHTML = "Ikke korrekt";
+}
+}
+// if answer is correct
+
+});
+
+  }
+
+ function showResults(){
+  const output = [];
+
+  output.push('<table class="center-table">');
+
+  
+  myQuestions.forEach(
+      (currentQuestion, questionNumber) => {
+
+
+
+// add this question and its answers to the output
+output.push(
+`<tr>
+  <td>
+  ${currentQuestion.question}
+  </td>
+  <td>
+    ${currentQuestion.correctAnswer}
+    </td>
+</tr>
+
+`
+);
+
+      });
+
+      output.push('</table>');
+    // show number of correct answers out of total
+    quizContainer.innerHTML = output.join('');
+    previousButton.style.display = 'none';
+    nextButton.style.display = 'none';
+    checkButton.style.display = 'none';
+    submitButton.style.display = 'none';
+
+  } 
+
+  function showSlide(n) {
+    const answerContainers = quizContainer.querySelectorAll('.message');
+    slides[currentSlide].classList.remove('active-slide');
+    slides[n].classList.add('active-slide');
+    currentSlide = n;
+    if(currentSlide === 0){
+      $( "#next" ).addClass( "disabled" );
+      $( "#previous" ).addClass( "disabled" );
+    }
+    else{
+      
+      $( "#previous" ).removeClass( "disabled" );
+    }
+     
+
+ 
+    
+    if(answerContainers[n].style.background == 'lightgreen')
+    {
+      
+    if(currentSlide === slides.length-1){
+      $( "#next" ).addClass( "disabled" );
+      
+      $( "#submit" ).removeClass( "disabled" );
+    }
+    else {
+      
+      $( "#next" ).removeClass( "disabled" );
+      $( "#submit" ).addClass( "disabled" );
+    }
+    }
+    else {
+      $( "#next" ).addClass( "disabled" );
+    }
+
+    if(currentSlide === slides.length-1){
+      $( "#next" ).addClass( "disabled" );
+    }
+
+    
+  }
+
+  function showNextSlide() {
+    
+    showSlide(currentSlide + 1);
+    
+  }
+
+  function showPreviousSlide() {
+    showSlide(currentSlide - 1);
+   
+  }
+
+  // Variables
+  const quizContainer = document.getElementById('quiz');
+  const resultsContainer = document.getElementById('results');
+  const submitButton = document.getElementById('submit');
+  const checkButton = document.getElementById('check');
+  const myQuestions = [
+    {
+      question: "Accepterer mangler i sit arbejde.",
+      answers: {
+        a: "Douglas Crockford",
+        b: "Sheryl Sandberg",
+        c: "Brendan Eich"
+      },
+      correctAnswer: "C1"
+    },
+    {
+      question: "Afviger fra arbejdsplanen ved den mindste undskyldning.",
+      answers: {
+        a: "Node.js",
+        b: "TypeScript",
+        c: "npm"
+      },
+      correctAnswer: "C4"
+    },
+    {
+      question: "Antallet af nye idéer og anvendelsesmuligheder vi finder på",
+      answers: {
+        a: "Angular",
+        b: "jQuery",
+        c: "RequireJS",
+        d: "ESLint"
+      },
+      correctAnswer: "O1"
+    },
+    {
+      question: "Anvender omfattende og forskelligartet viden i sit arbejde.",
+      answers: {
+        a: "Angular",
+        b: "jQuery",
+        c: "RequireJS",
+        d: "ESLint"
+      },
+      correctAnswer: "O2"
+    }
+  ];
+
+  // Kick things off
+  buildQuiz();
+
+  // Pagination
+  const previousButton = document.getElementById("previous");
+  const nextButton = document.getElementById("next");
+  const slides = document.querySelectorAll(".slide");
+  let currentSlide = 0;
+
+  
+
+  // Show the first slide
+  showSlide(currentSlide);
+
+  // Event listeners
+
+  submitButton.addEventListener("click", showResults);
+  previousButton.addEventListener("click", showPreviousSlide);
+  nextButton.addEventListener("click", showNextSlide);
+  checkButton.addEventListener('click', checkAnswer);
+  $( "#next" ).addClass( "disabled" );
+  $( "#submit" ).addClass( "disabled" );
+  
+})();
+
+</script>
