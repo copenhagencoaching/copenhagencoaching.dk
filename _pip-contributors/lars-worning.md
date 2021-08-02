@@ -4,6 +4,7 @@ title: Lars Worning
 link: true
 week: false
 order: 8
+pdf: /pdfs/MortenRandløv_CCC_intro02.03.2021.pdf
 links:
 - url: http://linkedin.com/in/lars-worning-30b67825
   text: Besøg Lars Wornings linkedin profil
@@ -17,7 +18,7 @@ excerpt: "Psykoterapeut Lars Worning beskriver, hvordan stærke følelsesmæssig
 persons:
 - name: Lars Worning
   title: Medstifter af Resonanshuset
-  bio: Kandidat i filosofi og psykologi, Manu Vision kropsterapeut og uddannet i coaching og protreptik fra Copenhagen Coaching Center.
+  bio: Kandidat i filosofi og psykologi, Manu Vision kropsterapeut og uddannet i coaching og protreptik fra Copenhagen Coaching Center. <br><br>
   socials:
   - Linkedin
   image: /images/pip/lars-worning.jpeg

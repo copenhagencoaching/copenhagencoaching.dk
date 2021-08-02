@@ -3,6 +3,7 @@ group: true
 title: Ungecenteret, Skanderborgvej, Aarhus kommune
 link: true
 order: 4
+pdf: /pdfs/Ungecentret_Skanderborgvej_Eksklusivtuddrag_09042021.pdf
 week: false
 video: /videos/soren-og-kristine.mp4
 subtitles: /videos/subtitles/soren-og-kristine-captions.da_DK.vtt

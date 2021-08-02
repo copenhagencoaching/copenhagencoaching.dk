@@ -1,0 +1,362 @@
+---
+title: quiz-2
+layout: default
+---
+
+<style>
+h1{
+  font-weight: 300;
+  margin: 0px;
+  padding: 10px;
+  font-size: 20px;
+  background-color: #444;
+  color: #fff;
+}
+
+.message {
+  padding: 10px;
+}
+
+#register {
+    display: none;
+}
+
+
+.question{
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.answers {
+  margin-bottom: 20px;
+  text-align: left;
+  display: inline-block;
+}
+.answers label{
+  display: block;
+  margin-bottom: 10px;
+}
+button{
+  font-family: 'Work Sans', sans-serif;
+	font-size: 22px;
+	background-color: #279;
+	color: #fff;
+	border: 0px;
+	border-radius: 3px;
+	padding: 20px;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+button:hover{
+	background-color: #38a;
+}
+
+button.disabled {
+  pointer-events: none;
+  opacity: .4;
+}
+
+.slide{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.active-slide{
+  opacity: 1;
+  z-index: 2;
+}
+.quiz-container{
+  position: relative;
+  height: 300px;
+  margin-top: 40px;
+}
+
+</style>
+
+<div class="container-fluid extra-narrow-container" id="theQuiz">
+    <h1>Prøve i Erhvervsrettet testning</h1>
+<div class="quiz-container">
+  <div id="quiz"></div>
+</div>
+<div id="results"></div>
+<button id="check">Tjek svar</button>
+<br>
+<br>
+<button id="previous">Forrige spørgsmål</button>
+<button id="next">Næste spørgsmål</button>
+<button id="submit">Registrér resultat</button>
+</div>
+
+<div class="container-fluid extra-narrow-container" id="register">
+<h1>Registrér dit resultat</h1>
+<div class="typeform-widget" data-url="https://form.typeform.com/to/sgT23CRS?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+</div>
+
+
+<script>
+
+(function(){
+  // Functions
+  function buildQuiz(){
+    // variable to store the HTML output
+    const output = [];
+
+    // for each question...
+    myQuestions.forEach(
+      (currentQuestion, questionNumber) => {
+
+        // variable to store the list of possible answers
+        const answers = [];
+
+        // and for each available answer...
+        for(letter in currentQuestion.answers){
+
+          // ...add an HTML radio button
+          answers.push(
+            `<label>
+              <input type="checkbox" name="question${questionNumber}" value="${letter}">
+              
+              ${currentQuestion.answers[letter]}
+            </label>`
+          );
+        }
+
+        // add this question and its answers to the output
+        output.push(
+          `<div class="slide">
+            <div class="question"> ${currentQuestion.question} </div>
+            <br>
+            <div class="answers"> ${answers.join("")} </div><p class="message"></p>
+          </div>`
+        );
+      }
+    );
+
+    // finally combine our output list into one string of HTML and put it on the page
+    quizContainer.innerHTML = output.join('');
+  }
+
+  function checkAnswer(){
+    // gather answer containers from our quiz
+    const answerContainers = quizContainer.querySelectorAll('.answers');
+    const messageContainers = quizContainer.querySelectorAll('.message');
+    // keep track of user's answers
+    
+
+
+
+    // for each question...
+    myQuestions.forEach( (currentQuestion, questionNumber) => {
+        var arr = []
+        for(key in currentQuestion.correctAnswers) {
+    arr.push(key);
+}
+len = arr.length;
+        let numCorrect = 0;
+        let numAll = 0;
+      // find selected answer
+      const answerContainer = answerContainers[questionNumber];
+      const selector = `input[name=question${questionNumber}]:checked`;
+      const userAnswer = (answerContainer.querySelector(selector) || {}).value;
+
+      if(questionNumber === currentSlide) {
+
+$(`input[name=question${questionNumber}]:checked`).each(function() {
+    numAll++;
+});
+     
+if (numAll === len) {
+    $(`input[name=question${questionNumber}]:checked`).each(function() {
+           for(letter in currentQuestion.correctAnswers){
+          
+          // if answer is correct
+          if(this.value === currentQuestion.correctAnswers[letter]){
+            
+            // add to the number of correct answers
+           
+            numCorrect++;
+            // color the answers green
+            /* answerContainers[questionNumber].style.color = 'lightgreen';  */
+          }
+
+
+        }
+      });
+
+      
+      if (numCorrect === len) {
+        if(currentSlide === slides.length-1){
+            
+            $( "#next" ).addClass( "disabled" );
+            $( "#submit" ).removeClass( "disabled" );
+              
+            }
+            else {
+              $( "#next" ).removeClass( "disabled" );
+        
+              $( "#submit" ).addClass( "disabled" );
+         
+            }
+
+        messageContainers[questionNumber].innerHTML = "Korrekt";
+  // color the answers green
+  messageContainers[questionNumber].style.background = 'lightgreen';
+  messageContainers[questionNumber].style.color = 'black';
+
+      }
+      else {
+
+        messageContainers[questionNumber].style.background = 'red';
+  messageContainers[questionNumber].style.color = 'white';
+  messageContainers[questionNumber].innerHTML = "Ikke korrekt";
+  $( "#next" ).addClass( "disabled" );
+      }
+
+}
+
+else {
+    messageContainers[questionNumber].style.background = 'red';
+  messageContainers[questionNumber].style.color = 'white';
+  messageContainers[questionNumber].innerHTML = "Ikke korrekt";
+  $( "#next" ).addClass( "disabled" );
+}
+
+
+
+
+      }
+     
+
+    });
+
+
+  }
+
+  function showResults(){
+    theQuiz.style.display = 'none';
+
+    register.style.display = 'block';
+
+  }
+
+  function showSlide(n) {
+    const answerContainers = quizContainer.querySelectorAll('.message');
+    slides[currentSlide].classList.remove('active-slide');
+    slides[n].classList.add('active-slide');
+    currentSlide = n;
+    if(currentSlide === 0){
+      $( "#next" ).addClass( "disabled" );
+      $( "#previous" ).addClass( "disabled" );
+    }
+    else{
+      
+      $( "#previous" ).removeClass( "disabled" );
+    }
+     
+
+ 
+    
+    if(answerContainers[n].style.background == 'lightgreen')
+    {
+      
+    if(currentSlide === slides.length-1){
+      $( "#next" ).addClass( "disabled" );
+      
+      $( "#submit" ).removeClass( "disabled" );
+    }
+    else {
+      
+      $( "#next" ).removeClass( "disabled" );
+      $( "#submit" ).addClass( "disabled" );
+    }
+    }
+    else {
+      $( "#next" ).addClass( "disabled" );
+    }
+
+    if(currentSlide === slides.length-1){
+      $( "#next" ).addClass( "disabled" );
+    }
+  }
+
+  function showNextSlide() {
+    showSlide(currentSlide + 1);
+  }
+
+  function showPreviousSlide() {
+    showSlide(currentSlide - 1);
+  }
+
+  // Variables
+  const quizContainer = document.getElementById('quiz');
+  const resultsContainer = document.getElementById('results');
+  const submitButton = document.getElementById('submit');
+  const checkButton = document.getElementById('check');
+  const myQuestions = [
+    {
+      question: "Nævn de to overordnede typer af persontest",
+      answers: {
+        a: "Indikatorer og adfærdstest",
+        b: "MBTI og Disc",
+        c: "Kognitiv test og personlighedstest",
+        d: "Bib-test og Rorshach test"
+      },
+      correctAnswers: {
+          one: "c"
+      }
+    },
+    {
+      question: "Hvad er forskellen på en ipsativ og en normativ spørgeramme?",
+      answers: {
+        a: "I en ipsativ test sammenligner man personen med sig selv. I en normativ test sammenligner man personen med en normgruppe.",
+        b: "Det er stort set de samme.",
+        c: "En ipsativ test er en færdighedstest og en normativ test sammenligner personens IQ med en normgruppe.",
+        d: "En ipsativ test er en asymmetrisk test og normativ test er en symmetrisk test."
+      },
+      correctAnswers: {
+          one: "a"
+      }
+    },
+    {
+      question: "Hvad er forskellen på en typetest og en træktest?",
+      answers: {
+        a: "En typetest beskriver en persons stil og en træktest beskriver en persons etnicitet.",
+        b: "En typetest og en træktest beskriver begge en persons adfærd.",
+        c: "En typetest inddeler personprofiler i prædefinerede kategorier og en træktest beskriver, en persons helt særlige, psykologiske profil.",
+        d: "En typetest og en træktest beskriver begge en persons kognitive færdigheder."
+      },
+      correctAnswers: {
+          one: "c"
+      }
+    }
+  ];
+
+  // Kick things off
+  buildQuiz();
+
+  // Pagination
+  const previousButton = document.getElementById("previous");
+  const nextButton = document.getElementById("next");
+  const slides = document.querySelectorAll(".slide");
+
+  const theQuiz = document.getElementById("theQuiz");
+  const register = document.getElementById("register");
+  let currentSlide = 0;
+
+  // Show the first slide
+  showSlide(currentSlide);
+
+  // Event listeners
+  submitButton.addEventListener('click', showResults);
+  previousButton.addEventListener("click", showPreviousSlide);
+  nextButton.addEventListener("click", showNextSlide);
+  checkButton.addEventListener('click', checkAnswer);
+  $( "#next" ).addClass( "disabled" );
+  $( "#submit" ).addClass( "disabled" );
+})();
+
+
+</script>
