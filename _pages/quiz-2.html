@@ -68,10 +68,16 @@ button.disabled {
   opacity: 1;
   z-index: 2;
 }
+
+
+h3 {
+  color: #227799;
+  margin-bottom: 20px;
+}
 .quiz-container{
   position: relative;
-  height: 300px;
-  margin-top: 40px;
+  height: 400px;
+  margin-top: 20px;
 }
 
 </style>
@@ -127,6 +133,17 @@ button.disabled {
         // add this question and its answers to the output
         output.push(
           `<div class="slide">
+            <table style="width: 100%">
+              <tr>
+                <td>
+                  <h3>${currentQuestion.cat}</h3>
+                  </td>
+                  <td style="text-align: right;"><p>Spørgsmål ${questionNumber+1}/${myQuestions.length}</p>
+                    </td>
+                </tr>
+              </table>
+            
+            
             <div class="question"> ${currentQuestion.question} </div>
             <br>
             <div class="answers"> ${answers.join("")} </div><p class="message"></p>
@@ -298,6 +315,7 @@ else {
   const myQuestions = [
     {
       question: "Nævn de to overordnede typer af persontest",
+      cat: "Testformer og valg af test",
       answers: {
         a: "Indikatorer og adfærdstest",
         b: "MBTI og Disc",
@@ -310,6 +328,7 @@ else {
     },
     {
       question: "Hvad er forskellen på en ipsativ og en normativ spørgeramme?",
+      cat: "Testformer og valg af test",
       answers: {
         a: "I en ipsativ test sammenligner man personen med sig selv. I en normativ test sammenligner man personen med en normgruppe.",
         b: "Det er stort set de samme.",
@@ -322,6 +341,7 @@ else {
     },
     {
       question: "Hvad er forskellen på en typetest og en træktest?",
+      cat: "Testformer og valg af test",
       answers: {
         a: "En typetest beskriver en persons stil og en træktest beskriver en persons etnicitet.",
         b: "En typetest og en træktest beskriver begge en persons adfærd.",
@@ -331,7 +351,95 @@ else {
       correctAnswers: {
           one: "c"
       }
-    }
+    },
+    {
+      question: "Hvad bør man overveje ved valg af test?",
+      cat: "Testformer og valg af test",
+      answers: {
+        a: "Personens alder",
+        b: "Hvad testen skal bruges til",
+        c: "Hvad man ønsker et svar på",
+        d: "Hvad den koster",
+        e: "Hvad sprog den er på",
+        f: "Sukker indholdet"
+      },
+      correctAnswers: {
+          one: "a",
+          two: "b",
+          three: "c",
+          four: "d",
+          five: "e"
+      }
+    },
+    {
+      question: "Hvad er en normgruppe?",
+      cat: "Psykometri og testkvalitet",
+      answers: {
+        a: "Normgruppe beskriver de normer der er gældende i den pågældende kultur",
+        b: "Normgruppe beskriver de 100 højeste scorer",
+        c: "Normgruppe beskriver den population der måles op imod, også kaldet en referencegruppe",
+        d: "Normgruppe beskriver gennemsnittet for alle besvarelser"
+      },
+      correctAnswers: {
+          one: "c"
+      }
+    },
+    {
+      question: "Hvad betyder reliabilitet?",
+      cat: "Psykometri og testkvalitet",
+      answers: {
+        a: "Reliabilitet beskriver hvor konsistent en person svarer",
+        b: "Reliabilitet beskriver hvor præcist og pålideligt et resultat er",
+        c: "Reliabilitet beskriver hvor hurtig en person restituerer",
+        d: "Reliabilitet beskriver den samlede mængde personer der har besvaret en test"
+      },
+      correctAnswers: {
+          one: "b"
+      }
+    },
+    {
+      question: "Hvad betyder validitet?",
+      cat: "Psykometri og testkvalitet",
+      answers: {
+        a: "Validitet beskriver hvor pålideligt et resultat er",
+        b: "Validitet beskriver hvor mange der har besvaret testen",
+        c: "Validitet beskriver, om testen måler det, den siger, den måler",
+        d: "Validitet beskriver hvad testen er værd"
+      },
+      correctAnswers: {
+          one: "c"
+      }
+    },
+    {
+      question: "Hvorfor bør man standardisere testadministrationen og indføre en testpolitik?",
+      cat: "Etik og testpolitik",
+      answers: {
+        a: "For at sikre en fair og ensartet behandling af alle",
+        b: "For at spare tid og ressourcer",
+        c: "For at overholde GDPR regler",
+        d: "For at overholde EU's forordning for erhvervsrettede tests"
+      },
+      correctAnswers: {
+          one: "c",
+          two: "a"
+      }
+    },
+    {
+      question: "Hvorfor giver man altid feedback til kandidaten på en Big Five test?",
+      cat: "Etik og testpolitik",
+      answers: {
+        a: "For at få styret sin nysgerrighed",
+        b: "For at sikre at personen har svaret rigtigt",
+        c: "Det siger loven om persondata at man skal",
+        d: "Det kvalificerer datagrundlaget",
+        e: "Det er god etik og anbefalet i de etiske retningslinjer for erhvervsrettet personvurdering."
+      },
+      correctAnswers: {
+          one: "d",
+          two: "e"
+      }
+    },
+    
   ];
 
   // Kick things off

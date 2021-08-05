@@ -243,7 +243,7 @@ layout: default
             </div>
           </div>
         </div>
-        
+        <br>
         <a class="reg-link" href="#" data-toggle="modal" data-target="#{{ page.title | remove: " " }}-modal">Tilmeld dig her</a>
         {% else %}
         <a class="reg-link" href="/registration/{{ reg-url }}">Tilmeld dig her</a>
@@ -251,7 +251,7 @@ layout: default
         {% if page.pdf %}
         {% if page.pdf != "" %}
         <a data-proofer-ignore target="_blank" alt="pdf {{ page.title }}"
-        href="{{ page.pdf }}" class="pdf-link">Download
+        href="{{ page.pdf }}" class="pdf-link">Download 
         PDF</a>
         {% endif %}
         
