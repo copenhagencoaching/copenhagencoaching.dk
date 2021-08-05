@@ -1,6 +1,8 @@
 ---
 layout: page
 ---
+
+
 {% assign orderedcoaching = site.coachings | sort: "order" %}
 <div class="header-navigation">
     <div class="container-fluid narrow-container">
@@ -12,7 +14,9 @@ layout: page
         <a href="#{{ coaching.title | remove: ' ' | strip_html }}"><button>{{ coaching.title }}</button></a>
         {% endfor %}
     </div>
+
 </div>
+
 </div>
 
 <div class="container-fluid container-narrow no-up">
@@ -22,7 +26,9 @@ layout: page
 
         {% for coaching in orderedcoaching %}
         <div class="wrapper" id="{{ coaching.title | remove: ' ' | strip_html }}">
-            <img class="content-img" src="{{ coaching.image }}" alt="{{ coaching.title }}">
+            {% assign b_path = coaching.image %}
+            
+          <img class="content-img" src="/assets/responsive/510/{{ coaching.image }}" alt="{{ coaching.title }}">
             <span>
 
                 <h1 class="title">{{ coaching.title }}</h1>

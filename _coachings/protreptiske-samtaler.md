@@ -1,6 +1,6 @@
 ---
 title: Protreptiske samtaler
-image: /images/coaching/ProtreptisksamtaleMette.jpeg
+image: ProtreptisksamtaleMette.jpeg
 published: true
 id: "6"
 order: "6"

@@ -2,7 +2,7 @@
 published: true
 order: "4"
 title: Medarbejderudvikling
-image: /images/consulting/c1.jpg
+image: c1.jpg
 contact-person: Andreas Bering
 description: I CCC arbejder vi med kompetenceudviklende aktiviteter for medarbejdere i alle typer organisationer. Vi har særligt fokus på bedre, mere eller nye former for samarbejde samt øget motivation og deltagelse.
 ---

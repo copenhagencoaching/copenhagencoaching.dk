@@ -1,7 +1,7 @@
 ---
 title: Morten Randlov
 work: Centerchef, Ungecentret, Skanderborgvej, Aarhus Kommune
-image: /images/advisory-board/morten-randloev-grey.png
+image: /assets/255/morten-randloev-grey.png
 linkedin: https://www.linkedin.com/in/morten-randl%C3%B8v-97772a44/
 education: Master i ledelse og organisationsudvikling, Organisatorisk Lederskab, Aarhus Universitet
 ---
