@@ -8,6 +8,8 @@ header: Master of Business Coaching
 description: Bliv samtaleekspert med vores Master i Business Coaching
 price: 45.900,- EKSKL. MOMS PR. SEMESTER (heri er inkluderet fuld forplejning og kursusmaterialer)
 pdf: "/pdfs/master-of-business-coaching.pdf"
+days: 7
+modules: 8
 emails:
 - ab@copenhagencoaching.dk
 event-title: Kommende hold

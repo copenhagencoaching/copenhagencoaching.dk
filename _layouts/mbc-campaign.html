@@ -72,8 +72,8 @@ layout: default
                 </div>
             </div>
         </div>
-        <div class="bg-cadet-gray">
-            <div class="container-fluid medium-narrow-container only-for-bot white pt-50 pb-75">
+       
+            <div class="container-fluid medium-narrow-container white only-for-bot pt-50 pb-75">
 
                 <h2 class="align-center">Kursus oversigt</h2><br><br>
                 <div class="grid-1 r-gap-5">
@@ -128,27 +128,48 @@ layout: default
                 </div>
 
             </div>
-            <div class="container-fluid medium-narrow-container white pt-50 pb-75 only-big">
-                <h2 class="align-center">Kursus oversigt</h2><br><br>
-                <div class="grid-1 gap-20 r-gap-5">
-                    <div class="grid-3 p-20 p-left-60 pb-0 capped">
+            <div class="container-fluid medium-narrow-container pt-50 pb-75 only-big">
+                
+                <div class="grid-1 gap-20">
+                    
+                    <div class="bg-deep-taupe white p-20 p-left-60 grid-2">
+                        <div class="pt-20"><h1>Kursus oversigt</h1></div>
+
                         <div>
-                            <p class="mb-0"><b>Hold</b></p>
+                            <div class="grid-3">
+                                <div>
+                                    <p class="mb-0 pt-20"><b>Pris ekskl. moms</b></p>
+                                    <p>{{ page.price | truncate: 9, "" }}</p>
+                                </div>
+                                <div>
+                                    <p class="mb-0 pt-20"><b>Varigheder</b></p>
+                                    <p>{{ page.days }} dage</p>
+                                </div>
+                                <div>
+                                    <p class="mb-0 pt-20"><b>Moduler</b></p>
+                                    <p>{{ page.modules }} moduler</p>
+                                </div>
+                            </div>
+                         </div>
+                        </div>
+                    <div class="grid-3 p-20 p-left-60 pb-0 capped bg-black-coral white">
+                        <div>
+                            <p><b>Hold</b></p>
                         </div>
                         <div>
-                            <p class="mb-0"><b>Dato</b></p>
+                            <p><b>Dato</b></p>
                         </div>
                         <div>
-                            <p class="mb-0"><b>Pris</b></p>
+                            <p><b>Pris</b></p>
                         </div>
                         <div></div>
                     </div>
                     {% for semester in page.semesters %}
                     <div>
                         <div class="position-relative">
-                            <a class="bg-black-coral semester-heading collapsed" data-toggle="collapse"
+                            <a class="semester-heading collapsed" data-toggle="collapse"
                                 href="#hold{{ forloop.index}}" role="button" aria-expanded="false" aria-controls="">
-                                <div class="grid-3 bg-black-coral p-20 gap-20 p-left-60">
+                                <div class="grid-3 p-20 gap-20 p-left-60">
                                     <div>
                                         <p class="mb-0">{{ semester.title }}</p>
                                     </div>
@@ -168,7 +189,7 @@ layout: default
                                 data-target="#mbc-application-modal">Ansøg</a>
                         </div>
                         <div class="bg-black-coral collapse" id="hold{{ forloop.index}}">
-                            <div class="grid-50-50-50-auto-auto grid-5 p-20 bg-deep-taupe">
+                            <div class="grid-50-50-50-auto-auto grid-5 p-20 bg-deep-taupe white">
                                 <div>
                                     <p class="mb-0">Dato</p>
                                 </div>
@@ -222,7 +243,7 @@ layout: default
             </div>
 
 
-        </div>
+       
         <div class="container-fluid medium-narrow-container pt-50">
 
             <div class="grid-2 gap-40 r-gap-40">

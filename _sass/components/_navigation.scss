@@ -341,10 +341,15 @@ nav {
 .semester-heading {
   position: relative;
 
+  &.active
 
   .grid-3 {
     padding-left: 60px;
   }
+}
+
+.semester-heading:hover {
+  background-color: #333333;
 }
 
 .semester-heading[data-toggle="collapse"]:after {
