@@ -5,7 +5,7 @@ under-title: Kims seminarer
 subtitle: Februar
 event-type: Seminar
 image: /images/about/employees/kim-gørtz.jpg
-description: En tetralogisk seminarrække om dannelse og etik i den moderne ledelsespraksis
+description: En tetralogisk seminarrække om dannelse og etik i den moderne ledelsespraksis - August event udskudt – ny dato annonceres snarest
 tags:
 - community
 - eventgroup
@@ -13,7 +13,7 @@ ready: true
 order: 1
 place: Blegdamsvej 104 A, 2100 København Ø
 sub-pages: kim
-community: Gratis for CCC Community medlemmer
+community: August event udskudt – ny dato annonceres snarest
 only-month: true
 ex-moms: true
 time: 17.00-20.00

@@ -32,7 +32,7 @@ host: 0.0.0.0
 force_polling: true
 
 # Speed it up a buit
-incremental: true
+incremental: false
 
 # Fail if front matter misbehaves
 strict_front_matter: true
