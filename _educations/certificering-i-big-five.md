@@ -10,6 +10,7 @@ price: 19.500,- EKSKL. MOMS
 event-title: Kommende hold
 hold:
 - BFC-21 Efterår - start 10. august
+- BFC-21 Efterår - start 25. oktober
 location: Al undervisning foregår online på Zoom. 5 online sessioner á 2-5 timers varighed.
 special: false
 hold_eller_begivenheder: true
@@ -28,6 +29,13 @@ events:
   - 20. august 2021 - 13.00 - 15.00
   - 27. august 2021 - 10.00 - 15.00
   - 3. september 2021 - 10.00 - 15.00
+- overskrift: BFC-21 Efterår - start 25. oktober
+  dato:
+  - 25. oktober 2021 - 12.00 - 14.00
+  - 2. november 2021 - 10.00 - 12.00
+  - 10. november 2021 - 10.00 - 12.00
+  - 18. november 2021 - 10.00 - 15.00
+  - 26. november 2021 - 10.00 - 15.00
 ---
 
 Bliv klædt på til at bruge markedets bedst underbyggede personlighedstest i rekruttering og ledelses- og medarbejderudviklingssammenhæng.

@@ -197,6 +197,7 @@ layout: default
                 method="POST"
               >
               <span>
+                
               
                  {% if page.hold %}
                 <select class="input-form udd" name="uddannelse">
@@ -204,6 +205,7 @@ layout: default
                   {% for h in page.hold %}
                   <option value="{{ h }}">{{ h }}</option>
                   {% endfor %}
+
                   
               </select>
               {% endif %}
@@ -220,6 +222,7 @@ layout: default
                   <input type="text" name="by" placeholder="By*" required>
                 </div>
                 <input type="text" name="cvr" placeholder="CVR"/>
+
                   
               </span>
               
