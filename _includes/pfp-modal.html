@@ -9,114 +9,183 @@
         </button>
       </div>
       <div class="modal-body">
+        <h2>Ansøgning til Psykologisk filosofisk psykoterapi</h2>
         <p>Hvis du har spørgsmål omkring uddannelsen, din ansøgning eller andet er du velkommen til at ringe til Mette Mejlhede på
-
-          <a href="tel:24 27 28 71">24 27 28 71</a> – eller sende os en sms om, hvornår det passer dig at blive ringet
-          op. Du kan også altid skrive til <a href="mailto:info@copenhagencoaching.dk">info@copenhagencoaching.dk</a>
-          for mere info.
-
-          Din ansøgning nedenfor er ikke bindende. Din optagelse vil udover nedenstående oplysninger, også bero på en
-          personlig samtale.
-
-          Vi glæder os til at høre fra dig.
-        </p>
-
-        <p>Første hold starter den 10. juni 2021.
-        </p>
+    
+            <a href="tel:24 27 28 71">24 27 28 71</a> – eller sende os en sms om, hvornår det passer dig at blive ringet
+            op. Du kan også altid skrive til <a href="mailto:info@copenhagencoaching.dk">info@copenhagencoaching.dk</a>
+            for mere info.
+    
+            Din ansøgning nedenfor er ikke bindende. Din optagelse vil udover nedenstående oplysninger, også bero på en
+            personlig samtale.
+    
+            Vi glæder os til at høre fra dig.
+          </p>
+    
+          <p>Første hold starter den 11. november. 2021.
+          </p>
+          <br>
+          <form class="white-form" action="https://formspree.io/f/mvovyqez" method="POST">
+    
+    
+           
+        <input type="hidden" name="uddannelse" value="{{ page.title }}" />
+        <input type="text" name="FNAME" placeholder="Fornavn*" required>
+        <input type="text" name="LNAME" placeholder="Efternavn*" required>
+        <input type="text" name="virksomhed" placeholder="Virksomhed">
+        <label><b>Hvem skal betale?</b></label>
         <br>
-        <form class="white-form" action="https://formspree.io/f/mvovyqez" method="POST">
-
-
-          <input type="text" name="name" placeholder="Navn*" required>
-          <input type="email" name="email" placeholder="E-mail*" required>
-          <input type="text" name="virksomhed" placeholder="Virksomhed">
-          <input type="text" name="cvr" placeholder="CVR nummer">
-          <input type="text" name="ean" placeholder="EAN">
-          <input type="text" name="adress" placeholder="Fakturerings adresse*" required>
-          <div class="grid-2">
+        <label>
+            <input type="radio" class="checkbox privat" checked id="privat" name="betaling"
+                value="privat">
+            Privat</label>
+        <br>
+        <label class="mb-20">
+            <input type="radio" class="checkbox virksomhed" id="virksomhed" name="betaling"
+                value="virksomhed">
+            Virksomhed</label>
+        <br>
+        <div id="virksomhed-box">
+    
+            
+        </div>
+    
+        <input type="text" name="adress" placeholder="Fakturerings adresse*" required>
+        <div class="grid-2">
             <input type="text" name="zip-code" placeholder="Postnummer*" required>
             <input type="text" name="town" placeholder="By*">
-          </div>
-          <input type="tel" name="mobile" pattern="[0-9]{8}" placeholder="Mobil*" required>
-          <input type="text" name="work-phone" pattern="[0-9]{8}" placeholder="Arbejdstelefon">
-
-          <textarea name="besked" cols="30" rows="10" placeholder="Evt. kommentar"></textarea>
-          <label><b>Uddannelsesmæssig baggrund:</b><br>
-            <i>Skriv venligst dine formelle uddannelser</i></label>
-          <textarea name="uddannelses-baggrund" cols="30" rows="10"></textarea>
-
-          <label><b>Relevante kurser og efteruddannelser:</b><br>
-            <i>Herunder registrerede alternative uddannelser</i></label>
-          <textarea name="relevante-kurser" cols="30" rows="10"></textarea>
-
-          <label><b>Relevant livs- og erhvervserfaring:</b><br>
-            <i>Enhver form for arbejde med menneskelig kontakt og ansvar for andre mennesker. f.eks. ledelse, HR,
-              tillidsehverv, ansvarlig for lærlinge/elever. Frivilligt socialt arbejde spejderleder, fodboldtræner eller
-              lignende.
-            </i></label>
-          <textarea name="livs-erhvervserfaring" cols="30" rows="10"></textarea>
-          <br>
-          <label>  
-            <input class="checkbox" type="checkbox" name="egen-terapi" required /> <b>Egen-terapi</b> (Sæt kryds, hvis ja)
-          </label>
-          <br><br>
-          <label>  
-            <input class="checkbox" type="checkbox" name="terapigrupper" required /> <b>Terapigrupper</b> (Sæt kryds, hvis ja)
-          </label>
-          <br>
-          <br>
-          
-
-          <label><b>Personlig motivation for at søge optagelse:</b></label>
-          <textarea name="motivation" cols="30" rows="10"></textarea>
-
-          <label><b>Jeg søger optagelse via:</b><br>
-          <input class="checkbox" type="radio" id="male" name="kvote" value="§1"> §1 <br><input class="checkbox" type="radio" id="male" name="kvote" value="§2"> §2 <br><input class="checkbox" type="radio" id="male" name="kvote" value="§3"> §3</label>
-          <br><a href="/pfp/adgangskrav/" target="_blank" class="small">Læs om kvoter og adgangskrav her</a>
-<br><br>
-  <label><b>Merit:</b><br>
-  <input class="checkbox" type="checkbox" name="merit"/>
-  Jeg søger meritoverførsel fra anden tilsvarende psykoterapeutuddannelse</label><br>
-<br>
-
-<label><b>Hvor har du hørt om os?:</b><br>
-  <input class="checkbox" type="checkbox" name="google" /> Google<br>
-  <input class="checkbox" type="checkbox" name="facebook" /> Facebook<br>
-  <input class="checkbox" type="checkbox" name="instagram" /> Instagram<br>
-  <input class="checkbox" type="checkbox" name="linkedin" /> LinkedIn<br>
-  <input class="checkbox" type="checkbox" name="anbefaling" /> Anbefaling fra andre<br>
-  <input class="checkbox" type="checkbox" name="andet" /> Andet
-
-  </label>
-<br>
-<br>
-<label>  
-  <input class="checkbox" type="checkbox" name="_optin" required /> Jeg vil gerne modtage CCC's nyhedsbrev
-</label>
-<br>
-<br>
-<label>
-  <b>Samtykkeerklæring*</b><br>
-  <input class="checkbox" type="checkbox" name="samtykke" required /> <span class="small inline">Jeg giver samtykke til, at CCC må bruge
-  mine oplysninger til at behandle min ansøgning. Derudover giver jeg samtykke til, at CCC opbevarer og
-  behandler mine persondata som er beskrevet i CCC's <a href="/privatlivspolitik/">privatlivspolitik</a>.</span>
-</label>
-
-         <br>
-          
-
-          <br>
-
-
-          <!-- your other form fields go here -->
-
-          <button class="dust-green-btn" type="submit">Ansøg</button>
-
-        </form>
-
-        </form>
+        </div>
+    
+    
+    
+        <input type="tel" name="arb-tlf" pattern="[0-9]{8}" placeholder="Arb. tlf.*" required>
+        <input type="tel" name="mobile" pattern="[0-9]{8}" placeholder="Mobil">
+        <input type="email" name="email" placeholder="E-mail*" required>
+            <textarea name="besked" cols="30" rows="10" placeholder="Evt. kommentar"></textarea>
+            <label><b>Uddannelsesmæssig baggrund:</b><br>
+              <i>Skriv venligst dine formelle uddannelser</i></label>
+            <textarea name="uddannelses-baggrund" cols="30" rows="10"></textarea>
+    
+            <label><b>Relevante kurser og efteruddannelser:</b><br>
+              <i>Herunder registrerede alternative uddannelser</i></label>
+            <textarea name="relevante-kurser" cols="30" rows="10"></textarea>
+    
+            <label><b>Relevant livs- og erhvervserfaring:</b><br>
+              <i>Enhver form for arbejde med menneskelig kontakt og ansvar for andre mennesker. f.eks. ledelse, HR,
+                tillidsehverv, ansvarlig for lærlinge/elever. Frivilligt socialt arbejde spejderleder, fodboldtræner eller
+                lignende.
+              </i></label>
+            <textarea name="livs-erhvervserfaring" cols="30" rows="10"></textarea>
+            <br>
+            <label>  
+              <input class="checkbox" type="checkbox" name="egen-terapi" required /> <b>Egen-terapi</b> (Sæt kryds, hvis ja)
+            </label>
+            <br><br>
+            <label>  
+              <input class="checkbox" type="checkbox" name="terapigrupper" required /> <b>Terapigrupper</b> (Sæt kryds, hvis ja)
+            </label>
+            <br>
+            <br>
+            
+    
+            <label><b>Personlig motivation for at søge optagelse:</b></label>
+            <textarea name="motivation" cols="30" rows="10"></textarea>
+    
+            <label><b>Jeg søger optagelse via:</b><br>
+            <input class="checkbox" type="radio" id="male" name="kvote" value="§1"> §1 <br><input class="checkbox" type="radio" id="male" name="kvote" value="§2"> §2 <br><input class="checkbox" type="radio" id="male" name="kvote" value="§3"> §3</label>
+            <br><a href="/pfp/adgangskrav/" target="_blank" class="small">Læs om kvoter og adgangskrav her</a>
+    <br><br>
+    <label><b>Merit:</b><br>
+    <input class="checkbox" type="checkbox" name="merit"/>
+    Jeg søger meritoverførsel fra anden tilsvarende psykoterapeutuddannelse</label><br>
+    <br>
+    <label class="mb-0" id="file-upload">
+        <b>Vedhæft relevante dokumenter:</b>
+        <input type="file" name="upload"
+            accept=".doc,.docx,.pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document">
+    </label>
+    <br>
+    <label>
+        <a href="#flere" class="black-coral-btn faded small thin add-more-files">Tilføj flere</a>
+    </label>
+    <br><br>
+    
+    <label><b>Hvor har du hørt om os?:</b><br>
+    <input class="checkbox" type="checkbox" name="google" /> Google<br>
+    <input class="checkbox" type="checkbox" name="facebook" /> Facebook<br>
+    <input class="checkbox" type="checkbox" name="instagram" /> Instagram<br>
+    <input class="checkbox" type="checkbox" name="linkedin" /> LinkedIn<br>
+    <input class="checkbox" type="checkbox" name="anbefaling" /> Anbefaling fra andre<br>
+    <input class="checkbox" type="checkbox" name="andet" /> Andet
+    
+    </label>
+    <br>
+    <br>
+    <label>  
+    <input class="checkbox" type="checkbox" name="_optin" required /> Jeg vil gerne modtage CCC's nyhedsbrev
+    </label>
+    <br>
+    <br>
+    <label>
+    <b>Samtykkeerklæring*</b><br>
+    <input class="checkbox" type="checkbox" name="samtykke" required /> <span class="small inline">Jeg giver samtykke til, at CCC må bruge
+    mine oplysninger til at behandle min ansøgning. Derudover giver jeg samtykke til, at CCC opbevarer og
+    behandler mine persondata som er beskrevet i CCC's <a href="/privatlivspolitik/">privatlivspolitik</a>.</span>
+    </label>
+    
+           <br>
+            
+    
+            <br>
+    
+    
+            <!-- your other form fields go here -->
+    
+            <button class="dust-green-btn" type="submit">Ansøg</button>
+    
+          </form>
         <br>
       </div>
     </div>
   </div>
 </div>
+
+
+<script>
+  var numner = 1;
+$(document).on("click", ".add-more-files", function () {
+  var new_num = 1;
+  var boxx = document.getElementById('file-upload');
+  var close_box = document.createElement('a');
+  close_box.innerHTML = "<i class='fas fa-times'></i>";
+  close_box.className = "close-button-file"
+  close_box.href = "#close"
+  var the_div = document.createElement("div");
+  the_div.className = "position-relative";
+  var elements = document.createElement("input");
+
+  elements.type = "file";
+  elements.name = "upload-" + new_num + 1;
+  elements.accept = ".doc,.docx,.pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document";
+  the_div.appendChild(elements);
+  the_div.appendChild(close_box);
+  boxx.appendChild(the_div);
+});
+
+$(document).on("click", ".close-button-file", function () {
+  var cross = $(this)
+  cross.parent().remove()
+});
+
+$(document).on("click", "#privat", function () {
+  var hehe = $("#cvr")
+  hehe.parent().remove();
+
+});
+
+
+$(document).on("click", "#virksomhed", function () {
+  $('#virksomhed-box').html('<div><input type="text" name="cvr" id="cvr" placeholder="CVR nummer"><input type="text" name="ean" placeholder="EAN"></div>')
+
+});
+</script>
