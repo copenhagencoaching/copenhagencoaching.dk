@@ -1,5 +1,5 @@
 ---
-order: "8"
+order: 7
 title: Anni Rosengren Korsbæk
 portrait-image: "/images/about/employees/anni-r-korsbæk.jpg"
 small-portrait-image: "/images/about/employees/anni-r-korsbæk.jpg"

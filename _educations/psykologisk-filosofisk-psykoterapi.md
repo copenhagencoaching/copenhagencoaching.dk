@@ -6,7 +6,7 @@ special: false
 image: /images/educations/psykologisk-filosofisk-psykoterapi.jpg
 layout: pfp
 order: 2
-contact-person: Kim Gørtz
+contact-person: Camilla Ingwersen
 cat:
 - master-4
 - put
