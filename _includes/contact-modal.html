@@ -1,25 +1,30 @@
-<div class="modal fade" id="contact-modal" tabindex="-1" role="dialog" aria-labelledby="contact-modal" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-    <div class="modal-content">
+
+
+
+
+
+<div class="modal fade" id="contact-modal" tabindex="-1" aria-labelledby="contact-modal-heading" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content p-3">
       <div class="modal-header">
-        <h5 class="modal-title" id="contact-modal">Kontakt Copenhagen Coaching Center</h5>
-        <button type="button" class="close close-modal-button" data-dismiss="modal" aria-label="Close">
-          <span>&times;</span>
-        </button>
+        <h4 class="modal-title" id="contact-modal-heading">Kontakt Copenhagen Coaching Center</h4>
+        <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+
       </div>
       <div class="modal-body">
-        <form
-        action="https://formspree.io/moqllqyp"
-        method="POST"
-      >
-      <span>
+        <p> <b>Vi sidder klar til at besvare dine spørgsmål.</b> <br>
+          Udfyld formularen og så kontakter vi dig hurtigst muligt. Vi glæder os til at høre fra dig!</p>
+    <form
+    action="https://formspree.io/f/moqllqyp"
+    method="POST"
+  >
+  <span>
+  
+     
+      <input class="form-control mb-3" type="text" name="name" placeholder="Navn" id="name">
       
-      
-          <input type="text" name="navn" placeholder="Navn">
-          <input type="text" name="email" placeholder="Email">
-      </span>
-     <span>
-      <select class="input-form udd" name="spørgsmål">
+      <input type="text" class="form-control mb-3" form name="email" id="email" placeholder="Email">
+      <select class="form-control mb-3" name="spørgsmål">
         <option value="emne">Vælg emne</option>
        
         <option value="admin@copenhagencoaching.dk Jeg-har-spørgsmål-til-admin/bogholderi">Jeg har spørgsmål til admin/bogholderi</option>
@@ -30,14 +35,21 @@
         <option value="kontakt@copenhagencoaching.dk Jeg-har-andre-spørgsmål">Jeg har andre spørgsmål</option>
         
     </select>
-     </span>
-      
-          <textarea name="besked" cols="30" rows="10" placeholder="Besked"></textarea>
-      
-      
-        <!-- your other form fields go here -->
-        <button class="green-button" type="submit">Send besked</button>
-      </form>
+  </span>
+  
+      <textarea class="form-control mb-3" name="besked" cols="30" rows="10" placeholder="Besked"></textarea>
+  
+      <div class="form-check mb-3">
+        <input class="form-check-input" name="_optin" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">
+          Jeg vil gerne modtage CCC's nyhedsbrev
+        </label>
+      </div>
+
+     
+    <!-- your other form fields go here -->
+    <button class="btn-dust-green w-100" type="submit">Send besked</button>
+  </form>
       </div>
     </div>
   </div>

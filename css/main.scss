@@ -3,32 +3,18 @@
 @charset "utf-8";
 
 
-// Abstracts
-@import "bootstrap/bootstrap.scss";
-// Miscellaneous
+@import "text.scss";
 
-@import "frontpage.scss";
-@import "education.scss";
-@import "inspiration.scss";
-@import "academy.scss";
-@import "page.scss";
-@import "registration.scss";
-@import "content.scss";
-@import "search.scss";
-@import "category.scss";
-@import "employee.scss";
-@import "fundament.scss";
-@import "community.scss";
-@import "protreptik.scss";
-
-// Components
-
-@import "components/navigation.scss";
-@import "components/information.scss";
-@import "components/partners.scss";
-@import "components/modal.scss";
-@import "components/testimonial.scss";
-@import "components/signup.scss";
-@import "components/employees.scss";
+@import "containers.scss";
+@import "nav.scss";
+@import "slider.scss";
+@import "cards.scss";
+@import "boxes.scss";
+@import "links.scss";
 @import "components/footer.scss";
-@import "components/single-page.scss";
+@import "images.scss";
+@import "buttons.scss";
+@import "colors.scss";
+@import "tabs.scss";
+@import "tables.scss";
+@import "forms.scss";

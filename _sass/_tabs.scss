@@ -1,0 +1,36 @@
+
+// pallets
+
+// fade-pallette
+
+.nav-tabs.fade-pallette {
+    border: none;
+    justify-items: center;
+    justify-content: space-between;
+    column-gap: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    @media (max-width: 1199.98px) {
+        display: flex !important;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+.nav-tabs.fade-pallette .nav-link.active {
+    background-color: #846E6D;
+    border: none;
+    color: white !important;
+}
+.nav-tabs.fade-pallette .nav-link {
+    background-color: #A4836B;
+    color: white !important;
+    border-radius: 0;
+    border: none;
+    width: 100%;
+    text-align: center;
+    @media (max-width: 1199.98px) {
+        width: unset !important;
+        margin-bottom: 5px;
+    }
+}

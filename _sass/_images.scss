@@ -1,0 +1,38 @@
+.small-image {
+
+    object-fit: cover;
+
+        height: 100px;
+        width: 100px;
+     
+
+    &.responsive {
+        @media (min-width: 1200px) { 
+            height: 100px;
+            width: 100px;
+         }
+        @media (max-width: 1399.98px) { 
+            height: 70px;
+            width: 70px;
+         }
+         @media (max-width: 991.98px) { 
+            height: 100px;
+            width: 100px;
+         }
+    }
+}
+
+.medium-image {
+
+    object-fit: cover;
+
+        height: 150px;
+        width: 150px;
+}
+
+// Vidoes
+
+video {
+    width: 100%;
+    height: auto;
+  }

@@ -7,14 +7,16 @@
 {% include thanks-modal.html %}
 {% include edu-modal.html %}
 
-  <nav class="navbar navbar-expand-xl">
-    <div class="container-fluid narrow-container">
-    <a class="navbar-brand" href="/"><img src="/images/logo/ccc-logo-new.png" alt="Copenhagen Coaching Center Logo"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <i class="fas fa-bars"></i>
+<nav class="navbar sticky-top navbar-expand-xl navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">
+      <img src="/images/logo/ccc-logo-new.png" alt="" height="65">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ml-auto">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
         {% assign sorted_nodes = site.pages | sort: "order" %}
         {% for node in sorted_nodes %}
         {% if node.show %}
@@ -32,27 +34,16 @@
         <li class="nav-item">
           <a class="nav-link" href="/nyhedsbrev/">Nyhedsbrev</a>
         </li>
+        
+        
         <li class="nav-item nav-icon">
-          <a class="contact-link nav-link" data-proofer-ignore href="#contact" data-toggle="modal" data-target="#contact-modal"><i class="fas fa-envelope"></i></a>
+          <a class="contact-link nav-link" data-proofer-ignore="" href="#contact" data-toggle="modal" data-target="#contact-modal"><i class="fas fa-envelope"></i></a>
         </li>
         <li class="nav-item nav-icon">
-          <a class="cursor-pointer" data-toggle="modal" data-target="#edu-modal"><i class="fas fa-user-graduate"></i></a>
+          <a class="cursor-pointer nav-link" data-toggle="modal" data-target="#edu-modal"><i class="fas fa-user-graduate"></i></a>
         </li>
-
-         
-
       </ul>
-
+    
     </div>
-  </nav>
-
-  <!-- <button class="green-button newsletter">Tilmeld nyhedsbrev</button> -->
-</div>
+  </div>
 </nav>
- <!-- <button class="nl-btn large hightlighted" onclick="window.location.href='/nyhedsbrev/'">Tilmeld nyhedsbrev</button> -->
-
-<script>
-  $('.contact-link').on('click', function () {
-    $('.navbar-toggler').click();
-  });
-</script>

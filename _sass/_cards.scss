@@ -1,0 +1,25 @@
+.card {
+    .card-title {
+        text-transform: uppercase;
+    }
+    .outer-img-top {
+        img {
+            object-fit: cover;
+            height: 200px;
+            width: 100%;
+        }
+    }
+}
+
+.card.card-large {
+    border: 0;
+    
+    @media (min-width: 1200px) { 
+        height: 570px !important;
+     }
+
+}
+
+.card-medium {
+    height: 200px !important;
+}

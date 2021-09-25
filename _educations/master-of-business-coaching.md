@@ -1,11 +1,11 @@
 ---
 order: 1
 title: Master of Business Coaching
-layout: mbc
+layout: mbc-2
 image: "/images/international/i3.jpg"
 contact-person: Frederikke Winther
 header: Master of Business Coaching
-description: Bliv samtaleekspert med vores Master i Business Coaching
+description: Ønsker du at blive dygtig til at føre produktive og virkningsfulde dialoger? At kunne flytte både grupper og individer i en mere konstruktiv retning og derved forebygge stress, organisatorisk stagnation og udbrændthed? Så vælg uddannelsen Master of Business Coaching (MBC).
 price: 45.900,- EKSKL. MOMS PR. SEMESTER (heri er inkluderet fuld forplejning og kursusmaterialer)
 pdf: "/pdfs/master-of-business-coaching.pdf"
 emails:

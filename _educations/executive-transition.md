@@ -1,11 +1,11 @@
 ---
 title: Executive Transition
 image: "/images/academy/executive-transition.jpg"
-contact-person: Morten Bertelsen
 header: Executive Transition
 price: '24.900,- EKSKL. MOMS  (heri er inkluderet fuld forplejning, materialer)  '
 pdf: 'false'
 event-title: Kommende hold
+description: Executive Transition handler om at kunne omsætte egne værdier og kompetencer fra kontekst X til kontekst Y. At kunne stille skarpt på, hvilke processuelle kompetencer og narrativer, der skal til for at lykkes i skiftet fra X til Y.
 special: true
 hold_eller_begivenheder: true
 events:
@@ -14,7 +14,6 @@ order: 33
 cat:
 - put
 ---
-**Du kan trygt melde dig til vores næste hold. Vi følger situationen og de løbende retningslinjer nøje for at undgå spredningen af covid-19.**
 
 ### Hvorfor skal du vælge Executive Transition?
 

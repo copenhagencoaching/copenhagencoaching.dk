@@ -1,0 +1,46 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Oswald', sans-serif;
+    color: #707070;
+}
+
+h1,
+h2 {
+    text-transform: uppercase;
+}
+
+p,
+li {
+    font-family: 'Poppins', sans-serif;
+    font-size: .85rem;
+    color: #707070;
+}
+
+hr.white {
+    border: 1px solid #fff;
+    opacity: 1;
+}
+
+.w-50.responsive {
+
+    @media (max-width: 1199.98px) {
+        width: 100% !important;
+    }
+
+}
+
+p.large {
+    font-size: 1.0625rem;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+body {
+    font-size: .85rem;
+}

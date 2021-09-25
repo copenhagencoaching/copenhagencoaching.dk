@@ -1,0 +1,45 @@
+.container-fluid {
+    max-width: 1600px;
+    margin: auto;
+    padding-right: 3vh !important;
+    padding-left: 3vh !important;
+}
+
+// Accordion //
+
+.accordion.clean {
+
+    &.white-arrow {
+        .accordion-button:after {
+            background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+        }
+    }
+    .accordion-item {
+        background: none !important;
+        border: none;
+
+        .accordion-button:not(.collapsed) {
+            color: unset;
+            background: none;
+            border-bottom: 1px solid #9b9b9b;
+        }
+
+        .accordion-button {
+            color: unset;
+            background: none;
+            padding: 5px 0;
+            font-size: unset;
+            border-bottom: 1px solid #e4e4e4;
+           
+            &:focus {
+                box-shadow: none;
+            }
+        }
+
+        .accordion-body {
+            background: none !important;
+        }
+    }
+
+
+}

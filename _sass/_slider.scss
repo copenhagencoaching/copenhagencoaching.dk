@@ -1,0 +1,25 @@
+.big-header .inner-front {
+    height: 500px;
+    display: block;
+    width: 100%;
+    background-size: cover;
+    background-position: 50% 30%;
+}
+
+.big-header .inner-front .container-fluid .front-box {
+    background-color: rgba(255,255,255,0.849);
+    max-width: 700px;
+    padding: 40px;
+}
+
+.big-header .inner-front .container-fluid {
+    display: grid;
+    justify-content: end;
+    align-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.slick-next { 
+    right: 15px !important;
+}

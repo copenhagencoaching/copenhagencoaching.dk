@@ -2,133 +2,144 @@
 layout: default
 ---
 
-<div class="container-fluid narrow-container">
-  {% if page.header %}
-<div class="hero-banner wide udd">
-  
-   
-    <div class="hero-banner-text">
-        <h1 class="banner-title">{{ page.header }}</h1>
-        {% if page.sub-header %}	
-        <h2>{{ page.sub-header }}</h2>
-        {% endif %}
-        {% if page.teaser %}<p>{{ page.teaser }}</p>{% else %}<p>{{ page.description }}</p> {% endif %}
+<div
+  style="background: linear-gradient(rgba(19, 19, 19, 0.6), rgba(19, 19, 19, 0.6)), url('{{ page.image }}'); background-size: cover; background-position: center;">
+  <div class="py-5">
+    <div class="container-fluid text-center py-5">
+      <h1 class="text-white mb-3">{{ page.title }}</h1>
+      <hr class="white w-50 mx-auto">
+      <p class="w-75 mx-auto text-white fs-5">{{ page.description }}</p>
     </div>
-    <div class="hero-banner-image m-bottom">
-
-    <div class="color-box"></div>
-    <div class="hero-image">
-        <img src="{{ page.image }}" data-proofer-ignore alt="{{ page.title }}"></div>
-</div>
+  </div>
 
 </div>
-{% endif %}
-<br>
-  <div class="grid-2 justify-content-between grid-auto-5 r-gap-40">
-    <div class="education-content">
+
+<div class="container-fluid py-5 overflow-hidden">
+  <div class="row">
+    <div class="col-12 col-lg-8 pe-5">
       {{ page.content }}
-      {% capture reg-url %}?n={{ page.title | uri_escape }}{% endcapture %}
     </div>
-    <div class="facta-column">
-      <div class="facta-box">
+    <div class="col-12 col-lg-4 bg-dark-black p-4">
+      <div class="d-grid gap-2 mb-3">
+        <a class="btn btn-outline-light white-border-button" href="/registration/">Tilmeld dig her</a>
+      </div>
+      {% if page.price %}
+      <p class="text-white"><b>Pris: </b><br>{{ page.price }} </p>
+      {% endif %}
+      {% if page.location %}
+      <p class="text-white"><b>Sted: </b><br>{{ page.location }} </p>
+      {% endif %}
+      <!-- datoer -->
+      {% if page.hold_eller_begivenheder == true %}
+<b>
+  <p class="text-white mb-2">{{page.event-title}}:</p>
+</b>
 
-        {% if page.extern-event %}
-        {% for post in site.posts %}
-        {% if post.title == page.extern-event %}
-        <div class="card">
-          <div class="card-body">
-            <a href="{{ post.url }}">
-            <h4>{{ post.title }}</h4>
-           
-            <p>{{ page.extern-event-text}}</p>
-            
-          </a>
-          </div>
-        </div>
-        
-        {% endif %}
+{% for event in page.events %}
+
+{% if event.subcategory == true %}
+
+
+<p class="text-white">{{ event.overskrift }}</p>
+<div class="accordion clean" id="accordionExample">
+{% for subcat in event.subcat %}
+<div class="accordion-item">
+  <p class="accordion-header" id="heading{{ forloop.index }}">
+    <button class="accordion-button collapsed text-white" type="button" data-bs-toggle="collapse"
+      data-bs-target="#collapse{{ forloop.index }}" aria-expanded="false"
+      aria-controls="collapse{{ forloop.index }}">
+      {{ subcat.sub-cat-title }}
+    </button>
+  </p>
+  <div id="collapse{{ forloop.index }}" class="accordion-collapse collapse"
+    aria-labelledby="heading{{ forloop.index }}" data-bs-parent="#accordionExample">
+    <div class="accordion-body p-0">
+      <ul>
+        {% for dato in subcat.datoer %}
+        <li class="text-white">{{ dato }}</li>
         {% endfor %}
-        {% endif %}
-        <b>
-          <p>Pris:</p>
-        </b>
-        <p> {{ page.price }} </p>
-        {% if page.location %}
-        <b>
-          <p>Sted:</p>
-        </b>
-        <p> {{ page.location }} </p>
-        {% endif %}
+      </ul>
 
-        <!-- Datoer  -->
+    </div>
+  </div>
+</div>
+{% endfor %}
+</div>
+{% else %}
 
-        {% if page.hold_eller_begivenheder == true %}
-        <b>
-          <p>{{page.event-title}}:</p>
-        </b>
-
-        {% for event in page.events %}
-
-        {% if event.subcategory == true %}
-
-
-        <h3>{{ event.overskrift }}</h3>
-
-        {% for subcat in event.subcat %}
-        <div class="date-box">
-          <a class="date-links" role="button">
-            {{ subcat.sub-cat-title }}<i class="fas fa-caret-down"></i>
-          </a>
-          <div id="dateCollapse" class="collapse-dates">
-            <ul>
-              {% for dato in subcat.datoer %}
-              <li>
-                {{ dato }}
-              </li>
-              {% endfor %}
-            </ul>
-          </div>
-        </div>
+{% if event.dato %}
+<div class="accordion clean" id="accordionExample">
+<div class="accordion-item">
+  <p class="accordion-header" id="heading{{ forloop.index }}">
+    <button class="accordion-button collapsed text-white" type="button" data-bs-toggle="collapse"
+      data-bs-target="#collapse{{ forloop.index }}" aria-expanded="false"
+      aria-controls="collapse{{ forloop.index }}">
+      {{ event.overskrift }}
+    </button>
+  </p>
+  <div id="collapse{{ forloop.index }}" class="accordion-collapse collapse"
+    aria-labelledby="heading{{ forloop.index }}" data-bs-parent="#accordionExample">
+    <div class="accordion-body p-0">
+      <ul>
+        {% for dato in event.dato %}
+        <li class="text-white">{{ dato }}</li>
         {% endfor %}
+      </ul>
 
-        {% else %}
+    </div>
+  </div>
+</div>
+</div>
+{% else %}
+<p class="text-white">{{ event.overskrift }}</p>
 
-        {% if event.dato %}
-        <div class="date-box">
-          <a class="date-links" role="button">
-            {{ event.overskrift }}<i class="fas fa-caret-down"></i>
-          </a>
-          <div id="dateCollapse" class="collapse-dates">
-            <ul>
-              {% for dato in event.dato %}
-              <li>
-                {{ dato }}
-              </li>
-              {% endfor %}
-            </ul>
-          </div>
-        </div>
-        {% else %}
-        <div class="date-box">{{ event.overskrift }}</div>
-
-        {% endif %}
+{% endif %}
 
 
-        {% endif %}
+{% endif %}
 
 
-        {% endfor %}
+{% endfor %}
 
 
-        {% else %}
-        <!--1-->
-        {{ page.hold_information }}
-        {% endif %}
-        <!--1-->
+{% else %}
+<!--1-->
+{{ page.hold_information }}
+{% endif %}
+<!--1-->
+
+      <!-- datoer end -->
+      {% if page.contact-person %}
+      <p class="text-white mt-3 mb-1"><b>Kontakt:</b></p>
+
+      {% for employee in site.employees %}
+      {% if employee.title == page.contact-person %}
+
+      <div class="ml-2 float-start">
+        <img class="small-image responsive" src="{{ employee.small-portrait-image }}" alt="">
+      </div>
 
 
-       
-<!--         {% for post in site.categories.class %}
+      <p><a class="text-white px-3" href="{{ employee.url }}" data-proofer-ignore>{{ employee.title }}</a><br>
+        <a class="text-white px-3" href="tel:{{ employee.call }}" data-proofer-ignore>{{ employee.call }}</a><br>
+        <a class="text-white small px-3" href="mailto:{{ employee.email }}" data-proofer-ignore>{{ employee.email }}</a>
+      </p>
+      <div class="clearfix">
+      </div>
+
+      {% endif %}
+      {% endfor %}
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+        <!--         {% for post in site.categories.class %}
         {% for tag in post.tags %}
         {% if tag == page.classes %}
         <p></p>
@@ -159,110 +170,3 @@ layout: default
         {% endif %}
         {% endfor %}
         {% endfor %} -->
-
-        {% if page.contact-person %}
-        <b>
-          <p>Kontakt:</p>
-        </b>
-        {% for employee in site.employees %}
-        {% if employee.title == page.contact-person %}
-        <div class="contact">
-          <img class="contact-img" src="{{ employee.small-portrait-image }}"
-            alt="{{ employee.title }}, {{ employee.description}}">
-          <div>
-            <a href="{{ employee.url }}" data-proofer-ignore>{{ employee.title }}</a>
-            <a href="tel:{{ employee.call }}" data-proofer-ignore>{{ employee.call }}</a>
-            <a href="mailto:{{ employee.email }}" data-proofer-ignore>{{ employee.email }}</a></div>
-        </div>
-        {% endif %}
-        {% endfor %}
-        {% endif %}
-        </span>
-        <br>
-        {% if page.emails %}
-        <div class="modal fade black" id="{{ page.title | remove: " " }}-modal" tabindex="-1" role="dialog" aria-labelledby="pfp-c-modal" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered modal-lg black" role="document">
-            <div class="modal-content black">
-              <div class="modal-header">
-                 
-                <h2 class="modal-title" id="pfp-modal">Tilmeld dig {{ page.title }}</h2>
-                <button type="button" class="close close-modal-button" data-dismiss="modal" aria-label="Close">
-                  <span>&times;</span>
-                </button>
-              </div>
-              
-              <div class="modal-body">
-                <form
-                action="https://formspree.io/f/mzbyzbyg" class="full-width round"
-                method="POST"
-              >
-              <span>
-                
-              
-                 {% if page.hold %}
-                <select class="input-form udd" name="uddannelse">
-                  <option value="hold">Vælg hold</option>
-                  {% for h in page.hold %}
-                  <option value="{{ h }}">{{ h }}</option>
-                  {% endfor %}
-
-                  
-              </select>
-              {% endif %}
-              <input type="hidden" name="uddannelse" value="{{ page.title }}"/>
-                <input type="text" name="FNAME" placeholder="Fornavn*" required/>
-                <input type="text" name="LNAME" placeholder="Efternavn*" required/>
-                <input type="email" name="email" placeholder="Email*" required>
-                <input type="tel" name="mobil" pattern="[0-9]{8}" placeholder="Mobil*" required>
-                <input type="text" name="virksomhed" placeholder="Virksomhed"/>
-                <input type="text" name="EAN" placeholder="EAN"/>
-                <input type="text" name="fakturaadresse" placeholder="Faktura adresse*" required/>
-                <div class="grid-2">
-                  <input type="text" name="postnummer" placeholder="Postnummer*" required>
-                  <input type="text" name="by" placeholder="By*" required>
-                </div>
-                <input type="text" name="cvr" placeholder="CVR"/>
-
-                  
-              </span>
-              
-                  <textarea name="besked" cols="30" rows="10" placeholder="Evt. kommentarer"></textarea>
-              <br><br>
-                  <label class="white"> 
-                    <b>Nyhedsbrev</b><br>
-                    <input class="checkbox" type="checkbox" name="_optin"/> Ja tak, jeg vil gerne modtage CCC's nyhedsbrev
-                  </label><br><br>
-                  <label class="white">
-                    <b>Samtykkeerklæring*</b><br>
-                    <input class="checkbox" type="checkbox" name="samtykke" required /> <span class="small inline white">Jeg giver samtykke til, at CCC må bruge
-                    mine oplysninger til at behandle min tilmelding. Derudover giver jeg samtykke til, at CCC opbevarer og
-                    behandler mine persondata som er beskrevet i CCC's <a class="inline" href="/privatlivspolitik/">privatlivspolitik</a>.</span>
-                  </label>
-                  <input type="hidden" name="ansvarlig" value="{% for email in page.emails %}{% if forloop.last %}{{ email }}{% else %}{{ email }},{% endif %}{% endfor %}"/>
-                <!-- your other form fields go here -->
-                <button class="green-button w-100 capped" type="submit">Tilmeld</button>
-              </form>
-              </div>
-            </div>
-          </div>
-        </div>
-        <br>
-        <a class="reg-link" href="#" data-toggle="modal" data-target="#{{ page.title | remove: " " }}-modal">Tilmeld dig her</a>
-        {% else %}
-        <a class="reg-link" href="/registration/{{ reg-url }}">Tilmeld dig her</a>
-      {% endif %}
-        {% if page.pdf %}
-        {% if page.pdf != "" %}
-        <a data-proofer-ignore target="_blank" alt="pdf {{ page.title }}"
-        href="{{ page.pdf }}" class="pdf-link">Download 
-        PDF</a>
-        {% endif %}
-        
-       
-       
-          {% endif %}
-      </div>
-    </div>
-
-  </div>
-  </div>

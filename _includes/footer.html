@@ -1,115 +1,77 @@
 <footer>
-    <div class="container-fluid narrow-container grid-4 gap-40">
-    <div class="footer-col">
-        <h2>Copenhagen Coaching Center</h2>
-        {% for text in site.texts %}
-        {% if text.page == "footer" %}
-        {{ text.content | markdownify }}
-        <a data-proofer-ignore href="{{ text.link }}">{{ text.link-text }}</a>
-        {% endif %}
-        {% endfor %}
-            
-        <div class="social">
-            <a data-proofer-ignore href="https://www.facebook.com/copenhagencoachingdk-169785200063933/" target="_blank"><i class="fab fa-facebook-f"></i></a>
-            <a data-proofer-ignore href="https://www.linkedin.com/company/copenhagen-coaching-center" target="_blank" data-proofer-ignore><i class="fab fa-linkedin-in"></i></a>
-            <a data-proofer-ignore href="https://www.instagram.com/explore/tags/copenhagencoachingcenter/" target="_blank"><i class="fab fa-instagram"></i></a>
+    <div class="container-fluid pt-5 pb-5">
+        <div class="row gy-4">
+            <div class="col-12 col-lg-6 col-xl-4">
+                <h4 class="text-uppercase opacity-50">{{ site.title }}</h4>
+                <p>Copenhagen Coaching Center blev dannet i 2004 og er et partnerejet selskab, der udbyder åbne
+                    uddannelser.
+
+                </p>
+
+                <p><b><a href="/about/">Læs mere om os</a></b></p>
+                <div class="social">
+                    <a data-proofer-ignore="" href="https://www.facebook.com/copenhagencoachingdk-169785200063933/"
+                        target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a data-proofer-ignore="" href="https://www.linkedin.com/company/copenhagen-coaching-center"
+                        target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a data-proofer-ignore="" href="https://www.instagram.com/explore/tags/copenhagencoachingcenter/"
+                        target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 col-xl-4">
+                <h4 class="text-uppercase opacity-50">Events</h4>
+                <ul>
+                    {% assign orderedPosts = site.posts | sort: order %}
+                    {% for post in orderedPosts %}
+                    {% for tag in post.tags %}
+
+                    {% if tag == "community" %}
+                    <li>
+                        <a href="{{ post.url }}">{{ post.title }}</a>
+                    </li>
+                    {% endif %}
+                    {% endfor %}
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="col-12 col-lg-6 col-xl-2">
+                <h4 class="text-uppercase opacity-50">Navigation</h4>
+                <ul>
+                    <li><a href="/academy/">Academy</a></li>
+
+                    <li><a href="/community/">Community</a></li>
+                    
+                    <li><a href="/coaching-service/">Coaching</a></li>
+                    
+                    <li><a href="/consulting/">Consulting</a></li>
+                    
+                    <li><a href="/protreptik/">Protreptik</a></li>
+                    
+                    <li><a href="/about/">Om os</a></li>
+
+                    <li><a href="/internationals/">International</a></li>
+                </ul>
+                <hr>
+                <ul>
+                    <li><a href="/privatlivspolitik/">Privatlivs politik</a></li>
+                    <li><a href="/cookies/">Cookie politik</a></li>
+                    <li><a data-proofer-ignore="" href="/sitemap.xml">Sitemap</a></li>
+                </ul>
+            </div>
+
+
+
+            <div class="col-12 col-lg-6 col-xl-2">
+                <h4 class="text-uppercase opacity-50">Kontakt</h4>
+                <ul>
+                    <li><a data-proofer-ignore="" href="tel:+4539201020">+45 39 20 10 20</a></li>
+                    <li><a data-proofer-ignore="" href="#" data-toggle="modal" data-target="#contact-modal">Skriv til os</a></li>
+                    <li>Blegdamsvej 104 A, 2. Sal</li>
+                    <li>2100 Kbh Ø</li>
+                    <li><a data-proofer-ignore="" href="https://goo.gl/maps/a2Tb1RTMDKQ3G8Vz5" target="_blank">Rutevejledning</a></li>
+                </ul>
+            </div>
         </div>
     </div>
-    <div class="footer-col">
-        <h2>Inspiration</h2>
-        {% assign curDate = site.time | date: '%s' %}
-        {% assign sorted_stories = site.posts | sort: "date" %}
-        {% for post in sorted_stories %}
-        {% assign postStartDate = post.date | date: '%s' %}
-        {% if postStartDate >= curDate %}
-        {% for tag in post.tags %}
-        {% if tag == "eventgroup" %}
-        {% if post.category == "community" %}{% assign link = "/community/" %}{% else %}{% assign link = post.url %}{% endif %}
-        <a class="footer-stories" href="{{ link }}">{{ post.title }}</a>
-        {% capture alldates %}
-        {% assign orderposts = site.posts | order: "date" | reverse %}
-        {% for item in orderposts %}
 
-        {% for tag in item.tags %}
-        {% if tag == post.sub-pages %}
-
-        {% assign postmonth = item.date | date: "%m" %}
-
-
-        {% if postmonth == "01" %}
-        {% assign monthName = "Januar" %}
-        {% elsif postmonth == "02" %}
-        {% assign monthName = "Februar" %}
-        {% elsif postmonth == "03" %}
-        {% assign monthName = "Marts" %}
-        {% elsif postmonth == "04" %}
-        {% assign monthName = "April" %}
-        {% elsif postmonth == "05" %}
-        {% assign monthName = "Maj" %}
-        {% elsif postmonth == "06" %}
-        {% assign monthName = "Juni" %}
-        {% elsif postmonth == "07" %}
-        {% assign monthName = "Juli" %}
-        {% elsif postmonth == "08" %}
-        {% assign monthName = "August" %}
-        {% elsif postmonth == "09" %}
-        {% assign monthName = "September" %}
-        {% elsif postmonth == "10" %}
-        {% assign monthName = "Oktober" %}
-        {% elsif postmonth == "11" %}
-        {% assign monthName = "November" %}
-        {% elsif postmonth == "12" %}
-        {% assign monthName = "December" %}
-        {% endif %}
-
-        
-        {{ monthName }},
-        
-        {% endif %}
-        {% endfor %}
-        {% endfor %}
-        {% endcapture %}
-        {% assign alldatessplit = alldates | split: "," %}
-        {% for date in alldatessplit limit: 1 %}
-        <p class="stories-date">{{ date }}</p>
-        {% endfor %}
-        {% endif %}
-        {% endfor %}
-        {% endif %}
-        {% endfor %}
-    </div>
-    <div class="footer-col">
-        <h2>Navigation</h2>
-        <ul>
-            {% assign sorted-navi = site.pages | sort: "order" %}
-            {% for page in sorted-navi %}
-            {% if page.show %}
-            <li><a href="{{ page.url }}">{{ page.title }}</a></li>
-            {% endif %}
-            {% endfor %}
-        </ul>
-        <hr>
-        <ul>
-            <li><a href="/privatlivspolitik/">Privatlivs politik</a></li>
-            <li><a href="/cookies/">Cookie politik</a></li>
-            <li><a data-proofer-ignore href="/sitemap.xml">Sitemap</a></li>
-        </ul>
-    </div>
-    <div class="footer-col">
-        <h2>Kontakt</h2>
-        <ul>
-            <li><a data-proofer-ignore href="tel:+4539201020">+45 39 20 10 20</a></li>
-            <li><a data-proofer-ignore href="#" data-toggle="modal" data-target="#contact-modal">Skriv til os</a></li>
-            <li>Blegdamsvej 104 A, 2. Sal</li>
-            <li>2100 Kbh Ø</li>
-            <li><a data-proofer-ignore href="https://goo.gl/maps/a2Tb1RTMDKQ3G8Vz5" target="_blank">Rutevejledning</a></li>
-        </ul>
-        
-    </div>
-</div>
 </footer>
-
-<!-- <div class="bottom-bar">
-    <a href="/pdfs/CCC-privatlivspolitik.pdf" target="_blank">Privatlivspolitik |</a>
-    <p>&nbsp;Powered by</p><a href="https://www.prolike.io/" target="_blank">&nbsp;Prolike</a>
-</div> -->

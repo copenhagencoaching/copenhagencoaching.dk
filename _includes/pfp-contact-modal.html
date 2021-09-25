@@ -1,37 +1,42 @@
-<div class="modal fade" id="pfp-c-modal" tabindex="-1" role="dialog" aria-labelledby="pfp-c-modal" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-      <div class="modal-content">
+
+
+  <div class="modal fade" id="pfp-c-modal" tabindex="-1" aria-labelledby="pfp-contact-modal-heading" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content p-3">
         <div class="modal-header">
-           
-          <h2>Har du spørgsmål til uddannelsen?</h2>
-          <button type="button" class="close close-modal-button" data-dismiss="modal" aria-label="Close">
-            <span>&times;</span>
-          </button>
+          <h4 class="modal-title" id="pfp-contact-modal-heading">Har du spørgsmål til uddannelsen?</h4>
+          <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+
         </div>
-        
         <div class="modal-body">
-            <p>Vi sidder klar til at besvare dine spørgsmål. <br>
-                Udfyld formularen og så kontakter vi dig hurtigst muligt. Vi glæder os til at høre fra dig!</p>
-          <form
-          action="https://formspree.io/f/mjvpqjbq"
-          method="POST"
-        >
-        <span>
+          <p> <b>Vi sidder klar til at besvare dine spørgsmål.</b> <br>
+            Udfyld formularen og så kontakter vi dig hurtigst muligt. Vi glæder os til at høre fra dig!</p>
+      <form
+      action="https://formspree.io/f/moqllqyp"
+      method="POST"
+    >
+    <span>
+    
+       
+        <input class="form-control mb-3" type="text" name="name" placeholder="Navn" id="name">
         
-           
-            <input type="text" name="navn" placeholder="Navn">
-            <input type="text" name="email" placeholder="Email">
-            <input type="hidden" name="Emne" value="Spørgsmål omkring PFP">
-        </span>
-        
-            <textarea name="besked" cols="30" rows="10" placeholder="Besked"></textarea>
-        
-            <label>  
-              <input class="checkbox" type="checkbox" name="_optin" required /> Jeg vil gerne modtage CCC's nyhedsbrev
-            </label><br>
-          <!-- your other form fields go here -->
-          <button class="green-button" type="submit">Send besked</button>
-        </form>
+        <input type="text" class="form-control mb-3" form name="email" id="email" placeholder="Email">
+        <input type="hidden" name="spørgsmål" value="Spørgsmål omkring PFP">
+    </span>
+    
+        <textarea class="form-control mb-3" name="besked" cols="30" rows="10" placeholder="Besked"></textarea>
+    
+        <div class="form-check mb-3">
+          <input class="form-check-input" name="_optin" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault">
+            Jeg vil gerne modtage CCC's nyhedsbrev
+          </label>
+        </div>
+
+       
+      <!-- your other form fields go here -->
+      <button class="btn-dust-green w-100" type="submit">Send besked</button>
+    </form>
         </div>
       </div>
     </div>
