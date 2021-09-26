@@ -8,3 +8,21 @@
         border: 1px solid #ced4da !important;
     }
 }
+
+input,
+label,
+select,
+textarea {
+    font-size: .85rem !important;
+
+}
+
+// Mailchimp
+
+#mailchimp-success-message {
+    display: none;
+    min-height: 500px;
+    &.show {
+      display: block;
+    }
+  }

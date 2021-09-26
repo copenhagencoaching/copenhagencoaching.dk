@@ -1,33 +1,15 @@
 ---
-layout: default
+layout: page
 ---
 
-<div class="container-fluid narrow-container extra-narrow-container">
-
-
-
-        <div class="hero-banner-image-alone">
-
-            <div class="color-box"></div>
-            <div class="hero-image">
-                <img src="{{ page.image }}" class="image-position-{{ page.image-position }}"
-                    alt="Protreptik Copenhagen Coaching Center"></div>
+<div class="container-fluid my-5">
+    <div class="row">
+        <div class="col-12 col-lg-8 offset-lg-2">
+            {{ content }}
         </div>
+        
+    </div>
 
-
-
-    <h1>{{ page.header }}</h1>
-    {% if page.sub-header %}
-    <h4>- {{ page.sub-header }}</h4>
-    {% endif %}
-   
-    <p> {{ page.description }}</p>
-
-
-    {{ content }}
-
-
-    
 
 </div>
 {% include secments/pip-banner.html %}

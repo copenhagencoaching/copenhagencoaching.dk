@@ -5,7 +5,9 @@ image: /images/fundament/f2.jpg
 description: CCCs mål er at tilbyde den bedste uddannelse indenfor coaching. Med EMCC’s højeste akkreditering, Master Practitioner, har du en garanti for, at det er det du får!
 order: "3"
 ---
+
 #### Det højeste niveau for en Business Coach uddannelse
+
 
 CCCs mål er at tilbyde den bedste uddannelse indenfor coaching. Med EMCC’s højeste akkreditering, Master Practitioner, har du en garanti for, at det er det du får!
 

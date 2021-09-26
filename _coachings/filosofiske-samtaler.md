@@ -4,7 +4,7 @@ id: "5"
 order: "5"
 title: Filosofiske samtaler
 image: c2.jpg
-contact-person: Kim Gørtz
+contact-person: Mette Mejlhede
 redirect_from:
   - /coaching/filosofiskeSamtaler/
 description: Gennem den filosofiske samtale lærer du hvordan du tænker, hvornår du tænker bedst, og hvad du skal tænke for at styrke din praksis. Der arbejdes med metaplaner, refleksive variationer og kognitive perspektiveringer.

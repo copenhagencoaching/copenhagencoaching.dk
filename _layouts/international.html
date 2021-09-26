@@ -1,77 +1,90 @@
 ---
-layout: default
+layout: page
 ---
 
+{% assign ordereditems = site.internationals | sort: "order" %}
+<div class="container-fluid mt-5 mb-5 d-flex flex-wrap justify-content-center">
+    {% for item in ordereditems %}
 
-{% if page.header %}
-<div class="container-fluid container-narrow no-down">
-    <div class="hero-banner wide">
-
-        <div class="hero-banner-text">
-            <h1 class="banner-title">{{ page.header }}</h1>
-            {% if page.sub-header %}
-            <h2>{{ page.sub-header }}</h2>
-            {% endif %}
-            <p>{{ page.description }}</p>
-        </div>
-        <div class="hero-banner-image">
-
-            <div class="color-box"></div>
-            <div class="hero-image">
-                <img src="{{ page.image }}" class="image-position-{{ page.image-position }}"
-                    alt="{{ page.title }}"></div>
-        </div>
-
-    </div>
-</div>
-{% endif %}
-
-
-{% assign orderedcoaching = site.internationals | sort: "order" %}
-<div class="header-navigation">
-    <div class="container-fluid narrow-container">
-    <div class="wrapper">
-        {% for coaching in orderedcoaching %}
-
-        <a href="#{{ coaching.title | remove: ' ' | strip_html }}"><button>{{ coaching.title }}</button></a>
-        {% endfor %}
-    </div>
-</div>
+    <a class="me-3 mb-3 dark-border-button btn" href="#{{ item.title | remove: ' ' | strip_html }}">{{
+        item.title }}</a>
+    {% endfor %}
 </div>
 
-<div class="container-fluid container-narrow no-up">
-    <section id="content-section" class="content">
+{% for item in ordereditems %}
+{% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
 
-        {% for coaching in orderedcoaching %}
-        <div class="wrapper" id="{{ coaching.title | remove: ' ' | strip_html }}">
-            <img class="content-img" src="{{ coaching.image }}" alt="{{ coaching.title }}">
-            <span>
+<div id="{{ item.title | remove: ' ' | strip_html }}"></div>
+{% if thecycle == 'odd' %}<div class="bg-platinum py-5">{% endif %}
+    <div class="container-fluid my-5">
+        <div class="py-5">
+            {% if thecycle == 'even' %}<div class="py-5">{% endif %}
+                <div class="row gx-5 {% if thecycle == 'odd' %}flex-row-reverse{% endif %}">
+                    <div class="col-12 col-lg-6 responsive-lg-img">
 
-                <h1 class="title">{{ coaching.title }}</h1>
-                {{ coaching.content }}
-                <div class="contact-box">
-                    <h5>Please contact us for further information</h5>
-                    <div class="contact">
-                        {% for employee in site.employees %}
-                        {% if employee.title == coaching.contact-person %}
-
-
-                        <img class="contact-img" src="{{ employee.small-portrait-image }}"
-                            alt="{{ employee.title }}, {{ employee.description}}">
-
-                        <div class="contact-text">
-                            <a data-proofer-ignore href="{{ employee.url }}">{{ employee.title }}</a>
-
-                            <a data-proofer-ignore href="{{ employee.call }}">{{ employee.call }}</a>
-                            <a data-proofer-ignore href="mailto:{{ employee.email }}">{{ employee.email }}</a>
+                        {% if forloop.index == 1 or forloop.index == 2 %}
+                        <div class="h-100"
+                            style="background-image: url('{{ item.image }}'); background-position: top; background-size: cover;">
+                            {% else %}
+                            <div class="h-100"
+                                style="background-image: url('{{ item.image }}'); background-position: center; background-size: cover;">
+                                {% endif %}
+                            </div>
                         </div>
-                        {% endif %}
-                        {% endfor %}
-                    </div>
-                </div>
-            </span>
-        </div>
-        {% endfor %}
-    </section>
 
-</div>
+                        <div class="col-12 col-lg-6">
+                            <h1>{{ item.title }}</h1>
+                            {{ item.content }}
+                            {% for employee in site.employees %}
+                            {% if item.contact-person == employee.title %}
+                            <div class="d-flex align-items-center bg-dust-blue rounded p-3">
+                                <div>
+                                    <p class="text-white large"><b>Are you interested and want to hear more?</b> Give us a call or write us a message.</p>
+
+                                    <div class="d-flex">
+                                        <div class="d-flex align-items-center">
+                                            <div class="flex-shrink-0">
+                                                <img class="small-image rounded-circle"
+                                                    src="{{ employee.small-portrait-image }}"
+                                                    alt="{{ employee.title }}, {{ employee.description}}">
+                                            </div>
+                                            <div class="flex-grow-1 ms-3">
+
+
+                                                <p class="text-white mb-0"><b><a href="{{ employee.url }}"
+                                                            data-proofer-ignore>{{
+                                                            employee.title }}</a></b><br>
+
+                                                    <a href="tel:{{ employee.call }}" data-proofer-ignore>+45 {{
+                                                        employee.call
+                                                        }}</a><br>
+                                                    <a href="mailto:{{ employee.email }}" data-proofer-ignore>{{
+                                                        employee.email
+                                                        }}</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            {% endif %}
+                            {% endfor %}
+                        </div>
+
+                    </div>
+                    {% if thecycle == 'even' %}
+                </div>{% endif %}
+            </div>
+        </div>
+        {% if thecycle == 'odd' %}
+    </div>{% endif %}
+
+
+
+
+    {% endfor %}
+
+
+
+
+    {% include secments/pip-banner.html %}

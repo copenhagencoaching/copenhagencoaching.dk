@@ -1,51 +1,84 @@
-<div class="modal fade" id="community-modal" tabindex="-1" role="dialog" aria-labelledby="community-modal"
-  aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-    <div class="modal-content">
+<script>
+  $(document).on("click", "#privat", function () {
+    var hehe = $("#cvr")
+    hehe.parent().remove();
+
+  });
+
+  $(document).on("click", "#virksomhed", function () {
+    $('#virksomhed-box').html('<div><input type="text" name="cvr" id="cvr" class="form-control mb-2" placeholder="CVR nummer"><input class="form-control mb-3" type="text" name="ean" placeholder="EAN"></div>')
+
+  });
+</script>
+
+<div class="modal fade" id="community-modal" tabindex="-1" aria-labelledby="community-modal-heading" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content p-3">
       <div class="modal-header">
-        <div>
-          <h1 class="modal-title" id="contact-modal">Tilmeld dig CCC Community</h1>
-          <p><b>BLIV MEDLEM ALLEREDE I DAG</b> og få adgang til en lang række faglige og kontante medlemsfordele med det
-            samme – vi glæder os til at byde dig velkommen!</p>
-        </div>
-        <button type="button" class="close close-modal-button" data-dismiss="modal" aria-label="Close">
-          <span>&times;</span>
-        </button>
+        <h4 class="modal-title" id="community-modal-heading">Tilmeld dig CCC Community</h4>
+        <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
 
       </div>
       <div class="modal-body">
-        
-       
-        
-      
-        <form action="https://formspree.io/f/xpzokkyl" method="POST" class="white-form" >
+        <p><b>BLIV MEDLEM ALLEREDE I DAG</b> og få adgang til en lang række faglige og kontante medlemsfordele med det
+          samme – vi glæder os til at byde dig velkommen!</p>
 
-          <input class="input-form" type="text" placeholder="Fornavn*" name="FNAME" required>
-          <input class="input-form" type="text" placeholder="Efternavn*" name="LNAME" required>
-          <input class="input-form" type="email" placeholder="Email*" name="email" required>
-
-          <input class="input-form" type="text" placeholder="Tlf." name="tlf">
-          <input class="input-form" type="text" name="virksomhed" placeholder="Virksomhed">
-          <input class="input-form" type="text" name="cvr" placeholder="CVR nummer">
-          <input class="input-form" type="text" name="ean" placeholder="EAN">
-          <input class="input-form" type="text" name="adress" placeholder="Fakturerings adresse">
-          <div class="grid-2">
-            <input type="text" name="zip-code" placeholder="Postnummer">
-            <input type="text" name="town" placeholder="By">
-          </div>
-          <textarea class="input-area-form" name="kommentarer" type="textarea" cols="40" rows="10"
-            placeholder="Evt. kommentarer"></textarea>
+        <div class="row">
+          <div class="offset-md-1 col-md-10 col-12">
+            <form action="https://formspree.io/f/xpzokkyl" method="POST">
 
 
-          <label>
-            <b>Accept af vores privatlivspolitik*</b><br>
-            <input class="checkbox" type="checkbox" name="_optin" required /> <span class="inline">Jeg accepterer, at
+              <input class="form-control mb-4" type="text" placeholder="Fornavn*" name="FNAME" required>
+              <input class="form-control mb-4" type="text" placeholder="Efternavn*" name="LNAME" required>
+              <input class="form-control mb-4" type="email" placeholder="Email*" name="email" required>
+
+              <input class="form-control mb-4" type="text" placeholder="Tlf." name="tlf">
+              <input class="form-control mb-4" type="text" name="virksomhed" placeholder="Virksomhed">
+              <label><b>Hvem skal betale?</b></label>
+              <div class="form-check">
+                <input class="form-check-input checkbox privat" type="radio" id="privat" name="betaling" value="privat"
+                  checked>
+                <label class="form-check-label" for="privat">
+                  Privat
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input checkbox virksomhed" type="radio" id="virksomhed" value="virksomhed"
+                  name="betaling">
+                <label class="form-check-label mb-3" for="virksomhed">
+                  Virksomhed
+                </label>
+              </div>
+              <div id="virksomhed-box">
+              </div>
+
+              <input class="form-control mb-4" type="text" name="adress" placeholder="Fakturerings adresse*" required>
+              <div class="input-group mb-4">
+                <input type="text" class="form-control me-3" name="zip-code" placeholder="Postnummer*" required>
+                <input type="text" class="form-control" name="town" placeholder="By*">
+              </div>
+
+              <div class="mb-4">
+                <label for="comment" class="form-label"><b>Evt. kommentarer</b></label>
+                <textarea class="form-control" name="besked" id="comment" rows="3"></textarea>
+              </div>
+
+              <label class="form-label"><b>Accept af vores privatlivspolitik*</b></label>
+              <div class="form-check mb-3">
+                <input class="form-check-input" name="_optin" type="checkbox" value="" id="privatliv">
+                <label class="form-check-label" for="privatliv">
+                  Jeg accepterer, at
               mine informationer gemmes og lagres i CCC’s interne GDPR register, og at jeg fremover modtager information
-              på mail omkring CCC Community og andre relevante nyheder.</span>
-          </label>
-          <br><br>
-          <button class="green-button" type="submit">Tilmeld</button>
-        </form> 
+              på mail omkring CCC Community og andre relevante nyheder.
+                </label>
+              </div>
+
+
+              <!-- your other form fields go here -->
+              <button class="btn-dust-green w-100" type="submit">Tilmeld</button>
+            </form>
+          </div>
+        </div>
       </div>
     </div>
   </div>

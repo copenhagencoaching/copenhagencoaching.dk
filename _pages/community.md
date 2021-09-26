@@ -19,3 +19,4 @@ Formålet med CCC Community er, at er at løfte den dialogiske ledelseskvalitet 
 Rigtig mange af vores tidligere og nuværende studerende, samt kunder efterspørger flere tilbud om netværk, efteruddannelse, faglig inspiration og supervision.
 
 Derfor har vi slået dørene op for CCC Community, et fysisk og virtuelt fælleskab. Det er vores ønske at skabe et netværk, der kan styrke vitaliteten i dit lederskab og stimulere til faglige udvikling og nysgerrighed på egen og andres ledelsesmæssige praksis.
+{:.mb-0}

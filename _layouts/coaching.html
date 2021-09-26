@@ -2,63 +2,81 @@
 layout: page
 ---
 
-
 {% assign orderedcoaching = site.coachings | sort: "order" %}
-<div class="header-navigation">
-    <div class="container-fluid narrow-container">
-    <div class="wrapper">
+<div class="container-fluid mt-5 mb-5 d-flex flex-wrap justify-content-center">
+    {% for coaching in orderedcoaching %}
 
-        
-        {% for coaching in orderedcoaching %}
-
-        <a href="#{{ coaching.title | remove: ' ' | strip_html }}"><button>{{ coaching.title }}</button></a>
-        {% endfor %}
-    </div>
-
+    <a class="me-3 mb-3 dark-border-button btn" href="#{{ coaching.title | remove: ' ' | strip_html }}">{{
+        coaching.title }}</a>
+    {% endfor %}
 </div>
 
-</div>
+{% for coaching in orderedcoaching %}
+{% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
 
-<div class="container-fluid container-narrow no-up">
-    <section id="content-section" class="content">
-
-        
-
-        {% for coaching in orderedcoaching %}
-        <div class="wrapper" id="{{ coaching.title | remove: ' ' | strip_html }}">
-            {% assign b_path = coaching.image %}
-            
-          <img class="content-img" src="/images/coaching/{{ coaching.image }}" alt="{{ coaching.title }}">
-            <span>
-
-                <h1 class="title">{{ coaching.title }}</h1>
-                {{ coaching.content }}
-                <div class="contact-box">
-                    <h5>Interesseret i at høre mere? Ring eller skriv og få en snak med</h5>
-                    <div class="contact">
-                        
-                        {% for employee in site.employees %}
-                        {% if employee.title == coaching.contact-person %}
-
-
-                        <img class="contact-img" src="{{ employee.small-portrait-image }}"
-                            alt="{{ employee.title }}, {{ employee.description}}">
-
-                        <div class="contact-text">
-                            <a data-proofer-ignore href="{{ employee.url }}">{{ employee.title }}</a>
-
-                            <a data-proofer-ignore href="{{ employee.call }}">{{ employee.call }}</a>
-                            <a data-proofer-ignore href="mailto:{{ employee.email }}">{{ employee.email }}</a>
-                        </div>
-                        {% endif %}
-                        {% endfor %}
+<div id="{{ coaching.title | remove: ' ' | strip_html }}"></div>
+{% if thecycle == 'odd' %}<div class="bg-platinum py-5">{% endif %}
+    <div class="container-fluid my-5">
+        <div class="py-5">
+            {% if thecycle == 'even' %}<div class="py-5">{% endif %}
+            <div class="row gx-5 {% if thecycle == 'odd' %}flex-row-reverse{% endif %}">
+                <div class="col-12 col-lg-6 responsive-lg-img">
+                    <div class="h-100"
+                        style="background-image: url('/images/coaching/{{ coaching.image }}'); background-position: center; background-size: cover;">
                     </div>
                 </div>
-            </span>
-        </div>
-        {% endfor %}
-    </section>
+                <div class="col-12 col-lg-6">
+                    <h1>{{ coaching.title }}</h1>
+                    {{ coaching.content }}
+                    {% for employee in site.employees %}
+                {% if coaching.contact-person == employee.title %}
+                <div class="d-flex align-items-center bg-dust-blue rounded p-3">
+                    <div>
 
-</div>
+                        <p class="text-white large"><b>Interesseret i at høre mere?</b> Ring eller skriv og få en snak med</p>
+
+                        <div class="d-flex">
+                            <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0">
+                                    <img class="small-image rounded-circle"
+                                        src="{{ employee.small-portrait-image }}"
+                                        alt="{{ employee.title }}, {{ employee.description}}">
+                                </div>
+                                <div class="flex-grow-1 ms-3">
+
+
+                                        <p class="text-white mb-0"><b><a href="{{ employee.url }}"
+                                            data-proofer-ignore>{{
+                                            employee.title }}</a></b><br>
+
+                                    <a href="tel:{{ employee.call }}" data-proofer-ignore>+45 {{
+                                        employee.call
+                                        }}</a><br>
+                                    <a href="mailto:{{ employee.email }}" data-proofer-ignore>{{
+                                        employee.email
+                                        }}</a>
+                                </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% endif %}
+                {% endfor %}
+                </div>
+
+            </div>
+            {% if thecycle == 'even' %}</div>{% endif %}
+        </div>
+    </div>
+    {% if thecycle == 'odd' %}</div>{% endif %}
+
+
+
+
+{% endfor %}
+
+
+
 
 {% include secments/pip-banner.html %}

@@ -4,13 +4,14 @@ show: true
 title: Protreptik
 image: /images/protreptik/Protreptik.jpeg
 header: 'PROTREPTIK'
-sub-header: FORDI ORDENE, VI SIGER, BETYDER NOGET
 description: >-
   Vi har i CCC altid været optaget af Protreptikken, dvs. den filosofiske samtalekunst, der formår at få os mennesker til at komme i kontakt med det væsentlige i os selv og i det gældende fællesskab. Det gælder for alle i CCC, at vi er trænet godt op i den protreptiske dialogform, fordi vi mener, at den er ligeså vigtig som alle de psykologiske coaching-metoder, som vi behersker.
 published: true
 order: '5'
 image-position: top
 ---
+
+## Fordi ordene, vi siger, betyder noget
 
 Hvad angår Protreptikken, er den som samtaledisciplin at finde helt tilbage i antikkens filosofi, hvor specielt Platon og Aristoteles har forholdt sig til den og bygget videre herpå. Men Protreptikken har også historisk set udviklet sig op gennem Kristendommens æra og specielt langt ind i den psykologiserende Katolicisme, hvor syndsforladelse og sjæleransagelse bliver dominerende kendetegn. 
 
@@ -42,36 +43,30 @@ Vi har igennem de sidste 10 år været vidt omkring og lavet mindre forløb i og
 
 I 2015 lykkedes det Mette Mejlhede og Kim Gørtz at få skrevet og udgivet: “Protreptik i praksis”.
 
-<div class="grid-1 mb-10">
-<div class="w-100">
-<img src="/images/protreptik/PRotreptikipraksis.jpg" class="object-fit">
-</div>
-</div>
-
-
-
-
 Den bliver brugt flittigt, både ift ovenstående forløb, og bredt ud i det danske erhvervsliv kan vi også se og høre, at folk nyder gavn af dens meget praktiske vinkel på, hvordan man fører en protreptik. Og mon ikke de er på vej til at udgive en follow-up, der rummer “findings”, erfaringer, metoder og teori-konstruktioner indenfor de seneste 5 år…?
 
 Husk, det handler om at få væsentlige samtaler til at lykkes…
-<br><br>
-### Protreptik for viderekomne
 
-<div class="grid-2 mb-10">
-<div>
-<div class="w-100">
-<img src="/images/boger/protreptik-for-viderekommende.jpeg" class="object-fit">
-</div>
-</div>
-<div>
-<div class="w-100">
-<img src="/images/boger/protreptik-for-viderekommende-2.jpeg" class="object-fit">
-</div>
-</div>
-</div>
+
+<img src="/images/protreptik/PRotreptikipraksis.jpg" class="object-fit">
+
+
+
+### Protreptik for viderekomne
 
 I denne dialogiske arbejdsbog lærer du at filosofere og at invitere til at filosofere. Bogen sigter efter livsklykken og arbejder med begrebslogiske, eksistentielle og seis-miske samtaleformer.
 
 I bogen gennemgås Protepticus (af den unge Aristoteles) med henblik på at inddrage kognitions-filosofiske, eksistensfilosofiske og differensfilosofiske dialogformer.
 
 Igennem bogen inviteres læseren til selv at arbejde med den protreptiske disciplin og kunstart via en lang række øvelser...
+
+<div class="row">
+<div class="col-12 col-sm-6 mb-4">
+<img src="/images/boger/protreptik-for-viderekommende.jpeg" class="object-fit">
+</div>
+<div class="col-12 col-sm-6">
+<img src="/images/boger/protreptik-for-viderekommende-2.jpeg" class="object-fit">
+</div>
+</div>
+
+

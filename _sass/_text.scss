@@ -33,6 +33,22 @@ hr.white {
 
 }
 
+.w-75.responsive {
+
+    @media (max-width: 1199.98px) {
+        width: 100% !important;
+    }
+
+}
+
+.w-25.responsive {
+
+    @media (max-width: 1199.98px) {
+        width: 100% !important;
+    }
+
+}
+
 p.large {
     font-size: 1.0625rem;
 }

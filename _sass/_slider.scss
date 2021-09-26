@@ -23,3 +23,60 @@
 .slick-next { 
     right: 15px !important;
 }
+
+.partner-slider {
+   
+    div {
+        height: 200px;
+    }
+}
+
+/* .partner-slider:after {
+    box-shadow: -20px 0 20px -20px #001f9c inset;
+    content: " ";
+    height: 100%;
+    left: -20px;
+    position: absolute;
+    top: 0;
+    width: 20px;
+}
+
+.partner-slider:after {
+    box-shadow: 20px 0 20px -20px #001f9c inset;
+    content: " ";
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: -20px;
+    width: 20px;
+} */
+
+
+.custom-arrow-right, .custom-arrow-left {
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    z-index: 1000;
+    cursor: pointer;
+    top: 35%;
+    opacity: .7;
+    &:hover {
+        opacity: 1;
+    }
+    
+  }
+
+  .custom-arrow-right {
+      background-image: url("/images/graphic/arrow-next.png");
+      background-position: center;
+      background-size: cover;
+      right: 0;
+  }
+
+  .custom-arrow-left {
+    background-image: url("/images/graphic/arrow-prev.png");
+    background-position: center;
+    background-size: cover;
+    left: 0;
+}

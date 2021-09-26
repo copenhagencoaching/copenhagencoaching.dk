@@ -3,60 +3,70 @@ layout: page
 title: About
 ---
 
-<div class="bg-blue">
-  <div class="container-fluid narrow-container">
-    <h1 class="white">Mød teamet</h1>
-    <br>
-    <div class="grid-3 medium-slow-grid r-gap-60 gap-60">
-
+<div class="bg-dust-blue py-5">
+  <div class="container-fluid">
+    <h1 class="text-white mb-5">Mød teamet</h1>
+    <div class="row g-5">
       {% assign sorted_empl = site.employees | sort: "order" %}
       {% for employee in sorted_empl %}
-      <div class="bg-platinum p-20">
-        <a class="{{ employee.title }}" href="{{ employee.url }}">
-          <div class="grid-1">
-            <div>
-              <h4 class="mb-0">{{ employee.title }}</h4>
-              <p class="thin">{{ employee.description }}</p>
-              <p>{{ employee.email }}<br>{{ employee.call }}</p>
-            </div>
-            
-            <div class="grid-1 align-right justify-content-right">
-              <div class="outer-medium-round-image">
-                <img class="medium-round-image" src="{{ employee.grey-portrait }}" alt="{{ employee.title }}">
-              </div>
-            </div>
+      <div class="col-lg-4 col-sm-6 col-12 h-100">
+        <a href="{{ employee.url }}">
+          <div class="bg-platinum p-4 h-100">
+            <h4 class="mb-0">{{ employee.title }}</h4>
+            <p class="thin">{{ employee.description }}</p>
+            <p>{{ employee.email }}<br>+45 {{ employee.call }}</p>
 
+            <div class="d-flex justify-content-end">
+              <img src="{{ employee.grey-portrait }}" alt="" class="large-image img-fluid rounded-circle">
+            </div>
           </div>
-
         </a>
       </div>
-
       {% endfor %}
     </div>
-
 
   </div>
 </div>
 
 
+
 {% include partners.html %}
 
-<div class="container-fluid narrow-container">
-  <section class="content">
-    {% assign orderedfundament = site.fundament | sort: "order" %}
-    {% for fundament in orderedfundament %}
-    <div class="wrapper">
-      <img class="content-img" src="{{ fundament.image }}" alt="{{ fundament.title }}">
-      <span>
-        <h1 class="title">{{ fundament.title }}</h1>
-        <p>{{ fundament.content | truncatewords: 60, "" }}...</p>
-        <a class="fundament-link" href="{{ fundament.url }}">Læs mere om {{ fundament.title }} her ⟶</a>
-      </span>
-    </div>
-    {% endfor %}
-  </section>
 
-</div>
+
+
+{% assign orderedfundament = site.fundament | sort: "order" %}
+{% for fundament in orderedfundament %}
+{% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+
+{% if thecycle == 'odd' %}<div class="bg-platinum py-5">{% endif %}
+  <div class="container-fluid">
+
+    <div class="py-5">
+      {% if thecycle == 'even' %}<div class="py-5">{% endif %}
+        <div class="row gx-5 {% if thecycle == 'odd' %}flex-row-reverse{% endif %}">
+          <div class="col-12 col-xl-6 responsive-lg-img">
+            <div class="h-100"
+              style="background-image: url('{{ fundament.image }}'); background-position: center; background-size: cover;">
+            </div>
+          </div>
+          <div class="col-12 col-xl-6">
+            
+              <h1>{{ fundament.title }}</h1>
+              <p>{{ fundament.content | markdownify | liquify }}</p>
+            
+          </div>
+
+        </div>
+        {% if thecycle == 'even' %}
+      </div>{% endif %}
+    </div>
+
+  </div>
+  {% if thecycle == 'odd' %}
+</div>{% endif %}
+
+{% endfor %}
 
 
 
