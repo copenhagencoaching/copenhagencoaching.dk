@@ -2,106 +2,30 @@
 layout: page
 ---
 
-<div class="container-fluid narrow-container no-up center">
-<section class="stories">
-
-
-    
-    <!-- tags -->
-
-    <section class="tag-section">
-        <div class="intro">
-            <h2>Seneste Historier</h2>
-        </div>
-        <div class="blog-tags-list">
-            {% assign sorted_tags = site.tags | sort %}
-            {% for tag in sorted_tags %}
-            {% assign t = tag | first %}
-            {% assign posts = tag | last %}
-            <div class="blog-tag-item" style="display: inline-block" id="{{ t }}-item">
-                <a class="tags" href="#{{ t }}" onclick="filter('{{ t }}'); " data-proofer-ignore>{{ t }}</a>
-            </div>
-            {% endfor %}
-            <a class="all-btn hidden tags" style="display: inline-block" id="showAllBtn" href onclick="showallRow();"
-                data-proofer-ignore>VIS ALLE</a>
-        </div>
-    </section>
-
-    <!-- tags end -->
-
-    <div id="row_all">
-
-        <!-- default row -->
-
-        <div class="story-row hideContent" id="story-row">
-            <div class="row">
-                {% assign sorted_stories = site.posts | sort: "date" | reverse %}
-                {% for post in sorted_stories %}
-            {% if post.category contains "blog" %}
-                
-                <div class="col-lg-4 story-box">
-                    <a href="{{ post.url }}">
-                        <div class="story" style="background-image: url('{{ post.image }}')">
-                            <div class="small-article-text">
-                                <h1>{{ post.title }}</h1>
-                                {{ post.teaser | truncatewords: 40, '...' }}
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                
-                {% endif %}
-                {% endfor %}
-            </div>
-        </div>
-
-        <!-- default row end -->
-
-        <!-- row all -->
-
-
-       <div class="show-more"><a class="green-button">Vis mere</a></div>
-           
-   
-    </div>
-
-    <!-- row all end -->
-
-    {% for tag in site.tags %}
-    {% assign t = tag | first %}
-    {% assign posts = tag | last %}
-    <div class="blog-list-container row hidden" id="{{ t }}-container">
-        {% for post in posts %}
-        {% if post.tags contains t %}
-        {% if forloop.index == 1 or forloop.index == 5 or forloop.index == 9 %}
-        <div class="col-lg-12 story-box">
-            <a href="{{ post.url }}">
-                <div class="story" style="background-image: url('{{ post.image }}')">
-                    <div class="large-article-text">
-                        <h1>{{ post.title }}</h1>
-                        {{ post.teaser | truncatewords: 40, '...' }}
-                    </div>
-                </div>
-            </a>
-        </div>
+<div class="container-fluid my-5">
+    <div class="row g-5" data-masonry='{"percentPosition": true }'>
+        {% assign sorted_stories = site.posts | sort: "date" | reverse %}
+        {% for post in sorted_stories %}
+        {% if post.category contains "blog" %}
+        {% if post.category contains "podcast" %}
         {% else %}
-        <div class="col-lg-4 story-box">
+        <div class="col-md-3 col-12">
             <a href="{{ post.url }}">
-                <div class="story" style="background-image: url('{{ post.image }}')">
-                    <div class="small-article-text">
-                        <h1>{{ post.title }}</h1>
-                        {{ post.teaser | truncatewords: 40, '...' }}
+                <div class="card">
+                    <div class="outer-img-top">
+                        <img src="{{ post.image }}" alt="...">
+                    </div>
+
+                    <div class="card-body bg-platinum p-3">
+<h4 class="text-uppercase">{{ post.title }}</h4>
+                        <p>{{ post.description }}</p>
                     </div>
                 </div>
             </a>
         </div>
-
         {% endif %}
         {% endif %}
         {% endfor %}
     </div>
-    
-    {% endfor %}
-</section>
 </div>
 

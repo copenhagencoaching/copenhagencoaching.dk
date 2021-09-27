@@ -5,7 +5,7 @@ image: /images/inspiration/aula.jpg
 author: Frederikke Winther
 tags: [digital, kommunikation, aula, proces]
 category: blog
-teaser:
+description:  I øjeblikket og i resten af 2019 anvendes der mange ressourcer og tid i den danske folkeskole på at opsætte og igangtage det nye forældreintra Aula - det digitale interface, som skal binde skole og hjem sammen, og som senere også skal anvendes i dagtilbud landet over.
 ---
 
  I øjeblikket og i resten af 2019 anvendes der mange ressourcer og tid i den danske folkeskole på at opsætte og igangtage det nye forældreintra Aula - det digitale interface, som skal binde skole og hjem sammen, og som senere også skal anvendes i dagtilbud landet over.

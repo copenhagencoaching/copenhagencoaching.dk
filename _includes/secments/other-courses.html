@@ -1,23 +1,25 @@
-<div class="container-fluid narrow-container normal-top-mobile pt-50">
-    <div class="align-center mb-50">
-        <h3>Interesseret i vores andre uddannelser?</h3>
-    </div>
 
-    <div class="grid-5 slow-grid gap-40 r-gap-40 white">
+
+<div class="container-fluid py-5">
+    <h3 class="mb-4">Interesseret i vores andre uddannelser?</h3>
+    <div class="row gx-5">
         {% assign educations = site.educations | where_exp:"item",
         "item.url != include.url" %}
-        {% for edu in educations limit: 5 %}
+        {% for edu in educations limit: 4 %}
+        <div class="col-md-3 col-12">
+            <a href="{{ edu.url }}">
+                <div class="card">
+                    <div class="outer-img-top">
+                        <img src="{{ edu.image }}" alt="...">
+                    </div>
 
-        <a href="{{ edu.url }}">
-
-            <div class="card no-border h-200 right-bottom"
-                style="background: linear-gradient(rgba(19, 19, 19, 0.6), rgba(19, 19, 19, 0.6)), url('{{ edu.image }}'); background-position: center; background-size: cover;">
-
-                <h4 class="capped medium card-title">{{ edu.title }}</h3>
-
-            </div>
-        </a>
-
+                    <div class="card-body bg-platinum py-2 px-0">
+<h4 class="text-uppercase">{{ edu.title }}</h4>
+                        
+                    </div>
+                </div>
+            </a>
+        </div>
         {% endfor %}
     </div>
 </div>

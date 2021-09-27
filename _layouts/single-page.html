@@ -1,21 +1,20 @@
 ---
-layout: page
+layout: default
 ---
 
-<div class="simple-text">
-    <div class="wrapper">
-        {% if page.pre-title %}
-        <p class="thin capped mb-0">Psykologisk filosofisk psykoterapi</p>
-        {% endif %}
-    <h1>{{ page.title }}</h1>
-    {{ content }}
+<div class="container-fluid my-5">
+    <div class="row">
+        <div class="offset-md-3 col-md-6 col-12">
+            <h1>{{ page.title }}</h1>
+            {{ content }}
 
-    {% if page.cookie == true %}
+            {% if page.cookie == true %}
 
     <!-- Cookie bot -->
 
    <script id="CookieDeclaration" src="https://consent.cookiebot.com/87707fc6-aa10-4667-b06c-0d51cde46137/cd.js" type="text/javascript" async></script>
 
    {% endif %}
-</div>
+        </div>
+    </div>
 </div>

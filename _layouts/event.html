@@ -10,10 +10,8 @@ layout: default
     <div class="responsive-lg-img w-50"
       style="background: linear-gradient(rgba(19, 19, 19, 0.5), rgba(19, 19, 19, 0.5)), url('{{ page.image }}'); background-size: cover; background-position: center;">
     </div>
-    <div class="w-50 position-absolute top-50 start-50 translate-middle">
+    <div class="w-50 ps- position-absolute top-50 start-50 translate-middle">
       {% assign postmonth = page.date | date: "%m" %}
-
-
 
       {% if postmonth == "01" %}
       {% assign monthName = "Januar" %}
@@ -49,7 +47,6 @@ layout: default
       {% endif %}
       <h1 class="text-white">{{ page.title }}</h1>
 
-
     </div>
 
 
@@ -57,92 +54,101 @@ layout: default
 
 
   <div class="container-fluid my-3">
-    <div class="bg-platinum w-100 p-5 mb-5">
-      {% if page.past %}
-      <h4><b class="text-uppercase">Arrangementet er afholdt</b></h4>
-      {% else %}
 
-      <div class="row">
-        <div class="col-4">
+    <div class="row">
+      <div class="offset-md-2 col-md-8 col-12">
+        <div class="bg-platinum w-100 p-5 mb-5">
           {% if page.past %}
-          <p>Arrangementet er afholdt</p>
+          <h4><b class="text-uppercase">Arrangementet er afholdt</b></h4>
           {% else %}
-          <h4><b class="text-uppercase">Pris:</b> {{ page.price }}{% if page.ex-moms == true %} (ekskl. moms){% endif %}
-          </h4>
-          {% if page.community-free == true %}
-          <p class="text-uppercase fs-6 mb-0"><b>GRATIS</b> for medlemmer af CCC Community</p>
+
+          <div class="row gx-5">
+            <div class="col-4"><div>
+              {% if page.past %}
+              <p>Arrangementet er afholdt</p>
+              {% else %}
+              <p class="fs-6 mb-2"><b class="text-uppercase">Pris:</b><br>{{ page.price }}{% if page.ex-moms == true %} (ekskl. moms){%
+                endif %}
+              </p>
+              {% if page.community-free == true %}
+              <p class="text-uppercase mb-0"><b>GRATIS</b> for medlemmer af CCC Community</p>
+              {% endif %}
+              {% if page.community-price %}
+              <p class="text-uppercase mb-0"><b>{{ page.community-price }}</b>{% if page.ex-moms == true %} (ekskl.
+                  moms){%
+                  endif %} for medlemmer af CCC Community</p>
+              {% endif %}
+            </div>
+            </div>
+            <div class="col-4">
+              <div>
+                {% assign postmonth = page.date | date: "%m" %}
+
+
+                {% if postmonth == "01" %}
+                {% assign monthName = "Januar" %}
+                {% elsif postmonth == "02" %}
+                {% assign monthName = "Februar" %}
+                {% elsif postmonth == "03" %}
+                {% assign monthName = "Marts" %}
+                {% elsif postmonth == "04" %}
+                {% assign monthName = "April" %}
+                {% elsif postmonth == "05" %}
+                {% assign monthName = "Maj" %}
+                {% elsif postmonth == "06" %}
+                {% assign monthName = "Juni" %}
+                {% elsif postmonth == "07" %}
+                {% assign monthName = "Juli" %}
+                {% elsif postmonth == "08" %}
+                {% assign monthName = "August" %}
+                {% elsif postmonth == "09" %}
+                {% assign monthName = "September" %}
+                {% elsif postmonth == "10" %}
+                {% assign monthName = "Oktober" %}
+                {% elsif postmonth == "11" %}
+                {% assign monthName = "November" %}
+                {% elsif postmonth == "12" %}
+                {% assign monthName = "December" %}
+                {% endif %}
+
+                {% if page.only-month == true %}
+                <p class="fs-6 mb-2"><b class="text-uppercase">Dato:</b><br>{{ monthName }}</p>
+                {% else %}
+                <p class="fs-6 mb-2"><b class="text-uppercase">Tid:</b><br>{{ page.date | date: "%d. "}} {{ monthName }}{{ page.date | date:
+                  "
+                  %Y"}} - {{ page.time }}</p>
+
+                <div title="Add to Calendar" class="addeventatc" data-styling="none">
+                  Åben i kalender
+                  <span class="start">{{ page.date | date: "%d-%m-%y"}} {{ page.time-start }}</span>
+                  <span class="end">{{ page.date | date: "%d-%m-%y"}} {{ page.time-end }}</span>
+                  <span class="timezone">Europe/Paris</span>
+                  <span class="title">{{ page.title }}</span>
+                  <span class="description">{{ page.description }}</span>
+                  <span class="location">{{ page.place }}</span>
+                </div>
+
+                {% endif %}
+              </div>
+            </div>
+            <div class="col-4">
+              <div>
+                <p class="fs-6 mb-2"><b class="text-uppercase">Sted:</b><br> {{ page.place }}</h4>
+                {% if page.google-maps %}
+                <p class="mb-0">
+                  <a href="{{ page.google-maps }}" target="_blank" class="text-uppercase mb-0">Vis lokation på
+                    kort</a>
+                </p>
+                {% endif %}
+              </div>
+
+            </div>
+          </div>
+
           {% endif %}
-          {% if page.community-price %}
-          <p class="text-uppercase fs-6 mb-0"><b>{{ page.community-price }}{% if page.ex-moms == true %} (ekskl. moms){%
-              endif %} for CCC Community
-              medlemmer</b></p>
           {% endif %}
-        </div>
-        <div class="col-4 justify-content-center d-flex align-items-center">
-          <div>
-            {% assign postmonth = page.date | date: "%m" %}
-
-
-            {% if postmonth == "01" %}
-            {% assign monthName = "Januar" %}
-            {% elsif postmonth == "02" %}
-            {% assign monthName = "Februar" %}
-            {% elsif postmonth == "03" %}
-            {% assign monthName = "Marts" %}
-            {% elsif postmonth == "04" %}
-            {% assign monthName = "April" %}
-            {% elsif postmonth == "05" %}
-            {% assign monthName = "Maj" %}
-            {% elsif postmonth == "06" %}
-            {% assign monthName = "Juni" %}
-            {% elsif postmonth == "07" %}
-            {% assign monthName = "Juli" %}
-            {% elsif postmonth == "08" %}
-            {% assign monthName = "August" %}
-            {% elsif postmonth == "09" %}
-            {% assign monthName = "September" %}
-            {% elsif postmonth == "10" %}
-            {% assign monthName = "Oktober" %}
-            {% elsif postmonth == "11" %}
-            {% assign monthName = "November" %}
-            {% elsif postmonth == "12" %}
-            {% assign monthName = "December" %}
-            {% endif %}
-
-            {% if page.only-month == true %}
-            <h4><b class="text-uppercase">Dato:</b> {{ monthName }}</h4>
-            {% else %}
-            <h4><b class="text-uppercase">Tid:</b> {{ page.date | date: "%d. "}} {{ monthName }}{{ page.date | date: "
-              %Y"}} {{ page.time }}</h4>
-            
-            <div title="Add to Calendar" class="addeventatc" data-styling="none">
-              Add to Calendar
-              <span class="start">{{ page.date | date: "%d-%m-%y"}} {{ page.time-start }}</span>
-              <span class="end">{{ page.date | date: "%d-%m-%y"}} {{ page.time-end }}</span>
-              <span class="timezone">Europe/Paris</span>
-              <span class="title">{{ page.title }}</span>
-              <span class="description">{{ page.description }}</span>
-              <span class="location">{{ page.place }}</span>
-          </div>
-           
-            {% endif %}
-          </div>
-        </div>
-        <div class="col-4 justify-content-end d-flex align-items-center">
-          <div>
-            <h4><b class="text-uppercase">Sted:</b> {{ page.place }}</h4>
-            {% if page.google-maps %}
-            <p class="mb-0">
-              <a href="{{ page.google-maps }}" target="_blank" class="text-uppercase fs-6 mb-0">Vis lokation på kort</a>
-            </p>
-            {% endif %}
-          </div>
-    
         </div>
       </div>
-
-      {% endif %}
-      {% endif %}
     </div>
 
     <div class="row pb-5">
@@ -190,214 +196,45 @@ layout: default
   </div>
 </div>
 
-<div style="background-color: rgb(97, 114, 140);">
-
-  <div class="container-fluid narrow-container white no-down">
-    <div class="overlay-banner">
-      <div class="overlay-banner-img"
-        style="background: linear-gradient(rgba(19, 19, 19, 0.5), rgba(19, 19, 19, 0.5)), url('{{ page.image }}'); background-size: cover; background-position: center;">
-      </div>
-      <div class="overlay-banner-text">
-        <p class="thin">{{ page.event-type }}</p>
-
-        {% assign postmonth = page.date | date: "%m" %}
-
-
-
-        {% if postmonth == "01" %}
-        {% assign monthName = "Januar" %}
-        {% elsif postmonth == "02" %}
-        {% assign monthName = "Februar" %}
-        {% elsif postmonth == "03" %}
-        {% assign monthName = "Marts" %}
-        {% elsif postmonth == "04" %}
-        {% assign monthName = "April" %}
-        {% elsif postmonth == "05" %}
-        {% assign monthName = "Maj" %}
-        {% elsif postmonth == "06" %}
-        {% assign monthName = "Juni" %}
-        {% elsif postmonth == "07" %}
-        {% assign monthName = "Juli" %}
-        {% elsif postmonth == "08" %}
-        {% assign monthName = "August" %}
-        {% elsif postmonth == "09" %}
-        {% assign monthName = "September" %}
-        {% elsif postmonth == "10" %}
-        {% assign monthName = "Oktober" %}
-        {% elsif postmonth == "11" %}
-        {% assign monthName = "November" %}
-        {% elsif postmonth == "12" %}
-        {% assign monthName = "December" %}
-        {% endif %}
-
-        {% if page.only-month == true %}
-        <h3>{{ monthName }}</h3>
-
-        {% else %}
-        <h3>{{ page.date | date: "%d. "}} {{ monthName }}{{ page.date | date: " %Y"}}</h3>
-        {% endif %}
-        <br>
-        <h1 class="h1-l">{{ page.title }}</h1>
-
-
-        <p class="thin large">{{ page.description }}</p>
+<div class="container-fluid mt-5 mb-5">
+  <div class="row gx-5">
+    <div class="col-12 col-md-6">
+      <div class="h-100"
+        style="background-image: url('/images/consulting/c4.jpg'); background-position: center; background-size: cover;">
       </div>
     </div>
-  </div>
-
-  <div class="container-fluid white extra-narrow-container no-up">
-
-    <div class="white-box align-content-center align-items-center">
-
-      {% if page.past %}
-      <p>Arrangementet er afholdt</p>
-      {% else %}
-      <p><b>Pris:</b> {{ page.price }}{% if page.ex-moms == true %} (ekskl. moms){% endif %}</p>
-      <!-- {% for tag in page.tags %}
-{% for post in site.posts %}
-{% if tag == post.sub-pages %}
-{% if post.community %}
-{% if page.price %}
-<br>{{ post.community }}
-{% else %}
-{{ post.community }}
-{% endif %}
-{% endif %}
-{% endif %}
-{% endfor %}
-{% endfor %} -->
-
+    <div class="col-12 col-md-6">
       {% if page.community-free == true %}
-      <p><b>GRATIS</b> for medlemmer af CCC Community</p>
+
+      {% capture com-mes %}<b class="text-uppercase opacity-1">gratis</b>{% endcapture %}
       {% endif %}
 
       {% if page.community-price %}
-      <p><b>{{ page.community-price }}</b>{% if page.ex-moms == true %} (ekskl. moms){% endif %} for CCC Community
-        medlemmer</p>
-      {% endif %}
-
-      {% assign postmonth = page.date | date: "%m" %}
-
-
-      {% if postmonth == "01" %}
-      {% assign monthName = "Januar" %}
-      {% elsif postmonth == "02" %}
-      {% assign monthName = "Februar" %}
-      {% elsif postmonth == "03" %}
-      {% assign monthName = "Marts" %}
-      {% elsif postmonth == "04" %}
-      {% assign monthName = "April" %}
-      {% elsif postmonth == "05" %}
-      {% assign monthName = "Maj" %}
-      {% elsif postmonth == "06" %}
-      {% assign monthName = "Juni" %}
-      {% elsif postmonth == "07" %}
-      {% assign monthName = "Juli" %}
-      {% elsif postmonth == "08" %}
-      {% assign monthName = "August" %}
-      {% elsif postmonth == "09" %}
-      {% assign monthName = "September" %}
-      {% elsif postmonth == "10" %}
-      {% assign monthName = "Oktober" %}
-      {% elsif postmonth == "11" %}
-      {% assign monthName = "November" %}
-      {% elsif postmonth == "12" %}
-      {% assign monthName = "December" %}
-      {% endif %}
-
-      {% if page.only-month == true %}
-      <p><b>{{ monthName }}</b></p>
-      {% else %}
-      <p><b>Tid:</b> {{ page.date | date: "%d. "}} {{ monthName }}{{ page.date | date: " %Y"}} {{ page.time }}</p>
-      {% endif %}
-      <p><b>Sted:</b> {{ page.place }}</p>
-      {% endif %}
-    </div>
-
-
-
-
-
-    {{ page.content }}
-
-    {% if page.past %}
-
-    {% else %}
-    <div class="align-center">
-      {% if page.billetto %}
-      {% if page.billetto-nr %}
-      <br>
-      <script src="https://billetto.dk/embed.js"></script>
-
-
-      <a class="billetto-btn"
-        href="https://billetto.dk/e/nar-ledelse-finder-sjaelen-billetter-{{ page.billetto-nr }}/select?color=%23414344&whitelabel=true">TILMELD</a>
+      {% capture com-mes %}
+      for <b class="heavy">{{ page.community-price }}</b> (ekskl. moms)
+      {% endcapture %}
 
 
 
       {% endif %}
-      {% else %}
-      <h4>Tilmelding kommer snart...</h4>
-      {% endif %}
 
-      {% for post in site.posts %}
-      {% for tag in page.tags %}
-      {% if tag == post.sub-pages %}
-      {% if post.billetto-group-discount == true %}
-      <br><br>
-      <a class="billetto-btn group-ticket"
-        href="https://billetto.dk/e/eksklusiv-seminarraekke-med-kim-gortz-billetter-{{ post.billetto-nr }}/select?color=%23414344">Særtilbud:
-        Køb alle fire seminarer for 1500,- ekskl. moms</a>
-      {% endif %}
-      {% endif %}
-      {% endfor %}
-      {% endfor %}
-    </div>
-    {% endif %}
-  </div>
-</div>
+      <h2 class="xlarge thin capped mb-4">Bliv medlem af CCC Community og få adgang til '{{ page.title }}' {{
+        com-mes
+        }}</h2>
 
-<div class="grid-2 position-relative">
-  <div class="w-100 position-absolute">
-    <div class="container-fluid narrow-container pt-0 pb-0">
-      <div class="grid-2 gap-90 align-content-center align-items-center h-400">
-        <div>
-
-        </div>
-        <div class="grid-1 align-content-center align-items-center white-tablet">
-          {% if page.community-free == true %}
-
-          {% capture com-mes %}<b class="heavy">gratis</b>{% endcapture %}
-          {% endif %}
-
-          {% if page.community-price %}
-          {% capture com-mes %}
-          for <b class="heavy">{{ page.community-price }}</b> (ekskl. moms)
-          {% endcapture %}
-
-
-          {% endif %}
-          <p class="xlarge thin capped">Bliv medlem af CCC Community og få adgang til '{{ page.title }}' {{ com-mes }}.
-            </h2>
-
-          <p>Som medlem får du også:</p>
-          <ul>
-            <li>Netværk, inspiration og supervison på min. 3 årlige træningsaftener</li>
-            <li>Min. to faglige arrangementer årligt</li>
-            <li>1 gratis eksemplar af nye CCC-udgivelser</li>
-            <li>12 årlige nyhedsbreve</li>
-            <li>15% rabat på events, eksklusive arrangementer og udvalgte kurser</li>
-          </ul>
-          <a href="/community/" class="border-button-dark w-auto ml-0">Tilmeld dig community her</a>
-        </div>
-      </div>
+      <p class="mb-1">Som medlem får du også:</p>
+      <ul>
+        <li>Netværk, inspiration og supervison på min. 3 årlige træningsaftener</li>
+        <li>Min. to faglige arrangementer årligt</li>
+        <li>1 gratis eksemplar af nye CCC-udgivelser</li>
+        <li>Op til 10 årlige nyhedsbreve</li>
+        <li>15% rabat på events, eksklusive arrangementer og udvalgte kurser</li>
+      </ul>
+      <a href="/community/" class="dark-border-button btn">Tilmeld dig community her</a>
     </div>
   </div>
 
-  <div class="h-400 teamwork-image"></div>
-  <div></div>
 </div>
-
 <!-- <div class="container-fluid extra-narrow-container">
 
 
