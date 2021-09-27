@@ -115,7 +115,7 @@ layout: default
             <h4><b class="text-uppercase">Tid:</b> {{ page.date | date: "%d. "}} {{ monthName }}{{ page.date | date: "
               %Y"}} {{ page.time }}</h4>
             
-            <div title="Add to Calendar" class="addeventatc">
+            <div title="Add to Calendar" class="addeventatc" data-styling="none">
               Add to Calendar
               <span class="start">{{ page.date | date: "%d-%m-%y"}} {{ page.time-start }}</span>
               <span class="end">{{ page.date | date: "%d-%m-%y"}} {{ page.time-end }}</span>
