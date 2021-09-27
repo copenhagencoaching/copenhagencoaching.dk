@@ -5,7 +5,6 @@ under-title: Big Five seminarerne
 layout: sub-event
 image: "/images/academy/certificering-i-big-five.png"
 event-type: Seminar
-description: Lær at aflæse og indgå i dialog om koblinger af træk, som på den ene eller anden måde kan give anledning til paradoksal tænkning og handling i det levede liv.
 tags:
 - community
 - eventgroup
@@ -19,3 +18,6 @@ ex-moms: true
 community-price: 270,-
 price: 450,-
 ---
+
+Lær at aflæse og indgå i dialog om koblinger af træk, som på den ene eller anden måde kan give anledning til paradoksal tænkning og handling i det levede liv.
+{:.text-white.large}

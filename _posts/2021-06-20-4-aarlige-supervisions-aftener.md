@@ -17,7 +17,10 @@ only-month: true
 ---
 
 ### Fire årlige træningsaftener
+{:.text-white}
 
 Din mulighed for at få trænet og styrket din praksis med ligestillede, der enten har afsluttet en uddannelse hos CCC eller som netop er ved det.
+{:.text-white}
 
 En mulighed for at sikre større forankring og effekt af dine erhvervede kompetencer.
+{:.text-white}
