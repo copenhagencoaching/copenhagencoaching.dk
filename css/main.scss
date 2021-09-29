@@ -3,18 +3,21 @@
 @charset "utf-8";
 
 
-@import "text.scss";
-
-@import "containers.scss";
-@import "nav.scss";
-@import "slider.scss";
-@import "cards.scss";
-@import "boxes.scss";
-@import "links.scss";
+// components
+@import "components/cards.scss";
+@import "components/containers.scss";
 @import "components/footer.scss";
-@import "images.scss";
-@import "buttons.scss";
-@import "colors.scss";
-@import "tabs.scss";
-@import "tables.scss";
-@import "forms.scss";
+@import "components/forms.scss";
+@import "components/nav.scss";
+@import "components/slider.scss";
+@import "components/tabs.scss";
+
+// utillities
+
+@import "utillities/boxes.scss";
+@import "utillities/buttons.scss";
+@import "utillities/colors.scss";
+@import "utillities/images.scss";
+@import "utillities/links.scss";
+@import "utillities/tables.scss";
+@import "utillities/text.scss";
