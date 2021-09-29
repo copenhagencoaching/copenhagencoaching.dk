@@ -149,10 +149,12 @@ image: /images/graphic/PSBOL.jpg
                 <div class="row">
                     <div class="offset-md-2 col-md-8 col-12">
                         <h2 class="text-white mb-5">Bidragsydere</h2>
-                        <img src="/images/graphic/Ccclogosortstor1.png" width="150" alt="" class="float-start me-3 mb-3">
+                        <img src="/images/graphic/Ccclogosortstor1.png" width="150" alt=""
+                            class="float-start me-3 mb-3">
                         <h4 class="text-white">Forord ved Copenhagen Coaching Center</h4>
-        
-                        <p class="text-white">Den filosofiske samtalekunst og dialogiske disciplin; Protreptikken, der trækker aner tilbage
+
+                        <p class="text-white">Den filosofiske samtalekunst og dialogiske disciplin; Protreptikken, der
+                            trækker aner tilbage
                             til den græske, antikke tænkning (Sokrates, Platon og Aristoteles), har i de seneste 15 år
                             fået støt stigende opmærksomhed og fundet sin pasform indenfor store dele af
                             ledelsespraktikken, offentlig såvel som i privat regi. Endvidere er der indenfor
@@ -160,14 +162,16 @@ image: /images/graphic/PSBOL.jpg
                             forhold til ledelse og undervisning har den protreptiske tilgang indtil videre primært
                             kredset omkring værdi-afklaring og bibragt nytænkning samt øget grad af intensitet i forhold
                             til at finde frem til hvem man er og hvad man står for som leder og lærer.</p>
-                        <p class="text-white">Imidlertid er et nyt erfarings-rum trådt mere og mere frem i de senere år, nemlig protreptik
+                        <p class="text-white">Imidlertid er et nyt erfarings-rum trådt mere og mere frem i de senere år,
+                            nemlig protreptik
                             som behandlingsform og som et vægtigt bidrag til filosofisk terapi. Både som supplement og
                             alternativ til de mere psykologiske terapi- og behandlingsformer viser det sig med større og
                             større klarhed, at den protreptiske arbejdsform har noget at komme med, endda i en sådan
                             grad at erfaringspuljen hermed er blevet ganske tungt-vejende, og tyder på at der ligefrem
                             tegner sig former for evidens og klare effekter af den protreptiske tilgang som
                             behandlingsform indenfor den sociale sektor.</p>
-                        <p class="text-white">Det er derfor med stor taknemmelig overfor bidragsyderne og med stolthed og respekt at vi i
+                        <p class="text-white">Det er derfor med stor taknemmelig overfor bidragsyderne og med stolthed
+                            og respekt at vi i
                             dette forår vil kunne byde velkommen til en række velfunderede erfaringer og erkendelser
                             omkring protreptikkens funktion og ydeevne indenfor områder, hvor der bl.a. arbejdes med
                             “psykisk sårbare” og “udsatte unge” samt ikke mindst hele organiseringen og ledelsen heraf.
@@ -178,248 +182,121 @@ image: /images/graphic/PSBOL.jpg
                             {% assign week-cont = site.pip-contributors | where_exp:"item",
                             "item.week == true" %}
                             {% for cont in week-cont %}
-        
+
                             <p class="fw-bold">{{ cont.dato }}</p>
-        
+
                             <h2>{{ cont.title }}
                                 {% if cont.show-v %}
-                                <br>v. {% for person in cont.persons %}{% if forloop.last %} og {{ person.name }}{% elsif
+                                <br>v. {% for person in cont.persons %}{% if forloop.last %} og {{ person.name }}{%
+                                elsif
                                 forloop.first %}{{ person.name }}{% else %}, {{
                                 person.name }}{% endif %}{% endfor %}
                                 {% else %}
                                 <br>{{ cont.second-title }}
                                 {% endif %}
                             </h2>
-        
+
                             {% if cont.bio %}
                             <p>{{ cont.bio }}</p>
-    
+
                             {% endif %}
-    
+
                             {% if cont.bio-heading %}
                             <h4>{{ cont.bio-heading }} {% for person in cont.persons %}{% if forloop.last %} og {{
                                 person.name }}{% elsif forloop.first %}{{ person.name }}{% else %}, {{
                                 person.name }}{% endif %}{% endfor %}</h4>
-    
+
                             {% endif %}
                             {% if cont.description %}
                             <p>{{ cont.description }}</p>
-                            
-    
+
+
                             {% else %}
                             <p>{{ cont.excerpt }}</p>{% endif %}
 
                             {% if cont.link == true %}
 
-                            <a href="{{ cont.url }}">Læs mere om {{ cont.title | truncatewords: 1, '' | remove: "," }}s bidrag
-                                <i class="fas fa-arrow-right"></i></a>
-                            
+                            <p><a href="{{ cont.url }}" class="d-block">Læs mere om {{ cont.title | truncatewords: 1, ''
+                                    | remove: "," }}s bidrag
+                                    <i class="fas fa-arrow-right"></i></a></p>
+
                             {% endif %}
 
                             {% for person in cont.persons %}
 
-                            
+
                             <img src="{{ person.image }}" width="150" alt="" class="float-start me-3 mb-3">
-        
-        
-                                <div class="p-20 pt-0 no-padding-bot">
-                                    {% if cont.group == true %}
-                                    <h4>{{ person.name }}</h4>
-                                    {% endif %}
-                                    <p class="xthin">{{ person.title }}</p>
-                                    <p>{{ person.bio }}</p>
-                                </div>
-                            
-                            <br>
-        
-        
-                            {% endfor %}
-        
-        
-                            {% endfor %}
-        
-                        </div>
-
-                    </div>
-                </div>
 
 
-
-            </div>
-
-
-        </div>
-
-        <div class="bg-deep-taupe">
-            <div class="container-fluid extra-narrow-container pt-50">
-                <h2 class="align-center mb-20 white"></h2>
-
-                <div class="white align-justify">
-
-
-
-                    <div class="w-150p h-150 float-left mr-20 mb-10">
-                        <img src="/images/graphic/Ccclogosortstor1.png" alt="" class="object-fit">
-                    </div>
-
-
-                    <h4>Forord ved Copenhagen Coaching Center</h4>
-
-                    <p>Den filosofiske samtalekunst og dialogiske disciplin; Protreptikken, der trækker aner tilbage
-                        til den græske, antikke tænkning (Sokrates, Platon og Aristoteles), har i de seneste 15 år
-                        fået støt stigende opmærksomhed og fundet sin pasform indenfor store dele af
-                        ledelsespraktikken, offentlig såvel som i privat regi. Endvidere er der indenfor
-                        skoleverdenen vakt stor interesse herfor, specielt omkring temaer som dannelse og etik. I
-                        forhold til ledelse og undervisning har den protreptiske tilgang indtil videre primært
-                        kredset omkring værdi-afklaring og bibragt nytænkning samt øget grad af intensitet i forhold
-                        til at finde frem til hvem man er og hvad man står for som leder og lærer.</p>
-                    <p>Imidlertid er et nyt erfarings-rum trådt mere og mere frem i de senere år, nemlig protreptik
-                        som behandlingsform og som et vægtigt bidrag til filosofisk terapi. Både som supplement og
-                        alternativ til de mere psykologiske terapi- og behandlingsformer viser det sig med større og
-                        større klarhed, at den protreptiske arbejdsform har noget at komme med, endda i en sådan
-                        grad at erfaringspuljen hermed er blevet ganske tungt-vejende, og tyder på at der ligefrem
-                        tegner sig former for evidens og klare effekter af den protreptiske tilgang som
-                        behandlingsform indenfor den sociale sektor.</p>
-                    <p>Det er derfor med stor taknemmelig overfor bidragsyderne og med stolthed og respekt at vi i
-                        dette forår vil kunne byde velkommen til en række velfunderede erfaringer og erkendelser
-                        omkring protreptikkens funktion og ydeevne indenfor områder, hvor der bl.a. arbejdes med
-                        “psykisk sårbare” og “udsatte unge” samt ikke mindst hele organiseringen og ledelsen heraf.
-                    </p>
-
-
-
-
-
-                </div>
-
-                {% assign week-cont = site.pip-contributors | where_exp:"item",
-                "item.week == true" %}
-
-
-                {% for cont in week-cont %}
-
-                <div class="bg-platinum p-20">
-
-                    <p class="thin capped">{{ cont.dato }}</p>
-
-                    <h2>{{ cont.title }}
-                        {% if cont.show-v %}
-                        <br>v. {% for person in cont.persons %}{% if forloop.last %} og {{ person.name }}{% elsif
-                        forloop.first %}{{ person.name }}{% else %}, {{
-                        person.name }}{% endif %}{% endfor %}
-                        {% else %}
-                        <br>{{ cont.second-title }}
-                        {% endif %}
-                    </h2>
-
-
-                    <div class="align-justify">
-                        {% if cont.bio %}
-                        <p>{{ cont.bio }}</p>
-
-                        {% endif %}
-
-                        {% if cont.bio-heading %}
-                        <h4>{{ cont.bio-heading }} {% for person in cont.persons %}{% if forloop.last %} og {{
-                            person.name }}{% elsif forloop.first %}{{ person.name }}{% else %}, {{
-                            person.name }}{% endif %}{% endfor %}</h4>
-
-                        {% endif %}
-                        {% if cont.description %}
-                        {{ cont.description }}
-                        <br><br>
-
-                        {% else %}
-                        {{ cont.excerpt }}{% endif %}
-                    </div>
-
-
-                    {% if cont.link == true %}
-
-                    <a href="{{ cont.url }}">Læs mere om {{ cont.title | truncatewords: 1, '' | remove: "," }}s bidrag
-                        <i class="fas fa-arrow-right"></i></a>
-                    <br> <br>
-                    {% endif %}
-                    {% for person in cont.persons %}
-
-                    <div class="grid-20-80 h-150 responsive-grid responsive-height-auto">
-                        <div>
-                            <div class="object-fit-full-width h-150 h-400-bot">
-                                <img src="{{ person.image }}" alt="" class="object-fit">
+                            <div class="p-20 pt-0 no-padding-bot">
+                                {% if cont.group == true %}
+                                <h4>{{ person.name }}</h4>
+                                {% endif %}
+                                <p class="fw-bold mb-2">{{ person.title }}</p>
+                                <p>{{ person.bio }}</p>
                             </div>
-                        </div>
+
+                            <br>
 
 
-                        <div class="p-20 pt-0 no-padding-bot">
-                            {% if cont.group == true %}
-                            <h4>{{ person.name }}</h4>
-                            {% endif %}
-                            <p class="xthin">{{ person.title }}</p>
-                            <p>{{ person.bio }}</p>
+                            {% endfor %}
+
+
+                            {% endfor %}
+                            <div class="mb-4"></div>
                         </div>
+
                     </div>
-                    <br>
-
-
-                    {% endfor %}
-
-
                 </div>
-                <br>
-                {% endfor %}
-
-
-
-
-
-
-
-
-
 
 
 
             </div>
+
+
         </div>
+
+
     </div>
 
     <div class="tab-pane fade" id="nav-3" role="tabpanel" aria-labelledby="nav-3-tab">
-        <div class="container-fluid extra-narrow-container grid-1 pt-0 r-gap-20">
 
-
-
-
+        <div class="container-fluid mb-5">
 
             {% assign ordered-conts = site.pip-contributors | sort: "order" %}
             {% for cont in ordered-conts %}
-            {% if cont.done == true %}
-            <a href="{{ cont.url }}"> {% endif %}
-                <div class="grid-10-5-85 smooth-border p-10">
-                    <div
-                        class="bg-beaver p-10 white align-center grid-1 align-center align-content-center align-items-center">
-                        {% capture date %}
 
-                        {{ cont.dato }}
-                        {% endcapture %}
+            {% capture date %}
 
-                        {% assign splitted_date = date | split: " " %}
+            {{ cont.dato }}
+            {% endcapture %}
+
+            {% assign splitted_date = date | split: " " %}
 
 
-                        {% for le in splitted_date %}
+            {% for le in splitted_date %}
 
-                        {% if forloop.first %}
-                        {% assign day = le | remove: "." %}
-                        {% endif %}
-                        {% if forloop.index == 2 %}
-                        {% assign month = le %}
-                        {% endif %}
-                        {% endfor %}
+            {% if forloop.first %}
+            {% assign day = le | remove: "." %}
+            {% endif %}
+            {% if forloop.index == 2 %}
+            {% assign month = le %}
+            {% endif %}
+            {% endfor %}
 
-                        <h2 class="mb-0">{{ day }}</h2><span class="capped">{{ month | truncate: 3, "" }}</span>
-                    </div>
-                    <div class="grid-1 align-content-center align-items-center">
+            <div class="row row-striped py-4">
+                <div class="col-2 text-end">
+                    <a href="{{ cont.url }}">
+                    <h1 class="display-5"><span class="badge bg-beaver">{{ day }}</span></h1>
+                    <h2>{{ month | truncate: 3, "" }}</h2>
+                    </a>
+                </div>
+                <div class="col-10 d-flex align-items-center">
+                    <div>
+                        <a href="{{ cont.url }}">
                         {% if cont.group == true %}
-                        <h3 class="pb-10">{{ cont.title }} ved</h3>
+                        <h3 class="pb-1">{{ cont.title }} ved</h3>
+
                         {% for person in cont.persons %}
 
                         {% if forloop.last %}
@@ -438,23 +315,25 @@ image: /images/graphic/PSBOL.jpg
                         {% for person in cont.persons %}
                         <p class="mb-0">{{ person.title }}</p>
                         {% endfor %}
+
+
                         {% endif %}
-
-
+                    </a>
                     </div>
                 </div>
-                {% if cont.done == true %}
-            </a> {% endif %}
+            </div>
+
+
+
             {% endfor %}
 
-
-
         </div>
+  
     </div>
 
 </div>
 
-{% include chapter.html %}
+{% include sections/chapter.html %}
 <div class="container-fluid my-5">
 
     <div class="row gx-5">
@@ -548,5 +427,5 @@ image: /images/graphic/PSBOL.jpg
 
 
 <div class="bg-platinum">
-    {% include secments/other-courses.html %}
+    {% include sections/other-courses.html %}
 </div>

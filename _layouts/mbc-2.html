@@ -13,36 +13,38 @@ layout: default
     </div>
 
 </div>
-
-<div class="container-fluid mt-4">
-    <div class="row gy-3">
-        <div class="col-12 col-lg-6">
-            <video controls>
-                <source src="/videos/noeddesbo-ccc.mp4" type="video/mp4">
-                Your browser does not support HTML video.
-            </video>
-        </div>
-        <div class="col-12 col-lg-6 d-flex align-items-center">
-            <div>
-            <figure>
-                <blockquote class="blockquote mb-4">
-                  <h2>
-                    <i class="fas fa-quote-left fa-lg opacity-50 me-2"></i>
-                    <span>Det er fantastisk</span>
-                  </h2>
-                </blockquote>
-                <figcaption class="blockquote-footer">
-                  Jesper Nøddesbo
-                </figcaption>
-              </figure>
-              <h4>Det startede som mentale udfordringer. Med tiden har det udviklet sig til en ny passion</h4>
-            <p>Nu uddanner Bjerringbro-Silkeborg Håndbolds Jesper Nøddesbo sig gennem Copenhagen Coaching Center. Og
-                uddannelsen gør, at han nogle gange ligefrem glæder sig til livet efter håndbold.</p>
+<div class="bg-platinum">
+    <div class="container-fluid py-5">
+        <div class="row gy-3 gx-5">
+            <div class="col-12 col-lg-6">
+                <video controls>
+                    <source src="/videos/noeddesbo-ccc.mp4" type="video/mp4">
+                    Your browser does not support HTML video.
+                </video>
+            </div>
+            <div class="col-12 col-lg-6 d-flex align-items-center">
+                <div>
+                <figure>
+                    <blockquote class="blockquote mb-4">
+                      <h2>
+                        <i class="fas fa-quote-left fa-lg opacity-50 me-2"></i>
+                        <span>Det er fantastisk</span>
+                      </h2>
+                    </blockquote>
+                    <figcaption class="blockquote-footer">
+                      Jesper Nøddesbo
+                    </figcaption>
+                  </figure>
+                  <h4>Det startede som mentale udfordringer. Med tiden har det udviklet sig til en ny passion</h4>
+                <p>Nu uddanner Bjerringbro-Silkeborg Håndbolds Jesper Nøddesbo sig gennem Copenhagen Coaching Center. Og
+                    uddannelsen gør, at han nogle gange ligefrem glæder sig til livet efter håndbold.</p>
+                </div>
             </div>
         </div>
+        
     </div>
-    
 </div>
+
 
 <div class="container-fluid py-5 overflow-hidden">
     <div class="row">
@@ -50,16 +52,12 @@ layout: default
             {{ page.content }}
         </div>
         <div class="col-12 col-lg-4 bg-dark-black p-4">
-            {% if page.emails %}
+            
             <div class="d-grid gap-2 mb-3">
-                <a class="btn btn-outline-light white-border-button" href="#" data-toggle="modal"
-                    data-target="#{{ page.title | remove: " " }}-modal">Tilmeld dig her</a>
+                <a class="btn btn-outline-light white-border-button" href="/tilmelding/?n={{ page.title }}">Tilmeld dig her</a>
             </div>
-            {% else %}
-            <div class="d-grid gap-2 mb-3">
-                <a class="btn btn-outline-light white-border-button" href="/registration/">Tilmeld dig her</a>
-            </div>
-            {% endif %}
+
+
             {% if page.price %}
             <p class="text-white"><b>Pris: </b><br>{{ page.price }} </p>
             {% endif %}
@@ -78,7 +76,7 @@ layout: default
 
 
             <p class="text-white">{{ event.overskrift }}</p>
-            <div class="accordion clean" id="accordionExample">
+            <div class="accordion clean white-arrow" id="accordionExample">
                 {% for subcat in event.subcat %}
                 <div class="accordion-item">
                     <p class="accordion-header" id="heading{{ forloop.index }}">
@@ -105,7 +103,7 @@ layout: default
             {% else %}
 
             {% if event.dato %}
-            <div class="accordion clean" id="accordionExample">
+            <div class="accordion clean white-arrow" id="accordionExample">
                 <div class="accordion-item">
                     <p class="accordion-header" id="heading{{ forloop.index }}">
                         <button class="accordion-button collapsed text-white" type="button" data-bs-toggle="collapse"
@@ -172,171 +170,7 @@ layout: default
         </div>
     </div>
 </div>
-{% if page.emails %}
-<!-- MBC modal -->
-<div class="modal fade black" id="{{ page.title | remove: " " }}-modal" tabindex="-1" role="dialog"
-    aria-labelledby="pfp-c-modal" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-lg black" role="document">
-        <div class="modal-content black">
-            <div class="modal-header">
 
-                <h2 class="modal-title" id="pfp-modal">Tilmeld dig {{ page.title }}</h2>
-                <button type="button" class="close close-modal-button" data-dismiss="modal" aria-label="Close">
-                    <span>&times;</span>
-                </button>
-            </div>
-
-            <div class="modal-body">
-                <form class="white-form white" action="https://formspree.io/f/mzbyzbyg" method="POST"
-                    enctype="multipart/form-data">
-
-
-
-
-                    <select class="input-form udd mbc-hold" id="mbc-hold" name="mbc-hold">
-                        <option value="hold">Vælg hold</option>
-                        {% for edu in site.educations %}
-
-                        {% if edu.title == "Master of Business Coaching" %}
-                        {% for h in edu.hold %}
-                        <option value="{{ h }}">{{ h }}</option>
-                        {% endfor %}
-                        {% endif %}
-                        {% endfor %}
-
-
-                    </select>
-
-                    <input type="hidden" name="uddannelse" value="{{ page.title }}" />
-                    <input type="text" name="FNAME" placeholder="Fornavn*" required>
-                    <input type="text" name="LNAME" placeholder="Efternavn*" required>
-                    <input type="text" name="virksomhed" placeholder="Virksomhed">
-                    <label><b>Hvem skal betale?</b></label>
-                    <br>
-                    <label>
-                        <input type="radio" class="checkbox privat" checked id="privat" name="betaling" value="privat">
-                        Privat</label>
-                    <br>
-                    <label class="mb-20">
-                        <input type="radio" class="checkbox virksomhed" id="virksomhed" name="betaling"
-                            value="virksomhed">
-                        Virksomhed</label>
-                    <br>
-                    <div id="virksomhed-box">
-
-
-                    </div>
-
-                    <input type="text" name="adress" placeholder="Fakturerings adresse*" required>
-                    <div class="grid-2">
-                        <input type="text" name="zip-code" placeholder="Postnummer*" required>
-                        <input type="text" name="town" placeholder="By*">
-                    </div>
-
-
-
-                    <input type="tel" name="arb-tlf" pattern="[0-9]{8}" placeholder="Arb. tlf.*" required>
-                    <input type="tel" name="mobile" pattern="[0-9]{8}" placeholder="Mobil">
-                    <input type="email" name="email" placeholder="E-mail*" required>
-
-
-
-                    <textarea name="besked" cols="30" rows="10" placeholder="Evt. kommentar"></textarea>
-                    <!--     <label><b>Uddannelsesmæssig baggrund:</b><br>
-                  <i>Skriv venligst dine formelle uddannelser</i></label>
-              <textarea name="uddannelses-baggrund" cols="30" rows="10"></textarea>
-          
-              <label><b>Relevante kurser og efteruddannelser:</b><br>
-                  <i>Herunder registrerede alternative uddannelser</i></label>
-              <textarea name="relevante-kurser" cols="30" rows="10"></textarea>
-          
-              <label><b>Relevant livs- og erhvervserfaring:</b></label>
-              <textarea name="livs-erhvervserfaring" cols="30" rows="10"></textarea>
-          
-          
-              <label><b>Personlig motivation for at søge optagelse:</b></label>
-              <textarea name="motivation" cols="30" rows="10"></textarea> -->
-
-                    <!--      <label><b>Jeg søger optagelse via:</b><br>
-          <input class="checkbox" type="radio" id="male" name="kvote" value="§1"> §1 <br><input class="checkbox" type="radio" id="male" name="kvote" value="§2"> §2 <br><input class="checkbox" type="radio" id="male" name="kvote" value="§3"> §3</label>
-          <br><a href="/pfp/adgangskrav/" target="_blank" class="small">Læs om kvoter og adgangskrav her</a> -->
-
-                    <!--  <label><b>Merit:</b><br>
-          <input class="checkbox" type="checkbox" name="merit"/>
-          Jeg søger meritoverførsel fra anden tilsvarende psykoterapeutuddannelse</label><br>
-          <br> -->
-
-                    <br>
-                    <label class="mb-0" id="file-upload">
-                        <b>Vedhæft relevante dokumenter:</b>
-                        <input type="file" name="upload"
-                            accept=".doc,.docx,.pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document">
-                    </label>
-                    <br>
-                    <label>
-                        <a href="#flere" class="green-button faded small thin add-more-files">Tilføj flere</a>
-                    </label>
-                    <br><br>
-                    <label><b>Hvor har du hørt om os?:</b></label><br>
-                    <label><input class="checkbox" type="checkbox" name="hoert-om-os" value="Google" />
-                        Google</label>
-                    <br>
-                    <label><input class="checkbox" type="checkbox" name="hoert-om-os" value="facebook" />
-                        Facebook</label>
-                    <br>
-                    <label>
-                        <input class="checkbox" type="checkbox" name="hoert-om-os" value="instagram" />
-                        Instagram
-                    </label>
-                    <br>
-                    <label><input class="checkbox" type="checkbox" name="hoert-om-os" value="linkedin" />
-                        LinkedIn</label>
-                    <br>
-                    <label><input class="checkbox" type="checkbox" name="hoert-om-os" value="anbefaling" />
-                        Anbefaling
-                        fra andre</label>
-                    <br>
-                    <label><input class="checkbox" type="checkbox" name="hoert-om-os" value="andet" /> Andet</label>
-
-
-
-
-                    <br><br>
-                    <label>
-                        <input class="checkbox" type="checkbox" name="_optin" /> Jeg vil gerne modtage
-                        CCC's nyhedsbrev via mail.
-                    </label>
-                    <br>
-                    <br>
-                    <label>
-                        <b>Samtykkeerklæring*</b><br>
-                        <input class="checkbox" type="checkbox" name="samtykke" required /> <span
-                            class="small inline white">Jeg giver samtykke til, at CCC må bruge
-                            mine oplysninger til at behandle min ansøgning. Derudover giver jeg samtykke til, at CCC
-                            opbevarer og
-                            behandler mine persondata som er beskrevet i CCC's privatlivspolitik. <a class="inline"
-                                href="/privatlivspolitik/">Læs om vores privatlivspolitik her.</a></span>
-                    </label>
-                    <input type="hidden" name="ansvarlig"
-                        value="{% for email in page.emails %}{% if forloop.last %}{{ email }}{% else %}{{ email }},{% endif %}{% endfor %}" />
-
-                    <br>
-
-
-                    <br>
-
-
-                    <!-- your other form fields go here -->
-
-                    <button class="green-button w-100 large thin capped" type="submit">Ansøg</button>
-
-                </form>
-            </div>
-        </div>
-    </div>
-</div>
-{% endif %}
-<!-- MBC modal end -->
 
 
 

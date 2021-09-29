@@ -385,8 +385,19 @@
 
   </script>
 
+<script>
+  $(document).on("click", ".privat", function () {
+var hehe = $("#cvr")
+hehe.parent().remove();
+
+});
 
 
+$(document).on("click", ".virksomhed", function () {
+$('.virksomhed-box').html('<div><input type="text" name="cvr" id="cvr" class="form-control mb-3" placeholder="CVR nummer"><input class="form-control mb-3" type="text" name="ean" placeholder="EAN"></div>')
+
+});
+</script>
 
   <script
     type="text/javascript"> _linkedin_partner_id = "2763578"; window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || []; window._linkedin_data_partner_ids.push(_linkedin_partner_id);</script>

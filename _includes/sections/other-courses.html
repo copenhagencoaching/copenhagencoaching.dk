@@ -6,7 +6,7 @@
         {% assign educations = site.educations | where_exp:"item",
         "item.url != include.url" %}
         {% for edu in educations limit: 4 %}
-        <div class="col-md-3 col-12">
+        <div class="col-lg-4 col-xl-3 col-12 col-sm-6">
             <a href="{{ edu.url }}">
                 <div class="card">
                     <div class="outer-img-top">

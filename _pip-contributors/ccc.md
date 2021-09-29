@@ -7,6 +7,7 @@ done: true
 order: 1
 dato: 8. februar 2021
 published: true
+signup: true
 persons:
 - name: CCC
   image: /images/graphic/Ccclogosortstor1.png

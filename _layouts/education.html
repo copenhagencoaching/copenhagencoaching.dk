@@ -21,7 +21,7 @@ layout: default
     </div>
     <div class="col-12 col-lg-4 bg-dark-black p-4">
       <div class="d-grid gap-2 mb-3">
-        <a class="btn btn-outline-light white-border-button" href="/registration/">Tilmeld dig her</a>
+        <a class="btn btn-outline-light white-border-button" href="/tilmelding/?n={{ page.title }}">Tilmeld dig her</a>
       </div>
       {% if page.price %}
       <p class="text-white"><b>Pris: </b><br>{{ page.price }} </p>
@@ -41,7 +41,7 @@ layout: default
 
 
 <p class="text-white">{{ event.overskrift }}</p>
-<div class="accordion clean" id="accordionExample">
+<div class="accordion clean white-arrow" id="accordionExample">
 {% for subcat in event.subcat %}
 <div class="accordion-item">
   <p class="accordion-header" id="heading{{ forloop.index }}">
@@ -68,7 +68,7 @@ layout: default
 {% else %}
 
 {% if event.dato %}
-<div class="accordion clean" id="accordionExample">
+<div class="accordion clean white-arrow" id="accordionExample">
 <div class="accordion-item">
   <p class="accordion-header" id="heading{{ forloop.index }}">
     <button class="accordion-button collapsed text-white" type="button" data-bs-toggle="collapse"

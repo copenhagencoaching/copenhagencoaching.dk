@@ -4,141 +4,158 @@ layout: default
 ---
 
 <style>
-h1{
-  font-weight: 300;
-  margin: 0px;
-  padding: 10px;
-  font-size: 20px;
-  background-color: #444;
-  color: #fff;
-}
+  h1 {
+    font-weight: 300;
+    margin: 0px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #444;
+    color: #fff;
+  }
 
-.message {
-  padding: 10px;
-}
+  .message {
+    padding: 10px;
+  }
 
-#register {
+  #register {
     display: none;
-}
+  }
 
 
-.question{
-  font-size: 30px;
-  margin-bottom: 10px;
-}
-.answers {
-  margin-bottom: 20px;
-  text-align: left;
-  display: inline-block;
-}
-.answers label{
-  display: block;
-  margin-bottom: 10px;
-}
-button{
-  font-family: 'Work Sans', sans-serif;
-	font-size: 22px;
-	background-color: #279;
-	color: #fff;
-	border: 0px;
-	border-radius: 3px;
-	padding: 20px;
-	cursor: pointer;
-	margin-bottom: 20px;
-}
-button:hover{
-	background-color: #38a;
-}
+  .question {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
 
-button.disabled {
-  pointer-events: none;
-  opacity: .4;
-}
+  .answers {
+    margin-bottom: 20px;
+    text-align: left;
+    display: inline-block;
+  }
 
-.slide{
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 100%;
-  z-index: 1;
-  opacity: 0;
-  transition: opacity 0.5s;
-}
-.active-slide{
-  opacity: 1;
-  z-index: 2;
-}
+  .answers label {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  button {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 22px;
+    background-color: #279;
+    color: #fff;
+    border: 0px;
+    border-radius: 3px;
+    padding: 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+
+  button:hover {
+    background-color: #38a;
+  }
+
+  button.disabled {
+    pointer-events: none;
+    opacity: .4;
+  }
+
+  .slide {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+
+  .active-slide {
+    opacity: 1;
+    z-index: 2;
+  }
 
 
-h3 {
-  color: #227799;
-  margin-bottom: 20px;
-}
-.quiz-container{
-  position: relative;
-  height: 400px;
-  margin-top: 20px;
-}
+  h3 {
+    color: #227799;
+    margin-bottom: 20px;
+  }
 
+  .quiz-container {
+    position: relative;
+    height: 400px;
+    margin-top: 20px;
+  }
 </style>
 
-<div class="container-fluid extra-narrow-container" id="theQuiz">
-    <h1>Prøve i Erhvervsrettet testning</h1>
-<div class="quiz-container">
-  <div id="quiz"></div>
-</div>
-<div id="results"></div>
-<button id="check">Tjek svar</button>
-<br>
-<br>
-<button id="previous">Forrige spørgsmål</button>
-<button id="next">Næste spørgsmål</button>
-<button id="submit">Registrér resultat</button>
+<div class="container-fluid py-5" id="theQuiz">
+  <div class="row">
+    <div class="offset-lg-2 col-lg-8 col-12">
+      <h1>Prøve i Erhvervsrettet testning</h1>
+      <div class="quiz-container">
+        <div id="quiz"></div>
+      </div>
+      <div id="results"></div>
+      <button id="check">Tjek svar</button>
+      <br>
+      <br>
+      <button id="previous">Forrige spørgsmål</button>
+      <button id="next">Næste spørgsmål</button>
+      <button id="submit">Registrér resultat</button>
+    </div>
+  </div>
+
 </div>
 
-<div class="container-fluid extra-narrow-container" id="register">
-<h1>Registrér dit resultat</h1>
-<div class="typeform-widget" data-url="https://form.typeform.com/to/sgT23CRS?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+<div class="container-fluid" id="register">
+  <div class="row">
+    <div class="offset-lg-2 col-lg-8 col-12">
+      <h1>Registrér dit resultat</h1>
+      <div class="typeform-widget" data-url="https://form.typeform.com/to/sgT23CRS?typeform-medium=embed-snippet"
+        style="width: 100%; height: 500px;"></div>
+      <script> (function () { var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName, id = "typef_orm", b = "https://embed.typeform.com/"; if (!gi.call(d, id)) { js = ce.call(d, "script"); js.id = id; js.src = b + "embed.js"; q = gt.call(d, "script")[0]; q.parentNode.insertBefore(js, q) } })()</script>
+    </div>
+  </div>
 </div>
 
 
 <script>
 
-(function(){
-  // Functions
-  function buildQuiz(){
-    // variable to store the HTML output
-    const output = [];
+    (function () {
+      // Functions
+      function buildQuiz() {
+        // variable to store the HTML output
+        const output = [];
 
-    // for each question...
-    myQuestions.forEach(
-      (currentQuestion, questionNumber) => {
+        // for each question...
+        myQuestions.forEach(
+          (currentQuestion, questionNumber) => {
 
-        // variable to store the list of possible answers
-        const answers = [];
+            // variable to store the list of possible answers
+            const answers = [];
 
-        // and for each available answer...
-        for(letter in currentQuestion.answers){
+            // and for each available answer...
+            for (letter in currentQuestion.answers) {
 
-          // ...add an HTML radio button
-          answers.push(
-            `<label>
-              <input type="checkbox" name="question${questionNumber}" value="${letter}">
+              // ...add an HTML radio button
+              answers.push(
+                `<div class="form-check mb-1">
+              <input type="checkbox" class="form-check-input" id="letter${letter}-${questionNumber}" name="question${questionNumber}" value="${letter}">
               
-              ${currentQuestion.answers[letter]}
-            </label>`
-          );
-        }
+              
+              <label class="form-check-label" for="letter${letter}-${questionNumber}">${currentQuestion.answers[letter]}
+            </label></div>`
+              );
+            }
 
-        // add this question and its answers to the output
-        output.push(
-          `<div class="slide">
+            // add this question and its answers to the output
+            output.push(
+              `<div class="slide">
             <table style="width: 100%">
               <tr>
                 <td>
                   <h3>${currentQuestion.cat}</h3>
                   </td>
-                  <td style="text-align: right;"><p>Spørgsmål ${questionNumber+1}/${myQuestions.length}</p>
+                  <td style="text-align: right;"><p class="fs-5">Spørgsmål ${questionNumber + 1}/${myQuestions.length}</p>
                     </td>
                 </tr>
               </table>
@@ -148,323 +165,322 @@ h3 {
             <br>
             <div class="answers"> ${answers.join("")} </div><p class="message"></p>
           </div>`
+            );
+          }
         );
+
+        // finally combine our output list into one string of HTML and put it on the page
+        quizContainer.innerHTML = output.join('');
       }
-    );
 
-    // finally combine our output list into one string of HTML and put it on the page
-    quizContainer.innerHTML = output.join('');
-  }
-
-  function checkAnswer(){
-    // gather answer containers from our quiz
-    const answerContainers = quizContainer.querySelectorAll('.answers');
-    const messageContainers = quizContainer.querySelectorAll('.message');
-    // keep track of user's answers
-    
+      function checkAnswer() {
+        // gather answer containers from our quiz
+        const answerContainers = quizContainer.querySelectorAll('.answers');
+        const messageContainers = quizContainer.querySelectorAll('.message');
+        // keep track of user's answers
 
 
 
-    // for each question...
-    myQuestions.forEach( (currentQuestion, questionNumber) => {
-        var arr = []
-        for(key in currentQuestion.correctAnswers) {
-    arr.push(key);
-}
-len = arr.length;
-        let numCorrect = 0;
-        let numAll = 0;
-      // find selected answer
-      const answerContainer = answerContainers[questionNumber];
-      const selector = `input[name=question${questionNumber}]:checked`;
-      const userAnswer = (answerContainer.querySelector(selector) || {}).value;
 
-      if(questionNumber === currentSlide) {
+        // for each question...
+        myQuestions.forEach((currentQuestion, questionNumber) => {
+          var arr = []
+          for (key in currentQuestion.correctAnswers) {
+            arr.push(key);
+          }
+          len = arr.length;
+          let numCorrect = 0;
+          let numAll = 0;
+          // find selected answer
+          const answerContainer = answerContainers[questionNumber];
+          const selector = `input[name=question${questionNumber}]:checked`;
+          const userAnswer = (answerContainer.querySelector(selector) || {}).value;
 
-$(`input[name=question${questionNumber}]:checked`).each(function() {
-    numAll++;
-});
-     
-if (numAll === len) {
-    $(`input[name=question${questionNumber}]:checked`).each(function() {
-           for(letter in currentQuestion.correctAnswers){
-          
-          // if answer is correct
-          if(this.value === currentQuestion.correctAnswers[letter]){
-            
-            // add to the number of correct answers
-           
-            numCorrect++;
-            // color the answers green
-            /* answerContainers[questionNumber].style.color = 'lightgreen';  */
+          if (questionNumber === currentSlide) {
+
+            $(`input[name=question${questionNumber}]:checked`).each(function () {
+              numAll++;
+            });
+
+            if (numAll === len) {
+              $(`input[name=question${questionNumber}]:checked`).each(function () {
+                for (letter in currentQuestion.correctAnswers) {
+
+                  // if answer is correct
+                  if (this.value === currentQuestion.correctAnswers[letter]) {
+
+                    // add to the number of correct answers
+
+                    numCorrect++;
+                    // color the answers green
+                    /* answerContainers[questionNumber].style.color = 'lightgreen';  */
+                  }
+
+
+                }
+              });
+
+
+              if (numCorrect === len) {
+                if (currentSlide === slides.length - 1) {
+
+                  $("#next").addClass("disabled");
+                  $("#submit").removeClass("disabled");
+
+                }
+                else {
+                  $("#next").removeClass("disabled");
+
+                  $("#submit").addClass("disabled");
+
+                }
+
+                messageContainers[questionNumber].innerHTML = "Korrekt";
+                // color the answers green
+                messageContainers[questionNumber].style.background = 'lightgreen';
+                messageContainers[questionNumber].style.color = 'black';
+
+              }
+              else {
+
+                messageContainers[questionNumber].style.background = 'red';
+                messageContainers[questionNumber].style.color = 'white';
+                messageContainers[questionNumber].innerHTML = "Ikke korrekt";
+                $("#next").addClass("disabled");
+              }
+
+            }
+
+            else {
+              messageContainers[questionNumber].style.background = 'red';
+              messageContainers[questionNumber].style.color = 'white';
+              messageContainers[questionNumber].innerHTML = "Ikke korrekt";
+              $("#next").addClass("disabled");
+            }
+
+
+
+
           }
 
 
+        });
+
+
+      }
+
+      function showResults() {
+        theQuiz.style.display = 'none';
+
+        register.style.display = 'block';
+
+      }
+
+      function showSlide(n) {
+        const answerContainers = quizContainer.querySelectorAll('.message');
+        slides[currentSlide].classList.remove('active-slide');
+        slides[n].classList.add('active-slide');
+        currentSlide = n;
+        if (currentSlide === 0) {
+          $("#next").addClass("disabled");
+          $("#previous").addClass("disabled");
         }
-      });
+        else {
 
-      
-      if (numCorrect === len) {
-        if(currentSlide === slides.length-1){
-            
-            $( "#next" ).addClass( "disabled" );
-            $( "#submit" ).removeClass( "disabled" );
-              
-            }
-            else {
-              $( "#next" ).removeClass( "disabled" );
-        
-              $( "#submit" ).addClass( "disabled" );
-         
-            }
+          $("#previous").removeClass("disabled");
+        }
 
-        messageContainers[questionNumber].innerHTML = "Korrekt";
-  // color the answers green
-  messageContainers[questionNumber].style.background = 'lightgreen';
-  messageContainers[questionNumber].style.color = 'black';
 
+
+
+        if (answerContainers[n].style.background == 'lightgreen') {
+
+          if (currentSlide === slides.length - 1) {
+            $("#next").addClass("disabled");
+
+            $("#submit").removeClass("disabled");
+          }
+          else {
+
+            $("#next").removeClass("disabled");
+            $("#submit").addClass("disabled");
+          }
+        }
+        else {
+          $("#next").addClass("disabled");
+        }
+
+        if (currentSlide === slides.length - 1) {
+          $("#next").addClass("disabled");
+        }
       }
-      else {
 
-        messageContainers[questionNumber].style.background = 'red';
-  messageContainers[questionNumber].style.color = 'white';
-  messageContainers[questionNumber].innerHTML = "Ikke korrekt";
-  $( "#next" ).addClass( "disabled" );
+      function showNextSlide() {
+        showSlide(currentSlide + 1);
       }
 
-}
-
-else {
-    messageContainers[questionNumber].style.background = 'red';
-  messageContainers[questionNumber].style.color = 'white';
-  messageContainers[questionNumber].innerHTML = "Ikke korrekt";
-  $( "#next" ).addClass( "disabled" );
-}
-
-
-
-
+      function showPreviousSlide() {
+        showSlide(currentSlide - 1);
       }
-     
 
-    });
+      // Variables
+      const quizContainer = document.getElementById('quiz');
+      const resultsContainer = document.getElementById('results');
+      const submitButton = document.getElementById('submit');
+      const checkButton = document.getElementById('check');
+      const myQuestions = [
+        {
+          question: "Nævn de to overordnede typer af persontest",
+          cat: "Testformer og valg af test",
+          answers: {
+            a: "Indikatorer og adfærdstest",
+            b: "MBTI og Disc",
+            c: "Kognitiv test og personlighedstest",
+            d: "Bib-test og Rorshach test"
+          },
+          correctAnswers: {
+            one: "c"
+          }
+        },
+        {
+          question: "Hvad er forskellen på en ipsativ og en normativ spørgeramme?",
+          cat: "Testformer og valg af test",
+          answers: {
+            a: "I en ipsativ test sammenligner man personen med sig selv. I en normativ test sammenligner man personen med en normgruppe.",
+            b: "Det er stort set de samme.",
+            c: "En ipsativ test er en færdighedstest og en normativ test sammenligner personens IQ med en normgruppe.",
+            d: "En ipsativ test er en asymmetrisk test og normativ test er en symmetrisk test."
+          },
+          correctAnswers: {
+            one: "a"
+          }
+        },
+        {
+          question: "Hvad er forskellen på en typetest og en træktest?",
+          cat: "Testformer og valg af test",
+          answers: {
+            a: "En typetest beskriver en persons stil og en træktest beskriver en persons etnicitet.",
+            b: "En typetest og en træktest beskriver begge en persons adfærd.",
+            c: "En typetest inddeler personprofiler i prædefinerede kategorier og en træktest beskriver, en persons helt særlige, psykologiske profil.",
+            d: "En typetest og en træktest beskriver begge en persons kognitive færdigheder."
+          },
+          correctAnswers: {
+            one: "c"
+          }
+        },
+        {
+          question: "Hvad bør man overveje ved valg af test?",
+          cat: "Testformer og valg af test",
+          answers: {
+            a: "Personens alder",
+            b: "Hvad testen skal bruges til",
+            c: "Hvad man ønsker et svar på",
+            d: "Hvad den koster",
+            e: "Hvad sprog den er på",
+            f: "Sukker indholdet"
+          },
+          correctAnswers: {
+            one: "a",
+            two: "b",
+            three: "c",
+            four: "d",
+            five: "e"
+          }
+        },
+        {
+          question: "Hvad er en normgruppe?",
+          cat: "Psykometri og testkvalitet",
+          answers: {
+            a: "Normgruppe beskriver de normer der er gældende i den pågældende kultur",
+            b: "Normgruppe beskriver de 100 højeste scorer",
+            c: "Normgruppe beskriver den population der måles op imod, også kaldet en referencegruppe",
+            d: "Normgruppe beskriver gennemsnittet for alle besvarelser"
+          },
+          correctAnswers: {
+            one: "c"
+          }
+        },
+        {
+          question: "Hvad betyder reliabilitet?",
+          cat: "Psykometri og testkvalitet",
+          answers: {
+            a: "Reliabilitet beskriver hvor konsistent en person svarer",
+            b: "Reliabilitet beskriver hvor præcist og pålideligt et resultat er",
+            c: "Reliabilitet beskriver hvor hurtig en person restituerer",
+            d: "Reliabilitet beskriver den samlede mængde personer der har besvaret en test"
+          },
+          correctAnswers: {
+            one: "b"
+          }
+        },
+        {
+          question: "Hvad betyder validitet?",
+          cat: "Psykometri og testkvalitet",
+          answers: {
+            a: "Validitet beskriver hvor pålideligt et resultat er",
+            b: "Validitet beskriver hvor mange der har besvaret testen",
+            c: "Validitet beskriver, om testen måler det, den siger, den måler",
+            d: "Validitet beskriver hvad testen er værd"
+          },
+          correctAnswers: {
+            one: "c"
+          }
+        },
+        {
+          question: "Hvorfor bør man standardisere testadministrationen og indføre en testpolitik?",
+          cat: "Etik og testpolitik",
+          answers: {
+            a: "For at sikre en fair og ensartet behandling af alle",
+            b: "For at spare tid og ressourcer",
+            c: "For at overholde GDPR regler",
+            d: "For at overholde EU's forordning for erhvervsrettede tests"
+          },
+          correctAnswers: {
+            one: "c",
+            two: "a"
+          }
+        },
+        {
+          question: "Hvorfor giver man altid feedback til kandidaten på en Big Five test?",
+          cat: "Etik og testpolitik",
+          answers: {
+            a: "For at få styret sin nysgerrighed",
+            b: "For at sikre at personen har svaret rigtigt",
+            c: "Det siger loven om persondata at man skal",
+            d: "Det kvalificerer datagrundlaget",
+            e: "Det er god etik og anbefalet i de etiske retningslinjer for erhvervsrettet personvurdering."
+          },
+          correctAnswers: {
+            one: "d",
+            two: "e"
+          }
+        },
 
+      ];
 
-  }
+      // Kick things off
+      buildQuiz();
 
-  function showResults(){
-    theQuiz.style.display = 'none';
+      // Pagination
+      const previousButton = document.getElementById("previous");
+      const nextButton = document.getElementById("next");
+      const slides = document.querySelectorAll(".slide");
 
-    register.style.display = 'block';
+      const theQuiz = document.getElementById("theQuiz");
+      const register = document.getElementById("register");
+      let currentSlide = 0;
 
-  }
+      // Show the first slide
+      showSlide(currentSlide);
 
-  function showSlide(n) {
-    const answerContainers = quizContainer.querySelectorAll('.message');
-    slides[currentSlide].classList.remove('active-slide');
-    slides[n].classList.add('active-slide');
-    currentSlide = n;
-    if(currentSlide === 0){
-      $( "#next" ).addClass( "disabled" );
-      $( "#previous" ).addClass( "disabled" );
-    }
-    else{
-      
-      $( "#previous" ).removeClass( "disabled" );
-    }
-     
-
- 
-    
-    if(answerContainers[n].style.background == 'lightgreen')
-    {
-      
-    if(currentSlide === slides.length-1){
-      $( "#next" ).addClass( "disabled" );
-      
-      $( "#submit" ).removeClass( "disabled" );
-    }
-    else {
-      
-      $( "#next" ).removeClass( "disabled" );
-      $( "#submit" ).addClass( "disabled" );
-    }
-    }
-    else {
-      $( "#next" ).addClass( "disabled" );
-    }
-
-    if(currentSlide === slides.length-1){
-      $( "#next" ).addClass( "disabled" );
-    }
-  }
-
-  function showNextSlide() {
-    showSlide(currentSlide + 1);
-  }
-
-  function showPreviousSlide() {
-    showSlide(currentSlide - 1);
-  }
-
-  // Variables
-  const quizContainer = document.getElementById('quiz');
-  const resultsContainer = document.getElementById('results');
-  const submitButton = document.getElementById('submit');
-  const checkButton = document.getElementById('check');
-  const myQuestions = [
-    {
-      question: "Nævn de to overordnede typer af persontest",
-      cat: "Testformer og valg af test",
-      answers: {
-        a: "Indikatorer og adfærdstest",
-        b: "MBTI og Disc",
-        c: "Kognitiv test og personlighedstest",
-        d: "Bib-test og Rorshach test"
-      },
-      correctAnswers: {
-          one: "c"
-      }
-    },
-    {
-      question: "Hvad er forskellen på en ipsativ og en normativ spørgeramme?",
-      cat: "Testformer og valg af test",
-      answers: {
-        a: "I en ipsativ test sammenligner man personen med sig selv. I en normativ test sammenligner man personen med en normgruppe.",
-        b: "Det er stort set de samme.",
-        c: "En ipsativ test er en færdighedstest og en normativ test sammenligner personens IQ med en normgruppe.",
-        d: "En ipsativ test er en asymmetrisk test og normativ test er en symmetrisk test."
-      },
-      correctAnswers: {
-          one: "a"
-      }
-    },
-    {
-      question: "Hvad er forskellen på en typetest og en træktest?",
-      cat: "Testformer og valg af test",
-      answers: {
-        a: "En typetest beskriver en persons stil og en træktest beskriver en persons etnicitet.",
-        b: "En typetest og en træktest beskriver begge en persons adfærd.",
-        c: "En typetest inddeler personprofiler i prædefinerede kategorier og en træktest beskriver, en persons helt særlige, psykologiske profil.",
-        d: "En typetest og en træktest beskriver begge en persons kognitive færdigheder."
-      },
-      correctAnswers: {
-          one: "c"
-      }
-    },
-    {
-      question: "Hvad bør man overveje ved valg af test?",
-      cat: "Testformer og valg af test",
-      answers: {
-        a: "Personens alder",
-        b: "Hvad testen skal bruges til",
-        c: "Hvad man ønsker et svar på",
-        d: "Hvad den koster",
-        e: "Hvad sprog den er på",
-        f: "Sukker indholdet"
-      },
-      correctAnswers: {
-          one: "a",
-          two: "b",
-          three: "c",
-          four: "d",
-          five: "e"
-      }
-    },
-    {
-      question: "Hvad er en normgruppe?",
-      cat: "Psykometri og testkvalitet",
-      answers: {
-        a: "Normgruppe beskriver de normer der er gældende i den pågældende kultur",
-        b: "Normgruppe beskriver de 100 højeste scorer",
-        c: "Normgruppe beskriver den population der måles op imod, også kaldet en referencegruppe",
-        d: "Normgruppe beskriver gennemsnittet for alle besvarelser"
-      },
-      correctAnswers: {
-          one: "c"
-      }
-    },
-    {
-      question: "Hvad betyder reliabilitet?",
-      cat: "Psykometri og testkvalitet",
-      answers: {
-        a: "Reliabilitet beskriver hvor konsistent en person svarer",
-        b: "Reliabilitet beskriver hvor præcist og pålideligt et resultat er",
-        c: "Reliabilitet beskriver hvor hurtig en person restituerer",
-        d: "Reliabilitet beskriver den samlede mængde personer der har besvaret en test"
-      },
-      correctAnswers: {
-          one: "b"
-      }
-    },
-    {
-      question: "Hvad betyder validitet?",
-      cat: "Psykometri og testkvalitet",
-      answers: {
-        a: "Validitet beskriver hvor pålideligt et resultat er",
-        b: "Validitet beskriver hvor mange der har besvaret testen",
-        c: "Validitet beskriver, om testen måler det, den siger, den måler",
-        d: "Validitet beskriver hvad testen er værd"
-      },
-      correctAnswers: {
-          one: "c"
-      }
-    },
-    {
-      question: "Hvorfor bør man standardisere testadministrationen og indføre en testpolitik?",
-      cat: "Etik og testpolitik",
-      answers: {
-        a: "For at sikre en fair og ensartet behandling af alle",
-        b: "For at spare tid og ressourcer",
-        c: "For at overholde GDPR regler",
-        d: "For at overholde EU's forordning for erhvervsrettede tests"
-      },
-      correctAnswers: {
-          one: "c",
-          two: "a"
-      }
-    },
-    {
-      question: "Hvorfor giver man altid feedback til kandidaten på en Big Five test?",
-      cat: "Etik og testpolitik",
-      answers: {
-        a: "For at få styret sin nysgerrighed",
-        b: "For at sikre at personen har svaret rigtigt",
-        c: "Det siger loven om persondata at man skal",
-        d: "Det kvalificerer datagrundlaget",
-        e: "Det er god etik og anbefalet i de etiske retningslinjer for erhvervsrettet personvurdering."
-      },
-      correctAnswers: {
-          one: "d",
-          two: "e"
-      }
-    },
-    
-  ];
-
-  // Kick things off
-  buildQuiz();
-
-  // Pagination
-  const previousButton = document.getElementById("previous");
-  const nextButton = document.getElementById("next");
-  const slides = document.querySelectorAll(".slide");
-
-  const theQuiz = document.getElementById("theQuiz");
-  const register = document.getElementById("register");
-  let currentSlide = 0;
-
-  // Show the first slide
-  showSlide(currentSlide);
-
-  // Event listeners
-  submitButton.addEventListener('click', showResults);
-  previousButton.addEventListener("click", showPreviousSlide);
-  nextButton.addEventListener("click", showNextSlide);
-  checkButton.addEventListener('click', checkAnswer);
-  $( "#next" ).addClass( "disabled" );
-  $( "#submit" ).addClass( "disabled" );
-})();
+      // Event listeners
+      submitButton.addEventListener('click', showResults);
+      previousButton.addEventListener("click", showPreviousSlide);
+      nextButton.addEventListener("click", showNextSlide);
+      checkButton.addEventListener('click', checkAnswer);
+      $("#next").addClass("disabled");
+      $("#submit").addClass("disabled");
+    })();
 
 
 </script>

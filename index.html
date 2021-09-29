@@ -2,16 +2,12 @@
 layout: default
 ---
 
-{% include contact-modal.html %}
-
 
 <script>
     $('.contact-link').on('click', function () {
         $('.navbar-toggler').click();
     });
 </script>
-
-
 
 
  <div class="front-slider">
@@ -22,8 +18,16 @@ layout: default
             <div class="container-fluid">
                 <div class="front-box">
                     <h1>{{ text.title }}</h1>
-                    {{ text.content }}
-
+                    <p>{{ text.content }}</p>
+                    
+                    {% if text.link %}
+                    <button  onclick="location.href='{{ text.link }}';" class="learn-more">
+                        <span class="circle" aria-hidden="true">
+                          <span class="icon arrow"></span>
+                        </span>
+                        <span class="button-text">Se mere</span>
+                      </button>
+                    {% endif %}
                 </div>
             </div>
 
@@ -45,7 +49,7 @@ layout: default
 
 
 
-{% include secments/events.html %}
+{% include sections/events.html %}
 
 
 <div>

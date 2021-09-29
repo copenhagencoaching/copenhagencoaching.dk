@@ -1,9 +1,11 @@
 ---
 layout: default
-title: NÅR VÆRDIER SKABER HVERDAGEN, AFSPEJLES DET I DAGLIGDAGEN
+title: Bliv certificeret i erhvervsrettet testning
 page: frontpage
 order: 2
-image: /images/frontpage/frontpage-5.jpg
+image: /images/frontpage/fp-2.png
+link: /academy/certificering-i-big-five/
 ---
 
-Vi vægter høj faglighed og sætter barren højt for vores produkter og leverancer, og giver samtidig plads til at arbejde med ideer indenfor fællesskabets rammer. I CCC er det vigtigt at værne om den andens værdighed - at se mennesket i mennesket med de forskelligheder der viser sig. Vi skaber med andre ord udvikling i kraft af den menneskelige værdi.
+
+Bliv klædt på til at bruge markedets bedst underbyggede personlighedstest i rekruttering og ledelses- og medarbejderudviklingssammenhæng.

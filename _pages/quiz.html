@@ -4,201 +4,220 @@ layout: default
 ---
 
 <style>
-    .question{
-  font-size: 30px;
-  margin-bottom: 10px;
-}
+  .question {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
 
-.quiz-box {
-  background-color: rgb(230, 230, 230);
-}
+  .quiz-box {
+    background-color: rgb(230, 230, 230);
+  }
 
-.message {
-  padding: 10px;
-}
+  .message {
+    padding: 10px;
+  }
 
-.bg-blue {
-  padding-top: 50px;
-  padding-bottom: 100px;
-}
-
-
-
-.answers {
-  text-align: left;
-  display: inline-block;
-}
-.answers label{
-  display: block;
-  margin-bottom: 10px;
-}
-
-button {
-	background-color: rgb(85, 85, 85);
-	color: #fff;
-	border: 0px;
-	border-radius: 5px;
-	padding: 10px;
-	cursor: pointer;
-}
-button:hover{
-	background-color: rgb(153, 153, 153);
-}
-
-button.disabled {
-  pointer-events: none;
-  opacity: .4;
-}
-
-.slide{
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 100%;
-  z-index: 1;
-  opacity: 0;
-  transition: opacity 0.5s;
-}
-.active-slide{
-  opacity: 1;
-  z-index: 2;
-}
-.quiz-container{
-  position: relative;
-  min-height: 180px;
-  margin-top: 10px;
-}
+  .bg-blue {
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
 
 
+
+  .answers {
+    text-align: left;
+    display: inline-block;
+  }
+
+  .answers label {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  button {
+    background-color: rgb(85, 85, 85);
+    color: #fff;
+    border: 0px;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: rgb(153, 153, 153);
+  }
+
+  button.disabled {
+    pointer-events: none;
+    opacity: .4;
+  }
+
+  .slide {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+
+  .active-slide {
+    opacity: 1;
+    z-index: 2;
+  }
+
+  .quiz-container {
+    position: relative;
+    min-height: 180px;
+    margin-top: 10px;
+  }
 </style>
 
-<div class="bg-blue">
-  <div class="container-fluid extra-narrow-container white pl-0 pr-0">
-    <h1>Gæt en facet øvelse</h1>
-    <p>Herunder finder du 70 ad de i alt 144 udsagn, testtager bliver stillet i spørgeskemaet. Udsagnene knytter sig til én af de 24 facetter (N1, N2, N3, N4, N5, E1, E2…osv.). Læs udsagnet og skriv det rigtige svar. Prøv så vidt muligt ikke at bruge hjælpemidler. Eller støt dig til dokumenter og/eller egne noter i første gang, og forsøg så at besvare spørgeskemaet igen uden dem.
-    </p>
-  </div>
-  <div class="container-fluid extra-narrow-container quiz-box pb-20 pt-20">
-    
-<div class="quiz-container">
-  <div id="quiz"></div>
-</div>
-<div id="results"></div>
-<button id="check">Tjek svar</button>
-<br>
-<br>
-<button id="previous">Forrige spørgsmål</button>
-<button id="next">Næste spørgsmål</button>
-<button id="submit">Vis facitliste</button>
+<div class="bg-dust-blue">
+  <div class="container-fluid pt-5 pb-3">
+    <div class="row">
+      <div class="offset-lg-3 col-md-6 col-12  ">
+        <h1 class="text-white">Gæt en facet øvelse</h1>
+        <p class="text-white">Herunder finder du 70 ad de i alt 144 udsagn, testtager bliver stillet i spørgeskemaet.
+          Udsagnene knytter sig til én af de 24 facetter (N1, N2, N3, N4, N5, E1, E2…osv.). Læs udsagnet og skriv det
+          rigtige svar. Prøv så vidt muligt ikke at bruge hjælpemidler. Eller støt dig til dokumenter og/eller egne
+          noter i første gang, og forsøg så at besvare spørgeskemaet igen uden dem.
+        </p>
+      </div>
+    </div>
 
-</div>
+
+  </div>
+
+  <div class="container-fluid pb-5">
+
+
+    <div class="row">
+      <div class="offset-lg-3 col-md-6 col-12">
+        <div class="bg-platinum p-3">
+          <div class="quiz-container">
+            <div id="quiz"></div>
+          </div>
+          <div id="results"></div>
+          <button id="check">Tjek svar</button>
+          <br>
+          <br>
+          <button id="previous">Forrige spørgsmål</button>
+          <button id="next">Næste spørgsmål</button>
+          <button id="submit">Vis facitliste</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
 </div>
 
 
 <script>
-    (function(){
-  // Functions
-  function buildQuiz(){
-    // variable to store the HTML output
-    const output = [];
-   
-    // for each question...
-    myQuestions.forEach(
-      (currentQuestion, questionNumber) => {
+  (function () {
+    // Functions
+    function buildQuiz() {
+      // variable to store the HTML output
+      const output = [];
 
-        // variable to store the list of possible answers
-        const answers = [];
+      // for each question...
+      myQuestions.forEach(
+        (currentQuestion, questionNumber) => {
 
-        
+          // variable to store the list of possible answers
+          const answers = [];
+
+
 
           // ...add an HTML text input
           answers.push(
             `<label>
-              <input type="text" class="qqq" id="question${questionNumber}" name="question${questionNumber}">
+              <input type="text" class="qqq p-1 fs-5 w-50" id="question${questionNumber}" name="question${questionNumber}">
             </label>`
           );
-        
 
-        // add this question and its answers to the output
-        output.push(
-          `<div class="slide">
-            <p>Spørgsmål ${questionNumber+1}/${myQuestions.length}</p>
-            <div class="question"> <p class="xlarge">${currentQuestion.question} </p></div>
+
+          // add this question and its answers to the output
+          output.push(
+            `<div class="slide">
+            <p class="fs-6 fw-bold">Spørgsmål ${questionNumber + 1}/${myQuestions.length}</p>
+            <div class="question"> <p class="xlarge fs-5">${currentQuestion.question} </p></div>
             <div class="answers"> ${answers.join("")} </div><p class="message"></p>
             
           </div>
          
           `
-        );
-      }
-    );
+          );
+        }
+      );
 
-    // finally combine our output list into one string of HTML and put it on the page
-    quizContainer.innerHTML = output.join('');
-  }
-
-  function checkAnswer(){
-    const answerContainers = quizContainer.querySelectorAll('.question');
-    const messageContainers = quizContainer.querySelectorAll('.message');
-
-    myQuestions.forEach( (currentQuestion, questionNumber) => {
-        
-// find selected answer
-const answerContainer = answerContainers[questionNumber];
-const selector = `input[name=question${questionNumber}]`;
-const userAnswer = quizContainer.querySelectorAll('.qqq');
-const aws = userAnswer[questionNumber].value
-
-
-if(questionNumber === currentSlide) {
-    if(aws === currentQuestion.correctAnswer){
-  // add to the number of correct answers
-  
-  messageContainers[questionNumber].innerHTML = "Korrekt";
-  // color the answers green
-  messageContainers[questionNumber].style.background = 'lightgreen';
-  messageContainers[questionNumber].style.color = 'black';
-
-  if(currentSlide === slides.length-1){
-    $( "#next" ).addClass( "disabled" );
-    $( "#submit" ).removeClass( "disabled" );
-      
+      // finally combine our output list into one string of HTML and put it on the page
+      quizContainer.innerHTML = output.join('');
     }
-    else {
-      $( "#next" ).removeClass( "disabled" );
 
-      $( "#submit" ).addClass( "disabled" );
+    function checkAnswer() {
+      const answerContainers = quizContainer.querySelectorAll('.question');
+      const messageContainers = quizContainer.querySelectorAll('.message');
+
+      myQuestions.forEach((currentQuestion, questionNumber) => {
+
+        // find selected answer
+        const answerContainer = answerContainers[questionNumber];
+        const selector = `input[name=question${questionNumber}]`;
+        const userAnswer = quizContainer.querySelectorAll('.qqq');
+        const aws = userAnswer[questionNumber].value
+
+
+        if (questionNumber === currentSlide) {
+          if (aws === currentQuestion.correctAnswer) {
+            // add to the number of correct answers
+
+            messageContainers[questionNumber].innerHTML = "Korrekt";
+            // color the answers green
+            messageContainers[questionNumber].style.background = 'lightgreen';
+            messageContainers[questionNumber].style.color = 'black';
+
+            if (currentSlide === slides.length - 1) {
+              $("#next").addClass("disabled");
+              $("#submit").removeClass("disabled");
+
+            }
+            else {
+              $("#next").removeClass("disabled");
+
+              $("#submit").addClass("disabled");
+            }
+
+          }
+          // if answer is wrong or blank
+          else {
+            // color the answers red
+            messageContainers[questionNumber].style.background = 'red';
+            messageContainers[questionNumber].style.color = 'white';
+            messageContainers[questionNumber].innerHTML = "Ikke korrekt";
+          }
+        }
+        // if answer is correct
+
+      });
+
     }
-    
-}
-// if answer is wrong or blank
-else{
-  // color the answers red
-  messageContainers[questionNumber].style.background = 'red';
-  messageContainers[questionNumber].style.color = 'white';
-  messageContainers[questionNumber].innerHTML = "Ikke korrekt";
-}
-}
-// if answer is correct
 
-});
+    function showResults() {
+      const output = [];
 
-  }
+      output.push('<table class="center-table">');
 
- function showResults(){
-  const output = [];
 
-  output.push('<table class="center-table">');
-
-  
-  myQuestions.forEach(
-      (currentQuestion, questionNumber) => {
+      myQuestions.forEach(
+        (currentQuestion, questionNumber) => {
 
 
 
-// add this question and its answers to the output
-output.push(
-`<tr>
+          // add this question and its answers to the output
+          output.push(
+            `<tr>
   <td>
   ${currentQuestion.question}
   </td>
@@ -208,463 +227,463 @@ output.push(
 </tr>
 
 `
-);
+          );
 
-      });
+        });
 
       output.push('</table>');
-    // show number of correct answers out of total
-    quizContainer.innerHTML = output.join('');
-    previousButton.style.display = 'none';
-    nextButton.style.display = 'none';
-    checkButton.style.display = 'none';
-    submitButton.style.display = 'none';
+      // show number of correct answers out of total
+      quizContainer.innerHTML = output.join('');
+      previousButton.style.display = 'none';
+      nextButton.style.display = 'none';
+      checkButton.style.display = 'none';
+      submitButton.style.display = 'none';
 
-  } 
-
-  function showSlide(n) {
-    const answerContainers = quizContainer.querySelectorAll('.message');
-    slides[currentSlide].classList.remove('active-slide');
-    slides[n].classList.add('active-slide');
-    currentSlide = n;
-    if(currentSlide === 0){
-    
-      $( "#previous" ).addClass( "disabled" );
-    }
-    else {
-      $( "#previous" ).removeClass( "disabled" );
-    }
-    
-    if(currentSlide === slides.length-1){
-      $( "#next" ).addClass( "disabled" );
-      
-      $( "#submit" ).removeClass( "disabled" );
-    }
-else {
-  $( "#next" ).removeClass( "disabled" );
-      
-      $( "#submit" ).addClass( "disabled" );
-}
-
- 
-    
- /*    if(answerContainers[n].style.background == 'lightgreen')
-    {
-      
-    if(currentSlide === slides.length-1){
-      $( "#next" ).addClass( "disabled" );
-      
-      $( "#submit" ).removeClass( "disabled" );
-    }
-    else {
-      
-      $( "#next" ).removeClass( "disabled" );
-      $( "#submit" ).addClass( "disabled" );
-    }
-    }
-    else {
-      $( "#next" ).addClass( "disabled" );
     }
 
-    if(currentSlide === slides.length-1){
-      $( "#next" ).addClass( "disabled" );
-    } */
+    function showSlide(n) {
+      const answerContainers = quizContainer.querySelectorAll('.message');
+      slides[currentSlide].classList.remove('active-slide');
+      slides[n].classList.add('active-slide');
+      currentSlide = n;
+      if (currentSlide === 0) {
+
+        $("#previous").addClass("disabled");
+      }
+      else {
+        $("#previous").removeClass("disabled");
+      }
+
+      if (currentSlide === slides.length - 1) {
+        $("#next").addClass("disabled");
+
+        $("#submit").removeClass("disabled");
+      }
+      else {
+        $("#next").removeClass("disabled");
+
+        $("#submit").addClass("disabled");
+      }
+
+
+
+      /*    if(answerContainers[n].style.background == 'lightgreen')
+         {
+           
+         if(currentSlide === slides.length-1){
+           $( "#next" ).addClass( "disabled" );
+           
+           $( "#submit" ).removeClass( "disabled" );
+         }
+         else {
+           
+           $( "#next" ).removeClass( "disabled" );
+           $( "#submit" ).addClass( "disabled" );
+         }
+         }
+         else {
+           $( "#next" ).addClass( "disabled" );
+         }
+     
+         if(currentSlide === slides.length-1){
+           $( "#next" ).addClass( "disabled" );
+         } */
 
-    
-  }
 
-  function showNextSlide() {
-    
-    showSlide(currentSlide + 1);
-    
-  }
-
-  function showPreviousSlide() {
-    showSlide(currentSlide - 1);
-   
-  }
-
-  // Variables
-  const quizContainer = document.getElementById('quiz');
-  const resultsContainer = document.getElementById('results');
-  const submitButton = document.getElementById('submit');
-  const checkButton = document.getElementById('check');
-  const myQuestions = [
-    {
-      question: "Accepterer mangler i sit arbejde.",
-
-      correctAnswer: "C1"
-    },
-    {
-      question: "Afviger fra arbejdsplanen ved den mindste undskyldning.",
-
-      correctAnswer: "C4"
-    },
-    {
-      question: "Antallet af nye idéer og anvendelsesmuligheder vi finder på",
-
-      correctAnswer: "O1"
-    },
-    {
-      question: "Anvender omfattende og forskelligartet viden i sit arbejde.",
-
-      correctAnswer: "O2"
-    },
-    {
-      question: "Arbejder gerne alene i lang tid.",
-
-      correctAnswer: "E2"
-    },
-    {
-      question: "Arbejder videre med en opgave uden afbrydelser, indtil den er afsluttet.",
-
-      correctAnswer: "C4"
-    },
-    {
-      question: "Begrænser sig selv til at gøre, hvad han/hun er blevet bedt om.",
-
-      correctAnswer: "C3"
-    },
-    {
-      question: "Begår fejl efter modgang.",
-
-      correctAnswer: "N4"
-    },
-    {
-      question: "Bekymrer sig ikke om ting, som han/hun måske gør forkert.",
-
-      correctAnswer: "N1"
-    },
-    {
-      question: "Bliver hurtigt fornærmet.",
-
-      correctAnswer: "N2"
-    },
-    {
-      question: "Bliver ikke distraheret af omgivelserne, når han/hun udfører en svær opgave.",
-
-      correctAnswer: "C4"
-    },
-    {
-      question: "Bliver let bragt på afveje af andre.",
-
-      correctAnswer: "C4"
-    },
-    {
-      question: "Bliver ved med at tænke over, hvad der gik galt, i lang tid.",
-
-      correctAnswer: "N4"
-    },
-    {
-      question: "Bliver vred når han/hun bliver sagt imod.",
-
-      correctAnswer: "N2"
-    },
-    {
-      question: "Bliver vred når tingene ikke går, som han/hun havde planlagt.",
-
-      correctAnswer: "N2"
-    },
-    {
-      question: "Bryder sig ikke om komplekse problemer.",
-
-      correctAnswer: "O2"
-    },
-    {
-      question: "Deler personlige spørgsmål med kolleger.",
-
-      correctAnswer: "E1"
-    },
-    {
-      question: "Diskuterer ikke meningsforskelle med andre.",
-
-      correctAnswer: "A2"
-    },
-    {
-      question: "Diskuterer meningsforskelle på en forsigtig måde.",
-
-      correctAnswer: "A5"
-    },
-    {
-      question: "Efterlader ikke ting rene og pæne.",
-
-      correctAnswer: "C2"
-    },
-    {
-      question: "Er bange for at gøre noget forkert.",
-
-      correctAnswer: "N1"
-    },
-    {
-      question: "Er ferm og organiseret.",
-
-      correctAnswer: "C2"
-    },
-    {
-      question: "Er fuld af energi.",
-
-      correctAnswer: "E3"
-    },
-    {
-      question: "Er hele tiden i gang med noget.",
-
-      correctAnswer: "E3"
-    },
-    {
-      question: "Er interesseret i andres problemer.",
-
-      correctAnswer: "A1"
-    },
-    {
-      question: "Er kendt for at løse komplekse problemer.",
-
-      correctAnswer: "O2"
-    },
-    {
-      question: "Er overbevist om at han/hun kan klare problemerne.",
-
-      correctAnswer: "N1"
-    },
-    {
-      question: "Er på udkig efter personlig vinding.",
-
-      correctAnswer: "A1"
-    },
-    {
-      question: "Er stille i selskab med andre.",
-
-      correctAnswer: "E2"
-    },
-    {
-      question: "Er straks koncentreret, når han/hun går i gang med en ny opgave.",
-
-      correctAnswer: "C4"
-    },
-    {
-      question: "Er tilbageholdende med at udtrykke sin mening.",
-
-      correctAnswer: "E5"
-    },
-    {
-      question: "Er tilfreds med resultater, der ikke er perfekte.",
-
-      correctAnswer: "C1"
-    },
-    {
-      question: "Er varsom, når en anden person opfører sig på en venlig måde.",
-
-      correctAnswer: "A4"
-    },
-    {
-      question: "Erklærer sig enig med anerkendte eksperter uden større overvejelser.",
-
-      correctAnswer: "O4"
-    },
-    {
-      question: "Fastholder det eksisterende arbejdsmønster.",
-
-      correctAnswer: "O3"
-    },
-    {
-      question: "Finder aldrig på noget nyt.",
-
-      correctAnswer: "O1"
-    },
-    {
-      question: "Finder en løsning på alt.",
-
-      correctAnswer: "N3"
-    },
-    {
-      question: "Finder på koncepter, der går imod den fremherskende mening.",
-
-      correctAnswer: "O4"
-    },
-    {
-      question: "Finder på nye anvendelsesmuligheder for eksisterende produkter.",
-
-      correctAnswer: "O1"
-    },
-    {
-      question: "Finder på originale forretningskoncepter.",
-
-      correctAnswer: "O4"
-    },
-    {
-      question: "Finder regelmæssigt på noget nyt.",
-
-      correctAnswer: "O1"
-    },
-    {
-      question: "Forbliver rolig under personlige angreb.",
-
-      correctAnswer: "N2"
-    },
-    {
-      question: "Forbliver rolig, når ting går galt.",
-
-      correctAnswer: "N2"
-    },
-    {
-      question: "Foretrækker at alt bliver ved det gamle på arbejdet.",
-
-      correctAnswer: "O3"
-    },
-    {
-      question: "Foretrækker at lade andre føre an ved møder.",
-
-      correctAnswer: "E4"
-    },
-    {
-      question: "Foretrækker et roligt tempo.",
-
-      correctAnswer: "E3"
-    },
-    {
-      question: "Foretrækker komplekse problemer frem for simple.",
-
-      correctAnswer: "O2"
-    },
-    {
-      question: "Foretrækker konstante ansvarsområder.",
-
-      correctAnswer: "O3"
-    },
-    {
-      question: "Foretrækker praksis frem for teori.",
-
-      correctAnswer: "O2"
-    },
-    {
-      question: "Forlader en opgave, når en ny opgave dukker op.",
-
-      correctAnswer: "C4"
-    },
-    {
-      question: "Fortsætter, indtil hans/hendes arbejde ikke lader noget tilbage at ønske.",
-
-      correctAnswer: "C1"
-    },
-    {
-      question: "Fremhæver, hvor vigtige hans/hendes egne resultater er.",
-
-      correctAnswer: "A3"
-    },
-    {
-      question: "Føler sig afslappet blandt nye forbindelser.",
-
-      correctAnswer: "N5"
-    },
-    {
-      question: "Føler sig forlegen, når han/hun er i centrum.",
-
-      correctAnswer: "N5"
-    },
-    {
-      question: "Føler sig forlegen, når han/hun får komplimenter.",
-
-      correctAnswer: "A3"
-    },
-    {
-      question: "Føler sjældent at han/hun har svigtet.",
-
-      correctAnswer: "N1"
-    },
-    {
-      question: "Får andre til at finde på nye idéer.",
-
-      correctAnswer: "O1"
-    },
-    {
-      question: "Får nye idéer, mens han/hun arbejder.",
-
-      correctAnswer: "O1"
-    },
-    {
-      question: "Får orden på ting i starten af en ny opgave.",
-
-      correctAnswer: "C2"
-    },
-    {
-      question: "Giver udtryk for sit eget synspunkt vedrørende spørgsmål.",
-
-      correctAnswer: "O4"
-    },
-    {
-      question: "Glemmer vigtige detaljer, når han/hun lægger planer.",
-
-      correctAnswer: "C5"
-    },
-    {
-      question: "Gør sit bedste for at nå sine mål.",
-
-      correctAnswer: "C3"
-    },
-    {
-      question: "Gør uden tøven andre opmærksom på fejl.",
-
-      correctAnswer: "N5"
-    },
-    {
-      question: "Gør, hvad han/hun vil uden at tage hensyn til andre.",
-
-      correctAnswer: "A5"
-    },
-    {
-      question: "Går energisk og beslutsomt i gang med sit arbejde.",
-
-      correctAnswer: "E3"
-    },
-    {
-      question: "Går i gang med en ny opgave uden at have forberedt sig godt.",
-
-      correctAnswer: "C5"
-    },
-    {
-      question: "Går lidenskabeligt efter at være den bedste.",
-
-      correctAnswer: "C3"
-    },
-    {
-      question: "Går ud fra, at andre har gode hensigter.",
-
-      correctAnswer: "A4"
-    },
-    {
-      question: "Går ud fra, at flertallet har ret.",
-
-      correctAnswer: "O4"
-    },
-    {
-      question: "Har brug for bekræftelse fra andre.",
-
-      correctAnswer: "N1"
     }
-  ];
 
-  // Kick things off
-  buildQuiz();
+    function showNextSlide() {
 
-  // Pagination
-  const previousButton = document.getElementById("previous");
-  const nextButton = document.getElementById("next");
-  const slides = document.querySelectorAll(".slide");
-  let currentSlide = 0;
+      showSlide(currentSlide + 1);
 
-  
+    }
 
-  // Show the first slide
-  showSlide(currentSlide);
+    function showPreviousSlide() {
+      showSlide(currentSlide - 1);
 
-  // Event listeners
+    }
 
-  submitButton.addEventListener("click", showResults);
-  previousButton.addEventListener("click", showPreviousSlide);
-  nextButton.addEventListener("click", showNextSlide);
-  checkButton.addEventListener('click', checkAnswer);
- 
-  $( "#submit" ).addClass( "disabled" );
-  
-})();
+    // Variables
+    const quizContainer = document.getElementById('quiz');
+    const resultsContainer = document.getElementById('results');
+    const submitButton = document.getElementById('submit');
+    const checkButton = document.getElementById('check');
+    const myQuestions = [
+      {
+        question: "Accepterer mangler i sit arbejde.",
+
+        correctAnswer: "C1"
+      },
+      {
+        question: "Afviger fra arbejdsplanen ved den mindste undskyldning.",
+
+        correctAnswer: "C4"
+      },
+      {
+        question: "Antallet af nye idéer og anvendelsesmuligheder vi finder på",
+
+        correctAnswer: "O1"
+      },
+      {
+        question: "Anvender omfattende og forskelligartet viden i sit arbejde.",
+
+        correctAnswer: "O2"
+      },
+      {
+        question: "Arbejder gerne alene i lang tid.",
+
+        correctAnswer: "E2"
+      },
+      {
+        question: "Arbejder videre med en opgave uden afbrydelser, indtil den er afsluttet.",
+
+        correctAnswer: "C4"
+      },
+      {
+        question: "Begrænser sig selv til at gøre, hvad han/hun er blevet bedt om.",
+
+        correctAnswer: "C3"
+      },
+      {
+        question: "Begår fejl efter modgang.",
+
+        correctAnswer: "N4"
+      },
+      {
+        question: "Bekymrer sig ikke om ting, som han/hun måske gør forkert.",
+
+        correctAnswer: "N1"
+      },
+      {
+        question: "Bliver hurtigt fornærmet.",
+
+        correctAnswer: "N2"
+      },
+      {
+        question: "Bliver ikke distraheret af omgivelserne, når han/hun udfører en svær opgave.",
+
+        correctAnswer: "C4"
+      },
+      {
+        question: "Bliver let bragt på afveje af andre.",
+
+        correctAnswer: "C4"
+      },
+      {
+        question: "Bliver ved med at tænke over, hvad der gik galt, i lang tid.",
+
+        correctAnswer: "N4"
+      },
+      {
+        question: "Bliver vred når han/hun bliver sagt imod.",
+
+        correctAnswer: "N2"
+      },
+      {
+        question: "Bliver vred når tingene ikke går, som han/hun havde planlagt.",
+
+        correctAnswer: "N2"
+      },
+      {
+        question: "Bryder sig ikke om komplekse problemer.",
+
+        correctAnswer: "O2"
+      },
+      {
+        question: "Deler personlige spørgsmål med kolleger.",
+
+        correctAnswer: "E1"
+      },
+      {
+        question: "Diskuterer ikke meningsforskelle med andre.",
+
+        correctAnswer: "A2"
+      },
+      {
+        question: "Diskuterer meningsforskelle på en forsigtig måde.",
+
+        correctAnswer: "A5"
+      },
+      {
+        question: "Efterlader ikke ting rene og pæne.",
+
+        correctAnswer: "C2"
+      },
+      {
+        question: "Er bange for at gøre noget forkert.",
+
+        correctAnswer: "N1"
+      },
+      {
+        question: "Er ferm og organiseret.",
+
+        correctAnswer: "C2"
+      },
+      {
+        question: "Er fuld af energi.",
+
+        correctAnswer: "E3"
+      },
+      {
+        question: "Er hele tiden i gang med noget.",
+
+        correctAnswer: "E3"
+      },
+      {
+        question: "Er interesseret i andres problemer.",
+
+        correctAnswer: "A1"
+      },
+      {
+        question: "Er kendt for at løse komplekse problemer.",
+
+        correctAnswer: "O2"
+      },
+      {
+        question: "Er overbevist om at han/hun kan klare problemerne.",
+
+        correctAnswer: "N1"
+      },
+      {
+        question: "Er på udkig efter personlig vinding.",
+
+        correctAnswer: "A1"
+      },
+      {
+        question: "Er stille i selskab med andre.",
+
+        correctAnswer: "E2"
+      },
+      {
+        question: "Er straks koncentreret, når han/hun går i gang med en ny opgave.",
+
+        correctAnswer: "C4"
+      },
+      {
+        question: "Er tilbageholdende med at udtrykke sin mening.",
+
+        correctAnswer: "E5"
+      },
+      {
+        question: "Er tilfreds med resultater, der ikke er perfekte.",
+
+        correctAnswer: "C1"
+      },
+      {
+        question: "Er varsom, når en anden person opfører sig på en venlig måde.",
+
+        correctAnswer: "A4"
+      },
+      {
+        question: "Erklærer sig enig med anerkendte eksperter uden større overvejelser.",
+
+        correctAnswer: "O4"
+      },
+      {
+        question: "Fastholder det eksisterende arbejdsmønster.",
+
+        correctAnswer: "O3"
+      },
+      {
+        question: "Finder aldrig på noget nyt.",
+
+        correctAnswer: "O1"
+      },
+      {
+        question: "Finder en løsning på alt.",
+
+        correctAnswer: "N3"
+      },
+      {
+        question: "Finder på koncepter, der går imod den fremherskende mening.",
+
+        correctAnswer: "O4"
+      },
+      {
+        question: "Finder på nye anvendelsesmuligheder for eksisterende produkter.",
+
+        correctAnswer: "O1"
+      },
+      {
+        question: "Finder på originale forretningskoncepter.",
+
+        correctAnswer: "O4"
+      },
+      {
+        question: "Finder regelmæssigt på noget nyt.",
+
+        correctAnswer: "O1"
+      },
+      {
+        question: "Forbliver rolig under personlige angreb.",
+
+        correctAnswer: "N2"
+      },
+      {
+        question: "Forbliver rolig, når ting går galt.",
+
+        correctAnswer: "N2"
+      },
+      {
+        question: "Foretrækker at alt bliver ved det gamle på arbejdet.",
+
+        correctAnswer: "O3"
+      },
+      {
+        question: "Foretrækker at lade andre føre an ved møder.",
+
+        correctAnswer: "E4"
+      },
+      {
+        question: "Foretrækker et roligt tempo.",
+
+        correctAnswer: "E3"
+      },
+      {
+        question: "Foretrækker komplekse problemer frem for simple.",
+
+        correctAnswer: "O2"
+      },
+      {
+        question: "Foretrækker konstante ansvarsområder.",
+
+        correctAnswer: "O3"
+      },
+      {
+        question: "Foretrækker praksis frem for teori.",
+
+        correctAnswer: "O2"
+      },
+      {
+        question: "Forlader en opgave, når en ny opgave dukker op.",
+
+        correctAnswer: "C4"
+      },
+      {
+        question: "Fortsætter, indtil hans/hendes arbejde ikke lader noget tilbage at ønske.",
+
+        correctAnswer: "C1"
+      },
+      {
+        question: "Fremhæver, hvor vigtige hans/hendes egne resultater er.",
+
+        correctAnswer: "A3"
+      },
+      {
+        question: "Føler sig afslappet blandt nye forbindelser.",
+
+        correctAnswer: "N5"
+      },
+      {
+        question: "Føler sig forlegen, når han/hun er i centrum.",
+
+        correctAnswer: "N5"
+      },
+      {
+        question: "Føler sig forlegen, når han/hun får komplimenter.",
+
+        correctAnswer: "A3"
+      },
+      {
+        question: "Føler sjældent at han/hun har svigtet.",
+
+        correctAnswer: "N1"
+      },
+      {
+        question: "Får andre til at finde på nye idéer.",
+
+        correctAnswer: "O1"
+      },
+      {
+        question: "Får nye idéer, mens han/hun arbejder.",
+
+        correctAnswer: "O1"
+      },
+      {
+        question: "Får orden på ting i starten af en ny opgave.",
+
+        correctAnswer: "C2"
+      },
+      {
+        question: "Giver udtryk for sit eget synspunkt vedrørende spørgsmål.",
+
+        correctAnswer: "O4"
+      },
+      {
+        question: "Glemmer vigtige detaljer, når han/hun lægger planer.",
+
+        correctAnswer: "C5"
+      },
+      {
+        question: "Gør sit bedste for at nå sine mål.",
+
+        correctAnswer: "C3"
+      },
+      {
+        question: "Gør uden tøven andre opmærksom på fejl.",
+
+        correctAnswer: "N5"
+      },
+      {
+        question: "Gør, hvad han/hun vil uden at tage hensyn til andre.",
+
+        correctAnswer: "A5"
+      },
+      {
+        question: "Går energisk og beslutsomt i gang med sit arbejde.",
+
+        correctAnswer: "E3"
+      },
+      {
+        question: "Går i gang med en ny opgave uden at have forberedt sig godt.",
+
+        correctAnswer: "C5"
+      },
+      {
+        question: "Går lidenskabeligt efter at være den bedste.",
+
+        correctAnswer: "C3"
+      },
+      {
+        question: "Går ud fra, at andre har gode hensigter.",
+
+        correctAnswer: "A4"
+      },
+      {
+        question: "Går ud fra, at flertallet har ret.",
+
+        correctAnswer: "O4"
+      },
+      {
+        question: "Har brug for bekræftelse fra andre.",
+
+        correctAnswer: "N1"
+      }
+    ];
+
+    // Kick things off
+    buildQuiz();
+
+    // Pagination
+    const previousButton = document.getElementById("previous");
+    const nextButton = document.getElementById("next");
+    const slides = document.querySelectorAll(".slide");
+    let currentSlide = 0;
+
+
+
+    // Show the first slide
+    showSlide(currentSlide);
+
+    // Event listeners
+
+    submitButton.addEventListener("click", showResults);
+    previousButton.addEventListener("click", showPreviousSlide);
+    nextButton.addEventListener("click", showNextSlide);
+    checkButton.addEventListener('click', checkAnswer);
+
+    $("#submit").addClass("disabled");
+
+  })();
 
 </script>

@@ -3,127 +3,151 @@ layout: default
 ---
 
 <!-- group -->
-
-
+<div class="container-fluid mt-5">
+    <div class="row">
+        <div class="offset-lg-2 col-lg-8 col-12">
+            <p><a href="/protrptik-som-behandlingsform-og-ledelsesdisciplin/" class="thin capped"><i
+                        class="fas fa-long-arrow-alt-left"></i> Tilbage til Protreptik som behandlingsform og
+                    ledelsesdisciplin</a></p>
+        </div>
+    </div>
+</div>
 {% if page.group == true %}
-<div class="container-fluid extra-narrow-container">
-    <a href="/protrptik-som-behandlingsform-og-ledelsesdisciplin/" class="thin capped"><i
-            class="fas fa-long-arrow-alt-left"></i> Tilbage til Protreptik som behandlingsform og ledelsesdisciplin</a>
-    <br><br>
-    <p class="thin large capped">Bidragsyder</p>
+<!-- group -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="offset-lg-2 col-lg-8 col-12">
 
-    <h2>{{ page.title }}
-        {% if page.show-v %}
-        <br>v. {% for person in page.persons %}{% if forloop.last %} og {{ person.name }}{% elsif forloop.first %}{{ person.name }}{% else %}, {{
-            person.name }}{% endif %}{% endfor %}
-        {% else %}
-        <br>{{ page.second-title }}
-        {% endif %}
-      
+            <p class="large text-uppercase text-muted">Bidragsyder</p>
+            <h2 class="mb-2">{{ page.title }}</h2>
+            {% if page.show-v %}
+            <p class="fw-bold fs-5">v. {% for person in page.persons %}{% if forloop.last %} og {{ person.name }}{%
+                elsif forloop.first %}{{ person.name }}{% else %}, {{
+                person.name }}{% endif %}{% endfor %}
+                {% else %}
+                <br>{{ page.second-title }}
+            </p>
+            {% endif %}
+            {% if page.bio %}
+            <p>{{ page.bio }}</p>
 
-    </h2>
-    {% if page.bio %}
-                        <p>{{ page.bio }}</p>
-                        
-                        
 
+
+            {% endif %}
+
+            {% if page.video %}
+            <video class="mb-3" id="video" controls="controls" preload="metadata">
+                <source src="{{ page.video }}" type="video/mp4">
+                <track label="Danish" kind="subtitles" srclang="dk" src="{{ page.subtitles }}" default>
+            </video>
+
+            {% endif %}
+
+
+            {% if page.bio-heading %}
+            <h4>{{ page.bio-heading }} {% for person in page.persons %}{% if forloop.last %} og {{ person.name }}{%
+                elsif forloop.first %}{{ person.name }}{% else %}, {{
+                person.name }}{% endif %}{% endfor %}</h4>
+
+            {% endif %}
+            <p>{{ page.content }}</p>
+            {% if page.pdf %}
+            <div class="text-center w-100 mb-4">
+                <a class="dark-border-button btn" target="_blank" href="{{ page.pdf }}">Download gratis
+                    uddrag</a>
+            </div>
+            {% endif %}
+            <hr>
+
+            {% for person in page.persons %}
+            <div class="py-2">
+
+
+                <div class="d-flex align-items-center">
+                    <div class="flex-shrink-0">
+                        <img class="medium-image" src="{{ person.image }}" alt="Mette Mejlhede">
+                    </div>
+                    <div class="flex-grow-1 ms-3">
+                        <h4>{{ person.name }}</h4>
+
+                        <p class="mb-0 fw-bold">{{ person.title }}</p>
+                        {% if person.linkedin %}
+                        <p><a class="large" target="_blank" href="{{ person.linkedin }}"><i
+                                    class="fab fa-linkedin"></i></a>
+                        </p>
                         {% endif %}
 
-                       
-    {% if page.video %}
-    <video id="video" controls="controls" preload="metadata">
-        <source src="{{ page.video }}" type="video/mp4">
-        <track label="Danish" kind="subtitles" srclang="dk" src="{{ page.subtitles }}" default>
-    </video>
-    <br><br>
+                        <p>{{ person.bio }}</p>
+                    </div>
 
-    {% endif %}
-    
-    {% if page.bio-heading %}
-    <h4>{{ page.bio-heading }} {% for person in page.persons %}{% if forloop.last %} og {{ person.name }}{% elsif forloop.first %}{{ person.name }}{% else %}, {{
-        person.name }}{% endif %}{% endfor %}</h4>
-    
-    {% endif %}
-    <p>{{ page.content }}</p>
-    {% if page.pdf %}
-    <a class="border-button-dark h-auto ml-auto mr-auto" target="_blank" href="{{ page.pdf }}">Download gratis uddrag</a>
-    {% endif %}
-    <hr>
-    {% for person in page.persons %}
-    <div class="grid-20-80">
-        <div>
-            <div class="object-fit-full-width h-150">
-                <img src="{{ person.image }}" alt="" class="object-fit">
+                </div>
+
+
+
+            </div>
+            <br>
+            {% endfor %}
+
+            <div class="text-center w-100 mb-4">
+                {% for link in page.links %}
+                <a class="dark-border-button btn mb-3" target="_blank" href="{{ link.url }}">{{ link.text }}</a>
+                <br>
+                {% endfor %}
+            </div>
+
+        </div>
+    </div>
+
+</div>
+<!-- group end -->
+{% else %}
+
+<div class="container-fluid pb-5">
+    <div class="row">
+        <div class="offset-lg-2 col-lg-8 col-12">
+            <p class="large text-uppercase text-muted">Bidragsyder</p>
+            {% for person in page.persons %}
+            <img src="{{ person.image }}" width="150" alt="" class="float-start me-3 mb-3">
+
+            <h2>{{ person.name }}</h2>
+            <p class="xthin">{{ person.title }}</p>
+            <p>{{ person.bio }}</p>
+            {% if page.pdf %}
+            <a class="dark-border-button btn" target="_blank" href="{{ page.pdf }}">Download gratis
+                uddrag</a>
+            {% endif %}
+
+            {% if page.video %}
+
+            <video id="video" controls preload="metadata">
+                <source src="{{ page.video }}" type="video/mp4">
+                <track label="Danish" kind="subtitles" srclang="dk" src="{{ page.subtitles }}" default>
+            </video>
+
+            {% endif %}
+
+            {{ page.content }}
+
+            {% endfor %}
+
+            <div class="text-center w-100 mb-4">
+                {% for link in page.links %}
+                <a class="dark-border-button btn mb-3" target="_blank" href="{{ link.url }}">{{ link.text }}</a>
+                <br>
+                {% endfor %}
             </div>
         </div>
-        <div class="p-20 pt-0">
-
-            <h4>{{ person.name }}</h4>
-
-            <p class="xthin mb-0">{{ person.title }}
-                {% if person.linkedin %}<br><a class="large" target="_blank" href="{{ person.linkedin }}"><i class="fab fa-linkedin"></i></a>{% endif %}</p>
-            
-            <p>{{ person.bio }}</p>
-        </div>
     </div>
-    <br>
-    {% endfor %}
-
-    {% for link in page.links %}
-    <a class="border-button-dark h-auto" target="_blank" href="{{ link.url }}">{{ link.text }}</a>
-    <br>
-    {% endfor %}
 </div>
 
-{% else %}
-<!-- group end -->
-<div class="container-fluid extra-narrow-container">
-    <a href="/protrptik-som-behandlingsform-og-ledelsesdisciplin/" class="thin capped"><i
-            class="fas fa-long-arrow-alt-left"></i> Tilbage til Protreptik som behandlingsform og ledelsesdisciplin</a>
-    <br><br>
-    <p class="thin large capped">Bidragsyder</p>
-
-    {% for person in page.persons %}
-    <div class="w-150p h-150 float-left mr-20 mb-10">
-
-        <img src="{{ person.image }}" alt="" class="object-fit">
-    </div>
-
-
-    <h2>{{ person.name }}</h2>
-    <p class="xthin">{{ person.title }}</p>
-    <p>{{ person.bio }}</p>
-    {% if page.pdf %}
-    <a class="border-button-dark h-auto ml-0 w-100" target="_blank" href="{{ page.pdf }}">Download gratis uddrag</a>
-    {% endif %}
-    
-    {% if page.video %}
-    <br>
-    <video id="video" controls preload="metadata">
-        <source src="{{ page.video }}" type="video/mp4">
-        <track label="Danish" kind="subtitles" srclang="dk" src="{{ page.subtitles }}" default>
-    </video>
-    <br><br>
-    {% endif %}
-    
-    <div class="align-justify">
-
-        {{ page.content }}
-    </div>
-    <br>
-
-
-    {% endfor %}
-    {% for link in page.links %}
-    <a class="border-button-dark h-auto" target="_blank" href="{{ link.url }}">{{ link.text }}</a>
-    <br>
-    {% endfor %}
-
-</div>
 {% endif %}
 
 
 
+
+
+
+
 {% if page.signup %}
-{% include chapter.html %}
+{% include sections/chapter.html %}
 {% endif %}

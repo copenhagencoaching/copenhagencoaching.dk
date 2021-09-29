@@ -1,10 +1,22 @@
 ---
-layout: page
+layout: default
 ---
 
+<div class="container-fluid my-5">
+    <div class="row">
+        <div class="offset-lg-3 col-lg-6 col-12">
+            <div class="w-100 text-center">
+                <img src="{{ page.portrait-image }}" class="large-image rounded-circle" alt="Billede af {{ page.title }}, {{ employee.description}}">
+                <p class="fs-5"><i class="fas fa-phone fs-5"></i> <a data-proofer-ignore href="tel:+45{{ page.call }}">{{ page.call }}</a> </p>
+                   <p class="fs-5"><i class="fas fa-envelope fs-5"></i> <a data-proofer-ignore href="mailto:{{ page.email }}">{{ page.email }}</a>
+                    </p>
+               <p><a data-proofer-ignore href="{{ page.linkedin }}" target="_blank"><i class="fab fa-linkedin fs-2"></i></a></p>
+            </div>
+        </div>
+    </div>
+</div>
 <div class="employee-overview">
-    <h1>Mød teamet</h1>
-    <a href="/about/">⟵ Tilbage</a>
+    <a href="/about/">⟵ Tilbage til Om os</a>
 </div>
 
 <section class="individual-employee">

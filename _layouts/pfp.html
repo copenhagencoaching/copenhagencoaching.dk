@@ -2,6 +2,9 @@
 layout: default
 ---
 
+
+  
+
 <div
     style="background: linear-gradient(rgba(19, 19, 19, 0.6), rgba(19, 19, 19, 0.6)), url('{{ page.image }}'); background-size: cover; background-position: center;">
     <div class="container-fluid text-center py-5">
@@ -48,7 +51,7 @@ layout: default
 
                 <a class="nav-item nav-link" id="nav-10-tab" data-toggle="tab" href="#nav-10" role="tab"
                     aria-controls="nav-10" aria-selected="false">Infomøde</a>
-                <a class="nav-item nav-link" href="#pfp" data-toggle="modal" data-target="#pfp-modal">Ansøg</a>
+                <a class="nav-item nav-link" href="/tilmelding/?n={{ page.title }}">Ansøg</a>
 
             </div>
         </div>
@@ -144,7 +147,7 @@ layout: default
 
 
 
-        {% include secments/pfp-tilmelding.html %}
+        {% include sections/pfp-tilmelding.html %}
 
 
     </div>
@@ -153,7 +156,7 @@ layout: default
     <div class="tab-pane fade tab-2" id="nav-2" role="tabpanel" aria-labelledby="nav-2-tab">
 
 
-        {% include pfp-moduls.html %}
+        {% include pfp/pfp-moduls.html %}
 
     </div>
 
@@ -505,13 +508,6 @@ layout: default
 
 
 
-
-
-
-
-
-
-
 </div>
 
 
@@ -660,7 +656,7 @@ layout: default
                             <div>
                                 <h4 class="text-white text-center">Interesseret i andre uddannelser?</h4>
                                 <br>
-                                <b><a class="btn-dust-green text-center btn mt-0 mx-auto" href="/academy/">Se mere <i
+                                <b><a class="btn-dust-green text-center text-white btn mt-0 mx-auto" href="/academy/">Se mere <i
                                             class="fas fa-arrow-right"></i></a></b>
                             </div>
                         </div>
@@ -674,11 +670,11 @@ layout: default
         </div>
     </div>
 
-
+    {% endif %}
+    {% endfor %}
 </div>
 
-{% endif %}
-{% endfor %}
+
 
 
 
@@ -723,11 +719,11 @@ layout: default
 
 
 
-{% include secments/vision.html %}
+{% include sections/vision.html %}
 
 
 <div class="bg-deep-taupe">
-    {% include secments/newsletter.html %}
+    {% include sections/newsletter.html %}
 </div>
 
 

@@ -1,5 +1,5 @@
 ---
-title: Morten Randlov
+title: Morten Randløv
 work: Centerchef, Ungecentret, Skanderborgvej, Aarhus Kommune
 image: /images/advisory-board/morten-randloev-grey.png
 linkedin: https://www.linkedin.com/in/morten-randl%C3%B8v-97772a44/
