@@ -4,6 +4,6 @@ title: Tag en Master of business coaching
 page: frontpage
 link: /academy/master-of-business-coaching/
 order: 1
-image: /images/frontpage/frontpage-4.jpg
+image: /images/frontpage/fp-3.png
 ---
-Copenhagen Coaching Center skaber betingelserne og rammen for din personlige og faglige udvikling – du vil opleve en styrket ledelseskapacitet, en klarere indsigt i dit værdigrundlag og et nærvær til dig selv og din omverden. Vi tilbyder dig et kompetenceløft, en ny metodisk praksis og et fagligt stærkt forum.
+Ønsker du at blive dygtig til at føre produktive og virkningsfulde dialoger? At kunne flytte både grupper og individer i en mere konstruktiv retning og derved forebygge stress, organisatorisk stagnation og udbrændthed? Så vælg uddannelsen Master of Business Coaching.

@@ -1,9 +1,9 @@
 ---
 layout: default
-title: VI TILBYDER ET EKSKLUSIVT UDVALG AF UDDANNELSER, KURSER OG KONSULENTYDELSER
+title: Bliv en del af fællesskabet
 page: frontpage
 order: 3
-image: /images/frontpage/frontpage-6.jpg
+image: /images/frontpage/fp-5.png
+link: /community/
 ---
-
-CCC er et ledelsesfilosofisk epicenter med fire forretningsområder. Vi tilbyder individuel coaching, ledelsessupervision, lederuddannelser og konsulentopgaver. Vores fokus er dygtiggørelse af medarbejdere og ledere, som ønsker at udvikle deres dialogiske færdigheder, refleksive kompetencer og ledelsesmæssige kapacitet.
+Meld dig ind i CCC Community. Som medlem får du gratis adgang til en lang række gå-hjem møder og arrangementer hos os, samt eksklusive nyhedsbreve, CCC udgivelser og rabat på udvalgte kurser.

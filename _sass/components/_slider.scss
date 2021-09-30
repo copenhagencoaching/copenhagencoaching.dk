@@ -21,8 +21,20 @@
 }
 
 .slick-next { 
-    right: 15px !important;
+    right: 50px !important;
+    &::before {
+        color: rgba(255, 255, 255, 0.678) !important;
+    }
+    
 }
+
+.slick-prev { 
+    left: 50px !important;
+    &::before {
+        color: rgba(255, 255, 255, 0.678) !important;
+    }
+}
+
 
 .partner-slider {
    

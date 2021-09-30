@@ -1,5 +1,6 @@
 .card {
     border: 0 !important;
+    background-color: transparent !important;
     .card-title {
         text-transform: uppercase;
     }
@@ -9,6 +10,9 @@
             height: 200px;
             width: 100%;
         }
+    }
+    .card-body {
+        background-color: transparent !important;
     }
 }
 

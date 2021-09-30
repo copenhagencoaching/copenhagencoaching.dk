@@ -2,17 +2,23 @@
 layout: default
 ---
 
-<div
-    style="background: linear-gradient(rgba(19, 19, 19, 0.6), rgba(19, 19, 19, 0.6)), url('{{ page.image }}'); background-size: cover; background-position: center;">
+<div class="pt-5"
+  style="background: linear-gradient(rgba(19, 19, 19, 0.6), rgba(19, 19, 19, 0.6)), url('{{ page.image }}'); background-size: cover; background-position: center;">
+  <div class="py-5">
     <div class="py-5">
-        <div class="container-fluid text-center py-5">
-            <h1 class="text-white mb-3">{{ page.title }}</h1>
+      <div class="container-fluid text-center py-5">
+        <h1 class="text-white mb-1">{{ page.title }}</h1>
+        <div class="row">
+          <div class="offset-lg-3 col-lg-6 col-12">
             <hr class="white w-50 mx-auto">
-            <p class="w-75 mx-auto text-white fs-5">{{ page.description }}</p>
+            <p class="w-5 mx-auto text-white">{{ page.description }}</p>
+          </div>
         </div>
+      </div>
     </div>
-
+  </div>
 </div>
+
 <div class="bg-platinum">
     <div class="container-fluid py-5">
         <div class="row gy-3 gx-5">
@@ -47,7 +53,7 @@ layout: default
 
 
 <div class="container-fluid py-5 overflow-hidden">
-    <div class="row">
+    <div class="row gy-3">
         <div class="col-12 col-lg-8 pe-5">
             {{ page.content }}
         </div>

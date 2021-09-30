@@ -10,6 +10,7 @@ tags:
 - foredrag
 layout: event
 only-month: false
+past: true
 price: 950,-
 billetto: true
 billetto-nr: 524607

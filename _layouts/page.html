@@ -4,23 +4,27 @@ layout: default
 
 <div
   style="background: linear-gradient(rgba(19, 19, 19, 0.6), rgba(19, 19, 19, 0.6)), url('{{ page.image }}'); background-size: cover; background-position: center;">
-  <div class="py-5">
-    <div class="container-fluid text-center py-5">
-        <h1 class="text-white">{{ page.title }}</h1>
-        
-       
-        
-      <div class="row">
-        <div class="col-12 offset-lg-3 col-lg-6 offset-md-2 col-md-8">
-          <hr class="white">
-          {% if page.sub-header %}	
-          <p class="text-white lead mb-2"><b>{{ page.sub-header }}</b></p>	
-          {% else %}
-          {% if page.teaser %}<p class="text-white">{{ page.teaser }}</p>{% else %}<p class="text-white">{{ page.description }}</p> {% endif %}
-        {% endif %}
+  <div class="pt-5">
+    <div class="pt-5">
+      <div class="py-5">
+        <div class="container-fluid text-center py-5">
+          <h1 class="text-white">{{ page.title }}</h1>
+
+
+
+          <div class="row">
+            <div class="col-12 offset-lg-3 col-lg-6 offset-md-2 col-md-8">
+              <hr class="white">
+              {% if page.sub-header %}
+              <p class="text-white lead mb-2"><b>{{ page.sub-header }}</b></p>
+              {% else %}
+              {% if page.teaser %}<p class="text-white">{{ page.teaser }}</p>{% else %}<p class="text-white">{{
+                page.description }}</p> {% endif %}
+              {% endif %}
+            </div>
+          </div>
         </div>
       </div>
-
     </div>
   </div>
 
@@ -28,5 +32,5 @@ layout: default
 
 
 <div class="page">
-    {{ content }}
+  {{ content }}
 </div>

@@ -2,31 +2,29 @@
 layout: default
 ---
 
-
 <script>
     $('.contact-link').on('click', function () {
         $('.navbar-toggler').click();
     });
 </script>
 
-
- <div class="front-slider">
+<div class="front-slider">
     {% for text in site.texts %}
     {% if text.page == "frontpage" %}
     <div class="big-header">
-        <div class="inner-front" style="background-image: url('{{ text.image }}');">
-            <div class="container-fluid">
+        <div class="inner-front pt-5" style="background-image: url('{{ text.image }}');">
+            <div class="container-fluid py-5">
                 <div class="front-box">
                     <h1>{{ text.title }}</h1>
                     <p>{{ text.content }}</p>
-                    
+
                     {% if text.link %}
-                    <button  onclick="location.href='{{ text.link }}';" class="learn-more">
+                    <button onclick="location.href='{{ text.link }}';" class="learn-more">
                         <span class="circle" aria-hidden="true">
-                          <span class="icon arrow"></span>
+                            <span class="icon arrow"></span>
                         </span>
                         <span class="button-text">Se mere</span>
-                      </button>
+                    </button>
                     {% endif %}
                 </div>
             </div>
@@ -38,24 +36,56 @@ layout: default
 
     {% endif %}
     {% endfor %}
-</div> 
+</div>
+
+
+
+<div class="container-fluid py-5">
+    <div class="row">
+        <div class="offset-lg-2 col-lg-8 col-12">
+            <div class="row gx-5">
+                <div class="col-lg-6 col-12">
+                    <h3 class="text-uppercase">Vi tilbyder et eksklusivt udvalg af uddannelser, kurser og konsulentydelser</h3>
+                    <p>CCC er et ledelsesfilosofisk epicenter med fire forretningsområder. Vi tilbyder individuel
+                        coaching, ledelsessupervision, lederuddannelser og konsulentopgaver. Vores fokus er
+                        dygtiggørelse af medarbejdere og ledere, som ønsker at udvikle deres dialogiske færdigheder,
+                        refleksive kompetencer og ledelsesmæssige kapacitet.</p>
+                        <button onclick="location.href='/academy/';" class="learn-more mt-4">
+                            <span class="circle" aria-hidden="true">
+                                <span class="icon arrow"></span>
+                            </span>
+                            <span class="button-text">Se mere</span>
+                        </button>
+
+                </div>
+                <div class="col-lg-6 col-12">
+                    <h3 class="text-uppercase">Når værdier skaber hverdagen, afspejles det i dagligdagen</h3>
+                    <p>Copenhagen Coaching Center skaber betingelserne og rammen for din personlige og faglige udvikling
+                        – du vil opleve en styrket ledelseskapacitet, en klarere indsigt i dit værdigrundlag og et
+                        nærvær til dig selv og din omverden. Vi tilbyder dig et kompetenceløft, en ny metodisk praksis
+                        og et fagligt stærkt forum.</p>
+                        <p>Vi vægter høj faglighed og sætter barren højt for vores produkter og leverancer, og giver samtidig plads til at arbejde med ideer indenfor fællesskabets rammer. I CCC er det vigtigt at værne om den andens værdighed - at se mennesket i mennesket med de forskelligheder der viser sig. Vi skaber med andre ord udvikling i kraft af den menneskelige værdi.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
 
 
 
 
+<div class="bg-platinum pt-5">
+    {% include sections/events.html %}
+</div>
 
 
-
-
-
-
-{% include sections/events.html %}
 
 
 <div>
 
 
-<!-- 
+    <!-- 
     <div class="section frontpage grid-1">
       
                 <div class="container-fluid extra-narrow-container">

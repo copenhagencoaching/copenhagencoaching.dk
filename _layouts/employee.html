@@ -3,35 +3,73 @@ layout: default
 ---
 
 <div class="container-fluid my-5">
-    <div class="row">
-        <div class="offset-lg-3 col-lg-6 col-12 position-relative">
-            
-                <img src="{{ page.portrait-image }}" class="large-image rounded-circle" alt="Billede af {{ page.title }}, {{ employee.description}}">
-                <div class="bg-platinum position-absolute top-0 start-50 p-5">
-                    <p class="fs-5"><i class="fas fa-phone fs-5"></i> <a data-proofer-ignore href="tel:+45{{ page.call }}">{{ page.call }}</a> </p>
-                    <p class="fs-5"><i class="fas fa-envelope fs-5"></i> <a data-proofer-ignore href="mailto:{{ page.email }}">{{ page.email }}</a>
-                     </p>
-                <p><a data-proofer-ignore href="{{ page.linkedin }}" target="_blank"><i class="fab fa-linkedin fs-2"></i></a></p>
+    <div class="row pt-5">
+        <div class="offset-xl-3 col-xl-6 col-12 pt-5">
+
+            <div class="row gy-4">
+                <div class="col-sm-6 col-12 text-end text-xl-start">
+                    <img src="{{ page.portrait-image }}" class="img-fluid rounded-circle"
+                        alt="Billede af {{ page.title }}, {{ employee.description}}">
                 </div>
-              
-            
+                <div class="col-sm-6 col-12 d-flex align-items-center">
+                    <div>
+                        <h2 class="mb-1">{{ page.title }}</h2>
+                        <p class="mb-3">{{ page.description }}</p>
+
+                        <p class="fs-6"><a data-proofer-ignore class="d-flex align-items-center"
+                                href="tel:+45{{ page.call }}"><i class="fas dust-blue fa-phone fs-4 pe-3"></i> {{
+                                page.call
+                                }}</a> </p>
+
+                        <p class="fs-6"><a data-proofer-ignore class="d-flex align-items-center"
+                                href="mailto:{{ page.email }}"><i class="fas dust-blue fa-envelope fs-4 pe-3"></i> {{
+                                page.email
+                                }}</a> </p>
+
+
+                        <a data-proofer-ignore href="{{ page.linkedin }}" target="_blank"><img width="100"
+                                src="/images/graphic/LI-Logo.png" alt=""></a>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
         </div>
     </div>
 </div>
-<div class="employee-overview">
-    <a href="/about/">⟵ Tilbage til Om os</a>
-</div>
 
-<section class="individual-employee">
-    <div class="wrapper">
-        <img src="{{ page.portrait-image }}" alt="Billede af {{ page.title }}, {{ employee.description}}">
-        <span>
-            <h1>{{ page.title }}</h1>
-            <h2>{{ page.description }}</h2>
-            <p>{{ page.content }}</p>
-            <a data-proofer-ignore class="info-link" href="tel:+45{{ page.call }}">{{ page.call }}</a>
-            <a data-proofer-ignore class="info-link" href="mailto:{{ page.email }}">{{ page.email }}</a>
-            <a data-proofer-ignore class="info-link" href="{{ page.linkedin }}" target="_blank">LinkedIn</a>
-        </span>
+<div class="bg-platinum">
+
+    <div class="container-fluid py-5">
+        <div class="row">
+            <div class="offset-xl-3 col-xl-6 col-12">
+
+                {{ page.content }}
+
+                <a class='animated-arrow' href='/about/'>
+                    <span class='the-arrow -left rotated'>
+                        <span class='shaft'></span>
+                    </span>
+                    <span class='main'>
+                        <span class='text'>
+                            <p class="pt-4">
+                                Tilbage til Om os
+                            </p>
+                        </span>
+                        <span class='the-arrow -right rotated'>
+                            <span class='shaft'></span>
+                        </span>
+                    </span>
+                </a>
+            </div>
+        </div>
     </div>
-</section>
+</div>

@@ -74,3 +74,18 @@
   .row-striped {
       padding: 15px 0;
   }
+
+
+  // navbar
+
+  .navbar {
+    -webkit-transition: background-color 300ms linear;
+    -ms-transition: background-color 300ms linear;
+    transition: background-color 300ms linear;
+
+    .nav-item, .navi-icon {
+        color: white;
+        
+    }
+  }
+
