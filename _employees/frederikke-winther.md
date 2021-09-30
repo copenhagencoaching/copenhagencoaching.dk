@@ -10,7 +10,7 @@ edu:
 - Ph.d., Cand. Mag i retorik fra Københavns Universitet
 - Master i Business Coaching
 email: fw@copenhagencoaching.dk
-description: Konsulent
+description: Seniorkonsulent
 linkedin: https://www.linkedin.com/in/frederikke-winther-206b5450/
 data-id: ''
 

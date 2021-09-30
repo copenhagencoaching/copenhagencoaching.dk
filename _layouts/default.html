@@ -417,6 +417,13 @@
               $(".navi-icon").css("color", "#707070");
       }
 
+      else if (window.location.href.indexOf("tilmelding") > -1) {
+        $(".navbar").css({ "background-color": "white", "box-shadow": "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px" });
+              $(".nav-item").css("color", "#707070");
+              $(".logo").attr("src", "/images/logo/ccc-logo-new.png");
+              $(".navi-icon").css("color", "#707070");
+      }
+
       else {
         $(document).ready(function () {
           $(window).scroll(function () {

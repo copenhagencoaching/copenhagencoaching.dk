@@ -1,5 +1,27 @@
 // pallets
 
+.nav-tabs.gray-pallette {
+    border: none;
+    justify-items: center;
+    justify-content: center;
+    column-gap: 5px;
+    display: flex;
+
+    .nav-link.active {
+        background-color: #A5ABAF;
+        border: none;
+        color: #444444 !important;
+    }
+    .nav-link {
+        background-color: #B1C5CA;
+        border-radius: 0;
+        color: #444444 !important;
+        @media (max-width: 1199.98px) {
+            margin-bottom: 5px;
+        }
+    }
+}
+
 // fade-pallette
 
 .nav-tabs.fade-pallette {
