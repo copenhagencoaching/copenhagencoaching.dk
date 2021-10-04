@@ -43,10 +43,10 @@ permalink: /tilmelding/
       }
 
       if (params.n == "Certificering i Big Five") {
-        
+
       }
       else {
-        
+
         document.getElementsByClassName("bfc-box")[0].remove();
       }
 
@@ -56,299 +56,322 @@ permalink: /tilmelding/
 </script>
 
 
+<div class="bg-black-coral">
+  <div class="container-fluid py-5">
+    <div class="row pt-5">
+      <div class="offset-lg-3 col-lg-6 col-12 pt-5">
+        <div class="default">
+          <h2 class="udd text-white"></h2>
 
-<div class="container-fluid my-5 mt-5">
-  <div class="row pt-5">
-    <div class="offset-lg-3 col-lg-6 col-12 pt-5">
+          <p class="text-white">Når du tilmelder dig en uddannelse via tilmeldingsformularen, ender din tilmelding i en
+            sikret emailboks,
+            som
+            kun én medarbejder i CCC har adgang til. Derefter gemmes din data i vores kundedatabase som også er en
+            sikker
+            database efter de nye GDPR regler.
 
-      <div class="default">
-        <h2 class="udd"></h2>
+            Vi bruger, efter din tilmelding, dine kontaktoplysninger til at tage kontakt til dig, ang. din tilmelding,
+            og
+            din faktureringsdata til at sende dig en faktura.
 
-        <p>Når du tilmelder dig en uddannelse via tilmeldingsformularen, ender din tilmelding i en sikret emailboks, som
-          kun én medarbejder i CCC har adgang til. Derefter gemmes din data i vores kundedatabase som også er en sikker
-          database efter de nye GDPR regler.
+            Ved at tilmelde dig en uddannelse siger du ikke ja til at modtage nyhedsmails eller andet materiale fra os.
+          </p>
+        </div>
 
-          Vi bruger, efter din tilmelding, dine kontaktoplysninger til at tage kontakt til dig, ang. din tilmelding, og
-          din faktureringsdata til at sende dig en faktura.
+        <div class="mbc">
+          <h2 class="text-white">Tilmelding til Master of Business Coaching</h2>
 
-          Ved at tilmelde dig en uddannelse siger du ikke ja til at modtage nyhedsmails eller andet materiale fra os.
-        </p>
+          <p class="text-white">Hvis du har spørgsmål omkring uddannelsen, din ansøgning eller andet er du velkommen til
+            at ringe
+            til Frederikke Winther på
+
+            <a href="tel:21 19 47 57">21 19 47 57</a> – eller sende os en sms om, hvornår det passer dig at
+            blive ringet
+            op. Du kan også altid skrive til <a href="mailto:info@copenhagencoaching.dk">info@copenhagencoaching.dk</a>
+            for mere info.
+
+
+
+            Vi glæder os til at høre fra dig.
+          </p>
+
+
+
+        </div>
+
+        <div class="pfp">
+          <h2 class="text-white">Ansøgning til Psykologisk filosofisk psykoterapi</h2>
+          <p class="text-white">Hvis du har spørgsmål omkring uddannelsen, din ansøgning eller andet er du velkommen til
+            at ringe til Mette
+            Mejlhede på
+
+            <a href="tel:24 27 28 71">24 27 28 71</a> – eller sende os en sms om, hvornår det passer dig at blive ringet
+            op. Du kan også altid skrive til <a href="mailto:info@copenhagencoaching.dk">info@copenhagencoaching.dk</a>
+            for mere info.
+
+            Din ansøgning nedenfor er ikke bindende. Din optagelse vil udover nedenstående oplysninger, også bero på en
+            personlig samtale.
+
+            Vi glæder os til at høre fra dig.
+          </p>
+
+          <p class="text-white">Første hold starter den 11. november. 2021.
+          </p>
+        </div>
       </div>
-
-      <div class="mbc">
-        <h2>Tilmelding til Master of Business Coaching</h2>
-
-        <p>Hvis du har spørgsmål omkring uddannelsen, din ansøgning eller andet er du velkommen til at ringe
-          til Frederikke Winther på
-
-          <a href="tel:21 19 47 57">21 19 47 57</a> – eller sende os en sms om, hvornår det passer dig at
-          blive ringet
-          op. Du kan også altid skrive til <a href="mailto:info@copenhagencoaching.dk">info@copenhagencoaching.dk</a>
-          for mere info.
-
-
-
-          Vi glæder os til at høre fra dig.
-        </p>
-
-
-         
-      </div>
-
-      <div class="pfp">
-        <h2>Ansøgning til Psykologisk filosofisk psykoterapi</h2>
-        <p>Hvis du har spørgsmål omkring uddannelsen, din ansøgning eller andet er du velkommen til at ringe til Mette
-          Mejlhede på
-
-          <a href="tel:24 27 28 71">24 27 28 71</a> – eller sende os en sms om, hvornår det passer dig at blive ringet
-          op. Du kan også altid skrive til <a href="mailto:info@copenhagencoaching.dk">info@copenhagencoaching.dk</a>
-          for mere info.
-
-          Din ansøgning nedenfor er ikke bindende. Din optagelse vil udover nedenstående oplysninger, også bero på en
-          personlig samtale.
-
-          Vi glæder os til at høre fra dig.
-        </p>
-
-        <p>Første hold starter den 11. november. 2021.
-        </p>
-      </div>
-
-
-      <form action="https://formspree.io/f/mzbyzbyg" method="POST" enctype="multipart/form-data">
-        <div class="mbc-box">
-          <select class="form-select udd mbc-hold mb-3" id="mbc-hold" name="mbc-hold">
-            <option value="hold">Vælg hold</option>
-            {% for edu in site.educations %}
-
-            {% if edu.title == "Master of Business Coaching" %}
-            {% for h in edu.hold %}
-            <option value="{{ h }}">{{ h }}</option>
-            {% endfor %}
-            {% endif %}
-            {% endfor %}
-
-
-          </select>
-        </div>
-
-        <div class="bfc-box">
-          <select class="form-select udd mbc-hold mb-3" id="mbc-hold" name="mbc-hold">
-            <option value="hold">Vælg hold</option>
-            {% for edu in site.educations %}
-
-            {% if edu.title == "Certificering i Big Five" %}
-            {% for h in edu.hold %}
-            <option value="{{ h }}">{{ h }}</option>
-            {% endfor %}
-            {% endif %}
-            {% endfor %}
-
-
-          </select>
-        </div>
-        <input type="hidden" name="uddannelse" class="hidden-input" value="" />
-        <input type="text" class="form-control mb-3" name="FNAME" placeholder="Fornavn*" required>
-        <input type="text" class="form-control mb-3" name="LNAME" placeholder="Efternavn*" required>
-        <input type="text" class="form-control mb-3" name="virksomhed" placeholder="Virksomhed">
-        <label><b>Hvem skal betale?</b></label>
-        <div class="form-check">
-          <input class="form-check-input checkbox privat" type="radio"
-            id="privat-{{ page.title | truncatewords: 5, '' }}" name="betaling" value="privat" checked>
-          <label class="form-check-label" for="privat-{{ page.title | truncatewords: 5, '' }}">
-            Privat
-          </label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input checkbox virksomhed" type="radio"
-            id="virksomhed-{{ page.title | truncatewords: 5, '' }}" value="virksomhed" name="betaling">
-          <label class="form-check-label mb-3" for="virksomhed-{{ page.title | truncatewords: 5, '' }}">
-            Virksomhed
-          </label>
-        </div>
-        <div class="virksomhed-box">
-        </div>
-        <input type="text" class="form-control mb-4" name="adress" placeholder="Fakturerings adresse*" required>
-        <div class="input-group mb-4">
-          <input type="text" class="form-control me-3" name="zip-code" placeholder="Postnummer*" required>
-          <input type="text" class="form-control" name="town" placeholder="By*">
-        </div>
-        <input type="tel" class="mb-4 form-control" name="arb-tlf" pattern="[0-9]{8}" placeholder="Arb. tlf.*" required>
-        <input type="tel" class="mb-4 form-control" name="mobile" pattern="[0-9]{8}" placeholder="Mobil">
-        <input type="email" class="mb-4 form-control" name="email" placeholder="E-mail*" required>
-
-        <div class="mb-4">
-          <label for="comment" class="form-label">Evt. kommentarer</label>
-          <textarea class="form-control" name="besked" id="comment-{{ page.title | truncatewords: 5, '' }}"
-            rows="3"></textarea>
-        </div>
-        <div class="pfp-boxes">
-          <div class="mb-4">
-            <label for="baggrund" class="form-label"><b>Uddannelsesmæssig baggrund:</b><br>
-              <i>Skriv venligst dine formelle uddannelser</i></label>
-            <textarea class="form-control" name="uddannelses-baggrund"
-              id="baggrund-{{ page.title | truncatewords: 5, '' }}" rows="3"></textarea>
-          </div>
-
-          <div class="mb-4">
-            <label for="kurser" class="form-label"><b>Relevante kurser og efteruddannelser:</b><br>
-              <i>Herunder registrerede alternative uddannelser</i></label>
-            <textarea class="form-control" name="relevante-kurser" id="kurser" rows="3"></textarea>
-          </div>
-
-          <div class="mb-4">
-            <label for="liv" class="form-label"><b>Relevant livs- og erhvervserfaring:</b><br>
-              <i>Enhver form for arbejde med menneskelig kontakt og ansvar for andre mennesker. f.eks. ledelse, HR,
-                tillidsehverv, ansvarlig for lærlinge/elever. Frivilligt socialt arbejde spejderleder, fodboldtræner
-                eller
-                lignende.
-              </i></label>
-            <textarea class="form-control" name="livs-erhvervserfaring" id="liv" rows="3"></textarea>
-          </div>
-
-          <label class="form-label mb-1"><b>Egen-terapi</b></label>
-          <div class="form-check">
-            <input class="form-check-input" value="ja" name="egen-terapi" type="radio" id="ja-egenterapi">
-            <label class="form-check-label" for="ja-egenterapi">
-              Ja
-            </label>
-          </div>
-
-          <div class="form-check mb-4">
-            <input class="form-check-input" value="nej" name="egen-terapi" type="radio" id="nej-egenterapi">
-            <label class="form-check-label" for="nej-egenterapi">
-              Nej
-            </label>
-          </div>
-
-          <label class="form-label mb-1"><b>Terapigrupper</b></label>
-          <div class="form-check">
-            <input class="form-check-input" value="ja" name="terapigrupper" type="radio" id="ja-terapigrupper">
-            <label class="form-check-label" for="ja-terapigrupper">
-              Ja
-            </label>
-          </div>
-
-          <div class="form-check mb-4">
-            <input class="form-check-input" value="nej" name="terapigrupper" type="radio" id="nej-terapigrupper">
-            <label class="form-check-label" for="nej-terapigrupper">
-              Nej
-            </label>
-          </div>
-
-          <div class="mb-4">
-            <label for="motivation" class="form-label"><b>Personlig motivation for at søge optagelse:</b></label>
-            <textarea class="form-control" name="motivation" id="motivation" rows="3"></textarea>
-          </div>
-
-          <label class="form-label mb-1"><b>Jeg søger optagelse via:</b></label>
-          <p class="mb-1"><a href="/pfp/adgangskrav/" target="_blank" class="small mb-0">Læs om kvoter og adgangskrav
-              her</a></p>
-          <div class="form-check">
-            <input class="form-check-input" value="§1" name="kvote" type="radio" id="kvote1">
-            <label class="form-check-label" for="kvote1">
-              §1
-            </label>
-          </div>
-          <div class="form-check">
-            <input class="form-check-input" value="§2" name="kvote" type="radio" id="kvote2">
-            <label class="form-check-label" for="kvote2">
-              §2
-            </label>
-          </div>
-
-          <div class="form-check mb-4">
-            <input class="form-check-input" value="§3" name="kvote" type="radio" id="kvote3">
-            <label class="form-check-label" for="kvote3">
-              §3
-            </label>
-          </div>
-
-
-          <label class="form-label mb-0"><b>Merit</b></label>
-          <p class="small muted mb-1">Jeg søger meritoverførsel fra anden tilsvarende psykoterapeutuddannelse</p>
-          <div class="form-check">
-            <input class="form-check-input" value="ja" name="merit" type="radio" id="ja-merit">
-            <label class="form-check-label" for="ja-merit">
-              Ja
-            </label>
-          </div>
-
-          <div class="form-check mb-4">
-            <input class="form-check-input" value="nej" name="merit" type="radio" id="nej-merit">
-            <label class="form-check-label" for="nej-merit">
-              Nej
-            </label>
-          </div>
-
-        </div>
-
-        <label class="mb-1" for="file">
-          <b>Vedhæft relevante dokumenter</b></label>
-        <p class="small muted mb-1">Vælg op til 10 filer</p>
-        <input id="file" class="form-control mb-4" type="file" name="upload"
-          accept=".doc,.docx,.pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document" multiple>
-
-        <labe class="form-label"><b>Hvor har du hørt om os?:</b><br> </label>
-
-          <div class="form-check mb-1">
-            <input class="form-check-input" name="kilde" type="checkbox" id="google" value="google">
-            <label class="form-check-label" for="google">
-              Google
-            </label>
-          </div>
-          <div class="form-check mb-1">
-            <input class="form-check-input" name="kilde" type="checkbox" id="Facebook" value="Facebook">
-            <label class="form-check-label" for="Facebook">
-              Facebook
-            </label>
-          </div>
-          <div class="form-check mb-1">
-            <input class="form-check-input" name="kilde" type="checkbox" id="Instagram" value="Instagram">
-            <label class="form-check-label" for="Instagram">
-              Instagram
-            </label>
-          </div>
-          <div class="form-check mb-1">
-            <input class="form-check-input" name="kilde" type="checkbox" id="LinkedIn" value="LinkedIn">
-            <label class="form-check-label" for="LinkedIn">
-              LinkedIn
-            </label>
-          </div>
-          <div class="form-check mb-1">
-            <input class="form-check-input" name="kilde" type="checkbox" id="anbefaling" value="anbefaling">
-            <label class="form-check-label" for="anbefaling">
-              Anbefaling fra andre
-            </label>
-          </div>
-          <div class="form-check mb-4">
-            <input class="form-check-input" name="kilde" type="checkbox" id="Andet" value="Andet">
-            <label class="form-check-label" for="Andet">
-              Andet
-            </label>
-          </div>
-
-          <div class="form-check mb-4">
-            <input class="form-check-input" name="_optin" type="checkbox" id="newsletter">
-            <label class="form-check-label" for="newsletter">
-              Ja tak, jeg vil gerne modtage CCC's nyhedsbrev.
-            </label>
-          </div>
-
-          <label class="form-check-label"><b>Samtykkeerklæring*</b></label>
-          <div class="form-check mb-0">
-            <input class="form-check-input" name="samtykke" type="checkbox" id="samtykke">
-            <label class="form-check-label" for="samtykke">
-              <p class="small mb-0">Jeg giver samtykke til, at CCC må bruge mine oplysninger til at behandle min
-                ansøgning. Derudover giver jeg samtykke til, at CCC opbevarer og behandler mine persondata som er
-                beskrevet i <a target="_blank" href="/privatlivspolitik/">CCC's privatlivspolitik</a>.</p>
-            </label>
-          </div>
-
-
-          <button class=" w-100 btn-dust-green btn mb-3" type="submit">Ansøg</button>
-
-      </form>
     </div>
   </div>
+</div>
+<div class="bg-platinum">
+  <div class="container-fluid py-5">
+    <div class="row">
+      <div class="offset-lg-3 col-lg-6 col-12">
+
+        <div class="bg-white p-5 rounded border-opal">
+
+          <form action="https://formspree.io/f/mzbyzbyg" method="POST" enctype="multipart/form-data">
+            <div class="mbc-box">
+              <select class="form-select udd mbc-hold mb-3" id="mbc-hold" name="mbc-hold">
+                <option value="hold">Vælg hold</option>
+                {% for edu in site.educations %}
+
+                {% if edu.title == "Master of Business Coaching" %}
+                {% for h in edu.hold %}
+                <option value="{{ h }}">{{ h }}</option>
+                {% endfor %}
+                {% endif %}
+                {% endfor %}
+
+
+              </select>
+            </div>
+
+            <div class="bfc-box">
+              <select class="form-select udd mbc-hold mb-3" id="mbc-hold" name="mbc-hold">
+                <option value="hold">Vælg hold</option>
+                {% for edu in site.educations %}
+
+                {% if edu.title == "Certificering i Big Five" %}
+                {% for h in edu.hold %}
+                <option value="{{ h }}">{{ h }}</option>
+                {% endfor %}
+                {% endif %}
+                {% endfor %}
+
+
+              </select>
+            </div>
+            <input type="hidden" name="uddannelse" class="hidden-input" value="" />
+            <input type="text" class="form-control mb-3" name="FNAME" placeholder="Fornavn*" required>
+            <input type="text" class="form-control mb-3" name="LNAME" placeholder="Efternavn*" required>
+            <input type="text" class="form-control mb-3" name="virksomhed" placeholder="Virksomhed">
+            <label><b>Hvem skal betale?</b></label>
+            <div class="form-check">
+              <input class="form-check-input checkbox privat" type="radio"
+                id="privat-{{ page.title | truncatewords: 5, '' }}" name="betaling" value="privat" checked>
+              <label class="form-check-label" for="privat-{{ page.title | truncatewords: 5, '' }}">
+                Privat
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input checkbox virksomhed" type="radio"
+                id="virksomhed-{{ page.title | truncatewords: 5, '' }}" value="virksomhed" name="betaling">
+              <label class="form-check-label mb-3" for="virksomhed-{{ page.title | truncatewords: 5, '' }}">
+                Virksomhed
+              </label>
+            </div>
+            <div class="virksomhed-box">
+            </div>
+            <input type="text" class="form-control mb-4" name="adress" placeholder="Fakturerings adresse*" required>
+            <div class="input-group mb-4">
+              <input type="text" class="form-control me-3" name="zip-code" placeholder="Postnummer*" required>
+              <input type="text" class="form-control" name="town" placeholder="By*">
+            </div>
+            <input type="tel" class="mb-4 form-control" name="arb-tlf" pattern="[0-9]{8}" placeholder="Arb. tlf.*"
+              required>
+            <input type="tel" class="mb-4 form-control" name="mobile" pattern="[0-9]{8}" placeholder="Mobil">
+            <input type="email" class="mb-4 form-control" name="email" placeholder="E-mail*" required>
+
+            <div class="mb-4">
+              <label for="comment" class="form-label">Evt. kommentarer</label>
+              <textarea class="form-control" name="besked" id="comment-{{ page.title | truncatewords: 5, '' }}"
+                rows="3"></textarea>
+            </div>
+            <div class="pfp-boxes">
+              <div class="mb-4">
+                <label for="baggrund" class="form-label"><b>Uddannelsesmæssig baggrund:</b><br>
+                  <i>Skriv venligst dine formelle uddannelser</i></label>
+                <textarea class="form-control" name="uddannelses-baggrund"
+                  id="baggrund-{{ page.title | truncatewords: 5, '' }}" rows="3"></textarea>
+              </div>
+
+              <div class="mb-4">
+                <label for="kurser" class="form-label"><b>Relevante kurser og efteruddannelser:</b><br>
+                  <i>Herunder registrerede alternative uddannelser</i></label>
+                <textarea class="form-control" name="relevante-kurser" id="kurser" rows="3"></textarea>
+              </div>
+
+              <div class="mb-4">
+                <label for="liv" class="form-label"><b>Relevant livs- og erhvervserfaring:</b><br>
+                  <i>Enhver form for arbejde med menneskelig kontakt og ansvar for andre mennesker. f.eks. ledelse, HR,
+                    tillidsehverv, ansvarlig for lærlinge/elever. Frivilligt socialt arbejde spejderleder, fodboldtræner
+                    eller
+                    lignende.
+                  </i></label>
+                <textarea class="form-control" name="livs-erhvervserfaring" id="liv" rows="3"></textarea>
+              </div>
+
+              <label class="form-label mb-1"><b>Egen-terapi</b></label>
+              <div class="form-check">
+                <input class="form-check-input" value="ja" name="egen-terapi" type="radio" id="ja-egenterapi">
+                <label class="form-check-label" for="ja-egenterapi">
+                  Ja
+                </label>
+              </div>
+
+              <div class="form-check mb-4">
+                <input class="form-check-input" value="nej" name="egen-terapi" type="radio" id="nej-egenterapi">
+                <label class="form-check-label" for="nej-egenterapi">
+                  Nej
+                </label>
+              </div>
+
+              <label class="form-label mb-1"><b>Terapigrupper</b></label>
+              <div class="form-check">
+                <input class="form-check-input" value="ja" name="terapigrupper" type="radio" id="ja-terapigrupper">
+                <label class="form-check-label" for="ja-terapigrupper">
+                  Ja
+                </label>
+              </div>
+
+              <div class="form-check mb-4">
+                <input class="form-check-input" value="nej" name="terapigrupper" type="radio" id="nej-terapigrupper">
+                <label class="form-check-label" for="nej-terapigrupper">
+                  Nej
+                </label>
+              </div>
+
+              <div class="mb-4">
+                <label for="motivation" class="form-label"><b>Personlig motivation for at søge optagelse:</b></label>
+                <textarea class="form-control" name="motivation" id="motivation" rows="3"></textarea>
+              </div>
+
+              <label class="form-label mb-1"><b>Jeg søger optagelse via:</b></label>
+              <p class="mb-1"><a href="/pfp/adgangskrav/" target="_blank" class="small mb-0">Læs om kvoter og
+                  adgangskrav
+                  her</a></p>
+              <div class="form-check">
+                <input class="form-check-input" value="§1" name="kvote" type="radio" id="kvote1">
+                <label class="form-check-label" for="kvote1">
+                  §1
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" value="§2" name="kvote" type="radio" id="kvote2">
+                <label class="form-check-label" for="kvote2">
+                  §2
+                </label>
+              </div>
+
+              <div class="form-check mb-4">
+                <input class="form-check-input" value="§3" name="kvote" type="radio" id="kvote3">
+                <label class="form-check-label" for="kvote3">
+                  §3
+                </label>
+              </div>
+
+
+              <label class="form-label mb-0"><b>Merit</b></label>
+              <p class="small muted mb-1">Jeg søger meritoverførsel fra anden tilsvarende psykoterapeutuddannelse</p>
+              <div class="form-check">
+                <input class="form-check-input" value="ja" name="merit" type="radio" id="ja-merit">
+                <label class="form-check-label" for="ja-merit">
+                  Ja
+                </label>
+              </div>
+
+              <div class="form-check mb-4">
+                <input class="form-check-input" value="nej" name="merit" type="radio" id="nej-merit">
+                <label class="form-check-label" for="nej-merit">
+                  Nej
+                </label>
+              </div>
+
+            </div>
+
+            <label class="mb-1" for="file">
+              <b>Vedhæft relevante dokumenter</b></label>
+            <p class="small muted mb-1">Vælg op til 10 filer</p>
+            <input id="file" class="form-control mb-4" type="file" name="upload"
+              accept=".doc,.docx,.pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+              multiple>
+
+            <labe class="form-label"><b>Hvor har du hørt om os?:</b><br> </label>
+
+              <div class="form-check mb-1">
+                <input class="form-check-input" name="kilde" type="checkbox" id="google" value="google">
+                <label class="form-check-label" for="google">
+                  Google
+                </label>
+              </div>
+              <div class="form-check mb-1">
+                <input class="form-check-input" name="kilde" type="checkbox" id="Facebook" value="Facebook">
+                <label class="form-check-label" for="Facebook">
+                  Facebook
+                </label>
+              </div>
+              <div class="form-check mb-1">
+                <input class="form-check-input" name="kilde" type="checkbox" id="Instagram" value="Instagram">
+                <label class="form-check-label" for="Instagram">
+                  Instagram
+                </label>
+              </div>
+              <div class="form-check mb-1">
+                <input class="form-check-input" name="kilde" type="checkbox" id="LinkedIn" value="LinkedIn">
+                <label class="form-check-label" for="LinkedIn">
+                  LinkedIn
+                </label>
+              </div>
+              <div class="form-check mb-1">
+                <input class="form-check-input" name="kilde" type="checkbox" id="anbefaling" value="anbefaling">
+                <label class="form-check-label" for="anbefaling">
+                  Anbefaling fra andre
+                </label>
+              </div>
+              <div class="form-check mb-4">
+                <input class="form-check-input" name="kilde" type="checkbox" id="Andet" value="Andet">
+                <label class="form-check-label" for="Andet">
+                  Andet
+                </label>
+              </div>
+
+              <div class="form-check mb-4">
+                <input class="form-check-input" name="_optin" type="checkbox" id="newsletter">
+                <label class="form-check-label" for="newsletter">
+                  Ja tak, jeg vil gerne modtage CCC's nyhedsbrev.
+                </label>
+              </div>
+
+              <label class="form-check-label"><b>Samtykkeerklæring*</b></label>
+              <div class="form-check mb-0">
+                <input class="form-check-input" name="samtykke" type="checkbox" id="samtykke">
+                <label class="form-check-label" for="samtykke">
+                  <p class="small mb-0">Jeg giver samtykke til, at CCC må bruge mine oplysninger til at behandle min
+                    ansøgning. Derudover giver jeg samtykke til, at CCC opbevarer og behandler mine persondata som er
+                    beskrevet i <a target="_blank" href="/privatlivspolitik/">CCC's privatlivspolitik</a>.</p>
+                </label>
+              </div>
+
+
+              <button class=" w-100 btn-spanish-gray text-white btn mb-3" type="submit">Ansøg</button>
+
+          </form>
+        </div>
+
+
+      </div>
+    </div>
+  
+
+</div>
 </div>

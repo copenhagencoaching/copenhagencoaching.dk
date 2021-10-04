@@ -30,25 +30,11 @@ cat:
 - procesledelse
 ---
 
-### Du vil kunne mestre den sunde og veldesignede proces der giver jeres arbejde retning og mening. Du vil kunne samle organisationen og inspirere til den gode idé, eller den ekstra indsats
-{:.opacity-7}
+#### Du vil kunne mestre den sunde og veldesignede proces der giver jeres arbejde retning og mening. Du vil kunne samle organisationen og inspirere til den gode idé, eller den ekstra indsats
+{:.opacity-2}
 <br>
 
 #### HVORFOR SKAL DU VÆLGE PROCESLEDERUDDANNELSEN?
 
 Den høje grad af uforudsigelighed, samt krav om konstant forandringer, omorganiseringer, økonomiske udfordringer m.v. skaber behov for professionel procesledelse. Ønsker om medinddragelse og samskabelse som en del af virksomhedens kultur, drift og udvikling kalder ligeledes på et højt niveau af procesledelse. God procesledelse kræver evner til at styre, rumme og stimulere menneskelig og faglig mangfoldighed i retning af fælles udvikling og mål.
 
-#### HVAD FÅR DU UD AF UDDANNELSEN?
-
-**Med proceslederuddannelsen bliver du bedre til:**
-- at styre, designe og lede processer · at have personlig opmærksomhed på håndtering af vanskeligheder i processer
-- at anvende innovative og kreative redskaber i processer
-- at anvende forskellige pragmatiske perspektiver på processer
-- at håndtere frustrationer i organisationer
-- at producere nye handlemuligheder
-- at skabe og sikre følgeskab.
-
-**DU FÅR DESUDEN:**
-- Adgang til vidensportal, værktøjer, faglitteratur, artikler og cases
-- Løbende supervision og et stærkt netværk
-- Big Five Personlighedstest med individuel tilbagemelding

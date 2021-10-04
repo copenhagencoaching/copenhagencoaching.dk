@@ -8,6 +8,7 @@ description: Bliv certificeret til at bruge markedets bedst underbyggede personl
   og lær at anvende den ved gruppesammensætning, rekruttering og processer.
 price: 19.500,- EKSKL. MOMS
 event-title: Kommende hold
+layout: big-five
 hold:
 - BFC-21 Efterår - start 25. oktober
 location: Al undervisning foregår online på Zoom. 5 online sessioner á 2-5 timers varighed.

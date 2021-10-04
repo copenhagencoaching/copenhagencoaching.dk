@@ -9,3 +9,16 @@
         
     }
 }
+
+.table-green-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #F2FAF5;
+}
+
+.table-green-striped-2>tbody>tr:nth-of-type(odd) {
+    background-color: #F8FDF9;
+}
+
+.table-blue-striped>tbody>tr:nth-of-type(odd) {
+    background-color: $gainsboro;
+}
+

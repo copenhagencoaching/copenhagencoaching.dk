@@ -1,336 +1,323 @@
 ---
 layout: default
 ---
-<div class="full-banner grid-1 align-items-center align-content-center"
-    style="background: linear-gradient(rgba(19, 19, 19, 0.6), rgba(19, 19, 19, 0.6)), url('{{ page.image }}'); background-position: center; background-size: cover;">
-    <div class="container-fluid extra-narrow-container white">
-        <div>
-            <h1 class="h1-l">{{ page.header }}</h1>
-            <hr class="half-margin">
+<div class="pt-5"
+    style="background: linear-gradient(rgba(19, 19, 19, 0.6), rgba(19, 19, 19, 0.6)), url('{{ page.image }}'); background-size: cover; background-position: center;">
+    <div class="container-fluid text-center py-5">
+        <div class="pt-5">
+            <div class="row py-5 gy-5">
+                <div class="offset-md-2 col-12 col-md-8">
+                    <h1 class="text-white mb-3">{{ page.title }}</h1>
+                    <hr class="white w-50 responsive mx-auto">
 
-            {% if page.sub-header %}
-            <h3>{{ page.sub-header }}</h3>
-            {% endif %}
-            {% if page.teaser %}<p class="large">{{ page.teaser }}</p>{% else %}<p class="large">{{ page.description }}
-            </p> {% endif %}
-            <br>
-            <span class="large bg-black-coral p-10 white">Interesseret i at høre mere om vores online muligheder?</span>
-            <br><br>
-            <br>
-            <a class="cinereous-btn large thin" data-proofer-ignore href="#big-five" data-toggle="modal"
-                data-target="#bf-modal">Hør mere</a>
+                    <a class="btn-black-coral text-white btn" data-proofer-ignore href="#plu-c-modal"
+                        data-toggle="modal" data-target="#plu-c-modal">Hør mere</a>
+                    <br>
 
+                    <a class="btn-slate-gray text-white btn" data-proofer-ignore href="#plu-pdf-modal"
+                        data-toggle="modal" data-target="#plu-pdf-modal">Hent brochure</a>
+                    <br>
+                </div>
+            </div>
         </div>
-
 
     </div>
 </div>
 
 
 
-<div class="container-fluid extra-narrow-container pt-30 no-down">
 
-
-    <div>
-        <div class="nav nav-tabs blu-brown-pallette" id="nav-tab" role="tablist">
-            <a class="nav-item nav-link active" id="nav-1-tab" data-toggle="tab" href="#nav-1" role="tab"
-                aria-controls="nav-coaching" aria-selected="false">Overblik</a>
-            <a class="nav-item nav-link" id="nav-2-tab" data-toggle="tab" href="#nav-2" role="tab" aria-controls="nav-2"
-                aria-selected="false">Opbygning</a>
-            <a class="nav-item nav-link" id="nav-3-tab" data-toggle="tab" href="#nav-3" role="tab" aria-controls="nav-3"
-                aria-selected="false">Deltagerprofil</a>
-            <a class="nav-item nav-link" id="nav-4-tab" data-toggle="tab" href="#nav-4" role="tab" aria-controls="nav-4"
-                aria-selected="false">Anbefalinger</a>
-            <a class="nav-item nav-link" id="nav-5-tab" data-toggle="tab" href="#nav-5" role="tab" aria-controls="nav-5"
-                aria-selected="false">Undervisere</a>
-            <a class="nav-item nav-link" id="nav-6-tab" data-toggle="tab" href="#nav-6" role="tab" aria-controls="nav-6"
-                aria-selected="false">Praktisk</a>
-            <a class="nav-item nav-link" id="nav-7-tab" data-toggle="tab" href="#nav-7" role="tab" aria-controls="nav-7"
-                aria-selected="false">FAQ</a>
-            <a class="nav-item nav-link open_modal" href="#ansøgning" data-toggle="modal" data-id="hold"
-                data-target="#mbc-application-modal">Ansøg</a>
+<div class="container-fluid text-center py-3">
+    <div class="row">
+        <div class="offset-lg-2 col-12 col-lg-8">
+            <div class="nav nav-tabs gray-pallette my-4" id="nav-tab" role="tablist">
+                <a class="nav-item nav-link active" id="nav-1-tab" data-toggle="tab" href="#nav-1" role="tab"
+                    aria-controls="nav-coaching" aria-selected="false">Overblik</a>
+                <a class="nav-item nav-link" id="nav-2-tab" data-toggle="tab" href="#nav-2" role="tab"
+                    aria-controls="nav-2" aria-selected="false">Opbygning</a>
+                <a class="nav-item nav-link" id="nav-3-tab" data-toggle="tab" href="#nav-3" role="tab"
+                    aria-controls="nav-3" aria-selected="false">Deltagerprofil</a>
+                <a class="nav-item nav-link" id="nav-4-tab" data-toggle="tab" href="#nav-4" role="tab"
+                    aria-controls="nav-4" aria-selected="false">Anbefalinger</a>
+                <a class="nav-item nav-link" id="nav-5-tab" data-toggle="tab" href="#nav-5" role="tab"
+                    aria-controls="nav-5" aria-selected="false">Undervisere</a>
+                <a class="nav-item nav-link" id="nav-6-tab" data-toggle="tab" href="#nav-6" role="tab"
+                    aria-controls="nav-6" aria-selected="false">Praktisk</a>
+                <a class="nav-item nav-link" id="nav-7-tab" data-toggle="tab" href="#nav-7" role="tab"
+                    aria-controls="nav-7" aria-selected="false">FAQ</a>
+                <a class="nav-item nav-link open_modal" href="#ansøgning" data-toggle="modal" data-id="hold"
+                    data-target="#mbc-application-modal">Ansøg</a>
+            </div>
         </div>
     </div>
 </div>
 <div class="tab-content" id="nav-tabContent">
 
     <div class="tab-pane fade show active" id="nav-1" role="tabpanel" aria-labelledby="nav-1-tab">
-
-        <div class="container-fluid medium-narrow-container pt-20 pb-50">
-            <div class="grid-30-65 r-gap-20">
-                <div class="h-300">
-                    <img src="/images/mbc/image--003.jpg" alt="" class="object-fit">
-
-                </div>
-                <div>
-                    <h2>Ønsker du at blive dygtig til at føre produktive og virkningsfulde dialoger?</h2>
-                    <p>At kunne flytte både grupper og individer i en mere konstruktiv retning og derved forebygge
-                        stress, organisatorisk stagnation og udbrændthed? Så vælg uddannelsen: Master of Business
-                        Coaching (MBC).</p>
-                    <p>Med en Master of Business Coaching får du en af landets bedste coachinguddannelser, hvor du både
-                        kan foretage traditionelle coachingsamtaler og den filosofiske samtale.</p>
+        <div class="container-fluid pb-3">
+            <div class="row">
+                <div class="offset-lg-2 col-12 col-lg-8">
+                    <div class="row">
+                        <div class="col-6 h-100">
+                            <img src="/images/mbc/image--003.jpg" alt="" class="object-fit">
+                        </div>
+                        <div class="col-6">
+                            <h2>Ønsker du at blive dygtig til at føre produktive og virkningsfulde dialoger?</h2>
+                            <p>At kunne flytte både grupper og individer i en mere konstruktiv retning og derved
+                                forebygge
+                                stress, organisatorisk stagnation og udbrændthed? Så vælg uddannelsen: Master of
+                                Business
+                                Coaching (MBC).</p>
+                            <p>Med en Master of Business Coaching får du en af landets bedste coachinguddannelser, hvor
+                                du både
+                                kan foretage traditionelle coachingsamtaler og den filosofiske samtale.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-       
-            <div class="container-fluid medium-narrow-container white only-for-bot pt-50 pb-75">
 
-                <h2 class="align-center">Kursus oversigt</h2><br><br>
-                <div class="grid-1 r-gap-5">
-                    {% for semester in page.semesters %}
-                    <div>
-
-                        <a class="bg-black-coral semester-heading collapsed" data-toggle="collapse"
-                            href="#hold{{ forloop.index}}" role="button" aria-expanded="false" aria-controls="">
-                            <div class="grid-1 bg-black-coral p-20 gap-20 r-gap-10 p-left-60">
-                                <div>
-                                    <p class="mb-0 large"><b>Hold:</b> {{ semester.title }}</p>
-                                </div>
-
-                                <div>
-                                    <p class="mb-0 faded"><b>Pris:</b> {{ semester.price }}</p>
-                                </div>
-
+        <div class="container-fluid pt-4">
+            <div class="row">
+                <div class="offset-lg-2 col-12 col-lg-8">
+                    <div class="bg-deep-taupe px-5 py-4">
+                        <div class="row">
+                            <div class="col-6 d-flex align-items-center">
+                                <h2 class="text-white mb-0">
+                                    Kursus oversigt
+                                </h2>
                             </div>
-                        </a>
-                        <div class="bg-black-coral collapse" id="hold{{ forloop.index}}">
-
-                            <div class="switching-list">
-                                {% for date in semester.dates %}
-                                <div class="grid-1 p-20 list-item">
-                                    <div>
-                                        <p class="mb-0"><b>Dato:</b> {{ date.title }}</p>
-                                    </div>
-                                    <div>
-                                        <p class="mb-0"><b>Dag:</b> {{ date.dag }}</p>
-                                    </div>
-                                    <div>
-                                        <p class="mb-0"><b>Tid:</b> {{ date.time }}</p>
-
-                                    </div>
-                                    <div>
-                                        <p class="mb-0"><b>Modul:</b> {{ date.modul }}</p>
-                                    </div>
-                                    <div>
-                                        <p class="mb-0"><b>Sted:</b> {{ date.sted }}</p>
-                                    </div>
-                                </div>
-
-
-
-
-                                {% endfor %}
-
+                            <div class="col-2 d-flex align-items-center">
+                                <p class="text-white mb-0"><b>Pris ekskl. moms</b><br>45.900,-</p>
+                            </div>
+                            <div class="col-2 d-flex align-items-center">
+                                <p class="text-white mb-0"><b>Varighed</b><br>7 dage</p>
+                            </div>
+                            <div class="col-2 d-flex align-items-center">
+                                <p class="text-white mb-0"><b>Moduler</b><br>8 moduler</p>
                             </div>
                         </div>
                     </div>
-                    {% endfor %}
-                </div>
-
-            </div>
-            <div class="container-fluid medium-narrow-container pt-50 pb-75 only-big">
-                
-                <div class="grid-1 gap-20">
-                    
-                    <div class="bg-deep-taupe white p-20 p-left-60 grid-2">
-                        <div class="pt-20"><h1>Kursus oversigt</h1></div>
-
-                        <div>
-                            <div class="grid-3">
-                                <div>
-                                    <p class="mb-0 pt-20"><b>Pris ekskl. moms</b></p>
-                                    <p>{{ page.price | truncate: 9, "" }}</p>
-                                </div>
-                                <div>
-                                    <p class="mb-0 pt-20"><b>Varigheder</b></p>
-                                    <p>{{ page.days }} dage</p>
-                                </div>
-                                <div>
-                                    <p class="mb-0 pt-20"><b>Moduler</b></p>
-                                    <p>{{ page.modules }} moduler</p>
-                                </div>
+                    <div class="bg-dark-lava px-5 py-3">
+                        <div class="row gx-0">
+                            <div class="col-4">
+                                <p class="text-white mb-0 text-uppercase"><b>Hold</b></p>
                             </div>
-                         </div>
-                        </div>
-                    <div class="grid-3 p-20 p-left-60 pb-0 capped bg-black-coral white">
-                        <div>
-                            <p><b>Hold</b></p>
-                        </div>
-                        <div>
-                            <p><b>Dato</b></p>
-                        </div>
-                        <div>
-                            <p><b>Pris</b></p>
-                        </div>
-                        <div></div>
-                    </div>
-                    {% for semester in page.semesters %}
-                    <div>
-                        <div class="position-relative">
-                            <a class="semester-heading collapsed" data-toggle="collapse"
-                                href="#hold{{ forloop.index}}" role="button" aria-expanded="false" aria-controls="">
-                                <div class="grid-3 p-20 gap-20 p-left-60">
-                                    <div>
-                                        <p class="mb-0">{{ semester.title }}</p>
-                                    </div>
-                                    <div>
-                                        <p class="mb-0">{{ semester.span }}</p>
-                                    </div>
-
-                                    <div>
-                                        <p class="mb-0">{{ semester.price }}</p>
-                                    </div>
-
-
-                                </div>
-                            </a>
-                            <a class="cinereous-btn position-right open_modal" href="#ansøgning"
-                                data-id="{{ semester.title }}" data-toggle="modal"
-                                data-target="#mbc-application-modal">Ansøg</a>
-                        </div>
-                        <div class="bg-black-coral collapse" id="hold{{ forloop.index}}">
-                            <div class="grid-50-50-50-auto-auto grid-5 p-20 bg-deep-taupe white">
-                                <div>
-                                    <p class="mb-0">Dato</p>
-                                </div>
-                                <div>
-                                    <p class="mb-0">Dag</p>
-                                </div>
-                                <div>
-                                    <p class="mb-0">Tid</p>
-
-                                </div>
-                                <div>
-                                    <p class="mb-0">Modul</p>
-                                </div>
-                                <div>
-                                    <p class="mb-0">Sted</p>
-                                </div>
+                            <div class="col-4">
+                                <p class="text-white mb-0 text-uppercase"><b>Dato</b></p>
                             </div>
-                            <div class="switching-list">
-                                {% for date in semester.dates %}
-                                <div class="grid-50-50-50-auto-auto grid-5 p-20 list-item">
-                                    <div>
-                                        <p class="mb-0">{{ date.title }}</p>
-                                    </div>
-                                    <div>
-                                        <p class="mb-0">{{ date.dag }}</p>
-                                    </div>
-                                    <div>
-                                        <p class="mb-0">{{ date.time }}</p>
-
-                                    </div>
-                                    <div>
-                                        <p class="mb-0">{{ date.modul }}</p>
-                                    </div>
-                                    <div>
-                                        <p class="mb-0">{{ date.sted }}</p>
-                                    </div>
-                                </div>
-
-
-
-
-                                {% endfor %}
-
+                            <div class="col-4">
+                                <p class="text-white mb-0 text-uppercase"><b>Pris</b></p>
                             </div>
                         </div>
                     </div>
 
-                    {% endfor %}
-                </div>
 
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                        {% for semester in page.semesters %}
+                        <div class="accordion-item">
+                            <div class="accordion-header bg-platinum" id="heading{{ forloop.index }}">
+                                <button class="accordion-button collapsed px-5 py-3 bg-platinum" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapse{{ forloop.index }}"
+                                    aria-expanded="true" aria-controls="collapse{{ forloop.index }}">
+
+                                    <div class="row gx-0 w-100">
+                                        <div class="col-4">
+                                            <p class="mb-0 text-uppercase">{{ semester.title }}</p>
+                                        </div>
+                                        <div class="col-4">
+                                            <p class="mb-0 text-uppercase">{{ semester.dates }}</p>
+                                        </div>
+                                        <div class="col-4">
+                                            <p class="mb-0 text-uppercase">{{ semester.price }}</p>
+                                        </div>
+                                    </div>
+                                </button>
+                            </div>
+                            <div id="collapse{{ forloop.index }}" class="accordion-collapse collapse"
+                                aria-labelledby="heading{{ forloop.index }}">
+                                <div class="accordion-body p-0">
+                                    <div class="bg-deep-taupe pt-3 ps-3 pe-3">
+                                        <div class="row">
+                                            <div class="col-2">
+                                                <p class="text-white">
+                                                    Dato
+                                                </p>
+                                            </div>
+                                            <div class="col-1">
+                                                <p class="text-white">
+                                                    Dag
+                                                </p>
+                                            </div>
+                                            <div class="col-2">
+                                                <p class="text-white">
+                                                    Tid
+                                                </p>
+                                            </div>
+                                            <div class="col-4">
+                                                <p class="text-white">
+                                                    Modul
+                                                </p>
+                                            </div>
+                                            <div class="col-3">
+                                                <p class="text-white">
+                                                    Sted
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    {% for module in semester.modules %}
+                                    {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+                                    <div class="pt-3 ps-3 pe-3{% if thecycle == 'odd' %} bg-cultured{% endif %}">
+                                        <div class="row">
+                                            <div class="col-2">
+                                                <p>
+                                                    {{ module.date }}
+                                                </p>
+                                            </div>
+                                            <div class="col-1">
+                                                <p>
+                                                    {{ module.day }}
+                                                </p>
+                                            </div>
+                                            <div class="col-2">
+                                                <p>
+                                                    {{ module.time }}
+                                                </p>
+                                            </div>
+                                            <div class="col-4">
+                                                <p>
+                                                    {{ module.name }}
+                                                </p>
+                                            </div>
+                                            <div class="col-3">
+                                                <p>
+                                                    {{ module.place }}
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    {% endfor %}
+
+                                </div>
+                            </div>
+                        </div>
+
+                        {% endfor %}
+                    </div>
+
+                </div>
             </div>
+        </div>
 
 
-       
-        <div class="container-fluid medium-narrow-container pt-50">
 
-            <div class="grid-2 gap-40 r-gap-40">
-                <div>
-                    <h2>UDBYTTE OG ANVENDELSE</h2>
-                    <p>På uddannelsen trænes du I at være nærværende og ansvarstagende
-                        også når vi sammen rammer de svære emner, og hvor du mest af alt
-                        har lyst til at afbryde samtalen.</p>
-                    <p>På MBC er der derfor også fokus på din egen personlige udvikling
-                        og dannelse, hvem du selv er, og hvad netop du betyder for
-                        dialogen.</p>
-                    <p>MBC'en gør den studerende i stand til at stå og indgå i mange
-                        forskellige situationer og samtaler, herunder team- og
-                        medarbejderudvikling, konflikt- og krisehåndtering, procesledelse
-                        og organisationsudvikling.</p>
-                </div>
-                <div>
-                    <h2 class="capped">Viden på CCC</h2>
-                    <p>Master of Business Coaching er mere end en uddannelse. Vi er en platform, hvor ledere fra alle
-                        dele af
-                        den offentlige og private sektor mødes for at blive klogere på, hvordan ledelse kan skabe værdi
-                        for
-                        vores samfund. På CCC holder vi os opdateret på udviklingen inden for offentlig ledelse og
-                        prioriterer
-                        at dele og diskutere den. </p>
-                    <p>
-                        Derfor inviterer vi løbende til debatmøder om aktuelle tematikker på området,
-                        og fire gange årligt har du mulighed for at komme til inspirationsmøder, hvor du kan høre om
-                        uddannelsen
-                        og møde studerende samt repræsentanter fra studieledelsen og sekretariatet.</p>
+
+
+
+        <div class="container-fluid py-5">
+            <div class="row">
+                <div class="offset-lg-2 col-12 col-lg-8">
+                    <div class="row gx-5">
+                        <div class="col-6">
+                            <h2>UDBYTTE OG ANVENDELSE</h2>
+                            <p>På uddannelsen trænes du I at være nærværende og ansvarstagende
+                                også når vi sammen rammer de svære emner, og hvor du mest af alt
+                                har lyst til at afbryde samtalen.</p>
+                            <p>På MBC er der derfor også fokus på din egen personlige udvikling
+                                og dannelse, hvem du selv er, og hvad netop du betyder for
+                                dialogen.</p>
+                            <p>MBC'en gør den studerende i stand til at stå og indgå i mange
+                                forskellige situationer og samtaler, herunder team- og
+                                medarbejderudvikling, konflikt- og krisehåndtering, procesledelse
+                                og organisationsudvikling.</p>
+                        </div>
+                        <div class="col-6">
+                            <h2 class="capped">VIDEN PÅ CCC</h2>
+                            <p>Master of Business Coaching er mere end en uddannelse. Vi er en platform, hvor ledere fra
+                                alle
+                                dele af
+                                den offentlige og private sektor mødes for at blive klogere på, hvordan ledelse kan
+                                skabe værdi
+                                for
+                                vores samfund. På CCC holder vi os opdateret på udviklingen inden for offentlig ledelse
+                                og
+                                prioriterer
+                                at dele og diskutere den. </p>
+                            <p>
+                                Derfor inviterer vi løbende til debatmøder om aktuelle tematikker på området,
+                                og fire gange årligt har du mulighed for at komme til inspirationsmøder, hvor du kan
+                                høre om
+                                uddannelsen
+                                og møde studerende samt repræsentanter fra studieledelsen og sekretariatet.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-
-
-
-
 
         </div>
+
+
         <div
             style="background: linear-gradient(rgba(19, 19, 19, 0.6), rgba(19, 19, 19, 0.6)), url('/images/graphic/mountain.png'); background-size: cover;">
-            <div class="container-fluid xs-extra-narrow-container pt-100 pb-100 align-center white">
-                <h1>HØJESTE
-                    INTERNATIONALE
-                    AKKREDITERING</h1>
-                <br>
-                <p>Med en Master of Business
-                    Coaching fra CCC er du
-                    garanteret de højeste,
-                    internationale standarder via
-                    vores akkreditering fra European
-                    Mentoring and Coaching Council
-                    (EMCC).</p>
-                <br>
-                <a href="/fundament/emcc-akkreditering/" class="thin capped border-button inline">Læs om vores EMCC
-                    akkreditering <i class="fas fa-long-arrow-alt-right"></i></a>
+            <div class="container-fluid py-5 text-center">
+                <div class="row py-5">
+                    <div class="offset-lg-3 col-lg-6 col-12">
+                        <h1 class="text-white">HØJESTE
+                            INTERNATIONALE
+                            AKKREDITERING</h1>
+
+                        <p class="text-white">Med en Master of Business
+                            Coaching fra CCC er du
+                            garanteret de højeste,
+                            internationale standarder via
+                            vores akkreditering fra European
+                            Mentoring and Coaching Council
+                            (EMCC).</p>
+
+                        <a href="/fundament/emcc-akkreditering/" class="btn btn-outline-light white-border-button">Læs
+                            om vores EMCC
+                            akkreditering <i class="fas fa-long-arrow-alt-right text-white"></i></a>
+                    </div>
+                </div>
+
 
             </div>
         </div>
 
-        <div class="bg-black-coral mb-50">
-            <div class="container-fluid extra-narrow-container pt-100 pb-100 white">
-
-                <div class="grid-2 gap-40 r-gap-60">
-                    <div>
-                        <h3>DK'S FØRENDE
-                            LEDERUDDANNELSE
-                            MÅLRETTET
-                            ERHVERVSLIVET</h3>
-                        <p>Med tryk på Business-delen af Coaching, i
-                            modsætning til fx life-coaching, er
-                            uddannelsen målrettet erhvervslivet med
-                            den hensigt at løfte de studerendes
-                            dialogiske evner og handlekraft i
-                            professionelle kontekster.</p>
-                    </div>
-                    <div>
-                        <h3>MESTRING AF
-                            DIALOGISKE
-                            PROCESSER</h3>
-                        <p>Med en MBC bliver du ekspert i
-                            produktive og virkningsfulde
-                            dialoger og du får samtidig den
-                            bedste uddannelse på markedet i
-                            at lede, planlægge og forme
-                            mellemmenneskelig
-                            kommunikation og individuelle
-                            dialoger.</p>
+        <div class="bg-black-coral py-5">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="offset-lg-2 col-12 col-lg-8">
+                        <div class="row gx-5">
+                            <div class="col-6">
+                                <h3 class="text-white">DK'S FØRENDE
+                                    LEDERUDDANNELSE
+                                    MÅLRETTET
+                                    ERHVERVSLIVET</h3>
+                                <p class="text-white">Med tryk på Business-delen af Coaching, i
+                                    modsætning til fx life-coaching, er
+                                    uddannelsen målrettet erhvervslivet med
+                                    den hensigt at løfte de studerendes
+                                    dialogiske evner og handlekraft i
+                                    professionelle kontekster.</p>
+                            </div>
+                            <div class="col-6">
+                                <h3 class="text-white">MESTRING AF
+                                    DIALOGISKE
+                                    PROCESSER</h3>
+                                <p class="text-white">Med en MBC bliver du ekspert i
+                                    produktive og virkningsfulde
+                                    dialoger og du får samtidig den
+                                    bedste uddannelse på markedet i
+                                    at lede, planlægge og forme
+                                    mellemmenneskelig
+                                    kommunikation og individuelle
+                                    dialoger.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -370,123 +357,225 @@ layout: default
 
     <div class="tab-pane fade" id="nav-2" role="tabpanel" aria-labelledby="nav-2-tab">
 
+        <div class="container-fluid pb-5">
+            <div class="row">
+                <div class="offset-lg-2 col-lg-8 col-12">
+                    <div class="row">
+                        <div class="col-6">
+                            <h2>UDDANNELSENS OPBYGNING</h2>
+                            <p>Uddannelsen kombinerer et solidt teoretisk fundament med en
+                                målrettet træning og udvikling af den enkelte studerendes egen
+                                samtalepraksis.</p>
+                            <p>Uddannelsen er normeret til et studieårsværk fordelt på fire semestre á
+                                et halvt å (15 ECTS), dvs. i alt to år og 60 ECTS. Hvert semester består af
+                                ti undervisningsdage fordelt over et halvt år samt fire træningsaftener
+                                (på tværs af semesterhold), hvoraf to aftener ligger i direkte forlængelse
+                                af undervisningen.</p>
+                        </div>
+                        <div class="col-6">
+                            <h2>Semestre</h2>
+                            <p>MBC’en består af 4 semestre, som du også kan tage individuelt. Et semester består af ca.
+                                10
+                                undervisningsdage med undervisning fra 9.30 – 16.00</p>
+                            <p>Hvert semester afsluttes med eksamen og et bevis på gennemførelse.
+                                Semestrene kan tages ét ad gangen og/eller forskudt, som det passer i
+                                den enkelte studerendes ressourcer og karrieremål. Hvis det måtte
+                                ønskes, kan der træffes individuel aftale om en ONLINE løsning.</p>
+                            <p>Uddannelsen afsluttes med en masterafhandling og et mundtligt forsvar</p>
 
-
-        <div class="container-fluid medium-narrow-container pt-50 pb-50">
-            <div class="grid-2 gap-90">
-                <div>
-                    <h2>UDDANNELSENS OPBYGNING</h2>
-                    <p>Uddannelsen kombinerer et solidt teoretisk fundament med en
-                        målrettet træning og udvikling af den enkelte studerendes egen
-                        samtalepraksis.</p>
-                    <p>Uddannelsen er normeret til et studieårsværk fordelt på fire semestre á
-                        et halvt å (15 ECTS), dvs. i alt to år og 60 ECTS. Hvert semester består af
-                        ti undervisningsdage fordelt over et halvt år samt fire træningsaftener
-                        (på tværs af semesterhold), hvoraf to aftener ligger i direkte forlængelse
-                        af undervisningen.</p>
-
-                </div>
-                <div>
-                    <h2>Semestre</h2>
-                    <p>MBC’en består af 4 semestre, som du også kan tage individuelt. Et semester består af ca. 10
-                        undervisningsdage med undervisning fra 9.30 – 16.00</p>
-                    <p>Hvert semester afsluttes med eksamen og et bevis på gennemførelse.
-                        Semestrene kan tages ét ad gangen og/eller forskudt, som det passer i
-                        den enkelte studerendes ressourcer og karrieremål. Hvis det måtte
-                        ønskes, kan der træffes individuel aftale om en ONLINE løsning.</p>
-                    <p>Uddannelsen afsluttes med en masterafhandling og et mundtligt forsvar</p>
-
-                </div>
-            </div>
-
-
-
-        </div>
-        <div class="bg-platinum">
-            <div class="container-fluid medium-narrow-container pt-50 pb-50">
-
-                <div class="grid-2">
-                    <div>
-                        <h2>Som MBC studerende får du:</h2>
-                        <br>
-                        <ul class="mb-0">
-                            <li>Adgang til vidensportal, værktøjer, faglitteratur, artikler og cases</li>
-                            <li>Big Five personlighedstest med individuel tilbagemelding</li>
-                            <li>Mulighed for at blive certificeret i Big Five, så du selv kan anvende personlighedstest
-                            </li>
-                            <li>Løbende supervision og et stærkt netværk</li>
-                            <li>Coachingsamtaler med flere undervisere</li>
-                            <li>Forplejning alle dage</li>
-                        </ul>
-
-                        <br>
-                    </div>
-                    <div>
-                        <div class="w-100 h-300">
-                            <img class="object-fit" src="/images/mbc/image--000.jpg" alt="">
                         </div>
                     </div>
-
+                </div>
+            </div>
+        </div>
+        <div class="bg-platinum py-5">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="offset-lg-2 col-lg-8 col-12">
+                        <div class="row">
+                            <div class="col-6">
+                                <h2>Som MBC studerende får du:</h2>
+                                <ul class="mb-0">
+                                    <li>Adgang til vidensportal, værktøjer, faglitteratur, artikler og cases</li>
+                                    <li>Big Five personlighedstest med individuel tilbagemelding</li>
+                                    <li>Mulighed for at blive certificeret i Big Five, så du selv kan anvende
+                                        personlighedstest
+                                    </li>
+                                    <li>Løbende supervision og et stærkt netværk</li>
+                                    <li>Coachingsamtaler med flere undervisere</li>
+                                    <li>Forplejning alle dage</li>
+                                </ul>
+                            </div>
+                            <div class="col-6 h-100">
+                                <img class="object-fit" src="/images/mbc/image--000.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid py-5">
+<h2 class="mb-4">Moduler og dage</h2>
+            <div class="row gx-0">
+                <div class="col bg-black-coral p-3">
+                    <p class="text-white mb-0">Semester</p>
+                </div>
+                <div class="col bg-black-coral p-3">
+                    <p class="text-white mb-0">Dag 1</p>
+                </div>
+                <div class="col bg-black-coral p-3">
+                    <p class="text-white mb-0">Dag 2</p>
+                </div>
+                <div class="col bg-black-coral p-3">
+                    <p class="text-white mb-0">Dag 3</p>
+                </div>
+                <div class="col bg-black-coral p-3">
+                    <p class="text-white mb-0">Dag 4</p>
+                </div>
+                <div class="col bg-black-coral p-3">
+                    <p class="text-white mb-0">Dag 5</p>
+                </div>
+                <div class="col bg-black-coral p-3">
+                    <p class="text-white mb-0">Dag 6</p>
+                </div>
+                <div class="col bg-black-coral p-3">
+                    <p class="text-white mb-0">Dag 7</p>
+                </div>
+                <div class="col bg-black-coral p-3">
+                    <p class="text-white mb-0">Dag 8</p>
                 </div>
 
+            </div>
 
+            <div class="row gx-0">
+                <div class="col p-3">
+                    <p>Semester 1</p>
+                </div>
+                <div class="col p-3">
+                    <p>Coaching og syntesemodellen</p>
+                </div>
+                <div class="col p-3">
+                    <p>Kognitiv 1</p>
+                </div>
+                <div class="col p-3">
+                    <p>Psyko-dynamisk 1</p>
+                </div>
+                <div class="col p-3">
+                    <p>Systemisk-narrativ 1</p>
+                </div>
+                <div class="col p-3">
+                    <p>Kognitiv 2</p>
+                </div>
+                <div class="col p-3">
+                    <p>Psyko-dynamisk 2</p>
+                </div>
+                <div class="col p-3">
+                    <p>Systemisk-narrativ 2</p>
+                </div>
+                <div class="col p-3">
+                    <p>-</p>
+                </div>
+            </div>
+
+            <div class="row gx-0">
+                <div class="col p-3 bg-platinum">
+                    <p>Semester 2</p>
+                </div>
+                <div class="col p-3 bg-platinum">
+                    <p>Kognitiv 3</p>
+                </div>
+                <div class="col p-3 bg-platinum">
+                    <p>Psyko-dynamisk 3</p>
+                </div>
+                <div class="col p-3 bg-platinum">
+                    <p>Systemisk-narrativ 3 del 1</p>
+                </div>
+                <div class="col p-3 bg-platinum">
+                    <p>Kognitiv 4 og Psyko-dynamisk 4</p>
+                </div>
+                <div class="col p-3 bg-platinum">
+                    <p>Team coaching</p>
+                </div>
+                <div class="col p-3 bg-platinum">
+                    <p>Team coaching</p>
+                </div>
+                <div class="col p-3 bg-platinum">
+                    <p>Tredje generations coaching</p>
+                </div>
+                <div class="col p-3 bg-platinum">
+                    <p>Træning og syntese</p>
+                </div>
 
             </div>
+
+            <div class="row gx-0">
+                <div class="col p-3">
+                    <p>Semester 3</p>
+                </div>
+                <div class="col p-3">
+                    <p>Intro til protreptik</p>
+                </div>
+                <div class="col p-3">
+                    <p>Protreptik 1</p>
+                </div>
+                <div class="col p-3">
+                    <p>Protreptik 2</p>
+                </div>
+                <div class="col p-3">
+                    <p>Protreptik 3</p>
+                </div>
+                <div class="col p-3">
+                    <p>Syntese og træning</p>
+                </div>
+                <div class="col p-3">
+                    <p>Øvelser og træning</p>
+                </div>
+                <div class="col p-3">
+                    <p>Øvelser og træning</p>
+                </div>
+                <div class="col p-3">
+                    <p>Opsamling</p>
+                </div>
+            </div>
+
+            <div class="row gx-0">
+                <div class="col p-3 bg-platinum">
+                    <p>Semester 4</p>
+                </div>
+                <div class="col p-3 bg-platinum">
+                    <p>Introduktion</p>
+                </div>
+                <div class="col p-3 bg-platinum">
+                    <p>Kognitionsfilosofi</p>
+                </div>
+                <div class="col p-3 bg-platinum">
+                    <p>Kropsfilosfi</p>
+                </div>
+                <div class="col p-3 bg-platinum">
+                    <p>Eksistensfilosofi</p>
+                </div>
+                <div class="col p-3 bg-platinum">
+                    <p>Dialogfilosofi</p>
+                </div>
+                <div class="col p-3 bg-platinum">
+                    <p>Differensfilosofi</p>
+                </div>
+                <div class="col p-3 bg-platinum">
+                    <p>Eksperimentel pragmatik</p>
+                </div>
+                <div class="col p-3 bg-platinum">
+                    <p>Syntese</p>
+                </div>
+
+            </div>
+
         </div>
 
 
 
 
-        <div class="container-fluid medium-narrow-container">
-            <h2>Moduler og dage</h2><br>
-            <div class="grid-8 grid-8-table">
-                <p class="table-header">Semester</p>
-                <p class="table-header">Dag 1</p>
-                <p class="table-header">Dag 2</p>
-                <p class="table-header">Dag 3</p>
-                <p class="table-header">Dag 4</p>
-                <p class="table-header">Dag 5</p>
-                <p class="table-header">Dag 6</p>
-                <p class="table-header">Dag 7</p>
-                <p>Semester 1</p>
-                <p>Coaching og syntesemodellen</p>
-                <p>Kognitiv 1</p>
-                <p>Psyko-dynamisk 1</p>
-                <p>Systemisk-narrativ 1</p>
-                <p>Kognitiv 2</p>
-                <p>Psyko-dynamisk 2</p>
-                <p>Systemisk-narrativ 2</p>
 
-                <p class="table-row">Semester 2</p>
-                <p class="table-row">Fag</p>
-                <p class="table-row">Fag</p>
-                <p class="table-row">Fag</p>
-                <p class="table-row">Fag</p>
-                <p class="table-row">Fag</p>
-                <p class="table-row">Fag</p>
-                <p class="table-row">Fag</p>
-
-                <p>Semester 3</p>
-                <p>Fag</p>
-                <p>Fag</p>
-                <p>Fag</p>
-                <p>Fag</p>
-                <p>Fag</p>
-                <p>Fag</p>
-                <p>Fag</p>
-
-                <p class="table-row">Semester 4</p>
-                <p class="table-row">Fag</p>
-                <p class="table-row">Fag</p>
-                <p class="table-row">Fag</p>
-                <p class="table-row">Fag</p>
-                <p class="table-row">Fag</p>
-                <p class="table-row">Fag</p>
-                <p class="table-row">Fag</p>
-
-            </div>
-
-        </div>
+  
 
 
     </div>
@@ -622,59 +711,102 @@ layout: default
     </div>
 
     <div class="tab-pane fade" id="nav-5" role="tabpanel" aria-labelledby="nav-5-tab">
-        <div class="container-fluid extra-narrow-container pt-30">
-
-            <h2>Undervisere</h2>
-            <p>Undervisningen på MBC varetages af erfarne undervisere og forskere fra både Copenhagen Business School,
-                Københavns Universitet, Aalborg Universitet, Aarhus Universitet og RUC. Undervisernes tilgang er altid
-                nærværende, lokal og relevant for dig og dit arbejdsområde, så du kan overføre undervisningen direkte
-                til dine daglige udfordringer som leder.
-            </p>
-            <p>
-                I dele af undervisningen inddrages konsulenter fra forskellige universiteter.</p>
-        </div>
-
-        <div class="bg-black-coral mb-50">
-            <div class="container-fluid medium-narrow-container pt-50 pb-50">
-
-                <div class="grid-2 gap-40 r-gap-40">
-
-                    {% for emp in site.employees %}
-                    {% if emp.mbc %}
-
-                    <div>
-                        <a href="{{ emp.url }}">
-                            <div class="align-content-center align-items-center grid-150-fr split-phone r-gap-20 white">
-                                <div class="img-hw150"><img class="small-round-image" src="{{ emp.grey-portrait }}"
-                                        alt="">
-                                </div>
-                                <div class="p-20">
-                                    <h4>{{ emp.title }}</h4>
-
-                                    <p>{{ emp.description }}<br><br>
-                                        {% for education in emp.edu %}
-                                        {{ education }}<br>
-                                        {% endfor %}
-                                </div>
 
 
-                            </div>
-                        </a>
-                    </div>
-                    {% endif %}
+        <div class="container-fluid pb-4">
+            <div class="row">
+                <div class="offset-lg-2 col-12 col-lg-8">
 
-                    {% endfor %}
-
-
-
+                    <h2>Undervisere</h2>
+                    <p>Undervisningen på MBC varetages af erfarne undervisere og forskere fra både Copenhagen Business School,
+                        Københavns Universitet, Aalborg Universitet, Aarhus Universitet og RUC. Undervisernes tilgang er altid
+                        nærværende, lokal og relevant for dig og dit arbejdsområde, så du kan overføre undervisningen direkte
+                        til dine daglige udfordringer som leder.
+                    </p>
+                    <p>
+                        I dele af undervisningen inddrages konsulenter fra forskellige universiteter.</p>
 
                 </div>
-
-
-
-
             </div>
         </div>
+
+        <div class="bg-black-coral">
+            <div class="container-fluid py-5">
+                <div class="row">
+                    <div class="offset-lg-2 col-lg-8 col-12">
+                        <div class="row gx-2 gy-4">
+                            <div class="col-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="flex-shrink-0">
+                                        <img class="medium-image rounded-circle" src="/images/about/medarbejdere-sort-hvid/andreas-bering-sort-hvid.png"
+                                            alt="Andreas Bering">
+                                    </div>
+                                    <div class="flex-grow-1 ms-3">
+                                        <h5 class="text-white">Andreas Bering</h5>
+                                        <p class="text-white">Direktør og GDPR ansvarlig</p>
+
+                                        <p class="text-white">Cand. Comm. fra Roskilde Universitet<br>
+                                            Master i Business Coaching</p>
+    
+                                    </div>
+    
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="flex-shrink-0">
+                                        <img class="medium-image rounded-circle" src="/images/about/medarbejdere-sort-hvid/frederikke-winther-sort-hvid.png"
+                                            alt="Frederikke Winther">
+                                    </div>
+                                    <div class="flex-grow-1 ms-3">
+                                        <h5 class="text-white">Frederikke Winther</h5>
+                                        <p class="text-white">Seniorkonsulent</p>
+                                        <p class="text-white">Ph.d., Cand. Mag i retorik fra Københavns Universitet<br>
+                                            Master i Business Coaching</p>
+    
+                                    </div>
+    
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="flex-shrink-0">
+                                        <img class="medium-image rounded-circle" src="/images/about/employees/kim-gørtz.jpg"
+                                            alt="Frederikke Winther">
+                                    </div>
+                                    <div class="flex-grow-1 ms-3">
+                                        <h5 class="text-white">Kim Gørtz</h5>
+                                        <p class="text-white">Seniorkonsulent</p>
+                                        <p class="text-white">Ph.d., Cand. Mag i filosofi og psykologi fra Københavns Universitet<br>
+                                            Master i Business Coaching</p>
+    
+                                    </div>
+    
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="flex-shrink-0">
+                                        <img class="medium-image rounded-circle" src="/images/about/employees/mette-mejlhede.png"
+                                            alt="Frederikke Winther">
+                                    </div>
+                                    <div class="flex-grow-1 ms-3">
+                                        <h5 class="text-white">Mette Mejlhede</h5>
+                                        <p class="text-white">Diriktør</p>
+                                        <p class="text-white">Cand.merc HRM Copenhagen Business School<br>
+                                            Master i Business Coaching, EIA Master Akkrediteret Coach</p>
+    
+                                    </div>
+    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
 
 
 
@@ -786,7 +918,8 @@ layout: default
 
 
                     <br>
-                    <form class="white-form" action="https://formspree.io/f/mzbyzbyg" method="POST" enctype="multipart/form-data">
+                    <form class="white-form" action="https://formspree.io/f/mzbyzbyg" method="POST"
+                        enctype="multipart/form-data">
 
 
 
@@ -817,7 +950,7 @@ layout: default
                         <br>
                         <div id="virksomhed-box">
 
-                            
+
                         </div>
 
                         <input type="text" name="adress" placeholder="Fakturerings adresse*" required>
@@ -833,7 +966,7 @@ layout: default
                         <input type="email" name="email" placeholder="E-mail*" required>
 
 
-                        
+
                         <textarea name="besked" cols="30" rows="10" placeholder="Evt. kommentar"></textarea>
                         <label><b>Uddannelsesmæssig baggrund:</b><br>
                             <i>Skriv venligst dine formelle uddannelser</i></label>
@@ -937,80 +1070,149 @@ layout: default
 
     {% assign page-contact = page.contact-person %}
 
-
-    {% include sections/contact-bar.html contact=page-contact contact-color="deep-taupe" text-1="Interesseret i at høre
-    mere
-    om MBC? Så kontakt Frederikke nedenfor." text-2="Hør om andres erfaringer med MBC" %}
-
-
-
-    {% include sections/virtual-text.html container-classes="pt-30 pb-100 extra-narrow-container" %}
-
-    {% assign pageurl = page.url %}
+</div>
+{% for employee in site.employees %}
+{% if employee.title == page.contact-person %}
+<div class="container-fluid my-5">
+    <div class="row">
+        <div class="offset-xl-2 col-12 col-xl-8">
+            <div class="row gy-3">
+                <div class="col-md-7 col-12">
 
 
-    <div class="bg-black-coral white">
-        {% include sections/other-courses.html url=pageurl %}
+
+                    <div class="d-flex h-100 justify-content-center align-items-center bg-slate-gray rounded p-3">
+                        <div>
+
+                            <p class="large text-white"><b>Har du spørgsmål til
+                                    uddannelsen?</b> Kontakt {{ employee.title }} nedenfor. Vi glæder os til at
+                                besvare
+                                dine
+                                spørgsmål.</p>
+
+                            <div class="d-flex justify-content-end">
+                                <div class="d-flex align-items-center">
+                                    <div class="flex-shrink-0">
+                                        <p class="text-end mb-0 text-white"><b><a href="{{ employee.url }}"
+                                                    data-proofer-ignore>{{
+                                                    employee.title }}</a></b><br>
+
+                                            <a href="tel:{{ employee.call }}" data-proofer-ignore>+45 {{
+                                                employee.call
+                                                }}</a><br>
+                                            <a href="mailto:{{ employee.email }}" data-proofer-ignore>{{
+                                                employee.email
+                                                }}</a>
+                                        </p>
+                                    </div>
+                                    <div class="flex-grow-1 ms-3">
+                                        <img class="small-image rounded-circle"
+                                            src="{{ employee.small-portrait-image }}"
+                                            alt="{{ employee.title }}, {{ employee.description}}">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-5 col-12">
+                    <div class="d-flex h-100 justify-content-center align-items-center text-center rounded p-5"
+                        style="background: linear-gradient(rgba(19, 19, 19, 0.6), rgba(19, 19, 19, 0.6)), url('/images/graphic/mennesker.jpg'); background-position: center; background-size: cover;">
+                        <div>
+                            <h4 class="text-white text-center">Interesseret i andre uddannelser?</h4>
+                            <br>
+                            <b><a class="btn-deep-taupe text-white text-center text-white btn mt-0 mx-auto"
+                                    href="/academy/">Se
+                                    mere <i class="fas fa-arrow-right text-white"></i></a></b>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
     </div>
+</div>
 
-    {% include sections/vision.html %}
+{% endif %}
+{% endfor %}
 
-
-    <div class="bg-black-coral white">
-        {% include sections/newsletter.html %}
+<div class="container-fluid pb-5">
+    <div class="row">
+        <div class="offset-lg-2 col-12 col-lg-8">
+            {% include sections/virtual-text.html %}
+        </div>
     </div>
-
-    <div class="bg-light-brown">
-        {% include sections/events.html container-classes="pt-50 mb-0 mt-0" btn-color="dust-green-btn" %}
-    </div>
-    <!-- end -->
-
-    <script>
-        $(document).on("click", ".open_modal", function () {
-            var product = $(this).data('id');
-            console.log(product);
-            var selecter = document.getElementById('mbc-hold');
-            console.log(selecter);
-            selecter.value = product;
-        });
-
-        var numner = 1;
-        $(document).on("click", ".add-more-files", function () {
-            var new_num = 1;
-            var boxx = document.getElementById('file-upload');
-            var close_box = document.createElement('a');
-            close_box.innerHTML = "<i class='fas fa-times'></i>";
-            close_box.className = "close-button-file"
-            close_box.href = "#close"
-            var the_div = document.createElement("div");
-            the_div.className = "position-relative";
-            var elements = document.createElement("input");
-
-            elements.type = "file";
-            elements.name = "upload-" + new_num + 1;
-            elements.accept = ".doc,.docx,.pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document";
-            the_div.appendChild(elements);
-            the_div.appendChild(close_box);
-            boxx.appendChild(the_div);
-        });
-
-        $(document).on("click", ".close-button-file", function () {
-            var cross = $(this)
-            cross.parent().remove()
-        });
-
-        $(document).on("click", "#privat", function () {
-            var hehe = $("#cvr")
-            hehe.parent().remove();
-
-        });
+</div>
 
 
-        $(document).on("click", "#virksomhed", function () {
-            $('#virksomhed-box').html('<div><input type="text" name="cvr" id="cvr" placeholder="CVR nummer"><input type="text" name="ean" placeholder="EAN"></div>')
+{% assign pageurl = page.url %}
 
-        });
 
-    </script>
+<div class="bg-opal text-white">
+    {% include sections/other-courses.html %}
+</div>
 
-    
+{% include sections/vision.html %}
+
+
+<div class="bg-black-coral white">
+    {% include sections/newsletter.html %}
+</div>
+
+<div class="bg-light-brown">
+    {% include sections/events.html container-classes="pt-50 mb-0 mt-0" btn-color="dust-green-btn" %}
+</div>
+<!-- end -->
+
+<script>
+    $(document).on("click", ".open_modal", function () {
+        var product = $(this).data('id');
+        console.log(product);
+        var selecter = document.getElementById('mbc-hold');
+        console.log(selecter);
+        selecter.value = product;
+    });
+
+    var numner = 1;
+    $(document).on("click", ".add-more-files", function () {
+        var new_num = 1;
+        var boxx = document.getElementById('file-upload');
+        var close_box = document.createElement('a');
+        close_box.innerHTML = "<i class='fas fa-times'></i>";
+        close_box.className = "close-button-file"
+        close_box.href = "#close"
+        var the_div = document.createElement("div");
+        the_div.className = "position-relative";
+        var elements = document.createElement("input");
+
+        elements.type = "file";
+        elements.name = "upload-" + new_num + 1;
+        elements.accept = ".doc,.docx,.pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document";
+        the_div.appendChild(elements);
+        the_div.appendChild(close_box);
+        boxx.appendChild(the_div);
+    });
+
+    $(document).on("click", ".close-button-file", function () {
+        var cross = $(this)
+        cross.parent().remove()
+    });
+
+    $(document).on("click", "#privat", function () {
+        var hehe = $("#cvr")
+        hehe.parent().remove();
+
+    });
+
+
+    $(document).on("click", "#virksomhed", function () {
+        $('#virksomhed-box').html('<div><input type="text" name="cvr" id="cvr" placeholder="CVR nummer"><input type="text" name="ean" placeholder="EAN"></div>')
+
+    });
+
+</script>

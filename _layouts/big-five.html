@@ -1,186 +1,206 @@
 ---
 layout: default
 ---
-<div class="full-banner grid-1 align-items-center align-content-center"
-    style="background: linear-gradient(rgba(19, 19, 19, 0.6), rgba(19, 19, 19, 0.6)), url('{{ page.image }}'); background-position: center; background-size: cover;">
-    <div class="container-fluid extra-narrow-container white">
-        <div>
-            <h1 class="h1-l">{{ page.header }}</h1>
-            <hr class="half-margin">
+<div class="pt-5"
+    style="background: linear-gradient(rgba(19, 19, 19, 0.6), rgba(19, 19, 19, 0.6)), url('{{ page.image }}'); background-size: cover; background-position: center;">
+    <div class="container-fluid text-center py-5">
+        <div class="pt-5">
+            <div class="row py-5 gy-5">
+                <div class="offset-md-2 col-12 col-md-8">
+                    <h1 class="text-white mb-3">{{ page.title }}</h1>
+                    <hr class="white w-50 responsive mx-auto">
 
-
-            {% if page.sub-header %}
-            <h3>{{ page.sub-header }}</h3>
-            {% endif %}
-            {% if page.teaser %}<p class="large">{{ page.teaser }}</p>{% else %}<p class="large">{{ page.description }}
-            </p> {% endif %}
-            <br>
-            <a class="brown-btn large thin white" data-proofer-ignore href="#bif-five" data-toggle="modal"
-                data-target="#bf-modal">Hør mere</a>
-
+                    <a class="btn-xanadu btn text-uppercase text-white" data-proofer-ignore href="#bfc-c-modal"
+                        data-toggle="modal" data-target="#bfc-c-modal"><b>Hør mere</b></a>
+                    <br>
+                </div>
+            </div>
         </div>
 
     </div>
 </div>
-
-<div class="container-fluid extra-narrow-container pt-30 pb-0">
-
-
-    <div>
-        <div class="nav nav-tabs brown-pallette" id="nav-tab" role="tablist">
-            <a class="nav-item nav-link active" id="nav-1-tab" data-toggle="tab" href="#nav-1" role="tab"
-                aria-controls="nav-coaching" aria-selected="false">Overblik</a>
-            <a class="nav-item nav-link" id="nav-2-tab" data-toggle="tab" href="#nav-2" role="tab" aria-controls="nav-2"
-                aria-selected="false">Opbygning</a>
-            <a class="nav-item nav-link" id="nav-3-tab" data-toggle="tab" href="#nav-3" role="tab" aria-controls="nav-3"
-                aria-selected="false">Deltagerprofil</a>
-            <a class="nav-item nav-link" id="nav-4-tab" data-toggle="tab" href="#nav-4" role="tab" aria-controls="nav-4"
-                aria-selected="false">Anbefalinger</a>
-            <a class="nav-item nav-link" id="nav-5-tab" data-toggle="tab" href="#nav-5" role="tab" aria-controls="nav-5"
-                aria-selected="false">Undervisere</a>
-            <a class="nav-item nav-link" id="nav-6-tab" data-toggle="tab" href="#nav-6" role="tab" aria-controls="nav-6"
-                aria-selected="false">Praktisk</a>
-            <a class="nav-item nav-link" id="nav-8-tab" data-toggle="tab" href="#nav-8" role="tab" aria-controls="nav-8"
-                aria-selected="false">Tilmelding</a>
-            <a class="nav-item nav-link" id="nav-9-tab" data-toggle="tab" href="#nav-9" role="tab" aria-controls="nav-9"
-                aria-selected="false">Seminarer</a>
+<div class="container-fluid text-center py-3">
+    <div class="row">
+        <div class="offset-lg-2 col-12 col-lg-8">
+            <div class="nav nav-tabs green-pallette my-4" id="nav-tab" role="tablist">
+                <a class="nav-item nav-link active" id="nav-1-tab" data-toggle="tab" href="#nav-1" role="tab"
+                    aria-controls="nav-coaching" aria-selected="false">Overblik</a>
+                <a class="nav-item nav-link" id="nav-2-tab" data-toggle="tab" href="#nav-2" role="tab"
+                    aria-controls="nav-2" aria-selected="false">Opbygning</a>
+                <a class="nav-item nav-link" id="nav-3-tab" data-toggle="tab" href="#nav-3" role="tab"
+                    aria-controls="nav-3" aria-selected="false">Deltagerprofil</a>
+                <a class="nav-item nav-link" id="nav-4-tab" data-toggle="tab" href="#nav-4" role="tab"
+                    aria-controls="nav-4" aria-selected="false">Anbefalinger</a>
+                <a class="nav-item nav-link" id="nav-5-tab" data-toggle="tab" href="#nav-5" role="tab"
+                    aria-controls="nav-5" aria-selected="false">Undervisere</a>
+                <a class="nav-item nav-link" id="nav-6-tab" data-toggle="tab" href="#nav-6" role="tab"
+                    aria-controls="nav-6" aria-selected="false">Praktisk</a>
+                <a class="nav-item nav-link" id="nav-8-tab" href="/tilmelding/?n={{ page.title }}">Tilmelding</a>
+                <a class="nav-item nav-link" id="nav-9-tab" data-toggle="tab" href="#nav-9" role="tab"
+                    aria-controls="nav-9" aria-selected="false">Seminarer</a>
+            </div>
         </div>
     </div>
 </div>
+
 <div class="tab-content" id="nav-tabContent">
 
     <div class="tab-pane fade show active" id="nav-1" role="tabpanel" aria-labelledby="nav-1-tab">
 
-        <div class="container-fluid extra-narrow-container pt-30">
-            <h3 class="capped">Testen giver et overblik over, hvor en person befinder sig i forhold til et empirisk
-                gennemsnit af personligheder, ledsaget af en kort beskrivelse.</h3>
-            <p>Teorien om The Big Five er det stærkest teoretisk og empirisk underbyggede bud på en klassificering af
-                menneskers personlighedstræk. På certificeringskurset vil du blive klædt på til at skabe en givende og
-                etisk dialog omkring testen. Du vil på kurset også blive certificeret i erhvervsrettet testning og en
-                kognitiv færdighedstest. Viden om en persons kognitive kapacitet gør det muligt at få et indblik i, i
-                hvilket omfang og tempo det enkelte individ er i stand til at løse problemstillinger og optage ny
-                information.</p>
-
+        <div class="container-fluid pt-1 pb-4">
+            <div class="row">
+                <div class="offset-lg-2 col-12 col-lg-8">
+                    <h3 class="capped">Testen giver et overblik over, hvor en person befinder sig i forhold til et
+                        empirisk
+                        gennemsnit af personligheder, ledsaget af en kort beskrivelse.</h3>
+                    <p>Teorien om The Big Five er det stærkest teoretisk og empirisk underbyggede bud på en
+                        klassificering af
+                        menneskers personlighedstræk. På certificeringskurset vil du blive klædt på til at skabe en
+                        givende og
+                        etisk dialog omkring testen. Du vil på kurset også blive certificeret i erhvervsrettet testning
+                        og en
+                        kognitiv færdighedstest. Viden om en persons kognitive kapacitet gør det muligt at få et indblik
+                        i, i
+                        hvilket omfang og tempo det enkelte individ er i stand til at løse problemstillinger og optage
+                        ny
+                        information.</p>
+                </div>
+            </div>
         </div>
         <div
             style="background: linear-gradient(rgba(19, 19, 19, 0.7), rgba(19, 19, 19, 0.7)), url('/images/graphic/shaking-hands.jpg'); background-size: cover; background-position: center;">
-            <div class="container-fluid extra-narrow-container pt-100 pb-100 align-center white">
-                <h2 class="line-height-2 letter-space-2 xlarge capped">Bliv klædt på til at bruge markedets bedst
-                    underbyggede personlighedstest i rekruttering og ledelses- og medarbejderudviklingssammenhæng.</h2>
-
-
+            <div class="container-fluid py-5">
+                <div class="row py-5">
+                    <div class="offset-lg-2 col-12 col-lg-8">
+                        <h2 class="text-white">Bliv klædt på til at bruge markedets bedst
+                            underbyggede personlighedstest i rekruttering og ledelses- og
+                            medarbejderudviklingssammenhæng.</h2>
+                    </div>
+                </div>
             </div>
         </div>
-
     </div>
 
     <div class="tab-pane fade" id="nav-2" role="tabpanel" aria-labelledby="nav-2-tab">
-        <div class="container-fluid extra-narrow-container pt-30 pb-30">
-            <h4>Big Five testen måler de 5 basale personlighedstræk (Big Five):</h4>
 
-            <ul>
-                <li>Neuroticism (N): Behov for stabilitet</li>
-                <li>Extraversion (E): Udadvendthed</li>
-                <li>Openness (O): Åbenhed</li>
-                <li>Agreeableness (A): Imødekommenhed</li>
-                <li>Conscientiousness (C): Samvittighedsfuldhed</li>
-            </ul>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="offset-lg-2 col-12 col-lg-8">
+                    <h4>Big Five testen måler de 5 basale personlighedstræk (Big Five):</h4>
 
+                    <ul>
+                        <li>Neuroticism (N): Behov for stabilitet</li>
+                        <li>Extraversion (E): Udadvendthed</li>
+                        <li>Openness (O): Åbenhed</li>
+                        <li>Agreeableness (A): Imødekommenhed</li>
+                        <li>Conscientiousness (C): Samvittighedsfuldhed</li>
+                    </ul>
 
-
-
-
+                </div>
+            </div>
         </div>
     </div>
 
     <div class="tab-pane fade" id="nav-3" role="tabpanel" aria-labelledby="nav-3-tab">
-        <div class="container-fluid extra-narrow-container pt-30">
-            <h2>Deltagerprofil</h2>
-            <h4>Enim nulla ut incididunt incididunt eiusmod minim reprehenderit irure.</h4>
-            <p>Ex exercitation ad ea esse labore consequat. Esse aute eu ad ipsum occaecat. Exercitation
-                cupidatat nisi proident et dolor id fugiat tempor cupidatat excepteur. Enim proident anim
-                deserunt voluptate mollit amet sint anim do dolor commodo. Ut in magna minim veniam anim velit
-                magna.</p>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="offset-lg-2 col-12 col-lg-8">
+                    <h2>Deltagerprofil</h2>
+                    <h4>Enim nulla ut incididunt incididunt eiusmod minim reprehenderit irure.</h4>
+                    <p>Ex exercitation ad ea esse labore consequat. Esse aute eu ad ipsum occaecat. Exercitation
+                        cupidatat nisi proident et dolor id fugiat tempor cupidatat excepteur. Enim proident anim
+                        deserunt voluptate mollit amet sint anim do dolor commodo. Ut in magna minim veniam anim velit
+                        magna.</p>
+                </div>
+            </div>
         </div>
     </div>
     <div class="tab-pane fade" id="nav-4" role="tabpanel" aria-labelledby="nav-4-tab">
-        <div class="container-fluid extra-narrow-container pt-30">
-            <h2>Anbefalinger</h2>
-            <h4>Enim nulla ut incididunt incididunt eiusmod minim reprehenderit irure.</h4>
-            <p>Ex exercitation ad ea esse labore consequat. Esse aute eu ad ipsum occaecat. Exercitation
-                cupidatat nisi proident et dolor id fugiat tempor cupidatat excepteur. Enim proident anim
-                deserunt voluptate mollit amet sint anim do dolor commodo. Ut in magna minim veniam anim velit
-                magna.</p>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="offset-lg-2 col-12 col-lg-8">
+                    <h2>Anbefalinger</h2>
+                    <h4>Enim nulla ut incididunt incididunt eiusmod minim reprehenderit irure.</h4>
+                    <p>Ex exercitation ad ea esse labore consequat. Esse aute eu ad ipsum occaecat. Exercitation
+                        cupidatat nisi proident et dolor id fugiat tempor cupidatat excepteur. Enim proident anim
+                        deserunt voluptate mollit amet sint anim do dolor commodo. Ut in magna minim veniam anim velit
+                        magna.</p>
+                </div>
+            </div>
         </div>
     </div>
 
     <div class="tab-pane fade" id="nav-5" role="tabpanel" aria-labelledby="nav-5-tab">
-        <div class="container-fluid extra-narrow-container pt-30">
-            <h2>Undervisere</h2>
-            <h4>Enim nulla ut incididunt incididunt eiusmod minim reprehenderit irure.</h4>
-            <p>Ex exercitation ad ea esse labore consequat. Esse aute eu ad ipsum occaecat. Exercitation
-                cupidatat nisi proident et dolor id fugiat tempor cupidatat excepteur. Enim proident anim
-                deserunt voluptate mollit amet sint anim do dolor commodo. Ut in magna minim veniam anim velit
-                magna.</p>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="offset-lg-2 col-12 col-lg-8">
+                    <h2>Undervisere</h2>
+                    <h4>Enim nulla ut incididunt incididunt eiusmod minim reprehenderit irure.</h4>
+                    <p>Ex exercitation ad ea esse labore consequat. Esse aute eu ad ipsum occaecat. Exercitation
+                        cupidatat nisi proident et dolor id fugiat tempor cupidatat excepteur. Enim proident anim
+                        deserunt voluptate mollit amet sint anim do dolor commodo. Ut in magna minim veniam anim velit
+                        magna.</p>
 
-        </div>
-        <div class="bg-black-coral">
-            <div class="container-fluid extra-narrow-container pt-50 pb-50">
-                <div>
-                    <div class="align-content-center align-items-center grid-150-fr split-phone r-gap-20 white">
-                        <div class="img-hw150"><img src="/images/about/employees/frederikke-winther.jpg" alt=""></div>
-                        <div class="p-20">
-                            <h4>Frederikke Winther</h4>
+                    <div>
+                        <div class="bg-honeydew p-3">
 
-                            <p>Seniorkonsulent i Copenhagen Coaching Center <br>
-                                Ph.d., Cand. Mag i retorik fra Københavns Universitet<br>
-                                Master i Business Coaching
-                            </p>
+                            <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0">
+                                    <img class="medium-image" src="/images/about/employees/frederikke-winther.jpg"
+                                        alt="Mette Mejlhede">
+                                </div>
+                                <div class="flex-grow-1 ms-3">
+                                    <h4>Frederikke Winther</h4>
+                                    <p>Seniorkonsulent</p>
+                                    <p class="fw-light">Ph.d., Cand. Mag i retorik fra Københavns Universitet<br>Master i Business Coaching</p>
+                                </div>
+
+                            </div>
+
+
+
                         </div>
 
                     </div>
-
                 </div>
+            </div>
+        </div>
 
-
+    </div>
+    <div class="tab-pane fade" id="nav-6" role="tabpanel" aria-labelledby="nav-6-tab">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="offset-lg-2 col-12 col-lg-8">
+                    <h4>På CCCs 3 dages kursus i Big Five test certificering får du:
+                    </h4>
+                    <ul>
+                        <li>Certificering i erhvervsrettet testning</li>
+                        <li>Certificering i Big Five træktest og kognitiv færdighedstest</li>
+                        <li>Kompetencer i at skabe en givende og etisk dialog omkring testresultater</li>
+                        <li>Test certificering udbydes i samarbejde med HUCAMA.</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
-    <div class="tab-pane fade" id="nav-6" role="tabpanel" aria-labelledby="nav-6-tab">
-        <div class="container-fluid extra-narrow-container pt-30">
-            <h4>På CCCs 3 dages kursus i Big Five test certificering får du:
-            </h4>
-            <ul>
-                <li>Certificering i erhvervsrettet testning</li>
-                <li>Certificering i Big Five træktest og kognitiv færdighedstest</li>
-                <li>Kompetencer i at skabe en givende og etisk dialog omkring testresultater</li>
-                <li>Test certificering udbydes i samarbejde med HUCAMA.</li>
-            </ul>
-          
-        </div>
-    </div>
 
-    <div class="tab-pane fade" id="nav-8" role="tabpanel" aria-labelledby="nav-8-tab">
-        <div class="container-fluid extra-narrow-container pt-30">
-            <h2>Tilmelding</h2>
-            <h4>Enim nulla ut incididunt incididunt eiusmod minim reprehenderit irure.</h4>
-            <p>Ex exercitation ad ea esse labore consequat. Esse aute eu ad ipsum occaecat. Exercitation
-                cupidatat nisi proident et dolor id fugiat tempor cupidatat excepteur. Enim proident anim
-                deserunt voluptate mollit amet sint anim do dolor commodo. Ut in magna minim veniam anim velit
-                magna.</p>
-        </div>
-    </div>
+
+
     <div class="tab-pane fade" id="nav-9" role="tabpanel" aria-labelledby="nav-9-tab">
-        <div class="container-fluid extra-narrow-container pt-30">
-            <h2>Seminarer</h2>
-            <h4>Enim nulla ut incididunt incididunt eiusmod minim reprehenderit irure.</h4>
-            <p>Ex exercitation ad ea esse labore consequat. Esse aute eu ad ipsum occaecat. Exercitation
-                cupidatat nisi proident et dolor id fugiat tempor cupidatat excepteur. Enim proident anim
-                deserunt voluptate mollit amet sint anim do dolor commodo. Ut in magna minim veniam anim velit
-                magna.</p>
-            <a href="/inspiration/de-6-big-five-temaer" class="lightbrown-btn thin white">
-                Læs mere
-            </a>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="offset-lg-2 col-12 col-lg-8">
+                    <h2>Seminarer</h2>
+                    <h4>Enim nulla ut incididunt incididunt eiusmod minim reprehenderit irure.</h4>
+                    <p>Ex exercitation ad ea esse labore consequat. Esse aute eu ad ipsum occaecat. Exercitation
+                        cupidatat nisi proident et dolor id fugiat tempor cupidatat excepteur. Enim proident anim
+                        deserunt voluptate mollit amet sint anim do dolor commodo. Ut in magna minim veniam anim velit
+                        magna.</p>
+                    <a href="/inspiration/de-6-big-five-temaer" class="lightbrown-btn thin white">
+                        Læs mere
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
 </div>
@@ -190,15 +210,79 @@ layout: default
 {% assign page-contact = page.contact-person %}
 
 
-{% include sections/contact-bar.html contact=page-contact contact-color="orange" text-1="Har du brug for personlig
-rådgivning ift. anvendelsen af BIG FIVE i din organisation eller som selvstændig? Kontakt Frederikke nedenfor og lad os
-hjælpe dig." text-2="Hør om andres erfaringer med Big Five" %}
-{% include sections/virtual-text.html container-classes="no-up pb-100 extra-narrow-container" %}
+{% for employee in site.employees %}
+{% if employee.title == page.contact-person %}
+<div class="container-fluid my-5">
+    <div class="row">
+        <div class="offset-xl-2 col-12 col-xl-8">
+            <div class="row gy-3">
+                <div class="col-md-7 col-12">
+
+
+
+                    <div class="d-flex h-100 justify-content-center align-items-center bg-artichoke rounded p-3">
+                        <div>
+
+                            <p class="text-white large"><b>Har du spørgsmål til
+                                    uddannelsen?</b> Kontakt {{ employee.title }} nedenfor. Vi glæder os til at
+                                besvare
+                                dine
+                                spørgsmål.</p>
+
+                            <div class="d-flex justify-content-end">
+                                <div class="d-flex align-items-center">
+                                    <div class="flex-shrink-0">
+                                        <p class="text-white text-end mb-0"><b><a href="{{ employee.url }}"
+                                                    data-proofer-ignore>{{
+                                                    employee.title }}</a></b><br>
+
+                                            <a href="tel:{{ employee.call }}" data-proofer-ignore>+45 {{
+                                                employee.call
+                                                }}</a><br>
+                                            <a href="mailto:{{ employee.email }}" data-proofer-ignore>{{
+                                                employee.email
+                                                }}</a>
+                                        </p>
+                                    </div>
+                                    <div class="flex-grow-1 ms-3">
+                                        <img class="small-image rounded-circle"
+                                            src="{{ employee.small-portrait-image }}"
+                                            alt="{{ employee.title }}, {{ employee.description}}">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-5 col-12">
+                    <div class="d-flex h-100 justify-content-center align-items-center text-center rounded p-5"
+                        style="background: linear-gradient(rgba(19, 19, 19, 0.6), rgba(19, 19, 19, 0.6)), url('/images/graphic/mennesker.jpg'); background-position: center; background-size: cover;">
+                        <div>
+                            <h4 class="text-white text-center">Interesseret i andre uddannelser?</h4>
+                            <br>
+                            <b><a class="btn-spanish-gray text-white text-center text-white btn mt-0 mx-auto" href="/academy/">Se
+                                    mere <i class="fas fa-arrow-right"></i></a></b>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+{% endif %}
+{% endfor %}
 
 
 {% assign pageurl = page.url %}
 
-<div class="bg-light-brown">
+<div class="bg-honeydew">
     {% include sections/other-courses.html url=pageurl %}
 </div>
 
@@ -206,12 +290,6 @@ hjælpe dig." text-2="Hør om andres erfaringer med Big Five" %}
 {% include sections/vision.html %}
 
 
-<div class="bg-dust-green white">
+<div class="bg-xanadu white">
     {% include sections/newsletter.html %}
-</div>
-
-
-
-<div class="bg-light-brown">
-    {% include sections/events.html container-classes="mb-50 mt-50 pt-50" btn-color="dust-green-btn" %}
 </div>

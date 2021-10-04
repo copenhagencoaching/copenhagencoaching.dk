@@ -13,8 +13,12 @@ layout: default
                     <h1 class="text-white mb-3">{{ page.title }}</h1>
                     <hr class="white w-50 responsive mx-auto">
 
-                    <a class="btn-gray-blue btn text-uppercase" data-proofer-ignore href="#pfp-c-modal" data-toggle="modal"
-                        data-target="#pfp-c-modal"><b>Hør mere</b></a>
+                    <a class="btn-gray-blue btn" data-proofer-ignore href="#plu-c-modal" data-toggle="modal"
+                        data-target="#plu-c-modal">Hør mere</a>
+                    <br>
+
+                    <a class="btn-dark-blue-2 btn" data-proofer-ignore href="#plu-pdf-modal" data-toggle="modal"
+                        data-target="#plu-pdf-modal">Hent brochure</a>
                     <br>
                 </div>
             </div>
@@ -34,12 +38,13 @@ layout: default
 
             <div class="nav nav-tabs bold my-4 gray-pallette" id="myTab" role="tablist">
                 <a class="nav-item nav-link active" id="nav-1-tab" data-toggle="tab" href="#nav-1" role="tab"
-                    aria-controls="nav-coaching" aria-selected="false">Om uddannelsen</a>
+                    aria-controls="nav-coaching" aria-selected="false">Uddannelsen</a>
                 <a class="nav-item nav-link" id="nav-2-tab" data-toggle="tab" href="#nav-2" role="tab"
                     aria-controls="nav-2" aria-selected="false">Moduler</a>
                 <a class="nav-item nav-link" id="nav-3-tab" data-toggle="tab" href="#nav-3" role="tab"
                     aria-controls="nav-3" aria-selected="false">Deltagerprofil</a>
-
+                <a class="nav-item nav-link" id="nav-test-tab" data-toggle="tab" href="#nav-test" role="tab"
+                    aria-controls="nav-3" aria-selected="false">Testamonials</a>
                 <a class="nav-item nav-link" id="nav-5-tab" data-toggle="tab" href="#nav-5" role="tab"
                     aria-controls="nav-5" aria-selected="false">Undervisere</a>
                 <a class="nav-item nav-link" id="nav-6-tab" data-toggle="tab" href="#nav-6" role="tab"
@@ -59,15 +64,45 @@ layout: default
 
 <div class="tab-content" id="nav-tabContent">
     <div class="tab-pane fade show active" id="nav-1" role="tabpanel" aria-labelledby="nav-1-tab">
-        <div class="container-fluid">
+        <div class="container-fluid pb-4">
             <div class="row">
                 <div class="offset-lg-2 col-12 col-lg-8">
 
                     {{ page.content }}
+
+                </div>
+            </div>
+        </div>
+        <div class="bg-gainsboro">
+            <div class="container-fluid py-5">
+                <div class="row">
+                    <div class="offset-lg-2 col-12 col-lg-8">
+                        <h4>HVAD FÅR DU UD AF UDDANNELSEN?</h4>
+                        <p class="mb-1 fw-bold">Med proceslederuddannelsen bliver du bedre til:</p>
+                        <ul>
+                            <li>at styre, designe og lede processer · at have personlig opmærksomhed
+                                på håndtering af vanskeligheder i processer</li>
+                            <li>at anvende innovative og kreative redskaber i processer</li>
+                            <li>at anvende forskellige pragmatiske perspektiver på processer</li>
+                            <li>at håndtere frustrationer i organisationer</li>
+                            <li>at producere nye handlemuligheder</li>
+                            <li>at skabe og sikre følgeskab.</li>
+                        </ul>
+
+                        <p class="mb-1 fw-bold">Du for desuden:</p>
+                        <ul class="mb-4">
+                            <li>Adgang til vidensportal, værktøjer, faglitteratur, artikler og cases
+                            </li>
+                            <li>Løbende supervision og et stærkt netværk</li>
+                            <li>Big Five Personlighedstest med individuel tilbagemelding</li>
+                        </ul>
+
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+
 
 
     <div class="tab-pane fade tab-2" id="nav-2" role="tabpanel" aria-labelledby="nav-2-tab">
@@ -76,38 +111,152 @@ layout: default
             <div class="row">
                 <div class="offset-lg-2 col-12 col-lg-8">
 
+
                     <h3>HVORDAN ER UDDANNELSEN BYGGET OP?</h3>
                     <p>Uddannelsen løber over 5 online undervisningsgange, med træning og praktiske opgaver mellem de
                         enkelte undervisningsgange.</p>
-                    <p class="mb-2"><b>Uddannelsen arbejder i tre gennemgående spor:</b></p>
-                    <ul>
-                        <li class="pb-2"><em>Det individuelle – personlig udvikling – Dig selv som procesværktøj – alle
-                                deltagere får
-                                en Big 5 personlighedstest med en individuel tilbagemelding</em></li>
-                        <li class="pb-2"><em>Aktionslæring – Der arbejdes mellem undervisningsgangene med en
-                                gennemgående case fra
-                                egen virksomhed og med praktiske erfaringer, som løbende inddrages i
-                                undervisningen.</em></li>
-                        <li class="pb-2"><em>Viden, inspiration, og redskaber – Deltagerne får en varieret viden om
-                                procesledelse
-                                samt inspiration og konkrete værktøjer til arbejdet som procesleder</em></li>
-                    </ul>
+                    <hr>
+                    <p class="fs-6"><b>Uddannelsen arbejder i tre gennemgående spor:</b></p>
 
-                    <p class="mb-2"><b>Undervisningsdage:</b></p>
-                    <ul>
-                        <li class="pb-2"><em>23/11 2021 kl. 9.00 – 12.00: Introduktionsdag – Præsentation og
-                                introduktion til uddannelsen, indhold, struktur, litteratur, casevalg mm.</em></li>
-                        <li class="pb-2"><em>16/12 2021 kl. 9.00 – 12.00: Den kognitive tilgang til procesledelse - Vi
-                                arbejder med: rammer, styring, procesredskaber mm.</em></li>
-                        <li class="pb-2"><em>25/01 2022 kl. 9.00 – 12.00: Den emotionelle/psykodynamiske tilgang til
-                                procesledelse - Vi arbejder med det psykodynamiske: med stemthed, håndtering af
-                                frustrationer og modstand og med mentalisering.</em></li>
-                        <li class="pb-2"><em>01/03 2022 kl. 9.00 – 12.00: Den systemiske tilgang til procesledelse - Vi
-                                arbejder med relationel koordinering, med narrativer og med samskabelse</em></li>
-                        <li class="pb-2"><em>05/04 2022 kl. 9.00 – 12.00: Evalueringsdag - Vi præsenterer vores cases og
-                                evalueringsopgaver og reflekterer sammen om indhold og processer</em></li>
+                    <div class="row gy-4 gx-0">
+                        <div class="col-4">
+                            <div class="w-100 p-3 bg-gainsboro d-flex align-items-center text-center">
+                                <p class="mb-0"><em>Det individuelle – personlig udvikling – Dig selv som procesværktøj</em></p>
+                            </div>
 
-                    </ul>
+                        </div>
+                        <div class="col-8">
+                            <div class="w-100 p-3 bg-gainsboro h-100 d-flex align-items-center">
+                                <p class="mb-0">Alle
+                                    deltagere får en Big 5 personlighedstest med en individuel tilbagemelding.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row gy-4 gx-0">
+                        <div class="col-4">
+                            <div class="w-100 h-100 p-3 d-flex align-items-center justify-content-center">
+                                <p class="mb-0"><em>Aktionslæring</em></p>
+                            </div>
+
+                        </div>
+                        <div class="col-8">
+                            <div class="w-100 p-3 h-100 d-flex align-items-center">
+                                <p class="mb-0">Der arbejdes mellem undervisningsgangene med en gennemgående case fra
+                                    egen virksomhed og med praktiske erfaringer, som løbende inddrages i undervisningen.
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row gy-4 gx-0">
+                        <div class="col-4">
+                            <div class="w-100 p-3 bg-gainsboro h-100 d-flex align-items-center justify-content-center">
+                                <p class="mb-0"><em>Viden, inspiration, og redskaber</em></p>
+                            </div>
+
+                        </div>
+                        <div class="col-8">
+                            <div class="w-100 p-3 bg-gainsboro h-100 d-flex align-items-center">
+                                <p class="mb-0">Deltagerne får en varieret viden om procesledelse samt inspiration og
+                                    konkrete værktøjer til arbejdet som procesleder.</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <p class="fs-6 mt-5"><b>Undervisningsdage:</b></p>
+                    <div class="row px-2">
+                        <div class="col-12">
+
+                            <div class="row">
+
+                                <div class="col-6 col-md-2 p-3 d-flex align-items-center border-gainsboro">
+                                    <p class="mb-0 fw-bold">23/11/2021</p>
+                                </div>
+                                <div class="col-6 col-md-2 p-3 d-flex align-items-center border-gainsboro">
+                                    <p class="mb-0">09.00–12.00</p>
+                                </div>
+                                <div class="col-12 col-md-3 p-3 d-flex align-items-center border-gainsboro">
+                                    <p class="mb-0">Introduktionsdag</p>
+                                </div>
+                                <div class="col-12 col-md-5 p-3 d-flex align-items-center border-gainsboro">
+                                    <p class="mb-0">Præsentation og
+                                        introduktion til uddannelsen, indhold, struktur, litteratur, casevalg mm.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+
+                                <div class="col-6 col-md-2 p-3 d-flex align-items-center border-gainsboro">
+                                    <p class="mb-0 fw-bold">16/12/2021</p>
+                                </div>
+                                <div class="col-6 col-md-2 p-3 d-flex align-items-center border-gainsboro">
+                                    <p class="mb-0">09.00–12.00</p>
+                                </div>
+                                <div class="col-12 col-md-3 p-3 d-flex align-items-center border-gainsboro">
+                                    <p class="mb-0">Den kognitive tilgang til procesledelse</p>
+                                </div>
+                                <div class="col-12 col-md-5 p-3 d-flex align-items-center border-gainsboro">
+                                    <p class="mb-0">Vi
+                                        arbejder med: rammer, styring, procesredskaber mm.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+
+                                <div class="col-6 col-md-2 p-3 d-flex align-items-center border-gainsboro">
+                                    <p class="mb-0 fw-bold">25/01/2022</p>
+                                </div>
+                                <div class="col-6 col-md-2 p-3 d-flex align-items-center border-gainsboro">
+                                    <p class="mb-0">09.00–12.00</p>
+                                </div>
+                                <div class="col-12 col-md-3 p-3 d-flex align-items-center border-gainsboro">
+                                    <p class="mb-0">Den emotionelle/psykodynamiske tilgang til
+                                        procesledelse</p>
+                                </div>
+                                <div class="col-12 col-md-5 p-3 d-flex align-items-center border-gainsboro">
+                                    <p class="mb-0">Vi arbejder med det psykodynamiske: med stemthed, håndtering af
+                                        frustrationer og modstand og med mentalisering.</p>
+                                </div>
+                            </div>
+
+                            <div class="row">
+
+                                <div class="col-6 col-md-2 p-3 d-flex align-items-center border-gainsboro">
+                                    <p class="mb-0 fw-bold">01/03/2022</p>
+                                </div>
+                                <div class="col-6 col-md-2 p-3 d-flex align-items-center border-gainsboro">
+                                    <p class="mb-0">09.00–12.00</p>
+                                </div>
+                                <div class="col-12 col-md-3 p-3 d-flex align-items-center border-gainsboro">
+                                    <p class="mb-0">Den systemiske tilgang til procesledelse</p>
+                                </div>
+                                <div class="col-12 col-md-5 p-3 d-flex align-items-center border-gainsboro">
+                                    <p class="mb-0">Vi
+                                        arbejder med relationel koordinering, med narrativer og med samskabelse</p>
+                                </div>
+                            </div>
+
+                            <div class="row">
+
+                                <div class="col-6 col-md-2 p-3 d-flex align-items-center border-gainsboro">
+                                    <p class="mb-0 fw-bold">05/04/2022</p>
+                                </div>
+                                <div class="col-6 col-md-2 p-3 d-flex align-items-center border-gainsboro">
+                                    <p class="mb-0">09.00–12.00</p>
+                                </div>
+                                <div class="col-12 col-md-3 p-3 d-flex align-items-center border-gainsboro">
+                                    <p class="mb-0">Evalueringsdag</p>
+                                </div>
+                                <div class="col-12 col-md-5 p-3 d-flex align-items-center border-gainsboro">
+                                    <p class="mb-0">Vi præsenterer vores cases og
+                                        evalueringsopgaver og reflekterer sammen om indhold og processer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
                 </div>
             </div>
         </div>
@@ -133,6 +282,20 @@ layout: default
 
     </div>
 
+    <div class="tab-pane fade" id="nav-test" role="tabpanel" aria-labelledby="nav-test-tab">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="offset-lg-2 col-12 col-lg-8">
+
+                    <h2>HVEM HENVENDER UDDANNELSEN SIG TIL?</h2>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
     <div class="tab-pane fade" id="nav-5" role="tabpanel" aria-labelledby="nav-5-tab">
         <div class="container-fluid">
             <div class="row">
@@ -140,7 +303,7 @@ layout: default
                     <h3 class="mb-4 text-uppercase">Gennemgående undervisere</h3>
 
                     <div>
-                        <div class="bg-coral-blue p-3">
+                        <div class="bg-gainsboro p-3">
 
 
                             <div class="d-flex align-items-center">
@@ -150,7 +313,7 @@ layout: default
                                         alt="Lars Nyborg">
                                 </div>
                                 <div class="flex-grow-1 ms-3">
-                                    <h4>Lars Nyborg</h4>
+                                    <h4 text->Lars Nyborg</h4>
                                     <p>Associeret partner</p>
                                 </div>
 
@@ -162,7 +325,7 @@ layout: default
 
                     </div>
                     <div>
-                        <div class="p-3">
+                        <div class="py-3 ps-3">
 
                             <div class="d-flex align-items-center">
                                 <div class="flex-grow-1 me-3 text-end">
@@ -170,7 +333,8 @@ layout: default
                                     <p>Direktør i Copenhagen Coaching Center</p>
                                 </div>
                                 <div class="flex-shrink-0">
-                                    <img class="medium-image" src="/images/about/medarbejdere-sort-hvid/andreas-bering-sort-hvid.png"
+                                    <img class="medium-image"
+                                        src="/images/about/medarbejdere-sort-hvid/andreas-bering-sort-hvid.png"
                                         alt="Andreas Bering">
                                 </div>
 
@@ -180,7 +344,7 @@ layout: default
 
 
                     </div>
-                   
+
                 </div>
             </div>
 
@@ -195,20 +359,13 @@ layout: default
                 <div class="row">
                     <div class="offset-lg-3 col-12 col-lg-6">
                         <h3 class="mb-4 text-uppercase">Pris</h3>
-                        <p>Etiam feugiat lorem non metus. Nam ipsum risus, rutrum vitae, vestibulum eu, molestie vel, lacus. Duis leo. In ac felis quis tortor malesuada pretium. Aliquam eu nunc. Proin faucibus arcu quis ante. Quisque id mi. Fusce fermentum.</p>
+                        <p>Prisen for Procesleder uddannelsen er 12.500,- (Ekskl. moms)</p>
 
                     </div>
                 </div>
             </div>
         </div>
 
-
-
-
-        <div class="container-fluid text-center py-5">
-            <a class="btn dark-border-button" href="/pfp/adgangskrav">Se adgangskrav <i
-                    class="fas fa-long-arrow-alt-right"></i></a>
-        </div>
 
 
 
@@ -326,10 +483,10 @@ layout: default
 
 
 
-                    <div class="d-flex h-100 justify-content-center align-items-center bg-dust-blue rounded p-3">
+                    <div class="d-flex h-100 justify-content-center align-items-center bg-black-coral rounded p-3">
                         <div>
 
-                            <p class="text-white large"><b>Har du spørgsmål til
+                            <p class="large text-white"><b>Har du spørgsmål til
                                     uddannelsen?</b> Kontakt {{ employee.title }} nedenfor. Vi glæder os til at
                                 besvare
                                 dine
@@ -338,7 +495,7 @@ layout: default
                             <div class="d-flex justify-content-end">
                                 <div class="d-flex align-items-center">
                                     <div class="flex-shrink-0">
-                                        <p class="text-white text-end mb-0"><b><a href="{{ employee.url }}"
+                                        <p class="text-end mb-0 text-white"><b><a href="{{ employee.url }}"
                                                     data-proofer-ignore>{{
                                                     employee.title }}</a></b><br>
 
@@ -368,7 +525,8 @@ layout: default
                         <div>
                             <h4 class="text-white text-center">Interesseret i andre uddannelser?</h4>
                             <br>
-                            <b><a class="btn-dust-green text-center text-white btn mt-0 mx-auto" href="/academy/">Se
+                            <b><a class="btn-spanish-gray text-white text-center text-white btn mt-0 mx-auto"
+                                    href="/academy/">Se
                                     mere <i class="fas fa-arrow-right"></i></a></b>
                         </div>
                     </div>
@@ -406,7 +564,7 @@ layout: default
 
 
 
-<div class="bg-dark-blue-2">
+<div class="bg-cadet-gray">
     {% include sections/newsletter.html %}
 </div>
 

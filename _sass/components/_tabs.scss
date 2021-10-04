@@ -1,21 +1,54 @@
 // pallets
 
+
+
+
+// green pallette
+
+.nav-tabs.green-pallette {
+    border: none;
+    justify-items: center;
+    justify-content: space-between;
+    column-gap: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+    .nav-link.active {
+        background-color: $xanadu;
+        border: none;
+        color: #ffffff !important;
+    }
+    .nav-link {
+        background-color: $artichoke;
+        border-radius: 0;
+        color: #ffffff !important;
+        width: 100%;
+        @media (max-width: 1199.98px) {
+            margin-bottom: 5px;
+        }
+    }
+}
+
+// gray pallette 
+
 .nav-tabs.gray-pallette {
     border: none;
     justify-items: center;
-    justify-content: center;
+    justify-content: space-between;
     column-gap: 5px;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 
     .nav-link.active {
-        background-color: #A5ABAF;
+        background-color: $slate-gray;
         border: none;
-        color: #444444 !important;
+        color: #ffffff !important;
     }
     .nav-link {
-        background-color: #B1C5CA;
+        background-color: $cadet-gray;
         border-radius: 0;
-        color: #444444 !important;
+        color: #ffffff !important;
+        width: 100%;
         @media (max-width: 1199.98px) {
             margin-bottom: 5px;
         }
@@ -31,6 +64,9 @@
     column-gap: 5px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    &.seven-tabs {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
 
     @media (max-width: 1199.98px) {
         display: flex !important;
@@ -40,13 +76,13 @@
 }
 
 .nav-tabs.fade-pallette .nav-link.active {
-    background-color: #846E6D;
+    background-color: $deep-taupe;
     border: none;
     color: white !important;
 }
 
 .nav-tabs.fade-pallette .nav-link {
-    background-color: #A4836B;
+    background-color: $beaver;
     color: white !important;
     border-radius: 0;
     border: none;

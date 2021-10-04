@@ -1,0 +1,108 @@
+$eerie-black: #222222;
+$dark-lava: #49413D;
+
+// sand colors
+$platinum: #E4E3DD;
+$beaver: #A4836B;
+$deep-taupe: #846E6D;
+$cultured: #F6F5F3;
+$copper: #D9663E;
+$quick-silver: #aba39a;
+$silver-chalice: #B7B3B4;
+
+// blue colors
+$black-coral: #606a75;
+$opal: #B1C5CA;
+$gainsboro: #E0EBEE;
+$cadet-gray: #9dacb2;
+$slate-gray: #717E84;
+
+
+// green colors
+$honeydew: #E4F1EB;
+$ash-gray: #A8B3AB;
+$xanadu: #707665;
+$artichoke: #969B8D;
+$spanish-gray: #969C92;
+$ebony: #5D6158;
+
+// yellow colors
+
+$sheen-gold: #d1a337;
+
+$colors: ('eerie-black': $eerie-black,
+  'beaver': $beaver,
+  'deep-taupe': $deep-taupe,
+  'cultured': $cultured,
+  'black-coral': $black-coral,
+  'opal': $opal,
+  'gainsboro': $gainsboro,
+  'cadet-gray': $cadet-gray,
+  'honeydew': $honeydew,
+  'platinum': $platinum,
+  'ash-gray': $ash-gray,
+  'slate-gray': $slate-gray,
+  'copper': $copper,
+  'artichoke': $artichoke,
+  'xanadu': $xanadu,
+  'spanish-gray': $spanish-gray,
+  'ebony': $ebony,
+  'quick-silver': $quick-silver,
+  'dark-lava': $dark-lava,
+  'silver-chalice': $silver-chalice);
+
+
+
+// generate backgrounds and text color
+
+@mixin gen-props($prefix, $property) {
+
+  @each $color-name,
+  $color in $colors {
+    .#{$prefix}-#{$color-name} {
+      #{$property}: $color
+    }
+  }
+}
+
+@include gen-props('text', 'color');
+@include gen-props('bg', 'background');
+
+// generate borders
+
+@mixin gen-borders($prefix) {
+
+  @each $color-name,
+  $color in $colors {
+    .#{$prefix}-#{$color-name} {
+      #{$prefix}: 1px solid $color
+    }
+  }
+}
+
+@include gen-borders('border');
+
+
+// generate buttons
+
+@mixin gen-btn($prefix, $prop) {
+
+  @each $color-name,
+  $color in $colors {
+    .#{$prefix}-#{$color-name} {
+      #{$prop}: #{$color} !important;
+      margin-top: 20px;
+      border-radius: 5px;
+      text-emphasis: none;
+      text-align: center;
+      border: none;
+      padding: 7px 12px;
+
+      &:hover {
+        opacity: .7;
+      }
+
+    }
+  }
+}
+  @include gen-btn('btn', 'background-color');

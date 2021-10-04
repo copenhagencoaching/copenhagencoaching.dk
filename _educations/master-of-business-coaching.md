@@ -1,7 +1,7 @@
 ---
 order: 1
 title: Master of Business Coaching
-layout: mbc-2
+layout: mbc-campaign
 image: "/images/international/i3.jpg"
 contact-person: Frederikke Winther
 header: Master of Business Coaching
@@ -13,6 +13,135 @@ emails:
 event-title: Kommende hold
 location: Blegdamsvej 104C, 3. sal, baghuset th., 2100 København Ø
 special: false
+semesters:
+- title: MBC35 - Semester 1 - Forår 2022
+  price: 45.900 (Ekskl. moms)
+  dates: 9. februar 2022 - 16. juni 2022
+  modules:
+  - date: 9. februar
+    day: 1
+    time: 10.00 - 17.00
+    name: Coaching og syntesemodellen
+    place: Blegdamsvej
+  - date: 10. februar
+    day: 2
+    time: 10.00 - 17.00
+    name: Kognitiv 1
+    place: Blegdamsvej
+  - date: 21. marts
+    day: 3
+    time: 10.00 - 17.00
+    name: Psyko-dynamisk 1
+    place: Blegdamsvej
+  - date: 22. marts
+    day: 4
+    time: 10.00 - 17.00
+    name: Systemisk-narrativ 1
+    place: Blegdamsvej
+  - date: 6. april
+    day: 5
+    time: 10.00 - 17.00
+    name: Kognitiv 2
+    place: Blegdamsvej
+  - date: 7. april
+    day: 6
+    time: 10.00 - 17.00
+    name: Psyko-dynamisk  2
+    place: Blegdamsvej
+  - date: 3. maj
+    day: 7
+    time: 10.00 - 17.00
+    name: Systemisk-narrativ 2
+    place: Blegdamsvej
+  - date: 4. maj
+    day: '-'
+    time: 10.00 - 17.00
+    name: Eksamen
+    place: Blegdamsvej
+  - date: 5. maj
+    day: '-'
+    time: 10.00 - 17.00
+    name: Eksamen
+    place: Blegdamsvej
+  - date: 14. juni
+    day: '-'
+    time: 10.00 - 17.00
+    name: Eksamen
+    place: Blegdamsvej
+  - date: 15. juni
+    day: '-'
+    time: 10.00 - 17.00
+    name: Eksamen
+    place: Blegdamsvej
+  - date: 16. juni
+    day: '-'
+    time: 10.00 - 17.00
+    name: Eksamen
+    place: Blegdamsvej
+- title: MBC35 - Semester 1 - Forår 2022
+  price: 45.900 (Ekskl. moms)
+  dates: 9. februar 2022 - 16. juni 2022
+  modules:
+  - date: 9. februar
+    day: 1
+    time: 10.00 - 17.00
+    name: Coaching og syntesemodellen
+    place: Blegdamsvej
+  - date: 10. februar
+    day: 2
+    time: 10.00 - 17.00
+    name: Kognitiv 1
+    place: Blegdamsvej
+  - date: 21. marts
+    day: 3
+    time: 10.00 - 17.00
+    name: Psyko-dynamisk 1
+    place: Blegdamsvej
+  - date: 22. marts
+    day: 4
+    time: 10.00 - 17.00
+    name: Systemisk-narrativ 1
+    place: Blegdamsvej
+  - date: 6. april
+    day: 5
+    time: 10.00 - 17.00
+    name: Kognitiv 2
+    place: Blegdamsvej
+  - date: 7. april
+    day: 6
+    time: 10.00 - 17.00
+    name: Psyko-dynamisk  2
+    place: Blegdamsvej
+  - date: 3. maj
+    day: 7
+    time: 10.00 - 17.00
+    name: Systemisk-narrativ 2
+    place: Blegdamsvej
+  - date: 4. maj
+    day: '-'
+    time: 10.00 - 17.00
+    name: Eksamen
+    place: Blegdamsvej
+  - date: 5. maj
+    day: '-'
+    time: 10.00 - 17.00
+    name: Eksamen
+    place: Blegdamsvej
+  - date: 14. juni
+    day: '-'
+    time: 10.00 - 17.00
+    name: Eksamen
+    place: Blegdamsvej
+  - date: 15. juni
+    day: '-'
+    time: 10.00 - 17.00
+    name: Eksamen
+    place: Blegdamsvej
+  - date: 16. juni
+    day: '-'
+    time: 10.00 - 17.00
+    name: Eksamen
+    place: Blegdamsvej
 hold:
 - MBC35 - 1. semester - Forår 2022 - start 9. februar
 - MBC34 - 2. semester - Forår 2022 - start 10. januar

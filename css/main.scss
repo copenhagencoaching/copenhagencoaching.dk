@@ -3,6 +3,15 @@
 @charset "utf-8";
 
 
+// utillities
+@import "utillities/mixins-variables.scss";
+@import "utillities/boxes.scss";
+@import "utillities/buttons.scss";
+@import "utillities/images.scss";
+@import "utillities/links.scss";
+@import "utillities/tables.scss";
+@import "utillities/text.scss";
+
 // components
 @import "components/cards.scss";
 @import "components/containers.scss";
@@ -12,12 +21,3 @@
 @import "components/slider.scss";
 @import "components/tabs.scss";
 
-// utillities
-
-@import "utillities/boxes.scss";
-@import "utillities/buttons.scss";
-@import "utillities/colors.scss";
-@import "utillities/images.scss";
-@import "utillities/links.scss";
-@import "utillities/tables.scss";
-@import "utillities/text.scss";
