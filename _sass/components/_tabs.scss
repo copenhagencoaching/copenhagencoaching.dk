@@ -12,6 +12,11 @@
     column-gap: 5px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    @media (max-width: 1199.98px) {
+        display: flex !important;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
 
     .nav-link.active {
         background-color: $xanadu;
@@ -24,10 +29,13 @@
         color: #ffffff !important;
         width: 100%;
         @media (max-width: 1199.98px) {
+            width: unset !important;
             margin-bottom: 5px;
         }
     }
 }
+
+
 
 // gray pallette 
 
@@ -38,6 +46,11 @@
     column-gap: 5px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    @media (max-width: 1199.98px) {
+        display: flex !important;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
 
     .nav-link.active {
         background-color: $slate-gray;
@@ -50,6 +63,7 @@
         color: #ffffff !important;
         width: 100%;
         @media (max-width: 1199.98px) {
+            width: unset !important;
             margin-bottom: 5px;
         }
     }
