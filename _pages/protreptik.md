@@ -39,6 +39,7 @@ Vi har i mange år holdt vores årlige masterclass i protreptik, både udenfor C
 
 Vi har igennem de sidste 10 år været vidt omkring og lavet mindre forløb i og om protreptik, lige fra coaching-konferencer rundt om i verden til interne seminarer og workshops i danske organisationer, kommuner, private virksomheder samt foreninger, ledergrupper, bestyrelser, m.m. Vores erfaring er stadig, at deltagerne finder protreptikken spændende, givtig og gavnlig. Nogle oplever den også vanskelig, og igen andre finder det svært bare at sige ordet: “Protreptik”. Det gælder også i sådanne sammenhænge, at vi holder af at bruge tiden, vi har sammen med jer, på en blanding af input om teori, principper, greb og metoder og træning og små øvelser, så vi sammen kan gøre os nogle erfaringer om, hvad og hvordan det virker.
 
+
 ### Protreptik i praksis
 
 I 2015 lykkedes det Mette Mejlhede og Kim Gørtz at få skrevet og udgivet: “Protreptik i praksis”.

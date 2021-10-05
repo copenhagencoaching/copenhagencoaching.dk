@@ -60,7 +60,7 @@ $colors: ('eerie-black': $eerie-black,
   @each $color-name,
   $color in $colors {
     .#{$prefix}-#{$color-name} {
-      #{$property}: $color
+      #{$property}: $color !important;
     }
   }
 }
@@ -75,7 +75,7 @@ $colors: ('eerie-black': $eerie-black,
   @each $color-name,
   $color in $colors {
     .#{$prefix}-#{$color-name} {
-      #{$prefix}: 1px solid $color
+      #{$prefix}: 1px solid $color;
     }
   }
 }

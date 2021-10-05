@@ -18,6 +18,16 @@
     .navbar {
         background-color: white;
         color: #707070 !important;
+
+        .navbar-collapse {
+            text-align: center;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            .nav-link {
+                font-weight: 500 !important;
+                font-size: 1rem;
+            }
+        }
     }
    
  }

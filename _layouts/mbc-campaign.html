@@ -91,7 +91,7 @@ layout: default
                                 <p class="text-white mb-0"><b>Pris ekskl. moms</b><br>45.900,-</p>
                             </div>
                             <div class="col-2 d-flex align-items-center">
-                                <p class="text-white mb-0"><b>Varighed</b><br>7 dage</p>
+                                <p class="text-white mb-0"><b>Varighed</b><br>7-8 dage</p>
                             </div>
                             <div class="col-2 d-flex align-items-center">
                                 <p class="text-white mb-0"><b>Moduler</b><br>8 moduler</p>
@@ -116,7 +116,7 @@ layout: default
                     <div class="accordion" id="accordionPanelsStayOpenExample">
                         {% for semester in page.semesters %}
                         <div class="accordion-item">
-                            <div class="accordion-header bg-platinum" id="heading{{ forloop.index }}">
+                            <div class="accordion-header" id="heading{{ forloop.index }}">
                                 <button class="accordion-button collapsed px-5 py-3 bg-platinum" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#collapse{{ forloop.index }}"
                                     aria-expanded="true" aria-controls="collapse{{ forloop.index }}">
@@ -169,7 +169,7 @@ layout: default
 
                                     {% for module in semester.modules %}
                                     {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-                                    <div class="pt-3 ps-3 pe-3{% if thecycle == 'odd' %} bg-cultured{% endif %}">
+                                    <div class="pt-3 ps-3 pe-3{% if thecycle == 'odd' %} bg-platinum{% endif %}">
                                         <div class="row">
                                             <div class="col-2">
                                                 <p>
@@ -414,170 +414,9 @@ layout: default
                 </div>
             </div>
         </div>
-        <div class="container-fluid py-5">
-            <h2 class="mb-4">Moduler og dage</h2>
-            <div class="row gx-0">
-                <div class="col bg-black-coral p-3">
-                    <p class="text-white mb-0">Semester</p>
-                </div>
-                <div class="col bg-black-coral p-3">
-                    <p class="text-white mb-0">Dag 1</p>
-                </div>
-                <div class="col bg-black-coral p-3">
-                    <p class="text-white mb-0">Dag 2</p>
-                </div>
-                <div class="col bg-black-coral p-3">
-                    <p class="text-white mb-0">Dag 3</p>
-                </div>
-                <div class="col bg-black-coral p-3">
-                    <p class="text-white mb-0">Dag 4</p>
-                </div>
-                <div class="col bg-black-coral p-3">
-                    <p class="text-white mb-0">Dag 5</p>
-                </div>
-                <div class="col bg-black-coral p-3">
-                    <p class="text-white mb-0">Dag 6</p>
-                </div>
-                <div class="col bg-black-coral p-3">
-                    <p class="text-white mb-0">Dag 7</p>
-                </div>
-                <div class="col bg-black-coral p-3">
-                    <p class="text-white mb-0">Dag 8</p>
-                </div>
-
-            </div>
-
-            <div class="row gx-0">
-                <div class="col p-3">
-                    <p>Semester 1</p>
-                </div>
-                <div class="col p-3">
-                    <p>Coaching og syntesemodellen</p>
-                </div>
-                <div class="col p-3">
-                    <p>Kognitiv 1</p>
-                </div>
-                <div class="col p-3">
-                    <p>Psyko-dynamisk 1</p>
-                </div>
-                <div class="col p-3">
-                    <p>Systemisk-narrativ 1</p>
-                </div>
-                <div class="col p-3">
-                    <p>Kognitiv 2</p>
-                </div>
-                <div class="col p-3">
-                    <p>Psyko-dynamisk 2</p>
-                </div>
-                <div class="col p-3">
-                    <p>Systemisk-narrativ 2</p>
-                </div>
-                <div class="col p-3">
-                    <p>-</p>
-                </div>
-            </div>
-
-            <div class="row gx-0">
-                <div class="col p-3 bg-platinum">
-                    <p>Semester 2</p>
-                </div>
-                <div class="col p-3 bg-platinum">
-                    <p>Kognitiv 3</p>
-                </div>
-                <div class="col p-3 bg-platinum">
-                    <p>Psyko-dynamisk 3</p>
-                </div>
-                <div class="col p-3 bg-platinum">
-                    <p>Systemisk-narrativ 3 del 1</p>
-                </div>
-                <div class="col p-3 bg-platinum">
-                    <p>Kognitiv 4 og Psyko-dynamisk 4</p>
-                </div>
-                <div class="col p-3 bg-platinum">
-                    <p>Team coaching</p>
-                </div>
-                <div class="col p-3 bg-platinum">
-                    <p>Team coaching</p>
-                </div>
-                <div class="col p-3 bg-platinum">
-                    <p>Tredje generations coaching</p>
-                </div>
-                <div class="col p-3 bg-platinum">
-                    <p>Træning og syntese</p>
-                </div>
-
-            </div>
-
-            <div class="row gx-0">
-                <div class="col p-3">
-                    <p>Semester 3</p>
-                </div>
-                <div class="col p-3">
-                    <p>Intro til protreptik</p>
-                </div>
-                <div class="col p-3">
-                    <p>Protreptik 1</p>
-                </div>
-                <div class="col p-3">
-                    <p>Protreptik 2</p>
-                </div>
-                <div class="col p-3">
-                    <p>Protreptik 3</p>
-                </div>
-                <div class="col p-3">
-                    <p>Syntese og træning</p>
-                </div>
-                <div class="col p-3">
-                    <p>Øvelser og træning</p>
-                </div>
-                <div class="col p-3">
-                    <p>Øvelser og træning</p>
-                </div>
-                <div class="col p-3">
-                    <p>Opsamling</p>
-                </div>
-            </div>
-
-            <div class="row gx-0">
-                <div class="col p-3 bg-platinum">
-                    <p>Semester 4</p>
-                </div>
-                <div class="col p-3 bg-platinum">
-                    <p>Introduktion</p>
-                </div>
-                <div class="col p-3 bg-platinum">
-                    <p>Kognitionsfilosofi</p>
-                </div>
-                <div class="col p-3 bg-platinum">
-                    <p>Kropsfilosfi</p>
-                </div>
-                <div class="col p-3 bg-platinum">
-                    <p>Eksistensfilosofi</p>
-                </div>
-                <div class="col p-3 bg-platinum">
-                    <p>Dialogfilosofi</p>
-                </div>
-                <div class="col p-3 bg-platinum">
-                    <p>Differensfilosofi</p>
-                </div>
-                <div class="col p-3 bg-platinum">
-                    <p>Eksperimentel pragmatik</p>
-                </div>
-                <div class="col p-3 bg-platinum">
-                    <p>Syntese</p>
-                </div>
-
-            </div>
-
+        <div class="container-fluid pt-5 pb-3">
+            {% include mbc/moduls.html %}
         </div>
-
-
-
-
-
-
-
-
     </div>
 
     <div class="tab-pane fade" id="nav-3" role="tabpanel" aria-labelledby="nav-3-tab">
@@ -586,13 +425,14 @@ layout: default
                 <div class="col-12 offset-lg-2 col-lg-8">
                     <h2>Deltagerprofil</h2>
                     <h4>Enim nulla ut incididunt incididunt eiusmod minim reprehenderit irure.</h4>
-                    <p class="mb-0">Ex exercitation ad ea esse labore consequat. Esse aute eu ad ipsum occaecat. Exercitation
+                    <p class="mb-0">Ex exercitation ad ea esse labore consequat. Esse aute eu ad ipsum occaecat.
+                        Exercitation
                         cupidatat nisi proident et dolor id fugiat tempor cupidatat excepteur. Enim proident anim
                         deserunt voluptate mollit amet sint anim do dolor commodo. Ut in magna minim veniam anim velit
                         magna.</p>
                 </div>
             </div>
-          
+
         </div>
     </div>
     <div class="tab-pane fade" id="nav-4" role="tabpanel" aria-labelledby="nav-4-tab">
@@ -899,199 +739,18 @@ layout: default
 
     </div>
     <div class="tab-pane fade" id="nav-7" role="tabpanel" aria-labelledby="nav-7-tab">
-        <div class="container-fluid extra-narrow-container pt-30">
-            {% include mbc/faq.html %}
-        </div>
-    </div>
-
-
-    <div class="modal fade" id="mbc-application-modal" tabindex="-1" role="dialog"
-        aria-labelledby="mbc-application-modal" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h2 class="modal-title" id="mbc-application">Ansøgning</h2>
-
-                    <button type="button" class="close close-modal-button" data-dismiss="modal" aria-label="Close">
-                        <span>&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <p>Hvis du har spørgsmål omkring uddannelsen, din ansøgning eller andet er du velkommen til at
-                        ringe
-                        til Frederikke Winther på
-
-                        <a href="tel:21 19 47 57">21 19 47 57</a> – eller sende os en sms om, hvornår det passer dig
-                        at
-                        blive ringet
-                        op. Du kan også altid skrive til <a
-                            href="mailto:info@copenhagencoaching.dk">info@copenhagencoaching.dk</a>
-                        for mere info.
-
-                        Din ansøgning nedenfor er ikke bindende. Din optagelse vil udover nedenstående oplysninger,
-                        også
-                        bero på en
-                        personlig samtale.
-
-                        Vi glæder os til at høre fra dig.
-                    </p>
-
-
-                    <br>
-                    <form class="white-form" action="https://formspree.io/f/mzbyzbyg" method="POST"
-                        enctype="multipart/form-data">
-
-
-
-
-                        <select class="input-form udd mbc-hold" id="mbc-hold" name="mbc-hold">
-                            <option value="hold">Vælg hold</option>
-                            {% for h in page.semesters %}
-                            <option value="{{ h.title }}">{{ h.title }}</option>
-                            {% endfor %}
-
-                        </select>
-
-                        <input type="hidden" name="uddannelse" value="{{ page.title }}" />
-                        <input type="text" name="FNAME" placeholder="Fornavn*" required>
-                        <input type="text" name="LNAME" placeholder="Efternavn*" required>
-                        <input type="text" name="virksomhed" placeholder="Virksomhed">
-                        <label><b>Hvem skal betale?</b></label>
-                        <br>
-                        <label>
-                            <input type="radio" class="checkbox privat" checked id="privat" name="betaling"
-                                value="privat">
-                            Privat</label>
-                        <br>
-                        <label class="mb-20">
-                            <input type="radio" class="checkbox virksomhed" id="virksomhed" name="betaling"
-                                value="virksomhed">
-                            Virksomhed</label>
-                        <br>
-                        <div id="virksomhed-box">
-
-
-                        </div>
-
-                        <input type="text" name="adress" placeholder="Fakturerings adresse*" required>
-                        <div class="grid-2">
-                            <input type="text" name="zip-code" placeholder="Postnummer*" required>
-                            <input type="text" name="town" placeholder="By*">
-                        </div>
-
-
-
-                        <input type="tel" name="arb-tlf" pattern="[0-9]{8}" placeholder="Arb. tlf.*" required>
-                        <input type="tel" name="mobile" pattern="[0-9]{8}" placeholder="Mobil">
-                        <input type="email" name="email" placeholder="E-mail*" required>
-
-
-
-                        <textarea name="besked" cols="30" rows="10" placeholder="Evt. kommentar"></textarea>
-                        <label><b>Uddannelsesmæssig baggrund:</b><br>
-                            <i>Skriv venligst dine formelle uddannelser</i></label>
-                        <textarea name="uddannelses-baggrund" cols="30" rows="10"></textarea>
-
-                        <label><b>Relevante kurser og efteruddannelser:</b><br>
-                            <i>Herunder registrerede alternative uddannelser</i></label>
-                        <textarea name="relevante-kurser" cols="30" rows="10"></textarea>
-
-                        <label><b>Relevant livs- og erhvervserfaring:</b></label>
-                        <textarea name="livs-erhvervserfaring" cols="30" rows="10"></textarea>
-
-
-                        <label><b>Personlig motivation for at søge optagelse:</b></label>
-                        <textarea name="motivation" cols="30" rows="10"></textarea>
-
-                        <!--      <label><b>Jeg søger optagelse via:</b><br>
-                <input class="checkbox" type="radio" id="male" name="kvote" value="§1"> §1 <br><input class="checkbox" type="radio" id="male" name="kvote" value="§2"> §2 <br><input class="checkbox" type="radio" id="male" name="kvote" value="§3"> §3</label>
-                <br><a href="/pfp/adgangskrav/" target="_blank" class="small">Læs om kvoter og adgangskrav her</a> -->
-
-                        <!--  <label><b>Merit:</b><br>
-        <input class="checkbox" type="checkbox" name="merit"/>
-        Jeg søger meritoverførsel fra anden tilsvarende psykoterapeutuddannelse</label><br>
-      <br> -->
-
-                        <br>
-                        <label class="mb-0" id="file-upload">
-                            <b>Vedhæft relevante dokumenter:</b>
-                            <input type="file" name="upload"
-                                accept=".doc,.docx,.pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document">
-                        </label>
-                        <br>
-                        <label>
-                            <a href="#flere" class="black-coral-btn faded small thin add-more-files">Tilføj
-                                flere</a>
-                        </label>
-                        <br><br>
-                        <label><b>Hvor har du hørt om os?:</b></label><br>
-                        <label><input class="checkbox" type="checkbox" name="hoert-om-os" value="Google" />
-                            Google</label>
-                        <br>
-                        <label><input class="checkbox" type="checkbox" name="hoert-om-os" value="facebook" />
-                            Facebook</label>
-                        <br>
-                        <label>
-                            <input class="checkbox" type="checkbox" name="hoert-om-os" value="instagram" />
-                            Instagram
-                        </label>
-                        <br>
-                        <label><input class="checkbox" type="checkbox" name="hoert-om-os" value="linkedin" />
-                            LinkedIn</label>
-                        <br>
-                        <label><input class="checkbox" type="checkbox" name="hoert-om-os" value="anbefaling" />
-                            Anbefaling
-                            fra andre</label>
-                        <br>
-                        <label><input class="checkbox" type="checkbox" name="hoert-om-os" value="andet" />
-                            Andet</label>
-
-
-
-
-                        <br><br>
-                        <label>
-                            <input class="checkbox" type="checkbox" name="_optin" /> Jeg vil gerne modtage
-                            CCC's nyhedsbrev via mail.
-                        </label>
-                        <br>
-                        <br>
-                        <label>
-                            <b>Samtykkeerklæring*</b><br>
-                            <input class="checkbox" type="checkbox" name="samtykke" required /> <span
-                                class="small inline">Jeg giver samtykke til, at CCC må bruge
-                                mine oplysninger til at behandle min ansøgning. Derudover giver jeg samtykke til, at
-                                CCC
-                                opbevarer og
-                                behandler mine persondata som er beskrevet i CCC's <a
-                                    href="/privatlivspolitik/">privatlivspolitik</a>.</span>
-                        </label>
-                        <input type="hidden" name="ansvarlig"
-                            value="{% for email in page.emails %}{% if forloop.last %}{{ email }}{% else %}{{ email }},{% endif %}{% endfor %}" />
-
-                        <br>
-
-
-                        <br>
-
-
-                        <!-- your other form fields go here -->
-
-                        <button class="black-coral-btn w-100 large thin capped" type="submit">Ansøg</button>
-
-                    </form>
-
-
-                    <br>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="offset-lg-2 col-lg-8 col-12">
+                    {% include mbc/faq.html %}
                 </div>
             </div>
+
         </div>
     </div>
 
-    {% capture reg-url %}?n={{ page.title | uri_escape }}{% endcapture %}
 
 
-    {% assign page-contact = page.contact-person %}
 
 </div>
 {% for employee in site.employees %}
@@ -1164,9 +823,9 @@ layout: default
 {% endif %}
 {% endfor %}
 
-<div class="container-fluid pb-5">
+<div class="container-fluid pb-4 text-center">
     <div class="row">
-        <div class="offset-lg-2 col-12 col-lg-8">
+        <div class="offset-lg-3 col-12 col-lg-6">
             {% include sections/virtual-text.html %}
         </div>
     </div>
