@@ -5,7 +5,7 @@ under-title: Kims seminarer
 subtitle: Februar
 event-type: Seminar
 image: /images/about/employees/kim-gørtz.jpg
-description: En tetralogisk seminarrække om dannelse og etik i den moderne ledelsespraksis - August event udskudt – ny dato annonceres snarest
+description: En tetralogisk seminarrække om dannelse og etik i den moderne ledelsespraksis - events udskudt – ny dato annonceres snarest
 tags:
 - community
 - eventgroup

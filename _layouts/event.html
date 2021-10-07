@@ -39,11 +39,15 @@ layout: default
       {% assign monthName = "December" %}
       {% endif %}
 
+      {% if page.late or page.late == true %}
+      <p class="text-uppercase text-white"><b>Dato udskudt</b></p>
+      {% else %}
       {% if page.only-month == true %}
       <h3>{{ monthName }}</h3>
 
       {% else %}
       <h3 class="text-white">{{ page.date | date: "%d. "}} {{ monthName }}{{ page.date | date: " %Y"}}</h3>
+      {% endif %}
       {% endif %}
       <h1 class="text-white">{{ page.title }}</h1>
 
@@ -63,22 +67,24 @@ layout: default
           {% else %}
 
           <div class="row gx-5">
-            <div class="col-4"><div>
-              {% if page.past %}
-              <p>Arrangementet er afholdt</p>
-              {% else %}
-              <p class="fs-6 mb-2"><b class="text-uppercase">Pris:</b><br>{{ page.price }}{% if page.ex-moms == true %} (ekskl. moms){%
-                endif %}
-              </p>
-              {% if page.community-free == true %}
-              <p class="text-uppercase mb-0"><b>GRATIS</b> for medlemmer af CCC Community</p>
-              {% endif %}
-              {% if page.community-price %}
-              <p class="text-uppercase mb-0"><b>{{ page.community-price }}</b>{% if page.ex-moms == true %} (ekskl.
+            <div class="col-4">
+              <div>
+                {% if page.past %}
+                <p>Arrangementet er afholdt</p>
+                {% else %}
+                <p class="fs-6 mb-2"><b class="text-uppercase">Pris:</b><br>{{ page.price }}{% if page.ex-moms == true
+                  %} (ekskl. moms){%
+                  endif %}
+                </p>
+                {% if page.community-free == true %}
+                <p class="text-uppercase mb-0"><b>GRATIS</b> for medlemmer af CCC Community</p>
+                {% endif %}
+                {% if page.community-price %}
+                <p class="text-uppercase mb-0"><b>{{ page.community-price }}</b>{% if page.ex-moms == true %} (ekskl.
                   moms){%
                   endif %} for medlemmer af CCC Community</p>
-              {% endif %}
-            </div>
+                {% endif %}
+              </div>
             </div>
             <div class="col-4">
               <div>
@@ -110,11 +116,14 @@ layout: default
                 {% elsif postmonth == "12" %}
                 {% assign monthName = "December" %}
                 {% endif %}
-
+                {% if page.late or page.late == true %}
+                <p class="text-uppercase"><b>Dato udskudt</b></p>
+                {% else %}
                 {% if page.only-month == true %}
                 <p class="fs-6 mb-2"><b class="text-uppercase">Dato:</b><br>{{ monthName }}</p>
                 {% else %}
-                <p class="fs-6 mb-2"><b class="text-uppercase">Tid:</b><br>{{ page.date | date: "%d. "}} {{ monthName }}{{ page.date | date:
+                <p class="fs-6 mb-2"><b class="text-uppercase">Tid:</b><br>{{ page.date | date: "%d. "}} {{ monthName
+                  }}{{ page.date | date:
                   "
                   %Y"}} - {{ page.time }}</p>
 
@@ -129,12 +138,13 @@ layout: default
                 </div>
 
                 {% endif %}
+                {% endif %}
               </div>
             </div>
             <div class="col-4">
               <div>
                 <p class="fs-6 mb-2"><b class="text-uppercase">Sted:</b><br> {{ page.place }}</h4>
-                {% if page.google-maps %}
+                  {% if page.google-maps %}
                 <p class="mb-0">
                   <a href="{{ page.google-maps }}" target="_blank" class="text-uppercase mb-0">Vis lokation på
                     kort</a>
@@ -155,7 +165,8 @@ layout: default
       <div class="offset-md-3 col-md-6 col-12">
         <span class="text-white">{{ page.content }}</span>
 
-
+        {% if page.late or page.late == true %}
+        {% else %}
         {% if page.past %}
 
         {% else %}
@@ -175,7 +186,7 @@ layout: default
           {% else %}
           <h4 class="text-white">Tilmelding kommer snart...</h4>
           {% endif %}
-
+          {% endif %}
           {% for post in site.posts %}
           {% for tag in page.tags %}
           {% if tag == post.sub-pages %}
@@ -190,6 +201,7 @@ layout: default
           {% endfor %}
         </div>
         {% endif %}
+       
       </div>
     </div>
 

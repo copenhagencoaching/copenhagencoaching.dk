@@ -1,12 +1,13 @@
 ---
 title: Når ledelse finder syntesen
 subtitle: Seminar 3
-description: August event udskudt – ny dato annonceres snarest
+description: Event udskudt – ny dato annonceres snarest
 time: 17.00-20.00
 community-free: true
 image: /images/about/employees/kim-gørtz.jpg
 layout: event
 only-month: true
+late: true
 tags:
 - kim
 - event

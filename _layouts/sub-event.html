@@ -76,6 +76,9 @@ layout: default
               </div>
               <div class="col-6 text-end">
 
+                {% if post.late or post.late == true %}
+                <p class="text-uppercase"><b>Dato udskudt</b></p>
+                {% else %}
                 {% if post.only-month == true %}
                 <p class="text-uppercase"><b>{{ monthName }}</b></p>
 
@@ -83,7 +86,7 @@ layout: default
                 <p class="text-uppercase"><b>{{ post.date | date: "%d. "}} {{ monthName }}{{ post.date | date: ",
                     %Y"}}</b></p>
                 {% endif %}
-
+                {% endif %}
 
               </div>
             </div>
