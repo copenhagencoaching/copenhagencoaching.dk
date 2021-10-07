@@ -12,7 +12,6 @@ event-title: Kommende hold
 order: 8
 location: Blegdamsvej 104C, 3., baghuset th., 2100 København Ø
 special: false
-layout: plu
 published: true
 emails:
 - ln@copenhagencoaching.dk
@@ -37,4 +36,3 @@ cat:
 #### HVORFOR SKAL DU VÆLGE PROCESLEDERUDDANNELSEN?
 
 Den høje grad af uforudsigelighed, samt krav om konstant forandringer, omorganiseringer, økonomiske udfordringer m.v. skaber behov for professionel procesledelse. Ønsker om medinddragelse og samskabelse som en del af virksomhedens kultur, drift og udvikling kalder ligeledes på et højt niveau af procesledelse. God procesledelse kræver evner til at styre, rumme og stimulere menneskelig og faglig mangfoldighed i retning af fælles udvikling og mål.
-

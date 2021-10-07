@@ -21,17 +21,23 @@
 }
 
 .slick-next { 
+    @media (max-width: 991.98px) {
+        right: 20px !important;
+    }
     right: 50px !important;
     &::before {
-        color: rgba(255, 255, 255, 0.678) !important;
+        color: rgb(255, 255, 255) !important;
     }
     
 }
 
 .slick-prev { 
+    @media (max-width: 991.98px) {
+        left: 10px !important;
+    }
     left: 50px !important;
     &::before {
-        color: rgba(255, 255, 255, 0.678) !important;
+        color: rgb(255, 255, 255) !important;
     }
 }
 

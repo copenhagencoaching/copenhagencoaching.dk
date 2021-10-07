@@ -1,0 +1,66 @@
+---
+layout: default
+title: Ousia publications
+image: /images/ousia/girl-with-book.png
+---
+
+<div class="pt-5"
+    style="background: linear-gradient(rgba(19, 19, 19, 0.6), rgba(19, 19, 19, 0.6)), url('{{ page.image }}'); background-size: cover; background-position: bottom;">
+    <div class="container-fluid text-center py-5">
+        <div class="pt-5">
+            <div class="row py-5 gy-5">
+
+
+                <div class="offset-md-3 col-12 col-md-6">
+
+                    <h1 class="text-white mb-3">{{ page.title }}</h1>
+                    <hr class="white w-50 responsive mx-auto">
+                    <p class="text-white">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nunc nec neque.
+                        Curabitur turpis. Nunc
+                        sed turpis. Maecenas nec odio et ante tincidunt tempus.</p>
+                    <p class="text-white">Donec id justo. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac,
+                        enim. Suspendisse
+                        enim turpis, dictum sed, iaculis a, condimentum nec, nisi. Cras id dui.
+
+                        Maecenas malesuada. Nullam dictum felis eu pede mollis pretium. Donec interdum, metus et
+                        hendrerit aliquet, dolor diam sagittis ligula, eget egestas libero turpis vel mi. Vivamus
+                        consectetuer hendrerit lacus.
+
+                        Morbi mollis tellus ac sapien. Vestibulum suscipit nulla quis orci. Pellentesque posuere. Etiam
+                        ut purus mattis mauris sodales aliquam.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="container-fluid py-5">
+    <div class="row gx-5">
+        {% for pub in site.publications %}
+        <div class="col-lg-6 col-12">
+            <div class="row">
+                <div class="col-4">
+                    <img src="{{ pub.image }}" class="img-fluid w-100" alt="">
+                </div>
+                <div class="col-8">
+                    <h3 class="text-uppercase">{{ pub.title }}</h3>
+                    <p class="fw-bold">{{ pub.price }}</p>
+                    {{ pub.excerpt }}
+                    <button onclick="location.href='{{ pub.url }}';" class="learn-more">
+                        <span class="circle" aria-hidden="true">
+                            <span class="icon arrow"></span>
+                        </span>
+                        <span class="button-text">Se mere</span>
+                    </button>
+                </div>
+            </div>
+
+
+        </div>
+        {% endfor %}
+
+    </div>
+
+
+</div>

@@ -1,7 +1,7 @@
 ---
 order: 1
 title: Master of Business Coaching
-layout: mbc-campaign
+layout: mbc-2
 image: "/images/international/i3.jpg"
 contact-person: Frederikke Winther
 header: Master of Business Coaching

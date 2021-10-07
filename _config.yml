@@ -120,6 +120,9 @@ collections:
   calendar:
     output: true
     permalink: /:title/
+  publications:
+    output: true
+    permalink: /ousia/:title/
 
 defaults:
   -
@@ -182,6 +185,11 @@ defaults:
       type: calendar
     values:
       layout: default
+  -
+    scope:
+      type: publications
+    values:
+      layout: page
 
 
 
