@@ -7,6 +7,7 @@ title: About
   <div class="container-fluid">
     <h1 class="text-white mb-5">Mød teamet</h1>
     <div class="row g-5">
+      
       {% assign sorted_empl = site.employees | sort: "order" %}
       {% for employee in sorted_empl %}
       <div class="col-xl-4 col-sm-6 col-12 h-100">
@@ -14,12 +15,13 @@ title: About
           <div class="bg-platinum p-4">
             <h4 class="mb-0">{{ employee.title }}</h4>
             <p class="thin">{{ employee.description }}</p>
-            <p>{{ employee.email }}<br>+45 {{ employee.call }}</p>
+            <p>{{ employee.email }}<br>{% if employee.call %}+45 {{ employee.call }}{% else %}<br>{% endif %}</p>
 
             <div class="text-end ms-auto" style="max-width: 300px">
               <img src="{{ employee.grey-portrait }}" class="img-fluid rounded-circle" alt="" >
             </div>
           </div>
+
         </a>
       </div>
       {% endfor %}
