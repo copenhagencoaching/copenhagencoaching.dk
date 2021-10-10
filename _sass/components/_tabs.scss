@@ -46,6 +46,9 @@
     column-gap: 5px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    &.only-seven {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
     @media (max-width: 1399.98px) {
         display: flex !important;
         justify-content: center;
