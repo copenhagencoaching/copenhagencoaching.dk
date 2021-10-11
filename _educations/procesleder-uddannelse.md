@@ -1,6 +1,6 @@
 ---
 title: Proceslederuddannelse online
-header: Procesleder-uddannelse
+header: Procesleder-uddannelse online
 description: Med en proceslederuddannelse fra CCC får du markedets stærkeste uddannelse i at planlægge, styre og fastholde processer. Uddannelsen henvender sig til ledere, konsulenter og medarbejdere, som har ansvar for og håndterer processer og forandringer i organisationen, internt eller eksternt.
 image: "/images/academy/proceslederuddannelse.jpg"
 price: 38.700,- EKSKL. MOMS (heri er inkluderet fuld forplejning, materialer med videre)

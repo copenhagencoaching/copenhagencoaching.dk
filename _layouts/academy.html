@@ -7,6 +7,7 @@ layout: page
   <div class="row gy-5 gx-5">
     {% assign sorted_edu = site.educations | sort: "order" %}
     {% for edu in sorted_edu %}
+    
     {% if edu.special == false %}
 
     <div class="col-12 col-md-6 col-xl-3">

@@ -3,7 +3,7 @@ order: 3
 title: Certificering i Big Five Online
 image: "/images/events/big-five-event-5.jpg"
 contact-person: Frederikke Winther
-header: Certificeringer i Big Five
+header: Certificeringer i Big Five Online
 description: Bliv certificeret til at bruge markedets bedst underbyggede personlighedstest
   og lær at anvende den ved gruppesammensætning, rekruttering og processer.
 price: 19.500,- EKSKL. MOMS
