@@ -18,13 +18,31 @@ permalink: /tilmelding/
     }
 
     if (params.n == undefined) {
+
       // no value in the query string
       // here you have to manage this use case : redirect or print a message to user
     } else {
-      // filling form fields with query string values
+      // select the back to... link
+      const a = document.querySelector('.back-link');
+      const ah = document.querySelector('.inner-back-link');
+      // set inner html to current education
+      ah.innerHTML = "Tilbage til " + params.n;
+
+
+      // set current education in hidden input field
       document.getElementsByClassName('hidden-input')[0].value = params.n;
+
+
+
+
+      if (params.n == "Proceslederuddannelse online") {
+        a.href = '/academy/procesleder-uddannelse/';
+
+      }
       if (params.n == "Psykologisk filosofisk psykoterapi") {
         document.getElementsByClassName("default")[0].remove();
+        a.href = '/academy/psykologisk-filosofisk-psykoterapi/';
+
       }
       else {
         document.getElementsByClassName("pfp")[0].remove();
@@ -43,6 +61,7 @@ permalink: /tilmelding/
       }
 
       if (params.n == "Certificering i Big Five") {
+        a.href = '/academy/certificering-i-big-five/';
 
       }
       else {
@@ -63,18 +82,18 @@ permalink: /tilmelding/
         <div class="default">
           <h2 class="udd text-white"></h2>
 
-          <p class="text-white">Når du tilmelder dig en uddannelse via tilmeldingsformularen, ender din tilmelding i en
-            sikret emailboks,
-            som
-            kun én medarbejder i CCC har adgang til. Derefter gemmes din data i vores kundedatabase som også er en
-            sikker
-            database efter de nye GDPR regler.
+          <p class="text-white">Når du tilmelder dig en af vores uddannelser via formularen nedenfor, ender din
+            tilmelding i en sikret emailboks, som kun én medarbejder i CCC har adgang til. Derefter gemmes din data i
+            vores kundedatabase, som også er en sikker database efter de nye GDPR regler.
 
-            Vi bruger, efter din tilmelding, dine kontaktoplysninger til at tage kontakt til dig, ang. din tilmelding,
-            og
-            din faktureringsdata til at sende dig en faktura.
+            Vi bruger udelukkende dine kontaktoplysninger til at tage kontakt til dig vedrørende din tilmelding, og dine
+            faktureringsdata til at sende dig en faktura. Ved at tilmelde dig en uddannelse siger du ikke automatisk ja
+            til at modtage nyhedsmails eller andet materiale fra os. Dette skal klikkes af manuelt.
 
-            Ved at tilmelde dig en uddannelse siger du ikke ja til at modtage nyhedsmails eller andet materiale fra os.
+            Skulle du have spørgsmål til din tilmelding, er du meget velkommen til at kontakte os på
+            info@copenhagencoaching.dk eller kontakte os direkte på tlf. : + 45 40 14 92 92.
+
+            Vi glæder os til at høre fra dig, tak for din interesse!
           </p>
         </div>
 
@@ -366,12 +385,27 @@ permalink: /tilmelding/
               <button class=" w-100 btn-spanish-gray text-white btn mb-3" type="submit">Ansøg</button>
 
           </form>
+          <a class='animated-arrow back-link' href=''>
+            <span class='the-arrow -left rotated'>
+              <span class='shaft'></span>
+            </span>
+            <span class='main'>
+              <span class='text'>
+                <p class="pt-4 inner-back-link">
+                  Tilbage til proceslederuddannelsen
+                </p>
+              </span>
+              <span class='the-arrow -right rotated'>
+                <span class='shaft'></span>
+              </span>
+            </span>
+          </a>
         </div>
 
 
       </div>
     </div>
-  
 
-</div>
+
+  </div>
 </div>
