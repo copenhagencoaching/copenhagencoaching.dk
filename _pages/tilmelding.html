@@ -18,55 +18,57 @@ permalink: /tilmelding/
     }
 
     if (params.n == undefined) {
-
+      document.getElementsByClassName("back-link")[0].remove();
       // no value in the query string
       // here you have to manage this use case : redirect or print a message to user
     } else {
-      // select the back to... link
+      // select the back to... link amd text inside
       const a = document.querySelector('.back-link');
       const ah = document.querySelector('.inner-back-link');
+
+      // select heading and text
+      const regHeading = document.querySelector('.reg-heading');
+      const regText = document.querySelector('.reg-text');
+
+      const mbc = document.querySelector('.mbc-box');
+      const bfc = document.querySelector('.bfc-box');
+
+
+
+      // set heading to current education
+      regHeading.innerHTML = params.n;
       // set inner html to current education
       ah.innerHTML = "Tilbage til " + params.n;
-
 
       // set current education in hidden input field
       document.getElementsByClassName('hidden-input')[0].value = params.n;
 
-
-
-
+      // if the current education is PLU
       if (params.n == "Proceslederuddannelse online") {
         a.href = '/academy/procesleder-uddannelse/';
-
       }
-      if (params.n == "Psykologisk filosofisk psykoterapi") {
-        document.getElementsByClassName("default")[0].remove();
+
+      else if (params.n == "Psykologisk filosofisk psykoterapi") {
+        regText.innerHTML = '<p class="text-white">Hvis du har spørgsmål omkring uddannelsen, din ansøgning eller andet er du velkommen til at ringe til Mette Mejlhede på <a href="tel:24 27 28 71">24 27 28 71</a> – eller sende os en sms om, hvornår det passer dig at blive ringet op. Du kan også altid skrive til <a href="mailto:info@copenhagencoaching.dk">info@copenhagencoaching.dk</a> for mere info. Din ansøgning nedenfor er ikke bindende. Din optagelse vil udover nedenstående oplysninger, også bero på en personlig samtale. Vi glæder os til at høre fra dig. </p> <p class="text-white">Første hold starter den 11. november. 2021. </p>'
+        regHeading.innerHTML = "Ansøgning til Psykologisk filosofisk psykoterapi"
         a.href = '/academy/psykologisk-filosofisk-psykoterapi/';
-
-      }
-      else {
-        document.getElementsByClassName("pfp")[0].remove();
-        document.getElementsByClassName("pfp-boxes")[0].remove();
-        document.getElementsByClassName("udd")[0].innerHTML = "Tilmelding til " + params.n;
       }
 
-      if (params.n == "Master of Business Coaching") {
-        document.getElementsByClassName("default")[0].remove();
-
-      }
-      else {
-        document.getElementsByClassName("mbc")[0].remove();
-        document.getElementsByClassName("mbc-box")[0].remove();
-        document.getElementsByClassName("udd")[0].innerHTML = "Tilmelding til " + params.n;
+      else if (params.n == "Master of Business Coaching") {
+        regText.innerHTML = ' <p class="text-white">Hvis du har spørgsmål omkring uddannelsen, din ansøgning eller andet er du velkommen til at ringe til Frederikke Winther på <a href="tel:21 19 47 57">21 19 47 57</a> – eller sende os en sms om, hvornår det passer dig at blive ringet op. Du kan også altid skrive til <a href="mailto:info@copenhagencoaching.dk">info@copenhagencoaching.dk</a> for mere info. Vi glæder os til at høre fra dig. </p>'
+        a.href = '/academy/master-of-business-coaching/';
+        mbc.classList.remove('d-none')
       }
 
-      if (params.n == "Certificering i Big Five") {
+      else if (params.n == "Certificering i Big Five Online") {
+       
         a.href = '/academy/certificering-i-big-five/';
-
+        bfc.classList.remove('d-none')
       }
+
       else {
 
-        document.getElementsByClassName("bfc-box")[0].remove();
+        ocument.getElementsByClassName("back-link")[0].remove();
       }
 
 
@@ -79,67 +81,35 @@ permalink: /tilmelding/
   <div class="container-fluid py-5">
     <div class="row pt-5">
       <div class="offset-lg-3 col-lg-6 col-12 pt-5">
-        <div class="default">
-          <h2 class="udd text-white"></h2>
 
-          <p class="text-white">Når du tilmelder dig en af vores uddannelser via formularen nedenfor, ender din
-            tilmelding i en sikret emailboks, som kun én medarbejder i CCC har adgang til. Derefter gemmes din data i
-            vores kundedatabase, som også er en sikker database efter de nye GDPR regler.
-          </p>
-          <p class="text-white">
-            Vi bruger udelukkende dine kontaktoplysninger til at tage kontakt til dig vedrørende din tilmelding, og dine
-            faktureringsdata til at sende dig en faktura. Ved at tilmelde dig en uddannelse siger du ikke automatisk ja
-            til at modtage nyhedsmails eller andet materiale fra os. Dette skal klikkes af manuelt.
-          </p>
-          <p class="text-white">
-            Skulle du have spørgsmål til din tilmelding, er du meget velkommen til at kontakte os på
-             <a href="mailto:info@copenhagencoaching.dk">info@copenhagencoaching.dk</a> eller kontakte os direkte på tlf. : + 45 40 14 92 92.
-          </p>
-          <p class="text-white">
-            Vi glæder os til at høre fra dig, tak for din interesse!
-          </p>
+        <div class="reg-container">
+          <h2 class="reg-heading text-white">
+            Tilmeling
+          </h2>
+          <div class="reg-text">
+            <p class="text-white">Når du tilmelder dig en af vores uddannelser via formularen nedenfor, ender din
+              tilmelding i en sikret emailboks, som kun én medarbejder i CCC har adgang til. Derefter gemmes din data i
+              vores kundedatabase, som også er en sikker database efter de nye GDPR regler.
+            </p>
+            <p class="text-white">
+              Vi bruger udelukkende dine kontaktoplysninger til at tage kontakt til dig vedrørende din tilmelding, og
+              dine
+              faktureringsdata til at sende dig en faktura. Ved at tilmelde dig en uddannelse siger du ikke automatisk
+              ja
+              til at modtage nyhedsmails eller andet materiale fra os. Dette skal klikkes af manuelt.
+            </p>
+            <p class="text-white">
+              Skulle du have spørgsmål til din tilmelding, er du meget velkommen til at kontakte os på
+              <a href="mailto:info@copenhagencoaching.dk">info@copenhagencoaching.dk</a> eller kontakte os direkte på
+              tlf.
+              : + 45 40 14 92 92.
+            </p>
+            <p class="text-white">
+              Vi glæder os til at høre fra dig, tak for din interesse!
+            </p>
+          </div>
         </div>
 
-        <div class="mbc">
-          <h2 class="text-white">Tilmelding til Master of Business Coaching</h2>
-
-          <p class="text-white">Hvis du har spørgsmål omkring uddannelsen, din ansøgning eller andet er du velkommen til
-            at ringe
-            til Frederikke Winther på
-
-            <a href="tel:21 19 47 57">21 19 47 57</a> – eller sende os en sms om, hvornår det passer dig at
-            blive ringet
-            op. Du kan også altid skrive til <a href="mailto:info@copenhagencoaching.dk">info@copenhagencoaching.dk</a>
-            for mere info.
-
-
-
-            Vi glæder os til at høre fra dig.
-          </p>
-
-
-
-        </div>
-
-        <div class="pfp">
-          <h2 class="text-white">Ansøgning til Psykologisk filosofisk psykoterapi</h2>
-          <p class="text-white">Hvis du har spørgsmål omkring uddannelsen, din ansøgning eller andet er du velkommen til
-            at ringe til Mette
-            Mejlhede på
-
-            <a href="tel:24 27 28 71">24 27 28 71</a> – eller sende os en sms om, hvornår det passer dig at blive ringet
-            op. Du kan også altid skrive til <a href="mailto:info@copenhagencoaching.dk">info@copenhagencoaching.dk</a>
-            for mere info.
-
-            Din ansøgning nedenfor er ikke bindende. Din optagelse vil udover nedenstående oplysninger, også bero på en
-            personlig samtale.
-
-            Vi glæder os til at høre fra dig.
-          </p>
-
-          <p class="text-white">Første hold starter den 11. november. 2021.
-          </p>
-        </div>
       </div>
     </div>
   </div>
@@ -152,7 +122,7 @@ permalink: /tilmelding/
         <div class="bg-white p-5 rounded border-opal">
 
           <form action="https://formspree.io/f/mzbyzbyg" method="POST" enctype="multipart/form-data">
-            <div class="mbc-box">
+            <div class="mbc-box d-none">
               <select class="form-select udd mbc-hold mb-3" id="mbc-hold" name="mbc-hold">
                 <option value="hold">Vælg hold</option>
                 {% for edu in site.educations %}
@@ -168,12 +138,12 @@ permalink: /tilmelding/
               </select>
             </div>
 
-            <div class="bfc-box">
+            <div class="bfc-box d-none">
               <select class="form-select udd mbc-hold mb-3" id="mbc-hold" name="mbc-hold">
                 <option value="hold">Vælg hold</option>
                 {% for edu in site.educations %}
 
-                {% if edu.title == "Certificering i Big Five" %}
+                {% if edu.title == "Certificering i Big Five Online" %}
                 {% for h in edu.hold %}
                 <option value="{{ h }}">{{ h }}</option>
                 {% endfor %}
