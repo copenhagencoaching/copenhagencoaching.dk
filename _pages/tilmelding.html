@@ -8,16 +8,10 @@ permalink: /tilmelding/
 <script>
   // this script will automatically fill name and price fields 
   // depending on what's passed in the url
-  var fillForm = function () {
-    var queryString = document.location.search.split("+").join(" ");
-    var params = {},
-      tokens, re = /[?&]?([^=]+)=([^&]*)/g;
+const urlParams = new URLSearchParams(window.location.search);
+const myParam = urlParams.get('n');
 
-    while (tokens = re.exec(queryString)) {
-      params[decodeURIComponent(tokens[1])] = decodeURIComponent(tokens[2]);
-    }
-
-    if (params.n == undefined) {
+    if (myParam == undefined) {
       document.getElementsByClassName("back-link")[0].remove();
       // no value in the query string
       // here you have to manage this use case : redirect or print a message to user
@@ -33,7 +27,7 @@ permalink: /tilmelding/
       const mbc = document.querySelector('.mbc-box');
       const bfc = document.querySelector('.bfc-box');
 
-      const currentEdu = params.n;
+      const currentEdu = myParam;
 
 
       // set heading to current education
@@ -64,7 +58,7 @@ permalink: /tilmelding/
       if (params.n == "Certificering i Big Five Online") {
        
         a.href = '/academy/certificering-i-big-five/';
-        bfc.classList.remove('d-none') 
+        bfc.classList.remove('d-none')
       }
 
       else {
@@ -74,7 +68,7 @@ permalink: /tilmelding/
 
 
     }
-  }();
+ 
 </script>
 
 
