@@ -76,7 +76,7 @@
 
 
               <!-- your other form fields go here -->
-              <button class="btn-gray-blue btn w-100" id="pdf-pfp-btn" type="submit">Registrér</button>
+              <button class="btn-cadet-gray btn w-100" id="pdf-pfp-btn" type="submit">Registrér</button>
             </form>
 
             <div id="my-form-status-plu">
@@ -131,7 +131,7 @@
         }
       }).then(response => {
         status.className = "py-3 text-center"
-        status.innerHTML = "<a href='#' download='/pdfs/Psykologisk-filosofisk-psykoterapi-infofolder.pdf' class='btn btn-copper text-white'>Hent brochure</a>";
+        status.innerHTML = "<a href='#' download='/pdfs/PLU2020forår.pdf' class='btn btn-copper text-white'>Hent brochure</a>";
         form.reset()
       }).catch(error => {
         status.innerHTML = "Ups! Der opstod et problem."
