@@ -33,28 +33,29 @@ permalink: /tilmelding/
       const mbc = document.querySelector('.mbc-box');
       const bfc = document.querySelector('.bfc-box');
 
+      const currentEdu = params.n;
 
 
       // set heading to current education
-      regHeading.innerHTML = "Tilmelding til " + params.n;
+      regHeading.innerHTML = "Tilmelding til " + currentEdu;
       // set inner html to current education
-      ah.innerHTML = "Tilbage til " + params.n;
+      ah.innerHTML = "Tilbage til " + currentEdu;
 
       // set current education in hidden input field
-      document.getElementsByClassName('hidden-input')[0].value = params.n;
+      document.getElementsByClassName('hidden-input')[0].value = currentEdu;
 
       // if the current education is PLU
-      if (params.n == "Proceslederuddannelse online") {
+      if (currentEdu == "Proceslederuddannelse online") {
         a.href = '/academy/procesleder-uddannelse/';
       }
 
-      if (params.n == "Psykologisk filosofisk psykoterapi") {
+      if (currentEdu == "Psykologisk filosofisk psykoterapi") {
         regText.innerHTML = '<p class="text-white">Hvis du har spørgsmål omkring uddannelsen, din ansøgning eller andet er du velkommen til at ringe til Mette Mejlhede på <a href="tel:24 27 28 71">24 27 28 71</a> – eller sende os en sms om, hvornår det passer dig at blive ringet op. Du kan også altid skrive til <a href="mailto:info@copenhagencoaching.dk">info@copenhagencoaching.dk</a> for mere info. Din ansøgning nedenfor er ikke bindende. Din optagelse vil udover nedenstående oplysninger, også bero på en personlig samtale. Vi glæder os til at høre fra dig. </p> <p class="text-white">Første hold starter den 11. november. 2021. </p>'
         regHeading.innerHTML = "Ansøgning til Psykologisk filosofisk psykoterapi"
         a.href = '/academy/psykologisk-filosofisk-psykoterapi/';
       }
 
-      if (params.n == "Master of Business Coaching") {
+      if (currentEdu == "Master of Business Coaching") {
         regText.innerHTML = ' <p class="text-white">Hvis du har spørgsmål omkring uddannelsen, din ansøgning eller andet er du velkommen til at ringe til Frederikke Winther på <a href="tel:21 19 47 57">21 19 47 57</a> – eller sende os en sms om, hvornår det passer dig at blive ringet op. Du kan også altid skrive til <a href="mailto:info@copenhagencoaching.dk">info@copenhagencoaching.dk</a> for mere info. Vi glæder os til at høre fra dig. </p>'
         a.href = '/academy/master-of-business-coaching/';
         mbc.classList.remove('d-none')
