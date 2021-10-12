@@ -48,22 +48,22 @@ permalink: /tilmelding/
         a.href = '/academy/procesleder-uddannelse/';
       }
 
-      else if (params.n == "Psykologisk filosofisk psykoterapi") {
+      if (params.n == "Psykologisk filosofisk psykoterapi") {
         regText.innerHTML = '<p class="text-white">Hvis du har spørgsmål omkring uddannelsen, din ansøgning eller andet er du velkommen til at ringe til Mette Mejlhede på <a href="tel:24 27 28 71">24 27 28 71</a> – eller sende os en sms om, hvornår det passer dig at blive ringet op. Du kan også altid skrive til <a href="mailto:info@copenhagencoaching.dk">info@copenhagencoaching.dk</a> for mere info. Din ansøgning nedenfor er ikke bindende. Din optagelse vil udover nedenstående oplysninger, også bero på en personlig samtale. Vi glæder os til at høre fra dig. </p> <p class="text-white">Første hold starter den 11. november. 2021. </p>'
         regHeading.innerHTML = "Ansøgning til Psykologisk filosofisk psykoterapi"
         a.href = '/academy/psykologisk-filosofisk-psykoterapi/';
       }
 
-      else if (params.n == "Master of Business Coaching") {
+      if (params.n == "Master of Business Coaching") {
         regText.innerHTML = ' <p class="text-white">Hvis du har spørgsmål omkring uddannelsen, din ansøgning eller andet er du velkommen til at ringe til Frederikke Winther på <a href="tel:21 19 47 57">21 19 47 57</a> – eller sende os en sms om, hvornår det passer dig at blive ringet op. Du kan også altid skrive til <a href="mailto:info@copenhagencoaching.dk">info@copenhagencoaching.dk</a> for mere info. Vi glæder os til at høre fra dig. </p>'
         a.href = '/academy/master-of-business-coaching/';
         mbc.classList.remove('d-none')
       }
 
-      else if (params.n == "Certificering i Big Five Online") {
+      if (params.n == "Certificering i Big Five Online") {
        
         a.href = '/academy/certificering-i-big-five/';
-        bfc.classList.remove('d-none')
+        bfc.classList.remove('d-none') 
       }
 
       else {
