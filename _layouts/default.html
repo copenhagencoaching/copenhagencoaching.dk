@@ -399,51 +399,117 @@
     });
   </script>
 
-{% if page.trans-navi %}
-<script>
-   $(".navbar").css({ "background-color": "white", "box-shadow": "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px" });
-      $(".nav-item").css("color", "#707070");
-      $(".logo").attr("src", "/images/logo/ccc-logo-new.png");
-      $(".navi-icon").css("color", "#707070");
-</script>
-{% else %}
+  <script>
+    $(".navbar").css({ "background-color": "white", "box-shadow": "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px" });
+    $(".nav-item").css("color", "#707070");
+    $(".logo").attr("src", "/images/logo/ccc-logo-new.png");
+    $(".navi-icon").css("color", "#707070");
+  </script>
+
   <script>
 
-function scrollNavi() {
-  const mediaQuery = window.matchMedia('(min-width: 1199.98px)')
-// Check if the media query is true
-if (mediaQuery.matches) {
-  // Then trigger an alert
-  var scroll = $(window).scrollTop();
-    if (scroll > 10) {
-      $(".navbar").css({ "background-color": "white", "box-shadow": "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px" });
-      $(".nav-item").css("color", "#707070");
-      $(".logo").attr("src", "/images/logo/ccc-logo-new.png");
-      $(".navi-icon").css("color", "#707070");
-    }
+    function scrollNavi() {
+      const mediaQuery = window.matchMedia('(min-width: 1199.98px)')
+      // Check if the media query is true
+      if (mediaQuery.matches) {
+        // Then trigger an alert
+        var scroll = $(window).scrollTop();
+        if (scroll > 10) {
+          $(".navbar").css({ "background-color": "white", "box-shadow": "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px" });
+          $(".nav-item").css("color", "#707070");
+          $(".logo").attr("src", "/images/logo/ccc-logo-new.png");
+          $(".navi-icon").css("color", "#707070");
+        }
 
-    else {
-      $(".navbar").css({ "background": "none", "box-shadow": "none" });
-      $(".nav-item").css("color", "white");
-      $(".logo").attr("src", "/images/logo/ccc-logo-hvid.png");
-      $(".navi-icon").css("color", "white");
-    }
+        else {
+          $(".navbar").css({ "background": "none", "box-shadow": "none" });
+          $(".nav-item").css("color", "white");
+          $(".logo").attr("src", "/images/logo/ccc-logo-hvid.png");
+          $(".navi-icon").css("color", "white");
+        }
 
-}
-else {
-  $(".logo").attr("src", "/images/logo/ccc-logo-new.png");
-  $(".nav-item").css("color", "#707070");
-  $(".navbar").css({ "background-color": "white", "box-shadow": "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px" });
-  $(".navi-icon").css("color", "#707070");
-}
-   
-};
-window.onload = scrollNavi;
-window.onresize = scrollNavi;
-$(window).scroll(scrollNavi);
+      }
+      else {
+        $(".logo").attr("src", "/images/logo/ccc-logo-new.png");
+        $(".nav-item").css("color", "#707070");
+        $(".navbar").css({ "background-color": "white", "box-shadow": "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px" });
+        $(".navi-icon").css("color", "#707070");
+      }
+
+    };
+    window.onload = scrollNavi;
+    window.onresize = scrollNavi;
+    $(window).scroll(scrollNavi);
 
   </script>
-{% endif %}
+
+  <script>
+    // this script will automatically fill name and price fields 
+    // depending on what's passed in the url
+    const urlParams = new URLSearchParams(window.location.search);
+    const myParam = urlParams.get('n');
+
+    if (myParam == undefined) {
+      document.getElementsByClassName("back-link")[0].remove();
+      // no value in the query string
+      // here you have to manage this use case : redirect or print a message to user
+    } else {
+      // select the back to... link amd text inside
+      const a = document.querySelector('.back-link');
+      const ah = document.querySelector('.inner-back-link');
+
+      // select heading and text
+      const regHeading = document.querySelector('.reg-heading');
+      const regText = document.querySelector('.reg-text');
+
+      const mbc = document.querySelector('.mbc-box');
+      const bfc = document.querySelector('.bfc-box');
+
+      const currentEdu = myParam;
+
+
+      // set heading to current education
+      regHeading.innerHTML = "Tilmelding til " + currentEdu;
+      // set inner html to current education
+      ah.innerHTML = "Tilbage til " + currentEdu;
+
+      // set current education in hidden input field
+      document.getElementsByClassName('hidden-input')[0].value = currentEdu;
+
+      // if the current education is PLU
+      if (currentEdu == "Proceslederuddannelse online") {
+        a.href = '/academy/procesleder-uddannelse/';
+      }
+
+      if (currentEdu == "Psykologisk filosofisk psykoterapi") {
+        regText.innerHTML = '<p class="text-white">Hvis du har spørgsmål omkring uddannelsen, din ansøgning eller andet er du velkommen til at ringe til Mette Mejlhede på <a href="tel:24 27 28 71">24 27 28 71</a> – eller sende os en sms om, hvornår det passer dig at blive ringet op. Du kan også altid skrive til <a href="mailto:info@copenhagencoaching.dk">info@copenhagencoaching.dk</a> for mere info. Din ansøgning nedenfor er ikke bindende. Din optagelse vil udover nedenstående oplysninger, også bero på en personlig samtale. Vi glæder os til at høre fra dig. </p> <p class="text-white">Første hold starter den 11. november. 2021. </p>'
+        regHeading.innerHTML = "Ansøgning til Psykologisk filosofisk psykoterapi"
+        a.href = '/academy/psykologisk-filosofisk-psykoterapi/';
+      }
+
+      if (currentEdu == "Master of Business Coaching") {
+        regText.innerHTML = ' <p class="text-white">Hvis du har spørgsmål omkring uddannelsen, din ansøgning eller andet er du velkommen til at ringe til Frederikke Winther på <a href="tel:21 19 47 57">21 19 47 57</a> – eller sende os en sms om, hvornår det passer dig at blive ringet op. Du kan også altid skrive til <a href="mailto:info@copenhagencoaching.dk">info@copenhagencoaching.dk</a> for mere info. Vi glæder os til at høre fra dig. </p>'
+        a.href = '/academy/master-of-business-coaching/';
+        mbc.classList.remove('d-none')
+      }
+
+      if (currentEdu == "Certificering i Big Five Online") {
+
+        a.href = '/academy/certificering-i-big-five/';
+        bfc.classList.remove('d-none')
+      }
+
+      else {
+
+        document.getElementsByClassName("back-link")[0].remove();
+      }
+
+
+    }
+
+  </script>
+
+
 
   <script
     type="text/javascript"> _linkedin_partner_id = "2763578"; window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || []; window._linkedin_data_partner_ids.push(_linkedin_partner_id);</script>
