@@ -18,7 +18,7 @@ past: true
 ex-moms: true
 community-free: true
 place: Blegdamsvej 104 A, 2100 København Ø
-time: 17.00-20.00
+time: 17.00-19.00
 ---
 
 

@@ -14,6 +14,6 @@ order: 4
 only-month: true
 community: Gratis for CCC Community medlemmer
 ex-moms: true
-time: 17.00-20.00
+time: 17.00-19.00
 community-free: true
 ---

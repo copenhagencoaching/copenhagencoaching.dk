@@ -43,7 +43,7 @@ layout: default
       <p class="text-uppercase text-white"><b>Dato udskudt</b></p>
       {% else %}
       {% if page.only-month == true %}
-      <h3>{{ monthName }}</h3>
+      <h3 class="text-uppercase text-white">{{ monthName }}</h3>
 
       {% else %}
       <h3 class="text-white">{{ page.date | date: "%d. "}} {{ monthName }}{{ page.date | date: " %Y"}}</h3>
