@@ -10,6 +10,8 @@ price: 'Vejledende pris: 7.500 ekskl. moms pr. 5 ECTS'
 pdf: 'false'
 event-title: Vi starter løbende hold op - ring og hør nærmere
 oe-order: 5
+hold:
+- Ledelse og Coaching - Efterår 2021 - start 5. november
 emails:
 - ln@copenhagencoaching.dk
 special: false
@@ -17,12 +19,13 @@ cat:
 - diplom
 hold_eller_begivenheder: true
 events:
-- overskrift: Projektledelse 2021
+- overskrift: Ledelse og Coaching - Efterår 2021
   dato:
-  - Efterår 2021 - datoer kommer snarest
-- overskrift: Specialemodul 2021
-  dato:
-  - Efterår 2021 - datoer kommer snarest
+  - 5. november - 13.00-16.00
+  - 12. november - 13.00-16.00
+  - 19. november - 13.00-16.00
+  - 26. nobember - 13.00-16.00
+  - 3. december - 13.00-16.00
 ---
 
 Er du leder, eller drømmer du om at bliver det? Trænger du til at få styrket dine lederkompetencer, og samtidig få de nyeste og brugbare værktøjer til medarbejdersamtaler og til håndtering af konfliktsituationer? Så tag moduler i Den offentlige Lederuddannelse (DOL) hos os!

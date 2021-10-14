@@ -83,6 +83,21 @@ permalink: /tilmelding/
 
               </select>
             </div>
+            <div class="dol-box d-none">
+              <select class="form-select udd mbc-hold mb-3" id="mbc-hold" name="mbc-hold">
+                <option value="hold">Vælg hold</option>
+                {% for edu in site.educations %}
+
+                {% if edu.title == "Den offentlige lederuddannelse" %}
+                {% for h in edu.hold %}
+                <option value="{{ h }}">{{ h }}</option>
+                {% endfor %}
+                {% endif %}
+                {% endfor %}
+
+
+              </select>
+            </div>
             <input type="hidden" name="uddannelse" class="hidden-input" value="" />
             <input type="text" class="form-control mb-3" name="FNAME" placeholder="Fornavn*" required>
             <input type="text" class="form-control mb-3" name="LNAME" placeholder="Efternavn*" required>
@@ -119,7 +134,7 @@ permalink: /tilmelding/
               <textarea class="form-control" name="besked" id="comment-{{ page.title | truncatewords: 5, '' }}"
                 rows="3"></textarea>
             </div>
-            <div class="pfp-boxes">
+            <div class="pfp-boxes d-none">
               <div class="mb-4">
                 <label for="baggrund" class="form-label"><b>Uddannelsesmæssig baggrund:</b><br>
                   <i>Skriv venligst dine formelle uddannelser</i></label>
