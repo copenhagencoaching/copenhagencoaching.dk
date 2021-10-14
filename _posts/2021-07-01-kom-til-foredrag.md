@@ -2,9 +2,9 @@
 title: Eksklusive foredragsaftener
 under-title: Foredrag
 layout: sub-event
-description: Foredrag med Rasmus Kragh, om at nå til tops skridt for skridt & finde sig selv på tilbagevejen (El. på vejen ned?)
+description: Om at nå til tops skridt for skrift & at finde sig selv på vejen ned.
 sub-pages: foredrag
-manchet: Foredrag med Rasmus Kragh, om at nå til tops skridt for skridt & finde sig selv på tilbagevejen (El. på vejen ned?)
+manchet: Om at nå til tops skridt for skrift & at finde sig selv på vejen ned.
 image: /images/graphic/foredrag.jpg
 tags:
 - community
@@ -14,6 +14,6 @@ order: 4
 only-month: true
 community: Gratis for CCC Community medlemmer
 ex-moms: true
-time: 17.00-19.00
+time: 17.00-20.00
 community-free: true
 ---
