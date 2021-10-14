@@ -11,7 +11,7 @@ tags:
 layout: event
 only-month: false
 past: true
-price: 950,-
+price: 350,-
 billetto: true
 billetto-nr: 524607
 past: true
