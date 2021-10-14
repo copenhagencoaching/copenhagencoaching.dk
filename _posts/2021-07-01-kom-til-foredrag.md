@@ -5,7 +5,7 @@ layout: sub-event
 description: Om at nå til tops skridt for skrift & at finde sig selv på vejen ned.
 sub-pages: foredrag
 manchet: Om at nå til tops skridt for skrift & at finde sig selv på vejen ned.
-image: /images/graphic/foredrag.jpg
+image: /images/events/rasmus-kragh.jpeg
 tags:
 - community
 - eventgroup
