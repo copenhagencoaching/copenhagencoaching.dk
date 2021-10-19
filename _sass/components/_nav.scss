@@ -23,11 +23,56 @@
             text-align: center;
             padding-top: 30px;
             padding-bottom: 30px;
+
             .nav-link {
                 font-weight: 500 !important;
                 font-size: 1rem;
             }
         }
     }
-   
- }
+
+}
+
+// Megadropdown
+
+
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+
+    .navbar .has-megamenu {
+        position: static !important;
+
+        a::after {
+            display: none;
+        }
+    }
+
+    .navbar .megamenu {
+        left: 0;
+        right: 0;
+        width: 100%;
+        margin-top: 0 !important;
+        border-radius: 0;
+        border: none;
+    }
+
+}
+
+/* ============ desktop view .end// ============ */
+
+/* ============ mobile view ============ */
+@media(max-width: 991px) {
+    .navbar .megamenu {
+        border-radius: 0;
+        border: none;
+    }
+
+    .navbar.fixed-top .navbar-collapse,
+    .navbar.sticky-top .navbar-collapse {
+        overflow-y: auto;
+        max-height: 90vh;
+        margin-top: 10px;
+    }
+}
+
+/* ============ mobile view .end// ============ */

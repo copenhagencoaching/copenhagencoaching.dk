@@ -1,67 +1,13 @@
-<div class="container-fluid medium-narrow-container no-up only-big-2">
 
-  <div class="grid-fr-60-fr gap-40">
-    <div>
-      <h5 class="list-header capped">Coaching</h5>
-      {% assign orderedcoaching = site.coachings | sort: "menu-order" %}
-      {% for coaching in orderedcoaching %}
-      <a class="navigation-link got-icon" href="#">
-        {{ coaching.title }}</a>
-      {% endfor %}
-    </div>
-
-    <div class="bg-blue white p-20">
-      <h5 class="list-header capped mt-0 pt-0">Overskrift</h5>
-      <p>Sint adipisicing aute commodo culpa incididunt ipsum amet est est culpa labore voluptate. Et tempor duis eu eu deserunt officia aliquip magna laborum sit consequat.</p>
-      <a class="navigation-link got-icon" href="#">
-        Læs mere </a>
-
-    </div>
-
-    <div>
-          
-      <h5 class="list-header capped">Lær os bedre at kende</h5>
-     
-      <a class="navigation-link got-icon" href="#">
-        Hvem er vi?</a>
-        <a class="navigation-link got-icon" href="#">
-          Vores vision</a>
-          <a class="navigation-link got-icon" href="#">
-            Tilmeld nyhedsbrev</a>
-    </div>
+<div class="container-fluid pb-3 pt-3">
+  <h5 class="text-uppercase mb-4">Coaching</h5>
+  <div class="d-flex flex-column">
+    {% assign orderedcoaching = site.coachings | sort: "menu-order" %}
+    {% for coaching in orderedcoaching %}
+    <a class="navigation-link small mb-1" href="#">
+      {{ coaching.title }}</a>
+    {% endfor %}
   </div>
- <!--  <div class="grid-2 grid-20-80 only-big-2">
-    <div>
-      <h5 class="list-header capped">Coaching</h5>
-      {% assign orderedcoaching = site.coachings | sort: "menu-order" %}
-      {% for coaching in orderedcoaching %}
-      <a class="navigation-link got-icon" href="#">
-        {{ coaching.title }}</a>
-      {% endfor %}
-    </div>
-    <div>
-      <div class="grid-60-fr gap-90">
-        <div class="bg-blue white p-20">
-          <h5 class="list-header capped mt-0 pt-0">Overskrift</h5>
-          <p>Sint adipisicing aute commodo culpa incididunt ipsum amet est est culpa labore voluptate. Et tempor duis eu eu deserunt officia aliquip magna laborum sit consequat.</p>
-          <a class="navigation-link got-icon" href="#">
-            Læs mere </a>
-    
-        </div>
-        <div>
-          
-          <h5 class="list-header capped">Lær os bedre at kende</h5>
-         
-          <a class="navigation-link got-icon" href="#">
-            Hvem er vi?</a>
-            <a class="navigation-link got-icon" href="#">
-              Vores vision</a>
-              <a class="navigation-link got-icon" href="#">
-                Tilmeld nyhedsbrev</a>
-        </div>
-      </div>
-    </div>
-  </div> -->
+  
+</div>
 
-
-  </div>

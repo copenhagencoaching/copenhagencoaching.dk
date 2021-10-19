@@ -2,8 +2,9 @@
   <div class="modal-dialog modal-dialog-centered modal-lg">
     <div class="modal-content p-3">
       <div class="modal-header">
-        <h4 class="modal-title" id="pfp-pdf-modal-heading">Ønsker du mere information om uddannelsen? Registrér dig her og hent vore brochure.
-</h4>
+        <h4 class="modal-title" id="pfp-pdf-modal-heading">Ønsker du mere information om uddannelsen? Registrér dig her
+          og hent vores brochure.
+        </h4>
         <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
 
       </div>
@@ -16,9 +17,9 @@
 
 
               <input type="hidden" name="pdf" value="pfp">
-              <input class="form-control mb-3" type="text" name="name" placeholder="Navn" id="pdf-pfp-name">
+              <input class="form-control mb-3" type="text" name="name" placeholder="Navn" id="pdf-pfp-name" required>
 
-              <input type="text" id="pdf-pfp-email" class="form-control mb-3" name="email" placeholder="Email">
+              <input type="text" id="pdf-pfp-email" class="form-control mb-3" name="email" placeholder="Email" required>
 
 
               <div class="form-check mb-3">
@@ -33,7 +34,10 @@
               <button class="btn-beaver text-white btn w-100" id="pdf-pfp-btn" type="submit">Registrér</button>
             </form>
 
-            <div id="my-form-status-pfp">
+            <div id="my-form-status-pfp" class="d-none">
+              <h5>Tak for din registrering, du kan nu hente brochuren.</h5>
+              <a href='#' download='/pdfs/Psykologisk-filosofisk-psykoterapi-infofolder.pdf'
+                class='btn btn-copper text-white'>Hent brochure</a>
             </div>
           </div>
         </div>
@@ -48,8 +52,9 @@
   <div class="modal-dialog modal-dialog-centered modal-lg">
     <div class="modal-content p-3">
       <div class="modal-header">
-        <h4 class="modal-title" id="plu-pdf-modal-heading">Ønsker du mere information om uddannelsen? Registrér dig her og hent vore brochure.
-</h4>
+        <h4 class="modal-title" id="plu-pdf-modal-heading">Ønsker du mere information om uddannelsen? Registrér dig her
+          og hent vores brochure.
+        </h4>
         <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
 
       </div>
@@ -62,9 +67,9 @@
 
 
               <input type="hidden" name="pdf" value="plu">
-              <input class="form-control mb-3" type="text" name="name" placeholder="Navn" id="pdf-plu-name">
+              <input class="form-control mb-3" type="text" name="name" placeholder="Navn" id="pdf-plu-name" required>
 
-              <input type="text" id="pdf-plu-email" class="form-control mb-3" name="email" placeholder="Email">
+              <input type="text" id="pdf-plu-email" class="form-control mb-3" name="email" placeholder="Email" required>
 
 
               <div class="form-check mb-3">
@@ -79,7 +84,10 @@
               <button class="btn-cadet-gray btn w-100" id="pdf-pfp-btn" type="submit">Registrér</button>
             </form>
 
-            <div id="my-form-status-plu">
+            <div id="my-form-status-plu" class="d-none">
+              <h5>Tak for din registrering, du kan nu hente brochuren.</h5>
+              <a href='#' download='/pdfs/PLU2020forår.pdf' class='btn btn-slate-gray text-white'>Hent brochure</a>
+
             </div>
           </div>
         </div>
@@ -89,55 +97,57 @@
 </div>
 
 <script>
-  
-
-  var form = document.getElementById("pdf-pfp-form");
-    
-    async function handleSubmit(event) {
-
-      event.preventDefault();
-      var status = document.getElementById("my-form-status-pfp");
-      var data = new FormData(event.target);
-      fetch(event.target.action, {
-        method: form.method,
-        body: data,
-        headers: {
-            'Accept': 'application/json'
-        }
-      }).then(response => {
-        status.className = "py-3 text-center"
-        status.innerHTML = "<a href='#' download='/pdfs/Psykologisk-filosofisk-psykoterapi-infofolder.pdf' class='btn btn-copper text-white'>Hent brochure</a>";
-        form.reset()
-      }).catch(error => {
-        status.innerHTML = "Ups! Der opstod et problem."
-      });
-
-    }
-    form.addEventListener("submit", handleSubmit)
 
 
-    var form = document.getElementById("pdf-plu-form");
-    
-    async function handleSubmit(event) {
+  var formpfp = document.getElementById("pdf-pfp-form");
 
-      event.preventDefault();
-      var status = document.getElementById("my-form-status-plu");
-      var data = new FormData(event.target);
-      fetch(event.target.action, {
-        method: form.method,
-        body: data,
-        headers: {
-            'Accept': 'application/json'
-        }
-      }).then(response => {
-        status.className = "py-3 text-center"
-        status.innerHTML = "<a href='#' download='/pdfs/PLU2020forår.pdf' class='btn btn-copper text-white'>Hent brochure</a>";
-        form.reset()
-      }).catch(error => {
-        status.innerHTML = "Ups! Der opstod et problem."
-      });
+  async function handleSubmit(event) {
 
-    }
-    form.addEventListener("submit", handleSubmit)
+    event.preventDefault();
+    var status = document.getElementById("my-form-status-pfp");
+    var data = new FormData(event.target);
+    fetch(event.target.action, {
+      method: formpfp.method,
+      body: data,
+      headers: {
+        'Accept': 'application/json'
+      }
+    }).then(response => {
+      status.className = "py-3 text-center"
+
+      formpfp.reset()
+      formpfp.className = "d-none"
+    }).catch(error => {
+      status.innerHTML = "Ups! Der opstod et problem."
+    });
+
+  }
+  formpfp.addEventListener("submit", handleSubmit)
+
+
+
+  var formplu = document.getElementById("pdf-plu-form");
+  async function handleSubmitPLU(event) {
+
+    event.preventDefault();
+    var status = document.getElementById("my-form-status-plu");
+    var data = new FormData(event.target);
+    fetch(event.target.action, {
+      method: formplu.method,
+      body: data,
+      headers: {
+        'Accept': 'application/json'
+      }
+    }).then(response => {
+      status.className = "py-3 text-center"
+
+      formplu.reset()
+      formplu.className = "d-none"
+    }).catch(error => {
+      status.innerHTML = "Ups! Der opstod et problem."
+    });
+
+  }
+  formplu.addEventListener("submit", handleSubmitPLU)
 
 </script>
