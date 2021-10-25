@@ -3,6 +3,7 @@ order: 5
 title: Camilla Ingwersen
 call: 29 90 46 91
 description: Seniorkonsulent
+consulent: true
 edu:
 - Master i Business Coaching
 email: ci@copenhagencoaching.dk

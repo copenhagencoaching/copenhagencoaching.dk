@@ -1,81 +1,30 @@
-<div class="container-fluid narrow-container no-up">
-  <div class="only-for-laptop">
-    <div class="navigation-link">
-      <a data-proofer-ignore="" href="#contact" data-toggle="modal" data-target="#contact-modal">Skriv til
-        os</a>
-    </div>
-    {% assign orderedcats = site.consultation-categories | sort: "order" %}
-    {% for cat in orderedcats %}
-    <h4 class="list-header">{{ cat.title }}</h4>
-    {% endfor %}
-    <div class="navigation-link">
-      <a href="/about/">Om os</a>
-    </div>
-    <div class="navigation-link">
-      <a href="#footer">Find os her</a>
-    </div>
-  </div>
-  <div class="grid-2 grid-20-80 only-big-2">
-
-    <div>
-      {% assign orderedcats = site.consultation-categories | sort: "order" %}
-      {% for cat in orderedcats %}
-      <h4 class="list-header">{{ cat.title }}</h4>
-      {% endfor %}
-
-
-    </div>
-    <div>
-
-      <div class="grid-3 gap-40">
-        <div>
-          <h5 class="list-header capped">Privat</h5>
-          <p>Magna labore ipsum nostrud velit eiusmod ullamco laboris id sint exercitation fugiat Lorem
-            consectetur.</p>
-          <a href="/inspiration" class="navigation-link got-icon"><i class="fas fa-chevron-right"></i> Læs
-            mere</a>
-        </div>
-        <div>
-          <h5 class="list-header">Offentlig</h5>
-          <p>Magna labore ipsum nostrud velit eiusmod ullamco laboris id sint exercitation fugiat Lorem
-            consectetur.</p>
-          <a href="/inspiration" class="navigation-link got-icon"> <i class="fas fa-chevron-right"></i> Læs
-            mere</a>
-        </div>
-
-        <div>
-          <h5 class="list-header capped">Lær os bedre at kende</h5>
-
-          <a class="navigation-link got-icon" href="#">
-            Hvem er vi?</a>
-          <a class="navigation-link got-icon" href="#">
-            Vores vision</a>
-          <a class="navigation-link got-icon" href="#">
-            Tilmeld nyhedsbrev</a>
-       
-          <a href="#contact" data-toggle="modal" data-target="#contact-modal"
-            class="navigation-link got-icon highlighted blue">Vores dør
-            er altid åben -
-            book
-            en samtale</a>
-        </div>
-      </div>
-      <h4 class="list-header">Mød vores konsulenter</h4><br>
-      <div class="slider-two position-relative">
-        {% for emp in site.employees %}
-
-        <div class="center">
-          <img src="{{ emp.small-portrait-image }}" class="small-kvart-image ml-auto mr-auto center" alt="">
-          <p class="mb-0 highlighted">{{ emp.title }}</p>
-          <p class="mb-0 small">{{ emp.call }}</p>
-          <p class="mb-0 small">{{ emp.email }}</p>
-        </div>
-
+<div class="container-fluid pb-4 pt-3">
+  <h5 class="text-uppercase mb-4">Konsulentydelser</h5>
+  <div class="row">
+    <div class="col-lg-4 col-12">
+      <div class="d-flex flex-column">
+        {% assign orderedcats = site.coachings | sort: "order" %}
+        {% for cat in orderedcats %}
+        <a class="navigation-link got-icon small" href="{{ cat.url }}">{{ cat.title }}</a>
         {% endfor %}
-
       </div>
     </div>
-
-
+    <div class="col-lg-4 col-12">
+      <div class="d-flex flex-column">
+        {% assign orderedcats = site.consultations | sort: "order" %}
+        {% for cat in orderedcats %}
+        <a class="navigation-link got-icon small" href="{{ cat.url }}">{{ cat.title }}</a>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="col-lg-4 col-12">
+      <div class="d-flex flex-column">
+        <a data-proofer-ignore="" href="#contact" data-toggle="modal" class="small" data-target="#contact-modal">Skriv til
+          os</a>
+        <a class="navigation-link got-icon small" href="/about/">Om os</a>
+        <a class="navigation-link got-icon small" href="#footer">Find os her</a>
+      </div>
+    </div>
   </div>
+
 </div>

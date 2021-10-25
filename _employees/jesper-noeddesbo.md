@@ -6,6 +6,7 @@ small-portrait-image: "/images/about/employees/jesper-nøddesbo.png"
 grey-portrait: /images/about/employees/jesper-nøddesbo-grayscale.png
 email: jn@copenhagencoaching.dk
 mbc: true
+consulent: true
 edu:
 - Cand. Comm. fra Roskilde Universitet
 - Master i Business Coaching

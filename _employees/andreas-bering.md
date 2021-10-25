@@ -6,6 +6,7 @@ small-portrait-image: "/images/about/small-images/andreas-bering.png"
 grey-portrait: /images/about/medarbejdere-sort-hvid/andreas-bering-sort-hvid.png
 call: 40 14 92 92
 email: ab@copenhagencoaching.dk
+consulent: true
 mbc: true
 edu:
 - Cand. Comm. fra Roskilde Universitet

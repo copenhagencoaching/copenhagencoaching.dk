@@ -4,6 +4,7 @@
     width: 100%;
     background-size: cover;
     background-position: 50% 30%;
+
     @media (max-width: 991.98px) {
         height: 550px;
         padding-top: 100px !important;
@@ -11,7 +12,7 @@
 }
 
 .big-header .inner-front .container-fluid .front-box {
-    background-color: rgba(255,255,255,0.849);
+    background-color: rgba(255, 255, 255, 0.849);
     max-width: 700px;
     padding: 40px;
 }
@@ -24,32 +25,58 @@
     height: 100%;
 }
 
-.slick-next { 
-    @media (max-width: 991.98px) {
-        right: 20px !important;
-        top: 57% !important;
+.big-header {
+
+    .slick-next {
+        @media (max-width: 991.98px) {
+            right: 20px !important;
+            top: 57% !important;
+        }
+
+        right: 50px !important;
+
+        &::before {
+            color: rgb(255, 255, 255) !important;
+        }
+
     }
-    right: 50px !important;
-    &::before {
-        color: rgb(255, 255, 255) !important;
+
+
+
+    .slick-prev {
+        @media (max-width: 991.98px) {
+            left: 10px !important;
+            top: 57% !important;
+        }
+
+        left: 50px !important;
+
+        &::before {
+            color: rgb(255, 255, 255) !important;
+        }
     }
-    
 }
 
-.slick-prev { 
-    @media (max-width: 991.98px) {
-        left: 10px !important;
-        top: 57% !important;
+
+
+.person-slider {
+
+    .slick-next {
+        right: -50px !important;
+
+
     }
-    left: 50px !important;
-    &::before {
-        color: rgb(255, 255, 255) !important;
+
+    .slick-prev {
+        left: -50px !important;
+
+
     }
 }
 
 
 .partner-slider {
-   
+
     div {
         height: 200px;
     }
@@ -76,7 +103,8 @@
 } */
 
 
-.custom-arrow-right, .custom-arrow-left {
+.custom-arrow-right,
+.custom-arrow-left {
     display: inline-block;
     width: 55px;
     height: 55px;
@@ -85,20 +113,21 @@
     cursor: pointer;
     top: 35%;
     opacity: .7;
+
     &:hover {
         opacity: 1;
     }
-    
-  }
 
-  .custom-arrow-right {
-      background-image: url("/images/graphic/arrow-next.png");
-      background-position: center;
-      background-size: cover;
-      right: 0;
-  }
+}
 
-  .custom-arrow-left {
+.custom-arrow-right {
+    background-image: url("/images/graphic/arrow-next.png");
+    background-position: center;
+    background-size: cover;
+    right: 0;
+}
+
+.custom-arrow-left {
     background-image: url("/images/graphic/arrow-prev.png");
     background-position: center;
     background-size: cover;

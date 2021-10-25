@@ -5,6 +5,7 @@ portrait-image: "/images/about/employees/anni-r-korsbæk.jpg"
 small-portrait-image: "/images/about/employees/anni-r-korsbæk.jpg"
 grey-portrait: /images/about/medarbejdere-sort-hvid/anni-r-korsbæk-sort-hvid.jpg
 call: 51 48 84 33
+consulent: false
 email: ark@copenhagencoaching.dk
 description: Associeret partner
 linkedin: https://www.linkedin.com/in/anni-rosengren-korsb%C3%A6k-85647890/
