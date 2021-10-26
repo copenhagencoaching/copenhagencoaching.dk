@@ -2,7 +2,7 @@
 
 
   <div class="row">
-    <div class="col-lg-3 col-12">
+    <div class="col-lg-2 col-12">
       <h5 class="text-uppercase mb-4">Coaching</h5>
       <div class="d-flex flex-column">
         {% assign orderedcoaching = site.coachings | sort: "menu-order" %}
@@ -12,9 +12,9 @@
         {% endfor %}
       </div>
     </div>
-    <div class="col-lg-9 col-12">
-      <div class="row">
-        <div class="col-lg-4 col-12">
+    <div class="col-lg-10 col-12">
+      <div class="row gy-5">
+        <div class="col-lg-3 col-12">
           <p class="text-uppercase fw-bold mb-0">Privat coaching?</p>
           <p class="small mb-1">Har du brug for privat coaching?</p>
           <a class="navigation-link got-icon small" href="#">Læs mere her <i class="fas fa-arrow-right"></i></a>
@@ -24,13 +24,19 @@
           <p class="small mb-1">Har du brug for nogen til at coache dit team?</p>
           <a class="navigation-link got-icon small" href="#">Læs mere her <i class="fas fa-arrow-right"></i></a>
         </div>
-        <div class="col-lg-4 col-12">
+        <div class="col-lg-5 col-12">
+          <p class="text-uppercase fs-6 fw-bold mb-0">Vil du vide mere omkring vores coaching?</p>
+          <p class="small mb-1">Kontakt os og hør mere omkring hvordan kan tilbyde den coaching der passer til dig.</p>
+          <a class="navigation-link got-icon small" href="#">Kontakt os <i class="fas fa-arrow-right"></i></a>
+
+        </div>
+        <div class="col-xl-3 col-12 pe-5">
           <p class="text-uppercase fw-bold mb-0">Ehvervsrettet testing</p>
           <p class="small mb-1">Vi tilbyder erhvervsrettet testning inkl. tilbagemeldings samtaler.</p>
           <a class="navigation-link got-icon small" href="#">Læs mere her <i class="fas fa-arrow-right"></i></a>
         </div>
 
-        <div class="col-12 pt-4">
+        <div class="col-xl-9 col-12">
           <p class="text-uppercase fw-bold mb-0">Mød vores konsulenter</p>
           <div class="person-slider pt-3">
 
@@ -38,11 +44,13 @@
             {% if emp.consulent == true %}
             <div class="d-flex align-items-center">
               <div class="flex-shrink-0">
-                <img width="75" class="rounded-circle" src="{{ emp.small-portrait-image }}"
+                <img width="70" class="rounded-circle" src="{{ emp.small-portrait-image }}"
                   alt="{{ emp.title }}, {{ emp.description}}">
-              </div>
-              <div class="flex-grow-1 ms-3">
-                <p class="mt-2 mb-1 small"><small><b>{{ emp.title }}</b></small></p>
+                </div>
+                <div class="flex-grow-1 ms-3">
+              
+                <p class="mt-0 mb-0 small"><small><b>{{ emp.title }}</b></small></p>
+                <p class="mb-0 small fw-light"><small>{{ emp.description }}</small></p>
                 <p class="mb-0 small"><small>{{ emp.call }}</small></p>
                 <p class="mb-0 small"><small>{{ emp.email }}</small></p>
               </div>

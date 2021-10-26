@@ -1,84 +1,84 @@
-<div class="container-fluid narrow-container no-up">
-    <div class="only-for-laptop">
-      <div class="navigation-link">
-        <a data-proofer-ignore="" href="#contact" data-toggle="modal" data-target="#contact-modal">Skriv til
-          os</a>
-      </div>
-      <div class="navigation-link">
-        <a href="/about/">Om os</a>
-      </div>
-      <div class="navigation-link">
-        <a href="#footer">Find os her</a>
-      </div>
+<div class="container-fluid pb-4 pt-3">
+
+
+  <div class="row gy-3">
+
+
+    <div class="col-xl-3 col-12">
+
+      <h5 class="text-uppercase">Find os her</h5>
+      <p class="mb-0">Blegdamsvej 104 A, 2. Sal</p>
+      <p>2100 Kbh Ø</p>
+      <iframe class="i-frame small"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2248.53044321456!2d12.571180315826155!3d55.69715098053854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465252fc41a2fdff%3A0x5cffffd334cabc42!2sBlegdamsvej%20104A%2C%202100%20K%C3%B8benhavn!5e0!3m2!1sen!2sdk!4v1577555981422!5m2!1sen!2sdk"></iframe>
     </div>
 
-    <div class="grid-2 grid-70-30 gap-40 r-gap-20 laptop-1fr only-big">
-      <div class="grid-1">
-        <div class="grid-2 grid-30-70 r-gap-20">
-          <div>
-
-            <h5>Find os her:</h5>
-            <address>Blegdamsvej 104 A, 2. Sal <br>2100 Kbh Ø</address>
-            <iframe class="i-frame small"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2248.53044321456!2d12.571180315826155!3d55.69715098053854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465252fc41a2fdff%3A0x5cffffd334cabc42!2sBlegdamsvej%20104A%2C%202100%20K%C3%B8benhavn!5e0!3m2!1sen!2sdk!4v1577555981422!5m2!1sen!2sdk"></iframe>
-
-          </div>
-          <div class="grid-1">
-          <div class="grid-2 border-left border-none-laptop r-gap-20">
-            <div>
-              <h5>I tvivl om uddannelsesretning?</h5>
-              <span>Ring og få en snak med:</span>
-              <div class="grid-2 grid-20-80">
-                {% for emp in site.employees %}
-                {% if emp.title == "Frederikke Winther" %}
-                <img class="small-round-image" src="{{ emp.small-portrait-image }}" alt="">
-                <span class="small"><b>{{ emp.title }}</b><br><span
-                    class="highlighted green">{{ emp.call }}</span><br>{{ emp.email }}</span>
-                {% endif %}
-                {% endfor %}
-              </div>
+    <div class="col-xl-5 col-12">
+      <div class="row gy-4">
+        <div class="col-lg-6 col-12">
+          <p class="text-uppercase fw-bold mb-0 fs-6">I tvivl om uddannelsesretning?
+          </p>
+          <p class="small">Kontakt os og høre mere, eller ring eller skriv direkte til Andreas.</p>
+          <div class="d-flex align-items-center">
+            <div class="flex-shrink-0">
+              <img width="80" class="rounded-circle" src="/images/about/employees/andreas-bering.png">
             </div>
-            <div>
-              <h5>Skal vi skræddersy et forløb til jer?</h5>
-              <span>Ring og få en snak med:</span>
-              <div class="grid-2 grid-20-80">
-                {% for emp in site.employees %}
-                {% if emp.title == "Andreas Bering" %}
-                <img class="small-round-image" src="{{ emp.small-portrait-image }}" alt="">
-                <span class="small"><b>{{ emp.title }}</b><br><span
-                    class="highlighted green">{{ emp.call }}</span><br>{{ emp.email }}</span>
-                {% endif %}
-                {% endfor %}
-              </div>
+            <div class="flex-grow-1 ms-3">
+
+              <p class="mt-0 mb-0"><b>Andreas Bering</b></p>
+              <p class="mb-0 fw-light"><small>Direktør</small></p>
+              <p class="mb-0"><small>+45 40 14 92 92</small></p>
+              <p class="mb-0"><small>ab@copenhagencoaching.dk</small></p>
             </div>
 
 
 
           </div>
-          <div class="border-left">
-            <h3>Bliv en del af CCC Community</h3>
-            <p>Et fællesskab for vedvarende læring og udvikling af dit lederskab</p>
-            <a href="/community/" class="blue-button">Se mere</a>
+        </div>
+        <div class="col-lg-6 col-12">
+          <p class="text-uppercase fw-bold mb-0 fs-6">I tvivl om uddannelsesretning?
+          </p>
+          <p class="small">Kontakt os og høre mere, eller ring eller skriv direkte til Andreas.</p>
+          <div class="d-flex align-items-center">
+            <div class="flex-shrink-0">
+              <img width="80" class="rounded-circle" src="/images/about/employees/andreas-bering.png">
+            </div>
+            <div class="flex-grow-1 ms-3">
+
+              <p class="mt-0 mb-0"><b>Andreas Bering</b></p>
+              <p class="mb-0 fw-light"><small>Direktør</small></p>
+              <p class="mb-0"><small>+45 40 14 92 92</small></p>
+              <p class="mb-0"><small>ab@copenhagencoaching.dk</small></p>
+            </div>
+
+
+
           </div>
         </div>
-        </div>
-
-       
 
       </div>
-      <div>
-        <form action="https://formspree.io/moqllqyp" method="POST" class="small-form">
-          <h4>Skriv til os</h4>
-          <p class="mb-0">Vi svarer dig hurtigst muligt</p>
-          <br>
-          <span>
-            <input type="text" name="navn" placeholder="Navn">
-            <input type="text" name="email" placeholder="Email">
-          </span>
-          <textarea name="besked"placeholder="Besked"></textarea>
-          <!-- your other form fields go here -->
-          <button class="blue-button" type="submit">SEND</button>
-        </form>
-      </div>
+
     </div>
+
+    <div class="col-xl-4 col-12 text-end">
+      <p class="text-uppercase fw-bold mb-0 fs-6">
+        Lær os bedre at kende
+      </p>
+      <a class="navigation-link got-icon small" href="#">Skriv dig op til vores nyhedsbrev <i
+          class="fas fa-arrow-right"></i></a><br>
+      <a class="navigation-link got-icon small" href="#">Kontakt os - vores dør er altid åben <i
+          class="fas fa-arrow-right"></i></a>
+
+      <p class="text-uppercase fw-bold mb-0 fs-6 mt-4">Bliv en del af fællesskabet</p>
+      <p>Et fællesskab for vedvarende læring og udvikling af dit lederskab</p>
+      <a class="navigation-link got-icon small" href="#">Se mere <i class="fas fa-arrow-right"></i></a>
+    </div>
+
   </div>
+
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
+  integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous"
+  async></script>
