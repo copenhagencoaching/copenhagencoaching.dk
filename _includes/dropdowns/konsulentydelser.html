@@ -1,29 +1,49 @@
 <div class="container-fluid pb-4 pt-3">
-  <h5 class="text-uppercase mb-4">Konsulentydelser</h5>
-  <div class="row">
-    <div class="col-lg-4 col-12">
-      <div class="d-flex flex-column">
-        {% assign orderedcats = site.coachings | sort: "order" %}
-        {% for cat in orderedcats %}
-        <a class="navigation-link got-icon small" href="{{ cat.url }}">{{ cat.title }}</a>
-        {% endfor %}
-      </div>
+
+
+
+  <div class="row g-5">
+    {% assign orderedcats = site.consultations | sort: "order" %}
+    {% for cat in orderedcats %}
+    <div class="col-lg-3 col-12">
+      <p class="text-uppercase fw-bold mb-0 fs-6">{{ cat.title }}
+      </p>
+      <p><small>{{ cat.description }}</small></p>
+      <a class="navigation-link got-icon small" href="/about/">Se mere</a>
     </div>
-    <div class="col-lg-4 col-12">
-      <div class="d-flex flex-column">
-        {% assign orderedcats = site.consultations | sort: "order" %}
-        {% for cat in orderedcats %}
-        <a class="navigation-link got-icon small" href="{{ cat.url }}">{{ cat.title }}</a>
-        {% endfor %}
+    {% endfor %}
+
+    <div class="col-12">
+      <p class="text-uppercase fw-bold mb-0">Mød vores konsulenter</p>
+      <div class="row">
+        <div class="col-12 ps-5">
+          <div class="person-slider-two pt-3">
+
+            {% for emp in site.employees %}
+            {% if emp.consulent == true %}
+            <div class="d-flex align-items-center">
+              <div class="flex-shrink-0">
+                <img width="70" class="rounded-circle" src="{{ emp.small-portrait-image }}"
+                  alt="{{ emp.title }}, {{ emp.description}}">
+                </div>
+                <div class="flex-grow-1 ms-3">
+              
+                <p class="mt-0 mb-0 small"><small><b>{{ emp.title }}</b></small></p>
+                <p class="mb-0 small fw-light"><small>{{ emp.description }}</small></p>
+                <p class="mb-0 small"><small>{{ emp.call }}</small></p>
+                <p class="mb-0 small"><small>{{ emp.email }}</small></p>
+              </div>
+    
+    
+    
+            </div>
+            {% endif %}
+            {% endfor %}
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="col-lg-4 col-12">
-      <div class="d-flex flex-column">
-        <a data-proofer-ignore="" href="#contact" data-toggle="modal" class="small" data-target="#contact-modal">Skriv til
-          os</a>
-        <a class="navigation-link got-icon small" href="/about/">Om os</a>
-        <a class="navigation-link got-icon small" href="#footer">Find os her</a>
-      </div>
+
+
     </div>
   </div>
 

@@ -1,9 +1,7 @@
 <div class="container-fluid pb-5 pt-3">
-
-
   <div class="row">
     <div class="col-lg-2 col-12">
-      <h5 class="text-uppercase mb-4">Coaching</h5>
+      <p class="text-uppercase fw-bold mb-2">Coaching</p>
       <div class="d-flex flex-column">
         {% assign orderedcoaching = site.coachings | sort: "menu-order" %}
         {% for coaching in orderedcoaching %}
@@ -13,31 +11,32 @@
       </div>
     </div>
     <div class="col-lg-10 col-12">
-      <div class="row gy-5">
-        <div class="col-lg-3 col-12">
-          <p class="text-uppercase fw-bold mb-0">Privat coaching?</p>
-          <p class="small mb-1">Har du brug for privat coaching?</p>
-          <a class="navigation-link got-icon small" href="#">Læs mere her <i class="fas fa-arrow-right"></i></a>
+      <div class="row gy-3">
+        <div class="col-lg-4 col-12">
+          <p class="text-uppercase fw-bold mb-2">Privat</p>
+          <p class="mb-1"><small>Magna labore ipsum nostrud velit eiusmod ullamco laboris id sint exercitation fugiat Lorem consectetur.</small></p>
+          <a class="navigation-link got-icon small" href="#">Se mere <i class="fas fa-arrow-right"></i></a>
         </div>
         <div class="col-lg-4 col-12">
-          <p class="text-uppercase fw-bold mb-0">Team coaching?</p>
-          <p class="small mb-1">Har du brug for nogen til at coache dit team?</p>
-          <a class="navigation-link got-icon small" href="#">Læs mere her <i class="fas fa-arrow-right"></i></a>
+          <p class="text-uppercase fw-bold mb-2">Offentlig</p>
+          <p class="mb-1"><small>Magna labore ipsum nostrud velit eiusmod ullamco laboris id sint exercitation fugiat Lorem consectetur.</small></p>
+          <a class="navigation-link got-icon small" href="#">Se mere <i class="fas fa-arrow-right"></i></a>
         </div>
-        <div class="col-lg-5 col-12">
-          <p class="text-uppercase fs-6 fw-bold mb-0">Vil du vide mere omkring vores coaching?</p>
-          <p class="small mb-1">Kontakt os og hør mere omkring hvordan kan tilbyde den coaching der passer til dig.</p>
-          <a class="navigation-link got-icon small" href="#">Kontakt os <i class="fas fa-arrow-right"></i></a>
+        <div class="col-lg-4 col-12">
+          <p class="text-uppercase fw-bold mb-2">Lær os bedre at kende</p>
+          <div class="d-flex flex-column">
 
+            <a class="navigation-link small mb-1" href="#">
+              Tilmeld nyhedsbrev</a>
+              <a class="navigation-link small mb-1" href="#"><b>
+                Vores dør er altid åben - book en samtale</b></a>
+          
+          </div>
         </div>
-        <div class="col-xl-3 col-12 pe-5">
-          <p class="text-uppercase fw-bold mb-0">Ehvervsrettet testing</p>
-          <p class="small mb-1">Vi tilbyder erhvervsrettet testning inkl. tilbagemeldings samtaler.</p>
-          <a class="navigation-link got-icon small" href="#">Læs mere her <i class="fas fa-arrow-right"></i></a>
-        </div>
-
-        <div class="col-xl-9 col-12">
+        <div class="col-12">
+          
           <p class="text-uppercase fw-bold mb-0">Mød vores konsulenter</p>
+          
           <div class="person-slider pt-3">
 
             {% for emp in site.employees %}
@@ -63,15 +62,11 @@
           </div>
 
         </div>
-
       </div>
-
-
     </div>
-
-
-
   </div>
+
+
 
 
 </div>

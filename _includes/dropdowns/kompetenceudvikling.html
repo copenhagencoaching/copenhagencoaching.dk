@@ -3,50 +3,57 @@
   <h5 class="text-uppercase mb-4">Vælg uddannelsestype</h5>
   <div class="row gy-3">
 
-    {% assign ordered_themes = site.edu-categories | sort: "order" %}
-    {% for cat in ordered_themes %}
-    <div class="col-xl-3 col-12">
-      <p class="text-uppercase fw-bold mb-0">{{ cat.title }}</p>
-      <div class="d-flex flex-column">
-      {% for edu in site.educations %}
-      {% for cate in edu.cat %}
-      {% if cate == cat.name %}
+    <div class="col-lg-8 col-12">
+      <div class="row gy-3">
+        {% assign ordered_themes = site.edu-categories | sort: "order" %}
+        {% for cat in ordered_themes %}
+        {% if cat.title != "Rekruttering, Onboarding og Test" %}
+    
+        <div class="col-xl-4 col-12">
+          <p class="text-uppercase fw-bold mb-0">{{ cat.title }}</p>
+          <div class="d-flex flex-column">
+            {% for edu in site.educations %}
+            {% for cate in edu.cat %}
+            {% if cate == cat.name %}
 
 
 
-      <a class="navigation-link got-icon small" href="{{ edu.url }}">
-        {{ edu.title }}</a>
-      {% endif %}
-      {% endfor %}
-      {% endfor %}
+            <a class="navigation-link got-icon small" href="{{ edu.url }}">
+              {{ edu.title }}</a>
+            {% endif %}
+            {% endfor %}
+           
+            {% endfor %}
+          </div>
+        </div>
+        {% endif %}
+        {% endfor %}
+      </div>
+
     </div>
-    </div>
-    {% endfor %}
-    <div class="col-xl-3 col-12 pe-5">
-      <p class="text-uppercase fw-bold mb-0">Er du i tvivl om din uddannelse? </p>
-      <p class="small mb-1">Kontakt os og høre mere, eller ring eller skriv direkte til Andreas.</p>
-      <a class="navigation-link got-icon small" href="#">Kontakt os <i class="fas fa-arrow-right"></i></a>
-    </div>
-    <div class="col-xl-3 col-12 pt-3">
-      <div class="d-flex align-items-center">
-        <div class="flex-shrink-0">
-          <img width="80" class="rounded-circle" src="/images/about/employees/andreas-bering.png">
+
+    <div class="col-lg-4 col-12">
+
+        <p class="text-uppercase fs-6 fw-bold mb-0">Er du i tvivl om din uddannelse? </p>
+        <p class="small mb-1">Kontakt os og høre mere, eller ring eller skriv direkte til Andreas.</p>
+        <a class="navigation-link got-icon small" href="#">Kontakt os <i class="fas fa-arrow-right"></i></a>
+
+        <div class="d-flex align-items-center pt-4">
+          <div class="flex-shrink-0">
+            <img width="80" class="rounded-circle" src="/images/about/employees/andreas-bering.png">
           </div>
           <div class="flex-grow-1 ms-3">
-        
-          <p class="mt-0 mb-0"><b>Andreas Bering</b></p>
-          <p class="mb-0 fw-light"><small>Direktør</small></p>
-          <p class="mb-0"><small>+45 40 14 92 92</small></p>
-          <p class="mb-0"><small>ab@copenhagencoaching.dk</small></p>
+  
+            <p class="mt-0 mb-0"><b>Andreas Bering</b></p>
+            <p class="mb-0 fw-light"><small>Direktør</small></p>
+            <p class="mb-0"><small>+45 40 14 92 92</small></p>
+            <p class="mb-0"><small>ab@copenhagencoaching.dk</small></p>
+          </div>
         </div>
-
-
-
-      </div>
     </div>
   </div>
-
-
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
+<script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
+  integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous"
+  async></script>

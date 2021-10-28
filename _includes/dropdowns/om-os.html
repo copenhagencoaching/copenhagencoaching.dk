@@ -1,70 +1,83 @@
-<div class="container-fluid narrow-container no-up">
-    <div class="grid-2 grid-50-50">
-      <div>
-        <h5>CCC indefra</h5>
-        <br>
-        <div>
+<div class="container-fluid pt-4 pb-4">
+  <div class="row g-5">
+    <div class="col-lg-2 col-12">
+      <div class="d-flex flex-column">
 
-          <div class="slider-four position-relative">
+        <a class="navigation-link small mb-1" href="#">EMCC akkreditering</a>
+        <a class="navigation-link small mb-1" href="#">Metodik</a>
+        <a class="navigation-link small mb-0" href="#">Vision</a>
+        <hr class="w-50">
+        <a class="navigation-link small mb-1" href="#">Persondatapolitik</a>
+        <a class="navigation-link small mb-1" href="#">Cookie politik</a>
+        <a class="navigation-link small mb-1" href="#">Sitemap</a>
+
+      </div>
+    </div>
+    <div class="col-lg-10 col-12">
+      <div class="row gy-3">
+        <div class="col-12">
+          <p class="text-uppercase fw-bold mb-0">CCC indefra</p>
+          <div class="person-slider pt-3">
+
             {% for emp in site.employees %}
-    
-            <div class="center">
-              <img src="{{ emp.small-portrait-image }}" class="small-kvart-image ml-auto mr-auto center" alt="">
-                <p class="mb-0 highlighted">{{ emp.title }}</p>
-                <p class="mb-0 small">{{ emp.call }}</p>
-                <p class="mb-0 small">{{ emp.email }}</p>
-            </div>
-    
-            {% endfor %}
-    
-          </div>
-        </div>
-
-        <hr>
-
-        <h5>CCC udefra</h5>
-        <br>
-        <div class="slider-five">
-          {% for testi in site.testimonials %}
-          <div class="one-slide">
-            <div class="testimonial-quote group right">
-              <img src="{{ testi.image }}">
-              <div class="quote-container">
-                <div>
-                  <blockquote>
-                    <p>{{ testi.content }}</p>
-                  </blockquote>
-                  <cite><span>{{ testi.title }}</span><br>
-                    {{ testi.description }}
-                  </cite>
+            
+            <div class="d-flex align-items-center">
+              <div class="flex-shrink-0">
+                <img width="70" class="rounded-circle" src="{{ emp.small-portrait-image }}"
+                  alt="{{ emp.title }}, {{ emp.description}}">
                 </div>
+                <div class="flex-grow-1 ms-3">
+              
+                <p class="mt-0 mb-0 small"><small><b>{{ emp.title }}</b></small></p>
+                <p class="mb-0 small fw-light"><small>{{ emp.description }}</small></p>
+                <p class="mb-0 small"><small>{{ emp.call }}</small></p>
+                <p class="mb-0 small"><small>{{ emp.email }}</small></p>
               </div>
+
+
+
             </div>
-
-          </div>
-          {% endfor %}
-
-        </div>
-
-      </div>
-
-      <div class="border-left white grid-1 r-gap-20">
-
-
-       
-          {% for fund in site.fundament %}
          
-          <div class="card no-border h-100 right-bottom"
-          style="background: linear-gradient(rgba(19, 19, 19, 0.6), rgba(19, 19, 19, 0.2)), url('{{ fund.image }}'); background-position: center; background-size: cover;">
-  
-          <h4 class="capped card-title">Læs om vores {{ fund.title }}</h4>
+            {% endfor %}
           </div>
-        
-      
-      {% endfor %}
-        
+        </div>
+        <div class="col-12 pt-5">
+          <p class="text-uppercase fw-bold">CCC udefra</p>
+          <div class="testimonials-slider">
+            {% for testi in site.testimonials %}
+            <div class="d-flex align-items-center pe-5">
+              <div class="flex-grow-1 me-3">
 
+                <figure>
+                  <blockquote class="blockquote mb-4">
+                      <p>
+                          <i class="fas fa-quote-left fs-4 fa-lg opacity-50 me-2"></i>
+                          <em><span>{{ testi.content }}</span></em>
+                          <i class="fas fa-quote-right fs-4 fa-lg opacity-50 me-2"></i>
+
+                      </p>
+                  </blockquote>
+                  <figcaption class="blockquote-footer text-end">
+                    <b>{{ testi.title }}</b><br>
+                    <small>{{ testi.description }}</small>
+                </figcaption>
+              </figure>
+               
+              </div>
+              <div class="flex-shrink-0">
+
+                    <img width="100" class="rounded-circle" src="{{ testi.image }}">
+              </div>
+  
+  
+  
+            </div>
+            {% endfor %}
+          </div>
+        </div>
       </div>
-
     </div>
   </div>
+</div>
+
+
