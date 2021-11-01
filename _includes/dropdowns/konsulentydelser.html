@@ -8,8 +8,22 @@
     <div class="col-lg-3 col-12">
       <p class="text-uppercase fw-bold mb-0 fs-6">{{ cat.title }}
       </p>
-      <p><small>{{ cat.description }}</small></p>
-      <a class="navigation-link got-icon small" href="/about/">Se mere</a>
+      <p class="mb-0"><small>{{ cat.description }}</small></p>
+      <a class='animated-arrow' href='/about/'>
+        <span class='the-arrow -left'>
+            <span class='shaft'></span>
+        </span>
+        <span class='main'>
+            <span class='text'>
+                <p class="pt-4">
+                    Læs mere her
+                </p>
+            </span>
+            <span class='the-arrow -right'>
+                <span class='shaft'></span>
+            </span>
+        </span>
+    </a>
     </div>
     {% endfor %}
 

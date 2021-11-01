@@ -163,3 +163,76 @@
     background-size: cover;
     left: 0;
 }
+
+
+// Accordion slider
+
+ul.calendar-gallery {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+
+    li.calendar-section {
+        display: flex;
+        flex: 1;
+        align-items: stretch;
+        background: #E74C3C;
+        padding: 200px 0 100px 0;
+        cursor: pointer;
+        transition: all .5s ease;
+
+        &:hover {
+            background: darken(#E74C3C, 3);
+        }
+
+        &.active {
+            flex: 5;
+            background: rgb(110, 110, 110);
+            cursor: default;
+            transform: scaleX(1);
+       
+
+            h2 {
+                color: #E74C3C;
+            }
+
+            .section-content {
+                flex: 4;
+                transform: scaleX(1);
+                color: #E74C3C;
+                display: block;
+            }
+        }
+
+        .section-title {
+            flex: 1;
+            display: flex;
+            align-items: flex-start;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            color: white;
+
+            h3 {
+                margin: 0;
+                transform: rotate(-90deg);
+                white-space: nowrap;
+            }
+        }
+
+        .section-content {
+            flex: 1;
+            display: flex;
+            align-items: flex-start;
+            margin: 0;
+            padding: 0;
+            transition: all .25s .1s ease-out;
+            display: none;
+        }
+    }
+}
