@@ -6,7 +6,6 @@ soundcloud: true
 soundcloud-link: https://soundcloud.com/cccpodcastdur/sets/selvfornemmelsens-fire-lag
 soundcloud-id: 1141063549
 category:
-- blog
 - podcast
 tags:
 - coaching

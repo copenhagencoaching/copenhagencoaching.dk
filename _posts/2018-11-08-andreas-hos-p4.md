@@ -6,7 +6,8 @@ author: Frederikke Winther
 tags: [ugebrev, nyhed]
 signup: forskellige ydelser
 teaser:
-category: blog
+category:
+- blog
 description: Coaching – Hvad er det, hvad kan det og hvad skal vi med det? Det er nogle af de spørgsmål, Andreas forsøgte at give gode svar på, da han besøgte Søren og Mette i P4s radiostudie sammen med Søs Fenger, Simon Talbot og Brian Lykke.
 ---
 

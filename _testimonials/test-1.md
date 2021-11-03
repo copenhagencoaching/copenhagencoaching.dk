@@ -1,6 +1,8 @@
 ---
-name: test person 1
-description: Medarbejder hos Nordea
-image: /images/graphic/testi-2.jpeg
+title: Jens Hedegård Norsk Nielsen
+description: Koordinator, Tårnby Ungdomsskole
+image: /images/graphic/testi-1.jpg
 ---
-Est laborum est sint magna enim deserunt do non amet Lorem aute. Nostrud pariatur nostrud velit cupidatat eu laboris tempor non. Elit nulla laboris deserunt esse incididunt in minim ad nisi mollit.
+Undervisernes erfaring samt deres faglige bredde og dybde var imponerede. De formåede at skabe nogle uddannelsesdage præget af nærvær, nysgerrighed og refleksion.
+
+Jeg kan derfor i høj grad anbefale et uddannelsesforløb hos CCC.

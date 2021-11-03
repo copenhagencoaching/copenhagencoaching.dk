@@ -2,13 +2,13 @@
 layout: page
 ---
 
-<div class="container-fluid my-5">
-    <div class="row g-5" data-masonry='{"percentPosition": true }'>
-        {% assign sorted_stories = site.posts | sort: "date" | reverse %}
-        {% for post in sorted_stories %}
-        {% if post.category contains "blog" %}
-        {% if post.category contains "podcast" %}
-        {% else %}
+<div class="container-fluid my-5 py-5">
+    <div class="row g-5">
+        
+        {% assign sortedPosts = site.categories['blog'] | reverse | sort: "date" %}
+        {% for post in sortedPosts %}
+ 
+        
         <div class="col-md-3 col-12">
             <a href="{{ post.url }}">
                 <div class="card">
@@ -23,8 +23,7 @@ layout: page
                 </div>
             </a>
         </div>
-        {% endif %}
-        {% endif %}
+    
         {% endfor %}
     </div>
 </div>

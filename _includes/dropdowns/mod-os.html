@@ -1,52 +1,159 @@
-<div class="container-fluid narrow-container no-up">
-  <div class="grid-2 gap-90">
-    <div class="card">
-      <img src="/images/academy/ccc-community.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h3 class="card-title">Bliv en del af vores community</h3>
-        <p class="card-text m-b-20">Et fællesskab for vedvarende læring og udvikling af dit lederskab.
-        </p>
-      </div>
-      <div class="card-footer"> <a href="/community/" class="btn">Læs mere</a></div>
+<div class="container-fluid pt-4 pb-4">
+  <div class="row g-5">
+    <div class="col-lg-3 col-12">
+      <a href="/community/">
+        <div class="card border-0">
+          <div class="h-100p">
+            <img src="/images/graphic/community-1.png" class="object-fit" alt="...">
+          </div>
+          <div class="card-body px-0 py-2">
+            <p class="text-uppercase fw-bold fs-6">Bliv en del af fællesskabet</p>
+          </div>
+        </div>
+      </a>
     </div>
-    
-
-    <div class="grid-2">
-      <div>
-        <h3>
-          Undervisning
-        </h3>
-
-        <div class="calendar-list">
-          <ul>
-            {% assign orderedposts_calendar = site.calendar | sort: "date" | reversed %}
-            {% for post in orderedposts_calendar limit: 4 %}
-            <li>
-              <div class="calendar-list__date">
-                <span>{{ post.date | date: "%b" }}</span><span>{{ post.date | date: "%d" }}</span>
-              </div>
-              <div class="calendar-list__desc">
-                <span>{{ post.title }} {% if post.description %}- {{ post.description }}{% endif %}</span>
-                <span>{% if post.time %}<i class="far fa-clock calendar-clock"></i>
-                  {{ post.time }}{% endif %}</span>
-              </div>
-            </li>
-            {% endfor %}
-          </ul>
+    <div class="col-lg-3 col-12">
+      <div class="card border-0">
+        <div class="h-100p">
+          <img src="/images/community/community.jpg" class="object-fit" alt="...">
         </div>
-        <a class="dropdown-item got-icon" href="/uddannelseskalender/"><i class="fas fa-chevron-right"></i> Se alle
-          undervisnings datoer</a>
-      </div>
-      <div>
-        <h3>
-          Events
-        </h3>
-        <div class="calendar-list">
-         
+        <div class="card-body px-0 py-2">
+          <p class="text-uppercase fw-bold fs-6">Bliv en del af fællesskabet</p>
+
         </div>
-        <a class="dropdown-item got-icon" href="/event-kalender/"><i class="fas fa-chevron-right"></i> Se
-          alle events</a>
+
       </div>
     </div>
+    <div class="col-lg-3 col-12">
+      <p class="text-uppercase fw-bold fs-6">Undervisning</p>
+      <div class="d-flex flex-column">
+        {% assign sortedPages = site.calendar | sort:"date" | where_exp: "item", "item.cat contains 'edu'" %}
+        {% for post in sortedPages limit:4 %}
+        {% assign month = post.date | date: "%m" %}
+
+        {% if month == "01" %}
+        {% assign monthName = "Januar" %}
+        {% assign bg-color = "platinum" %}
+        {% assign white = false %}
+        {% elsif month == "02" %}
+        {% assign monthName = "Februar" %}
+        {% assign bg-color = "black-coral" %}
+        {% assign white = true %}
+        {% elsif month == "03" %}
+        {% assign monthName = "Marts" %}
+        {% assign bg-color = "xanadu" %}
+        {% assign white = true %}
+        {% elsif month == "04" %}
+        {% assign monthName = "April" %}
+        {% assign bg-color = "beaver" %}
+        {% assign white = true %}
+        {% elsif month == "05" %}
+        {% assign monthName = "Maj" %}
+        {% assign bg-color = "cadet-gray" %}
+        {% assign white = true %}
+        {% elsif month == "06" %}
+        {% assign monthName = "Juni" %}
+        {% assign bg-color = "platinum" %}
+        {% assign white = false %}
+        {% elsif month == "07" %}
+        {% assign monthName = "Juli" %}
+        {% assign bg-color = "black-coral" %}
+        {% assign white = true %}
+        {% elsif month == "08" %}
+        {% assign monthName = "August" %}
+        {% assign bg-color = "xanadu" %}
+        {% assign white = true %}
+        {% elsif month == "09" %}
+        {% assign monthName = "September" %}
+        {% assign bg-color = "beaver" %}
+        {% assign white = true %}
+        {% elsif month == "10" %}
+        {% assign monthName = "Oktober" %}
+        {% assign bg-color = "cadet-gray" %}
+        {% assign white = true %}
+        {% elsif month == "11" %}
+        {% assign monthName = "November" %}
+        {% assign bg-color = "platinum" %}
+        {% assign white = false %}
+        {% elsif month == "12" %}
+        {% assign monthName = "December" %}
+        {% assign bg-color = "black-coral" %}
+        {% assign white = true %}
+        {% endif %}
+
+        <p class="text-uppercase fw-bold mb-1">{{ post.date | date: "%d" }} {{ monthName }}</p>
+        <p class="navigation-link small">{{ post.title }}</p>
+
+        {% endfor %}
+      </div>
+
+
+    </div>
+    <div class="col-lg-3 col-12">
+      <p class="text-uppercase fw-bold fs-6">Events</p>
+      <div class="d-flex flex-column">
+        {% assign sortedPages = site.calendar | sort:"date" | where_exp: "item", "item.cat contains 'event'" %}
+        {% for post in sortedPages limit:4 %}
+        {% assign month = post.date | date: "%m" %}
+
+        {% if month == "01" %}
+        {% assign monthName = "Januar" %}
+        {% assign bg-color = "platinum" %}
+        {% assign white = false %}
+        {% elsif month == "02" %}
+        {% assign monthName = "Februar" %}
+        {% assign bg-color = "black-coral" %}
+        {% assign white = true %}
+        {% elsif month == "03" %}
+        {% assign monthName = "Marts" %}
+        {% assign bg-color = "xanadu" %}
+        {% assign white = true %}
+        {% elsif month == "04" %}
+        {% assign monthName = "April" %}
+        {% assign bg-color = "beaver" %}
+        {% assign white = true %}
+        {% elsif month == "05" %}
+        {% assign monthName = "Maj" %}
+        {% assign bg-color = "cadet-gray" %}
+        {% assign white = true %}
+        {% elsif month == "06" %}
+        {% assign monthName = "Juni" %}
+        {% assign bg-color = "platinum" %}
+        {% assign white = false %}
+        {% elsif month == "07" %}
+        {% assign monthName = "Juli" %}
+        {% assign bg-color = "black-coral" %}
+        {% assign white = true %}
+        {% elsif month == "08" %}
+        {% assign monthName = "August" %}
+        {% assign bg-color = "xanadu" %}
+        {% assign white = true %}
+        {% elsif month == "09" %}
+        {% assign monthName = "September" %}
+        {% assign bg-color = "beaver" %}
+        {% assign white = true %}
+        {% elsif month == "10" %}
+        {% assign monthName = "Oktober" %}
+        {% assign bg-color = "cadet-gray" %}
+        {% assign white = true %}
+        {% elsif month == "11" %}
+        {% assign monthName = "November" %}
+        {% assign bg-color = "platinum" %}
+        {% assign white = false %}
+        {% elsif month == "12" %}
+        {% assign monthName = "December" %}
+        {% assign bg-color = "black-coral" %}
+        {% assign white = true %}
+        {% endif %}
+
+        <p class="text-uppercase fw-bold mb-1">{{ post.date | date: "%d" }} {{ monthName }}</p>
+        <p class="navigation-link small"><a href="{{ post.link }}">{{ post.title }}</a></p>
+
+        {% endfor %}
+      </div>
+
+
+    </div>
+
   </div>
 </div>

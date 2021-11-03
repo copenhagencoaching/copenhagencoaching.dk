@@ -3,9 +3,9 @@ published: true
 title: Tankens Magt
 image: /images/inspiration/Podcast.jpg
 author: Morten Paustian
+layout: podcast
 category:
 - podcast
-- blog
 tags:
   - coaching
   - ledelse
@@ -14,12 +14,13 @@ teaser:
 description: I denne podcast lytter vi til konsulent Frederikke Winther og direktør Mette Mejlhede, som pointerer de væsentligste karakteristika for den kognitive tilgang inden for psykologien og coaching.
 ---
 
-I Copenhagen Coaching Center har vi udviklet en podcast-serie som stiller skarpt på centrale undersøgende rum inden for coaching og ledelse. Serien rummer syv afsnit, der tilsammen udgør spændende samtaler og essentielle markører i forståelsen af, hvordan vi arbejder med coaching og ledelse. Lyt med og fordyb dig i såvel psykologiens som filosofiens verden.
-
 # Tankens magt
 Hvilken rolle spiller tanken for det enkelte menneske? Og hvordan mønstrer tankerne sig? Rummer de en struktur? Eller er de båret frem af en tilfældighed? I denne podcast lytter vi til konsulent Frederikke Winther og direktør Mette Mejlhede, som pointerer de væsentligste karakteristika for den kognitive tilgang inden for psykologien og coaching. Emnerne, der belyses her, er ’negative automatiske tanker’, ’leveregler’ og ’skemata’ samt ’den kognitive diamant’ og personlighedstesten ’BIG 5’.
 
-[Link til podcasten](https://soundcloud.com/cccpodcastdur/tankens-magt-den-kognitive-tilgang-til-coaching){:target="_blank"}
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/701502784&color=%234c4c4c&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/cccpodcastdur" title="Copenhagen Coaching Center" target="_blank" style="color: #cccccc; text-decoration: none;">Copenhagen Coaching Center</a> · <a href="https://soundcloud.com/cccpodcastdur/tankens-magt-den-kognitive-tilgang-til-coaching" title="Tankens Magt - den kognitive tilgang til coaching" target="_blank" style="color: #cccccc; text-decoration: none;">Tankens Magt - den kognitive tilgang til coaching</a></div>
+
+<br>
+
 
 Alle afsnit i serien:
 
@@ -32,3 +33,7 @@ Alle afsnit i serien:
 7.	Eventualerne - en måde at være i verden på
 
 Serien er produceret for Copenhagen Coaching Center af Morten Levinsen
+
+<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/907692835&color=%234c4c4c&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/cccpodcastdur" title="Copenhagen Coaching Center" target="_blank" style="color: #cccccc; text-decoration: none;">Copenhagen Coaching Center</a> · <a href="https://soundcloud.com/cccpodcastdur/sets/de-undersogende-rum" title="De Undersøgende Rum" target="_blank" style="color: #cccccc; text-decoration: none;">De Undersøgende Rum</a></div>
+<br>
+I Copenhagen Coaching Center har vi udviklet en podcast-serie som stiller skarpt på centrale undersøgende rum inden for coaching og ledelse. Serien rummer syv afsnit, der tilsammen udgør spændende samtaler og essentielle markører i forståelsen af, hvordan vi arbejder med coaching og ledelse. Lyt med og fordyb dig i såvel psykologiens som filosofiens verden.

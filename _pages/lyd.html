@@ -1,0 +1,46 @@
+---
+title: CCC Lyd
+layout: default-test
+image: /images/graphic/lyd-2.png
+---
+
+
+<div class="pt-5"
+    style="background: url('{{ page.image }}'); background-size: cover; background-position: center;">
+    <div class="container-fluid text-center py-5">
+        <div class="pt-5 my-5">
+            <div class="row py-5 gy-5">
+
+
+                <div class="col-12">
+
+                    <h1 class="text-white mb-3 text-end">{{ page.title }}</h1>
+                    <p class="text-white lead text-end">Her kan du se vores podcasts.</p>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="container-fluid py-5">
+    <div class="row gx-5">
+        {% assign sortedPosts = site.categories['podcast'] | reverted | sort:"date" %}
+        {% for post in sortedPosts %}
+        <div class="col-lg-3">
+            <a href="{{ post.url }}">
+                <div class="card border-0">
+                    <div class="h-100p">
+                        <img src="{{ post.image }}" class="object-fit" alt="...">
+                    </div>
+                    <div class="card-body px-0 py-2">
+                        <p class="text-uppercase fw-bold fs-6">{{ post.title }}</p>
+                        <p>{{ post.description }}</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+</div>
