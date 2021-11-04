@@ -2,5 +2,5 @@
 title: Coaching
 name: coaching
 side: right
-order: 9
+order: 6
 ---

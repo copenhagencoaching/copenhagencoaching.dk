@@ -2,5 +2,5 @@
 title: Filosofi
 name: filosofi
 side: right
-order: 10
+order: 7
 ---

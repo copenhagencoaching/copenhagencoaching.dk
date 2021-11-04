@@ -2,5 +2,5 @@
 title: Lederskab
 name: lederskab
 side: middle
-order: 5
+order: 8
 ---

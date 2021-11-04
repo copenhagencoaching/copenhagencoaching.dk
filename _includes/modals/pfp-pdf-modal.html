@@ -101,6 +101,58 @@
   </div>
 </div>
 
+<!-- mbc -->
+
+<div class="modal fade" id="mbc-pdf-modal" tabindex="-1" aria-labelledby="mbc-pdf-modal-heading" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content p-3">
+      <div class="modal-header">
+        <h4 class="modal-title" id="mbc-pdf-modal-heading">Ønsker du mere information om uddannelsen? Registrér dig her
+          og hent vores brochure.
+        </h4>
+        <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+
+      </div>
+      <div class="modal-body">
+
+        <div class="row">
+          <div class="offset-md-1 col-md-10 col-12">
+
+            <form id="pdf-mbc-form" action="https://formspree.io/f/mnqoyjlq" method="POST">
+
+              <input type="hidden" name="file" value="https://www.copenhagencoaching.dk/pdfs/MBC_folder_2022.pdf">
+              <input type="hidden" name="pdf" value="mbc">
+              <input class="form-control mb-3" type="text" name="name" placeholder="Navn" id="pdf-mbc-name" required>
+
+              <input type="text" id="pdf-mbc-email" class="form-control mb-3" name="email" placeholder="Email" required>
+
+
+              <div class="form-check mb-3">
+                <input class="form-check-input" name="_optin" type="checkbox" id="pdf-mbc-check">
+                <label class="form-check-label" for="pdf-mbc-check">
+                  Jeg vil gerne modtage CCC's nyhedsbrev
+                </label>
+              </div>
+              <div class="g-recaptcha" data-sitekey="6Lfi__EcAAAAABOscNdrKzqeLNu2vbuTM_5VlANy"></div>
+              <!-- replace with your recaptcha SITE key not secret key -->
+              <br />
+
+              <!-- your other form fields go here -->
+              <button class="btn-cadet-gray btn w-100" id="pdf-mbc-btn" type="submit">Registrér</button>
+            </form>
+
+            <div id="my-form-status-mbc" class="d-none">
+              <h5>Tak for din registrering, brochuren vil blive sendt til en mail til dig, inden for kort tid.</h5>
+             
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 <script>
 
 
@@ -154,5 +206,30 @@
 
   }
   formplu.addEventListener("submit", handleSubmitPLU)
+
+
+  var formmbc = document.getElementById("pdf-mbc-form");
+  async function handleSubmitMBC(event) {
+
+    event.preventDefault();
+    var status = document.getElementById("my-form-status-mbc");
+    var data = new FormData(event.target);
+    fetch(event.target.action, {
+      method: formmbc.method,
+      body: data,
+      headers: {
+        'Accept': 'application/json'
+      }
+    }).then(response => {
+      status.className = "py-3 text-center"
+
+      formplu.reset()
+      formplu.className = "d-none"
+    }).catch(error => {
+      status.innerHTML = "Ups! Der opstod et problem."
+    });
+
+  }
+  formplu.addEventListener("submit", handleSubmitMBC)
 
 </script>

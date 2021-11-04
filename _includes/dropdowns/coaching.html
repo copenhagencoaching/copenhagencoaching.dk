@@ -1,72 +1,69 @@
 <div class="container-fluid pb-5 pt-3">
-  <div class="row">
-    <div class="col-lg-2 col-12">
-      <p class="text-uppercase fw-bold mb-2">Coaching</p>
-      <div class="d-flex flex-column">
-        {% assign orderedcoaching = site.coachings | sort: "menu-order" %}
-        {% for coaching in orderedcoaching %}
-        <a class="navigation-link small mb-1" href="#">
-          {{ coaching.title }}</a>
-        {% endfor %}
+  <div class="row gx-5">
+    <div class="col-lg-3 col-12">
+      <div class="bg-spanish-gray p-3 opacity-75 rounded">
+        <h5 class="text-uppercase fw-bold mb-2 text-white">Coaching</h5>
+        <div class="d-flex flex-column">
+          {% assign orderedcoaching = site.coachings | sort: "menu-order" %}
+          {% for coaching in orderedcoaching %}
+          <a class="navigation-link text-white small mb-1" href="#">
+            {{ coaching.title }}</a>
+          {% endfor %}
+
+        </div>
       </div>
     </div>
-    <div class="col-lg-10 col-12">
-      <div class="row gy-3">
-        <div class="col-lg-4 col-12">
-          <p class="text-uppercase fw-bold mb-2">Privat</p>
-          <p class="mb-1"><small>Magna labore ipsum nostrud velit eiusmod ullamco laboris id sint exercitation fugiat Lorem consectetur.</small></p>
-          <a class="navigation-link got-icon small" href="#">Se mere <i class="fas fa-arrow-right"></i></a>
-        </div>
-        <div class="col-lg-4 col-12">
-          <p class="text-uppercase fw-bold mb-2">Offentlig</p>
-          <p class="mb-1"><small>Magna labore ipsum nostrud velit eiusmod ullamco laboris id sint exercitation fugiat Lorem consectetur.</small></p>
-          <a class="navigation-link got-icon small" href="#">Se mere <i class="fas fa-arrow-right"></i></a>
-        </div>
-        <div class="col-lg-4 col-12">
-          <p class="text-uppercase fw-bold mb-2">Lær os bedre at kende</p>
-          <div class="d-flex flex-column">
+    <div class="col-lg-3 col-12">
 
+      <div class="d-flex align-items-center h-100">
+        <div class="flex-shrink-0">
+          <i class="fas fa-user-shield fs-1 opacity-75"></i>
+        </div>
+        <div class="flex-grow-1 ms-4">
+
+          <h5 class="text-uppercase fw-bold mb-2 text-coral-black">Privat</h5>
+          <p class="mb-1"><small>Magna labore ipsum nostrud velit eiusmod ullamco laboris id sint exercitation
+              fugiat
+              Lorem consectetur.</small></p>
+          <a class="btn btn-ash-gray text-white" href="#">Se mere</a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col-lg-3 col-12">
+      <div class="d-flex align-items-center h-100">
+        <div class="flex-shrink-0">
+          <i class="fas fa-briefcase fs-1 opacity-75"></i>
+        </div>
+        <div class="flex-grow-1 ms-4">
+
+          <h5 class="text-uppercase fw-bold mb-2 text-coral-black">Offentlig</h5>
+          <p class="mb-1"><small>Magna labore ipsum nostrud velit eiusmod ullamco laboris id sint exercitation
+              fugiat
+              Lorem consectetur.</small></p>
+          <a class="btn btn-ash-gray text-white" href="#">Se mere</a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col-lg-3 col-12">
+      <div class="d-flex align-items-center h-100">
+
+        <div>
+          <div class="h-100p">
+            <img src="/images/graphic/community-1.png" class="object-fit" alt="...">
+          </div>
+          <p class="text-uppercase fw-bold mb-2 mt-3">Lær os bedre at kende</p>
+          <div class="d-flex flex-column">
             <a class="navigation-link small mb-1" href="#">
               Tilmeld nyhedsbrev</a>
-              <a class="navigation-link small mb-1" href="#"><b>
+            <a class="navigation-link small mb-1" href="#"><b>
                 Vores dør er altid åben - book en samtale</b></a>
-          
           </div>
-        </div>
-        <div class="col-12">
-          
-          <p class="text-uppercase fw-bold mb-0">Mød vores konsulenter</p>
-          
-          <div class="person-slider pt-3">
-
-            {% for emp in site.employees %}
-            {% if emp.consulent == true %}
-            <div class="d-flex align-items-center">
-              <div class="flex-shrink-0">
-                <img width="70" class="rounded-circle" src="{{ emp.small-portrait-image }}"
-                  alt="{{ emp.title }}, {{ emp.description}}">
-                </div>
-                <div class="flex-grow-1 ms-3">
-              
-                <p class="mt-0 mb-0 small"><small><b>{{ emp.title }}</b></small></p>
-                <p class="mb-0 small fw-light"><small>{{ emp.description }}</small></p>
-                <p class="mb-0 small"><small>{{ emp.call }}</small></p>
-                <p class="mb-0 small"><small>{{ emp.email }}</small></p>
-              </div>
-
-
-
-            </div>
-            {% endif %}
-            {% endfor %}
-          </div>
-
         </div>
       </div>
     </div>
   </div>
-
-
-
-
 </div>

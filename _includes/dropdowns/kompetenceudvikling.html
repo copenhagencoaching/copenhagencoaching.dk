@@ -1,98 +1,110 @@
 <div class="container-fluid pb-4 pt-3">
   <h5 class="text-uppercase mb-4">Vælg uddannelsestype</h5>
-  <div class="row gy-3">
-    <div class="col-lg-7 col-12">
+  <div class="row gy-5 g-3">
+    <div class="col-12">
+
       <div class="row gy-3">
         {% assign ordered_themes = site.edu-categories | sort: "order" %}
         {% for cat in ordered_themes %}
-        {% if cat.title != "Rekruttering, Onboarding og Test" %}
-        <div class="col-xl-4 col-12">
-          <p class="text-uppercase fw-bold mb-0">{{ cat.title }}</p>
+
+        <div class="col-xl-3 col-12">
+          <p class="text-uppercase fw-bold mb-0 text-black-coral">{{ cat.title }}</p>
           <div class="d-flex flex-column">
             {% for edu in site.educations %}
             {% for cate in edu.cat %}
             {% if cate == cat.name %}
-            <a class="navigation-link got-icon small" href="{{ edu.url }}">
+            <a class="small color-hover" href="{{ edu.url }}">
               {{ edu.title }}</a>
             {% endif %}
             {% endfor %}
             {% endfor %}
           </div>
         </div>
-        {% endif %}
+
         {% endfor %}
       </div>
+
     </div>
-    <div class="col-lg-5 col-12">
-      <div class="row gy-4">
-        <div class="col-lg-6 col-12">
-          <h6 class="text-uppercase fw-bold mb-2">Er du i tvivl om din uddannelse? </h6>
-          <p class="small mb-1">Ring og få en snak med</p>
-         
+
+    <div class="col-lg-3 col-12">
+      <div class="bg-black-coral p-3 rounded h-100 d-flex align-items-center">
+        <div>
+          <h6 class="text-uppercase fw-bold mb-2 text-white">Er du i tvivl om din uddannelse? </h6>
+          <p class="small mb-1 text-white">Ring og få en snak med</p>
+
           <div class="d-flex align-items-center pt-1">
             <div class="flex-shrink-0">
               <img width="80" class="rounded-circle" src="/images/about/small-images/frederikke-winther.png">
             </div>
             <div class="flex-grow-1 ms-3">
-              <p class="mt-0 mb-0"><b>Frederikke Winther</b></p>
-              <p class="mb-0 fw-light"><small>Seniorkonsulent</small></p>
-              <p class="mb-0"><small>+45 21 19 47 57</small></p>
-              <p class="mb-0"><small>fw@copenhagencoaching.dk</small></p>
+              <p class="mt-0 mb-0 text-white"><b>Frederikke Winther</b></p>
+              <p class="mb-0 fw-light text-white"><small>Seniorkonsulent</small></p>
+              <p class="mb-0 text-white"><small>+45 21 19 47 57</small></p>
+              <p class="mb-0 text-white"><small>fw@copenhagencoaching.dk</small></p>
             </div>
           </div>
         </div>
-        <div class="col-lg-6 col-12">
-          <h6 class="text-uppercase fw-bold mb-2">Skal vi skræddersy et forløb til jer? </h6>
-          <p class="small mb-1">Ring og få en snak med</p>
-          
+      </div>
+    </div>
+    <div class="col-lg-3 col-12">
+      <div class="bg-black-coral p-3 rounded h-100 d-flex align-items-center">
+        <div>
+          <h6 class="text-uppercase fw-bold mb-2 text-white">Skal vi skræddersy et forløb til jer? </h6>
+          <p class="small mb-1 text-white">Ring og få en snak med</p>
+
           <div class="d-flex align-items-center pt-1">
             <div class="flex-shrink-0">
               <img width="80" class="rounded-circle" src="/images/about/small-images/andreas-bering.png">
             </div>
             <div class="flex-grow-1 ms-3">
-              <p class="mt-0 mb-0"><b>Andreas Bering</b></p>
-              <p class="mb-0 fw-light"><small>Direktør</small></p>
-              <p class="mb-0"><small>+45 40 14 92 92</small></p>
-              <p class="mb-0"><small>ab@copenhagencoaching.dk</small></p>
+              <p class="mt-0 mb-0 text-white"><b>Andreas Bering</b></p>
+              <p class="mb-0 fw-light text-white"><small>Direktør</small></p>
+              <p class="mb-0 text-white"><small>+45 40 14 92 92</small></p>
+              <p class="mb-0 text-white"><small>ab@copenhagencoaching.dk</small></p>
             </div>
-          </div>
-        </div>
-        <div class="col-12">
-          <h6 class="text-uppercase fw-bold mb-3">Hvad siger folk?</h6>
-          <div class="testimonials-slider">
-            {% for testi in site.testimonials %}
-            <div class="d-flex align-items-center pe-5">
-              <div class="flex-grow-1 me-3">
-
-                <figure>
-                  <blockquote class="blockquote mb-4">
-                      <p>
-                          <i class="fas fa-quote-left fs-4 fa-lg opacity-50 me-2"></i>
-                          <em><span>{{ testi.content }}</span></em>
-                          <i class="fas fa-quote-right fs-4 fa-lg opacity-50 me-2"></i>
-
-                      </p>
-                  </blockquote>
-                  <figcaption class="blockquote-footer text-end">
-                    <b>{{ testi.title }}</b><br>
-                    <small>{{ testi.description }}</small>
-                </figcaption>
-              </figure>
-               
-              </div>
-              <div class="flex-shrink-0">
-
-                    <img width="100" class="rounded-circle" src="{{ testi.image }}">
-              </div>
-  
-  
-  
-            </div>
-            {% endfor %}
           </div>
         </div>
       </div>
     </div>
+    <div class="col-lg-6">
+      <div class="bg-cadet-gray p-3 rounded">
+        <h6 class="text-uppercase fw-bold mb-3 text-white">Hvad siger folk?</h6>
+        <div class="testimonials-slider px-3">
+          {% for testi in site.testimonials %}
+          <div class="d-flex align-items-center">
+            <div class="flex-grow-1 me-3">
+
+              <figure>
+                <blockquote class="blockquote mb-4">
+                  <p class="text-white">
+                    <i class="fas fa-quote-left fs-5 fa-lg opacity-50 me-2"></i>
+                    <em><span>{{ testi.content }}</span></em>
+                    <i class="fas fa-quote-right fs-5 fa-lg opacity-50 me-2"></i>
+
+                  </p>
+                </blockquote>
+                <figcaption class="blockquote-footer text-end text-white">
+                  <b>{{ testi.title }}</b><br>
+                  <small>{{ testi.description }}</small>
+                </figcaption>
+              </figure>
+
+            </div>
+            <div class="flex-shrink-0">
+
+              <img width="100" class="rounded-circle" src="{{ testi.image }}">
+            </div>
+
+
+
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+
+    </div>
+
+
   </div>
 </div>
 

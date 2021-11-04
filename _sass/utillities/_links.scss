@@ -1,5 +1,57 @@
-
 a {
     color: unset !important;
     text-decoration: none !important;
+}
+
+a.color-hover:hover {
+    color: $black-coral !important;
+}
+
+a.underlined-hover {
+    transition: background-size .4s ease;
+    background: linear-gradient(to bottom, transparent 62%, $black-coral 0) center center/0% 10% no-repeat;
+    padding: 0 6px 2px 0;
+    cursor: pointer;
+    display: inline-block;
+    color: rgba(80, 89, 113, 0.7);
+
+    &:hover {
+        background-size: 100% 100%;
+    }
+
+    &:active {
+        background-size: 80% 100%;
+    }
+}
+
+a.bg-hover {
+    position: relative;
+}
+
+a.bg-hover:hover {
+    color: white !important;
+}
+
+a.bg-hover::before {
+    transform: scaleX(0);
+    transform-origin: bottom right;
+}
+
+a.bg-hover:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+a.bg-hover:before {
+    content: " ";
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    inset: 0 0 0 0;
+    background: $black-coral;
+    z-index: -1;
+    transition: transform .3s ease;
 }
