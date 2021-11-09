@@ -2,7 +2,7 @@
 order: 7
 title: Ledelseskursus på Lesbos
 image: "/images/academy/ledelseskursus-paa-lesbos.jpg"
-contact-person: Kim Gørtz
+contact-person: Frederikke Winther
 header: Ledelseskursus på Lesbos
 description: Tag med på en opdagelsesrejse, hvor vi sammen udforsker ledelseskunsten
   og finder ind til de vigtigste værdier i det at lede sig selv og fællesskabet.

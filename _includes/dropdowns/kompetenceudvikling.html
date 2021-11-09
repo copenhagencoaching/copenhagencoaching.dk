@@ -9,12 +9,14 @@
 
         <div class="col-xl-3 col-12">
           <p class="text-uppercase fw-bold mb-0 text-black-coral">{{ cat.title }}</p>
-          <div class="d-flex flex-column">
+          <div>
             {% for edu in site.educations %}
             {% for cate in edu.cat %}
             {% if cate == cat.name %}
-            <a class="small color-hover" href="{{ edu.url }}">
-              {{ edu.title }}</a>
+            
+              <a class="small link--metis d-inline-block" href="{{ edu.url }}">
+                {{ edu.title }}</a>
+            
             {% endif %}
             {% endfor %}
             {% endfor %}

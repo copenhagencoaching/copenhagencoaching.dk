@@ -2,7 +2,7 @@
 order: 5
 title: Certificering i Protreptik
 image: "/images/academy/certificering-i-protreptik.jpg"
-contact-person: Kim Gørtz
+contact-person: Mette Mejlhede
 header: Certificering i Protreptik
 description: >-
   Kom helt i dybden med den filosofiske samtalekunst og ikke mindst de værdier

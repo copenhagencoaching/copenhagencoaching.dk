@@ -7,6 +7,36 @@ a.color-hover:hover {
     color: $black-coral !important;
 }
 
+// thin underline hover
+
+.link--metis {
+    cursor: pointer;
+    position: relative;
+}
+
+.link--metis::before,
+.link--metis::after {
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: $black-coral;
+    top: 100%;
+    left: 0;
+    pointer-events: none;
+}
+
+.link--metis::before {
+    transform-origin: 100% 50%;
+    transform: scale3d(0, 1, 1);
+    transition: transform 0.3s;
+    content: '';
+}
+
+.link--metis:hover::before {
+    transform-origin: 0% 50%;
+    transform: scale3d(1, 1, 1);
+}
+
 a.underlined-hover {
     transition: background-size .4s ease;
     background: linear-gradient(to bottom, transparent 62%, $black-coral 0) center center/0% 10% no-repeat;

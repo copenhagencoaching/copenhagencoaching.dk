@@ -271,3 +271,24 @@ ul.calendar-gallery {
         }
     }
 }
+
+.front-slider {
+
+  
+    .slick-slide:nth-child(1) {
+        display: block !important;
+        width: 100%;
+    }
+    .slick-slide:nth-child(n+2) {
+        display: none !important;
+    }
+}
+
+.front-slider.slick-initialized {
+   
+    .slick-slide:nth-child(n+2) {
+        display: block !important;
+
+    }
+}
+

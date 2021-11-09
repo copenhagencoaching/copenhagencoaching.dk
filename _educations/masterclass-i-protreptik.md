@@ -2,7 +2,7 @@
 order: 8
 title: Masterclass i Protreptik
 image: "/images/academy/b7.png"
-contact-person: Kim Gørtz
+contact-person: Mette Mejlhede
 header: Masterclass i Protreptik
 description: Deltag i den årlige Masterclass i protreptik. Hvert år tager vi fat på
   forskellige teoretiske temaer og afprøver dem med hinanden i praksis. Mød andre
