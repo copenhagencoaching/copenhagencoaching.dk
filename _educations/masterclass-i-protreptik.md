@@ -25,14 +25,14 @@ cat:
 ---
 ### LIVSSPEJLET: OM AT HOPPE UD AF det mulige SELVBEDRAG OG IND I DEN NORMATIVITET, DER KOMMER FRA HJERTET
 
-Velkommen til vores årlige masterclass i protreptik, som dette år (2020) sætter specielt fokus på gruppe-protreptikken.
+Velkommen til vores årlige masterclass i protreptik, som dette år sætter specielt fokus på gruppe-protreptikken.
 
 Vi vil arbejde med de dynamikker og greb, som er særligt vigtige at have for øje og evne at praktisere, når denne filosofiske samtalekunst foregår i og med grupper (primært i størrelsesordenen: 3-6 stk.). Men vi vil også kigge på og arbejde med indstillingszonerne og dermed også med de 10 principper i protreptikken.
 Vi vil udfolde emner som fx generøsitetens gestus, det frie lejde, ingenmandslandet, refugiet, af-psykologiseringen og i det hele taget dyrke kapaciteten til at kunne holde begrebet/værdien svævende i ubestemthed.
 
 Således handler denne masterclass om at kunne blive den andens gidsel i filosofisk forstand, om anonymisering og bevarelsen af hinandens hemmeligheder, etableringen af et neutralt territorium og ikke mindst tilegnelsen af den grundstemning, som er fyldt af åbenhjertig og alvorlig mildhed.
 
-Undervisningen foregår på Blegdamsvej 104C, 3. sal (baghuset th). Alle dage fra 9.30 til 16.00 (lettere morgenforplejning fra kl. 9.00). Vi afslutter forløbet med en fælles middag om aftenen (den 27.5) på en nærliggende restaurant.
+Undervisningen foregår på Blegdamsvej 104C, 3. sal (baghuset th). Alle dage fra 9.30 til 16.00 (lettere morgenforplejning fra kl. 9.00). Vi afslutter forløbet med en fælles middag om aftenen på en nærliggende restaurant.
 
 Er du medlem af CCC-community får du 15 % rabat (oplyses ved tilmelding).
 

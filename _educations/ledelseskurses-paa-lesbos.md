@@ -14,8 +14,8 @@ oe-order: 2
 special: false
 hold_eller_begivenheder: true
 events:
-- overskrift: Søndag den 30.5 til søndag den 6.6
-- overskrift: Søndag den 12.9 til søndag den 19.9
+- overskrift: 22.5 - 29.5 2021
+- overskrift: 12.9 - 19.9 2021
 redirect_from:
   - /academy/ledelseskursesPåLesbos/
   - /academy/ledelseskursus-på-lesbos/
