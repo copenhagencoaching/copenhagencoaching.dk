@@ -1,10 +1,11 @@
 ---
-title: Syntesemodellen - Den grønne bog
-price: ---,-
-image: /images/ousia/book-placeholder-2.png
+title: Syntesemodellen
+price: '59,00'
+image: /images/ousia/Syntesemodellen.jpeg
 layout: ousia
-bod-code: bodShopWidget_03439181_ebook
-bod: 03439181
+post-title: En introduktion
+e-price: '45,00'
+link: https://www.bod.dk/bogshop/syntesemodellen-9788743038115
 ---
 
 Dette hæfte er det første i serien om "Syntesemodellen". Hæftet giver en introduktion til modellen som er teoretisk fundering af coaching som samtaleform i psykologiske og filosofiske forhold og brydningsflader.

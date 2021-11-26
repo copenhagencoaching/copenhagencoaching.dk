@@ -3,15 +3,53 @@ layout: default-2
 ---
 
 
-<div class="py-5">
-    <div class="py-5"></div>
-    <div class="py-5"></div>
-</div>
+
 <div class="container-fluid py-5">
     <div class="pt-5">
         <div class="row pt-5">
             <div class="col-12 offset-xl-2 col-xl-8">
-                <div id="bodShopWidget_03439181_ebook" class="bodShopWidget"></div><script type="text/javascript">if(typeof checkLibExist == "undefined"){var script = document.createElement("script");script.src ="//www.bod.de/public/js/bod/shopWidget.min.js?123";script.type = "text/javascript";document.head.appendChild(script);var checkLibExist = true;} if(typeof books === "undefined") var books=[];books.push({"objID":"03439181","swKey":"1e787ce567e7b6c08598150816bba46e","type":"ebook","size":"large","font":"nonSerif","shadow":false,"contour":false,"coverContour":true,"fontColor":"#000000","contourColor":"#000000","shadowBtn":false,"contourBtn":false,"bgColor":"#ffffff","btnFontColor":"#ffffff","btnColor":"#6E7670","btnContourColor":"#6E7670","shop":"","bookSampleLinkText":"Læs uddrag","descriptionTitle":"Beskrivelse","mandantShopUrl":"https://www.bod.dk/bogshop","btnText":"Til BoD bogshop","errMsg1Obj":"Denne titel kan ikke fås længere.","errMsg2Obj":"Men der er mange andre spændende titler at gå på opdagelse i i BoD-shoppen!","errMsg1Server":"Denne titel kan ikke fås for tiden.","errMsg2Server":"Forsøg igen senere.","errMsg3Server":"DENNE TITEL KAN IKKE BESTILLES I ØJEBLIKKET"});</script>
+                <div class="row">
+                    <div class="col-6">
+                        <img src="{{ page.image }}" alt="" class="img-fluid shadow">
+                    </div>
+                    <div class="col-6">
+                        <h3>{{ page.title }}</h3>
+                        {% if page.post-title %}
+                        <h5>{{ page.post-title }}</h5>
+                        {% endif %}
+
+                    {% if page.e-price %}
+                    <span class="dark-border mb-3 mt-2">Bog: {{ page.price }} kr.
+
+                    </span>
+                    <span class="dark-border mb-3 mt-2">E-bog: {{ page.e-price }} kr.
+
+                    </span>
+                    {% else %}
+                    <span class="dark-border mb-3 mt-2">{{ page.price }} kr.
+
+                    </span>
+                    {% endif %}
+                    {{ page.content }}
+
+                    <a href="{{ page.link }}" target="_blank" class="btn btn-black-coral d-block text-white">Køb her</a>
+                    </div>
+                </div>
+                <a class='animated-arrow mt-5' href='/ousia/'>
+                    <span class='the-arrow -left rotated'>
+                        <span class='shaft'></span>
+                    </span>
+                    <span class='main'>
+                        <span class='text'>
+                            <p class="pt-4">
+                                Tilbage til Ousia forlag
+                            </p>
+                        </span>
+                        <span class='the-arrow -right rotated'>
+                            <span class='shaft'></span>
+                        </span>
+                    </span>
+                </a>
             </div>
         </div>
     </div>

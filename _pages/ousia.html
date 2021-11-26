@@ -15,19 +15,29 @@ image: /images/ousia/reading-2.png
 
                     <h1 class="text-white mb-3">{{ page.title }}</h1>
                     <hr class="white w-50 responsive mx-auto">
-                    <p class="text-white">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nunc nec neque.
-                        Curabitur turpis. Nunc
-                        sed turpis. Maecenas nec odio et ante tincidunt tempus.</p>
-                    <p class="text-white">Donec id justo. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac,
-                        enim. Suspendisse
-                        enim turpis, dictum sed, iaculis a, condimentum nec, nisi. Cras id dui.
+                    <p class="text-white">OUSIA PUBLICATIONS er et nystiftet forlag, marts 2021, hvis funktion primært
+                        er at være et organ for forskellige videns-produktioner i CCC-regi.
+                    </p>
+                    <p class="text-white">
+                        Forlagets navn sigter efter det græske ords mening, som betyder "den sande væren". Forlagets
+                        logo er hentet fra zen-traditionen og sigter på "oplysning og evighed".
 
-                        Maecenas malesuada. Nullam dictum felis eu pede mollis pretium. Donec interdum, metus et
-                        hendrerit aliquet, dolor diam sagittis ligula, eget egestas libero turpis vel mi. Vivamus
-                        consectetuer hendrerit lacus.
+                    </p>
+                    <p class="text-white">
+                        Copenhagen Coaching Center blev dannet i 2004. Vi udbyder uddannelser indenfor coaching og
+                        ledelse samt yder ledelsessparring, coaching og skræddersyede uddannelses- og udviklingsforløb
+                        for virksomheder, teams og enkelt-personer i såvel offentlige institutioner som i det private
+                        erhvervsliv.
+                    </p>
+                    <p class="text-white">
+                        Siden virksomhedens start har vores mål være at støtte og udbrede det udforskende projekt som
+                        læring og udvikling kan være. Vi har som ambition at være et videnscenter for vores kunder og
+                        samarbejdspartnere, og vi arbejder dagligt på at udvikle, udbrede og udveksle indsigt og
+                        erfaring med dialog, ledelse og læring.
+                    </p>
+                    <p class="text-white">
+                        Ousia Publications er det nyeste tiltag i denne bestræbelse.</p>
 
-                        Morbi mollis tellus ac sapien. Vestibulum suscipit nulla quis orci. Pellentesque posuere. Etiam
-                        ut purus mattis mauris sodales aliquam.</p>
                 </div>
             </div>
         </div>
@@ -41,11 +51,14 @@ image: /images/ousia/reading-2.png
         <div class="col-lg-6 col-12">
             <div class="row">
                 <div class="col-4">
-                    <img src="{{ pub.image }}" class="img-fluid w-100" alt="">
+                    <img src="{{ pub.image }}" class="img-fluid w-100 shadow" alt="">
                 </div>
                 <div class="col-8">
                     <h3 class="text-uppercase">{{ pub.title }}</h3>
-                    <p class="fw-bold">{{ pub.price }}</p>
+                    {% if pub.post-title %}
+                    <h5>{{ pub.post-title }}</h5>
+                    {% endif %}
+                    <p class="fw-bold">{{ pub.price }} kr.</p>
                     {{ pub.excerpt }}
                     <button onclick="location.href='{{ pub.url }}';" class="learn-more">
                         <span class="circle" aria-hidden="true">
@@ -64,4 +77,3 @@ image: /images/ousia/reading-2.png
 
 
 </div>
-

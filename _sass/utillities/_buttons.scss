@@ -39,6 +39,17 @@
 }
 
 
+
+.dark-border {
+  border: rgb(83, 83, 83) solid 2px !important;
+  color: rgb(83, 83, 83) !important;
+  font-weight: 400;
+  border-radius: 5px;
+  padding: 5px 10px;
+  width: 150px;
+  display: inline-block;
+  text-align: center;
+}
 //with round arrow
 
 @mixin transition($property: all, $duration: 0.45s, $ease: cubic-bezier(0.65,0,.076,1)) {
