@@ -23,8 +23,30 @@ layout: default
                         </span>
                     </a>
                     <p class="large text-uppercase text-muted">Podcast</p>
-                    
-                    {{ page.content }}
+
+                    <h1>{{ page.title }}</h1>
+                    <p>{{ page.description }}</p>
+                    <div class="accordion" id="accordionExample">
+                        {% for episode in page.episodes %}
+                        <div class="accordion-item">
+                            <p class="accordion-header fs-4" id="heading{{ forloop.index }}">
+                                <button class="accordion-button collapsed text-white bg-black-coral" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse{{ forloop.index }}" aria-expanded="true" aria-controls="collapse{{ forloop.index }}">
+                                    Episode {{ forloop.index }}: {{ episode.title }}
+                                </button>
+                            </p>
+                            <div id="collapse{{ forloop.index }}" class="accordion-collapse collapse" aria-labelledby="heading{{ forloop.index }}"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>{{ episode.description }}</p>
+                                    {{ episode.sound }}
+                                </div>
+                            </div>
+                        </div>
+                        {% endfor %}
+
+                    </div>
+
                 </div>
             </div>
         </div>
