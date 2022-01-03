@@ -170,8 +170,8 @@ events:
   - sub-cat-title: 3. semester - Forår 2022
     datoer:
     - 14. marts
-    - 11. april
-    - 25. maj - 2. juni
+    - 5. april
+    - 22. - 29. maj
     - 20. - 22. juni
   - sub-cat-title: 4. semester - Forår 2022
     datoer:

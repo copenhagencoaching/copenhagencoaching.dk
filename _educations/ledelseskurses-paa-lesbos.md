@@ -14,8 +14,7 @@ oe-order: 2
 special: false
 hold_eller_begivenheder: true
 events:
-- overskrift: 22.5 - 29.5 2021
-- overskrift: 12.9 - 19.9 2021
+- overskrift: 11. - 18. september 2022
 redirect_from:
   - /academy/ledelseskursesPåLesbos/
   - /academy/ledelseskursus-på-lesbos/
