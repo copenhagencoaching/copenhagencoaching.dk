@@ -19,6 +19,7 @@ permalink: /treanings-aftener/
                 <form action="https://formspree.io/f/mbjqjpva" method="POST" id="t-form">
                     <h5>Næste træningsaften: 7. februar 2022 - 17:00 - 20:00</h5>
                     <p>OBS: Kun for 1. og 2. semester.</p>
+                    <input type="hidden" name="dato" value="7. februar 2022">
                     <select name="melding" id="" class="form-select mb-3">
                         <option value="tilmelding">Tilmeld</option>
 
@@ -30,15 +31,16 @@ permalink: /treanings-aftener/
                     <div class="g-recaptcha" data-sitekey="6Lfi__EcAAAAABOscNdrKzqeLNu2vbuTM_5VlANy"></div>
                     <!-- your other form fields go here -->
                     <button class="btn-cadet-gray btn w-100">Tilmeld/Frameld</button>
-                    <div id="form-t-status" class="d-none">
-                        <p>Tak for din tilmelding/framelding. Du vil snarest få en bekræftelse på mail.</p>
-                        <p>Tryk på nedenstående knap og tilføj træningsaftenen i din kalender.</p>
-                        <a href="https://add.eventable.com/events/61d826b688c242332fbb0f6a/61d826bb144a8aa5990a2429"
-                            class="eventable-link" target="_blank" data-key="61d826b688c242332fbb0f6a"
-                            data-event="61d826bb144a8aa5990a2429" data-style="1">Add to Calendar</a>
-                        <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = 'https://plugins.eventable.com/eventable.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'eventable-script');</script>
-                    </div>
+                    
                 </form>
+                <div id="form-t-status" class="d-none">
+                    <p>Tak for din tilmelding/framelding. Du vil snarest få en bekræftelse på mail.</p>
+                    <p>Tryk på nedenstående knap og tilføj træningsaftenen i din kalender.</p>
+                    <a href="https://add.eventable.com/events/61d826b688c242332fbb0f6a/61d826bb144a8aa5990a2429"
+                        class="eventable-link" target="_blank" data-key="61d826b688c242332fbb0f6a"
+                        data-event="61d826bb144a8aa5990a2429" data-style="1">Add to Calendar</a>
+                    <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = 'https://plugins.eventable.com/eventable.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'eventable-script');</script>
+                </div>
             </div>
         </div>
     </div>
