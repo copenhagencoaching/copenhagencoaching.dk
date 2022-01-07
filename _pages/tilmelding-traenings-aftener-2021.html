@@ -33,9 +33,11 @@ permalink: /treanings-aftener/
                     <div id="form-t-status" class="d-none">
                         <p>Tak for din tilmelding/framelding. Du vil snarest få en bekræftelse på mail.</p>
                         <p>Tryk på nedenstående knap og tilføj træningsaftenen i din kalender.</p>
-                        <a href="https://add.eventable.com/events/61d826b688c242332fbb0f6a/61d826bb144a8aa5990a2429" class="eventable-link" target="_blank" data-key="61d826b688c242332fbb0f6a" data-event="61d826bb144a8aa5990a2429" data-style="1">Add to Calendar</a>
-                        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://plugins.eventable.com/eventable.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script', 'eventable-script');</script>
-                      </div>
+                        <a href="https://add.eventable.com/events/61d826b688c242332fbb0f6a/61d826bb144a8aa5990a2429"
+                            class="eventable-link" target="_blank" data-key="61d826b688c242332fbb0f6a"
+                            data-event="61d826bb144a8aa5990a2429" data-style="1">Add to Calendar</a>
+                        <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = 'https://plugins.eventable.com/eventable.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'eventable-script');</script>
+                    </div>
                 </form>
             </div>
         </div>
@@ -43,28 +45,28 @@ permalink: /treanings-aftener/
 </div>
 
 <script>
-var form_t = document.getElementById("t-form");
-async function handleSubmitT(event) {
+    var form_t = document.getElementById("t-form");
+    async function handleSubmitT(event) {
 
-  event.preventDefault();
-  var status = document.getElementById("form-t-status");
-  var data = new FormData(event.target);
-  fetch(event.target.action, {
-    method: form_t.method,
-    body: data,
-    headers: {
-      'Accept': 'application/json'
+        event.preventDefault();
+        var status = document.getElementById("form-t-status");
+        var data = new FormData(event.target);
+        fetch(event.target.action, {
+            method: form_t.method,
+            body: data,
+            headers: {
+                'Accept': 'application/json'
+            }
+        }).then(response => {
+            status.className = "py-3 text-center"
+
+            form_t.reset()
+            form_t.className = "d-none"
+        }).catch(error => {
+            status.innerHTML = "Ups! Der opstod et problem."
+        });
+
     }
-  }).then(response => {
-    status.className = "py-3 text-center"
-
-    form_t.reset()
-    form_t.className = "d-none"
-  }).catch(error => {
-    status.innerHTML = "Ups! Der opstod et problem."
-  });
-
-}
-form_t.addEventListener("submit", handleSubmitT)
+    form_t.addEventListener("submit", handleSubmitT)
 
 </script>
