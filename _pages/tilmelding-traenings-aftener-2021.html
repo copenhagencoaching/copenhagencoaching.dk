@@ -1,13 +1,70 @@
 ---
 title: Meld dig til træningsaftener 2021
 layout: default
+permalink: /treanings-aftener/
 ---
 
-<div class="container-fluid extra-narrow-container">
-  
-    <h1>Tilmeld dig træningsaftener</h1>
-    <p>Herunder kan du tilmelde dig til dit semester træningsaftener.</p>
-    <p>Vær opmærksom på, at det er en forudsætning for at gå til eksamen, at du har deltaget ved minimum 3 af de 4 træningsaftener i løbet af semestret.</p>
-    <p>Skulle du efterfølgende få behov for at afmelde din tilmelding, skal dette ske pr. mail til Frederikke på <a href="mailto:fw@copenhagencoaching.dk">fw@copenhagencoaching.dk</a> og senest et par dage før trænningsaftenen.</p>
-    <iframe width="640px" height= "480px" src= "https://forms.office.com/Pages/ResponsePage.aspx?id=clp9_FdPF0CrbBnrRyrpipTt2KoivoxEpgV2uv6NQPVUMDA0Tk5EVTdKMDU2WFA3UzE3SVpOT1Y4VC4u&embed=true" frameborder= "0" marginwidth= "0" marginheight= "0" style= "border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+<div class="bg-black-coral pt-5">
+
+
+    <div class="container-fluid pt-5 pb-5">
+        <div class="row">
+            <div class="offset-md-4 col-md-4 col-12 bg-white p-3">
+                <h1>Tilmeld dig træningsaftener</h1>
+                <p>Herunder kan du tilmelde dig næste træningsaften.</p>
+                <p>Vær opmærksom på, at det er en forudsætning for at gå til eksamen, at du har deltaget ved minimum 3
+                    af de
+                    4 træningsaftener i løbet af semestret.</p>
+
+                <form action="https://formspree.io/f/mbjqjpva" method="POST" id="t-form">
+                    <h5>Næste træningsaften: 7. februar 2022 - 17:00 - 20:00</h5>
+                    <p>OBS: Kun for 1. og 2. semester.</p>
+                    <select name="melding" id="" class="form-select mb-3">
+                        <option value="tilmelding">Tilmeld</option>
+
+                        <option value="framelding">Frameld</option>
+                    </select>
+                    <input class="form-control mb-3" type="text" name="name" placeholder="Navn" required>
+
+                    <input type="text" class="form-control mb-3" name="email" placeholder="Email" required>
+                    <div class="g-recaptcha" data-sitekey="6Lfi__EcAAAAABOscNdrKzqeLNu2vbuTM_5VlANy"></div>
+                    <!-- your other form fields go here -->
+                    <button class="btn-cadet-gray btn w-100">Tilmeld/Frameld</button>
+                    <div id="form-t-status" class="d-none">
+                        <p>Tak for din tilmelding/framelding. Du vil snarest få en bekræftelse på mail.</p>
+                        <p>Tryk på nedenstående knap og tilføj træningsaftenen i din kalender.</p>
+                        <a href="https://add.eventable.com/events/61d826b688c242332fbb0f6a/61d826bb144a8aa5990a2429" class="eventable-link" target="_blank" data-key="61d826b688c242332fbb0f6a" data-event="61d826bb144a8aa5990a2429" data-style="1">Add to Calendar</a>
+                        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://plugins.eventable.com/eventable.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script', 'eventable-script');</script>
+                      </div>
+                </form>
+            </div>
+        </div>
+    </div>
 </div>
+
+<script>
+var form_t = document.getElementById("t-form");
+async function handleSubmitT(event) {
+
+  event.preventDefault();
+  var status = document.getElementById("form-t-status");
+  var data = new FormData(event.target);
+  fetch(event.target.action, {
+    method: form_t.method,
+    body: data,
+    headers: {
+      'Accept': 'application/json'
+    }
+  }).then(response => {
+    status.className = "py-3 text-center"
+
+    form_t.reset()
+    form_t.className = "d-none"
+  }).catch(error => {
+    status.innerHTML = "Ups! Der opstod et problem."
+  });
+
+}
+form_t.addEventListener("submit", handleSubmitT)
+
+</script>
