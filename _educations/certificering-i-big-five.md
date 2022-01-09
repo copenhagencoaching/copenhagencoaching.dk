@@ -21,13 +21,22 @@ cat:
 emails:
 - fw@copenhagencoaching.dk
 events:
-- overskrift: BFC-21-2 Efterår - start 25. oktober
+- overskrift: BFC22-1
   dato:
-  - 25. oktober 2021 kl. 12.00 - 14.00
-  - 2. november 2021 kl. 10.00 - 12.00
-  - 10. november 2021 kl. 10.00 - 12.00
-  - 18. november 2021 kl. 10.00 - 15.00
-  - 26. november 2021 kl. 10.00 – 15.00
+  - 25. februar 2022 kl. 12.00 - 14.00
+  - 4. marts 2022 kl. 10.00 - 12.00
+  - 11. marts 2022 kl. 10.00 - 12.00
+  - 18. marts 2022 kl. 10.00 - 15.00
+  - 25. marts 2022 kl. 10.00 – 12.00
+  - 1. april 2022 kl. 10.00 - 13.30
+- overskrift: BFC22-2
+  dato:
+  - 11. april 2022 kl. 10.00 - 12.00
+  - 18. april 2022 kl. 10.00 - 12.00
+  - 25. april 2022 kl. 10.00 - 12.00
+  - 2. maj 2022 kl. 10.00 - 15.00
+  - 9. maj 2022 kl. 10.00 – 12.00
+  - 16. maj 2022 kl. 10.00 - 13.30
 ---
 
 Bliv klædt på til at bruge markedets bedst underbyggede personlighedstest i rekruttering og ledelses- og medarbejderudviklingssammenhæng.
