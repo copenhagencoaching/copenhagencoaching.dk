@@ -10,7 +10,7 @@ permalink: /treanings-aftener/
     <div class="container-fluid pt-5 pb-5">
         <div class="row">
             <div class="offset-md-4 col-md-4 col-12 bg-white p-3">
-                <h1>Tilmeld dig træningsaftener</h1>
+                <h1>Tilmeld eller frameld dig træningsaftener</h1>
                 <p>Herunder kan du tilmelde dig næste træningsaften.</p>
                 <p>Vær opmærksom på, at det er en forudsætning for at gå til eksamen, at du har deltaget ved minimum 3
                     af de
@@ -20,7 +20,7 @@ permalink: /treanings-aftener/
                     <h5>Næste træningsaften: 7. februar 2022 - 17:00 - 20:00</h5>
                     <p>OBS: Kun for 3. og 4. semester.</p>
                     <input type="hidden" name="dato" value="7. februar 2022">
-                    <select name="melding" id="" class="form-select mb-3">
+                    <select name="melding" id="select_id" class="form-select mb-3 staff-select">
                         <option value="tilmelding">Tilmeld</option>
 
                         <option value="framelding">Frameld</option>
@@ -30,7 +30,7 @@ permalink: /treanings-aftener/
                     <input type="text" class="form-control mb-3" name="email" placeholder="Email" required>
                     <div class="g-recaptcha" data-sitekey="6Lfi__EcAAAAABOscNdrKzqeLNu2vbuTM_5VlANy"></div>
                     <!-- your other form fields go here -->
-                    <button class="btn-cadet-gray btn w-100">Tilmeld/Frameld</button>
+                    <button id="btn-ta" class="btn-cadet-gray btn w-100">Tilmeld</button>
                     
                 </form>
                 <div id="form-t-status" class="d-none">
@@ -70,5 +70,16 @@ permalink: /treanings-aftener/
 
     }
     form_t.addEventListener("submit", handleSubmitT)
+
+    
+    
+    let select = document.getElementById('select_id');
+    select.onchange = function(){ 
+    
+        
+        document.getElementById('btn-ta').innerHTML = this.selectedOptions[0].text;
+
+  }
+
 
 </script>
