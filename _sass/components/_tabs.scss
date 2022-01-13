@@ -35,7 +35,40 @@
     }
 }
 
+// four-tabs
 
+.nav-tabs.four-tabs {
+    border: none;
+    justify-items: center;
+    justify-content: space-between;
+    column-gap: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    &.only-seven {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    @media (max-width: 1399.98px) {
+        display: flex !important;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .nav-link.active {
+        background-color: $slate-gray;
+        border: none;
+        color: #ffffff !important;
+    }
+    .nav-link {
+        background-color: $cadet-gray;
+        border-radius: 0;
+        color: #ffffff !important;
+        width: 100%;
+        @media (max-width: 1399.98px) {
+            width: unset !important;
+            margin-bottom: 5px;
+        }
+    }
+}
 
 // gray pallette 
 

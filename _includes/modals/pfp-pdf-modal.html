@@ -103,6 +103,59 @@
   </div>
 </div>
 
+<!-- TUP -->
+
+<div class="modal fade" id="tup-pdf-modal" tabindex="-1" aria-labelledby="tup-pdf-modal-heading" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content p-3">
+      <div class="modal-header">
+        <h4 class="modal-title" id="tup-pdf-modal-heading">Ønsker du mere information om uddannelsen? Registrér dig her
+          og hent vores brochure.
+        </h4>
+        <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+
+      </div>
+      <div class="modal-body">
+
+        <div class="row">
+          <div class="offset-md-1 col-md-10 col-12">
+
+            <form id="pdf-tup-form" action="https://formspree.io/f/mnqoyjlq" method="POST">
+
+              <input type="hidden" name="file" value="https://www.copenhagencoaching.dk/pdfs/talentudviklings-program-2022.pdf">
+              <input type="hidden" name="pdf" value="TUP">
+              <input class="form-control mb-3" type="text" name="name" placeholder="Navn" id="pdf-TUP-name" required>
+              <input type="tel" id="pdf-TUP-tlf" class="mb-3 form-control" name="tlf" pattern="[0-9]{8}" placeholder="Tlf.">
+              <input type="text" id="pdf-TUP-virksomhed" class="form-control mb-3" name="virksomhed" placeholder="Virksomhed">
+              <input type="text" id="pdf-TUP-email" class="form-control mb-3" name="email" placeholder="Email" required>
+
+
+              <div class="form-check mb-3">
+                <input class="form-check-input" name="_optin" type="checkbox" id="pdf-tup-check">
+                <label class="form-check-label" for="pdf-tup-check">
+                  Jeg vil gerne modtage CCC's nyhedsbrev
+                </label>
+              </div>
+              <div class="g-recaptcha" data-sitekey="6Lfi__EcAAAAABOscNdrKzqeLNu2vbuTM_5VlANy"></div>
+              <!-- replace with your recaptcha SITE key not secret key -->
+              <br />
+
+              <!-- your other form fields go here -->
+              <button class="btn-cadet-gray btn w-100" id="pdf-pfp-btn" type="submit">Registrér</button>
+            </form>
+
+            <div id="my-form-status-tup" class="d-none">
+              <p>Tak for din interesse i vores uddannelser og kurser. Du vil snarest modtage mere information via e-mail. Hvis du har yderligere spørgsmål, er du velkommen til at kontakte os via info@copenhagencoaching.dk eller kontakte din nærmeste CCC-Konsulent via vores kontaktside lige <a data-proofer-ignore="" href="#contact" data-toggle="modal" data-target="#contact-modal">her</a>.</p>
+             
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 <!-- mbc -->
 
 <div class="modal fade" id="mbc-pdf-modal" tabindex="-1" aria-labelledby="mbc-pdf-modal-heading" aria-hidden="true">
@@ -158,7 +211,7 @@
 
 <script>
 
-
+//PFP
   var formpfp = document.getElementById("pdf-pfp-form");
 
   async function handleSubmit(event) {
@@ -184,7 +237,7 @@
   }
   formpfp.addEventListener("submit", handleSubmit)
 
-
+//PLU
 
   var formplu = document.getElementById("pdf-plu-form");
   async function handleSubmitPLU(event) {
@@ -210,7 +263,7 @@
   }
   formplu.addEventListener("submit", handleSubmitPLU)
 
-
+//MBC
   var formmbc = document.getElementById("pdf-mbc-form");
   async function handleSubmitMBC(event) {
 
@@ -234,5 +287,31 @@
 
   }
   formmbc.addEventListener("submit", handleSubmitMBC)
+
+
+  //TUP
+  var formtup = document.getElementById("pdf-tup-form");
+  async function handleSubmitTUP(event) {
+
+    event.preventDefault();
+    var status = document.getElementById("my-form-status-tup");
+    var data = new FormData(event.target);
+    fetch(event.target.action, {
+      method: formtup.method,
+      body: data,
+      headers: {
+        'Accept': 'application/json'
+      }
+    }).then(response => {
+      status.className = "py-3 text-center"
+
+      formmbc.reset()
+      formmbc.className = "d-none"
+    }).catch(error => {
+      status.innerHTML = "Ups! Der opstod et problem."
+    });
+
+  }
+  formmbc.addEventListener("submit", handleSubmitTUP)
 
 </script>
