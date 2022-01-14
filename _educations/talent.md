@@ -6,7 +6,7 @@ special: false
 image: /images/educations/talent-program.png
 layout: talent
 description: Bliv en del af Europas stærkeste Talentudviklingsprogram
-published: true
+published: false
 order: 2
 hold:
 - title: TP1-F22

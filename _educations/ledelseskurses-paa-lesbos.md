@@ -14,8 +14,8 @@ oe-order: 2
 special: false
 hold_eller_begivenheder: true
 events:
-- overskrift: 22. - 29. maj 2022
-- overskrift: 11. - 18. september 2022
+- overskrift: 27. maj – 3. juni 2022
+- overskrift: 8. - 15. september 2022
 redirect_from:
   - /academy/ledelseskursesPåLesbos/
   - /academy/ledelseskursus-på-lesbos/
