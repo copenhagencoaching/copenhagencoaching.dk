@@ -14,10 +14,19 @@
     color: #707070 !important;
 }
 
-@media (max-width: 992px) {
+.navbar.scrolled {
+    background-color: white;
+    color: #707070 !important;
+}
+
+@media (max-width: 1199.98px) {
     .navbar {
         background-color: white;
         color: #707070 !important;
+
+        .nav-item {
+            color: #707070 !important;
+        }
 
         .navbar-collapse {
             text-align: center;

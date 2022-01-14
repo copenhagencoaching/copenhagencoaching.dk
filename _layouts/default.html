@@ -407,16 +407,20 @@
   </script> -->
 
   <script>
+    if (window.innerWidth < 1199.98) {
+      $(".logo").attr("src", "/images/logo/ccc-logo-new.png");
+}
 
-    function scrollNavi() {
+   function scrollNavi() {
       const mediaQuery = window.matchMedia('(min-width: 1199.98px)')
       // Check if the media query is true
       if (mediaQuery.matches) {
+        
         // Then trigger an alert
         var scroll = $(window).scrollTop();
         if (scroll > 10) {
           $(".navbar").css({ "background-color": "white", "box-shadow": "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px" });
-          $(".nav-item").css("color", "#707070");
+          $(".nav-item").css("color", "#707070 !important");
           $(".logo").attr("src", "/images/logo/ccc-logo-new.png");
           $(".navi-icon").css("color", "#707070");
         }
@@ -431,9 +435,9 @@
       }
       else {
         $(".logo").attr("src", "/images/logo/ccc-logo-new.png");
-        $(".nav-item").css("color", "#707070");
+        $(".nav-item").css("color", "#707070 !important");
         $(".navbar").css({ "background-color": "white", "box-shadow": "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px" });
-        $(".navi-icon").css("color", "#707070");
+        $(".navi-icon").css("color", "#707070 !important");
       }
 
     };
