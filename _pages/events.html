@@ -1,0 +1,61 @@
+---
+title: Events
+layout: default
+---
+
+<div class="bg-black-coral">
+  <div class="container-fluid pt-5 pb-5">
+    <div class="pt-5 mt-4">
+      <h2 class="text-white">Kommende events</h2>
+      {% assign orderposts = site.tags.eventgroup | order: "date" | reverse %}
+      <div class="row">
+        {% for item in orderposts %}
+        {% if item.past != true %}
+  
+        <div class="col-12 col-md-6 col-xl-3">
+          <a href="{{ item.url }}">
+            <div class="card">
+              <div class="outer-img-top">
+                <img src="{{ item.image }}" alt="...">
+              </div>
+  
+              <div class="card-body px-0 py-2">
+  
+  
+                <h3 class="text-white">{{ item.title }}</h3>
+                <p class="text-white">{{ item.description }}</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        {% endif %}
+        {% endfor %}
+      </div>
+
+      <h2 class="text-white">Afholdte events</h2>
+      <div class="row">
+        {% for item in orderposts %}
+
+        {% if item.past == true %}
+        <div class="col-12 col-md-6 col-xl-3">
+          <a href="{{ item.url }}">
+            <div class="card">
+              <div class="outer-img-top">
+                <img src="{{ item.image }}" alt="...">
+              </div>
+  
+              <div class="card-body px-0 py-2">
+  
+  
+                <h3 class="text-white">{{ item.title }}</h3>
+              </div>
+            </div>
+          </a>
+        </div>
+        {% endif %}
+        {% endfor %}
+      </div>
+
+    </div>
+  </div>
+</div>

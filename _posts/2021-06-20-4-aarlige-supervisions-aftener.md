@@ -9,11 +9,11 @@ tags:
 ready: true
 order: 3
 layout: sub-event
-sub-pages: supervision
 place: Blegdamsvej 104 A, 2100 København Ø
 community: CCC Community arrangement
 time: 17.00-20.00
 only-month: true
+past-text: false
 ---
 
 ### Fire årlige træningsaftener
@@ -23,4 +23,7 @@ Din mulighed for at få trænet og styrket din praksis med ligestillede, der ent
 {:.text-white}
 
 En mulighed for at sikre større forankring og effekt af dine erhvervede kompetencer.
+{:.text-white}
+
+**Kontakt os på info@copenhagencoaching.dk for at tilmelde dig træningsaftenerne**
 {:.text-white}

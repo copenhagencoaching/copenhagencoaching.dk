@@ -15,6 +15,7 @@ time: 17.00-20.00
 billetto: true
 billetto-nr: 506111
 community-price: 270,-
+past: true
 ---
 
 ### Jobprofil og kompetenceramme som grundlag for personlighedstestning

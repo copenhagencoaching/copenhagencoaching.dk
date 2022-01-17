@@ -13,7 +13,7 @@ special: false
 hold_information: ''
 hold_eller_begivenheder: true
 events:
-- overskrift: Vi har desværre ingen aktuelle datoer at tilbyde dig lige nu. Kontakt os meget gerne for mere information på info@copenhagencoaching.dk
+- overskrift: Nye datoer er på vej. Kontakt os meget gerne for mere information på info@copenhagencoaching.dk
 pdf: ''
 published: false
 cat:

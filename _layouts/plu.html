@@ -113,6 +113,141 @@ layout: default
                 </div>
             </div>
         </div>
+
+        <div class="container-fluid pt-4 pb-1 mt-4">
+            <div class="row">
+                <div class="offset-xl-2 col-12 col-xl-8">
+                    <div class="bg-slate-gray px-5 py-4">
+                        <div class="row">
+                            <div class="col-6 d-flex align-items-center">
+                                <h2 class="text-white mb-0">
+                                    Kursus oversigt
+                                </h2>
+                            </div>
+                            <!--  <div class="col-2 d-flex align-items-center">
+                                <p class="text-white mb-0"><b>Pris ekskl. moms</b><br>45.900,-</p>
+                            </div>
+                            <div class="col-2 d-flex align-items-center">
+                                <p class="text-white mb-0"><b>Varighed</b><br>7-8 dage</p>
+                            </div>
+                            <div class="col-2 d-flex align-items-center">
+                                <p class="text-white mb-0"><b>Moduler</b><br>8 moduler</p>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="bg-black-coral px-5 py-3">
+                        <div class="row gx-0">
+                            <div class="col-4">
+                                <p class="text-white mb-0 text-uppercase"><b>Hold</b></p>
+                            </div>
+                            <div class="col-4">
+                                <p class="text-white mb-0 text-uppercase"><b>Dato</b></p>
+                            </div>
+                            <div class="col-4">
+                                <p class="text-white mb-0 text-uppercase"><b>Pris</b></p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                        {% for semester in page.hold %}
+                        <div class="accordion-item">
+                            <div class="accordion-header bg-gainsboro p-2" id="heading{{ forloop.index }}">
+                               <!--  <button class="accordion-button collapsed px-5 py-3 bg-platinum" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapse{{ forloop.index }}"
+                                    aria-expanded="true" aria-controls="collapse{{ forloop.index }}"> -->
+
+                                    <div class="row gx-0 w-100">
+                                        <div class="col-12">
+                                            <p class="mb-0 text-uppercase">{{ semester.title }}</p>
+                                        </div>
+                                       <!--  <div class="col-4">
+                                            <p class="mb-0 text-uppercase">{{ semester.dates }}</p>
+                                        </div>
+                                        <div class="col-4">
+                                            <p class="mb-0 text-uppercase">{{ semester.price }}</p>
+                                        </div> -->
+                                    </div>
+                              <!--   </button> -->
+                            </div>
+                            <!-- <div id="collapse{{ forloop.index }}" class="accordion-collapse collapse"
+                                aria-labelledby="heading{{ forloop.index }}">
+                                <div class="accordion-body p-0">
+                                    <div class="bg-gainsboro pt-3 ps-3 pe-3">
+                                        <div class="row">
+                                            <div class="col-2">
+                                                <p class="text-white">
+                                                    Dato
+                                                </p>
+                                            </div>
+                                            <div class="col-1">
+                                                <p class="text-white">
+                                                    Dag
+                                                </p>
+                                            </div>
+                                            <div class="col-2">
+                                                <p class="text-white">
+                                                    Tid
+                                                </p>
+                                            </div>
+                                            <div class="col-4">
+                                                <p class="text-white">
+                                                    Modul
+                                                </p>
+                                            </div>
+                                            <div class="col-3">
+                                                <p class="text-white">
+                                                    Sted
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    {% for module in semester.modules %}
+                                    {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+                                    <div class="pt-3 ps-3 pe-3{% if thecycle == 'odd' %} bg-platinum{% endif %}">
+                                        <div class="row">
+                                            <div class="col-2">
+                                                <p>
+                                                    {{ module.date }}
+                                                </p>
+                                            </div>
+                                            <div class="col-1">
+                                                <p>
+                                                    {{ module.day }}
+                                                </p>
+                                            </div>
+                                            <div class="col-2">
+                                                <p>
+                                                    {{ module.time }}
+                                                </p>
+                                            </div>
+                                            <div class="col-4">
+                                                <p>
+                                                    {{ module.name }}
+                                                </p>
+                                            </div>
+                                            <div class="col-3">
+                                                <p>
+                                                    {{ module.place }}
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    {% endfor %}
+
+                                </div>
+                            </div> -->
+                        </div>
+
+                        {% endfor %}
+                    </div>
+
+                </div>
+            </div>
+        </div>
     </div>
 
 
@@ -185,49 +320,35 @@ layout: default
 
                             <div class="row bg-gainsboro">
 
-                                <div class="col-6 col-md-2 p-3 d-flex align-items-center border border-white">
-                                    <p class="mb-0 fw-bold">23/11/2021</p>
-                                </div>
-                                <div class="col-6 col-md-2 p-3 d-flex align-items-center border border-white">
-                                    <p class="mb-0">09.00–12.00</p>
-                                </div>
-                                <div class="col-12 col-md-3 p-3 d-flex align-items-center border border-white">
+
+                                
+                                <div class="col-12 col-md-4 p-3 d-flex align-items-center border border-white">
                                     <p class="mb-0">Introduktionsdag</p>
                                 </div>
-                                <div class="col-12 col-md-5 p-3 d-flex align-items-center border border-white">
+                                <div class="col-12 col-md-8 p-3 d-flex align-items-center border border-white">
                                     <p class="mb-0">Præsentation og
                                         introduktion til uddannelsen, indhold, struktur, litteratur, casevalg mm.</p>
                                 </div>
                             </div>
                             <div class="row">
 
-                                <div class="col-6 col-md-2 p-3 d-flex align-items-center border-gainsboro">
-                                    <p class="mb-0 fw-bold">16/12/2021</p>
-                                </div>
-                                <div class="col-6 col-md-2 p-3 d-flex align-items-center border-gainsboro">
-                                    <p class="mb-0">09.00–12.00</p>
-                                </div>
-                                <div class="col-12 col-md-3 p-3 d-flex align-items-center border-gainsboro">
+
+                                <div class="col-12 col-md-4 p-3 d-flex align-items-center border-gainsboro">
                                     <p class="mb-0">Den kognitive tilgang til procesledelse</p>
                                 </div>
-                                <div class="col-12 col-md-5 p-3 d-flex align-items-center border-gainsboro">
+                                <div class="col-12 col-md-8 p-3 d-flex align-items-center border-gainsboro">
                                     <p class="mb-0">Vi
                                         arbejder med: rammer, styring, procesredskaber mm.</p>
                                 </div>
                             </div>
                             <div class="row bg-gainsboro">
 
-                                <div class="col-6 col-md-2 p-3 d-flex align-items-center border border-white">
-                                    <p class="mb-0 fw-bold">25/01/2022</p>
-                                </div>
-                                <div class="col-6 col-md-2 p-3 d-flex align-items-center border border-white">
-                                    <p class="mb-0">09.00–12.00</p>
-                                </div>
-                                <div class="col-12 col-md-3 p-3 d-flex align-items-center border border-white">
+
+                                <div class="col-12 col-md-4 p-3 d-flex align-items-center border border-white">
                                     <p class="mb-0">Den emotionelle/psykodynamiske tilgang til
                                         procesledelse</p>
                                 </div>
-                                <div class="col-12 col-md-5 p-3 d-flex align-items-center border border-white">
+                                <div class="col-12 col-md-8 p-3 d-flex align-items-center border border-white">
                                     <p class="mb-0">Vi arbejder med det psykodynamiske: med stemthed, håndtering af
                                         frustrationer og modstand og med mentalisering.</p>
                                 </div>
@@ -235,16 +356,11 @@ layout: default
 
                             <div class="row">
 
-                                <div class="col-6 col-md-2 p-3 d-flex align-items-center border-gainsboro">
-                                    <p class="mb-0 fw-bold">01/03/2022</p>
-                                </div>
-                                <div class="col-6 col-md-2 p-3 d-flex align-items-center border-gainsboro">
-                                    <p class="mb-0">09.00–12.00</p>
-                                </div>
-                                <div class="col-12 col-md-3 p-3 d-flex align-items-center border-gainsboro">
+
+                                <div class="col-12 col-md-4 p-3 d-flex align-items-center border-gainsboro">
                                     <p class="mb-0">Den systemiske tilgang til procesledelse</p>
                                 </div>
-                                <div class="col-12 col-md-5 p-3 d-flex align-items-center border-gainsboro">
+                                <div class="col-12 col-md-8 p-3 d-flex align-items-center border-gainsboro">
                                     <p class="mb-0">Vi
                                         arbejder med relationel koordinering, med narrativer og med samskabelse</p>
                                 </div>
@@ -252,16 +368,11 @@ layout: default
 
                             <div class="row bg-gainsboro">
 
-                                <div class="col-6 col-md-2 p-3 d-flex align-items-center border border-white">
-                                    <p class="mb-0 fw-bold">05/04/2022</p>
-                                </div>
-                                <div class="col-6 col-md-2 p-3 d-flex align-items-center border border-white">
-                                    <p class="mb-0">09.00–12.00</p>
-                                </div>
-                                <div class="col-12 col-md-3 p-3 d-flex align-items-center border border-white">
+
+                                <div class="col-12 col-md-4 p-3 d-flex align-items-center border border-white">
                                     <p class="mb-0">Evalueringsdag</p>
                                 </div>
-                                <div class="col-12 col-md-5 p-3 d-flex align-items-center border border-white">
+                                <div class="col-12 col-md-8 p-3 d-flex align-items-center border border-white">
                                     <p class="mb-0">Vi præsenterer vores cases og
                                         evalueringsopgaver og reflekterer sammen om indhold og processer</p>
                                 </div>

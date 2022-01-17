@@ -85,3 +85,10 @@ a.bg-hover:before {
     z-index: -1;
     transition: transform .3s ease;
 }
+
+// Underlined
+
+a.underlined {
+    border-bottom: 4px solid #707070;
+    color: #707070 !important;
+  }

@@ -171,7 +171,7 @@ events:
     datoer:
     - 14. marts
     - 5. april
-    - 22. - 29. maj
+    - 27. maj - 3. juni
     - 20. - 22. juni
   - sub-cat-title: 4. semester - Forår 2022
     datoer:

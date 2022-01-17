@@ -411,8 +411,37 @@
       $(".logo").attr("src", "/images/logo/ccc-logo-new.png");
 }
 
-   function scrollNavi() {
-      const mediaQuery = window.matchMedia('(min-width: 1199.98px)')
+$(document).ready(function(){
+
+  const mediaQuery = window.matchMedia('(min-width: 1199.98px)')
+      // Check if the media query is true
+      if (mediaQuery.matches) {
+  var scroll = $(window).scrollTop();
+        if (scroll > 10) {
+          $(".navbar").css({ "background-color": "white", "box-shadow": "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px" });
+          $(".nav-item").css("color", "#707070");
+          $(".logo").attr("src", "/images/logo/ccc-logo-new.png");
+          $(".navi-icon").css("color", "#707070");
+        }
+
+        else {
+          $(".navbar").css({ "background": "none", "box-shadow": "none" });
+          $(".nav-item").css("color", "white");
+          $(".logo").attr("src", "/images/logo/ccc-logo-hvid.png");
+          $(".navi-icon").css("color", "white");
+        }
+      }
+      else {
+        $(".logo").attr("src", "/images/logo/ccc-logo-new.png");
+        $(".nav-item").css("color", "#707070");
+        $(".navbar").css({ "background-color": "white", "box-shadow": "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px" });
+        $(".navi-icon").css("color", "#707070");
+      }
+})
+$(document).ready(function(){
+  $(window).scroll(function(){
+  	
+    const mediaQuery = window.matchMedia('(min-width: 1199.98px)')
       // Check if the media query is true
       if (mediaQuery.matches) {
         
@@ -420,7 +449,7 @@
         var scroll = $(window).scrollTop();
         if (scroll > 10) {
           $(".navbar").css({ "background-color": "white", "box-shadow": "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px" });
-          $(".nav-item").css("color", "#707070 !important");
+          $(".nav-item").css("color", "#707070");
           $(".logo").attr("src", "/images/logo/ccc-logo-new.png");
           $(".navi-icon").css("color", "#707070");
         }
@@ -435,16 +464,13 @@
       }
       else {
         $(".logo").attr("src", "/images/logo/ccc-logo-new.png");
-        $(".nav-item").css("color", "#707070 !important");
+        $(".nav-item").css("color", "#707070");
         $(".navbar").css({ "background-color": "white", "box-shadow": "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px" });
-        $(".navi-icon").css("color", "#707070 !important");
+        $(".navi-icon").css("color", "#707070");
       }
-
-    };
-    window.onload = scrollNavi;
-    window.onresize = scrollNavi;
-    $(window).scroll(scrollNavi);
-
+  })
+})
+   
   </script>
 
   <script>

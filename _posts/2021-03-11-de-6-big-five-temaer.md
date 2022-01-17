@@ -17,6 +17,7 @@ community: 40% rabat for CCC Community medlemmer
 ex-moms: true
 community-price: 270,-
 price: 450,-
+past: true
 ---
 
 Lær at aflæse og indgå i dialog om koblinger af træk, som på den ene eller anden måde kan give anledning til paradoksal tænkning og handling i det levede liv.

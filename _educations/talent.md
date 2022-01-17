@@ -5,26 +5,26 @@ location: Blegdamsvej 104C, 3. sal, baghuset th., 2100 København Ø
 special: false
 image: /images/educations/talent-program.png
 layout: talent
-description: Bliv en del af Europas stærkeste Talentudviklingsprogram
+description: at spotte, udvikle og fastholde talent
 published: false
 order: 2
 hold:
 - title: TP1-F22
   price: 30.000 - 50.000 ekskl. moms
-  dates: Marts - maj 2022
+  dates: Marts - juni 2022
   modules:
-  - date: Mart 2022
-    day: "-"
+  - date: 23. marts 2022
+    day: "1"
     time: "-"
     name: Introdag
     place: København
-  - date: April 2022
-    day: "-"
+  - date: 1. - 4. maj 2022
+    day: 2-5
     time: "-"
     name: Studieophold
     place: Barcelona
-  - date: Maj 2022
-    day: "-"
+  - date: 8. juni 2022
+    day: "6"
     time: "-"
     name: Implementeringsdag
     place: København

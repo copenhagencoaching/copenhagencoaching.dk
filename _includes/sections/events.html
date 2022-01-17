@@ -1,148 +1,26 @@
-
 <div class="container-fluid pt-5 pb-5">
-  <h2 class="mb-3">Kommende events</h2>
-    <div class="row gy-5 gx-5">
-        {% assign orderedPosts = site.posts | sort: order %}
-        {% for post in orderedPosts %}
-        {% for tag in post.tags %}
+  
 
-        {% if tag == "community" %}
-        <div class="col-12 col-md-6 col-xl-3">
-
-            <a href="{{ post.url }}">
-            <div class="card card-large">
-                <div class="outer-img-top">
-                    <img src="{{ post.image }}" alt="...">
-                </div>
-                
-                <div class="card-body px-0 py-2">
-                    <!-- months -->
-
-                    {% capture alldates %}
-                    {% assign orderposts = site.tags.event | order: "date" | reverse %}
-                    {% for item in orderposts %}
-        
-                    {% for tag in item.tags %}
-                    {% if tag == post.sub-pages %}
-        
-                    {% assign postmonth = item.date | date: "%m" %}
-        
-        
-                    {% if postmonth == "01" %}
-                    {% assign monthName = "Januar" %}
-                    {% elsif postmonth == "02" %}
-                    {% assign monthName = "Februar" %}
-                    {% elsif postmonth == "03" %}
-                    {% assign monthName = "Marts" %}
-                    {% elsif postmonth == "04" %}
-                    {% assign monthName = "April" %}
-                    {% elsif postmonth == "05" %}
-                    {% assign monthName = "Maj" %}
-                    {% elsif postmonth == "06" %}
-                    {% assign monthName = "Juni" %}
-                    {% elsif postmonth == "07" %}
-                    {% assign monthName = "Juli" %}
-                    {% elsif postmonth == "08" %}
-                    {% assign monthName = "August" %}
-                    {% elsif postmonth == "09" %}
-                    {% assign monthName = "September" %}
-                    {% elsif postmonth == "10" %}
-                    {% assign monthName = "Oktober" %}
-                    {% elsif postmonth == "11" %}
-                    {% assign monthName = "November" %}
-                    {% elsif postmonth == "12" %}
-                    {% assign monthName = "December" %}
-                    {% endif %}
-        
-        
-                    {{ monthName }},
-        
-                    {% endif %}
-                    {% endfor %}
-                    {% endfor %}
-                    {% endcapture %}
-                    {% assign alldatessplit = alldates | split: "," %}
-                    <div>
-                        {% for date in alldatessplit %}
-                        {% if forloop.last %}
-        
-                        {% else %}
-                       
-                         <b class="text-uppercase opacity-50">{{ date }} </b>
-                       
-                        {% endif %}
-                        {% endfor %}
-                    </div>
-
-                    <!-- months end -->
-
-
-
-                  <h3 class="card-title">{{ post.title }}</h3>
-                  <p class="card-text">{{ post.description }}</p>
-                  <div class="row">
-                      <div class="col-6">
-                          <!-- price -->
-                        {% capture allprices %}
-                        {% assign orderposts = site.posts | order: "date" | reverse %}
-                        {% for item in orderposts %}
-                        {% for tag in item.tags %}
-                        {% if tag == post.sub-pages %}
-                        {% if item.price %}
-                        {% if item.community-free == true %}
-                        <b>Pris:</b><br>
-                        Medlemmer: 0 kr. <br>
-                        Ikke medlemmer: <br>{{ item.price }} {% if item.ex-moms %} (ekskl. moms){% endif %} |
-                        {% else %}
-                        {% if item.community-price %}
-                        <b>Pris:</b><br>
-                        Medlemmer: <br>{{ item.community-price }} {% if item.ex-moms %} (ekskl. moms){% endif %}<br>
-                        Ikke medlemmer: <br>{{ item.price }} {% if item.ex-moms %} (ekskl. moms){% endif %} |
-                        {% else %}
-                        <b>Pris: {{ item.price }} {% if item.ex-moms %} (ekskl. moms){% endif %}</b>|
-                        {% endif %}
-                        {% endif %}
-                        {% endif %}
-                        {% endif %}
-                        {% endfor %}
-                        {% endfor %}
-                        {% endcapture %}
-                        {% assign allpricesplit = allprices | split: "|" %}
-                        {% for price in allpricesplit limit: 1 %}
-                        <p>{{ price }}</p>
-                        {% endfor %}
-                        <!-- price end -->
-                      </div>
-                      <div class="col-6 text-end">
-                           <!-- time -->
-                        {% capture alltime %}
-                        {% assign orderposts = site.posts | order: "date" | reverse %}
-                        {% for item in orderposts %}
-                        {% for tag in item.tags %}
-                        {% if tag == post.sub-pages %}
-                        {{ item.time }},
-                        {% endif %}
-                        {% endfor %}
-                        {% endfor %}
-                        {% endcapture %}
-                        {% assign alltimesplit = alltime | split: "," %}
-                        {% for time in alltimesplit limit: 1 %}
-                        <p><b>Tid: </b><br>{{ time }}</p>
-                        {% endfor %}
-                        <!-- time end -->
-                      </div>
-                  </div>
-                  
-                </div>
-              </div>
-
-            </a>
-            
-            
-          </div>
-          
-        {% endif %}
-        {% endfor %}
-        {% endfor %}
+  <div class="row gx-5 mb-5">
+    <div class="col-12 col-md-6">
+      <div class="h-100"
+        style="background-image: url('/images/graphic/supervisions-aftener.jpg'); background-position: center; background-size: cover;">
+      </div>
     </div>
+    <div class="col-12 col-md-6">
+      <h2>ONLINE Træningsaftener – KUN for CCC Community medlemmer</h2>
+      <p>Din mulighed for at få trænet og styrket din praksis med ligestillede, der enten har afsluttet en uddannelse hos CCC eller som netop er ved det.
+
+        En mulighed for at sikre større forankring og effekt af dine erhvervede kompetencer.</p>
+
+        <a href="/inspiration/4-aarlige-supervisions-aftener/" class="btn-black-coral btn text-white align-center text-uppercase fw-700">Læs mere her</a>
+    </div>
+  </div>
+  
+
+<div class="text-center">
+ <a href="events" class="align-center text-uppercase fw-bolder underlined">Se alle events</a>
 </div>
+</div>
+
+

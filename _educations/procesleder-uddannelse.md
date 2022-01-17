@@ -17,13 +17,8 @@ layout: plu
 emails:
 - ln@copenhagencoaching.dk
 hold_eller_begivenheder: true
-events:
-- overskrift: PLU26 Efterår 2021
-  dato:
-  - 25. - 26. oktober 2021
-  - 17. - 19. november 2021
-  - 12. - 13. januar 2022
-  - 8. februar 2022
+hold:
+- title: Det kommende hold er udskudt på grund af Corona.
 redirect_from:
   - /coaching/proceslederuddannelse/
 cat:

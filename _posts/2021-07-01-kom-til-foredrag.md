@@ -16,4 +16,5 @@ community: Gratis for CCC Community medlemmer
 ex-moms: true
 time: 17.00-20.00
 community-free: true
+past: true
 ---

@@ -120,7 +120,10 @@ layout: default
   </div>
 
   <div class="container-fluid py-5 position-relative">
+    {% if page.past-text == false %}
+    {% else %}
     <h3 class="text-white mb-4">Afholdte datoer</h3>
+    {% endif %}
     <div class="row gy-5 gx-5">
 
       {% assign orderedPosts = site.tags.event | sort: order %}
@@ -398,7 +401,7 @@ layout: default
 
       <h2 class="xlarge thin capped mb-4">Bliv medlem af CCC Community og få adgang til {{ page.under-title }} {{
         com-mes
-        }}.</h2>
+        }}</h2>
 
       <p class="mb-1">Som medlem får du også:</p>
       <ul>

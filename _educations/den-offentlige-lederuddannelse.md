@@ -19,31 +19,7 @@ cat:
 - diplom
 hold_eller_begivenheder: true
 events:
-- overskrift: Ledelse og Coaching - Efterår 2021
-  dato:
-  - 5. november - 13.00-16.00
-  - 12. november - 13.00-16.00
-  - 19. november - 13.00-16.00
-  - 26. nobember - 13.00-16.00
-  - 3. december - 13.00-16.00
-- overskrift: Det personlige lederskab og forandring
-  dato:
-  - Datoer kommer snart
-- overskrift: Ledelse af medarbejdere og faglig udvikling
-  dato:
-  - Datoer kommer snart
-- overskrift: Ledelse af forandrings- og udviklingsprocesser i offentlige organisationer
-  dato:
-  - Datoer kommer snart
-- overskrift: Projektledelse
-  dato:
-  - Datoer kommer snart
-- overskrift: Ledelse og filosofi
-  dato:
-  - Datoer kommer snart
-- overskrift: Specialemodul
-  dato:
-  - Datoer kommer snart
+- overskrift: Nye datoer på vej.
 ---
 
 Er du leder, eller drømmer du om at bliver det? Trænger du til at få styrket dine lederkompetencer, og samtidig få de nyeste og brugbare værktøjer til medarbejdersamtaler og til håndtering af konfliktsituationer? Så tag moduler i Den offentlige Lederuddannelse (DOL) hos os!
