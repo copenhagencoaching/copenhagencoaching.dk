@@ -1,0 +1,159 @@
+---
+title: Tilmelding/Ansøgning
+layout: default
+permalink: /talentudvikling/tilmelding/
+---
+
+
+
+
+<div class="bg-black-coral">
+  <div class="container-fluid py-5">
+    <div class="row pt-5">
+      <div class="offset-lg-3 col-lg-6 col-12 pt-5">
+
+        <div class="reg-container">
+          <h2 class="reg-heading text-white">
+            Tilmelding til talentforløb
+          </h2>
+          <div class="reg-text">
+            <p class="text-white">Vi er meget glade for, at du har lyst til at være en del af dette spændende forløb. Udfyld dine informationer nedenfor, og du vil blive kontaktet snarest muligt.
+
+              Skulle du have spørgsmål til din tilmelding, er du meget velkommen til at ringe til Andreas Bering direkte på tlf.: +45 40 14 92 92
+            </p>
+
+           <small class="text-small text-white">Når du tilmelder dig en af vores uddannelser via formularen nedenfor, ender din tilmelding i en sikret emailboks, som kun én medarbejder i CCC har adgang til. Derefter gemmes din data i vores kundedatabase, som også er en sikker database efter de nye GDPR regler.
+
+            Vi bruger udelukkende dine kontaktoplysninger til at tage kontakt til dig vedrørende din tilmelding, og dine faktureringsdata til at sende dig en faktura. Ved at tilmelde dig en uddannelse siger du ikke automatisk ja til at modtage nyhedsmails eller andet materiale fra os. Dette skal klikkes af manuelt.</small>
+            
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+<div class="bg-platinum">
+  <div class="container-fluid py-5">
+    <div class="row">
+      <div class="offset-lg-3 col-lg-6 col-12">
+
+        <div class="bg-white p-5 rounded border-opal">
+
+          <form action="https://formspree.io/f/mzbyzbyg" method="POST" enctype="multipart/form-data">
+ 
+
+
+
+            <input type="hidden" name="uddannelse" class="hidden-input" value="Talentprogram" />
+            <input type="text" class="form-control mb-3" name="FNAME" placeholder="Fornavn*" required>
+            <input type="text" class="form-control mb-3" name="LNAME" placeholder="Efternavn*" required>
+            <input type="text" class="form-control mb-3" name="virksomhed" placeholder="Virksomhed">
+            <label><b>Hvem skal fakturaen adresseres til?</b></label>
+            <div class="form-check">
+              <input class="form-check-input checkbox privat" type="radio"
+                id="privat-{{ page.title | truncatewords: 5, '' }}" name="betaling" value="privat" checked>
+              <label class="form-check-label" for="privat-{{ page.title | truncatewords: 5, '' }}">
+                Privat
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input checkbox virksomhed" type="radio"
+                id="virksomhed-{{ page.title | truncatewords: 5, '' }}" value="virksomhed" name="betaling">
+              <label class="form-check-label mb-3" for="virksomhed-{{ page.title | truncatewords: 5, '' }}">
+                Virksomhed
+              </label>
+            </div>
+            <div class="virksomhed-box">
+            </div>
+
+
+            <input type="text" class="form-control mb-4" name="adress" placeholder="Fakturerings adresse*" required>
+            <div class="input-group mb-4">
+              <input type="text" class="form-control me-3" name="zip-code" placeholder="Postnummer*" required>
+              <input type="text" class="form-control" name="town" placeholder="By*">
+            </div>
+            <input type="tel" class="mb-4 form-control" name="arb-tlf" pattern="[0-9]{8}" placeholder="Arb. tlf.*"
+              required>
+            <input type="tel" class="mb-4 form-control" name="mobile" pattern="[0-9]{8}" placeholder="Mobil">
+            <input type="email" class="mb-4 form-control" name="email" placeholder="E-mail*" required>
+
+            <div class="mb-4">
+              <label for="comment" class="form-label">Evt. kommentarer</label>
+              <textarea class="form-control" name="besked" id="comment-{{ page.title | truncatewords: 5, '' }}"
+                rows="3"></textarea>
+            </div>
+  
+
+  
+
+            <labe class="form-label"><b>Hvor har du hørt om os?:</b><br> </label>
+
+              <div class="form-check mb-1">
+                <input class="form-check-input" name="kilde" type="checkbox" id="google" value="google">
+                <label class="form-check-label" for="google">
+                  Google
+                </label>
+              </div>
+              <div class="form-check mb-1">
+                <input class="form-check-input" name="kilde" type="checkbox" id="Facebook" value="Facebook">
+                <label class="form-check-label" for="Facebook">
+                  Facebook
+                </label>
+              </div>
+              <div class="form-check mb-1">
+                <input class="form-check-input" name="kilde" type="checkbox" id="Instagram" value="Instagram">
+                <label class="form-check-label" for="Instagram">
+                  Instagram
+                </label>
+              </div>
+              <div class="form-check mb-1">
+                <input class="form-check-input" name="kilde" type="checkbox" id="LinkedIn" value="LinkedIn">
+                <label class="form-check-label" for="LinkedIn">
+                  LinkedIn
+                </label>
+              </div>
+              <div class="form-check mb-1">
+                <input class="form-check-input" name="kilde" type="checkbox" id="anbefaling" value="anbefaling">
+                <label class="form-check-label" for="anbefaling">
+                  Anbefaling fra andre
+                </label>
+              </div>
+              <div class="form-check mb-4">
+                <input class="form-check-input" name="kilde" type="checkbox" id="Andet" value="Andet">
+                <label class="form-check-label" for="Andet">
+                  Andet
+                </label>
+              </div>
+
+              <div class="form-check mb-4">
+                <input class="form-check-input" name="_optin" type="checkbox" id="newsletter">
+                <label class="form-check-label" for="newsletter">
+                  Ja tak, jeg vil gerne modtage CCC's nyhedsbrev.
+                </label>
+              </div>
+
+              <label class="form-check-label"><b>Samtykkeerklæring*</b></label>
+              <div class="form-check mb-0">
+                <input class="form-check-input" name="samtykke" type="checkbox" id="samtykke">
+                <label class="form-check-label" for="samtykke">
+                  <p class="small mb-0">Jeg giver samtykke til, at CCC må bruge mine oplysninger til at behandle min
+                    ansøgning. Derudover giver jeg samtykke til, at CCC opbevarer og behandler mine persondata som er
+                    beskrevet i <a target="_blank" href="/privatlivspolitik/">CCC's privatlivspolitik</a>.</p>
+                </label>
+              </div>
+
+
+              <button class=" w-100 btn-spanish-gray text-white btn mb-3" type="submit">Ansøg</button>
+
+          </form>
+
+        </div>
+
+
+      </div>
+    </div>
+
+
+  </div>
+</div>
