@@ -6,7 +6,7 @@ special: false
 image: /images/educations/talent-program.png
 layout: talent
 description: at spotte, udvikle og fastholde talent
-published: false
+published: true
 order: 2
 hold:
 - title: TP1-F22
