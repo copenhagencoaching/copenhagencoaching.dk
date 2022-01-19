@@ -192,15 +192,15 @@ layout: default
                             </div> -->
                         </div>
                     </div>
-                    <div class="bg-black-coral px-5 py-3">
+                    <div class="bg-black-coral px-5 py-3 d-none d-lg-block">
                         <div class="row gx-0">
-                            <div class="col-4">
+                            <div class="col-md-4 col-12">
                                 <p class="text-white mb-0 text-uppercase"><b>Hold</b></p>
                             </div>
-                            <div class="col-4">
+                            <div class="col-md-4 col-12">
                                 <p class="text-white mb-0 text-uppercase"><b>Dato</b></p>
                             </div>
-                            <div class="col-4">
+                            <div class="col-md-4 col-12">
                                 <p class="text-white mb-0 text-uppercase"><b>Pris</b></p>
                             </div>
                         </div>
@@ -209,21 +209,41 @@ layout: default
 
                     <div class="accordion" id="accordionPanelsStayOpenExample">
                         {% for semester in page.hold %}
-                        <div class="accordion-item">
-                            <div class="accordion-header" id="heading{{ forloop.index }}">
+                        <div class="accordion-item border-none">
+                            <div class="accordion-header d-none d-lg-block" id="heading{{ forloop.index }}">
                                 <button class="accordion-button collapsed px-5 py-3 bg-gainsboro" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#collapse{{ forloop.index }}"
                                     aria-expanded="true" aria-controls="collapse{{ forloop.index }}">
 
                                     <div class="row gx-0 w-100">
-                                        <div class="col-4">
+                                        <div class="col-md-4 col-12">
                                             <p class="mb-0 text-uppercase">{{ semester.title }}</p>
                                         </div>
-                                        <div class="col-4">
+                                        <div class="col-md-4 col-12">
                                             <p class="mb-0 text-uppercase">{{ semester.dates }}</p>
                                         </div>
-                                        <div class="col-4">
+                                        <div class="col-md-4 col-12">
                                             <p class="mb-0 text-uppercase">{{ semester.price }}</p>
+                                        </div>
+                                    </div>
+                                </button>
+                            </div>
+
+                            <!-- darker one -->
+                            <div class="accordion-header border-none d-sm-block d-md-none" id="heading{{ forloop.index }}">
+                                <button class="accordion-button white border-none collapsed px-5 py-3 bg-black-coral" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapse{{ forloop.index }}"
+                                    aria-expanded="true" aria-controls="collapse{{ forloop.index }}">
+
+                                    <div class="row gx-0 w-100">
+                                        <div class="col-md-4 col-12">
+                                            <p class="mb-0 text-uppercase text-white">{{ semester.title }}</p>
+                                        </div>
+                                        <div class="col-md-4 col-12">
+                                            <p class="mb-0 text-uppercase text-white">{{ semester.dates }}</p>
+                                        </div>
+                                        <div class="col-md-4 col-12">
+                                            <p class="mb-0 text-uppercase text-white">{{ semester.price }}</p>
                                         </div>
                                     </div>
                                 </button>
@@ -231,29 +251,29 @@ layout: default
                             <div id="collapse{{ forloop.index }}" class="accordion-collapse collapse"
                                 aria-labelledby="heading{{ forloop.index }}">
                                 <div class="accordion-body p-0">
-                                    <div class="bg-slate-gray pt-3 ps-3 pe-3">
+                                    <div class="bg-slate-gray pt-3 ps-3 pe-3 d-none d-lg-block">
                                         <div class="row">
-                                            <div class="col-2">
+                                            <div class="col-md-2 col-6">
                                                 <p class="text-white">
                                                     Dato
                                                 </p>
                                             </div>
-                                            <div class="col-1">
+                                            <div class="col-md-2 col-6">
                                                 <p class="text-white">
                                                     Dag
                                                 </p>
                                             </div>
-                                            <div class="col-2">
+                                            <div class="col-md-2 col-6">
                                                 <p class="text-white">
                                                     Tid
                                                 </p>
                                             </div>
-                                            <div class="col-4">
+                                            <div class="col-md-2 col-6">
                                                 <p class="text-white">
                                                     Modul
                                                 </p>
                                             </div>
-                                            <div class="col-3">
+                                            <div class="col-md-2 col-6">
                                                 <p class="text-white">
                                                     Sted
                                                 </p>
@@ -265,27 +285,27 @@ layout: default
                                     {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
                                     <div class="pt-3 ps-3 pe-3{% if thecycle == 'odd' %} bg-gainsboro{% endif %}">
                                         <div class="row">
-                                            <div class="col-2">
+                                            <div class="col-md-2 col-6">
                                                 <p>
                                                     {{ module.date }}
                                                 </p>
                                             </div>
-                                            <div class="col-1">
+                                            <div class="col-md-2 col-6 d-none d-lg-block">
                                                 <p>
                                                     {{ module.day }}
                                                 </p>
                                             </div>
-                                            <div class="col-2">
+                                            <div class="col-md-2 col-6 d-none d-lg-block">
                                                 <p>
                                                     {{ module.time }}
                                                 </p>
                                             </div>
-                                            <div class="col-4">
+                                            <div class="col-md-2 col-6">
                                                 <p>
                                                     {{ module.name }}
                                                 </p>
                                             </div>
-                                            <div class="col-3">
+                                            <div class="col-md-2 col-6">
                                                 <p>
                                                     {{ module.place }}
                                                 </p>
@@ -343,10 +363,9 @@ layout: default
     </div>
 
     <div class="tab-pane fade" id="nav-2" role="tabpanel" aria-labelledby="nav-2-tab">
-
-        <div class="container-fluid pb-5">
+        <div class="container-fluid pb-5 d-none d-sm-none d-md-none d-lg-none d-xl-block">
             <div class="row">
-                <div class="offset-lg-2 col-lg-8 col-12">
+                <div class="offset-lg-1 col-lg-10 col-12">
                     <div class="row text-center" style="margin-left: 0 !important; margin-right: 0 !important;">
                         <div
                             class="col-md-2 col-12 bg-black-coral p-2 d-flex align-items-center justify-content-center">
@@ -501,29 +520,199 @@ layout: default
                 </div>
             </div>
         </div>
+
+        <div class="container-fluid pb-5 d-sm-block d-md-block d-lg-block d-xl-none">
+            <div class="row">
+                <div class="offset-lg-2 col-lg-8 col-12">
+                    <div class="row text-center gy-3" style="margin-left: 0 !important; margin-right: 0 !important;">
+
+                        <div class="col-xl-2 col-12">
+                            <div class="row">
+                                <div class="col-12 bg-black-coral py-3 d-flex align-items-center justify-content-center">
+                                    <p class="mb-0 text-white"><b>Hvad er talent?</b></p>
+                                </div>
+                                <div class="col-12 bg-platinum py-3 d-flex align-items-center justify-content-center">
+                                    <p class="mb-0">En dag om talent
+                                        inden afrejse</p>
+                                </div>
+                                <div class="col-12 bg-cultured py-3 d-flex align-items-center justify-content-center">
+                                    <p class="mb-0">
+                                        Vi kommer tættere på begreberne
+                                        talent og potentiale gennem
+                                        indlæg og inspiration
+                                    </p>
+
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        <div class="col-xl-2 col-12">
+                            <div class="row d-flex align-items-center">
+
+                                <div class="col-12 bg-black-coral py-3 d-flex align-items-center justify-content-center">
+                                    <p class="mb-0 text-white"><b>Afrejse fra København - Barcelona</b></p>
+                                </div>
+                                <div class="col-12 bg-platinum py-3 d-flex align-items-center justify-content-center">
+                                    <p class="mb-0">Afgang fra
+                                        Københavns
+                                        Lufthavn
+                                        sidst på
+                                        eftermiddagen.</p>
+                                </div>
+                                <div class="col-12 bg-cultured py-3 d-flex align-items-center justify-content-center">
+                                    <p class="mb-0">
+                                        Indkvartering i
+                                        Barcelona og
+                                        middag
+                                    </p>
+
+                                </div>
+                                
+                            </div>
+
+                        </div>
+
+                        <div class="col-xl-2 col-12">
+                            <div class="row">
+                                <div class="col-12 bg-black-coral py-3 d-flex align-items-center justify-content-center">
+                                    <p class="mb-0 text-white"><b>Ophold i Barcelona</b></p>
+                                </div>
+                                <div class="col-12 bg-platinum py-3 d-flex align-items-center justify-content-center">
+                                    <p class="mb-0">Besøg hos FC Barcelona</p>
+                                </div>
+                                <div class="col-12 bg-cultured py-3 d-flex align-items-center justify-content-center">
+                                    <p class="mb-0">
+                                        Se træning/træningsmiljø
+                                    </p>
+
+                                </div>
+                                <div class="col-12 bg-platinum py-3 d-flex align-items-center justify-content-center">
+                                    <p class="mb-0">
+                                        Oplæg om talentspotting,
+                                        talentudvikling og fastholdelse
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-2 col-12">
+                            <div class="row">
+                                <div class="col-12 bg-black-coral py-3 d-flex align-items-center justify-content-center">
+                                    <p class="mb-0 text-white"><b>Ophold i Barcelona</b></p>
+                                </div>
+                                <div class="col-12 bg-platinum py-3 d-flex align-items-center justify-content-center">
+                                    <p class="mb-0">Forskningsmæssigt indlæg ved
+                                        professor Vidar Hallidorsson</p>
+                                </div>
+                                <div class="col-12 bg-cultured py-3 d-flex align-items-center justify-content-center">
+                                    <p class="mb-0">
+                                        Refleksioner over muligheder og
+                                        perspektiver i egen virksomhed
+                                    </p>
+
+                                </div>
+                                <div class="col-12 bg-platinum py-3 d-flex align-items-center justify-content-center">
+                                    <p class="mb-0">
+                                        Aftenprogram
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-2 col-12">
+                            <div class="row">
+                                <div class="col-12 bg-black-coral py-3 d-flex align-items-center justify-content-center">
+                                    <p class="mb-0 text-white"><b>Afrejse fra Barcelona - København</b></p>
+                                </div>
+                                <div class="col-12 bg-platinum py-3 d-flex align-items-center justify-content-center">
+                                    <p class="mb-0">Hjemrejse fra
+                                        Barcelona til
+                                        København</p>
+                                </div>
+                                <div class="col-12 bg-cultured py-3 d-flex align-items-center justify-content-center">
+                                    <p class="mb-0">
+                                        Farvel og på
+                                        gensyn i april
+                                    </p>
+
+                                </div>
+                               
+                            </div>
+                        </div>
+
+                        <div class="col-xl-2 col-12">
+                            <div class="row">
+                                <div
+                                    class="col-12 bg-black-coral py-3 d-flex align-items-center justify-content-center">
+                                    <p class="mb-0 text-white"><b>Netværksmøde<br>Workshop</b></p>
+                                </div>
+                                <div class="col-12 bg-platinum py-3 d-flex align-items-center justify-content-center">
+                                    <p class="mb-0">
+                                        Netværksmøde- og
+                                        implementeringsdag. Vi mødes og
+                                        udveksler erfaringer:<br><br>
+                                        - Hvad er der sket i min organisation
+                                        siden besøget i Barcelona?
+                                    </p>
+        
+                                </div>
+                                <div class="col-12 bg-cultured py-3 d-flex align-items-center justify-content-center">
+                                    <p class="mb-0">
+                                        - Hvilke erfaringer har jeg gjort?<br>
+                                        - Hvad har virket?<br>
+                                        - Hvad har været svært?<br><br>
+                                        - Næste skridt / udarbejdelse af
+                                        implementeringsplan
+                                    </p>
+        
+                                </div>
+                                
+                            </div>
+                        </div>
+
+
+
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
         <div class="bg-platinum py-5">
             <div class="container-fluid">
                 <div class="row">
                     <div class="offset-lg-2 col-lg-8 col-12">
                         <div class="row">
-                            <div class="col-6">
+                            <div class="col-md-6 col-12">
                                 <h2>Du får:</h2>
                                 <ul class="mb-0">
-                                    <li>Viden om og indsigt i talentbegrebet</li>
-                                    <li>Indsigt i hvordan man med stor succes arbejder med talent og talentudvikling
+                                    <li class="pb-2">Viden om og indsigt i talentbegrebet</li>
+                                    <li class="pb-2">Indsigt i hvordan man med stor succes arbejder med talent og
+                                        talentudvikling
                                     </li>
-                                    <li>Oversættelse af talentudvikling fra én succes-kontekst til egen organisation
+                                    <li class="pb-2">Oversættelse af talentudvikling fra én succes-kontekst til egen
+                                        organisation
                                     </li>
-                                    <li>Indsigt i Big 5 personlighedstesten som et udviklingsværktøj</li>
-                                    <li>Læring og netværk med andre med interesse for talentudvikling</li>
-                                    <li>Inspiration og konkrete ideer til, hvordan man kan arbejde videre med talent og
+                                    <li class="pb-2">Indsigt i Big 5 personlighedstesten som et udviklingsværktøj</li>
+                                    <li class="pb-2">Læring og netværk med andre med interesse for talentudvikling</li>
+                                    <li class="pb-2">Inspiration og konkrete ideer til, hvordan man kan arbejde videre
+                                        med talent og
                                         talentudvikling i egen organisation</li>
-                                    <li>Mulighed for efterfølgende hjælp og support med udvikling og implementering
+                                    <li class="pb-2">Mulighed for efterfølgende hjælp og support med udvikling og
+                                        implementering
                                         af en talentudviklings- og fastholdelsesstrategi</li>
                                 </ul>
                             </div>
-                            <div class="col-6 h-100">
-                                <img class="object-fit" src="/images/educations/plant.png" alt="">
+                            <div class="col-md-6 col-12">
+
+
+                                <div class="h-100"
+                                    style="background-image: url('/images/educations/plant.png'); background-position: center; background-size: cover;">
+                                </div>
                             </div>
                         </div>
                     </div>
