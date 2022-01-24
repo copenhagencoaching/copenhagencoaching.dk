@@ -9,10 +9,11 @@ layout: default
 </script>
 
 <div class="front-slider slick-slider">
-    {% for text in site.texts %}
+    {% assign ordered_slides = site.texts | sort: "order" %}
+    {% for text in ordered_slides %}
     {% if text.page == "frontpage" %}
     <div class="big-header slick-slide">
-        <div class="inner-front pt-5" style="background-image: url('{{ text.image }}');">
+        <div class="inner-front pt-5" style="background-image: url('{{ text.image }}'); {{ text.placing }}">
             <div class="container-fluid py-5">
                 <div class="front-box">
                     <h1>{{ text.title }}</h1>

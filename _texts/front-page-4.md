@@ -2,7 +2,7 @@
 title: Foredrag med Rasmus Kragh
 layout: default
 page: frontpage
-order: 4
+order: 5
 published: false
 image: /images/graphic/mountain.png
 link: /inspiration/foredrag-2/

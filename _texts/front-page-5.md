@@ -1,0 +1,18 @@
+---
+layout: default
+title: Kunsten af spotte verdensklasse
+page: frontpage
+order: 1
+image: /images/educations/talent-program.jpg
+link: /academy/talent/
+placing: "background-position: center"
+published: false
+---
+
+Der er mange forskellige opfattelser og meninger om talent. Er det medfødt? Er det tillært? Et resultat af mange arbejdstimer, vilje eller motivation?
+
+
+Kulturen, værdierne og virksomhedens organisation kan være afgørende for, hvordan talentbegrebet kan få det helt rette liv i netop din organisation og vende øget stress og medarbejder-flow til bæredygtig trivsel og fastholdelse. 
+
+
+Kursus i København og Barcelona forår 2022. Kontakt os for mere info.

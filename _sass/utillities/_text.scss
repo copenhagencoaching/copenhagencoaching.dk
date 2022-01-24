@@ -70,3 +70,19 @@ body {
     font-size: .7rem !important;
     line-height: 1.6;
 }
+
+//speach bubble
+
+.speech {
+    position: relative;
+    &:after {
+        transform: skewX(45deg);
+      content: "";
+      position: absolute;
+      top: -25px;
+      left: 20px;
+      border-width: 0 0 30px 30px;
+      border-style: solid;
+      border-color: $black-coral transparent;
+    }
+  }
