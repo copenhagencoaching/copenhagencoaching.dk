@@ -45,7 +45,7 @@ layout: default
                     aria-controls="nav-6" aria-selected="false">Praktisk</a>
                 <a class="nav-item nav-link" id="nav-7-tab" data-toggle="tab" href="#nav-7" role="tab"
                     aria-controls="nav-7" aria-selected="false">FAQ</a>
-                    <a class="nav-item nav-link" href="/tilmelding/?n={{ page.title }}">Ansøg</a>
+                <a class="nav-item nav-link" href="/tilmelding/?n={{ page.title }}">Ansøg</a>
             </div>
         </div>
     </div>
@@ -62,7 +62,7 @@ layout: default
                                 style="background-image: url('/images/mbc/image--003.jpg'); background-position: center; background-size: cover;">
                             </div>
                         </div>
-                        
+
                         <div class="col-xl-6 col-12">
                             <h2>Ønsker du at blive dygtig til at føre produktive og virkningsfulde dialoger?</h2>
                             <p>At kunne flytte både grupper og individer i en mere konstruktiv retning og derved
@@ -73,7 +73,7 @@ layout: default
                             <p>Med en Master of Business Coaching får du en af landets bedste coachinguddannelser, hvor
                                 du både
                                 kan foretage traditionelle coachingsamtaler og den filosofiske samtale.</p>
-                                <p><b>Næste holdopstart 9.-10. februar.</b></p>
+                            <p><b>Næste holdopstart 9.-10. februar.</b></p>
                         </div>
                     </div>
                 </div>
@@ -176,7 +176,7 @@ layout: default
                                     </div>
 
                                     {% for module in semester.modules %}
-                                    
+
                                     <div class="pt-3 px-5 striped-platinum">
                                         <div class="row">
                                             <div class="col-2">
@@ -394,7 +394,7 @@ layout: default
                                 Semestrene kan tages ét ad gangen og/eller forskudt, som det passer i
                                 den enkelte studerendes ressourcer og karrieremål. Hvis det måtte
                                 ønskes, kan der træffes individuel aftale om en ONLINE løsning.</p>
-                            <p>Uddannelsen afsluttes med en masterafhandling og et mundtligt forsvar</p>
+                            <p>Uddannelsen afsluttes med en masterafhandling og et mundtligt forsvar.</p>
 
                         </div>
                     </div>
@@ -408,19 +408,19 @@ layout: default
                         <div class="row">
                             <div class="col-6">
                                 <h2>Som MBC studerende får du:</h2>
-                                <ul class="mb-0">
-                                    <li>Adgang til vidensportal, værktøjer, faglitteratur, artikler og cases</li>
-                                    <li>Big Five personlighedstest med individuel tilbagemelding</li>
-                                    <li>Mulighed for at blive certificeret i Big Five, så du selv kan anvende
+                                <ul class="mb-0 ps-3">
+                                    <li class="pb-3 pt-3">Adgang til vidensportal, værktøjer, faglitteratur, artikler og cases</li>
+                                    <li class="pb-3">Big Five personlighedstest med individuel tilbagemelding</li>
+                                    <li class="pb-3">Mulighed for at blive certificeret i Big Five, så du selv kan anvende
                                         personlighedstest
                                     </li>
-                                    <li>Løbende supervision og et stærkt netværk</li>
-                                    <li>Coachingsamtaler med flere undervisere</li>
-                                    <li>Forplejning alle dage</li>
+                                    <li class="pb-3">Løbende supervision og et stærkt netværk</li>
+                                    <li class="pb-3">Coachingsamtaler med flere undervisere</li>
+                                    <li class="pb-3">Forplejning alle dage</li>
                                 </ul>
                             </div>
-                            <div class="col-6 h-100">
-                                <img class="object-fit" src="/images/mbc/image--000.jpg" alt="">
+                            <div class="col-6" style="background-image: url('/images/mbc/image--000.jpg'); background-position: center; background-size: cover;">
+                                
                             </div>
                         </div>
                     </div>
@@ -428,7 +428,11 @@ layout: default
             </div>
         </div>
         <div class="container-fluid pt-5 pb-3">
-            {% include mbc/moduls.html %}
+            <div class="row">
+                <div class="col-12 offset-lg-2 col-lg-8">
+                    {% include mbc/moduls.html %}
+                </div>
+            </div>
         </div>
     </div>
 
@@ -617,12 +621,13 @@ layout: default
                                 <div class="d-flex align-items-center">
                                     <div class="flex-shrink-0">
                                         <img class="medium-image rounded-circle"
-                                            src="/images/about/employees/camilla-ingwersen-3.png" alt="Camilla Ingwersen">
+                                            src="/images/about/employees/camilla-ingwersen-3.png"
+                                            alt="Camilla Ingwersen">
                                     </div>
                                     <div class="flex-grow-1 ms-3">
                                         <h5 class="text-white">Camilla Ingwersen</h5>
                                         <p class="text-white">Seniorkonsulent</p>
-<!--                                         <p class="text-white">Ph.d., Cand. Mag i filosofi og psykologi fra Københavns
+                                        <!--                                         <p class="text-white">Ph.d., Cand. Mag i filosofi og psykologi fra Københavns
                                             Universitet<br>
                                             Master i Business Coaching</p> -->
 
