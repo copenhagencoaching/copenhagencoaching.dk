@@ -15,133 +15,222 @@ permalink: /mbc/
 location: Blegdamsvej 104C, 3. sal, baghuset th., 2100 København Ø
 special: false
 semesters:
-- title: MBC35 - Semester 1 - Forår 2022
+- title: Semester 1 - Forår 2022 - MBC35
   price: 45.900 (Ekskl. moms)
   dates: 9. februar 2022 - 16. juni 2022
   modules:
   - date: 9. februar
     day: 1
-    time: 10.00 - 17.00
-    name: Coaching og syntesemodellen
+    time: 09:30 - 16:00
+    name: Intro
     place: Blegdamsvej
+    modul: 1
   - date: 10. februar
     day: 2
-    time: 10.00 - 17.00
+    time: 09:30 - 16:00
     name: Kognitiv 1
     place: Blegdamsvej
+    modul: 1
   - date: 21. marts
     day: 3
-    time: 10.00 - 17.00
-    name: Psyko-dynamisk 1
+    time: 09:30 - 20:00
+    name: Psyko-dynamisk 1 + TA*
     place: Blegdamsvej
+    modul: 2
   - date: 22. marts
     day: 4
-    time: 10.00 - 17.00
+    time: 09:30 - 16:00
     name: Systemisk-narrativ 1
     place: Blegdamsvej
+    modul: 2
   - date: 6. april
     day: 5
-    time: 10.00 - 17.00
-    name: Kognitiv 2
-    place: Blegdamsvej
-  - date: 7. april
-    day: 6
-    time: 10.00 - 17.00
-    name: Psyko-dynamisk  2
-    place: Blegdamsvej
-  - date: 3. maj
-    day: 7
-    time: 10.00 - 17.00
+    time: 09:30 - 16:00
     name: Systemisk-narrativ 2
     place: Blegdamsvej
+    modul: 3
+  - date: 7. april
+    day: 6
+    time: 09:30 - 16:00
+    name: Psyko-dynamisk  2
+    place: Blegdamsvej
+    modul: 3
+  - date: 3. maj
+    day: 7
+    time: 09:30 - 20:00
+    name: Kognitiv 2 + TA*
+    place: Blegdamsvej
+    modul: 4
   - date: 4. maj
-    day: '-'
-    time: 10.00 - 17.00
-    name: Eksamen
+    day: 8
+    time: 09:30 - 16:00
+    name: Syntesedag
     place: Blegdamsvej
-  - date: 5. maj
-    day: '-'
-    time: 10.00 - 17.00
-    name: Eksamen
-    place: Blegdamsvej
+    modul: 4
   - date: 14. juni
-    day: '-'
-    time: 10.00 - 17.00
+    day: 9
+    time: 09:30 - 16:00
     name: Eksamen
     place: Blegdamsvej
   - date: 15. juni
-    day: '-'
-    time: 10.00 - 17.00
+    day: 10
+    time: 09:30 - 16:00
     name: Eksamen
     place: Blegdamsvej
   - date: 16. juni
-    day: '-'
-    time: 10.00 - 17.00
-    name: Eksamen
+    day: 11
+    time: 09:30 - 16:00
+    name: Ekstra eksamensdag
     place: Blegdamsvej
-- title: MBC35 - Semester 1 - Forår 2022
+- title: Semester 2 - Forår 2022 - MBC34
   price: 45.900 (Ekskl. moms)
-  dates: 9. februar 2022 - 16. juni 2022
+  dates: 10. januar 2022 - 16. juni 2022
   modules:
-  - date: 9. februar
+  - date: 10. januar
     day: 1
-    time: 10.00 - 17.00
-    name: Coaching og syntesemodellen
+    time: 09:30 - 16:00
+    name: Kognitiv 3
     place: Blegdamsvej
-  - date: 10. februar
+    modul: 1
+  - date: 11. januar
     day: 2
-    time: 10.00 - 17.00
-    name: Kognitiv 1
+    time: 09:30 - 16:00
+    name: Psykodynamisk 3
     place: Blegdamsvej
-  - date: 21. marts
+    modul: 1
+  - date: 23. februar
     day: 3
-    time: 10.00 - 17.00
-    name: Psyko-dynamisk 1
+    time: 09:30 - 08:00
+    name: Systemisk 3 + TA*
     place: Blegdamsvej
-  - date: 22. marts
+    modul: 2
+  - date: 24. februar
     day: 4
-    time: 10.00 - 17.00
-    name: Systemisk-narrativ 1
+    time: 09:30 - 16:00
+    name: Kognitiv 4 + Psykodynamisk 4
     place: Blegdamsvej
-  - date: 6. april
+    modul: 2
+  - date: 7. marts
     day: 5
-    time: 10.00 - 17.00
-    name: Kognitiv 2
+    time: 09:30 - 16:00
+    name: Systemisk + teamcoaching intro
     place: Blegdamsvej
-  - date: 7. april
+    modul: 3
+  - date: 8. marts
     day: 6
-    time: 10.00 - 17.00
-    name: Psyko-dynamisk  2
+    time: 09:30 - 16:00
+    name: Teamcoaching
     place: Blegdamsvej
-  - date: 3. maj
+    modul: 3
+  - date: 19. april
     day: 7
-    time: 10.00 - 17.00
-    name: Systemisk-narrativ 2
+    time: 09:30 - 08:00
+    name: 3. generations coaching + TA*
     place: Blegdamsvej
-  - date: 4. maj
-    day: '-'
-    time: 10.00 - 17.00
+    modul: 4
+  - date: 20. april
+    day: 8
+    time: 09:30 - 16:00
+    name: Syntesedag
+    place: Blegdamsvej
+    modul: 4
+  - date: 17. maj
+    day: 9
+    time: 09:30 - 16:00
     name: Eksamen
     place: Blegdamsvej
-  - date: 5. maj
-    day: '-'
-    time: 10.00 - 17.00
+  - date: 18. maj
+    day: 10
+    time: 09:30 - 16:00
     name: Eksamen
     place: Blegdamsvej
-  - date: 14. juni
-    day: '-'
-    time: 10.00 - 17.00
+- title: Semester 3 - Forår 2022 - MBC33
+  price: 45.900 (Ekskl. moms)
+  dates: 14. marts 2022 - 22. juni 2022
+  modules:
+  - date: 14. marts
+    day: 1
+    time: 09:30 - 16:00
+    name: Introduktion til protreptik
+    place: Blegdamsvej
+    modul: 1
+  - date: 5. april
+    day: 2
+    time: 09:30 - 16:00
+    name: P1 – det logiske spor
+    place: Blegdamsvej
+    modul: 1
+  - date: 27. maj - 3. juni
+    day: 3-8
+    time: "-"
+    name: Lesbos
+    place: Lesbos, Grækenland
+    modul: 2-4
+  - date: 20. juni
+    day: 9
+    time: 09:30 - 16:00
     name: Eksamen
     place: Blegdamsvej
-  - date: 15. juni
-    day: '-'
-    time: 10.00 - 17.00
+  - date: 21. juni
+    day: 10
+    time: 09:30 - 16:00
     name: Eksamen
     place: Blegdamsvej
-  - date: 16. juni
-    day: '-'
-    time: 10.00 - 17.00
-    name: Eksamen
+  - date: 22. juni
+    day: 11
+    time: 09:30 - 16:00
+    name: Ekstra eksamensdag
+    place: Blegdamsvej
+- title: Semester 4 - Forår 2022 - MBC32
+  price: 45.900 (Ekskl. moms)
+  dates: 7. februar 2022 - 11. maj 2022
+  modules:
+  - date: 7. februar
+    day: 1
+    time: 09:30 - 16:00
+    name: Introduktion til 4. semester og nye coachingformer
+    place: Blegdamsvej
+    modul: 1
+  - date: 2. marts
+    day: 2
+    time: 09:30 - 16:00
+    name: Kognitionsfilosofi
+    place: Blegdamsvej
+    modul: 2
+  - date: 3. marts
+    day: 3
+    time: 09:30 - 16:00
+    name: Kropsfilosofi
+    place: Blegdamsvej
+    modul: 2
+  - date: 28. marts
+    day: 4
+    time: 09:30 - 16:00
+    name: Eksistensfilosofi
+    place: Blegdamsvej
+    modul: 3
+  - date: 29. marts
+    day: 5
+    time: 09:30 - 16:00
+    name: Dialogfilosofi
+    place: Blegdamsvej
+    modul: 3
+  - date: 27. april
+    day: 6
+    time: 09:30 - 16:00
+    name: Differensfilosofi
+    place: Blegdamsvej
+    modul: 4
+  - date: 28. april
+    day: 7
+    time: 09:30 - 16:00
+    name: Eksperimentel pragmatik
+    place: Blegdamsvej
+    modul: 4
+  - date: 11. maj
+    day: 8
+    time: 09:30 - 16:00
+    name: Synopsis
     place: Blegdamsvej
 hold:
 - MBC35 - 1. semester - Forår 2022 - start 9. februar

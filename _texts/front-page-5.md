@@ -18,7 +18,7 @@ Kom med på vores talentudviklingsforløb til foråret 2022.
 
 
 
-<div class="text-end w-100">
+<div class="text-end w-100 d-none d-lg-block d-xl-block">
 
 <p class="bg-black-coral text-white p-2 d-inline speech"><b>Kbh - Barcelona Forår 2022</b></p>
 

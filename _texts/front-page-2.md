@@ -12,7 +12,7 @@ Bliv klædt på til at bruge markedets bedst underbyggede personlighedstest i re
 
 
 
-<div class="text-end w-100">
+<div class="text-end w-100 d-none d-lg-block d-xl-block">
 
 <p class="bg-black-coral text-white p-2 d-inline speech"><b>Start den 25. februar 2022</b></p>
 

@@ -5,3 +5,8 @@
 .cal {
     background-color: #ffffffc5;
 }
+
+
+.striped-platinum:nth-child(odd) {
+    background-color: $platinum;
+}

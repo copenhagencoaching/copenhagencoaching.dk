@@ -73,6 +73,7 @@ layout: default
                             <p>Med en Master of Business Coaching får du en af landets bedste coachinguddannelser, hvor
                                 du både
                                 kan foretage traditionelle coachingsamtaler og den filosofiske samtale.</p>
+                                <p><b>Næste holdopstart 9.-10. februar.</b></p>
                         </div>
                     </div>
                 </div>
@@ -82,26 +83,26 @@ layout: default
         <div class="container-fluid pt-4">
             <div class="row">
                 <div class="offset-xl-2 col-12 col-xl-8">
-                    <div class="bg-deep-taupe px-5 py-4">
+                    <div class="bg-black-coral px-5 py-4">
                         <div class="row">
                             <div class="col-6 d-flex align-items-center">
                                 <h2 class="text-white mb-0">
-                                    Kursus oversigt
+                                    Semester oversigt
                                 </h2>
                             </div>
                             <div class="col-2 d-flex align-items-center">
-                                <p class="text-white mb-0"><b>Pris ekskl. moms</b><br>45.900,-</p>
+                                <p class="text-white mb-0"><b>4 semestre</b></p>
                             </div>
                             <div class="col-2 d-flex align-items-center">
-                                <p class="text-white mb-0"><b>Varighed</b><br>7-8 dage</p>
+                                <p class="text-white mb-0"><b>4 moduler</b></p>
                             </div>
                             <div class="col-2 d-flex align-items-center">
-                                <p class="text-white mb-0"><b>Moduler</b><br>8 moduler</p>
+                                <p class="text-white mb-0"><b>8-11 dage</b></p>
                             </div>
                         </div>
                     </div>
-                    <div class="bg-dark-lava px-5 py-3">
-                        <div class="row gx-0">
+                    <div class="bg-beaver px-5 py-3">
+                        <div class="row gx-0 w-100">
                             <div class="col-4">
                                 <p class="text-white mb-0 text-uppercase"><b>Hold</b></p>
                             </div>
@@ -117,21 +118,21 @@ layout: default
 
                     <div class="accordion" id="accordionPanelsStayOpenExample">
                         {% for semester in page.semesters %}
-                        <div class="accordion-item">
+                        <div class="accordion-item border-3 border-white border-top">
                             <div class="accordion-header" id="heading{{ forloop.index }}">
-                                <button class="accordion-button collapsed px-5 py-3 bg-platinum" type="button"
+                                <button class="accordion-button collapsed px-5 py-3 bg-quick-silver white" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#collapse{{ forloop.index }}"
                                     aria-expanded="true" aria-controls="collapse{{ forloop.index }}">
 
                                     <div class="row gx-0 w-100">
                                         <div class="col-4">
-                                            <p class="mb-0 text-uppercase">{{ semester.title }}</p>
+                                            <p class="mb-0 text-uppercase text-white"><b>{{ semester.title }}</b></p>
                                         </div>
                                         <div class="col-4">
-                                            <p class="mb-0 text-uppercase">{{ semester.dates }}</p>
+                                            <p class="mb-0 text-uppercase text-white"><b>{{ semester.dates }}</b></p>
                                         </div>
                                         <div class="col-4">
-                                            <p class="mb-0 text-uppercase">{{ semester.price }}</p>
+                                            <p class="mb-0 text-uppercase text-white"><b>{{ semester.price }}</b></p>
                                         </div>
                                     </div>
                                 </button>
@@ -139,43 +140,53 @@ layout: default
                             <div id="collapse{{ forloop.index }}" class="accordion-collapse collapse"
                                 aria-labelledby="heading{{ forloop.index }}">
                                 <div class="accordion-body p-0">
-                                    <div class="bg-deep-taupe pt-3 ps-3 pe-3">
+                                    <div class="pt-3 px-5 bg-platinum">
                                         <div class="row">
                                             <div class="col-2">
-                                                <p class="text-white">
-                                                    Dato
+                                                <p class="">
+                                                    <b>Dato</b>
                                                 </p>
                                             </div>
                                             <div class="col-1">
-                                                <p class="text-white">
-                                                    Dag
+                                                <p>
+                                                    <b>Modul</b>
+                                                </p>
+                                            </div>
+                                            <div class="col-1">
+                                                <p class="">
+                                                    <b>Dag</b>
                                                 </p>
                                             </div>
                                             <div class="col-2">
-                                                <p class="text-white">
-                                                    Tid
+                                                <p>
+                                                    <b>Tid</b>
                                                 </p>
                                             </div>
                                             <div class="col-4">
-                                                <p class="text-white">
-                                                    Modul
+                                                <p>
+                                                    <b>Indhold</b>
                                                 </p>
                                             </div>
-                                            <div class="col-3">
-                                                <p class="text-white">
-                                                    Sted
+                                            <div class="col-2">
+                                                <p>
+                                                    <b>Sted</b>
                                                 </p>
                                             </div>
                                         </div>
                                     </div>
 
                                     {% for module in semester.modules %}
-                                    {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-                                    <div class="pt-3 ps-3 pe-3{% if thecycle == 'odd' %} bg-platinum{% endif %}">
+                                    
+                                    <div class="pt-3 px-5 striped-platinum">
                                         <div class="row">
                                             <div class="col-2">
                                                 <p>
                                                     {{ module.date }}
+                                                </p>
+                                            </div>
+                                            <div class="col-1">
+                                                <p>
+                                                    {{ module.modul }}
                                                 </p>
                                             </div>
                                             <div class="col-1">
@@ -193,7 +204,7 @@ layout: default
                                                     {{ module.name }}
                                                 </p>
                                             </div>
-                                            <div class="col-3">
+                                            <div class="col-2">
                                                 <p>
                                                     {{ module.place }}
                                                 </p>
@@ -606,14 +617,14 @@ layout: default
                                 <div class="d-flex align-items-center">
                                     <div class="flex-shrink-0">
                                         <img class="medium-image rounded-circle"
-                                            src="/images/about/employees/kim-gørtz.jpg" alt="Frederikke Winther">
+                                            src="/images/about/employees/camilla-ingwersen-3.png" alt="Camilla Ingwersen">
                                     </div>
                                     <div class="flex-grow-1 ms-3">
-                                        <h5 class="text-white">Kim Gørtz</h5>
+                                        <h5 class="text-white">Camilla Ingwersen</h5>
                                         <p class="text-white">Seniorkonsulent</p>
-                                        <p class="text-white">Ph.d., Cand. Mag i filosofi og psykologi fra Københavns
+<!--                                         <p class="text-white">Ph.d., Cand. Mag i filosofi og psykologi fra Københavns
                                             Universitet<br>
-                                            Master i Business Coaching</p>
+                                            Master i Business Coaching</p> -->
 
                                     </div>
 
