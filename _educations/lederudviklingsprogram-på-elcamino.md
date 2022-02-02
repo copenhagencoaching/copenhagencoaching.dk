@@ -14,6 +14,7 @@ event-title: Kommende rejser
 events:
 - overskrift: Vi har desværre ingen aktuelle datoer at tilbyde dig lige nu. Kontakt os meget gerne for mere information på info@copenhagencoaching.dk
 special: true
+order: 1
 ---
 
 ### Hvorfor skal du vælge Lederudviklingsprogrammet på El Camino?
