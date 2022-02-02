@@ -3,7 +3,7 @@ title: Executive Transition
 image: "/images/academy/executive-transition.jpg"
 header: Executive Transition
 price: '24.900,- EKSKL. MOMS (heri er inkluderet fuld forplejning, materialer) '
-pdf: 'false'
+pdf: false
 contact-person: Andreas Bering
 event-title: Kommende hold
 description: Executive Transition handler om at kunne omsætte egne værdier og kompetencer fra kontekst X til kontekst Y. At kunne stille skarpt på, hvilke processuelle kompetencer og narrativer, der skal til for at lykkes i skiftet fra X til Y.
