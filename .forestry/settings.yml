@@ -4,16 +4,21 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: jekyll-posts
+  label: Posts
+  create: all
+  match: "**/*"
+- type: directory
+  path: _educations
+  label: Uddannelser
+  create: all
+  match: "**/*"
 - type: directory
   path: _posts
   label: Posts
   create: all
   match: "**/*"
-- type: jekyll-posts
-  label: Posts
-  create: all
-  match: "**/*"
-upload_dir: uploads
+upload_dir: images
 public_path: "/images"
 front_matter_path: ''
 use_front_matter_path: false
