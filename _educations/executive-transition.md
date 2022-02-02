@@ -2,7 +2,7 @@
 title: Executive Transition
 image: "/images/academy/executive-transition.jpg"
 header: Executive Transition
-price: '24.900,- EKSKL. MOMS  (heri er inkluderet fuld forplejning, materialer)  '
+price: '24.900,- EKSKL. MOMS (heri er inkluderet fuld forplejning, materialer) '
 pdf: 'false'
 contact-person: Andreas Bering
 event-title: Kommende hold
