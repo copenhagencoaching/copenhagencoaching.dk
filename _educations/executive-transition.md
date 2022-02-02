@@ -10,7 +10,7 @@ description: "Executive Transition handler om at kunne omsætte egne værdier og
 special: true
 hold_eller_begivenheder: true
 events:
-- overskrift: Vi har desværre ingen aktuelle datoer at tilbyde dig lige nu. Kontakt os meget gerne for mere information på info@copenhagencoaching.dk
+- overskrift: "Vi har desværre ingen aktuelle datoer at tilbyde dig lige nu. Kontakt os meget gerne for mere information på info@copenhagencoaching.dk"
 order: 33
 cat:
 - put
