@@ -6,7 +6,7 @@ layout: page
 <div class="container-fluid py-5">
   <div class="row gy-5 gx-5">
     {% assign sorted_edu = site.educations | sort: "order" %}
-    {% for edu in sorted_edu %}
+    {% for edu in site.educations %}
     
     {% if edu.special == false %}
 
