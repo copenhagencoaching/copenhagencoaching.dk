@@ -71,12 +71,23 @@ layout: default
             style="background-image: linear-gradient(rgba(19, 19, 19, 0.6), rgba(19, 19, 19, 0.6)), url('/images/graphic/foot-prints.jpg'); background-size: cover; background-position: top;">
             <div class="py-5">
                 <div class="container-fluid text-center py-5">
-                    <h1 class="text-white text-center">Ide, Formål og Vision</h1>
+                    <h1 class="text-white text-center"> {% for text in site.texts %}
+                        {% if text.cat == "pfp" %}
+                        {% if text.number == 1 %}
+                        {{ text.heading }}
+                        {% endif %}
+                        {% endif %}
+                        {% endfor %}</h1>
                     <hr class="white w-50 responsive mx-auto">
 
 
-                    <p class="text-white text-center fs-5">'at kunne møde et andet menneske som menneske og
-                        med-menneske'</p>
+                    <p class="text-white text-center fs-5"> {% for text in site.texts %}
+                        {% if text.cat == "pfp" %}
+                        {% if text.number == 1 %}
+                        {{ text.sub-heading }}
+                        {% endif %}
+                        {% endif %}
+                        {% endfor %}</p>
                 </div>
             </div>
 
@@ -89,18 +100,13 @@ layout: default
 
                 <div class="row">
                     <div class="offset-xl-3 col-12 col-xl-6 offset-md-2 col-md-8">
-                        <p>Grundlæggende set er ideen, formålet og visionen med denne 4-årige terapi-uddannelse at
-                            kombinere,
-                            nuancere og kvalificere samarbejdet mellem den filosofiske tradition og dannelse og den
-                            psykologiske og
-                            psykoterapeutiske tradition og dannelse. I dette spektrum tilbyder og muliggør uddannelsen
-                            et dybere,
-                            højere og langt bredere beredskab at møde sin klient/borger og sig selv med. Gennem en lang
-                            række
-                            metoder, øvelser, prøver og udfordringer, teoretisk såvel som praktisk, dannes den kommende
-                            terapeut på
-                            denne uddannelse i at kunne møde det andet menneske som menneske og med-menneske.
-                        </p>
+                        {% for text in site.texts %}
+                        {% if text.cat == "pfp" %}
+                        {% if text.number == 1 %}
+                        {{ text.content }}
+                        {% endif %}
+                        {% endif %}
+                        {% endfor %}
                     </div>
                 </div>
             </div>
