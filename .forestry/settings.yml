@@ -4,9 +4,6 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: document
-  path: _texts/pfp-1.md
-  label: Text 1
 - type: jekyll-posts
   label: Posts
   create: all
@@ -22,6 +19,9 @@ sections:
   match: "**/*"
 - type: heading
   label: PFP
+- type: document
+  path: _texts/pfp-1.md
+  label: Text 1
 upload_dir: images
 public_path: "/images"
 front_matter_path: ''
