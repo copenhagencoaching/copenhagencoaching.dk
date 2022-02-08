@@ -17,6 +17,11 @@ sections:
   label: Posts
   create: all
   match: "**/*"
+- type: heading
+  label: PFP
+- type: document
+  path: _texts/pfp-1.md
+  label: Text 1
 upload_dir: images
 public_path: "/images"
 front_matter_path: ''
@@ -26,6 +31,7 @@ build:
   preview_env:
   - JEKYLL_ENV=staging
   preview_output_directory: _site
+  install_dependencies_command: bundle install --path vendor/bundle
   preview_docker_image: carolineolivia94/jekyll-plus-plus
   mount_path: "//app"
   working_dir: "/srv"
