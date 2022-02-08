@@ -123,6 +123,8 @@ collections:
   publications:
     output: true
     permalink: /ousia/:title/
+  pfp:
+    output: false
 
 defaults:
   -
@@ -190,6 +192,13 @@ defaults:
       type: publications
     values:
       layout: page
+  -
+    scope:
+      type: pfp
+    values:
+      layout: page
+
+
 
 
 
