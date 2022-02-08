@@ -12,6 +12,6 @@ image: /images/frontpage/fp-3.png
 
 <div class="text-end w-100 d-none d-lg-block d-xl-block">
 
-<h6 class="bg-black-coral text-white p-2 d-inline speech"><b>Start den 9. februar 2022</b></h6>
+<h6 class="bg-black-coral text-white p-2 d-inline speech"><b>Start den 21. marts 2022</b></h6>
 
 </div>
