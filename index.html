@@ -17,7 +17,13 @@ layout: default
             <div class="container-fluid py-5">
                 <div class="front-box">
                     <h1>{{ text.title }}</h1>
-                    <p>{{ text.content }}</p>
+                    <div class="d-md-none pt-4">
+                        
+                    </div>
+                    <div class="d-none d-md-block">
+                        <p>{{ text.content }}</p>
+                    </div>
+                    
 
                     {% if text.link %}
                     <button onclick="location.href='{{ text.link }}';" class="learn-more">
