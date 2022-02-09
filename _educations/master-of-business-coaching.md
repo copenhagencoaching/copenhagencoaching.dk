@@ -157,7 +157,7 @@ events:
     datoer:
     - 21-22 marts
     - 6-7 april
-    - 3-5 maj
+    - 3-4 maj
     - 23-24 maj
     - 14-15 juni
   - sub-cat-title: 2. semester - Forår 2022
