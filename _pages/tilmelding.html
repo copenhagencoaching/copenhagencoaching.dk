@@ -74,8 +74,8 @@ permalink: /tilmelding/
                 {% for edu in site.educations %}
 
                 {% if edu.title == "Certificering i Big Five Online" %}
-                {% for h in edu.hold %}
-                <option value="{{ h }}">{{ h }}</option>
+                {% for h in edu.events %}
+                <option value="{{ h.overskrift }}">{{ h.overskrift }}</option>
                 {% endfor %}
                 {% endif %}
                 {% endfor %}

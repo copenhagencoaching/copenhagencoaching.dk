@@ -8,8 +8,6 @@ description: Bliv certificeret til at bruge markedets bedst underbyggede personl
   og lær at anvende den ved gruppesammensætning, rekruttering og processer.
 price: 19.500,- EKSKL. MOMS
 event-title: Kommende hold
-hold:
-- BFC-21-2 Efterår - start 25. oktober
 location: Al undervisning foregår online på Zoom. 5 online sessioner á 2-5 timers varighed.
 special: false
 hold_eller_begivenheder: true
@@ -21,7 +19,7 @@ cat:
 emails:
 - fw@copenhagencoaching.dk
 events:
-- overskrift: BFC22-1
+- overskrift: BFC22-1 - start 25. februar 2022
   dato:
   - 25. februar 2022 kl. 12.00 - 14.00
   - 4. marts 2022 kl. 10.00 - 12.00
@@ -29,7 +27,7 @@ events:
   - 18. marts 2022 kl. 10.00 - 15.00
   - 25. marts 2022 kl. 10.00 – 12.00
   - 1. april 2022 kl. 10.00 - 13.30
-- overskrift: BFC22-2
+- overskrift: BFC22-2 - start 4. april 2022
   dato:
   - 4. april 2022 kl. 10.00 - 12.00
   - 11. april 2022 kl. 10.00 - 12.00
