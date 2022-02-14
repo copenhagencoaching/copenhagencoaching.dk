@@ -17,14 +17,21 @@ layout: default
             <div class="container-fluid py-5">
                 <div class="front-box">
                     <h1>{{ text.title }}</h1>
-                    <div class="d-md-none pt-4">
-                        
+                    <div class="d-md-none">
+                        <p>{{ text.excerpt }}</p>
                     </div>
                     <div class="d-none d-md-block">
                         <p>{{ text.content }}</p>
                     </div>
-                    
+                    {% if text.text-message %}
+                    <div class="d-md-none py-5">
+                    <div class="text-end w-100">
 
+                        <h6 class="bg-black-coral text-white p-2 d-inline speech"><b>{{ text.text-message }}</b></h6>
+
+                    </div>
+                    </div>
+                    {% endif %}
                     {% if text.link %}
                     <button onclick="location.href='{{ text.link }}';" class="learn-more">
                         <span class="circle" aria-hidden="true">
@@ -121,6 +128,3 @@ layout: default
 <div class="bg-platinum pt-5">
     {% include sections/events.html %}
 </div>
-
-
-
