@@ -3,7 +3,7 @@ layout: default
 title: Tag en Master of business coaching
 page: frontpage
 link: /academy/master-of-business-coaching/
-order: 2
+order: 3
 image: /images/frontpage/fp-3.png
 text-message: Start den 21. marts 2022
 ---

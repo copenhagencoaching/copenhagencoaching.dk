@@ -9,7 +9,7 @@ layout: default
 </script>
 
 <div class="front-slider slick-slider">
-    {% assign ordered_slides = site.texts | sort: "order" %}
+    {% assign ordered_slides = site.texts | sort: 'order' %}
     {% for text in ordered_slides %}
     {% if text.page == "frontpage" %}
     <div class="big-header slick-slide">

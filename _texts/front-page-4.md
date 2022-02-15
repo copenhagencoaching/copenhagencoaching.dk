@@ -2,8 +2,8 @@
 title: Foredrag med Rasmus Kragh
 layout: default
 page: frontpage
-order: 5
-published: false
+order: 2
+published: true
 image: /images/graphic/mountain.png
 link: /inspiration/foredrag-2/
 text-message: 1. marts 17:00 - 19:00

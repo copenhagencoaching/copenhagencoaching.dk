@@ -2,7 +2,7 @@
 layout: default
 title: Bliv en del af fællesskabet
 page: frontpage
-order: 4
+order: 5
 image: /images/frontpage/fp-5.png
 link: /community/
 ---
