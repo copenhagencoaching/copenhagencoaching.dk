@@ -1,5 +1,5 @@
 ---
-title: Eksklusive foredragsaftener
+title: Foredrag med Rasmus Kragh
 under-title: Foredrag
 layout: sub-event
 description: Om at nå til tops skridt for skrift & at finde sig selv på vejen ned.
@@ -16,5 +16,5 @@ community: Gratis for CCC Community medlemmer
 ex-moms: true
 time: 17.00-20.00
 community-free: true
-past: true
+past: false
 ---
