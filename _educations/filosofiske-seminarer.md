@@ -8,6 +8,7 @@ price: 6.000,- EKSKL. MOMS
 special: false
 redirect_from:
   - /academy/filosofiskeSeminarer/
+order: 12
 ---
 
 ### Hvorfor skal du vælge Filosofiske seminarer?

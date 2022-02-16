@@ -8,6 +8,7 @@ dates: [xxxx, xxyy]
 category: certificeringer
 cat:
 - diplom
+order: 44
 ---
 
 ### Hvorfor skal du vælge Coach-certificering (EMCC)?
