@@ -2,9 +2,9 @@
 title: Foredrag med Rasmus Kragh
 under-title: Foredrag
 layout: sub-event
-description: Om at nå til tops skridt for skrift & at finde sig selv på vejen ned.
+description: Arrangementet er pt udskudt. Vi vender tilbage….
 sub-pages: foredrag
-manchet: Om at nå til tops skridt for skrift & at finde sig selv på vejen ned.
+manchet: Arrangementet er pt udskudt. Vi vender tilbage….
 image: /images/events/rasmus-kragh.jpeg
 tags:
 - community
