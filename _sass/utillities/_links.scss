@@ -91,4 +91,8 @@ a.bg-hover:before {
 a.underlined {
     border-bottom: 4px solid #707070;
     color: #707070 !important;
+    &.yellow {
+        border-bottom: 4px solid #cbcc8c;
+        color: #cbcc8c !important;
+    }
   }

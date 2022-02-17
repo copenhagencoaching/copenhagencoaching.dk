@@ -3,10 +3,9 @@ title: Foredrag med Rasmus Kragh
 layout: default
 page: frontpage
 order: 2
-published: false
+published: true
 image: /images/graphic/mountain.png
 link: /inspiration/foredrag-2/
 text-message: 1. marts 17:00 - 19:00
 ---
-Om at nå til tops skridt for skridt & finde sig selv på tilbagevejen (El. på vejen ned?)
-Vi har været så utroligt heldige, at Rasmus Kragh, den første og eneste dansker, der har besteget verdens højeste bjerg ’Mount Everest’ uden brug af kunstig ilt, har sagt ja til at komme og holde et helt eksklusivt foredrag hos os sideløbende med sin egen Danmarks turne i efteråret.
+CCC inviterer til en aften om at turde mærke efter, om at vende sårbarhed til styrke, nederlag til indsigt, motivation til meningsfuldhed, og om til hver en tid at være ærlig overfor sig selv, at insistere på at retning i livet er vigtigere end hastighed, og om troen på, at vi præsterer bedst når vi er hele mennesker, som er i kontakt med vores følelser og handler i overensstemmelse med vores værdier.
