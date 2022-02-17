@@ -13,8 +13,8 @@ layout: default
         <div class="col-12 offset-lg-3 col-lg-6">
           <hr class="white">
           <p class="text-white lead mb-4">{{ page.description }}</p>
-          <a class="white-border-button btn-outline-light btn" data-proofer-ignore href="#community" data-toggle="modal"
-            data-target="#community-modal">Tilmeld</a>
+          <a class="btn-navy-blue fs-5 text-white btn text-uppercase" data-proofer-ignore href="#community" data-toggle="modal"
+            data-target="#community-modal"><b>Tilmeld</b></a>
         </div>
       </div>
 
@@ -40,6 +40,12 @@ layout: default
 
 </div>
 
+<div class="container-fluid">
+  <h2>Kommende arrangementer</h2>
+  
+</div>
+{% include sections/events.html %}
+
 <div class="bg-platinum">
   <div class="container-fluid py-5">
 
@@ -57,7 +63,4 @@ layout: default
     <p class="large"><b>Årligt kontingent: Kr. 2500,- ekskl. moms</b></p>
   </div>
 
-</div>
-<div class="pt-5">
-  {% include sections/events.html %}
 </div>
