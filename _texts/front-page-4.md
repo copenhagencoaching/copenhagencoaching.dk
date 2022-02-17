@@ -4,7 +4,7 @@ layout: default
 page: frontpage
 order: 2
 published: true
-image: /images/graphic/mountain.png
+image: /images/events/rasmus-kragh-1.png
 link: /inspiration/foredrag-2/
 text-message: 1. marts 17:00 - 19:00
 ---

@@ -4,203 +4,162 @@ layout: default
 
 <div class="bg-black-coral pt-5">
 
-  <div class="container-fluid py-5 mt-5 position-relative">
+  <div class="container-fluid mt-5">
 
 
-    <div class="responsive-lg-img w-50"
-      style="background: linear-gradient(rgba(19, 19, 19, 0.5), rgba(19, 19, 19, 0.5)), url('{{ page.image }}'); background-size: cover; background-position: center;">
+
+    <div class="responsive-lg-img"
+      style="background: url('{{ page.image }}'); background-size: cover; background-position: center;">
     </div>
-    <div class="w-50 ps- position-absolute top-50 start-50 translate-middle">
-      {% assign postmonth = page.date | date: "%m" %}
+    <div class="">
 
-      {% if postmonth == "01" %}
-      {% assign monthName = "Januar" %}
-      {% elsif postmonth == "02" %}
-      {% assign monthName = "Februar" %}
-      {% elsif postmonth == "03" %}
-      {% assign monthName = "Marts" %}
-      {% elsif postmonth == "04" %}
-      {% assign monthName = "April" %}
-      {% elsif postmonth == "05" %}
-      {% assign monthName = "Maj" %}
-      {% elsif postmonth == "06" %}
-      {% assign monthName = "Juni" %}
-      {% elsif postmonth == "07" %}
-      {% assign monthName = "Juli" %}
-      {% elsif postmonth == "08" %}
-      {% assign monthName = "August" %}
-      {% elsif postmonth == "09" %}
-      {% assign monthName = "September" %}
-      {% elsif postmonth == "10" %}
-      {% assign monthName = "Oktober" %}
-      {% elsif postmonth == "11" %}
-      {% assign monthName = "November" %}
-      {% elsif postmonth == "12" %}
-      {% assign monthName = "December" %}
-      {% endif %}
-
-      {% if page.late or page.late == true %}
-      <p class="text-uppercase text-white"><b>Dato udskudt</b></p>
-      {% else %}
-      {% if page.only-month == true %}
-      <h3 class="text-uppercase text-white">{{ monthName }}</h3>
-
-      {% else %}
-      <h3 class="text-white">{{ page.date | date: "%d. "}} {{ monthName }}{{ page.date | date: " %Y"}}</h3>
-      {% endif %}
-      {% endif %}
-      <h1 class="text-white">{{ page.title }}</h1>
+      <h1 class="text-white mt-3">{{ page.title }}</h1>
 
     </div>
-
-
   </div>
+
+
+
+
+
+
 
 
   <div class="container-fluid my-3">
 
-    <div class="row">
-      <div class="offset-md-2 col-md-8 col-12">
-        <div class="bg-platinum w-100 p-5 mb-5">
-          {% if page.past %}
-          <h4><b class="text-uppercase">Arrangementet er afholdt</b></h4>
-          {% else %}
-
-          <div class="row gx-5">
-            
-            <div class="col-4">
-              <div>
-                {% if page.past %}
-                <p>Arrangementet er afholdt</p>
-                {% else %}
-                <p class="fs-6 mb-2"><b class="text-uppercase">Pris:</b><br>{{ page.price }}{% if page.ex-moms == true
-                  %} (ekskl. moms){%
-                  endif %}
-                </p>
-                {% if page.community-free == true %}
-                <p class="text-uppercase mb-0"><b>GRATIS</b> for medlemmer af CCC Community</p>
-                {% endif %}
-                {% if page.community-price %}
-                <p class="text-uppercase mb-0"><b>{{ page.community-price }}</b>{% if page.ex-moms == true %} (ekskl.
-                  moms){%
-                  endif %} for medlemmer af CCC Community</p>
-                {% endif %}
-              </div>
-            </div>
-            <div class="col-4">
-              <div>
-                {% assign postmonth = page.date | date: "%m" %}
-
-
-                {% if postmonth == "01" %}
-                {% assign monthName = "Januar" %}
-                {% elsif postmonth == "02" %}
-                {% assign monthName = "Februar" %}
-                {% elsif postmonth == "03" %}
-                {% assign monthName = "Marts" %}
-                {% elsif postmonth == "04" %}
-                {% assign monthName = "April" %}
-                {% elsif postmonth == "05" %}
-                {% assign monthName = "Maj" %}
-                {% elsif postmonth == "06" %}
-                {% assign monthName = "Juni" %}
-                {% elsif postmonth == "07" %}
-                {% assign monthName = "Juli" %}
-                {% elsif postmonth == "08" %}
-                {% assign monthName = "August" %}
-                {% elsif postmonth == "09" %}
-                {% assign monthName = "September" %}
-                {% elsif postmonth == "10" %}
-                {% assign monthName = "Oktober" %}
-                {% elsif postmonth == "11" %}
-                {% assign monthName = "November" %}
-                {% elsif postmonth == "12" %}
-                {% assign monthName = "December" %}
-                {% endif %}
-                
-                {% if page.late or page.late == true %}
-                <p class="text-uppercase"><b>Dato udskudt</b></p>
-                {% else %}
-                {% if page.only-month == true %}
-                <p class="fs-6 mb-2"><b class="text-uppercase">Dato:</b><br>{{ monthName }}</p>
-                {% else %}
-                <p class="fs-6 mb-2"><b class="text-uppercase">Tid:</b><br>{{ page.date | date: "%d. "}} {{ monthName
-                  }}{{ page.date | date:
-                  "
-                  %Y"}} - {{ page.time }}</p>
-
-               
-
-                
-                {% endif %}
-                {% endif %}
-              </div>
-            </div>
-            <div class="col-4">
-              <div>
-                <p class="fs-6 mb-2"><b class="text-uppercase">Sted:</b><br> {{ page.place }}</h4>
-                  {% if page.google-maps %}
-                <p class="mb-0">
-                  <a href="{{ page.google-maps }}" target="_blank" class="text-uppercase mb-0">Vis lokation på
-                    kort</a>
-                </p>
-                {% endif %}
-              </div>
-
-            </div>
-           
-          </div>
-
-          {% endif %}
-          {% endif %}
-        </div>
-      </div>
-    </div>
+ 
 
     <div class="row pb-5">
-      <div class="offset-md-3 col-md-6 col-12">
+      <div class="col-md-3 col-12">
+        <div class="row">
+          <div class="col-12">
+
+          
+              {% if page.billetto %}
+              {% if page.billetto-nr %}
+   
+              <script src="https://billetto.dk/embed.js"></script>
+    
+    
+              <a class="btn btn-army-green mt-0 text-uppercase text-white fs-5 w-100 mb-3"
+                href="https://billetto.dk/e/nar-ledelse-finder-sjaelen-billetter-{{ page.billetto-nr }}/select?color=%23414344&whitelabel=true"><b>TILMELD</b></a>
+    
+    
+    
+              {% endif %}
+              {% else %}
+              <h4 class="text-white">Tilmelding kommer snart...</h4>
+              {% endif %}
+
+
+            <div class="bg-platinum w-100 p-4 mb-3">
+              {% if page.past %}
+              <h4><b class="text-uppercase">Arrangementet er afholdt</b></h4>
+              {% else %}
+
+              <div class="row gx-5 gy-4">
+
+                <div class="col-12">
+                  <div>
+                    {% if page.past %}
+                    <p>Arrangementet er afholdt</p>
+                    {% else %}
+                    <p class="fs-6 mb-2"><b class="text-uppercase">Pris:</b><br>{{ page.price }}{% if page.ex-moms ==
+                      true
+                      %} (ekskl. moms){%
+                      endif %}
+                    </p>
+                    {% if page.community-free == true %}
+                    <p class="text-uppercase mb-0"><b>GRATIS</b> for medlemmer af CCC Community</p>
+                    {% endif %}
+                    {% if page.community-price %}
+                    <p class="text-uppercase mb-0"><b>{{ page.community-price }}</b>{% if page.ex-moms == true %}
+                      (ekskl.
+                      moms){%
+                      endif %} for medlemmer af CCC Community</p>
+                    {% endif %}
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div>
+                    {% assign postmonth = page.date | date: "%m" %}
+
+
+                    {% if postmonth == "01" %}
+                    {% assign monthName = "Januar" %}
+                    {% elsif postmonth == "02" %}
+                    {% assign monthName = "Februar" %}
+                    {% elsif postmonth == "03" %}
+                    {% assign monthName = "Marts" %}
+                    {% elsif postmonth == "04" %}
+                    {% assign monthName = "April" %}
+                    {% elsif postmonth == "05" %}
+                    {% assign monthName = "Maj" %}
+                    {% elsif postmonth == "06" %}
+                    {% assign monthName = "Juni" %}
+                    {% elsif postmonth == "07" %}
+                    {% assign monthName = "Juli" %}
+                    {% elsif postmonth == "08" %}
+                    {% assign monthName = "August" %}
+                    {% elsif postmonth == "09" %}
+                    {% assign monthName = "September" %}
+                    {% elsif postmonth == "10" %}
+                    {% assign monthName = "Oktober" %}
+                    {% elsif postmonth == "11" %}
+                    {% assign monthName = "November" %}
+                    {% elsif postmonth == "12" %}
+                    {% assign monthName = "December" %}
+                    {% endif %}
+
+                    {% if page.late or page.late == true %}
+                    <p class="text-uppercase"><b>Dato udskudt</b></p>
+                    {% else %}
+                    {% if page.only-month == true %}
+                    <p class="fs-6 mb-2"><b class="text-uppercase">Dato:</b><br>{{ monthName }}</p>
+                    {% else %}
+                    <p class="fs-6 mb-2"><b class="text-uppercase">Tid:</b><br>{{ page.date | date: "%d. "}} {{
+                      monthName
+                      }}{{ page.date | date:
+                      "
+                      %Y"}} - {{ page.time }}</p>
+
+
+
+
+                    {% endif %}
+                    {% endif %}
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div>
+                    <p class="fs-6 mb-2"><b class="text-uppercase">Sted:</b><br> {{ page.place }}</h4>
+                      {% if page.google-maps %}
+                    <p class="mb-0">
+                      <a href="{{ page.google-maps }}" target="_blank" class="text-uppercase mb-0">Vis lokation på
+                        kort</a>
+                    </p>
+                    {% endif %}
+                  </div>
+
+                </div>
+
+              </div>
+
+              {% endif %}
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-12">
+        
         <span class="text-white">{{ page.content }}</span>
 
-        {% if page.cancelled == true %}
-        {% else %}
-        {% if page.late or page.late == true %}
-        {% else %}
-        {% if page.past %}
-
-        {% else %}
-        <div class="align-center">
-          {% if page.billetto %}
-          {% if page.billetto-nr %}
-          <br>
-          <script src="https://billetto.dk/embed.js"></script>
 
 
-          <a class="btn btn-beaver mt-0 text-uppercase text-white fs-5 w-100"
-            href="https://billetto.dk/e/nar-ledelse-finder-sjaelen-billetter-{{ page.billetto-nr }}/select?color=%23414344&whitelabel=true"><b>TILMELD</b></a>
-
-
-
-          {% endif %}
-          {% else %}
-          <h4 class="text-white">Tilmelding kommer snart...</h4>
-          {% endif %}
-          {% endif %}
-          {% endif %}
-          {% for post in site.posts %}
-          {% for tag in page.tags %}
-          {% if tag == post.sub-pages %}
-          {% if post.billetto-group-discount == true %}
-          <br><br>
-          <a class="billetto-btn group-ticket"
-            href="https://billetto.dk/e/eksklusiv-seminarraekke-med-kim-gortz-billetter-{{ post.billetto-nr }}/select?color=%23414344">Særtilbud:
-            Køb alle fire seminarer for 1500,- ekskl. moms</a>
-          {% endif %}
-          {% endif %}
-          {% endfor %}
-          {% endfor %}
-        </div>
-        {% endif %}
-       
+      </div>
+      <div class="col-md-3 col-12">
+        <img src="/images/events/rasmus-kragh-4.jpeg" class="img-fluid" alt="">
       </div>
     </div>
 
