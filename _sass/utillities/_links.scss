@@ -96,3 +96,11 @@ a.underlined {
         color: #cbcc8c !important;
     }
   }
+
+  //hover underlined
+
+  .hover-underlined-white {
+      &:hover {
+        border-bottom: 2px solid #ffffff;
+      }
+  }
