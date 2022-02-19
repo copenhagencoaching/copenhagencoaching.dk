@@ -55,6 +55,12 @@ layout: default
                       %} (ekskl. moms){%
                       endif %}
                     </p>
+                    {% if page.two-discount %}
+                    <p class="text-uppercase text-white">2 personer: {{ page.two-discount }} {% if page.ex-moms == true %}
+                      (ekskl.
+                      moms){%
+                      endif %}</p>
+                    {% endif %}
                     {% if page.community-free == true %}
                     <p class="text-uppercase mb-0 text-white"><b>GRATIS</b> for medlemmer af CCC Community</p>
                     {% endif %}
