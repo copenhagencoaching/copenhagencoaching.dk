@@ -5,7 +5,7 @@ under-title: supervisions aftenerne
 description: Din mulighed for at få trænet og styrket din praksis med ligestillede, der enten har afsluttet en uddannelse hos CCC eller som netop er ved det.
 tags:
 - community
-- eventgroup
+- event
 ready: true
 order: 3
 layout: sub-event
@@ -14,6 +14,7 @@ community: CCC Community arrangement
 time: 17.00-20.00
 only-month: true
 past-text: false
+time-on-sub: false
 ---
 
 ### Fire årlige træningsaftener

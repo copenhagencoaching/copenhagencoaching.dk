@@ -5,7 +5,6 @@ event-type: supervisionsaften
 subtitle: supervisionsaften
 layout: event
 tags:
-- event
 - supervision
 only-month: true
 place: Online

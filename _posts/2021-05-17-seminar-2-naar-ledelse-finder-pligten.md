@@ -8,7 +8,7 @@ image: /images/about/employees/kim-gørtz.jpg
 layout: event
 tags:
 - kim
-- event
+- sub-event
 place: Blegdamsvej 104 A, 2100 København Ø
 event-type: CCC Seminar
 price: 450,-

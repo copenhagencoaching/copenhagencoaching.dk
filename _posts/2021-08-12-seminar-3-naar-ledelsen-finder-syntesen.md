@@ -10,13 +10,13 @@ only-month: true
 late: true
 tags:
 - kim
-- event
+- sub-event
 place: Blegdamsvej 104 A, 2100 København Ø
 event-type: CCC Seminar
 price: 450,-
 ex-moms: true
 time: 17.00-20.00
-billetto: true
+billetto: false
 billetto-nr: 504700
 ---
 #### Seminar 3: Når ledelse finder syntesen (med Hegel som inspiration)

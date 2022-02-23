@@ -4,7 +4,7 @@ layout: event
 subtitle: seminar
 tags:
 - big-five
-- event
+- sub-event
 price: 450,-
 ex-moms: true
 image: /images/events/big-five-event-3.jpg

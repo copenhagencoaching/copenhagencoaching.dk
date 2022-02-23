@@ -8,7 +8,7 @@ image: /images/about/employees/kim-gørtz.jpg
 layout: event
 tags:
 - kim
-- event
+- sub-event
 place: Afvikles online - invitation sendes særskilt efter tilmelding
 event-type: CCC Seminar
 price: 450,-

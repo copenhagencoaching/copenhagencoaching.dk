@@ -5,7 +5,6 @@ layout: event
 image: /images/graphic/supervisions-aftener.jpg
 subtitle: supervisionsaften
 tags:
-- event
 - supervision
 only-month: true
 place: Online

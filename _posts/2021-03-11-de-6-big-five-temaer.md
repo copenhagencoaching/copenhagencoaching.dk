@@ -7,7 +7,7 @@ image: "/images/academy/certificering-i-big-five.png"
 event-type: Seminar
 tags:
 - community
-- eventgroup
+- event
 ready: true
 order: 2
 past: true

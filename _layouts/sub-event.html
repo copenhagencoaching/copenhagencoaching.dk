@@ -31,7 +31,7 @@ layout: default
 
   <div class="container-fluid pt-5 pb-3 position-relative">
     <div class="row gy-5 gx-5">
-      {% assign orderedPosts = site.tags.event | sort: order %}
+      {% assign orderedPosts = site.tags.sub-event | sort: order %}
       {% for post in orderedPosts %}
       {% for tag in post.tags %}
 
@@ -126,7 +126,7 @@ layout: default
     {% endif %}
     <div class="row gy-5 gx-5">
 
-      {% assign orderedPosts = site.tags.event | sort: order %}
+      {% assign orderedPosts = site.tags.sub-event | sort: order %}
       {% for post in orderedPosts %}
       {% for tag in post.tags %}
 

@@ -38,7 +38,7 @@ layout: default
 
 
 
-            <div class="bg-scandy-blue w-100 p-4 mb-3">
+            <div class="bg-{{ page.secondary-color }} w-100 p-4 mb-3">
               {% if page.past %}
               <h4><b class="text-uppercase">Arrangementet er afholdt</b></h4>
               {% else %}
@@ -146,14 +146,14 @@ layout: default
             <script src="https://billetto.dk/embed.js"></script>
   
   
-            <a class="btn btn-army-green mt-0 text-uppercase text-white fs-5 w-100 mb-3"
+            <a class="btn btn-{{ page.prime-color }} mt-0 text-uppercase text-white fs-5 w-100 mb-3"
               href="https://billetto.dk/e/nar-ledelse-finder-sjaelen-billetter-{{ page.billetto-nr }}/select?color=%23414344&whitelabel=true"><b>TILMELD</b></a>
   
   
   
             {% endif %}
             {% else %}
-            <h4 class="text-white">Tilmelding kommer snart...</h4>
+            
             {% endif %}
           </div>
         </div>
@@ -168,7 +168,7 @@ layout: default
         <script src="https://billetto.dk/embed.js"></script>
 
 
-        <a class="btn btn-army-green mt-0 text-uppercase text-white fs-5 w-100 mb-3"
+        <a class="btn btn-{{ page.prime-color }} mt-0 text-uppercase text-white fs-5 w-100 mb-3"
           href="https://billetto.dk/e/nar-ledelse-finder-sjaelen-billetter-{{ page.billetto-nr }}/select?color=%23414344&whitelabel=true"><b>TILMELD</b></a>
 
 
@@ -180,7 +180,7 @@ layout: default
 
       </div>
       <div class="col-md-3 col-12">
-        <img src="/images/events/rasmus-kragh-4.jpeg" class="img-fluid" alt="">
+        <img src="{{ page.image-2 }}" class="img-fluid" alt="">
       </div>
     </div>
 

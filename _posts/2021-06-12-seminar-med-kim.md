@@ -8,7 +8,7 @@ image: /images/about/employees/kim-gørtz.jpg
 description: En tetralogisk seminarrække om dannelse og etik i den moderne ledelsespraksis - events udskudt – ny dato annonceres snarest
 tags:
 - community
-- eventgroup
+- event
 ready: true
 order: 1
 place: Blegdamsvej 104 A, 2100 København Ø
