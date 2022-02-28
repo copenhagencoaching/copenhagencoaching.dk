@@ -168,3 +168,23 @@
 .nav-tabs.fade-color {
     border: none;
 }
+
+.white-tabs {
+    border-bottom: none !important;
+    .nav-link {
+        color: white;
+        &:hover {
+            color: white;
+            opacity: .7;
+        }
+    }
+
+    .nav-link.active {
+
+        &:hover {
+
+            opacity: 1;
+
+        }
+    }
+}
