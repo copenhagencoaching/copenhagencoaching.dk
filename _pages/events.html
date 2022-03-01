@@ -21,11 +21,9 @@ layout: default
   
               <div class="card-body px-0 py-2">
   
-  
+               
                 <h3 class="text-white">{{ item.title }}</h3>
-                {% if item.time-on-sub != false %}
-                <p class="text-white"><b>{{ item.date | date: "%d-%m-%y" }} | {{ item.time }}</b></p>
-                {% endif %}
+                
                 <p class="text-white">{{ item.description }}</p>
               </div>
             </div>
