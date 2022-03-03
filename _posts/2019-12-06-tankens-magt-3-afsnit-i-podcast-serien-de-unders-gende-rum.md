@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 title: Tankens Magt
 image: /images/inspiration/Podcast.jpg
 author: Morten Paustian

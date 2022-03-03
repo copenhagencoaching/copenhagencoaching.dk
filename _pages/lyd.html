@@ -26,21 +26,20 @@ image: /images/graphic/lyd-2.png
 
 <div class="container-fluid py-5">
     <div class="row gx-5">
-        {% assign sortedPosts = site.categories['podcast'] | reverted | sort:"date" %}
-        {% for post in sortedPosts %}
+        
         <div class="col-lg-3">
-            <a href="{{ post.url }}">
+            <a href="">
                 <div class="card border-0">
                     <div class="h-100p">
-                        <img src="{{ post.image }}" class="object-fit" alt="...">
+                        <img src="" class="object-fit" alt="...">
                     </div>
                     <div class="card-body px-0 py-2">
-                        <p class="text-uppercase fw-bold fs-6">{{ post.title }}</p>
-                        <p>{{ post.description }}</p>
+                        <p class="text-uppercase fw-bold fs-6"></p>
+                        <p></p>
                     </div>
                 </div>
             </a>
         </div>
-        {% endfor %}
+        
     </div>
 </div>

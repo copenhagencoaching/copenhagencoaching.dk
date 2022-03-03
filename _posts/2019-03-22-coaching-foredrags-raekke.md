@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 title: Coaching-foredragsrække på Københavns Universitet
 image: /images/inspiration/post7.jpeg
 author: Frederikke Winther

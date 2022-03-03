@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 title: Topledere skal kunne vende sig mod sig selv
 image: /images/inspiration/post5.jpeg
 author: Frederikke Winther

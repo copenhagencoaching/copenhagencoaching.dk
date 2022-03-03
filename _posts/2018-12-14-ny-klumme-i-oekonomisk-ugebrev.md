@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 title: Ny klumme i økonomisk ugebrev
 image: /images/inspiration/post1.jpeg
 author: Bianca Godske Røjbæk

@@ -144,6 +144,7 @@ semesters:
     place: Blegdamsvej
 hold:
 - MBC35 - 1. semester - Forår 2022 - start 21. marts
+- MBC31 - 1. semester - Efterår 2022 - start 5. september
 - MBC34 - 2. semester - Forår 2022 - start 10. januar
 - MBC33 - 3. semester - Forår 2022 - start 14. marts
 - MBC31 - 4. semester - Forår 2022 - start 7. februar
@@ -180,6 +181,13 @@ events:
     - 28. - 29. marts
     - 27. - 28. april
     - 11. maj 
+  - sub-cat-title: 1. semester - Efterår 2022
+    datoer:
+    - 5. - 6. september
+    - 3. - 4. oktober
+    - 2. - 3. november
+    - 28. - 29. november
+    - 12. - 14. december
 redirect_from:
   - /master-business-coaching-mbc/
 cat:

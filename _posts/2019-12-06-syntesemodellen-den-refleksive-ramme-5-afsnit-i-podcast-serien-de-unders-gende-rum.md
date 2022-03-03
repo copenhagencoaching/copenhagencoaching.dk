@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 title: Syntesemodellen – den refleksive ramme
 image: /images/inspiration/Podcast.jpg
 author: Frederikke Winther

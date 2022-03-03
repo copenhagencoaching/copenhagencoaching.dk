@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 title: Det decentrerede subjekt
 image: /images/inspiration/Podcast.jpg
 author: Morten Paustian

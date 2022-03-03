@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 title: 'De undersøgende rum, CCC og ledelsesfænomenet'
 image: /images/inspiration/Podcast.jpg
 author: Morten Paustian

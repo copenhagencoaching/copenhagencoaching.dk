@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 title: Frisættende lederskab
 image: /images/inspiration/post6.jpeg
 author: Frederikke Winther

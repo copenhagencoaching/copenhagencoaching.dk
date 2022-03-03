@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 title: 'Eventualerne – en måde at være i verden på '
 image: /images/inspiration/Podcast.jpg
 author: Morten Paustian

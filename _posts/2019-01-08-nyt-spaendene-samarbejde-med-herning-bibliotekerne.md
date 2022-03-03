@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 title: Nyt, spændene samarbejde med Herning Bibliotekerne
 image: /images/inspiration/post3.jpeg
 author: Frederikke Winther

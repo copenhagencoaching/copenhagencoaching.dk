@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 title: Start din master of Business Coaching i efteråret 2019
 image: /images/inspiration/post8.jpg
 author: Frederikke Winther
