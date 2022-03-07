@@ -24,23 +24,21 @@ courses:
   dates: Dato
   modules:
   - date: Dato
-    day: "1"
+    day: 1
     time: Tid
     name: Navn
     place: Sted
   - date: Dato
-    day: "2"
+    day: 2
     time: Tid
     name: Navn
     place: Sted
   - date: Dato
-    day: "3"
+    day: 3
     time: Tid
     name: Navn
     place: Sted
-teachers:
-- Mette Mejlhede
-- Andreas Bering
+teachers: Mette Mejlhede
 
 ---
 ![](/images/events/foredrag.png)Hje med dig
