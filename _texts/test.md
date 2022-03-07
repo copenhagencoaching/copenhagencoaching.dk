@@ -48,3 +48,4 @@ teachers:
 Hello
 
 # Hej
+{:.text-white}
