@@ -38,7 +38,9 @@ courses:
     time: Tid
     name: Navn
     place: Sted
-teachers: Mette Mejlhede
+teachers:
+- Andeas Bering
+- Mette Mejlhede
 
 ---
 ![](/images/events/foredrag.png)Hje med dig
