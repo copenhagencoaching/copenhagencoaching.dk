@@ -82,18 +82,15 @@ fields:
     field: course-overview
     value: true
 - name: teachers
-  type: select
-  default: []
+  type: list
   config:
-    required: false
-    options:
-    - Andreas Bering
-    - Mette Mejlhede
+    use_select: true
+    min: 
+    max: 
     source:
       type: simple
-      section: 
-      file: 
-      path: 
+    options:
+    - Andeas Bering
   label: Undervisere
 pages:
 - _texts/test.md
