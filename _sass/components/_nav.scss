@@ -85,3 +85,17 @@
 }
 
 /* ============ mobile view .end// ============ */
+
+
+// navi tabs on educations layout
+
+.navi-tab {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    a {
+        padding: 5px 10px;
+        width: 100%;
+
+    }
+}
