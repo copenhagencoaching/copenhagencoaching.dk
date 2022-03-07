@@ -4,72 +4,94 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Titel
 - type: text
   name: layout
   label: layout
+  hidden: true
 - type: text
   name: description
-  label: description
+  label: Beskrivelse
 - type: file
   name: image
-  label: image
+  label: Primære billede
+- name: color-1
+  type: color
+  label: Farve 1
+  config:
+    required: true
+    color_format: Hex
+- name: color-2
+  type: color
+  label: Farve 2
+  config:
+    required: false
+    color_format: Hex
+- name: color-3
+  type: color
+  label: Farve 3
+  config:
+    required: false
+    color_format: Hex
 - type: text
   name: permalink
   label: permalink
+  hidden: true
 - type: file
   name: pdf
-  label: pdf
-- type: text
-  name: color-1
-  label: color-1
-- type: text
-  name: color-2
-  label: color-2
-- type: text
-  name: color-3
-  label: color-3
-- type: text
-  name: navigation-color
-  label: navigation-color
+  label: PDF
 - type: list
   name: navigation
-  label: navigation
+  label: Navigation
 - type: boolean
   name: course-overview
-  label: course-overview
+  label: Kursus oversigt
 - type: field_group_list
   name: courses
-  label: courses
+  label: Hold
   fields:
   - type: text
     name: title
-    label: title
+    label: Titel
   - type: text
     name: price
-    label: price
+    label: Pris
   - type: text
     name: dates
-    label: dates
+    label: Dato
   - type: field_group_list
     name: modules
-    label: modules
+    label: Moduler
     fields:
     - type: text
       name: date
-      label: date
+      label: Dato
     - type: number
       name: day
-      label: day
+      label: Dag nummer
     - type: text
       name: time
-      label: time
+      label: Tid
     - type: text
       name: name
-      label: name
+      label: Navn
     - type: text
       name: place
-      label: place
-- type: list
-  name: teachers
-  label: teachers
+      label: Sted
+  showOnly:
+    field: course-overview
+    value: true
+- name: teachers
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Andreas Bering
+    - Mette Mejlhede
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Undervisere
