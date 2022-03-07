@@ -1,0 +1,75 @@
+---
+label: Uddannelse
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: description
+  label: description
+- type: file
+  name: image
+  label: image
+- type: text
+  name: permalink
+  label: permalink
+- type: file
+  name: pdf
+  label: pdf
+- type: text
+  name: color-1
+  label: color-1
+- type: text
+  name: color-2
+  label: color-2
+- type: text
+  name: color-3
+  label: color-3
+- type: text
+  name: navigation-color
+  label: navigation-color
+- type: list
+  name: navigation
+  label: navigation
+- type: boolean
+  name: course-overview
+  label: course-overview
+- type: field_group_list
+  name: courses
+  label: courses
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: price
+    label: price
+  - type: text
+    name: dates
+    label: dates
+  - type: field_group_list
+    name: modules
+    label: modules
+    fields:
+    - type: text
+      name: date
+      label: date
+    - type: number
+      name: day
+      label: day
+    - type: text
+      name: time
+      label: time
+    - type: text
+      name: name
+      label: name
+    - type: text
+      name: place
+      label: place
+- type: list
+  name: teachers
+  label: teachers
