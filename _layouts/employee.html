@@ -17,11 +17,11 @@ layout: default
                             <p class="mb-3 text-white">{{ page.description }}</p>
                             {% if page.call %}
                             <p class="fs-6 text-white"> <a data-proofer-ignore class="d-flex align-items-center"
-                                    href="tel:+45{{ page.call }}" onclick="ga('send', 'event', 'Button', 'Click', 'TLF medarbejder');"><i
+                                    href="tel:+45{{ page.call }}" onclick="gtag('event','click', { 'event_category':'Click', 'event_label':'telefon medarbejder' })"><i
                                         class="fas dust-blue text-white opacity-75 fa-phone fs-4 pe-3"></i> {{
                                     page.call
                                     }}</a> </p>
-                                    
+
                             {% endif %}
                             <p class="fs-6 text-white"><a data-proofer-ignore class="d-flex align-items-center"
                                     href="mailto:{{ page.email }}"><i
