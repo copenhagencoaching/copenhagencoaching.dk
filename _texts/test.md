@@ -15,8 +15,15 @@ navigation:
 - Deltagerprofil
 - Anbefalinger
 - Undervisere
-- Praktisk
+- Pratisk
 - Ansøg
+overview-image-1: "/images/academy/executive-transition.jpg"
+overview-heading-1: "Overskrift"
+overview-text-1: "In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. In ac felis quis tortor malesuada pretium. Vivamus laoreet. Donec id justo. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum."
+overview-heading-2: "Overskrift"
+overview-text-2: "Suspendisse potenti. Phasellus ullamcorper ipsum rutrum nunc. Integer tincidunt. Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc. Donec elit libero, sodales nec, volutpat a, suscipit non, turpis.<br><br>Sed lectus. Pellentesque commodo eros a enim. Sed fringilla mauris sit amet nibh. Vivamus laoreet. Praesent vestibulum dapibus nibh.<br><br>Praesent nec nisl a purus blandit viverra. Proin sapien ipsum, porta a, auctor quis, euismod ut, mi. Phasellus blandit leo ut odio. Pellentesque posuere. Nullam dictum felis eu pede mollis pretium."
+overview-heading-3: "Overskrift"
+overview-text-3: "In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. In ac felis quis tortor malesuada pretium. Vivamus laoreet. Donec id justo. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum."
 course-overview: true
 courses:
 - title: Hold

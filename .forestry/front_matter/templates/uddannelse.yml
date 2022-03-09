@@ -15,6 +15,12 @@ fields:
 - type: file
   name: image
   label: Primære billede
+- type: text
+  name: text-1
+  label: Tekst 1
+- type: file
+  name: image-2
+  label: Sekundære billede
 - name: color-1
   type: color
   label: Farve 1
