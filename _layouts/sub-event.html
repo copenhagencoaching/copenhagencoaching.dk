@@ -184,7 +184,12 @@ layout: default
             </div>
 
             <h3 class="card-title thin">{{ post.title }}</h3>
+            {% if post.cancelled == true %}
+            <p class="card-text mb-3">Arrangementet er aflyst</p>
+            {% else %}
             <p class="card-text mb-3">Arrangementet er afholdt</p>
+            {% endif %}
+            
 
 
 

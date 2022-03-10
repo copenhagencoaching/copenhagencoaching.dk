@@ -12,7 +12,7 @@ layout: event
 only-month: false
 past: true
 price: 350,-
-billetto: true
+billetto: false
 billetto-nr: 524607
 past: true
 ex-moms: true

@@ -1,7 +1,7 @@
 ---
 title: Når ledelse finder intentionen
 subtitle: Seminar 4
-description: Event udskudt – ny dato annonceres snarest
+description: Event aflyst
 time: 17.00-20.00
 community-free: true
 image: /images/about/employees/kim-gørtz.jpg
@@ -13,12 +13,13 @@ place: Blegdamsvej 104 A, 2100 København Ø
 event-type: CCC Seminar
 price: 450,-
 ex-moms: true
+cancelled: true
 google-maps: https://goo.gl/maps/39AT4qhKPqixqRxT6
 time: 17.00-20.00
 time-start: "17:00"
 time-end: "20:00"
 only-month: true
-late: true
+past: true
 billetto: false
 billetto-nr: 504703
 calendar-link: "https://www.google.com/calendar/render?action=TEMPLATE&text=N%C3%A5r%20ledelse%20finder%20intentionen&details=Seminar%20med%20Kim%20G%C3%B8rtz%20hos%20CCC.&location=Blegdamsvej%20104%20A,%202100%20K%C3%B8benhavn%20%C3%98&dates=20211007T152000.000Z%2F20211007T180000.000Z"

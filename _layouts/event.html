@@ -40,7 +40,11 @@ layout: default
 
             <div class="bg-{{ page.secondary-color }} w-100 p-4 mb-3">
               {% if page.past %}
-              <h4><b class="text-uppercase">Arrangementet er afholdt</b></h4>
+              {% if page.cancelled == true %}
+            <p class="card-text mb-3 text-white">Arrangementet er aflyst</p>
+            {% else %}
+            <p class="card-text mb-3 text-white">Arrangementet er afholdt</p>
+            {% endif %}
               {% else %}
 
               <div class="row gx-5 gy-4">
@@ -175,7 +179,10 @@ layout: default
 
         {% endif %}
         {% else %}
+        {% if page.past == true %}
+        {% else %}
         <h4 class="text-white">Tilmelding kommer snart...</h4>
+        {% endif %}
         {% endif %}
 
       </div>
