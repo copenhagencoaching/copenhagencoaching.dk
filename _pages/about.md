@@ -3,7 +3,7 @@ layout: about
 show: true
 order: '6'
 title: Om os
-image: /images/about/ccc-om-os.jpg
+image: /images/consulting/consulting-banner.jpg
 header: Eksperter i ledelse og coaching
 header-link: Mød teamet ⟶
 header-link-url: '#team'

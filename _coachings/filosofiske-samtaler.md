@@ -3,7 +3,7 @@ published: true
 id: "5"
 order: "5"
 title: Filosofiske samtaler
-image: c2.jpg
+image: /filosofiske-samtaler.jpg
 contact-person: Mette Mejlhede
 redirect_from:
   - /coaching/filosofiskeSamtaler/
