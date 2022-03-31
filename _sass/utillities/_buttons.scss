@@ -1,41 +1,42 @@
 .white-border-button {
-    padding: 5px 10px;
-    background: transparent;
-    border: #fff solid 2px !important;
-    color: #fff !important;
-    font-weight: 400;
-    border-radius: 5px;
-    text-transform: uppercase;
+  padding: 5px 10px;
+  background: transparent;
+  border: #fff solid 2px !important;
+  color: #fff !important;
+  font-weight: 400;
+  border-radius: 5px;
+  text-transform: uppercase;
 
-    &:hover {
-        background-color: #fff;
-        color: rgb(51, 51, 51) !important;
-    }
+  &:hover {
+    background-color: #fff;
+    color: rgb(51, 51, 51) !important;
+  }
 }
 
 .dark-border-button {
-    padding: 5px 10px;
-    background: transparent;
-    border: rgb(83, 83, 83) solid 2px !important;
-    color: rgb(83, 83, 83) !important;
-    font-weight: 400;
-    border-radius: 5px;
-    text-transform: uppercase;
+  padding: 5px 10px;
+  background: transparent;
+  border: rgb(83, 83, 83) solid 2px !important;
+  color: rgb(83, 83, 83) !important;
+  font-weight: 400;
+  border-radius: 5px;
+  text-transform: uppercase;
 
-    &:hover {
-        background-color: rgb(83, 83, 83);
-        color: white !important;
-    }
+  &:hover {
+    background-color: rgb(83, 83, 83);
+    color: white !important;
+  }
 }
 
 .btn {
-    &:focus {
-        box-shadow: none;
-    }
+  color: #707070 !important;
+  &:focus {
+    box-shadow: none;
+  }
 
-    &:active {
-        box-shadow: none;
-    }
+  &:active {
+    box-shadow: none;
+  }
 }
 
 
@@ -50,94 +51,104 @@
   display: inline-block;
   text-align: center;
 }
+
 //with round arrow
 
-@mixin transition($property: all, $duration: 0.45s, $ease: cubic-bezier(0.65,0,.076,1)) {
-    transition: $property $duration $ease;
-  }
-  
+@mixin transition($property: all, $duration: 0.45s, $ease: cubic-bezier(0.65, 0, .076, 1)) {
+  transition: $property $duration $ease;
+}
+
 
 .learn-more {
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
-    outline: none;
-    border: 0;
-    vertical-align: middle;
-    text-decoration: none;
-    background: transparent;
-    padding: 0;
-    font-size: inherit;
-    font-family: inherit;
-    &.learn-more {
-      width: 12rem;
-      height: auto;
-      .circle {
-        @include transition(all, 0.45s, cubic-bezier(0.65,0,.076,1));
-        position: relative;
-        display: block;
-        margin: 0;
-        width: 3rem;
-        height: 3rem;
-        background: #707070;
-        border-radius: 1.625rem;
-        .icon {
-          @include transition(all, 0.45s, cubic-bezier(0.65,0,.076,1));
-          position: absolute;
-          top: 0;
-          bottom: 0;
-          margin: auto;
-          background: white;
-          &.arrow {
-            @include transition(all, 0.45s, cubic-bezier(0.65,0,.076,1));
-            left: 0.625rem;
-            width: 1.125rem;
-            height: 0.125rem;
-            background: none;
-            &::before {
-              position: absolute;
-              content: '';
-              top: -0.25rem;
-              right: 0.0625rem;
-              width: 0.625rem;
-              height: 0.625rem;
-              border-top: 0.125rem solid #fff;
-              border-right: 0.125rem solid #fff;
-              transform: rotate(45deg);
-            }
-          }
-        }
-      }
-      .button-text {
-        @include transition(all, 0.45s, cubic-bezier(0.65,0,.076,1));
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  background: transparent;
+  padding: 0;
+  font-size: inherit;
+  font-family: inherit;
+
+  &.learn-more {
+    width: 12rem;
+    height: auto;
+
+    .circle {
+      @include transition(all, 0.45s, cubic-bezier(0.65, 0, .076, 1));
+      position: relative;
+      display: block;
+      margin: 0;
+      width: 3rem;
+      height: 3rem;
+      background: #707070;
+      border-radius: 1.625rem;
+
+      .icon {
+        @include transition(all, 0.45s, cubic-bezier(0.65, 0, .076, 1));
         position: absolute;
         top: 0;
-        left: 0;
-        right: 0;
         bottom: 0;
-        padding: 0.75rem 0;
-        margin: 0 0 0 1.85rem;
-        color: #707070;
-        font-weight: 700;
-        line-height: 1.6;
-        text-align: center;
-        text-transform: uppercase;
-      }
-    }
-    &:hover {
-      .circle {
-        width: 100%;
-        .icon {
-          &.arrow {
-          background: white;
-          transform: translate(1rem, 0);
+        margin: auto;
+        background: white;
+
+        &.arrow {
+          @include transition(all, 0.45s, cubic-bezier(0.65, 0, .076, 1));
+          left: 0.625rem;
+          width: 1.125rem;
+          height: 0.125rem;
+          background: none;
+
+          &::before {
+            position: absolute;
+            content: '';
+            top: -0.25rem;
+            right: 0.0625rem;
+            width: 0.625rem;
+            height: 0.625rem;
+            border-top: 0.125rem solid #fff;
+            border-right: 0.125rem solid #fff;
+            transform: rotate(45deg);
           }
         }
       }
-      .button-text {
-        color: white;
+    }
+
+    .button-text {
+      @include transition(all, 0.45s, cubic-bezier(0.65, 0, .076, 1));
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      padding: 0.75rem 0;
+      margin: 0 0 0 1.85rem;
+      color: #707070;
+      font-weight: 700;
+      line-height: 1.6;
+      text-align: center;
+      text-transform: uppercase;
+    }
+  }
+
+  &:hover {
+    .circle {
+      width: 100%;
+
+      .icon {
+        &.arrow {
+          background: white;
+          transform: translate(1rem, 0);
+        }
       }
     }
+
+    .button-text {
+      color: white;
+    }
+  }
 }
 
 
@@ -145,14 +156,14 @@
 // Add to calendar button
 /* The button */
 .addeventatc {
-    display: inline-block;
-    position: relative;
-    text-decoration: none;
-    cursor: pointer;
-    text-transform: uppercase;
-    font-family: 'Poppins', sans-serif;
-    font-size: .85rem;
-    color: #707070;
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+  font-size: .85rem;
+  color: #707070;
 }
 
 
@@ -176,151 +187,151 @@
 .addeventatc .method,
 .addeventatc .client,
 .addeventatc .transp {
-    display: none !important;
+  display: none !important;
 }
 
 /* Drop down */
 .addeventatc_dropdown {
-    width: 230px;
-    position: absolute;
-    padding: 6px 0px 0px 0px;
-    font-family: "Open Sans", Roboto, "Helvetica Neue", Helvetica, Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
-    color: #000 !important;
-    font-weight: 600;
-    line-height: 100%;
-    background: #fff;
-    font-size: 15px;
-    text-decoration: none;
-    text-align: left;
-    margin-left: -1px;
-    display: none;
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
-    -webkit-box-shadow: rgba(0, 0, 0, 0.4) 0px 10px 26px;
-    -moz-box-shadow: rgba(0, 0, 0, 0.4) 0px 10px 26px;
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 10px 26px;
-    transform: scale(.98, .98) translateY(5px);
-    z-index: -1;
-    transition: transform .15s ease;
-    -webkit-user-select: none;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  width: 230px;
+  position: absolute;
+  padding: 6px 0px 0px 0px;
+  font-family: "Open Sans", Roboto, "Helvetica Neue", Helvetica, Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+  color: #000 !important;
+  font-weight: 600;
+  line-height: 100%;
+  background: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  text-align: left;
+  margin-left: -1px;
+  display: none;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.4) 0px 10px 26px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.4) 0px 10px 26px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 10px 26px;
+  transform: scale(.98, .98) translateY(5px);
+  z-index: -1;
+  transition: transform .15s ease;
+  -webkit-user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 .addeventatc_dropdown.topdown {
-    transform: scale(.98, .98) translateY(-5px) !important;
+  transform: scale(.98, .98) translateY(-5px) !important;
 }
 
 .addeventatc_dropdown span {
-    display: block;
-    line-height: 100%;
-    background: #fff;
-    text-decoration: none;
-    cursor: pointer;
-    font-size: 15px;
-    color: #333;
-    font-weight: 600;
-    padding: 14px 10px 14px 55px;
-    margin: -2px 0px;
+  display: block;
+  line-height: 100%;
+  background: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 15px;
+  color: #333;
+  font-weight: 600;
+  padding: 14px 10px 14px 55px;
+  margin: -2px 0px;
 }
 
 .addeventatc_dropdown span:hover {
-    background-color: #f4f4f4;
-    color: #000;
-    text-decoration: none;
-    font-size: 15px;
+  background-color: #f4f4f4;
+  color: #000;
+  text-decoration: none;
+  font-size: 15px;
 }
 
 .addeventatc_dropdown em {
-    color: #999 !important;
-    font-size: 12px !important;
-    font-weight: 400;
+  color: #999 !important;
+  font-size: 12px !important;
+  font-weight: 400;
 }
 
 .addeventatc_dropdown .frs a {
-    background: #fff;
-    color: #cacaca !important;
-    cursor: pointer;
-    font-size: 9px !important;
-    font-style: normal !important;
-    font-weight: 400 !important;
-    line-height: 110% !important;
-    padding-left: 10px;
-    position: absolute;
-    right: 10px;
-    text-align: right;
-    text-decoration: none;
-    top: 5px;
-    z-index: 101;
+  background: #fff;
+  color: #cacaca !important;
+  cursor: pointer;
+  font-size: 9px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: 110% !important;
+  padding-left: 10px;
+  position: absolute;
+  right: 10px;
+  text-align: right;
+  text-decoration: none;
+  top: 5px;
+  z-index: 101;
 }
 
 .addeventatc_dropdown .frs a:hover {
-    color: #999 !important;
+  color: #999 !important;
 }
 
 .addeventatc_dropdown .ateappleical {
-    background: url("/images/gfx/icon-apple-t5.svg") 18px 40% no-repeat;
-    background-size: 22px 100%;
+  background: url("/images/gfx/icon-apple-t5.svg") 18px 40% no-repeat;
+  background-size: 22px 100%;
 }
 
 .addeventatc_dropdown .ategoogle {
-    background: url("/images/gfx/icon-google-t5.svg") 18px 50% no-repeat;
-    background-size: 22px 100%;
+  background: url("/images/gfx/icon-google-t5.svg") 18px 50% no-repeat;
+  background-size: 22px 100%;
 }
 
 .addeventatc_dropdown .ateoffice365 {
-    background: url("/images/gfx/icon-office365-t5.svg") 19px 50% no-repeat;
-    background-size: 18px 100%;
+  background: url("/images/gfx/icon-office365-t5.svg") 19px 50% no-repeat;
+  background-size: 18px 100%;
 }
 
 .addeventatc_dropdown .ateoutlook {
-    background: url("/images/gfx/icon-outlook-t5.svg") 18px 50% no-repeat;
-    background-size: 22px 100%;
+  background: url("/images/gfx/icon-outlook-t5.svg") 18px 50% no-repeat;
+  background-size: 22px 100%;
 }
 
 .addeventatc_dropdown .ateoutlookcom {
-    background: url("/images/gfx/icon-outlookcom-t5.svg") 18px 50% no-repeat;
-    background-size: 22px 100%;
+  background: url("/images/gfx/icon-outlookcom-t5.svg") 18px 50% no-repeat;
+  background-size: 22px 100%;
 }
 
 .addeventatc_dropdown .ateyahoo {
-    background: url("/images/gfx/icon-yahoo-t5.svg") 18px 50% no-repeat;
-    background-size: 22px 100%;
+  background: url("/images/gfx/icon-yahoo-t5.svg") 18px 50% no-repeat;
+  background-size: 22px 100%;
 }
 
 .addeventatc_dropdown .atefacebook {
-    background: url("/images/gfx/icon-facebook-t5.svg") 18px 50% no-repeat;
-    background-size: 22px 100%;
+  background: url("/images/gfx/icon-facebook-t5.svg") 18px 50% no-repeat;
+  background-size: 22px 100%;
 }
 
 .addeventatc_dropdown .copyx {
-    height: 21px;
-    display: block;
-    position: relative;
-    cursor: default;
+  height: 21px;
+  display: block;
+  position: relative;
+  cursor: default;
 }
 
 .addeventatc_dropdown .brx {
-    height: 1px;
-    overflow: hidden;
-    background: #e8e8e8;
-    position: absolute;
-    z-index: 100;
-    left: 10px;
-    right: 10px;
-    top: 9px;
+  height: 1px;
+  overflow: hidden;
+  background: #e8e8e8;
+  position: absolute;
+  z-index: 100;
+  left: 10px;
+  right: 10px;
+  top: 9px;
 }
 
 .addeventatc_dropdown.addeventatc-selected {
-    transform: scale(1, 1) translateY(0px);
-    z-index: 99999999999;
+  transform: scale(1, 1) translateY(0px);
+  z-index: 99999999999;
 }
 
 .addeventatc_dropdown.topdown.addeventatc-selected {
-    transform: scale(1, 1) translateY(0px) !important;
+  transform: scale(1, 1) translateY(0px) !important;
 }
 
 .addeventatc_dropdown .drop_markup {
-    background-color: #f4f4f4;
+  background-color: #f4f4f4;
 }
 
 // The Arrow
@@ -338,186 +349,188 @@ $arrow-head-thickness: $shaft-thickness;
 
 
 .the-arrow {
-    width: $shaft-width;
-    transition: all 0.2s;
-    font-size: 85rem;
-   
-    &.-left {
-      position: absolute;
+  width: $shaft-width;
+  transition: all 0.2s;
+  font-size: 85rem;
 
-      top: 55%;
-      left: 0;
-      &.rotated {
-        transform: rotate(180deg);
-      }
-  
-      > .shaft {
+  &.-left {
+    position: absolute;
+
+    top: 55%;
+    left: 0;
+
+    &.rotated {
+      transform: rotate(180deg);
+    }
+
+    >.shaft {
+      width: 0;
+      background-color: $gray;
+
+      &:before,
+      &:after {
         width: 0;
         background-color: $gray;
-        
-        &:before,
-        &:after {
-          width: 0;
-          background-color: $gray;
-        }
-  
-        &:before {
-          transform: rotate(10);
-        }
-  
-        &:after {
-          transform: rotate(180);
-        }
+      }
+
+      &:before {
+        transform: rotate(10);
+      }
+
+      &:after {
+        transform: rotate(180);
       }
     }
-    
-    &.-right {
-      top: 4px;
-      &.rotated {
-        transform: rotate(180deg);
+  }
+
+  &.-right {
+    top: 4px;
+
+    &.rotated {
+      transform: rotate(180deg);
+    }
+
+    >.shaft {
+      width: $shaft-width;
+      transition-delay: 0.2s;
+
+      &:before,
+      &:after {
+        width: $arrow-head-width;
+        transition-delay: 0.3s;
+        transition: all 0.5s;
       }
-      
-      > .shaft {
+
+      &:before {
+        transform: rotate(40deg);
+      }
+
+      &:after {
+        transform: rotate(-40deg);
+      }
+    }
+  }
+
+  >.shaft {
+    background-color: $gray;
+    display: block;
+    height: $shaft-thickness;
+    position: relative;
+    transition: all 0.2s;
+    transition-delay: 0;
+    will-change: transform;
+
+    &:before,
+    &:after {
+      background-color: $gray;
+      content: '';
+      display: block;
+      height: $arrow-head-thickness;
+      position: absolute;
+      top: 0;
+      right: 0;
+      transition: all 0.2s;
+      transition-delay: 0;
+    }
+
+    &:before {
+      transform-origin: top right;
+    }
+
+    &:after {
+      transform-origin: bottom right;
+    }
+  }
+}
+
+
+
+// Animated Arrow Button
+
+.animated-arrow {
+  display: inline-block;
+  color: $gray;
+  font-size: 1.25em;
+  font-style: italic;
+  text-decoration: none;
+  position: relative;
+  transition: all 0.2s;
+
+  &:hover {
+    color: $white;
+
+    >.the-arrow.-left {
+      >.shaft {
         width: $shaft-width;
-        transition-delay: 0.2s;
-  
+        transition-delay: 0.1s;
+        background-color: $white;
+
         &:before,
-        &:after { 
+        &:after {
           width: $arrow-head-width;
-          transition-delay: 0.3s;
-          transition: all 0.5s;
+          transition-delay: 0.1s;
+          background-color: $white;
         }
-        
+
         &:before {
           transform: rotate(40deg);
         }
-        
+
         &:after {
           transform: rotate(-40deg);
         }
       }
     }
-  
-    > .shaft {
-      background-color: $gray;
-      display: block;
-      height: $shaft-thickness;
-      position: relative;
-      transition: all 0.2s;
-      transition-delay: 0;
-      will-change: transform;
-  
-      &:before,
-      &:after {
-        background-color: $gray;
-        content: '';
-        display: block;
-        height: $arrow-head-thickness;
-        position: absolute;
-        top: 0;
-        right: 0;
-        transition: all 0.2s;
-        transition-delay: 0;
-      }
-  
-      &:before {
-        transform-origin: top right;
-      }
-  
-      &:after {
-        transform-origin: bottom right;
-      }
-    }
-  }
-  
-  
-  
-  // Animated Arrow Button
-  
-  .animated-arrow {
-    display: inline-block;
-    color: $gray;
-    font-size: 1.25em;
-    font-style: italic;
-    text-decoration: none;
-    position: relative;
-    transition: all 0.2s;
-    
-    &:hover {
-      color: $white;
-      
-      > .the-arrow.-left {
-        > .shaft {
-          width: $shaft-width;
-          transition-delay: 0.1s;
-          background-color: $white;
-  
+
+    >.main {
+      transform: translateX($shaft-width + $text-arrow-space);
+
+      >.the-arrow.-right {
+        >.shaft {
+          width: 0;
+          transform: translateX(200%);
+          transition-delay: 0;
+
           &:before,
           &:after {
-            width: $arrow-head-width;
-            transition-delay: 0.1s;
-            background-color: $white;
-          }
-  
-          &:before {
-            transform: rotate(40deg);
-          }
-  
-          &:after {
-            transform: rotate(-40deg);
-          }
-        }
-      }
-      
-      > .main {
-        transform: translateX($shaft-width + $text-arrow-space);
-        
-        > .the-arrow.-right {
-          > .shaft {
             width: 0;
-            transform: translateX(200%);
             transition-delay: 0;
-            
-            &:before,
-            &:after {
-              width: 0;
-              transition-delay: 0;
-              transition: all 0.1s;
-            }
-  
-            &:before {
-              transform: rotate(0);
-            }
-  
-            &:after {
-              transform: rotate(0);
-            }
+            transition: all 0.1s;
+          }
+
+          &:before {
+            transform: rotate(0);
+          }
+
+          &:after {
+            transform: rotate(0);
           }
         }
-      }
-    }
-    
-    > .main {
-      display: flex;
-      align-items: center;
-      transition: all 0.2s;
-      
-      > .text {
-        margin: 0 $text-arrow-space 0 0;
-        line-height: 1;
-      }
-      
-      > .the-arrow {
-        position: relative;
       }
     }
   }
-  
 
-  // Remove Bootstrap border on collapse button
+  >.main {
+    display: flex;
+    align-items: center;
+    transition: all 0.2s;
 
-  .accordion-button:focus {
-    box-shadow: none !important;
+    >.text {
+      margin: 0 $text-arrow-space 0 0;
+      line-height: 1;
+    }
+
+    >.the-arrow {
+      position: relative;
+    }
+  }
+}
+
+
+// Remove Bootstrap border on collapse button
+
+.accordion-button:focus {
+  box-shadow: none !important;
 }
 
 .accordion-button:active {
@@ -531,4 +544,20 @@ $arrow-head-thickness: $shaft-thickness;
 
 .accordion-button.white:after {
   background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+}
+
+
+// Linkein position button
+
+.linkedin-position {
+  position: absolute;
+  bottom:50px;
+  right: 50px;
+  opacity: .8;
+  filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.16));
+  font-size: 70px;
+
+  &:hover {
+    opacity: 1;
+  }
 }

@@ -108,3 +108,22 @@
         height   : 200px;
       }
   }
+
+  // small-container
+
+  .small-container {
+      width: 1000px;
+      margin: auto;
+
+      @media (max-width: 999px) { 
+        width: 100%;
+     }
+  }
+
+  .max-w-500 {
+      max-width: 500px;
+  }
+
+  .max-w-700 {
+    max-width: 700px;
+}

@@ -4,27 +4,35 @@ layout: default
 
 <div class="bg-black-coral">
     <div class="container-fluid py-5">
-        <div class="row pt-5">
-            <div class="offset-xl-3 col-xl-6 col-12 pt-5">
-                <div class="row gy-4">
-                    <div class="col-sm-6 col-12 text-end text-xl-start">
+        <div class="pt-5">
+            <div class="small-container pt-5">
+                <div class="row gx-5">
+                    <div class="col-sm-6 col-12 text-end text-xl-start position-relative">
                         <img src="{{ page.grey-portrait }}" class="img-fluid rounded-circle"
                             alt="Billede af {{ page.title }}, {{ employee.description}}">
-                    </div>
-                    <div class="col-sm-6 col-12 d-flex align-items-center">
-                        <div>
-                            <h2 class="mb-1 text-white">{{ page.title }}</h2>
-                            <p class="mb-3 text-white">{{ page.description }}</p>
-                            {% if page.call %}
                             
-                            <p class="fs-6 text-white"> <a data-proofer-ignore class="d-flex align-items-center"
-                                    href="tel:+45{{ page.call }}" onclick="gtag('event','click', { 'event_category':'tlf klik', 'event_label':'tlf medarbejder' })"><i
+                                <a data-proofer-ignore href="{{ page.linkedin }}" target="_blank"><i
+                                        class="fab fa-linkedin text-white linkedin-position"></i></a>
+                            
+                    </div>
+                    <div class="col-sm-6 col-12 d-sm-flex align-items-center text-center text-sm-start mt-4 mt-sm-0">
+                        <div>
+                            <h1 class="mb-1 text-white">{{ page.title }}</h1>
+                            <div class="l-text">
+                                <p class="mb-3 text-white"><b>{{ page.description }}</b></p>
+                            </div>
+                           
+                            {% if page.call %}
+
+                            <p class="fs-6 text-white text-center text-sm-start"> <a data-proofer-ignore class="d-md-flex align-items-center text-center text-md-start"
+                                    href="tel:+45{{ page.call }}"
+                                    onclick="gtag('event','click', { 'event_category':'tlf klik', 'event_label':'tlf medarbejder' })"><i
                                         class="fas dust-blue text-white opacity-75 fa-phone fs-4 pe-3"></i> {{
                                     page.call
                                     }}</a> </p>
 
                             {% endif %}
-                            <p class="fs-6 text-white"><a data-proofer-ignore class="d-flex align-items-center"
+                            <p class="fs-6 text-white text-center text-sm-start"><a data-proofer-ignore class="d-md-flex align-items-center text-center text-md-start"
                                     href="mailto:{{ page.email }}"><i
                                         class="fas text-white opacity-75 dust-blue fa-envelope fs-4 pe-3"></i>
                                     {{
@@ -32,10 +40,8 @@ layout: default
                                     }}</a> </p>
 
 
-                            <a data-proofer-ignore href="{{ page.linkedin }}" target="_blank"><img width="100"
-                                    src="/images/graphic/LI-Logo.png" alt=""></a>
 
-
+                            
                         </div>
                     </div>
                 </div>
@@ -46,13 +52,15 @@ layout: default
 </div>
 
 
-<div class="bg-platinum">
+
 
     <div class="container-fluid py-5">
-        <div class="row">
-            <div class="offset-xl-3 col-xl-6 col-12">
-
-                {{ page.content }}
+        
+            <div class="small-container">
+<div class="l-text first-p-bold">
+    {{ page.content }}
+</div>
+                
 
                 <a class='animated-arrow' href='/about/'>
                     <span class='the-arrow -left rotated'>
@@ -70,6 +78,10 @@ layout: default
                     </span>
                 </a>
             </div>
-        </div>
+        
     </div>
-</div>
+
+
+{% include sections/coffee.html %}
+{% include sections/vision.html %}
+{% include sections/newsletter.html %}
