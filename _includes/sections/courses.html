@@ -1,0 +1,19 @@
+<div class="container-fluid py-5">
+    <h2 class="mb-5">Leder du efter et kursus?</h2>
+    {% assign posts = site.educations | where_exp:"item", "item.title != include.name" %}
+    <div class="row g-5">
+        {% for edu in posts limit:4 %}
+        <div class="col-12 col-lg-6">
+            <a href="{{ edu.url }}">
+                <div>
+                    <h4 class="text-uppercase mb-1">{{ edu.title }}</h4>
+                    <p>{{ edu.description }}</p>
+                </div>
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+  
+
+
+</div>

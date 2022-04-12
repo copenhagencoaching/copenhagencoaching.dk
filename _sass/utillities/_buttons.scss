@@ -28,6 +28,26 @@
   }
 }
 
+.btn.w-310 {
+  width: 310px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.btn.w-254 {
+  width: 254px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.btn.h-50 {
+  height: 50px;
+}
+
+.btn.btn-bold {
+  font-weight: bold;
+}
+
 .btn {
   color: #707070 !important;
   &:focus {

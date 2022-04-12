@@ -1,0 +1,63 @@
+<div class="bg-platinum">
+    <div class="container-fluid py-5">
+        <div class="row gx-5">
+            {% for event in site.tags.event limit:3 %}
+            <div class="col-12 col-lg-4">
+                <div class="card box-shadow h-100">
+                    <img src="{{ event.image }}" class="card-img-top" alt="...">
+                    <div class="bg-white p-4 h-100">
+                        <div class="row">
+                            <div class="col-6">
+                                {% assign postmonth = event.date | date: "%m" %}
+
+
+                                {% if postmonth == "01" %}
+                                {% assign monthName = "Januar" %}
+                                {% elsif postmonth == "02" %}
+                                {% assign monthName = "Februar" %}
+                                {% elsif postmonth == "03" %}
+                                {% assign monthName = "Marts" %}
+                                {% elsif postmonth == "04" %}
+                                {% assign monthName = "April" %}
+                                {% elsif postmonth == "05" %}
+                                {% assign monthName = "Maj" %}
+                                {% elsif postmonth == "06" %}
+                                {% assign monthName = "Juni" %}
+                                {% elsif postmonth == "07" %}
+                                {% assign monthName = "Juli" %}
+                                {% elsif postmonth == "08" %}
+                                {% assign monthName = "August" %}
+                                {% elsif postmonth == "09" %}
+                                {% assign monthName = "September" %}
+                                {% elsif postmonth == "10" %}
+                                {% assign monthName = "Oktober" %}
+                                {% elsif postmonth == "11" %}
+                                {% assign monthName = "November" %}
+                                {% elsif postmonth == "12" %}
+                                {% assign monthName = "December" %}
+                                {% endif %}
+
+                                <p class="fw-bold">{{ event.date | date: "%d. "}} {{
+                                    monthName
+                                    }}{{ event.date | date:
+                                    "
+                                    %Y"}}</p>
+                            </div>
+                            <div class="col-6 text-end">
+                                <p class="fw-bold">{{ event.time }}</p>
+                            </div>
+                        </div>
+                      <h5 class="card-title">{{ event.title }}</h5>
+                      <p class="card-text">{{ event.description }}</p>
+                      
+                      
+                    </div>
+                    <div class="card-footer bg-white border-none border-top-0 pt-0 pb-3 px-4">
+                        <a href="{{ event.url }}" class="btn w-100 text-uppercase btn-black-coral text-white btn-bold fs-6 mb-2 py-3">Tilmeld dig her</a>
+                      </div>
+                  </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>

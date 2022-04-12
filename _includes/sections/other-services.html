@@ -1,0 +1,36 @@
+
+
+<div class="bg-black-coral">
+    <div class="container-fluid py-5">
+        <h2 class="text-white mb-4">Andre konsulentydelser</h2>
+
+        <div class="row gx-5 gy-5 gy-lg-0">
+            {% assign services = site.consultations | where_exp:"item", "item.title != include.name" %}
+            
+
+            {% for event in services limit: 2 %}
+            
+            <div class="col-12 col-lg-6">
+
+                <div class="mh-150px">
+                    <h5 class="card-title text-white">{{ event.title }}</h5>
+                    <p class="card-text text-white lh-lg">{{ event.description }}</p>
+                </div>
+                 
+                      
+                    <div class="h-200 w-100 mt-4">
+                        <img src="/images/coaching/{{ event.image }}" class="object-fit" alt="...">
+                    </div>
+                    
+                  
+                <div class="w-100 text-center">
+                    <a class="btn btn-light-brown w-310 text-white mt-2 text-uppercase fs-6 mt-4"
+                    href="{{ event.url }}"><b>Se mere</b></a>
+                </div>
+            </div>
+            
+            {% endfor %}
+        </div>
+    </div>
+    
+</div>

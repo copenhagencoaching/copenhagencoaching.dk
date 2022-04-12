@@ -10,6 +10,7 @@ $copper: #D9663E;
 $quick-silver: #aba39a;
 $silver-chalice: #B7B3B4;
 $three-brown: #443B39;
+$light-brown: #ABA39A;
 
 // blue colors
 $black-coral: #606a75;
@@ -57,7 +58,9 @@ $colors: ('eerie-black': $eerie-black,
   'three-brown': $three-brown,
   'army-green': $army-green,
   'navy-blue': $navy-blue,
-  'scandy-blue': $scandy-blue);
+  'scandy-blue': $scandy-blue,
+  'light-brown': $light-brown,
+  'white': white );
 
 
 
@@ -108,6 +111,11 @@ $colors: ('eerie-black': $eerie-black,
 
       &:hover {
         opacity: .7;
+      }
+      &.active {
+        border: 2px solid $color;
+        background: white !important;
+        color: #707070 !important;
       }
 
     }

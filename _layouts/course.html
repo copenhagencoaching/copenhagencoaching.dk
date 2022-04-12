@@ -1,0 +1,844 @@
+---
+layout: default
+---
+
+<div class="pt-5"
+    style="background: linear-gradient(rgba(19, 19, 19, 0.7), rgba(19, 19, 19, 0.7)), url('{{ page.image }}'); background-size: cover; background-position: center;">
+    <div class="py-5">
+        <div class="container-fluid text-center py-5">
+
+            <h1 class="text-white mb-1">{{ page.title }}</h1>
+
+            <div class="row">
+                <div class="col-12 offset-lg-3 col-lg-6">
+                    <hr class="white short-hr mx-auto">
+                    <p class="text-white mb-4">{{ page.description }}</p>
+
+                </div>
+
+            </div>
+            <a class="btn-beaver btn w-254 btn-bold fs-6 me-md-5 text-white h-50" data-proofer-ignore href="#community"
+                data-toggle="modal" data-target="#community-modal">Hent brochure</a>
+            <a class="btn-slate-gray text-white btn w-254 btn-bold fs-6 h-50" data-proofer-ignore href="#community"
+                data-toggle="modal" data-target="#community-modal">Kontakt underviseren</a>
+        </div>
+    </div>
+
+</div>
+
+<div class="container-fluid my-5" style="z-index: 1100;">
+    <div class="small-container">
+        <div>
+            <div class="row gx-4">
+
+                <div class="col">
+                    <a class="color-base" href="#overblik">
+                        <div class="bg-cadet-gray w-100 text-center py-2">
+                            <p class="mb-0 fs-6 text-white">Overblik</p>
+                        </div>
+                    </a>
+                </div>
+
+                {% if page.opbygning == true %}
+                <div class="col">
+                    <a class="color-base" href="#opbygning">
+                        <div class="bg-cadet-gray w-100 text-center py-2">
+                            <p class="mb-0 fs-6 text-white">Opbygning</p>
+                        </div>
+                    </a>
+                </div>
+
+                {% endif %}
+
+                {% if page.deltagerprofil == true %}
+                <div class="col">
+                    <a class="color-base" href="#deltagerprofil">
+                        <div class="bg-cadet-gray w-100 text-center py-2">
+                            <p class="mb-0 fs-6 text-white">Deltagerprofil</p>
+                        </div>
+                    </a>
+                </div>
+
+                {% endif %}
+
+                {% if page.anbefalinger == true %}
+                <div class="col">
+                    <a class="color-base" href="#anbefalinger">
+                        <div class="bg-cadet-gray w-100 text-center py-2">
+                            <p class="mb-0 fs-6 text-white">Anbefalinger</p>
+                        </div>
+                    </a>
+                </div>
+
+                {% endif %}
+
+
+                <div class="col">
+                    <a class="color-base" href="#undervisere">
+                        <div class="bg-cadet-gray w-100 text-center py-2">
+                            <p class="mb-0 fs-6 text-white">Undervisere</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col">
+                    <a class="color-base" href="#praktisk">
+                        <div class="bg-cadet-gray w-100 text-center py-2">
+                            <p class="mb-0 fs-6 text-white">Praktisk</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col">
+                    <a class="color-base" href="#ansøg">
+                        <div class="bg-cadet-gray w-100 text-center py-2">
+                            <p class="mb-0 fs-6 text-white">Ansøg</p>
+                        </div>
+                    </a>
+                </div>
+
+
+
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<div class="container-fluid mb-3 position-relative">
+    <div class="small-container">
+        <div id="overblik" class="anchor-delay"></div>
+        <div class="row g-5">
+            <div class="col-12 col-md-6">
+                <div class="h-100"
+                    style="background-image: url('{{ page.image }}'); background-position: top; background-size: cover;">
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                {% for text in page.overblik limit:1 %}
+                <h4>{{ text.overskrift }}</h4>
+                {% for p in text.paragrafer %}
+                <p>{{ p }}</p>
+                {% endfor %}
+                {% endfor %}
+            </div>
+            <div class="col-12 col-md-6">
+                {% for text in page.overblik offset:1 %}
+                <h4>{{ text.overskrift }}</h4>
+                {% for p in text.paragrafer %}
+                <p>{{ p }}</p>
+                {% endfor %}
+                {% endfor %}
+            </div>
+            <div class="col-12 col-md-6">
+                <p>{{ page.liste-paragraf }}</p>
+                <ul>
+                    {% for l in page.liste %}
+                    <li>{{ l }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% if page.kursus-oversigt == true %}
+<div class="container-fluid">
+    <div class="small-container">
+        <div class="bg-slate-gray px-5 py-4 mb-3">
+            <div class="row">
+                <div class="col-4 d-flex align-items-center">
+                    <h2 class="text-white mb-0">
+                        Kursus oversigt
+                    </h2>
+                </div>
+                <div class="col-4 d-flex align-items-center justify-items-end justify-content-end text-end">
+                    <p class="text-white mb-0 text-end"><b>{{ page.price }}</b></p>
+                </div>
+                <div class="col-2 d-flex align-items-center justify-items-end justify-content-end text-end">
+                    <p class="text-white mb-0"><b>{{ page.dage }} dage</b></p>
+                </div>
+                <div class="col-2 d-flex align-items-center justify-items-end justify-content-end text-end">
+                    <p class="text-white mb-0"><b>{{ page.moduler }} moduler</b></p>
+                </div>
+            </div>
+        </div>
+        <div class="accordion white-arrow" id="accordionPanelsStayOpenExample">
+            {% for semester in page.hold %}
+            <div class="accordion-item border-none mb-2">
+                <div class="accordion-header d-none d-lg-block" id="heading{{ forloop.index }}">
+                    <button
+                        class="accordion-button {% if forloop.index == 1 %} {% else %} collapsed{% endif %} px-5 py-3 bg-quick-silver"
+                        type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{ forloop.index }}"
+                        aria-expanded="true" aria-controls="collapse{{ forloop.index }}">
+
+                        <div class="row gx-0 w-100">
+                            <div class="col-md-4 col-12">
+                                <p class="mb-0 text-uppercase fw-bold text-white">{{ semester.title }}</p>
+                            </div>
+                            <div class="col-md-4 col-12">
+                                <p class="mb-0 text-uppercase fw-bold text-white">{{ semester.dates }}</p>
+                            </div>
+                            <div class="col-md-4 col-12">
+                                <p class="mb-0 text-uppercase fw-bold text-white">{{ semester.price }}</p>
+                            </div>
+                        </div>
+                    </button>
+                </div>
+
+                <!-- darker one -->
+                <div class="accordion-header border-none d-sm-block d-md-none" id="heading{{ forloop.index }}">
+                    <button
+                        class="accordion-button white border-none {% if forloop.index == 1 %} {% else %} collapsed{% endif %} px-5 py-3 bg-platinum"
+                        type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{ forloop.index }}"
+                        aria-expanded="true" aria-controls="collapse{{ forloop.index }}">
+
+                        <div class="row gx-0 w-100">
+                            <div class="col-md-4 col-12">
+                                <p class="mb-0 text-uppercase text-white">{{ semester.title }}</p>
+                            </div>
+                            <div class="col-md-4 col-12">
+                                <p class="mb-0 text-uppercase text-white">{{ semester.dates }}</p>
+                            </div>
+                            <div class="col-md-4 col-12">
+                                <p class="mb-0 text-uppercase text-white">{{ semester.price }}</p>
+                            </div>
+                        </div>
+                    </button>
+                </div>
+                <div id="collapse{{ forloop.index }}"
+                    class="accordion-collapse collapse {% if forloop.index == 1 %} show{% else %}{% endif %} "
+                    aria-labelledby="heading{{ forloop.index }}">
+                    <div class="accordion-body p-0">
+                        <div class="bg-platinum pt-3 ps-3 pe-3 d-none d-lg-block">
+                            <div class="row ms-4">
+                                <div class="col-md-2 col-6">
+                                    <p class="fw-bold">
+                                        Dato
+                                    </p>
+                                </div>
+                                <div class="col-md-2 col-6">
+                                    <p class="fw-bold">
+                                        Dag
+                                    </p>
+                                </div>
+                                <div class="col-md-2 col-6">
+                                    <p class="fw-bold">
+                                        Tid
+                                    </p>
+                                </div>
+                                <div class="col-md-3 col-6">
+                                    <p class="fw-bold">
+                                        Modul
+                                    </p>
+                                </div>
+                                <div class="col-md-1 col-6">
+                                    <p class="fw-bold">
+                                        Sted
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        {% for module in semester.modules %}
+                        {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+                        <div class="pt-3 ps-3 pe-3{% if thecycle == 'even' %} bg-platinum{% endif %}">
+                            <div class="row ms-4">
+                                <div class="col-md-2 col-6">
+                                    <p>
+                                        {{ module.date }}
+                                    </p>
+                                </div>
+                                <div class="col-md-2 col-6 d-none d-lg-block">
+                                    <p>
+                                        {{ module.day }}
+                                    </p>
+                                </div>
+                                <div class="col-md-2 col-6 d-none d-lg-block">
+                                    <p>
+                                        {{ module.time }}
+                                    </p>
+                                </div>
+                                <div class="col-md-3 col-6">
+                                    <p>
+                                        {{ module.name }}
+                                    </p>
+                                </div>
+                                <div class="col-md-1 col-6">
+                                    <p>
+                                        {{ module.place }}
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        {% endfor %}
+
+                    </div>
+                </div>
+            </div>
+
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endif %}
+
+<div class="container-fluid my-5 pt-5">
+    <div class="small-container position-relative">
+        <div id="undervisere" class="anchor-delay"></div>
+        <h2>Undervisere</h2>
+        {% if page.undervisere-text == true %}
+        <p>{{ page.undervisere-paragraf }}</p>
+        {% endif %}
+
+
+    </div>
+</div>
+
+<div class="bg-black-coral">
+    <div class="container-fluid py-5">
+        <div class="small-container">
+            <div class="row g-5">
+                {% for underviser in page.undervisere %}
+                {% for employee in site.employees %}
+                {% if employee.title == underviser %}
+                <div class="col-12 col-lg-6">
+
+                    <div class="d-flex align-items-center">
+                        <div class="flex-shrink-0">
+                            <img class="small-image-148 rounded-circle" src="{{ employee.small-portrait-image }}"
+                                alt="{{ employee.title }}, {{ employee.description}}">
+                        </div>
+                        <div class="flex-grow-1 ms-3">
+
+
+                            <p class="text-white mb-1 fw-bold fs-5"><a href="{{ employee.url }}" data-proofer-ignore>{{
+                                    employee.title }}</a><br></p>
+
+                            {% for e in employee.edu %}
+                            <p class="text-white {% if forloop.last != true %}mb-0{% endif %}">{{ e }}</p>
+                            {% endfor %}
+                            <p class="text-white mb-0"> <a href="mailto:{{ employee.email }}" data-proofer-ignore>{{
+                                    employee.email
+                                    }}</a></p>
+
+
+                        </div>
+                    </div>
+                </div>
+                {% endif %}
+                {% endfor %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="container-fluid">
+    <div class="small-container">
+        <div class="bg-platinum p-5 mt-5">
+            <div class="row gx-5">
+                <div class="col-12 col-lg-6">
+                    <h4 class="text-uppercase">Skal vi tales ved?</h4>
+                    <p>Indtast navn og telefonnummer og en af vores undervisere ringer dig op inden for 24 timer.</p>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <form id="tlf-coffee-form" action="https://formspree.io/f/xyyoddyz" method="POST">
+                        <div class="row gy-3" id="coffee">
+                            <div class="col-md-6 col-12">
+                                <input type="text" class="form-control" placeholder="Navn" aria-label="Navn"
+                                    name="navn">
+                            </div>
+                            <input type="hidden" name="I-forbindelse-med" value="{{ page.title }}">
+                            <input type="hidden" name="henvendelse" value="Jeg vil gerne ringes op">
+                            <div class="col-md-6 col-12">
+                                <input type="text" class="form-control" placeholder="Tlf. nr."
+                                    aria-label="telefonnummer" name="tlf. nr.">
+                            </div>
+                            <div class="col-12">
+                                <button class="btn btn-opal w-100 my-0">Ring til mig</button>
+                            </div>
+
+                        </div>
+                        <p id="my-form-coffee-status" class="text-white mt-3 bg-xanadu p-2 d-none"></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid p-5">
+    <div class="small-container position-relative">
+        <div id="praktisk" class="anchor-delay"></div>
+        <div class="d-flex align-items-start">
+            <div class="nav flex-column nav-pills me-4" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <button class="mt-0 text-white btn btn-cadet-gray active mb-1" id="v-pills-home-tab"
+                    data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab"
+                    aria-controls="v-pills-home" aria-selected="true">Undervisningssted</button>
+                <button class="mt-2 text-white btn btn-cadet-gray mb-1" id="v-pills-profile-tab" data-bs-toggle="pill"
+                    data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile"
+                    aria-selected="false">Pris og finansirering</button>
+                <button class="mt-2 text-white btn btn-cadet-gray mb-1" id="v-pills-messages-tab" data-bs-toggle="pill"
+                    data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages"
+                    aria-selected="false">Adganskrav</button>
+
+            </div>
+            <div class="tab-content" id="v-pills-tabContent">
+                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                    aria-labelledby="v-pills-home-tab">
+
+                    <p><b>{{ page.location }}</b></p>
+                    {% if page.kort == true %}
+
+                    {{ page.kort-kode }}
+                    {% endif %}
+                </div>
+                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                    <p><b>Prisen er {{ page.price }}</b></p>
+
+                </div>
+                <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="small-container">
+        <div id="ansøg" class="anchor-delay"></div>
+        <h2 class="mb-4">Ansøg</h2>
+        <p>Når du tilmelder dig en af vores uddannelser via formularen nedenfor, ender din
+            tilmelding i en sikret emailboks, som kun én medarbejder i CCC har adgang til. Derefter gemmes din data i
+            vores kundedatabase, som også er en sikker database efter de nye GDPR regler.
+        </p>
+        <p>
+            Vi bruger udelukkende dine kontaktoplysninger til at tage kontakt til dig vedrørende din tilmelding, og
+            dine
+            faktureringsdata til at sende dig en faktura. Ved at tilmelde dig en uddannelse siger du ikke automatisk
+            ja
+            til at modtage nyhedsmails eller andet materiale fra os. Dette skal klikkes af manuelt.
+        </p>
+        <p>
+            Skulle du have spørgsmål til din tilmelding, er du meget velkommen til at kontakte os på
+            <a href="mailto:info@copenhagencoaching.dk">info@copenhagencoaching.dk</a> eller kontakte os direkte på
+            tlf.
+            : + 45 40 14 92 92.
+        </p>
+        <p class="fw-bold">
+            Vi glæder os til at høre fra dig, tak for din interesse!
+        </p>
+
+        <div class="bg-platinum py-5 mb-5">
+            <form action="https://formspree.io/f/mzbyzbyg" method="POST" enctype="multipart/form-data"
+                style="max-width: 600px;" class="mx-auto special-form" id="udd-tilmelding">
+                <div class="row mt-3 gy-4 gx-5 inder-form" id="inner-form">
+                    {% if page.aktive-hold == true %}
+                    <div class="col-12">
+                        <input type="hidden" name="uddannelse" value="{{ page.title }}">
+                        <select class="form-select udd mbc-hold mb-3" id="hold" name="hold">
+                            <option value="hold">Vælg hold</option>
+
+                            {% for hold in page.hold %}
+
+
+                            <option value="{{ hold.title }}">{{ hold.title }}</option>
+
+                            {% endfor %}
+
+
+                        </select>
+
+                    </div>
+                    {% endif %}
+
+                    <div class="col-md-6 col-12">
+
+                        <input type="text" class="form-control w-100" placeholder="Fornavn" aria-label="fornavn"
+                            name="fornavn">
+
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <input type="text" class="form-control w-100" placeholder="Efternavn" aria-label="efternavn"
+                            name="efternavn">
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <input type="text" class="form-control w-100" placeholder="Email" aria-label="email"
+                            name="email">
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <input type="text" class="form-control w-100" placeholder="Virksomhed" aria-label="virksomhed"
+                            name="virksomhed">
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <p class="fw-bold mt-2 mb-0">Hvem skal betale?</p>
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input pri" type="radio" name="betaling" id="inlineRadio1"
+                                value="privat" checked>
+                            <label class="form-check-label" for="inlineRadio1">Privat</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input virk" type="radio" name="betaling" id="inlineRadio2"
+                                value="virksomhed">
+                            <label class="form-check-label" for="inlineRadio2">Virksomhed</label>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-12 col-md-6 d-none virk-box">
+                        <input type="text" name="cvr" id="cvr" class="form-control" placeholder="CVR nummer">
+                    </div>
+                    <div class="col-12 col-md-6 d-none virk-box-2">
+                        <input class="form-control" type="text" name="ean" placeholder="EAN">
+                    </div>
+
+
+
+                    <div class="col-md-6 col-12">
+                        <input type="text" class="form-control w-100" placeholder="Faktureringsadresse"
+                            aria-label="adresse" name="faktureringsadresse">
+
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <input type="text" class="form-control w-100" placeholder="Postnummer" aria-label="postnummer"
+                            name="postnummer">
+
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <input type="text" class="form-control w-100" placeholder="Arb. telefon"
+                            aria-label="arb-telefon" name="arb-telefon">
+
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <input type="text" class="form-control w-100" placeholder="Mobil" aria-label="mobil"
+                            name="mobil">
+
+                    </div>
+                    <div class="col-12">
+                        <textarea class="form-control w-100" placeholder="Evt. kommentarer" aria-label="kommentarer"
+                            name="kommentarer"></textarea>
+
+                    </div>
+                    {% if page.title == "Psykologisk filosofisk psykoterapeut-uddannelse" %}
+
+                    <div class="col-12">
+                        <p class="fw-bold mt-2 mb-0">Uddannelsesmæssig baggrund:</p>
+                        <p class="mb-0"><i>Skriv venligst dine formelle uddannelser</i></p>
+                        <textarea class="form-control w-100" aria-label="Ud-bag" name="uddannelses baggrund"></textarea>
+                    </div>
+
+                    <div class="col-12">
+                        <p class="fw-bold mt-2 mb-0">Relevante kurser og efteruddannelser</p>
+                        <p class="mb-0"><i>Herunder registrerede alternative uddannelser</i></p>
+                        <textarea class="form-control w-100" aria-label="rel-kurser" name="relevante kurser"></textarea>
+                    </div>
+
+                    <div class="col-12">
+                        <p class="fw-bold mt-2 mb-0">Relevant livs- og erhvervserfaring:</p>
+                        <p class="mb-0"><i>Enhver form for arbejde med menneskelig kontakt og ansvar for andre
+                                mennesker. f.eks. ledelse, HR, tillidsehverv, ansvarlig for lærlinge/elever. Frivilligt
+                                socialt arbejde spejderleder, fodboldtræner eller lignende.</i></p>
+                        <textarea class="form-control w-100" aria-label="rel-kurser" name="erfarring"></textarea>
+                    </div>
+
+                    <div class="col-12">
+                        <p class="fw-bold mt-2 mb-0">Relevant livs- og erhvervserfaring:</p>
+                        <p class="mb-0"><i>Enhver form for arbejde med menneskelig kontakt og ansvar for andre
+                                mennesker. f.eks. ledelse, HR, tillidsehverv, ansvarlig for lærlinge/elever. Frivilligt
+                                socialt arbejde spejderleder, fodboldtræner eller lignende.</i></p>
+                        <textarea class="form-control w-100" aria-label="rel-kurser" name="erfarring"></textarea>
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <p class="fw-bold mb-2">Egen-terapi:</p>
+
+                        <div class="form-check mb-1">
+                            <input class="form-check-input" name="egenterapi" type="radio" id="ja-terapi" value="ja">
+                            <label class="form-check-label d-inline" for="ja-terapi">
+                                <p class="mb-0">Ja</p>
+                            </label>
+                        </div>
+                        <div class="form-check mb-1">
+                            <input class="form-check-input" name="egenterapi" type="radio" id="nej-terapi" value="nej">
+                            <label class="form-check-label d-inline" for="nej-terapi">
+                                <p class="mb-0">Nej</p>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <p class="fw-bold mb-2">Terapigrupper:</p>
+
+                        <div class="form-check mb-1">
+                            <input class="form-check-input" name="gruppeterapi" type="radio" id="ja-terapi-gr"
+                                value="ja">
+                            <label class="form-check-label d-inline" for="ja-terapi-gr">
+                                <p class="mb-0">Ja</p>
+                            </label>
+                        </div>
+                        <div class="form-check mb-1">
+                            <input class="form-check-input" name="gruppeterapi" type="radio" id="nej-terapi-gr"
+                                value="nej">
+                            <label class="form-check-label d-inline" for="nej-terapi-gr">
+                                <p class="mb-0">Nej</p>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <p class="fw-bold mb-2">Jeg søger optagelse via:</p>
+
+                        <div class="form-check mb-1">
+                            <input class="form-check-input" name="kvote" type="radio" id="kvote-1" value="ja">
+                            <label class="form-check-label d-inline" for="kvote-1">
+                                <p class="mb-0">§1</p>
+                            </label>
+                        </div>
+                        <div class="form-check mb-1">
+                            <input class="form-check-input" name="kvote" type="radio" id="kvote-2" value="nej">
+                            <label class="form-check-label d-inline" for="kvote-2">
+                                <p class="mb-0">§2</p>
+                            </label>
+                        </div>
+                        <div class="form-check mb-1">
+                            <input class="form-check-input" name="kvote" type="radio" id="kvote-3" value="nej">
+                            <label class="form-check-label d-inline" for="kvote-3">
+                                <p class="mb-0">§3</p>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <p class="fw-bold mb-0">Merit</p>
+                        <p class="mb-0 small"><i>Jeg søger meritoverførsel fra anden tilsvarende psykoterapeutuddannelse
+                            </i></p>
+                        <div class="form-check mb-1">
+                            <input class="form-check-input" name="merit" type="radio" id="merit-ja" value="ja">
+                            <label class="form-check-label d-inline" for="merit-ja">
+                                <p class="mb-0">Ja</p>
+                            </label>
+                        </div>
+                        <div class="form-check mb-1">
+                            <input class="form-check-input" name="merit" type="radio" id="merit-nej" value="nej">
+                            <label class="form-check-label d-inline" for="merit-nej">
+                                <p class="mb-0">Nej</p>
+                            </label>
+                        </div>
+
+                    </div>
+
+                    {% endif %}
+
+                    <div class="col-12">
+                        <label class="mb-1" for="file">
+                            <p class="fw-bold mb-0 mt-4">Vedhæft relevante dokumenter</p>
+                        </label>
+                        <p class="small muted mb-1">Vælg op til 10 filer</p>
+                        <input id="file" class="form-control mb-4" type="file" name="upload"
+                            accept=".doc,.docx,.pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+                            multiple>
+                    </div>
+
+                    <div class="col-12 col-md-6">
+
+                        <p class="fw-bold mb-2">Hvor har du hørt om os?:</p>
+
+                        <div class="form-check mb-1">
+                            <input class="form-check-input" name="kilde" type="checkbox" id="google" value="google">
+                            <label class="form-check-label d-inline" for="google">
+                                <p class="mb-0">Google</p>
+                            </label>
+                        </div>
+                        <div class="form-check mb-1">
+                            <input class="form-check-input" name="kilde" type="checkbox" id="Facebook" value="Facebook">
+                            <label class="form-check-label d-inline" for="Facebook">
+                                <p class="mb-0">Facebook</p>
+                            </label>
+                        </div>
+                        <div class="form-check mb-1">
+                            <input class="form-check-input" name="kilde" type="checkbox" id="Instagram"
+                                value="Instagram">
+                            <label class="form-check-label d-inline" for="Instagram">
+                                <p class="mb-0">Instagram </p>
+                            </label>
+                        </div>
+                        <div class="form-check mb-1">
+                            <input class="form-check-input" name="kilde" type="checkbox" id="LinkedIn" value="LinkedIn">
+                            <label class="form-check-label d-inline" for="LinkedIn">
+                                <p class="mb-0">LinkedIn</p>
+                            </label>
+                        </div>
+                        <div class="form-check mb-1">
+                            <input class="form-check-input" name="kilde" type="checkbox" id="anbefaling"
+                                value="anbefaling">
+                            <label class="form-check-label d-inline" for="anbefaling">
+                                <p class="mb-0">Anbefaling fra andre<br></p>
+                            </label>
+                        </div>
+                        <div class="form-check mb-0">
+                            <input class="form-check-input" name="kilde" type="checkbox" id="Andet" value="Andet">
+                            <label class="form-check-label d-inline" for="Andet">
+                                <p class="mb-0">Andet</p>
+                            </label>
+                        </div>
+
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="form-check mb-4">
+                            <input class="form-check-input" name="_optin" type="checkbox" id="newsletter">
+                            <label class="form-check-label" for="newsletter">
+                                <p class="small mb-0">Ja tak, jeg vil gerne modtage CCC's nyhedsbrev.</p>
+                            </label>
+                        </div>
+                        <div class="form-check mb-0">
+                            <input class="form-check-input" name="samtykke" type="checkbox" id="samtykke" required>
+                            <label class="form-check-label" for="samtykke">
+                                <p class="small mb-0">Jeg giver samtykke til, at CCC må bruge mine oplysninger til at
+                                    behandle min
+                                    ansøgning. Derudover giver jeg samtykke til, at CCC opbevarer og behandler mine
+                                    persondata som er
+                                    beskrevet i <a target="_blank" href="/privatlivspolitik/">CCC's
+                                        privatlivspolitik</a>.</p>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <button class="w-100 btn-opal text-white btn mb-3" type="submit">Ansøg</button>
+                    </div>
+                </div>
+                <div class="d-none message-form-udd" id="form-message-udd">
+                    <h2>Tak for din tilmelding/ansøgning til {{ page.title }}</h2>
+                    <p>En bekræftelse er sendt til din mail</p>
+                    <p class="fw-bold">OBS: Vi oplever tit at automatiserede mails bliver markeret som spam, så vi
+                        opfordrer til at tjekke spam-indbakken og evt. markere info@copenhagencoaching.dk som sikker
+                        afsender i Outlook eller andre mail programmer.</p>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+{% for employee in site.employees %}
+{% if employee.title == page.contact-person %}
+<div class="container-fluid my-5">
+    <div class="small-container">
+        <div class="row">
+
+            <div class="col-md-7 col-12">
+
+
+
+                <div class="d-flex h-100 justify-content-center align-items-center bg-black-coral rounded p-3">
+                    <div>
+
+                        <p class="large text-white"><b>Har du spørgsmål til
+                                uddannelsen?</b> Kontakt {{ employee.title }} nedenfor. Vi glæder os til at
+                            besvare
+                            dine
+                            spørgsmål.</p>
+
+                        <div class="d-flex justify-content-end">
+                            <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0">
+                                    <p class="text-end mb-0 text-white"><b><a href="{{ employee.url }}"
+                                                data-proofer-ignore>{{
+                                                employee.title }}</a></b><br>
+
+                                        <a href="tel:{{ employee.call }}" data-proofer-ignore>+45 {{
+                                            employee.call
+                                            }}</a><br>
+                                        <a href="mailto:{{ employee.email }}" data-proofer-ignore>{{
+                                            employee.email
+                                            }}</a>
+                                    </p>
+                                </div>
+                                <div class="flex-grow-1 ms-3">
+                                    <img class="small-image rounded-circle" src="{{ employee.small-portrait-image }}"
+                                        alt="{{ employee.title }}, {{ employee.description}}">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-md-5 col-12">
+                <div class="d-flex h-100 justify-content-center align-items-center text-center rounded p-5"
+                    style="background: linear-gradient(rgba(19, 19, 19, 0.6), rgba(19, 19, 19, 0.6)), url('/images/graphic/mennesker.jpg'); background-position: center; background-size: cover;">
+                    <div>
+                        <h4 class="text-white text-center">Interesseret i andre uddannelser?</h4>
+                        <br>
+                        <b><a class="btn-spanish-gray text-white text-center text-white btn mt-0 mx-auto"
+                                href="/academy/">Se
+                                mere <i class="fas fa-arrow-right text-white ms-2"></i></a></b>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+</div>
+
+
+
+
+{% endif %}
+{% endfor %}
+
+<script>
+  var form = document.getElementById("udd-tilmelding");
+    
+    async function handleSubmit(event) {
+      event.preventDefault();
+      var status = document.getElementById("form-message-udd");
+      var data = new FormData(event.target);
+      fetch(event.target.action, {
+        method: form.method,
+        body: data,
+        headers: {
+            'Accept': 'application/json'
+        }
+      }).then(response => {
+        if (response.ok) {
+            $('.inder-form').addClass("d-none")
+            $('.message-form-udd').removeClass("d-none")
+          form.reset()
+        } else {
+          response.json().then(data => {
+            if (Object.hasOwn(data, 'errors')) {
+              status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+            } else {
+              status.innerHTML = "Oops! There was a problem submitting your form"
+            }
+          })
+        }
+      }).catch(error => {
+        status.innerHTML = "Oops! There was a problem submitting your form"
+      });
+    }
+    form.addEventListener("submit", handleSubmit)
+</script>
+
+<script>
+    $(document).on("click", ".pri", function () {
+        $('.virk-box').addClass("d-none")
+        $('.virk-box-2').addClass("d-none")
+
+    });
+
+
+    $(document).on("click", ".virk", function () {
+        $('.virk-box').removeClass("d-none")
+        $('.virk-box-2').removeClass("d-none")
+    });
+</script>

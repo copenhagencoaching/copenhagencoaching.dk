@@ -36,3 +36,91 @@ textarea {
     z-index: -999999;
     opacity: 0;
 }
+
+.special-form {
+
+    input[type='text'],
+    input[type='text']:focus,
+    input[type='text']:active,
+    input[type='radio'],
+    input[type='radio']:focus,
+    input[type='radio']:active,
+    textarea,
+    textarea:focus,
+    textarea:active,
+    select,
+    select:focus,
+    select:active {
+        background: none;
+        border-left: 0;
+        border-top: 0;
+        border-right: 0;
+        border-bottom: #707070 solid 1px;
+        box-shadow: none;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    input[type='radio']:after {
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: #ffffff;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid rgb(210, 210, 210);
+        margin-top: 4px;
+    }
+
+    input[type='radio']:checked:after {
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: #2e2e2e;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid rgb(210, 210, 210);
+        border: 2px solid white;
+        margin-top: 4px;
+    }
+
+    textarea:hover,
+    input[type='text']:hover,
+    input[type='radio']:hover,
+    textarea:active,
+    input[type='text']:active,
+    input[type='radio']:active,
+    textarea:focus,
+    input[type='text']:focus,
+    input[type='radio']:focus,
+    label:focus,
+    textarea:focus,
+    textarea:hover,
+    textarea:active,
+    select,
+    select:focus,
+    select:active {
+        outline: 0px !important;
+        -webkit-appearance: none !important;
+        box-shadow: none !important;
+        border-left: 0 !important;
+        border-top: 0 !important;
+        border-right: 0 !important;
+        border-bottom: #707070 solid 1px !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    input[type='radio'].form-check-input:checked {
+        background-color: #0d6dfd00;
+        border-color: #0d6dfd00; 
+    }
+}

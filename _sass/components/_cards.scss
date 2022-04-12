@@ -15,6 +15,13 @@
     .card-body {
         background-color: transparent !important;
     }
+    .card-body.bg-white {
+        background-color: white;
+    }
+}
+
+.card.box-shadow {
+    box-shadow: 0px 3px 20px #00000029;
 }
 
 .card.card-large {
@@ -39,4 +46,61 @@
 .h-100p {
     height: 100px;
     width: auto;
+}
+
+// heights
+
+// min heights
+
+.mh-100px {
+    min-height: 100px;
+}
+.mh-150px {
+    min-height: 150px;
+}
+.mh-200 {
+    min-height: 200px;
+}
+.mh-300 {
+    min-height: 300px;
+}
+.mh-400 {
+    min-height: 400px;
+}
+.mh-500 {
+    min-height: 500px;
+}
+.mh-600 {
+    min-height: 600px;
+}
+.mh-700 {
+    min-height: 700px;
+}
+
+// heights
+
+
+.h-100px {
+    height: 100px;
+}
+.h-150px {
+    height: 150px;
+}
+.h-200 {
+    height: 200px;
+}
+.m-300 {
+    height: 300px;
+}
+.h-400 {
+    height: 400px;
+}
+.h-500 {
+    height: 500px;
+}
+.h-600 {
+    height: 600px;
+}
+.h-700 {
+    height: 700px;
 }

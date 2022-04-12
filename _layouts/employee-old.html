@@ -1,0 +1,75 @@
+---
+layout: default
+---
+
+<div class="bg-black-coral">
+    <div class="container-fluid py-5">
+        <div class="row pt-5">
+            <div class="offset-xl-3 col-xl-6 col-12 pt-5">
+                <div class="row gy-4">
+                    <div class="col-sm-6 col-12 text-end text-xl-start">
+                        <img src="{{ page.grey-portrait }}" class="img-fluid rounded-circle"
+                            alt="Billede af {{ page.title }}, {{ employee.description}}">
+                    </div>
+                    <div class="col-sm-6 col-12 d-flex align-items-center">
+                        <div>
+                            <h2 class="mb-1 text-white">{{ page.title }}</h2>
+                            <p class="mb-3 text-white">{{ page.description }}</p>
+                            {% if page.call %}
+                            
+                            <p class="fs-6 text-white"> <a data-proofer-ignore class="d-flex align-items-center"
+                                    href="tel:+45{{ page.call }}" onclick="gtag('event','click', { 'event_category':'tlf klik', 'event_label':'tlf medarbejder' })"><i
+                                        class="fas dust-blue text-white opacity-75 fa-phone fs-4 pe-3"></i> {{
+                                    page.call
+                                    }}</a> </p>
+
+                            {% endif %}
+                            <p class="fs-6 text-white"><a data-proofer-ignore class="d-flex align-items-center"
+                                    href="mailto:{{ page.email }}"><i
+                                        class="fas text-white opacity-75 dust-blue fa-envelope fs-4 pe-3"></i>
+                                    {{
+                                    page.email
+                                    }}</a> </p>
+
+
+                            <a data-proofer-ignore href="{{ page.linkedin }}" target="_blank"><img width="100"
+                                    src="/images/graphic/LI-Logo.png" alt=""></a>
+
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="bg-platinum">
+
+    <div class="container-fluid py-5">
+        <div class="row">
+            <div class="offset-xl-3 col-xl-6 col-12">
+
+                {{ page.content }}
+
+                <a class='animated-arrow' href='/about/'>
+                    <span class='the-arrow -left rotated'>
+                        <span class='shaft'></span>
+                    </span>
+                    <span class='main'>
+                        <span class='text'>
+                            <p class="pt-4">
+                                Tilbage til Om os
+                            </p>
+                        </span>
+                        <span class='the-arrow -right rotated'>
+                            <span class='shaft'></span>
+                        </span>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

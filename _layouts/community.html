@@ -3,21 +3,24 @@ layout: default
 ---
 
 <div class="pt-5"
-  style="background: linear-gradient(rgba(19, 19, 19, 0.6), rgba(19, 19, 19, 0.6)), url('/images/community/community.jpg'); background-size: cover; background-position: center;">
+  style="background: linear-gradient(rgba(19, 19, 19, 0.7), rgba(19, 19, 19, 0.7)), url('/images/community/community-banner.png'); background-size: cover; background-position: center;">
   <div class="py-5">
     <div class="container-fluid text-center py-5">
-      <p class="text-white bold">Bliv medlem af</p>
-      <h1 class="text-white mb-3">{{ page.title }}</h1>
+
+      <h1 class="text-white mb-1">{{ page.title }}</h1>
 
       <div class="row">
         <div class="col-12 offset-lg-3 col-lg-6">
-          <hr class="white">
-          <p class="text-white lead mb-4">{{ page.description }}</p>
-          <a class="btn-navy-blue fs-5 text-white btn text-uppercase" data-proofer-ignore href="#community" data-toggle="modal"
-            data-target="#community-modal"><b>Tilmeld</b></a>
+          <hr class="white short-hr mx-auto">
+          <p class="text-white mb-4">{{ page.description }}</p>
+        
         </div>
-      </div>
 
+      </div>
+      <a class="btn-opal btn text-uppercase w-310 btn-bold fs-6 me-md-5" data-proofer-ignore href="#community"
+      data-toggle="modal" data-target="#community-modal">Tilmeld</a>
+    <a class="btn-light-brown text-white btn text-uppercase w-310 btn-bold fs-6" data-proofer-ignore
+      href="#community" data-toggle="modal" data-target="#community-modal">Hør mere</a>
     </div>
   </div>
 
@@ -28,41 +31,120 @@ layout: default
   <div class="row gx-5">
     <div class="col-12 col-md-6">
       <div class="h-100"
-        style="background-image: url('/images/consulting/c4.jpg'); background-position: center; background-size: cover;">
+        style="background-image: url('/images/graphic/pfp-2.png'); background-position: top; background-size: cover;">
       </div>
     </div>
-    <div class="col-12 col-md-6">
+    <div class="col-12 col-md-6 l-text">
       {{ page.content }}
 
     </div>
   </div>
 
+  <div class="row mt-lg-5 mt-3 gx-5 gy-5 gy-lg-0">
+    <div class="col-12 col-lg-6">
+      <div class="p-5 bg-light-brown w-100 text-white">
+        <h2 class="text-white">Fordele</h2>
+        <p class="text-white fs-6">Som medlem får du gratis adgang til en lang række gå-hjem møder og arrangementer hos
+          os, samt
+          adgang til:</p>
+
+        <ul class="text-white ps-3">
+          <li class="text-white">Netværk, inspiration og supervison på min. 3 årlige træningsaftener</li>
+          <li class="text-white">Min. to faglige arrangementer årligt</li>
+          <li class="text-white">1 gratis eksemplar af nye CCC-udgivelser</li>
+          <li class="text-white">Op til 10 årlige nyhedsbreve</li>
+          <li class="text-white">15% rabat på events, eksklusive arrangementer og udvalgte kurser</li>
+        </ul>
+        <p class="fs-6 text-white"><b>Årligt kontingent: Kr. 2500,- ekskl. moms</b></p>
+      </div>
+
+    </div>
+    <div class="col-12 col-lg-6">
+      <div class="p-5 bg-cadet-gray w-100 text-white text-center h-100">
+        <h2 class="text-white">Tilmeld dig vores nyhedsbrev</h2>
+        <p class="fs-6 text-white">Og modtag information og tilbud om vores kommende uddannelser, kurser og events, samt
+          andre inspirerende nyheder fra CCC.</p>
+
+          <form id="newsletter-form" action="https://formspree.io/f/xlezwlkg" method="POST">
+            <div class="row mt-3 gy-md-0 gy-3" id="inner-form">
+                <div class="col-md-6 col-12">
+                    <input type="text" class="form-control" placeholder="Navn" aria-label="Navn" name="name"
+                        required>
+                </div>
+
+                <div class="col-md-6 col-12">
+                    <input type="text" class="form-control" placeholder="E-mail" aria-label="Email" name="email"
+                        required>
+                </div>
+               
+                <div class="col-12 text-center">
+                    <div class="form-check my-3 form-check-inline">
+                        <input class="form-check-input mt-1" type="checkbox" name="_optin" id="gridCheck" required>
+                        <label class="form-check-label text-white" for="gridCheck">
+                            Jeg giver hermed samtykke til at CCC må overøføre mine angivede oplysninger til
+                            meilchimp.
+                        </label>
+                    </div>
+                </div>
+                <div class="col-12">
+                  <button class="btn btn-beaver w-310 my-0 text-white btn-bold">Tilmeld nyhedsbrev</button>
+              </div>
+
+
+            </div>
+            <p id="newsletter-mes" class="text-white mt-3 bg-xanadu p-2 d-none text-center"></p>
+        </form>
+      </div>
+
+    </div>
+  </div>
+
 
 </div>
 
-<div class="container-fluid">
+<div class="container-fluid text-center">
   <h2>Kommende arrangementer</h2>
   <div class="d-md-none">
     <hr>
   </div>
 </div>
-{% include sections/events.html %}
+<div class="pt-3"></div>
+{% include sections/events-2.html %}
 
-<div class="bg-platinum">
-  <div class="container-fluid py-5">
 
-    <h2>Fordele</h2>
-    <p class="large">Som medlem får du gratis adgang til en lang række gå-hjem møder og arrangementer hos os, samt
-      adgang til:</p>
 
-    <ul>
-      <li>Netværk, inspiration og supervison på min. 3 årlige træningsaftener</li>
-      <li>Min. to faglige arrangementer årligt</li>
-      <li>1 gratis eksemplar af nye CCC-udgivelser</li>
-      <li>Op til 10 årlige nyhedsbreve</li>
-      <li>15% rabat på events, eksklusive arrangementer og udvalgte kurser</li>
-    </ul>
-    <p class="large"><b>Årligt kontingent: Kr. 2500,- ekskl. moms</b></p>
-  </div>
+<script>
+  var form = document.getElementById("newsletter-form");
+  var inner_form = document.getElementById("inner-form");
 
-</div>
+  async function handleSubmit(event) {
+      event.preventDefault();
+      var status = document.getElementById("newsletter-mes");
+      var data = new FormData(event.target);
+      fetch(event.target.action, {
+          method: form.method,
+          body: data,
+          headers: {
+              'Accept': 'application/json'
+          }
+      }).then(response => {
+          if (response.ok) {
+              status.innerHTML = "Tak for din tilmelding til vores nyhedsbrev. Du vil snarrest modtage en e-mail med link til bekræftelse af din tilmelding.";
+              inner_form.className = "d-none"
+              status.classList.remove("d-none")
+              form.reset()
+          } else {
+              response.json().then(data => {
+                  if (Object.hasOwn(data, 'errors')) {
+                      status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+                  } else {
+                      status.innerHTML = "Oops! There was a problem submitting your form"
+                  }
+              })
+          }
+      }).catch(error => {
+          status.innerHTML = "Oops! There was a problem submitting your form"
+      });
+  }
+  form.addEventListener("submit", handleSubmit)
+</script>

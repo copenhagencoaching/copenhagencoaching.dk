@@ -21,6 +21,10 @@ i {
     color: #707070;
 }
 
+a.color-base {
+    color: #707070;
+}
+
 .l-text {
 
     p,
@@ -29,6 +33,10 @@ i {
         font-size: 17px !important;
     }
 
+}
+
+hr.short-hr {
+    max-width: 477px;
 }
 
 hr.white {
@@ -104,4 +112,10 @@ body {
     
         font-weight: bold;
     
+  }
+
+  .anchor-delay {
+      position: absolute;
+      top: -60px;
+      z-index: 0;
   }

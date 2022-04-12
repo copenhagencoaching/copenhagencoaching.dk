@@ -5,7 +5,6 @@ page: frontpage
 order: 4
 image: /images/frontpage/fp-6.png
 link: /academy/certificering-i-big-five/
-text-message: Start den 25. februar 2022
 ---
 
 

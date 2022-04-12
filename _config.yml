@@ -136,7 +136,7 @@ defaults:
     scope:
       type: employees
     values:
-      layout: employee
+      layout: employee-old
   -
     scope:
       type: educations
@@ -151,7 +151,7 @@ defaults:
     scope:
       type: consultations
     values:
-      layout: consulting
+      layout: service
   -
     scope:
       type: fundament

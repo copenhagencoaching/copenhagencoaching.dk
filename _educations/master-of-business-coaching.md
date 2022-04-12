@@ -143,11 +143,7 @@ semesters:
     name: Eksamen
     place: Blegdamsvej
 hold:
-- MBC35 - 1. semester - Forår 2022 - start 21. marts
-- MBC31 - 1. semester - Efterår 2022 - start 5. september
-- MBC34 - 2. semester - Forår 2022 - start 10. januar
-- MBC33 - 3. semester - Forår 2022 - start 14. marts
-- MBC31 - 4. semester - Forår 2022 - start 7. februar
+- 1. semester - Efterår 2022 - start 5. september
 hold_eller_begivenheder: true
 oe-order: 1
 events:

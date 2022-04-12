@@ -28,6 +28,7 @@ layout: page
                 <div class="col-12 col-lg-6">
                     <h1>{{ coaching.title }}</h1>
                     {{ coaching.content }}
+                    
                     {% for employee in site.employees %}
                 {% if coaching.contact-person == employee.title %}
                 <div class="d-flex align-items-center bg-black-coral rounded p-3">
