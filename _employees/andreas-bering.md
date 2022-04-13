@@ -8,6 +8,7 @@ call: 40 14 92 92
 email: ab@copenhagencoaching.dk
 consulent: true
 mbc: true
+layout: employee
 edu:
 - Cand. Comm. fra Roskilde Universitet
 - Master i Business Coaching
