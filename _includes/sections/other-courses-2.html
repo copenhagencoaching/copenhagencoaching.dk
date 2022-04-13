@@ -1,0 +1,26 @@
+
+<div class="bg-slate-gray">
+    <div class="container-fluid py-5">
+        <h4 class="mb-5 text-uppercase text-white">Interesseret i vores andre uddannelser?</h4>
+        <div class="row gx-5">
+            {% assign educations = site.educations | where_exp:"item",
+            "item.url != include.url" %}
+            {% for edu in educations limit: 4 %}
+            <div class="col-lg-4 col-xl-3 col-12 col-sm-6">
+                <a href="{{ edu.url }}">
+                    <div class="card">
+                        <div class="outer-img-top">
+                            <img src="{{ edu.image }}" alt="...">
+                        </div>
+    
+                        <div class="card-body bg-platinum py-2 px-0">
+    <h4 class="text-uppercase text-white">{{ edu.title }}</h4>
+                            
+                        </div>
+                    </div>
+                </a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
