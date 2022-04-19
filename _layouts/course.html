@@ -940,8 +940,8 @@ var formBrochure = document.getElementById("brochure-form");
     }).then(response => {
       status.className = "py-3 text-center"
 
-      formplu.reset()
-      formplu.className = "d-none"
+      formBrochure.reset()
+      formBrochure.className = "d-none"
     }).catch(error => {
       status.innerHTML = "Ups! Der opstod et problem."
     });
