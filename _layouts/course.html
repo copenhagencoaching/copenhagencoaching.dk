@@ -18,7 +18,7 @@ layout: default
 
             </div>
             <a class="btn-beaver btn w-254 btn-bold fs-6 me-md-5 text-white h-50" data-proofer-ignore
-                href="#hent-brochure" data-toggle="modal" data-target="#community-modal">Hent brochure</a>
+                href="#hent-brochure" data-toggle="modal" data-target="#brochure-modal">Hent brochure</a>
             <a class="btn-slate-gray text-white btn w-254 btn-bold fs-6 h-50"
                 href="#kontakt-underviseren">Kontakt underviseren</a>
         </div>
@@ -90,7 +90,7 @@ layout: default
                 </div>
 
                 <div class="col">
-                    <a class="color-base" href="#ansøg">
+                    <a class="color-base" href="#ansog">
                         <div class="bg-cadet-gray w-100 text-center py-2">
                             <p class="mb-0 fs-6 text-white">Ansøg</p>
                         </div>
@@ -412,8 +412,8 @@ layout: default
 </div>
 
 <div class="container-fluid">
-    <div class="small-container">
-        <div id="ansøg" class="anchor-delay"></div>
+    <div class="small-container position-relative">
+        <div id="ansog" class="anchor-delay"></div>
         <h2 class="mb-4">Ansøg</h2>
         <p>Når du tilmelder dig en af vores uddannelser via formularen nedenfor, ender din
             tilmelding i en sikret emailboks, som kun én medarbejder i CCC har adgang til. Derefter gemmes din data i
@@ -868,19 +868,42 @@ layout: default
                 <input type="hidden" name="pdf" value="{{ page.title }}">
                 <input type="hidden" name="file"
                   value="{{ page.pdf }}">
-                <input class="form-control mb-3" type="text" name="name" placeholder="Navn" required>
-                <input type="text" class="form-control mb-3" name="titel" placeholder="Titel">
-                <input type="tel" class="mb-3 form-control" name="tlf" pattern="[0-9]{8}" placeholder="Tlf.">
-                <input type="text" class="form-control mb-3" name="virksomhed" placeholder="Virksomhed">
-                <input type="text" class="form-control mb-3" name="email" placeholder="Email" required>
+
+                  <div class="row">
+                      <div class="col-12 col-lg-6">
+                        <input class="form-control mb-3" type="text" name="name" placeholder="Navn" required>
+                      </div>
+                      <div class="col-12 col-lg-6">
+                        <input type="text" class="form-control mb-3" name="titel" placeholder="Titel">
+                      </div>
+
+                      <div class="col-12 col-lg-6">
+                        <input type="tel" class="mb-3 form-control" name="tlf" pattern="[0-9]{8}" placeholder="Tlf.">
+                      </div>
+                      <div class="col-12 col-lg-6">
+                        <input type="text" class="form-control mb-3" name="virksomhed" placeholder="Virksomhed">
+                      </div>
+                      <div class="col-12 col-lg-6">
+                        <input type="text" class="form-control mb-3" name="email" placeholder="Email" required>
+                      </div>
+                      <div class="col-12 col-lg-6">
+                        <div class="form-check mb-3">
+                            <input class="form-check-input" name="_optin" type="checkbox">
+                            <label class="form-check-label">
+                              Jeg vil gerne modtage CCC's nyhedsbrev
+                            </label>
+                          </div>
+                      </div>
+
+                  </div>
+                
+                
+                
+                
+                
   
   
-                <div class="form-check mb-3">
-                  <input class="form-check-input" name="_optin" type="checkbox">
-                  <label class="form-check-label">
-                    Jeg vil gerne modtage CCC's nyhedsbrev
-                  </label>
-                </div>
+
                 <div class="g-recaptcha" data-sitekey="6Lfi__EcAAAAABOscNdrKzqeLNu2vbuTM_5VlANy"></div>
                 <!-- replace with your recaptcha SITE key not secret key -->
                 <br />
@@ -889,7 +912,7 @@ layout: default
                 <button class="btn-beaver text-white btn w-100" type="submit">Registrér</button>
               </form>
   
-              <div id="my-form-status-brochure">
+              <div id="my-form-status-brochure" class="d-none">
                 <p>Tak for din interesse i vores uddannelser og kurser. Du vil snarest modtage mere information via e-mail. Hvis du har yderligere spørgsmål, er du velkommen til at kontakte os via info@copenhagencoaching.dk eller kontakte din nærmeste CCC-Konsulent via vores kontaktside lige <a data-proofer-ignore="" href="#contact" data-toggle="modal" data-target="#contact-modal">her</a>.</p>
                
               </div>
