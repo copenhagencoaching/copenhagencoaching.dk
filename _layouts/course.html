@@ -17,10 +17,10 @@ layout: default
                 </div>
 
             </div>
-            <a class="btn-beaver btn w-254 btn-bold fs-6 me-md-5 text-white h-50" data-proofer-ignore href="#community"
-                data-toggle="modal" data-target="#community-modal">Hent brochure</a>
-            <a class="btn-slate-gray text-white btn w-254 btn-bold fs-6 h-50" data-proofer-ignore href="#community"
-                data-toggle="modal" data-target="#community-modal">Kontakt underviseren</a>
+            <a class="btn-beaver btn w-254 btn-bold fs-6 me-md-5 text-white h-50" data-proofer-ignore
+                href="#hent-brochure" data-toggle="modal" data-target="#community-modal">Hent brochure</a>
+            <a class="btn-slate-gray text-white btn w-254 btn-bold fs-6 h-50"
+                href="#kontakt-underviseren">Kontakt underviseren</a>
         </div>
     </div>
 
@@ -341,7 +341,8 @@ layout: default
     <div class="small-container">
         <div class="bg-platinum p-5 mt-5">
             <div class="row gx-5">
-                <div class="col-12 col-lg-6">
+                <div class="col-12 col-lg-6 position-relative">
+                    <div id="kontakt-underviseren" class="anchor-delay"></div>
                     <h4 class="text-uppercase">Skal vi tales ved?</h4>
                     <p>Indtast navn og telefonnummer og en af vores undervisere ringer dig op inden for 24 timer.</p>
                 </div>
@@ -798,35 +799,35 @@ layout: default
 {% include sections/vision.html %}
 
 <script>
-  var form = document.getElementById("udd-tilmelding");
-    
+    var form = document.getElementById("udd-tilmelding");
+
     async function handleSubmit(event) {
-      event.preventDefault();
-      var status = document.getElementById("form-message-udd");
-      var data = new FormData(event.target);
-      fetch(event.target.action, {
-        method: form.method,
-        body: data,
-        headers: {
-            'Accept': 'application/json'
-        }
-      }).then(response => {
-        if (response.ok) {
-            $('.inder-form').addClass("d-none")
-            $('.message-form-udd').removeClass("d-none")
-          form.reset()
-        } else {
-          response.json().then(data => {
-            if (Object.hasOwn(data, 'errors')) {
-              status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
-            } else {
-              status.innerHTML = "Oops! There was a problem submitting your form"
+        event.preventDefault();
+        var status = document.getElementById("form-message-udd");
+        var data = new FormData(event.target);
+        fetch(event.target.action, {
+            method: form.method,
+            body: data,
+            headers: {
+                'Accept': 'application/json'
             }
-          })
-        }
-      }).catch(error => {
-        status.innerHTML = "Oops! There was a problem submitting your form"
-      });
+        }).then(response => {
+            if (response.ok) {
+                $('.inder-form').addClass("d-none")
+                $('.message-form-udd').removeClass("d-none")
+                form.reset()
+            } else {
+                response.json().then(data => {
+                    if (Object.hasOwn(data, 'errors')) {
+                        status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+                    } else {
+                        status.innerHTML = "Oops! There was a problem submitting your form"
+                    }
+                })
+            }
+        }).catch(error => {
+            status.innerHTML = "Oops! There was a problem submitting your form"
+        });
     }
     form.addEventListener("submit", handleSubmit)
 </script>
@@ -844,3 +845,85 @@ layout: default
         $('.virk-box-2').removeClass("d-none")
     });
 </script>
+
+
+<div class="modal fade" id="brochure-modal" tabindex="-1" aria-labelledby="brochure-modal-heading" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content p-3">
+        <div class="modal-header">
+          <h4 class="modal-title" id="brochure-modal-heading">Ønsker du mere information om uddannelsen? Registrér dig her
+            og hent vores brochure.
+          </h4>
+          <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+  
+        </div>
+        <div class="modal-body">
+  
+          <div class="row">
+            <div class="offset-md-1 col-md-10 col-12">
+  
+              <form id="brochure-form" action="https://formspree.io/f/mnqoyjlq" method="POST">
+  
+  
+                <input type="hidden" name="pdf" value="{{ page.title }}">
+                <input type="hidden" name="file"
+                  value="{{ page.pdf }}">
+                <input class="form-control mb-3" type="text" name="name" placeholder="Navn" required>
+                <input type="text" class="form-control mb-3" name="titel" placeholder="Titel">
+                <input type="tel" class="mb-3 form-control" name="tlf" pattern="[0-9]{8}" placeholder="Tlf.">
+                <input type="text" class="form-control mb-3" name="virksomhed" placeholder="Virksomhed">
+                <input type="text" class="form-control mb-3" name="email" placeholder="Email" required>
+  
+  
+                <div class="form-check mb-3">
+                  <input class="form-check-input" name="_optin" type="checkbox">
+                  <label class="form-check-label">
+                    Jeg vil gerne modtage CCC's nyhedsbrev
+                  </label>
+                </div>
+                <div class="g-recaptcha" data-sitekey="6Lfi__EcAAAAABOscNdrKzqeLNu2vbuTM_5VlANy"></div>
+                <!-- replace with your recaptcha SITE key not secret key -->
+                <br />
+  
+                <!-- your other form fields go here -->
+                <button class="btn-beaver text-white btn w-100" type="submit">Registrér</button>
+              </form>
+  
+              <div id="my-form-status-brochure">
+                <p>Tak for din interesse i vores uddannelser og kurser. Du vil snarest modtage mere information via e-mail. Hvis du har yderligere spørgsmål, er du velkommen til at kontakte os via info@copenhagencoaching.dk eller kontakte din nærmeste CCC-Konsulent via vores kontaktside lige <a data-proofer-ignore="" href="#contact" data-toggle="modal" data-target="#contact-modal">her</a>.</p>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+
+var formBrochure = document.getElementById("brochure-form");
+  async function handleSubmitBrochure(event) {
+
+    event.preventDefault();
+    var status = document.getElementById("my-form-status-brochure");
+    var data = new FormData(event.target);
+    fetch(event.target.action, {
+      method: formBrochure.method,
+      body: data,
+      headers: {
+        'Accept': 'application/json'
+      }
+    }).then(response => {
+      status.className = "py-3 text-center"
+
+      formplu.reset()
+      formplu.className = "d-none"
+    }).catch(error => {
+      status.innerHTML = "Ups! Der opstod et problem."
+    });
+
+  }
+  formBrochure.addEventListener("submit", handleSubmitBrochure)
+  </script>
+  

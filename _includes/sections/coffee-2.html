@@ -1,0 +1,71 @@
+<div class="bg-platinum">
+  <div class="container-fluid py-5">
+   
+      <div class="row gy-5 gx-5">
+        <div class="col-12 col-lg-8">
+          <h2>Skal vi drikke en kop kaffe sammen?</h2>
+          <p class="fs-6 mb-0 max-w-700">Kunne du tænke dig at lære os bedre at kende eller høre mere om vores team? Indtast navn og
+            telefonnummer og en af vores konsulenter ringer dig op inden for 24 timer.</p>
+          <form id="tlf-coffee-form" action="https://formspree.io/f/xyyoddyz" method="POST">
+            <div class="row mt-3 gy-md-0 gy-3" id="coffee">
+              <div class="col-md-4 col-12">
+                <input type="text" class="form-control" placeholder="Navn" aria-label="Navn" name="navn">
+              </div>
+              <input type="hidden" name="henvendelse" value="Jeg vil gerne ringes op">
+              <div class="col-md-4 col-12">
+                <input type="text" class="form-control" placeholder="Tlf. nr." aria-label="telefonnummer" name="tlf. nr.">
+              </div>
+              <div class="col-md-4 col-12">
+                <button class="btn btn-opal w-100 my-0">Ring til mig</button>
+              </div>
+  
+            </div>
+            <p id="my-form-coffee-status" class="text-white mt-3 bg-xanadu p-2 d-none"></p>
+          </form>
+        </div>
+        <div class="col-12 col-lg-4">
+          <div class="h-100"
+          style="background-image: url('/images/graphic/coffee.png'); background-position: top; background-size: cover;">
+        </div>
+        </div>
+
+      </div>
+   
+  </div>
+</div>
+
+<script>
+  var form = document.getElementById("tlf-coffee-form");
+  var inner_form = document.getElementById("coffee");
+
+  async function handleSubmit(event) {
+    event.preventDefault();
+    var status = document.getElementById("my-form-coffee-status");
+    var data = new FormData(event.target);
+    fetch(event.target.action, {
+      method: form.method,
+      body: data,
+      headers: {
+        'Accept': 'application/json'
+      }
+    }).then(response => {
+      if (response.ok) {
+        status.innerHTML = "Tak for din henvendelse, du vil høre fra os snarrest.";
+        inner_form.className = "d-none"
+        status.classList.remove("d-none")
+        form.reset()
+      } else {
+        response.json().then(data => {
+          if (Object.hasOwn(data, 'errors')) {
+            status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+          } else {
+            status.innerHTML = "Oops! There was a problem submitting your form"
+          }
+        })
+      }
+    }).catch(error => {
+      status.innerHTML = "Oops! There was a problem submitting your form"
+    });
+  }
+  form.addEventListener("submit", handleSubmit)
+</script>

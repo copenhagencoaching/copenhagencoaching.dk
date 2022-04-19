@@ -1,0 +1,56 @@
+---
+layout: default
+---
+
+<div class="pt-5"
+    style="background: linear-gradient(rgba(19, 19, 19, 0.7), rgba(19, 19, 19, 0.7)), url('{{ page.image }}'); background-size: cover; background-position: center;">
+    <div class="py-5">
+        <div class="container-fluid text-center py-5">
+            <h1 class="text-white mb-1">{{ page.title }}</h1>
+            <div class="row">
+                <div class="col-12 offset-lg-3 col-lg-6">
+                    <hr class="white short-hr mx-auto">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="small-container my-5">
+        {{ page.description }}
+    </div>
+</div>
+
+<div class="bg-black-coral py-5">
+    <div class="container-fluid">
+      <h1 class="text-white mb-5 text-center">Mød teamet</h1>
+      <div class="row g-5">
+        
+        {% assign sorted_empl = site.employees | sort: "order" %}
+        {% for employee in sorted_empl %}
+        <div class="col-xl-4 col-sm-6 col-12 h-100">
+          <a href="{{ employee.url }}">
+            <div class="bg-platinum p-4">
+              <h4 class="mb-0">{{ employee.title }}</h4>
+              <p class="thin">{{ employee.description }}</p>
+              <p>{{ employee.email }}<br>{% if employee.call %}<a href="tel:{{ employee.call }}" onclick="gtag('event','click', { 'event_category':'tlf klik', 'event_label':'tlf om os' })">+45 {{ employee.call }}</a>{% else %}<br>{% endif %}</p>
+  
+              <div class="text-end ms-auto" style="max-width: 300px">
+                <img src="{{ employee.grey-portrait }}" class="img-fluid rounded-circle" alt="" >
+              </div>
+            </div>
+  
+          </a>
+        </div>
+        {% endfor %}
+      </div>
+  
+    </div>
+  </div>
+
+  {% include sections/coffee-2.html %}
+  {% include sections/partners.html %}
+  {% include sections/newsletter.html %}
+
+  {% include sections/vision.html %}
