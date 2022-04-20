@@ -26,6 +26,7 @@ past: true
 ## DEN FILOSOFISKE LEDELSESTERAPI, ANNO 2021
 {:.text-white}
 
+
 En tetralogisk seminarrække om dannelse og etik i den moderne ledelsespraksis ved **[Kim Gørtz](/employees/kim-gørtz/)**, Ph.d., erhvervs- & ledelsesfilosof og seniorkonsulent i CCC. Kim er netop blevet kåret som vinder af *Årets Filosofiske Initiativ* af Selskab for Filosofisk Praksis blandt et skarpt hold af nominerede. Læs mere om Kims anerkendelse **[her](https://dsfp.dk/){:target="_blank"}**.
 {:.text-white}
 
