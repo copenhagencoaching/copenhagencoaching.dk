@@ -1,5 +1,5 @@
 ---
-layout: community
+layout: community-old
 show: true
 title: Community
 image: "/images/academy/ccc-community.jpg"

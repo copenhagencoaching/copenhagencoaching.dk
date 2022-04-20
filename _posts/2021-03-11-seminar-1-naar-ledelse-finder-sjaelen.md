@@ -13,6 +13,7 @@ place: Afvikles online - invitation sendes særskilt efter tilmelding
 event-type: CCC Seminar
 price: 450,-
 ex-moms: true
+published: false
 billetto: true
 billetto-nr: 504685
 past: true

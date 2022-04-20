@@ -19,6 +19,7 @@ ex-moms: true
 time: 17.00-20.00
 billetto: false
 billetto-nr: 504700
+published: false
 ---
 #### Seminar 3: Når ledelse finder syntesen (med Hegel som inspiration)
 {:.text-white}

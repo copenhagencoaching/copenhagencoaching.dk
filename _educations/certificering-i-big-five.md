@@ -4,7 +4,6 @@ title: Certificering i Big Five Online
 image: "/images/events/big-five-event-5.jpg"
 contact-person: Frederikke Winther
 header: Certificeringer i Big Five Online
-layout: course
 overblik:
 - overskrift: Personlighedstest
   paragrafer:

@@ -14,6 +14,7 @@ event-type: CCC Seminar
 price: 450,-
 ex-moms: true
 billetto: true
+published: false
 billetto-nr: 504691
 past: true
 ---

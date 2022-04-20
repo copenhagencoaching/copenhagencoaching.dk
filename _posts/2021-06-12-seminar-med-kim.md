@@ -16,6 +16,7 @@ sub-pages: kim
 community: August event udskudt – ny dato annonceres snarest
 only-month: true
 ex-moms: true
+published: false
 time: 17.00-20.00
 billetto-nr: 505746
 community-free: true

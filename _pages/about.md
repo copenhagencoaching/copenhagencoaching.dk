@@ -1,5 +1,5 @@
 ---
-layout: om-os
+layout: about
 show: true
 order: '6'
 title: Om os
