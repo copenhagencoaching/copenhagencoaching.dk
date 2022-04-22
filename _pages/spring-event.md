@@ -3,6 +3,9 @@ layout: event-new
 permalink: /events/forårskur/
 title: Forårskur og bogreception, samt eksklusivt foredrag med Rasmus Kragh
 image: /images/events/forår.png
+date: 2022-04-26
+time: 16:00 - 20:00
+location: Blegdamsvej 104D, baghuset 3. sal, 2100 København Ø
 ---
 
 Det glæder os meget, at vi endelig kan åbne dørene for jer alle til en forårsbuket af spændende aktiviteter allerede nu på tirsdag den 26.04 fra kl. 16-20, hvor vi udover skønt gensyn med jer alle, også skal fejre udgivelsen af vores længe ventede antologi med titlen:
@@ -27,7 +30,7 @@ Hele aftenens arrangement er GRATIS for CCC Community medlemmer
 For ikke-medlemmer koster deltagelse i Rasmus Kraghs foredrag 279,- per person, to pers. 499,-
 
 [Tilmeld eventet her](/inspiration/foredrag-2/)
-{:.btn.btn-black-coral.text-center}
+{:.btn.btn-black-coral.text-center.text-white}
 
 Obs: Er du community medlem, men mangler en kode?
 Koden er sendt i vores seneste Community nyhedsbrev. Hvis du stadig mangler en kode, skriv da til cof@copenhagencoaching.dk
