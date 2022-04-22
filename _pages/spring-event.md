@@ -20,7 +20,7 @@ Vi er også så heldige, at et par af bogens forfattere, har sagt ja til at komm
 
 Udover ovennævnte lancering får vi senere samme aften også eksklusivt besøg af Rasmus Kragh, der med udgangspunkt i sin bjergbestigning af Mount Everest vil fortælle sin egen personlige historie om at turde mærke efter, om at vende sårbarhed til styrke, nederlag til indsigt, motivation til meningsfuldhed, og om til hver en tid at være ærlig overfor sig selv, at insistere på at retning i livet er vigtigere end hastighed, og om troen på, at vi præsterer bedst når vi er hele mennesker, som er i kontakt med vores følelser og handler i overensstemmelse med vores værdier.
 
-** Program for forårskur:**
+**Program for forårskur:**
 
 16:00 Velkomst i baghuset
 
