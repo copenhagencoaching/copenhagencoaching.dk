@@ -5,7 +5,7 @@ title: Forårskur og bogreception, samt eksklusivt foredrag med Rasmus Kragh
 image: /images/events/forår.png
 date: 2022-04-26
 time: 16:00 - 20:00
-location: Blegdamsvej 104D, baghuset 3. sal, 2100 København Ø
+place: Blegdamsvej 104D, baghuset 3. sal, 2100 København Ø
 community-free: true
 billetto-nr: 611228
 billetto: true
@@ -32,7 +32,7 @@ Udover ovennævnte lancering får vi senere samme aften også eksklusivt besøg 
 Hele aftenens arrangement er GRATIS for CCC Community medlemmer
 For ikke-medlemmer koster deltagelse i Rasmus Kraghs foredrag 279,- per person, to pers. 499,-
 
-[Tilmeld eventet her](/inspiration/foredrag-2/)
+[Læs mere om Rasmus Kraghs foredrag her](/inspiration/foredrag-2/)
 {:.btn.btn-black-coral.text-center.text-white}
 
 Obs: Er du community medlem, men mangler en kode?
