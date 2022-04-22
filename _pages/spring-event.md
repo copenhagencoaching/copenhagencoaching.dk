@@ -66,4 +66,4 @@ At performe som menneske ligger i Rasmus' DNA. Han har en baggrund som atlet i u
 
 I dag arbejder Rasmus Kragh som performance coach ved siden af sine studier hos CCC, hvor han er i færd med at færdiggøre sin <a class="hover-underlined-white" href="/academy/master-of-business-coaching/"><b>Master of Business Coaching</b></a>. Rasmus hjælper typisk elitesportsfolk, ledere i erhvervslivet, ambitiøse iværksættere eller andre, der ønsker at blive den bedste udgave af sig selv, og nå til næste niveau i deres liv eller karriere.
 
-![rasmuskragh](/images/events/rasmus-kragh-1.png){:.img-fluid}
+<img src="/images/events/rasmus-kragh-1.png" class="img-fluid">
