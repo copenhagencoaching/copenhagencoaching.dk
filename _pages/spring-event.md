@@ -6,6 +6,9 @@ image: /images/events/forår.png
 date: 2022-04-26
 time: 16:00 - 20:00
 location: Blegdamsvej 104D, baghuset 3. sal, 2100 København Ø
+community-free: true
+billetto-nr: 611228
+billetto: true
 ---
 
 Det glæder os meget, at vi endelig kan åbne dørene for jer alle til en forårsbuket af spændende aktiviteter allerede nu på tirsdag den 26.04 fra kl. 16-20, hvor vi udover skønt gensyn med jer alle, også skal fejre udgivelsen af vores længe ventede antologi med titlen:
