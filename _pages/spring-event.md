@@ -10,7 +10,7 @@ community-free: true
 billetto-nr: 611228
 billetto: true
 redirect_from:
-  - /inspiration/foredrag-2/
+  - inspiration/foredrag-2/
 ---
 
 Det glæder os meget, at vi endelig kan åbne dørene for jer alle til en forårsbuket af spændende aktiviteter allerede nu på tirsdag den 26.04 fra kl. 16-20, hvor vi udover skønt gensyn med jer alle, også skal fejre udgivelsen af vores længe ventede antologi med titlen:
