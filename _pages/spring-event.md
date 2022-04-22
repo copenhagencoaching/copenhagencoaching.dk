@@ -35,5 +35,8 @@ For ikke-medlemmer koster deltagelse i Rasmus Kraghs foredrag 279,- per person, 
 [Læs mere om Rasmus Kraghs foredrag her](/inspiration/foredrag-2/)
 {:.btn.btn-black-coral.text-center.text-white}
 
+[Læs mere om vores antologi her](/inspiration/foredrag-2/)
+{:.btn.btn-black-coral.text-center.text-white}
+
 Obs: Er du community medlem, men mangler en kode?
 Koden er sendt i vores seneste Community nyhedsbrev. Hvis du stadig mangler en kode, skriv da til cof@copenhagencoaching.dk
