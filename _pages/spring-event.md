@@ -49,7 +49,7 @@ I 2019 nåede Rasmus Kragh toppen af verdens højeste bjerg, Mount Everest, som 
 
  
 
-Glæd dig til et spændende foredrag med Rasmus Kragh som har sagt ja til at komme og holde et helt eksklusivt foredrag hos os den **26. april fra kl. 17-19**, hvor vi byder på lidt let at drikke og spise.
+Glæd dig til et spændende foredrag med Rasmus Kragh som har sagt ja til at komme og holde et helt eksklusivt foredrag hos os.
 
 Rasmus’ foredrag vil være inspirerende for alle, der har deres eget bjerg at bestige, hvad enten det er som privatperson, medarbejder eller leder. Foredraget vil være en blanding af oplæg, samt små time-outs undervejs til fælles refleksion og dialog.
 
