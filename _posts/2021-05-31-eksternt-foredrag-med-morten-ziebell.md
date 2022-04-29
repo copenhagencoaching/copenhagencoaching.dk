@@ -14,7 +14,6 @@ past: true
 price: 350,-
 billetto: false
 billetto-nr: 524607
-past: true
 ex-moms: true
 community-free: true
 place: Blegdamsvej 104 A, 2100 København Ø
