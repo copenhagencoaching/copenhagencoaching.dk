@@ -6,16 +6,12 @@ layout: default
     style="background: linear-gradient(rgba(19, 19, 19, 0.7), rgba(19, 19, 19, 0.7)), url('{{ page.image }}'); background-size: cover; background-position: center;">
     <div class="py-5">
         <div class="container-fluid text-center py-5">
-
             <h1 class="text-white mb-1">{{ page.title }}</h1>
-
             <div class="row">
                 <div class="col-12 offset-lg-3 col-lg-6">
                     <hr class="white short-hr mx-auto">
                     <p class="text-white mb-4">{{ page.description }}</p>
-
                 </div>
-
             </div>
             <a class="btn-beaver btn w-254 btn-bold fs-6 me-md-5 text-white h-50" data-proofer-ignore
                 href="#hent-brochure" data-toggle="modal" data-target="#brochure-modal">Hent brochure</a>
@@ -23,14 +19,12 @@ layout: default
                 href="#kontakt-underviseren">Kontakt underviseren</a>
         </div>
     </div>
-
 </div>
 
 <div class="container-fluid my-5" style="z-index: 1100;">
     <div class="small-container">
         <div>
             <div class="row gx-4">
-
                 <div class="col">
                     <a class="color-base" href="#overblik">
                         <div class="bg-cadet-gray w-100 text-center py-2">
@@ -38,7 +32,6 @@ layout: default
                         </div>
                     </a>
                 </div>
-
                 {% if page.opbygning == true %}
                 <div class="col">
                     <a class="color-base" href="#opbygning">
@@ -132,12 +125,14 @@ layout: default
                 {% endfor %}
             </div>
             <div class="col-12 col-md-6">
-                <p>{{ page.liste-paragraf }}</p>
+                {% for l in page.lists %}
+                <p>{{ l.liste-paragraf }}</p>
                 <ul>
-                    {% for l in page.liste %}
-                    <li>{{ l }}</li>
+                    {% for li in l.liste %}
+                    <li>{{ li }}</li>
                     {% endfor %}
                 </ul>
+                {% endfor %}
             </div>
         </div>
     </div>
@@ -160,7 +155,7 @@ layout: default
                     <p class="text-white mb-0"><b>{{ page.dage }} dage</b></p>
                 </div>
                 <div class="col-2 d-flex align-items-center justify-items-end justify-content-end text-end">
-                    <p class="text-white mb-0"><b>{{ page.moduler }} moduler</b></p>
+                    <p class="text-white mb-0"><b>{{ page.hours }} timer</b></p>
                 </div>
             </div>
         </div>
@@ -230,7 +225,7 @@ layout: default
                                 </div>
                                 <div class="col-md-3 col-6">
                                     <p class="fw-bold">
-                                        Modul
+                                        Indhold
                                     </p>
                                 </div>
                                 <div class="col-md-1 col-6">
@@ -283,6 +278,84 @@ layout: default
         </div>
     </div>
 </div>
+{% else %}
+<div class="container-fluid">
+<div class="small-container">
+ <p class="large text-center fw-bold mt-5 mb-0">Der ingen kørende eller kommende hold i øjeblikket</p>
+</div>
+</div>
+{% endif %}
+
+{% if page.deltagerprofil == true %}
+
+<div class="container-fluid pt-5 pb-5">
+    <div class="small-container pt-3 position-relative">
+        <div id="deltagerprofil" class="anchor-delay"></div>
+        {% for h in page.profil %}
+        <h2>{{ h.overskrift }}</h2>
+        {% for p in h.paragrafer %}
+        <p>{{ p }}</p>
+        {% endfor %}
+        {% endfor %}
+    </div>
+</div>
+
+{% endif %}
+
+{% if page.anbefalinger == true %}
+<div class="bg-slate-gray">
+    <div class="container-fluid py-5">
+        <div class="small-container position-relative">
+            <div id="anbefalinger" class="anchor-delay"></div>
+            <h2 class="text-white mb-5">
+                Anbefalinger
+            </h2>
+
+            <div class="row g-5">
+                {% for v in page.vidner %}
+               
+                <div class="col-12">
+
+                    <div class="d-flex align-items-center">
+                        <div class="flex-shrink-0">
+                            <img class="small-image-148 rounded-circle" src="/images/graphic/placeholder-profile.png"
+                                alt="">
+                        </div>
+                        <div class="flex-grow-1 ms-3">
+
+
+                            <figure>
+                                <blockquote class="blockquote mb-4 col-12">
+                                    <p class="text-white">
+                                        <i class="fas fa-quote-left fs-3 fa-lg opacity-50 me-2 text-white"></i>
+                                        {% for p in v.texts %}
+                                        <span class="mb-2">{{ p }}</span>
+                                        <br>
+                                        <br>
+                                        {% endfor %}
+                                       
+                                    </p>
+                                </blockquote>
+                                <figcaption class="blockquote-footer text-white">
+                                    <b>{{ v.navn }}</b><br>
+                                    <small>{{ v.titel }}</small>
+                                </figcaption>
+                            </figure>
+
+                            
+
+
+                        </div>
+                    </div>
+                </div>
+
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+
+
 {% endif %}
 
 <div class="container-fluid my-5 pt-5">
@@ -392,7 +465,7 @@ layout: default
                 <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
                     aria-labelledby="v-pills-home-tab">
 
-                    <p><b>{{ page.location }}</b></p>
+                    <p>{{ page.location }}</p>
                     {% if page.kort == true %}
 
                     {{ page.kort-kode }}
@@ -403,7 +476,7 @@ layout: default
 
                 </div>
                 <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
-
+<p>{{ page.adgangskrav }}</p>
                 </div>
 
             </div>
@@ -415,17 +488,7 @@ layout: default
     <div class="small-container position-relative">
         <div id="ansog" class="anchor-delay"></div>
         <h2 class="mb-4">Ansøg</h2>
-        <p>Når du tilmelder dig en af vores uddannelser via formularen nedenfor, ender din
-            tilmelding i en sikret emailboks, som kun én medarbejder i CCC har adgang til. Derefter gemmes din data i
-            vores kundedatabase, som også er en sikker database efter de nye GDPR regler.
-        </p>
-        <p>
-            Vi bruger udelukkende dine kontaktoplysninger til at tage kontakt til dig vedrørende din tilmelding, og
-            dine
-            faktureringsdata til at sende dig en faktura. Ved at tilmelde dig en uddannelse siger du ikke automatisk
-            ja
-            til at modtage nyhedsmails eller andet materiale fra os. Dette skal klikkes af manuelt.
-        </p>
+
         <p>
             Skulle du have spørgsmål til din tilmelding, er du meget velkommen til at kontakte os på
             <a href="mailto:info@copenhagencoaching.dk">info@copenhagencoaching.dk</a> eller kontakte os direkte på
@@ -436,7 +499,7 @@ layout: default
             Vi glæder os til at høre fra dig, tak for din interesse!
         </p>
 
-        <div class="bg-platinum py-5 mb-5">
+        <div class="bg-platinum pt-5 mb-2">
             <form action="https://formspree.io/f/mzbyzbyg" method="POST" enctype="multipart/form-data"
                 style="max-width: 600px;" class="mx-auto special-form" id="udd-tilmelding">
                 <div class="row mt-3 gy-4 gx-5 inder-form" id="inner-form">
@@ -722,6 +785,19 @@ layout: default
                         afsender i Outlook eller andre mail programmer.</p>
                 </div>
             </form>
+          <div class="p-5">
+            <p class="small"><small>Når du tilmelder dig en af vores uddannelser via formularen nedenfor, ender din
+                tilmelding i en sikret emailboks, som kun én medarbejder i CCC har adgang til. Derefter gemmes din data i
+                vores kundedatabase, som også er en sikker database efter de nye GDPR regler.</small>
+            </p>
+            <p class="small"><small>
+                Vi bruger udelukkende dine kontaktoplysninger til at tage kontakt til dig vedrørende din tilmelding, og
+                dine
+                faktureringsdata til at sende dig en faktura. Ved at tilmelde dig en uddannelse siger du ikke automatisk
+                ja
+                til at modtage nyhedsmails eller andet materiale fra os. Dette skal klikkes af manuelt.</small>
+            </p>
+          </div>
         </div>
     </div>
 </div>
@@ -743,7 +819,7 @@ layout: default
                                 uddannelsen?</b> Kontakt {{ employee.title }} nedenfor. Vi glæder os til at
                             besvare
                             dine
-                            spørgsmål.</p>
+                            spørgsmål</p>
 
                         <div class="d-flex justify-content-end">
                             <div class="d-flex align-items-center">
@@ -775,10 +851,11 @@ layout: default
                 <div class="d-flex h-100 justify-content-center align-items-center text-center rounded p-5"
                     style="background: linear-gradient(rgba(19, 19, 19, 0.6), rgba(19, 19, 19, 0.6)), url('/images/graphic/mennesker.jpg'); background-position: center; background-size: cover;">
                     <div>
-                        <h4 class="text-white text-center">Interesseret i andre uddannelser?</h4>
-                        <br>
+                        <h4 class="text-white text-center">Få mere inspiration fra CCC</h4>
+                        <p class="text-white"><small>Se vores artikler, podcast og meget mere</small></p>
+                        
                         <b><a class="btn-spanish-gray text-white text-center text-white btn mt-0 mx-auto"
-                                href="/academy/">Se
+                                href="/resonans/">Se
                                 mere <i class="fas fa-arrow-right text-white ms-2"></i></a></b>
                     </div>
                 </div>

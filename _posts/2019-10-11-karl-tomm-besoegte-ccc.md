@@ -3,10 +3,11 @@ published: true
 title: Karl Tomm besøgte CCC
 image: /images/inspiration/KarlTomm.jpg
 author: Morten Bertelsen
-category: blog
+category: artikel
 tags:
   - coaching
   - events
+  - blog
 redirect_from:
   - /inspiration/your-filename/
 description: Karl Tomm er en særdeles erfaren og vis herre inden for samtaleterapi med et systemisk afsæt. Han har været en ledende skikkelse på sit felt, når det omhandler samtaler og forskellige tilgange til samtaler - samtaler om det væsentlige. 

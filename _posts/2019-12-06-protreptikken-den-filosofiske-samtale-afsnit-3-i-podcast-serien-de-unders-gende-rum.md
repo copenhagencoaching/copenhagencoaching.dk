@@ -1,6 +1,6 @@
 ---
 published: false
-title: Protreptikken - den filosofiske samtale
+title: Protreptik - den filosofiske samtale
 image: /images/inspiration/Podcast.jpg
 author: Morten Paustian
 layout: podcast

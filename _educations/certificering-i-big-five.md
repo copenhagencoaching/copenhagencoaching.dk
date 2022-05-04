@@ -4,6 +4,8 @@ title: Certificering i Big Five Online
 image: "/images/events/big-five-event-5.jpg"
 contact-person: Frederikke Winther
 header: Certificeringer i Big Five Online
+dage: 6
+hours: "21,5"
 overblik:
 - overskrift: Personlighedstest
   paragrafer:
@@ -17,16 +19,18 @@ overblik:
 * Openness (O): Åbenhed
 * Agreeableness (A): Imødekommenhed
 * Conscientiousness (C): Samvittighedsfuldhed"
-liste-paragraf: "På CCCs online kursus i Big Five test certificering får du:"
-liste:
-- Certificering i erhvervsrettet testning
-- Kompetencer i at skabe en givende og etisk dialog omkring testresultater
-- Test certificering udbydes i samarbejde med HUCAMA.
+lists:
+- liste-paragraf: "På CCCs online kursus i Big Five test certificering får du:"
+  liste:
+  - Certificering i erhvervsrettet testning
+  - Kompetencer i at skabe en givende og etisk dialog omkring testresultater
+  - Test certificering udbydes i samarbejde med HUCAMA.
 description: Bliv certificeret til at bruge markedets bedst underbyggede personlighedstest
   og lær at anvende den ved gruppesammensætning, rekruttering og processer.
 price: 19.500,- EKSKL. MOMS
 event-title: Kommende hold
-location: Al undervisning foregår online på Zoom. 5 online sessioner á 2-5 timers varighed.
+location: 'Al undervisning foregår online på Zoom. 5 online sessioner á 2-5 timers varighed.<br><br>Er du ikke bekendt med Zoom? <br><b><a href="https://zoom.us/signin">Du kan oprette en bruger og downloade appen her</a></b>.<br>Der vil altid være et link til undervisningens session på studieportalen.'
+adgangskrav: Der er ingen adgangskrav for Certificering i Big Five
 kort: false
 special: false
 hold_eller_begivenheder: true

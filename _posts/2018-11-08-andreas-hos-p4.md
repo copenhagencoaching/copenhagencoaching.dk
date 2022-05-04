@@ -3,7 +3,7 @@ published: false
 title: Andreas Bering hos Søren og Mette på P4
 image: /images/inspiration/post9.jpg
 author: Frederikke Winther
-tags: [ugebrev, nyhed]
+tags: [ugebrev, nyhed, blog]
 signup: forskellige ydelser
 teaser:
 category:

@@ -1,0 +1,85 @@
+---
+title: Resonans
+layout: default
+---
+
+<div class="pt-5"
+    style="background: linear-gradient(rgba(19, 19, 19, 0.3), rgba(19, 19, 19, 0.3)), url('/images/graphic/resonans.png'); background-size: cover; background-position: center;">
+    <div class="py-5">
+        <div class="container-fluid text-center py-5">
+
+            <h1 class="text-white mb-1">{{ page.title }}</h1>
+
+            <div class="row">
+                <div class="col-12 offset-lg-3 col-lg-6">
+                    <hr class="white short-hr mx-auto">
+                    <p class="text-white mb-4">Skriv dig op til vores nyhedsbrevet og bliv opdateret med vores seneste
+                        nyheder og artikler</p>
+                    <form id="newsletter-form" action="https://formspree.io/f/xlezwlkg" method="POST">
+                        <div class="row mt-3 gy-md-0 gy-3" id="inner-form">
+                            <div class="col-md-4 col-12">
+                                <input type="text" class="form-control" placeholder="Navn" aria-label="Navn" name="name"
+                                    required>
+                            </div>
+
+                            <div class="col-md-4 col-12">
+                                <input type="text" class="form-control" placeholder="E-mail" aria-label="Email"
+                                    name="email" required>
+                            </div>
+                            <div class="col-md-4 col-12">
+                                <button class="btn btn-beaver text-white w-100 my-0">Tilmeld</button>
+                            </div>
+                            <div class="col-12 text-center">
+                                <div class="form-check mt-3 form-check-inline">
+                                    <input class="form-check-input mt-1" type="checkbox" name="_optin" id="gridCheck"
+                                        required>
+                                    <label class="form-check-label text-white" for="gridCheck">
+                                        Jeg giver hermed samtykke til at CCC må overøføre mine angivede oplysninger til
+                                        meilchimp.
+                                    </label>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <p id="newsletter-mes" class="text-white mt-3 bg-xanadu p-2 d-none text-center"></p>
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+<div class="bg-platinum pb-5">
+    <div class="container-fluid">
+        <div class="row g-5">
+            {% for post in site.categories.blog | order: "date" | reverse %}
+            <div class="col-4">
+                <a href="{{ post.url }}">
+                    <div class="bg-white shadow p-3 mb-5 bg-body rounded">
+
+                        <div class="row gx-3">
+                            <div class="col-6">
+                                <div class="w-100 h-200">
+                                    <img src="{{ post.image }}" class="object-fit" alt="">
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="d-flex align-items-center align-content-center h-100">
+                                    <div>
+                                        <p class="small mb-0">{{ post.date | date: '%d-%m-%Y' }}</p>
+                                        <h4 class="text-uppercase lh-base">{{ post.title }}</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>

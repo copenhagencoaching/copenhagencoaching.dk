@@ -5,11 +5,36 @@ image: "/images/academy/den-offentlige-lederuddannelse.png"
 contact-person: Mette Mejlhede
 description: Er du leder, eller drømmer du om at bliver det? Trænger du til at få styrket dine lederkompetencer, og samtidig få de nyeste og brugbare værktøjer til medarbejdersamtaler og til håndtering af konfliktsituationer?
 header: Den offentlige lederuddannelse
+kursus-oversigt: false
+undervisere:
+- Frederikke Winther
+- Andreas Bering
+- Camilla Ingwersen
+- Mette Mejlhede
 sub-header: Få ny indsigt - og større udsyn - i dit lederskab
+overblik:
+- overskrift: Lederens værktøjer
+  paragrafer:
+  - "Er du leder, eller drømmer du om at bliver det? Trænger du til at få styrket dine lederkompetencer, og samtidig få de nyeste og brugbare værktøjer til medarbejdersamtaler og til håndtering af konfliktsituationer? Så tag moduler i Den offentlige Lederuddannelse (DOL) hos os!"
+  - "Modulerne kan enten tages på åbne hold eller som skræddersyet forløb, og det er muligt at tilrettelægge undervisningen således, at der tages hensyn til de ønsker og behov, du har"
+- overskrift: Fleksibel uddannelse
+  paragrafer:
+  - "DOL er en fleksibel lederuddannelse, hvor hvert modul giver 5, 10 eller 15 ECTS point. For at få en fuld DOL skal du have tre standardmoduler og tre valgmoduler, svarende til 45 ECTS point, samt lave en afsluttende opgave (Specialemodulet), der svarer til 15 ECTS point – i alt 60 ECTS point."
+  - "Du har herefter mulighed for at få konverteret den offentlige lederuddannelse til Diplomuddannelsen i ledelse ved en offentlig videregående uddannelsesinstitution, som udbyder diplomuddannelsen i ledelse."
 price: 'Vejledende pris: 7.500 ekskl. moms pr. 5 ECTS'
 pdf: 'false'
 event-title: Vi starter løbende hold op - ring og hør nærmere
 oe-order: 5
+lists:
+- liste-paragraf: "Hos CCC kan du tage følgende DOL-moduler:"
+  liste:
+  - Det Personlige Lederskab og Forandring (Standardmodul, 10 ECTS)
+  - Ledelse af Medarbejdere og Faglig Udvikling (Standardmodul, 10 ECTS)
+  - Ledelse af forandrings- og udviklingsprocesser i offentlige organisationer (Valgmodul, 5 ECTS)
+  - Coaching (valgmodul, 5 ECTS)
+  - Projektledelse (valgmodul, 5 ECTS)
+  - Ledelse og Filosofi (valgmodul, 5 ECTS)
+  - Specialemodul (15 ECTS)
 hold:
 - Ledelse og Coaching - Efterår 2021 - start 5. november
 emails:

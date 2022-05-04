@@ -3,7 +3,7 @@ published: false
 title: Ny klumme i økonomisk ugebrev
 image: /images/inspiration/post1.jpeg
 author: Bianca Godske Røjbæk
-tags: [ugebrev, ledelse, nyhed]
+tags: [ugebrev, ledelse, nyhed, blog]
 signup: forskellige ydelser
 teaser:
 category: blog

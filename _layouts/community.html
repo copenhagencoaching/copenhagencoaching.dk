@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="pt-5"
-  style="background: linear-gradient(rgba(19, 19, 19, 0.7), rgba(19, 19, 19, 0.7)), url('/images/community/community-banner.png'); background-size: cover; background-position: center;">
+  style="background: linear-gradient(rgba(19, 19, 19, 0.3), rgba(19, 19, 19, 0.3)), url('/images/graphic/community-3.png'); background-size: cover; background-position: center;">
   <div class="py-5">
     <div class="container-fluid text-center py-5">
 
@@ -19,8 +19,8 @@ layout: default
       </div>
       <a class="btn-opal btn text-uppercase w-310 btn-bold fs-6 me-md-5" data-proofer-ignore href="#community"
       data-toggle="modal" data-target="#community-modal">Tilmeld</a>
-    <a class="btn-light-brown text-white btn text-uppercase w-310 btn-bold fs-6" data-proofer-ignore
-      href="#community" data-toggle="modal" data-target="#community-modal">Hør mere</a>
+    <a class="btn-light-brown text-white btn text-uppercase w-310 btn-bold fs-6"
+      href="#ring-til-mig">Hør mere</a>
     </div>
   </div>
 
@@ -31,7 +31,7 @@ layout: default
   <div class="row gx-5">
     <div class="col-12 col-md-6">
       <div class="h-100"
-        style="background-image: url('/images/graphic/pfp-2.png'); background-position: top; background-size: cover;">
+        style="background-image: url('/images/community/community-banner.png'); background-position: top; background-size: cover;">
       </div>
     </div>
     <div class="col-12 col-md-6">
@@ -102,7 +102,14 @@ layout: default
 
 </div>
 
-<div class="container-fluid text-center">
+<div class="mb-4 position-relative">
+  <div id="ring-til-mig" class="anchor-delay"></div>
+  {% include sections/call-no-background.html %}
+</div>
+
+{% include sections/inspiration.html %}
+
+<div class="container-fluid text-center mt-5">
   <h2>Kommende arrangementer</h2>
   <div class="d-md-none">
     <hr>

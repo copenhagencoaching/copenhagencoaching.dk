@@ -144,39 +144,15 @@ semesters:
     place: Blegdamsvej
 hold:
 - 1. semester - Efterår 2022 - start 5. september
+- 2. semester - Efterår 2022 - start 22. august
+- 3. semester - Efterår 2022 - start 25. august
+- 4. semester - Efterår 2022 - start 18. august
 hold_eller_begivenheder: true
 oe-order: 1
 events:
 - overskrift: København
   subcategory: true
   subcat:
-  - sub-cat-title: 1. semester - Forår 2022
-    datoer:
-    - 21-22 marts
-    - 6-7 april
-    - 3-4 maj
-    - 23-24 maj
-    - 14-15 juni
-  - sub-cat-title: 2. semester - Forår 2022
-    datoer:
-    - 10. - 11. januar
-    - 23. - 24. februar
-    - 7. - 8. marts
-    - 19. - 20. april
-    - 17. - 19. maj
-  - sub-cat-title: 3. semester - Forår 2022
-    datoer:
-    - 14. marts
-    - 5. april
-    - 27. maj - 3. juni
-    - 20. - 22. juni
-  - sub-cat-title: 4. semester - Forår 2022
-    datoer:
-    - 7. februar
-    - 2. - 3. marts
-    - 28. - 29. marts
-    - 27. - 28. april
-    - 11. maj 
   - sub-cat-title: 1. semester - Efterår 2022
     datoer:
     - 5. - 6. september
@@ -184,6 +160,26 @@ events:
     - 2. - 3. november
     - 28. - 29. november
     - 12. - 14. december
+  - sub-cat-title: 2. semester - Efterår 2022
+    datoer:
+    - 22. - 23. august
+    - 21. - 22. september
+    - 10. - 11. oktober
+    - 9. - 10. november
+    - 5. - 7. december
+  - sub-cat-title: 3. semester - Efterår 2022
+    datoer:
+    - 25. august
+    - 9. - 16. september (Rejse til Lesbos)
+    - 13. oktober
+    - 21. - 23. november
+  - sub-cat-title: 4. semester - Efterår 2022
+    datoer:
+    - 18. august 
+    - 28. - 29. september
+    - 24. - 25. oktober
+    - 16. - 17. november
+    - 1. december
 redirect_from:
   - /master-business-coaching-mbc/
 cat:
