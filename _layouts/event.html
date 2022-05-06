@@ -144,6 +144,7 @@ layout: default
               {% endif %}
               {% endif %}
             </div>
+            {% if page.past != true %}
             {% if page.billetto %}
             {% if page.billetto-nr %}
  
@@ -159,13 +160,14 @@ layout: default
             {% else %}
             
             {% endif %}
+            {% endif %}
           </div>
         </div>
       </div>
       <div class="col-md-6 col-12">
         
         <span class="text-white">{{ page.content }}</span>
-
+        {% if page.past != true %} 
         {% if page.billetto %}
         {% if page.billetto-nr %}
 
@@ -177,11 +179,11 @@ layout: default
 
 
 
-        {% endif %}
-        {% else %}
-        {% if page.past == true %}
+       
+        
         {% else %}
         <h4 class="text-white">Tilmelding kommer snart...</h4>
+        {% endif %}
         {% endif %}
         {% endif %}
 
@@ -226,7 +228,9 @@ layout: default
         <li>Op til 10 årlige nyhedsbreve</li>
         <li>15% rabat på events, eksklusive arrangementer og udvalgte kurser</li>
       </ul>
+     
       <a href="/community/" class="btn btn-black-coral text-white text-uppercase fs-6"><b>Tilmeld dig community her</b></a>
+    
     </div>
   </div>
 
