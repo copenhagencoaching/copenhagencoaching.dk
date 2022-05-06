@@ -2,7 +2,7 @@
 layout: default
 title: Kunsten af spotte verdensklasse
 page: frontpage
-order: 1
+order: 3
 image: /images/educations/talent-8.png
 link: /academy/talent/
 placing: "background-position: center"
