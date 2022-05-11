@@ -169,13 +169,10 @@ layout: default
 
                         <div class="row gx-0 w-100">
                             <div class="col-md-4 col-12">
-                                <p class="mb-0 text-uppercase fw-bold text-white">{{ semester.title }}</p>
+                                <p class="mb-0 text-uppercase text-white">{{ semester.title }}</p>
                             </div>
-                            <div class="col-md-4 col-12">
-                                <p class="mb-0 text-uppercase fw-bold text-white">{{ semester.dates }}</p>
-                            </div>
-                            <div class="col-md-4 col-12">
-                                <p class="mb-0 text-uppercase fw-bold text-white">{{ semester.price }}</p>
+                            <div class="col-md-8 col-12">
+                                <p class="mb-0 text-uppercase text-white ms-4">{{ semester.dates }}</p>
                             </div>
                         </div>
                     </button>
@@ -192,20 +189,18 @@ layout: default
                             <div class="col-md-4 col-12">
                                 <p class="mb-0 text-uppercase text-white">{{ semester.title }}</p>
                             </div>
-                            <div class="col-md-4 col-12">
+                            <div class="col-md-8 col-12">
                                 <p class="mb-0 text-uppercase text-white">{{ semester.dates }}</p>
                             </div>
-                            <div class="col-md-4 col-12">
-                                <p class="mb-0 text-uppercase text-white">{{ semester.price }}</p>
-                            </div>
+                           
                         </div>
                     </button>
                 </div>
                 <div id="collapse{{ forloop.index }}"
-                    class="accordion-collapse collapse {% if forloop.index == 1 %} show{% else %}{% endif %} "
+                    class="accordion-collapse collapse"
                     aria-labelledby="heading{{ forloop.index }}">
                     <div class="accordion-body p-0">
-                        <div class="bg-platinum pt-3 ps-3 pe-3 d-none d-lg-block">
+                        <div class="pt-3 ps-3 pe-3 d-none d-lg-block{% if forloop.index == 1 %}{% else %} bg-platinum{% endif %}">
                             <div class="row ms-4">
                                 <div class="col-md-2 col-6">
                                     <p class="fw-bold">
@@ -236,8 +231,8 @@ layout: default
                         </div>
 
                         {% for module in semester.modules %}
-                        {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-                        <div class="pt-3 ps-3 pe-3{% if thecycle == 'even' %} bg-platinum{% endif %}">
+                        {% capture thecycle %}{% cycle "first": "1", "2" %}{% endcapture %}
+                        <div class="pt-3 ps-3 pe-3{% if thecycle == '1' %} bg-platinum{% endif %}">
                             <div class="row ms-4">
                                 <div class="col-md-2 col-6">
                                     <p>

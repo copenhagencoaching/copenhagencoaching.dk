@@ -230,13 +230,18 @@ hold:
     name: Eksamen
     place: Blegdamsvej
 - title: MBC33 - Semester 4 - Efterår 2022
-  price:
-  dates: 18. august
+  price: 45.900 (Ekskl. moms)
+  dates: 18. august - 1. december 2022
   modules:
   - date: 18. august
     time: 09:30 - 16:00
     day: 1
     name: Introduktion til nye coachingformer
+    place: Blegdamsvej
+  - date: 25. august
+    time: 17:00 - 20:00
+    day: "-"
+    name: Træningsaften
     place: Blegdamsvej
   - date: 28. september
     time: 09:30 - 20:00
@@ -248,10 +253,35 @@ hold:
     day: 3
     name: Kropsfilosofi
     place: Blegdamsvej
+  - date: 13. oktober
+    time: 17:00 - 20:00
+    day: "-"
+    name: Træningsaften
+    place: Blegdamsvej
   - date: 24. oktober
     time: 09:30 - 16:00
     day: 4
     name: Eksistensfilosofi
+    place: Blegdamsvej
+  - date: 25. oktober
+    time: 09:30 - 16:00
+    day: 5
+    name: Dialogfilosofi
+    place: Blegdamsvej
+  - date: 16. november
+    time: 09:30 - 20:00
+    day: 6
+    name: Differensfilosofi + Træningsaften
+    place: Blegdamsvej
+  - date: 17. november
+    time: 09:30 - 16:00
+    day: 7
+    name: Eksperimentel pragmatik
+    place: Blegdamsvej
+  - date: 1. december
+    time: 09:30 - 16:00
+    day: 8
+    name: Syntese
     place: Blegdamsvej
 hold_eller_begivenheder: true
 oe-order: 1
