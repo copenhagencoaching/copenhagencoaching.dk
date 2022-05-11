@@ -22,6 +22,7 @@ opgygning-text:
 - overskrift: Hvad får du ud af uddannelsen?
   paragrafer:
   - MBC’en består af 4 semestre, som du også kan tage individuelt. Et semester består af ca. 10 undervisningsdage med undervisning fra 9.30 – 16.00
+  - Hvert semester afsluttes med eksamen og et bevis på gennemførelse. Semestrene kan tages ét ad gangen og/eller forskudt, som det passer i den enkelte studerendes ressourcer og karrieremål. Hvis det måtte ønskes, kan der træffes individuel aftale om en ONLINE løsning.
 opbygning-liste:
 - overskrift: "Som MBC studerende får du:"
   lis:
@@ -50,6 +51,25 @@ emails:
 - ab@copenhagencoaching.dk
 event-title: Kommende hold
 special: false
+anbefalinger: true
+vidner:
+- navn: Navn Navn
+  titel: Titel, Virksomhed
+  texts:
+  - Cras varius. Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc. Sed libero. Suspendisse eu ligula. Phasellus consectetuer vestibulum elit.
+  - Pellentesque ut neque. Vestibulum turpis sem, aliquet eget, lobortis pellentesque, rutrum eu, nisl. Aliquam erat volutpat. Etiam imperdiet imperdiet orci. Praesent porttitor, nulla vitae posuere iaculis, arcu nisl dignissim dolor, a pretium mi sem ut ipsum.
+- navn: Navn Navn
+  titel: Titel, Virksomhed
+  texts:
+  - Cras varius. Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc. Sed libero. Suspendisse eu ligula. Phasellus consectetuer vestibulum elit.
+  - Pellentesque ut neque. Vestibulum turpis sem, aliquet eget, lobortis pellentesque, rutrum eu, nisl. Aliquam erat volutpat. Etiam imperdiet imperdiet orci. Praesent porttitor, nulla vitae posuere iaculis, arcu nisl dignissim dolor, a pretium mi sem ut ipsum.
+deltagerprofil: true
+profil:
+- overskrift: Hvem henvender uddannelsen sig til?
+  paragrafer:
+  - Donec sodales sagittis magna. Etiam sit amet orci eget eros faucibus tincidunt. Vivamus euismod mauris. Praesent adipiscing. Sed a libero. Cras dapibus.. Nulla consequat massa quis enim. Nunc sed turpis. Quisque libero metus, condimentum nec, tempor a, commodo mollis, magna. Donec sodales sagittis magna. Etiam sit amet orci eget eros faucibus tincidunt. Vivamus euismod mauris. Praesent adipiscing. Sed a libero. Cras dapibus.
+  - Cras dapibus.. Nulla consequat massa quis enim. Nunc sed turpis. Quisque libero metus, condimentum nec, tempor a, commodo mollis, magna.Praesent adipiscing. Sed a libero. Cras dapibus.. Nulla consequat massa quis enim. Nunc sed turpis. Quisque libero metus, condimentum nec, tempor a, commodo mollis, magna.
+image: "/images/academy/proceslederuddannelse.jpg"
 kursus-oversigt: true
 hold:
 - title: MBC36 - Semester 1 - Efterår 2022

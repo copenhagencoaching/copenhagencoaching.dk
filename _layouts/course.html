@@ -364,39 +364,30 @@ layout: default
             <div class="row g-5">
                 {% for v in page.vidner %}
 
-                <div class="col-12">
+                <div class="col-12 col-md-6">
 
-                    <div class="d-flex align-items-center">
-                        <div class="flex-shrink-0">
-                            <img class="small-image-148 rounded-circle" src="/images/graphic/placeholder-profile.png"
-                                alt="">
-                        </div>
-                        <div class="flex-grow-1 ms-3">
+                    <figure>
+                        <blockquote class="blockquote mb-4 col-12">
+                            <p class="text-white">
+                                <i class="fas fa-quote-left fs-3 fa-lg opacity-50 me-2 text-white"></i>
+                                {% for p in v.texts %}
+                                <span class="mb-2">{{ p }}</span>
+                                <br>
+                                <br>
+                                {% endfor %}
 
-
-                            <figure>
-                                <blockquote class="blockquote mb-4 col-12">
-                                    <p class="text-white">
-                                        <i class="fas fa-quote-left fs-3 fa-lg opacity-50 me-2 text-white"></i>
-                                        {% for p in v.texts %}
-                                        <span class="mb-2">{{ p }}</span>
-                                        <br>
-                                        <br>
-                                        {% endfor %}
-
-                                    </p>
-                                </blockquote>
-                                <figcaption class="blockquote-footer text-white">
-                                    <b>{{ v.navn }}</b><br>
-                                    <small>{{ v.titel }}</small>
-                                </figcaption>
-                            </figure>
+                            </p>
+                        </blockquote>
+                        <figcaption class="blockquote-footer text-white">
+                            <b>{{ v.navn }}</b><br>
+                            <small>{{ v.titel }}</small>
+                        </figcaption>
+                    </figure>
 
 
 
 
-                        </div>
-                    </div>
+
                 </div>
 
                 {% endfor %}
