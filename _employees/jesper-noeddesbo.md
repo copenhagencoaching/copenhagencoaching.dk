@@ -8,7 +8,6 @@ email: jn@copenhagencoaching.dk
 mbc: true
 consulent: true
 edu:
-- Cand. Comm. fra Roskilde Universitet
 - Master i Business Coaching
 description: Konsulent
 linkedin: https://www.linkedin.com/in/jesper-n%C3%B8ddesbo-a479386b/
