@@ -1,7 +1,7 @@
 ---
 order: 1
 title: Master of Business Coaching
-layout: course
+layout: mbc-2
 image: "/images/international/i3.jpg"
 image-2: /images/educations/mbc-overblik.png
 kort: true

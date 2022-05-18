@@ -1,9 +1,9 @@
 ---
 order: 3
 title: Ghita Vejlebo
-portrait-image: "/images/graphic/placeholder-profile.png"
-small-portrait-image: "/images/graphic/placeholder-profile.png"
-grey-portrait: /images/graphic/placeholder-profile.png
+portrait-image: "/images/about/employees/ghita-vejlebo-gray.png"
+small-portrait-image: "/images/about/employees/ghita-vejlebo-gray.png"
+grey-portrait: "/images/about/employees/ghita-vejlebo-gray.png"
 call: 51 63 26 80
 mbc: true
 consulent: true
