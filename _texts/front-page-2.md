@@ -2,7 +2,7 @@
 layout: default
 title: Bliv certificeret i erhvervsrettet testning
 page: frontpage
-order: 2
+order: 3
 image: /images/frontpage/fp-6.png
 link: /academy/certificering-i-big-five/
 ---

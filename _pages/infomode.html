@@ -1,0 +1,136 @@
+---
+title: MBC infomøde
+permalink: academy/master-of-business-coaching/info-mode/
+layout: default
+---
+
+
+<img src="/images/graphic/infomode.png" alt="" class="object-fit w-100 h-400">
+
+<div class="container-fluid my-5">
+    <div class="small-container">
+        <h2 class="text-center">Master of business coaching</h2>
+        <h1 class="text-center mb-4">Informationsmøde</h1>
+        <p class="text-justify mx-auto mb-5 fs-6">Kom med til informationsmøde omkring lederuddannelsen Master of
+            Business Coaching hos CCC, og bliv klogere på om hvad vi kan tilbyde dig. Hør bl.a. om uddannelsens
+            opbygning, de praktiske forhold, og udtalelser fra tidligere og nuværende studerende, <b>Chefkonsulent og Hotelejer Mette
+            Fløystrup fra Region Hovedstaden, Sektionsleder Ziga Friberg fra Røde Kors</b> og vores egen konsulent <b>Jesper Nøddesbo</b>, om hvad uddannelsen har givet dem.</p>
+
+
+
+        <div class="bg-platinum pt-5 pb-5 mb-2 mt-5">
+            <form action="https://formspree.io/f/mvollpwe" method="POST" enctype="multipart/form-data"
+                style="max-width: 600px;" class="mx-auto special-form" id="form-infomode">
+                <div class="row mt-3 gy-4 gx-5 inder-form" id="inner-form">
+
+                    <div class="col-md-6 col-12">
+
+                        <div class="form-check mb-4">
+                            <input class="form-check-input" name="07-06-2022" type="checkbox" id="dato1">
+                            <label class="form-check-label" for="dato1">
+                                <p class="small mb-0 fw-bold">7. juni 2022 - 16:00 - 17:30 (Online)</p>
+                            </label>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <div class="form-check mb-4">
+                            <input class="form-check-input" name="21-06-2022" type="checkbox" id="dato2">
+                            <label class="form-check-label" for="dato2">
+                                <p class="small mb-0 fw-bold">21. juni 2022 - 16:00 - 17:30 (Fysisk)</p>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-12">
+
+                        <input type="text" class="form-control w-100" placeholder="Fornavn" aria-label="fornavn"
+                            name="fornavn">
+
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <input type="text" class="form-control w-100" placeholder="Efternavn" aria-label="efternavn"
+                            name="efternavn">
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <input type="text" class="form-control w-100" placeholder="Email" aria-label="email"
+                            name="email">
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <input type="text" class="form-control w-100" placeholder="Virksomhed" aria-label="virksomhed"
+                            name="virksomhed">
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <input type="text" class="form-control w-100" placeholder="Telefon" aria-label="telefon"
+                            name="telefon">
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <div class="form-check mb-4">
+                            <input class="form-check-input" name="_optin" type="checkbox" id="newsletter">
+                            <label class="form-check-label" for="newsletter">
+                                <p class="small mb-0">Ja tak, jeg vil gerne modtage CCC's nyhedsbrev.</p>
+                            </label>
+                        </div>
+
+                    </div>
+                    <div class="g-recaptcha" data-sitekey="6Lfi__EcAAAAABOscNdrKzqeLNu2vbuTM_5VlANy"></div>
+                    <div class="col-12">
+                        <button class="w-100 btn-opal text-white btn mb-3" type="submit">Tilmeld</button>
+                    </div>
+                </div>
+                <div class="d-none message-form-udd" id="form-message-udd">
+                    <h2>Tak for din tilmelding til informationsmøde omrking Master of Business Coaching</h2>
+                    <p>En bekræftelse er sendt til din mail</p>
+                    <p class="fw-bold">OBS: Vi oplever tit at automatiserede mails bliver markeret som spam, så vi
+                        opfordrer til at tjekke spam-indbakken og evt. markere info@copenhagencoaching.dk som sikker
+                        afsender i Outlook eller andre mail programmer.</p>
+                </div>
+            </form>
+
+        </div>
+<div class="text-center">
+    <p class="text-center fw-bold fs-6 mt-5">Interesseret i at læse mere om uddannelsen Master of Business Coaching?</p>
+    <a class="btn-black-coral text-white btn mb-3 fw-bold" href="/academy/master-of-business-coaching/">Læs mere om uddannelsen Master of Business Coaching</a>
+</div>
+       
+
+    </div>
+
+</div>
+
+{% include sections/other-courses-2.html %}
+
+<script>
+    var form = document.getElementById("form-infomode");
+
+    async function handleSubmit(event) {
+        event.preventDefault();
+        var status = document.getElementById("form-message-udd");
+        var data = new FormData(event.target);
+        fetch(event.target.action, {
+            method: form.method,
+            body: data,
+            headers: {
+                'Accept': 'application/json'
+            }
+        }).then(response => {
+            if (response.ok) {
+                $('.inder-form').addClass("d-none")
+                $('.message-form-udd').removeClass("d-none")
+                form.reset()
+            } else {
+                response.json().then(data => {
+                    if (Object.hasOwn(data, 'errors')) {
+                        status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+                    } else {
+                        status.innerHTML = "Oops! There was a problem submitting your form"
+                    }
+                })
+            }
+        }).catch(error => {
+            status.innerHTML = "Oops! There was a problem submitting your form"
+        });
+    }
+    form.addEventListener("submit", handleSubmit)
+</script>
