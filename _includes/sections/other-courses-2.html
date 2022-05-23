@@ -4,7 +4,7 @@
         <h4 class="mb-5 text-uppercase text-white">Interesseret i vores andre uddannelser?</h4>
         <div class="row gx-5">
             {% assign educations = site.educations | where_exp:"item",
-            "item.url != include.url" %}
+            "item.title != 'Master of Business Coaching'" %}
             {% for edu in educations limit: 4 %}
             <div class="col-lg-4 col-xl-3 col-12 col-sm-6">
                 <a href="{{ edu.url }}">

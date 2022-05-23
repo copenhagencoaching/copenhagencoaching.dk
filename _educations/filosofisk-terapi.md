@@ -11,6 +11,7 @@ event-title: Kommende hold
 special: true
 order: 22
 hold_eller_begivenheder: true
+published: false
 events:
 - overskrift: Datoer følger snarest
 ---
