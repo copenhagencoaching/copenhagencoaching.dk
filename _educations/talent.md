@@ -3,6 +3,10 @@ title: Talentudvikling
 header: Talentudvikling
 location: Blegdamsvej 104C, 3. sal, baghuset th., 2100 København Ø
 special: false
+dage: 6
+undervisere:
+- Andreas Bering
+- Jesper Nøddesbo
 image: "/images/educations/talent-program.png"
 layout: talent
 description: For at blive i stand til at arbejde kvalificeret med talent må du først
@@ -12,6 +16,7 @@ description: For at blive i stand til at arbejde kvalificeret med talent må du 
   arbejder med talent, talentudvikling, samt fastholdelse, så kom med os tur-retur
   Kbh-Barcelona i efteråret 2022.
 order: 2
+kursus-oversigt: true
 hold:
 - title: TP1-E22
   price: 30.000 - 50.000 ekskl. moms
@@ -37,5 +42,4 @@ cat:
 - master-4
 - put
 redirect_from: []
-
 ---

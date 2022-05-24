@@ -117,7 +117,7 @@ layout: default
             </div>
             <div class="col-12 col-md-6">
                 {% for text in page.overblik offset:1 %}
-                <h4>{{ text.overskrift }}</h4>
+                <h4 class="text-uppercase">{{ text.overskrift }}</h4>
                 {% for p in text.paragrafer %}
                 <p>{{ p }}</p>
                 {% endfor %}
@@ -133,6 +133,31 @@ layout: default
                 </ul>
                 {% endfor %}
             </div>
+            {% if page.galleri-overblik == true %}
+            <div class="col-12">
+                {% for ex in page.galleri %}
+                {% capture thec %}{% cycle "first": "1", "2" %}{% endcapture %}
+                <div class="row gx-5 mb-5 {% if thec == "2" %}flex-row-reverse{% endif %}">
+
+                    <div class="col-md-6 col-12">
+                        <h5>{{ ex.title }}</h5>
+                        <small>
+                            <p class="small">{{ ex.subtitle }}</p>
+                        </small>
+                        <p>{{ ex.text }}</p>
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <div class="h-100 w-100"
+                            style="background-image: url('{{ ex.image }}'); background-size: cover;">
+
+                        </div>
+
+                    </div>
+
+                </div>
+                {% endfor %}
+            </div>
+            {% endif %}
         </div>
     </div>
 </div>
@@ -192,15 +217,15 @@ layout: default
                             <div class="col-md-8 col-12">
                                 <p class="mb-0 text-uppercase text-white">{{ semester.dates }}</p>
                             </div>
-                           
+
                         </div>
                     </button>
                 </div>
-                <div id="collapse{{ forloop.index }}"
-                    class="accordion-collapse collapse"
+                <div id="collapse{{ forloop.index }}" class="accordion-collapse collapse"
                     aria-labelledby="heading{{ forloop.index }}">
                     <div class="accordion-body p-0">
-                        <div class="pt-3 ps-3 pe-3 d-none d-lg-block{% if forloop.index == 1 %}{% else %} bg-platinum{% endif %}">
+                        <div
+                            class="pt-3 ps-3 pe-3 d-none d-lg-block{% if forloop.index == 1 %}{% else %} bg-platinum{% endif %}">
                             <div class="row ms-4">
                                 <div class="col-md-2 col-6">
                                     <p class="fw-bold">
@@ -306,7 +331,7 @@ layout: default
                     {% for l in page.opbygning-liste %}
                     <h4 class="text-uppercase">{{ l.overskrift }}
                     </h4>
-                    <ul>
+                    <ul class="ps-3">
                         {% for i in l.lis %}
                         <li>{{ i }}</li>
                         {% endfor %}

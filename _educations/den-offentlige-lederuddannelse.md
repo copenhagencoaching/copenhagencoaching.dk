@@ -24,6 +24,16 @@ overblik:
 price: 'Vejledende pris: 7.500 ekskl. moms pr. 5 ECTS'
 pdf: 'false'
 event-title: Vi starter løbende hold op - ring og hør nærmere
+galleri-overblik: true
+galleri:
+- image: /images/academy/den-offentlige-lederuddannelse.png
+  title: Det Personlige Lederskab og Forandring
+  subtitle: Standardmodul, 10 ECTS
+  text: Nam eget dui. Quisque malesuada placerat nisl. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam quis ante. Donec interdum, metus et hendrerit aliquet, dolor diam sagittis ligula, eget egestas libero turpis vel mi.
+- image: /images/academy/den-offentlige-lederuddannelse.png
+  title: Ledelse af Medarbejdere og Faglig Udvikling
+  subtitle: Standardmodul, 10 ECTS
+  text: Nam eget dui. Quisque malesuada placerat nisl. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam quis ante. Donec interdum, metus et hendrerit aliquet, dolor diam sagittis ligula, eget egestas libero turpis vel mi.
 oe-order: 5
 lists:
 - liste-paragraf: "Hos CCC kan du tage følgende DOL-moduler:"
