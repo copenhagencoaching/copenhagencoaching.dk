@@ -72,7 +72,7 @@ profil:
 image: "/images/academy/proceslederuddannelse.jpg"
 kursus-oversigt: true
 hold:
-- title: MBC36 - Semester 1 - Efterår 2022
+- title: Semester 1 - Efterår 2022
   price: 45.900 (Ekskl. moms)
   dates: 5. september 2022 - 14. december 2022
   modules:
@@ -141,7 +141,7 @@ hold:
     time: 09:30 - 16:00
     name: Eksamen
     place: Blegdamsvej
-- title: MBC35 - Semester 2 - Efterår 2022
+- title: Semester 2 - Efterår 2022
   price: 45.900 (Ekskl. moms)
   dates: 22. august 2022 - 16. juni 2022
   modules:
@@ -205,7 +205,7 @@ hold:
     time: 09:30 - 16:00
     name: Eksamen
     place: Blegdamsvej
-- title: MBC34 - Semester 3 - Efterår 2022
+- title: Semester 3 - Efterår 2022
   price: 45.900 (Ekskl. moms)
   dates: 25. august 2022 - 23. november 2022
   modules:
@@ -229,7 +229,7 @@ hold:
     time: 09:30 - 16:00
     name: Eksamen
     place: Blegdamsvej
-- title: MBC33 - Semester 4 - Efterår 2022
+- title: Semester 4 - Efterår 2022
   price: 45.900 (Ekskl. moms)
   dates: 18. august - 1. december 2022
   modules:

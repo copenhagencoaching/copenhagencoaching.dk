@@ -7,6 +7,7 @@ image: /images/educations/talent-8.png
 link: /academy/talent/
 placing: "background-position: center"
 published: true
+text-message: Start 20. september 2022
 ---
 
 Der er mange forskellige opfattelser og meninger om talent. Er det medfødt? Er det tillært? Et resultat af mange arbejdstimer, vilje eller motivation?

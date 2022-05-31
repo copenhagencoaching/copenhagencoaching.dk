@@ -59,7 +59,7 @@ permalink: /tilmelding/
 
                 {% if edu.title == "Master of Business Coaching" %}
                 {% for h in edu.hold %}
-                <option value="{{ h }}">{{ h }}</option>
+                <option value="{{ h.title }}">{{ h.title }}</option>
                 {% endfor %}
                 {% endif %}
                 {% endfor %}

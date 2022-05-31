@@ -18,24 +18,24 @@ description: For at blive i stand til at arbejde kvalificeret med talent må du 
 order: 2
 kursus-oversigt: true
 hold:
-- title: TP1-E22
+- title: Efterår 2022
   price: 30.000 - 50.000 ekskl. moms
-  dates: Efterår 2022
+  dates: 20. september - 15. december
   modules:
-  - date: Dato på vej
+  - date: 20. september
     day: "1"
     time: "-"
     name: Introdag
     place: København
-  - date: Dato på vej
+  - date: 1. - 4. oktober
     day: 2-5
     time: "-"
     name: Studieophold
     place: Barcelona
-  - date: Dato på vej
+  - date: 15. december
     day: "6"
     time: "-"
-    name: Implementeringsdag
+    name: Erfarings- og strategidag
     place: København
 contact-person: Andreas Bering
 cat:
