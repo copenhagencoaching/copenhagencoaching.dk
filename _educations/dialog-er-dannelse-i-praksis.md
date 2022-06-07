@@ -1,7 +1,7 @@
 ---
 title: Dialog er dannelse i praksis
 image: "/images/academy/dialog-er-dannelse-i-praksis-coaching-uddannelse.jpg"
-contact-person: Kim Gørtz
+contact-person: Mette Mejlhede
 header: Dialog er dannelse i praksis
 description: '"Dialog er dannelse i praksis" vil i et kursusforløb i efteråret 2020 udfolde en række nye dialogformer og knytte an til konkret undervisningspraksis.'
 teaser: '"Dialog er dannelse i praksis" vil i et <b>kursusforløb i efteråret 2020</b> udfolde en række nye dialogformer og knytte an til konkret undervisningspraksis.'
@@ -146,19 +146,7 @@ yderligere.
             </div>
         </div>
 
-        <div class="r-gap-20 gap-20 visit-card">
-            <div>
-            <div class="outer-small-round-image"><img class="small-round-image" src="/images/about/employees/kim-gørtz-geryscale.png"
-                    alt="Kim Gørtz"></div></div>
-            <div class="grid-1 align-content-center">
-                
-                <h4>Kim Gørtz</h4><p>
-                <b>Seniorkonsulent i Copenhagen Coaching Center</b><br>
-                Cand. Mag i filosofi fra Københavns Universitet, Ph.d<br>
-                
-                Master i Business Coaching fra CCC</p>
-            </div>
-        </div>
+
 
         <div class="r-gap-20 gap-20 visit-card">
 
