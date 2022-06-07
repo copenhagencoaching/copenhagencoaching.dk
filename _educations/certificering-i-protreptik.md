@@ -6,7 +6,7 @@ contact-person: Mette Mejlhede
 header: Certificering i Protreptik
 kursus-oversigt: false
 aktive-hold: false
-published: false
+published: true
 overblik:
 - overskrift: Filosofisk samtalekunst
   paragrafer:
