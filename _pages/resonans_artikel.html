@@ -1,6 +1,7 @@
 ---
 title: Resonans
 layout: default
+permalink: /resonans/artikel/
 ---
 
 <div class="pt-5"
@@ -55,25 +56,27 @@ layout: default
 
 <div class="bg-platinum pb-5">
     <div class="container-fluid pt-5">
-        <p class="fw-bold text-uppercase d-inline">Sortér efter kategori:</p>
-        <div class="form-check form-check-inline">
-            <input class="form-check-input mt-2" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" checked>
-            <label class="form-check-label" for="inlineRadio1">Alle</label>
-          </div>
-          <div class="form-check form-check-inline">
-            <input class="form-check-input mt-2" type="radio" onchange="if(this.checked) document.location.href='/resonans/podcast/'" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-            <label class="form-check-label" for="inlineRadio2">Podcast</label>
-          </div>
-          <div class="form-check form-check-inline">
-            <input class="form-check-input mt-2" type="radio" onchange="if(this.checked) document.location.href='/resonans/artikel'" name="inlineRadioOptions" id="inlineRadio3" value="option3">
-            <label class="form-check-label" for="inlineRadio3">Artikel</label>
-          </div>
+  
+            <p class="fw-bold text-uppercase d-inline">Sortér efter kategori:</p>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input mt-2" type="radio" onchange="if(this.checked) document.location.href='/resonans/'" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                <label class="form-check-label" for="inlineRadio1">Alle</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input mt-2" type="radio" onchange="if(this.checked) document.location.href='/resonans/podcast/'" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <label class="form-check-label" for="inlineRadio2">Podcast</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input mt-2" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3" checked>
+                <label class="form-check-label" for="inlineRadio3">Artikel</label>
+              </div>
+        
         <div class="row g-5">
             <ul id="tag-list" class="entry-meta inline-list">
 
             </ul>
 
-            {% for post in site.tags.blog | sort: "date" | reverse %}
+            {% for post in site.categories.artikel | sort: "date" | reverse %}
             <div class="col-lg-4 col-12 col-md-6">
                 <a href="{{ post.url }}">
                     <div class="bg-white shadow p-3 mb-5 bg-body rounded">

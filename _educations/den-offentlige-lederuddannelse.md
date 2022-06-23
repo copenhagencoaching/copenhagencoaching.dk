@@ -46,7 +46,8 @@ lists:
   - Ledelse og Filosofi (valgmodul, 5 ECTS)
   - Specialemodul (15 ECTS)
 hold:
-- Ledelse og Coaching - Efterår 2021 - start 5. november
+- Coaching og Ledelse - Efterår 2022
+- Filosofi og Ledelse - Efterår 2022
 emails:
 - ln@copenhagencoaching.dk
 special: false
@@ -54,7 +55,16 @@ cat:
 - diplom
 hold_eller_begivenheder: true
 events:
-- overskrift: Nye datoer på vej.
+- overskrift: Coaching og Ledelse - Efterår 2022
+  dato:
+  - 30. august
+  - 20. september
+  - 27. september
+- overskrift: Filosofi og Ledelse - Efterår 2022
+  dato:
+  - 27. oktober
+  - 2. november
+  - 10. november
 ---
 
 Er du leder, eller drømmer du om at bliver det? Trænger du til at få styrket dine lederkompetencer, og samtidig få de nyeste og brugbare værktøjer til medarbejdersamtaler og til håndtering af konfliktsituationer? Så tag moduler i Den offentlige Lederuddannelse (DOL) hos os!

@@ -79,7 +79,7 @@ customer-categories:
 collections:
   posts:
     output: true
-    permalink: /inspiration/:title/
+    permalink: /resonans/:categories/:title/
   advisory-board:
     output: false
   employees:

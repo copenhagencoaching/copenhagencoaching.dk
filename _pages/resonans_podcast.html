@@ -1,6 +1,7 @@
 ---
 title: Resonans
 layout: default
+permalink: /resonans/podcast/
 ---
 
 <div class="pt-5"
@@ -57,11 +58,11 @@ layout: default
     <div class="container-fluid pt-5">
         <p class="fw-bold text-uppercase d-inline">Sortér efter kategori:</p>
         <div class="form-check form-check-inline">
-            <input class="form-check-input mt-2" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" checked>
+            <input class="form-check-input mt-2" type="radio" onchange="if(this.checked) document.location.href='/resonans/'" name="inlineRadioOptions" id="inlineRadio1" value="option1">
             <label class="form-check-label" for="inlineRadio1">Alle</label>
           </div>
           <div class="form-check form-check-inline">
-            <input class="form-check-input mt-2" type="radio" onchange="if(this.checked) document.location.href='/resonans/podcast/'" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+            <input class="form-check-input mt-2" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2" checked>
             <label class="form-check-label" for="inlineRadio2">Podcast</label>
           </div>
           <div class="form-check form-check-inline">
@@ -73,7 +74,7 @@ layout: default
 
             </ul>
 
-            {% for post in site.tags.blog | sort: "date" | reverse %}
+            {% for post in site.categories.podcast | sort: "date" | reverse %}
             <div class="col-lg-4 col-12 col-md-6">
                 <a href="{{ post.url }}">
                     <div class="bg-white shadow p-3 mb-5 bg-body rounded">
