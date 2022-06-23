@@ -21,7 +21,7 @@ overblik:
   paragrafer:
   - "DOL er en fleksibel lederuddannelse, hvor hvert modul giver 5, 10 eller 15 ECTS point. For at få en fuld DOL skal du have tre standardmoduler og tre valgmoduler, svarende til 45 ECTS point, samt lave en afsluttende opgave (Specialemodulet), der svarer til 15 ECTS point – i alt 60 ECTS point."
   - "Du har herefter mulighed for at få konverteret den offentlige lederuddannelse til Diplomuddannelsen i ledelse ved en offentlig videregående uddannelsesinstitution, som udbyder diplomuddannelsen i ledelse."
-price: 'Vejledende pris: 7.500 ekskl. moms pr. 5 ECTS'
+price: '8.600 ekskl. moms pr modul'
 pdf: 'false'
 event-title: Vi starter løbende hold op - ring og hør nærmere
 galleri-overblik: true
