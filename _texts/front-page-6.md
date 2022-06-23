@@ -6,7 +6,7 @@ order: 1
 image: /images/infomode/infomode-2.png
 link: /academy/master-of-business-coaching/info-mode/
 placing: "background-position: center"
-published: true
+published: false
 text-message: 21. juni 2022
 ---
 Ønsker du at blive dygtig til at føre produktive og virkningsfulde
