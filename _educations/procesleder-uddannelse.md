@@ -2,7 +2,17 @@
 title: Proceslederuddannelse online
 header: Procesleder-uddannelse online
 description: Med en proceslederuddannelse fra CCC får du markedets stærkeste uddannelse i at planlægge, styre og fastholde processer. Uddannelsen henvender sig til ledere, konsulenter og medarbejdere, som har ansvar for og håndterer processer og forandringer i organisationen, internt eller eksternt.
+image-2: "/images/educations/plu-table.png"
 deltagerprofil: true
+pdf: "/pdfs/PLU2020forår.pdf"
+opbygning: true
+opbygning-image: "/images/educations/mbc-opbygning.png"
+opbygning-liste:
+- overskrift: "Som PLU studerende får du:"
+  lis:
+  - Adgang til vidensportal, værktøjer, faglitteratur, artikler og cases
+  - Løbende supervision og et stærkt netværk
+  - Big Five Personlighedstest med individuel tilbagemelding
 anbefalinger: true
 vidner:
 - navn: Marianne Nyborg
@@ -36,14 +46,15 @@ overblik:
   paragrafer:
   - "Den høje grad af uforudsigelighed, samt krav om konstant forandringer, omorganiseringer, økonomiske udfordringer m.v. skaber behov for professionel procesledelse. Ønsker om medinddragelse og samskabelse som en del af virksomhedens kultur, drift og udvikling kalder ligeledes på et højt niveau af procesledelse. God procesledelse kræver evner til at styre, rumme og stimulere menneskelig og faglig mangfoldighed i retning af fælles udvikling og mål."
 price: 38.700,- EKSKL. MOMS (heri er inkluderet fuld forplejning, materialer med videre)
-pdf: ''
 hold:
 - PLU26 Efterår 2021 - start 25. oktober
 contact-person: Lars Nyborg
 event-title: Kommende hold
 order: 8
-location: Blegdamsvej 104C, 3., baghuset th., 2100 København Ø
+location: Blegdamsvej 104D, 3. sal, 2100 København Ø
 special: false
+kort: true
+kort-kode: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2248.539012921064!2d12.571144951594782!3d55.6970020036662!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465252fc41468a33%3A0x721ebe721a5ba062!2sBlegdamsvej%20104C%2C%202100%20K%C3%B8benhavn!5e0!3m2!1sda!2sdk!4v1652082586059!5m2!1sda!2sdk" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'
 undervisere:
 - Lars Nyborg
 - Andreas Bering
@@ -57,12 +68,7 @@ lists:
   - at håndtere frustrationer i organisationer
   - at producere nye handlemuligheder
   - at skabe og sikre følgeskab.
-- liste-paragraf: "Du for desuden:"
-  liste:
-  - Adgang til vidensportal, værktøjer, faglitteratur, artikler og cases
-  - Løbende supervision og et stærkt netværk
-  - Big Five Personlighedstest med individuel tilbagemelding
-layout: plu
+layout: course
 emails:
 - ln@copenhagencoaching.dk
 hold_eller_begivenheder: true

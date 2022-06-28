@@ -6,6 +6,7 @@ small-portrait-image: "/images/about/small-images/lars-nyborg.png"
 grey-portrait: /images/about/medarbejdere-sort-hvid/lars-nyborg-sort-hvid.png
 call: 27 11 42 44
 consulent: true
+on-om-os: true
 email: ln@copenhagencoaching.dk
 description: Associeret partner
 linkedin: https://www.linkedin.com/in/lars-nyborg-82608431/

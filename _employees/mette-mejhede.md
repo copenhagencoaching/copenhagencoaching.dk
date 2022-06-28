@@ -8,6 +8,7 @@ call: 24 27 28 71
 email: mm@copenhagencoaching.dk
 mbc: true
 consulent: true
+on-om-os: true
 edu:
 - Cand.merc HRM Copenhagen Business School
 - Master i Business Coaching, EIA Master Akkrediteret Coach

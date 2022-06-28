@@ -7,6 +7,7 @@ grey-portrait: /images/about/employees/jesper-nøddesbo-grayscale.png
 email: jn@copenhagencoaching.dk
 mbc: true
 consulent: true
+on-om-os: true
 edu:
 - Master i Business Coaching
 description: Konsulent

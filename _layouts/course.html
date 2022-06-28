@@ -12,8 +12,8 @@ layout: default
                     <hr class="white short-hr mx-auto">
                 </div>
             </div>
-            <a class="btn-beaver btn w-254 btn-bold fs-6 me-md-5 text-white h-50" data-proofer-ignore
-                href="#hent-brochure" data-toggle="modal" data-target="#brochure-modal">Hent brochure</a>
+            {% if page.pdf %}<a class="btn-beaver btn w-254 btn-bold fs-6 me-md-5 text-white h-50" data-proofer-ignore
+                href="#hent-brochure" data-toggle="modal" data-target="#brochure-modal">Hent brochure</a>{% endif %}
             <a class="btn-slate-gray text-white btn w-254 btn-bold fs-6 h-50" href="#kontakt-underviseren">Kontakt
                 underviseren</a>
         </div>
@@ -23,7 +23,7 @@ layout: default
 <div class="container-fluid my-5" style="z-index: 1100;">
     <div class="small-container">
         <div>
-            <div class="row gx-4">
+            <div class="row gx-2">
                 <div class="col">
                     <a class="color-base" href="#overblik">
                         <div class="bg-cadet-gray w-100 text-center py-2">
@@ -111,18 +111,20 @@ layout: default
                 {% for text in page.overblik limit:1 %}
                 <h4 class="text-uppercase">{{ text.overskrift }}</h4>
                 {% for p in text.paragrafer %}
-                <p>{{ p }}</p>
+                <p class="text-justify">{{ p }}</p>
                 {% endfor %}
                 {% endfor %}
             </div>
+            {% if page.lists %}
             <div class="col-12 col-md-6">
                 {% for text in page.overblik offset:1 %}
                 <h4 class="text-uppercase">{{ text.overskrift }}</h4>
                 {% for p in text.paragrafer %}
-                <p>{{ p }}</p>
+                <p class="text-justify">{{ p }}</p>
                 {% endfor %}
                 {% endfor %}
             </div>
+            
             <div class="col-12 col-md-6">
                 {% for l in page.lists %}
                 <p>{{ l.liste-paragraf }}</p>
@@ -133,6 +135,19 @@ layout: default
                 </ul>
                 {% endfor %}
             </div>
+            {% else %}
+            {% for text in page.overblik offset:1 %}
+            <div class="col-12 col-md-6">
+                
+                <h4 class="text-uppercase">{{ text.overskrift }}</h4>
+                {% for p in text.paragrafer %}
+                <p class="text-justify">{{ p }}</p>
+                {% endfor %}
+                
+            </div>
+            {% endfor %}
+            {% endif %}
+            
             {% if page.galleri-overblik == true %}
             <div class="col-12">
                 {% for ex in page.galleri %}
@@ -144,7 +159,9 @@ layout: default
                         <small>
                             <p class="small">{{ ex.subtitle }}</p>
                         </small>
-                        <p>{{ ex.text }}</p>
+                        {% for t in ex.text %}
+                        <p class="text-justify">{{ t }}</p>
+                        {% endfor %}
                     </div>
                     <div class="col-md-6 col-12">
                         <div class="h-100 w-100"
@@ -163,7 +180,7 @@ layout: default
 </div>
 
 {% if page.kursus-oversigt == true %}
-<div class="container-fluid">
+<div class="container-fluid mt-5">
     <div class="small-container">
         <div class="bg-slate-gray px-5 py-4 mb-3">
             <div class="row gx-0">
@@ -173,20 +190,24 @@ layout: default
                     </h2>
                 </div>
                 <div class="col-4 d-flex align-items-center">
-                    <p class="text-white mb-0 ms-3"><b>{{ page.price }}</b></p>
+                    <p class="text-white mb-0 ms-3"><b>{{ page.small-price }}</b></p>
                 </div>
+                {% if page.dage %}
                 <div class="col-2 d-flex align-items-center justify-items-end justify-content-end text-end">
                     <p class="text-white mb-0"><b>{{ page.dage }} dage</b></p>
                 </div>
+                {% endif %}
+                {% if page.hours %}
                 <div class="col-2 d-flex align-items-center justify-items-end justify-content-end text-end">
                     <p class="text-white mb-0"><b>{{ page.hours }} timer</b></p>
                 </div>
+                {% endif %}
             </div>
         </div>
         <div class="accordion white-arrow" id="accordionPanelsStayOpenExample">
             {% for semester in page.hold %}
             <div class="accordion-item border-none mb-2">
-                <div class="accordion-header d-none d-lg-block" id="heading{{ forloop.index }}">
+                <div class="accordion-header d-none d-md-block" id="heading{{ forloop.index }}">
                     <button
                         class="accordion-button {% if forloop.index == 1 %} {% else %} collapsed{% endif %} px-5 py-3 bg-quick-silver"
                         type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{ forloop.index }}"
@@ -194,7 +215,7 @@ layout: default
 
                         <div class="row gx-0 w-100">
                             <div class="col-md-4 col-12">
-                                <p class="mb-0 text-uppercase text-white">{{ semester.title }}</p>
+                                <p class="mb-0 text-uppercase text-white fw-bold">{{ semester.title }}</p>
                             </div>
                             <div class="col-md-8 col-12">
                                 <p class="mb-0 text-uppercase text-white ms-4">{{ semester.dates }}</p>
@@ -203,16 +224,16 @@ layout: default
                     </button>
                 </div>
 
-                <!-- darker one -->
-                <div class="accordion-header border-none d-sm-block d-md-none" id="heading{{ forloop.index }}">
+               
+                <div class="accordion-header border-none d-block d-md-none" id="heading{{ forloop.index }}">
                     <button
-                        class="accordion-button white border-none {% if forloop.index == 1 %} {% else %} collapsed{% endif %} px-5 py-3 bg-platinum"
+                        class="accordion-button white border-none {% if forloop.index == 1 %} {% else %} collapsed{% endif %} px-5 py-3 bg-quick-silver"
                         type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{ forloop.index }}"
                         aria-expanded="true" aria-controls="collapse{{ forloop.index }}">
 
                         <div class="row gx-0 w-100">
                             <div class="col-md-4 col-12">
-                                <p class="mb-0 text-uppercase text-white">{{ semester.title }}</p>
+                                <p class="mb-0 text-uppercase text-white fw-bold">{{ semester.title }}</p>
                             </div>
                             <div class="col-md-8 col-12">
                                 <p class="mb-0 text-uppercase text-white">{{ semester.dates }}</p>
@@ -225,14 +246,14 @@ layout: default
                     aria-labelledby="heading{{ forloop.index }}">
                     <div class="accordion-body p-0">
                         <div
-                            class="pt-3 ps-3 pe-3 d-none d-lg-block{% if forloop.index == 1 %}{% else %} bg-platinum{% endif %}">
+                            class="pt-3 ps-3 pe-3 d-none d-md-block{% if forloop.index == 1 %}{% else %} bg-platinum{% endif %}">
                             <div class="row ms-4">
                                 <div class="col-md-2 col-6">
                                     <p class="fw-bold">
                                         Dato
                                     </p>
                                 </div>
-                                <div class="col-md-2 col-6">
+                                <div class="col-md-2 col-6 d-none d-xl-block">
                                     <p class="fw-bold">
                                         Dag
                                     </p>
@@ -264,12 +285,12 @@ layout: default
                                         {{ module.date }}
                                     </p>
                                 </div>
-                                <div class="col-md-2 col-6 d-none d-lg-block">
+                                <div class="col-md-2 col-6 d-none d-xl-block">
                                     <p>
                                         {{ module.day }}
                                     </p>
                                 </div>
-                                <div class="col-md-2 col-6 d-none d-lg-block">
+                                <div class="col-md-2 col-6">
                                     <p>
                                         {{ module.time }}
                                     </p>
@@ -296,32 +317,45 @@ layout: default
             {% endfor %}
         </div>
     </div>
-</div>
+</div> 
 {% else %}
 <div class="container-fluid">
-    <div class="small-container">
+    <div class="small-container pb-5">
         <p class="large text-center fw-bold mt-5 mb-0">Der ingen kørende eller kommende hold i øjeblikket</p>
     </div>
 </div>
 {% endif %}
 
 {% if page.opbygning == true %}
+
+{% if page.program %}
+<div class="container-fluid pt-2">
+    <div class="small-container text-center pb-5">
+        <a href="{{ page.program }}" target="_blank" class="text-white btn btn-black-coral text-center fw-bold text-uppercase">Download program</a>
+    </div>
+</div>
+{% endif %}
+{% if page.opbygning-text %}
 <div class="container-fluid py-5">
     <div class="small-container pt-3 position-relative">
         <div id="opbygning" class="anchor-delay"></div>
         <div class="row">
-            {% for h in page.opgygning-text %}
+            {% for h in page.opbygning-text %}
             <div class="col-12 col-md-6">
                 <h4 class="text-uppercase">{{ h.overskrift }}
                 </h4>
                 {% for p in h.paragrafer %}
-                <p>{{ p }}</p>
+                <p class="text-justify">{{ p }}</p>
                 {% endfor %}
             </div>
             {% endfor %}
         </div>
     </div>
 </div>
+{% else %}
+<div class="pt-5"></div>
+{% endif %}
+
 
 <div class="bg-platinum">
     <div class="container-fluid pt-5">
@@ -337,10 +371,12 @@ layout: default
                         {% endfor %}
                     </ul>
                     {% endfor %}
+                    {% if page.pdf %}
                     <div class="text-center">
                         <a class="btn-beaver btn w-254 btn-bold fs-6 me-md-5 text-white text-center" data-proofer-ignore
                             href="#hent-brochure" data-toggle="modal" data-target="#brochure-modal">Hent brochure</a>
                     </div>
+                    {% endif %}
 
                 </div>
                 <div class="col-12 col-md-6">
@@ -358,13 +394,13 @@ layout: default
 
 {% if page.deltagerprofil == true %}
 
-<div class="container-fluid pt-5 pb-5">
+<div class="container-fluid py-5">
     <div class="small-container pt-3 position-relative">
         <div id="deltagerprofil" class="anchor-delay"></div>
         {% for h in page.profil %}
         <h2>{{ h.overskrift }}</h2>
         {% for p in h.paragrafer %}
-        <p>{{ p }}</p>
+        <p class="text-justify">{{ p }}</p>
         {% endfor %}
         {% endfor %}
     </div>
@@ -533,7 +569,7 @@ layout: default
                     {% endif %}
                 </div>
                 <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
-                    <p><b>Prisen er {{ page.price }}</b></p>
+                    <p>{{ page.price }}</p>
 
                 </div>
                 <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
@@ -562,7 +598,7 @@ layout: default
 
         <div class="bg-platinum pt-5 mb-2">
             <form action="https://formspree.io/f/mzbyzbyg" method="POST" enctype="multipart/form-data"
-                style="max-width: 600px;" class="mx-auto special-form" id="udd-tilmelding">
+                style="max-width: 600px;" class="mx-auto special-form p-5 p-md-0" id="udd-tilmelding">
                 <div class="row mt-3 gy-4 gx-5 inder-form" id="inner-form">
                     {% if page.aktive-hold == true %}
                     <div class="col-12">
@@ -870,7 +906,7 @@ layout: default
 {% if employee.title == page.contact-person %}
 <div class="container-fluid my-5">
     <div class="small-container">
-        <div class="row">
+        <div class="row gy-4">
 
             <div class="col-md-7 col-12">
 
@@ -911,16 +947,15 @@ layout: default
 
             </div>
 
-            <div class="col-md-5 col-12">
+            <div class="col-md-5 col-12 ">
                 <div class="d-flex h-100 justify-content-center align-items-center text-center rounded p-5"
                     style="background: linear-gradient(rgba(19, 19, 19, 0.6), rgba(19, 19, 19, 0.6)), url('/images/graphic/mennesker.jpg'); background-position: center; background-size: cover;">
                     <div>
                         <h4 class="text-white text-center">Få mere inspiration fra CCC</h4>
-                        <p class="text-white"><small>Se vores artikler, podcast og meget mere</small></p>
+                        <p class="text-white"><small>Tilmeld dig vores nyhedsbrev og modtag nyheder og meget mere.</small></p>
 
                         <b><a class="btn-spanish-gray text-white text-center text-white btn mt-0 mx-auto"
-                                href="/resonans/">Se
-                                mere <i class="fas fa-arrow-right text-white ms-2"></i></a></b>
+                                href="/nyhedsbrev/">Tilmeld nyhedsbrev<i class="fas fa-arrow-right text-white ms-2"></i></a></b>
                     </div>
                 </div>
             </div>

@@ -6,31 +6,38 @@ image-2: "/images/educations/bf-1.png"
 contact-person: Frederikke Winther
 header: Certificeringer i Big Five Online
 dage: 6
+small-price: 19.500,- EKSKL. MOMS
+layout: course
 hours: "21,5"
 overblik:
 - overskrift: Personlighedstest
   paragrafer:
   - "Bliv klædt på til at bruge markedets bedst underbyggede personlighedstest i rekruttering og ledelses- og medarbejderudviklingssammenhæng."
-  - "Testen giver et overblik over, hvor en person befinder sig i forhold til et empirisk gennemsnit af personligheder, ledsaget af en kort beskrivelse. Teorien om The Big Five er det stærkest teoretisk og empirisk underbyggede bud på en klassificering af menneskers personlighedstræk. På certificeringskurset vil du blive klædt på til at skabe en givende og etisk dialog omkring testen. Du vil på kurset også blive eksamineretcertificeret i erhvervsrettet testning og en kognitiv færdighedstest. Viden om en persons kognitive kapacitet gør det muligt at få et indblik i, i hvilket omfang og tempo det enkelte individ er i stand til at løse problemstillinger og optage ny information."
-- overskrift: 5 personlighedstræk
+  - "Testen giver et overblik over, hvor en person befinder sig i forhold til et empirisk gennemsnit af personligheder, ledsaget af en kort beskrivelse. Teorien om The Big Five er det stærkest teoretisk og empirisk underbyggede bud på en klassificering af menneskers personlighedstræk."
+- overskrift: "Erhvervsrettet testning"
   paragrafer:
-  - "Big Five testen måler de 5 basale personlighedstræk (Big Five):"
-  - "* Neuroticism (N): Behov for stabilitet
-* Extraversion (E): Udadvendthed
-* Openness (O): Åbenhed
-* Agreeableness (A): Imødekommenhed
-* Conscientiousness (C): Samvittighedsfuldhed"
+  - "På certificeringskurset vil du blive klædt på til at skabe en givende og etisk dialog omkring testen. Du vil på kurset også blive eksamineretcertificeret i erhvervsrettet testning og en kognitiv færdighedstest. Viden om en persons kognitive kapacitet gør det muligt at få et indblik i, i hvilket omfang og tempo det enkelte individ er i stand til at løse problemstillinger og optage ny information."
 lists:
-- liste-paragraf: "På CCCs online kursus i Big Five test certificering får du:"
+- liste-paragraf: "Big Five testen måler de 5 basale personlighedstræk (Big Five):"
   liste:
-  - Certificering i erhvervsrettet testning
-  - Kompetencer i at skabe en givende og etisk dialog omkring testresultater
-  - Test certificering udbydes i samarbejde med HUCAMA.
+  - "Neuroticism (N): Behov for stabilitet"
+  - "Extraversion (E): Udadvendthed"
+  - "Openness (O): Åbenhed"
+  - "Agreeableness (A): Imødekommenhed"
+  - "Conscientiousness (C): Samvittighedsfuldhed"
 description: Bliv certificeret til at bruge markedets bedst underbyggede personlighedstest
   og lær at anvende den ved gruppesammensætning, rekruttering og processer.
 price: 19.500,- EKSKL. MOMS
 event-title: Kommende hold
 location: 'Al undervisning foregår online på Zoom. 5 online sessioner á 2-5 timers varighed.<br><br>Er du ikke bekendt med Zoom? <br><b><a href="https://zoom.us/signin">Du kan oprette en bruger og downloade appen her</a></b>.<br>Der vil altid være et link til undervisningens session på studieportalen.'
+opbygning: true
+opbygning-image: "/images/inspiration/big-five-opbygning.png"
+opbygning-liste:
+- overskrift: "På CCCs online kursus i Big Five test certificering får du:"
+  lis:
+  - Certificering i erhvervsrettet testning
+  - Kompetencer i at skabe en givende og etisk dialog omkring testresultater
+  - Test certificering udbydes i samarbejde med HUCAMA
 adgangskrav: Der er ingen adgangskrav for Certificering i Big Five
 kort: false
 special: false
@@ -39,6 +46,7 @@ undervisere:
 - Frederikke Winther
 - Andreas Bering
 kursus-oversigt: true
+aktive-hold: true
 hold:
 - title: BFC22-2 - start 4. april 2022
   price: 19.500 ekskl. moms

@@ -5,6 +5,7 @@ portrait-image: "/images/about/employees/ghita-vejlebo-gray.png"
 small-portrait-image: "/images/about/employees/ghita-vejlebo-gray.png"
 grey-portrait: "/images/about/employees/ghita-vejlebo-gray.png"
 call: 51 63 26 80
+on-om-os: true
 mbc: true
 consulent: true
 edu:

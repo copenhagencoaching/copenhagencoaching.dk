@@ -104,6 +104,7 @@ title: Om os
 
                     {% assign sorted_empl = site.employees | sort: "order" %}
                     {% for employee in sorted_empl %}
+                    {% if employee.on-om-os == true %}
                     <div class="bg-platinum p-20">
                         <a class="{{ employee.title }}" href="{{ employee.url }}">
                             <div class="grid-1">
@@ -124,7 +125,7 @@ title: Om os
 
                         </a>
                     </div>
-
+                    {% endif %}
                     {% endfor %}
                 </div>
 
