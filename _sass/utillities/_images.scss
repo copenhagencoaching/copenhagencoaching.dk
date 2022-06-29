@@ -90,3 +90,9 @@ video {
         margin-bottom: 1rem;
     }
 }
+
+.img-md-200 {
+    @media (max-width: 767.98px) { 
+        height: 200px;
+     }
+}

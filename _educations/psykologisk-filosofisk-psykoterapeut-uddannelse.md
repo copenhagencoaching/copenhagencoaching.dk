@@ -65,7 +65,7 @@ opbygning-text:
   - "Vores uddannelse sigter naturligvis mod godkendelse fra Dansk Psykoterapeutforening og Reflektor hvorfor denne proces er påbegyndt, således at vi som leverandør og privat udbyder lever op til de ministerielle krav for private psykoterapeutuddannelser uden afvigelser."
   - "Evalueringen er vigtig både for os – og for dig, fordi den er et bevis og en dokumentation for, at vores uddannelse er tidssvarende, og at standarden i undervisningen er høj. For at blive evalueret og godkendt kræves der en stærk sammenhæng imellem de teoretiske grundpiller, som instituttet hviler på, de metoder vi underviser dig i, litteraturen vi anbefaler dig at læse og måden, vi eksaminerer dig på."
   - "Vi holder jer løbende orienteret om processen og I er altid velkomne til at spørge os, hvis I ønsker yderligere information omkring vores uddannelse"
-pdf: /pdfs/Psykologisk-filosofisk-psykoterapi-infofolder.pdf
+pdf: "https://www.copenhagencoaching.dk/pdfs/Psykologisk-filosofisk-psykoterapi-infofolder.pdf"
 contact-person: Camilla Ingwersen
 cat:
 - master-4

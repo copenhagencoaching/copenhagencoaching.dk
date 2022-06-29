@@ -23,8 +23,8 @@ layout: default
 <div class="container-fluid my-5" style="z-index: 1100;">
     <div class="small-container">
         <div>
-            <div class="row gx-2">
-                <div class="col">
+            <div class="row gx-2 gy-2 justify-content-center">
+                <div class="col-4 col-md">
                     <a class="color-base" href="#overblik">
                         <div class="bg-cadet-gray w-100 text-center py-2">
                             <p class="mb-0 fs-6 text-white">Overblik</p>
@@ -32,7 +32,7 @@ layout: default
                     </a>
                 </div>
                 {% if page.opbygning == true %}
-                <div class="col">
+                <div class="col-4 col-md">
                     <a class="color-base" href="#opbygning">
                         <div class="bg-cadet-gray w-100 text-center py-2">
                             <p class="mb-0 fs-6 text-white">Opbygning</p>
@@ -43,7 +43,7 @@ layout: default
                 {% endif %}
 
                 {% if page.deltagerprofil == true %}
-                <div class="col">
+                <div class="col-4 col-md">
                     <a class="color-base" href="#deltagerprofil">
                         <div class="bg-cadet-gray w-100 text-center py-2">
                             <p class="mb-0 fs-6 text-white">Deltagerprofil</p>
@@ -54,7 +54,7 @@ layout: default
                 {% endif %}
 
                 {% if page.anbefalinger == true %}
-                <div class="col">
+                <div class="col-4 col-md">
                     <a class="color-base" href="#anbefalinger">
                         <div class="bg-cadet-gray w-100 text-center py-2">
                             <p class="mb-0 fs-6 text-white">Anbefalinger</p>
@@ -65,7 +65,7 @@ layout: default
                 {% endif %}
 
 
-                <div class="col">
+                <div class="col-4 col-md">
                     <a class="color-base" href="#undervisere">
                         <div class="bg-cadet-gray w-100 text-center py-2">
                             <p class="mb-0 fs-6 text-white">Undervisere</p>
@@ -73,7 +73,7 @@ layout: default
                     </a>
                 </div>
 
-                <div class="col">
+                <div class="col-4 col-md">
                     <a class="color-base" href="#praktisk">
                         <div class="bg-cadet-gray w-100 text-center py-2">
                             <p class="mb-0 fs-6 text-white">Praktisk</p>
@@ -81,7 +81,7 @@ layout: default
                     </a>
                 </div>
 
-                <div class="col">
+                <div class="col-4 col-md">
                     <a class="color-base" href="#ansog">
                         <div class="bg-cadet-gray w-100 text-center py-2">
                             <p class="mb-0 fs-6 text-white">Ansøg</p>
@@ -102,7 +102,7 @@ layout: default
     <div class="small-container">
         <div id="overblik" class="anchor-delay"></div>
         <div class="row g-5">
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6 img-md-200">
                 <div class="h-100"
                     style="background-image: url('{{ page.image-2 }}'); background-position: top; background-size: cover;">
                 </div>
@@ -360,7 +360,7 @@ layout: default
 <div class="bg-platinum">
     <div class="container-fluid pt-5">
         <div class="small-container pt-3 pb-5">
-            <div class="row gx-5">
+            <div class="row gx-5 gy-5">
                 <div class="col-12 col-md-6">
                     {% for l in page.opbygning-liste %}
                     <h4 class="text-uppercase">{{ l.overskrift }}
@@ -379,7 +379,7 @@ layout: default
                     {% endif %}
 
                 </div>
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-6 img-md-200">
                     <div class="h-100 w-100"
                         style="background-image: url('{{ page.opbygning-image }}'); background-position: center; background-size: cover;">
 
