@@ -6,7 +6,11 @@ description: Seniorkonsulent
 consulent: true
 on-om-os: true
 edu:
-- Master i Business Coaching
+- Master of Business Coaching fra Copenhagen Coaching Center
+- Psykoterapeut fra Dansk Center for Trivsel og Velvære v/ Mads Dahlgaard
+- MBSR Kvalificeret underviser fra Dansk Center for Mindfulness v/ Aarhus Universitet
+- Eksamineret Supervisor fra Dansk Familie Terapeutisk Institut
+- HD, BSc. Graduate Diploma in Business Administration fra CBS med speciale i organisation, ledelse og strategi
 email: ci@copenhagencoaching.dk
 linkedin: https://www.linkedin.com/in/camillaingwersen/
 data-id: ''

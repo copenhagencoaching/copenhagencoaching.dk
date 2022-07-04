@@ -487,8 +487,8 @@ layout: default
                             <p class="text-white mb-1 fw-bold fs-5"><a href="{{ employee.url }}" data-proofer-ignore>{{
                                     employee.title }}</a><br></p>
 
-                            {% for e in employee.edu %}
-                            <p class="text-white {% if forloop.last != true %}mb-0{% endif %}">{{ e }}</p>
+                            {% for e in employee.edu limit: 2 %}
+                            <p class="text-white {% if forloop.last != true %}mb-2{% endif %}">{{ e }}</p>
                             {% endfor %}
                             <p class="text-white mb-0"> <a href="mailto:{{ employee.email }}" data-proofer-ignore>{{
                                     employee.email

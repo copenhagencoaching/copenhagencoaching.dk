@@ -49,27 +49,45 @@ layout: default
 <div class="bg-platinum">
 
     <div class="container-fluid py-5">
-        <div class="row">
-            <div class="offset-xl-3 col-xl-6 col-12">
+        
+        <div class="small-container">
+            <div class="row">
+                <div class="col-12 col-md-8">
+                    <div class="first-p-bold">
+                        {{ page.content }}
+                    </div>
+                </div>
 
-                {{ page.content }}
+                <div class="col-12 col-md-4">
+                    <div class="bg-platinum p-4">
+                        <h5 class="mb-4">Uddannelse</h5>
+                        {% for e in page.edu %}
+                        <p>{{ e }}</p>
+                        {% endfor %}
+                    </div>
+                </div>
+                
+            </div>
 
-                <a class='animated-arrow' href='/about/'>
-                    <span class='the-arrow -left rotated'>
+            
+
+            <a class='animated-arrow' href='/about/'>
+                <span class='the-arrow -left rotated'>
+                    <span class='shaft'></span>
+                </span>
+                <span class='main'>
+                    <span class='text'>
+                        <p class="pt-4">
+                            Tilbage til Om os
+                        </p>
+                    </span>
+                    <span class='the-arrow -right rotated'>
                         <span class='shaft'></span>
                     </span>
-                    <span class='main'>
-                        <span class='text'>
-                            <p class="pt-4">
-                                Tilbage til Om os
-                            </p>
-                        </span>
-                        <span class='the-arrow -right rotated'>
-                            <span class='shaft'></span>
-                        </span>
-                    </span>
-                </a>
-            </div>
+                </span>
+            </a>
         </div>
-    </div>
+    
+</div>
+
 </div>

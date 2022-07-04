@@ -8,6 +8,8 @@ on-om-os: true
 email: cof@copenhagencoaching.dk
 linkedin: https://www.linkedin.com/in/caroline-olivia/
 data-id: ''
+edu:
+- Webudvikler v/ Roskilde Tekniske Skole
 image: /images/about/employees/caroline-olivia-2.png
 portrait-image: /images/about/employees/caroline-olivia-2.png
 small-portrait-image: /images/about/employees/caroline-olivia-2.png

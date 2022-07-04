@@ -57,9 +57,24 @@ layout: default
     <div class="container-fluid py-5">
         
             <div class="small-container">
-<div class="l-text first-p-bold">
-    {{ page.content }}
-</div>
+                <div class="row">
+                    <div class="col-12 col-md-8">
+                        <div class="l-text first-p-bold">
+                            {{ page.content }}
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4">
+                        <div class="bg-platinum p-4">
+                            <h5 class="mb-4">Uddannelse</h5>
+                            {% for e in page.edu %}
+                            <p>{{ e }}</p>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    
+                </div>
+
                 
 
                 <a class='animated-arrow' href='/about/'>
