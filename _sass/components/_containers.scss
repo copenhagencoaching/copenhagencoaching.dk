@@ -4,7 +4,25 @@
     padding-right: 5vh !important;
     padding-left: 5vh !important;
 
+
+
 }
+
+.container-fluid-menu {
+    max-width: 1600px;
+    margin: auto;
+    padding-right: 5vh;
+    padding-left: 5vh;
+
+    @media (max-width: 991.98px) {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+
+   
+
+}
+
 
 // Accordion //
 

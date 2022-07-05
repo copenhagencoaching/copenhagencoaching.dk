@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="pt-5"
+<div class="pt-5 mt-5"
     style="background: linear-gradient(rgba(19, 19, 19, 0.6), rgba(19, 19, 19, 0.6)), url('/images/academy/coaching-uddannelser.jpg'); background-size: cover; background-position: center;">
     <div class="py-5">
         <div class="container-fluid text-center py-5">
@@ -22,111 +22,125 @@ layout: default
 
 {% if page.box == true %}
 <div class="container-fluid mt-5">
-    <div class="row gx-5">
-        <div class="col-12 col-lg-6">
-            <div class="w-100 h-100"
-                style="background: url('/images/graphic/foredrag.jpg'); background-size: cover; background-position: top;">
-            </div>
-        </div>
-
-        <div class="col-12 col-lg-6">
-            <div class="bg-platinum p-5">
-                <h3>{{ page.box-heading }}</h3>
-                <p>{{ page.box-content }}</p>
-            </div>
-
-        </div>
-        <div class="col-12 col-lg-6 py-5">
-
-            {{ page.content }}
-
-            <div class="bg-slate-gray p-4">
-                <p class="fs-6 text-white"><b>Interesseret i at høre mere?</b> Ring og få en snak med:</p>
-                {% for employee in site.employees %}
-                {% if page.contact-person == employee.title %}
-
-                <div class="d-flex align-items-center">
-                    <div class="flex-grow-1 me-3 text-end">
-                        <p class="text-white mb-0"><b><a href="{{ employee.url }}" data-proofer-ignore>{{
-                                    employee.title }}</a></b><br>
-
-                            <a href="tel:{{ employee.call }}" data-proofer-ignore>+45 {{
-                                employee.call
-                                }}</a><br>
-                            <a href="mailto:{{ employee.email }}" data-proofer-ignore>{{
-                                employee.email
-                                }}</a>
-                        </p>
-                    </div>
-                    <div class="flex-shrink-0">
-                        <img class="small-image rounded-circle" src="{{ employee.small-portrait-image }}"
-                            alt="{{ employee.title }}, {{ employee.description}}">
-                    </div>
+    <div class="small-container">
+        <div class="row gx-5">
+            <div class="col-12 col-lg-6">
+                <div class="w-100 h-100"
+                    style="background: url('/images/graphic/foredrag.jpg'); background-size: cover; background-position: top;">
                 </div>
-                {% endif %}
-                {% endfor %}
             </div>
+
+            <div class="col-12 col-lg-6">
+                <div class="bg-platinum p-4">
+                    <h3>{{ page.box-heading }}</h3>
+                    <p>{{ page.box-content }}</p>
+                </div>
+
+            </div>
+            <div class="col-12 col-lg-6 pt-5">
+
+                {{ page.content }}
+            </div>
+            <div class="col-12 col-lg-6 pt-5">
+                {% if page.list %}
+                <h4>{{ page.list-heading }}</h4>
+                <p>{{ page.list-paragraph }}</p>
+
+                <ul>
+                    {% for li in page.list %}
+                    <li>{{ li }}</li>
+                    {% endfor %}
+                </ul>
+                {% if page.list-paragraph-2 %}
+                <p>{{ page.list-paragraph-2 }}</p>
+                {% endif %}
+                {% endif %}
+            </div>
+            <div class="col-12 col-lg-6 pb-5">
+
+                <div class="bg-slate-gray p-4">
+                    <p class="fs-6 text-white"><b>Interesseret i at høre mere?</b> Ring og få en snak med:</p>
+                    {% for employee in site.employees %}
+                    {% if page.contact-person == employee.title %}
+
+                    <div class="d-flex align-items-center">
+                        <div class="flex-grow-1 me-3 text-end">
+                            <p class="text-white mb-0"><b><a href="{{ employee.url }}" data-proofer-ignore>{{
+                                        employee.title }}</a></b><br>
+
+                                <a href="tel:{{ employee.call }}" data-proofer-ignore>+45 {{
+                                    employee.call
+                                    }}</a><br>
+                                <a href="mailto:{{ employee.email }}" data-proofer-ignore>{{
+                                    employee.email
+                                    }}</a>
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0">
+                            <img class="small-image rounded-circle" src="{{ employee.small-portrait-image }}"
+                                alt="{{ employee.title }}, {{ employee.description}}">
+                        </div>
+                    </div>
+                    {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+
+
+
+
+
         </div>
-
-        <div class="col-12 col-lg-6 py-5">
-            {% if page.list %}
-            <h4>{{ page.list-heading }}</h4>
-            <p>{{ page.list-paragraph }}</p>
-
-            <ul>
-                {% for li in page.list %}
-                <li>{{ li }}</li>
-                {% endfor %}
-            </ul>
-            {% if page.list-paragraph-2 %}
-            <p>{{ page.list-paragraph-2 }}</p>
-            {% endif %}
-            {% endif %}
-        </div>
-
     </div>
+
 </div>
 
 {% else %}
 <div class="container-fluid my-5">
-    <div class="row gx-5">
-        <div class="col-12 col-lg-6">
-            <div class="h-100 w-100"
-                style="background: url('/images/graphic/foredrag.jpg'); background-size: cover; background-position: top;">
+    <div class="small-container">
+        <div class="row gx-5">
+            <div class="col-12 col-lg-6">
+                <div class="h-100 w-100"
+                    style="background: url('/images/graphic/foredrag.jpg'); background-size: cover; background-position: top;">
 
-            </div>
-        </div>
-
-        <div class="col-12 col-lg-6">
-            {{ page.content }}
-            <div class="bg-slate-gray p-4">
-                <p class="fs-6 text-white"><b>Interesseret i at høre mere?</b> Ring og få en snak med:</p>
-                {% for employee in site.employees %}
-                {% if page.contact-person == employee.title %}
-
-                <div class="d-flex align-items-center">
-                    <div class="flex-grow-1 me-3 text-end">
-                        <p class="text-white mb-0"><b><a href="{{ employee.url }}" data-proofer-ignore>{{
-                                    employee.title }}</a></b><br>
-
-                            <a href="tel:{{ employee.call }}" data-proofer-ignore>+45 {{
-                                employee.call
-                                }}</a><br>
-                            <a href="mailto:{{ employee.email }}" data-proofer-ignore>{{
-                                employee.email
-                                }}</a>
-                        </p>
-                    </div>
-                    <div class="flex-shrink-0">
-                        <img class="small-image rounded-circle" src="{{ employee.small-portrait-image }}"
-                            alt="{{ employee.title }}, {{ employee.description}}">
-                    </div>
                 </div>
-                {% endif %}
-                {% endfor %}
+            </div>
+
+            <div class="col-12 col-lg-6">
+                <div class="first-p-bold">
+                    {{ page.content }}
+                </div>
+
+                <div class="bg-slate-gray p-4">
+                    <p class="fs-6 text-white"><b>Interesseret i at høre mere?</b> Ring og få en snak med:</p>
+                    {% for employee in site.employees %}
+                    {% if page.contact-person == employee.title %}
+
+                    <div class="d-flex align-items-center">
+                        <div class="flex-grow-1 me-3 text-end">
+                            <p class="text-white mb-0"><b><a href="{{ employee.url }}" data-proofer-ignore>{{
+                                        employee.title }}</a></b><br>
+
+                                <a href="tel:{{ employee.call }}" data-proofer-ignore>+45 {{
+                                    employee.call
+                                    }}</a><br>
+                                <a href="mailto:{{ employee.email }}" data-proofer-ignore>{{
+                                    employee.email
+                                    }}</a>
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0">
+                            <img class="small-image rounded-circle" src="{{ employee.small-portrait-image }}"
+                                alt="{{ employee.title }}, {{ employee.description}}">
+                        </div>
+                    </div>
+                    {% endif %}
+                    {% endfor %}
+                </div>
             </div>
         </div>
     </div>
+
 </div>
 {% endif %}
 

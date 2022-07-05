@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="pt-5"
+<div class="pt-5 mt-5"
     style="background: linear-gradient(rgba(19, 19, 19, 0.7), rgba(19, 19, 19, 0.7)), url('{{ page.image }}'); background-size: cover; background-position: center;">
     <div class="py-5">
         <div class="container-fluid text-center py-5">
@@ -124,7 +124,7 @@ layout: default
                 {% endfor %}
                 {% endfor %}
             </div>
-            
+
             <div class="col-12 col-md-6">
                 {% for l in page.lists %}
                 <p>{{ l.liste-paragraf }}</p>
@@ -138,21 +138,21 @@ layout: default
             {% else %}
             {% for text in page.overblik offset:1 %}
             <div class="col-12 col-md-6">
-                
+
                 <h4 class="text-uppercase">{{ text.overskrift }}</h4>
                 {% for p in text.paragrafer %}
                 <p class="text-justify">{{ p }}</p>
                 {% endfor %}
-                
+
             </div>
             {% endfor %}
             {% endif %}
-            
+
             {% if page.galleri-overblik == true %}
             <div class="col-12">
                 {% for ex in page.galleri %}
                 {% capture thec %}{% cycle "first": "1", "2" %}{% endcapture %}
-                <div class="row gx-5 mb-5 {% if thec == "2" %}flex-row-reverse{% endif %}">
+                <div class="row gx-5 mb-5 {% if thec == " 2" %}flex-row-reverse{% endif %}">
 
                     <div class="col-md-6 col-12">
                         <h5>{{ ex.title }}</h5>
@@ -224,7 +224,7 @@ layout: default
                     </button>
                 </div>
 
-               
+
                 <div class="accordion-header border-none d-block d-md-none" id="heading{{ forloop.index }}">
                     <button
                         class="accordion-button white border-none {% if forloop.index == 1 %} {% else %} collapsed{% endif %} px-5 py-3 bg-quick-silver"
@@ -317,7 +317,7 @@ layout: default
             {% endfor %}
         </div>
     </div>
-</div> 
+</div>
 {% else %}
 <div class="container-fluid">
     <div class="small-container pb-5">
@@ -327,18 +327,22 @@ layout: default
 {% endif %}
 
 {% if page.opbygning == true %}
+<div class="position-relative">
+    <div id="opbygning" class="anchor-delay"></div>
+</div>
 
 {% if page.program %}
 <div class="container-fluid pt-2">
     <div class="small-container text-center pb-5">
-        <a href="{{ page.program }}" target="_blank" class="text-white btn btn-black-coral text-center fw-bold text-uppercase">Download program</a>
+        <a href="{{ page.program }}" target="_blank"
+            class="text-white btn btn-black-coral text-center fw-bold text-uppercase">Download program</a>
     </div>
 </div>
 {% endif %}
 {% if page.opbygning-text %}
 <div class="container-fluid py-5">
-    <div class="small-container pt-3 position-relative">
-        <div id="opbygning" class="anchor-delay"></div>
+    <div class="small-container pt-3">
+
         <div class="row gx-5">
             {% for h in page.opbygning-text %}
             <div class="col-12 col-md-6">
@@ -946,10 +950,12 @@ layout: default
                     style="background: linear-gradient(rgba(19, 19, 19, 0.6), rgba(19, 19, 19, 0.6)), url('/images/graphic/mennesker.jpg'); background-position: center; background-size: cover;">
                     <div>
                         <h4 class="text-white text-center">Få mere inspiration fra CCC</h4>
-                        <p class="text-white"><small>Tilmeld dig vores nyhedsbrev og modtag nyheder og meget mere.</small></p>
+                        <p class="text-white"><small>Tilmeld dig vores nyhedsbrev og modtag nyheder og meget
+                                mere.</small></p>
 
                         <b><a class="btn-spanish-gray text-white text-center text-white btn mt-0 mx-auto"
-                                href="/nyhedsbrev/">Tilmeld nyhedsbrev<i class="fas fa-arrow-right text-white ms-2"></i></a></b>
+                                href="/nyhedsbrev/">Tilmeld nyhedsbrev<i
+                                    class="fas fa-arrow-right text-white ms-2"></i></a></b>
                     </div>
                 </div>
             </div>

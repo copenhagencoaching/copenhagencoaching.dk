@@ -4,6 +4,7 @@ event-type: Foredrag
 image: /images/events/jesper.png
 subtitle: Foredrag
 description: Kom til foredrag med Jesper Nøddesbo
+category: event
 tags:
 - event
 - foredrag

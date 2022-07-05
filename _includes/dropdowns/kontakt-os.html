@@ -1,30 +1,27 @@
-<div class="container-fluid pb-4 pt-3">
+<div class="container-fluid-menu pb-4 pt-3">
 
 
-  <div class="row gy-3">
+  <div class="row gy-3 gx-lg-5">
 
 
-    <div class="col-xl-3 col-12">
+    <div class="col-lg-4 col-12">
 
       <p class="text-uppercase fw-bold mb-0">Find os her
       </p>
       <p class="mb-0">Blegdamsvej 104 A, 2. Sal</p>
       <p>2100 Kbh Ø</p>
-      <iframe class="i-frame small"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2248.53044321456!2d12.571180315826155!3d55.69715098053854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465252fc41a2fdff%3A0x5cffffd334cabc42!2sBlegdamsvej%20104A%2C%202100%20K%C3%B8benhavn!5e0!3m2!1sen!2sdk!4v1577555981422!5m2!1sen!2sdk"></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2248.5304432145635!2d12.571180315787245!3d55.697150980538474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465252fc41a2fdff%3A0x5cffffd334cabc42!2sBlegdamsvej%20104A%2C%202100%20K%C3%B8benhavn!5e0!3m2!1sda!2sdk!4v1656971723354!5m2!1sda!2sdk" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 
-    <div class="col-xl-5 col-12">
+    <div class="col-lg-4 col-12 d-lg-block d-none">
       <div class="row gy-4">
-        <div class="col-lg-6 col-12">
+        <div class="col-12">
           <p class="text-uppercase fw-bold mb-0">I tvivl om uddannelsesretning?
           </p>
           <p class="small">Kontakt os og høre mere, eller ring eller skriv direkte til Andreas.</p>
           <div class="d-flex align-items-center">
-            <div class="flex-shrink-0">
-              <img width="80" class="rounded-circle" src="/images/about/small-images/andreas-bering.png">
-            </div>
-            <div class="flex-grow-1 ms-3">
+          
+            <div class="flex-grow-1 me-3 text-end">
 
               <p class="mt-0 mb-0"><b>Andreas Bering</b></p>
               <p class="mb-0 fw-light"><small>Direktør</small></p>
@@ -32,19 +29,19 @@
               <p class="mb-0"><small>ab@copenhagencoaching.dk</small></p>
             </div>
 
-
+            <div class="flex-shrink-0">
+              <img width="80" class="rounded-circle" src="/images/about/small-images/andreas-bering.png">
+            </div>
 
           </div>
         </div>
-        <div class="col-lg-6 col-12">
+        <div class="col-12">
           <p class="text-uppercase fw-bold mb-0">I tvivl om uddannelsesretning?
           </p>
           <p class="small">Kontakt os og høre mere, eller ring eller skriv direkte til Frederikke.</p>
           <div class="d-flex align-items-center">
-            <div class="flex-shrink-0">
-              <img width="80" class="rounded-circle" src="/images/about/small-images/frederikke-winther.png">
-            </div>
-            <div class="flex-grow-1 ms-3">
+           
+            <div class="flex-grow-1 me-3 text-end">
 
               <p class="mt-0 mb-0"><b>Frederikke Winther</b></p>
               <p class="mb-0 fw-light"><small>Seniorkonsulent</small></p>
@@ -52,7 +49,9 @@
               <p class="mb-0"><small>fw@copenhagencoaching.dk</small></p>
             </div>
 
-
+            <div class="flex-shrink-0">
+              <img width="80" class="rounded-circle" src="/images/about/small-images/frederikke-winther.png">
+            </div>
 
           </div>
         </div>
@@ -61,20 +60,29 @@
 
     </div>
 
-    <div class="col-xl-4 col-12 text-end">
-      <p class="text-uppercase fw-bold mb-2">Lær os bedre at kende</p>
-      <div class="d-flex flex-column">
+    <div class="col-lg-4 col-12">
+      <p class="text-uppercase fw-bold mb-2">Skriv til os</p>
+      <form
+      action="https://formspree.io/f/moqllqyp"
+      method="POST"
+    >
+    <span>
+    
+       
+        <input class="form-control mb-2" type="text" name="name" placeholder="Navn" id="name">
+        
+        <input type="text" class="form-control mb-2" name="email" id="email" placeholder="Email">
 
-        <a class="navigation-link small mb-1" href="#">
-          Tilmeld nyhedsbrev</a>
-          <a class="navigation-link small mb-1" href="#"><b>
-            Vores dør er altid åben - book en samtale</b></a>
-      
-      </div>
+    </span>
+    
+        <textarea style="height: 150px" class="form-control mb-2" name="besked" rows="3" placeholder="Besked"></textarea>
+    
 
-      <p class="text-uppercase fw-bold mb-0 mt-4">Bliv en del af fællesskabet</p>
-      <p>Et fællesskab for vedvarende læring og udvikling af dit lederskab</p>
-      <a class="navigation-link got-icon small" href="#">Se mere <i class="fas fa-arrow-right"></i></a>
+  
+       
+      <!-- your other form fields go here -->
+      <button class="btn-spanish-gray text-white w-100" type="submit">Send besked</button>
+    </form>
     </div>
 
   </div>
