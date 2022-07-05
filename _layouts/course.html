@@ -189,16 +189,18 @@ layout: default
                         Kursus oversigt
                     </h2>
                 </div>
-                <div class="col-4 d-flex align-items-center">
+                <div class="col-4 d-flex align-items-center d-none d-md-block">
                     <p class="text-white mb-0 ms-3"><b>{{ page.small-price }}</b></p>
                 </div>
                 {% if page.dage %}
-                <div class="col-2 d-flex align-items-center justify-items-end justify-content-end text-end">
+                <div
+                    class="col-2 d-flex align-items-center justify-items-end d-none d-md-block justify-content-end text-end">
                     <p class="text-white mb-0"><b>{{ page.dage }} dage</b></p>
                 </div>
                 {% endif %}
                 {% if page.hours %}
-                <div class="col-2 d-flex align-items-center justify-items-end justify-content-end text-end">
+                <div
+                    class="col-2 d-flex align-items-center justify-items-end d-none d-md-block justify-content-end text-end">
                     <p class="text-white mb-0"><b>{{ page.hours }} timer</b></p>
                 </div>
                 {% endif %}
@@ -482,7 +484,8 @@ layout: default
 
                     <div class="d-flex align-items-center">
                         <div class="flex-shrink-0">
-                            <img class="small-image-148 rounded-circle" src="{{ employee.small-portrait-image }}"
+                            <img class="small-image-148 small-md rounded-circle"
+                                src="{{ employee.small-portrait-image }}"
                                 alt="{{ employee.title }}, {{ employee.description}}">
                         </div>
                         <div class="flex-grow-1 ms-3">
@@ -546,11 +549,44 @@ layout: default
     </div>
 </div>
 
+<!-- <div class="container-fluid d-md-none mt-5">
+    <div class="d-flex align-items-start">
+        <button class="nav-link mt-0 text-white btn btn-cadet-gray mb-1 active" id="home-tab" data-bs-toggle="pill"
+            data-bs-target="#sted" type="button" role="tab" aria-controls="pills-home"
+            aria-selected="true">Undervisningssted</button>
+
+        <button class="nav-link mt-0 text-white btn btn-cadet-gray mb-1" id="profile-tab" data-bs-toggle="pill"
+            data-bs-target="#pris" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Pris og
+            finansiering</button>
+
+        <button class="nav-link mt-0 text-white btn btn-cadet-gray mb-1" id="contact-tab" data-bs-toggle="pill"
+            data-bs-target="#adgang" type="button" role="tab" aria-controls="pills-contact"
+            aria-selected="false">Adgangskrav</button>
+
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="sted" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                <p>{{ page.location }}</p>
+                {% if page.kort == true %}
+
+                {{ page.kort-kode }}
+                {% endif %}
+            </div>
+            <div class="tab-pane fade" id="pris" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                <p>{{ page.price }}</p>
+            </div>
+            <div class="tab-pane fade" id="adgang" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+                <p>{{ page.adgangskrav }}</p>
+            </div>
+
+        </div>
+    </div>
+</div> -->
+
 <div class="container-fluid p-5">
     <div class="small-container position-relative">
         <div id="praktisk" class="anchor-delay"></div>
-        <div class="d-flex align-items-start">
-            <div class="nav flex-column nav-pills me-4" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+        <div class="d-md-flex align-items-start">
+            <div class="nav flex-column nav-pills me-md-4 mb-3 mb-md-0" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                 <button class="mt-0 text-white btn btn-cadet-gray active mb-1" id="v-pills-home-tab"
                     data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab"
                     aria-controls="v-pills-home" aria-selected="true">Undervisningssted</button>
@@ -600,10 +636,10 @@ layout: default
             Vi glæder os til at høre fra dig, tak for din interesse!
         </p>
 
-        <div class="bg-platinum pt-5 mb-2">
+        <div class="bg-platinum pt-md-5 pt-3 mb-2">
             <form action="https://formspree.io/f/mzbyzbyg" method="POST" enctype="multipart/form-data"
-                style="max-width: 600px;" class="mx-auto special-form p-5 p-md-0" id="udd-tilmelding">
-                <div class="row mt-3 gy-4 gx-5 inder-form" id="inner-form">
+                style="max-width: 600px;" class="mx-auto special-form p-4 p-md-0" id="udd-tilmelding">
+                <div class="row mt-md-3 gy-4 gx-5 inder-form" id="inner-form">
                     {% if page.aktive-hold == true %}
                     <div class="col-12">
                         <input type="hidden" name="uddannelse" value="{{ page.title }}">
@@ -880,7 +916,7 @@ layout: default
                         afsender i Outlook eller andre mail programmer.</p>
                 </div>
             </form>
-            <div class="p-5">
+            <div class="p-md-5 p-4">
                 <p class="small"><small>Når du tilmelder dig en af vores uddannelser via formularen nedenfor, ender din
                         tilmelding i en sikret emailboks, som kun én medarbejder i CCC har adgang til. Derefter gemmes
                         din data i
@@ -920,7 +956,7 @@ layout: default
                             spørgsmål</p>
 
                         <div class="d-flex justify-content-end">
-                            <div class="d-flex align-items-center">
+                            <div class="d-md-flex align-items-center">
                                 <div class="flex-shrink-0">
                                     <p class="text-end mb-0 text-white"><b><a href="{{ employee.url }}"
                                                 data-proofer-ignore>{{
@@ -934,7 +970,7 @@ layout: default
                                             }}</a>
                                     </p>
                                 </div>
-                                <div class="flex-grow-1 ms-3">
+                                <div class="flex-grow-1 ms-3 d-none d-md-block">
                                     <img class="small-image rounded-circle" src="{{ employee.small-portrait-image }}"
                                         alt="{{ employee.title }}, {{ employee.description}}">
                                 </div>

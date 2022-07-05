@@ -19,6 +19,12 @@
     color: #707070 !important;
 }
 
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; // remove the gap so it doesn't close
+ }
+
+
 /* @media (max-width: 1199.98px) {
     .navbar {
         background-color: white;

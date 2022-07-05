@@ -96,3 +96,10 @@ video {
         height: 200px;
      }
 }
+
+.small-md {
+    @media (max-width: 991.98px) { 
+        height: 90px;
+        width: 90px;
+     }
+}
