@@ -1,0 +1,41 @@
+---
+title: Kontakt os
+layout: default
+permalink: /kontakt/
+---
+
+<div class="container-fluid my-5 py-5">
+    <div class="xs-container pt-5">
+        <p class="text-uppercase fw-bold mb-2">Skriv til os</p>
+        <p>Brænder du inde med et spørgsmål? Skriv til os via formen nedenfor og vil svare snarrest muligt.</p>
+        <form action="https://formspree.io/f/moqllqyp" method="POST">
+            <span>
+
+
+                <input class="form-control mb-2" type="text" name="name" placeholder="Navn" id="name">
+
+                <input type="text" class="form-control mb-2" name="email" id="email" placeholder="Email">
+
+            </span>
+
+            <textarea style="height: 150px" class="form-control mb-2" name="besked" rows="3"
+                placeholder="Besked"></textarea>
+
+
+
+
+            <!-- your other form fields go here -->
+            <button class="btn-spanish-gray text-white w-100" type="submit">Send besked</button>
+        </form>
+    </div>
+</div>
+
+
+<div class="bg-platinum pt-2">
+    {% include sections/courses.html %}
+</div>
+
+
+{% include sections/vision.html %}
+
+{% include sections/newsletter.html %}

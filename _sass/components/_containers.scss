@@ -154,6 +154,15 @@
     }
 }
 
+.xs-container {
+    max-width: 500px;
+    margin: auto;
+
+    @media (max-width: 999px) {
+        width: 100%;
+    }
+}
+
 .max-w-500 {
     max-width: 500px;
 }
