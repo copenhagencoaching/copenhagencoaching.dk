@@ -48,39 +48,63 @@ undervisere:
 kursus-oversigt: true
 aktive-hold: true
 hold:
-- title: BFC22-2 - start 4. april 2022
+- title: BFC22-3
   price: 19.500 ekskl. moms
-  dates: 4. april - 16. maj 2022
+  dates: 23. september - 28. oktober
   modules:
-  - date: 4. april 2022
+  - date: 23. september
     day: "1"
     time: 10:00 - 12:00
     name: Tjek ind
     place: Online
-  - date: 11. april 2022
+  - date: 30. september
     day: "2"
     time: 10:00 - 12:00
     name: Teorien
     place: Online
-  - date: 25. april 2022
+  - date: 7. oktober
     day: "3"
     time: 10:00 - 12:00
     name: Praktikken
     place: Online
-  - date: 2. maj 2022
+  - date: 14. oktober
     day: "4"
     time: 10:00 - 15:00
     name: Tilbagemeldingssamtalen
     place: Online
-  - date: 9. maj 2022
+  - date: 28. oktober
     day: "5"
-    time: 10:00 - 12:00
+    time: 10:00 - 15:00
     name: Wrap up
     place: Online
-  - date: 16. maj 2022
-    day: "6"
-    time: 10:00 - 13:30
-    name: Eksamen
+- title: BFC22-4
+  price: 19.500 ekskl. moms
+  dates: 4. november - 9. december
+  modules:
+  - date: 4. november
+    day: "1"
+    time: 10:00 - 12:00
+    name: Tjek ind
+    place: Online
+  - date: 11. november
+    day: "2"
+    time: 10:00 - 12:00
+    name: Teorien
+    place: Online
+  - date: 18. november
+    day: "3"
+    time: 10:00 - 12:00
+    name: Praktikken
+    place: Online
+  - date: 2. december
+    day: "4"
+    time: 10:00 - 15:00
+    name: Tilbagemeldingssamtalen
+    place: Online
+  - date: 9. december
+    day: "5"
+    time: 10:00 - 15:00
+    name: Wrap up
     place: Online
 classes: big-five
 cat:
