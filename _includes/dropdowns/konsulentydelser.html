@@ -1,68 +1,72 @@
-<div class="container-fluid-menu pb-4 pt-3 d-none d-lg-block">
+<div class="text-slate-gray bg-gainsboro">
+
+  <div class="container-fluid-menu pb-4 pt-3 d-none d-lg-block">
 
 
 
-  <div class="row g-5">
-    {% assign orderedcats = site.consultations | sort: "order" %}
-    {% for cat in orderedcats %}
-    <div class="col-md-6 col-lg-3 col-12">
-      <a href="{{ cat.url }}">
-        <div class="border border-secondary h-100 p-3" style="--bs-border-opacity: .5;">
-          <p class="text-uppercase fw-bold mb-0 fs-6">{{ cat.title }}
-          </p>
-          <p class="mb-0"><small>{{ cat.description }}</small></p>
-        </div>
-      </a>
+    <div class="row g-5">
+      {% assign orderedcats = site.consultations | sort: "order" %}
+      {% for cat in orderedcats %}
+      <div class="col-md-6 col-lg-3 col-12">
+        <a href="{{ cat.url }}">
+          <div class="border border-secondary h-100 p-3" style="--bs-border-opacity: .5;">
+            <p class="text-uppercase fw-bold mb-0 fs-6">{{ cat.title }}
+            </p>
+            <p class="mb-0"><small>{{ cat.description }}</small></p>
+          </div>
+        </a>
 
-    </div>
-    {% endfor %}
+      </div>
+      {% endfor %}
 
-    <div class="col-12 d-lg-block d-none">
-      <p class="text-uppercase fw-bold mb-4">Mød vores konsulenter</p>
-      <div class="row">
+      <div class="col-12 d-lg-block d-none">
+        <p class="text-uppercase fw-bold mb-4">Mød vores konsulenter</p>
+        <div class="row">
 
 
-        {% assign ordered_emps = site.employees | sort: 'order' %}
-        {% for emp in ordered_emps %}
+          {% assign ordered_emps = site.employees | sort: 'order' %}
+          {% for emp in ordered_emps %}
 
-        {% if forloop.index == 1 or forloop.index == 2 or forloop.index == 3 or forloop.index == 4 %}
-        <div class="col">
-          <a href="{{ emp.url }}">
-            <div class="d-flex align-items-center">
-              <div class="flex-shrink-0">
-                <img width="70" class="rounded-circle" src="{{ emp.small-portrait-image }}"
-                  alt="{{ emp.title }}, {{ emp.description}}">
+          {% if forloop.index == 1 or forloop.index == 2 or forloop.index == 3 or forloop.index == 4 %}
+          <div class="col">
+            <a href="{{ emp.url }}">
+              <div class="d-flex align-items-center">
+                <div class="flex-shrink-0">
+                  <img width="70" class="rounded-circle" src="{{ emp.small-portrait-image }}"
+                    alt="{{ emp.title }}, {{ emp.description}}">
+                </div>
+                <div class="flex-grow-1 ms-3">
+
+                  <p class="mt-0 mb-0 small"><small><b>{{ emp.title }}</b></small></p>
+                  <p class="mb-0 small fw-light"><small>{{ emp.description }}</small></p>
+                  <p class="mb-0 small"><small>{{ emp.call }}</small></p>
+                  <p class="mb-0 small"><small>{{ emp.email }}</small></p>
+                </div>
+
+
               </div>
-              <div class="flex-grow-1 ms-3">
+            </a>
+          </div>
 
-                <p class="mt-0 mb-0 small"><small><b>{{ emp.title }} {{ forloop.index }}</b></small></p>
-                <p class="mb-0 small fw-light"><small>{{ emp.description }}</small></p>
-                <p class="mb-0 small"><small>{{ emp.call }}</small></p>
-                <p class="mb-0 small"><small>{{ emp.email }}</small></p>
-              </div>
+          {% endif %}
+          {% endfor %}
 
 
-            </div>
-          </a>
         </div>
-
-        {% endif %}
-        {% endfor %}
 
 
       </div>
-
-
     </div>
+
   </div>
+  <div class="container-fluid-menu pb-1 pt-1 d-lg-none">
 
-</div>
-<div class="container-fluid-menu pb-1 pt-1 d-lg-none">
+    <div class="border-start border-secondary border-opacity-50 ps-2"> {% for edu in orderedcats %}
+      <a class="small link--metis d-inline-block mb-2" href="{{ edu.url }}">
+        {{ edu.title }}</a><br>
+      {% endfor %}
+    </div>
 
-  <div class="border-start border-secondary border-opacity-50 ps-2"> {% for edu in orderedcats %}
-    <a class="small link--metis d-inline-block mb-2" href="{{ edu.url }}">
-      {{ edu.title }}</a><br>
-    {% endfor %}
   </div>
 
 </div>

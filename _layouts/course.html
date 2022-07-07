@@ -528,16 +528,16 @@ layout: default
                         <div class="row gy-3" id="coffee">
                             <div class="col-md-6 col-12">
                                 <input type="text" class="form-control" placeholder="Navn" aria-label="Navn"
-                                    name="navn">
+                                    name="navn" required>
                             </div>
                             <input type="hidden" name="I-forbindelse-med" value="{{ page.title }}">
                             <input type="hidden" name="henvendelse" value="Jeg vil gerne ringes op">
                             <div class="col-md-6 col-12">
                                 <input type="text" class="form-control" placeholder="Tlf. nr."
-                                    aria-label="telefonnummer" name="tlf. nr.">
+                                    aria-label="telefonnummer" name="tlf. nr." required>
                             </div>
                             <div class="col-12">
-                                <button class="btn btn-opal w-100 my-0">Ring til mig</button>
+                                <button class="btn btn-opal w-100 my-0">Ring mig op</button>
                             </div>
 
                         </div>
@@ -1086,18 +1086,18 @@ layout: default
                                     <input class="form-control mb-3" type="text" name="name" placeholder="Navn"
                                         required>
                                 </div>
-                                <div class="col-12 col-lg-6">
+                               <!--  <div class="col-12 col-lg-6">
                                     <input type="text" class="form-control mb-3" name="titel" placeholder="Titel">
-                                </div>
+                                </div> -->
 
-                                <div class="col-12 col-lg-6">
+                               <!--  <div class="col-12 col-lg-6">
                                     <input type="tel" class="mb-3 form-control" name="tlf" pattern="[0-9]{8}"
                                         placeholder="Tlf.">
-                                </div>
-                                <div class="col-12 col-lg-6">
+                                </div> -->
+                                <!-- <div class="col-12 col-lg-6">
                                     <input type="text" class="form-control mb-3" name="virksomhed"
                                         placeholder="Virksomhed">
-                                </div>
+                                </div> -->
                                 <div class="col-12 col-lg-6">
                                     <input type="text" class="form-control mb-3" name="email" placeholder="Email"
                                         required>

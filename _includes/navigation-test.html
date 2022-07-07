@@ -14,6 +14,17 @@
     </button>
     <div class="collapse navbar-collapse flex-column" id="main_nav">
       <ul class="navbar-nav ms-auto">
+        <li class="nav-item dropdown has-megamenu text-slate-gray small d-none d-lg-inline">
+          <a class="nav-link dropdown-toggle text-slate-gray small" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Kontakt os</a>
+          <div class="dropdown-menu megamenu text-slate-gray bg-gainsboro" role="menu">
+            {% include dropdowns/kontakt-os.html %} 
+          </div> <!-- dropdown-mega-menu.// -->
+        </li>
+        <li class="nav-item text-slate-gray small d-lg-none">
+          <a class="nav-link text-slate-gray small" href="/kontakt/">Kontakt os</a>
+          
+        </li>
+
         <li class="nav-item text-slate-gray small">
           <a class="nav-link text-slate-gray small" href="/nyhedsbrev/">Nyhedsbrev</a>
           
@@ -26,16 +37,7 @@
           <a class="nav-link text-slate-gray small" href="/community/">Community</a>
           
         </li>
-        <li class="nav-item dropdown has-megamenu text-slate-gray small d-none d-lg-inline">
-          <a class="nav-link dropdown-toggle text-slate-gray small" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Kontakt os</a>
-          <div class="dropdown-menu megamenu text-slate-gray bg-gainsboro" role="menu">
-            {% include dropdowns/kontakt-os.html %} 
-          </div> <!-- dropdown-mega-menu.// -->
-        </li>
-        <li class="nav-item text-slate-gray small d-lg-none">
-          <a class="nav-link text-slate-gray small" href="/kontakt/">Kontakt os</a>
-          
-        </li>
+    
         <li class="nav-item text-slate-gray small">
           <a class="nav-link text-slate-gray small" href="/about/">Om os</a>
           

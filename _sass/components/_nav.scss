@@ -19,7 +19,7 @@
     color: #707070 !important;
 }
 
-.dropdown:hover .dropdown-menu {
+.dropdown:hover .dropdown-menu, .dropdown-menu:hover {
     display: block;
     top: 100%;
  }
