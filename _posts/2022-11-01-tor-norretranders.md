@@ -1,14 +1,14 @@
 ---
 title: Foredrag med Tor Nørretranders
 event-type: Foredrag
-image: /images/events/tor nørretranders foto andreas bergmann HIRES.jpeg
+image: /images/events/tor-2.png
 subtitle: Foredrag
 description: Kom til foredrag med Tor Nørretranders
 category: event
 tags:
 - event
 - foredrag
-layout: event
+layout: event-new
 only-month: false
 price: "-"
 billetto: false

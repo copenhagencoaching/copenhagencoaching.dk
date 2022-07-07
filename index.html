@@ -1,162 +1,286 @@
 ---
 layout: default
+title: Copenhagencoaching
 ---
 
-<script>
-    $('.contact-link').on('click', function () {
-        $('.navbar-toggler').click();
-    });
-</script>
-<div class="my-5">
-    
-</div>
-<div class="front-slider slick-slider">
-    {% assign ordered_slides = site.texts | sort: 'order' %}
-    {% for text in ordered_slides %}
-    {% if text.page == "frontpage" %}
-    <div class="big-header slick-slide">
-        <div class="inner-front pt-5" style="background-image: url('{{ text.image }}'); {{ text.placing }}">
-            <div class="container-fluid py-5">
-                <div class="front-box">
-                    <h1>{{ text.title }}</h1>
-                    <div class="d-md-none">
-                        <p>{{ text.excerpt }}</p>
-                    </div>
-                    <div class="d-none d-md-block">
-                        <p>{{ text.content }}</p>
-                    </div>
-                    {% if text.text-message %}
-                    <div class="d-md-none py-3"></div>
-                    <div class="text-end w-100">
-
-                        <h6 class="bg-black-coral text-white p-2 d-inline speech"><b>{{ text.text-message }}</b></h6>
-
-                    </div>
-
-                    {% endif %}
-                    {% if text.link %}
-                    <button onclick="location.href='{{ text.link }}';" class="learn-more">
-                        <span class="circle" aria-hidden="true">
-                            <span class="icon arrow"></span>
-                        </span>
-                        <span class="button-text">Se mere</span>
-                    </button>
-                    {% endif %}
+<div class="mt-5" style="background-image: url('/images/frontpage/fp-2.jpg'); background-size: cover;">
+    <div class="container-fluid mt-5 py-5">
+        <div class="row py-5">
+            <div class="col-12 col-lg-5 col-md-8 col-sm-10 my-5">
+                <div class="bg-black-coral py-2 px-4 mb-3">
+                    <h1 class="text-white mb-0">Dialog er dannelse i praksis</h1>
                 </div>
-            </div>
 
-        </div>
-
-
-    </div>
-
-    {% endif %}
-    {% endfor %}
-</div>
-
-
-
-<div class="container-fluid py-5">
-    <div class="row">
-        <div class="offset-xl-2 col-xl-8 col-12">
-            <div class="row gx-5 gy-5">
-                <div class="col-lg-6 col-12">
-                    <h3 class="text-uppercase">Vi tilbyder et eksklusivt udvalg af uddannelser, kurser og
-                        konsulentydelser</h3>
-                    <p>CCC er et ledelsesfilosofisk epicenter med fire forretningsområder. Vi tilbyder individuel
-                        coaching, ledelsessupervision, lederuddannelser og konsulentopgaver. Vores fokus er
-                        dygtiggørelse af medarbejdere og ledere, som ønsker at udvikle deres dialogiske færdigheder,
-                        refleksive kompetencer og ledelsesmæssige kapacitet.</p>
-                    <button onclick="location.href='/academy/';" class="learn-more mt-4">
-                        <span class="circle" aria-hidden="true">
-                            <span class="icon arrow"></span>
-                        </span>
-                        <span class="button-text">Se mere</span>
-                    </button>
-
+                <div class="bg-black-coral py-3 px-4 mb-3">
+                    <p class="text-white mb-0 fs-6">CCC er et ledelsesfilosofisk epicenter med fire
+                        forretningsområder. Vi tilbyder individuel coaching,
+                        ledelsessupervision, lederuddannelser og konsulentopgaver.
+                        Vores fokus er dygtiggørelse af medarbejdere og ledere, som
+                        ønsker at udvikle deres dialogiske færdigheder, refleksive
+                        kompetencer og ledelsesmæssige kapacitet.</p>
                 </div>
-                <div class="col-lg-6 col-12">
-                    <h3 class="text-uppercase">Når værdier skaber hverdagen, afspejles det i dagligdagen</h3>
-                    <p>Copenhagen Coaching Center skaber betingelserne og rammen for din personlige og faglige udvikling
-                        – du vil opleve en styrket ledelseskapacitet, en klarere indsigt i dit værdigrundlag og et
-                        nærvær til dig selv og din omverden. Vi tilbyder dig et kompetenceløft, en ny metodisk praksis
-                        og et fagligt stærkt forum.</p>
-                    <p>Vi vægter høj faglighed og sætter barren højt for vores produkter og leverancer, og giver
-                        samtidig plads til at arbejde med ideer indenfor fællesskabets rammer. I CCC er det vigtigt at
-                        værne om den andens værdighed - at se mennesket i mennesket med de forskelligheder der viser
-                        sig. Vi skaber med andre ord udvikling i kraft af den menneskelige værdi.</p>
-                </div>
+
+                <br>
+                <a href="/academy/master-of-business-coaching/">
+                    <p class="bg-black-coral py-3 px-4 text-white mb-0 fw-bold fs-6 text-uppercase d-inline">Læs mere
+                        her <i class="fa-solid fa-arrow-right text-white ms-2 fs-5 fw-bold pt-2"></i></p>
+                </a>
+
             </div>
         </div>
     </div>
-
 </div>
 
-<!-- <div class="container-fluid pb-5">
-    <div class="row">
-        <div class="offset-xl-2 col-xl-8 col-12">
-            <div class="row gx-5">
-                <div class="col-lg-6 col-12 responsive-lg-img">
-                    <div class="h-100"
-                    style="background-image: url('/images/about/jesper.png'); background-position: center; background-size: cover;">
-                </div>
-
-                </div>
-                <div class="col-lg-6 col-12">
-                    <h3 class="text-uppercase">ET INDSPARK I VERDENSKLASSE</h3>
-                    <p>Inden den tidligere FC-Barcelona-spiller Jesper Nøddesbo i foråret annoncerede, at han ville indstille
-                        sin håndboldkarriere, havde Jesper allerede taget de første store skridt henimod en ny karrierevej.
-                        Allerede for seks år siden startede Jesper på vores Master of Business Coaching-uddannelse med henblik
-                        på at kunne arbejde som professionel coach, mentor og rådgiver på sportens bane, men i særdelshed også
-                        indenfor erhvervslivet. Dette store og spændende brancheskift er nu officielt en realitet, da Jesper
-                        netop i dette efterår er tiltrådt som en fast bestanddel af konsulentholdet hos CCC.</p>
-                        <button onclick="location.href='/et-indspark-i-verdensklasse/';" class="learn-more mt-4">
-                            <span class="circle" aria-hidden="true">
-                                <span class="icon arrow"></span>
-                            </span>
-                            <span class="button-text">Læs mere</span>
-                        </button>
-                </div>
+<div class="container-fluid py-5 my-4">
+    <div class="row gx-5 gy-5">
+        <div class="col-12 col-lg-4 h-100 position-relative responsive-card-12">
+            <img src="/images/frontpage/fp-2.png" class="object-fit h-200 w-100" alt="">
+            <h3 class="mt-3 text-uppercase">Coaching</h3>
+            <p class="text-justify mh-150px smaller-height-re">Hos CCC er du altid er sikker på at møde en faglig og teoretisk dybt og
+                bredt funderet coach med mange
+                års erfaring med professionelle samtaler og som minimum en Master i Business Coaching. Da relationen
+                er
+                af afgørende betydning for effekten af coaching, gør vi en dyd ud af at finde den helt rigtige coach
+                til
+                dig og din situation.</p>
+                <button onclick="location.href='/academy/';" class="learn-more d-lg-none">
+                    <span class="circle" aria-hidden="true">
+                        <span class="icon arrow"></span>
+                    </span>
+                    <span class="button-text">Se mere</span>
+                </button>
+            <div class="position-absolute start-0 px-4 mb-3 d-none d-lg-inline-block" style="bottom: -30px;">
+                <button onclick="location.href='/academy/';" class="learn-more">
+                    <span class="circle" aria-hidden="true">
+                        <span class="icon arrow"></span>
+                    </span>
+                    <span class="button-text">Se mere</span>
+                </button>
             </div>
+
+        </div>
+        <div class="col-12 col-lg-4 h-100 position-relative responsive-card-12">
+
+            <img src="/images/frontpage/fp-1.jpg" style="object-position: center top;" class="object-fit h-200 w-100"
+                alt="">
+            <h3 class="mt-3 text-uppercase">Master of business coaching</h3>
+            <p class="text-justify mh-150px smaller-height-re">Ønsker du at blive dygtig til at føre produktive og virkningsfulde
+                dialoger? At kunne flytte både grupper og individer i en mere
+                konstruktiv retning og derved forebygge stress, organisatorisk
+                stagnation og udbrændthed? Så vælg uddannelsen Master of
+                Business Coaching.</p>
+                <button onclick="location.href='/academy/';" class="learn-more d-lg-none">
+                    <span class="circle" aria-hidden="true">
+                        <span class="icon arrow"></span>
+                    </span>
+                    <span class="button-text">Se mere</span>
+                </button>
+            <div class="position-absolute start-0 px-4 mb-3 d-none d-lg-inline-block" style="bottom: -30px;">
+                <button onclick="location.href='/academy/';" class="learn-more">
+                    <span class="circle" aria-hidden="true">
+                        <span class="icon arrow"></span>
+                    </span>
+                    <span class="button-text">Se mere</span>
+                </button>
+            </div>
+
+        </div>
+        <div class="col-12 col-lg-4 h-100 position-relative responsive-card-12">
+
+            <img src="/images/frontpage/fp-6.png" class="object-fit h-200 w-100" alt="">
+            <h3 class="mt-3 text-uppercase">Konsulentydelser</h3>
+            <p class="text-justify mh-150px smaller-height-re">For at udvikle sig bæredygtigt har virksomheder, organisationer og
+                mennesker brug for friske øjne og nye perspektiver. CCC har solid
+                erfaring med strategiudvikling i organisationer. Vi tilbyder konsuelentydelser med fokus på både
+                medarbejde, ledelse, organisation og konsulentudvikling.</p>
+
+                <button onclick="location.href='/academy/';" class="learn-more d-lg-none">
+                    <span class="circle" aria-hidden="true">
+                        <span class="icon arrow"></span>
+                    </span>
+                    <span class="button-text">Se mere</span>
+                </button>
+            <div class="position-absolute start-0 px-4 mb-3 d-none d-lg-inline-block" style="bottom: -30px;">
+                <button onclick="location.href='/academy/';" class="learn-more">
+                    <span class="circle" aria-hidden="true">
+                        <span class="icon arrow"></span>
+                    </span>
+                    <span class="button-text">Se mere</span>
+                </button>
+            </div>
+
         </div>
     </div>
-
 </div>
- -->
 
+<div class="container-fluid pb-5">
+    <div class="row gx-5">
+        <div class="col-12 col-lg-6">
+            <div class="bg-platinum px-5 pt-5">
+                <h4 class="text-uppercase mb-4">
+                    Nyeste indlæg
+                </h4>
+                {% for ind in site.tags.blog limit: 3 %}
+                <h3 class="text-uppercase">{{ ind.title }}</h3>
+                <p>{{ ind.description }}</p>
+                <button onclick="location.href='{{ ind.url }}';" class="learn-more mb-5">
+                    <span class="circle" aria-hidden="true">
+                        <span class="icon arrow"></span>
+                    </span>
+                    <span class="button-text">Se mere</span>
+                </button>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 position-relative">
+            <div class="h-100 d-none d-lg-block"
+                style="background-image: url('/images/inspiration/talebobbel.png'); background-position: top; background-size: cover;">
 
-<!-- {% include sections/ousia.html %} -->
+            </div>
+
+            <div class="bg-white pb-5 d-lg-none pt-5">
+                <h2 class="mb-2">Skal vi tales ved?</h2>
+                <p class="fs-6 fw-bold">Har du spørgsmål eller brug for hjælp til at vælge den rette konsulentydelse?
+                    Indtast navn og
+                    telefonnummer
+                    og en
+                    af vores konsulenter ringer dig op inden for 24 timer</p>
+                <form id="tlf-coffee-form" action="https://formspree.io/f/xyyoddyz" method="POST">
+                    <div class="row mt-3 gy-md-0 gy-3" id="coffee">
+                        <div class="col-md-4 col-12">
+                            <input type="text" class="form-control" placeholder="Navn" aria-label="Navn" name="navn">
+                        </div>
+                        <input type="hidden" name="henvendelse" value="Jeg vil gerne ringes op">
+                        <div class="col-md-4 col-12">
+                            <input type="text" class="form-control" placeholder="Tlf. nr." aria-label="telefonnummer"
+                                name="tlf. nr.">
+                        </div>
+                        <div class="col-md-4 col-12">
+                            <button class="btn btn-opal w-100 my-0">Ring til mig</button>
+                        </div>
+
+                    </div>
+                    <p id="my-form-coffee-status" class="text-white mt-3 bg-xanadu p-2 d-none"></p>
+                </form>
+            </div>
+        
+            <div class="position-absolute top-0 start-0 bg-white px-4 pb-5 d-none d-lg-block">
+                <h2 class="mb-2">Skal vi tales ved?</h2>
+                <p class="fs-6 fw-bold">Har du spørgsmål eller brug for hjælp til at vælge den rette konsulentydelse?
+                    Indtast navn og
+                    telefonnummer
+                    og en
+                    af vores konsulenter ringer dig op inden for 24 timer</p>
+                <form id="tlf-coffee-form" action="https://formspree.io/f/xyyoddyz" method="POST">
+                    <div class="row mt-3 gy-md-0 gy-3" id="coffee">
+                        <div class="col-md-4 col-12">
+                            <input type="text" class="form-control" placeholder="Navn" aria-label="Navn" name="navn">
+                        </div>
+                        <input type="hidden" name="henvendelse" value="Jeg vil gerne ringes op">
+                        <div class="col-md-4 col-12">
+                            <input type="text" class="form-control" placeholder="Tlf. nr." aria-label="telefonnummer"
+                                name="tlf. nr.">
+                        </div>
+                        <div class="col-md-4 col-12">
+                            <button class="btn btn-opal w-100 my-0">Ring til mig</button>
+                        </div>
+
+                    </div>
+                    <p id="my-form-coffee-status" class="text-white mt-3 bg-xanadu p-2 d-none"></p>
+                </form>
+            </div>
+
+            <!--           <div class="row gy-5">
+                <div class="col-12">
+                    <h2 class="mb-2">Skal vi tales ved?</h2>
+                    <p class="fs-6 fw-bold">Har du spørgsmål eller brug for hjælp til at vælge den rette konsulentydelse? Indtast navn og
+                        telefonnummer
+                        og en
+                        af vores konsulenter ringer dig op inden for 24 timer</p>
+                    <form id="tlf-coffee-form" action="https://formspree.io/f/xyyoddyz" method="POST">
+                        <div class="row mt-3 gy-md-0 gy-3" id="coffee">
+                            <div class="col-md-4 col-12">
+                                <input type="text" class="form-control" placeholder="Navn" aria-label="Navn" name="navn">
+                            </div>
+                            <input type="hidden" name="henvendelse" value="Jeg vil gerne ringes op">
+                            <div class="col-md-4 col-12">
+                                <input type="text" class="form-control" placeholder="Tlf. nr." aria-label="telefonnummer"
+                                    name="tlf. nr.">
+                            </div>
+                            <div class="col-md-4 col-12">
+                                <button class="btn btn-opal w-100 my-0">Ring til mig</button>
+                            </div>
+        
+                        </div>
+                        <p id="my-form-coffee-status" class="text-white mt-3 bg-xanadu p-2 d-none"></p>
+                    </form>
+                </div>
+            
+            
+
+            
+                <div class="col-12 h-100">
+                    
+                        <div class="h-100" style="background-image: url('/images/inspiration/talebobbel.png'); background-position: center; background-size: cover;">
+                            
+                        </div>
+                    
+                    
+                
+            </div>
+           
+                
+            </div> -->
+        </div>
+    </div>
+</div>
+{% include sections/newsletter.html %}
 
 <div class="bg-platinum pt-5">
-    <div class="container-fluid pt-5 pb-5">
 
-
-        <div class="row gx-5 mb-5">
-            <div class="col-12 col-md-6">
-                <div class="h-100"
-                    style="background-image: url('/images/graphic/supervisions-aftener.jpg'); background-position: center; background-size: cover;">
-                </div>
-            </div>
-            <div class="col-12 col-md-6">
-                <h2>ONLINE Træningsaftener – KUN for CCC Community medlemmer</h2>
-                <p>Din mulighed for at få trænet og styrket din praksis med ligestillede, der enten har afsluttet en
-                    uddannelse hos CCC eller som netop er ved det.
-
-                    En mulighed for at sikre større forankring og effekt af dine erhvervede kompetencer.</p>
-
-                <a href="/inspiration/4-aarlige-supervisions-aftener/"
-                    class="btn-copper btn text-white align-center text-uppercase fw-700"><b>Læs mere her</b></a>
-            </div>
-        </div>
-
-
-
-
-        <div class="text-center">
-            <a href="/events/" class="align-center text-uppercase fw-bolder underlined">Se alle events</a>
-        </div>
+    <div class="container-fluid">
+        <h4 class="text-uppercase">
+            Kommende arrangementer
+        </h4>
     </div>
+   
 
-
+{% include sections/events-2.html %}
 
 </div>
+
+<script>
+    var form = document.getElementById("tlf-coffee-form");
+    var inner_form = document.getElementById("coffee");
+
+    async function handleSubmit(event) {
+        event.preventDefault();
+        var status = document.getElementById("my-form-coffee-status");
+        var data = new FormData(event.target);
+        fetch(event.target.action, {
+            method: form.method,
+            body: data,
+            headers: {
+                'Accept': 'application/json'
+            }
+        }).then(response => {
+            if (response.ok) {
+                status.innerHTML = "Tak for din henvendelse, du vil høre fra os snarrest.";
+                inner_form.className = "d-none"
+                status.classList.remove("d-none")
+                form.reset()
+            } else {
+                response.json().then(data => {
+                    if (Object.hasOwn(data, 'errors')) {
+                        status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+                    } else {
+                        status.innerHTML = "Oops! There was a problem submitting your form"
+                    }
+                })
+            }
+        }).catch(error => {
+            status.innerHTML = "Oops! There was a problem submitting your form"
+        });
+    }
+    form.addEventListener("submit", handleSubmit)
+</script>

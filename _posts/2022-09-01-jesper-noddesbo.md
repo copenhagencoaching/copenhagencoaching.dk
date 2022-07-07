@@ -8,7 +8,7 @@ category: event
 tags:
 - event
 - foredrag
-layout: event
+layout: event-new
 only-month: false
 billetto: false
 image-2: /images/events/foredrag.png

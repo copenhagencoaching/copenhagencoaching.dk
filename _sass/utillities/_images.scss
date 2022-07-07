@@ -91,6 +91,10 @@ video {
     }
 }
 
+.responsive-xlg-img {
+    min-height: 1000px;
+}
+
 .img-md-200 {
     @media (max-width: 767.98px) { 
         height: 200px;
@@ -102,4 +106,18 @@ video {
         height: 90px;
         width: 90px;
      }
+}
+
+.responsive-card-12 {
+    @media (max-width: 1500px) { 
+       min-height: 450px;
+     }
+
+      @media (max-width: 1200px) { 
+        min-height: 500px;
+      } 
+
+      @media (max-width: 991.98px) { 
+        min-height: 0px;
+      } 
 }
