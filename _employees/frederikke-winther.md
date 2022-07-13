@@ -6,6 +6,7 @@ small-portrait-image: "/images/about/small-images/frederikke-winther.png"
 grey-portrait: /images/about/medarbejdere-sort-hvid/frederikke-winther-sort-hvid.png
 call: 21 19 47 57
 on-om-os: true
+meta-title: Frederikke Winther - Mød medarbejderne hos CCC her
 mbc: true
 consulent: true
 edu:

@@ -1,12 +1,14 @@
 ---
-title: Talentudvikling
-header: Talentudvikling
+title: Potentialeudvikling, rekruttering og fastholdelse
+header: Potentialeudvikling, rekruttering og fastholdelse
 location: "Introdag i København – 20. september 2022<br>
 Studieophold i Barcelona – 1.- 4. oktober 2022<br>
 Implementeringsdag i København – 15. december 2022"
 special: false
 image: /images/educations/talent-program.png
 image-2: /images/educations/talent-2.png
+meta-title: Talentudvikling - Bliv bedre til at spotte og udvikle talent med CCC
+meta-description: Bliv bedre til at se potentialet hos dine medarbejdere og de unikke talenter i organisationen. Vi hjælper dig med at spotte talent og udvikle en strategi for talentudvikling.
 layout: course
 small-price: 30.00,- ekskl. moms
 price: "30.000,- ekskl. moms pr deltager (Inkluderer fly, transport, forplejning, hotel)
@@ -80,7 +82,6 @@ hold:
     place: København
 contact-person: Andreas Bering
 cat:
-- master-4
 - put
 redirect_from: []
 ---

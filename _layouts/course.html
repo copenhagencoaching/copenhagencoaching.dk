@@ -184,17 +184,17 @@ layout: default
     <div class="small-container">
         <div class="bg-slate-gray px-5 py-4 mb-3">
             <div class="row gx-0">
-                <div class="col-4 d-flex align-items-center">
+                <div class="col-8 col-md-4 d-flex align-items-center">
                     <h2 class="text-white mb-0">
-                        Kursus oversigt
+                        Kursusoversigt
                     </h2>
                 </div>
-                <div class="col-4 align-items-center d-none d-md-flex text-end">
+                <div class="col-3 align-items-center d-none d-md-flex text-end">
                     <p class="text-white mb-0 ms-3"><b>{{ page.small-price }}</b></p>
                 </div>
                 {% if page.dage %}
                 <div
-                    class="col-2 align-items-center justify-items-end d-none d-md-flex justify-content-end text-end">
+                    class="col-1 align-items-center justify-items-end d-none d-md-flex justify-content-end text-end">
                     <p class="text-white mb-0"><b>{{ page.dage }} dage</b></p>
                 </div>
                 {% endif %}
@@ -204,32 +204,43 @@ layout: default
                     <p class="text-white mb-0"><b>{{ page.hours }} timer</b></p>
                 </div>
                 {% endif %}
+
+                <div class="col-4 col-md-2 align-items-center justify-items-end justify-content-end text-end">
+                    <a href="#ansog" class="btn btn-gray-curry mt-0 text-white text-uppercase fw-bold">Ansøg<span class="d-none d-md-inline"> nu<n/span></a>
+                 </div>
             </div>
         </div>
         <div class="accordion white-arrow" id="accordionPanelsStayOpenExample">
             {% for semester in page.hold %}
+            
             <div class="accordion-item border-none mb-2">
                 <div class="accordion-header d-none d-md-block" id="heading{{ forloop.index }}">
                     <button
-                        class="accordion-button {% if forloop.index == 1 %} {% else %} collapsed{% endif %} px-5 py-3 bg-quick-silver"
+                        class="accordion-button collapsed px-5 py-3 bg-quick-silver"
                         type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{ forloop.index }}"
                         aria-expanded="true" aria-controls="collapse{{ forloop.index }}">
 
-                        <div class="row gx-0 w-100">
-                            <div class="col-md-4 col-12">
+                        <div class="row gx-0 w-100 position-relative">
+                            <div class="col-md-4 col-12 d-flex align-items-center">
                                 <p class="mb-0 text-uppercase text-white fw-bold">{{ semester.title }}</p>
                             </div>
-                            <div class="col-md-8 col-12">
+                            <div class="col-md-8 col-12 d-flex align-items-center">
                                 <p class="mb-0 text-uppercase text-white ms-4">{{ semester.dates }}</p>
                             </div>
+                           
+                          
+                               
+                             
+ 
                         </div>
                     </button>
+                  
                 </div>
 
 
                 <div class="accordion-header border-none d-block d-md-none" id="heading{{ forloop.index }}">
                     <button
-                        class="accordion-button white border-none {% if forloop.index == 1 %} {% else %} collapsed{% endif %} px-5 py-3 bg-quick-silver"
+                        class="accordion-button white border-none collapsed px-5 py-3 bg-quick-silver"
                         type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{ forloop.index }}"
                         aria-expanded="true" aria-controls="collapse{{ forloop.index }}">
 
@@ -240,6 +251,8 @@ layout: default
                             <div class="col-md-8 col-12">
                                 <p class="mb-0 text-uppercase text-white">{{ semester.dates }}</p>
                             </div>
+
+                            
 
                         </div>
                     </button>
@@ -307,6 +320,7 @@ layout: default
                                         {{ module.place }}
                                     </p>
                                 </div>
+                               
                             </div>
                         </div>
 
@@ -662,12 +676,12 @@ layout: default
                     <div class="col-md-6 col-12">
 
                         <input type="text" class="form-control w-100" placeholder="Fornavn" aria-label="fornavn"
-                            name="fornavn">
+                            name="FNAME">
 
                     </div>
                     <div class="col-md-6 col-12">
                         <input type="text" class="form-control w-100" placeholder="Efternavn" aria-label="efternavn"
-                            name="efternavn">
+                            name="LNAME">
                     </div>
                     <div class="col-md-6 col-12">
                         <input type="text" class="form-control w-100" placeholder="Email" aria-label="email"
@@ -903,6 +917,11 @@ layout: default
                                         privatlivspolitik</a>.</p>
                             </label>
                         </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="g-recaptcha" data-sitekey="6Lfi__EcAAAAABOscNdrKzqeLNu2vbuTM_5VlANy"></div>
+                        <!-- replace with your recaptcha SITE key not secret key -->
+                        <br />
                     </div>
                     <div class="col-12">
                         <button class="w-100 btn-opal text-white btn mb-3" type="submit">Ansøg</button>

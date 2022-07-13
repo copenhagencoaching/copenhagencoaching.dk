@@ -2,6 +2,8 @@
 title: Proceslederuddannelse online
 header: Procesleder-uddannelse online
 description: Med en proceslederuddannelse fra CCC får du markedets stærkeste uddannelse i at planlægge, styre og fastholde processer. Uddannelsen henvender sig til ledere, konsulenter og medarbejdere, som har ansvar for og håndterer processer og forandringer i organisationen, internt eller eksternt.
+meta-title: Procesledelse - Tag proceslederuddannelsen hos Copenhagen Coaching Center 
+meta-description: Med en proceslederuddannelse fra CCC får du markedets stærkeste uddannelse i at planlægge, styre og fastholde processer. Se hvordan du bliver procesleder her.
 image-2: "/images/educations/plu-table.png"
 deltagerprofil: true
 pdf: "/pdfs/PLU2020forår.pdf"
@@ -77,7 +79,8 @@ hold:
 redirect_from:
   - /coaching/proceslederuddannelse/
 cat:
-- procesledelse
+- proces
+- diplom
 ---
 
 #### Du vil kunne mestre den sunde og veldesignede proces der giver jeres arbejde retning og mening. Du vil kunne samle organisationen og inspirere til den gode idé, eller den ekstra indsats

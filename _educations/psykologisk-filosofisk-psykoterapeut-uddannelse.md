@@ -3,6 +3,8 @@ title: Psykologisk filosofisk psykoterapeut-uddannelse
 header: Psykologisk filosofisk psykoterapeut-uddannelse
 location: Alle vores moduler afvikles som dagkurser uden overnatning i vores undervisninslokaler på Blegdamsvej 104D, 3. sal, 2100 København Ø, dog med undtagelse af det todages intromodul, der afvikles som internat med én overnatning.
 special: false
+meta-title: Psykoterapeut uddannelse - Bliv uddannet til psykoterapeut hos CCC
+meta-description: Få et dybere, højere og bredere beredskab med vores psykoterapeut uddannelse, der klæder dig på til at varetage de svære samtaler - psykologisk og filosofisk. Læs mere her.
 image-2: /images/pfp/11.jpg
 image: /images/educations/psykologisk-filosofisk-psykoterapi.jpg
 layout: course

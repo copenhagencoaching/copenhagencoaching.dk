@@ -6,6 +6,7 @@ small-portrait-image: "/images/about/employees/ghita-vejlebo-gray.png"
 grey-portrait: "/images/about/employees/ghita-vejlebo-gray.png"
 call: 51 63 26 80
 on-om-os: true
+meta-title: Ghita Vejlebo - Mød medarbejderne hos CCC her
 mbc: true
 consulent: true
 edu:

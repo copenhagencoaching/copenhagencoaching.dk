@@ -10,13 +10,14 @@
   {% endif %}
 
 
-  {% seo %}
+ 
+  <title>{% if page.meta-title %}{{ page.meta-title }}{% else if %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <!-- Meta -->
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta itemprop="description" name="description"
-    content="{% if page.hero-description %}{{ page.hero-description | truncate: 160 }}{% else %}{{ site.description | truncate: 160 }}{% endif %}" />
+    content="{% if page.meta-description %}{{ page.meta-description }}{% else if %}{{ page.description | truncate: 160 }} {% else %} {{ page.description | truncate: 160 }}{% endif %}" />
   <meta name="author" content="Copenhagen Coaching Center">
   <link data-proofer-ignore rel="canonical" href="{{ site_prefix }}{{ page.url }}">
   <meta name="keywords" content="copenhagen, coaching, center, konsultation">

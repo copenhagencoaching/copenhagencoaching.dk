@@ -4,6 +4,7 @@ title: Caroline Olivia
 call: 27 63 77 08
 description: IT supporter og webudvikler
 consulent: false
+meta-title: Caroline Olivia - Mød medarbejderne hos CCC her
 on-om-os: true
 email: cof@copenhagencoaching.dk
 linkedin: https://www.linkedin.com/in/caroline-olivia/

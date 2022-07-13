@@ -6,6 +6,7 @@ small-portrait-image: "/images/about/employees/jesper-nøddesbo.png"
 grey-portrait: /images/about/employees/jesper-nøddesbo-grayscale.png
 email: jn@copenhagencoaching.dk
 mbc: true
+meta-title: Jesper Nøddesbo - Mød medarbejderne hos CCC her
 consulent: true
 on-om-os: true
 edu:

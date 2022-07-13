@@ -3,6 +3,8 @@ order: 3
 title: Certificering i Big Five Online
 image: "/images/events/big-five-event-5.jpg"
 image-2: "/images/educations/bf-1.png"
+meta-title: Big five - Markedets bedste personlighedst. Bliv certificeret hos CCC.
+meta-description: Bliv klædt på til at bruge markedets bedst underbyggede personlighedstest i rekruttering og ledelses- og medarbejderudviklingssammenhæng. Læs mere om Big Five her.
 contact-person: Frederikke Winther
 header: Certificeringer i Big Five Online
 dage: 6

@@ -5,6 +5,7 @@ portrait-image: "/images/about/employees/andreas-bering.jpg"
 small-portrait-image: "/images/about/small-images/andreas-bering.png"
 grey-portrait: /images/about/medarbejdere-sort-hvid/andreas-bering-sort-hvid.png
 call: 40 14 92 92
+meta-title: Andreas Bering - Mød medarbejderne hos CCC her
 email: ab@copenhagencoaching.dk
 consulent: true
 on-om-os: true

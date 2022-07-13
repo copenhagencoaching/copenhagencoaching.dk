@@ -6,6 +6,8 @@ image-2: /images/inspiration/leder-tavle.png
 contact-person: Ghita Vejlebo
 description: Er du leder, eller drømmer du om at bliver det? Trænger du til at få styrket dine lederkompetencer, og samtidig få de nyeste og brugbare værktøjer til medarbejdersamtaler og til håndtering af konfliktsituationer?
 header: Den offentlige lederuddannelse
+meta-title: Den offentlige lederuddannelse - Læs DOL hos Copenhagen Coaching Center
+meta-description: Den offentlige lederuddannelse (DOL) er en diplomuddannelse for dig, der er leder eller drømmer om at blive det. Styrk dine lederkompetencer med CCC.
 kursus-oversigt: true
 layout: course
 adgangskrav: Der er ingen adgangskrav
