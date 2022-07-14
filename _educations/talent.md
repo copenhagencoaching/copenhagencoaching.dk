@@ -5,6 +5,7 @@ location: "Introdag i København – 20. september 2022<br>
 Studieophold i Barcelona – 1.- 4. oktober 2022<br>
 Implementeringsdag i København – 15. december 2022"
 special: false
+pdf: /pdfs/Potentialeudvikling - rekruttering og fastholdelse.pdf
 image: /images/educations/talent-program.png
 image-2: /images/educations/talent-2.png
 meta-title: Talentudvikling - Bliv bedre til at spotte og udvikle talent med CCC
