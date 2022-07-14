@@ -5,7 +5,8 @@ image: "/images/academy/ledelseskursus-paa-lesbos.jpg"
 contact-person: Frederikke Winther
 image-2: /images/educations/graeker.png
 meta-title: Lederkursus - Intensivt kursus i ledelse, der rykker dig
-meta-discription: Hos CCC afholder vi flere gange årligt lederkurser med fokus på både at rykke dig som menneske og gøre dig til en bedre leder. Læs mere om vores kurser i ledelse her.
+meta-description: Hos CCC afholder vi flere gange årligt lederkurser med fokus på både at rykke dig som menneske og gøre dig til en bedre leder. Læs mere om vores kurser i ledelse her.
+kategori: samtaler
 layout: course
 overblik:
 - overskrift: Hvorfor skal du vælge Ledelseskursus på Lesbos?

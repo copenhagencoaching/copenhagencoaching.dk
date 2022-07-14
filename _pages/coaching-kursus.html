@@ -1,24 +1,62 @@
 ---
 layout: default
 title: Coachingkursus
+meta-title: Coachingkursus og coachuddannelse
+meta-description: Hos CCC tilbyder vi både coachingkurus og coachuddannelse. Læs mere om vores kurser og uddannelser her.
 ---
 
-<div class="bg-platinum">
-    <div class="container-fluid">
-        <div class="row">
+<div class="bg-platinum pt-3 pb-3">
+    <div class="small-container">
+        <div class="pt-5"></div>
+        <div class="container-fluid py-5">
+            <div class="row pt-5 gx-5 gy-3">
+                <div class="col-12">
+                    <img src="/images/graphic/coaching-1.png" alt="" class="object-fit h-100 w-100">
 
-            <div class="col-12 col-md-6">
-                <h3>Coachingkursus</h3>
-                <p>Vestibulum suscipit nulla quis orci. Praesent congue erat at massa. Lorem ipsum dolor sit amet,
-                    consectetuer adipiscing elit. Curabitur suscipit suscipit tellus. Phasellus a est.</p>
-                    <p>Fusce vel dui. Fusce fermentum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus gravida semper nisi. Suspendisse eu ligula.</p>
-                    <p>Donec posuere vulputate arcu. Quisque ut nisi. Praesent ac sem eget est egestas volutpat. Cras id dui. Phasellus gravida semper nisi.</p>
-            </div>
-            <div class="col-12 col-md-6">
+                </div>
+                <div class="col-12">
+                    <h2 class="text-uppercase mt-3">Coachingkurser og coachuddannelser</h2>
+                    <p>Hos CCC er samtalen i fokus. Målet er at støtte dig i din professionelle og personlige udvikling,
+                        så
+                        du kan finde din egen stil som coach og skabe nye erkendelser sammen med mennesker og teams, der
+                        i
+                        den sidste ende kan skabe bedre livskvalitet for den enkelte samt mere dynamiske og innovative
+                        organisationer. Idéen er den, at du bliver bedre til at udvikle organisationer, hvis du evner at
+                        udvikle dig selv.</p>
+                    <p>Videndeling og evnen til at forløse en virksomheds potentiale hos de ansatte er nøgleord i de
+                        udfordringer vores samfund undergår i disse år. I alle sektorer af samfundet er virksomhedens
+                        relationer - internt i virksomheden såvel som udadtil - af vital karakter. Viden om, hvordan man
+                        udvikler og leder virksomhedens relationer kan gøre en verden til forskel. Den indsigt
+                        coachinguddannelsen giver, vil være et omdrejningspunkt for ledere og andre personalegrupper i
+                        skabelsen af udvikling og forandringspotentiale.</p>
+                    <p>Vi udbyder flere uddannelser og kurser med fokus på samtaler.</p>
 
+                </div>
+                
             </div>
+
+
         </div>
+    </div>
 
+</div>
 
+<div class="container-fluid py-5">
+    <div class="small-container">
+        <div class="row pt-5 pb-3 gx-5 gy-4">
+            {% assign newcars = site.educations | where: "kategori", "samtaler" %}
+            {% for edu in newcars %}
+            <div class="col-12 col-md-6">
+                <a href="{{ edu.url }}">
+                    <img src="{{ edu.image-2 }}" alt="" class="object-fit h-150px w-100">
+                    <h3 class="text-uppercase mt-3">{{ edu.title }}</h3>
+                    <p>{{ edu.meta-description }}</p>
+                </a>
+            </div>
+            {% endfor %}
+        </div>
     </div>
 </div>
+
+{% include sections/newsletter.html %}
+{% include sections/vision.html %}

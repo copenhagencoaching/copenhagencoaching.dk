@@ -6,6 +6,7 @@ contact-person: Mette Mejlhede
 image-2: /images/inspiration/aristoteles.png
 header: Individuel protreptisk akkreditering
 opbygning: true
+kategori: samtaler
 meta-title: Protreptik - Individuel protreptisk akkreditering hos CCC
 meta-description: Kom helt i dybden med den filosofiske samtalekunst protreptisk. Individuel akkreditering med 6 individuelle træningssessioner og rejse til Lesbos i Aristoteles fodspor.
 opbygning-image: "/images/educations/greek.png"

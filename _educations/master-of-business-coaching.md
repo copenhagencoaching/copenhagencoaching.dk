@@ -5,8 +5,9 @@ layout: course
 image: "/images/international/i3.jpg"
 image-2: /images/educations/mbc-overblik.png
 kort: true
+kategori: samtaler
 meta-title: Business Coaching uddannelse - Master i Business Coaching
-meta-discription: Ønsker du at blive dygtig til at føre produktive og virkningsfulde dialoger? Bliv Master i Business Coaching på 2 år. Læs mere om vores business coach uddannelse her.
+meta-description: Ønsker du at blive dygtig til at føre produktive og virkningsfulde dialoger? Bliv Master i Business Coaching på 2 år. Læs mere om vores business coach uddannelse her.
 small-price: 45.900,- ekskl. moms pr. semester
 adgangskrav: "Adgang til uddannelsen er betinget
 af at ansøgeren har bestået mindst
