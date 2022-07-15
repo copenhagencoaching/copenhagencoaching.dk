@@ -5,7 +5,7 @@ meta-title: Coachingkursus og coachuddannelse
 meta-description: Hos CCC tilbyder vi både coachingkurus og coachuddannelse. Læs mere om vores kurser og uddannelser her.
 ---
 
-<div class="bg-platinum pt-3 pb-3">
+<div class="pt-3 pb-3">
     <div class="small-container">
         <div class="pt-5"></div>
         <div class="container-fluid py-5">
@@ -41,22 +41,25 @@ meta-description: Hos CCC tilbyder vi både coachingkurus og coachuddannelse. L�
 
 </div>
 
-<div class="container-fluid py-5">
-    <div class="small-container">
-        <div class="row pt-5 pb-3 gx-5 gy-4">
-            {% assign newcars = site.educations | where: "kategori", "samtaler" %}
-            {% for edu in newcars %}
-            <div class="col-12 col-md-6">
-                <a href="{{ edu.url }}">
-                    <img src="{{ edu.image-2 }}" alt="" class="object-fit h-150px w-100">
-                    <h3 class="text-uppercase mt-3">{{ edu.title }}</h3>
-                    <p>{{ edu.meta-description }}</p>
-                </a>
+<div class="bg-platinum">
+    <div class="container-fluid py-5">
+        <div class="small-container">
+            <div class="row pt-5 pb-3 gx-5 gy-4">
+                {% assign newcars = site.educations | where: "kategori", "samtaler" %}
+                {% for edu in newcars %}
+                <div class="col-12 col-md-6">
+                    <a href="{{ edu.url }}">
+                        <img src="{{ edu.image-2 }}" alt="" class="object-fit h-150px w-100">
+                        <h3 class="text-uppercase mt-3">{{ edu.title }}</h3>
+                        <p>{{ edu.meta-description }}</p>
+                    </a>
+                </div>
+                {% endfor %}
             </div>
-            {% endfor %}
         </div>
     </div>
 </div>
 
+
 {% include sections/newsletter.html %}
-{% include sections/vision.html %}
+{% include sections/inpiration.html %}
