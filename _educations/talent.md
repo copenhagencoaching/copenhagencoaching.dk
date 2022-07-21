@@ -11,7 +11,7 @@ image-2: /images/educations/talent-2.png
 meta-title: Talentudvikling - Bliv bedre til at spotte og udvikle talent med CCC
 meta-description: Bliv bedre til at se potentialet hos dine medarbejdere og de unikke talenter i organisationen. Vi hjælper dig med at spotte talent og udvikle en strategi for talentudvikling.
 layout: course
-small-price: 30.00,- ekskl. moms
+small-price: 30.000,- ekskl. moms
 price: "30.000,- ekskl. moms pr deltager (Inkluderer fly, transport, forplejning, hotel)
 <br>
 50.000.- ekskl. moms ved to deltagere fra samme virksomhed/organisation"
