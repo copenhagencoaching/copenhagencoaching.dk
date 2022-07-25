@@ -23,8 +23,8 @@
                     nyheder fra CCC.</p>
             </div>
 
-            <form id="newsletter-form" action="https://formspree.io/f/xlezwlkg" method="POST">
-                <div class="row mt-3 gy-md-0 gy-3" id="inner-form">
+            <form id="newsletter-form-1" action="https://formspree.io/f/xlezwlkg" method="POST">
+                <div class="row mt-3 gy-md-0 gy-3" id="ns-inner-form">
                     <div class="col-md-4 col-12">
                         <input type="text" class="form-control" placeholder="Navn" aria-label="Navn" name="name"
                             required>
@@ -63,8 +63,8 @@
 </div>
 
 <script>
-    var form = document.getElementById("newsletter-form");
-    var inner_form = document.getElementById("inner-form");
+    var form = document.getElementById("newsletter-form-1");
+    var inner_form = document.getElementById("ns-inner-form");
 
     async function handleSubmit(event) {
         event.preventDefault();
