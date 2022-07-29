@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 title: Hvordan skaber man god digital kommunikation?
 image: /images/inspiration/aula.jpg
 author: Frederikke Winther

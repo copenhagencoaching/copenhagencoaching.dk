@@ -2,7 +2,8 @@
 title: Lars Nyborg
 order: 7
 meta-title: Lars Nyborg - Mød medarbejderne hos CCC her
-portrait-image: "/images/about/employees/lars-nyborg.jpg"
+image: /images/about/employees/lars-big-white.png
+portrait-image: "/images/about/employees/lars-big-white.png"
 small-portrait-image: "/images/about/small-images/lars-nyborg.png"
 grey-portrait: /images/about/medarbejdere-sort-hvid/lars-nyborg-sort-hvid.png
 call: 27 11 42 44
@@ -12,7 +13,6 @@ email: ln@copenhagencoaching.dk
 description: Associeret partner
 linkedin: https://www.linkedin.com/in/lars-nyborg-82608431/
 data-id: ''
-
 ---
 Lars har om nogen viet sit liv til folkeskolen blandt andet med 20 år som skoleleder i Fredensborg Kommune. Der findes ikke mange områder, hjørner og kroge i det at drive skole, som Lars ikke har kendskab til eller selv direkte har været involveret i som skoleleder, som medlem af hovedbestyrelsen i Skolelederforeningen eller som deltager i arbejdsgrupper i Undervisningsministeriet eller KL.
 

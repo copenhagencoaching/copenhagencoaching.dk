@@ -1,7 +1,8 @@
 ---
 order: 3
 title: Ghita Vejlebo
-portrait-image: "/images/about/employees/ghita-vejlebo-gray.png"
+image: /images/about/employees/ghita-big-white.png
+portrait-image: "/images/about/employees/ghita-big-white.png"
 small-portrait-image: "/images/about/employees/ghita-vejlebo-gray.png"
 grey-portrait: "/images/about/employees/ghita-vejlebo-gray.png"
 call: 51 63 26 80

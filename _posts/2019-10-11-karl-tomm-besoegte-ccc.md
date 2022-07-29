@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 title: Karl Tomm besøgte CCC
 image: /images/inspiration/KarlTomm.jpg
 author: Morten Bertelsen

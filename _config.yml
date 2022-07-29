@@ -136,7 +136,7 @@ defaults:
     scope:
       type: employees
     values:
-      layout: employee-old
+      layout: employee
   -
     scope:
       type: educations

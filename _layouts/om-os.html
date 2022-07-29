@@ -29,6 +29,7 @@ layout: default
         
         {% assign sorted_empl = site.employees | sort: "order" %}
         {% for employee in sorted_empl %}
+        {% if employee.on-om-os == true %}
         <div class="col-xl-4 col-sm-6 col-12 h-100">
           <a href="{{ employee.url }}">
             <div class="bg-platinum p-4">
@@ -37,12 +38,13 @@ layout: default
               <p>{{ employee.email }}<br>{% if employee.call %}<a href="tel:{{ employee.call }}" onclick="gtag('event','click', { 'event_category':'tlf klik', 'event_label':'tlf om os' })">+45 {{ employee.call }}</a>{% else %}<br>{% endif %}</p>
   
               <div class="text-end ms-auto" style="max-width: 300px">
-                <img src="{{ employee.grey-portrait }}" class="img-fluid rounded-circle" alt="" >
+                <img src="{{ employee.portrait-image }}" class="img-fluid rounded-circle" alt="" >
               </div>
             </div>
   
           </a>
         </div>
+        {% endif %}
         {% endfor %}
       </div>
   

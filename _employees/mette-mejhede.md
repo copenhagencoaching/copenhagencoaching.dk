@@ -2,7 +2,8 @@
 title: Mette Mejlhede
 order: 2
 meta-title: Mette Mejlhede - Mød medarbejderne hos CCC her
-portrait-image: "/images/about/employees/mette-mejlhede.png"
+image: /images/about/employees/mette-big-white.png
+portrait-image: "/images/about/employees/mette-big-white.png"
 small-portrait-image: "/images/about/small-images/mette-mejlhede.png"
 grey-portrait: /images/about/small-images/mette-mejlhede.png
 call: 24 27 28 71

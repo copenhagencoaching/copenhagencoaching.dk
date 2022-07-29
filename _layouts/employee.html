@@ -8,7 +8,7 @@ layout: default
             <div class="small-container pt-5">
                 <div class="row gx-5">
                     <div class="col-sm-6 col-12 text-end text-xl-start position-relative">
-                        <img src="{{ page.grey-portrait }}" class="img-fluid rounded-circle"
+                        <img src="{{ page.portrait-image }}" class="img-fluid rounded-circle"
                             alt="Billede af {{ page.title }}, {{ employee.description}}">
                             
                                 <a data-proofer-ignore href="{{ page.linkedin }}" target="_blank"><i
@@ -26,15 +26,14 @@ layout: default
 
                             <p class="fs-6 text-white text-center text-sm-start"> <a data-proofer-ignore class="d-md-flex align-items-center text-center text-md-start"
                                     href="tel:+45{{ page.call }}"
-                                    onclick="gtag('event','click', { 'event_category':'tlf klik', 'event_label':'tlf medarbejder' })"><i
-                                        class="fas dust-blue text-white opacity-75 fa-phone fs-4 pe-3"></i> {{
+                                    onclick="gtag('event','click', { 'event_category':'tlf klik', 'event_label':'tlf medarbejder' })">
+                                    <i class="fa-solid fa-phone fs-5 text-white me-3"></i> {{
                                     page.call
                                     }}</a> </p>
 
                             {% endif %}
                             <p class="fs-6 text-white text-center text-sm-start"><a data-proofer-ignore class="d-md-flex align-items-center text-center text-md-start"
-                                    href="mailto:{{ page.email }}"><i
-                                        class="fas text-white opacity-75 dust-blue fa-envelope fs-4 pe-3"></i>
+                                    href="mailto:{{ page.email }}"><i class="fa-solid fa-envelope fs-5 text-white me-3"></i>
                                     {{
                                     page.email
                                     }}</a> </p>

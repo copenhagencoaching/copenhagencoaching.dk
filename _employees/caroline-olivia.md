@@ -11,8 +11,8 @@ linkedin: https://www.linkedin.com/in/caroline-olivia/
 data-id: ''
 edu:
 - Webudvikler v/ Roskilde Tekniske Skole
-image: /images/about/employees/caroline-olivia-2.png
-portrait-image: /images/about/employees/caroline-olivia-2.png
+image: /images/about/employees/caroline-big-white.png
+portrait-image: "/images/about/employees/caroline-big-white.png"
 small-portrait-image: /images/about/employees/caroline-olivia-2.png
 grey-portrait: /images/about/employees/caroline-olivia-2.png
 ---
