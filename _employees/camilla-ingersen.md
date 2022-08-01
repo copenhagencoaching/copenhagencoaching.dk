@@ -17,6 +17,6 @@ linkedin: https://www.linkedin.com/in/camillaingwersen/
 data-id: ''
 image: /images/about/employees/camilla-big-white.png
 portrait-image: "/images/about/employees/camilla-big-white.png"
-small-portrait-image: /images/about/employees/camilla-small-green.png
+small-portrait-image: "/images/about/employees/camilla-small-green.png"
 grey-portrait: /images/about/employees/camilla-ingwersen-3.png
 ---

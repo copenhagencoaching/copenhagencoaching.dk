@@ -3,7 +3,7 @@ order: 1
 title: Andreas Bering
 image: /images/about/employees/andreas-big-white.png
 portrait-image: "/images/about/employees/andreas-big-white.png"
-small-portrait-image: "/images/about/small-images/andreas-bering.png"
+small-portrait-image: /images/about/employees/andreas-small-green.png
 grey-portrait: /images/about/medarbejdere-sort-hvid/andreas-bering-sort-hvid.png
 call: 40 14 92 92
 meta-title: Andreas Bering - Mød medarbejderne hos CCC her

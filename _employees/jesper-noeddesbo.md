@@ -2,7 +2,7 @@
 order: 6
 title: Jesper Nøddesbo
 portrait-image: /images/about/employees/jesper-nøddesbo.png
-small-portrait-image: "/images/about/employees/jesper-nøddesbo.png"
+small-portrait-image: /images/about/employees/jesper-nøddesbo.png
 grey-portrait: /images/about/employees/jesper-nøddesbo-grayscale.png
 email: jn@copenhagencoaching.dk
 mbc: true

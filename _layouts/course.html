@@ -192,18 +192,18 @@ layout: default
                 <div class="col-3 align-items-center d-none d-md-flex text-end">
                     <p class="text-white mb-0 ms-3"><b>{{ page.small-price }}</b></p>
                 </div>
-                {% if page.dage %}
+                
                 <div
                     class="col-1 align-items-center justify-items-end d-none d-md-flex justify-content-end text-end">
-                    <p class="text-white mb-0"><b>{{ page.dage }} dage</b></p>
+                    {% if page.dage %}<p class="text-white mb-0"><b>{{ page.dage }} dage</b></p>{% endif %}
                 </div>
-                {% endif %}
-                {% if page.hours %}
+                
+               
                 <div
                     class="col-2 align-items-center justify-items-end d-none d-md-flex justify-content-end text-end">
-                    <p class="text-white mb-0"><b>{{ page.hours }} timer</b></p>
+                    {% if page.dage %}<p class="text-white mb-0"><b>{{ page.hours }} timer</b></p>{% endif %}
                 </div>
-                {% endif %}
+                
 
                 <div class="col-4 col-md-2 align-items-center justify-items-end justify-content-end text-end">
                     <a href="#ansog" class="btn btn-gray-curry mt-0 text-white text-uppercase fw-bold">Ansøg<span class="d-none d-md-inline"> nu<n/span></a>
