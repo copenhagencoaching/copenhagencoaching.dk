@@ -3,7 +3,7 @@
         <h2 class="text-white mb-4">Andre events</h2>
 
         <div class="row gx-5 gy-5 gy-lg-0">
-            {% assign posts = site.tags.event | where_exp:"item", "item.title != include.name" %}
+            {% assign posts = site.tags.act_event | where_exp:"item", "item.title != include.name" %}
             {% assign events = posts | where_exp:"item", "item.past != true" %}
 
             {% for event in events limit: 2 %}

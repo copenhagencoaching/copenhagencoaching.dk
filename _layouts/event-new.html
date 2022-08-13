@@ -75,6 +75,10 @@ layout: default
             <p class="fw-bold text-uppercase fs-6">{{ page.community-price }}</p>
             {% endif %}
 
+            {% if page.community-free == true %}
+            <p class="mb-3 text-uppercase fw-bold">Gratis for CCC Community medlemmer</p>
+            {% endif %}
+
             {% if page.billetto %}
         {% if page.billetto-nr %}
 
@@ -90,7 +94,7 @@ layout: default
         {% else %}
         {% if page.past == true %}
         {% else %}
-        <p>Tilmelding kommer snart...</p>
+        <p>{{ page.attend_mes }}</p>
         {% endif %}
         {% endif %}
         </div>

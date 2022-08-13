@@ -1,7 +1,8 @@
 <div class="bg-platinum">
     <div class="container-fluid py-5">
         <div class="row gx-5 gy-5">
-            {% for event in site.tags.event limit:3 %}
+         {% assign ordered_events = site.tags.act_event | sort: date %}  
+            {% for event in ordered_events limit:3 %}
             <div class="col-12 col-lg-4">
                 <div class="card box-shadow h-100">
                     <img src="{{ event.image }}" class="card-img-top" alt="...">

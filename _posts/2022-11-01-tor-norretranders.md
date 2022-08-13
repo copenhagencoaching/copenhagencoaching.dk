@@ -8,6 +8,7 @@ category: event
 tags:
 - event
 - foredrag
+- act_event
 layout: event-new
 only-month: false
 price: "-"
@@ -20,6 +21,7 @@ place: Blegdamsvej 104A, 2. sal
 time: 17.00-19.00
 community-free: true
 billetto-nr: 611228
+attend_mes: Tilmelding kommer snart...
 ---
 Foto af [Andreas Bergmann](https://andreasbergmann.dk/)
 #### Mere info kommer snart...
