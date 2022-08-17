@@ -38,7 +38,6 @@ opbygning-liste:
 description: Tag med på en opdagelsesrejse, hvor vi sammen udforsker ledelseskunsten
   og finder ind til de vigtigste værdier i det at lede sig selv og fællesskabet.
 price: 30.000,- ekskl. moms (heri er inkluderet fuld forplejning, materialer og rejse)
-pdf: "https://www.copenhagencoaching.dk/pdfs/ledelseskursus-på-lesbos-2022.pdf"
 event-title: Kommende rejser
 adgangskrav: Der er ingen nuværende adgangskrav
 location: Kurset foregår på Lesbos
