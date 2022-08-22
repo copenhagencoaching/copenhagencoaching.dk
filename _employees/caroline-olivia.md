@@ -1,5 +1,5 @@
 ---
-order: 10
+order: 11
 title: Caroline Olivia
 call: 27 63 77 08
 description: IT supporter og webudvikler

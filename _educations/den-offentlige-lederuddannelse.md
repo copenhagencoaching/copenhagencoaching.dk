@@ -25,7 +25,7 @@ overblik:
   - "Generelt er vores undervisning på Den Offentlige Lederuddannelse bygget op om forskellige læringsaktiviteter, der har til formål at udvikle din måde at tænke, være og lære på. Læringen bygger på dine erfaringer og oplevelser fra din organisation. Derfor gennemføres modulet ud fra den læringsforståelse, at du bedst tilegner dig viden, færdigheder og kompetencer ved at reflektere over teori i forhold til din praksis. Her udfordres du på dine erfaringer, begreber og forestillinger om ledelse og organisation."
   - "Endvidere søger undervisningen at blotlægge og reflektere over de teorier om praksis, der ligger bag dine handlinger, relationer og iagttagelser af verden. Din læreproces er derfor fokuseret på opgaver og løsninger, hvor underviseren er facilitator for læreprocessen."
   - "Vi fokuserer altid på, hvad der virker i praksis. Derfor har vi valgt ikke at følge én bestemt teoretisk tilgang. Vi ønsker, at du kritisk skal blive i stand til selv at vælge mellem de mest anvendte teorier på området. Vi kalder vores tilgang for det eklektiske princip. Ligeledes understøtter vi kritiske drøftelser af de forskellige teorier og metoder i forhold til deres videnskabsteoretiske ståsted, deres forklaringskraft og deres handlingsanvisende potentiale rettet mod din konkrete praksis."
-price: 'Proceslederuddannelsen: 27.500 kr incl. Forplejning, overnatning mellem 7 og 8 november, litteratur, BIG FIVE test og to individuelle coachinger med en certificeret coach fra Copenhagen Coaching Center'
+price: 'Prisen for Ledelse og Coaching er 8.600,- (Ekskl. moms)<br>Prisen for Ledelse og Filosofi er 8.600,- (Ekskl. moms)<br>Proceslederuddannelsen: 27.500,- (Ekskl. moms) inkl. Forplejning, overnatning mellem 7 og 8 november, litteratur, BIG FIVE test og to individuelle coachinger med en certificeret coach fra Copenhagen Coaching Center'
 kort: true
 kort-kode: '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d8980.411292653132!2d12.5359398!3d55.756716!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x18925c9493275165!2sGentofte%20B%C3%B8rnevenner!5e0!3m2!1sda!2sdk!4v1656071445879!5m2!1sda!2sdk" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'
 event-title: Vi starter løbende hold op - ring og hør nærmere
@@ -64,42 +64,57 @@ lists:
 hold:
 - title: Ledelse og coaching - Efterår 2022
   price: 8.600 ekskl. moms
-  dates: 30. august - 27. september
+  dates: 20. september - 28. oktober
   modules:
-  - date: 30. august
-    day: 1
-    time: "08:30 - 15:30"
-    name: "-"
-    place: København
   - date: 20. september
-    day: 2
-    time: "08:30 - 15:30"
-    name: "-"
-    place: København
+    day: 1
+    time: "08:30 - 15:00"
+    name: "Undervisning"
+    place: Gentofte
   - date: 27. september
+    day: 2
+    time: "08:30 - 15:00"
+    name: "Undervisning"
+    place: Gentofte
+  - date: 11. oktober
     day: 3
-    time: "08:30 - 15:30"
-    name: "-"
-    place: København
+    time: "08:30 - 15:00"
+    name: "Undervisning"
+    place: Gentofte
+  - date: 27. oktober
+    day: 4
+    time: "08:30 - 15:00"
+    name: "Eksamen"
+    place: Gentofte
+  - date: 28. oktober
+    day: 5
+    time: "08:30 - 15:00"
+    name: "Eksamen"
+    place: Gentofte
 - title: Ledelse og filosofi - Efterår 2022
   price: 8.600 ekskl. moms
-  dates: 27. oktober - 10. november
+  dates: 2. november - 7. december
   modules:
-  - date: 27. oktober
-    day: 1
-    time: "08:30 - 15:30"
-    name: "-"
-    place: København
   - date: 2. november
-    day: 2
-    time: "08:30 - 15:30"
-    name: "-"
-    place: København
+    day: 1
+    time: "8:30 – 15.00"
+    name: "Undervisning"
+    place: Gentofte
   - date: 10. november
+    day: 2
+    time: "8:30 – 15.00"
+    name: "Undervisning"
+    place: Gentofte
+  - date: 23. november
     day: 3
-    time: "08:30 - 15:30"
-    name: "-"
-    place: København
+    time: "8:30 – 15.00"
+    name: "Undervisning"
+    place: Gentofte
+  - date: 7. december
+    day: 4
+    time: "8:30 – 15.00"
+    name: "Eksamen"
+    place: Gentofte
 - title: Proceslederuddannelsen - Efterår 2022
   price: 27.500 ekskl. moms
   dates: 7. november - 16. december

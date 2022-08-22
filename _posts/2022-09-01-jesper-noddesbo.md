@@ -12,7 +12,7 @@ tags:
 layout: event-new
 price: 279,-
 only-month: false
-billetto: false
+billetto: true
 image-2: /images/events/foredrag.png
 ex-moms: true
 prime-color: army-green
@@ -20,8 +20,7 @@ secondary-color: scandy-blue
 place: Blegdamsvej 104A, 2. sal
 time: 17.00-19.00
 community-free: true
-billetto-nr: 611228
-attend_mes: Tilmelding foregår via mail på info@copenhagencoaching.dk
+billetto-nr: 682096
 ---
 **Jesper Nøddesbo** sagde for et par år siden farvel til en lang karriere som håndboldspiller. Han har stort set vundet alt, hvad man kan vinde som håndboldspiller, lige fra nationale mesterskaber, europamesterskaber og guld ved de olympiske lege. Dét, at toppræstere og leve under et massivt forventningspres både indefra og fra omverdenen har været hverdag gennem rigtig mange år. For mange eliteidrætsfolk er overgangen mellem en aktiv sportskarriere og til et arbejdsliv udenfor sporten en vanskelig overgang. For Jesper blev mødet med den filosofisk/psykologiske tilgang til coaching hos Copenhagen Coaching Center nøglen til både en ny arbejdsmæssig identitet og et nyt job. I dag er Jesper nemlig ansat som konsulent og coach i Copenhagen Coaching Center.
 
@@ -31,4 +30,4 @@ På det kommende community arrangement vil Jesper fortælle om sit livsdefineren
 
 Andreas Bering, Direktør og Partner i Copenhagen Coaching Center coacher Jesper Nøddesbo med udgangspunkt i den filosofiske og psykologiske tilgang.
 
-Foredraget er gratis for CCC Community medlemmer og tilmelding skal ske via mail på info@copenhagencoaching.dk.
+Foredraget er gratis for CCC Community medlemmer. Du kan tilmelde dig via knappen til højre.

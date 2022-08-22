@@ -1,6 +1,6 @@
 ---
 title: Lars Nyborg
-order: 7
+order: 8
 meta-title: Lars Nyborg - Mød medarbejderne hos CCC her
 image: /images/about/employees/lars-big-white.png
 portrait-image: "/images/about/employees/lars-big-white.png"

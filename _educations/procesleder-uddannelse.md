@@ -1,6 +1,6 @@
 ---
-title: Proceslederuddannelse online
-header: Procesleder-uddannelse online
+title: Proceslederuddannelse
+header: Procesleder-uddannelse
 description: Med en proceslederuddannelse fra CCC får du markedets stærkeste uddannelse i at planlægge, styre og fastholde processer. Uddannelsen henvender sig til ledere, konsulenter og medarbejdere, som har ansvar for og håndterer processer og forandringer i organisationen, internt eller eksternt.
 meta-title: Procesledelse - Tag proceslederuddannelsen hos Copenhagen Coaching Center 
 meta-description: Med en proceslederuddannelse fra CCC får du markedets stærkeste uddannelse i at planlægge, styre og fastholde processer. Se hvordan du bliver procesleder her.
@@ -48,7 +48,7 @@ overblik:
 - overskrift: Virksomhedens udvikling
   paragrafer:
   - "Den høje grad af uforudsigelighed, samt krav om konstant forandringer, omorganiseringer, økonomiske udfordringer m.v. skaber behov for professionel procesledelse. Ønsker om medinddragelse og samskabelse som en del af virksomhedens kultur, drift og udvikling kalder ligeledes på et højt niveau af procesledelse. God procesledelse kræver evner til at styre, rumme og stimulere menneskelig og faglig mangfoldighed i retning af fælles udvikling og mål."
-price: '27.500 kr incl. Forplejning, overnatning mellem 7 og 8 november, litteratur, BIG FIVE test og to individuelle coachinger med en certificeret coach fra Copenhagen Coaching Center'
+price: '27.500,- (Ekskl. moms) inkl. Forplejning, overnatning mellem 7 og 8 november, litteratur, BIG FIVE test og to individuelle coachinger med en certificeret coach fra Copenhagen Coaching Center'
 hold:
 - title: Proceslederuddannelsen - Efterår 2022
   price: 27.500 ekskl. moms
@@ -102,8 +102,9 @@ special: false
 kort: true
 kort-kode: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2248.539012921064!2d12.571144951594782!3d55.6970020036662!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465252fc41468a33%3A0x721ebe721a5ba062!2sBlegdamsvej%20104C%2C%202100%20K%C3%B8benhavn!5e0!3m2!1sda!2sdk!4v1652082586059!5m2!1sda!2sdk" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'
 undervisere:
+- Andreas Bering
 - Ghita Vejlebo
-- Camilla Ingwersen
+- Line Arnmark
 published: true
 lists:
 - liste-paragraf: "Med proceslederuddannelsen bliver du bedre til:"
