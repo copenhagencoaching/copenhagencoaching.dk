@@ -81,14 +81,14 @@ hold:
     time: "08:30 - 15:00"
     name: "Undervisning"
     place: Gentofte
-  - date: 27. oktober
+  - date: 26. oktober
     day: 4
-    time: "08:30 - 15:00"
+    time: "09:00 - 15:30"
     name: "Eksamen"
     place: Gentofte
-  - date: 28. oktober
+  - date: 27. oktober
     day: 5
-    time: "08:30 - 15:00"
+    time: "09:00 - 15:30"
     name: "Eksamen"
     place: Gentofte
 - title: Ledelse og filosofi - Efterår 2022

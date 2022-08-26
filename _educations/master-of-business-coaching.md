@@ -336,12 +336,12 @@ hold:
   price: 45.900 (Ekskl. moms)
   dates: 25. januar - 1. juni
   modules:
-  - date: 25. december
+  - date: 25. Januar
     day: 1
     time: 09:30 - 16:00
     name: Coaching og syntesemodellen
     place: Blegdamsvej
-  - date: 26. december
+  - date: 26. Januar
     day: 2
     time: 09:30 - 16:00
     name: Kognitiv 1
