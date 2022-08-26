@@ -391,7 +391,7 @@ hold:
     time: 09:30 - 16:00
     name: Eksamen
     place: Blegdamsvej
-  - date: 1. juni
+  - date: 31. maj
     day: '-'
     time: 09:30 - 16:00
     name: Eksamen
@@ -484,7 +484,7 @@ hold:
     time: 17:00 - 20:00
     name: Træningsaften
     place: Blegdamsvej
-  - date: 19. - 21. juni
+  - date: 19. - 20. juni
     day: "-"
     time: 09:30 - 16:00
     name: Eksamen
