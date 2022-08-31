@@ -17,7 +17,7 @@ image-2: /images/events/foredrag.png
 ex-moms: true
 prime-color: army-green
 secondary-color: scandy-blue
-place: Blegdamsvej 104A, 2. sal
+place: Blegdamsvej 104D, 3. sal, 2100 København Ø
 time: 17.00-19.00
 community-free: true
 billetto-nr: 682096
