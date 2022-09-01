@@ -125,6 +125,10 @@ collections:
     permalink: /ousia/:title/
   pfp:
     output: false
+    permalink: /:title/
+  landings:
+    output: true
+    permalink: /:title/
 
 defaults:
   -
@@ -197,7 +201,11 @@ defaults:
       type: pfp
     values:
       layout: page
-
+  -
+    scope:
+      type: landings
+    values:
+      layout: landing
 
 
 
