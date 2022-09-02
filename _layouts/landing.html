@@ -2,10 +2,10 @@
 layout: default
 ---
 
-<div class="pt-3 pb-3">
+<div class="pt-3">
 
     <div class="pt-5"></div>
-    <div class="container-fluid py-5">
+    <div class="container-fluid pt-5">
         <div class="small-container">
             <div class="row pt-5 gx-5 gy-3">
                 <div class="col-12">
@@ -13,14 +13,20 @@ layout: default
 
                 </div>
                 <div class="col-12 text-justify">
-                    {{ page.content }}
+                    <div class="pt-4 pb-5">
+                        <h2>{{ page.header }}</h2>
+                        {% for p in page.paragraphs %}
+                        <p>{{ p }}</p>
+                        {% endfor %}
+                    </div>
                 </div>
+
+
             </div>
         </div>
     </div>
 
 </div>
-
 <div class="bg-platinum">
     <div class="container-fluid py-5">
         <div class="small-container">
@@ -39,6 +45,19 @@ layout: default
         </div>
     </div>
 </div>
+<div class="container-fluid py-5">
+    <div class="small-container">
+        <div class="row py-5 gx-5 gy-3">
+
+
+            <div class="col-12 text-justify">
+                {{ page.content }}
+            </div>
+        </div>
+    </div>
+</div>
+
+
 
 
 {% include sections/newsletter.html %}

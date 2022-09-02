@@ -1,18 +1,14 @@
 ---
 title: Coachinguddannelse
 meta-title: Coachingkursus og coachuddannelse
-meta-description: På en coachinguddannelse får du teoretisk viden og målrettet træning i at coache. Du lærer at facilitere en udviklende samtale med en klient eller et team. I løbet af en coachinguddannelse vil du desuden selv være hovedpersonen i en lang række coachende samtaler. Derfor vil uddannelsen også forandre dig personligt og professionelt. 
+meta-description: På en coachinguddannelse får du teoretisk viden og målrettet træning i at coache. Du lærer at facilitere en udviklende samtale med en klient eller et team. I løbet af en coachinguddannelse vil du desuden selv være hovedpersonen i en lang række coachende samtaler. Derfor vil uddannelsen også forandre dig personligt og professionelt.
+header: Coachinguddannelse
+paragraphs:
+- På en coachinguddannelse får du teoretisk viden og målrettet træning i at coache. Du lærer at facilitere en udviklende samtale med en klient eller et team. I løbet af en coachinguddannelse vil du desuden selv være hovedpersonen i en lang række coachende samtaler. Derfor vil uddannelsen også forandre dig personligt og professionelt.
+- Som færdiguddannet business-coach er du rustet til at stå myndigt og støttende i mange former for professionelle samtaler. Det kan være procesmøder, medarbejderudvikling, konflikt- og krisehåndtering eller topledercoaching.
+- Som life-coach kan du støtte mennesker med at formulere og realisere personlige og private mål.
+- På Copenhagen Coaching Center kan vi uddanne dig i begge retninger. Du er derfor kommet til det helt rigtige sted, hvis du leder efter en coachinguddannelse.
 ---
-
-## Coachinguddannelse
-
-På en coachinguddannelse får du teoretisk viden og målrettet træning i at coache. Du lærer at facilitere en udviklende samtale med en klient eller et team. I løbet af en coachinguddannelse vil du desuden selv være hovedpersonen i en lang række coachende samtaler. Derfor vil uddannelsen også forandre dig personligt og professionelt.
-
-Som færdiguddannet business-coach er du rustet til at stå myndigt og støttende i mange former for professionelle samtaler. Det kan være procesmøder, medarbejderudvikling, konflikt- og krisehåndtering eller topledercoaching.
-
-Som life-coach kan du støtte mennesker med at formulere og realisere personlige og private mål.
-
-På Copenhagen Coaching Center kan vi uddanne dig i begge retninger. Du er derfor kommet til det helt rigtige sted, hvis du leder efter en coachinguddannelse.
 
 ### Coaching - hvad er det?
 
