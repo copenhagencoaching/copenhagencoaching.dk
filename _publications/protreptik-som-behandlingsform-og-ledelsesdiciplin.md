@@ -1,11 +1,11 @@
 ---
 title: Protreptik som behandlingsform og ledelsesdiciplin
-price: '-'
-image: /images/ousia/book-placeholder.png
+price: '299,00'
+image: /images/ousia/Protreptik_som_behandlingsform_og_ledelsesdisciplin.jpeg
 layout: ousia
 post-title: En antologi
-e-price: '-'
-link: https://www.bod.dk/bogshop/syntesemodellen-9788743038115
+e-price: '179,00'
+link: https://www.bod.dk/bogshop/protreptik-som-behandlingsform-og-ledelsesdisciplin-9788743045861
 ---
 Bogens bidrag rummer en lang række spændende eksempler fra vores nuværende og tidligere studerende omkring brugen af den protreptiske samtaleform i bred forstand i sociale virksomheder.
 

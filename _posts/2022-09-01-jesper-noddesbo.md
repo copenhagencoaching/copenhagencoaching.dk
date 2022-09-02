@@ -13,6 +13,7 @@ layout: event-new
 price: 279,-
 only-month: false
 billetto: true
+past: true
 image-2: /images/events/foredrag.png
 ex-moms: true
 prime-color: army-green

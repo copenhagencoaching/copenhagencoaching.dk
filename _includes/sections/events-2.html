@@ -2,7 +2,9 @@
     <div class="container-fluid py-5">
         <div class="row gx-5 gy-5">
          {% assign ordered_events = site.tags.act_event | sort: date %}  
-            {% for event in ordered_events limit:3 %}
+            {% for event in ordered_events %}
+            {% if event.past == true %}
+            {% else %}
             <div class="col-12 col-lg-4">
                 <div class="card box-shadow h-100">
                     <img src="{{ event.image }}" class="card-img-top" alt="...">
@@ -58,6 +60,7 @@
                       </div>
                   </div>
             </div>
+           {% endif %}
             {% endfor %}
         </div>
     </div>
