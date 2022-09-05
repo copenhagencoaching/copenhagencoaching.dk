@@ -1,0 +1,103 @@
+<div class="bg-black-coral">
+    <div class="container-fluid py-5">
+
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <h2 class="text-white text-center">Bliv ven af huset</h2>
+                <div class="my-3 text-center">
+    
+    
+                    <a class="text-white text-center me-3" data-proofer-ignore
+                        href="https://www.facebook.com/copenhagencoachingdk-169785200063933/" target="_blank"><img
+                            src="/images/graphic/facebook.png" width="30" height="30" alt=""></a>
+                    <a class="text-white text-center me-3" data-proofer-ignore
+                        href="https://www.linkedin.com/company/copenhagen-coaching-center" target="_blank"
+                        data-proofer-ignore><img src="/images/graphic/linkedin-2.png" width="30" height="30" alt=""></a>
+                    <a class="text-white text-center" data-proofer-ignore
+                        href="https://www.instagram.com/copenhagencoachingcenter/" target="_blank"><img
+                            src="/images/graphic/instagram.png" width="30" height="30" alt=""></a>
+    
+                </div>
+                <div class="max-w-700 mx-auto">
+                    <p class="fs-6 mb-0 text-center text-white">Modtag information og tilbud om vores kommende uddannelser,
+                        kurser og events, samt andre inspirerende
+                        nyheder fra CCC.</p>
+                </div>
+    
+                <form id="newsletter-form-1" action="https://formspree.io/f/xlezwlkg" method="POST">
+                    <div class="row mt-3 gy-md-0 gy-3" id="ns-inner-form">
+                        <div class="col-md-4 col-12">
+                            <input type="text" class="form-control" placeholder="Navn" aria-label="Navn" name="name"
+                                required>
+                        </div>
+    
+                        <div class="col-md-4 col-12">
+                            <input type="text" class="form-control" placeholder="E-mail" aria-label="Email" name="email"
+                                required>
+                        </div>
+    
+                        <div class="col-md-4 col-12">
+                            <button class="btn btn-opal w-100 my-0">Tilmeld</button>
+                        </div>
+                        <div class="col-6 text-center d-flex justify-items-end justify-content-end pt-4">
+                            <div class="g-recaptcha" data-sitekey="6Lfi__EcAAAAABOscNdrKzqeLNu2vbuTM_5VlANy"></div>
+                            <!-- replace with your recaptcha SITE key not secret key -->
+                            <br />
+                        </div>
+                        <div class="col-6 pt-4 d-flex align-content-center align-items-center">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input mt-1" type="checkbox" name="_optin" id="gridCheck" required>
+                                <label class="form-check-label text-white" for="gridCheck">
+                                    Jeg giver hermed samtykke til at CCC må overøføre mine angivede oplysninger til
+                                    Mailchimp.
+                                </label>
+                            </div>
+                        </div>
+    
+    
+                    </div>
+                    <p id="newsletter-mes" class="text-white mt-3 bg-xanadu p-2 d-none text-center"></p>
+                </form>
+        
+    
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script>
+    var form = document.getElementById("newsletter-form-1");
+    var inner_form = document.getElementById("ns-inner-form");
+
+    async function handleSubmit(event) {
+        event.preventDefault();
+        var status = document.getElementById("newsletter-mes");
+        var data = new FormData(event.target);
+        fetch(event.target.action, {
+            method: form.method,
+            body: data,
+            headers: {
+                'Accept': 'application/json'
+            }
+        }).then(response => {
+            if (response.ok) {
+                status.innerHTML = "Tak for din tilmelding til vores nyhedsbrev. Du vil snarrest modtage en e-mail med link til bekræftelse af din tilmelding.";
+                inner_form.className = "d-none"
+                status.classList.remove("d-none")
+                form.reset()
+            } else {
+                response.json().then(data => {
+                    if (Object.hasOwn(data, 'errors')) {
+                        status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+                    } else {
+                        status.innerHTML = "Oops! There was a problem submitting your form"
+                    }
+                })
+            }
+        }).catch(error => {
+            status.innerHTML = "Oops! There was a problem submitting your form"
+        });
+    }
+    form.addEventListener("submit", handleSubmit)
+</script>

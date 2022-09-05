@@ -52,7 +52,7 @@ description: >-
   behov.
 price: '58.900 ekskl. moms'
 small-price: '58.900 ekskl. moms'
-pdf: /pdfs/Individuel protreptisk akkreditering - 2022.pdf
+pdf: https://www.copenhagencoaching.dk/pdfs/Individuel protreptisk akkreditering - 2022.pdf
 undervisere:
 - Andreas Bering
 - Mette Mejlhede

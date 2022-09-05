@@ -25,7 +25,7 @@ layout: default
         <div>
             <div class="row gx-2 gy-2 justify-content-center">
                 <div class="col-4 col-md">
-                    <a class="color-base" href="#overblik">
+                    <a class="color-base tab-links" href="#overblik">
                         <div class="bg-cadet-gray w-100 text-center py-2">
                             <p class="mb-0 fs-6 text-white">Overblik</p>
                         </div>
@@ -33,7 +33,7 @@ layout: default
                 </div>
                 {% if page.opbygning == true %}
                 <div class="col-4 col-md">
-                    <a class="color-base" href="#opbygning">
+                    <a class="color-base tab-links" href="#opbygning">
                         <div class="bg-cadet-gray w-100 text-center py-2">
                             <p class="mb-0 fs-6 text-white">Opbygning</p>
                         </div>
@@ -44,7 +44,7 @@ layout: default
 
                 {% if page.deltagerprofil == true %}
                 <div class="col-4 col-md">
-                    <a class="color-base" href="#deltagerprofil">
+                    <a class="color-base tab-links" href="#deltagerprofil">
                         <div class="bg-cadet-gray w-100 text-center py-2">
                             <p class="mb-0 fs-6 text-white">Deltagerprofil</p>
                         </div>
@@ -55,7 +55,7 @@ layout: default
 
                 {% if page.anbefalinger == true %}
                 <div class="col-4 col-md">
-                    <a class="color-base" href="#anbefalinger">
+                    <a class="color-base tab-links" href="#anbefalinger">
                         <div class="bg-cadet-gray w-100 text-center py-2">
                             <p class="mb-0 fs-6 text-white">Anbefalinger</p>
                         </div>
@@ -66,7 +66,7 @@ layout: default
 
 
                 <div class="col-4 col-md">
-                    <a class="color-base" href="#undervisere">
+                    <a class="color-base tab-links" href="#undervisere">
                         <div class="bg-cadet-gray w-100 text-center py-2">
                             <p class="mb-0 fs-6 text-white">Undervisere</p>
                         </div>
@@ -74,7 +74,7 @@ layout: default
                 </div>
 
                 <div class="col-4 col-md">
-                    <a class="color-base" href="#praktisk">
+                    <a class="color-base tab-links" href="#praktisk">
                         <div class="bg-cadet-gray w-100 text-center py-2">
                             <p class="mb-0 fs-6 text-white">Praktisk</p>
                         </div>
@@ -82,7 +82,7 @@ layout: default
                 </div>
 
                 <div class="col-4 col-md">
-                    <a class="color-base" href="#ansog">
+                    <a class="color-base tab-links" href="#ansog">
                         <div class="bg-cadet-gray w-100 text-center py-2">
                             <p class="mb-0 fs-6 text-white">Ansøg</p>
                         </div>
@@ -102,11 +102,7 @@ layout: default
     <div class="small-container">
         <div id="overblik" class="anchor-delay"></div>
         <div class="row g-5">
-            <div class="col-12 col-md-6 img-md-200">
-                <div class="h-100"
-                    style="background-image: url('{{ page.image-2 }}'); background-position: top; background-size: cover;">
-                </div>
-            </div>
+            
             <div class="col-12 col-md-6">
                 {% for text in page.overblik limit:1 %}
                 <h4 class="text-uppercase">{{ text.overskrift }}</h4>
@@ -114,6 +110,11 @@ layout: default
                 <p class="text-justify">{{ p }}</p>
                 {% endfor %}
                 {% endfor %}
+            </div>
+            <div class="col-12 col-md-6 img-md-200">
+                <div class="h-100"
+                    style="background-image: url('{{ page.image-2 }}'); background-position: top; background-size: cover;">
+                </div>
             </div>
             {% if page.lists %}
             <div class="col-12 col-md-6">

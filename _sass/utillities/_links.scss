@@ -111,3 +111,11 @@ a.underlined {
         border-bottom: 2px solid #ffffff;
       }
   }
+
+  .tab-links {
+    opacity: .8;
+
+    &:hover {
+        opacity: 1;
+    }
+  } 
