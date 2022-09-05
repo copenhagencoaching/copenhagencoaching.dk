@@ -33,15 +33,20 @@ layout: default
     <div class="container-fluid py-5">
         <div class="small-container">
             <div class="row pt-5 pb-3 gx-5 gy-4">
-                {% assign newcars = site.educations | where: "kategori", "samtaler" %}
-                {% for edu in newcars %}
+             
+                {% for ed in site.educations %}
+                {% for edu in page.edus %}
+                {% if ed.title == edu %}
+                
                 <div class="col-12 col-md-6">
-                    <a href="{{ edu.url }}">
-                        <img src="{{ edu.image-2 }}" alt="" class="object-fit h-150px w-100">
-                        <h3 class="text-uppercase mt-3">{{ edu.title }}</h3>
-                        <p>{{ edu.meta-description }}</p>
+                    <a href="{{ ed.url }}">
+                        <img src="{{ ed.image-2 }}" alt="" class="object-fit h-150px w-100">
+                        <h3 class="text-uppercase mt-3">{{ ed.title }}</h3>
+                        <p>{{ ed.meta-description }}</p>
                     </a>
                 </div>
+                {% endif %}
+                {% endfor %}
                 {% endfor %}
             </div>
         </div>
