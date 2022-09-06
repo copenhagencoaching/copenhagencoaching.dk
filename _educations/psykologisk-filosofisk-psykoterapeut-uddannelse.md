@@ -6,6 +6,38 @@ kategori: samtaler
 special: false
 meta-title: Psykoterapeut uddannelse - Bliv uddannet til psykoterapeut hos CCC
 meta-description: Få et dybere, højere og bredere beredskab med vores psykoterapeut uddannelse, der klæder dig på til at varetage de svære samtaler - psykologisk og filosofisk. Læs mere her.
+aktive-hold: true
+kursus-oversigt: true
+hold:
+- title: År 1 - Start forår 2023
+  price: 162.000 (Ekskl. moms)
+  dates: 23. februar - 2. december
+  modules:
+  - date: 23. - 24. februar
+    day: "-"
+    time: "-"
+    name: Internat
+    place: "-"
+  - date: 13. - 15. april
+    day: "-"
+    time: "-"
+    name: Modul 1
+    place: "-"
+  - date: 8. - 10. juni
+    day: "-"
+    time: "-"
+    name: Modul 2
+    place: "-"
+  - date: 21. - 23. september
+    day: "-"
+    time: "-"
+    name: Modul 3
+    place: "-"
+  - date: 2. - 4. november
+    day: "-"
+    time: "-"
+    name: Modul 4
+    place: "-"
 image-2: /images/pfp/11.jpg
 image: /images/educations/psykologisk-filosofisk-psykoterapi.jpg
 layout: course
@@ -19,7 +51,7 @@ profil:
   - Der hvor denne uddannelse i særdeleshed udmærker sig, er ved at bringe filosofien ind som en ligeværdig partner til psykologien i en terapeutisk sammenhæng. Konkret kan man argumentere for, at filosofien lader klienterne tale rundt om en given episode på en måde, der tillader, at de kun føler det, de kan rumme, uden en direkte konfrontation med en dertil følelse af skam, skyld og mindreværd.
   - Erfaringen med filosofien er blandt andet, at den ”giver lov” til at arbejde med underliggende dybe ubevidste lag, uden at man bliver fanget ind i de mere personlighedspsykologiske forsvarsmekanismer. Mulighederne for menneskelig udvikling og healing af dybe sår har optimale muligheder ved denne terapeutiske kombination.
 opbygning-liste:
-- overskrift: "Som MBC studerende får du:"
+- overskrift: "Som studerende får du:"
   lis:
   - Adgang til vidensportal, værktøjer, faglitteratur, artikler og cases
   - Løbende supervision og et stærkt netværk

@@ -1,9 +1,8 @@
 ---
-title: Coachinguddannelse
-published: false
+title: Rekkrutering
 meta-title: Coachingkursus og coachuddannelse
 meta-description: På en coachinguddannelse får du teoretisk viden og målrettet træning i at coache. Du lærer at facilitere en udviklende samtale med en klient eller et team. I løbet af en coachinguddannelse vil du desuden selv være hovedpersonen i en lang række coachende samtaler. Derfor vil uddannelsen også forandre dig personligt og professionelt.
-header: Coachinguddannelse
+header: Rekkrutering
 paragraphs:
 - På en coachinguddannelse får du teoretisk viden og målrettet træning i at coache. Du lærer at facilitere en udviklende samtale med en klient eller et team. I løbet af en coachinguddannelse vil du desuden selv være hovedpersonen i en lang række coachende samtaler. Derfor vil uddannelsen også forandre dig personligt og professionelt.
 - Som færdiguddannet business-coach er du rustet til at stå myndigt og støttende i mange former for professionelle samtaler. Det kan være procesmøder, medarbejderudvikling, konflikt- og krisehåndtering eller topledercoaching.
