@@ -15,7 +15,7 @@ layout: default
 
                 </div>
                 <div class="col-12 text-justify">
-                    <div class="pt-4 pb-5">
+                    <div class="pt-4">
                         <h2>{{ page.header }}</h2>
                         {% for p in page.paragraphs %}
                         <p>{{ p }}</p>
@@ -29,6 +29,45 @@ layout: default
     </div>
 
 </div>
+{% if page.box-position == "top" %}
+<div class="bg-platinum my-5">
+    <div class="container-fluid py-5">
+        <div class="small-container">
+            <div class="row pt-5 pb-3 gx-5 gy-4">
+             
+                {% for ed in site.educations %}
+                {% for edu in page.edus %}
+                {% if ed.title == edu %}
+                
+                <div class="col-12 col-md-6">
+                    <a href="{{ ed.url }}">
+                        <img src="{{ ed.image-2 }}" alt="" class="object-fit h-150px w-100">
+                        <h3 class="text-uppercase mt-3">{{ ed.title }}</h3>
+                        <p>{{ ed.meta-description }}</p>
+                    </a>
+                </div>
+                {% endif %}
+                {% endfor %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endif %}
+<div class="container-fluid pb-5">
+    <div class="small-container">
+        <div class="row pb-5 gx-5 gy-3">
+
+
+            <div class="col-12 text-justify">
+                {{ page.content }}
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{% if page.box-position == "bottom" %}
 <div class="bg-platinum">
     <div class="container-fluid py-5">
         <div class="small-container">
@@ -52,20 +91,7 @@ layout: default
         </div>
     </div>
 </div>
-<div class="container-fluid py-5">
-    <div class="small-container">
-        <div class="row py-5 gx-5 gy-3">
-
-
-            <div class="col-12 text-justify">
-                {{ page.content }}
-            </div>
-        </div>
-    </div>
-</div>
-
-
-
+{% endif %}
 
 {% include sections/newsletter.html %}
 {% include sections/inpiration.html %}

@@ -14,6 +14,7 @@ edus:
 - Individuel protreptisk akkreditering
 - Psykologisk filosofisk psykoterapeut-uddannelse
 - Ledelseskursus på Lesbos
+box-position: top
 ---
 
 ### Coaching - hvad er det?

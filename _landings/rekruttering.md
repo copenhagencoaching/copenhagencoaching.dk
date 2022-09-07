@@ -1,6 +1,6 @@
 ---
-title: Rekkrutering
-meta-title: Rekkrutering
+title: Rekruttering
+meta-title: Rekruttering
 meta-description: I Copenhagen Coaching Center arbejder vi med alle dele af rekrutterings-værdikæden fra start til slut. Vi rådgiver og understøtter jeres organisation i både den strategiske del af processen og i den praktiske gennemførsel. Vi tilbyder både de mere traditionelle rekrutteringsredskaber, såsom test og støtte til ansættelsesprocessen, og en række helt nye tilgange til at skabe interesse, systematisere ansættelsesprocessen, udvikle talenter og styrke organisationens attraktive status. 
 header: Rekkrutering
 paragraphs:
@@ -8,6 +8,9 @@ paragraphs:
 edus:
 - Certificering i Big Five Online
 image: /images/landingpages/rekkrutering.png
+redirect_from:
+  - /rekkrutering
+box-position: bottom
 ---
 
 ### Hvorfor skal I som organisation vælge et samarbejde med Copenhagen Coaching Center om jeres rekrutteringsproces
