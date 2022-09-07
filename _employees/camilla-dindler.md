@@ -1,5 +1,5 @@
 ---
-order: 7
+order: 6
 title: Camilla Dindler
 image: /images/about/employees/camilla-d-big-white.png
 portrait-image: "/images/about/employees/camilla-d-big-white.png"
@@ -11,7 +11,7 @@ email: cd@copenhagencoaching.dk
 consulent: true
 on-om-os: true
 mbc: true
-description: Konsulent
+description: Seniorkonsulent
 linkedin: https://www.linkedin.com/in/camilladindler/
 data-id: ''
 edu:

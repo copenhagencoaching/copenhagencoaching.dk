@@ -1,5 +1,5 @@
 ---
-order: 6
+order: 7
 title: Jesper Nøddesbo
 portrait-image: /images/about/employees/jesper-nøddesbo.png
 small-portrait-image: /images/about/employees/jesper-nøddesbo.png

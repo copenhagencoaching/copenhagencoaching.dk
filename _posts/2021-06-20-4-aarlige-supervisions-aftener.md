@@ -8,6 +8,7 @@ tags:
 - event
 ready: true
 order: 3
+published: false
 layout: sub-event
 place: Blegdamsvej 104 A, 2100 København Ø
 community: CCC Community arrangement
