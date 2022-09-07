@@ -8,6 +8,7 @@ paragraphs:
 - Som færdiguddannet business-coach er du rustet til at stå myndigt og støttende i mange former for professionelle samtaler. Det kan være procesmøder, medarbejderudvikling, konflikt- og krisehåndtering eller topledercoaching.
 - Som life-coach kan du støtte mennesker med at formulere og realisere personlige og private mål.
 - På Copenhagen Coaching Center kan vi uddanne dig i begge retninger. Du er derfor kommet til det helt rigtige sted, hvis du leder efter en coachinguddannelse.
+image: /images/graphic/coaching-1.png
 edus:
 - Master of Business Coaching
 - Individuel protreptisk akkreditering
