@@ -1,28 +1,30 @@
 ---
-title: Informationsmøde DOL - Proceslederuddannelsen
+title: Informationsmøde - Proceslederuddannelsen
 event-type: Informationsmøde
-image: /images/events/tor-2.png
-subtitle: Foredrag
-description: Kom med til online informationsmøde omkring 
+image: /images/events/mode.png
+subtitle: Informationsmøde
+description: Kom med til online informationsmøde omkring Proceslederuddannelsen
 category: event
 tags:
 - event
-- foredrag
+- infomøde
 - act_event
 layout: event-new
 only-month: false
-price: "-"
+price: "Gratis"
 billetto: false
 image-2: /images/events/foredrag.png
 ex-moms: true
 prime-color: army-green
 secondary-color: scandy-blue
-place: Blegdamsvej 104A, 2. sal
-time: 17.00-19.00
-community-free: true
+place: Online
+time: 16:00 - 17:00
+link: true
+link-url: /academy/den-offentlige-lederuddannelse/#infomode
+community-free: false
 billetto-nr: 611228
-attend_mes: Tilmelding kommer snart...
+attend_mes:
 ---
-Foto af [Andreas Bergmann](https://andreasbergmann.dk/)
-#### Mere info kommer snart...
-{:.text-white}
+Kom til Informationsmøde om vores nye intensive og eksklusive Procesledelsesforløb.
+
+Forløbet varer 1,5 måned og består af to kompetencegivende moduler fra Den Offentlige Lederuddannelse. Proceslederuddannelsen giver dig et solidt fundament til at stå myndigt og dialogisk kompetent i de processer, som du skal lede. Med de to moduler vil du kunne mestre den sunde og veldesignede proces, der giver dit og organisationens arbejde retning og mening. Du vil kunne samle organisationen, når der er behov for det, og inspirere til den gode idé eller den ekstra indsats.

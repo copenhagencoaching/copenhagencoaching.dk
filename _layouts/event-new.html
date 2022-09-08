@@ -68,7 +68,7 @@ layout: default
             <p class="fw-bold text-uppercase fs-6">{{ page.place }}</p>
             {% if page.price %}
             <p class="mb-0 text-uppercase">Pris</p>
-            <p class="fw-bold text-uppercase fs-6">{{ page.price }} (Ekskl. moms)</p>
+            <p class="fw-bold text-uppercase fs-6">{{ page.price }}</p>
             {% endif %}
             {% if page.community-price %}
             <p class="mb-0 text-uppercase">Medlemspris</p>
@@ -96,6 +96,10 @@ layout: default
         {% else %}
         <p>{{ page.attend_mes }}</p>
         {% endif %}
+        {% endif %}
+        {% if page.link == true %}
+        <a class="btn btn-opal mt-2 text-uppercase fs-6 w-100 mb-3"
+          href="{{ page.link-url }}"><b>Tilmeld event</b></a>
         {% endif %}
         </div>
         <div class="mt-4 p-4 bg-opal">
