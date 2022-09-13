@@ -1,5 +1,5 @@
 ---
-order: 12
+order: 13
 title: Line Kokkegaard
 image: /images/graphic/placeholder-profile.png
 portrait-image: /images/graphic/placeholder-profile.png
@@ -13,7 +13,6 @@ mbc: false
 description: Praktikant
 linkedin: https://www.linkedin.com/in/line-k-b6bb231b1/
 data-id: ''
-edu:
 ---
 Line er praktikant fra Københavns Universitet, hvor hun går på bacheloruddannelsen i Pædagogik.
 
