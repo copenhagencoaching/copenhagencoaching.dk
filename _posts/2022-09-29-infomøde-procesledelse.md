@@ -3,7 +3,7 @@ title: Informationsmøde - Proceslederuddannelsen
 event-type: Informationsmøde
 image: /images/events/mode.png
 subtitle: Informationsmøde
-description: Kom med til online informationsmøde omkring Proceslederuddannelsen
+description: Uddannelsen varer halvanden måned og begynder 7. nov. Den består af to kompetencegivende moduler fra Den Offentlige Lederuddannelse.<br><br>Proceslederuddannelsen giver dig et solidt fundament til at stå myndigt og dialogisk kompetent i de processer, som du skal lede.
 category: event
 tags:
 - event
