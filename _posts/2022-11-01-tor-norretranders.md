@@ -1,9 +1,9 @@
 ---
-title: "Tor Nørretranders: Ud af ekkokammeret"
+title: "Foredrag med Tor Nørretranders: Ud af ekkokammeret"
 event-type: Foredrag
 image: /images/events/tor-2.png
 subtitle: Foredrag
-description: Tor Nørretranders inspirerer og udfordrer vores menneskesyn med sin samtænkning af biologiske erkendelser og det senmoderne menneskesyn. I stedet for at fjerne udfordringer på vores vej, skal vi måske ud af empatiens ekkokammer og i stedet øve os på medfølelse? Og måske kan vi lære af biologien og fysiologien, hvor forandring og variation skaber sunde sjæle i sunde legemer i et sundt samfund? Foto af Andreas Bergmann.
+description: "Tor Nørretranders inspirerer og udfordrer vores menneskesyn med sin samtænkning af biologiske erkendelser og det senmoderne menneskesyn. I stedet for at fjerne udfordringer på vores vej, skal vi måske ud af empatiens ekkokammer og i stedet øve os på medfølelse? Og måske kan vi lære af biologien og fysiologien, hvor forandring og variation skaber sunde sjæle i sunde legemer i et sundt samfund?<br> Foto: Andreas Bergmann."
 category: event
 tags:
 - event
@@ -32,12 +32,10 @@ Således lægger Tor Nørretranders op til en foredragseftermiddag på Copenhage
 
 Tor Nørretranders har skabt et imponerende faglitterært forfatterskab. På overraskende og original vis skærer han sig på tværs af videnskabelig viden og gør den vedkommende for vores levede liv.  
 
-Tor Nørretranders har blandt meget andet skrevet "Mærk verden", Det generøse menneske", "Menneskeføde", "Samfundsglæde" og "Vild verden". Han er aktuel med bogen "Karma corona", som med afsæt i pandemiernes tidsalder sætter fokus på naturens kår og bydende behov. 
+Tor Nørretranders har blandt meget andet skrevet "Mærk verden", "Det generøse menneske", "Menneskeføde", "Samfundsglæde" og "Vild verden". Han er aktuel med bogen "Karma corona", som med afsæt i pandemiernes tidsalder sætter fokus på naturens kår og bydende behov.
 
 Vi er derfor både stolte og forventningsfulde, når vi byder velkommen til en inspirerende eftermiddag med Tor Nørretranders i CCC's hyggelige lokaler. Alle er velkomne!  
 
 Foredraget varer cirka en time, hvorefter vi byder på drikkevarer og snacks samt muligheden for at tale med hinanden.
 
-Foto af [Andreas Bergmann](https://andreasbergmann.dk/)
-#### Mere info kommer snart...
-{:.text-white}
+Foto: [Andreas Bergmann](https://andreasbergmann.dk/)
