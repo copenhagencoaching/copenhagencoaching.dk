@@ -502,7 +502,7 @@ layout: default
             <div class="row g-5">
                 {% for underviser in page.undervisere %}
                 {% for employee in site.employees %}
-                {% if employee.title == underviser %}
+                {% if employee.title == underviser.name %}
                 <div class="col-12 col-lg-6">
 
                     <div class="d-flex align-items-center">
@@ -516,6 +516,9 @@ layout: default
 
                             <p class="text-white mb-1 fw-bold fs-5"><a href="{{ employee.url }}" data-proofer-ignore>{{
                                     employee.title }}</a><br></p>
+                                    {% if underviser.text %}
+                                    <p class="text-white">{{ underviser.text }}</p>
+                                    {% endif %}
 
                             {% for e in employee.edu limit: 2 %}
                             <p class="text-white {% if forloop.last != true %}mb-2{% endif %}">{{ e }}</p>

@@ -54,12 +54,12 @@ price: '58.900 ekskl. moms'
 small-price: '58.900 ekskl. moms'
 pdf: https://www.copenhagencoaching.dk/pdfs/Individuel protreptisk akkreditering - 2022.pdf
 undervisere:
-- Andreas Bering
-- Mette Mejlhede
-- Frederikke Winther
-- Camilla Ingwersen
-- Jesper Nøddesbo
-- Ghita Vejlebo
+- name: Andreas Bering
+- name: Mette Mejlhede
+- name: Frederikke Winther
+- name: Camilla Ingwersen
+- name: Jesper Nøddesbo
+- name: Ghita Vejlebo
 oe-order: 3
 cat:
 - filosofi

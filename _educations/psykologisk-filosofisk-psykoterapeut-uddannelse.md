@@ -80,11 +80,11 @@ overblik:
   - "<b>Noget er på engelsk:</b>
   Faglitteraturen er på dansk og engelsk. Det kan være en udfordring for nogen at læse engelske tekster, men vi forsøger at supplere med introduktioner på dansk og opfordrer også de studerende til at sparre med hinanden.s"
 undervisere:
-- Mette Mejlhede
-- Ghita Vejlebo
-- Frederikke Winther
-- Camilla Ingwersen
-- Jack Købke
+- name: Mette Mejlhede
+- name: Ghita Vejlebo
+- name: Frederikke Winther
+- name: Camilla Ingwersen
+- name: Jack Købke
 order: 2
 opbygning: true
 opbygning-text:

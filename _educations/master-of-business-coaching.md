@@ -90,11 +90,11 @@ lists:
 dage: 8
 hours: 52
 undervisere:
-- Mette Mejlhede
-- Andreas Bering
-- Frederikke Winther
-- Camilla Ingwersen
-- Jesper Nøddesbo
+- name: Mette Mejlhede
+- name: Andreas Bering
+- name: Frederikke Winther
+- name: Camilla Ingwersen
+- name: Jesper Nøddesbo
 pdf: "https://www.copenhagencoaching.dk/pdfs/MBC_folder_2022.pdf"
 emails:
 - ab@copenhagencoaching.dk

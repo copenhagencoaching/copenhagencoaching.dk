@@ -17,10 +17,10 @@ kursus-oversigt: true
 layout: course
 adgangskrav: Der er ingen adgangskrav
 undervisere:
-- Camilla Ingwersen
-- Ghita Vejlebo
-- Line Arnmark
-- Andreas Bering
+- name: Camilla Ingwersen
+- name: Ghita Vejlebo
+- name: Line Arnmark
+- name: Andreas Bering
 sub-header: Få ny indsigt - og større udsyn - i dit lederskab
 overblik:
 - overskrift: Lederens værktøjer
@@ -39,6 +39,12 @@ event-title: Vi starter løbende hold op - ring og hør nærmere
 galleri-overblik: true
 aktive-hold: true
 galleri:
+- image: "/images/educations/plu-table.png"
+  title: Proceslederuddannelsen
+  subtitle: Valgmodul, 10 ECTS
+  text:
+  - 'Proceslederuddannelsen er et særligt tilrettelagt og intensivt forløb, der består af to valgfag fra Diplomuddannelsen i Offentlig Ledelse (DOL). De to valgfag er Ledelse & Coaching og Ledelse af Forandrings- og Udviklingsprocesser. Det løber over knapt halvanden måned. Forløbet består af 1 internat/seminar, 3 online webinar á 3 timer, 1 dags undervisning, 1 hel gruppedag og to individuelle coachingsessioner. Herudover er deltagelse i to dages fælles eksamen med fokus på praktiske coachingfærdigheder, procesdesign og facilitering obligatorisk. Endvidere tilbydes alle deltagerne en BIG FIVE personlighedstest med en coachende tilbagemeldingssamtale. BIG FIVE er et af markedets bedst underbyggede personlighedstests til ledere.'
+  - 'Krav om konstant forandring, omorganisering, økonomisk pres m.v. skaber behov for professionel procesledelse. Proceslederuddannelsen giver dig et solidt fundament til at stå myndigt og dialogisk i ledelsesopgaven. Med de to moduler vil du kunne mestre den sunde og veldesignede proces, der giver dit og organisationens arbejde retning og mening. Du vil kunne samle organisationen, når der er behov for det, og inspirere til den gode idé eller den ekstra indsats. Du vil også blive klædt på til at se og forstå den enkelte medarbejders perspektiv i organisationen. Forventninger fra medarbejdere om medinddragelse og samskabelse som en del af virksomhedens kultur, drift og udvikling kalder dels på, at du har grundlæggende færdigheder i coaching og dels på, at du kan håndtere, forstå og vurdere de forskellige forandringer, der er til stede i organisationers liv, og som kalder på løbende tilpasninger og kursskifte. God procesledelse kræver evner til at styre, rumme og stimulere menneskelig og faglig mangfoldighed i retning af fælles udvikling og mål.'
 - image: /images/educations/dol-hjul.png
   title: Ledelse og coaching
   subtitle: Valgmodul, 5 ECTS
@@ -51,12 +57,6 @@ galleri:
   text:
   - 'Med ”Ledelse og Filosofi” får du viden om filosofiske teorier med henblik på at sætte ”de gode grunde” i spil i den offentlige organisation og du arbejder med hvordan etik og værdier kan anvendes som grundlag for at træffe beslutninger i din ledelsespraksis.'
   - 'Modulet fremstiller en række begreber om ledelsesfilosofi i forhold til den moderne ledelsesteorihistorie og det moderne arbejdsliv, som gør det tydeligt, hvorfor etik og moderne eksistensfilosofi er helt centralt indenfor offentlig ledelse. Gennem en lang række øvelser får du mulighed for at træne dine sproglige kompetencer gennem løbende at blive involveret i etiske og filosofiske samtaler med de andre på holdet. Via personligt og parvist arbejde med etiske cases fra egen ledelsesfunktion inviteres du ind i en vifte af forskellige filosofiske teorier, som sigter på at styrke den personlige etiske habitus og de konkrete etiske processer i den organisatoriske praksis. Med temaer som mening, ansvar, omsorg, relationer og retfærdighed ser vi i fællesskab på, hvordan etiske strategi og regnskabsprocesser fungerer, og hvorvidt disse tilfører ledere, medarbejdere og organisationer fornyet værdi for valgene der træffes, dialogerne der foregår, samt for fællesskabets fremdrift.'
-- image: "/images/educations/plu-table.png"
-  title: Proceslederuddannelsen
-  subtitle: Valgmodul, 10 ECTS
-  text:
-  - 'Proceslederuddannelsen er et særligt tilrettelagt og intensivt forløb, der består af to valgfag fra Diplomuddannelsen i Offentlig Ledelse (DOL). De to valgfag er Ledelse & Coaching og Ledelse af Forandrings- og Udviklingsprocesser. Det løber over knapt halvanden måned. Forløbet består af 1 internat/seminar, 3 online webinar á 3 timer, 1 dags undervisning, 1 hel gruppedag og to individuelle coachingsessioner. Herudover er deltagelse i to dages fælles eksamen med fokus på praktiske coachingfærdigheder, procesdesign og facilitering obligatorisk. Endvidere tilbydes alle deltagerne en BIG FIVE personlighedstest med en coachende tilbagemeldingssamtale. BIG FIVE er et af markedets bedst underbyggede personlighedstests til ledere.'
-  - 'Krav om konstant forandring, omorganisering, økonomisk pres m.v. skaber behov for professionel procesledelse. Proceslederuddannelsen giver dig et solidt fundament til at stå myndigt og dialogisk i ledelsesopgaven. Med de to moduler vil du kunne mestre den sunde og veldesignede proces, der giver dit og organisationens arbejde retning og mening. Du vil kunne samle organisationen, når der er behov for det, og inspirere til den gode idé eller den ekstra indsats. Du vil også blive klædt på til at se og forstå den enkelte medarbejders perspektiv i organisationen. Forventninger fra medarbejdere om medinddragelse og samskabelse som en del af virksomhedens kultur, drift og udvikling kalder dels på, at du har grundlæggende færdigheder i coaching og dels på, at du kan håndtere, forstå og vurdere de forskellige forandringer, der er til stede i organisationers liv, og som kalder på løbende tilpasninger og kursskifte. God procesledelse kræver evner til at styre, rumme og stimulere menneskelig og faglig mangfoldighed i retning af fælles udvikling og mål.'
 oe-order: 5
 lists:
 - liste-paragraf: "Hos CCC kan du tage følgende DOL-moduler:"

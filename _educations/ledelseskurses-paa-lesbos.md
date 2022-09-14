@@ -22,7 +22,7 @@ opbygning-text:
   - Turen til Lesbos handler først og fremmest om undervisning og træning. Alle dage har fastlagte destinationer og indlagte træningsseancer. Du bliver trænet, vejledt og udfordret undervejs. Arbejdet omkring værdier vil på turen ske igennem læren fra den filosofiske samtale, protreptikken. 
 - overskrift: " "
   paragrafer:
-  - Vi arbejder med protreptikken fra et nyt og moderne perspektiv, hvor der i høj grad er fokus på, hvordan du som leder kan fremstå oprigtig og imødekommende og i din ledelse. Hele ugen bliver du præsenteret for teoretiske ståsteder der med grundig vejledning bliver omsat i din ledelsespraksis.
+  - Vi arbejder med protreptikken fra et nyt og moderne perspektiv, hvor der i høj grad er fokus på, hvordan du som leder kan fremstå oprigtig og imødekommende i din ledelse. Hele ugen bliver du præsenteret for teoretiske ståsteder der med grundig vejledning bliver omsat i din ledelsespraksis.
 opbygning-image: "/images/educations/lesbos-by.png"
 opbygning-liste:
 - overskrift: "Som deltager får du:"
@@ -43,11 +43,11 @@ adgangskrav: Der er ingen nuværende adgangskrav
 location: Kurset foregår på Lesbos
 aktive-hold: true
 undervisere:
-- Andreas Bering
-- Mette Mejlhede
-- Frederikke Winther
-- Camilla Ingwersen
-- Jesper Nøddesbo
+- name: Andreas Bering
+- name: Mette Mejlhede
+- name: Frederikke Winther
+- name: Camilla Ingwersen
+- name: Jesper Nøddesbo
 oe-order: 2
 dage: 7
 small-price: 30.000,- ekskl. moms
@@ -89,7 +89,7 @@ Dette intense forløb skærper dine refleksioner over og fornemmelser for det de
 
 Turen til Lesbos handler først og fremmest om undervisning og træning. Alle dage har fastlagte destinationer og indlagte træningsseancer.  Du bliver trænet, vejledt og udfordret undervejs.
 
-Arbejdet omkring værdier vil på turen ske igennem læren fra den filosofiske samtale, protreptikken. Vi arbejder med protreptikken fra et nyt og moderne perspektiv, hvor der i høj grad er fokus på, hvordan du som leder kan fremstå oprigtig og imødekommende og i din ledelse. Hele ugen bliver du præsenteret for teoretiske ståsteder der med grundig vejledning bliver omsat i din ledelsespraksis.
+Arbejdet omkring værdier vil på turen ske igennem læren fra den filosofiske samtale, protreptikken. Vi arbejder med protreptikken fra et nyt og moderne perspektiv, hvor der i høj grad er fokus på, hvordan du som leder kan fremstå oprigtig og imødekommende i din ledelse. Hele ugen bliver du præsenteret for teoretiske ståsteder der med grundig vejledning bliver omsat i din ledelsespraksis.
 
 ### Hvad får du ud af uddannelsen?
 

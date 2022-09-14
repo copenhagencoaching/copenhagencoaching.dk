@@ -45,8 +45,8 @@ kort: false
 special: false
 hold_eller_begivenheder: true
 undervisere:
-- Frederikke Winther
-- Andreas Bering
+- name: Frederikke Winther
+- name: Andreas Bering
 kursus-oversigt: true
 aktive-hold: true
 hold:
