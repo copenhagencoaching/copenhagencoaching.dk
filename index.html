@@ -131,11 +131,12 @@ title: Copenhagencoaching
                 </h3>
                 {% for ind in site.tags.blog limit: 3 %}
                 <a href="{{ ind.url }}">
-                    <h5 class="text-uppercase mb-2 d-inline">{{ ind.title }} <i
+                    <h5 class="text-uppercase mb-1 d-inline-block">{{ ind.title }} <i
                             class="fa-solid fa-arrow-right fs-5"></i></h5>
                     <br>
-                    <p class="text-uppercase d-inline">{{ ind.category }}</p>
+                    <p class="text-uppercase d-inline-block mb-3">{{ ind.category }}</p>
                 </a>
+                <br>
 
                 {% endfor %}
             </div>
