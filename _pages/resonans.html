@@ -78,7 +78,7 @@ layout: default
 
             </ul>
 
-            {% for post in site.tags.blog | sort: "date" | reverse %}
+            {% for post in site.tags.viden | sort: "date" | reverse %}
             <div class="col-lg-4 col-12 col-md-6">
                 <a href="{{ post.url }}">
                     <div class="bg-white shadow p-3 mb-5 bg-body rounded">
@@ -125,7 +125,7 @@ layout: default
                                         <p class="small mb-0">{{ post.date | date: '%d' | remove: "0" }}. {{ monthName }} {{ post.date | date: '%Y' }}</p>
                                         <h4 class="text-uppercase lh-base text-break">{{ post.title }}</h4>
                                         {% for cat in post.categories %}
-                                        {% if cat != "blog" %}
+                                        {% if cat != "viden" %}
                                         <p class="small mb-0 text-uppercase">{{ cat }}</p>
                                         {% endif %}
                                         {% endfor %}
