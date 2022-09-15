@@ -12,8 +12,7 @@ layout: default
                     <hr class="white short-hr mx-auto">
                 </div>
             </div>
-            {% if page.pdf %}<a class="btn-beaver btn w-254 btn-bold fs-6 me-md-5 text-white h-50" data-proofer-ignore
-                href="#hent-brochure" data-toggle="modal" data-target="#brochure-modal">Hent brochure</a>{% endif %}
+            {% if page.pdf %}<a class="btn-beaver btn w-254 btn-bold fs-6 me-md-5 text-white h-50" href="{{ page.pdf }}" target="_blank">Hent brochure</a>{% endif %}
             <a class="btn-slate-gray text-white btn w-254 btn-bold fs-6 h-50" href="#kontakt-underviseren">Kontakt
                 underviseren</a>
         </div>
@@ -402,8 +401,7 @@ layout: default
                     {% endfor %}
                     {% if page.pdf %}
                     <div class="text-center">
-                        <a class="btn-beaver btn w-254 btn-bold fs-6 me-md-5 text-white text-center" data-proofer-ignore
-                            href="#hent-brochure" data-toggle="modal" data-target="#brochure-modal">Hent brochure</a>
+                        <a class="btn-beaver btn w-254 btn-bold fs-6 me-md-5 text-white text-center" href="{{ page.pdf }}" target="_blank">Hent brochure</a>
                     </div>
                     {% endif %}
 
