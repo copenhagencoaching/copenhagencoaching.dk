@@ -107,7 +107,6 @@ undervisere:
   text: Kvalitetsansvarlig for DOL’en og cand.mag
 - name: Line Arnmark
 - name: Mette Mejlhede
-- name: Camilla Ingwersen
 published: true
 lists:
 - liste-paragraf: "Med proceslederuddannelsen bliver du bedre til:"
