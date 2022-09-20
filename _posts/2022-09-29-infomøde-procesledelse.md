@@ -25,6 +25,7 @@ community-free: false
 billetto-nr: 611228
 attend_mes:
 ---
+
 ## Informationsmøde omkring Proceslederuddannelsen
 
 Kom til Informationsmøde om vores nye intensive og eksklusive Procesledelsesforløb.
