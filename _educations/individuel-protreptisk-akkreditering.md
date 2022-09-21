@@ -20,11 +20,11 @@ opbygning-liste:
 kursus-oversigt: true
 aktive-hold: true
 hold:
-- title: Rejse - Efterår 2022
+- title: Rejse - Forår 2023
   price: 30.000,- ekskl. moms
-  dates: 9. - 16. september
+  dates: 21. - 28. maj
   modules:
-  - date: 9. - 16. september
+  - date: 21. - 28. maj
     day:
     time:
     name:

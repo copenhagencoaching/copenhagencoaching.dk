@@ -3,7 +3,7 @@ layout: default
 title: Copenhagencoaching
 ---
 
-<div class="mt-5" style="background-image: url('/images/frontpage/fp-2.jpg'); background-size: cover;">
+<div class="mt-5" style="background-image: url('/images/frontpage/fp-2.png'); background-size: cover;">
     <div class="container-fluid mt-5 py-5">
         <div class="row py-5">
             <div class="col-12 col-lg-5 col-md-8 col-sm-10 my-5">
@@ -21,9 +21,8 @@ title: Copenhagencoaching
                 </div>
 
                 <br>
-                <a href="/academy/master-of-business-coaching/">
-                    <p class="bg-black-coral py-3 px-4 text-white mb-0 fw-bold fs-6 text-uppercase d-inline">Læs mere
-                        her <i class="fa-solid fa-arrow-right text-white ms-2 fs-5 fw-bold pt-2"></i></p>
+                <a class="btn-black-coral fw-bold text-white text-uppercase p-3" href="/academy/master-of-business-coaching/">
+                    Læs mere her
                 </a>
 
             </div>
@@ -34,7 +33,7 @@ title: Copenhagencoaching
 <div class="container-fluid py-5 my-4">
     <div class="row gx-5 gy-5">
         <div class="col-12 col-lg-4 h-100 position-relative responsive-card-12">
-            <a href="/coaching-service/"> <img src="/images/frontpage/fp-2.png" class="object-fit h-200 w-100" alt="">
+            <a href="/coaching-service/"> <img src="/images/frontpage/coaching.png" class="object-fit h-200 w-100" alt="">
                 <h3 class="mt-3 text-uppercase">Coaching</h3>
             </a>
             <p class="text-justify mh-150px smaller-height-re">Hos CCC er du altid er sikker på at møde en faglig og
@@ -45,20 +44,7 @@ title: Copenhagencoaching
                 af afgørende betydning for effekten af coaching, gør vi en dyd ud af at finde den helt rigtige coach
                 til
                 dig og din situation.</p>
-            <button onclick="location.href='/coaching-service/';" class="learn-more d-lg-none">
-                <span class="circle" aria-hidden="true">
-                    <span class="icon arrow"></span>
-                </span>
-                <span class="button-text">Se mere</span>
-            </button>
-            <div class="position-absolute start-0 px-4 mb-3 d-none d-lg-inline-block" style="bottom: -30px;">
-                <button onclick="location.href='/coaching-service/';" class="learn-more">
-                    <span class="circle" aria-hidden="true">
-                        <span class="icon arrow"></span>
-                    </span>
-                    <span class="button-text">Se mere</span>
-                </button>
-            </div>
+                <a class="btn-black-coral text-white fw-bold text-uppercase px-4 py-2" href="/coaching-service/">Se mere</a>
 
         </div>
         <div class="col-12 col-lg-4 h-100 position-relative responsive-card-12">
@@ -73,20 +59,7 @@ title: Copenhagencoaching
                 konstruktiv retning og derved forebygge stress, organisatorisk
                 stagnation og udbrændthed? Så vælg uddannelsen Master of
                 Business Coaching.</p>
-            <button onclick="location.href='/academy/master-of-business-coaching/';" class="learn-more d-lg-none">
-                <span class="circle" aria-hidden="true">
-                    <span class="icon arrow"></span>
-                </span>
-                <span class="button-text">Se mere</span>
-            </button>
-            <div class="position-absolute start-0 px-4 mb-3 d-none d-lg-inline-block" style="bottom: -30px;">
-                <button onclick="location.href='/academy/master-of-business-coaching/';" class="learn-more">
-                    <span class="circle" aria-hidden="true">
-                        <span class="icon arrow"></span>
-                    </span>
-                    <span class="button-text">Se mere</span>
-                </button>
-            </div>
+                <a class="btn-black-coral text-white fw-bold text-uppercase px-4 py-2" href="academy/master-of-business-coaching/">Se mere</a>
 
         </div>
         <div class="col-12 col-lg-4 h-100 position-relative responsive-card-12">
@@ -101,20 +74,7 @@ title: Copenhagencoaching
                 erfaring med strategiudvikling i organisationer. Vi tilbyder konsuelentydelser med fokus på både
                 medarbejde, ledelse, organisation og konsulentudvikling.</p>
 
-            <button onclick="location.href='/consultations/ledelsesudvikling/';" class="learn-more d-lg-none">
-                <span class="circle" aria-hidden="true">
-                    <span class="icon arrow"></span>
-                </span>
-                <span class="button-text">Se mere</span>
-            </button>
-            <div class="position-absolute start-0 px-4 mb-3 d-none d-lg-inline-block" style="bottom: -30px;">
-                <button onclick="location.href='/consultations/ledelsesudvikling/';" class="learn-more">
-                    <span class="circle" aria-hidden="true">
-                        <span class="icon arrow"></span>
-                    </span>
-                    <span class="button-text">Se mere</span>
-                </button>
-            </div>
+                <a class="btn-black-coral text-white fw-bold text-uppercase px-4 py-2" href="/consultations/ledelsesudvikling/">Se mere</a>
 
         </div>
     </div>
@@ -124,7 +84,7 @@ title: Copenhagencoaching
 
 <div class="container-fluid mb-5">
     <div class="row g-5 gy-5 g-x5">
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-lg-4">
             <div class="bg-platinum p-5 h-100">
                 <h3 class="text-uppercase mb-4">
                     Nyeste indlæg
@@ -141,33 +101,35 @@ title: Copenhagencoaching
                 {% endfor %}
             </div>
         </div>
-        <div class="col-12 col-md-6">
-            <h3 class="mb-2 text-uppercase">Skal vi tales ved?</h3>
-            <p>Har du spørgsmål eller brug for hjælp til at vælge den rette konsulentydelse?
-                Indtast navn og
-                telefonnummer
-                og en
-                af vores konsulenter ringer dig op inden for 24 timer</p>
-            <form id="tlf-coffee-form" action="https://formspree.io/f/xyyoddyz" method="POST">
-                <div class="row mt-3 gy-3" id="coffee">
-                    <div class="col-12 col-md-6">
-                        <input type="text" class="form-control" placeholder="Navn" aria-label="Navn" name="navn"
-                            required>
-                    </div>
-                    <div class="col-12 col-md-6"></div>
-                    <input type="hidden" name="henvendelse" value="Jeg vil gerne ringes op">
-                    <div class="col-12 col-md-6">
-                        <input type="text" class="form-control" placeholder="Tlf. nr." aria-label="telefonnummer"
-                            name="tlf. nr." required>
-                    </div>
-                    <div class="col-12 col-md-6"></div>
-                    <div class="col-12 col-md-6">
-                        <button class="btn btn-opal w-100 my-0">Ring mig op</button>
-                    </div>
+        <div class="col-12 col-lg-8">
+            <div class="bg-platinum p-5 h-100">
+                <h3 class="mb-2 text-uppercase">Skal vi tales ved?</h3>
+                <p>Har du spørgsmål eller brug for hjælp til at vælge den rette konsulentydelse?
+                    Indtast navn og
+                    telefonnummer
+                    og en
+                    af vores konsulenter ringer dig op inden for 24 timer</p>
+                <form id="tlf-coffee-form" action="https://formspree.io/f/xyyoddyz" method="POST">
+                    <div class="row mt-3 gy-3" id="coffee">
+                        <div class="col-12 col-md-6">
+                            <input type="text" class="form-control" placeholder="Navn" aria-label="Navn" name="navn"
+                                required>
+                        </div>
+                        <div class="col-12 col-md-6"></div>
+                        <input type="hidden" name="henvendelse" value="Jeg vil gerne ringes op">
+                        <div class="col-12 col-md-6">
+                            <input type="text" class="form-control" placeholder="Tlf. nr." aria-label="telefonnummer"
+                                name="tlf. nr." required>
+                        </div>
+                        <div class="col-12 col-md-6"></div>
+                        <div class="col-12 col-md-6">
+                            <button class="btn btn-opal w-100 my-0 fw-bold text-uppercase">Ring mig op</button>
+                        </div>
 
-                </div>
-                <p id="my-form-coffee-status" class="text-white mt-3 bg-xanadu p-2 d-none"></p>
-            </form>
+                    </div>
+                    <p id="my-form-coffee-status" class="text-white mt-3 bg-xanadu p-2 d-none"></p>
+                </form>
+            </div>
         </div>
         <div class="col-12 col-xl-4">
             <div class="bg-black-coral p-5 h-100">
@@ -181,12 +143,12 @@ title: Copenhagencoaching
                             <input type="text" class="form-control" placeholder="Navn" aria-label="Navn" name="name"
                                 required>
                         </div>
-                        
+
                         <div class="col-12 col-xl-12 col-md-6">
                             <input type="text" class="form-control" placeholder="E-mail" aria-label="Email" name="email"
                                 required>
                         </div>
-                        
+
                         <div class="col-12 col-xl-12 col-md-6 d-flex pt-4">
                             <div class="form-check form-check-inline">
                                 <input class="form-check-input mt-1" type="checkbox" name="_optin" id="gridCheck"
@@ -197,16 +159,16 @@ title: Copenhagencoaching
                                 </label>
                             </div>
                         </div>
-                        
+
                         <div class="col-12">
                             <div class="g-recaptcha" data-sitekey="6Lfi__EcAAAAABOscNdrKzqeLNu2vbuTM_5VlANy"></div>
                             <!-- replace with your recaptcha SITE key not secret key -->
-                           
+
                         </div>
 
-                        
+
                         <div class="col-12">
-                            <button class="btn btn-opal w-100 my-0 mt-0">Tilmeld</button>
+                            <button class="btn btn-opal my-0 mt-0 w250 fw-bold text-uppercase">Tilmeld</button>
                         </div>
 
 
@@ -227,56 +189,56 @@ title: Copenhagencoaching
                     {% for event in ordered_events %}
                     {% if event.past == true %}
                     {% else %}
-    
+
                     <div class="col-12 col-md-4">
                         <a href="{{ event.url }}">
-                        <div class="h-100 w-100">
-                            <img src="{{ event.image }}" alt="" class="object-fit">
-                        </div>
-                    </a>
+                            <div class="h-100 w-100">
+                                <img src="{{ event.image }}" alt="" class="object-fit">
+                            </div>
+                        </a>
                     </div>
                     <div class="col-md-8 col-12">
                         <a href="{{ event.url }}">
-                        {% assign postmonth = event.date | date: "%m" %}
-    
-    
-                        {% if postmonth == "01" %}
-                        {% assign monthName = "januar" %}
-                        {% elsif postmonth == "02" %}
-                        {% assign monthName = "februar" %}
-                        {% elsif postmonth == "03" %}
-                        {% assign monthName = "marts" %}
-                        {% elsif postmonth == "04" %}
-                        {% assign monthName = "april" %}
-                        {% elsif postmonth == "05" %}
-                        {% assign monthName = "maj" %}
-                        {% elsif postmonth == "06" %}
-                        {% assign monthName = "juni" %}
-                        {% elsif postmonth == "07" %}
-                        {% assign monthName = "juli" %}
-                        {% elsif postmonth == "08" %}
-                        {% assign monthName = "august" %}
-                        {% elsif postmonth == "09" %}
-                        {% assign monthName = "september" %}
-                        {% elsif postmonth == "10" %}
-                        {% assign monthName = "oktober" %}
-                        {% elsif postmonth == "11" %}
-                        {% assign monthName = "november" %}
-                        {% elsif postmonth == "12" %}
-                        {% assign monthName = "december" %}
-                        {% endif %}
-                        <p>{{ event.date | date: "%d. "}} {{
-                            monthName
-                            }}{{ event.date | date:
-                            "
-                            %Y"}}</p>
-                        <h4>{{ event.title }}</h4>
-                        <p class="mb-0">{{ event.description }}</p>
+                            {% assign postmonth = event.date | date: "%m" %}
+
+
+                            {% if postmonth == "01" %}
+                            {% assign monthName = "januar" %}
+                            {% elsif postmonth == "02" %}
+                            {% assign monthName = "februar" %}
+                            {% elsif postmonth == "03" %}
+                            {% assign monthName = "marts" %}
+                            {% elsif postmonth == "04" %}
+                            {% assign monthName = "april" %}
+                            {% elsif postmonth == "05" %}
+                            {% assign monthName = "maj" %}
+                            {% elsif postmonth == "06" %}
+                            {% assign monthName = "juni" %}
+                            {% elsif postmonth == "07" %}
+                            {% assign monthName = "juli" %}
+                            {% elsif postmonth == "08" %}
+                            {% assign monthName = "august" %}
+                            {% elsif postmonth == "09" %}
+                            {% assign monthName = "september" %}
+                            {% elsif postmonth == "10" %}
+                            {% assign monthName = "oktober" %}
+                            {% elsif postmonth == "11" %}
+                            {% assign monthName = "november" %}
+                            {% elsif postmonth == "12" %}
+                            {% assign monthName = "december" %}
+                            {% endif %}
+                            <p>{{ event.date | date: "%d. "}} {{
+                                monthName
+                                }}{{ event.date | date:
+                                "
+                                %Y"}}</p>
+                            <h4>{{ event.title }}</h4>
+                            <p class="mb-0">{{ event.description }}</p>
                         </a>
                     </div>
-    
-    
-    
+
+
+
                     {% endif %}
                     {% endfor %}
                 </div>

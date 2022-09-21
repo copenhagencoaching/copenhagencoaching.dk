@@ -469,7 +469,7 @@ hold:
     time: 09:30 - 16:00
     name: Introduktion til Protreptik
     place: Blegdamsvej
-  - date: 19. - 26. maj
+  - date: 21. - 28. maj
     day: 2-7
     time: Varierende tider
     name: Protreptik

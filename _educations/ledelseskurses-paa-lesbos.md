@@ -54,19 +54,18 @@ small-price: 30.000,- ekskl. moms
 kursus-oversigt: true
 special: false
 hold:
-- title: Rejse - Efterår 2022
+- title: Rejse - Forår 2023
   price: 30.000,- ekskl. moms
-  dates: 9. - 16. september
+  dates: 21. - 28. maj
   modules:
-  - date: 9. - 16. september
+  - date: 21. - 28. maj
     day:
     time:
     name:
     place:
 hold_eller_begivenheder: true
 events:
-- overskrift: 27. maj – 3. juni 2022
-- overskrift: 9. - 16. september 2022
+- overskrift: 21. - 28. maj
 redirect_from:
   - /academy/ledelseskursesPåLesbos/
   - /academy/ledelseskursus-på-lesbos/
