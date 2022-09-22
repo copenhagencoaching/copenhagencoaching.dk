@@ -399,6 +399,15 @@
     });
   </script>
 
+  <script>
+    window.onload = function() { 
+  var el = document.getElementById('g-recaptcha-response'); 
+  if (el) { 
+    el.setAttribute('required', 'required'); 
+  } 
+}
+  </script>
+
 <!--   <script>
     $(".navbar").css({ "background-color": "white", "box-shadow": "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px" });
     $(".nav-item").css("color", "#707070");
