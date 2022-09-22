@@ -19,6 +19,7 @@ adgangskrav: Der er ingen adgangskrav
 undervisere:
 - name: Camilla Ingwersen
 - name: Ghita Vejlebo
+  text: Kvalitetsansvarlig for DOL’en og cand.mag
 - name: Line Arnmark
 - name: Andreas Bering
 sub-header: Få ny indsigt - og større udsyn - i dit lederskab
