@@ -64,6 +64,7 @@ lists:
   liste:
   - Det Personlige Lederskab og Forandring (Standardmodul, 10 ECTS)
   - Ledelse af Medarbejdere og Faglig Udvikling (Standardmodul, 10 ECTS)
+  - Proceslederuddannelsen (Valgmodul, 10 ECTS)
   - Ledelse af forandrings- og udviklingsprocesser i offentlige organisationer (Valgmodul, 5 ECTS)
   - Ledelse og Coaching (valgmodul, 5 ECTS)
   - Projektledelse (valgmodul, 5 ECTS)
