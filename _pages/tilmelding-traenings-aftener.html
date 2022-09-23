@@ -71,27 +71,31 @@ permalink: /treanings-aftener/
 
 <script>
     var form_t = document.getElementById("t-form");
-    async function handleSubmitT(event) {
+    async function handleSubmitT(event) {                                                               
 
-        event.preventDefault();
-        var status = document.getElementById("form-t-status");
-        var data = new FormData(event.target);
-        fetch(event.target.action, {
-            method: form_t.method,
-            body: data,
-            headers: {
-                'Accept': 'application/json'
-            }
-        }).then(response => {
-            status.className = "py-3 text-center"
+event.preventDefault();                                                                         
+var status = document.getElementById("form-t-status");                                          
+var data = new FormData(event.target);                                                          
+fetch(event.target.action, {                                                                    
+    method: form_t.method,                                                                      
+    body: data,                                                                                 
+    headers: {                                                                                  
+        'Accept': 'application/json'                                                            
+    }                                                                                           
+}).then(response => {                                                                           
+    if (!response.ok) {                                                                         
+        status.innerHTML = "Ups! Der opstod et problem."                                        
+        return;                                                                                                                                                                          
+    }                                                                                           
+    status.className = "py-3 text-center"                                                       
 
-            form_t.reset()
-            form_t.className = "d-none"
-        }).catch(error => {
-            status.innerHTML = "Ups! Der opstod et problem."
-        });
+    form_t.reset()                                                                              
+    form_t.className = "d-none"                                                                 
+}).catch(error => {                                                                             
+    status.innerHTML = "Ups! Der opstod et problem."                                            
+});                                                                                             
 
-    }
+}    
     form_t.addEventListener("submit", handleSubmitT)
 
 
