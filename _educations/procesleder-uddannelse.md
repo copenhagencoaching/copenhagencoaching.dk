@@ -123,6 +123,7 @@ emails:
 hold_eller_begivenheder: true
 redirect_from:
   - /coaching/proceslederuddannelse/
+  - /academy/procesleder-uddannelse/
 cat:
 - proces
 ---
