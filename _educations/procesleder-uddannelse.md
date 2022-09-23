@@ -5,6 +5,7 @@ description: Med en proceslederuddannelse fra CCC får du markedets stærkeste u
 meta-title: Procesledelse - Tag proceslederuddannelsen hos Copenhagen Coaching Center 
 meta-description: Med en proceslederuddannelse fra CCC får du markedets stærkeste uddannelse i at planlægge, styre og fastholde processer. Se hvordan du bliver procesleder her.
 image-2: "/images/educations/plu-table.png"
+published: false
 deltagerprofil: true
 aktive-hold: true
 kursus-oversigt: true
