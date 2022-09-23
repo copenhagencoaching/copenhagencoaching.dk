@@ -185,6 +185,9 @@ events:
   - 27. oktober
   - 2. november
   - 10. november
+redirect_from:
+  - /coaching/proceslederuddannelse/
+  - /academy/procesleder-uddannelse/
 ---
 
 **Er du leder, eller drømmer du om at bliver det? Trænger du til at få styrket dine lederkompetencer, og samtidig få de nyeste og brugbare værktøjer til medarbejdersamtaler og til håndtering af konfliktsituationer? Så tag moduler i Den offentlige Lederuddannelse (DOL) hos os!**
