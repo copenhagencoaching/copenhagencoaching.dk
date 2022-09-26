@@ -5,15 +5,15 @@ permalink: /treanings-aftener/
 ---
 
 <div class="bg-black-coral pt-5">
-<div class="mt-5"></div>
+    <div class="mt-5"></div>
 
     <div class="container-fluid pt-5 pb-5">
         <div class="row">
             <div class="offset-md-4 col-md-4 col-12 bg-white p-3">
                 <h1>Tilmeld eller frameld dig træningsaftener</h1>
                 <p>Herunder kan du tilmelde dig næste træningsaften.</p>
-               
-             
+
+
 
                 <form action="https://formspree.io/f/mbjqjpva" method="POST" id="t-form">
                     <h5>Næste træningsaften: 28. september 2022 - 17:00 - 20:00</h5>
@@ -63,7 +63,7 @@ permalink: /treanings-aftener/
                         </script>
                     </div>
                 </div>
-                
+
             </div>
         </div>
     </div>
@@ -71,32 +71,34 @@ permalink: /treanings-aftener/
 
 <script>
     var form_t = document.getElementById("t-form");
-    async function handleSubmitT(event) {                                                               
+    async function handleSubmitT(event) {
 
-event.preventDefault();                                                                         
-var status = document.getElementById("form-t-status");                                          
-var data = new FormData(event.target);                                                          
-fetch(event.target.action, {                                                                    
-    method: form_t.method,                                                                      
-    body: data,                                                                                 
-    headers: {                                                                                  
-        'Accept': 'application/json'                                                            
-    }                                                                                           
-}).then(response => {                                                                           
-    if (!response.ok) {                                                                         
-        status.innerHTML = "Tak for din meddelelse"     
-        status.className = "py-3 text-center"                                   
-        return;                                                                                                                                                                          
-    }                                                                                           
-    status.className = "py-3 text-center"                                                       
+        event.preventDefault();
+        var status = document.getElementById("form-t-status");
+        var data = new FormData(event.target);
+        fetch(event.target.action, {
+            method: form_t.method,
+            body: data,
+            headers: {
+                'Accept': 'application/json'
+            }
+        }).then(response => {
+            if (!response.ok) {
+                status.innerHTML = "Husk at udfylde alle felter."
+                status.className = "py-3 text-center"
+                return;
+            }
+            else {
+                status.className = "py-3 text-center"
+                form_t.reset()
+                form_t.className = "d-none"
+            }
 
-    form_t.reset()                                                                              
-    form_t.className = "d-none"                                                                 
-}).catch(error => {                                                                             
-    status.innerHTML = "Ups! Der opstod et problem. --"                                      
-});                                                                                             
+        }).catch(error => {
+            status.innerHTML = "Ups! Der opstod et problem. --"
+        });
 
-}    
+    }
     form_t.addEventListener("submit", handleSubmitT)
 
 
