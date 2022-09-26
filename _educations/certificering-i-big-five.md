@@ -50,35 +50,6 @@ undervisere:
 kursus-oversigt: true
 aktive-hold: true
 hold:
-- title: BFC22-3
-  price: 19.500 ekskl. moms
-  dates: 23. september - 28. oktober
-  modules:
-  - date: 23. september
-    day: "1"
-    time: 10:00 - 12:00
-    name: Tjek ind
-    place: Online
-  - date: 30. september
-    day: "2"
-    time: 10:00 - 12:00
-    name: Teorien
-    place: Online
-  - date: 7. oktober
-    day: "3"
-    time: 10:00 - 12:00
-    name: Praktikken
-    place: Online
-  - date: 14. oktober
-    day: "4"
-    time: 10:00 - 15:00
-    name: Tilbagemeldingssamtalen
-    place: Online
-  - date: 28. oktober
-    day: "5"
-    time: 10:00 - 15:00
-    name: Wrap up
-    place: Online
 - title: BFC22-4
   price: 19.500 ekskl. moms
   dates: 4. november - 9. december

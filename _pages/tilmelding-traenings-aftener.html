@@ -85,6 +85,7 @@ permalink: /treanings-aftener/
         }).then(response => {
             if (!response.ok) {
                 status.innerHTML = "Ups! Der opstod et problem."
+                status.className = "py-3 text-center"
                 return;
             } else {
                 status.className = "py-3 text-center"
