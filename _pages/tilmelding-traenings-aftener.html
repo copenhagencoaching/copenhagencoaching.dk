@@ -83,21 +83,20 @@ permalink: /treanings-aftener/
                 'Accept': 'application/json'
             }
         }).then(response => {
-        if (response.ok) {
-          status.innerHTML = "Thanks for your submission!";
-          form_t.reset()
-        } else {
-          response.json().then(data => {
-            if (Object.hasOwn(data, 'errors')) {
-              status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+            if (!response.ok) {
+                status.innerHTML = "Ups! Der opstod et problem."
+                return;
             } else {
-              status.innerHTML = "Oops! There was a problem submitting your form"
+                status.className = "py-3 text-center"
+                form_t.className = "d-none"
+                form_t.reset()
+
             }
-          })
-        }
-      }).catch(error => {
-        status.innerHTML = "Oops! There was a problem submitting your form"
-      });
+
+        }).catch(error => {
+            status.innerHTML = "Ups! Der opstod et problem. --"
+        });
+
     }
     form_t.addEventListener("submit", handleSubmitT)
 
