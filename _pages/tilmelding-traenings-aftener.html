@@ -83,21 +83,21 @@ permalink: /treanings-aftener/
                 'Accept': 'application/json'
             }
         }).then(response => {
-            if (!response.ok) {
-                status.innerHTML = "Husk at udfylde alle felter."
-                status.className = "py-3 text-center"
-                return;
+        if (response.ok) {
+          status.innerHTML = "Thanks for your submission!";
+          form_t.reset()
+        } else {
+          response.json().then(data => {
+            if (Object.hasOwn(data, 'errors')) {
+              status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+            } else {
+              status.innerHTML = "Oops! There was a problem submitting your form"
             }
-            else {
-                status.className = "py-3 text-center"
-                form_t.reset()
-                form_t.className = "d-none"
-            }
-
-        }).catch(error => {
-            status.innerHTML = "Ups! Der opstod et problem. --"
-        });
-
+          })
+        }
+      }).catch(error => {
+        status.innerHTML = "Oops! There was a problem submitting your form"
+      });
     }
     form_t.addEventListener("submit", handleSubmitT)
 
