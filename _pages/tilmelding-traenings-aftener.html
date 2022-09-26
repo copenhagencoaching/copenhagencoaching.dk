@@ -32,6 +32,10 @@ permalink: /treanings-aftener/
                     <button id="btn-ta" class="btn-cadet-gray btn w-100">Tilmeld</button>
 
                 </form>
+
+                <div id="stat-error" class="d-none">
+                    <p>Husk at udfylde alle felter</p>
+                </div>
                 <div id="form-t-status" class="d-none">
                     <p>Tak for din tilmelding/framelding. Du vil snarest få en bekræftelse på mail.</p>
                     <p>Tryk på nedenstående knap og tilføj træningsaftenen i din kalender.</p>
@@ -75,6 +79,7 @@ permalink: /treanings-aftener/
 
         event.preventDefault();
         var status = document.getElementById("form-t-status");
+        var stat_er = document.getElementById("stat-error")
         var data = new FormData(event.target);
         fetch(event.target.action, {
             method: form_t.method,
@@ -84,12 +89,13 @@ permalink: /treanings-aftener/
             }
         }).then(response => {
             if (!response.ok) {
-                status.innerHTML = "Ups! Der opstod et problem."
-                status.className = "py-3 text-center"
+                stat_er.className = "d-block"
+                
                 return;
             } else {
                 status.className = "py-3 text-center"
                 form_t.className = "d-none"
+                stat_er.className = "d-none"
                 form_t.reset()
 
             }

@@ -1,15 +1,14 @@
 ---
-title: Proceslederuddannelse
-header: Procesleder-uddannelse
-description: Med en proceslederuddannelse fra CCC får du markedets stærkeste uddannelse i at planlægge, styre og fastholde processer. Uddannelsen henvender sig til ledere, konsulenter og medarbejdere, som har ansvar for og håndterer processer og forandringer i organisationen, internt eller eksternt.
+title: Proceslederuddannelsen
+header: Proceslederuddannelsen
+description: Proceslederuddannelsen giver dig et solidt fundament til at stå myndigt og dialogisk kompetent i de processer, som du skal lede. Med de to moduler vil du kunne mestre den sunde og veldesignede proces, der giver dit og organisationens arbejde retning og mening. Du vil kunne samle organisationen, når der er behov for det, og inspirere til den gode idé eller den ekstra indsats.
 meta-title: Procesledelse - Tag proceslederuddannelsen hos Copenhagen Coaching Center 
-meta-description: Med en proceslederuddannelse fra CCC får du markedets stærkeste uddannelse i at planlægge, styre og fastholde processer. Se hvordan du bliver procesleder her.
+meta-description: Med en proceslederuddannelsen fra CCC får du markedets stærkeste uddannelse i at planlægge, styre og fastholde processer. Se hvordan du bliver procesleder her.
 image-2: "/images/educations/plu-table.png"
-published: false
-deltagerprofil: true
+deltagerprofil: false
 aktive-hold: true
 kursus-oversigt: true
-opbygning: true
+opbygning: false
 opbygning-image: "/images/educations/mbc-opbygning.png"
 opbygning-liste:
 - overskrift: "Som PLU studerende får du:"
@@ -17,7 +16,7 @@ opbygning-liste:
   - Adgang til vidensportal, værktøjer, faglitteratur, artikler og cases
   - Løbende supervision og et stærkt netværk
   - Big Five Personlighedstest med individuel tilbagemelding
-anbefalinger: true
+anbefalinger: false
 vidner:
 - navn: Marianne Nyborg
   titel: Direktionskonsulent, Hørsholm kommune
@@ -42,13 +41,14 @@ profil:
   - Uddannelsen har således fokus på, hvordan du bevæger dig fra at være projektleder til at mestre procesledelse, med et tydeligt fokus på opgaveløsningen i virksomheden.
 image: "/images/academy/proceslederuddannelse.jpg"
 overblik:
-- overskrift: Markedets stærkeste
+- overskrift: Diplomuddannelsen i Offentlig Ledelse
   paragrafer:
-  - "Med en proceslederuddannelse fra CCC får du markedets stærkeste uddannelse i at planlægge, styre og fastholde processer. Uddannelsen henvender sig til ledere, konsulenter og medarbejdere, som har ansvar for og håndterer processer og forandringer i organisationen, internt eller eksternt."
-  - "Du vil kunne mestre den sunde og veldesignede proces der giver jeres arbejde retning og mening. Du vil kunne samle organisationen og inspirere til den gode idé, eller den ekstra indsats"
-- overskrift: Virksomhedens udvikling
+  - "Proceslederuddannelsen er et særligt tilrettelagt og intensivt forløb, der består af to valgfag fra Diplomuddannelsen i Offentlig Ledelse (DOL). De to valgfag er Ledelse & Coaching og Ledelse af Forandrings- og Udviklingsprocesser. Det løber over knapt halvanden måned. Forløbet består af 1 internat/seminar, 3 online webinar á 3 timer, 1 dags undervisning, 1 hel gruppedag og to individuelle coachingsessioner. Herudover er deltagelse i to dages fælles eksamen med fokus på praktiske coachingfærdigheder, procesdesign og facilitering obligatorisk. Endvidere tilbydes alle deltagerne en BIG FIVE personlighedstest med en coachende tilbagemeldingssamtale. BIG FIVE er et af markedets bedst underbyggede personlighedstests til ledere."
+- overskrift: At samle organisationen
   paragrafer:
-  - "Den høje grad af uforudsigelighed, samt krav om konstant forandringer, omorganiseringer, økonomiske udfordringer m.v. skaber behov for professionel procesledelse. Ønsker om medinddragelse og samskabelse som en del af virksomhedens kultur, drift og udvikling kalder ligeledes på et højt niveau af procesledelse. God procesledelse kræver evner til at styre, rumme og stimulere menneskelig og faglig mangfoldighed i retning af fælles udvikling og mål."
+  - "Krav om konstant forandring, omorganisering, økonomisk pres m.v. skaber behov for professionel procesledelse. Proceslederuddannelsen giver dig et solidt fundament til at stå myndigt og dialogisk i ledelsesopgaven. Med de to moduler vil du kunne mestre den sunde og veldesignede proces, der giver dit og organisationens arbejde retning og mening. Du vil kunne samle organisationen, når der er behov for det, og inspirere til den gode idé eller den ekstra indsats. Du vil også blive klædt på til at se og forstå den enkelte medarbejders perspektiv i organisationen."
+- overskrift: "<br>"
+  paragrafer: "Forventninger fra medarbejdere om medinddragelse og samskabelse som en del af virksomhedens kultur, drift og udvikling kalder dels på, at du har grundlæggende færdigheder i coaching og dels på, at du kan håndtere, forstå og vurdere de forskellige forandringer, der er til stede i organisationers liv, og som kalder på løbende tilpasninger og kursskifte. God procesledelse kræver evner til at styre, rumme og stimulere menneskelig og faglig mangfoldighed i retning af fælles udvikling og mål"
 price: '27.500,- (Ekskl. moms) inkl. Forplejning, overnatning mellem 7 og 8 november, litteratur, BIG FIVE test og to individuelle coachinger med en certificeret coach fra Copenhagen Coaching Center'
 hold:
 - title: Proceslederuddannelsen - Efterår 2022
@@ -108,15 +108,6 @@ undervisere:
   text: Kvalitetsansvarlig for DOL’en og cand.mag
 - name: Line Arnmark
 - name: Mette Mejlhede
-lists:
-- liste-paragraf: "Med proceslederuddannelsen bliver du bedre til:"
-  liste:
-  - at styre, designe og lede processer · at have personlig opmærksomhed på håndtering af vanskeligheder i processer
-  - at anvende innovative og kreative redskaber i processer
-  - at anvende forskellige pragmatiske perspektiver på processer
-  - at håndtere frustrationer i organisationer
-  - at producere nye handlemuligheder
-  - at skabe og sikre følgeskab.
 layout: course
 emails:
 - ln@copenhagencoaching.dk
@@ -126,6 +117,11 @@ redirect_from:
   - /academy/procesleder-uddannelse/
 cat:
 - proces
+infomode: true
+infomode-text: Kom til Informationsmøde om vores nye intensive og eksklusive Procesledelsesforløb.
+infomode-dates:
+- 29. september kl. 16
+- 13. oktober kl. 16
 ---
 
 #### Du vil kunne mestre den sunde og veldesignede proces der giver jeres arbejde retning og mening. Du vil kunne samle organisationen og inspirere til den gode idé, eller den ekstra indsats
