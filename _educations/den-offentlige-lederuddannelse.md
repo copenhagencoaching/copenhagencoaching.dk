@@ -77,27 +77,27 @@ hold:
   modules:
   - date: 20. september
     day: 1
-    time: "08:30 - 15:00"
+    time: "9.00 - 15:00"
     name: "Undervisning"
     place: Gentofte
   - date: 27. september
     day: 2
-    time: "08:30 - 15:00"
+    time: "9:00 - 12:00"
     name: "Undervisning"
-    place: Gentofte
-  - date: 11. oktober
+    place: Online
+  - date: 4. oktober
     day: 3
-    time: "08:30 - 15:00"
+    time: "9:00 - 12:00"
     name: "Undervisning"
-    place: Gentofte
-  - date: 26. oktober
+    place: Online
+  - date: 11. oktober
     day: 4
-    time: "09:00 - 15:30"
-    name: "Eksamen"
-    place: Gentofte
-  - date: 27. oktober
+    time: "9:00 - 12:00"
+    name: "Undervisning"
+    place: Online
+  - date: 26. oktober
     day: 5
-    time: "09:00 - 15:30"
+    time: "-"
     name: "Eksamen"
     place: Gentofte
 - title: Ledelse og filosofi - Efterår 2022
@@ -122,7 +122,7 @@ hold:
   - date: 23. november
     day: 4
     time: "9:00 - 12:00"
-    name: "Eksamen"
+    name: "Undervisning"
     place: Online
   - date: 7. december
     day: 5
