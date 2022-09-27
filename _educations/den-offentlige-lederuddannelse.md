@@ -106,22 +106,27 @@ hold:
   modules:
   - date: 2. november
     day: 1
-    time: "8:30 – 15.00"
+    time: "9:00 – 15.00"
     name: "Undervisning"
     place: Gentofte
   - date: 10. november
     day: 2
-    time: "8:30 – 15.00"
+    time: "9:00 - 12:00"
     name: "Undervisning"
-    place: Gentofte
-  - date: 23. november
+    place: Online
+  - date: 16. november
     day: 3
-    time: "8:30 – 15.00"
+    time: "9:00 - 12:00"
     name: "Undervisning"
-    place: Gentofte
-  - date: 7. december
+    place: Online
+  - date: 23. november
     day: 4
-    time: "8:30 – 15.00"
+    time: "9:00 - 12:00"
+    name: "Eksamen"
+    place: Online
+  - date: 7. december
+    day: 5
+    time: "-"
     name: "Eksamen"
     place: Gentofte
 - title: Proceslederuddannelsen - Efterår 2022
