@@ -734,6 +734,9 @@ layout: default
                                 <button class="mx-auto d-block maw-200 btn-opal text-white btn mb-3" type="submit">Tilmeld</button>
                             </div>
                         </div>
+                        <div class="d-none stat-info-error">
+                            <p>Husk at udfylde alle felter</p>
+                        </div>
                         <div class="d-none message-form-udd" id="form-message-udd">
                             <h2>Tak for din tilmelding til informationsmødet.</h2>
                             <p>En bekræftelse er sendt til din mail</p>
@@ -1070,6 +1073,9 @@ layout: default
                         <button class="w-100 btn-opal text-white btn mb-3" type="submit">Ansøg</button>
                     </div>
                 </div>
+                <div class="d-none stat-udd-error">
+                    <p>Husk at udfylde alle felter</p>
+                </div>
                 <div class="d-none message-form-udd" id="form-message-udd">
                     <h2>Tak for din tilmelding/ansøgning til {{ page.title }}</h2>
                     <p>En bekræftelse er sendt til din mail</p>
@@ -1172,39 +1178,7 @@ layout: default
 
 {% include sections/vision.html %}
 
-<script>
-    var form = document.getElementById("udd-tilmelding");
 
-    async function handleSubmit(event) {
-        event.preventDefault();
-        var status = document.getElementById("form-message-udd");
-        var data = new FormData(event.target);
-        fetch(event.target.action, {
-            method: form.method,
-            body: data,
-            headers: {
-                'Accept': 'application/json'
-            }
-        }).then(response => {
-            if (response.ok) {
-                $('.inder-form').addClass("d-none")
-                $('.message-form-udd').removeClass("d-none")
-                form.reset()
-            } else {
-                response.json().then(data => {
-                    if (Object.hasOwn(data, 'errors')) {
-                        status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
-                    } else {
-                        status.innerHTML = "Oops! There was a problem submitting your form"
-                    }
-                })
-            }
-        }).catch(error => {
-            status.innerHTML = "Oops! There was a problem submitting your form"
-        });
-    }
-    form.addEventListener("submit", handleSubmit)
-</script>
 
 <script>
     $(document).on("click", ".pri", function () {
@@ -1305,63 +1279,73 @@ layout: default
     </div>
 </div>
 
-<script>
-
-    var formBrochure = document.getElementById("brochure-form");
-    async function handleSubmitBrochure(event) {
-
-        event.preventDefault();
-        var status = document.getElementById("my-form-status-brochure");
-        var data = new FormData(event.target);
-        fetch(event.target.action, {
-            method: formBrochure.method,
-            body: data,
-            headers: {
-                'Accept': 'application/json'
-            }
-        }).then(response => {
-            status.className = "py-3 text-center"
-
-            formBrochure.reset()
-            formBrochure.className = "d-none"
-        }).catch(error => {
-            status.innerHTML = "Ups! Der opstod et problem."
-        });
-
-    }
-    formBrochure.addEventListener("submit", handleSubmitBrochure)
-</script>
+<!-- Form for infommode tilmelding -->
 
 <script>
-    var form = document.getElementById("form-infomode");
+    var form_info = document.getElementById("form-infomode");
 
     async function handleSubmit(event) {
         event.preventDefault();
-        var status = document.getElementById("form-message-udd");
+        var status = document.getElementById("form-message-info");
+        var stat_er = document.getElementsByClassName("stat-info-error")
         var data = new FormData(event.target);
         fetch(event.target.action, {
-            method: form.method,
+            method: form_info.method,
             body: data,
             headers: {
                 'Accept': 'application/json'
             }
         }).then(response => {
-            if (response.ok) {
-                $('.inder-form').addClass("d-none")
-                $('.message-form-udd').removeClass("d-none")
-                form.reset()
+            if (!response.ok) {
+                stat_er.className = "d-block"
+                
+                return;
             } else {
-                response.json().then(data => {
-                    if (Object.hasOwn(data, 'errors')) {
-                        status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
-                    } else {
-                        status.innerHTML = "Oops! There was a problem submitting your form"
-                    }
-                })
+                status.className = "py-3 text-center"
+                form_info.className = "d-none"
+                stat_er.className = "d-none"
+                form_info.reset()
+
             }
         }).catch(error => {
             status.innerHTML = "Oops! There was a problem submitting your form"
         });
     }
-    form.addEventListener("submit", handleSubmit)
+    form_info.addEventListener("submit", handleSubmit)
+</script>
+
+
+<!-- Form for uddannelses tilmelding -->
+
+<script>
+    var form_udd = document.getElementById("udd-tilmelding");
+
+    async function handleSubmit(event) {
+        event.preventDefault();
+        var stat_er = document.getElementsByClassName("stat-udd-error")
+        var status = document.getElementById("form-message-udd");
+        var data = new FormData(event.target);
+        fetch(event.target.action, {
+            method: form_udd.method,
+            body: data,
+            headers: {
+                'Accept': 'application/json'
+            }
+        }).then(response => {
+            if (!response.ok) {
+                stat_er.className = "d-block"
+                
+                return;
+            } else {
+                status.className = "py-3 text-center"
+                form_udd.className = "d-none"
+                stat_er.className = "d-none"
+                form_udd.reset()
+
+            }
+        }).catch(error => {
+            status.innerHTML = "Oops! There was a problem submitting your form"
+        });
+    }
+    form_udd.addEventListener("submit", handleSubmit)
 </script>
