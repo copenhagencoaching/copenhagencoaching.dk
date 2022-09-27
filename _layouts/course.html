@@ -734,44 +734,45 @@ layout: default
                                 <button class="mx-auto d-block maw-200 btn-opal text-white btn mb-3" type="submit">Tilmeld</button>
                             </div>
                         </div>
-                        <div class="d-none" id="stat-info-error">
-                            <p>Husk at udfylde alle felter</p>
-                        </div>
-                        <div class="d-none message-form-udd" id="form-message-udd">
-                            <h2>Tak for din tilmelding til informationsmødet.</h2>
-                            <p>En bekræftelse er sendt til din mail</p>
-                            <p class="fw-bold">OBS: Vi oplever tit at automatiserede mails bliver markeret som spam, så vi
-                                opfordrer til at tjekke spam-indbakken og evt. markere info@copenhagencoaching.dk som sikker
-                                afsender i Outlook eller andre mail programmer.</p>
-<!--                             <div class="atcb align-center">
-                                <script type="application/ld+json">
-                                        {
-                                            "event": {
-                                              "@context":"https://schema.org",
-                                              "@type":"Event",
-                                              "name":"Informationsmøde hos CCC",
-                                              "description":"Informationsmøde omkring Master of Business Coaching hos Copenhagen Coaching Center.",
-                                              "startDate":"06-21-2022T16:00",
-                                              "endDate":"06-21-2022T17:30",
-                                              "location":"Belgdamsvej 104C, baghuset 3. sal, 2100 København Ø"
-                                            },
-                                            "label":"Tilføj til kalender",
-                                            "options":[
-                                              "Apple",
-                                              "Google",
-                                              "iCal",
-                                              "Microsoft365",
-                                              "Outlook.com",
-                                              "Yahoo"
-                                            ],
-                                            "timeZone":"Europe/Berlin",
-                                            "trigger":"click",
-                                            "iCalFileName":"Reminder-Event"
-                                          }
-                                    </script>
-                            </div> -->
-                        </div>
+
                     </form>
+                    <div class="d-none" id="stat-info-error">
+                        <p>Husk at udfylde alle felter</p>
+                    </div>
+                    <div class="d-none message-form-udd" id="form-message-info">
+                        <h2>Tak for din tilmelding til informationsmødet.</h2>
+                        <p>En bekræftelse er sendt til din mail</p>
+                        <p class="fw-bold">OBS: Vi oplever tit at automatiserede mails bliver markeret som spam, så vi
+                            opfordrer til at tjekke spam-indbakken og evt. markere info@copenhagencoaching.dk som sikker
+                            afsender i Outlook eller andre mail programmer.</p>
+<!--                             <div class="atcb align-center">
+                            <script type="application/ld+json">
+                                    {
+                                        "event": {
+                                          "@context":"https://schema.org",
+                                          "@type":"Event",
+                                          "name":"Informationsmøde hos CCC",
+                                          "description":"Informationsmøde omkring Master of Business Coaching hos Copenhagen Coaching Center.",
+                                          "startDate":"06-21-2022T16:00",
+                                          "endDate":"06-21-2022T17:30",
+                                          "location":"Belgdamsvej 104C, baghuset 3. sal, 2100 København Ø"
+                                        },
+                                        "label":"Tilføj til kalender",
+                                        "options":[
+                                          "Apple",
+                                          "Google",
+                                          "iCal",
+                                          "Microsoft365",
+                                          "Outlook.com",
+                                          "Yahoo"
+                                        ],
+                                        "timeZone":"Europe/Berlin",
+                                        "trigger":"click",
+                                        "iCalFileName":"Reminder-Event"
+                                      }
+                                </script>
+                        </div> -->
+                    </div>
                 </div>
             </div>
     
@@ -1076,14 +1077,15 @@ layout: default
                 <div class="d-none" id="stat-udd-error">
                     <p>Husk at udfylde alle felter</p>
                 </div>
-                <div class="d-none message-form-udd" id="form-message-udd">
-                    <h2>Tak for din tilmelding/ansøgning til {{ page.title }}</h2>
-                    <p>En bekræftelse er sendt til din mail</p>
-                    <p class="fw-bold">OBS: Vi oplever tit at automatiserede mails bliver markeret som spam, så vi
-                        opfordrer til at tjekke spam-indbakken og evt. markere info@copenhagencoaching.dk som sikker
-                        afsender i Outlook eller andre mail programmer.</p>
-                </div>
+                
             </form>
+            <div class="d-none message-form-udd" id="form-message-udd">
+                <h2>Tak for din tilmelding/ansøgning til {{ page.title }}</h2>
+                <p>En bekræftelse er sendt til din mail</p>
+                <p class="fw-bold">OBS: Vi oplever tit at automatiserede mails bliver markeret som spam, så vi
+                    opfordrer til at tjekke spam-indbakken og evt. markere info@copenhagencoaching.dk som sikker
+                    afsender i Outlook eller andre mail programmer.</p>
+            </div>
             <div class="p-md-5 p-4">
                 <p class="small"><small>Når du tilmelder dig en af vores uddannelser via formularen nedenfor, ender din
                         tilmelding i en sikret emailboks, som kun én medarbejder i CCC har adgang til. Derefter gemmes
