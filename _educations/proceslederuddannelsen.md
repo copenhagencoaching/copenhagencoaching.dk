@@ -107,7 +107,6 @@ undervisere:
 - name: Ghita Vejlebo
   text: Kvalitetsansvarlig for DOL’en og cand.mag
 - name: Line Arnmark
-- name: Mette Mejlhede
 layout: course
 emails:
 - ln@copenhagencoaching.dk
