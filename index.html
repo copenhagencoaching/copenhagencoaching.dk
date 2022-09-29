@@ -184,7 +184,7 @@ title: Copenhagencoaching
                 <h3 class="text-uppercase mb-4">
                     Kommende arrangementer
                 </h3>
-                <div class="row gy-5 gx-3">
+                <div class="row gy-5 gx-5">
                     {% assign ordered_events = site.tags.act_event | sort: date %}
                     {% for event in ordered_events %}
                     {% if event.past == true %}
@@ -193,7 +193,7 @@ title: Copenhagencoaching
                     <div class="col-12 col-md-4">
                         <a href="{{ event.url }}">
                             <div class="h-100 w-100">
-                                <img src="{{ event.image }}" alt="" class="object-fit">
+                                <img src="{% if event.thumbnail %}{{ event.thumbnail }}{% else %}{{ event.image }}{% endif %}" alt="" class="object-fit">
                             </div>
                         </a>
                     </div>
