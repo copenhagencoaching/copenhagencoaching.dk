@@ -6,7 +6,6 @@ image-2: /images/inspiration/leder-tavle.png
 infomode: true
 infomode-text: Kom til Informationsmøde om vores nye intensive og eksklusive Procesledelsesforløb.
 infomode-dates:
-- 29. september kl. 16
 - 13. oktober kl. 16
 contact-person: Ghita Vejlebo
 description: Er du leder, eller drømmer du om at bliver det? Trænger du til at få styrket dine lederkompetencer, og samtidig få de nyeste og brugbare værktøjer til medarbejdersamtaler og til håndtering af konfliktsituationer?
