@@ -14,7 +14,7 @@ hours: "21,5"
 overblik:
 - overskrift: BIG FIVE personlighedstest
   paragrafer:
-  - "BIG FIVE er en personlighedstest som bruges til rekruttering, ledelses- og medarbejderudvikling, konflikthåndtering, organisationsudvikling mv. Det er en test som måler fem basale personligheds træk:"
+  - "BIG FIVE er en personlighedstest som bruges til rekruttering, ledelses- og medarbejderudvikling, konflikthåndtering, organisationsudvikling mv. Det er en test som måler fem basale personlighedstræk:"
   list:
   - Behov for stabilitet (N) Neuroticism
   - Udadvendthed (E) Extraversion

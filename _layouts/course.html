@@ -199,6 +199,7 @@ layout: default
 </div>
 
 {% if page.kursus-oversigt == true %}
+
 <div class="container-fluid mt-5">
     <div class="small-container">
         <div class="bg-slate-gray px-5 py-4 mb-3">
@@ -706,14 +707,17 @@ layout: default
                                 <input type="text" class="form-control w-100" placeholder="Telefon" aria-label="telefon"
                                     name="telefon">
                             </div>
-
+                            <input type="hidden" name="tags" value="13-oktober-22" />
 
 
                             <div class="col-12 col-sm-6 col-md-4">
                                 <div class="form-check mb-4">
                                     <input class="form-check-input" name="_optin" type="checkbox" id="newsletter">
                                     <label class="form-check-label" for="newsletter">
-                                        <p class="small mb-0">Ja tak, jeg vil gerne modtage CCC's nyhedsbrev.</p>
+                                        <p class="small mb-0">Ved tilmelding accepterer du, at vi efterfølgende må
+                                            kontakte
+                                            dig
+                                            pr. mail omkring det oplyste informationsmøde. Du accepterer også at vi lagre dine oplysninger i Mailchimp.</p>
                                     </label>
                                 </div>
                             </div>
@@ -722,19 +726,6 @@ layout: default
                             </div>
 
                             <div class="col-12">
-                                <div class="form-check-label">
-                                    <p class="small"><small>Ved tilmelding accepterer du, at vi efterfølgende må
-                                            kontakte
-                                            dig
-                                            pr. mail eller telefon angående deltagelse i et af vores uddannelsestilbud,
-                                            kurser,
-                                            åbent hus eller andre relevante tilbud og information fra CCC. Dit samtykke
-                                            kan
-                                            altid trækkes tilbage. Når du udfylder formularen, accepterer du også, at vi
-                                            lagrer
-                                            og behandler de personoplysninger, der er angivet ovenfor.</small></p>
-
-                                </div>
 
                                 <button class="mx-auto d-block maw-200 btn-opal text-white btn mb-3"
                                     type="submit">Tilmeld</button>
