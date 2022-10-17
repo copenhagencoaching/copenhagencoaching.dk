@@ -204,32 +204,230 @@ layout: default
     <div class="small-container">
         <div class="bg-slate-gray px-5 py-4 mb-3">
             <div class="row gx-0">
-                <div class="col-8 col-md-4 d-flex align-items-center">
+                <div class="col-8 d-flex align-items-center">
                     <h2 class="text-white mb-0">
                         Kursusoversigt
                     </h2>
                 </div>
-                <div class="col-3 align-items-center d-none d-md-flex text-end">
-                    <p class="text-white mb-0 ms-3"><b>{{ page.small-price }}</b></p>
-                </div>
-
-                <div class="col-1 align-items-center justify-items-end d-none d-md-flex justify-content-end text-end">
-                    {% if page.dage %}<p class="text-white mb-0"><b>{{ page.dage }} dage</b></p>{% endif %}
-                </div>
 
 
-                <div class="col-2 align-items-center justify-items-end d-none d-md-flex justify-content-end text-end">
-                    {% if page.dage %}<p class="text-white mb-0"><b>{{ page.hours }} timer</b></p>{% endif %}
-                </div>
 
-
-                <div class="col-4 col-md-2 align-items-center justify-items-end justify-content-end text-end">
+                <div class="col-4 align-items-center justify-items-end justify-content-end text-end">
                     <a href="#ansog" class="btn btn-gray-curry mt-0 text-white text-uppercase fw-bold">Ansøg<span
-                            class="d-none d-md-inline"> nu<n /span></a>
+                            class="d-none d-md-inline"> nu</span></a>
                 </div>
             </div>
         </div>
         <div class="accordion white-arrow" id="accordionPanelsStayOpenExample">
+            {% if page.nested-hold %}
+            {% for semester in page.nested-hold %}
+
+            <div class="accordion-item border-none mb-2">
+                <div class="accordion-header d-none d-md-block" id="heading{{ forloop.index }}">
+                    <button class="accordion-button collapsed px-5 py-3 bg-quick-silver" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapse{{ forloop.index }}" aria-expanded="true"
+                        aria-controls="collapse{{ forloop.index }}">
+
+                        <div class="row gx-0 w-100 position-relative">
+                            <div class="col-md-4 col-12 d-flex align-items-center">
+                                <p class="mb-0 text-uppercase text-white fw-bold">{{ semester.aar }}</p>
+                            </div>
+
+
+
+
+
+
+                        </div>
+                    </button>
+
+                </div>
+
+
+                <div class="accordion-header border-none d-block d-md-none" id="heading{{ forloop.index }}">
+                    <button class="accordion-button white border-none collapsed px-5 py-3 bg-quick-silver" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapse{{ forloop.index }}" aria-expanded="true"
+                        aria-controls="collapse{{ forloop.index }}">
+
+                        <div class="row gx-0 w-100 position-relative">
+                            <div class="col-md-4 col-12 d-flex align-items-center">
+                                <p class="mb-0 text-uppercase text-white fw-bold">{{ semester.aar }}</p>
+                            </div>
+
+
+
+
+
+
+                        </div>
+                    </button>
+                </div>
+                <div id="collapse{{ forloop.index }}" class="accordion-collapse collapse"
+                    aria-labelledby="heading{{ forloop.index }}">
+                    <div class="accordion-body p-0">
+                        <div class="accordion white-arrow" id="accordionPanelsStayOpenExample">
+                            {% for h in semester.hold %}
+
+                            <div class="accordion-item border-none mb-2">
+                                <div class="accordion-header d-none d-md-block" id="{{ h.title | replace: ' ', '-' }}-heading{{ forloop.index }}">
+                                    <button class="accordion-button collapsed px-5 py-3 bg bg-platinum" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#{{ h.title | replace: ' ', '-' }}-collapse{{ forloop.index }}" aria-expanded="true"
+                                        aria-controls="{{ h.title | replace: ' ', '-' }}-collapse{{ forloop.index }}">
+                
+                                        <div class="row gx-0 w-100 position-relative">
+                                            <div class="col-md-4 col-12 d-flex align-items-center">
+                                                <p class="mb-0 text-uppercase fw-bold">{{ h.title }}</p>
+                                            </div>
+                
+                
+                
+                
+                
+                
+                                        </div>
+                                    </button>
+                
+                                </div>
+                
+                
+                                <div class="accordion-header border-none d-block d-md-none" id="{{ h.title | replace: ' ', '-' }}-heading{{ forloop.index }}">
+                                    <button class="accordion-button white border-none collapsed px-5 py-3 bg-platinum" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#{{ h.title | replace: ' ', '-' }}-collapse{{ forloop.index }}" aria-expanded="true"
+                                        aria-controls="{{ h.title | replace: ' ', '-' }}-collapse{{ forloop.index }}">
+                
+                                        <div class="row gx-0 w-100 position-relative">
+                                            <div class="col-md-4 col-12 d-flex align-items-center">
+                                                <p class="mb-0 text-uppercase fw-bold">{{ h.title }}</p>
+                                            </div>
+                
+                
+                
+                
+                
+                
+                                        </div>
+                                    </button>
+                                </div>
+                                <div id="{{ h.title | replace: ' ', '-' }}-collapse{{ forloop.index }}" class="accordion-collapse collapse"
+                                    aria-labelledby="{{ h.title | replace: ' ', '-' }}-heading{{ forloop.index }}">
+                                    <div class="accordion-body p-0">
+                                      
+                                        
+                
+                                        <div
+                                            class="pt-3 ps-3 pe-3 d-none d-md-block border-bottom">
+                                            <div class="row ms-4">
+                                                <div class="col-md-2 col-6">
+                                                    <p class="fw-bold">
+                                                        Dato
+                                                    </p>
+                                                </div>
+                                                <div class="col-md-2 col-6 d-none d-xl-block">
+                                                    <p class="fw-bold">
+                                                        Dag
+                                                    </p>
+                                                </div>
+                                                <div class="col-md-2 col-6">
+                                                    <p class="fw-bold">
+                                                        Tid
+                                                    </p>
+                                                </div>
+                                                <div class="col-md-3 col-6">
+                                                    <p class="fw-bold">
+                                                        Indhold
+                                                    </p>
+                                                </div>
+                                                <div class="col-md-1 col-6">
+                                                    <p class="fw-bold">
+                                                        Sted
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                
+                                        {% for module in h.modules %}
+                                       
+                                        <div class="pt-3 ps-3 pe-3 border-bottom">
+                                            <div class="row ms-4">
+                                                <div class="col-md-2 col-6">
+                                                    <p>
+                                                        {{ module.date }}
+                                                    </p>
+                                                </div>
+                                                <div class="col-md-2 col-6 d-none d-xl-block">
+                                                    <p>
+                                                        {{ module.day }}
+                                                    </p>
+                                                </div>
+                                                <div class="col-md-2 col-6">
+                                                    <p>
+                                                        {{ module.time }}
+                                                    </p>
+                                                </div>
+                                                <div class="col-md-3 col-6">
+                                                    <p>
+                                                        {{ module.name }}
+                                                    </p>
+                                                </div>
+                                                <div class="col-md-1 col-6">
+                                                    <p>
+                                                        {{ module.place }}
+                                                    </p>
+                                                </div>
+                
+                                            </div>
+                                        </div>
+                
+                                        {% endfor %}
+                
+                                    </div>
+                                </div>
+                            </div>
+                            {% endfor %}
+                        </div>
+
+                        
+
+                        {% for module in semester.modules %}
+                        {% capture thecycle %}{% cycle "first": "1", "2" %}{% endcapture %}
+                        <div class="pt-3 ps-3 pe-3{% if thecycle == '1' %} bg-platinum{% endif %}">
+                            <div class="row ms-4">
+                                <div class="col-md-2 col-6">
+                                    <p>
+                                        {{ module.date }}
+                                    </p>
+                                </div>
+                                <div class="col-md-2 col-6 d-none d-xl-block">
+                                    <p>
+                                        {{ module.day }}
+                                    </p>
+                                </div>
+                                <div class="col-md-2 col-6">
+                                    <p>
+                                        {{ module.time }}
+                                    </p>
+                                </div>
+                                <div class="col-md-3 col-6">
+                                    <p>
+                                        {{ module.name }}
+                                    </p>
+                                </div>
+                                <div class="col-md-1 col-6">
+                                    <p>
+                                        {{ module.place }}
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        {% endfor %}
+
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+            {% else %}
             {% for semester in page.hold %}
 
             <div class="accordion-item border-none mb-2">
@@ -348,6 +546,7 @@ layout: default
             </div>
 
             {% endfor %}
+            {% endif %}
         </div>
     </div>
 </div>
@@ -717,7 +916,8 @@ layout: default
                                         <p class="small mb-0">Ved tilmelding accepterer du, at vi efterfølgende må
                                             kontakte
                                             dig
-                                            pr. mail omkring det oplyste informationsmøde. Du accepterer også at vi lagre dine oplysninger i Mailchimp.</p>
+                                            pr. mail omkring det oplyste informationsmøde. Du accepterer også at vi
+                                            lagre dine oplysninger i Mailchimp.</p>
                                     </label>
                                 </div>
                             </div>
