@@ -1,10 +1,10 @@
 ---
 order: 6
 title: Camilla Dindler
-image: /images/about/employees/camilla-d-big-white.png
-portrait-image: "/images/about/employees/camilla-d-big-white.png"
-small-portrait-image: /images/about/employees/camilla-d-big-white.png
-grey-portrait: /images/about/employees/camilla-d-big-white.png
+image: /images/about/employees/camilla-dindler.png
+portrait-image: "/images/about/employees/camilla-dindler.png"
+small-portrait-image: /images/about/employees/camilla-dindler.png
+grey-portrait: /images/about/employees/camilla-dindler.png
 call: 23 64 67 20
 meta-title: Camilla Dindler - Mød medarbejderne hos CCC her
 email: cd@copenhagencoaching.dk

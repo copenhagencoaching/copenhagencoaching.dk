@@ -9,10 +9,10 @@ call: 24666371
 email: rm@copenhagencoaching.dk 
 linkedin: https://www.linkedin.com/in/rasmus-mejlhede-92352083/
 data-id: ''
-image: /images/graphic/placeholder-profile.png
-portrait-image: /images/graphic/placeholder-profile.png
-small-portrait-image: /images/graphic/placeholder-profile.png
-grey-portrait: /images/graphic/placeholder-profile.png
+image: /images/about/employees/rasmus-mejlhede.png
+portrait-image: /images/about/employees/rasmus-mejlhede.png
+small-portrait-image: /images/about/employees/rasmus-mejlhede.png
+grey-portrait: /images/about/employees/rasmus-mejlhede.png
 edu:
 - Cand.mag i filosofi fra Københavns Universitet
 - Master i Business Coaching
