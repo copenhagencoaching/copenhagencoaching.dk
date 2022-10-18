@@ -23,6 +23,6 @@ Line er drevet af nysgerrighed på, hvordan man som professionel og som menneske
 
 Hendes interessefelt omfatter også det organisatoriske felt, hvor hun udforsker, udfordrer og udvikler gode veje til at opbygge organisatorisk handlekraft gennem et fokus på dialogisk kapacitet, psykologisk tryghed, intrinsiske motivationsfaktorer, kollektiv mestring og tydelig meningsskabelse.
 
-Line understøtter offentlige ledere og medarbejdere i deres arbejde med at se muligheder og navigere i et komplekst virkefelt med mange konkurrerende bundlinjer, utilstrækkelige ressourcer og en evig foranderlig omverden.  
+Line understøtter topledere, ledere og medarbejdere i deres arbejde med at se muligheder og navigere i et komplekst virkefelt med mange konkurrerende bundlinjer, utilstrækkelige ressourcer og en evig foranderlig omverden.
 
 Line er i 2022 nomineret til Uddannelses- og Forskningsministeriets underviserpris og har mange års erfaring med at facilitere dialoger og kollektive læreprocesser, som udforsker vejene mellem mulighed og nødvendighed - at finde ind til det væsentlige – for den enkelte og for organisationen.
