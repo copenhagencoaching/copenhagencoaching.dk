@@ -577,6 +577,12 @@ cat:
 - lederskab
 - put
 - coaching
+infomode: true
+infomode-text: Kom til informationsmøde omkring vors masteruddannelse.
+infomode-dates:
+- 23. nov. 16.00-17.00 (online)
+- 29. nov. 16.00-17.30 (fysisk)
+- 5. jan. 16.00-17.00 (online)
 ---
 
 ### Hvorfor skal du vælge Master of Business Coaching?

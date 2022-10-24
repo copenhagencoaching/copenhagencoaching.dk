@@ -116,7 +116,7 @@ redirect_from:
   - /academy/procesleder-uddannelse/
 cat:
 - proces
-infomode: true
+infomode: false
 infomode-text: Kom til Informationsmøde om vores nye intensive og eksklusive Procesledelsesforløb.
 infomode-dates:
 - 13. oktober kl. 16

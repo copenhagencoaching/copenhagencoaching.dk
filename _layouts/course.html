@@ -866,23 +866,29 @@ layout: default
                     <div id="infomode" class="anchor-delay"></div>
                     <h2 class="text-uppercase">Informationsmøde</h2>
                     <p>{{ page.infomode-text }}</p>
-                    <p>Deltagelse er gratis, men tilmelding er nødvendig</p>
+                    <p><b>Deltagelse er gratis, men tilmelding er nødvendig</b></p>
+                    <p>Jeg vil gerne deltage på følgende datoer (Sæt hak):</p>
                     <form action="https://formspree.io/f/mvollpwe" method="POST" enctype="multipart/form-data"
                         class="mx-auto special-form p-md-0 p-5" id="form-infomode">
                         <div class="row mt-3 gy-4 gx-5 inder-form" id="inner-form">
 
 
 
-
-                            <div class="col-12 col-sm-6 col-md-8">
-                                <div class="form-check mb-4">
-                                    <input class="form-check-input" name="dato" type="checkbox"
-                                        value="13. oktober kl. 16" id="dato2">
-                                    <label class="form-check-label" for="dato2">
-                                        <p class="small mb-0 fw-bold fs-6">13. oktober kl. 16</p>
+                            {% for dato in page.infomode-dates %}
+                            <div class="col-12 col-sm-6 col-md-4">
+                                
+                                <div class="form-check mb-1">
+                                    
+                                    <input class="form-check-input mb-0" name="dato" type="checkbox"
+                                        value="{{ dato }}" id="dato{{ forloop.index }}">
+                                    <label class="form-check-label" for="dato{{ forloop.index }}">
+                                        <p class="small fw-bold">{{ dato }}</p>
                                     </label>
+                                    
                                 </div>
+                                
                             </div>
+                            {% endfor %}
                             <div class="col-12 col-sm-6 col-md-4">
 
                                 <input type="text" class="form-control w-100" placeholder="Fornavn" aria-label="fornavn"

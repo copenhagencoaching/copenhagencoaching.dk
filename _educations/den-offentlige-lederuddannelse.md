@@ -3,7 +3,7 @@ order: 4
 title: Den offentlige lederuddannelse
 image: "/images/academy/den-offentlige-lederuddannelse.png"
 image-2: /images/inspiration/leder-tavle.png
-infomode: true
+infomode: false
 infomode-text: Kom til Informationsmøde om vores nye intensive og eksklusive Procesledelsesforløb.
 infomode-dates:
 - 13. oktober kl. 16
