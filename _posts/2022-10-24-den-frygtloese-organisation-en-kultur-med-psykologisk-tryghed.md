@@ -78,7 +78,7 @@ At arbejde dialogisk og være dialogisk indstillet kræver en åbenhed og et mod
             <blockquote class="blockquote mb-4">
                 <p>
                     <i class="fas fa-quote-left fa-lg opacity-50 me-2"></i>
-                    <em><span class="lead">Som leder, projektleder og facilitator har man en særlig vigtig rolle i at opbygge psykologisk tryghed via de organisatoriske samtaler, møder og processer, man har ansvar for, også selvom det kun er procesansvar. Man kan sige det sådan, at man i kollegers og deltageres øjne har fået en organisatorisk stafet, som overlader een muligheden for at forme gode trygge rammer og dialogiske rum, der understøtter deltagernes oplevelse af ligeværd og procesretfærdighed. Stafetten er et privilegie, man bliver tildelt af ledere og kolleger. Den giver adgang til blandt andet at opstille forventninger til deltageres mødeadfærd, til roller i forskellige interaktioner, facilitere deltagelsesformer og fordele tale. Og samtidig forpligter den bæreren til lydhørhed og evne til omstilling.</span></em>
+                    <em><span class="lead">Kunne det tænkes, at den psykologisk trygge arbejdsplads dermed er et sted, hvor ledelse langtfra kun er gode langsigtede strategiske beslutninger, trygge rammevilkår og måloverholdelse, men også kvaliteten af alle de mange processer og samtaler, som foregår hver eneste dag?</span></em>
                             <i class="fas fa-quote-right fa-lg opacity-50 me-2"></i>
                 </p>
             </blockquote>
