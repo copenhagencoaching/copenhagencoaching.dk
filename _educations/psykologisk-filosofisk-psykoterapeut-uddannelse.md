@@ -9,9 +9,9 @@ meta-description: Få et dybere, højere og bredere beredskab med vores psykoter
 aktive-hold: true
 kursus-oversigt: true
 hold:
-- title: Hold 2 - Start forår 2023
+- title: Hold 2 - År 1 - Start forår 2023
   price: 162.000 (Ekskl. moms)
-  dates: 13. april -
+  dates: 13. april - 1. december
   modules:
   - date: 13. - 14. april
     day: "-"
@@ -34,6 +34,35 @@ hold:
     name: Modul 3
     place: "-"
   - date: 30. november - 1. december
+    day: "-"
+    time: "-"
+    name: Modul 4
+    place: "-"
+- title: Hold 1 - År 2 - Start forår 2023
+  price: 162.000 (Ekskl. moms)
+  dates: 19. januar - 4. november
+  modules:
+  - date: 19. - 21. januar
+    day: "-"
+    time: "-"
+    name: Internat
+    place: "-"
+  - date: 9. - 11. marts
+    day: "-"
+    time: "-"
+    name: Modul 1
+    place: "-"
+  - date: 11. - 13. maj
+    day: "-"
+    time: "-"
+    name: Modul 2
+    place: "-"
+  - date: 21. - 23. september
+    day: "-"
+    time: "-"
+    name: Modul 3
+    place: "-"
+  - date: 2. - 4. november
     day: "-"
     time: "-"
     name: Modul 4
