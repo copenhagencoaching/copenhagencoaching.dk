@@ -8,11 +8,11 @@ category: event
 tags:
 - event
 - infomøde
-- act_event
 layout: event-new
 only-month: false
 price: "Gratis"
 billetto: false
+past: true
 image-2: /images/events/foredrag.png
 ex-moms: true
 prime-color: army-green
