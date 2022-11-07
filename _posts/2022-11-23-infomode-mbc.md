@@ -1,5 +1,5 @@
 ---
-image: /images/graphic/studerende.png
+image: /images/events/events.jpg
 description: "Ønsker du at blive dygtig til at føre produktive og virkningsfulde
 dialoger – og stå stærkere i den personlige kontakt, så kom til informationsmøde om vores lederuddannelse Master of Business
 Coaching. En uddannelse der stimulerer din dialogiske kapacitet og lærer dig at blive endnu bedre til at holde
@@ -16,7 +16,7 @@ layout: event-new
 only-month: false
 price: "Gratis"
 billetto: false
-image-2: /images/events/foredrag.png
+image-2: /images/events/events.jpg
 ex-moms: true
 prime-color: army-green
 secondary-color: scandy-blue

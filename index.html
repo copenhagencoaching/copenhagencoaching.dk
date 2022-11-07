@@ -186,7 +186,7 @@ title: Copenhagencoaching
                 </h3>
                 <div class="row gy-5 gx-5">
                     {% assign ordered_events = site.tags.act_event | sort: date %}
-                    {% for event in ordered_events %}
+                    {% for event in ordered_events limit: 4 %}
                     {% if event.past == true %}
                     {% else %}
 

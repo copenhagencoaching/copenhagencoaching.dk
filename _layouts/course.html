@@ -1010,12 +1010,24 @@ layout: default
                         <select class="form-select udd mbc-hold mb-3" id="hold" name="hold">
                             <option value="hold">Vælg hold</option>
 
+                            {% if page.nested-hold %}
+            {% for semester in page.nested-hold %}
+            {% for h in semester.hold %}
+
+
+                            <option value="{{ h.title }}">{{ h.title }}</option>
+
+                            {% endfor %}
+                            {% endfor %}
+                            {% else %}
                             {% for hold in page.hold %}
 
 
                             <option value="{{ hold.title }}">{{ hold.title }}</option>
 
                             {% endfor %}
+                        {% endif %}
+                           
 
 
                         </select>
