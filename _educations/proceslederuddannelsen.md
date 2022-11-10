@@ -77,7 +77,7 @@ hold:
     place: Online
   - date: 30. november
     day: 5
-    time: "14:00 - 17:00"
+    time: "12:00 - 15:00"
     name: "-"
     place: Online
   - date: 8. december
@@ -87,13 +87,52 @@ hold:
     place: København
   - date: 9. december
     day: 7
-    time: "-"
+    time: "09:00 - 16:00"
     name: "Gruppedag"
-    place: "Individuel planlagt"
-  - date: 15. - 16. december
-    day: 8-9
-    time: "-"
+    place: "København"
+  - date: 16. december
+    day: 8
+    time: "09:00 - 17:00"
     name: "Eksamen"
+    place: "København"
+- title: Proceslederuddannelsen - Forår 2023
+  price: 27.500 ekskl. moms
+  dates: 30. marts - 2. juni
+  modules:
+  - date: 30. marts
+    day: 1
+    time: "10:00 - 22:00"
+    name: "-"
+    place: København
+  - date: 31. marts
+    day: 2
+    time: "09:00 - 16:00"
+    name: "-"
+    place: København
+  - date: 14. april
+    day: 3
+    time: "11:00 - 14:00"
+    name: "-"
+    place: Online
+  - date: 28. april
+    day: 4
+    time: "11:00 - 14:00"
+    name: "-"
+    place: Online
+  - date: 11. maj
+    day: 5
+    time: "12:00 - 15:00"
+    name: "-"
+    place: Online
+  - date: 1. juni
+    day: 6
+    time: "10:00 - 17:00"
+    name: "-"
+    place: København
+  - date: 2. juni
+    day: 7
+    time: "09:00 - 16:00"
+    name: "Gruppedag"
     place: "København"
 contact-person: Lars Nyborg
 event-title: Kommende hold
