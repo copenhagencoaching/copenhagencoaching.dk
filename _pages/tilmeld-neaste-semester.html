@@ -16,36 +16,40 @@ permalink: /tilmeld/
         <h1>Tilmeld dig næste semester</h1>
 
         <div class="bg-platinum py-5 px-3 mt-5">
-            <form action="https://formspree.io/f/mknekyer" style="max-width: 600px;" class="mx-auto special-form p-4 p-md-0" method="POST" id="semester-form">
+            <form action="https://formspree.io/f/mknekyer" style="max-width: 600px;"
+                class="mx-auto special-form p-4 p-md-0" method="POST" id="semester-form">
 
                 <div class="row">
                     <div class="col-md-6 col-12 pt-2">
                         <select class="form-select udd mbc-hold mb-3" id="hold" name="hold">
                             <option value="hold">Vælg hold</option>
-{% for ud in site.educations %}
+                            {% for ud in site.educations %}
                             {% if ud.nested-hold %}
                             {% if ud.title == "Master of Business Coaching" %}
-            {% for semester in ud.nested-hold %}
-            {% for h in semester.hold %}
-            {% if h.title contains 'Semester 1' %}
+                            {% for semester in ud.nested-hold %}
+                            {% for h in semester.hold %}
+                            {% if h.title contains 'Semester 1' %}
 
-{% else %}
+                            {% else %}
                             <option value="{{ h.title }}">{{ h.title }}</option>
                             {% endif %}
                             {% endfor %}
                             {% endfor %}
-                           
-                        {% endif %}
-                        {% endif %}
-{% endfor %}
+
+                            {% endif %}
+                            {% endif %}
+                            {% endfor %}
 
                         </select>
                     </div>
                     <div class="col-md-6 col-12 mb-3">
                         <input class="form-control mb-3" type="text" name="name" placeholder="Navn" required>
                     </div>
+                    <div class="col-md-6 col-12 mb-3">
+                        <input class="form-control mb-3" type="text" name="email" placeholder="Email" required>
+                    </div>
                     <div class="col-12">
-<p><b>Har dine oplysninger ændret sig?</b></p>
+                        <p><b>Har dine oplysninger ændret sig?</b></p>
 
                     </div>
                     <div class="col-md-6 col-12 mb-2">
@@ -59,16 +63,15 @@ permalink: /tilmeld/
                         <div class="form-check">
                             <input class="form-check-input yes" type="radio" name="oplysninger-nye" id="inlineRadio5"
                                 value="ja">
-                            <label class="form-check-label" for="inlineRadio5">Ja, mine oplysninger har ændret sig</label>
+                            <label class="form-check-label" for="inlineRadio5">Ja, mine oplysninger har ændret
+                                sig</label>
                         </div>
-                    
+
                     </div>
 
                 </div>
                 <div class="row sem-info d-none mt-3">
-                    <div class="col-md-6 col-12 mb-2">
-                        <input class="form-control mb-3" type="text" name="email" placeholder="Email">
-                    </div>
+                 
                     <div class="col-md-6 col-12 mb-2">
                         <input class="form-control mb-3" type="text" name="virksomhed" placeholder="Virksomhed">
                     </div>
@@ -95,8 +98,8 @@ permalink: /tilmeld/
 
                     </div>
                     <div class="col-md-6 col-12 mb-2">
-                        <input type="text" class="form-control w-100 mb-3" placeholder="Postnummer" aria-label="postnummer"
-                            name="postnummer">
+                        <input type="text" class="form-control w-100 mb-3" placeholder="Postnummer"
+                            aria-label="postnummer" name="postnummer">
 
                     </div>
 
@@ -116,9 +119,9 @@ permalink: /tilmeld/
                     </div>
 
                 </div>
-                
 
-                
+
+
 
                 <div class="mt-4"></div>
                 <div class="g-recaptcha" data-sitekey="6Lfi__EcAAAAABOscNdrKzqeLNu2vbuTM_5VlANy"></div>
@@ -130,8 +133,8 @@ permalink: /tilmeld/
                 <p>Husk at udfylde alle oblikatoriske felter</p>
             </div>
             <div id="semester-status" class="d-none">
-                <p>Tak for din tilmelding/framelding. Du vil snarest få en bekræftelse på mail.</p>
-                <p>Tryk på nedenstående knap og tilføj træningsaftenen i din kalender.</p>
+                <p>Tak for din tilmelding til det næste semester. Du vil snarest få en bekræftelse på mail.</p>
+                
 
             </div>
         </div>
@@ -170,7 +173,7 @@ permalink: /tilmeld/
         }).then(response => {
             if (!response.ok) {
                 stat_er.className = "d-block"
-                
+
                 return;
             } else {
                 status.className = "py-3 text-center"
