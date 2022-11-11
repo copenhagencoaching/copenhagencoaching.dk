@@ -578,7 +578,7 @@ cat:
 - put
 - coaching
 infomode: true
-infomode-text: Kom til informationsmøde omkring vors masteruddannelse.
+infomode-text: Kom til informationsmøde om vores masteruddannelse.
 infomode-dates:
 - 23. nov. 16.00-17.00 (online)
 - 29. nov. 16.00-17.30 (fysisk)
