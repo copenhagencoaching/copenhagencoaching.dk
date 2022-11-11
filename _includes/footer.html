@@ -2,7 +2,8 @@
     <div class="container-fluid pt-5 pb-5">
         <div class="row gy-4">
             <div class="col-12 col-lg-6 col-xl-4">
-                <h4 class="text-uppercase">{{ site.title }}</h4>
+                <h4 class="text-uppercase">{{ site.title | remove: " - Coaching og uddannelse af ledere" }}</h4>
+                <p class="text-uppercase fs-6">- Coaching og uddannelse af ledere</p>
                 <p>Copenhagen Coaching Center blev dannet i 2004 og er et partnerejet selskab, der udbyder åbne
                     uddannelser.
 
@@ -24,9 +25,41 @@
                     {% assign orderposts = site.tags.event | order: "date" | reverse %}
                     {% for post in orderposts %}
                     {% if post.past != true %}
+                    {% assign postmonth = post.date | date: "%m" %}
 
-                    <li>
-                        <a href="{{ post.url }}">{{ post.title }}</a>
+
+                    {% if postmonth == "01" %}
+                    {% assign monthName = "januar" %}
+                    {% elsif postmonth == "02" %}
+                    {% assign monthName = "februar" %}
+                    {% elsif postmonth == "03" %}
+                    {% assign monthName = "marts" %}
+                    {% elsif postmonth == "04" %}
+                    {% assign monthName = "april" %}
+                    {% elsif postmonth == "05" %}
+                    {% assign monthName = "maj" %}
+                    {% elsif postmonth == "06" %}
+                    {% assign monthName = "juni" %}
+                    {% elsif postmonth == "07" %}
+                    {% assign monthName = "juli" %}
+                    {% elsif postmonth == "08" %}
+                    {% assign monthName = "august" %}
+                    {% elsif postmonth == "09" %}
+                    {% assign monthName = "september" %}
+                    {% elsif postmonth == "10" %}
+                    {% assign monthName = "oktober" %}
+                    {% elsif postmonth == "11" %}
+                    {% assign monthName = "november" %}
+                    {% elsif postmonth == "12" %}
+                    {% assign monthName = "december" %}
+                    {% endif %}
+
+                    <li class="pt-3">
+                        <a href="{{ post.url }}">{{ post.date | date: "%d. "}} {{
+                            monthName
+                            }}{{ post.date | date:
+                            "
+                            %Y"}}<br><b>{{ post.title }}</b></a>
                     </li>
                     {% endif %}
                     {% endfor %}
