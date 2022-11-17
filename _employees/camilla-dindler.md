@@ -15,17 +15,17 @@ description: Seniorkonsulent
 linkedin: https://www.linkedin.com/in/camilladindler/
 data-id: ''
 edu:
-- Cand.mag.
-- Ph.d. i politisk kommunikation, Københavns Universitet
+- Cand.mag. Dansk og Mellemøststudier
+- Ph.d.  Politisk kommunikation, Københavns Universitet
 - 1-årigt grundkursus i Integreret Psykoterapi og Kybernetisk Psykologi, Vedfeltinstituttet
 - Basiskursus i studieledelse ved danske universiteter, Administrativ efteruddannelse for universitetsansatte (AEU)
+- Stud. Master of Business Coaching (EQA)
+- Stud. Psykologisk Filosofisk Psykoterapeutuddannelse, CCC
 ---
-Camilla er en erfaren underviser, forsker og vejleder med dyb indsigt i strategisk politisk kommunikation og dialogbaseret kommunikation. Som kommunikationscoach kan Camilla blandt andet bistå med at spotte mulighederne for at udvikle konstruktiv og samskabende kommunikation og med at blive opmærksom på forholdet mellem kroppens kommunikation og de væsentlige budskaber og værdier, man ønsker at bringe for verden.
+Camilla er en erfaren underviser, forsker og vejleder med dyb indsigt i strategisk kommunikation og dialogbaseret kommunikation. Som ledelses- og kommunikationscoach kan Camilla bistå med at spotte mulighederne for at udvikle konstruktiv kommunikation og stå i ledelsesopgaven med integritet. Hun hjælper også gerne med at blive opmærksom på forholdet mellem kroppens kommunikation og de budskaber og værdier, man ønsker at bringe for verden.
 
-Camilla er sjældent evaluerende, men møder dig med et bredt kommunikationsfagligt blik i en dialog om din egen samtale- og kommunikationspraksis og med en nysgerrig indstilling over for de værdier og begreber, som former vores verden. Et møde med Camilla kan hjælpe dig med at skabe en balance mellem dine egne faglige krav, dine personlige værdier og de forventninger og reaktioner, du som fagperson bliver mødt med i dit unikke miljø.
+Camilla er sjældent evaluerende, men møder dig med et bredt fagligt blik i en dialog om din egen ledelses- og kommunikationspraksis. Et møde med Camilla kan hjælpe dig med at skabe en balance mellem dine egne faglige krav, dine personlige værdier og de forventninger og reaktioner, du som fagperson bliver mødt med i dit unikke miljø.
 
-Camilla står også bag meget af centerets kommunikation og markedsføring på digitale medier.
+Camilla har tidligere arbejdet som journalist, i TV- og forlagsbranchen samt som forsker, kommunikationskonsulent, underviser og med projekt- og studieledelse.
 
-Camilla har arbejdet som journalist, i TV- og forlagsbranchen samt som forsker, kommunikationskonsulent, underviser og med studieledelse.
-
-Camilla er deltidsansat på Copenhagen Coaching Center og deltidsansat som lektor på Aalborg Universitet, hvor hun underviser og forsker i kommunikation, særligt dialogisk kommunikation, kropssprog samt politisk og strategisk kommunikation.
+Camilla er også deltidsansat som lektor på Aalborg Universitet, hvor hun underviser og forsker i kommunikation, særligt dialogisk kommunikation, kropssprog samt politisk og strategisk kommunikation.
