@@ -93,5 +93,42 @@ layout: default
 </div>
 {% endif %}
 
+
 {% include sections/newsletter.html %}
 {% include sections/inpiration.html %}
+<div class="bg-platinum" id="bliv-ringet-op">
+    <div class="container-fluid">
+        <div class="small-container">
+            <div class="p-5 mt-5">
+                <div class="row gx-5">
+                    <div class="col-12 col-lg-6 position-relative">
+                        <div id="kontakt-underviseren" class="anchor-delay"></div>
+                        <h4 class="text-uppercase">Skal vi tales ved?</h4>
+                        <p>Indtast navn og telefonnummer og en af vores undervisere ringer dig op inden for 24 timer.</p>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <form id="tlf-coffee-form" action="https://formspree.io/f/xyyoddyz" method="POST">
+                            <div class="row gy-3" id="coffee">
+                                <div class="col-md-6 col-12">
+                                    <input type="text" class="form-control" placeholder="Navn" aria-label="Navn" name="navn"
+                                        required>
+                                </div>
+                                <input type="hidden" name="I-forbindelse-med" value="{{ page.title }}">
+                                <input type="hidden" name="henvendelse" value="Jeg vil gerne ringes op">
+                                <div class="col-md-6 col-12">
+                                    <input type="text" class="form-control" placeholder="Tlf. nr."
+                                        aria-label="telefonnummer" name="tlf. nr." required>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-opal w-100 my-0">Ring mig op</button>
+                                </div>
+    
+                            </div>
+                            <p id="my-form-coffee-status" class="text-white mt-3 bg-xanadu p-2 d-none"></p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

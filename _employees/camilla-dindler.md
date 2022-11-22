@@ -22,7 +22,9 @@ edu:
 - Stud. Master of Business Coaching (EQA)
 - Stud. Psykologisk Filosofisk Psykoterapeutuddannelse, CCC
 ---
-Camilla er en erfaren underviser, forsker og vejleder med dyb indsigt i strategisk kommunikation og dialogbaseret kommunikation. Som ledelses- og kommunikationscoach kan Camilla bistå med at spotte mulighederne for at udvikle konstruktiv kommunikation og stå i ledelsesopgaven med integritet. Hun hjælper også gerne med at blive opmærksom på forholdet mellem kroppens kommunikation og de budskaber og værdier, man ønsker at bringe for verden.
+Camilla er en erfaren underviser, forsker og vejleder med dyb indsigt i strategisk Camilla er en erfaren underviser, forsker og vejleder med dyb indsigt i strategisk kommunikation og dialogbaseret kommunikation. Camilla har særlig erfaring i og interesse for ledelse i videnstunge organisationer, herunder ledelse uden personaleansvar og team- og projektsamarbejde.
+
+Som ledelses- og kommunikationscoach kan Camilla bistå med at spotte mulighederne for at udvikle konstruktiv kommunikation og stå i ledelsesopgaven med integritet. Hun hjælper også gerne med at blive opmærksom på forholdet mellem kroppens kommunikation og de budskaber og værdier, man ønsker at bringe for verden.
 
 Camilla er sjældent evaluerende, men møder dig med et bredt fagligt blik i en dialog om din egen ledelses- og kommunikationspraksis. Et møde med Camilla kan hjælpe dig med at skabe en balance mellem dine egne faglige krav, dine personlige værdier og de forventninger og reaktioner, du som fagperson bliver mødt med i dit unikke miljø.
 

@@ -119,3 +119,9 @@ a.underlined {
         opacity: 1;
     }
   } 
+
+  .link-under {
+    a {
+        text-decoration: underline !important;
+    }
+  }
