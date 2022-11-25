@@ -1,0 +1,134 @@
+---
+layout: default
+---
+
+<div class="pt-3">
+
+
+    <div class="pt-5"></div>
+
+    <div class="container-fluid pt-5">
+        <div class="small-container">
+            <div class="row pt-5 gx-5 gy-3">
+                <div class="col-12">
+                    <img src="{{ page.image }}" alt="" class="object-fit h-100 w-100">
+
+                </div>
+                <div class="col-12 text-justify">
+                    <div class="pt-4">
+                        <h2>{{ page.header }}</h2>
+                        {% for p in page.paragraphs %}
+                        <p>{{ p }}</p>
+                        {% endfor %}
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="bg-platinum mt-3">
+    <div class="container-fluid">
+        <div class="small-container py-5">
+            <h2 class="mb-4">Bliv inspireret</h2>
+            <div class="row gx-5">
+                {% for post in site.educations %}
+                {% for edu in page.edus %}
+                {% if post.title == edu %}
+                <div class="col-md-4 col-12">
+                    <div class="bg-white">
+                        <a href="{{ post.url }}">
+                            <img src="{{ post.image }}" alt="" class="h-150px object-fit w-100">
+                            <div class="px-3 pt-3 mh-200">
+                                <h4 class="text-uppercase mt-2">
+                                    Underside
+                                </h4>
+                                <p class="text-justify mb-0">Nunc sed turpis. Praesent ac massa at ligula laoreet iaculis.
+                                    Mauris sollicitudin fermentum libero. Sed augue ipsum, egestas nec, vestibulum et,
+                                    malesuada adipiscing, dui. Ut non enim eleifend felis pretium feugiat.</p>
+                            </div>
+                            <div class="px-3 pb-4 pt-0 mt-0 row gx-2">
+                                <div class="col-6">
+                                    <a href="{{ post.url }}" class="btn btn-dark-sienna text-white mt-0 fw-bold w-100 rounded-0">Læs
+                                        mere</a>
+                                </div>
+                                <div class="col-6">
+                                    <a href="{{ post.url }}" class="btn btn-dark-sienna text-white mt-0 fw-bold w-100 rounded-0">Hør
+                                        mere</a>
+                                </div>
+                                
+                               
+                            </div>
+
+                        </a>
+                    </div>
+
+                </div>
+                {% endif %}
+                {% endfor %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="small-container py-5">
+        <div class="row gx-5 gy-4">
+
+            {% for ed in site.educations limit: 4 %}
+
+
+            <div class="col-12 col-md-6">
+                <a href="{{ ed.url }}">
+                    <img src="{{ ed.image-2 }}" alt="" class="object-fit h-150px w-100">
+                    <h3 class="text-uppercase mt-3">{{ ed.title }}</h3>
+                    <p class="mb-0">{{ ed.meta-description }}</p>
+                </a>
+            </div>
+
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+<div class="bg-platinum" id="bliv-ringet-op">
+    <div class="container-fluid">
+        <div class="small-container">
+            <div class="p-5">
+                <div class="row gx-5">
+                    <div class="col-12 col-lg-6 position-relative">
+                        <div id="kontakt-underviseren" class="anchor-delay"></div>
+                        <h4 class="text-uppercase">Skal vi tales ved?</h4>
+                        <p>Indtast navn og telefonnummer og en af vores undervisere ringer dig op inden for 24 timer.
+                        </p>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <form id="tlf-coffee-form" action="https://formspree.io/f/xyyoddyz" method="POST">
+                            <div class="row gy-3" id="coffee">
+                                <div class="col-md-6 col-12">
+                                    <input type="text" class="form-control" placeholder="Navn" aria-label="Navn"
+                                        name="navn" required>
+                                </div>
+                                <input type="hidden" name="I-forbindelse-med" value="{{ page.title }}">
+                                <input type="hidden" name="henvendelse" value="Jeg vil gerne ringes op">
+                                <div class="col-md-6 col-12">
+                                    <input type="text" class="form-control" placeholder="Tlf. nr."
+                                        aria-label="telefonnummer" name="tlf. nr." required>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-opal w-100 my-0">Ring mig op</button>
+                                </div>
+
+                            </div>
+                            <p id="my-form-coffee-status" class="text-white mt-3 bg-xanadu p-2 d-none"></p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
