@@ -1,5 +1,5 @@
 ---
-title: Trest
+title: Test
 meta-title: Test
 meta-description: På Copenhagen Coaching Center er udgangspunktet, at alle mennesker filosoferer. Coaching – og særligt filosofisk coaching - kan være en særlig måde at filosofere over sit liv på, som gør det dybere og rigere, end man indledningsvis var bevidst om. Disse erkendelser kan generere en stærk oplevelse af frihed og handlekraft. 
 header: Filosofi betyder kærlighed til viden
@@ -7,9 +7,9 @@ paragraphs:
 - Man kan forstå filosofi på flere måder. For det første som en måde at tænke og leve sit liv på. For det andet som en særlig videnskabelig disciplin. Og for det tredje som det at filosofere. I mange tilfælde er disse forståelser overlappende. Eksempelvis kan man sige, at en livsfilosofi i forskellig grad kan være formet netop af, at man har filosoferet over nogle grundlæggende værdier og fænomener i tilværelsen. Og en del af denne filosoferen kan være inspireret af filosofiske tænkere, hvis værker man har læst eller hørt om.
 - På Copenhagen Coaching Center er udgangspunktet, at alle mennesker filosoferer. Coaching – og særligt filosofisk coaching - kan være en særlig måde at filosofere over sit liv på, som gør det dybere og rigere, end man indledningsvis var bevidst om. Disse erkendelser kan generere en stærk oplevelse af frihed og handlekraft.
 edus:
-- Ledelseskursus på Lesbos
-- Psykologisk filosofisk psykoterapeut-uddannelse
 - Master of Business Coaching
+- Psykologisk filosofisk psykoterapeut-uddannelse
+- Online certificering i personlighedstesten BIG FIVE
 image: /images/blog/filosofi.png
 box-position: bottom
 layout: landing-second

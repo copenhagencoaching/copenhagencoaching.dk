@@ -42,13 +42,11 @@ layout: default
                     <div class="bg-white">
                         <a href="{{ post.url }}">
                             <img src="{{ post.image }}" alt="" class="h-150px object-fit w-100">
-                            <div class="px-3 pt-3 mh-200">
-                                <h4 class="text-uppercase mt-2">
-                                    Underside
-                                </h4>
-                                <p class="text-justify mb-0">Nunc sed turpis. Praesent ac massa at ligula laoreet iaculis.
-                                    Mauris sollicitudin fermentum libero. Sed augue ipsum, egestas nec, vestibulum et,
-                                    malesuada adipiscing, dui. Ut non enim eleifend felis pretium feugiat.</p>
+                            <div class="px-3 pt-3 mh-250">
+                                <h5 class="text-uppercase mt-2">
+                                    {{ post.title }}
+                                </h5>
+                                <p class="mb-0">{{ post.description }}</p>
                             </div>
                             <div class="px-3 pb-4 pt-0 mt-0 row gx-2">
                                 <div class="col-6">
