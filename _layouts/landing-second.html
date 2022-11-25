@@ -1,6 +1,99 @@
 ---
 layout: default
 ---
+<!-- Modal -->
+<div class="modal fade" id="exampleModalTilbud" tabindex="-1" aria-labelledby="exampleModalLabelTilbud"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content bg-platinum rounded-0">
+            <div class="modal-header px-5 pt-5">
+                <h1 class="modal-title fs-5" id="exampleModalLabelTilbud">Hør mere</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body px-5 pb-5">
+                <form action="https://formspree.io/f/xpzneraq" method="POST" enctype="multipart/form-data"
+                    class="mx-auto special-form p-md-0 p-5" id="form-tilbud">
+                    <div class="row mt-3 gy-4 gx-5 inder-form" id="inner-form">
+
+                        <div class="col-12">
+                            <select class="form-select w-100" aria-label="Default select example"
+                                name="Jeg er interesseret i">
+                                <option value="Intet emne valgt" selected>Jeg er interesseret i at høre mere om...
+                                </option>
+                                <option value="Master of business coaching">Master of business coaching</option>
+                                <option value="Certificering i Big Five">Certificering i Big Five</option>
+                                <option value="Ledelseskursus på Lesbos">Ledelseskursus på Lesbos</option>
+                                <option value="Andet">Andet</option>
+
+                            </select>
+                        </div>
+
+                        <input type="hidden" value="fra tilbud landingside" name="henvendelse fra">
+                        <div class="col-12 col-sm-6 col-md-6">
+
+                            <input type="text" class="form-control w-100" placeholder="Fornavn" aria-label="fornavn"
+                                name="FNAME" required>
+
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6">
+                            <input type="text" class="form-control w-100" placeholder="Efternavn" aria-label="efternavn"
+                                name="LNAME" required>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6">
+                            <input type="text" class="form-control w-100" placeholder="E-mail" aria-label="email"
+                                name="email" required>
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-md-6">
+                            <input type="text" class="form-control w-100" placeholder="Virksomhed"
+                                aria-label="virksomhed" name="virksomhed">
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6">
+                            <input type="text" class="form-control w-100" placeholder="Telefon" aria-label="telefon"
+                                name="telefon">
+                        </div>
+
+
+
+                        <div class="col-12">
+                            <div class="form-check mb-4">
+                                <input class="form-check-input" name="_optin" type="checkbox" id="newsletter" required>
+                                <label class="form-check-label" for="newsletter">
+                                    <p class="small mb-0">Jeg accepterer, at Copenhagen Coaching Center må kontakte mig
+                                        pr. mail vedr. information omkring tilbud, samt må arkivere mine oplysninger til
+                                        dette formål.</p>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="g-recaptcha" data-sitekey="6Lfi__EcAAAAABOscNdrKzqeLNu2vbuTM_5VlANy"></div>
+                        </div>
+
+                        <div class="col-12">
+
+                            <button class="mx-auto d-block maw-200 btn-dark-sienna text-white btn mb-3"
+                                type="submit">Send</button>
+                        </div>
+                    </div>
+
+                </form>
+
+                <div class="d-none text-center" id="stat-info-error">
+                    <p>Husk at udfylde alle felter</p>
+                </div>
+                <div class="d-none message-form-udd" id="form-message-info">
+                    <h2>Tak for din henvendelse. Du vil høre fra os snarrest.</h2>
+                    <p>En bekræftelse er sendt til din mail</p>
+                    <p class="fw-bold">OBS: Vi oplever tit at automatiserede mails bliver markeret som spam, så vi
+                        opfordrer til at tjekke spam-indbakken og evt. markere info@copenhagencoaching.dk som sikker
+                        afsender i Outlook eller andre mail programmer.</p>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
 
 <div class="pt-3">
 
@@ -50,15 +143,17 @@ layout: default
                             </div>
                             <div class="px-3 pb-4 pt-0 mt-0 row gx-2">
                                 <div class="col-6">
-                                    <a href="{{ post.url }}" class="btn btn-dark-sienna text-white mt-0 fw-bold w-100 rounded-0">Læs
+                                    <a href="{{ post.url }}"
+                                        class="btn btn-dark-sienna text-white mt-0 fw-bold w-100 rounded-0">Læs
                                         mere</a>
                                 </div>
                                 <div class="col-6">
-                                    <a href="{{ post.url }}" class="btn btn-dark-sienna text-white mt-0 fw-bold w-100 rounded-0">Hør
-                                        mere</a>
+                                    <button class="btn btn-dark-sienna text-white mt-0 fw-bold w-100 rounded-0"
+                                        type="button" data-bs-toggle="modal" data-bs-target="#exampleModalTilbud">Hør
+                                        mere</button>
                                 </div>
-                                
-                               
+
+
                             </div>
 
                         </a>
@@ -130,3 +225,36 @@ layout: default
         </div>
     </div>
 </div>
+
+<script>
+    var form_info = document.getElementById("form-tilbud");
+
+    async function handleSubmit(event) {
+        event.preventDefault();
+        var status = document.getElementById("form-message-info");
+        var stat_er = document.getElementById("stat-info-error")
+        var data = new FormData(event.target);
+        fetch(event.target.action, {
+            method: form_info.method,
+            body: data,
+            headers: {
+                'Accept': 'application/json'
+            }
+        }).then(response => {
+            if (!response.ok) {
+                stat_er.className = "d-block"
+
+                return;
+            } else {
+                status.className = "py-3 text-center"
+                form_info.className = "d-none"
+                stat_er.className = "d-none"
+                form_info.reset()
+
+            }
+        }).catch(error => {
+            status.innerHTML = "Oops! There was a problem submitting your form"
+        });
+    }
+    form_info.addEventListener("submit", handleSubmit)
+</script>
