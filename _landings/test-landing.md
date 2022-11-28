@@ -13,6 +13,11 @@ edus:
 image: /images/blog/filosofi.png
 box-position: bottom
 layout: landing-second
+second-edus:
+- Proceslederuddannelsen
+- Den offentlige lederuddannelse
+- Ledelseskursus på Lesbos
+- Individuel protreptisk akkreditering
 ---
 
 Man kan forstå filosofi på flere måder. For det første som en måde at tænke og leve sit liv på. For det andet som en særlig videnskabelig disciplin. Og for det tredje som det at filosofere. I mange tilfælde er disse forståelser overlappende. Eksempelvis kan man sige, at en livsfilosofi i forskellig grad kan være formet netop af, at man har filosoferet over nogle grundlæggende værdier og fænomener i tilværelsen. Og en del af denne filosoferen kan være inspireret af filosofiske tænkere, hvis værker man har læst eller hørt om.
