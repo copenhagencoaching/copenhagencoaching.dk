@@ -113,7 +113,7 @@ title: Copenhagencoaching
                     telefonnummer
                     og en
                     af vores konsulenter ringer dig op inden for 24 timer</p>
-                <form id="tlf-coffee-form" action="https://formspree.io/f/xyyoddyz" method="POST">
+                <form id="tlf-frontpage" action="https://formspree.io/f/xyyoddyz" method="POST">
                     <div class="row mt-3 gy-3" id="coffee">
                         <div class="col-12 col-md-6">
                             <input type="text" class="form-control" placeholder="Navn" aria-label="Navn" name="navn"
@@ -127,7 +127,7 @@ title: Copenhagencoaching
                         </div>
                         <div class="col-12 col-md-6"></div>
                         <div class="col-12 col-md-6">
-                            <button class="btn btn-opal w-100 my-0 fw-bold text-uppercase" onclick="gtag('event','form submitting', { 'event_category':'ring mig op', 'event_label':'ring mig op - forside' })">Ring mig op</button>
+                            <button class="btn btn-opal w-100 my-0 fw-bold text-uppercase">Ring mig op</button>
                         </div>
 
                     </div>
@@ -272,9 +272,10 @@ title: Copenhagencoaching
             }
         }).then(response => {
             if (response.ok) {
-                status.innerHTML = "Tak for din henvendelse, du vil høre fra os snarrest.";
+                status.innerHTML = "Tak for din henvendelse, du vil høre fra os snarest.";
                 inner_form.className = "d-none"
                 status.classList.remove("d-none")
+                gtag('event','form submitting', { 'event_category':'ring mig op', 'event_label':'ring mig op - forside' })
                 form.reset()
             } else {
                 response.json().then(data => {
