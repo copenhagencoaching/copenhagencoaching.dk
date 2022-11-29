@@ -580,7 +580,6 @@ cat:
 infomode: true
 infomode-text: Kom til informationsmøde om vores masteruddannelse.
 infomode-dates:
-- 23. nov. 16.00-17.00 (online)
 - 29. nov. 16.00-17.30 (fysisk)
 - 5. jan. 16.00-17.00 (online)
 ---

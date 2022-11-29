@@ -131,11 +131,12 @@ title: Copenhagencoaching
                         </div>
 
                     </div>
-                    <div id="form-message-info" class="text-white mt-3 bg-xanadu p-2 d-none">
-                        <h4>Tak for din henvendelse</h4>
-                        <p>Du vil hurtigst som muligt blive ringet op af en af vores konsulenter.</p>
-                    </div>
+                   
                 </form>
+                <div id="form-message-info" class="text-white mt-3 bg-xanadu p-2 d-none">
+                    <h4>Tak for din henvendelse</h4>
+                    <p>Du vil hurtigst som muligt blive ringet op af en af vores konsulenter.</p>
+                </div>
             </div>
         </div>
         <div class="col-12 col-xl-4">
@@ -260,7 +261,7 @@ title: Copenhagencoaching
 
 
 <script>
-    var form = document.getElementById("tlf-frontpage");
+    var form_info = document.getElementById("tlf-frontpage");
 
     async function handleSubmit(event) {
         event.preventDefault();
@@ -268,7 +269,7 @@ title: Copenhagencoaching
         var stat_er = document.getElementById("stat-info-error")
         var data = new FormData(event.target);
         fetch(event.target.action, {
-            method: form.method,
+            method: form_info.method,
             body: data,
             headers: {
                 'Accept': 'application/json'
@@ -280,17 +281,16 @@ title: Copenhagencoaching
                 return;
             } else {
                 status.className = "py-3 text-center"
-                form.className = "d-none"
+                form_info.className = "d-none"
                 stat_er.className = "d-none"
-                gtag('event','form submitting', { 'event_category':'ring mig op', 'event_label':'ring mig op - forside' })
-                form.reset()
+                form_info.reset()
 
             }
         }).catch(error => {
             status.innerHTML = "Oops! There was a problem submitting your form"
         });
     }
-    form.addEventListener("submit", handleSubmit)
+    form_info.addEventListener("submit", handleSubmit)
 </script>
 
 
