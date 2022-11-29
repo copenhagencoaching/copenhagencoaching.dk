@@ -113,7 +113,7 @@ title: Copenhagencoaching
                     telefonnummer
                     og en
                     af vores konsulenter ringer dig op inden for 24 timer</p>
-                <form id="tlf-frontpage" action="https://formspree.io/f/xyyoddyz" method="POST">
+                <form id="coffee-index" action="https://formspree.io/f/xyyoddyz" method="POST">
                     <div class="row mt-3 gy-3" id="coffee">
                         <div class="col-12 col-md-6">
                             <input type="text" class="form-control" placeholder="Navn" aria-label="Navn" name="navn"
@@ -133,9 +133,13 @@ title: Copenhagencoaching
                     </div>
                    
                 </form>
-                <div id="form-message-info" class="text-white mt-3 bg-xanadu p-2 d-none">
+                <div id="mes-coffee-index" class="text-white mt-3 bg-xanadu p-2 d-none">
                     <h4>Tak for din henvendelse</h4>
                     <p>Du vil hurtigst som muligt blive ringet op af en af vores konsulenter.</p>
+                </div>
+                <div id="error-coffee-index" class="text-white mt-3 bg-xanadu p-2 d-none">
+                   
+                    <p>Husk at udfylde alle felter</p>
                 </div>
             </div>
         </div>
@@ -261,36 +265,36 @@ title: Copenhagencoaching
 
 
 <script>
-    var form_info = document.getElementById("tlf-frontpage");
+    var form_coffee_index = document.getElementById("coffee-index");
 
     async function handleSubmit(event) {
         event.preventDefault();
-        var status = document.getElementById("form-message-info");
-        var stat_er = document.getElementById("stat-info-error")
+        var status_coffee_index = document.getElementById("mes-coffee-index");
+        var error_coffee_index = document.getElementById("error-coffee-index")
         var data = new FormData(event.target);
         fetch(event.target.action, {
-            method: form_info.method,
+            method: form_coffee_index.method,
             body: data,
             headers: {
                 'Accept': 'application/json'
             }
         }).then(response => {
             if (!response.ok) {
-                stat_er.className = "d-block"
-
+                error_coffee_index.className = "d-block"
                 return;
             } else {
-                status.className = "py-3 text-center"
-                form_info.className = "d-none"
-                stat_er.className = "d-none"
-                form_info.reset()
+                status_coffee_index.className = "py-3 text-center"
+                form_coffee_index.className = "d-none"
+                error_coffee_index.className = "d-none"
+                gtag('event','form submission', { 'event_category':'ring mig op', 'event_label':'ring mig op - forside' })
+                form_coffee_index.reset()
 
             }
         }).catch(error => {
-            status.innerHTML = "Oops! There was a problem submitting your form"
+            status_coffee_index.innerHTML = "Oops! There was a problem submitting your form"
         });
     }
-    form_info.addEventListener("submit", handleSubmit)
+    form_coffee_index.addEventListener("submit", handleSubmit)
 </script>
 
 
