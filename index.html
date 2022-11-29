@@ -131,7 +131,10 @@ title: Copenhagencoaching
                         </div>
 
                     </div>
-                    <p id="my-form-coffee-status" class="text-white mt-3 bg-xanadu p-2 d-none"></p>
+                    <div id="form-message-info" class="text-white mt-3 bg-xanadu p-2 d-none">
+                        <h4>Tak for din henvendelse</h4>
+                        <p>Du vil hurtigst som muligt blive ringet op af en af vores konsulenter.</p>
+                    </div>
                 </form>
             </div>
         </div>
@@ -258,11 +261,11 @@ title: Copenhagencoaching
 
 <script>
     var form = document.getElementById("tlf-frontpage");
-    var inner_form = document.getElementById("coffee-frontpage");
 
     async function handleSubmit(event) {
         event.preventDefault();
-        var status = document.getElementById("my-form-coffee-frontpage-status");
+        var status = document.getElementById("form-message-info");
+        var stat_er = document.getElementById("stat-info-error")
         var data = new FormData(event.target);
         fetch(event.target.action, {
             method: form.method,
@@ -271,20 +274,17 @@ title: Copenhagencoaching
                 'Accept': 'application/json'
             }
         }).then(response => {
-            if (response.ok) {
-                status.innerHTML = "Tak for din henvendelse, du vil høre fra os snarest.";
-                inner_form.className = "d-none"
-                status.classList.remove("d-none")
+            if (!response.ok) {
+                stat_er.className = "d-block"
+
+                return;
+            } else {
+                status.className = "py-3 text-center"
+                form.className = "d-none"
+                stat_er.className = "d-none"
                 gtag('event','form submitting', { 'event_category':'ring mig op', 'event_label':'ring mig op - forside' })
                 form.reset()
-            } else {
-                response.json().then(data => {
-                    if (Object.hasOwn(data, 'errors')) {
-                        status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
-                    } else {
-                        status.innerHTML = "Oops! There was a problem submitting your form"
-                    }
-                })
+
             }
         }).catch(error => {
             status.innerHTML = "Oops! There was a problem submitting your form"
@@ -292,6 +292,7 @@ title: Copenhagencoaching
     }
     form.addEventListener("submit", handleSubmit)
 </script>
+
 
 <script>
     var form = document.getElementById("newsletter-form-1");

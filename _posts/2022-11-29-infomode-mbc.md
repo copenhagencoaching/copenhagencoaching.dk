@@ -20,7 +20,7 @@ image-2: /images/events/events.jpg
 ex-moms: true
 prime-color: army-green
 secondary-color: scandy-blue
-place: Online
+place: Blegdamsvej 104, 2100 København Ø
 time: 16:00 - 17:00
 link: true
 link-url: /academy/master-of-business-coaching/#infomode
@@ -36,7 +36,7 @@ attend_mes:
 
 En Master i Business Coaching er en ambitiøs lederuddannelse på internationalt masterniveau, der tager udgangspunkt i dig, der ønsker at styrke din dialogiske kapacitet og dit menneskelige beredskab. En uddannelse, som giver dig dialogiske, personlige og relationelle værktøjer til at påvirke og udvikle mennesker og organisationer i en hyperkompleks verden.
 
-**Vi holder også et fysisk informationsmøde den 29. november, og et online igen den 5. januar**<br>
+**Vi holder også et online den 5. januar**<br>
 Du kan tilmelde dig alle informationsmøder via linket ude til højre
 
 <ins>**[Læs mere om uddannelsen her](https://www.copenhagencoaching.dk/academy/master-of-business-coaching/)**</ins>
