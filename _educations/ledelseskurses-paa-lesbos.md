@@ -5,7 +5,7 @@ image: "/images/academy/ledelseskursus-paa-lesbos.jpg"
 contact-person: Frederikke Winther
 image-2: /images/educations/graeker.png
 meta-title: Lederkursus - Intensivt kursus i ledelse, der rykker dig
-meta-description: Hos CCC afholder vi flere gange årligt lederkurser med fokus på både at rykke dig som menneske og gøre dig til en bedre leder. Læs mere om vores kurser i ledelse her.
+meta-description: Dette intense forløb skærper dine refleksioner over og fornemmelser for det, der afgør dine handlinger i din ledelsespraksis. Med andre ord bliver du tydelig omkring dine grundværdier og dit råderum, når du leder.
 kategori: samtaler
 layout: course
 pdf: https://www.copenhagencoaching.dk/pdfs/Ledelsesrejse-på-lebos.pdf
@@ -36,8 +36,7 @@ opbygning-liste:
   - Forplejning
   - Flyrejse
   - Guide på turen
-description: Tag med på en opdagelsesrejse, hvor vi sammen udforsker ledelseskunsten
-  og finder ind til de vigtigste værdier i det at lede sig selv og fællesskabet.
+description: Dette intense forløb skærper dine refleksioner over og fornemmelser for det der afgør dine handlinger i din ledelsespraksis. Med andre ord bliver du tydelig omkring dine grundværdier og dit råderum, når du leder.
 price: 30.000,- ekskl. moms (heri er inkluderet fuld forplejning, materialer og rejse)
 event-title: Kommende rejser
 adgangskrav: Der er ingen nuværende adgangskrav

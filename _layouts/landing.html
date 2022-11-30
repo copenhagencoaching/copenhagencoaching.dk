@@ -37,6 +37,7 @@ layout: default
              
                 {% for ed in site.educations %}
                 {% for edu in page.edus %}
+                
                 {% if ed.title == edu %}
                 
                 <div class="col-12 col-md-6">
@@ -44,6 +45,7 @@ layout: default
                         <img src="{{ ed.image-2 }}" alt="" class="object-fit h-150px w-100">
                         <h3 class="text-uppercase mt-3">{{ ed.title }}</h3>
                         <p>{{ ed.meta-description }}</p>
+
                     </a>
                 </div>
                 {% endif %}

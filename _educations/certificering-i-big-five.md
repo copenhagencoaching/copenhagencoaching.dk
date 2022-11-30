@@ -4,7 +4,7 @@ title: Online certificering i personlighedstesten BIG FIVE
 image: "/images/events/big-five-event-5.jpg"
 image-2: "/images/educations/bf-1.png"
 meta-title: Big five - Markedets bedste personlighedst. Bliv certificeret hos CCC.
-meta-description: Bliv klædt på til at bruge markedets bedst underbyggede personlighedstest i rekruttering og ledelses- og medarbejderudviklingssammenhæng. Læs mere om Big Five her.
+meta-description: Ved hjælp af BIG FIVE testen kan organisationen, ledere og medarbejdere få indsigt i grundlaget for udvikling, samarbejde og fremtidigt potentiale for den enkelte, for teamet og for medarbejdergruppen.
 contact-person: Frederikke Winther
 header: Online certificering i personlighedstesten BIG FIVE
 dage: 6
@@ -30,8 +30,7 @@ overblik:
   - "Kendskabet til egen og andres personlighed giver en dybere forståelse for, hvorfor vi handler og prioriterer som vi gør, og hvad der skal til, hvis vi skal gøre noget andet, fx skifte spor, lære nyt eller blive endnu bedre til at håndtere udvalgte opgaver."
   - "Ved hjælp af BIG FIVE testen kan organisationen, ledere og medarbejdere hurtigt få indsigt i grundlaget for udvikling, samarbejde og fremtidigt potentiale med henblik på en mere hensigtsmæssig mål- og rammesætning for den enkelte, for teamet og for medarbejdergruppen"
   - "Du vil blive introduceret, undervist og certificeret i BIG FIVE’s teoretiske grundlag, dens anvendelsesmuligheder samt hvordan du konkret bruger den i praksis. Kurset vil blandt andet give et indblik I BIG FIVE's ophav, og hvordan BIG FIVE teoretisk og empirisk er den bedst underbyggede personlighedstest på markedet."
-description: Bliv certificeret til at bruge markedets bedst underbyggede personlighedstest
-  og lær at anvende den ved gruppesammensætning, rekruttering og processer.
+description: Ved hjælp af BIG FIVE testen kan organisationen, ledere og medarbejdere få indsigt i grundlaget for udvikling, samarbejde og fremtidigt potentiale for den enkelte, for teamet og for medarbejdergruppen.
 price: 19.500,- EKSKL. MOMS
 event-title: Kommende hold
 location: 'Al undervisning foregår online på Zoom. 5 online sessioner á 2-5 timers varighed.<br><br>Er du ikke bekendt med Zoom? <br><b><a href="https://zoom.us/signin">Du kan oprette en bruger og downloade appen her</a></b>.<br>Der vil altid være et link til undervisningens session på studieportalen.'

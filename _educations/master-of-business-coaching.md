@@ -2,7 +2,7 @@
 order: 1
 title: Master of Business Coaching
 layout: course
-image: "/images/international/i3.jpg"
+image: /images/educations/mbc-1.png
 image-2: /images/educations/mbc-overblik.png
 kort: true
 kategori: samtaler
@@ -118,7 +118,6 @@ profil:
   paragrafer:
   - Donec sodales sagittis magna. Etiam sit amet orci eget eros faucibus tincidunt. Vivamus euismod mauris. Praesent adipiscing. Sed a libero. Cras dapibus.. Nulla consequat massa quis enim. Nunc sed turpis. Quisque libero metus, condimentum nec, tempor a, commodo mollis, magna. Donec sodales sagittis magna. Etiam sit amet orci eget eros faucibus tincidunt. Vivamus euismod mauris. Praesent adipiscing. Sed a libero. Cras dapibus.
   - Cras dapibus.. Nulla consequat massa quis enim. Nunc sed turpis. Quisque libero metus, condimentum nec, tempor a, commodo mollis, magna.Praesent adipiscing. Sed a libero. Cras dapibus.. Nulla consequat massa quis enim. Nunc sed turpis. Quisque libero metus, condimentum nec, tempor a, commodo mollis, magna.
-image: "/images/academy/proceslederuddannelse.jpg"
 kursus-oversigt: true
 nested-hold:
 - aar: Efteår 2022

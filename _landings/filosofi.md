@@ -14,11 +14,6 @@ edus:
 image: /images/blog/filosofi.png
 box-position: bottom
 ---
-
-Man kan forstå filosofi på flere måder. For det første som en måde at tænke og leve sit liv på. For det andet som en særlig videnskabelig disciplin. Og for det tredje som det at filosofere. I mange tilfælde er disse forståelser overlappende. Eksempelvis kan man sige, at en livsfilosofi i forskellig grad kan være formet netop af, at man har filosoferet over nogle grundlæggende værdier og fænomener i tilværelsen. Og en del af denne filosoferen kan være inspireret af filosofiske tænkere, hvis værker man har læst eller hørt om.
-
-På Copenhagen Coaching Center er udgangspunktet, at alle mennesker filosoferer. Coaching – og særligt filosofisk coaching - kan være en særlig måde at filosofere over sit liv på, som gør det dybere og rigere, end man indledningsvis var bevidst om. Disse erkendelser kan generere en stærk oplevelse af frihed og handlekraft.
-
 Copenhagen Coaching Center tilbyder både uddannelser, kurser og coaching, hvor filosofi og det at filosofere spiller en central rolle. <ins>[Se her hvad vi tilbyder](/)</ins>.
 
 Herunder står lidt mere om filosofi, og hvordan det integreres i Copenhagen Coaching Centers konsulentydelser og uddannelser.
