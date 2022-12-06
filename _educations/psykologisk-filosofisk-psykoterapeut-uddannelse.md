@@ -139,6 +139,5 @@ redirect_from:
 infomode: true
 infomode-text: Kom til informationsmøde omkring uddannelsen.
 infomode-dates:
-- 5. dec. 16.00-17.00 (online)
 - 30. jan. 16.00-17.30 (fysisk)
 ---

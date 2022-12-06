@@ -18,7 +18,7 @@ ex-moms: true
 prime-color: army-green
 secondary-color: scandy-blue
 place: Online
-time: 16:00 - 17:00
+time: 16:00 - 17:30
 link: true
 link-url: /academy/psykologisk-filosofisk-psykoterapeut-uddannelse/#infomode
 community-free: false
@@ -35,8 +35,6 @@ Uddannelsen arbejder og træner desuden kognitiv, psykodynamisk og systemisk ter
 
 Endelig styrkes den studerendes kommunikative råderum og værktøjskasse, og her trækkes også på Copenhagen Coaching Centers mangeårige erfaring med at facilitere og håndtere dialoger og samtaler.
 Der bliver mulighed for spørgsmål og alle er velkomne.
-
-Vi holder også et fysisk informationsmøde d. 30 januar 2023. Du kan tilmelde dig alle informationsmøder via linket ude til højre
 
 Man kan læse mere om uddannelsen her: 
 
