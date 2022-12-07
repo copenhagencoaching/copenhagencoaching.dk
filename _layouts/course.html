@@ -873,6 +873,10 @@ layout: default
                     <p>Jeg vil gerne deltage på følgende dage (kryds af):</p>
                     <form action="https://formspree.io/f/mvollpwe" method="POST" enctype="multipart/form-data"
                         class="mx-auto special-form p-md-0 p-5" id="form-infomode">
+
+                        <input type="hidden" value="{{ page.title }}" aria-label="uddannelse"
+                            name="Uddannelse">
+
                         <div class="row mt-3 gy-4 gx-5 inder-form" id="inner-form">
 
 
@@ -892,6 +896,7 @@ layout: default
                                 
                             </div>
                             {% endfor %}
+                            
                             <div class="col-12 col-sm-6 col-md-4">
 
                                 <input type="text" class="form-control w-100" placeholder="Fornavn" aria-label="fornavn"
