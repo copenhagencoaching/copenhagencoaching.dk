@@ -12,8 +12,10 @@ consulent: true
 on-om-os: true
 mbc: true
 edu:
-- Cand. Comm. fra Roskilde Universitet
-- Master i Business Coaching
+- Cand. Comm., Roskilde Universitet
+- Master of Business Coaching (EQA), CCC
+- Certificeret i personlighedstesten Big FIVE
+- Certificeret i MBTI (Myers-Briggs Type Indicator)
 description: Direktør og GDPR ansvarlig
 linkedin: https://www.linkedin.com/in/andreas-bering-4a554b5/
 data-id: ''
@@ -21,12 +23,14 @@ redirect_from:
   - /member/andreas-bering/
 ---
 
-Andreas mestrer om nogen at perspektivere teorien, så den bliver levende og omsættelig i praksis. Dette, kombineret med Andreas’ evne til at fange og indkredse det væsentlige, gør, at man altid føler sig inspireret af ham.
+Andreas coacher og rådgiver topledere og procesledere med et skarpt blik for, hvad der virker. I den rolle udfylder han den oprindelige betydning af ordet facilitering ved, at han netop formår at gøre opgaverne lette og håndterbare.  
 
-Humor og kreativitet er bærende elementer i Andreas’ arbejde. Andreas forstår at skabe en kombination af lethed og dybde, hvilket betyder, at samarbejde og samtaler med Andreas altid bliver en sjov oplevelse, som samtidig giver mulighed for refleksion og nytænkning.   
+Andreas er meget alsidig og har en bred erfaring, blandt andet fra sit tidligere job som uddannelseschef i FDB.
 
-Hvad enten det drejer sig om coaching, rådgivning rekruttering eller andre konsulentopgaver, kan man altid regne med, at Andreas vil møde én med ordentlighed, præcision og stor kompetence.
+Han har desuden dyb erfaring med såvel afgrænsede som komplekse rekrutteringsopgaver, blandt andet i forbindelse med ansættelser og team-onboarding. Han underviser i vores certificering i personlighedstest-værktøjet Big FIVE samt på Master of Business Coaching.
 
-Andreas er udannet Cand. Comm. fra Roskilde Universitet.  Han er meget alsidig og har en bred erfaring, blandt andet fra sit tidligere job som uddannelseschef i FDB.  I 2004 var Andreas med til at starte Copenhagen Coaching Center, hvor han siden har været direktør og partner.
+Didaktisk mestrer Andreas om nogen at perspektivere teorien, så den bliver levende og omsættelig i praksis. Dette, kombineret med Andreas’ evne til at fange og indkredse det væsentlige, gør, at man altid føler sig inspireret af ham.
+
+Humor og kreativitet er bærende elementer i Andreas’ arbejde. Han forstår at skabe en kombination af lethed og dybde, som betyder, at samarbejde og samtaler med Andreas giver rum for refleksion og nytænkning.
 
 Andreas er sikkerhedsgodkendt til klassifikationsniveauet HEMMELIGT af Rigspolitiet.

@@ -15,14 +15,14 @@ description: Seniorkonsulent
 linkedin: https://www.linkedin.com/in/camilladindler/
 data-id: ''
 edu:
-- Cand.mag. Dansk og Mellemøststudier
-- Ph.d.  Politisk kommunikation, Københavns Universitet
-- 1-årigt grundkursus i Integreret Psykoterapi og Kybernetisk Psykologi, Vedfeltinstituttet
-- Basiskursus i studieledelse ved danske universiteter, Administrativ efteruddannelse for universitetsansatte (AEU)
-- Stud. Master of Business Coaching (EQA)
-- Stud. Psykologisk Filosofisk Psykoterapeutuddannelse, CCC
+- Ph.d.  Politisk kommunikation, Københavns Universitet
+- Cand.mag. Dansk og Mellemøststudier, Aalborg Uni. & Kbh. Uni.
+- 1-årigt grundkursus i Integreret Psykoterapi og Kybernetisk Psykologi, Vedfeltinstituttet. 
+- Basiskursus i studieledelse ved danske universiteter, Administrativ efteruddannelse for universitetsansatte (AEU), Syddansk Universitet
+- Stud. Master of Business Coaching (EQA), CCC
+- Stud. Psykologisk Filosofisk Psykoterapeutuddannelse, CCC 
 ---
-Camilla er en erfaren underviser, forsker og vejleder med dyb indsigt i strategisk Camilla er en erfaren underviser, forsker og vejleder med dyb indsigt i strategisk kommunikation og dialogbaseret kommunikation. Camilla har særlig erfaring i og interesse for ledelse i videnstunge organisationer, herunder ledelse uden personaleansvar og team- og projektsamarbejde.
+Camilla er en erfaren underviser, forsker og vejleder med dyb indsigt i strategisk kommunikation og dialogbaseret kommunikation. Camilla har særlig erfaring i og interesse for ledelse i videnstunge organisationer, herunder ledelse uden personaleansvar og team- og projektsamarbejde.
 
 Som ledelses- og kommunikationscoach kan Camilla bistå med at spotte mulighederne for at udvikle konstruktiv kommunikation og stå i ledelsesopgaven med integritet. Hun hjælper også gerne med at blive opmærksom på forholdet mellem kroppens kommunikation og de budskaber og værdier, man ønsker at bringe for verden.
 
