@@ -91,7 +91,7 @@ layout: default-2
  
   <div class="row pt-5">
     <div class="offset-lg-2 col-lg-8 col-12 pt-5">
-      <h1>Prøve i Erhvervsrettet testning</h1>
+      <h1 class="text-white">Prøve i Erhvervsrettet testning</h1>
       <div class="quiz-container">
         <div id="quiz"></div>
       </div>
@@ -158,13 +158,13 @@ layout: default-2
                 <td>
                   <h3>${currentQuestion.cat}</h3>
                   </td>
-                  <td style="text-align: right;"><p class="fs-5">Spørgsmål ${questionNumber + 1}/${myQuestions.length}</p>
+                  <td style="text-align: right;"><p class="fs-6">Spørgsmål ${questionNumber + 1}/${myQuestions.length}</p>
                     </td>
                 </tr>
               </table>
             
             
-            <div class="question"> ${currentQuestion.question} </div>
+            <div class="question"> <p class="fs-4">${currentQuestion.question}</p> </div>
             <br>
             <div class="answers"> ${answers.join("")} </div><p class="message"></p>
           </div>`
