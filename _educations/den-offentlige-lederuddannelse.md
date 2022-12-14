@@ -211,6 +211,16 @@ hold:
     time: "09:00 - 16:00"
     name: "Gruppedag"
     place: "København"
+  - date: 21. juni
+    day: 8
+    time: "09:00 - 17:00"
+    name: "Eksamen"
+    place: "København"
+  - date: 22. juni
+    day: 9
+    time: "09:00 - 17:00"
+    name: "Eksamen"
+    place: "København"
 emails:
 - ln@copenhagencoaching.dk
 special: false
