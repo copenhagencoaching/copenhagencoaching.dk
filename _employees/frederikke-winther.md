@@ -11,18 +11,23 @@ meta-title: Frederikke Winther - Mød medarbejderne hos CCC her
 mbc: true
 consulent: true
 edu:
-- Ph.d., Cand. Mag i retorik fra Københavns Universitet
-- Master i Business Coaching
+- Ph.D i relationel retorik, Århus Universitet
+- Cand. Mag i retorik, Københavns Universitet
+- Certificeret i Big FIVE personlighedstest
 email: fw@copenhagencoaching.dk
 description: Seniorkonsulent
 linkedin: https://www.linkedin.com/in/frederikke-winther-206b5450/
 data-id: ''
 
 ---
-Frederikke er drevet af en oprigtig nysgerrighed efter at vide, hvad der optager og former mennesker i deres arbejdsliv samt et ønske om at forstå, spejle, støtte og stimulere personlig og faglig udvikling gennem individuelle samtaler og sparringsforløb.
+Hos Frederikke finder vi en dyb og saglig viden om klassiske og moderne tilgange til coaching. Dertil kommer, at hun umætteligt absorberer filosofiske hovedværker og teorier på måder, som kan omsættes til handling.
 
-Frederikke er særligt optaget af kryds- (og somme tider spændings-) feltet mellem en retorisk og en dialogisk tilgang til kommunikation og samarbejde, som kan udfordre måderne, man forstår og udlever autoritet, ekspertise, ansvar og roller på.
+Som coach, konsulent og underviser stimulerer Frederikke samtalen og læringen. Det gør hun med en oprigtig nysgerrighed og faglig spændvidde, som er sjældent set.
 
-Frederikke har i øvrigt stor erfaring med facilitering af kollektive læreprocesser og dialogisk feedback.
+Frederikke er uddannelsesansvarlig for Master of Business Coaching, hvor hun også underviser, vejleder og superviserer. Hun er desuden en central figur på certificeringsforløbet i Big FIVE personlighedstest.
 
-Frederikke har en kandidatgrad og en Ph.d. i Retorik og har i flere år undervist, vejledt og forsket i kommunikation og læring på Aalborg Universitet.
+Frederikke er særligt optaget af kryds- (og somme tider spændings-) feltet mellem en retorisk og en dialogisk tilgang til kommunikation og samarbejde. Det udfordrer nogle gange måderne, man forstår og udlever autoritet, ekspertise, ansvar og roller på.
+
+Frederikke har mangeårig erfaring med facilitering af kollektive læreprocesser, individuel coaching, teamcoaching, teamsupervision og dialogisk feedback.
+
+Frederikke er en meget afholdt coach for såvel medarbejdere, mellemledere og ledere, som har brug for overblik, selvindsigt og handlekraft i deres komplekse arbejdsliv.
