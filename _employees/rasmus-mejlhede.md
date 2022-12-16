@@ -14,12 +14,14 @@ portrait-image: /images/about/employees/rasmus-mejlhede.png
 small-portrait-image: /images/about/employees/rasmus-mejlhede.png
 grey-portrait: /images/about/employees/rasmus-mejlhede.png
 edu:
-- Cand.mag i filosofi fra Københavns Universitet
-- Master i Business Coaching
+- Cand. Mag i filosofi, Københavns Universitet
+- Stud. Master of Business Coaching (EQA), CCC
+- Stud. Psykologisk Filosofisk Terapeutuddannelse
 ---
+Rasmus er husets filosof. Som underviser og vejleder på vores Master of Business Coaching bringer Rasmus filosofien i øjenhøjde. Den oversættes og bliver omsættelig i organisatoriske kontekster og menneskelige relationer. Rasmus’ filosofiske bagkatalog udgør et umådeligt stort territorium.
 
-Rasmus bringer filosofien i øjenhøjde. De tanker, som kan synes abstrakte og komplekse, bliver i dialogen med Rasmus til både vedkommende og tilgængelige vinduer til at forstå vores daglige liv og professionelle virke.  
+Som coach er Rasmus beskæftiget med at hjælpe folk til at møde livet, hvad enten det er stress, eksistentielle temaer og måske endda livskriser. Han har en dagligdag med massevis af samtaler med bl.a. ledere, unge og folk med vidt forskellige baggrunde og uddannelser. Det er samtaler, som er kendetegnet ved stor nænsomhed og en gennemgribende almenmenneskelig respekt.
 
-For Rasmus er det livsvigtigt at arbejde med spørgsmålet. Hvorfor, hvorfra og hvordan stiller du det? Når man arbejder med spørgsmålet, bliver ens forudsætninger og forudindtagetheder tydeligere. I undersøgende samtale med Rasmus kan man ad den vej rette søgelyset på det væsentlige og virkeligt anvendelige for de situationer og sammenhænge, man agerer i.
+Når Rasmus folder sig ud som filosofisk coach, får du trænet din evne til at tænke præcist, konsistent og fokuseret. Det bringer dig tættere på det væsentlige for dig. Her er Rasmus som en fisk i vandet, fordi han som menneske er umådeligt nysgerrig, fordomsfri og vidende.
 
-Rasmus arbejder som misbrugsbehandler samt underviser og vejleder i filosofi og filosofiske samtaler på vores Master of Business Coaching.
+Lige for tiden er Rasmus særligt optaget af, hvordan man kan bringe kroppen ind i coaching.

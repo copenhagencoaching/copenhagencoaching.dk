@@ -1,28 +1,23 @@
-<div class="text-slate-gray bg-gainsboro">
+<div class="text-slate-gray bg-gainsboro mb-5 mt-5">
 
 <div class="container-fluid-menu pb-4 pt-3 d-none d-lg-block">
-  <h5 class="text-uppercase mb-4">Vælg uddannelsestype</h5>
+  
   <div class="row gy-5 g-3">
     <div class="col-12">
 
-      <div class="row gy-4">
-        {% assign ordered_themes = site.edu-categories | sort: "order" %}
+      <div class="row gy-5 gx-5">
+        {% assign ordered_themes = site.educations | sort: "order" %}
         {% for cat in ordered_themes %}
 
         <div class="col-xl-3 col-lg-4 col-md-6 col-12">
-          <p class="text-uppercase fw-bold mb-2 text-black-coral">{{ cat.title }}</p>
-          <div>
-            {% for edu in site.educations %}
-            {% for cate in edu.cat %}
-            {% if cate == cat.name %}
-
-            <a class="small link--metis d-block d-md-inline-block mb-2" href="{{ edu.url }}">
-              {{ edu.title }}</a>
-
-            {% endif %}
-            {% endfor %}
-            {% endfor %}
+          <div class="row gx-0">
+            <div class="col-1"><i class="fa-solid fa-angles-right"></i></div>
+            <div class="col-11">
+              <a href="{{ cat.url }}" class="fw-semibold mb-2 text-slate-gray">{{ cat.title }}</a>
+            </div>
           </div>
+           
+
         </div>
 
         {% endfor %}

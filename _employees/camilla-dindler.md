@@ -19,7 +19,6 @@ edu:
 - Cand.mag. Dansk og Mellemøststudier, Aalborg Uni. & Kbh. Uni.
 - 1-årigt grundkursus i Integreret Psykoterapi og Kybernetisk Psykologi, Vedfeltinstituttet. 
 - Basiskursus i studieledelse ved danske universiteter, Administrativ efteruddannelse for universitetsansatte (AEU), Syddansk Universitet
-- Stud. Master of Business Coaching (EQA), CCC
 - Stud. Psykologisk Filosofisk Psykoterapeutuddannelse, CCC 
 ---
 Camilla er en erfaren underviser, forsker og vejleder med dyb indsigt i strategisk kommunikation og dialogbaseret kommunikation. Camilla har særlig erfaring i og interesse for ledelse i videnstunge organisationer, herunder ledelse uden personaleansvar og team- og projektsamarbejde.
