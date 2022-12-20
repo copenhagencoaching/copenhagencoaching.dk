@@ -4,7 +4,7 @@ event-type: Foredrag
 image: /images/events/stefan-hermann-banner.png
 subtitle: Foredrag
 thumbnail: /images/events/Stefan-hermann.png
-description: "Direktør Andreas Bering og Stefan Hermann, rektor for Københavns Professionshøjskole, vil i en undersøgende samtale komme ind på dannelsesbegrebet og Hermanns egne livtag med det gennem sit arbejdsliv. Senest har Hermann i debatbogen En Varm Tid (2022) argumenteret for, at vores samtid er overophedet: For mange taler for højt, stresskurven har nået loftet og skovene brænder. Hvad er det blevet til med den introverte følelse, med lytning og med langsomhed? Og hvordan hænger det sammen med dannelse? <br><br>Vi tager temperaturen på dannelsen denne eftermiddag og prøver at tegne dets landskab af betydninger. Vi afslutter med en protreptisk samtale."
+description: "Direktør Andreas Bering og Stefan Hermann, rektor for Københavns Professionshøjskole, vil i en undersøgende samtale komme ind på dannelsesbegrebet og Hermanns egne livtag med det gennem sit arbejdsliv. Vi tager temperaturen på dannelsen denne eftermiddag og prøver at tegne dets landskab af betydninger. Vi afslutter med en protreptisk samtale."
 category: event
 tags:
 - event

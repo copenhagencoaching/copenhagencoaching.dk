@@ -125,3 +125,8 @@ a.underlined {
         text-decoration: underline !important;
     }
   }
+
+  @media print {
+	.print {visibility:visible;}
+	.none-print {visibility:hidden;}
+}

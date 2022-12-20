@@ -3,7 +3,7 @@ layout: default
 title: Copenhagencoaching
 ---
 
-<div class="mt-5" style="background-image: url('/images/inspiration/aabent-hus.jpg'); background-size: cover;">
+<div class="mt-5" style="background-image: url('/images/frontpage/fp-8.png'); background-size: cover;">
     <div class="container-fluid mt-5 py-5">
         <div class="row py-5">
             <div class="col-12 col-lg-6 col-md-8 col-sm-10 my-5">
@@ -36,7 +36,7 @@ title: Copenhagencoaching
         <div class="col-12 col-lg-4 h-100 position-relative responsive-card-12">
             <a href="/coaching-service/"> <img src="/images/frontpage/coaching.png" class="object-fit h-200 w-100"
                     alt="">
-                <h3 class="mt-3 text-uppercase">Coaching</h3>
+                <h4 class="mt-3 text-uppercase">Coaching</h4>
             </a>
             <p class="text-justify mh-150px smaller-height-re">Hos CCC er du altid er sikker på at møde en faglig og
                 teoretisk dybt og
@@ -51,9 +51,9 @@ title: Copenhagencoaching
         </div>
         <div class="col-12 col-lg-4 h-100 position-relative responsive-card-12">
 
-            <a href="/academy/master-of-business-coaching/"><img src="/images/frontpage/banner-2.png"
+            <a href="/academy/master-of-business-coaching/"><img src="/images/inspiration/aabent-hus.jpg"
                     style="object-position: center center;" class="object-fit h-200 w-100" alt="">
-                <h3 class="mt-3 text-uppercase">Master of business coaching</h3>
+                <h4 class="mt-3 text-uppercase">Master of business coaching</h4>
             </a>
             <p class="text-justify mh-150px smaller-height-re">Ønsker du at blive dygtig til at føre produktive og
                 virkningsfulde
@@ -69,7 +69,7 @@ title: Copenhagencoaching
 
             <a href="/consultations/ledelsesudvikling/"><img src="/images/frontpage/fp-6.png"
                     class="object-fit h-200 w-100" alt="">
-                <h3 class="mt-3 text-uppercase">Konsulentydelser</h3>
+                <h4 class="mt-3 text-uppercase">Konsulentydelser</h4>
             </a>
             <p class="text-justify mh-150px smaller-height-re">For at udvikle sig bæredygtigt har virksomheder,
                 organisationer og
@@ -88,62 +88,7 @@ title: Copenhagencoaching
 
 <div class="container-fluid mb-5">
     <div class="row g-5 gy-5 g-x5">
-        <div class="col-12 col-lg-4">
-            <div class="bg-platinum p-5 h-100">
-                <h3 class="text-uppercase mb-4">
-                    Nyeste indlæg
-                </h3>
-                {% for ind in site.tags.blog limit: 3 %}
-                <a href="{{ ind.url }}">
-                    <h5 class="text-uppercase mb-1 d-inline-block">{{ ind.title }} <i
-                            class="fa-solid fa-arrow-right fs-5"></i></h5>
-                    <br>
-                    <p class="text-uppercase d-inline-block mb-3">{{ ind.category }}</p>
-                </a>
-                <br>
-
-                {% endfor %}
-            </div>
-        </div>
-        <div class="col-12 col-lg-8">
-            <div class="bg-platinum p-5 h-100">
-                <h3 class="mb-2 text-uppercase">Skal vi tales ved?</h3>
-                <p>Har du spørgsmål eller brug for hjælp til at vælge den rette konsulentydelse?
-                    Indtast navn og
-                    telefonnummer
-                    og en
-                    af vores konsulenter ringer dig op inden for 24 timer</p>
-                <form id="coffee-index" action="https://formspree.io/f/xyyoddyz" method="POST">
-                    <div class="row mt-3 gy-3" id="coffee">
-                        <div class="col-12 col-md-6">
-                            <input type="text" class="form-control" placeholder="Navn" aria-label="Navn" name="navn"
-                                required>
-                        </div>
-                        <div class="col-12 col-md-6"></div>
-                        <input type="hidden" name="henvendelse" value="Jeg vil gerne ringes op">
-                        <div class="col-12 col-md-6">
-                            <input type="text" class="form-control" placeholder="Tlf. nr." aria-label="telefonnummer"
-                                name="tlf. nr." required>
-                        </div>
-                        <div class="col-12 col-md-6"></div>
-                        <div class="col-12 col-md-6">
-                            <button class="btn btn-opal w-100 my-0 fw-bold text-uppercase">Ring mig op</button>
-                        </div>
-
-                    </div>
-                   
-                </form>
-                <div id="mes-coffee-index" class="text-white mt-3 bg-xanadu p-2 d-none">
-                    <h4>Tak for din henvendelse</h4>
-                    <p>Du vil hurtigst som muligt blive ringet op af en af vores konsulenter.</p>
-                </div>
-                <div id="error-coffee-index" class="text-white mt-3 bg-xanadu p-2 d-none">
-                   
-                    <p>Husk at udfylde alle felter</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-12 col-xl-4">
+        <div class="col-12 col-lg-6">
             <div class="bg-black-coral p-5 h-100">
                 <h3 class="text-white text-uppercase">Nyhedsbrev</h3>
                 <p class="text-white">Modtag information og tilbud om vores kommende uddannelser, kurser og events samt
@@ -190,7 +135,83 @@ title: Copenhagencoaching
             </div>
 
         </div>
-        <div class="col-12 col-xl-8">
+        <div class="col-12 col-lg-6">
+            <div class="row gy-5">
+                <div class="col-12">
+                    <div class="bg-platinum p-5">
+                        <h3 class="mb-2 text-uppercase">Skal vi tales ved?</h3>
+                        <p>Har du spørgsmål eller brug for hjælp til at vælge den rette konsulentydelse?
+                            Indtast navn og
+                            telefonnummer
+                            og en
+                            af vores konsulenter ringer dig op inden for 24 timer</p>
+                        <form id="coffee-index" action="https://formspree.io/f/xyyoddyz" method="POST">
+                            <div class="row mt-3 gy-3" id="coffee">
+                                <div class="col-12 col-xl-12 col-md-6">
+                                    <input type="text" class="form-control" placeholder="Navn" aria-label="Navn" name="navn"
+                                        required>
+                                </div>
+                                
+                                <input type="hidden" name="henvendelse" value="Jeg vil gerne ringes op">
+                                <div class="col-12 col-xl-12 col-md-6">
+                                    <input type="text" class="form-control" placeholder="Tlf. nr." aria-label="telefonnummer"
+                                        name="tlf. nr." required>
+                                </div>
+                                
+                                <div class="col-12 col-xl-12 col-md-6">
+                                    <button class="btn btn-opal w-100 my-0 fw-bold text-uppercase">Ring mig op</button>
+                                </div>
+        
+                            </div>
+                           
+                        </form>
+                        <div id="mes-coffee-index" class="text-white mt-3 bg-xanadu p-2 d-none">
+                            <h4>Tak for din henvendelse</h4>
+                            <p>Du vil hurtigst som muligt blive ringet op af en af vores konsulenter.</p>
+                        </div>
+                        <div id="error-coffee-index" class="text-white mt-3 bg-xanadu p-2 d-none">
+                           
+                            <p>Husk at udfylde alle felter</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 h-100">
+                    <div class="h-100">
+                        <img src="/images/frontpage/filosof.png" class="object-fit w-100 h-100" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-12 col-md-6 col-xl-4">
+            <div class="bg-platinum p-5 h-100">
+                <h3 class="text-uppercase mb-4">
+                    Nyeste indlæg
+                </h3>
+                <div class="row gy-5">
+                {% for ind in site.tags.blog limit: 3 %}
+                <div class="col-12">
+
+                
+                <div class="bg-white p-3">
+                    <p class="text-uppercase mb-3 small fw-thin">{{ ind.category }}</p>
+                    <a href="{{ ind.url }}">
+                        <h5 class="text-uppercase mb-3 d-inline-block">{{ ind.title }}</h5>
+                        <p class="mb-3">{{ ind.description}}</p>
+                        <div class="btn-black-coral mb-2 d-inline-block text-white mt-0 rounded-0 fw-bold text-uppercase px-4 py-2"
+                        >Se mere</div>
+                        
+                    </a>
+                </div>
+            </div>
+                
+
+                {% endfor %}
+            </div>
+            </div>
+
+        </div>
+        <div class="col-12 col-md-6 col-xl-8">
             <div class="bg-platinum p-5 h-100">
                 <h3 class="text-uppercase mb-4">
                     Kommende arrangementer
@@ -201,7 +222,7 @@ title: Copenhagencoaching
                     {% if event.past == true %}
                     {% else %}
 
-                    <div class="col-12 col-md-4">
+                    <div class="col-12 col-md-4 d-block d-md-none d-xl-block">
                         <a href="{{ event.url }}">
                             <div class="h-100 w-100">
                                 <img src="{% if event.thumbnail %}{{ event.thumbnail }}{% else %}{{ event.image }}{% endif %}"
@@ -209,7 +230,7 @@ title: Copenhagencoaching
                             </div>
                         </a>
                     </div>
-                    <div class="col-md-8 col-12">
+                    <div class="col-12 col-xl-8">
                         <a href="{{ event.url }}">
                             {% assign postmonth = event.date | date: "%m" %}
 

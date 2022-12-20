@@ -8,18 +8,20 @@ small-portrait-image: "/images/about/employees/lars-small-green.png"
 grey-portrait: /images/about/medarbejdere-sort-hvid/lars-nyborg-sort-hvid.png
 call: 27 11 42 44
 consulent: true
+edu:
+- Folkeskolelærer
+- Master of Business Coaching (EQA), CCC
+- Certificeret i Big FIVE personlighedstest
 on-om-os: true
 email: ln@copenhagencoaching.dk
 description: Associeret partner
 linkedin: https://www.linkedin.com/in/lars-nyborg-82608431/
 data-id: ''
 ---
-Lars har om nogen viet sit liv til folkeskolen blandt andet med 20 år som skoleleder i Fredensborg Kommune. Der findes ikke mange områder, hjørner og kroge i det at drive skole, som Lars ikke har kendskab til eller selv direkte har været involveret i som skoleleder, som medlem af hovedbestyrelsen i Skolelederforeningen eller som deltager i arbejdsgrupper i Undervisningsministeriet eller KL.
+Lars har om nogen viet sit liv til at rådgive om offentlig ledelse på velfærdsområdet. Lars’ virke spænder fra mentoring af skoleledere til rekruttering, procesledelse, teamudvikling og transitionsprocesser.  Ledelse, leg og intens læring er tre ord, der beskriver Lars som mentor og rådgiver.
 
-Ledelse, læring og leg er tre ord, der beskriver Lars. Lars mestrer om nogen at kombinere humor og leg med intens læring og kunsten at bedrive ledelse.
+Man føler sig altid taget godt og professionelt af, når man er i selskab med Lars, hvor ordentlighed er i højsædet. 
 
-Man føler sig altid taget godt og professionelt af, når man er i selskab med Lars, hvor ordentlighed altid er i højsædet.
+Der findes ikke mange områder, hjørner og niveauer i det at drive skole, som Lars ikke har kendskab til eller selv direkte har været involveret i. Lars har arbejdet 20 år som passioneret skoleleder i Fredensborg Kommune. Han har været medlem af hovedbestyrelsen i Skolelederforeningen, kursusleder på den fælleskommunale skolelederuddannelse i Grenå samt deltaget i arbejdsgrupper i Undervisningsministeriet og Kommunernes Landsforening. 
 
-Det selv at være dygtig som leder og skabe resultater, er ikke ensbetydende med, at man er dygtig til at give sin viden og erfaring videre, men med Lars kan man virkelig tale om en sand Mesterlærer. Lars har derfor stor succes med at rådgive og være mentor for andre skoleledere.
-
-Lars er uddannet folkeskolelærer, og har siden taget en række videreuddannelsesforløb blandt andet en Master i Business Coaching på Copenhagen Coaching Center.
+Lars er en central underviser og koordinator på CCC’s uddannelser i procesledelse. Han er også vores mangeårige tovholder på ledelseskurset på Lesbos, som styrker lederen i at stå rodfæstet og smidigt med et nuanceret og veludviklet værdimæssigt ståsted.

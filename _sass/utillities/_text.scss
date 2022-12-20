@@ -10,7 +10,8 @@ h6,
 .h4,
 .h5,
 .h6 {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
     color: #707070 !important;
 }
 
@@ -22,14 +23,15 @@ h2 {
 p,
 li,
 i {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: .85rem;
+    font-weight: 400;
     color: #707070;
 }
 
 .form-check-label,
 .form-select {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #707070;
 }
 
