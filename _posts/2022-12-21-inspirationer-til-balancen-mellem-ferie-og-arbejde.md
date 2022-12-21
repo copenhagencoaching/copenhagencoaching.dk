@@ -82,6 +82,7 @@ At sørge for at opretholde vores fysiske velvære er nøglen til at styrke vore
 
 Fordelene ved fysisk udfoldelse er meget veldokumenterede. Reduceret angst, sænket blodtryk, forbedret hjernefunktion, bedre søvnkvalitet og øget fysisk og mental udholdenhed er blot nogle af de positive effekter, du kan opleve ved at bevæge din krop regelmæssigt. Når vi træner, øges blodgennemstrømningen og nerveforbindelserne til og i vores hjerne. Det stimulerer frigivelsen af ​​feel-good hormoner såsom endorfiner og serotonin. Når det kombineres med god og sund mad, er fysisk aktivitet en af nøglefaktorerne til at bevare og styrke dit mentale velbefindende. Selv blot 10 minutter om dagen kan gøre underværker. 
 
+##### Vend mere bevidst tilbage
 Ligesom før ferien er det også vigtigt, at du mentalt lader op til arbejdsstart de sidste dage i ferien. Se om det er muligt at finde frem til din egen foretrukne rytme i forhold til at komme i gang igen. For nogle giver det ro og overblik at tjekke mailboksen den sidste feriedag, for andre skal denne dag være helt fredet. Vær nysgerrig på, hvad der fungerer bedst for dig.
 
 Vigtigst af alt er at bringe den samme bevidste og venlige opmærksomhed på dig selv ind på arbejdspladsen. Giv pauserne, refleksionen og egenomsorgen en fast og vigtig plads i dit fremtidige bæredygtige arbejdsliv, så det bliver muligt at leve alle årets 365 dage og ikke kun i ferierne.
