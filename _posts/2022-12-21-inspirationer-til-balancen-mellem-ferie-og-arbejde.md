@@ -24,6 +24,8 @@ Det vil Camilla Ingwersen gerne komme med ti inspirationer til. Camilla er optag
 
 "At oparbejde en livspraksis med mindfulness, bevægelse og nysgerrighed på verden omkring os, kan hjælpe med at bringe os ind i nuet, så vi faktisk kan opleve højtiderne i stedet for at overleve dem", og således stadig vende tilbage til arbejdet med fornyet energi og virkelyst, siger hun.
 
+![Lys](/images/blog/lys.png){:.img-fluid}
+
 ##### 1. Sæt spørgsmålstegn ved dine forventninger
 
 Hvis du på nuværende tidspunkt begynder at føle dig meget overvældet, så brug et øjeblik på at stoppe op og vurdere, hvor presset kommer fra? Meget af tiden kommer det nemlig fra os selv. Se om det er muligt at udfordre ​​din overbevisning om, at du 'skal’ eller ’bør' gøre visse ting. Overvej hvad der ville ske, hvis du ikke gjorde det? Chancen er, at verden alligevel vil dreje rundt, og ingen vil lægge mærke til, om du nåede det du ’burde’ eller ’skulle’.
@@ -59,8 +61,6 @@ Der er flere måder, du kan øve dig i at være mindful, og det indebærer ikke 
 ##### 6. Skift dit perspektiv til taknemmelighed
 
 At øve taknemmelighed kan være utroligt effektivt til at reducere vores stressniveau. At bemærke, hvad du er taknemmelig for, trækker dig ud af tunnelsynet i det nuværende øjeblik, hvor du måske føler dig overvældet. Det giver dig også mulighed for at lægge mærke til og værdsætte det gode, der sker hver dag, og som nemt kan gå under vores radar. Tænk på en smuk og klar vintermorgen, et musikstykke, et kunstværk, en smagsoplevelse, dine børn, solnedgangen. Øjeblikke, der fik dig til at grine, stoppe op, blive varm om hjertet, eller hvor du blev fyldt af følelsen af samhørighed. At øve sig i denne form for bevidst venlig opmærksomhed ved at lægge mærke til alle disse små øjeblikke hjælper dig til at få et mere afbalanceret perspektiv på verdens dynamiske gang. Det kan over tid hjælpe dig med at forholde dig mere roligt og nysgerrigt til de stressende øjeblikke, der kan opstå i løbet af en dag.
-
-![Rensdyr](/images/blog/lys.png){:.img-fluid}
 
 ##### 7. Egen tid
 
