@@ -648,12 +648,15 @@ layout: default
 {% if page.anbefalinger == true %}
 {% if page.anbefalinger-video == true %}
 <div class="bg-slate-gray">
-    <div class="container-fluid py-5">
+    <div class="container-fluid pt-5 pb-3">
         <div class="small-container position-relative">
             <div id="anbefalinger" class="anchor-delay"></div>
-            <h5 class="text-white">{{ page.video-text }}</h5>
-            <div class="video-container">
-                <iframe src="{{ page.video-url }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h5 class="text-white mb-3">{{ page.video-text }}</h5>
+            <div>
+                <div class="video-container mb-0"><video controls>
+                        <source src="{{ page.video-url }}" type="video/mp4">
+                        Your browser does not support HTML video.
+                    </video></div>
             </div>
            
     
