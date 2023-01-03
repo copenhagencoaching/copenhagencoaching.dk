@@ -20,7 +20,7 @@ image-2: /images/events/events.jpg
 ex-moms: true
 prime-color: army-green
 secondary-color: scandy-blue
-place: Blegdamsvej 104, 2100 København Ø
+place: Online
 time: 16:00 - 17:00
 link: true
 link-url: /academy/master-of-business-coaching/#infomode
