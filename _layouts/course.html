@@ -650,8 +650,12 @@ layout: default
 <div class="bg-slate-gray">
     <div class="container-fluid py-5">
         <div class="small-container position-relative">
+            <div id="anbefalinger" class="anchor-delay"></div>
             <h5 class="text-white">{{ page.video-text }}</h5>
-            <iframe width="560" height="315" src="{{ page.video-url }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="video-container">
+                <iframe src="{{ page.video-url }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+           
     
         </div>
     </div>
@@ -662,7 +666,11 @@ layout: default
 <div class="bg-slate-gray">
     <div class="container-fluid py-5">
         <div class="small-container position-relative">
+            {% if page.anbefalinger-video == true %}
+
+            {% else %}
             <div id="anbefalinger" class="anchor-delay"></div>
+            {% endif %}
             <h2 class="text-white mb-5">
                 Anbefalinger
             </h2>
