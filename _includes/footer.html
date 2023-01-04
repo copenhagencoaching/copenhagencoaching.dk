@@ -22,9 +22,9 @@
             <div class="col-12 col-lg-6 col-xl-4">
                 <h4 class="text-uppercase">Events</h4>
                 <ul>
-                    {% assign orderposts = site.tags.event | order: "date" | reverse %}
-                    {% for post in orderposts %}
-                    {% if post.past != true %}
+                    {% assign ordered_events = site.tags.act_event | sort: date %}
+                    {% for post in ordered_events %}
+
                     {% assign postmonth = post.date | date: "%m" %}
 
 
@@ -61,7 +61,7 @@
                             "
                             %Y"}}<br><b>{{ post.title }}</b></a>
                     </li>
-                    {% endif %}
+
                     {% endfor %}
                 </ul>
             </div>

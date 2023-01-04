@@ -20,6 +20,7 @@ secondary-color: scandy-blue
 place: Blegdamsvej 104D, 3. sal, 2100 København Ø
 time: 17.00-19.00
 community-free: true
+past: true
 billetto-nr: 692941
 attend_mes: Tilmelding kommer snart...
 ---

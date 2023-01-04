@@ -1,62 +1,109 @@
 ---
-title: Events
+title: Arrangementer
 layout: default
 ---
 
-<div class="bg-black-coral">
-  <div class="container-fluid pt-5 pb-5">
-    <div class="pt-5 mt-4">
-      <h2 class="text-white">Kommende events</h2>
-      {% assign orderposts = site.tags.event | order: "date" | reverse %}
+<div class="pt-5 mt-5"
+  style="background: linear-gradient(rgba(19, 19, 19, 0.7), rgba(19, 19, 19, 0.7)), url('/images/events/events.png'); background-size: cover; background-position: center;">
+  <div class="py-5">
+    <div class="container-fluid text-center py-5">
+      <h1 class="text-white mb-1">Arrangementer hos CCC</h1>
       <div class="row">
-        {% for item in orderposts %}
-        {% if item.past != true %}
-  
-        <div class="col-12 col-md-6 col-xl-3">
-          <a href="{{ item.url }}">
-            <div class="card">
-              <div class="outer-img-top">
-                <img src="{{ item.image }}" alt="...">
-              </div>
-  
-              <div class="card-body px-0 py-2">
-  
-               
-                <h3 class="text-white">{{ item.title }}</h3>
-                
-                <p class="text-white">{{ item.description }}</p>
-              </div>
-            </div>
-          </a>
+        <div class="col-12 offset-lg-3 col-lg-6">
+          <hr class="white short-hr mx-auto">
         </div>
+      </div>
+      <p class="text-white">Kom med til inspirerende arrangementer hos CCC</p>
+
+
+
+    </div>
+  </div>
+</div>
+
+<div class="bg-platinum">
+  <div class="container-fluid py-5 bg-platinum">
+
+
+    <div class="small-container">
+      <div class="row gy-5 gx-5">
+        {% assign ordered_events = site.tags.act_event | sort: date %}
+        {% for event in ordered_events %}
+        {% if event.past == true %}
+        {% else %}
+
+        <div class="col-12 mb-3">
+          <div class="bg-white p-4">
+            <a href="{{ event.url }}">
+              <div class="row gx-5">
+  
+                <div class="col-6">
+                  <div class="me-5">
+                    {% assign postmonth = event.date | date: "%m" %}
+                    {% if postmonth == "01" %}
+                    {% assign monthName = "januar" %}
+                    {% elsif postmonth == "02" %}
+                    {% assign monthName = "februar" %}
+                    {% elsif postmonth == "03" %}
+                    {% assign monthName = "marts" %}
+                    {% elsif postmonth == "04" %}
+                    {% assign monthName = "april" %}
+                    {% elsif postmonth == "05" %}
+                    {% assign monthName = "maj" %}
+                    {% elsif postmonth == "06" %}
+                    {% assign monthName = "juni" %}
+                    {% elsif postmonth == "07" %}
+                    {% assign monthName = "juli" %}
+                    {% elsif postmonth == "08" %}
+                    {% assign monthName = "august" %}
+                    {% elsif postmonth == "09" %}
+                    {% assign monthName = "september" %}
+                    {% elsif postmonth == "10" %}
+                    {% assign monthName = "oktober" %}
+                    {% elsif postmonth == "11" %}
+                    {% assign monthName = "november" %}
+                    {% elsif postmonth == "12" %}
+                    {% assign monthName = "december" %}
+                    {% endif %}
+  
+                    <p>{{ event.date | date: "%d. "}} {{
+                      monthName
+                      }}{{ event.date | date:
+                      "
+                      %Y"}}</p>
+                    <h4>{{ event.title }}</h4>
+                    <p>{{ event.description }}</p>
+                    <p><b>Pris:</b> {{ event.price }}</p>
+                    <p><b>Sted:</b> {{ event.place }}</p>
+  
+                    <div
+                      class="btn-black-coral mb-2 d-inline-block text-white mt-0 rounded-0 fw-bold text-uppercase px-4 py-2 mt-4">
+                      Se mere</div>
+  
+                  </div>
+                </div>
+                <div class="col-12 col-md-6">
+                  {% if event.thumbnail %}
+                  <div class="h-100 ms-4"
+                    style="background-image: url('{{ event.thumbnail }}'); background-position: top; background-size: cover;">
+                  </div>
+                  {% else %}
+                  <div class="h-100 ms-4"
+                    style="background-image: url('{{ event.image }}'); background-position: top; background-size: cover;">
+                  </div>
+                  {% endif %}
+                </div>
+              </div>
+            </a>
+          </div>
+          
+        </div>
+
+
+
         {% endif %}
         {% endfor %}
       </div>
-
-      <h2 class="text-white">Afholdte events</h2>
-      <div class="row">
-        {% for item in orderposts %}
-
-        {% if item.past == true %}
-        <div class="col-12 col-md-6 col-xl-3">
-          <a href="{{ item.url }}">
-            <div class="card">
-              <div class="outer-img-top">
-                <img src="{{ item.image }}" alt="...">
-              </div>
-  
-              <div class="card-body px-0 py-2">
-  
-  
-                <h3 class="text-white">{{ item.title }}</h3>
-              </div>
-            </div>
-          </a>
-        </div>
-        {% endif %}
-        {% endfor %}
-      </div>
-
     </div>
   </div>
 </div>

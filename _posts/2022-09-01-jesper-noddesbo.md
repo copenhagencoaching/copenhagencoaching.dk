@@ -8,7 +8,6 @@ category: event
 tags:
 - event
 - foredrag
-- act_event
 layout: event-new
 price: 279,-
 only-month: false

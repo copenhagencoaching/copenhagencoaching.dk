@@ -89,7 +89,7 @@ title: Copenhagencoaching
 <div class="container-fluid mb-5">
     <div class="row g-5 gy-5 g-x5">
         <div class="col-12 col-lg-6">
-            <div class="bg-black-coral p-5 h-100">
+            <div class="bg-black-coral p-5">
                 <h3 class="text-white text-uppercase">Nyhedsbrev</h3>
                 <p class="text-white">Modtag information og tilbud om vores kommende uddannelser, kurser og events samt
                     andre inspirerende nyheder
@@ -111,7 +111,8 @@ title: Copenhagencoaching
                                 <input class="form-check-input mt-1" type="checkbox" name="_optin" id="gridCheck"
                                     required>
                                 <label class="form-check-label text-white" for="gridCheck">
-                                    Jeg accepterer, at Copenhagen Coaching Center må sende mig nyhedsbrev og arkivere mine oplysninger til dette formål.
+                                    Jeg accepterer, at Copenhagen Coaching Center må sende mig nyhedsbrev og arkivere
+                                    mine oplysninger til dette formål.
                                 </label>
                             </div>
                         </div>
@@ -135,52 +136,48 @@ title: Copenhagencoaching
             </div>
 
         </div>
-        <div class="col-12 col-lg-6">
-            <div class="row gy-5">
-                <div class="col-12">
-                    <div class="bg-platinum p-5">
-                        <h3 class="mb-2 text-uppercase">Skal vi tales ved?</h3>
-                        <p>Har du spørgsmål eller brug for hjælp til at vælge den rette konsulentydelse?
-                            Indtast navn og
-                            telefonnummer
-                            og en
-                            af vores konsulenter ringer dig op inden for 24 timer</p>
-                        <form id="coffee-index" action="https://formspree.io/f/xyyoddyz" method="POST">
-                            <div class="row mt-3 gy-3" id="coffee">
-                                <div class="col-12 col-xl-12 col-md-6">
-                                    <input type="text" class="form-control" placeholder="Navn" aria-label="Navn" name="navn"
-                                        required>
-                                </div>
-                                
-                                <input type="hidden" name="henvendelse" value="Jeg vil gerne ringes op">
-                                <div class="col-12 col-xl-12 col-md-6">
-                                    <input type="text" class="form-control" placeholder="Tlf. nr." aria-label="telefonnummer"
-                                        name="tlf. nr." required>
-                                </div>
-                                
-                                <div class="col-12 col-xl-12 col-md-6">
-                                    <button class="btn btn-opal w-100 my-0 fw-bold text-uppercase">Ring mig op</button>
-                                </div>
-        
+        <div class="col-12 col-lg-6 overflow-hidden">
+            <div class="h-100">
+                <div class="bg-platinum p-5 mb-4">
+                    <h3 class="mb-2 text-uppercase">Skal vi tales ved?</h3>
+                    <p>Har du spørgsmål eller brug for hjælp til at vælge den rette konsulentydelse?
+                        Indtast navn og
+                        telefonnummer
+                        og en
+                        af vores konsulenter ringer dig op inden for 24 timer</p>
+                    <form id="coffee-index" action="https://formspree.io/f/xyyoddyz" method="POST">
+                        <div class="row mt-3 gy-3" id="coffee">
+                            <div class="col-12 col-xl-12 col-md-6">
+                                <input type="text" class="form-control" placeholder="Navn" aria-label="Navn" name="navn"
+                                    required>
                             </div>
-                           
-                        </form>
-                        <div id="mes-coffee-index" class="text-white mt-3 bg-xanadu p-2 d-none">
-                            <h4>Tak for din henvendelse</h4>
-                            <p>Du vil hurtigst som muligt blive ringet op af en af vores konsulenter.</p>
+                            <input type="hidden" name="henvendelse" value="Jeg vil gerne ringes op">
+                            <div class="col-12 col-xl-12 col-md-6">
+                                <input type="text" class="form-control" placeholder="Tlf. nr."
+                                    aria-label="telefonnummer" name="tlf. nr." required>
+                            </div>
+                            <div class="col-12 col-xl-12 col-md-6">
+                                <button class="btn btn-opal w-100 my-0 fw-bold text-uppercase">Ring mig op</button>
+                            </div>
                         </div>
-                        <div id="error-coffee-index" class="text-white mt-3 bg-xanadu p-2 d-none">
-                           
-                            <p>Husk at udfylde alle felter</p>
-                        </div>
+                    </form>
+                    <div id="mes-coffee-index" class="text-white mt-3 bg-xanadu p-2 d-none">
+                        <h4>Tak for din henvendelse</h4>
+                        <p>Du vil hurtigst som muligt blive ringet op af en af vores konsulenter.</p>
+                    </div>
+                    <div id="error-coffee-index" class="text-white mt-3 bg-xanadu p-2 d-none">
+
+                        <p>Husk at udfylde alle felter</p>
                     </div>
                 </div>
-                <div class="col-12 h-100">
-                    <div class="h-100">
-                        <img src="/images/frontpage/filosof.png" class="object-fit w-100 h-100" alt="">
-                    </div>
-                </div>
+
+             <div class="h-100 w-100"
+                    style="background-image: url('/images/frontpage/korn.png'); background-position: bottom; background-size: cover;">
+                </div> 
             </div>
+
+
+
 
         </div>
         <div class="col-12 col-md-6 col-xl-4">
@@ -189,39 +186,46 @@ title: Copenhagencoaching
                     Nyeste indlæg
                 </h3>
                 <div class="row gy-5">
-                {% for ind in site.tags.blog limit: 3 %}
-                <div class="col-12">
+                    {% for ind in site.tags.blog limit: 3 %}
+                    <div class="col-12">
 
-                
-                <div class="bg-white p-3">
-                    <p class="text-uppercase mb-3 small fw-thin">{{ ind.category }}</p>
-                    <a href="{{ ind.url }}">
-                        <h5 class="text-uppercase mb-3 d-inline-block">{{ ind.title }}</h5>
-                        <p class="mb-3">{{ ind.description}}</p>
-                        <div class="btn-black-coral mb-2 d-inline-block text-white mt-0 rounded-0 fw-bold text-uppercase px-4 py-2"
-                        >Se mere</div>
-                        
-                    </a>
+
+                        <div class="bg-white p-3">
+                            <p class="text-uppercase mb-3 small fw-thin">{{ ind.category }}</p>
+                            <a href="{{ ind.url }}">
+                                <h5 class="text-uppercase mb-3 d-inline-block">{{ ind.title }}</h5>
+                                <p class="mb-3">{{ ind.description}}</p>
+                                <div
+                                    class="btn-black-coral mb-2 d-inline-block text-white mt-0 rounded-0 fw-bold text-uppercase px-4 py-2">
+                                    Se mere</div>
+
+                            </a>
+                        </div>
+                    </div>
+
+
+                    {% endfor %}
                 </div>
-            </div>
-                
-
-                {% endfor %}
-            </div>
             </div>
 
         </div>
         <div class="col-12 col-md-6 col-xl-8">
             <div class="bg-platinum p-5 h-100">
-                <h3 class="text-uppercase mb-4">
-                    Kommende arrangementer
-                    
-                </h3>
+                <div class="row">
+                    <div class="col-8">
+                        <h3 class="text-uppercase mb-4">
+                            Kommende arrangementer
+                        </h3>
+                    </div>
+                    <div class="col-4">
+                        <p class="text-end fs-6 fw-bold mt-2"><a href="/events/">Se alle arrangementer <i class="fa-solid fa-angles-right"></i></a></p>
+                    </div>
+                </div>
+                
                 <div class="row gy-5 gx-5">
                     {% assign ordered_events = site.tags.act_event | sort: date %}
-                    {% for event in ordered_events limit: 6 %}
-                    {% if event.past == true %}
-                    {% else %}
+                    {% for event in ordered_events limit: 5 %}
+
 
                     <div class="col-12 col-md-4 d-block d-md-none d-xl-block">
                         <a href="{{ event.url }}">
@@ -273,7 +277,7 @@ title: Copenhagencoaching
 
 
 
-                    {% endif %}
+
                     {% endfor %}
                 </div>
             </div>
@@ -307,7 +311,7 @@ title: Copenhagencoaching
                 status_coffee_index.className = "py-3 text-center"
                 form_coffee_index.className = "d-none"
                 error_coffee_index.className = "d-none"
-                gtag('event','form submission', { 'event_category':'ring mig op', 'event_label':'ring mig op - forside' })
+                gtag('event', 'form submission', { 'event_category': 'ring mig op', 'event_label': 'ring mig op - forside' })
                 form_coffee_index.reset()
 
             }
