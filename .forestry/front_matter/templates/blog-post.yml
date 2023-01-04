@@ -4,16 +4,20 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Titel
 - type: file
   name: image
-  label: image
+  label: Billede
 - type: textarea
   name: description
-  label: description
+  label: Beskrivelse
 - type: text
   name: category
   label: category
+  hidden: true
+  default: blog
 - type: list
   name: tags
-  label: tags
+  label: Tags
+  config:
+    use_select: false
