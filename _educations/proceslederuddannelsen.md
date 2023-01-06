@@ -4,6 +4,7 @@ header: Proceslederuddannelsen
 description: Proceslederuddannelsen giver dig et solidt fundament til at stå myndigt og dialogisk kompetent i de processer, som du skal lede. Med de to moduler vil du kunne mestre den sunde og veldesignede proces, der giver dit og organisationens arbejde retning og mening. Du vil kunne samle organisationen, når der er behov for det, og inspirere til den gode idé eller den ekstra indsats.
 meta-title: Procesledelse - Tag proceslederuddannelsen hos Copenhagen Coaching Center 
 meta-description: Med en proceslederuddannelsen fra CCC får du markedets stærkeste uddannelse i at planlægge, styre og fastholde processer. Se hvordan du bliver procesleder her.
+adgangskrav: Gennemført uddannelse på minimum erhvervsakademiniveau (kort videregående uddannelse) eller bevis for tilsvarende realkompetencer udstedt af en professionshøjskole eller et erhvervsakademi. Hertil kommer to års relevant erhvervserfaring.
 image-2: "/images/educations/plu-table.png"
 deltagerprofil: false
 aktive-hold: true

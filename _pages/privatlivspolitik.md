@@ -1,5 +1,5 @@
 ---
-title: Privatlivs politik
+title: Privatlivspolitik
 layout: single-page
 ---
 <hr>
