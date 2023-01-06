@@ -52,50 +52,6 @@ overblik:
   paragrafer: "Forventninger fra medarbejdere om medinddragelse og samskabelse som en del af virksomhedens kultur, drift og udvikling kalder dels på, at du har grundlæggende færdigheder i coaching og dels på, at du kan håndtere, forstå og vurdere de forskellige forandringer, der er til stede i organisationers liv, og som kalder på løbende tilpasninger og kursskifte. God procesledelse kræver evner til at styre, rumme og stimulere menneskelig og faglig mangfoldighed i retning af fælles udvikling og mål."
 price: '27.500,- (Ekskl. moms) inkl. Forplejning, overnatning mellem 7 og 8 november, litteratur, BIG FIVE test og to individuelle coachinger med en certificeret coach fra Copenhagen Coaching Center'
 hold:
-- title: Proceslederuddannelsen - Efterår 2022
-  price: 27.500 ekskl. moms
-  dates: 7. november - 16. december
-  modules:
-  - date: 7. november
-    day: 1
-    time: "10:00 - 22:00"
-    name: "-"
-    place: København
-  - date: 8. november
-    day: 2
-    time: "09:00 - 16:00"
-    name: "-"
-    place: København
-  - date: 17. november
-    day: 3
-    time: "09:00 - 12:00"
-    name: "-"
-    place: Online
-  - date: 21. november
-    day: 4
-    time: "09:00 - 12:00"
-    name: "-"
-    place: Online
-  - date: 30. november
-    day: 5
-    time: "12:00 - 15:00"
-    name: "-"
-    place: Online
-  - date: 8. december
-    day: 6
-    time: "10:00 - 16:00"
-    name: "-"
-    place: København
-  - date: 9. december
-    day: 7
-    time: "09:00 - 16:00"
-    name: "Gruppedag"
-    place: "København"
-  - date: 16. december
-    day: 8
-    time: "09:00 - 17:00"
-    name: "Eksamen"
-    place: "København"
 - title: Proceslederuddannelsen - Forår 2023
   price: 27.500 ekskl. moms
   dates: 30. marts - 2. juni

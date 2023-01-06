@@ -24,4 +24,4 @@ billetto-nr: 767164
 
 Det er en aften for dig, som ønsker at opretholde og træne din dialogiske kapacitet i fællesskab med vores konsulenter, community medlemmer og de studerende på vores MBC-uddannelse.
 
-Deadline for tilmelding er d. 10 januar.
+Deadline for tilmelding er d. 11 januar.
