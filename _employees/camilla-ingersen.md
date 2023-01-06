@@ -10,8 +10,6 @@ edu:
 - HD i Ledelse og Kommunikation, Copenhagen Business School
 - Kvalificeret underviser i Mindfulness-baseret stressreduktion, Aarhus Universitet
 - Certificeret Supervisor, Dansk Familie Terapeutisk Institut
-- Psykoterapeut, Center for Trivsel og Velvære
-- Master of Business Coaching (EQA), CCC
 - Stud. master i Naturbaseret Terapi og Sundhedsfremme, Københavns Universitet
 email: ci@copenhagencoaching.dk
 linkedin: https://www.linkedin.com/in/camillaingwersen/
