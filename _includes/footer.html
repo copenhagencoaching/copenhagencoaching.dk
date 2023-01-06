@@ -1,10 +1,10 @@
 <footer class="none-print">
     <div class="container-fluid pt-5 pb-5">
-        <div class="row gy-4">
-            <div class="col-12 col-lg-6 col-xl-4">
+        <div class="row gy-4 gx-5">
+            <div class="col-12 col-lg-5">
                 <h4 class="text-uppercase">{{ site.title | remove: " - Coaching og uddannelse af ledere" }}</h4>
                 <p class="text-uppercase fs-6">- Coaching og uddannelse af ledere</p>
-                <p>Copenhagen Coaching Center blev dannet i 2004 og er et partnerejet selskab, der udbyder åbne
+                <p class="mw-200">Copenhagen Coaching Center blev dannet i 2004 og er et partnerejet selskab, der udbyder åbne
                     uddannelser.
 
                 </p>
@@ -19,7 +19,7 @@
                         target="_blank"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
-            <div class="col-12 col-lg-6 col-xl-4">
+            <div class="col-12 col-lg-5">
                 <h4 class="text-uppercase">Events</h4>
                 <ul>
                     {% assign ordered_events = site.tags.act_event | sort: date %}
@@ -65,35 +65,12 @@
                     {% endfor %}
                 </ul>
             </div>
-            <div class="col-12 col-lg-6 col-xl-2">
-                <h4 class="text-uppercase">Navigation</h4>
-                <ul>
-                    <li><a href="/academy/">Academy</a></li>
-
-                    <li><a href="/community/">Community</a></li>
-
-                    <li><a href="/coaching/">Coaching</a></li>
-
-                    <li><a href="/consulting/">Consulting</a></li>
-
-                    <li><a href="/protreptik/">Protreptik</a></li>
-
-                    <li><a href="/about/">Om os</a></li>
-
-                    <li><a href="/internationals/">International</a></li>
-                </ul>
-                <hr>
-                <ul>
-                    <li><a href="/privatlivspolitik/">Privatlivspolitik</a></li>
-                    <li><a href="/cookies/">Cookiepolitik</a></li>
-                    <li><a data-proofer-ignore="" href="/sitemap.xml">Sitemap</a></li>
-                </ul>
-            </div>
 
 
 
 
-            <div class="col-12 col-lg-6 col-xl-2">
+
+            <div class="col-12 col-lg-2">
                 <h4 class="text-uppercase">Kontakt</h4>
                 <script src="https://app.weply.chat/widget/81885295bae3b884f779f0a68bf0eb8f" async></script>
                 <ul>
@@ -106,6 +83,11 @@
                     <li>2100 Kbh Ø</li>
                     <li><a data-proofer-ignore="" href="https://goo.gl/maps/a2Tb1RTMDKQ3G8Vz5"
                             target="_blank">Rutevejledning</a></li>
+                </ul>
+                <ul>
+                    <li><a href="/privatlivspolitik/">Privatlivspolitik</a></li>
+                    <li><a href="/cookies/">Cookiepolitik</a></li>
+                    <li><a data-proofer-ignore="" href="/sitemap.xml">Sitemap</a></li>
                 </ul>
             </div>
         </div>
