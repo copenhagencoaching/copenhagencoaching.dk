@@ -23,7 +23,7 @@
                 <h4 class="text-uppercase">Events</h4>
                 <ul>
                     {% assign ordered_events = site.tags.act_event | sort: date %}
-                    {% for post in ordered_events %}
+                    {% for post in ordered_events limit: 4 %}
 
                     {% assign postmonth = post.date | date: "%m" %}
 

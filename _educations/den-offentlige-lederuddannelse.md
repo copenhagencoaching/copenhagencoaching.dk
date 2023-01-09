@@ -3,10 +3,11 @@ order: 4
 title: Den offentlige lederuddannelse
 image: "/images/academy/den-offentlige-lederuddannelse.png"
 image-2: /images/inspiration/leder-tavle.png
-infomode: false
-infomode-text: Kom til Informationsmøde om vores nye intensive og eksklusive Procesledelsesforløb.
+infomode: true
+infomode-text: Kom til Informationsmøde om vores intensive og eksklusive Proceslederuddannelse
 infomode-dates:
-- 13. oktober kl. 16
+- 7. februar - 16:00 - 17:00
+- 2. marts - 16:00 - 17:00
 contact-person: Ghita Vejlebo
 description: Er du leder, eller drømmer du om at bliver det? Trænger du til at få styrket dine lederkompetencer, og samtidig få de nyeste og brugbare værktøjer til medarbejdersamtaler og til håndtering af konfliktsituationer?
 header: Den offentlige lederuddannelse
@@ -45,6 +46,15 @@ galleri:
   text:
   - 'Proceslederuddannelsen er et særligt tilrettelagt og intensivt forløb, der består af to valgfag fra Diplomuddannelsen i Offentlig Ledelse (DOL). De to valgfag er Ledelse & Coaching og Ledelse af Forandrings- og Udviklingsprocesser. Det løber over knapt halvanden måned. Forløbet består af 1 internat/seminar, 3 online webinar á 3 timer, 1 dags undervisning, 1 hel gruppedag og to individuelle coachingsessioner. Herudover er deltagelse i to dages fælles eksamen med fokus på praktiske coachingfærdigheder, procesdesign og facilitering obligatorisk. Endvidere tilbydes alle deltagerne en BIG FIVE personlighedstest med en coachende tilbagemeldingssamtale. BIG FIVE er et af markedets bedst underbyggede personlighedstests til ledere.'
   - 'Krav om konstant forandring, omorganisering, økonomisk pres m.v. skaber behov for professionel procesledelse. Proceslederuddannelsen giver dig et solidt fundament til at stå myndigt og dialogisk i ledelsesopgaven. Med de to moduler vil du kunne mestre den sunde og veldesignede proces, der giver dit og organisationens arbejde retning og mening. Du vil kunne samle organisationen, når der er behov for det, og inspirere til den gode idé eller den ekstra indsats. Du vil også blive klædt på til at se og forstå den enkelte medarbejders perspektiv i organisationen. Forventninger fra medarbejdere om medinddragelse og samskabelse som en del af virksomhedens kultur, drift og udvikling kalder dels på, at du har grundlæggende færdigheder i coaching og dels på, at du kan håndtere, forstå og vurdere de forskellige forandringer, der er til stede i organisationers liv, og som kalder på løbende tilpasninger og kursskifte. God procesledelse kræver evner til at styre, rumme og stimulere menneskelig og faglig mangfoldighed i retning af fælles udvikling og mål'
+- image: "/images/educations/dol-13.png"
+  title: Det Personlige Lederskab og Forandring
+  subtitle: Valgmodul, 10 ECTS
+  text:
+  - 'Vi anbefaler modulet ”Det Personlige Lederskab og Forandring” til dig, der har brug for at skærpe blikket på egen kompetenceudvikling og sætte dig selv i fokus som leder. Modulet har fokus på at styrke dine personlige handlekompetencer og på den praksis, du er leder i. Modulet har tre overordnede temaer, som sætter fokus på dit lederskab.'
+  - '1. Under overskriften ”Hvem er vi,  der skal forandre?”  ser vi indad. Vi bruger en personlighedstest, BIG FIVE, til at reflektere og analysere din lederstil og dine mønstre. Hvad giver energi, og hvad trækker energien væk fra dine arbejdsopgaver? Hvordan reagerer du typisk, når der er modvind, og du er ude af komfortzonen? Hvordan påvirker din kontekst dig, og hvilke forestillinger har du om det personlige lederskab og de forandringer, der er en uundgåelig del af din verden? Dine forestillinger om dit lederskab sættes i forhold til betydningen af valg og fravalg af forskellige ledelses- og forandringsteoretiske perspektiver.'
+  - "2. Vi spørger: “Hvad er det, der skal forandres?”, eller hvilke elementer kan forandres? Hvordan ser den politiske og administrative kontekst ud? Hvordan har den udviklet sig, og hvordan ønsker vi  at den skal udvikle sig? Hvilke konsekvenser har konteksten og dine ønsker for din ledelsespraksis og kommunikation? Vi undersøger, hvilken betydning valg af forskellige perspektiver, teorier og metoder får for forandringsledelse og ledelsesidentitet og dine egne værdier og etikker."
+  - "3. Under temaet “Hvordan skal der forandres?” arbejder vi med de metoder, der kan/skal bruges i forbindelse med en kommende forandringsproces; hvad skal forandringen ændre ved? Her vil vi gøre brug af en mangfoldighed af teoretikere, der kan inspirere dig i forhold til at lede forandringsprocesser (bl.a. temaer som modstand, legitimitet, autoritet, magt; at lede uden mandat, motivation, m.m.). Det handler med andre ord om at begynde at iklæde sig teori og metoder i forbindelse med en kommende mulig forandringsproces og i forhold til den konkrete synopsis-skrivning."
+  - "Formålet med modulet er således at skabe forudsætninger for et handlekraftigt lederskab, som giver dig en personlig myndighed . Det indebærer en bevidsthed om egne mønstre og værdier, en kompetent og bevidst brug af kommunikative  færdigheder samt evnen til at sætte retning for og understøtte faglige og organisatoriske forandringer. Teori og det særlige filosofiske blik. De centrale teoretiske blikke på det faglige og personlige lederskab og udviklingen af lederidentiteten er kommunikationsteori og ledelses- og forandringsteori, herunder systemisk- og socialkonstruktionistisk inspireret ledelsesteori. Desuden trækker modulet på filosofiske bidrag til den faglige og personlige lederdannnelse , og vi arbejder her med etikker, begrebsafklaring, kommunikation og ledelsesmæssigt nærvær via filosofiske inspirerede samtaleformer (fx protreptisk og sokratisk dialog), samt teorier om kapacitetsopbygning og kompetenceudvikling, herunder coaching og den coachende lederstil."
 - image: /images/educations/dol-hjul.png
   title: Ledelse og coaching
   subtitle: Valgmodul, 5 ECTS
@@ -117,6 +127,55 @@ hold:
   - date: 22. juni
     day: 9
     time: "09:00 - 17:00"
+    name: "Eksamen"
+    place: "København"
+- title: Det personlige lederskab og forandring - Forår 2023
+  price: 27.500 ekskl. moms
+  dates: 2. maj - 26. juni
+  modules:
+  - date: 2. maj
+    day: 1
+    time: "-"
+    name: Internat
+    place: København
+  - date: 3. maj
+    day: 2
+    time: "-"
+    name: Internat
+    place: København
+  - date: 12. maj
+    day: 3
+    time: "-"
+    name: "-"
+    place: Online
+  - date: 22. maj
+    day: 4
+    time: "-"
+    name: "Internat"
+    place: København
+  - date: 23. maj
+    day: 5
+    time: "-"
+    name: "Internat"
+    place: København
+  - date: 7. juni
+    day: 6
+    time: "-"
+    name: "-"
+    place: Online
+  - date: 16. juni
+    day: 7
+    time: "-"
+    name: "-"
+    place: "Online"
+  - date: 23. juni
+    day: 8
+    time: "-"
+    name: "Eksamen"
+    place: "København"
+  - date: 26. juni
+    day: 9
+    time: "-"
     name: "Eksamen"
     place: "København"
 emails:
