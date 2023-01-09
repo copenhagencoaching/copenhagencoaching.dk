@@ -29,6 +29,15 @@ hold:
     time:
     name:
     place:
+- title: Rejse - Efterår 2023
+  price: 30.000,- ekskl. moms
+  dates: 10. - 17. september
+  modules:
+  - date: 10. - 17. september
+    day:
+    time:
+    name:
+    place:
 redirect_from:
   - /academy/certificering-i-protreptik/
 layout: course

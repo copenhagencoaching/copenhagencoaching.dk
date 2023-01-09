@@ -95,7 +95,7 @@ undervisere:
 - name: Frederikke Winther
 - name: Camilla Ingwersen
 - name: Jesper Nøddesbo
-pdf: "https://www.copenhagencoaching.dk/pdfs/MBC_folder_2022.pdf"
+pdf: "https://www.copenhagencoaching.dk/pdfs/MBC_folder_forår_2023.pdf"
 emails:
 - ab@copenhagencoaching.dk
 event-title: Kommende hold
