@@ -4,7 +4,7 @@ order: 8
 meta-title: Lars Nyborg - Mød medarbejderne hos CCC her
 image: /images/about/employees/lars-big-white.png
 portrait-image: "/images/about/employees/lars-big-white.png"
-small-portrait-image: "/images/about/employees/lars-small-green.png"
+small-portrait-image: "/images/about/employees/lars-small-white.png"
 grey-portrait: /images/about/medarbejdere-sort-hvid/lars-nyborg-sort-hvid.png
 call: 27 11 42 44
 consulent: true

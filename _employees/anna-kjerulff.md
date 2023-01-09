@@ -10,7 +10,7 @@ linkedin: https://www.linkedin.com/in/anna-k-52799a106/
 data-id: ''
 image: /images/about/employees/anna-big-white.png
 portrait-image: "/images/about/employees/anna-big-white.png"
-small-portrait-image: "/images/about/employees/anna-small-green.png"
+small-portrait-image: "/images/about/employees/anna-small-white.png"
 grey-portrait: "/images/about/employees/anna-big-white.png"
 ---
 

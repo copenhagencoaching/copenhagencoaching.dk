@@ -3,7 +3,7 @@ order: 6
 title: Camilla Dindler
 image: /images/about/employees/camilla-dindler.png
 portrait-image: "/images/about/employees/camilla-dindler.png"
-small-portrait-image: /images/about/employees/camilla-dindler.png
+small-portrait-image: /images/about/employees/camilla-d-small-white.png
 grey-portrait: /images/about/employees/camilla-dindler.png
 call: 23 64 67 20
 meta-title: Camilla Dindler - Mød medarbejderne hos CCC her

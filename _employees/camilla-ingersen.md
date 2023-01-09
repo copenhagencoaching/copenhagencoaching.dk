@@ -16,7 +16,7 @@ linkedin: https://www.linkedin.com/in/camillaingwersen/
 data-id: ''
 image: /images/about/employees/camilla-big-white.png
 portrait-image: "/images/about/employees/camilla-big-white.png"
-small-portrait-image: "/images/about/employees/camilla-small-green.png"
+small-portrait-image: "/images/about/employees/camilla-i-small-white.png"
 grey-portrait: /images/about/employees/camilla-ingwersen-3.png
 ---
 Camilla mestrer som få at kombinere en skarp forretningsforståelse med en holistisk tilgang til mennesker, natur og samfund. Hos Camilla mødes man med et blik for, hvad der er bæredygtigt og vitalt i det miljø, man er en del af - i sin ledergerning og som menneske.  

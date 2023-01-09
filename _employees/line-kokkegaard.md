@@ -3,7 +3,7 @@ order: 13
 title: Line Kokkegaard
 image: /images/about/employees/line-kokkegaard.png
 portrait-image: /images/about/employees/line-kokkegaard.png
-small-portrait-image: /images/about/employees/line-kokkegaard.png
+small-portrait-image: /images/about/employees/line-k-small-white.png
 grey-portrait: /images/about/employees/line-kokkegaard.png
 meta-title: Line Kokkegaard - Mød medarbejderne hos CCC her
 email: lk@copenhagencoaching.dk

@@ -176,7 +176,7 @@ title: Copenhagencoaching
 
 
         </div>
-        <div class="col-12 col-md-6 col-xl-4">
+        <div class="col-12 col-md-6 col-xl-4 d-none d-md-block">
             <div class="bg-platinum p-5 h-100">
                 <h3 class="text-uppercase mb-4">
                     Nyeste indlæg
@@ -205,7 +205,112 @@ title: Copenhagencoaching
             </div>
 
         </div>
-        <div class="col-12 col-md-6 col-xl-8">
+        <!-- on mobile -->
+        <div class="col-12 col-md-6 col-xl-4 d-md-none">
+            <div class="h-100">
+                <h3 class="text-uppercase mb-4">
+                    Nyeste indlæg
+                </h3>
+                <div class="row gy-5">
+                    {% for ind in site.tags.blog limit: 3 %}
+                    <div class="col-12">
+
+
+                        <div class="bg-white">
+                            <p class="text-uppercase mb-3 small fw-thin">{{ ind.category }}</p>
+                            <a href="{{ ind.url }}">
+                                <h5 class="text-uppercase mb-3 d-inline-block">{{ ind.title }}</h5>
+                                <p class="mb-3">{{ ind.description}}</p>
+                                <div
+                                    class="btn-black-coral mb-2 d-inline-block text-white mt-0 rounded-0 fw-bold text-uppercase px-4 py-2">
+                                    Se mere</div>
+
+                            </a>
+                        </div>
+                    </div>
+
+
+                    {% endfor %}
+                </div>
+            </div>
+
+        </div>
+        <div class="col-12 col-md-6 col-xl-8 d-md-none">
+            <div class="h-100">
+                <div class="row">
+                    <div class="col-xl-8 col-md-12">
+                        <h3 class="text-uppercase mb-4">
+                            Kommende arrangementer
+                        </h3>
+                    </div>
+                    <div class="col-xl-4 col-md-12">
+                        <p class="text-end fw-bold mt-2"><a href="/events/">Se alle arrangementer <i class="fa-solid fa-angles-right"></i></a></p>
+                    </div>
+                </div>
+                
+                <div class="row gy-2 gx-3">
+                    {% assign ordered_events = site.tags.act_event | sort: date %}
+                    {% for event in ordered_events limit: 5 %}
+
+
+                    <div class="col-12 col-md-4 d-block d-md-none d-xl-block">
+                        <a href="{{ event.url }}">
+                            <div class="h-200 w-100">
+                                <img src="{% if event.thumbnail %}{{ event.thumbnail }}{% else %}{{ event.image }}{% endif %}"
+                                    alt="" class="object-fit">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-12 col-xl-8">
+                        <a href="{{ event.url }}">
+                            {% assign postmonth = event.date | date: "%m" %}
+
+
+                            {% if postmonth == "01" %}
+                            {% assign monthName = "januar" %}
+                            {% elsif postmonth == "02" %}
+                            {% assign monthName = "februar" %}
+                            {% elsif postmonth == "03" %}
+                            {% assign monthName = "marts" %}
+                            {% elsif postmonth == "04" %}
+                            {% assign monthName = "april" %}
+                            {% elsif postmonth == "05" %}
+                            {% assign monthName = "maj" %}
+                            {% elsif postmonth == "06" %}
+                            {% assign monthName = "juni" %}
+                            {% elsif postmonth == "07" %}
+                            {% assign monthName = "juli" %}
+                            {% elsif postmonth == "08" %}
+                            {% assign monthName = "august" %}
+                            {% elsif postmonth == "09" %}
+                            {% assign monthName = "september" %}
+                            {% elsif postmonth == "10" %}
+                            {% assign monthName = "oktober" %}
+                            {% elsif postmonth == "11" %}
+                            {% assign monthName = "november" %}
+                            {% elsif postmonth == "12" %}
+                            {% assign monthName = "december" %}
+                            {% endif %}
+                            <p>{{ event.date | date: "%d. "}} {{
+                                monthName
+                                }}{{ event.date | date:
+                                "
+                                %Y"}}</p>
+                            <h4>{{ event.title }}</h4>
+                            <p class="mb-5">{{ event.description }}</p>
+                        </a>
+                    </div>
+
+
+
+
+                    {% endfor %}
+                </div>
+            </div>
+
+        </div>
+        <!-- On mobile -->
+        <div class="col-12 col-md-6 col-xl-8  d-none d-md-block">
             <div class="bg-platinum p-5 h-100">
                 <div class="row">
                     <div class="col-xl-8 col-md-12">

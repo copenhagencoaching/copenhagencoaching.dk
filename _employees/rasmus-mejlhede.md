@@ -11,7 +11,7 @@ linkedin: https://www.linkedin.com/in/rasmus-mejlhede-92352083/
 data-id: ''
 image: /images/about/employees/rasmus-mejlhede.png
 portrait-image: /images/about/employees/rasmus-mejlhede.png
-small-portrait-image: /images/about/employees/rasmus-mejlhede.png
+small-portrait-image: /images/about/employees/rasmus-small-white.png
 grey-portrait: /images/about/employees/rasmus-mejlhede.png
 edu:
 - Cand. Mag i filosofi, Københavns Universitet

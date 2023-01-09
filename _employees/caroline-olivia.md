@@ -13,7 +13,7 @@ edu:
 - Webudvikler v/ Roskilde Tekniske Skole
 image: /images/about/employees/caroline-big-white.png
 portrait-image: "/images/about/employees/caroline-big-white.png"
-small-portrait-image: "/images/about/employees/caroline-small-green.png"
+small-portrait-image: "/images/about/employees/caroline-small-white.png"
 grey-portrait: /images/about/employees/caroline-olivia-2.png
 ---
 
