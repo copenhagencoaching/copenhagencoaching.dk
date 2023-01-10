@@ -737,7 +737,7 @@ layout: default
                 {% if employee.title == underviser.name %}
                 <div class="col-12 col-lg-6">
 
-                    <div class="d-flex align-items-center">
+                    <div class="d-flex">
                         <div class="flex-shrink-0">
                             <img class="small-image-148 small-md rounded-circle"
                                 src="{{ employee.small-portrait-image }}"
@@ -752,7 +752,7 @@ layout: default
                             <p class="text-white">{{ underviser.text }}</p>
                             {% endif %}
 
-                            {% for e in employee.edu limit: 2 %}
+                            {% for e in employee.edu limit: 3 %}
                             <p class="text-white {% if forloop.last != true %}mb-2{% endif %}">{{ e }}</p>
                             {% endfor %}
                             <p class="text-white mb-0"> <a href="mailto:{{ employee.email }}" data-proofer-ignore>{{

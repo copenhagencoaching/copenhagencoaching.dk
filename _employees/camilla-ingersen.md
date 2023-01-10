@@ -7,10 +7,11 @@ meta-title: Camilla Ingersen - Mød medarbejderne hos CCC her
 consulent: true
 on-om-os: true
 edu:
-- HD i Ledelse og Kommunikation, Copenhagen Business School
 - Kvalificeret underviser i Mindfulness-baseret stressreduktion, Aarhus Universitet
 - Certificeret Supervisor, Dansk Familie Terapeutisk Institut
 - Stud. master i Naturbaseret Terapi og Sundhedsfremme, Københavns Universitet
+- Stud. master of Business Coaching (EQA), CCC
+- HD i Ledelse og Kommunikation, Copenhagen Business School
 email: ci@copenhagencoaching.dk
 linkedin: https://www.linkedin.com/in/camillaingwersen/
 data-id: ''

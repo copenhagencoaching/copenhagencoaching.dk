@@ -16,7 +16,7 @@ linkedin: https://www.linkedin.com/in/camilladindler/
 data-id: ''
 edu:
 - Ph.d.  Politisk kommunikation, Københavns Universitet
-- Cand.mag. Dansk og Mellemøststudier, Aalborg Uni. & Kbh. Uni.
+- Cand.mag. Dansk og Mellemøststudier
 - 1-årigt grundkursus i Integreret Psykoterapi og Kybernetisk Psykologi, Vedfeltinstituttet. 
 - Basiskursus i studieledelse ved danske universiteter, Administrativ efteruddannelse for universitetsansatte (AEU), Syddansk Universitet
 - Stud. Psykologisk Filosofisk Psykoterapeutuddannelse, CCC 

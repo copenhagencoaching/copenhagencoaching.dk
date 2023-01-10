@@ -11,11 +11,11 @@ meta-title: Ghita Vejlebo - Mød medarbejderne hos CCC her
 mbc: true
 consulent: true
 edu:
+- Psykoterapeut, Psykoterapeutisk Uddannelses Center (PUC)
+- 2-årig organisationspsykologisk efteruddannelse, Institut for gruppeananlyse (OPU)
+- 2-årigt lederkursus ”Den professionelle leder", Attractor/Rambøll
 - Cand.mag.
-- 2-årig organisationspsykologisk efteruddannelse fra Institut for gruppeananlyse (OPU)
-- 2-årig lederkursus ”Den professionelle leder fra Attractor/Rambøll
-- Uddannet psykoterapeut fra Psykoterapeutisk Uddannelses Center (PUC)
-- Master i Business Coaching fra Copenhagen Coaching Center
+- Stud. master of Business Coaching (EQA), CCC
 email: gv@copenhagencoaching.dk
 description: Direktør
 linkedin: https://www.linkedin.com/in/ghita-vejlebo-95b47a59/

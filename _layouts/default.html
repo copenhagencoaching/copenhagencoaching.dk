@@ -56,40 +56,12 @@
 
   <script>
     $('.insp-responsive').slick({
-  dots: true,
-  infinite: false,
-  speed: 300,
-  slidesToShow: 4,
-  slidesToScroll: 4,
-  responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        infinite: true,
-        dots: true
-      }
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
-  ]
-});
+      dots: true,
+      infinite: false,
+      speed: 300,
+      slidesToShow: 4,
+      slidesToScroll: 4,
+    });
 
 
     $('.front-slider').slick({
@@ -437,15 +409,15 @@
   </script>
 
   <script>
-    window.onload = function() { 
-  var el = document.getElementById('g-recaptcha-response'); 
-  if (el) { 
-    el.setAttribute('required', 'required'); 
-  } 
-}
+    window.onload = function () {
+      var el = document.getElementById('g-recaptcha-response');
+      if (el) {
+        el.setAttribute('required', 'required');
+      }
+    }
   </script>
 
-<!--   <script>
+  <!--   <script>
     $(".navbar").css({ "background-color": "white", "box-shadow": "rgba(99, 99, 99, 0.2) 0px 2px 8px 0px" });
     $(".nav-item").css("color", "#707070");
     $(".logo").attr("src", "/images/logo/ccc-logo-new.png");
@@ -591,13 +563,13 @@ $(document).ready(function(){
 
   </script>
   <script>
-  // javascript
-  window.onload = function() { 
-    var el = document.getElementById('g-recaptcha-response'); 
-    if (el) { 
-      el.setAttribute('required', 'required'); 
-    } 
-  }
+    // javascript
+    window.onload = function () {
+      var el = document.getElementById('g-recaptcha-response');
+      if (el) {
+        el.setAttribute('required', 'required');
+      }
+    }
 
   </script>
 
