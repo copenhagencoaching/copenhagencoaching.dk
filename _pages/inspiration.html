@@ -1,0 +1,36 @@
+---
+title: Inspiration
+layout: default
+---
+
+<div class="pt-5 mt-5"
+    style="background: url('/images/blog/inspiration.png'); background-size: cover; background-position: center;">
+    <div class="py-5">
+        <div class="container-fluid py-5">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-6">
+                        <div style="background-color: rgba(255, 255, 255, 0.7);" class="p-5">
+                            <h1 class="mb-1">Inspiration</h1>
+                            <p>Blogposts, podcasts, videoer mm. til inspiration</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid py-5">
+    <div class="small-container">
+        <h4>Blog</h4>
+        <div class="insp-responsive">
+            {% for post in site.tags.blog %}
+            <!-- <div class="h-200 w-100"><img src="{{ post.image }}" class="object-fit" alt=""></div>
+             -->
+             <p>Hej</p>
+            {% endfor %}
+          </div>
+    </div>
+</div>
+

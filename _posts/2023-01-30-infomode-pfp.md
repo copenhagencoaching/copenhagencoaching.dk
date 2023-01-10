@@ -5,8 +5,6 @@ subtitle: Informationsmøde
 title: Informationsmøde - Psykologisk Filosofisk Psykoterapeutuddannelse
 event-type: Informationsmøde
 category: event
-ekstra-tider:
-- 1. marts 2023
 tags:
 - event
 - infomøde
