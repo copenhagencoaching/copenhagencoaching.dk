@@ -77,9 +77,19 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+ /* the slides */
+ .slick-slide {
+    margin: 0 27px;
+}
+
+/* the parent */
+.slick-list {
+    margin: 0 -27px;
+}
+
 .slick-prev
 {
-    left: 5px;
+    left: -50px;
 }
 [dir='rtl'] .slick-prev
 {
@@ -97,7 +107,7 @@
 
 .slick-next
 {
-    right: 5px;
+    right: -40px;
 }
 [dir='rtl'] .slick-next
 {
@@ -122,7 +132,7 @@
 .slick-dots
 {
     position: absolute;
-    bottom: -25px;
+    bottom: -50px;
 
     display: block;
 

@@ -83,7 +83,7 @@ right: 100px !important;
 
 .slick-prev
 {
-    left: 5px;
+    left: 100px;
 }
 [dir='rtl'] .slick-prev
 {

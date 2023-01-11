@@ -6,6 +6,7 @@ category: blog
 tags:
 - viden
 - blog
+- tekst
 published: true
 ---
 På dagen, der markerer lysets tilbagevenden, vil vi hos CCC gerne benytte lejligheden til at ønske dig en dejlig jul og et glædeligt nytår!
