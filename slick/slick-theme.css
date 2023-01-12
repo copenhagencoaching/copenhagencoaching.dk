@@ -132,7 +132,7 @@
 .slick-dots
 {
     position: absolute;
-    bottom: -50px;
+    bottom: -40px;
 
     display: block;
 
@@ -219,3 +219,13 @@
   
 }
 
+
+
+.slick-track {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.slick-list {
+    padding: 20px 0;
+}

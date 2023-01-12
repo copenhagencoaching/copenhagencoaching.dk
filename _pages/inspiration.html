@@ -29,17 +29,18 @@ layout: default
             {% for post in site.categories.blog %}
             <!-- <div class="h-200 w-100"><img src="{{ post.image }}" class="object-fit" alt=""></div>
              -->
-             <div class="ct-header tablex item">
-                <div class="h-150px">
+             <div class="ct-header tablex item zoom">
+                <a href="{{ post.url }}">
+                <div class="h-150px position relative">
                     <img class="object-fit" data-lazy="{{ post.image }}">
                 </div>
                
                 <div class="ct-u-display-tablex">
-                  <div class="inner h-100px">
+                  <div class="inner" style="height: 120px">
                     
-                     
+                     <p class="small mt-2 mb-1"><small>{{ post.date | date: "%d-%m-%Y" }}</small></p>
                         
-                          <h5 class="mt-3">{{ post.title }}</h5>
+                          <h5>{{ post.title }}</h5>
                           <p>{{ post.description | truncatewords: 15, "..." }}</p>
                           
                         
@@ -50,45 +51,50 @@ layout: default
                     <a class="btn btn-black-coral rounded-0 text-white" href="{{ post.url }}">Se mere</a>
                   </div>
                 </div>
+            </a>
               </div>
             {% endfor %}
           </div>
+    </div>
+</div>
+<div class="bg-platinum">
+    <div class="container-fluid py-5">
+        <div class="small-container">
+            <h2 class="mb-4">Podcasts</h2>
+            <div class="insp-responsive">
+                {% for post in site.categories.podcast %}
+                <!-- <div class="h-200 w-100"><img src="{{ post.image }}" class="object-fit" alt=""></div>
+                 -->
+                 <div class="ct-header tablex item zoom">
+                    <a href="{{ post.url }}">
+                    <div class="h-150px">
+                        <img class="object-fit" data-lazy="{{ post.image }}">
+                    </div>
+                   
+                    <div class="ct-u-display-tablex">
+                      <div class="inner h-100px">
+                        
+                         
+                            
+                              <h5 class="mt-3">{{ post.title }}</h5>
+                              <p>{{ post.description | truncatewords: 15, "..." }}</p>
+                              
+                            
+                         
+                       
+                      </div>
+                      <div class="inner-btn">
+                       <div class="btn btn-black-coral rounded-0 text-white">Se mere</div>
+                      </div>
+                    </div>
+                </a>
+                  </div>
+                {% endfor %}
+              </div>
+        </div>
     </div>
 </div>
 
-<div class="container-fluid py-5">
-    <div class="small-container">
-        <h2 class="mb-4">Podcasts</h2>
-        <div class="insp-responsive">
-            {% for post in site.categories.podcast %}
-            <!-- <div class="h-200 w-100"><img src="{{ post.image }}" class="object-fit" alt=""></div>
-             -->
-             <div class="ct-header tablex item">
-                <div class="h-150px">
-                    <img class="object-fit" data-lazy="{{ post.image }}">
-                </div>
-               
-                <div class="ct-u-display-tablex">
-                  <div class="inner h-100px">
-                    
-                     
-                        
-                          <h5 class="mt-3">{{ post.title }}</h5>
-                          <p>{{ post.description | truncatewords: 15, "..." }}</p>
-                          
-                        
-                     
-                   
-                  </div>
-                  <div class="inner-btn">
-                    <a class="btn btn-black-coral rounded-0 text-white" href="{{ post.url }}">Se mere</a>
-                  </div>
-                </div>
-              </div>
-            {% endfor %}
-          </div>
-    </div>
-</div>
 
 <div class="container-fluid py-5">
     <div class="small-container">
@@ -97,7 +103,8 @@ layout: default
             {% for post in site.categories.video %}
             <!-- <div class="h-200 w-100"><img src="{{ post.image }}" class="object-fit" alt=""></div>
              -->
-             <div class="ct-header tablex item">
+             <div class="ct-header tablex item zoom">
+                <a href="{{ post.url }}">
                 <div class="h-150px">
                     <img class="object-fit" data-lazy="{{ post.image }}">
                 </div>
@@ -118,6 +125,7 @@ layout: default
                     <a class="btn btn-black-coral rounded-0 text-white" href="{{ post.url }}">Se mere</a>
                   </div>
                 </div>
+            </a>
               </div>
             {% endfor %}
           </div>

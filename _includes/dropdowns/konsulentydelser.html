@@ -7,7 +7,7 @@
     <div class="row g-5">
       {% assign orderedcats = site.consultations | sort: "order" %}
       {% for cat in orderedcats %}
-      <div class="col-md-6 col-lg-3 col-12">
+      <div class="col-md-6 col-xl-3 col-12">
         <a href="{{ cat.url }}">
           <div class="border border-secondary h-100 p-3" style="--bs-border-opacity: .5;">
             <p class="text-uppercase fw-bold mb-0 fs-6">{{ cat.title }}

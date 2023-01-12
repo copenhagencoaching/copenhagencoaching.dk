@@ -214,3 +214,9 @@ right: 100px !important;
   
 }
 
+
+
+.slick-track {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
