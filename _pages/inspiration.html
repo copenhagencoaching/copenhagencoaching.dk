@@ -32,7 +32,7 @@ layout: default
              <div class="ct-header tablex item zoom">
                 <a href="{{ post.url }}">
                 <div class="h-150px position relative">
-                    <img class="object-fit" data-lazy="{{ post.image }}">
+                    <img class="object-fit" data-lazy="{{ post.image }}" alt="{{ post.title }}">
                 </div>
                
                 <div class="ct-u-display-tablex">
@@ -42,10 +42,7 @@ layout: default
                         
                           <h5>{{ post.title }}</h5>
                           <p>{{ post.description | truncatewords: 15, "..." }}</p>
-                          
                         
-                     
-                   
                   </div>
                   <div class="inner-btn">
                     <a class="btn btn-black-coral rounded-0 text-white" href="{{ post.url }}">Se mere</a>
@@ -68,7 +65,7 @@ layout: default
                  <div class="ct-header tablex item zoom">
                     <a href="{{ post.url }}">
                     <div class="h-150px">
-                        <img class="object-fit" data-lazy="{{ post.image }}">
+                        <img class="object-fit" data-lazy="{{ post.image }}" alt="{{ post.title }}">
                     </div>
                    
                     <div class="ct-u-display-tablex">
@@ -106,7 +103,7 @@ layout: default
              <div class="ct-header tablex item zoom">
                 <a href="{{ post.url }}">
                 <div class="h-150px">
-                    <img class="object-fit" data-lazy="{{ post.image }}">
+                    <img class="object-fit" data-lazy="{{ post.image }}" alt="{{ post.title }}">
                 </div>
                
                 <div class="ct-u-display-tablex">

@@ -34,15 +34,16 @@ layout: default
           <a href="{{ employee.url }}">
             <div class="bg-platinum p-4">
               <h4 class="mb-0">{{ employee.title }}</h4>
-              <p class="thin">{{ employee.description }}</p>
-              <p>{{ employee.email }}<br>{% if employee.call %}<a href="tel:{{ employee.call }}" onclick="gtag('event','click', { 'event_category':'tlf klik', 'event_label':'tlf om os' })">+45 {{ employee.call }}</a>{% else %}<br>{% endif %}</p>
+              <p class="thin">{{ employee.description }}</p></a>
+              <p><a href="mailto:{{ employee.email }}">{{ employee.email }}</a><br>{% if employee.call %}<a href="tel:{{ employee.call }}" onclick="gtag('event','click', { 'event_category':'tlf klik', 'event_label':'tlf om os' })">+45 {{ employee.call }}</a>{% else %}<br>{% endif %}</p>
   
               <div class="text-end ms-auto" style="max-width: 300px">
-                <img src="{{ employee.portrait-image }}" class="img-fluid rounded-circle" alt="" >
+                <a href="{{ employee.url }}">
+                <img src="{{ employee.portrait-image }}" class="img-fluid rounded-circle" alt="{{ employee.title }}" ></a>
               </div>
             </div>
   
-          </a>
+          
         </div>
         {% endif %}
         {% endfor %}

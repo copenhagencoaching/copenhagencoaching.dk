@@ -1,7 +1,7 @@
 ---
 title: Hør hvad Gitte siger om uddannelsen
 image: /images/thumbnails/gitte-thumbnail-2.png
-description: 'Fra i dag går vi igen mod lysere tider, og dagene bliver atter længere. Det er nemlig vintersolhverv - årets korteste dag. Og mens vi venter på, at lyset får mere magt over mørket, kunne vi måske bruge tiden mellem jul og nytår - hvor arbejdsopgaverne kommer lidt på afstand - til at reflektere over, hvordan vi hver især bedst muligt kan praktisere en god balance mellem arbejde og ferie?'
+description: 'Er du interesseret i at vide mere om Master of Business Coaching, kan denne film give et lille indblik i, hvad uddannelsen indebærer og hvad udbyttet kan være.'
 category: video
 layout: video
 tags:
@@ -14,6 +14,6 @@ video: /videos/gitte-web.mp4
 
 > Jeg har taget en del andre uddannelser, som også har været gode. Det her har bare været niveauet bedre -
 
-Sed lectus. Donec posuere vulputate arcu. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Curabitur turpis. Quisque id mi.
+Gitte Overgaard, der til daglig arbejder som leder i en virksomhed, fortæller her om sin oplevelse af at tage en Master of Business Coaching hos CCC. Gitte deler blandt andet sine erfaringer med at bruge det, hun har lært på uddannelsen i sit professionelle liv.
 
-Aenean imperdiet. Etiam sollicitudin, ipsum eu pulvinar rutrum, tellus ipsum laoreet sapien, quis venenatis ante odio sit amet eros. Proin viverra, ligula sit amet ultrices semper, ligula arcu tristique sapien, a accumsan nisi mauris ac eros. Praesent nonummy mi in odio. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+Vi er i CCC heldige at møde mange dygtige og passionerede mennesker på vores uddannelser. Vi har et ønske om altid at stå på tæer for vores studerende og at blive ved med at løfte den faglige barre. Det får vi netop mulighed for i mødet og samtalen med vores studerende - som for eksempel Gitte.

@@ -24,32 +24,34 @@ layout: default
 <div class="container-fluid py-5">
 
     <div class="row gx-5 gy-5">
-        <div class="col-xl-9 col-12 link-under">
+        <div class="col-xl-8 col-12 link-under">
          
+    <div class="pe-xxl-5 me-xxl-5 pe-xl-3 me-xl-3">
+        <div>
+            <div class="video-container pt-0 mb-0"><video controls>
+                    <source src="{{ page.video }}" type="video/mp4">
+                    Your browser does not support HTML video.
+                </video></div>
+        </div>
+
+
+
+        <div class="mt-4">
+
+        </div>
+           <!-- AddToAny BEGIN -->
+           <div class="a2a_kit a2a_default_style mb-3">
+            <a class="a2a_button_facebook"></a>
+            <a class="a2a_button_linkedin"></a>
+        </div>
+
+        {{ content }}
+    </div>
     
-    
-            <div>
-                <div class="video-container pt-0 mb-0"><video controls>
-                        <source src="{{ page.video }}" type="video/mp4">
-                        Your browser does not support HTML video.
-                    </video></div>
-            </div>
-    
-    
-    
-            <div class="mt-4">
-    
-            </div>
-               <!-- AddToAny BEGIN -->
-               <div class="a2a_kit a2a_default_style mb-3">
-                <a class="a2a_button_facebook"></a>
-                <a class="a2a_button_linkedin"></a>
-            </div>
-    
-            {{ content }}
+
         </div>
     
-        <div class="col-xl-3 col-12">
+        <div class="col-xl-4 col-12">
             <div class="row gy-5 gx-5">
                 <div class="col-xl-12 col-md-6 col-12">
                     <div class="bg-platinum p-4 h-100">

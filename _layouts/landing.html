@@ -11,7 +11,7 @@ layout: default
         <div class="small-container">
             <div class="row pt-5 gx-5 gy-3">
                 <div class="col-12">
-                    <img src="{{ page.image }}" alt="" class="object-fit h-100 w-100">
+                    <img src="{{ page.image }}" alt="{{ page.title }}" class="object-fit h-100 w-100">
 
                 </div>
                 <div class="col-12 text-justify">
@@ -42,7 +42,7 @@ layout: default
                 
                 <div class="col-12 col-md-6">
                     <a href="{{ ed.url }}">
-                        <img src="{{ ed.image-2 }}" alt="" class="object-fit h-150px w-100">
+                        <img src="{{ ed.image-2 }}" alt="{{ ed.title }}" class="object-fit h-150px w-100">
                         <h3 class="text-uppercase mt-3">{{ ed.title }}</h3>
                         <p>{{ ed.meta-description }}</p>
 
@@ -81,7 +81,7 @@ layout: default
                 
                 <div class="col-12 col-md-6">
                     <a href="{{ ed.url }}">
-                        <img src="{{ ed.image-2 }}" alt="" class="object-fit h-150px w-100">
+                        <img src="{{ ed.image-2 }}" alt="{{ ed.title }}" class="object-fit h-150px w-100">
                         <h3 class="text-uppercase mt-3">{{ ed.title }}</h3>
                         <p>{{ ed.meta-description }}</p>
                     </a>

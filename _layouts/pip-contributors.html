@@ -139,7 +139,7 @@ layout: default
                     </a>
                     <p class="large text-uppercase text-muted">Bidragsyder</p>
                     {% for person in page.persons %}
-                    <img src="{{ person.image }}" width="150" alt="" class="float-start me-3 mb-3">
+                    <img src="{{ person.image }}" width="150" alt="{{ person.title }}" class="float-start me-3 mb-3">
 
                     <h2>{{ person.name }}</h2>
                     <p class="xthin">{{ person.title }}</p>

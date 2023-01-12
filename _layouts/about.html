@@ -19,7 +19,7 @@ title: About
             <p>{{ employee.email }}<br>{% if employee.call %}<a href="tel:{{ employee.call }}" onclick="gtag('event','click', { 'event_category':'tlf klik', 'event_label':'tlf om os' })">+45 {{ employee.call }}</a>{% else %}<br>{% endif %}</p>
 
             <div class="text-end ms-auto" style="max-width: 300px">
-              <img src="{{ employee.portrait-image }}" class="img-fluid rounded-circle" alt="" >
+              <img src="{{ employee.portrait-image }}" class="img-fluid rounded-circle" alt="{{ employee.title }}" >
             </div>
           </div>
         </a>

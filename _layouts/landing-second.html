@@ -95,7 +95,7 @@ layout: default
         <div class="small-container">
             <div class="row pt-5 gx-5 gy-3">
                 <div class="col-12">
-                    <img src="{{ page.image }}" alt="" class="object-fit h-250 w-100">
+                    <img src="{{ page.image }}" alt="{{ page.title }}" class="object-fit h-250 w-100">
 
                 </div>
                 <div class="col-12 text-justify">
@@ -125,7 +125,7 @@ layout: default
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="bg-white">
                         <a href="{{ post.url }}">
-                            <img src="{{ post.image }}" alt="" class="h-150px object-fit w-100">
+                            <img src="{{ post.image }}" alt="{{ page.title }}" class="h-150px object-fit w-100">
                             <div class="px-3 pt-3 mh-250">
                                 <h5 class="text-uppercase mt-2 text-center">
                                     {{ post.title }}
@@ -170,7 +170,7 @@ layout: default
 
             <div class="col-12 col-md-6">
                 <a href="{{ ed.url }}">
-                    <img src="{{ ed.image-2 }}" alt="" class="object-fit h-150px w-100">
+                    <img src="{{ ed.image-2 }}" alt="{{ ed.title }}" class="object-fit h-150px w-100">
                     <h3 class="text-uppercase mt-3 text-center">{{ ed.title }}</h3>
                     <p class="mb-0">{{ ed.meta-description }}</p>
                 </a>
