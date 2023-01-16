@@ -24,17 +24,17 @@ layout: default
     <div class="small-container">
         <div>
             <div class="row gx-2 gy-2 justify-content-center">
-                <div class="col-4 col-md">
+                <div class="col-6 col-md-4 col-lg">
                     <a class="color-base tab-links" href="#overblik">
-                        <div class="bg-cadet-gray w-100 text-center py-2">
+                        <div class="bg-cadet-gray w-100 text-center px-3 px-md-0 py-2">
                             <p class="mb-0 fs-6 text-white">Overblik</p>
                         </div>
                     </a>
                 </div>
                 {% if page.opbygning == true %}
-                <div class="col-4 col-md">
+                <div class="col-6 col-md-4 col-lg">
                     <a class="color-base tab-links" href="#opbygning">
-                        <div class="bg-cadet-gray w-100 text-center py-2">
+                        <div class="bg-cadet-gray w-100 text-center px-3 px-md-0 py-2">
                             <p class="mb-0 fs-6 text-white">Opbygning</p>
                         </div>
                     </a>
@@ -43,9 +43,9 @@ layout: default
                 {% endif %}
 
                 {% if page.deltagerprofil == true %}
-                <div class="col-4 col-md">
+                <div class="col-6 col-md-4 col-lg">
                     <a class="color-base tab-links" href="#deltagerprofil">
-                        <div class="bg-cadet-gray w-100 text-center py-2">
+                        <div class="bg-cadet-gray w-100 text-center px-3 px-md-0 py-2">
                             <p class="mb-0 fs-6 text-white">Deltagerprofil</p>
                         </div>
                     </a>
@@ -54,9 +54,9 @@ layout: default
                 {% endif %}
 
                 {% if page.anbefalinger == true %}
-                <div class="col-4 col-md">
+                <div class="col-6 col-md-4 col-lg">
                     <a class="color-base tab-links" href="#anbefalinger">
-                        <div class="bg-cadet-gray w-100 text-center py-2">
+                        <div class="bg-cadet-gray w-100 text-center px-3 px-md-0 py-2">
                             <p class="mb-0 fs-6 text-white">Anbefalinger</p>
                         </div>
                     </a>
@@ -65,26 +65,26 @@ layout: default
                 {% endif %}
 
 
-                <div class="col-4 col-md">
+                <div class="col-6 col-md-4 col-lg">
                     <a class="color-base tab-links" href="#undervisere">
-                        <div class="bg-cadet-gray w-100 text-center py-2">
+                        <div class="bg-cadet-gray w-100 text-center px-3 px-md-0 py-2">
                             <p class="mb-0 fs-6 text-white">Undervisere</p>
                         </div>
                     </a>
                 </div>
 
-                <div class="col-4 col-md">
+                <div class="col-6 col-md-4 col-lg">
                     <a class="color-base tab-links" href="#praktisk">
-                        <div class="bg-cadet-gray w-100 text-center py-2">
+                        <div class="bg-cadet-gray w-100 text-center px-3 px-md-0 py-2">
                             <p class="mb-0 fs-6 text-white">Praktisk</p>
                         </div>
                     </a>
                 </div>
 
                 {% if page.infomode == true %}
-                <div class="col-4 col-md">
+                <div class="col-6 col-md-4 col-lg">
                     <a class="color-base tab-links" href="#infomode">
-                        <div class="bg-cadet-gray w-100 text-center py-2">
+                        <div class="bg-cadet-gray w-100 text-center px-3 px-md-0 py-2">
                             <p class="mb-0 fs-6 text-white">Informationsmøde</p>
                         </div>
                     </a>
@@ -92,9 +92,9 @@ layout: default
 
                 {% endif %}
 
-                <div class="col-4 col-md">
+                <div class="col-6 col-md-4 col-lg">
                     <a class="color-base tab-links" href="#ansog">
-                        <div class="bg-cadet-gray w-100 text-center py-2">
+                        <div class="bg-cadet-gray w-100 text-center px-3 px-md-0 py-2">
                             <p class="mb-0 fs-6 text-white">Ansøg</p>
                         </div>
                     </a>
@@ -112,7 +112,7 @@ layout: default
 <div class="container-fluid mb-3 position-relative">
     <div class="small-container">
         <div id="overblik" class="anchor-delay"></div>
-        <div class="row g-5">
+        <div class="row g-lg-5 g-3">
 
             <div class="col-12 col-md-6">
                 {% for text in page.overblik limit:1 %}
@@ -136,8 +136,9 @@ layout: default
             </div>
             {% if page.lists %}
             <div class="col-12 col-md-6">
+                
                 {% for text in page.overblik offset:1 %}
-                <h4 class="text-uppercase">{{ text.overskrift }}</h4>
+                <h4 class="text-uppercase mb-lg-0 mb-4 mt-lg-0 mt-4">{{ text.overskrift }}</h4>
                 {% for p in text.paragrafer %}
                 <p class="text-justify">{{ p }}</p>
                 {% endfor %}
@@ -160,7 +161,7 @@ layout: default
 
                 <h4 class="text-uppercase">{{ text.overskrift }}</h4>
                 {% for p in text.paragrafer %}
-                <p class="text-justify">{{ p }}</p>
+                <p class="text-justify mb-0">{{ p }}</p>
                 {% endfor %}
 
             </div>
@@ -213,8 +214,7 @@ layout: default
 
 
                 <div class="col-4 align-items-center justify-items-end justify-content-end text-end">
-                    <a href="#ansog" class="btn btn-gray-curry mt-0 text-white text-uppercase fw-bold">Ansøg<span
-                            class="d-none d-md-inline"> nu</span></a>
+                    <a href="#ansog" class="btn btn-dark-sienna mt-0 text-white text-uppercase fw-bold d-none d-sm-inline">Ansøg nu</a>
                 </div>
             </div>
         </div>
@@ -548,8 +548,11 @@ layout: default
             {% endfor %}
             {% endif %}
         </div>
+
+        <a href="#ansog" class="btn btn-dark-sienna mt-3 text-white text-uppercase fw-bold d-sm-none d-block mx-auto">Ansøg nu</a>
     </div>
 </div>
+
 {% else %}
 <div class="container-fluid">
     <div class="small-container pb-5">
@@ -575,7 +578,7 @@ layout: default
 <div class="container-fluid py-5">
     <div class="small-container pt-3">
 
-        <div class="row gx-5">
+        <div class="row gx-5 gy-4">
             {% for h in page.opbygning-text %}
             <div class="col-12 col-md-6">
                 <h4 class="text-uppercase">{{ h.overskrift }}
@@ -1311,7 +1314,7 @@ layout: default
                     <div class="col-12">
                         <div class="g-recaptcha" data-sitekey="6Lfi__EcAAAAABOscNdrKzqeLNu2vbuTM_5VlANy"></div>
                         <!-- replace with your recaptcha SITE key not secret key -->
-                        <br />
+                        
                     </div>
                     <div class="col-12">
                         <button class="w-100 btn-opal text-white btn mb-3" type="submit">Ansøg</button>

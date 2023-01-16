@@ -10,20 +10,16 @@ layout: default
             <div class="row">
                 <div class="col-12 offset-lg-3 col-lg-6">
                     <hr class="white short-hr mx-auto">
-
-
                 </div>
             </div>
-
         </div>
     </div>
-
 </div>
 
 {% if page.box == true %}
-<div class="container-fluid mt-5">
+<div class="container-fluid">
     <div class="small-container">
-        <div class="row gx-5">
+        <div class="row gx-5 gy-4">
             <div class="col-12 col-lg-6">
                 <div class="w-100 h-100"
                     style="background: url('/images/graphic/foredrag.jpg'); background-size: cover; background-position: top;">
@@ -35,13 +31,11 @@ layout: default
                     <h3>{{ page.box-heading }}</h3>
                     <p>{{ page.box-content }}</p>
                 </div>
-
             </div>
-            <div class="col-12 col-lg-6 pt-5">
-
+            <div class="col-12 col-lg-6">
                 {{ page.content }}
             </div>
-            <div class="col-12 col-lg-6 pt-5">
+            <div class="col-12 col-lg-6">
                 {% if page.list %}
                 <h4>{{ page.list-heading }}</h4>
                 <p>{{ page.list-paragraph }}</p>
@@ -56,9 +50,9 @@ layout: default
                 {% endif %}
                 {% endif %}
             </div>
-            <div class="col-12 col-lg-6 pb-5">
+            <div class="col-12 col-lg-6">
 
-                <div class="bg-slate-gray p-4">
+                <div class="bg-slate-gray p-4 mb-5">
                     <p class="fs-6 text-white"><b>Interesseret i at høre mere?</b> Ring og få en snak med:</p>
                     {% for employee in site.employees %}
                     {% if page.contact-person == employee.title %}
