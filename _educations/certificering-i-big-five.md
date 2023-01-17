@@ -95,7 +95,7 @@ hold:
   modules:
   - date: 3. maj
     day: "1"
-    time: 10:00 - 12:00
+    time: 13:00 - 15:00
     name: Tjek ind
     place: Online
   - date: 11. maj
