@@ -60,34 +60,63 @@ undervisere:
 kursus-oversigt: true
 aktive-hold: true
 hold:
-- title: BFC22-4
+- title: BFC23-1
   price: 19.500 ekskl. moms
-  dates: 4. november - 9. december
+  dates: 23. februar - 12. april 2023
   modules:
-  - date: 4. november
+  - date: 23. februar
     day: "1"
     time: 10:00 - 12:00
     name: Tjek ind
     place: Online
-  - date: 11. november
+  - date: 1. marts
     day: "2"
-    time: 10:00 - 12:00
+    time: 13:00 - 15:00
     name: Teorien
     place: Online
-  - date: 18. november
+  - date: 15. marts
     day: "3"
     time: 10:00 - 12:00
     name: Praktikken
     place: Online
-  - date: 2. december
+  - date: 29. marts
     day: "4"
     time: 10:00 - 15:00
-    name: Tilbagemeldingssamtalen
+    name: Workshop
     place: Online
-  - date: 9. december
+  - date: 12. april
     day: "5"
+    time: 08:30 - 13:00
+    name: Wrap up + Eksamen
+    place: Online
+- title: BFC23-2
+  price: 19.500 ekskl. moms
+  dates: 3. maj - 12. juni 2023
+  modules:
+  - date: 3. maj
+    day: "1"
+    time: 10:00 - 12:00
+    name: Tjek ind
+    place: Online
+  - date: 11. maj
+    day: "2"
+    time: 13:00 - 15:00
+    name: Teorien
+    place: Online
+  - date: 19. maj
+    day: "3"
+    time: 10:00 - 12:00
+    name: Praktikken
+    place: Online
+  - date: 5. juni
+    day: "4"
     time: 10:00 - 15:00
-    name: Wrap up
+    name: Workshop
+    place: Online
+  - date: 12. juni
+    day: "5"
+    time: 08:30 - 13:00
+    name: Wrap up + Eksamen
     place: Online
 classes: big-five
 cat:
