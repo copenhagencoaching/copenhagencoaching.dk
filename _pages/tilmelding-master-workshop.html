@@ -1,0 +1,130 @@
+---
+title: Meld dig til master workshop
+layout: default
+permalink: /master-workshop/
+---
+
+<div class="bg-black-coral pt-5">
+    
+    <div class="mt-5"></div>
+
+    <div class="container-fluid pt-5 pb-5">
+        <div class="row">
+            <div class="offset-md-4 col-md-4 col-12 bg-white p-3">
+                <h1>Tilmeld dig Masterworkshop</h1>
+                
+
+
+
+                <form action="https://formspree.io/f/xvongaqv" method="POST" id="master-form">
+                    
+                    
+                                
+                        <div class="form-check mb-1">
+                            
+                            <input class="form-check-input mb-0" name="tags" type="checkbox"
+                                value="5. marts" id="dato1">
+                            <label class="form-check-label" for="dato1">
+                                <p class="small fw-bold">5. marts 17:00-20:00</p>
+                            </label>
+                            
+                        </div>
+                        
+                    
+                                
+                        <div class="form-check mb-1">
+                            
+                            <input class="form-check-input mb-0" name="tags" type="checkbox"
+                                value="12. april" id="dato2">
+                            <label class="form-check-label" for="dato2">
+                                <p class="small fw-bold">12. april 17:00-20:00</p>
+                            </label>
+                            
+                        </div>
+                        
+                    
+                                
+                        <div class="form-check mb-1">
+                            
+                            <input class="form-check-input mb-0" name="tags" type="checkbox"
+                                value="26. juni" id="dato3">
+                            <label class="form-check-label" for="dato3">
+                                <p class="small fw-bold">26. juni 17:00-20:00</p>
+                            </label>
+                            
+                        </div>
+                        
+                    
+                    
+
+                    <input class="form-control mb-3" type="text" name="name" placeholder="Navn" required>
+
+                    <input type="text" class="form-control mb-3" name="email" placeholder="Email" required>
+                    <div class="g-recaptcha" data-sitekey="6Lfi__EcAAAAABOscNdrKzqeLNu2vbuTM_5VlANy"></div>
+                    <!-- your other form fields go here -->
+                    <button id="btn-ta" class="btn-cadet-gray btn w-100">Tilmeld</button>
+
+                </form>
+
+                <div id="stat-error" class="d-none">
+                    <p>Husk at udfylde alle felter</p>
+                </div>
+                <div id="form-t-status" class="d-none">
+                    <p>Tak for din tilmelding. Du vil snarest få en bekræftelse på mail.</p>
+                
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    var form_t = document.getElementById("master-form");
+    async function handleSubmitT(event) {
+
+        event.preventDefault();
+        var status = document.getElementById("form-t-status");
+        var stat_er = document.getElementById("stat-error")
+        var data = new FormData(event.target);
+        fetch(event.target.action, {
+            method: form_t.method,
+            body: data,
+            headers: {
+                'Accept': 'application/json'
+            }
+        }).then(response => {
+            if (!response.ok) {
+                stat_er.className = "d-block"
+                
+                return;
+            } else {
+                status.className = "py-3 text-center"
+                form_t.className = "d-none"
+                stat_er.className = "d-none"
+                form_t.reset()
+
+            }
+
+        }).catch(error => {
+            status.innerHTML = "Ups! Der opstod et problem. --"
+        });
+
+    }
+    form_t.addEventListener("submit", handleSubmitT)
+
+
+
+    let select = document.getElementById('select_id');
+    select.onchange = function () {
+
+
+        document.getElementById('btn-ta').innerHTML = this.selectedOptions[0].text;
+
+    }
+
+
+</script>
+
+<script src="/js/atcb.min.js"></script>
