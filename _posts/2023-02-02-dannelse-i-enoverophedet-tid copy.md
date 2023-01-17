@@ -4,7 +4,7 @@ event-type: Foredrag
 image: /images/events/stefan-hermann-banner.png
 subtitle: Foredrag
 thumbnail: /images/events/Stefan-hermann.png
-description: "Direktør Andreas Bering og Stefan Hermann, rektor for Københavns Professionshøjskole, vil i en undersøgende samtale komme ind på dannelsesbegrebet og Hermanns egne livtag med det gennem sit arbejdsliv. Vi tager temperaturen på dannelsen denne eftermiddag og prøver at tegne dets landskab af betydninger. Vi afslutter med en protreptisk samtale."
+description: "I en undersøgende samtale med Stefan Hermann vil vi komme ind på dannelsesbegrebet og Hermanns egne livtag med det gennem sit arbejdsliv. Vi tager temperaturen på dannelsen denne eftermiddag og prøver at tegne dets landskab af betydninger. Vi afslutter med en protreptisk samtale."
 category: event
 tags:
 - event
@@ -27,12 +27,12 @@ billetto-nr: 705112
 
 Vi er glade for at invitere til en sen eftermiddag med Stefan Hermann, Rektor for Københavns Professionshøjskole.
 
-Direktør Andreas Bering og Stefan Hermann vil i en undersøgende samtale komme ind på dannelsesbegrebet og Hermanns egne livtag med det gennem sit arbejdsliv. Senest har Hermann i debatbogen En Varm Tid argumenteret for, at vores samtid er overophedet både i konkret og overført betydning: For mange taler for højt, stresskurven har nået loftet og skovene brænder.
+I en undersøgende samtale med Stefan Hermann vil vi komme ind på dannelsesbegrebet og Hermanns egne livtag med det gennem sit arbejdsliv. Senest har Hermann i debatbogen En Varm Tid argumenteret for, at vores samtid er overophedet både i konkret og overført betydning: For mange taler for højt, stresskurven har nået loftet og skovene brænder.
 Hvad er det blevet til med den introverte følelse, med lytning og med langsomhed?
 
 **Og hvordan hænger det sammen med dannelse?**
 
-Vi tager temperaturen på dannelsen denne eftermiddag og prøver at tegne dets landskab af betydninger. Først gennem en samtale om de erfaringer, Hermann er rundet af, og de mange tanker han har gjort sig om dannelse. Dernæst gennem en protreptisk samtale mellem Bering og Hermann, hvor arrangementets deltagere kan byde ind med det begreb, som skal undersøges gennem denne særlige filosofiske samtale.
+Vi tager temperaturen på dannelsen denne eftermiddag og prøver at tegne dets landskab af betydninger. Først gennem en samtale om de erfaringer, Hermann er rundet af, og de mange tanker han har gjort sig om dannelse. Dernæst gennem en protreptisk samtale med Hermann, hvor arrangementets deltagere kan byde ind med det begreb, som skal undersøges gennem denne særlige filosofiske samtale.
 
 Stefan Hermann er rektor på Københavns Professionshøjskole og tidligere rektor på Metropol. Han har været embedsmand i Kulturministeriet og i Undervisningsministeriet samt forhenværende vicedirektør på ARKEN Museum for Moderne Kunst.
 
