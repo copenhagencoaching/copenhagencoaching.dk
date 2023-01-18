@@ -17,7 +17,7 @@ image-2: /images/events/foredrag.png
 ex-moms: true
 prime-color: army-green
 secondary-color: scandy-blue
-place: Online
+place: Blegdamsvej 104, 2100 København Ø
 time: 16:00 - 17:30
 link: true
 link-url: /academy/psykologisk-filosofisk-psykoterapeut-uddannelse/#infomode
