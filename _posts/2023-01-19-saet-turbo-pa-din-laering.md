@@ -9,7 +9,7 @@ tags:
 - tekst
 - blog
 ---
-##### Udenadslære kan måske læres i et utrygt rum. Men bortset fra det, så ved vi alle, at læring forudsætter tryghed. Hvis trygheden til gengæld er etableret, så kan neurovidenskaben vende os mod den lidt mere tekniske side af det af lære.
+##### Udenadslære kan måske læres i et utrygt rum. Men bortset fra det, så ved vi alle, at læring forudsætter tryghed. Hvis trygheden til gengæld er etableret, så kan neurovidenskaben vende os mod den lidt mere tekniske side af det at lære.
 
 Neurovidenskaben er blevet en stadig mere aktiv medskaber af viden om læreprocesser. Den underbygger det, som mange allerede har erfaret, nemlig at vi husker bedst ved at være aktive, mentalt såvel som fysisk. Det er med andre ord ikke kun karakteren af den hjerne, vi er født med, som har betydning for, hvor godt vi husker og lærer. Det betyder også noget, hvordan vi bruger den i situationer, hvor vi skal lære nyt. Derfor kan der være god grund til at lytte til neurovidenskabens pointer, når vi lærer.
 
