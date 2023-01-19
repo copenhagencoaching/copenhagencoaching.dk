@@ -8,25 +8,24 @@ description: 'Udenadslære kan måske læres i et utrygt rum. Men bortset fra de
 tags:
 - tekst
 - blog
-
 ---
-**Udenadslære kan måske læres i et utrygt rum. Men bortset fra det, så ved vi alle, at læring forudsætter tryghed. Hvis trygheden til gengæld er etableret, så kan neurovidenskaben vende os mod den lidt mere tekniske side af det af lære.**
+##### Udenadslære kan måske læres i et utrygt rum. Men bortset fra det, så ved vi alle, at læring forudsætter tryghed. Hvis trygheden til gengæld er etableret, så kan neurovidenskaben vende os mod den lidt mere tekniske side af det af lære.
 
 Neurovidenskaben er blevet en stadig mere aktiv medskaber af viden om læreprocesser. Den underbygger det, som mange allerede har erfaret, nemlig at vi husker bedst ved at være aktive, mentalt såvel som fysisk. Det er med andre ord ikke kun karakteren af den hjerne, vi er født med, som har betydning for, hvor godt vi husker og lærer. Det betyder også noget, hvordan vi bruger den i situationer, hvor vi skal lære nyt. Derfor kan der være god grund til at lytte til neurovidenskabens pointer, når vi lærer.
 
-### At lære at lære
+#### At lære at lære
 
 Den neurovidenskabeligt baserede viden om, hvordan vi lærer bedre, kan bruges i alle læringssituationer. Den handler om, hvordan man som studerende kan tage mere aktiv del i sin egen læring og på en måde mere ansvar for den. Man kan sige, at denne viden om læreprocesser handler om _at lære at lære_. De følgende forslag tager afsæt i bogen [_Brug din superhjerne_](https://samfundslitteratur.dk/bog/brug-din-superhjerne)_._ Den indeholder teknikker til at lære, huske og studere bedre, som alle er baseret på neurovidenskabelig forskning.
 
 Måske kan forslagene finde anvendelse hos dig, kære læser? Måske kender og bruger du allerede disse teknikker? Måske har du ligefrem forkastet dem? Under alle omstændigheder er her nogle enkelte forslag ud af mange flere.
 
-### Dybdelæring
+#### Dybdelæring
 
 Bogen _Brug din superhjerne_ er skrevet af Olav Schewe, norsk forfatter om blandt andet studieteknik, sammen med den amerikanske professor Barbara Oakley. De forklarer i bogen, hvordan man nemt og hurtigt lagrer information i langtidshukommelsen, hvordan man bruger sin arbejdshukommelse optimalt, og hvordan man bedst udnytter hjernens netværk til at koncentrere sig og løse problemer.
 
 Hvad angår hukommelse, så er _dybdelæring_ et af de begreber, bogen introducerer. Det handler om at lagre viden (ord, betydninger og sammenhænge) i sin langtidshukommelse på en måde, så man faktisk kan forklare, opsummere, analysere og bruge denne viden, også i nye sammenhænge. Det er det, vi gerne vil, ifølge forfatterne. Vi vil gerne dybdelære, fordi vi dermed husker og forstår mere over længere tid og kan anvende vores viden i nye og uventede situationer, fx en ny situation på arbejdet. Og ikke nok med det. Dybdelæring ser sådan ud i hjernen, at der er skabt lange og tykke kæder af nerveforbindelser. Jo flere, jo længere og jo tykkere, des bedre. Disse kæder gør det nemmere at lære mere nyt. Så der er altså basis for en positiv spiral. Kæderne tykner, når man sover.
 
-### Tips til dybdelæring:
+#### Tips til dybdelæring:
 
 **Brug din tænkning** **over, hvordan du tænker** til fx at forklare dig selv eller en anden: hvad er det, jeg ikke forstår - og hvorfor?
 
@@ -43,10 +42,10 @@ Hvad angår hukommelse, så er _dybdelæring_ et af de begreber, bogen introduce
 
 Sidder du en dag i en læringssituation og oplever, at du bliver passiv, mens en underviser (eller kollega) taler rigtig meget, så kunne du overveje at række hånden op og bruge nogle af grebene ovenfor som spørgsmål. På den måde, kan du selv være med til at skabe nye forbindelser i superhjernen igen.
 
-![Undervisning på CCC](/images/events/events.jpg "Undervisning på CCC")
+![Undervisning på CCC](/images/events/events.png "Undervisning på CCC")
 
-### Læring på CCC
+#### Læring på CCC
 
 Hvis du ikke allerede har oplevet det, så kommer du måske til det. Nemlig at læringsrummet på Copenhagen Coaching Center i overvejende grad understøtter aktiv læring. Studerende byder meget aktivt ind og opmuntres til det. Egne erfaringer bringes ind i refleksioner og overvejelser. Hvad siger vores oplevelser som ledere fx. til de teorier, vi arbejder med at forstå? Og vigtigst: hvordan kan vi få nye perspektiver på og handlemuligheder i vores arbejdsliv gennem de teorier, vi arbejder med? På Copenhagen Coaching Center understøtter vi blandt andet de tilgange til dybdelæring, som er nævnt ovenfor. Men vi er også nysgerrige på nye og andre tilgange og vil gerne modtage feedback (skriv endelig til os :))
 
-Til videre refleksion – og som oplæg til at se en større mening med dette blogindlæg - kunne måske afsluttes med et protreptisk spørgsmål, nemlig: _hvad er læringens formål?_
+Til videre refleksion – og som oplæg til at se en større mening med dette blogindlæg - kunne måske afsluttes med et protreptisk spørgsmål, nemlig: *hvad er læringens formål?*
