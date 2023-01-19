@@ -21,5 +21,3 @@ fields:
   label: Tags
   config:
     use_select: false
-pages:
-- _posts/saet-turbo-pa-din-laering.md

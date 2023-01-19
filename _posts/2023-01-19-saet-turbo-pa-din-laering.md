@@ -16,7 +16,7 @@ Neurovidenskaben er blevet en stadig mere aktiv medskaber af viden om læreproce
 
 ### At lære at lære
 
-Den neurovidenskabeligt baserede viden om, hvordan vi lærer bedre, kan bruges i alle læringssituationer. Den handler om, hvordan man som studerende kan tage mere aktiv del i sin egen læring og på en måde mere ansvar for den. Man kan sige, at denne viden om læreprocesser handler om _at lære at lære_. De følgende forslag tager afsæt i bogen _Brug din superhjerne._ Den indeholder teknikker til at lære, huske og studere bedre, som alle er baseret på neurovidenskabelig forskning.
+Den neurovidenskabeligt baserede viden om, hvordan vi lærer bedre, kan bruges i alle læringssituationer. Den handler om, hvordan man som studerende kan tage mere aktiv del i sin egen læring og på en måde mere ansvar for den. Man kan sige, at denne viden om læreprocesser handler om _at lære at lære_. De følgende forslag tager afsæt i bogen [_Brug din superhjerne_](https://samfundslitteratur.dk/bog/brug-din-superhjerne)_._ Den indeholder teknikker til at lære, huske og studere bedre, som alle er baseret på neurovidenskabelig forskning.
 
 Måske kan forslagene finde anvendelse hos dig, kære læser? Måske kender og bruger du allerede disse teknikker? Måske har du ligefrem forkastet dem? Under alle omstændigheder er her nogle enkelte forslag ud af mange flere.
 
