@@ -8,6 +8,7 @@ kort: true
 kategori: samtaler
 meta-title: Business Coaching uddannelse - Master i Business Coaching
 meta-description: Ønsker du at blive dygtig til at føre produktive og virkningsfulde dialoger? Bliv Master i Business Coaching på 2 år. Læs mere om vores business coach uddannelse her.
+video-thumb: /videos/gitte-web.mp4
 small-price: 45.900,- ekskl. moms pr. semester
 adgangskrav: "Adgang til uddannelsen er betinget
 af at ansøgeren har bestået mindst
@@ -580,10 +581,10 @@ infomode: false
 infomode-text: Kom til informationsmøde om vores masteruddannelse.
 infomode-dates:
 - 5. jan. 16.00-17.00 (online)
-anbefalinger-video: true
+anbefalinger-video: false
 video-url: /videos/gitte-web.mp4
 video-text: Hvad siger tidligere studerende om Master of Business Coaching? Hør hvad Gitte Overgaard mener om uddannelsen.
-anbefalinger: true
+anbefalinger: false
 anbefalinger-text: false
 ---
 
