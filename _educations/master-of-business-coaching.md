@@ -1,6 +1,7 @@
 ---
 order: 1
 title: Master of Business Coaching
+overtitle: MBC
 layout: course
 image: /images/educations/mbc-1.png
 image-2: /images/educations/mbc-overblik.png
@@ -85,7 +86,7 @@ overblik:
   - "Med en Master of Business Coaching får du en af landets bedste coachinguddannelser, hvor du både kan foretage traditionelle coachingsamtaler og den filosofiske samtale."
 - overskrift: Højeste internationale akkreditering
   paragrafer:
-  - "Med en Master of Business Coaching fra CCC er du garanteret de højeste, internationale standarder via vores akkreditering fra European Mentoring and Coaching Council (EMCC)."
+  - "Med en Master of Business Coaching fra CCC er du garanteret de højeste, internationale standarder via vores akkreditering fra European Mentoring and Coaching Council (EMCC). <ins><a href='/emcc-akkreditering/'>Læs om vores EMCC akkreditering her</a></ins>."
 lists:
 - liste-paragraf: "Med tryk på Business-delen af Coaching, i modsætning til fx life-coaching, er uddannelsen målrettet erhvervslivet med den hensigt at løfte de studerendes dialogiske kapacitet i professionelle kontekster."
 dage: 8
