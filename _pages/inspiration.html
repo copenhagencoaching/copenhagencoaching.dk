@@ -4,26 +4,26 @@ layout: default
 ---
 
 <div class="pt-5 mt-5"
-    style="background: url('/images/blog/inspiration.png'); background-size: cover; background-position: center;">
+    style="background: url('/images/diverse/inspiration.png'); background-size: cover; background-position: center;">
     <div class="py-5">
         <div class="container-fluid py-5">
-            <div class="small-container">
+            
                 <div class="row">
                     <div class="col-6">
-                        <div style="background-color: rgba(255, 255, 255, 0.7);" class="p-5">
+                        <div style="background-color: rgba(255, 255, 255, 0.8);" class="p-5">
                             <h1 class="mb-1">Inspiration</h1>
                             <p>Blogposts, podcasts, videoer mm. til inspiration</p>
                         </div>
                     </div>
                 </div>
-            </div>
+            
         </div>
     </div>
 </div>
 
 
 <div class="container-fluid py-5">
-    <div class="small-container">
+ 
         <h2 class="mb-4">Blog</h2>
         <div class="insp-responsive">
             {% for post in site.categories.blog %}
@@ -31,19 +31,48 @@ layout: default
              -->
              <div class="ct-header tablex item zoom">
                 <a href="{{ post.url }}">
-                <div class="h-150px position relative">
+                <div class="h-170 position relative">
                     <img class="object-fit" data-lazy="{{ post.image }}" alt="{{ post.title }}">
                 </div>
                
                 <div class="ct-u-display-tablex">
                   <div class="inner" style="height: 120px">
                     
-                     <p class="small mt-2 mb-1"><small>{{ post.date | date: "%d-%m-%Y" }}</small></p>
+                    {% assign postmonth = post.date | date: "%m" %}
+
+
+                    {% if postmonth == "01" %}
+                    {% assign monthName = "januar" %}
+                    {% elsif postmonth == "02" %}
+                    {% assign monthName = "februar" %}
+                    {% elsif postmonth == "03" %}
+                    {% assign monthName = "marts" %}
+                    {% elsif postmonth == "04" %}
+                    {% assign monthName = "april" %}
+                    {% elsif postmonth == "05" %}
+                    {% assign monthName = "maj" %}
+                    {% elsif postmonth == "06" %}
+                    {% assign monthName = "juni" %}
+                    {% elsif postmonth == "07" %}
+                    {% assign monthName = "juli" %}
+                    {% elsif postmonth == "08" %}
+                    {% assign monthName = "august" %}
+                    {% elsif postmonth == "09" %}
+                    {% assign monthName = "september" %}
+                    {% elsif postmonth == "10" %}
+                    {% assign monthName = "oktober" %}
+                    {% elsif postmonth == "11" %}
+                    {% assign monthName = "november" %}
+                    {% elsif postmonth == "12" %}
+                    {% assign monthName = "december" %}
+                    {% endif %}
+                     <p class="small mt-2 mb-1"><small>{{ post.date | date: "%d"}}. {{ monthName }} {{ post.date | date: "%Y"}}</small></p>
                         
                           <h5>{{ post.title }}</h5>
-                          <p>{{ post.description | truncatewords: 15, "..." }}</p>
+                          <p>{{ post.description | truncatewords: 17, "..." }}</p>
                         
                   </div>
+                  
                   <div class="inner-btn">
                     <a class="btn btn-black-coral rounded-0 text-white" href="{{ post.url }}">Se mere</a>
                   </div>
@@ -52,11 +81,11 @@ layout: default
               </div>
             {% endfor %}
           </div>
-    </div>
+
 </div>
 <div class="bg-platinum">
     <div class="container-fluid py-5">
-        <div class="small-container">
+      
             <h2 class="mb-4">Podcasts</h2>
             <div class="insp-responsive">
                 {% for post in site.categories.podcast %}
@@ -64,7 +93,7 @@ layout: default
                  -->
                  <div class="ct-header tablex item zoom">
                     <a href="{{ post.url }}">
-                    <div class="h-150px">
+                    <div class="h-170">
                         <img class="object-fit" data-lazy="{{ post.image }}" alt="{{ post.title }}">
                     </div>
                    
@@ -88,13 +117,13 @@ layout: default
                   </div>
                 {% endfor %}
               </div>
-        </div>
+    
     </div>
 </div>
 
 
 <div class="container-fluid py-5">
-    <div class="small-container">
+
         <h2 class="mb-4">Videoer</h2>
         <div class="insp-responsive">
             {% for post in site.categories.video %}
@@ -102,7 +131,8 @@ layout: default
              -->
              <div class="ct-header tablex item zoom">
                 <a href="{{ post.url }}">
-                <div class="h-150px">
+                <div class="h-170">
+
                     <img class="object-fit" data-lazy="{{ post.image }}" alt="{{ post.title }}">
                 </div>
                
@@ -126,5 +156,5 @@ layout: default
               </div>
             {% endfor %}
           </div>
-    </div>
+   
 </div>

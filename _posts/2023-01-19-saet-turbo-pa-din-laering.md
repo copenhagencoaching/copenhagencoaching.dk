@@ -42,7 +42,7 @@ Hvad angår hukommelse, så er _dybdelæring_ et af de begreber, bogen introduce
 
 Sidder du en dag i en læringssituation og oplever, at du bliver passiv, mens en underviser (eller kollega) taler rigtig meget, så kunne du overveje at række hånden op og bruge nogle af grebene ovenfor som spørgsmål. På den måde, kan du selv være med til at skabe nye forbindelser i superhjernen igen.
 
-![Undervisning på CCC](/images/events/events.png "Undervisning på CCC")
+![Undervisning på CCC](/images/events/events.png "Undervisning på CCC"){:.img-fluid}
 
 #### Læring på CCC
 
