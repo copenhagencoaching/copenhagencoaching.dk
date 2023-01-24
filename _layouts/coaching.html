@@ -1,9 +1,31 @@
 ---
-layout: page
+layout: default
 ---
+
+<div class="hero-image d-flex align-content-center align-items-center"
+    style="background: linear-gradient(rgba(19, 19, 19, 0.7), rgba(19, 19, 19, 0.7)), url('{{ page.image }}'); background-size: cover; background-position: center;">
+    
+        <div class="container-fluid text-center">
+            <h1 class="text-white mb-1">{{ page.title }}</h1>
+            <div class="row">
+                <div class="col-12 offset-lg-3 col-lg-6">
+                    <hr class="white short-hr mx-auto">
+                </div>
+            </div>
+        </div>
+    
+</div>
+<div class="container-fluid mt-4">
+    <div class="small-container">
+        <p>{{ page.description }}</p>
+    </div>
+</div>
 
 {% assign orderedcoaching = site.coachings | sort: "order" %}
 <div class="container-fluid mt-5 mb-5 d-flex flex-wrap justify-content-center">
+
+
+
     {% for coaching in orderedcoaching %}
 
     <a class="me-3 mb-3 dark-border-button btn" href="#{{ coaching.title | remove: ' ' | strip_html }}">{{
@@ -30,7 +52,7 @@ layout: page
                     {{ coaching.content }}
                     {% for employee in site.employees %}
                 {% if coaching.contact-person == employee.title %}
-                <div class="d-flex align-items-center bg-black-coral rounded p-3">
+                <div class="d-flex align-items-center bg-black-coral rounded-0 p-3">
                     <div>
 
                         <p class="text-white large"><b>Interesseret i at høre mere?</b> Ring eller skriv og få en snak med</p>
@@ -79,4 +101,3 @@ layout: page
 
 
 
-{% include sections/pip-banner.html %}

@@ -5,7 +5,7 @@ title: Organisationsudvikling
 box: true
 box-heading: 15 års erfaring
 box-content: I CCC har vi over 15 års erfaring i arbejdet med situationer, hvor en given organisatorisk praksis skal justeres, udfoldes eller decideret transformeres.
-image: c4.jpg
+image: /images/graphic/foredrag.jpg
 contact-person: Andreas Bering
 description: I CCC har vi over 15 års erfaring i arbejdet med situationer, hvor en given organisatorisk praksis skal justeres, udfoldes eller decideret transformeres.
 list-paragraph: "Temaer, som vi typisk holder meget øje med, kan bistå med ekspertise til samt installere opmærksomhedsfelter og greb, teknikker og metoder i forhold til, er:"

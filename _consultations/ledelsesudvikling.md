@@ -5,7 +5,7 @@ title: Ledelsesudvikling
 box: true
 box-heading: Selvindsigt og praktisk dømmekraft
 box-content: "Ledelse er helt centralt for virksomheders og organisationers udvikling og kvalitet. I vores arbejde med ledelsesudvikling arbejder vi i to spor: Den individuelle lederudvikling & Udvikling af ledelsesteamet."
-image: c3.jpg
+image: /images/consulting/2.png
 contact-person: Lars Nyborg
 description: 'Ledelse er helt centralt for virksomheders og organisationers udvikling og kvalitet.
 I vores arbejde med ledelsesudvikling arbejder vi i to spor: Den individuelle lederudvikling & Udvikling af ledelsesteamet.'

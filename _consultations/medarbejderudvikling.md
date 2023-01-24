@@ -4,7 +4,7 @@ order: "4"
 title: Medarbejderudvikling
 meta-title: Medarbejderudvikling - Løft medarbejderne til nye højder
 meta-description: Ledelse er helt centralt for virksomheders og organisationers udvikling og kvalitet. Læs om vores velafprøvede tilgang til ledelsesudvikling og -sparring her
-image: c1.jpg
+image: /images/consulting/3.png
 contact-person: Andreas Bering
 description: I CCC arbejder vi med kompetenceudviklende aktiviteter for medarbejdere i alle typer organisationer. Vi har særligt fokus på bedre, mere eller nye former for samarbejde samt øget motivation og deltagelse.
 ---

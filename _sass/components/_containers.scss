@@ -185,3 +185,15 @@
 
     }
 }
+
+// hero image
+
+.hero-image {
+    margin-top: 115px;
+    height: 300px;
+    @media (max-width: 767.98px) { 
+        height: 200px;
+        margin-top: 90px;
+     }
+
+}
