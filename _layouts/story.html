@@ -2,26 +2,15 @@
 layout: default
 ---
 
-<div
+<div class="hero-image d-flex align-content-center align-items-center"
     style="background: linear-gradient(rgba(19, 19, 19, 0.6), rgba(19, 19, 19, 0.6)), url('{{ page.image }}'); background-size: cover; background-position: center;">
-    <div class="pt-5">
-        <div class="pt-5">
-            <div class="py-5">
-                <div class="container-fluid text-center py-5">
-                    <h1 class="text-white">{{ page.title }}</h1>
-                    <p class="fw-thin opacity-75 text-white fs-6 text-uppercase">{{ page.category }}</p>
-
-
-
-
-                </div>
-            </div>
-        </div>
+    <div class="container-fluid text-center">
+        <h1 class="text-white">{{ page.title }}</h1>
+        <p class="fw-thin opacity-75 text-white fs-6 text-uppercase">{{ page.category }}</p>
     </div>
-
 </div>
 <div class="bg-platinum">
-    <div class="container-fluid py-5">
+    <div class="container-fluid pt-5 pb-5">
         {% assign postmonth = page.date | date: "%m" %}
 
 
@@ -51,7 +40,7 @@ layout: default
         {% assign monthName = "december" %}
         {% endif %}
         <p><b>{{ page.date | date: "%d"}}. {{ monthName }} {{ page.date | date: "%Y"}}</b></p>
-        <div class="d-flex align-items-center align-content-center">
+        <div class="d-flex align-items-center align-content-center mb-3">
             <p class="mb-0 me-3">DEL SIDEN:</p> <a
                 href="https://www.facebook.com/sharer/sharer.php?u=https://www.copenhagencoaching.dk{{ page.url }}"
                 target="_blank"><i class="fa-brands fa-facebook text-primary fs-5 me-2"
