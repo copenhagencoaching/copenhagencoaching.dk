@@ -8,7 +8,7 @@ tags:
 - viden
 - blog
 - video
-published: false
+published: true
 video: /videos/andreas-web.mp4
 ---
 

@@ -213,6 +213,7 @@ layout: default
                 status.innerHTML = "Tak for din tilmelding til vores nyhedsbrev. Du vil snarrest modtage en e-mail med link til bekræftelse af din tilmelding.";
                 inner_form.className = "d-none"
                 status.classList.remove("d-none")
+                status.classList.add("text-white")
                 form.reset()
             } else {
                 response.json().then(data => {
