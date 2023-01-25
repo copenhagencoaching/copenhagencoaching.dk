@@ -21,9 +21,7 @@ permalink: /treanings-aftener/
                     <p><b>Husk at deadline for tilmelding er den 1. februar</b></p>
                   
                       
-                        <input type="text" id="disabledTextInput2" name="name" class="form-control mb-3 d-none" placeholder="Disabled input" readonly>
-                        <input type="text" id="disabledTextInput1" name="email" class="form-control mb-3 d-none" placeholder="Disabled input" readonly>
-                        <input type="text" id="disabledTextInput3" name="hold" class="form-control mb-3 d-none" placeholder="Disabled input" readonly>
+                        
                     
                     <input type="hidden" name="dato" value="træningsaften - 7. februar 2023">
                     
@@ -94,35 +92,33 @@ permalink: /treanings-aftener/
     const q_email = urlParams.get('email')
     const q_name = urlParams.get('name')
     const q_hold = urlParams.get('hold')
-    var box_email = document.getElementById("disabledTextInput1");
-    var box_name = document.getElementById("disabledTextInput2");
-    var box_hold = document.getElementById("disabledTextInput3");
-    var input_name = document.getElementById("name-input");
-    var input_email = document.getElementById("email-input");
-    var input_hold = document.getElementById("hold-input");
+
+    var box_name = document.getElementById("name-input");
+    var box_email = document.getElementById("email-input");
+    var box_hold = document.getElementById("hold-input");
 
     if (urlParams.has('email')) {
         box_email.placeholder = q_email
         box_email.setAttribute('value',q_email)
-        input_email.className = "d-none"
-        input_email.required = false;
-        box_email.className = "form-control mb-3"
+
+        box_email.readOnly = true;
+
 }
 
 if (urlParams.has('name')) {
         box_name.placeholder = q_name
         box_name.setAttribute('value',q_name)
-        input_name.className = "d-none"
-        input_name.required = false;
-        box_name.className = "form-control mb-3"
+
+        box_name.readOnly = true;
+
 }
 
 if (urlParams.has('hold')) {
         box_hold.placeholder = q_hold
         box_hold.setAttribute('value',q_hold)
-        input_hold.className = "d-none"
-        input_hold.required = false;
-        box_hold.className = "form-control mb-3"
+
+        box_hold.readOnly = true;
+        
 }
 </script>
 
