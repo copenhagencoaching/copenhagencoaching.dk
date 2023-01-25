@@ -13,22 +13,27 @@ permalink: /treanings-aftener/
             <div class="offset-md-4 col-md-4 col-12 bg-white p-3">
                 <h1>Tilmeld eller frameld dig træningsaftener</h1>
                 <p>Herunder kan du tilmelde dig næste træningsaften.</p>
-
+                
 
 
                 <form action="https://formspree.io/f/mbjqjpva" method="POST" id="t-form">
-                    <h5>Næste træningsaften: 28. november 2022 - 17:00 - 20:00</h5>
-                    <p><b>Husk at deadline for tilmelding er den 18. november</b></p>
-                    
-                    <input type="hidden" name="dato" value="træningsaften - 28. november 2022">
+                    <h5>Næste træningsaften: 7. februar 2023 - 17:00 - 20:00</h5>
+                    <p><b>Husk at deadline for tilmelding er den 1. februar</b></p>
+                    <fieldset disabled>
+                      
+                        <input type="text" id="disabledTextInput2" class="form-control mb-3" placeholder="Disabled input">
+                        <input type="text" id="disabledTextInput1" class="form-control mb-3" placeholder="Disabled input">
+                    </fieldset>
+                    <input type="hidden" name="dato" value="træningsaften - 7. februar 2023">
                     <select name="melding" id="select_id" class="form-select mb-3 staff-select">
                         <option value="tilmelding">Tilmeld</option>
 
                         <option value="framelding">Frameld</option>
                     </select>
-                    <input class="form-control mb-3" type="text" name="name" placeholder="Navn" required>
+                    <input class="form-control mb-3" id="name-input" type="text" name="name" placeholder="Navn" required>
 
-                    <input type="text" class="form-control mb-3" name="email" placeholder="Email" required>
+                    
+                    <input type="text" id="email-input" class="form-control mb-3" name="email" placeholder="Email" required>
                     <div class="g-recaptcha" data-sitekey="6Lfi__EcAAAAABOscNdrKzqeLNu2vbuTM_5VlANy"></div>
                     <!-- your other form fields go here -->
                     <button id="btn-ta" class="btn-cadet-gray btn w-100">Tilmeld</button>
@@ -49,8 +54,8 @@ permalink: /treanings-aftener/
                                   "@type":"Event",
                                   "name":"Træningsaften hos CCC",
                                   "description":"Træningsaften hos CCC",
-                                  "startDate":"11-28-2022T17:00",
-                                  "endDate":"11-28-2022T20:00",
+                                  "startDate":"02-07-2023T17:00",
+                                  "endDate":"02-07-2023T20:00",
                                   "location":"Belgdamsvej 104D, baghuset 3. sal, 2100 København Ø"
                                 },
                                 "label":"Tilføj til kalender",
@@ -74,6 +79,31 @@ permalink: /treanings-aftener/
         </div>
     </div>
 </div>
+
+<script>
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    const q_email = urlParams.get('email')
+    const q_name = urlParams.get('name')
+    var box_email = document.getElementById("disabledTextInput1");
+    var box_name = document.getElementById("disabledTextInput2");
+    var input_name = document.getElementById("name-input");
+    var input_email = document.getElementById("email-input");
+   
+
+    if (urlParams.has('email')) {
+        box_email.placeholder = q_email
+        box_email.value = q_email
+        input_email.className = "d-none"
+}
+
+if (urlParams.has('name')) {
+        box_name.placeholder = q_name
+        box_name.value = q_name
+        input_name.className = "d-none"
+
+}
+</script>
 
 <script>
     var form_t = document.getElementById("t-form");
