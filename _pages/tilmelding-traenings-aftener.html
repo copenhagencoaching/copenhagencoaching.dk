@@ -103,7 +103,7 @@ permalink: /treanings-aftener/
 
     if (urlParams.has('email')) {
         box_email.placeholder = q_email
-        box_email.value = q_email
+        box_email.setAttribute('value',q_email)
         input_email.className = "d-none"
         input_email.required = false;
         box_email.className = "form-control mb-3"
@@ -111,7 +111,7 @@ permalink: /treanings-aftener/
 
 if (urlParams.has('name')) {
         box_name.placeholder = q_name
-        box_name.value = q_name
+        box_name.setAttribute('value',q_name)
         input_name.className = "d-none"
         input_name.required = false;
         box_name.className = "form-control mb-3"
@@ -119,7 +119,7 @@ if (urlParams.has('name')) {
 
 if (urlParams.has('hold')) {
         box_hold.placeholder = q_hold
-        box_hold.value = q_hold
+        box_hold.setAttribute('value',q_hold)
         input_hold.className = "d-none"
         input_hold.required = false;
         box_hold.className = "form-control mb-3"
