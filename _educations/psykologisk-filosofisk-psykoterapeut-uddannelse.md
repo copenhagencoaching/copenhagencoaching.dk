@@ -35,7 +35,7 @@ hold:
     place: "-"
 - title: Hold 1 - År 2 - Start forår 2023
   price: 162.000 (Ekskl. moms)
-  dates: 19. januar - 4. november
+  dates: 19. januar - 2. december
   modules:
   - date: 19. - 21. januar
     day: "-"
@@ -62,7 +62,7 @@ hold:
     time: "-"
     name: Modul 6
     place: "-"
-  - date: 30. november - 02. december
+  - date: 30. november - 2. december
     day: "-"
     time: "-"
     name: Modul 7
