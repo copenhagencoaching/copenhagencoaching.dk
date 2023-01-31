@@ -9,7 +9,7 @@ layout: default
         <div class="container-fluid py-5">
             
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-12 col-md-6 col-xl-4">
                         <div style="background-color: rgba(255, 255, 255, 0.8);" class="p-5">
                             <h1 class="mb-1">Inspiration</h1>
                             <p>Blogposts, podcasts, videoer mm. til inspiration</p>
@@ -20,6 +20,7 @@ layout: default
         </div>
     </div>
 </div>
+
 
 
 <div class="container-fluid py-5">
@@ -36,7 +37,7 @@ layout: default
                 </div>
                
                 <div class="ct-u-display-tablex">
-                  <div class="inner" style="height: 120px">
+                  <div class="inner" style="height: 130px">
                     
                     {% assign postmonth = post.date | date: "%m" %}
 
@@ -83,14 +84,13 @@ layout: default
           </div>
 
 </div>
-<div class="bg-platinum">
+<!-- <div class="bg-platinum">
     <div class="container-fluid py-5">
       
             <h2 class="mb-4">Podcasts</h2>
             <div class="insp-responsive">
                 {% for post in site.categories.podcast %}
-                <!-- <div class="h-200 w-100"><img src="{{ post.image }}" class="object-fit" alt=""></div>
-                 -->
+
                  <div class="ct-header tablex item zoom">
                     <a href="{{ post.url }}">
                     <div class="h-170">
@@ -119,10 +119,12 @@ layout: default
               </div>
     
     </div>
-</div>
+</div> -->
+
+<div class="bg-platinum">
 
 
-<div class="container-fluid py-5">
+<div class="container-fluid pt-5 pb-2">
 
         <h2 class="mb-4">Videoer</h2>
         <div class="insp-responsive">
@@ -137,7 +139,7 @@ layout: default
                 </div>
                
                 <div class="ct-u-display-tablex">
-                  <div class="inner h-100px">
+                  <div class="inner h-120px">
                     
                      
                         
@@ -157,4 +159,5 @@ layout: default
             {% endfor %}
           </div>
    
+</div>
 </div>

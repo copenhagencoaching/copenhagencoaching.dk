@@ -178,10 +178,17 @@ title: Copenhagen Coaching Center
         </div>
         <div class="col-12 col-md-6 col-xl-4 d-none d-md-block">
             <div class="bg-platinum p-5 h-100">
-                <h3 class="text-uppercase mb-4">
-                    Nyeste indlæg
-                    
-                </h3>
+                <div class="row gx-0">
+                    <div class="col-12">
+                        <h3 class="text-uppercase mb-4">
+                            Nyeste indlæg
+                        </h3>
+                    </div>
+                    <div class="col-12">
+                        <p class="text-end fw-bold mt-2 small"><a href="/inspiration/">Se alle indlæg <i class="fa-solid fa-angles-right"></i></a></p>
+                    </div>
+                </div>
+                
                 <div class="row gy-5">
                     {% for ind in site.tags.blog limit: 3 %}
                     <div class="col-12">
