@@ -180,9 +180,10 @@ title: Copenhagen Coaching Center
             <div class="bg-platinum p-5 h-100">
                 <h3 class="text-uppercase mb-4">
                     Nyeste indlæg
+                    
                 </h3>
                 <div class="row gy-5">
-                    {% for ind in site.tags.blog %}
+                    {% for ind in site.tags.blog limit: 3 %}
                     <div class="col-12">
 
 
