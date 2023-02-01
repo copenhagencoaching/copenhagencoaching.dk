@@ -10,6 +10,7 @@ tags:
 - video
 published: true
 video: /videos/andreas-web.mp4
+subs: /videos/subtitles/Andreas FB.srt
 ---
 
 Hør Andreas fortælle kort om hvilke undervisere du vil møde på CCC's Master of Business Coaching.

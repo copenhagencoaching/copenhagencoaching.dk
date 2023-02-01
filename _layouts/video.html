@@ -63,6 +63,14 @@ layout: default
                         <div class="video-container pt-0 mb-0"><video controls>
                                 <source src="{{ page.video }}" type="video/mp4">
                                 Your browser does not support HTML video.
+                                {% if page.subs %}
+                                <track
+                                label="Danish"
+                                kind="subtitles"
+                                srclang="da"
+                                src="{{ page.subs }}"
+                                default />
+                        {% endif %}
                             </video></div>
                     </div>
 
