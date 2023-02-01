@@ -3,9 +3,19 @@ layout: default
 title: Copenhagen Coaching Center
 ---
 
-<div class="mt-5" style="background-image: url('/images/frontpage/fp-88.png'); background-size: cover;">
-    <div class="container-fluid mt-5 py-5">
-        <div class="row py-5">
+<div class="py-5"></div>
+<div class="bg-dark-sienna w-100 position-absolute">
+    <div class="container-fluid banner-2 position-relative">
+        <div class="small-container pt-5 pb-4 text-center">
+            <i class="fa-sharp fa-solid fa-xmark text-white position-absolute fs-4 opacity-50 close-knap" style="right: 30px; top: 45px; cursor: pointer;"></i>
+    <a href="/resonans/event/infomøde-procesledelse/" class="fw-bold text-white text-center link-white fs-6 link--metis">Klik her og læs om informationsmødet om Proceslederuddannelsen dette forår</a>
+        </div>
+    </div>
+</div>
+
+<div style="background-image: url('/images/frontpage/fp-88.png'); background-size: cover;">
+    <div class="container-fluid py-5">
+        <div class="row py-5 header-billed">
             <div class="col-12 col-lg-6 col-md-8 col-sm-10 my-5">
                 <div class="bg-black-coral py-2 px-4 mb-3">
                     <h1 class="text-white mb-0">Dialog er dannelse i praksis</h1>
@@ -396,7 +406,14 @@ title: Copenhagen Coaching Center
 
 </div>
 
+<script>
+    var element = document.querySelector('.close-knap');
+    var banner = document.querySelector('.banner-2');
 
+element.addEventListener("click", function(e) {
+    banner.classList = "d-none"
+}, false);
+</script>
 
 <script>
     var form_coffee_index = document.getElementById("coffee-index");

@@ -1,4 +1,5 @@
-.a, a {
+.a,
+a {
     color: unset !important;
     text-decoration: none !important;
 }
@@ -27,6 +28,17 @@ a.color-hover:hover {
     width: 100%;
     height: 2px;
     background: $black-coral;
+    top: 100%;
+    left: 0;
+    pointer-events: none;
+}
+
+.link-white.link--metis::before,
+.link-white.link--metis::after {
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: white;
     top: 100%;
     left: 0;
     pointer-events: none;
@@ -98,37 +110,43 @@ a.bg-hover:before {
 a.underlined {
     border-bottom: 4px solid #707070;
     color: #707070 !important;
+
     &.yellow {
         border-bottom: 4px solid #cbcc8c;
         color: #cbcc8c !important;
     }
-  }
+}
 
-  //hover underlined
+//hover underlined
 
-  .hover-underlined-white {
-      &:hover {
+.hover-underlined-white {
+    &:hover {
         border-bottom: 2px solid #ffffff;
-      }
-  }
+    }
+}
 
-  .tab-links {
+.tab-links {
     opacity: .8;
 
     &:hover {
         opacity: 1;
     }
-  } 
+}
 
-  .link-under {
+.link-under {
     a {
         text-decoration: underline !important;
     }
-  }
+}
 
-  @media print {
-	.print {visibility:visible;}
-	.none-print {visibility:hidden;}
+@media print {
+    .print {
+        visibility: visible;
+    }
+
+    .none-print {
+        visibility: hidden;
+    }
 }
 
 // zoom boks
@@ -136,11 +154,25 @@ a.underlined {
 .zoom {
 
 
-    transition: transform .2s; /* Animation */
+    transition: transform .2s;
+    /* Animation */
 
-  }
-  
-  .zoom:hover {
+}
 
-    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-  }
+.zoom:hover {
+
+    transform: scale(1.1);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+/* .slide-down {
+    -webkit-transition: height 4s;
+    -moz-transition: height 4s;
+    -o-transition: height 4s;
+    transition: height 4s;
+    height: 0;
+}
+
+.slide-down:target {
+    height: 50px;
+  } */
