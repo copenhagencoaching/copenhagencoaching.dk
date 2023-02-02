@@ -10,8 +10,9 @@ tags:
 - tekst
 published: true
 video: /videos/gitte-web.mp4
+subs: /videos/subtitles/gitte.vtt
 ---
-
+<br>
 > Jeg har taget en del andre uddannelser, som også har været gode. Det her har bare været niveauet bedre -
 
 Gitte Overgaard, der til daglig arbejder som leder i en virksomhed, fortæller her om sin oplevelse af at tage en Master of Business Coaching hos CCC. Gitte deler blandt andet sine erfaringer med at bruge det, hun har lært på uddannelsen i sit professionelle liv.
