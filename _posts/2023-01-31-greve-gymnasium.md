@@ -10,6 +10,7 @@ tags:
 - video
 published: true
 video: /videos/greve.mp4
+subs: /videos/subtitles/greve.vtt
 ---
 
 > Det protreptikken gør, er at den træner folk i at blive bedre til at reflektere, og blive bedre til at lytte til sig selv, og derigennem træffe bedre beslutninger.
