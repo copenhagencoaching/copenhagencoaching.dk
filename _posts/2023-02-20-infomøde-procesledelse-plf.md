@@ -1,9 +1,9 @@
 ---
-title: Informationsmøde - Proceslederuddannelsen
+title: Informationsmøde - Proceslederuddannelsen og Det personlige Lederskab og Forandring
 event-type: Informationsmøde
 image: /images/events/proces-4.png
 subtitle: Informationsmøde
-description: Kom og hør mere om Den Offentlige Lederuddannelse - Proceslederuddannelsen, der giver dig et solidt fundament til at stå myndigt og dialogisk kompetent i de processer, som du skal lede.
+description: Kom og hør mere om Den Offentlige Lederuddannelse - Proceslederuddannelsen, der giver dig et solidt fundament til at stå myndigt og dialogisk kompetent i de processer, som du skal lede. Og Det personlige Lederskab og Forandrin - til dig, der har brug for at skærpe blikket på egen kompetenceudvikling og sætte dig selv i fokus som leder
 category: event
 tags:
 - event
@@ -24,9 +24,11 @@ link-url: /academy/den-offentlige-lederuddannelse/#infomode
 community-free: false
 billetto-nr: 611228
 attend_mes:
+redirect_from:
+  - /resonans/event/infomøde-procesledelse/
 ---
 
-## Informationsmøde omkring Proceslederuddannelsen
+## Proceslederuddannelsen
 
 Kom til Informationsmøde om vores nye intensive og eksklusive Procesledelsesforløb.
 
@@ -37,3 +39,9 @@ Proceslederuddannelsen er et særligt tilrettelagt og intensivt forløb, der bes
 Krav om konstant forandring, omorganisering, økonomisk pres m.v. skaber behov for professionel procesledelse. Proceslederuddannelsen giver dig et solidt fundament til at stå myndigt og dialogisk i ledelsesopgaven. Med de to moduler vil du kunne mestre den sunde og veldesignede proces, der giver dit og organisationens arbejde retning og mening. Du vil kunne samle organisationen, når der er behov for det, og inspirere til den gode idé eller den ekstra indsats. Du vil også blive klædt på til at se og forstå den enkelte medarbejders perspektiv i organisationen. Forventninger fra medarbejdere om medinddragelse og samskabelse som en del af virksomhedens kultur, drift og udvikling kalder dels på, at du har grundlæggende færdigheder i coaching og dels på, at du kan håndtere, forstå og vurdere de forskellige forandringer, der er til stede i organisationers liv, og som kalder på løbende tilpasninger og kursskifte. God procesledelse kræver evner til at styre, rumme og stimulere menneskelig og faglig mangfoldighed i retning af fælles udvikling og mål.
 
 Proceslederuddannelsen koster 27.500,- (Ekskl. moms) inkl. Forplejning, overnatning, litteratur, BIG FIVE test og to individuelle coachinger med en certificeret coach fra Copenhagen Coaching Center.
+
+## Det personlige Lederskab og Forandring
+
+Vi anbefaler modulet ”Det Personlige Lederskab og Forandring” til dig, der har brug for at skærpe blikket på egen kompetenceudvikling og sætte dig selv i fokus som leder. Modulet har fokus på at styrke dine personlige handlekompetencer og på den praksis, du er leder i. Modulet har tre overordnede temaer, som sætter fokus på dit lederskab.
+
+<ins>**[Læs mere om temeaerne her](/academy/den-offentlige-lederuddannelse/)**</ins>

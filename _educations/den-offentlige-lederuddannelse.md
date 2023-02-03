@@ -6,9 +6,9 @@ image-2: /images/inspiration/leder-tavle.png
 infomode: true
 infomode-text: Kom til Informationsmøde om vores uddannelser
 infomode-dates:
-- 7. februar - 16:00 - 17:00 (Proceslederuddannelsen)
-- 2. marts - 16:00 - 17:00 (Proceslederuddannelsen)
-- 7. marts - 16:00 - 17:00 (Det personlige lederskab og forandring)
+- 20. februar - 16:00 - 17:00 (Proceslederuddannelsen + Det Personlige Lederskab og Forandring) (Online)
+- 2. marts - 16:00 - 17:00 (Proceslederuddannelsen) (Online)
+- 7. marts - 16:00 - 17:00 (Det personlige lederskab og forandring) (Online)
 contact-person: Ghita Vejlebo
 description: Er du leder, eller drømmer du om at bliver det? Trænger du til at få styrket dine lederkompetencer, og samtidig få de nyeste og brugbare værktøjer til medarbejdersamtaler og til håndtering af konfliktsituationer?
 header: Den offentlige lederuddannelse
@@ -75,7 +75,7 @@ lists:
   - Ledelse af Medarbejdere og Faglig Udvikling (Standardmodul, 10 ECTS)
   - Proceslederuddannelsen (Valgmodul, 10 ECTS)
   - Ledelse af forandrings- og udviklingsprocesser i offentlige organisationer (Valgmodul, 5 ECTS)
-  - Ledelse og Coaching (valgmodul, 5 ECTS)
+  - Coaching (valgmodul, 5 ECTS)
   - Projektledelse (valgmodul, 5 ECTS)
   - Ledelse og Filosofi (valgmodul, 5 ECTS)
   - Specialemodul (15 ECTS)
