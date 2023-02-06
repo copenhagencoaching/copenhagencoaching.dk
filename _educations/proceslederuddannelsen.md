@@ -71,7 +71,7 @@ hold:
     time: "11:00 - 14:00"
     name: "-"
     place: Online
-  - date: 28. april
+  - date: 1. maj
     day: 4
     time: "11:00 - 14:00"
     name: "-"
