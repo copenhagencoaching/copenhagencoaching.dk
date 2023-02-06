@@ -89,7 +89,14 @@
 
 .slick-prev
 {
-    left: -50px;
+    left: -25px;
+    opacity: .4;
+    
+    
+}
+
+.slick-prev:hover {
+    opacity: 1;
 }
 [dir='rtl'] .slick-prev
 {
@@ -107,8 +114,13 @@
 
 .slick-next
 {
-    right: -40px;
+    right: -15px;
+    opacity: .4;
 }
+.slick-next:hover {
+    opacity: 1;
+}
+
 [dir='rtl'] .slick-next
 {
     right: auto;
