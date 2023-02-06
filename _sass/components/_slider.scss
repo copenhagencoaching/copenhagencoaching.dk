@@ -26,7 +26,7 @@
     height: 100%;
 }
 
-.front-slider {
+.frontpage-slider {
     .slick-next {
         right: 30px !important;
 
@@ -36,6 +36,7 @@
     }
 
     .slick-prev {
+        left: 20px !important;
         &::before {
             color: rgb(255, 255, 255) !important;
         }
