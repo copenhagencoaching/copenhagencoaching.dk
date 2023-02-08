@@ -581,3 +581,58 @@ $arrow-head-thickness: $shaft-thickness;
     opacity: 1;
   }
 }
+
+
+// slide in
+
+.mfp-with-anim {
+  transition: all 0.2s;
+  transform: translateY(-100px);
+}
+.mfp {
+  -webkit-animation-name: slideIn;
+  -webkit-animation-duration: 1.5s;
+  animation-name: slideIn;
+  animation-duration: 1.5s
+}
+
+/* Add Animation */
+@-webkit-keyframes slideIn {
+  from {right: -400px;} 
+  to {right: 0;}
+}
+
+@keyframes slideIn {
+  from {right: -400px;}
+  to {right: 0;}
+}
+
+.mdal-closed {
+  -webkit-animation-name: slideOut;
+  -webkit-animation-duration: 1.5s;
+  animation-name: slideOut;
+  animation-duration: 1.5s
+}
+
+@-webkit-keyframes slideOut {
+  from {right: 0; } 
+  to {right: -600px;}
+}
+
+@keyframes slideOut {
+  from {right: 0;}
+  to {right: -600px;}
+}
+
+@-webkit-keyframes conditionalClose {
+  from { transform: scaleY(1) }
+  to { transform: scaleY(0) }
+}
+@-moz-keyframes conditionalClose {
+  from { transform: scaleY(1) }
+  to { transform: scaleY(0) }
+}
+@keyframes conditionalClose {
+  from { transform: scaleY(1) }
+  to { transform: scaleY(0) }
+}

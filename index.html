@@ -7,50 +7,93 @@ title: Copenhagen Coaching Center
 <div class="bg-dark-sienna w-100 position-absolute pt-4 pt-lg-0" style="z-index: 2;">
     <div class="container-fluid banner-2 position-relative">
         <div class="small-container pt-5 pb-4 text-center px-4 px-lg-0">
-            <i class="fa-sharp fa-solid fa-xmark text-white position-absolute fs-4 opacity-50 close-knap" style="right: 30px; top: 45px; cursor: pointer;"></i>
-    <a href="/resonans/event/infomøde-procesledelse-plf/" class="fw-bold text-white text-center link-white fs-6">Klik her og læs om informationsmødet om Proceslederuddannelsen dette forår</a>
+            <i class="fa-sharp fa-solid fa-xmark text-white position-absolute fs-4 opacity-50 close-knap"
+                style="right: 30px; top: 45px; cursor: pointer;"></i>
+            <a href="/resonans/event/infomøde-procesledelse-plf/"
+                class="fw-bold text-white text-center link-white fs-6">Klik her og læs om informationsmødet om
+                Proceslederuddannelsen og Det personlige Lederskab og Forandring dette forår</a>
         </div>
     </div>
 </div>
+
+<!-- <div class="bg-quick-silver position-fixed pt-5 m-4 banner-3 d-none"
+    style="z-index: 2; right: 0; bottom: 0; max-width: 400px;">
+    <div class="container-fluid position-relative">
+        <i class="fa-sharp fa-solid fa-xmark position-absolute fs-4 opacity-50 close-knap-2 text-white"
+            style="right: 30px; top: -40px; cursor: pointer;"></i>
+        <div class="small-container pb-4 px-4 px-lg-0">
+
+            <h5 class="fw-bold mt-3 text-white text-center">Tilmeld dig nyhedsbrevet og lyt med i Samtalerummet</h5>
+            <form id="newsletter-form-2" action="https://formspree.io/f/xlezwlkg" method="POST">
+                <div class="row mt-3 g-3" id="ns-inner-form-2">
+                    <div class="col-12">
+                        <input type="text" class="form-control" placeholder="Navn" aria-label="Navn" name="name"
+                            required>
+                    </div>
+
+                    <div class="col-12">
+                        <input type="text" class="form-control" placeholder="E-mail" aria-label="Email" name="email"
+                            required>
+                    </div>
+
+                    <div class="col-12 d-flex pt-4">
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input mt-1" type="checkbox" name="_optin" id="gridCheck2" required>
+                            <label class="form-check-label text-white" for="gridCheck2"><small>
+                                    Jeg accepterer, at Copenhagen Coaching Center må sende mig nyhedsbrev og arkivere
+                                    mine oplysninger til dette formål.</small>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <div class="h-75px mt-3">
+                            <div class="g-recaptcha" data-sitekey="6Lfi__EcAAAAABOscNdrKzqeLNu2vbuTM_5VlANy"></div>
+                            
+                        </div>
+                    </div>
+
+
+                    <div class="col-12 mb-3">
+                        <button
+                            class="btn btn-dark-sienna text-white my-0 mt-0 d-inline-block w-100 fw-bold text-uppercase rounded-0">Tilmeld</button>
+                    </div>
+
+
+
+                </div>
+                <p id="newsletter-mes-2" class="text-white mt-3 bg-xanadu p-2 d-none text-center"></p>
+            </form>
+        </div>
+    </div>
+</div> -->
 
 <!-- <div class="frontpage-slider overflow-hidden">
 
-<div class="py-5" style="background-image: url('/images/frontpage/fp-88.png'); background-size: cover;">
-    <div class="container-fluid h-500 d-flex align-items-center align-content-center">
-        <div class="ps-5 pt-5 pt-lg-0">
-            <h1 class="text-white fw-bold">Dialog er dannelse i praksis</h1>
-            <p class="text-white mb-0 fs-6 w-lg-50 w-100">CCC er et konsulenthus med tre forretningsområder. Vi tilbyder
-                ledelsescoaching, skræddersyede konsulentydelser samt en bred vifte af uddannelser inden for
-                coaching, ledelse og personlighedstest. Vores Master of Business Coaching er internationalt
-                akkrediteret og udvikler dialogiske færdigheder og ledelsesmæssig kapacitet med en filosofisk
-                overbygning. Alle vores ydelser er velafprøvede gennem 19 års praktisk virke og udvikling på
-                højt fagligt niveau.</p>
+    {% for p in site.texts %}
+    {% if p.side == "fp" %}
+    <div class="py-5" style="background-image: url('{{ p.image }}'); background-size: cover;">
+
+        <div class="pt-5 mt-3"></div>
+        <div class="container-fluid h-500 d-flex align-items-center align-content-center pt-">
+
+            <div class="px-3 pe-lg-0 ps-lg-5 w-md-75 w-lg-50 w-100">
+                <h1 class="{% if p.text-color == 'white' %}text-white{% endif %} fw-bold">{{ p.title }}</h1>
+                <p class="{% if p.text-color == 'white' %}text-white{% endif %} mb-0 fs-6">{{ p.text }}</p>
                 <div class="mt-4"></div>
-                <a href="/academy/master-of-business-coaching/" class="btn-white rounded-0 fw-bold">SE MERE HER</a>
-                
+                <a href="{{ p.link }}"
+                    class="{% if p.btn == 'white' %}btn-white {% else %} btn-text-black text-white{% endif %} rounded-0 fw-bold text-uppercase">{{ p.btn-text }}</a>
+
+            </div>
+
         </div>
-       
+
     </div>
 
-</div>
 
-<div class="py-5 mt-5 mt-lg-0" style="background-image: url('/images/frontpage/fp-89.png'); background-size: cover;">
-    <div class="container-fluid h-500 d-flex align-items-center align-content-center">
-        <div class="ps-5">
-            <h1 class="text-white fw-bold">Tid til refleksion</h1>
-            <p class="text-white mb-0 fs-6 w-lg-50 w-100">CCC er et konsulenthus med tre forretningsområder. Vi tilbyder
-                ledelsescoaching, skræddersyede konsulentydelser samt en bred vifte af uddannelser inden for
-                coaching, ledelse og personlighedstest. Vores Master of Business Coaching er internationalt
-                akkrediteret og udvikler dialogiske færdigheder og ledelsesmæssig kapacitet med en filosofisk
-                overbygning. Alle vores ydelser er velafprøvede gennem 19 års praktisk virke og udvikling på
-                højt fagligt niveau.</p>
-                <div class="mt-4"></div>
-                <a href="/" class="btn-white rounded-0 fw-bold">SE MERE HER</a>
-        </div>
-       
-    </div>
+    {% endif %}
+    {% endfor %}
 
-</div>
 </div> -->
 
 <div class="pt-4 pt-lg-0" style="background-image: url('/images/frontpage/fp-88.png'); background-size: cover;">
@@ -84,8 +127,8 @@ title: Copenhagen Coaching Center
 <div class="container-fluid py-5 my-4">
     <div class="row gx-5 gy-5">
         <div class="col-12 col-lg-4 h-100 position-relative responsive-card-12">
-            <a href="/coaching-service/"> <img alt="coaching" src="/images/frontpage/coaching.png" class="object-fit h-200 w-100"
-                    alt="">
+            <a href="/coaching-service/"> <img alt="coaching" src="/images/frontpage/coaching.png"
+                    class="object-fit h-200 w-100" alt="">
                 <h4 class="mt-3 text-uppercase">Coaching</h4>
             </a>
             <p class="text-justify mh-150px smaller-height-re">Hos CCC er du altid er sikker på at møde en faglig og
@@ -96,13 +139,15 @@ title: Copenhagen Coaching Center
                 af afgørende betydning for effekten af coaching, gør vi en dyd ud af at finde den helt rigtige coach
                 til
                 dig og din situation.</p>
-            <a class="btn-black-coral rounded-0 text-white fw-bold text-uppercase px-4 py-2" href="/coaching-service/">Se mere</a>
+            <a class="btn-black-coral rounded-0 text-white fw-bold text-uppercase px-4 py-2"
+                href="/coaching-service/">Se mere</a>
 
         </div>
         <div class="col-12 col-lg-4 h-100 position-relative responsive-card-12">
 
-            <a href="/academy/master-of-business-coaching/"><img alt="coaching uddannelse" src="/images/inspiration/aabent-hus.jpg"
-                    style="object-position: center center;" class="object-fit h-200 w-100" alt="">
+            <a href="/academy/master-of-business-coaching/"><img alt="coaching uddannelse"
+                    src="/images/inspiration/aabent-hus.jpg" style="object-position: center center;"
+                    class="object-fit h-200 w-100" alt="">
                 <h4 class="mt-3 text-uppercase">Master of business coaching</h4>
             </a>
             <p class="text-justify mh-150px smaller-height-re">Ønsker du at blive dygtig til at føre produktive og
@@ -124,7 +169,8 @@ title: Copenhagen Coaching Center
             <p class="text-justify mh-150px smaller-height-re">For at udvikle sig bæredygtigt har virksomheder,
                 organisationer og
                 mennesker brug for friske øjne og nye perspektiver. CCC har solid
-                erfaring med kursusforløb og strategiudvikling i organisationer. Vi tilbyder konsulentydelser med fokus på både
+                erfaring med kursusforløb og strategiudvikling i organisationer. Vi tilbyder konsulentydelser med fokus
+                på både
                 medarbejdere, ledelse, organisation og konsulentudvikling.</p>
 
             <a class="btn-black-coral rounded-0 text-white fw-bold text-uppercase px-4 py-2"
@@ -175,7 +221,8 @@ title: Copenhagen Coaching Center
 
 
                         <div class="col-12 col-md-12 col-xl-6">
-                            <button class="btn btn-opal my-0 mt-0 d-inline-block w-100 fw-bold text-uppercase rounded-0">Tilmeld</button>
+                            <button
+                                class="btn btn-opal my-0 mt-0 d-inline-block w-100 fw-bold text-uppercase rounded-0">Tilmeld</button>
                         </div>
 
 
@@ -207,11 +254,12 @@ title: Copenhagen Coaching Center
                                     aria-label="telefonnummer" name="tlf. nr." required>
                             </div>
                             <div class="col-12">
-                                <button class="btn btn-opal w-100 my-0 fw-bold text-uppercase rounded-0">Ring mig op</button>
+                                <button class="btn btn-opal w-100 my-0 fw-bold text-uppercase rounded-0">Ring mig
+                                    op</button>
                             </div>
                         </div>
                     </form>
-<!--                     <div id="mes-coffee-index" class="text-white mt-3 bg-xanadu p-2 d-none">
+                    <!--                     <div id="mes-coffee-index" class="text-white mt-3 bg-xanadu p-2 d-none">
                         <h4>Tak for din henvendelse</h4>
                         <p>Du vil hurtigst som muligt blive ringet op af en af vores konsulenter.</p>
                     </div>
@@ -235,10 +283,11 @@ title: Copenhagen Coaching Center
                         </h3>
                     </div>
                     <div class="col-12">
-                        <p class="text-end fw-bold mt-2 small"><a href="/inspiration/">Se alle indlæg <i class="fa-solid fa-angles-right"></i></a></p>
+                        <p class="text-end fw-bold mt-2 small"><a href="/inspiration/">Se alle indlæg <i
+                                    class="fa-solid fa-angles-right"></i></a></p>
                     </div>
                 </div>
-                
+
                 <div class="row gy-5">
                     {% for ind in site.tags.blog limit: 3 %}
                     <div class="col-12">
@@ -302,10 +351,11 @@ title: Copenhagen Coaching Center
                         </h3>
                     </div>
                     <div class="col-xl-4 col-md-12">
-                        <p class="text-end fw-bold mt-2"><a href="/events/">Se alle arrangementer <i class="fa-solid fa-angles-right"></i></a></p>
+                        <p class="text-end fw-bold mt-2"><a href="/events/">Se alle arrangementer <i
+                                    class="fa-solid fa-angles-right"></i></a></p>
                     </div>
                 </div>
-                
+
                 <div class="row gy-2 gx-3">
                     {% assign ordered_events = site.tags.act_event | sort: date %}
                     {% for event in ordered_events limit: 5 %}
@@ -377,10 +427,11 @@ title: Copenhagen Coaching Center
                         </h3>
                     </div>
                     <div class="col-xl-4 col-md-12">
-                        <p class="text-end fw-bold mt-2"><a href="/events/">Se alle arrangementer <i class="fa-solid fa-angles-right"></i></a></p>
+                        <p class="text-end fw-bold mt-2"><a href="/events/">Se alle arrangementer <i
+                                    class="fa-solid fa-angles-right"></i></a></p>
                     </div>
                 </div>
-                
+
                 <div class="row gy-5 gx-5">
                     {% assign ordered_events = site.tags.act_event | sort: date %}
                     {% for event in ordered_events limit: 5 %}
@@ -390,7 +441,7 @@ title: Copenhagen Coaching Center
                         <a href="{{ event.url }}">
                             <div class="h-100 w-100">
                                 <img src="{% if event.thumbnail %}{{ event.thumbnail }}{% else %}{{ event.image }}{% endif %}"
-                                alt="inspirerende arrangementer" class="object-fit">
+                                    alt="inspirerende arrangementer" class="object-fit">
                             </div>
                         </a>
                     </div>
@@ -447,12 +498,46 @@ title: Copenhagen Coaching Center
 </div>
 
 <script>
+  var bodyHeight = document.body.parentNode.offsetHeight;
+
+var bodyHeightOne = bodyHeight / 100
+var bodyHeightThirty = bodyHeightOne * 30
+console.log(bodyHeightThirty)
+var banner_2 = document.querySelector('.banner-3');
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+if (document.documentElement.scrollTop > bodyHeightThirty) {
+    var banner_2 = document.querySelector('.banner-3');
+    banner_2.classList.remove("d-none")
+    banner_2.classList.add("mfp")
+    
+}
+
+var element_knap = document.querySelector('.close-knap-2');
+    var banner_2 = document.querySelector('.banner-3');
+
+    element_knap.addEventListener("click", function (e) {
+        
+        banner_2.classList.add("mdal-closed");
+
+
+        setTimeout(() => {
+            banner_2.classList.add("d-none");
+        }
+            , 1200);
+    }, false);
+} 
+    
+</script>
+
+<script>
     var element = document.querySelector('.close-knap');
     var banner = document.querySelector('.banner-2');
 
-element.addEventListener("click", function(e) {
-    banner.classList = "d-none"
-}, false);
+    element.addEventListener("click", function (e) {
+        banner.classList = "d-none"
+    }, false);
 </script>
 
 <script>
@@ -524,3 +609,40 @@ element.addEventListener("click", function(e) {
     }
     form.addEventListener("submit", handleSubmit)
 </script>
+
+<script>
+    var form_nl = document.getElementById("newsletter-form-2");
+    var inner_form_nl = document.getElementById("ns-inner-form-2");
+
+    async function handleSubmit(event) {
+        event.preventDefault();
+        var status_2 = document.getElementById("newsletter-mes-2");
+        var data = new FormData(event.target);
+        fetch(event.target.action, {
+            method: form_nl.method,
+            body: data,
+            headers: {
+                'Accept': 'application/json'
+            }
+        }).then(response => {
+            if (response.ok) {
+                status_2.innerHTML = "Tak for din tilmelding til vores nyhedsbrev. Du vil snarrest modtage en e-mail med link til bekræftelse af din tilmelding.";
+                inner_form_nl.className = "d-none"
+                status_2.classList.remove("d-none")
+                form_nl.reset()
+            } else {
+                response.json().then(data => {
+                    if (Object.hasOwn(data, 'errors')) {
+                        status_2.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+                    } else {
+                        status_2.innerHTML = "Oops! There was a problem submitting your form"
+                    }
+                })
+            }
+        }).catch(error => {
+            status_2.innerHTML = "Oops! There was a problem submitting your form"
+        });
+    }
+    form_nl.addEventListener("submit", handleSubmit)
+</script>
+
