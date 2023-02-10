@@ -70,7 +70,7 @@ permalink: /treanings-aftener/
     var box_name = document.getElementById("name-input");
     var box_email = document.getElementById("email-input");
     var box_hold = document.getElementById("hold-input");
-    var box_hold = document.getElementById("dato-input");
+    var box_dato = document.getElementById("dato-input");
 
     if (urlParams.has('email')) {
         box_email.placeholder = q_email
@@ -97,10 +97,10 @@ if (urlParams.has('hold')) {
 }
 
 if (urlParams.has('dato')) {
-        box_hold.placeholder = q_dato
-        box_hold.setAttribute('value',q_dato)
+        box_dato.placeholder = q_dato
+        box_dato.setAttribute('value',q_dato)
 
-        box_hold.readOnly = true;
+        box_dato.readOnly = true;
         
 }
 </script>
