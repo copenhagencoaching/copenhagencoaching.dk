@@ -19,7 +19,7 @@ Du får trænet din evne til at tænke præcist, konsistent og fokuseret, og læ
 
 Kom på højde med din egen tænkning og find formlen til hvordan du omsætter den i din ledelse, dit liv og i forhold til det organisatoriske fællesskab du er en del af.
 
-Samtalerne er fortrolige og varer ca. 75 min.
+Samtalerne er fortrolige og varer ca. 60 min.
 
 **Filosofiske samtaler / 3.500,- kr. ekskl. moms per session**
 

@@ -15,7 +15,7 @@ Gennem et coachingforløb på Copenhagen Coaching Center bliver du støttet og u
 
 Arbejdet med udfordringerne sker igennem tre forskellige psykologiske tilgange herunder det kognitive, den psykodynamiske og et narrativt/systemiske perspektiv. Alle tre tilgange vil kunne blive sat i spil i coaching-samtalen afhængig af udfordringens karakter. 
 
-Samtalerne er fortrolige og varer ca. 75 min.
+Samtalerne er fortrolige og varer ca. 60 min.
 
 **Personlig coaching / 2200,- kr. ekskl. moms per session**
 
