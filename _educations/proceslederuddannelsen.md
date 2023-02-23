@@ -125,7 +125,6 @@ cat:
 infomode: true
 infomode-text: Kom til Informationsmøde om vores intensive og eksklusive Proceslederuddannelse
 infomode-dates:
-- 21. februar - 16:00 - 17:00 (Proceslederuddannelsen + Det Personlige Lederskab og Forandring) (Online)
 - 2. marts - 16:00 - 17:00 Proceslederuddannelsen (Online)
 ---
 

@@ -175,3 +175,7 @@ blockquote p:first-child:before {
     text-shadow: none;
     z-index: -300;
 }
+
+.w-300 {
+    max-width: 200px;
+}

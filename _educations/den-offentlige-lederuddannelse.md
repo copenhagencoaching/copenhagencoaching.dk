@@ -6,7 +6,6 @@ image-2: /images/inspiration/leder-tavle.png
 infomode: true
 infomode-text: Kom til Informationsmøde om vores uddannelser
 infomode-dates:
-- 21. februar - 16:00 - 17:00 (Proceslederuddannelsen + Det Personlige Lederskab og Forandring) (Online)
 - 2. marts - 16:00 - 17:00 (Proceslederuddannelsen) (Online)
 - 7. marts - 16:00 - 17:00 (Det personlige lederskab og forandring) (Online)
 contact-person: Ghita Vejlebo
