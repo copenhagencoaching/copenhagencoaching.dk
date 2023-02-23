@@ -199,3 +199,9 @@
      }
 
 }
+
+.slick-arrow {
+    overflow: visible;
+}
+
+.slick-prev, .slick-next { width: auto !important; height: auto !important;}
