@@ -30,7 +30,7 @@
     content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
   <meta data-proofer-ignore property="og:url" content="{{ site_prefix }}{{ page.url }}">
   <meta data-proofer-ignore property="og:image"
-    content="{% if page.image %}{{ site_prefix }}{{ page.image | remove: '..' }}{% else %}{{ site_prefix }}{{ site.image }}{% endif %}" />
+    content="{% if page.meta-image %} {{ site_prefix }}{{ page.meta-image | remove: '..' }}{% else %}{% if page.image %}{{ site_prefix }}{{ page.image | remove: '..' }}{% else %}{{ site_prefix }}{{ site.image }}{% endif %}{% endif %}" />
   <meta property="og:site_name" content="{{ site.title }}">
   <meta data-proofer-ignore property="article:publisher"
     content="https://www.linkedin.com/company/copenhagen-coaching-center/" />
