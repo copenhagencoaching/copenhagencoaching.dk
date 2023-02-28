@@ -2,7 +2,7 @@
 image: /images/graphic/studerende.png
 description: "Vi afholder informationsmøde om vores Psykologisk Filosofisk Psykoterapeutuddannelse. Her er det muligt at blive klogere på, hvad uddannelsens formål er, samt hvem den henvender sig til. På mødet vil vi også beskrive uddannelsens opbygning og indhold."
 subtitle: Informationsmøde
-title: Informationsmøde - Psykologisk Filosofisk Psykoterapeutuddannelse
+title: Psykologisk Filosofisk Psykoterapeutuddannelse
 event-type: Informationsmøde
 category: event
 tags:

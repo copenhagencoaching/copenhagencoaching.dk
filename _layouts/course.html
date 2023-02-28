@@ -867,31 +867,31 @@ layout: default
 </div> -->
 
 <div class="container-fluid p-5">
-    <div class="small-container position-relative">
+    <div class="small-container position-relative min-h-nav">
         <div id="praktisk" class="anchor-delay"></div>
-        <div class="d-md-flex align-items-start">
-            <div class="nav flex-column nav-pills me-md-4 mb-3 mb-md-0" id="v-pills-tab" role="tablist"
+        <div class="row">
+            <div class="col-sm-5 col-md-4 col-lg-3 col-12">
+                <div class="nav flex-column nav-pills me-md-4 mb-3 mb-md-0" id="v-pills-tab" role="tablist"
                 aria-orientation="vertical">
-                <button class="mt-0 text-white btn btn-cadet-gray active mb-1" id="v-pills-home-tab"
+                <button class="mt-0 text-white btn btn-cadet-gray active mb-1 small" id="v-pills-home-tab"
                     data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab"
                     aria-controls="v-pills-home" aria-selected="true">Undervisningssted</button>
-                <button class="mt-2 text-white btn btn-cadet-gray mb-1" id="v-pills-profile-tab" data-bs-toggle="pill"
+                <button class="mt-2 text-white btn btn-cadet-gray mb-1 small" id="v-pills-profile-tab" data-bs-toggle="pill"
                     data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile"
                     aria-selected="false">Pris og finansiering</button>
-                <button class="mt-2 text-white btn btn-cadet-gray mb-1" id="v-pills-messages-tab" data-bs-toggle="pill"
+                <button class="mt-2 text-white btn btn-cadet-gray mb-1 small" id="v-pills-messages-tab" data-bs-toggle="pill"
                     data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages"
                     aria-selected="false">Adgangskrav</button>
 
             </div>
+            </div>
+         <div class="col-sm-7 col-md-8 col-lg-9 col-12">
             <div class="tab-content" id="v-pills-tabContent">
                 <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
                     aria-labelledby="v-pills-home-tab">
 
                     <p>{{ page.location }}</p>
-                    {% if page.kort == true %}
-
-                    {{ page.kort-kode }}
-                    {% endif %}
+                   
                 </div>
                 <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
                     <p>{{ page.price }}</p>
@@ -902,6 +902,8 @@ layout: default
                 </div>
 
             </div>
+         </div>
+
         </div>
     </div>
 </div>

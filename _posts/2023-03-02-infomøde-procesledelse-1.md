@@ -1,5 +1,5 @@
 ---
-title: Informationsmøde - Proceslederuddannelsen
+title: Proceslederuddannelsen
 event-type: Informationsmøde
 image: /images/events/proces-4.png
 subtitle: Informationsmøde

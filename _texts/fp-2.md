@@ -8,3 +8,6 @@ text-color: white
 btn: white
 btn-text: Lyt med her
 ---
+I denne podcastserie inviterer Copenhagen Coaching Center gæster i studiet til en bred vifte af samtaler, som er filosofisk inspirerede. De har alle til hensigt i et nænsomt og intenst møde at vende gæsterne mod det, som har værdi og betydning i deres liv. Som lytter får du måske lyst til at stoppe op og reflektere over dit eget liv og de ting, der har værdi og betydning for dig. Måske bliver du også mere opmærksom og nysgerrig i mødet med dine medmennesker?
+
+Det er blevet tid til refleksion. Velkommen til!

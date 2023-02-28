@@ -27,7 +27,7 @@ under forudsætning af, at
 ansøgerne skønnes at have de
 nødvendige forudsætninger for at
 kunne gennemføre uddannelsen."
-kort-kode: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2248.539012921064!2d12.571144951594782!3d55.6970020036662!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465252fc41468a33%3A0x721ebe721a5ba062!2sBlegdamsvej%20104C%2C%202100%20K%C3%B8benhavn!5e0!3m2!1sda!2sdk!4v1652082586059!5m2!1sda!2sdk" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'
+kort-kode: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2248.539012921064!2d12.571144951594782!3d55.6970020036662!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465252fc41468a33%3A0x721ebe721a5ba062!2sBlegdamsvej%20104C%2C%202100%20K%C3%B8benhavn!5e0!3m2!1sda!2sdk!4v1652082586059!5m2!1sda!2sdk" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'
 location: 'Undervisningen foregår i vores moderne og praktiske lokaler på 3. sal i baghuset Blegdamsvej 104C. Der er adgang til toilet og køkken, og der vil være forplejning med kaffe, the, let morgenmad og frokost.'
 aktive-hold: true
 contact-person: Frederikke Winther

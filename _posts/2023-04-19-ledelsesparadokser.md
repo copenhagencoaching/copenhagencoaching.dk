@@ -1,6 +1,5 @@
 ---
 title: "Ledelsesparadokser"
-event-type: Foredrag
 image: /images/events/rikke.png
 subtitle: Foredrag
 thumbnail: /images/events/rikke-2.jpg

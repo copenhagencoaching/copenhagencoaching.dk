@@ -221,14 +221,10 @@ redirect_from:
                             </div>
                         </div>
 
-                        <div class="col-12 col-md-12 col-xl-6">
-                            <div class="g-recaptcha" data-sitekey="6Lfi__EcAAAAABOscNdrKzqeLNu2vbuTM_5VlANy"></div>
-                            <!-- replace with your recaptcha SITE key not secret key -->
-
-                        </div>
+                       
 
 
-                        <div class="col-12 col-md-12 col-xl-6">
+                        <div class="col-12">
                             <button
                                 class="btn btn-opal my-0 mt-0 d-inline-block w-100 fw-bold text-uppercase rounded-0">Tilmeld</button>
                         </div>
@@ -407,11 +403,14 @@ redirect_from:
                             {% elsif postmonth == "12" %}
                             {% assign monthName = "december" %}
                             {% endif %}
-                            <p>{{ event.date | date: "%d. "}} {{
+                            <p class="mb-1">{{ event.date | date: "%d. "}} {{
                                 monthName
                                 }}{{ event.date | date:
                                 "
                                 %Y"}}</p>
+                                {% if event.event-type %}
+
+                                <p class="my-0 text-black-coral"><small><b>{{ event.event-type }}</b></small></p>{% endif %}
                             <h4>{{ event.title }}</h4>
                             <p class="mb-5">{{ event.description }}</p>
                         </a>
@@ -483,11 +482,14 @@ redirect_from:
                             {% elsif postmonth == "12" %}
                             {% assign monthName = "december" %}
                             {% endif %}
-                            <p>{{ event.date | date: "%d. "}} {{
+                            <p class="mb-1">{{ event.date | date: "%d. "}} {{
                                 monthName
                                 }}{{ event.date | date:
                                 "
                                 %Y"}}</p>
+                                {% if event.event-type %}
+
+                                <p class="my-0 text-black-coral"><small><b>{{ event.event-type }}</b></small></p>{% endif %}
                             <h4>{{ event.title }}</h4>
                             <p class="mb-0">{{ event.description }}</p>
                         </a>

@@ -1,20 +1,24 @@
 .card {
     border: 0 !important;
     background-color: transparent !important;
+
     .card-title {
         text-transform: uppercase;
     }
+
     .outer-img-top {
         img {
             object-fit: cover;
             height: 200px;
             width: 100%;
         }
-    
+
     }
+
     .card-body {
         background-color: transparent !important;
     }
+
     .card-body.bg-white {
         background-color: white;
     }
@@ -26,10 +30,10 @@
 
 .card.card-large {
     border: 0;
-    
-    @media (min-width: 1200px) { 
+
+    @media (min-width: 1200px) {
         height: 570px !important;
-     }
+    }
 
 }
 
@@ -65,9 +69,11 @@
 .mh-100px {
     min-height: 100px;
 }
+
 .mh-150px {
     min-height: 150px;
 }
+
 .mh-200 {
     min-height: 200px;
 }
@@ -75,26 +81,31 @@
 .mh-250 {
     min-height: 250px;
 }
+
 .mh-300 {
     min-height: 300px;
 }
+
 .mh-400 {
     min-height: 400px;
 }
+
 .mh-500 {
     min-height: 500px;
 }
+
 .mh-600 {
     min-height: 600px;
 }
+
 .mh-700 {
     min-height: 700px;
 }
 
 .smaller-height-re {
-    @media (max-width: 991.98px) { 
+    @media (max-width: 991.98px) {
         min-height: 0px;
-     }
+    }
 }
 
 // heights
@@ -102,6 +113,7 @@
 .h-50px {
     height: 50px;
 }
+
 .h-75px {
     height: 75px;
 }
@@ -109,36 +121,76 @@
 .h-100px {
     height: 100px;
 }
+
 .h-120px {
     height: 120px;
 }
+
 .h-150px {
     height: 150px;
 }
+
 .h-170 {
     height: 170px;
 }
+
 .h-200 {
     height: 200px;
 }
+
 .h-250 {
     height: 250px;
 }
+
 .m-300 {
     height: 300px;
 }
+
 .h-350 {
     height: 350px;
 }
+
 .h-400 {
     height: 400px;
 }
+
 .h-500 {
     height: 500px;
 }
+
 .h-600 {
     height: 600px;
 }
+
 .h-700 {
     height: 700px;
+}
+
+// Nav tabs responsive
+
+.min-h-nav {
+    min-height: 400px;
+
+    // Small devices (landscape phones, 576px and up)
+    @media (min-width: 576px) {
+        min-height: 350px;
+    }
+
+    // Medium devices (tablets, 768px and up)
+    @media (min-width: 768px) {
+        min-height: 250px;
+    }
+
+    // Large devices (desktops, 992px and up)
+    @media (min-width: 992px) {
+        min-height: 200px;
+    }
+
+    // X-Large devices (large desktops, 1200px and up)
+    @media (min-width: 1200px) {}
+
+    // XX-Large devices (larger desktops, 1400px and up)
+    @media (min-width: 1400px) {}
+
+
 }

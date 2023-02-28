@@ -1,5 +1,5 @@
 ---
-title: Informationsmøde - Det personlige lederskab og forandring
+title: Det personlige lederskab og forandring
 event-type: Informationsmøde
 image: /images/events/personlige-lederskab-og-forandring.png
 subtitle: Informationsmøde

@@ -14,7 +14,7 @@ tags:
 published: true
 ---
 
-I denne episode inviterer vi tidligere OL-svømmer Sarah Bro i studiet til en protreptisk inspireret samtale om ensomhed med coach og direktør Andreas Bering. Sarah indstillede sin karriere som svømmer for snart tre år siden og deler nu sit liv op i Sarah 1.0 og 2.0. Hun er på sin egen rejse i forhold til at finde ud af, hvem hun er, hvor hun skal stå, og hvad hendes liv skal byde på.  Gennem samtalen med Andreas sætter Sarah ord på ensomheden i sit eget liv og reflekterer over, hvad ensomheden egentlig er for en størrelse.
+I denne episode inviterer vi tidligere OL-svømmer Sarah Bro i studiet til en protreptisk inspireret samtale om ensomhed med coach og direktør Andreas Bering. Sarah indstillede sin karriere som svømmer for snart tre år siden og deler nu sit liv op i Sarah 1.0 og 2.0. Hun er på sin egen rejse i forhold til at finde ud af, hvem hun er, hvor hun skal stå, og hvad hendes liv skal byde på. Gennem samtalen med Andreas sætter Sarah ord på ensomheden i sit eget liv og reflekterer over, hvad ensomheden egentlig er for en størrelse.
 
 Du kan også lytte via
 
