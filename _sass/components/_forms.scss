@@ -124,3 +124,27 @@ textarea {
         border-color: #0d6dfd00; 
     }
 }
+
+
+// large checkbox
+
+.checkbox-lg .form-check-input{
+    
+    scale: 1.4;
+    
+    }
+   
+   .checkbox-lg .form-check-label {
+    padding-bottom: 5px;
+    padding-left: 10px;
+    }
+   
+   .checkbox-xl .form-check-input {
+    
+    scale: 1.7;
+    
+    }
+   
+   .checkbox-xl .form-check-label {
+    
+    }
