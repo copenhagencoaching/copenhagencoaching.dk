@@ -139,7 +139,7 @@ cat:
 - put
 redirect_from:
 - /academy/psykologisk-filosofisk-psykoterapi/
-infomode: true
+infomode: false
 infomode-text: Kom til informationsmøde omkring uddannelsen.
 infomode-dates:
 - 1. marts 16.00-17:30 (fysisk)
