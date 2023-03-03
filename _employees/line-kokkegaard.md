@@ -1,5 +1,5 @@
 ---
-order: 13
+order: 14
 title: Line Kokkegaard
 image: /images/about/employees/line-kokkegaard.png
 portrait-image: /images/about/employees/line-kokkegaard.png

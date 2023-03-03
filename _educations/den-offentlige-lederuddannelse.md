@@ -9,7 +9,7 @@ infomode-dates:
 - 2. marts - 16:00 - 17:00 (Proceslederuddannelsen) (Online)
 - 7. marts - 16:00 - 17:00 (Det personlige lederskab og forandring) (Online)
 contact-person: Ghita Vejlebo
-description: Er du leder, eller drømmer du om at bliver det? Trænger du til at få styrket dine lederkompetencer, og samtidig få de nyeste og brugbare værktøjer til medarbejdersamtaler og til håndtering af konfliktsituationer?
+description: Er du leder, eller drømmer du om at blive det? Trænger du til at få styrket dine lederkompetencer, og samtidig få de nyeste og brugbare værktøjer til medarbejdersamtaler og til håndtering af konfliktsituationer?
 header: Den offentlige lederuddannelse
 meta-title: Den offentlige lederuddannelse - Læs DOL hos Copenhagen Coaching Center
 meta-description: Den offentlige lederuddannelse (DOL) er en diplomuddannelse for dig, der er leder eller drømmer om at blive det. Styrk dine lederkompetencer med CCC.
@@ -17,15 +17,16 @@ kursus-oversigt: true
 layout: course
 undervisere:
 - name: Camilla Ingwersen
-- name: Ghita Vejlebo
-  text: Kvalitetsansvarlig for DOL’en og cand.mag
 - name: Line Arnmark
 - name: Andreas Bering
+- name: Marianne Vesterbirk
+- name: Ghita Vejlebo
+  text: Kvalitetsansvarlig for DOL’en og cand.mag
 sub-header: Få ny indsigt - og større udsyn - i dit lederskab
 overblik:
 - overskrift: Lederens værktøjer
   paragrafer:
-  - "Er du leder, eller drømmer du om at bliver det? Trænger du til at få styrket dine lederkompetencer, og samtidig få de nyeste og brugbare værktøjer til medarbejdersamtaler og til håndtering af konfliktsituationer? Så tag moduler i Den offentlige Lederuddannelse (DOL) hos os!"
+  - "Er du leder, eller drømmer du om at blive det? Trænger du til at få styrket dine lederkompetencer, og samtidig få de nyeste og brugbare værktøjer til medarbejdersamtaler og til håndtering af konfliktsituationer? Så tag moduler i Den offentlige Lederuddannelse (DOL) hos os!"
   - "Modulerne kan enten tages på åbne hold eller som skræddersyet forløb, og det er muligt at tilrettelægge undervisningen således, at der tages hensyn til de ønsker og behov, du har"
 - overskrift: DOL – lederuddannelsen
   paragrafer:
@@ -198,7 +199,7 @@ events:
   - 10. november
 ---
 
-**Er du leder, eller drømmer du om at bliver det? Trænger du til at få styrket dine lederkompetencer, og samtidig få de nyeste og brugbare værktøjer til medarbejdersamtaler og til håndtering af konfliktsituationer? Så tag moduler i Den offentlige Lederuddannelse (DOL) hos os!**
+**Er du leder, eller drømmer du om at blive det? Trænger du til at få styrket dine lederkompetencer, og samtidig få de nyeste og brugbare værktøjer til medarbejdersamtaler og til håndtering af konfliktsituationer? Så tag moduler i Den offentlige Lederuddannelse (DOL) hos os!**
 
 Modulerne kan enten tages på åbne hold eller som skræddersyet forløb, og det er muligt at tilrettelægge undervisningen således, at der tages hensyn til de ønsker og behov, du har.
 
