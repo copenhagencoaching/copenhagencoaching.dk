@@ -122,7 +122,7 @@ redirect_from:
   - /academy/procesleder-uddannelse/
 cat:
 - proces
-infomode: true
+infomode: false
 infomode-text: Kom til Informationsmøde om vores intensive og eksklusive Proceslederuddannelse
 infomode-dates:
 - 2. marts - 16:00 - 17:00 Proceslederuddannelsen (Online)

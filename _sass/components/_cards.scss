@@ -90,6 +90,34 @@
     min-height: 400px;
 }
 
+.mh-415 {
+    min-height: 415px;
+
+    @media (max-width: 1399.98px) {
+        min-height: 480px !important;
+        
+    
+    }
+
+    @media (max-width: 1500px) {
+        min-height: 450px;
+        
+    
+    }
+
+    @media (max-width: 1199.98px) { 
+        min-height: 370px !important;
+     }
+
+     @media (max-width: 991.98px) { 
+        min-height: 430px !important;
+     }
+
+     @media (max-width: 767.98px) { 
+        min-height: 350px !important;
+      }
+}
+
 .mh-500 {
     min-height: 500px;
 }
@@ -194,3 +222,7 @@
 
 
 }
+
+// text overflow wrap
+
+

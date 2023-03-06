@@ -1,6 +1,7 @@
 ---
 title: "Ledelsesparadokser"
 image: /images/events/rikke.png
+event-type: Arrangement
 subtitle: Foredrag
 thumbnail: /images/events/rikke-2.jpg
 description: "På dette arrangement vil vi i samtale med Rikke Kristine Nielsen, lektor på AAU, undersøge, hvad paradokserne bringer med sig for lederen og for organisationen. Hvordan bliver paradokserne en del af arbejdslivet? Hvordan former paradokserne os? Hvilke muligheder bringer de måske med sig?"
