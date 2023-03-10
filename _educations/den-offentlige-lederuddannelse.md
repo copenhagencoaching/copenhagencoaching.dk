@@ -3,7 +3,7 @@ order: 4
 title: Den offentlige lederuddannelse
 image: "/images/academy/den-offentlige-lederuddannelse.png"
 image-2: /images/inspiration/leder-tavle.png
-infomode: true
+infomode: false
 infomode-text: Kom til Informationsmøde om vores uddannelser
 infomode-dates:
 - 2. marts - 16:00 - 17:00 (Proceslederuddannelsen) (Online)
