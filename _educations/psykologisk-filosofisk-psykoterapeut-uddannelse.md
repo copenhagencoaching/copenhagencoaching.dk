@@ -70,7 +70,7 @@ hold:
 image-2: /images/educations/psykologisk-filosofisk-psykoterapi.jpg
 image: /images/pfp/11.jpg
 layout: course
-price: Samlet pris for alle fire år er 162.000,- kr.<br>Pris for egenterapi alle fire år er 21.600,- kr.<br>Pris for supervision for 2, 3 og 4 år er 12.000,- kr.<br>Der er mulighed for køb af enkeltmoduler, samt addragsordning. Kontakt os for mere information.
+price: Pris per år 43.500 kr. per semester, hvilket inkluderer supervision i løbet af alle fire år.<br><br>Samlet pris for alle fire år 174.000 kr.<br><br>Pris for egenterapi alle fire år (ca. 40 timer afhængig af tidligere dokumenteret terapi) 21.600 kr.<br><br>Der må forventes en årlig prisregulering på 3%.
 adgangskrav: Du kan ansøge under 3 forskellige kvoter på Psykologisk filosofisk psykoterapeut-uddannelsen.<br><b><u><a href="/pdfs/pfp-adgangskrav.pdf" target="_blank">Download folder omkring adgangskrav</a></u></b>
 deltagerprofil: true
 profil:
