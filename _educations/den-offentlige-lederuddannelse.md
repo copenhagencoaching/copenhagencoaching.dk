@@ -3,11 +3,10 @@ order: 4
 title: Den offentlige lederuddannelse
 image: "/images/academy/den-offentlige-lederuddannelse.png"
 image-2: /images/inspiration/leder-tavle.png
-infomode: false
+infomode: true
 infomode-text: Kom til Informationsmøde om vores uddannelser
 infomode-dates:
-- 2. marts - 16:00 - 17:00 (Proceslederuddannelsen) (Online)
-- 7. marts - 16:00 - 17:00 (Det personlige lederskab og forandring) (Online)
+- 30. marts - 16:00 - 17:00 (Det personlige lederskab og forandring) (Online)
 contact-person: Ghita Vejlebo
 description: Er du leder, eller drømmer du om at blive det? Trænger du til at få styrket dine lederkompetencer, og samtidig få de nyeste og brugbare værktøjer til medarbejdersamtaler og til håndtering af konfliktsituationer?
 header: Den offentlige lederuddannelse

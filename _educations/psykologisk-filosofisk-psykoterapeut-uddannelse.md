@@ -70,7 +70,7 @@ hold:
 image-2: /images/educations/psykologisk-filosofisk-psykoterapi.jpg
 image: /images/pfp/11.jpg
 layout: course
-price: Pris per år 43.500 kr. per semester, hvilket inkluderer supervision i løbet af alle fire år.<br><br>Samlet pris for alle fire år 174.000 kr.<br><br>Pris for egenterapi alle fire år (ca. 40 timer afhængig af tidligere dokumenteret terapi) 21.600 kr.<br><br>Der må forventes en årlig prisregulering på 3%.<br><br><b>Alle priser er eksklusiv moms.</b>
+price: Pris per år 43.500 kr. per semester, hvilket inkluderer supervision i løbet af alle fire år.<br><br>Samlet pris for alle fire år 174.000 kr.<br><br>Egenterapi er ikke inkluderet i kursusprisen.<br><br>Der må forventes en årlig prisregulering på 3%.<br><br><b>Alle priser er eksklusiv moms.</b>
 adgangskrav: Du kan ansøge under 3 forskellige kvoter på Psykologisk filosofisk psykoterapeut-uddannelsen.<br><b><u><a href="/pdfs/pfp-adgangskrav.pdf" target="_blank">Download folder omkring adgangskrav</a></u></b>
 deltagerprofil: true
 profil:
@@ -96,8 +96,7 @@ description: Grundlæggende set er ideen, formålet og visionen med denne 4-åri
 overblik:
 - overskrift: Dybere, højere og bredere beredskab
   paragrafer:
-  - "Grundlæggende set er ideen, formålet og visionen med denne 4-årige terapi-uddannelse at kombinere, nuancere og kvalificere samarbejdet mellem den filosofiske tradition og dannelse og den psykologiske og psykoterapeutiske tradition og dannelse. I dette spektrum tilbyder og muliggør uddannelsen et dybere, højere og langt bredere beredskab at møde sin klient/borger og sig selv med. Gennem en lang række metoder og øvelser, teoretisk såvel som praktisk, dannes den kommende terapeut på denne uddannelse i at kunne møde det andet menneske som menneske og med-menneske."
-  - "Den psykologiske filosofiske psykoterapeut uddannelse kan anvendes i mange forskellige kontekster. Hvis det ønskes, kan man ud fra indholdet i de enkelte moduler skræddersy de emner, der passer til det organisatoriske indhold, som man har behov for at udvikle. Hvis man vælger at tage et eller to hele år fra uddannelsen, vil man være i stand til at tage lettere terapeutiske samtaler på et relativt højt teknisk niveau."
+  - "Ideen, formålet og visionen med terapi-uddannelsen er at kombinere og kvalificere den filosofiske tradition med den psykologiske og psykoterapeutiske tradition. Uddannelsen tilbyder et dybere og bredere beredskab at møde sin klient/borger og sig selv med. Gennem psykologiske og filosofiske metoder og øvelser, teoretisk såvel som praktisk, dannes den kommende terapeut på denne uddannelse i at kunne møde det andet menneske som menneske og med-menneske."
 - overskrift: Den svære samtale
   paragrafer:
   - "Uddannelsens opbygning vil sikre, at man som terapeut vil være tryg ved at samtalen bevæger sig ind på langt de fleste livsområder. Disse kvalifikationer kan med fordel anvendes i forskellige pædagogiske og sociale sammenhænge, hvor man har en tættere kontakt med borgeren, uanset om det er som frontmedarbejder på jobcentre, sagsbehandler i et børn- og ungeteam eller andet."
