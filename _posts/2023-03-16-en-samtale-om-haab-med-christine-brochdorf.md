@@ -5,7 +5,7 @@ description: 'I den første af en række samtaler om HÅB møder vi Christine Br
 category: podcast
 meta-image: /images/podcasts/4.png
 layout: podcast
-pd-link: https://podcasters.spotify.com/pod/show/copenhagen-coaching-cente/embed/episodes/En-Samtale-om-Hb-med-Christine-Brochdorf-e20gg5j
+pd-link: https://open.spotify.com/embed/show/3Xh3K5CmlWHhlGJgdbVksb?utm_source=generator
 tags:
 - viden
 - blog

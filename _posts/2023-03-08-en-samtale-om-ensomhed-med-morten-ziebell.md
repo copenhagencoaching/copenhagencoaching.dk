@@ -5,7 +5,7 @@ description: 'Andreas Bering har besøg af Neurokirurg og lægefaglig vicedirekt
 category: podcast
 meta-image: /images/podcasts/4.png
 layout: podcast
-pd-link: https://anchor.fm/copenhagen-coaching-cente/embed/episodes/En-Samtale-om-Ensomhed-med-Morten-Ziebell-e202tck
+pd-link: https://open.spotify.com/embed/episode/69BEKfxO84nljl4jbk2cis?utm_source=generator
 tags:
 - viden
 - blog

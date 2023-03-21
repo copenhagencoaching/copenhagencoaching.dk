@@ -59,8 +59,9 @@ layout: default
             <div class="col-xl-8 col-12 link-under">
 
                 <div class="p-5 bg-white">
-                    <div>
-                        <div style="max-width: 765px;"><div style="left: 0; width: 100%; height: 102px; position: relative;"><iframe src="{{ page.pd-link}}" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div></div>                    </div>
+
+
+                    <iframe style="border-radius:12px" src="{{ page.pd-link }}" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 
 
@@ -70,6 +71,15 @@ layout: default
                     <!-- AddToAny BEGIN -->
 
                     {{ content }}
+                    <br>
+                    <h5 class="mb-3">Andre episoder</h5>
+                    {% for post in site.categories.podcast %}
+                    {% if post.title != page.title %}
+                    <iframe style="border-radius:12px" src="{{ post.pd-link }}" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+                    {% endif %}
+                    {% endfor %}
+
                 </div>
 
 
