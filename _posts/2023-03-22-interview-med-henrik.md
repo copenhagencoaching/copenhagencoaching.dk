@@ -13,7 +13,7 @@ tags:
 - blog
 ---
 
-Interview med Henrik Giedekier, leder af et Ungecenter i Århus Kommune og studerende på uddannelsen til Psykologisk Filosofisk Psykoterapeut hos Copenhagen Coaching Center
+Interview med Henrik Giedekier, leder af et Ungecenter i Århus Kommune og studerende på uddannelsen til Psykologisk Filosofisk Psykoterapeut hos Copenhagen Coaching Center.
 
 Af Eva Lilja
 
