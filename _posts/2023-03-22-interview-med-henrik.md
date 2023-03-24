@@ -66,3 +66,5 @@ Det arbejde, Henrik har påbegyndt med uddannelsen til Psykologisk Filosofisk Ps
 Så måske kan vi på trods af tidens tendenser tillade en forsigtig optimisme, når vi lytter til Henriks erfaringer? I hvert fald hvis vi antager, at Henrik ikke er alene om at hente energi og ro, når han befinder sig i et glædesfyldt rum, hvor der er tid til at dvæle ved væsentlige livstemaer sammen med andre. 
 
 ”Det, at have fået første års teorier med ovre fra jer og lagt det ind i systemet, giver jo en større bevidsthed om, at vi har nogle handlemønstre, der ikke nødvendigvis kan styres. Så prøv at acceptere dem og hjælp så den, der har mistet overblikket for en stund. Jeg kan mærke, hvordan det har nedsunket sig som sådan en ”det skal nok gå alt sammen - vi er på vej”. Så det er okay at stå her, hvor jeg står”, afslutter Henrik.
+
+**[Læs mere om uddannelsen](/academy/psykologisk-filosofisk-psykoterapeut-uddannelse/)**
