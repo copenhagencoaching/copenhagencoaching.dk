@@ -13,7 +13,7 @@ tags:
 - blog
 ---
 
-Interview med Henrik Giedekier, leder af et Ungecenter i Århus Kommune og studerende på uddannelsen til Psykologisk Filosofisk Psykoterapeut hos Copenhagen Coaching Center.
+Interview med Henrik Giedekier, leder i Ungecentret Skanderborgvej i Århus Kommune og studerende på uddannelsen til Psykologisk Filosofisk Psykoterapeut hos Copenhagen Coaching Center.
 
 Af Eva Lilja
 
@@ -31,7 +31,7 @@ En af årsagerne skal findes i den filosofiske samtaleform Protreptik, som Henri
             <blockquote class="blockquote mb-4">
                 <p>
                     <i class="fas fa-quote-left fa-lg opacity-50 me-2"></i>
-                    <em><span class="lead">Når en medarbejder kommer med noget der er svært, og hvor følelserne er i spil, kan jeg mærke, at jeg spørger på en anderledes måde. Uddannelsen har givet en langt større forståelse af, at der er en anden måde at være i verden på end min. Uddannelsen har givet en langt større forståelse af, at der er en anden måde at være i verden på end min, og jeg kan mærke en anderledes ro i mit system.</span></em>
+                    <em><span class="lead">Når en medarbejder kommer med noget der er svært, og hvor følelserne er i spil, kan jeg mærke, at jeg spørger på en anderledes måde. Uddannelsen har givet en langt større forståelse af, at der er en anden måde at være i verden på end min, og jeg kan mærke en anderledes ro i mit system.</span></em>
                             <i class="fas fa-quote-right fa-lg opacity-50 me-2"></i>
                 </p>
             </blockquote>
