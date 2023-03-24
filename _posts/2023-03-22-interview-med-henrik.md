@@ -1,6 +1,7 @@
 ---
 category: blog
-title: 'Motivation til og behovet for mere nænsomhed'
+title: 'På færden af ro og nænsomhed'
+meta-title: "På færden af ro og nænsomhed | Artikel hos Copenhagen Coaching Center omkring Psykologisk Filosofisk Psykoterapeut"
 image: '/images/blog/togskinner.png'
 description: 'Det at beskæftige sig med andres og egen udvikling er hverken nyt eller fremmed, når man som Henrik er uddannet socialpædagog og tilmed har mange års erfaring som leder. Men at tage skridtet ind i en uddannelse til Psykologisk Filosofisk Psykoterapeut, er vel alligevel ikke det mest almindelige, når man som leder ønsker flere værktøjer i kassen? Så hvad fik Henrik til at vælge netop dette?'
 tags:
