@@ -1,7 +1,7 @@
 ---
 category: blog
-title: 'På færden af ro og nænsomhed'
-meta-title: "På færden af ro og nænsomhed | Artikel hos Copenhagen Coaching Center omkring Psykologisk Filosofisk Psykoterapeut"
+title: 'På sporet af ro og nænsomhed'
+meta-title: "På sporet af ro og nænsomhed | Artikel hos Copenhagen Coaching Center omkring Psykologisk Filosofisk Psykoterapeut"
 image: '/images/blog/togskinner.png'
 description: 'Det at beskæftige sig med andres og egen udvikling er hverken nyt eller fremmed, når man som Henrik er uddannet socialpædagog og tilmed har mange års erfaring som leder. Men at tage skridtet ind i en uddannelse til Psykologisk Filosofisk Psykoterapeut, er vel alligevel ikke det mest almindelige, når man som leder ønsker flere værktøjer i kassen? Så hvad fik Henrik til at vælge netop dette?'
 tags:
@@ -20,7 +20,7 @@ Af Eva Lilja
 
 ##### Motivation til og behovet for mere nænsomhed
 
-I en tid, hvor mange er i underskud af overskud, hvor stresskurven er stigende, og hvor antallet af mennesker der søger ansættelse indenfor omsorgsfagene er faldende, har Henrik Giedekier måske fået færden af noget, der er væsentligt for ham som leder og som menneske. Og måske er det relevant for alle der er optaget af at finde veje til øget trivsel og mere frugtbare dialoger? 
+I en tid, hvor mange er i underskud af overskud, hvor stresskurven er stigende, og hvor antallet af mennesker der søger ansættelse indenfor omsorgsfagene er faldende, har Henrik Giedekier måske fået færten af noget, der er væsentligt for ham som leder og som menneske. Og måske er det relevant for alle der er optaget af at finde veje til øget trivsel og mere frugtbare dialoger? 
 
 Det at beskæftige sig med andres og egen udvikling er hverken nyt eller fremmed, når man som Henrik er uddannet socialpædagog og tilmed har mange års erfaring som leder. Men at tage skridtet ind i en uddannelse til Psykologisk Filosofisk Psykoterapeut, er vel alligevel ikke det mest almindelige, når man som leder ønsker flere værktøjer i kassen? Så hvad fik Henrik til at vælge netop dette?  
 
