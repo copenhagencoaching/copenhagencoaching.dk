@@ -128,53 +128,43 @@ hold:
     place: "København"
 - title: Det personlige lederskab og forandring - Forår 2023
   price: 27.500 ekskl. moms
-  dates: 2. maj - 26. juni
+  dates: 22. maj - 30. august
   modules:
-  - date: 2. maj
-    day: 1
-    time: "-"
-    name: Internat
-    place: København
-  - date: 3. maj
-    day: 2
-    time: "-"
-    name: Internat
-    place: København
-  - date: 12. maj
-    day: 3
-    time: "-"
-    name: "-"
-    place: Online
   - date: 22. maj
-    day: 4
+    day: 1
     time: "-"
     name: "Internat"
     place: København
   - date: 23. maj
-    day: 5
+    day: 2
     time: "-"
     name: "Internat"
     place: København
   - date: 7. juni
-    day: 6
+    day: 3
     time: "-"
     name: "-"
     place: Online
   - date: 16. juni
-    day: 7
+    day: 4
     time: "-"
     name: "-"
     place: "Online"
   - date: 23. juni
-    day: 8
+    day: 5
     time: "-"
-    name: "Eksamen"
+    name: 
     place: "København"
   - date: 26. juni
-    day: 9
+    day: 6
+    time: "-"
+    name:
+    place: "København"
+  - date: 30. august
+    day: 7
     time: "-"
     name: "Eksamen"
-    place: "København"
+    place: "København" 
 emails:
 - ln@copenhagencoaching.dk
 special: false
