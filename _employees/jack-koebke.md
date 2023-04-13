@@ -5,6 +5,7 @@ description: Direktør i Kompagniet & Alkoholrådgivningen
 consulent: false
 on-om-os: false
 edu:
+- Psykoterapeut
 - Master i Business Coaching
 - Diplomleder fra Syddansk Universitet
 - Merkonom i ledelse fra CBS

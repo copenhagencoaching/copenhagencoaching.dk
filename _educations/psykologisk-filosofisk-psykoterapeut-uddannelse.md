@@ -9,29 +9,24 @@ meta-description: Få et dybere, højere og bredere beredskab med vores psykoter
 aktive-hold: true
 kursus-oversigt: true
 hold:
-- title: Hold 2 - År 1 - Start forår 2023
+- title: Hold 2 - År 1 - Start sommer 2023
   price: 162.000 (Ekskl. moms)
-  dates: 13. april - 4. november
+  dates: 8. juni - 4. november
   modules:
-  - date: 13. - 14. april
-    day: "-"
-    time: "-"
-    name: Internat
-    place: "-"
   - date: 8. - 10. juni
     day: "-"
     time: "-"
-    name: Modul 1
+    name: "-"
     place: "-"
   - date: 21. – 23. september
     day: "-"
     time: "-"
-    name: Modul 2
+    name: "-"
     place: "-"
   - date: 2. - 4. november
     day: "-"
     time: "-"
-    name: Modul 3
+    name: "-"
     place: "-"
 - title: Hold 1 - År 2 - Start forår 2023
   price: 162.000 (Ekskl. moms)
@@ -132,7 +127,7 @@ opbygning-text:
   - "Uddannelsen er modul-opbygget, og begynder med et 2-dages introducerende internat. Hvert år består derudover af 6/7 grundmoduler af tre dages varighed uden overnatning. Uddannelsen er 4-årig, og hvert halve år slutter med en skriftlig/mundtlig og/eller praktisk prøve og/eller eksamen. Det første år er mildere og bredere ift arbejdet med sig selv, og egne færdigheder. Som årene skrider frem, bliver det mere og mere dybdegående og specialiseret. Det er en forudsætning for gennemførsel, at hver deltager opfylder det antal timer, som skal bruges på egen terapi, terapeutisk praksis, træningstimer i gruppe, samt feedback og supervision på egen praksis."
   - "<b><u><a href='/pdfs/pfp-modul-oversigt.pdf' target='_blank'>Download moduloversigt her</a></b></u>"
 pdf: "https://www.copenhagencoaching.dk/pdfs/Psykologisk-filosofisk-psykoterapi-infofolder.pdf"
-contact-person: Camilla Ingwersen
+contact-person: Mette Mejlhede
 cat:
 - master-4
 - put
