@@ -1,0 +1,50 @@
+---
+layout: default
+---
+
+<div class="hero-image d-flex align-content-center align-items-center"
+    style="background: linear-gradient(rgba(19, 19, 19, 0.7), rgba(19, 19, 19, 0.7)), url('/images/graphic/community-3.png'); background-size: cover; background-position: center;">
+
+    <div class="container-fluid text-center">
+
+        <h1 class="text-white mb-1">Uddannelser</h1>
+
+        <div class="row">
+            <div class="col-12 offset-lg-3 col-lg-6">
+                <hr class="white short-hr mx-auto">
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+</div>
+
+<div class="bg-platinum py-5">
+    <div class="container-fluid">
+        <div class="small-container">
+            <h5 class="text-uppercase">Ønsker du at blive dygtig til at føre produktive og virkningsfulde dialoger?</h5>
+            <p>At kunne flytte både grupper og individer i en mere konstruktiv retning og derved forebygge stress, organisatorisk stagnation og udbrændthed? Og har du brug for at komme i øjenhøjde med dig selv som menneske, leder eller terapeut? Så kan du vælge en af vores uddannelser, som foregår i et trygt og udviklende rum.</p>
+        </div>
+    </div>
+</div>
+<div class="container-fluid py-5">
+    <div class="small-container">
+        <div class="row g-5">
+            {% assign ordered_themes = site.educations | sort: "order" %}
+            {% for edu in ordered_themes %}
+            <div class="col-md-6 col-12">
+                <a href="{{ edu.url }}">
+                <img src="{{ edu.image }}" alt="" class="object-fit h-150px">
+                <h5 class="text-uppercase mt-3">{{ edu.title }}</h5>
+                <p>{{ edu.description }}</p>
+            </a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    
+</div>

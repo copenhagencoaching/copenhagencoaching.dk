@@ -30,7 +30,61 @@ attend_mes:
 ---
 ### Informationsmøde - Master of business coaching
 
-Ønsker du at blive dygtig til at føre produktive og virkningsfulde dialoger – og stå stærkere i den personlige kontakt, så kom til informationsmøde om vores lederuddannelse Master of Business Coaching. En uddannelse der stimulerer din dialogiske kapacitet og lærer dig at blive endnu bedre til at holde på og om dig selv og andre i en hyperkompleks verden.
+Ønsker du at blive dygtig til at føre produktive og virkningsfulde dialoger – og stå stærkere i den personlige kontakt? Så kom til informationsmøde om vores Master of Business Coaching. En internationalt akkrediteret uddannelse der stimulerer din relationsevne og dialogiske kapacitet. Her lærer du at blive endnu bedre til at holde på og om dig selv og andre i en omskiftelig verden!
+
+Mød underviserne samt studerende:
+
+
+<div class="row gy-3">
+<div class="col-md-4 col-12">
+                    <div class="d-flex align-content-center align-items-center">
+                        <div class="flex-shrink-0">
+                            <img class="small-image-148 small-md rounded-circle"
+                                src="/images/graphic/placeholder-profile.png"
+                                alt="Rikke Skjøde Baes">
+                        </div>
+                        <div class="flex-grow-1 ms-3 align-content-center align-items-center">
+                        <p class="mt-2 mb-0"><b>Rikke Skjøde Baes</b></p><p><small>Chefsygeplejerske på Rigshospitalet</small></p>
+                        
+ 
+                        </div>
+                    </div>
+
+</div>
+<div class="col-md-4 col-12">
+                    <div class="d-flex align-content-center align-items-center">
+                        <div class="flex-shrink-0">
+                            <img class="small-image-148 small-md rounded-circle"
+                                src="/images/events/lola.jpeg"
+                                alt="Lola Nielsen">
+                        </div>
+                        <div class="flex-grow-1 ms-3 align-content-center align-items-center">
+                        <p class="mt-2 mb-0"><b>Lola Nielsen</b></p><p><small>Afdelingsleder i Fredensborg Kommune</small></p>
+                        </div>
+                    </div>
+
+</div>
+
+<div class="col-md-4 col-12">
+                    <div class="d-flex align-content-center align-items-center">
+                        <div class="flex-shrink-0">
+                            <img class="small-image-148 small-md rounded-circle"
+                                src="/images/events/berdal.jpeg"
+                                alt="Christoffer Berdal">
+                        </div>
+                        <div class="flex-grow-1 ms-3 align-content-center align-items-center">
+ <p class="mt-2 mb-0"><b>Christoffer Berdal</b></p><p><small>Teaterinstruktør og forperson hos Foreningen af Danske Sceneinstruktører</small></p>
+                        </div>
+                    </div>
+
+</div>
+
+
+</div>
+
+
+<br>
+Alle er hjerteligt velkomne til at komme og høre mere og stille spørgsmål.
 
 #### Hvad er Master of Business Coaching?
 
