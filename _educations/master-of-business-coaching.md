@@ -1,13 +1,14 @@
 ---
 order: 1
-title: Master of Business Coaching
+title: MBC (Master of Business Coaching)
 overtitle: MBC
+title-2: Master of Business Coaching
 layout: course
 image: /images/educations/mbc-1.png
 image-2: /images/educations/mbc-overblik.png
 kort: true
 kategori: samtaler
-meta-title: Business Coaching uddannelse - Master i Business Coaching
+meta-title: MBC - Business Coaching uddannelse - Master i Business Coaching
 meta-description: Ønsker du at blive dygtig til at føre produktive og virkningsfulde dialoger? Bliv Master i Business Coaching på 2 år. Læs mere om vores business coach uddannelse her.
 video-thumb: /videos/gitte-web.mp4
 video-thumb-text: Hør i videoen hvad tidligere studerende Gitte Overgaard siger om uddannelsen
@@ -32,7 +33,7 @@ location: 'Undervisningen foregår i vores moderne og praktiske lokaler på 3. s
 aktive-hold: true
 contact-person: Frederikke Winther
 header: Master of Business Coaching
-description: Ønsker du at blive dygtig til at føre produktive og virkningsfulde dialoger? At kunne flytte både grupper og individer i en mere konstruktiv retning og derved forebygge stress, organisatorisk stagnation og udbrændthed? Så vælg uddannelsen Master of Business Coaching (MBC).
+description: Ønsker du at blive dygtig til at føre produktive og virkningsfulde dialoger? At kunne flytte både grupper og individer i en mere konstruktiv retning og derved forebygge stress, organisatorisk stagnation og udbrændthed? Så vælg uddannelsen MBC (Master of Business Coaching).
 price: "Prisen for hele uddannelsen er
 183.000,- kr. ekskl. moms.<br><br>Betalingen inkluderer:
 Undervisning, supervision,
@@ -83,11 +84,11 @@ opbygning-image: "/images/educations/mbc-opbygning.png"
 overblik:
 - overskrift: Ledelse og coaching
   paragrafer:
-  - "Ønsker du at blive dygtig til at føre produktive og virkningsfulde dialoger? At kunne flytte både grupper og individer i en mere konstruktiv retning og derved forebygge stress, organisatorisk stagnation og udbrændthed? Så vælg uddannelsen: Master of Business Coaching (MBC)."
-  - "Med en Master of Business Coaching får du en af landets bedste coachinguddannelser, hvor du både kan foretage traditionelle coachingsamtaler og den filosofiske samtale."
+  - "Ønsker du at blive dygtig til at føre produktive og virkningsfulde dialoger? At kunne flytte både grupper og individer i en mere konstruktiv retning og derved forebygge stress, organisatorisk stagnation og udbrændthed? Så vælg uddannelsen: MBC (Master of Business Coaching)."
+  - "Med en MBC får du en af landets bedste coachinguddannelser, hvor du både kan foretage traditionelle coachingsamtaler og den filosofiske samtale."
 - overskrift: Højeste internationale akkreditering
   paragrafer:
-  - "Med en Master of Business Coaching fra CCC er du garanteret de højeste, internationale standarder via vores akkreditering fra European Mentoring and Coaching Council (EMCC). <ins><a href='/emcc-akkreditering/'>Læs om vores EMCC akkreditering her</a></ins>."
+  - "Med en MBC fra CCC er du garanteret de højeste, internationale standarder via vores akkreditering fra European Mentoring and Coaching Council (EMCC). <ins><a href='/emcc-akkreditering/'>Læs om vores EMCC akkreditering her</a></ins>."
 lists:
 - liste-paragraf: "Med tryk på Business-delen af Coaching, i modsætning til fx life-coaching, er uddannelsen målrettet erhvervslivet med den hensigt at løfte de studerendes dialogiske kapacitet i professionelle kontekster."
 dage: 8

@@ -5,7 +5,7 @@ dialoger – og stå stærkere i den personlige kontakt, så kom til information
 Coaching. En uddannelse der stimulerer din dialogiske kapacitet og lærer dig at blive endnu bedre til at holde
 på og om dig selv og andre i en hyperkompleks verden."
 subtitle: Informationsmøde
-title: Informationsmøde - Master of business coaching
+title: Informationsmøde - MBC (Master of Business Coaching)
 event-type: Informationsmøde
 category: event
 tags:
@@ -28,9 +28,9 @@ community-free: false
 billetto-nr: 611228
 attend_mes:
 ---
-### Informationsmøde - Master of business coaching
+### Informationsmøde - MBC (Master of Business Coaching)
 
-Ønsker du at blive dygtig til at føre produktive og virkningsfulde dialoger – og stå stærkere i den personlige kontakt? Så kom til informationsmøde om vores Master of Business Coaching. En internationalt akkrediteret uddannelse der stimulerer din relationsevne og dialogiske kapacitet. Her lærer du at blive endnu bedre til at holde på og om dig selv og andre i en omskiftelig verden!
+Ønsker du at blive dygtig til at føre produktive og virkningsfulde dialoger – og stå stærkere i den personlige kontakt? Så kom til informationsmøde om vores MBC. En internationalt akkrediteret uddannelse der stimulerer din relationsevne og dialogiske kapacitet. Her lærer du at blive endnu bedre til at holde på og om dig selv og andre i en omskiftelig verden!
 
 Mød underviserne samt studerende:
 
