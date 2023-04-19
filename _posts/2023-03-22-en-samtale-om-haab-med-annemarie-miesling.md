@@ -6,7 +6,7 @@ Andreas Bering har denne gang Annemarie Meisling, som er Senior Director for Cor
 category: podcast
 meta-image: /images/podcasts/4.png
 layout: podcast
-pd-link: https://open.spotify.com/embed/episode/5Ybg3XbAEqeTIHndIeHQ5x?utm_source=generator
+pd-link: https://podcasters.spotify.com/pod/show/copenhagen-coaching-cente/embed/episodes/En-Samtale-om-Hb-med-Annemarie-Meisling-e20uj7d
 tags:
 - viden
 - blog

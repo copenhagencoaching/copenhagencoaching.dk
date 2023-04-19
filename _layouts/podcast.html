@@ -55,13 +55,14 @@ layout: default
 
 
 
+
         <div class="row gx-5 gy-5">
             <div class="col-xl-8 col-12 link-under">
 
                 <div class="p-5 bg-white">
 
 
-                    <iframe style="border-radius:12px" src="{{ page.pd-link }}" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                <iframe src="{{ page.pd-link }}" height="160px" width="100%" frameborder="0" scrolling="no"></iframe>
 
 
 
@@ -75,7 +76,7 @@ layout: default
                     <h5 class="mb-3">Andre episoder</h5>
                     {% for post in site.categories.podcast %}
                     {% if post.title != page.title %}
-                    <iframe style="border-radius:12px" src="{{ post.pd-link }}" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    <iframe src="{{ post.pd-link }}" height="160px" width="100%" frameborder="0" scrolling="no"></iframe>
 
                     {% endif %}
                     {% endfor %}

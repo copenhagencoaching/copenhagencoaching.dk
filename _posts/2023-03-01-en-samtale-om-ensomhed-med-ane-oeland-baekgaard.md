@@ -5,7 +5,7 @@ description: 'Vi kender Sognepræst Ane Øland Bækgaard fra DR2-serien “Stør
 category: podcast
 meta-image: /images/podcasts/4.png
 layout: podcast
-pd-link: https://open.spotify.com/embed/episode/0upBGgWsHWJ0wAW8kzpw0M?utm_source=generator
+pd-link: https://podcasters.spotify.com/pod/show/copenhagen-coaching-cente/embed/episodes/En-Samtale-om-Ensomhed-med-Ane-land-Bkgaard-e1vn8lr
 tags:
 - viden
 - blog
