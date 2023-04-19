@@ -37,12 +37,12 @@ layout: default
     <div class="small-container">
       
         {% for post in site.categories.podcast %}
-  
+        <p class="mb-2 mt-3 opacity-75 d-md-none"><b>{{ post.title }}</b></p>
         <iframe src="{{ post.pd-link }}" height="160px" width="100%" frameborder="0" scrolling="no"></iframe>
 
 
         {% endfor %}
-        
+
 
         <div class="bg-quick-silver p-4 mt-3">
 <p class="text-white">Vært: Andreas Bering<br>

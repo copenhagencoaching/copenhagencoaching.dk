@@ -74,8 +74,11 @@ layout: default
                     {{ content }}
                     <br>
                     <h5 class="mb-3">Andre episoder</h5>
+
                     {% for post in site.categories.podcast %}
+                    
                     {% if post.title != page.title %}
+                    <p class="mb-2 mt-3 opacity-75 d-md-none"><b>{{ post.title }}</b></p>
                     <iframe src="{{ post.pd-link }}" height="160px" width="100%" frameborder="0" scrolling="no"></iframe>
 
                     {% endif %}
