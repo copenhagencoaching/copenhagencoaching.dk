@@ -212,7 +212,7 @@ hold:
 emails:
 - ln@copenhagencoaching.dk
 special: false
-location: Undervisningen foregår i Gentofte Børnevenners lokaler på Smakkegårdsvej 71, 2820 Gentofte.
+location: Undervisningen foregår på Blegdamsvej 104D, 2. sal, 2100 København Ø.
 adgangskrav: Gennemført uddannelse på minimum erhvervsakademiniveau (kort videregående uddannelse) eller bevis for tilsvarende realkompetencer udstedt af en professionshøjskole eller et erhvervsakademi. Hertil kommer to års relevant erhvervserfaring.
 cat:
 - diplom

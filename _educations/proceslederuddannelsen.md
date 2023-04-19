@@ -101,6 +101,50 @@ hold:
     time: "09:00 - 17:00"
     name: "Eksamen"
     place: "København"
+- title: Proceslederuddannelsen - Efterår 2023
+  price: 27.500 ekskl. moms
+  dates: 5. oktober - 15. december
+  modules:
+  - date: 5. oktober
+    day: 1
+    time: "09:00 - 19:00"
+    name: "-"
+    place: København
+  - date: 11. oktober
+    day: 2
+    time: "09:00 - 16:00"
+    name: "-"
+    place: København
+  - date: 6. november
+    day: 3
+    time: "10:00 - 17:00"
+    name: "-"
+    place: København
+  - date: 7. november
+    day: 4
+    time: "09:00 - 16:00"
+    name: "-"
+    place: København
+  - date: 20. november
+    day: 5
+    time: "12:00 - 16:00"
+    name: "-"
+    place: Online
+  - date: 29. november
+    day: 6
+    time: "09:00 - 15:00"
+    name: "-"
+    place: København
+  - date: 14. december
+    day: 7
+    time: "09:00 - 16:00"
+    name: "Eksamen"
+    place: "København"
+  - date: 15. december
+    day: 8
+    time: "09:00 - 16:00"
+    name: "Eksamen"
+    place: "København"
 contact-person: Lars Nyborg
 event-title: Kommende hold
 order: 8
