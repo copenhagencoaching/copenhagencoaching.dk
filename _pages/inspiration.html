@@ -70,7 +70,7 @@ layout: default
                      <p class="small mt-2 mb-1"><small>{{ post.date | date: "%d"}}. {{ monthName }} {{ post.date | date: "%Y"}}</small></p>
                         
                           <h5>{{ post.title }}</h5>
-                          <p>{{ post.description }}</p>
+                          <p>{{ post.description | truncatewords: 20, "..." }}</p>
                         
                   </div>
                   
