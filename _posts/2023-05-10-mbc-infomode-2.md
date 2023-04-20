@@ -40,7 +40,7 @@ Mød underviserne samt studerende:
                     <div class="d-flex align-content-center align-items-center">
                         <div class="flex-shrink-0">
                             <img class="small-image-148 small-md rounded-circle"
-                                src="/images/graphic/placeholder-profile.png"
+                                src="/images/events/rikke.jpeg"
                                 alt="Rikke Skjøde Baes">
                         </div>
                         <div class="flex-grow-1 ms-3 align-content-center align-items-center">
