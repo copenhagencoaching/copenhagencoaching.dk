@@ -18,6 +18,8 @@ tags:
 - Etik
 - blog
 ---
+#### **IKKE AT VIDE ELLER VILLE NOGET PÅ DEN ANDENS VEGNE**
+
 \- det er det første punkt i CCC’s etiske grundlag for praksis og uddannelse
 
 Hvad er det, vi mener med ikke at vide og ikke at ville noget på den andens vegne, når vi coacher?
