@@ -1,0 +1,15 @@
+---
+title: Hvad fik Lola ud af en MBC?
+image: /images/thumbnails/lola-thumbnail.png
+description: 'Hør Lola fortælle om hendes oplevelse hos CCC og hvad hun fik ud af at tage en MBC uddannelse.'
+category: video
+layout: video
+tags:
+- viden
+- blog
+- video
+published: true
+video: /final-lola-film-com.mp4
+---
+
+Hør Lola fortælle om hendes oplevelse hos CCC og hvad hun fik ud af at tage en MBC uddannelse.
