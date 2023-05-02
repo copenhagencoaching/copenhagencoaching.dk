@@ -2,16 +2,17 @@
 order: 5
 title: Camilla Ingwersen
 call: 29 90 46 91
-description: Seniorkonsulent
+description: Associeret Partner
 meta-title: Camilla Ingersen - Mød medarbejderne hos CCC her
 consulent: true
 on-om-os: true
 edu:
-- Kvalificeret underviser i Mindfulness-baseret stressreduktion, Aarhus Universitet
-- Certificeret Supervisor, Dansk Familie Terapeutisk Institut
-- Stud. master i Naturbaseret Terapi og Sundhedsfremme, Københavns Universitet
-- Stud. master of Business Coaching (EQA), CCC
 - HD i Ledelse og Kommunikation, Copenhagen Business School
+- Certificeret i personlighedstesten Big Five
+- Certificeret Supervisor, Dansk Familie Terapeutisk Institut
+- Kvalificeret underviser i Mindfulness-baseret stressreduktion, Aarhus Universitet
+- Stud. Master i Naturbaseret Terapi og Sundhedsfremme, Københavns Universitet
+- Stud. Master of Business Coaching (EQA), CCC
 email: ci@copenhagencoaching.dk
 linkedin: https://www.linkedin.com/in/camillaingwersen/
 data-id: ''
@@ -19,6 +20,8 @@ image: /images/about/employees/camilla-big-white.png
 portrait-image: "/images/about/employees/camilla-big-white.png"
 small-portrait-image: "/images/about/employees/camilla-i-small-white.png"
 grey-portrait: /images/about/employees/camilla-ingwersen-3.png
+redirect_from:
+  - /employees/camilla-ingersen/
 ---
 Camilla mestrer som få at kombinere en skarp forretningsforståelse med en holistisk tilgang til mennesker, natur og samfund. Hos Camilla mødes man med et blik for, hvad der er bæredygtigt og vitalt i det miljø, man er en del af - i sin ledergerning og som menneske.  
 
