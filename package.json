@@ -1,0 +1,16 @@
+{
+  "name": "copenhagencoaching.dk",
+  "version": "1.0.0",
+  "description": "[![CircleCI](https://circleci.com/gh/prolike/copenhagencoaching.dk.svg?style=svg&circle-token=c771245a750b2afe4158e1c22daffc456c43e01c)]",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tinacms/cli": "^1.5.10",
+    "tinacms": "^1.5.3"
+  }
+}

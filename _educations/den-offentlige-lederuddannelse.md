@@ -142,12 +142,12 @@ hold:
     place: København
   - date: 7. juni
     day: 3
-    time: "-"
+    time: "09:00 - 12:00"
     name: "-"
     place: Online
   - date: 16. juni
     day: 4
-    time: "-"
+    time: "09:00 - 12:00"
     name: "-"
     place: "Online"
   - date: 23. juni
