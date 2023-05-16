@@ -71,15 +71,15 @@ hold:
     place: Online
   - date: 11. maj
     day: "2"
-    time: 13:00 - 15:00
+    time: 10:00 - 12:00
     name: Teorien
     place: Online
-  - date: 19. maj
+  - date: 16. maj
     day: "3"
-    time: 10:00 - 12:00
+    time: 12:00 - 14:00
     name: Praktikken
     place: Online
-  - date: 5. juni
+  - date: 7. juni
     day: "4"
     time: 10:00 - 15:00
     name: Workshop
