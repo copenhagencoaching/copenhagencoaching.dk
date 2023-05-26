@@ -1,7 +1,7 @@
 ---
-title: En Samtale om mod med Reinhardt Stelter
+title: En Samtale om mod med Reinhard Stelter
 image: /images/frontpage/pc-6.png
-description: 'Lyt og reflekter med når Stelter i vores podcast taler med Andreas Bering og Jesper Nøddesbo om Mod, Både om nogle af de situationer i livet der kræver mod, men også mere filosofisk med hensyn til, hvad der skal til for at mod kan opstå? Lyt med her.'
+description: 'Lyt og reflekter med når Reinhard Stelter i vores podcast taler med Andreas Bering og Jesper Nøddesbo om Mod, Både om nogle af de situationer i livet der kræver mod, men også mere filosofisk med hensyn til, hvad der skal til for at mod kan opstå? Lyt med her.'
 category: podcast
 meta-image: /images/podcasts/4.png
 layout: podcast
@@ -12,6 +12,8 @@ tags:
 - tekst
 - podcast
 published: true
+redirect_from:
+  - /resonans/podcast/en-samtale-om-mod-med-reinhardt-stelter/
 ---
 
 Professor Reinhard Stelter er en af Europas førende coaching eksperter. Han har udgivet en række bøger og er faderen til 3 Generations Coaching. Lyt og reflekter med når Stelter i vores podcast taler med Andreas Bering og Jesper Nøddesbo om Mod, Både om nogle af de situationer i livet der kræver mod, men også mere filosofisk med hensyn til, hvad der skal til for at mod kan opstå?  Hvad koster mod? Er det mod der er på spil når man skal stå fast, og være vedholdende? Er mod ens ven eller fjende?
