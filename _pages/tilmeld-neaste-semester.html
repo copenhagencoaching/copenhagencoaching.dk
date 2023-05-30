@@ -25,7 +25,7 @@ permalink: /tilmeld/
                             <option value="hold">Vælg hold</option>
                             {% for ud in site.educations %}
                             {% if ud.nested-hold %}
-                            {% if ud.title == "Master of Business Coaching" %}
+                            {% if ud.title-2 == "Master of Business Coaching" %}
                             {% for semester in ud.nested-hold %}
                             {% for h in semester.hold %}
                             {% if h.title contains 'Semester 1' %}
