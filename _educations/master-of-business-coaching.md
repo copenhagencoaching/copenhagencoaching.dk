@@ -583,8 +583,7 @@ cat:
 infomode: true
 infomode-text: Kom til informationsmøde om vores masteruddannelse.
 infomode-dates:
-- 10. maj - 16:00 - 17:30 (Fysisk)
-- 11. maj - 17:00 - 18:00 (online)
+- 9. august - 16:00 - 17:30 (Fysisk)
 anbefalinger-video: false
 video-url: /videos/gitte-web.mp4
 video-text: Hvad siger tidligere studerende om Master of Business Coaching? Hør hvad Gitte Overgaard mener om uddannelsen.
