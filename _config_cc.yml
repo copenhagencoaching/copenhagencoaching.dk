@@ -26,12 +26,6 @@ exclude:
 timezone: Europe/Copenhagen
 markdown: kramdown
 permalink: /:categories/:title/
-plugins:
-  - jekyll-responsive-image
-  - jekyll-seo-tag
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-redirect-from
 
 themes:
   - title: ledelsesudvikling
