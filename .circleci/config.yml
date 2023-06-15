@@ -40,7 +40,7 @@ jobs:
   jekyll-build:
     working_directory: /app
     docker:
-      - image: lakruzz/jekyll-plus:1.0.1
+      - image: lakruzz/play:latest
     steps:
       - restore_cache:
           keys:

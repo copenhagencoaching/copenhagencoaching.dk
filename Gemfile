@@ -19,6 +19,7 @@ group :jekyll_plugins do
     gem 'unicode_utils'
     gem 'webrick'
     gem 'jekyll-seo-tag'
+    gem 'jekyll-paginate'
 end
 group :other_plugins do
     gem 'feedjira'
