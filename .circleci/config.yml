@@ -50,7 +50,7 @@ jobs:
           command: |
             [[ -z "$CIRCLE_TAG" ]] && export JEKYLL_ENV=stage || export JEKYLL_ENV=production
             printenv JEKYLL_ENV
-            bundle exec jekyll build
+            jekyll build
       - run:
           name: Log the version
           command: cp version.txt _site/version.txt
