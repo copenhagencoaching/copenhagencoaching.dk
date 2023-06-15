@@ -20,6 +20,7 @@ group :jekyll_plugins do
     gem 'webrick'
     gem 'jekyll-seo-tag'
     gem 'jekyll-paginate'
+    gem 'jekyll-redirect-from'
 end
 group :other_plugins do
     gem 'feedjira'
