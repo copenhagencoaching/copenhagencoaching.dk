@@ -10,7 +10,7 @@ tags:
 - Coaching
 - Etik
 - blog
-published: false
+published: true
 ---
 #### **Dialog i klassen**
 
