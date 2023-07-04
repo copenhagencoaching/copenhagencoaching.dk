@@ -60,33 +60,33 @@ undervisere:
 kursus-oversigt: true
 aktive-hold: true
 hold:
-- title: BFC23-2
+- title: BFC23-3
   price: 19.500 ekskl. moms
-  dates: 3. maj - 12. juni 2023
+  dates: 19. sep - 27. okt 2023
   modules:
-  - date: 3. maj
+  - date: 9. september
     day: "1"
     time: 13:00 - 15:00
     name: Tjek ind
     place: Online
-  - date: 11. maj
+  - date: 26. september
     day: "2"
     time: 10:00 - 12:00
     name: Teorien
     place: Online
-  - date: 16. maj
+  - date: 3. oktober
     day: "3"
-    time: 12:00 - 14:00
+    time: 13:00 - 15:00
     name: Praktikken
     place: Online
-  - date: 7. juni
+  - date: 6. oktober
     day: "4"
     time: 10:00 - 15:00
     name: Workshop
     place: Online
-  - date: 12. juni
+  - date: 27. oktober
     day: "5"
-    time: 08:30 - 13:00
+    time: 10:00 - 15:00
     name: Wrap up + Eksamen
     place: Online
 classes: big-five
