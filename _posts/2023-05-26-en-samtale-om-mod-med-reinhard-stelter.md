@@ -5,7 +5,7 @@ description: 'Lyt og reflekter med når Reinhard Stelter i vores podcast taler m
 category: podcast
 meta-image: /images/podcasts/4.png
 layout: podcast
-pd-link: https://podcasters.spotify.com/pod/show/copenhagen-coaching-cente/embed/episodes/En-samtale-om-mod-med-Reinhardt-Stelter-e24nagl
+pd-link: https://open.spotify.com/embed/episode/0YIPQjr9crXZ49SOWxPZJl?utm_source=generator
 tags:
 - viden
 - blog

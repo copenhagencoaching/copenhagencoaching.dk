@@ -5,7 +5,7 @@ description: 'Ellen Hillingsø er en af vor tid helt store skuespillerinder. Lyt
 category: podcast
 meta-image: /images/podcasts/4.png
 layout: podcast
-pd-link: https://podcasters.spotify.com/pod/show/copenhagen-coaching-cente/embed/episodes/En-samtale-om-Tvivl-med-Ellen-Hillings-e25eh6g
+pd-link: https://open.spotify.com/embed/episode/1S6ilm4Jq8mibUNPKvmlTc?utm_source=generator
 tags:
 - viden
 - blog

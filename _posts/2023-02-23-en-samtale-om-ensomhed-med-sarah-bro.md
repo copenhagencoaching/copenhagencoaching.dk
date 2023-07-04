@@ -5,7 +5,7 @@ description: 'I denne episode inviterer vi tidligere OL-svømmer Sarah Bro i stu
 category: podcast
 meta-image: /images/podcasts/4.png
 layout: podcast
-pd-link: https://podcasters.spotify.com/pod/show/copenhagen-coaching-cente/embed/episodes/En-samtale-om-Ensomhed-med-Sarah-Bro-e1toltk
+pd-link: https://open.spotify.com/embed/episode/0l3dZnOLSTHCEqmhj2ySLy?utm_source=generator
 tags:
 - viden
 - blog

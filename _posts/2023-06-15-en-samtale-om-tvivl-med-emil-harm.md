@@ -6,7 +6,7 @@ category: podcast
 meta-image: /images/podcasts/4.png
 layout: podcast
 pd-link: >-
-  https://podcasters.spotify.com/pod/show/copenhagen-coaching-cente/embed/episodes/En-samtale-om-Tvivl-med-Emil-Harm-e25osu8
+  https://open.spotify.com/embed/episode/2ngqNl6MXzsr7jYRQLK7ch?utm_source=generator
 tags:
   - viden
   - blog

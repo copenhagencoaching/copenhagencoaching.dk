@@ -5,7 +5,7 @@ description: 'Thomas Buttenschøn oplever at være i en tid, hvor den unge gener
 category: podcast
 meta-image: /images/podcasts/4.png
 layout: podcast
-pd-link: https://podcasters.spotify.com/pod/show/copenhagen-coaching-cente/embed/episodes/En-Samtale-om-Srbarhed-med-Thomas-Buttenschn-e229k57
+pd-link: https://open.spotify.com/embed/episode/7bFcLKeHKlQ8ATFpAC9GfY?utm_source=generator
 tags:
 - viden
 - blog

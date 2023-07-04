@@ -5,7 +5,7 @@ description: 'Rasmus Kjeldahl var i mange år kendt som Direktør for forbrugerr
 category: podcast
 meta-image: /images/podcasts/4.png
 layout: podcast
-pd-link: https://podcasters.spotify.com/pod/show/copenhagen-coaching-cente/embed/episodes/En-samtale-om-mod-med-Rasmus-Kjeldahl-e23esio
+pd-link: https://open.spotify.com/embed/episode/52RzLjfTojlKjy6npjVNKp?utm_source=generator
 tags:
 - viden
 - blog

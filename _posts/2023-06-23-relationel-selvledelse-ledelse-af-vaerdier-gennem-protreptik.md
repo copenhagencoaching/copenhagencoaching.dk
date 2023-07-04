@@ -1,6 +1,6 @@
 ---
 category: blog
-title: 'Relationel selvledels – Ledelse af værdier gennem protreptik'
+title: 'Relationel selvledelse – Ledelse af værdier gennem protreptik'
 image: '/images/blog/laere.png'
 description: Læs her om, hvordan protreptikken hjælper lærere og pædagoger med opmærksomheden på forskellighed i arbejdet med de værdier, som skal leve i skolen for både medarbejdere, børn og forældre.
 tags:

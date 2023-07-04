@@ -5,7 +5,7 @@ description: 'Reflekter med når Jacob Neestrup i vores podcast taler med Andrea
 category: podcast
 meta-image: /images/podcasts/4.png
 layout: podcast
-pd-link: https://podcasters.spotify.com/pod/show/copenhagen-coaching-cente/embed/episodes/En-samtale-om-Tvivl-med-Jacob-Neestrup-e252395
+pd-link: https://open.spotify.com/embed/episode/3iBUA8y9wGHNEOHblgEjxW?utm_source=generator
 tags:
 - viden
 - blog
