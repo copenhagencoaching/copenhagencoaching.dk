@@ -1,14 +1,37 @@
 ---
-layout: page
+layout: default
 ---
-
 {% assign orderedcoaching = site.consultations | sort: "order" %}
-<div class="container-fluid mt-5 mb-5 d-flex flex-wrap justify-content-center">
-    {% for coaching in orderedcoaching %}
+<div class="hero-image d-flex align-content-center align-items-center"
+  style="background: linear-gradient(rgba(19, 19, 19, 0.7), rgba(19, 19, 19, 0.7)), url('/images/graphic/community-3.png'); background-size: cover; background-position: center;">
 
-    <a class="me-3 mb-3 dark-border-button btn" href="#{{ coaching.title | remove: ' ' | strip_html }}">{{
-        coaching.title }}</a>
-    {% endfor %}
+    <div class="container-fluid text-center">
+
+      <h1 class="text-white mb-1">{{ page.title }}</h1>
+
+      <div class="row">
+        <div class="col-12 offset-lg-3 col-lg-6">
+          <hr class="white short-hr mx-auto">
+          <p class="text-white mb-4">{{ page.description }}</p>
+
+        </div>
+
+      </div>
+      </div>
+  
+
+</div>
+
+<div class="bg-platinum">
+    <div class="container-fluid small-container py-5">
+  {{ page.content }}   
+    </div>
+</div>
+<div class="container-fluid small-container py-5">
+{% for coaching in orderedcoaching %}
+<h3>{{ coaching.title }}</h3>
+{{ coaching.content }}
+{% endfor %}
 </div>
 
 {% for coaching in orderedcoaching %}
@@ -76,8 +99,3 @@ layout: page
 
 
 {% endfor %}
-
-
-
-
-{% include sections/pip-banner.html %}

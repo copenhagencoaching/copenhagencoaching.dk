@@ -1,6 +1,6 @@
 ---
 layout: consulting
-title: Consulting
+title: Konsulentydelser
 image: /images/consulting/consulting-banner.jpg
 signup: Konsulentydelser
 show: true
@@ -10,9 +10,14 @@ header-link: Se hvad vi tilbyder ⟶
 header-link-url: '#content-section'
 breadcrumb: true
 color-box: #636e72
-description:
-
- For at udvikle sig bæredygtigt har virksomheder, organisationer og mennesker brug for friske øjne og nye perspektiver. CCC har solid erfaring med strategiudvikling i organisationer.
- <br><br>
- Siden 2004 har vi konsulteret alle former for virksomheder – fra nogle af Danmarks største organisationer til helt små start-ups - og dermed skabt perspektiv og plads til nye strategier, ideer og værdier. Vi gør det muligt at se sig selv med nye øjne.
+permalink: /konsulentydelser
+description: Vores kunder sætter pris på specialiserede og fagligt opdaterede konsulenter, som har praktisk erfaring med ledelse og det coachende lederskab. Hos os møder man en tredjepart, som ikke er en del af organisationen og netop derfor er de friske øjne og den upartiske støtte, der hjælper med at sætte retning og omsætte visioner til praksis.
 ---
+
+Vi leverer særligt tilrettelagte forløb, som imødekommer organisationens, afdelingens eller teamets behov og konkrete situation. Forløbene kan bevæge sig fra træning og workshops over mod mere traditionel undervisning. Men vi har altid fokus på at omsætte viden til praksis.
+
+I samarbejdet med os vil man opleve, at træning og kursusforløb bliver en konstruktiv feedback på den performance eller praksis, man har sat fokus på. 
+
+På CCC tror vi på det coachende lederskab. Det handler om dialogisk kapacitet, følelsesmæssig intelligens og evnen til at forstå og bevæge sig i organisatorisk kompleksitet og få det bedste ud af det.
+
+Læs her mere om de temaer, vi ofte leverer konsulentydelser indenfor, og hvordan vi gør det. De er: rekruttering, teamudvikling og teamsupervision, ledelse, dialogiske samtaler og kommunikation, transition i arbejdslivet, værdier i ledelse og organisationer, trivsel samt forandrings- og udviklingsprocesser. Vi tilbyder også foredrag og fyraftensinspirationer.
