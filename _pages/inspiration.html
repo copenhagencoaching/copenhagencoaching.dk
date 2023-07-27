@@ -161,3 +161,40 @@ layout: default
           </div>
    
 </div>
+
+<div class="container-fluid pt-5 pb-2">
+
+  <h2 class="mb-4">Udgivelser</h2>
+  <div class="insp-responsive">
+      {% for post in site.publications %}
+      <!-- <div class="h-200 w-100"><img src="{{ post.image }}" class="object-fit" alt=""></div>
+       -->
+       <div class="ct-header tablex item zoom">
+          <a href="{{ post.url }}">
+          <div class="h-200px">
+
+              <img class="object-fit" data-lazy="{{ post.image }}" alt="{{ post.title }}">
+          </div>
+         
+          <div class="ct-u-display-tablex">
+            <div class="inner h-120px">
+              
+               
+                  
+                    <h5 class="mt-3">{{ post.title }}</h5>
+                    <p>{{ post.description | truncatewords: 15, "..." }}</p>
+                    
+                  
+               
+             
+            </div>
+            <div class="inner-btn">
+              <a class="btn btn-black-coral rounded-0 text-white" href="{{ post.url }}">Se mere</a>
+            </div>
+          </div>
+      </a>
+        </div>
+      {% endfor %}
+    </div>
+
+</div>

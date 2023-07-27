@@ -1,0 +1,57 @@
+---
+title: Udgivelser
+permalink: /udgivelser/
+layout: default
+image: /images/ousia/reading-2.png
+---
+
+<div class="pt-5"
+    style="background: linear-gradient(rgba(19, 19, 19, 0.6), rgba(19, 19, 19, 0.6)), url('{{ page.image }}'); background-size: cover; background-position: top;">
+    <div class="container-fluid text-center py-5 position-relative">
+
+        <div class="pt-5">
+            <div class="row py-5 gy-5">
+
+
+                <div class="offset-md-3 col-12 col-md-6">
+
+                    <h1 class="text-white mb-3">{{ page.title }}</h1>
+                    <hr class="white w-50 responsive mx-auto">
+
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row gx-5 gy-5 py-5">
+        {% for pub in site.publications %}
+        <div class="col-lg-6 col-12">
+            <a href="{{ pub.url }}">
+            <div class="row">
+                <div class="col-4">
+                    <img src="{{ pub.image }}" class="img-fluid w-100 shadow" alt="{{ pub.title }}">
+                </div>
+                <div class="col-8">
+                    <h4 class="text-uppercase">{{ pub.title }}</h4>
+                    {% if pub.post-title %}
+                    <h5>{{ pub.post-title }}</h5>
+                    {% endif %}
+                    <p class="fw-bold">{{ pub.price }} kr.</p>
+                    {{ pub.excerpt }}
+                    <div
+                    class="btn-black-coral mb-2 d-inline-block text-white mt-0 rounded-0 fw-bold text-uppercase px-4 py-2">
+                    Se mere</div>
+                </div>
+            </div>
+        </a>
+
+        </div>
+        {% endfor %}
+
+
+    </div>
+</div>

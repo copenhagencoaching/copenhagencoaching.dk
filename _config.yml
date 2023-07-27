@@ -122,7 +122,7 @@ collections:
     permalink: /:title/
   publications:
     output: true
-    permalink: /ousia/:title/
+    permalink: /udgivelser/:title/
   pfp:
     output: false
     permalink: /:title/

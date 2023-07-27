@@ -5,6 +5,7 @@ image: /images/ousia/Syntesemodellen.jpeg
 layout: ousia
 post-title: En introduktion
 e-price: '45,00'
+published: false
 link: https://www.bod.dk/bogshop/syntesemodellen-9788743038115
 ---
 
