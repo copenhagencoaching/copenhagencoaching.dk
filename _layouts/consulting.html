@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{% assign orderedcoaching = site.consultations | sort: "order" %}
+{% assign orderedcoaching = site.consultings | sort: "order" %}
 <div class="hero-image d-flex align-content-center align-items-center"
   style="background: linear-gradient(rgba(19, 19, 19, 0.7), rgba(19, 19, 19, 0.7)), url('/images/graphic/community-3.png'); background-size: cover; background-position: center;">
 
@@ -12,7 +12,6 @@ layout: default
       <div class="row">
         <div class="col-12 offset-lg-3 col-lg-6">
           <hr class="white short-hr mx-auto">
-          <p class="text-white mb-4">{{ page.description }}</p>
 
         </div>
 
@@ -24,78 +23,46 @@ layout: default
 
 <div class="bg-platinum">
     <div class="container-fluid small-container py-5">
-  {{ page.content }}   
-    </div>
-</div>
-<div class="container-fluid small-container py-5">
-{% for coaching in orderedcoaching %}
-<h3>{{ coaching.title }}</h3>
-{{ coaching.content }}
-{% endfor %}
-</div>
-
-{% for coaching in orderedcoaching %}
-{% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-
-<div id="{{ coaching.title | remove: ' ' | strip_html }}"></div>
-{% if thecycle == 'odd' %}<div class="bg-platinum py-5">{% endif %}
-    <div class="container-fluid my-5">
-        <div class="py-5">
-            {% if thecycle == 'even' %}<div class="py-5">{% endif %}
-            <div class="row gx-5 {% if thecycle == 'odd' %}flex-row-reverse{% endif %}">
-                <div class="col-12 col-lg-6 responsive-lg-img">
-                    <div class="h-100"
-                        style="background-image: url('/images/coaching/{{ coaching.image }}'); background-position: center; background-size: cover;">
-                    </div>
-                </div>
-                <div class="col-12 col-lg-6">
-                    <h1>{{ coaching.title }}</h1>
-                    {{ coaching.content }}
-                    
-                    {% for employee in site.employees %}
-                {% if coaching.contact-person == employee.title %}
-                <div class="d-flex align-items-center bg-black-coral rounded p-3">
-                    <div>
-
-                        <p class="text-white large"><b>Interesseret i at høre mere?</b> Ring eller skriv og få en snak med</p>
-
-                        <div class="d-flex">
-                            <div class="d-flex align-items-center">
-                                <div class="flex-shrink-0">
-                                    <img class="small-image rounded-circle"
-                                        src="{{ employee.small-portrait-image }}"
-                                        alt="{{ employee.title }}, {{ employee.description}}">
-                                </div>
-                                <div class="flex-grow-1 ms-3">
-
-
-                                        <p class="text-white mb-0"><b><a href="{{ employee.url }}"
-                                            data-proofer-ignore>{{
-                                            employee.title }}</a></b><br>
-
-                                    <a href="tel:{{ employee.call }}" data-proofer-ignore>+45 {{
-                                        employee.call
-                                        }}</a><br>
-                                    <a href="mailto:{{ employee.email }}" data-proofer-ignore>{{
-                                        employee.email
-                                        }}</a>
-                                </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                {% endif %}
-                {% endfor %}
-                </div>
-
-            </div>
-            {% if thecycle == 'even' %}</div>{% endif %}
+        <div class="bg-white p-5">
+            {{ page.content }}  
         </div>
+ 
     </div>
-    {% if thecycle == 'odd' %}</div>{% endif %}
+</div>
+<div class="bg-black-coral">
+    <div class="container-fluid small-container py-5">
+        <div class="row gy-5">
+            {% for coaching in orderedcoaching %}
+            {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+            <div class="col-12">
+                
+                <div class="row position-relative {% if thecycle == 'odd' %}flex-row-reverse{% endif %}">
+                    <div class="col-6">
+                        <div class="d-hidden py-5 my-5">
+                            <h3>{{ coaching.title }}</h3><h3>{{ coaching.title }}</h3>
+                            {{ coaching.content }}
+                        </div>
+                       
+                        <div class="kons p-5 bg-white {% if thecycle == 'odd' %}end-0{% else %}start-0{% endif %}">
+                            <h4>{{ coaching.title }}</h4>
+                            {{ coaching.content | markdownify | hilightify }}
+                            
+                        </div>
+                        
+                    </div>
+                    <div class="col-6" style="background-image: url('{{ coaching.image }}'); background-position: center; background-size: cover;">
+                
+                    </div>
+                    
+                </div>
+                
+                
+                
+            </div>
+            {% endfor %}
+        </div>
+    
+    </div>
+</div>
 
-
-
-
-{% endfor %}
+{% include sections/coffee.html %}

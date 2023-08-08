@@ -179,3 +179,11 @@ blockquote p:first-child:before {
 .w-300 {
     max-width: 200px;
 }
+
+
+.color-bg {
+    background-color: $black-coral;
+    display: block;
+    color: white !important;
+    line-height: 1.7;
+}

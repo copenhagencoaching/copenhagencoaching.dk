@@ -129,6 +129,9 @@ collections:
   landings:
     output: true
     permalink: /:title/
+  consultings:
+    output: true
+    permalink: /konsulentydelser/:title/
 
 defaults:
   -
@@ -206,6 +209,11 @@ defaults:
       type: landings
     values:
       layout: landing
+  -
+    scope:
+      type: consultings
+    values:
+      layout: page
 
 
 
