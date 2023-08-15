@@ -3,66 +3,343 @@ layout: default
 ---
 {% assign orderedcoaching = site.consultings | sort: "order" %}
 <div class="hero-image d-flex align-content-center align-items-center"
-  style="background: linear-gradient(rgba(19, 19, 19, 0.7), rgba(19, 19, 19, 0.7)), url('/images/graphic/community-3.png'); background-size: cover; background-position: center;">
+    style="background: linear-gradient(rgba(19, 19, 19, 0.7), rgba(19, 19, 19, 0.7)), url('/images/consulting/c4.png'); background-size: cover; background-position: center;">
 
     <div class="container-fluid text-center">
 
-      <h1 class="text-white mb-1">{{ page.title }}</h1>
+        <h1 class="text-white mb-1">{{ page.title }}</h1>
 
-      <div class="row">
-        <div class="col-12 offset-lg-3 col-lg-6">
-          <hr class="white short-hr mx-auto">
+        <div class="row">
+            <div class="col-12 offset-lg-3 col-lg-6">
+                <hr class="white short-hr mx-auto">
+                <p class="text-white fw-bold fs-6">{{ page.description }}</p>
+            </div>
 
         </div>
+    </div>
 
-      </div>
-      </div>
-  
 
 </div>
 
 <div class="bg-platinum">
-    <div class="container-fluid small-container py-5">
-        <div class="bg-white p-5">
-            {{ page.content }}  
+    <div class="container-fluid py-5">
+        <div class="row gx-5 gy-5">
+            <div class="col-lg-7 col-12">
+                <div class="bg-white p-5">
+
+                    {{ page.content }}
+                </div>
+            </div>
+            <div class="col-lg-5 col-12">
+                <div class="h-100">
+                    <div class="bg-white p-lg-5 mb-4 pt-3 px-3 pb-4 h-lg-100">
+                        <h3 class="mb-2 text-uppercase">Skal vi tales ved?</h3>
+                        <p>Har du spørgsmål eller brug for hjælp til at vælge den rette konsulentydelse?
+                            Indtast navn og
+                            telefonnummer
+                            og en
+                            af vores konsulenter ringer dig op inden for 24 timer</p>
+                        <form id="coffee-index" class="mt-2" action="https://formspree.io/f/xyyoddyz" method="POST">
+                            <div class="row mt-3 gy-4" id="coffee">
+                                <div class="col-12">
+                                    <input type="text" class="form-control" placeholder="Navn" aria-label="Navn"
+                                        name="navn" required>
+                                </div>
+                                <input type="hidden" name="henvendelse" value="Jeg vil gerne ringes op">
+                                <div class="col-12">
+                                    <input type="text" class="form-control" placeholder="Tlf. nr."
+                                        aria-label="telefonnummer" name="tlf. nr." required>
+                                </div>
+                                <div class="col-12">
+                                    <button
+                                        class="btn text-white btn-dark-sienna w-100 my-0 fw-bold text-uppercase rounded-0">Ring
+                                        mig
+                                        op</button>
+                                </div>
+                            </div>
+                        </form>
+                        <!--                     <div id="mes-coffee-index" class="text-white mt-3 bg-xanadu p-2 d-none">
+                            <h4>Tak for din henvendelse</h4>
+                            <p>Du vil hurtigst som muligt blive ringet op af en af vores konsulenter.</p>
+                        </div>
+                        <div id="error-coffee-index" class="text-white mt-3 bg-xanadu p-2 d-none">
+    
+                            <p>Husk at udfylde alle felter</p>
+                        </div> -->
+                    </div>
+                </div>
+
+            </div>
         </div>
- 
+
+
     </div>
 </div>
-<div class="bg-black-coral">
-    <div class="container-fluid small-container py-5">
+
+<div class="bg-black-coral pt-3">
+
+    <div class="container-fluid py-5">
+
+
+        {% for con in orderedcoaching %}
+        {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+        <div class="row {% if thecycle == 'odd' %} flex-row-reverse{% endif %} g-lg-0 g-5">
+            <div class="col-lg-6 col-12">
+                <div class="h-100"
+                    style="background-image: url('{{ con.image }}'); background-position: center; background-size: cover;">
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-12">
+                <div class="p-5 bg-white">
+                    <h4 class="text-uppercase fw-bold mb-4">{{ con.title }}</h4>
+                    {{ con.content | markdownify | hilightify }}
+                </div>
+
+
+            </div>
+
+
+        </div>
+        {% endfor %}
+
+
+    </div>
+
+    <!--     <div class="container-fluid py-5">
         <div class="row gy-5">
             {% for coaching in orderedcoaching %}
             {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
             <div class="col-12">
-                
+
                 <div class="row position-relative {% if thecycle == 'odd' %}flex-row-reverse{% endif %}">
                     <div class="col-6">
                         <div class="d-hidden py-5 my-5">
-                            <h3>{{ coaching.title }}</h3><h3>{{ coaching.title }}</h3>
+                            <h3>{{ coaching.title }}</h3>
+                            <h3>{{ coaching.title }}</h3>
                             {{ coaching.content }}
                         </div>
-                       
+
                         <div class="kons p-5 bg-white {% if thecycle == 'odd' %}end-0{% else %}start-0{% endif %}">
                             <h4>{{ coaching.title }}</h4>
                             {{ coaching.content | markdownify | hilightify }}
-                            
+
                         </div>
-                        
+
                     </div>
-                    <div class="col-6" style="background-image: url('{{ coaching.image }}'); background-position: center; background-size: cover;">
-                
+                    <div class="col-6"
+                        style="background-image: url('{{ coaching.image }}'); background-position: center; background-size: cover;">
+
                     </div>
-                    
+
                 </div>
-                
-                
-                
+
+
+
             </div>
             {% endfor %}
         </div>
-    
+
+    </div> -->
+</div>
+
+<div class="bg-platinum">
+    <div class="container-fluid py-5">
+        <div class="row">
+            <div class="col-6">
+                <h3 class="fw-bold">Er du interesseret i vores konsulentydelser?
+                </h3>
+                <h5>Ring til Andreas på <u><a href="tel:40 14 92 92">40 14 92 92</a></u></h5>
+            </div>
+            <div class="col-6">
+                {% for employee in site.employees %}
+                {% if employee.title == "Andreas Bering" %}
+                <div class="d-flex align-items-center rounded-0 p-3">
+                    <div>
+
+                        
+
+                        <div class="d-flex">
+                            <div class="d-flex align-items-center">
+                                
+                                <div class="flex-grow-1 ms-3">
+
+
+                                        <p class="mb-0 text-align-end"><b><a href="{{ employee.url }}"
+                                            data-proofer-ignore>{{
+                                            employee.title }}</a></b><br>
+
+                                    
+                                    <a href="mailto:{{ employee.email }}" data-proofer-ignore>{{
+                                        employee.email
+                                        }}</a>
+                                </p>
+                                </div>
+                                <div class="flex-shrink-0">
+                                    <img class="small-image rounded-circle"
+                                        src="{{ employee.small-portrait-image }}"
+                                        alt="{{ employee.title }}, {{ employee.description}}">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% endif %}
+                {% endfor %}
+            </div>
+        </div>
     </div>
 </div>
 
-{% include sections/coffee.html %}
+<div class="container-fluid py-5">
+    <div class="row">
+        <div class="col-12">
+            <h5 class="text-uppercase text-center mb-5">
+                Se vores uddannelser og kurser
+            </h5>
+            <div class="row g-5">
+                {% for ud in site.educations limit: 3 %}
+                <div class="col-lg-4 col-md-6 col-12">
+
+                    <a href="{{ ud.url }}">
+                        <div class="bg-white zoom">
+                            <div class="h-150px mb-3">
+                                <img src="{{ ud.image }}" alt="Uddannelser på Copenhagen Coching Center"
+                                    class="object-fit">
+                            </div>
+
+                            <h5>{{ ud.title }}</h5>
+                            <p class="mb-0">{{ ud.description }}</p>
+                            <p class="text-decoration-underline fw-bold text-black-coral fs-6 mt-4 mb-0">Læs mere</p>
+
+                        </div>
+                    </a>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-5 gx-5">
+        <div class="col-12 col-lg-6">
+
+
+            <div class="bg-platinum p-5">
+                <h5 class="text-uppercase">Nyhedsbrev</h5>
+                <p><b>Skriv dig op til vores nyhedsbrevet og bliv opdateret med vores seneste
+                        nyheder og artikler</b></p>
+                <form id="newsletter-form-2" action="https://formspree.io/f/xlezwlkg" method="POST">
+                    <div class="row mt-3 g-3" id="ns-inner-form">
+                        <div class="col-12 col-md-12">
+                            <input type="text" class="form-control" placeholder="Navn" aria-label="Navn" name="name"
+                                required>
+                        </div>
+
+                        <div class="col-12 col-md-12">
+                            <input type="text" class="form-control" placeholder="E-mail" aria-label="Email" name="email"
+                                required>
+                        </div>
+
+                        <div class="col-12 d-flex pt-2">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input mt-1" type="checkbox" name="_optin" id="gridCheck"
+                                    required>
+                                <label class="form-check-label" for="gridCheck">
+                                    <small>
+                                        Jeg accepterer, at Copenhagen Coaching Center må sende mig
+                                        nyhedsbrev og arkivere
+                                        mine oplysninger til dette formål.</small>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-12">
+                            <div class="g-recaptcha" data-sitekey="6Lfi__EcAAAAABOscNdrKzqeLNu2vbuTM_5VlANy"></div>
+                            <!-- replace with your recaptcha SITE key not secret key -->
+
+                        </div>
+
+
+                        <div class="col-12">
+                            <button
+                                class="btn text-white btn-dark-sienna my-0 mt-0 d-inline-block w-100 fw-bold text-uppercase rounded-0">Tilmeld</button>
+                        </div>
+
+
+
+                    </div>
+                    <p id="newsletter-mes" class="mt-3 bg-xanadu p-2 d-none text-center"></p>
+                </form>
+            </div>
+
+
+        </div>
+
+        <div class="col-12 col-lg-6">
+            <h5 class="text-uppercase text-center mb-5">
+                Læs vores nyeste indlæg
+            </h5>
+            <div class="row g-5">
+                {% for ud in site.posts limit: 1 %}
+                <div class="col-12">
+
+                    <a href="{{ ud.url }}">
+                        <div class="bg-white">
+                            <div class="h-150px mb-3">
+                                <img src="{{ ud.image }}" alt="Uddannelser på Copenhagen Coching Center"
+                                    class="object-fit">
+                            </div>
+
+                            <h5>{{ ud.title }}</h5>
+                            <p class="mb-0">{{ ud.description }}</p>
+                            <p class="text-decoration-underline fw-bold text-black-coral fs-6 mt-4 mb-0">Læs mere</p>
+
+                        </div>
+                    </a>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+
+
+<script>
+    var form = document.getElementById("newsletter-form-2");
+    var inner_form = document.getElementById("ns-inner-form");
+
+    async function handleSubmit(event) {
+        event.preventDefault();
+        var status = document.getElementById("newsletter-mes");
+        var data = new FormData(event.target);
+        fetch(event.target.action, {
+            method: form.method,
+            body: data,
+            headers: {
+                'Accept': 'application/json'
+            }
+        }).then(response => {
+            if (response.ok) {
+                status.innerHTML = "Tak for din tilmelding til vores nyhedsbrev. Du vil snarrest modtage en e-mail med link til bekræftelse af din tilmelding.";
+                inner_form.className = "d-none"
+                status.classList.remove("d-none")
+                status.classList.add("text-white")
+                form.reset()
+            } else {
+                response.json().then(data => {
+                    if (Object.hasOwn(data, 'errors')) {
+                        status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+                    } else {
+                        status.innerHTML = "Oops! There was a problem submitting your form"
+                    }
+                })
+            }
+        }).catch(error => {
+            status.innerHTML = "Oops! There was a problem submitting your form"
+        });
+    }
+    form.addEventListener("submit", handleSubmit)
+</script>
