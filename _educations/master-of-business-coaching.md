@@ -12,7 +12,7 @@ meta-title: MBC - Business Coaching uddannelse - Master i Business Coaching
 meta-description: Ønsker du at blive dygtig til at føre produktive og virkningsfulde dialoger? Bliv Master i Business Coaching på 2 år. Læs mere om vores business coach uddannelse her.
 video-thumb: /videos/gitte-web.mp4
 video-thumb-text: Hør i videoen hvad tidligere studerende Gitte Overgaard siger om uddannelsen
-small-price: 45.900,- ekskl. moms pr. semester
+small-price: 47.500,- ekskl. moms pr. semester
 adgangskrav: "Adgang til uddannelsen er betinget
 af at ansøgeren har bestået mindst
 en videregående uddannelse
@@ -35,13 +35,13 @@ contact-person: Frederikke Winther
 header: Master of Business Coaching
 description: Ønsker du at blive dygtig til at føre produktive og virkningsfulde dialoger? At kunne flytte både grupper og individer i en mere konstruktiv retning og derved forebygge stress, organisatorisk stagnation og udbrændthed? Så vælg uddannelsen MBC (Master of Business Coaching).
 price: "Prisen for hele uddannelsen er
-183.000,- kr. ekskl. moms.<br><br>Betalingen inkluderer:
+190.000,- kr. ekskl. moms.<br><br>Betalingen inkluderer:
 Undervisning, supervision,
 undervisningsmateriale og
 forplejning på de enkelte
 kursusdage.<br><br>Beløbet opkræves forud for
 semesterstart over fire gange.
-45.900 ekskl. moms pr. semester."
+47.500 ekskl. moms pr. semester."
 opbygning: true
 opbygning-text:
 - overskrift: Hvordan er uddannelsen bygget op?
@@ -127,7 +127,7 @@ nested-hold:
 - aar: Forår 2023
   hold:
   - title: Semester 1 - Forår 2023
-    price: 45.900 (Ekskl. moms)
+    price: 47.500 (Ekskl. moms)
     dates: 25. januar - 1. juni
     modules:
     - date: 25. Januar
@@ -191,7 +191,7 @@ nested-hold:
       name: Eksamen
       place: Blegdamsvej
   - title: Semester 2 - Forår 2023
-    price: 45.900 (Ekskl. moms)
+    price: 47.500 (Ekskl. moms)
     dates: 7. februar - 15. juni
     modules:
     - date: 7. februar
@@ -245,7 +245,7 @@ nested-hold:
       name: Eksamen
       place: Blegdamsvej
   - title: Semester 3 - Forår 2023
-    price: 45.900 (Ekskl. moms)
+    price: 47.500 (Ekskl. moms)
     dates: 16. marts - 21. juni
     modules:
     - date: 27. februar
@@ -284,7 +284,7 @@ nested-hold:
       name: Eksamen
       place: Blegdamsvej
   - title: Semester 4 - Forår 2023
-    price: 45.900 (Ekskl. moms)
+    price: 47.500 (Ekskl. moms)
     dates: 12. januar - 16. maj
     modules:
     - date: 12. januar
@@ -335,7 +335,7 @@ nested-hold:
 - aar: Efterår 2023
   hold:
   - title: Semester 1 - Efterår 2023
-    price: 45.900 (Ekskl. moms)
+    price: 47.500 (Ekskl. moms)
     dates: 4. september - 11. november
     modules:
     - date: 4. september
@@ -394,7 +394,7 @@ nested-hold:
       name: Eksamen
       place: Blegdamsvej
   - title: Semester 2 - Efterår 2023
-    price: 45.900 (Ekskl. moms)
+    price: 47.500 (Ekskl. moms)
     dates: 21. august - 6. december
     modules:
     - date: 21. august
@@ -453,7 +453,7 @@ nested-hold:
       name: Eksamen
       place: Blegdamsvej
   - title: Semester 3 - Efterår 2023
-    price: 45.900 (Ekskl. moms)
+    price: 47.500 (Ekskl. moms)
     dates: 24. august - 22. november
     modules:
     - date: 24. august
@@ -487,7 +487,7 @@ nested-hold:
       name: Eksamen
       place: Blegdamsvej
   - title: Semester 4 - Efterår 2023
-    price: 45.900 (Ekskl. moms)
+    price: 47.500 (Ekskl. moms)
     dates: 17. august - 7. december
     modules:
     - date: 17. august

@@ -6,7 +6,7 @@ kategori: samtaler
 special: false
 meta-title: Psykoterapeut uddannelse - Bliv uddannet til psykoterapeut hos CCC
 meta-description: Få et dybere, højere og bredere beredskab med vores psykoterapeut uddannelse, der klæder dig på til at varetage de svære samtaler - psykologisk og filosofisk. Læs mere her.
-aktive-hold: true
+aktive-hold: false
 kursus-oversigt: false
 hold:
 - title: Hold 2 - År 1 - Start sommer 2023

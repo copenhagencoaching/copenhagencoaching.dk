@@ -78,21 +78,42 @@ layout: default
 
 <div class="bg-black-coral pt-3">
 
-    <div class="container-fluid py-5">
+    <div class="container-fluid pt-5 pb-5">
 
 
         {% for con in orderedcoaching %}
         {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-        <div class="row {% if thecycle == 'odd' %} flex-row-reverse{% endif %} g-lg-0 g-5">
-            <div class="col-lg-6 col-12">
-                <div class="h-100"
-                    style="background-image: url('{{ con.image }}'); background-position: center; background-size: cover;">
-                </div>
+        <div class="d-lg-none row mb-5">
+
+            <div class="col-12">
+                <img src="{{ con.image }}" class="object-fit" alt="">
             </div>
 
             <div class="col-lg-6 col-12">
                 <div class="p-5 bg-white">
                     <h4 class="text-uppercase fw-bold mb-4">{{ con.title }}</h4>
+                    {{ con.content | markdownify | hilightify }}
+                </div>
+
+
+            </div>
+
+
+        </div>
+        
+       
+        <div class="row d-lg-flex d-none {% if thecycle == 'odd' %} flex-row-reverse{% endif %} g-0">
+
+           
+            <div class="col-6">
+                <div class="h-100"
+                    style="background-image: url('{{ con.image }}'); background-position: center; background-size: cover;">
+                </div>
+            </div>
+
+            <div class="col-6">
+                <div class="p-5 bg-white">
+                    <h4 class="text-uppercase fw-bold">{{ con.title }}</h4>
                     {{ con.content | markdownify | hilightify }}
                 </div>
 
@@ -146,15 +167,15 @@ layout: default
 <div class="bg-platinum">
     <div class="container-fluid py-5">
         <div class="row">
-            <div class="col-6">
-                <h3 class="fw-bold">Er du interesseret i vores konsulentydelser?
-                </h3>
-                <h5>Ring til Andreas på <u><a href="tel:40 14 92 92">40 14 92 92</a></u></h5>
+            <div class="col-12 col-md-6">
+                <h4 class="fw-bold text-uppercase">Er du interesseret i vores konsulentydelser?
+                </h4><br>
+                <p class="fw-bold fs-6 p-3 text-white bg-dark-sienna d-inline-block">Ring til Andreas Bering på <u><a href="tel:+45 40 14 92 92">+45 40 14 92 92</a></u></p>
             </div>
-            <div class="col-6">
+            <div class="col-12 col-md-6 d-flex justify-content-end align-content-center">
                 {% for employee in site.employees %}
                 {% if employee.title == "Andreas Bering" %}
-                <div class="d-flex align-items-center rounded-0 p-3">
+                <div class="d-flex justify-content-end align-items-center rounded-0">
                     <div>
 
                         
@@ -162,15 +183,18 @@ layout: default
                         <div class="d-flex">
                             <div class="d-flex align-items-center">
                                 
-                                <div class="flex-grow-1 ms-3">
+                                <div class="flex-grow-1 justify-items-end me-3">
 
 
-                                        <p class="mb-0 text-align-end"><b><a href="{{ employee.url }}"
+                                        <p class="mb-0 text-end fs-6"><b><a href="{{ employee.url }}"
                                             data-proofer-ignore>{{
                                             employee.title }}</a></b><br>
+                                            <p class="mb-0 text-end fw-light"><b><a href="{{ employee.url }}"
+                                                data-proofer-ignore>{{
+                                                employee.description }}</a></b><br>
 
                                     
-                                    <a href="mailto:{{ employee.email }}" data-proofer-ignore>{{
+                                    <a class="text-end fs-6" href="mailto:{{ employee.email }}" data-proofer-ignore>{{
                                         employee.email
                                         }}</a>
                                 </p>
@@ -275,7 +299,7 @@ layout: default
 
         </div>
 
-        <div class="col-12 col-lg-6">
+        <div class="col-12 col-lg-6 pt-5 pt-lg-0">
             <h5 class="text-uppercase text-center mb-5">
                 Læs vores nyeste indlæg
             </h5>
@@ -342,4 +366,37 @@ layout: default
         });
     }
     form.addEventListener("submit", handleSubmit)
+</script>
+
+<script>
+    var form_coffee_index = document.getElementById("coffee-index");
+
+    async function handleSubmit(event) {
+        event.preventDefault();
+        var status_coffee_index = document.getElementById("mes-coffee-index");
+        var error_coffee_index = document.getElementById("error-coffee-index")
+        var data = new FormData(event.target);
+        fetch(event.target.action, {
+            method: form_coffee_index.method,
+            body: data,
+            headers: {
+                'Accept': 'application/json'
+            }
+        }).then(response => {
+            if (!response.ok) {
+                error_coffee_index.className = "d-block"
+                return;
+            } else {
+                status_coffee_index.className = "py-3 text-center"
+                form_coffee_index.className = "d-none"
+                error_coffee_index.className = "d-none"
+                gtag('event', 'form submission', { 'event_category': 'ring mig op', 'event_label': 'ring mig op - forside' })
+                form_coffee_index.reset()
+
+            }
+        }).catch(error => {
+            status_coffee_index.innerHTML = "Oops! There was a problem submitting your form"
+        });
+    }
+    form_coffee_index.addEventListener("submit", handleSubmit)
 </script>

@@ -9,6 +9,7 @@ call: 23 64 67 20
 meta-title: Camilla Dindler - Mød medarbejderne hos CCC her
 email: cd@copenhagencoaching.dk
 consulent: true
+published: false
 on-om-os: true
 mbc: true
 description: Seniorkonsulent

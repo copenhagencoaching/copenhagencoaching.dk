@@ -24,4 +24,4 @@ Vores konsulenter har hver sin unikke faglige profil og baggrund og vil hellere 
 - Lynkursus i værdier (Andreas Bering)
 
 
-Læs vores profiler for mere inspiration.
+[Læs vores profiler for mere inspiration.](/om-os/)

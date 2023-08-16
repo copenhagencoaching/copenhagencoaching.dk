@@ -7,6 +7,9 @@ image: /images/consulting/consulting-banner.jpg
 header: Eksperter i ledelse og coaching
 header-link: Mød teamet ⟶
 header-link-url: '#team'
+permalink: /om-os/
+redirect_from:
+  - /about/
 hader-crumbs: true
 description: >-
   Vores team består af eksperter sammensat af profiler med omfattende
