@@ -8,6 +8,12 @@ order: '4'
 header: Consulting
 header-link: Se hvad vi tilbyder ⟶
 header-link-url: '#content-section'
+redirect_from:
+  - /consultations/konsulentudvikling/
+  - /consultations/ledelsesudvikling/
+  - /consultations/organisationsudvikling/
+  - /consultations/medarbejderudvikling/
+  - /consultations/
 breadcrumb: true
 color-box: #636e72
 permalink: /konsulentydelser
