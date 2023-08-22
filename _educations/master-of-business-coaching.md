@@ -476,7 +476,7 @@ nested-hold:
       time: 09:30 - 20:00
       name: Opsamling, syntese og eksamenstræning + Træningsaften
       place: Blegdamsvej
-    - date: 27. november
+    - date: 14. november
       day: '-'
       time: 17:00 - 20:00
       name: Træningsaften
