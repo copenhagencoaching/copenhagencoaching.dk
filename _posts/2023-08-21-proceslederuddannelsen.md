@@ -11,7 +11,6 @@ category: event
 tags:
   - event
   - infomøde
-  - act_event
 layout: event-new
 only-month: false
 price: Gratis

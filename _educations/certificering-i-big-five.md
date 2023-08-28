@@ -64,7 +64,7 @@ hold:
   price: 19.500 ekskl. moms
   dates: 19. sep - 27. okt 2023
   modules:
-  - date: 9. september
+  - date: 19. september
     day: "1"
     time: 13:00 - 15:00
     name: Tjek ind
