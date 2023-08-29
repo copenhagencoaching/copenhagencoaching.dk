@@ -16,7 +16,7 @@ redirect_from:
   - /consultations/
 breadcrumb: true
 color-box: #636e72
-permalink: /konsulentydelser
+permalink: /konsulentydelser/
 description: Vores kunder sætter pris på specialiserede og fagligt opdaterede konsulenter, som har praktisk erfaring med ledelse og det coachende lederskab. Hos os møder man en tredjepart, som ikke er en del af organisationen og netop derfor er de friske øjne og den upartiske støtte, der hjælper med at sætte retning og omsætte visioner til praksis.
 ---
 
