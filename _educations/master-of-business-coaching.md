@@ -124,214 +124,6 @@ profil:
   - Cras dapibus.. Nulla consequat massa quis enim. Nunc sed turpis. Quisque libero metus, condimentum nec, tempor a, commodo mollis, magna.Praesent adipiscing. Sed a libero. Cras dapibus.. Nulla consequat massa quis enim. Nunc sed turpis. Quisque libero metus, condimentum nec, tempor a, commodo mollis, magna.
 kursus-oversigt: true
 nested-hold:
-- aar: Forår 2023
-  hold:
-  - title: Semester 1 - Forår 2023
-    price: 47.500 (Ekskl. moms)
-    dates: 25. januar - 1. juni
-    modules:
-    - date: 25. Januar
-      day: 1
-      time: 09:30 - 16:00
-      name: Coaching og syntesemodellen
-      place: Blegdamsvej
-    - date: 26. Januar
-      day: 2
-      time: 09:30 - 16:00
-      name: Kognitiv 1
-      place: Blegdamsvej
-    - date: 7. februar
-      day: "-"
-      time: 17:00 - 20:00
-      name: Træningsaften
-      place: Blegdamsvej
-    - date: 20. februar
-      day: 3
-      time: 09:30 - 16:00
-      name: Psyko-dynamisk 1
-      place: Blegdamsvej
-    - date: 21. februar
-      day: 4
-      time: 09:30 - 16:00
-      name: Systemisk-narrativ 1
-      place: Blegdamsvej
-    - date: 6. marts
-      day: "-"
-      time: 17:00 - 20:00
-      name: Træningsaften
-      place: Blegdamsvej
-    - date: 28. marts
-      day: 5
-      time: 09:30 - 20:00
-      name: Kognitiv 2 + Træmingsaften
-      place: Blegdamsvej
-    - date: 29. marts
-      day: 6
-      time: 09:30 - 16:00
-      name: Psyko-dynamisk  2
-      place: Blegdamsvej
-    - date: 26. april
-      day: 7
-      time: 09:30 - 20:00
-      name: Systemisk-narrativ 2 + Træmingsaften
-      place: Blegdamsvej
-    - date: 27. april
-      day: 8
-      time: 09:30 - 16:00
-      name: Syntese
-      place: Blegdamsvej
-    - date: 30. maj
-      day: '-'
-      time: 09:30 - 16:00
-      name: Eksamen
-      place: Blegdamsvej
-    - date: 31. maj
-      day: '-'
-      time: 09:30 - 16:00
-      name: Eksamen
-      place: Blegdamsvej
-  - title: Semester 2 - Forår 2023
-    price: 47.500 (Ekskl. moms)
-    dates: 7. februar - 15. juni
-    modules:
-    - date: 7. februar
-      day: 1
-      time: 09:30 - 20:00
-      name: Kognitiv 3 + Træningsaften
-      place: Blegdamsvej
-    - date: 8. februar
-      day: 2
-      time: 09:30 - 16:00
-      name: Psykodynamisk 3
-      place: Blegdamsvej
-    - date: 6. marts
-      day: 3
-      time: 09:30 - 20:00
-      name: Systemisk 3 + Træningsaften
-      place: Blegdamsvej
-    - date: 7. marts
-      day: 4
-      time: 09:30 - 16:00
-      name: Kognitiv 4 og psykodynamisk 4
-      place: Blegdamsvej
-    - date: 28. marts
-      day: "-"
-      time: 17:00 - 20:00
-      name: Træningsaften
-      place: Blegdamsvej
-    - date: 19. - 20. april
-      day: 5-6
-      time: 09:30 - 16:00
-      name: Teamcoaching
-      place: Blegdamsvej
-    - date: 26. april
-      day: "-"
-      time: 17:00 - 20:00
-      name: Træningsaften
-      place: Blegdamsvej
-    - date: 8. maj
-      day: 7
-      time: 09:30 - 16:00
-      name: Tredje generations coaching
-      place: Blegdamsvej
-    - date: 9. maj
-      day: 8
-      time: 09:30 - 16:00
-      name: Syntese og træning
-      place: Blegdamsvej
-    - date: 13. - 15. juni
-      day: '-'
-      time: 09:30 - 16:00
-      name: Eksamen
-      place: Blegdamsvej
-  - title: Semester 3 - Forår 2023
-    price: 47.500 (Ekskl. moms)
-    dates: 16. marts - 21. juni
-    modules:
-    - date: 27. februar
-      day: '-'
-      time: 17:00 - 20:00
-      name: Træningsaften
-      place: Blegdamsvej
-    - date: 21. marts
-      day: '-'
-      time: 17:00 - 20:00
-      name: Træningsaften
-      place: Blegdamsvej
-    - date: 16. marts
-      day: 1
-      time: 09:30 - 16:00
-      name: Introduktion til Protreptik
-      place: Blegdamsvej
-    - date: 21. - 28. maj
-      day: 2-7
-      time: Varierende tider
-      name: Protreptik
-      place: Lesbos, Grækenland
-    - date: 6. juni
-      day: 8
-      time: 09:30 - 20:00
-      name: Opsamling, syntese og eksamenstræning + Træningsaften
-      place: Blegdamsvej
-    - date: 15. juni
-      day: '-'
-      time: 17:00 - 20:00
-      name: Træningsaften
-      place: Blegdamsvej
-    - date: 19. - 20. juni
-      day: "-"
-      time: 09:30 - 16:00
-      name: Eksamen
-      place: Blegdamsvej
-  - title: Semester 4 - Forår 2023
-    price: 47.500 (Ekskl. moms)
-    dates: 12. januar - 16. maj
-    modules:
-    - date: 12. januar
-      time: 09:30 - 16:00
-      day: 1
-      name: Introduktion til nye coachingformer
-      place: Blegdamsvej
-    - date: 27. februar
-      time: 09:30 - 20:00
-      day: 2
-      name: Kognitionsfilosofi + Træningsaften
-      place: Blegdamsvej
-    - date: 28. februar
-      time: 09:30 - 16:00
-      day: 3
-      name: Kropsfilosofi
-      place: Blegdamsvej
-    - date: 21. marts
-      time: 09:30 - 20:00
-      day: 4
-      name: Eksistensfilosofi + Træningsaften
-      place: Blegdamsvej
-    - date: 22. marts
-      time: 09:30 - 16:00
-      day: 5
-      name: Dialogfilosofi
-      place: Blegdamsvej
-    - date: 24. april
-      time: 09:30 - 20:00
-      day: 6
-      name: Differensfilosofi + Træningsaften
-      place: Blegdamsvej
-    - date: 25. april
-      time: 09:30 - 16:00
-      day: 7
-      name: Eksperimentel pragmatik
-      place: Blegdamsvej
-    - date: 16. maj
-      time: 09:30 - 16:00
-      day: 8
-      name: Syntese
-      place: Blegdamsvej
-    - date: 6. juni
-      day: '-'
-      time: 17:00 - 20:00
-      name: Træningsaften
-      place: Blegdamsvej
 - aar: Efterår 2023
   hold:
   - title: Semester 1 - Efterår 2023
@@ -536,6 +328,164 @@ nested-hold:
       name: Eksperimentel pragmatik
       place: Blegdamsvej
     - date: 7. devember
+      time: 09:30 - 16:00
+      day: 8
+      name: Syntese
+      place: Blegdamsvej
+- aar: Forår 2024
+  hold:
+  - title: Semester 1 - Forår 2024
+    price: 47.500 (Ekskl. moms)
+    dates: 23. januar - 12. juni
+    modules:
+    - date: 23. Januar
+      day: 1
+      time: 09:30 - 16:00
+      name: Coaching og syntesemodellen
+      place: Blegdamsvej
+    - date: 24. Januar
+      day: 2
+      time: 09:30 - 16:00
+      name: Kognitiv 1
+      place: Blegdamsvej
+    - date: 21. februar
+      day: 3
+      time: 09:30 - 16:00
+      name: Psyko-dynamisk 1
+      place: Blegdamsvej
+    - date: 22. februar
+      day: 4
+      time: 09:30 - 16:00
+      name: Systemisk-narrativ 1
+      place: Blegdamsvej
+    - date: 19. marts
+      day: 5
+      time: 09:30 - 20:00
+      name: Kognitiv 2
+      place: Blegdamsvej
+    - date: 20. marts
+      day: 6
+      time: 09:30 - 16:00
+      name: Psyko-dynamisk  2
+      place: Blegdamsvej
+    - date: 24. april
+      day: 7
+      time: 09:30 - 20:00
+      name: Systemisk-narrativ 2
+      place: Blegdamsvej
+    - date: 25. april
+      day: 8
+      time: 09:30 - 16:00
+      name: Syntese
+      place: Blegdamsvej
+    - date: 10., 11. og 12. juni
+      day: '-'
+      time: 09:30 - 16:00
+      name: Eksamen
+      place: Blegdamsvej
+  - title: Semester 2 - Forår 2024
+    price: 47.500 (Ekskl. moms)
+    dates: 17. januar - 8. maj
+    modules:
+    - date: 17. januar
+      day: 1
+      time: 09:30 - 20:00
+      name: Kognitiv 3
+      place: Blegdamsvej
+    - date: 18. januar
+      day: 2
+      time: 09:30 - 16:00
+      name: Psykodynamisk 3
+      place: Blegdamsvej
+    - date: 5. februar
+      day: 3
+      time: 09:30 - 20:00
+      name: Systemisk 3 + Træningsaften
+      place: Blegdamsvej
+    - date: 6. februar
+      day: 4
+      time: 09:30 - 16:00
+      name: Kognitiv 4 og psykodynamisk 4
+      place: Blegdamsvej
+    - date: 5. - 6. marts
+      day: 5-6
+      time: 09:30 - 16:00
+      name: Teamcoaching
+      place: Blegdamsvej
+    - date: 10. april
+      day: 7
+      time: 09:30 - 16:00
+      name: Tredje generations coaching
+      place: Blegdamsvej
+    - date: 11. april
+      day: 8
+      time: 09:30 - 16:00
+      name: Syntese og træning
+      place: Blegdamsvej
+    - date: 6. - 8. maj
+      day: '-'
+      time: 09:30 - 16:00
+      name: Eksamen
+      place: Blegdamsvej
+  - title: Semester 3 - Forår 2024
+    price: 47.500 (Ekskl. moms)
+    dates: 4. april - 18. juni
+    modules:
+    - date: 4. april
+      day: 1
+      time: 09:30 - 16:00
+      name: Introduktion til Protreptik
+      place: Blegdamsvej
+    - date: 26. maj - 2. juni
+      day: 2-7
+      time: Varierende tider
+      name: Protreptik
+      place: Lesbos, Grækenland
+    - date: 18. juni
+      day: "-"
+      time: 09:30 - 16:00
+      name: Eksamen
+      place: Blegdamsvej
+  - title: Semester 4 - Forår 2024
+    price: 47.500 (Ekskl. moms)
+    dates: 31. januar - 15.  maj
+    modules:
+    - date: 31. januar
+      time: 09:30 - 16:00
+      day: 1
+      name: Introduktion til nye coachingformer
+      place: Blegdamsvej
+    - date: 26. februar
+      time: 09:30 - 20:00
+      day: 2
+      name: Kognitionsfilosofi
+      place: Blegdamsvej
+    - date: 27. februar
+      time: 09:30 - 16:00
+      day: 3
+      name: Kropsfilosofi
+      place: Blegdamsvej
+    - date: 13. marts
+      time: 09:30 - 20:00
+      day: 4
+      name: Eksistensfilosofi
+      place: Blegdamsvej
+    - date: 14. marts
+      time: 09:30 - 16:00
+      day: 5
+      name: Dialogfilosofi
+      place: Blegdamsvej
+    - date: 29. april
+      time: 09:30 - 20:00
+      day: 6
+      name: Differensfilosofi
+      place: Blegdamsvej
+    - date: 30. april
+      time: 09:30 - 16:00
+      day: 7
+      name: Eksperimentel pragmatik
+      place: Blegdamsvej
+    - date: 15. maj
       time: 09:30 - 16:00
       day: 8
       name: Syntese
