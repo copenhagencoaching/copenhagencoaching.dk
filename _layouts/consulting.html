@@ -21,7 +21,96 @@ layout: default
 
 </div>
 
-<div class="bg-platinum">
+<!-- For small mobile -->
+
+<div class="container-fluid d-md-none py-5">
+
+    {{ page.content }}
+    <div class="mb-4"></div>
+    <hr>
+
+    <h3 class="mb-2 text-uppercase mt-4">Skal vi tales ved?</h3>
+    <p>Har du spørgsmål eller brug for hjælp til at vælge den rette konsulentydelse?
+        Indtast navn og
+        telefonnummer
+        og en
+        af vores konsulenter ringer dig op inden for 24 timer</p>
+    <form id="coffee-index" class="mt-2" action="https://formspree.io/f/xyyoddyz" method="POST">
+        <div class="row mt-3 gy-4" id="coffee">
+            <div class="col-12">
+                <input type="text" class="form-control" placeholder="Navn" aria-label="Navn" name="navn" required>
+            </div>
+            <input type="hidden" name="henvendelse" value="Jeg vil gerne ringes op">
+            <div class="col-12">
+                <input type="text" class="form-control" placeholder="Tlf. nr." aria-label="telefonnummer"
+                    name="tlf. nr." required>
+            </div>
+            <div class="col-12">
+                <button class="btn text-white btn-dark-sienna w-100 my-0 fw-bold text-uppercase rounded-0">Ring
+                    mig
+                    op</button>
+            </div>
+        </div>
+    </form>
+
+</div>
+
+<div class="bg-black-coral d-md-none">
+
+    <div class="container-fluid py-5">
+
+
+        {% for con in orderedcoaching %}
+        {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+        <div class="d-lg-none row mb-5 gy-3">
+
+            <div class="col-12">
+                <img src="{{ con.image }}" class="object-fit" alt="">
+            </div>
+
+            <div class="col-lg-6 col-12">
+
+                <h4 class="text-uppercase fw-bold mb-2 text-white">{{ con.title }}</h4>
+                <span class="text-white">{{ con.content | markdownify | hilightify }}</span>
+
+
+
+            </div>
+
+
+        </div>
+
+
+        <div class="row d-lg-flex d-none {% if thecycle == 'odd' %} flex-row-reverse{% endif %} g-0">
+
+
+            <div class="col-6">
+                <div class="h-100"
+                    style="background-image: url('{{ con.image }}'); background-position: center; background-size: cover;">
+                </div>
+            </div>
+
+            <div class="col-6">
+
+                <h4 class="text-uppercase fw-bold text-white mb-2">{{ con.title }}</h4>
+                <span class="text-white">{{ con.content | markdownify | hilightify }}</span>
+
+
+
+            </div>
+
+
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+<!-- Small mobile end -->
+
+<!-- Big screen -->
+
+
+<div class="bg-platinum d-none d-md-block">
     <div class="container-fluid py-5">
         <div class="row gx-5 gy-5">
             <div class="col-lg-7 col-12">
@@ -76,7 +165,7 @@ layout: default
     </div>
 </div>
 
-<div class="bg-black-coral pt-3">
+<div class="bg-black-coral pt-3 d-none d-md-block">
 
     <div class="container-fluid pt-5 pb-5">
 
@@ -100,11 +189,11 @@ layout: default
 
 
         </div>
-        
-       
+
+
         <div class="row d-lg-flex d-none {% if thecycle == 'odd' %} flex-row-reverse{% endif %} g-0">
 
-           
+
             <div class="col-6">
                 <div class="h-100"
                     style="background-image: url('{{ con.image }}'); background-position: center; background-size: cover;">
@@ -165,12 +254,39 @@ layout: default
 </div>
 
 <div class="bg-platinum">
-    <div class="container-fluid py-5">
+    <div class="container-fluid py-5 d-md-none">
+        <h4 class="fw-bold text-uppercase text-center">Er du interesseret i vores konsulentydelser?
+        </h4><br>
+        <p class="fw-bold fs-6 p-3 text-white bg-dark-sienna d-block text-center me-auto ms-auto">Ring til Andreas Bering på <u><a
+                    href="tel:+45 40 14 92 92">+45 40 14 92 92</a></u></p>
+
+        {% for employee in site.employees %}
+        {% if employee.title == "Andreas Bering" %}
+
+        <img class="small-image rounded-circle text-center me-auto ms-auto d-block" src="{{ employee.small-portrait-image }}"
+            alt="{{ employee.title }}, {{ employee.description}}">
+
+        <p class="mb-0 text-center fs-6"><b><a href="{{ employee.url }}" data-proofer-ignore>{{
+                    employee.title }}</a></b><br>
+        <p class="mb-0 text-center fw-light"><b><a href="{{ employee.url }}" data-proofer-ignore>{{
+                    employee.description }}</a></b><br>
+
+
+            <a class="text-end fs-6" href="mailto:{{ employee.email }}" data-proofer-ignore>{{
+                employee.email
+                }}</a>
+        </p>
+
+        {% endif %}
+        {% endfor %}
+    </div>
+    <div class="container-fluid py-5 d-none d-md-block">
         <div class="row">
             <div class="col-12 col-md-6">
                 <h4 class="fw-bold text-uppercase">Er du interesseret i vores konsulentydelser?
                 </h4><br>
-                <p class="fw-bold fs-6 p-3 text-white bg-dark-sienna d-inline-block">Ring til Andreas Bering på <u><a href="tel:+45 40 14 92 92">+45 40 14 92 92</a></u></p>
+                <p class="fw-bold fs-6 p-3 text-white bg-dark-sienna d-inline-block">Ring til Andreas Bering på <u><a
+                            href="tel:+45 40 14 92 92">+45 40 14 92 92</a></u></p>
             </div>
             <div class="col-12 col-md-6 d-flex justify-content-end align-content-center">
                 {% for employee in site.employees %}
@@ -178,30 +294,29 @@ layout: default
                 <div class="d-flex justify-content-end align-items-center rounded-0">
                     <div>
 
-                        
+
 
                         <div class="d-flex">
                             <div class="d-flex align-items-center">
-                                
+
                                 <div class="flex-grow-1 justify-items-end me-3">
 
 
-                                        <p class="mb-0 text-end fs-6"><b><a href="{{ employee.url }}"
-                                            data-proofer-ignore>{{
-                                            employee.title }}</a></b><br>
-                                            <p class="mb-0 text-end fw-light"><b><a href="{{ employee.url }}"
+                                    <p class="mb-0 text-end fs-6"><b><a href="{{ employee.url }}" data-proofer-ignore>{{
+                                                employee.title }}</a></b><br>
+                                    <p class="mb-0 text-end fw-light"><b><a href="{{ employee.url }}"
                                                 data-proofer-ignore>{{
                                                 employee.description }}</a></b><br>
 
-                                    
-                                    <a class="text-end fs-6" href="mailto:{{ employee.email }}" data-proofer-ignore>{{
-                                        employee.email
-                                        }}</a>
-                                </p>
+
+                                        <a class="text-end fs-6" href="mailto:{{ employee.email }}"
+                                            data-proofer-ignore>{{
+                                            employee.email
+                                            }}</a>
+                                    </p>
                                 </div>
                                 <div class="flex-shrink-0">
-                                    <img class="small-image rounded-circle"
-                                        src="{{ employee.small-portrait-image }}"
+                                    <img class="small-image rounded-circle" src="{{ employee.small-portrait-image }}"
                                         alt="{{ employee.title }}, {{ employee.description}}">
                                 </div>
                             </div>
@@ -248,7 +363,7 @@ layout: default
         <div class="col-12 col-lg-6">
 
 
-            <div class="bg-platinum p-5">
+            <div class="bg-platinum p-md-5 p-3">
                 <h5 class="text-uppercase">Nyhedsbrev</h5>
                 <p><b>Skriv dig op til vores nyhedsbrevet og bliv opdateret med vores seneste
                         nyheder og artikler</b></p>
