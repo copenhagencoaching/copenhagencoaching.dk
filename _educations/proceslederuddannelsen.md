@@ -126,55 +126,6 @@ price: >-
   individuelle coachinger med en certificeret coach fra Copenhagen Coaching
   Center
 hold:
-  - title: Proceslederuddannelsen - Forår 2023
-    price: 27.500 ekskl. moms
-    dates: 30. marts - 2. juni
-    modules:
-      - date: 30. marts
-        day: 1
-        time: 10:00 - 22:00
-        name: '-'
-        place: København
-      - date: 31. marts
-        day: 2
-        time: 09:00 - 16:00
-        name: '-'
-        place: København
-      - date: 14. april
-        day: 3
-        time: 11:00 - 14:00
-        name: '-'
-        place: Online
-      - date: 1. maj
-        day: 4
-        time: 11:00 - 14:00
-        name: '-'
-        place: Online
-      - date: 11. maj
-        day: 5
-        time: 12:00 - 15:00
-        name: '-'
-        place: Online
-      - date: 1. juni
-        day: 6
-        time: 10:00 - 17:00
-        name: '-'
-        place: København
-      - date: 2. juni
-        day: 7
-        time: 09:00 - 16:00
-        name: Gruppedag
-        place: København
-      - date: 21. juni
-        day: 8
-        time: 09:00 - 17:00
-        name: Eksamen
-        place: København
-      - date: 22. juni
-        day: 9
-        time: 09:00 - 17:00
-        name: Eksamen
-        place: København
   - title: Proceslederuddannelsen - Efterår 2023
     price: 27.500 ekskl. moms
     dates: 5. oktober - 15. december
@@ -250,7 +201,6 @@ infomode-text: >-
   Proceslederuddannelse
 infomode-dates:
   - 6. september - 16:00 - 17:00 Proceslederuddannelsen (Online)
-  - 21. august - 16:00 - 17:00 Proceslederuddannelsen (Online)
 ---
 #### Du vil kunne mestre den sunde og veldesignede proces der giver jeres arbejde retning og mening. Du vil kunne samle organisationen og inspirere til den gode idé, eller den ekstra indsats
 {: .opacity-2}

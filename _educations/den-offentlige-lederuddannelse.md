@@ -3,7 +3,9 @@ order: 4
 title: Den offentlige lederuddannelse
 image: "/images/academy/den-offentlige-lederuddannelse.png"
 image-2: /images/inspiration/leder-tavle.png
-infomode: false
+infomode: true
+infomode-dates:
+  - 6. september - 16:00 - 17:00 Proceslederuddannelsen (Online)
 infomode-text: Kom til Informationsmøde om vores uddannelser
 contact-person: Ghita Vejlebo
 description: Er du leder, eller drømmer du om at blive det? Trænger du til at få styrket dine lederkompetencer, og samtidig få de nyeste og brugbare værktøjer til medarbejdersamtaler og til håndtering af konfliktsituationer?
@@ -77,94 +79,6 @@ lists:
   - Ledelse og Filosofi (valgmodul, 5 ECTS)
   - Specialemodul (15 ECTS)
 hold:
-- title: Proceslederuddannelsen - Forår 2023
-  price: 27.500 ekskl. moms
-  dates: 30. marts - 2. juni
-  modules:
-  - date: 30. marts
-    day: 1
-    time: "10:00 - 22:00"
-    name: "-"
-    place: København
-  - date: 31. marts
-    day: 2
-    time: "09:00 - 16:00"
-    name: "-"
-    place: København
-  - date: 14. april
-    day: 3
-    time: "11:00 - 14:00"
-    name: "-"
-    place: Online
-  - date: 1. maj
-    day: 4
-    time: "11:00 - 14:00"
-    name: "-"
-    place: Online
-  - date: 11. maj
-    day: 5
-    time: "12:00 - 15:00"
-    name: "-"
-    place: Online
-  - date: 1. juni
-    day: 6
-    time: "10:00 - 17:00"
-    name: "-"
-    place: København
-  - date: 2. juni
-    day: 7
-    time: "09:00 - 16:00"
-    name: "Gruppedag"
-    place: "København"
-  - date: 21. juni
-    day: 8
-    time: "09:00 - 17:00"
-    name: "Eksamen"
-    place: "København"
-  - date: 22. juni
-    day: 9
-    time: "09:00 - 17:00"
-    name: "Eksamen"
-    place: "København"
-- title: Det personlige lederskab og forandring - Forår 2023
-  price: 27.500 ekskl. moms
-  dates: 22. maj - 30. august
-  modules:
-  - date: 22. maj
-    day: 1
-    time: "-"
-    name: "Internat"
-    place: København
-  - date: 23. maj
-    day: 2
-    time: "-"
-    name: "Internat"
-    place: København
-  - date: 7. juni
-    day: 3
-    time: "09:00 - 12:00"
-    name: "-"
-    place: Online
-  - date: 16. juni
-    day: 4
-    time: "09:00 - 12:00"
-    name: "-"
-    place: "Online"
-  - date: 23. juni
-    day: 5
-    time: "-"
-    name: 
-    place: "København"
-  - date: 26. juni
-    day: 6
-    time: "-"
-    name:
-    place: "København"
-  - date: 30. august
-    day: 7
-    time: "-"
-    name: "Eksamen"
-    place: "København"
 - title: Proceslederuddannelsen - Efterår 2023
   price: 27.500 ekskl. moms
   dates: 5. oktober - 15. december
