@@ -20,7 +20,7 @@ permalink: /tilmeld/
                 class="mx-auto special-form p-4 p-md-0" method="POST" id="semester-form">
 
                 <div class="row">
-                    <div class="col-md-6 col-12 pt-2">
+                    <div class="col-12 pt-2">
                         <select class="form-select udd mbc-hold mb-3" id="hold" name="hold">
                             <option value="hold">Vælg hold</option>
                             {% for ud in site.educations %}
@@ -42,10 +42,14 @@ permalink: /tilmeld/
 
                         </select>
                     </div>
+                    <input type="hidden" name="semester" value="" id="">
                     <div class="col-md-6 col-12 mb-3">
-                        <input class="form-control mb-3" type="text" name="name" placeholder="Navn" required>
+                        <input class="form-control mb-3" type="text" name="fname" placeholder="Foravn" required>
                     </div>
                     <div class="col-md-6 col-12 mb-3">
+                        <input class="form-control mb-3" type="text" name="lname" placeholder="Efternavn" required>
+                    </div>
+                    <div class="col-12 mb-3">
                         <input class="form-control mb-3" type="text" name="email" placeholder="Email" required>
                     </div>
                     <div class="col-12">
