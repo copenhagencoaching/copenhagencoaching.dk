@@ -3,9 +3,7 @@ order: 4
 title: Den offentlige lederuddannelse
 image: "/images/academy/den-offentlige-lederuddannelse.png"
 image-2: /images/inspiration/leder-tavle.png
-infomode: true
-infomode-dates:
-  - 6. september - 16:00 - 17:00 Proceslederuddannelsen (Online)
+infomode: false
 infomode-text: Kom til Informationsmøde om vores uddannelser
 contact-person: Ghita Vejlebo
 description: Er du leder, eller drømmer du om at blive det? Trænger du til at få styrket dine lederkompetencer, og samtidig få de nyeste og brugbare værktøjer til medarbejdersamtaler og til håndtering af konfliktsituationer?
@@ -15,7 +13,6 @@ meta-description: Den offentlige lederuddannelse (DOL) er en diplomuddannelse fo
 kursus-oversigt: true
 layout: course
 undervisere:
-- name: Camilla Ingwersen
 - name: Line Arnmark
 - name: Andreas Bering
 - name: Marianne Vesterbirk
@@ -79,50 +76,50 @@ lists:
   - Ledelse og Filosofi (valgmodul, 5 ECTS)
   - Specialemodul (15 ECTS)
 hold:
-- title: Proceslederuddannelsen - Efterår 2023
-  price: 27.500 ekskl. moms
-  dates: 5. oktober - 15. december
-  modules:
-  - date: 5. oktober
-    day: 1
-    time: "09:00 - 19:00"
-    name: "-"
-    place: København
-  - date: 11. oktober
-    day: 2
-    time: "09:00 - 16:00"
-    name: "-"
-    place: København
-  - date: 6. november
-    day: 3
-    time: "10:00 - 17:00"
-    name: "-"
-    place: København
-  - date: 7. november
-    day: 4
-    time: "09:00 - 16:00"
-    name: "-"
-    place: København
-  - date: 20. november
-    day: 5
-    time: "12:00 - 16:00"
-    name: "-"
-    place: Online
-  - date: 29. november
-    day: 6
-    time: "09:00 - 15:00"
-    name: "-"
-    place: København
-  - date: 14. december
-    day: 7
-    time: "09:00 - 16:00"
-    name: "Eksamen"
-    place: "København"
-  - date: 15. december
-    day: 8
-    time: "09:00 - 16:00"
-    name: "Eksamen"
-    place: "København"
+  - title: Proceslederuddannelsen - Forår 2024
+    price: 27.500 ekskl. moms
+    dates: 27. februar - 17. maj
+    modules:
+      - date: 27. februar
+        day: 1
+        time: 10:00 - 19:30
+        name: '-'
+        place: København
+      - date: 28. februar
+        day: 2
+        time: 09:00 - 16:00
+        name: '-'
+        place: København
+      - date: 20. marts
+        day: 3
+        time: 09:00 - 16:00
+        name: '-'
+        place: København
+      - date: 8. april
+        day: 4
+        time: 10:00 - 17:00
+        name: '-'
+        place: København
+      - date: 22. april
+        day: 5
+        time: 12:00 - 16:00
+        name: '-'
+        place: Online
+      - date: 1. maj
+        day: 6
+        time: 09:00 - 15:00
+        name: '-'
+        place: København
+      - date: 16. maj
+        day: 7
+        time: 09:00 - 16:00
+        name: Eksamen
+        place: København
+      - date: 17. maj
+        day: 8
+        time: 09:00 - 15:00
+        name: Eksamen
+        place: København
 emails:
 - ln@copenhagencoaching.dk
 special: false

@@ -126,48 +126,48 @@ price: >-
   individuelle coachinger med en certificeret coach fra Copenhagen Coaching
   Center
 hold:
-  - title: Proceslederuddannelsen - Efterår 2023
+  - title: Proceslederuddannelsen - Forår 2024
     price: 27.500 ekskl. moms
-    dates: 5. oktober - 15. december
+    dates: 27. februar - 17. maj
     modules:
-      - date: 5. oktober
+      - date: 27. februar
         day: 1
-        time: 09:00 - 19:00
+        time: 10:00 - 19:30
         name: '-'
         place: København
-      - date: 11. oktober
+      - date: 28. februar
         day: 2
         time: 09:00 - 16:00
         name: '-'
         place: København
-      - date: 6. november
+      - date: 20. marts
         day: 3
-        time: 10:00 - 17:00
-        name: '-'
-        place: København
-      - date: 7. november
-        day: 4
         time: 09:00 - 16:00
         name: '-'
         place: København
-      - date: 20. november
+      - date: 8. april
+        day: 4
+        time: 10:00 - 17:00
+        name: '-'
+        place: København
+      - date: 22. april
         day: 5
         time: 12:00 - 16:00
         name: '-'
         place: Online
-      - date: 29. november
+      - date: 1. maj
         day: 6
         time: 09:00 - 15:00
         name: '-'
         place: København
-      - date: 14. december
+      - date: 16. maj
         day: 7
         time: 09:00 - 16:00
         name: Eksamen
         place: København
-      - date: 15. december
+      - date: 17. maj
         day: 8
-        time: 09:00 - 16:00
+        time: 09:00 - 15:00
         name: Eksamen
         place: København
 contact-person: Ghita Vejlebo
@@ -195,7 +195,7 @@ redirect_from:
   - /academy/procesleder-uddannelse/
 cat:
   - proces
-infomode: true
+infomode: false
 infomode-text: >-
   Kom til Informationsmøde om vores intensive og eksklusive
   Proceslederuddannelse
