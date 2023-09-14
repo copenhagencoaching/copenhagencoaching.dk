@@ -1,12 +1,12 @@
 ---
-title: En samtale om Valg med Pernille Lotus
+title: En samtale om Valg med Uffe Savery
 image: /images/frontpage/pc-6.png
-description: "Pernille Lotus, CEO WeAreCube, er lige nu aktuelt i DR programmet ”Stories for millioner” men bag historien står i sær et stort valg, nemlig valget om at lægge stofferne på hylden. Lyt og reflekter med når Pernille Lotus i vores podcast taler om hvordan dette valg og andre væsentlige fylder i hendes hverdag."
+description: "Uffe Savery musiker, rektor , musikchef, titlerne og bedrifterne taler for sig selv. Lyt og reflekter med når Uffe Savery i vores podcast taler om hvordan valget fylder i hans hverdag. både når de er store og livsbetydende og mindre men stadig fylder."
 category: podcast
 meta-image: /images/podcasts/4.png
 layout: podcast
 pd-link: >-
-  https://open.spotify.com/embed/episode/4OQd1T2lTcL32XL1KiF31K?utm_source=generator
+  https://open.spotify.com/embed/episode/2sUifFg8MgvZoyITo1Ox2e?utm_source=generator
 tags:
   - viden
   - blog
@@ -14,11 +14,11 @@ tags:
   - podcast
 published: true
 ---
-Pernille Lotus, CEO WeAreCube, er lige nu aktuel i DR programmet ”Stories for millioner” men bag historien står i sær et stort valg, nemlig valget om at lægge stofferne på hylden. Lyt og reflekter med når Pernille Lotus i vores podcast taler om hvordan dette valg og andre væsentlige fylder i hendes hverdag.
+Uffe Savery musiker, rektor , musikchef, titlerne og bedrifterne taler for sig selv. Lyt og reflekter med når Uffe Savery i vores podcast taler om hvordan valget fylder i hans hverdag. både når de er store og livsbetydende og mindre men stadig fylder.
 
 Du kan også lytte via
 
-[![Lyt til SamtaleRummet via Spotify](/images/podcasts/spotify.png "Lyt til SamtaleRummet via Spotify"){: .w-md-25.object-fit}](https://open.spotify.com/episode/4OQd1T2lTcL32XL1KiF31K){: target="_blank"}
+[![Lyt til SamtaleRummet via Spotify](/images/podcasts/spotify.png "Lyt til SamtaleRummet via Spotify"){: .w-md-25.object-fit}](https://open.spotify.com/episode/2sUifFg8MgvZoyITo1Ox2e){: target="_blank"}
 
 ##### Om podcasten
 
