@@ -27,6 +27,7 @@ layout: default
 
     <div class="small-container">
       <div class="row gy-5 gx-5">
+        {% if site.tags.act_event %}
         {% assign ordered_events = site.tags.act_event | sort: date %}
         {% for event in ordered_events %}
         {% if event.past == true %}
@@ -103,6 +104,7 @@ layout: default
 
         {% endif %}
         {% endfor %}
+        {% endif %}
       </div>
     </div>
   </div>

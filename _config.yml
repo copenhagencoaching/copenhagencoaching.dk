@@ -11,6 +11,10 @@ future: true
 
 logo: /images/logo/ccc-logo-dark.png
 
+strict_front_matter: true
+liquid:
+  error_mode: strict
+
 whitelist:
   - jekyll-redirect-from
 

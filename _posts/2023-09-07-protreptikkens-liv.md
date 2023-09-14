@@ -9,6 +9,7 @@ category: event
 tags:
 - event
 - foredrag
+- act_event
 layout: event-new
 only-month: false
 price: 245,- (Ekskl. moms)

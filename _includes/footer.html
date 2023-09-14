@@ -49,9 +49,9 @@
                
             </div>
             <div class="col-12 col-lg-3">
-                <h4 class="text-uppercase">Events</h4>
+                <h4 class="text-uppercase">Nyheder</h4>
                 <ul>
-                    {% assign ordered_events = site.tags.act_event | sort: date %}
+                    {% assign ordered_events = site.posts | sort: date %}
                     {% for post in ordered_events limit: 4 %}
 
                     {% assign postmonth = post.date | date: "%m" %}

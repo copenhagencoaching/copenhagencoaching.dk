@@ -80,8 +80,8 @@ permalink: /resonans/artikel/
             <ul id="tag-list" class="entry-meta inline-list">
 
             </ul>
-
-            {% for post in site.categories.artikel | sort: "date" | reverse %}
+            {% assign sorted_posts = site.tags.viden | sort: "date" | reversed %}
+            {% for post in sorted_posts %}
             <div class="col-lg-4 col-12 col-md-6">
                 <a href="{{ post.url }}">
                     <div class="bg-white shadow p-3 mb-5 bg-body rounded">
