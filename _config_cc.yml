@@ -27,55 +27,10 @@ timezone: Europe/Copenhagen
 markdown: kramdown
 permalink: /:categories/:title/
 
-themes:
-  - title: ledelsesudvikling
-    order: 1
-    name: Ledelsesudvikling
-  - title: organisationsudvikling
-    order: 2
-    name: Organisationsudvikling
-  - title: teamudvikling
-    order: 3
-    name: Teamudvikling
-  - title: procesledelse
-    order: 4
-    name: Procesledelse
-  - title: procesogtest
-    order: 5
-    name: Ansættelsesproces og testværktøjer
-    
-consultation-categories:
-  - title: Fagområder
-    order: 1
-  - title: Vores tilgang
-    order: 2
-  - title: Vores medarbejdere
-    order: 3
-  - title: Vores værdigrundlag
-    order: 4
-  - title: Eksempler på aktiviteter
-    order: 5
-  - title: Praktisk
-    order: 6
-  - title: Samarbejdspartnerer
-    order: 7
-
-customer-categories:
-  - title: sundhed & omsorg
-    order: 1
-  - title: børn & unge
-    order: 2
-  - title: kultur & forlystelse
-    order: 3
-  - title: sport & fritid
-    order: 4
-
 collections:
   posts:
     output: true
     permalink: /resonans/:categories/:title/
-  advisory-board:
-    output: false
   employees:
     output: true
     permalink: /employees/:title/
@@ -106,9 +61,6 @@ collections:
   testimonials:
     output: false
   edu-categories:
-    output: true
-    permalink: /:title/
-  calendar:
     output: true
     permalink: /:title/
   publications:
@@ -178,11 +130,6 @@ defaults:
   -
     scope:
       type: edu-categories
-    values:
-      layout: default
-  -
-    scope:
-      type: calendar
     values:
       layout: default
   -

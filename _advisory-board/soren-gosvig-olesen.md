@@ -1,9 +1,0 @@
----
-title: Søren Gosvig Olesen
-work: Lektor. Institut for Kommunikation
-education: Dr.phil.habil.
-image: /images/advisory-board/Søren-Gosvig-Olesen.jpg
----
-Søren Gosvig Olesen, født 1956, er elev af Gérard Granel og tog kandidateksamen i filosofi på Sorbonne i 1982 samt den internationale doktorgrad, habilitationsgraden, ved Université de Nice i 1998 med Dominique Janicaud som Doktorvater. Hans første værk er La philosophie dans le texte, udgivet i 1982 og revideret i 2017 under titlen Avec Kierkegaard. La philosophie dans le texte. Doktorarbejdet Wissen und Phänomen om Husserls, Koyrés og Bachelards ontologiske belysning af videnskaberne kom i 1997, hovedværket Transzendentale Geschichte / Transcendental History (på hhv. Mohr Siebeck og Palgrave Macmillans forlag) i 2012. Desuden er han forfatter til en lang række værker på dansk, herunder populære indføringer som Vejledning til Heidegger (1990, rev. 2013), At læse filosofi (1992), Forsøg med filosofien (2011). Han har også skrevet en bog om Hitler (2010) og en bog om kærlighed (2018).
-
-Søren er oversætter af bl.a. Heidegger, Foucault, Derrida og Agamben og han har bidraget til internationale tidsskrifter som Tijdschrift voor filosofie, Revue de Métaphysique et de Morale, Rivista di Estetica og Internationales Jahrbuch für Hermeneutik. Gosvig er desuden regelmæssig bidragyder til dagbladet Information og optræder ofte i DR P1 og Radio 24syv. Han underviste i filosofi ved Aarhus Universitet og Odense Universitet fra 1983 til 1996 og var forskningsbibliotekar ved Det kongelige Bibliotek fra 1996 til 1999, hvor han tiltrådte sin nuværende stilling som lektor ved Afdeling for filosofi på Københavns Universitet Amager. Gæsteprofessor ved Torino Universitet (efterårssemesteret 2020).
