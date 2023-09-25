@@ -29,7 +29,7 @@ overblik:
   - "Generelt er vores undervisning på Den Offentlige Lederuddannelse bygget op om forskellige læringsaktiviteter, der har til formål at udvikle din måde at tænke, være og lære på. Læringen bygger på dine erfaringer og oplevelser fra din organisation. Derfor gennemføres modulet ud fra den læringsforståelse, at du bedst tilegner dig viden, færdigheder og kompetencer ved at reflektere over teori i forhold til din praksis. Her udfordres du på dine erfaringer, begreber og forestillinger om ledelse og organisation."
   - "Endvidere søger undervisningen at blotlægge og reflektere over de teorier om praksis, der ligger bag dine handlinger, relationer og iagttagelser af verden. Din læreproces er derfor fokuseret på opgaver og løsninger, hvor underviseren er facilitator for læreprocessen."
   - "Vi fokuserer altid på, hvad der virker i praksis. Derfor har vi valgt ikke at følge én bestemt teoretisk tilgang. Vi ønsker, at du kritisk skal blive i stand til selv at vælge mellem de mest anvendte teorier på området. Vi kalder vores tilgang for det eklektiske princip. Ligeledes understøtter vi kritiske drøftelser af de forskellige teorier og metoder i forhold til deres videnskabsteoretiske ståsted, deres forklaringskraft og deres handlingsanvisende potentiale rettet mod din konkrete praksis."
-price: 'Prisen for Ledelse og Coaching er 8.600,- (Ekskl. moms)<br><br>Prisen for Ledelse og Filosofi er 8.600,- (Ekskl. moms)<br><br>Proceslederuddannelsen: 27.500,- (Ekskl. moms) inkl. Forplejning, litteratur, BIG FIVE test og to individuelle coachinger med en certificeret coach fra Copenhagen Coaching Center<br><br>Det Personlige Lederskab og Forandring: 27.500,- (Ekskl. moms) inkl. Forplejning, overnatning mellem 2. og 3. maj 2023 (Ikke oblikatorisk), litteratur, BIG FIVE test og to individuelle coachinger med en certificeret coach fra Copenhagen Coaching Center.'
+price: 'Prisen for Ledelse og Filosofi er 8.600,- (Ekskl. moms)<br><br>Proceslederuddannelsen: 27.500,- (Ekskl. moms) inkl. Forplejning, litteratur, BIG FIVE test og to individuelle coachinger med en certificeret coach fra Copenhagen Coaching Center<br><br>Det Personlige Lederskab og Forandring: 27.500,- (Ekskl. moms) inkl. Forplejning, overnatning mellem 2. og 3. maj 2023 (Ikke oblikatorisk), litteratur, BIG FIVE test og to individuelle coachinger med en certificeret coach fra Copenhagen Coaching Center.'
 kort: true
 kort-kode: '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d8980.411292653132!2d12.5359398!3d55.756716!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x18925c9493275165!2sGentofte%20B%C3%B8rnevenner!5e0!3m2!1sda!2sdk!4v1656071445879!5m2!1sda!2sdk" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'
 event-title: Vi starter løbende hold op - ring og hør nærmere
@@ -71,11 +71,35 @@ lists:
   - Ledelse af Medarbejdere og Faglig Udvikling (Standardmodul, 10 ECTS)
   - Proceslederuddannelsen (Valgmodul, 10 ECTS)
   - Ledelse af forandrings- og udviklingsprocesser i offentlige organisationer (Valgmodul, 5 ECTS)
-  - Coaching (valgmodul, 5 ECTS)
+  - Ledelse og Coaching (valgmodul, 5 ECTS)
   - Projektledelse (valgmodul, 5 ECTS)
   - Ledelse og Filosofi (valgmodul, 5 ECTS)
   - Specialemodul (15 ECTS)
 hold:
+  - title: Ledelse og Coaching - Forår 2024
+    price: Kommer snart..
+    dates: 30. januar - 26. februar
+    modules:
+      - date: 30. januar
+        day: 1
+        time: "09:00 - 12:00"
+        name: "-"
+        place: København
+      - date: 8. februar
+        day: 2
+        time: "13:00 - 16:00"
+        name: "-"
+        place: København
+      - date: 14. februar
+        day: 3
+        time: "09:00 - 12:00"
+        name: "-"
+        place: København
+      - date: 26. februar
+        day: 4
+        time: "13:00 - 16:00"
+        name: "-"
+        place: København
   - title: Proceslederuddannelsen - Forår 2024
     price: 27.500 ekskl. moms
     dates: 27. februar - 17. maj
