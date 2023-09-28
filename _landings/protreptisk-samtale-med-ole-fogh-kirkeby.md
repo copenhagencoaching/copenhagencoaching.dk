@@ -13,19 +13,15 @@ box-position: bottom
 
 Som lovet i nyhedsbrevet, modtager I hermed optagelsen fra vores Communityarrangement d. 7. september 2023 med Ole Fogh Kirkeby.
 
-
-I vil kunne høre to meget forskellige eksempler på, hvordan en protreptik kan udfolde sig, men målet er i begge tilfælde det samme; at undersøge og udforske begrebet frem for at forklare og definere det.
-
- 
+I vil kunne høre to meget forskellige eksempler på, hvordan en protreptik kan udfolde sig, men målet er i begge tilfælde det samme; at *undersøge og udforske* begrebet frem for at forklare og definere det.
 
 En vigtig dyd i protreptikken, som Mette og Ole taler frem, er at stille sig ydmygt an og læne sig ind i samtalen, hvilket de to protreptiske samtaler også viser på hver sin måde.
 
-Den første samtale, hvor Mette er protreptikker og Ole protreptee, er et eksempel på, hvordan et begreb bliver talt frem i en almen og anonymiseret form. Der er ingen, der ejer begrebet eller har særlig viden om det, men ved at protreptikker og protreptee begge stiller sig åbne og undersøgende an, bliver begrebet til i sig selv gennem samtalen.
+Den første samtale, hvor Mette er protreptikker og Ole protreptee, er et eksempel på, hvordan et begreb bliver talt frem i en almen og anonymiseret form. Der er ingen, der ejer begrebet eller har særlig viden om det, men ved at protreptikker og protreptee begge stiller sig åbne og undersøgende an, bliver begrebet til *i sig selv *gennem samtalen.
 
 Samtalen illustrerer den måde, hvorpå vi, i CCC, anvender og underviser vores studerende i at afholde protreptiske samtaler.
- 
 
-Den anden samtale, hvor Ole protrepterer Mette, er et eksempel på en protreptik, hvor det, der bliver talt frem, er, begrebets liv i et menneskes liv. Her har protreptikkeren allerede begrebet fra starten, og det er protreptee, der kommer til sig selv gennem samtalen. Samtalen er stadig almen og normativ, men den er ikke længere anonymiseret.
+Den anden samtale, hvor Ole protrepterer Mette, er et eksempel på en protreptik, hvor det, der bliver talt frem, er, *begrebets liv i et menneskes liv.* Her har protreptikkeren allerede begrebet fra starten, og det er protreptee, der *kommer til sig selv* gennem samtalen. Samtalen er stadig almen og normativ, men den er ikke længere anonymiseret.
 
 At føre protreptiske samtaler, som Ole gør i sin protreptik af Mette, kræver en del mere øvelse og erfaring end vores studerende kan nå at tilegne sig i løbet af de to år Masteruddannelsen varer.
 
