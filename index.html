@@ -79,8 +79,31 @@ redirect_from:
 </div> -->
 
 <div class="py-lg-5 py-2"></div>
+<div class="d-md-none py-4"></div>
 
-<div class="frontpage-slider overflow-hidden">
+<div class="row">
+    <div class="col-md-7 col-12 bg-black-coral">
+        <div class="container-fluid py-5">
+            <div class="my-5 py-5">
+                <h1 class="text-white">Bliv klædt på til dit lederskab</h1>
+                <h5 class="text-white fw-bold">
+                    Hvilken leder vil du gerne være?
+                </h5>
+                <br>
+                <a href="/academy/master-of-business-coaching/"
+                class="btn-white rounded-0 fw-bold text-uppercase">Læs mere om MBC uddannelse her</a>
+    
+            </div>
+        </div>
+
+
+    </div>
+    <div class="col-5 d-none d-md-block" style="background-image: url('/images/frontpage/fp-mbc.png'); background-size: cover; background-position: center;">
+<div class="p-5 h-100"></div>
+    </div>
+</div>
+
+<!-- <div class="frontpage-slider overflow-hidden">
 
     {% for p in site.texts %}
     {% if p.side == "fp" %}
@@ -88,18 +111,23 @@ redirect_from:
 
         <div class="mt-3"></div>
         <div class="container-fluid h-500 d-flex align-items-center align-content-center pt-">
+<div class="row">
+    <div class="col-6">
+        
+    </div>
+    <div class="px-3 pe-lg-0 ps-lg-5 w-md-75 w-lg-50 w-100">
+        <h3 class="{% if p.text-color == 'white' %}text-white{% endif %} fw-bold fs-1">{{ p.title }}</h3>
+        {{ p.text }}
+        <div class="mt-4"></div>
 
-            <div class="px-3 pe-lg-0 ps-lg-5 w-md-75 w-lg-50 w-100">
-                <h3 class="{% if p.text-color == 'white' %}text-white{% endif %} fw-bold fs-1">{{ p.title }}</h3>
-                {{ p.text }}
-                <div class="mt-4"></div>
+        {% if p.btn %}
+        <a href="{{ p.link }}"
+            class="{% if p.btn == 'white' %}btn-white {% else %} btn-text-black text-white{% endif %} rounded-0 fw-bold text-uppercase">{{
+            p.btn-text }}</a>
+        {% endif %}
+    </div>
+</div>
 
-                {% if p.btn %}
-                <a href="{{ p.link }}"
-                    class="{% if p.btn == 'white' %}btn-white {% else %} btn-text-black text-white{% endif %} rounded-0 fw-bold text-uppercase">{{
-                    p.btn-text }}</a>
-                {% endif %}
-            </div>
 
         </div>
 
@@ -109,7 +137,7 @@ redirect_from:
     {% endif %}
     {% endfor %}
 
-</div>
+</div> -->
 
 <!-- <div class="pt-4 pt-lg-0" style="background-image: url('/images/frontpage/fp-88.png'); background-size: cover;">
     <div class="container-fluid py-5 mt-5">
@@ -291,16 +319,18 @@ redirect_from:
 
 
         </div>
-<!--         <div class="col-12 d-none d-md-block">
-            <div class="row gx-5">
+        <div class="col-12">
+            <div class="row g-5">
                 <div class="col-12">
                     <h3 class="text-uppercase mb-4">
                         Nyeste indlæg
                     </h3>
+                    <p class="text-end fw-bold mt-2 small"><a href="/inspiration/">Se alle indlæg <i
+                        class="fa-solid fa-angles-right"></i></a></p>
                 </div>
-                {% for ind in site.tags.blog limit: 3 %}
+                {% for ind in site.categories.blog limit: 3 %}
 
-                <div class="col-4">
+                <div class="col-12 col-md-6 col-lg-4">
                     <a href="{{ ind.url}}">
                     <img src="{{ ind.image }}" alt="" class="object-fit w-100 h-200 mb-4">
                     <h5 class="text-uppercase mb-3 d-inline-block">{{ ind.title }}</h5>
@@ -313,10 +343,10 @@ redirect_from:
 
             </div>
 
-        </div> -->
+        </div>
 
 
-        <div class="col-12 col-md-6 col-xl-4 d-none d-md-block">
+<!--         <div class="col-12 col-md-6 col-xl-4 d-none d-md-block">
             <div class="bg-platinum p-5 h-100">
                 <div class="row gx-0">
                     <div class="col-12">
@@ -353,9 +383,9 @@ redirect_from:
                 </div>
             </div>
 
-        </div>
+        </div> -->
         <!-- on mobile -->
-        <div class="col-12 col-md-6 col-xl-4 d-md-none">
+<!--         <div class="col-12 col-md-6 col-xl-4 d-md-none">
             <div class="h-100 mb-5 mt-3">
                 <h3 class="text-uppercase mb-4">
                     Nyeste indlæg
@@ -383,8 +413,8 @@ redirect_from:
                 </div>
             </div>
 
-        </div>
-        <div class="col-12 col-md-6 col-xl-8 d-md-none">
+        </div> -->
+<!--         <div class="col-12 col-md-6 col-xl-8 d-md-none">
             <div class="h-100">
                 <div class="row">
                     <div class="col-xl-8 col-md-12">
@@ -399,7 +429,7 @@ redirect_from:
                 </div>
 
                 <div class="row gy-2 gx-3">
-                    {% assign ordered_events = site.tags.act_event | sort: date %}
+                    {% assign ordered_events = site.posts | sort: date %}
                     {% for event in ordered_events limit: 5 %}
 
 
@@ -461,9 +491,9 @@ redirect_from:
                 </div>
             </div>
 
-        </div>
+        </div> -->
         <!-- On mobile -->
-        <div class="col-12 col-md-6 col-xl-8  d-none d-md-block">
+<!--         <div class="col-12 col-md-6 col-xl-8  d-none d-md-block">
             <div class="bg-platinum p-5 h-100">
                 <div class="row">
                     <div class="col-xl-8 col-md-12">
@@ -478,7 +508,7 @@ redirect_from:
                 </div>
 
                 <div class="row gy-5 gx-5">
-                    {% assign ordered_events = site.tags.act_event | sort: date %}
+                    {% assign ordered_events = site.posts | sort: date %}
                     {% for event in ordered_events limit: 5 %}
 
 
@@ -540,7 +570,7 @@ redirect_from:
                 </div>
             </div>
 
-        </div>
+        </div> -->
     </div>
 
 </div>
