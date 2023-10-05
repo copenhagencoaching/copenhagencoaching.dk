@@ -1,6 +1,6 @@
 ---
 title: En Samtale om Ensomhed med Ane Øland Bækgaard
-image: /images/frontpage/pc-6.png
+image: /images/blog/podcast-cover.png
 description: 'Vi kender Sognepræst Ane Øland Bækgaard fra DR2-serien “Størst af alt er kærligheden”. Men hvad med ensomheden – hvilken plads har den i et menneskeliv? Findes ensomheden også i kærligheden og i livets største stunder, og kan man overhovedet deles om den dér? Det er noget af det, som Ane er optaget af, og som hun taler med Andreas om i dette afsnit.'
 category: podcast
 meta-image: /images/podcasts/4.png

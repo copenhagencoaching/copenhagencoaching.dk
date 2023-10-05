@@ -1,13 +1,13 @@
 ---
-title: En samtale om Valg med Tobias Dam Hede
+title: En samtale om Kærlighed med Pernille Ørskov
 image: /images/blog/podcast-cover.png
-description: 'Tobias Dam Hede PhD, forfatter, management konsulent og en af pionererne inden for protreptikken.
-Lyt og reflekter med når Tobias Dam Hede i vores podcast taler om hvordan valget påvirker og forpligter, og i den grad sætter retning i ens liv.'
+description: 'Pernille Ørskov, Advokat og astrolog, Pernille formår som få at kombinere det logisk og rationelle med det spirituelle.
+Lyt og reflekter med når Jesper Nøddesbo og Andreas Bering sammen med Pernille Ørskov sætter kærligheden under lup i vores podcast.'
 category: podcast
 meta-image: /images/podcasts/4.png
 layout: podcast
 pd-link: >-
-  https://open.spotify.com/embed/episode/3tpf9AyjXdKSmts6ZUeQJQ?utm_source=generator
+  https://open.spotify.com/embed/episode/2DEdRB9x6OkQxxfgz7tWTr?utm_source=generator
 tags:
   - viden
   - blog
@@ -15,12 +15,12 @@ tags:
   - podcast
 published: true
 ---
-Tobias Dam Hede PhD, forfatter, management konsulent og en af pionererne inden for protreptikken.
-Lyt og reflekter med når Tobias Dam Hede i vores podcast taler om hvordan valget påvirker og forpligter, og i den grad sætter retning i ens liv.
+Pernille Ørskov, Advokat og astrolog, Pernille formår som få at kombinere det logisk og rationelle med det spirituelle.
+Lyt og reflekter med når Jesper Nøddesbo og Andreas Bering sammen med Pernille Ørskov sætter kærligheden under lup i vores podcast.
 
 Du kan også lytte via
 
-[![Lyt til SamtaleRummet via Spotify](/images/podcasts/spotify.png "Lyt til SamtaleRummet via Spotify"){: .w-md-25.object-fit}](https://open.spotify.com/episode/3tpf9AyjXdKSmts6ZUeQJQ){: target="_blank"}
+[![Lyt til SamtaleRummet via Spotify](/images/podcasts/spotify.png "Lyt til SamtaleRummet via Spotify"){: .w-md-25.object-fit}](https://open.spotify.com/episode/2DEdRB9x6OkQxxfgz7tWTr){: target="_blank"}
 
 ##### Om podcasten
 

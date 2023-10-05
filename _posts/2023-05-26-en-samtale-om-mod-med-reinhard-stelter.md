@@ -1,6 +1,6 @@
 ---
 title: En Samtale om mod med Reinhard Stelter
-image: /images/frontpage/pc-6.png
+image: /images/blog/podcast-cover.png
 description: 'Lyt og reflekter med når Reinhard Stelter i vores podcast taler med Andreas Bering og Jesper Nøddesbo om Mod, Både om nogle af de situationer i livet der kræver mod, men også mere filosofisk med hensyn til, hvad der skal til for at mod kan opstå? Lyt med her.'
 category: podcast
 meta-image: /images/podcasts/4.png

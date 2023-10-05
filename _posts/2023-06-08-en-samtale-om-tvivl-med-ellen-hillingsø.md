@@ -1,6 +1,6 @@
 ---
 title: En samtale om Tvivl med Ellen Hillingsø
-image: /images/frontpage/pc-6.png
+image: /images/blog/podcast-cover.png
 description: 'Ellen Hillingsø er en af vor tid helt store skuespillerinder. Lyt og reflekter med når Hillingsø i vores podcast taler om hvordan tvivlen fylder i hendes hverdag. både når tvivlen viser sig som en ven og katalysator, samt når den hæmmer og presser. Lyt med her.'
 category: podcast
 meta-image: /images/podcasts/4.png

@@ -1,6 +1,6 @@
 ---
 title: En samtale om ensomhed med Sarah Bro
-image: /images/frontpage/pc-6.png
+image: /images/blog/podcast-cover.png
 description: 'I denne episode inviterer vi tidligere OL-svømmer Sarah Bro i studiet til en protreptisk inspireret samtale om ensomhed med coach og direktør Andreas Bering.'
 category: podcast
 meta-image: /images/podcasts/4.png

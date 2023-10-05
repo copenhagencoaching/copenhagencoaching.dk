@@ -1,6 +1,6 @@
 ---
 title: En Samtale om Mod med Rasmus Kjeldahl
-image: /images/frontpage/pc-6.png
+image: /images/blog/podcast-cover.png
 description: 'Rasmus Kjeldahl var i mange år kendt som Direktør for forbrugerrådet inden han i 2013 blev Direktør for Børns Vilkår og har siden da talt børnenes sag. Gå med på opdagelse, når Kjeldal i vores podcast taler med Andreas Bering og Jesper Nøddesbo om mod, både det mod barnet skal finde for at turde ringe op til børnetelefonen men også det mod, ledelse kalder på og i det hele taget modets betydning i dag.'
 category: podcast
 meta-image: /images/podcasts/4.png

@@ -124,6 +124,164 @@ profil:
   - Cras dapibus.. Nulla consequat massa quis enim. Nunc sed turpis. Quisque libero metus, condimentum nec, tempor a, commodo mollis, magna.Praesent adipiscing. Sed a libero. Cras dapibus.. Nulla consequat massa quis enim. Nunc sed turpis. Quisque libero metus, condimentum nec, tempor a, commodo mollis, magna.
 kursus-oversigt: true
 nested-hold:
+- aar: Forår 2024
+  hold:
+  - title: Semester 1 - Forår 2024
+    price: 47.500 (Ekskl. moms)
+    dates: 23. januar - 12. juni
+    modules:
+    - date: 23. Januar
+      day: 1
+      time: 09:30 - 16:00
+      name: Coaching og syntesemodellen
+      place: Blegdamsvej
+    - date: 24. Januar
+      day: 2
+      time: 09:30 - 16:00
+      name: Kognitiv 1
+      place: Blegdamsvej
+    - date: 21. februar
+      day: 3
+      time: 09:30 - 16:00
+      name: Psyko-dynamisk 1
+      place: Blegdamsvej
+    - date: 22. februar
+      day: 4
+      time: 09:30 - 16:00
+      name: Systemisk-narrativ 1
+      place: Blegdamsvej
+    - date: 19. marts
+      day: 5
+      time: 09:30 - 20:00
+      name: Kognitiv 2
+      place: Blegdamsvej
+    - date: 20. marts
+      day: 6
+      time: 09:30 - 16:00
+      name: Psyko-dynamisk  2
+      place: Blegdamsvej
+    - date: 24. april
+      day: 7
+      time: 09:30 - 20:00
+      name: Systemisk-narrativ 2
+      place: Blegdamsvej
+    - date: 25. april
+      day: 8
+      time: 09:30 - 16:00
+      name: Syntese
+      place: Blegdamsvej
+    - date: 10., 11. og 12. juni
+      day: '-'
+      time: 09:30 - 16:00
+      name: Eksamen
+      place: Blegdamsvej
+  - title: Semester 2 - Forår 2024
+    price: 47.500 (Ekskl. moms)
+    dates: 17. januar - 8. maj
+    modules:
+    - date: 17. januar
+      day: 1
+      time: 09:30 - 20:00
+      name: Kognitiv 3
+      place: Blegdamsvej
+    - date: 18. januar
+      day: 2
+      time: 09:30 - 16:00
+      name: Psykodynamisk 3
+      place: Blegdamsvej
+    - date: 5. februar
+      day: 3
+      time: 09:30 - 20:00
+      name: Systemisk 3 + Træningsaften
+      place: Blegdamsvej
+    - date: 6. februar
+      day: 4
+      time: 09:30 - 16:00
+      name: Kognitiv 4 og psykodynamisk 4
+      place: Blegdamsvej
+    - date: 5. - 6. marts
+      day: 5-6
+      time: 09:30 - 16:00
+      name: Teamcoaching
+      place: Blegdamsvej
+    - date: 10. april
+      day: 7
+      time: 09:30 - 16:00
+      name: Tredje generations coaching
+      place: Blegdamsvej
+    - date: 11. april
+      day: 8
+      time: 09:30 - 16:00
+      name: Syntese og træning
+      place: Blegdamsvej
+    - date: 6. - 8. maj
+      day: '-'
+      time: 09:30 - 16:00
+      name: Eksamen
+      place: Blegdamsvej
+  - title: Semester 3 - Forår 2024
+    price: 47.500 (Ekskl. moms)
+    dates: 4. april - 18. juni
+    modules:
+    - date: 4. april
+      day: 1
+      time: 09:30 - 16:00
+      name: Introduktion til Protreptik
+      place: Blegdamsvej
+    - date: 26. maj - 2. juni
+      day: 2-7
+      time: Varierende tider
+      name: Protreptik
+      place: Lesbos, Grækenland
+    - date: 18. juni
+      day: "-"
+      time: 09:30 - 16:00
+      name: Eksamen
+      place: Blegdamsvej
+  - title: Semester 4 - Forår 2024
+    price: 47.500 (Ekskl. moms)
+    dates: 31. januar - 15.  maj
+    modules:
+    - date: 31. januar
+      time: 09:30 - 16:00
+      day: 1
+      name: Introduktion til nye coachingformer
+      place: Blegdamsvej
+    - date: 26. februar
+      time: 09:30 - 20:00
+      day: 2
+      name: Kognitionsfilosofi
+      place: Blegdamsvej
+    - date: 27. februar
+      time: 09:30 - 16:00
+      day: 3
+      name: Kropsfilosofi
+      place: Blegdamsvej
+    - date: 13. marts
+      time: 09:30 - 20:00
+      day: 4
+      name: Eksistensfilosofi
+      place: Blegdamsvej
+    - date: 14. marts
+      time: 09:30 - 16:00
+      day: 5
+      name: Dialogfilosofi
+      place: Blegdamsvej
+    - date: 29. april
+      time: 09:30 - 20:00
+      day: 6
+      name: Differensfilosofi
+      place: Blegdamsvej
+    - date: 30. april
+      time: 09:30 - 16:00
+      day: 7
+      name: Eksperimentel pragmatik
+      place: Blegdamsvej
+    - date: 15. maj
+      time: 09:30 - 16:00
+      day: 8
+      name: Syntese
+      place: Blegdamsvej
 - aar: Efterår 2023
   hold:
   - title: Semester 1 - Efterår 2023
@@ -332,197 +490,8 @@ nested-hold:
       day: 8
       name: Syntese
       place: Blegdamsvej
-- aar: Forår 2024
-  hold:
-  - title: Semester 1 - Forår 2024
-    price: 47.500 (Ekskl. moms)
-    dates: 23. januar - 12. juni
-    modules:
-    - date: 23. Januar
-      day: 1
-      time: 09:30 - 16:00
-      name: Coaching og syntesemodellen
-      place: Blegdamsvej
-    - date: 24. Januar
-      day: 2
-      time: 09:30 - 16:00
-      name: Kognitiv 1
-      place: Blegdamsvej
-    - date: 21. februar
-      day: 3
-      time: 09:30 - 16:00
-      name: Psyko-dynamisk 1
-      place: Blegdamsvej
-    - date: 22. februar
-      day: 4
-      time: 09:30 - 16:00
-      name: Systemisk-narrativ 1
-      place: Blegdamsvej
-    - date: 19. marts
-      day: 5
-      time: 09:30 - 20:00
-      name: Kognitiv 2
-      place: Blegdamsvej
-    - date: 20. marts
-      day: 6
-      time: 09:30 - 16:00
-      name: Psyko-dynamisk  2
-      place: Blegdamsvej
-    - date: 24. april
-      day: 7
-      time: 09:30 - 20:00
-      name: Systemisk-narrativ 2
-      place: Blegdamsvej
-    - date: 25. april
-      day: 8
-      time: 09:30 - 16:00
-      name: Syntese
-      place: Blegdamsvej
-    - date: 10., 11. og 12. juni
-      day: '-'
-      time: 09:30 - 16:00
-      name: Eksamen
-      place: Blegdamsvej
-  - title: Semester 2 - Forår 2024
-    price: 47.500 (Ekskl. moms)
-    dates: 17. januar - 8. maj
-    modules:
-    - date: 17. januar
-      day: 1
-      time: 09:30 - 20:00
-      name: Kognitiv 3
-      place: Blegdamsvej
-    - date: 18. januar
-      day: 2
-      time: 09:30 - 16:00
-      name: Psykodynamisk 3
-      place: Blegdamsvej
-    - date: 5. februar
-      day: 3
-      time: 09:30 - 20:00
-      name: Systemisk 3 + Træningsaften
-      place: Blegdamsvej
-    - date: 6. februar
-      day: 4
-      time: 09:30 - 16:00
-      name: Kognitiv 4 og psykodynamisk 4
-      place: Blegdamsvej
-    - date: 5. - 6. marts
-      day: 5-6
-      time: 09:30 - 16:00
-      name: Teamcoaching
-      place: Blegdamsvej
-    - date: 10. april
-      day: 7
-      time: 09:30 - 16:00
-      name: Tredje generations coaching
-      place: Blegdamsvej
-    - date: 11. april
-      day: 8
-      time: 09:30 - 16:00
-      name: Syntese og træning
-      place: Blegdamsvej
-    - date: 6. - 8. maj
-      day: '-'
-      time: 09:30 - 16:00
-      name: Eksamen
-      place: Blegdamsvej
-  - title: Semester 3 - Forår 2024
-    price: 47.500 (Ekskl. moms)
-    dates: 4. april - 18. juni
-    modules:
-    - date: 4. april
-      day: 1
-      time: 09:30 - 16:00
-      name: Introduktion til Protreptik
-      place: Blegdamsvej
-    - date: 26. maj - 2. juni
-      day: 2-7
-      time: Varierende tider
-      name: Protreptik
-      place: Lesbos, Grækenland
-    - date: 18. juni
-      day: "-"
-      time: 09:30 - 16:00
-      name: Eksamen
-      place: Blegdamsvej
-  - title: Semester 4 - Forår 2024
-    price: 47.500 (Ekskl. moms)
-    dates: 31. januar - 15.  maj
-    modules:
-    - date: 31. januar
-      time: 09:30 - 16:00
-      day: 1
-      name: Introduktion til nye coachingformer
-      place: Blegdamsvej
-    - date: 26. februar
-      time: 09:30 - 20:00
-      day: 2
-      name: Kognitionsfilosofi
-      place: Blegdamsvej
-    - date: 27. februar
-      time: 09:30 - 16:00
-      day: 3
-      name: Kropsfilosofi
-      place: Blegdamsvej
-    - date: 13. marts
-      time: 09:30 - 20:00
-      day: 4
-      name: Eksistensfilosofi
-      place: Blegdamsvej
-    - date: 14. marts
-      time: 09:30 - 16:00
-      day: 5
-      name: Dialogfilosofi
-      place: Blegdamsvej
-    - date: 29. april
-      time: 09:30 - 20:00
-      day: 6
-      name: Differensfilosofi
-      place: Blegdamsvej
-    - date: 30. april
-      time: 09:30 - 16:00
-      day: 7
-      name: Eksperimentel pragmatik
-      place: Blegdamsvej
-    - date: 15. maj
-      time: 09:30 - 16:00
-      day: 8
-      name: Syntese
-      place: Blegdamsvej
 hold_eller_begivenheder: true
 oe-order: 1
-events:
-- overskrift: København
-  subcategory: true
-  subcat:
-  - sub-cat-title: 1. semester - Efterår 2022
-    datoer:
-    - 5. - 6. september
-    - 3. - 4. oktober
-    - 2. - 3. november
-    - 28. - 29. november
-    - 12. - 14. december
-  - sub-cat-title: 2. semester - Efterår 2022
-    datoer:
-    - 22. - 23. august
-    - 21. - 22. september
-    - 10. - 11. oktober
-    - 9. - 10. november
-    - 5. - 7. december
-  - sub-cat-title: 3. semester - Efterår 2022
-    datoer:
-    - 25. august
-    - 9. - 16. september (Rejse til Lesbos)
-    - 13. oktober
-    - 21. - 23. november
-  - sub-cat-title: 4. semester - Efterår 2022
-    datoer:
-    - 18. august 
-    - 28. - 29. september
-    - 24. - 25. oktober
-    - 16. - 17. november
-    - 1. december
 redirect_from:
   - /master-business-coaching-mbc/
 cat:
@@ -533,7 +502,7 @@ cat:
 infomode: true
 infomode-text: Kom til informationsmøde om vores masteruddannelse.
 infomode-dates:
-- 9. august - 16:00 - 17:30 (Fysisk)
+- 24. oktober 16:00 - 17:30 (Fysisk)
 anbefalinger-video: false
 video-url: /videos/gitte-web.mp4
 video-text: "<br>Hvad siger tidligere studerende om Master of Business Coaching? Hør hvad Gitte Overgaard mener om uddannelsen.<br><br>

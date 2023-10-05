@@ -344,6 +344,32 @@ redirect_from:
             </div>
 
         </div>
+        {% if site.tags.act_event %}
+        <div class="col-12">
+            <div class="row g-5">
+                <div class="col-12">
+                    <h3 class="text-uppercase mb-4">
+                        Kommende events
+                    </h3>
+                    
+                </div>
+                {% for ind in site.tags.act_event limit: 3 %}
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <a href="{{ ind.url}}">
+                    <img src="{{ ind.image }}" alt="" class="object-fit w-100 h-200 mb-4">
+                    <h5 class="text-uppercase mb-3 d-inline-block">{{ ind.title }}</h5>
+                    <p class="mb-3">{{ ind.description}}</p>
+                    <a href="{{ ind.url }}" class="underlined">Læs her</a>
+                </a>
+                </div>
+
+                {% endfor %}
+
+            </div>
+
+        </div>
+        {% endif %}
 
 
 <!--         <div class="col-12 col-md-6 col-xl-4 d-none d-md-block">

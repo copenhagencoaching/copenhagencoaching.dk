@@ -1,6 +1,6 @@
 ---
 title: En samtale om Kærlighed med Ole Fogh Kirkeby
-image: /images/frontpage/pc-6.png
+image: /images/blog/podcast-cover.png
 description: 'Ole Fogh Kirkeby, dr.phil, professor emeritus og forfatter. Ole Fogh Kirkeby er en af vores tid helt store filosoffer og tænker og fader til den moderne udgave af protreptikken.
 Lyt og reflekter med når Ole Fogh Kirkeby i vores podcast taler om, hvor kærligheden kommer hvordan den trives og hvor stor betydning den har i vores liv.'
 category: podcast

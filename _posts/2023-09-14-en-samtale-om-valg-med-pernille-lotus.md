@@ -1,6 +1,6 @@
 ---
 title: En samtale om Valg med Pernille Lotus
-image: /images/frontpage/pc-6.png
+image: /images/blog/podcast-cover.png
 description: 'Pernille Lotus, CEO WeAreCube, er lige nu aktuelt i DR programmet "Stories for millioner" men bag historien står i sær et stort valg, nemlig valget om at lægge stofferne på hylden. Lyt og reflekter med når Pernille Lotus i vores podcast taler om hvordan dette valg og andre væsentlige fylder i hendes hverdag.'
 category: podcast
 meta-image: /images/podcasts/4.png

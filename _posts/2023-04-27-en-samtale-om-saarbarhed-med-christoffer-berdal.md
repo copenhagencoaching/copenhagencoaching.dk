@@ -1,6 +1,6 @@
 ---
 title: En Samtale om Sårbarhed med Christoffer Berdal
-image: /images/frontpage/pc-6.png
+image: /images/blog/podcast-cover.png
 description: 'Christoffer Berdal, Teaterinstruktør, og Forperson hos Foreningen af Danske Sceneinstruktører. Christoffer har siden slutningerne af 1990erne være en markant skikkelse i og på den danske teater scene. Gå med på opdagelse, når Berdal i vores podcast taler med Andreas Bering og Jesper Nøddesbo om sårbarhed uden for og på Scenen.'
 category: podcast
 meta-image: /images/podcasts/4.png

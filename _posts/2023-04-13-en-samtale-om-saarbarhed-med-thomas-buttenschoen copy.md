@@ -1,6 +1,6 @@
 ---
 title: En Samtale om Sårbarhed med Thomas Buttenschøn
-image: /images/frontpage/pc-6.png
+image: /images/blog/podcast-cover.png
 description: 'Thomas Buttenschøn oplever at være i en tid, hvor den unge generation i højere grad deler sårbarheden med hinanden. På den måde står det godt til. Sårbarhedens skatkammer af skrøbelighed kan nemlig være det rum, vi henter vores mest dyrebare værdier fra. Men det er også et rum vi skal lære at være i, siger Buttenschøn. Det kræver noget af os. Vi kan derfor bruge mange kræfter på at skjule sårbarhedens rum i stedet for at lære, hvordan vi kan modtage gæster dér også.'
 category: podcast
 meta-image: /images/podcasts/4.png

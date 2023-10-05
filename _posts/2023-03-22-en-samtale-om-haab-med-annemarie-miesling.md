@@ -1,6 +1,6 @@
 ---
 title: En Samtale om Håb Annemarie Meisling
-image: /images/frontpage/pc-6.png
+image: /images/blog/podcast-cover.png
 description: 'Vi er nu nået til anden samtale i temarækken om HÅB.
 Andreas Bering har denne gang Annemarie Meisling, som er Senior Director for Corporate Affairs hos Chr. Hansen i SamtaleRummet. Annemarie er en af Danmarks mest erfarende ledere når det kommer til bæredygtighed og regenerativ ledelse. Så lyt med og se hvordan håbet folder sig ud denne gang.'
 category: podcast

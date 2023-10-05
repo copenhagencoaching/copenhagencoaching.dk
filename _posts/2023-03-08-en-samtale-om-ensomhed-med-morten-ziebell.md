@@ -1,6 +1,6 @@
 ---
 title: En Samtale om Ensomhed med Morten Ziebell
-image: /images/frontpage/pc-6.png
+image: /images/blog/podcast-cover.png
 description: 'Andreas Bering har besøg af Neurokirurg og lægefaglig vicedirektør for Sjællands Universitetshospital, Morten Ziebell. Samtalen handler om ensomheden i de beslutninger, der vedrører liv og død. Dem kender Morten bla. fra lægens ulvevagt – den vagt, hvor du som læge står helt alene med ansvaret. Men også ensomheden som leder tales frem og giver nyt og måske tankevækkende liv til talemåden, at der er koldt på toppen.'
 category: podcast
 meta-image: /images/podcasts/4.png

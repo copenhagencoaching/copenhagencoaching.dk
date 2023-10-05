@@ -1,6 +1,6 @@
 ---
 title: En Samtale om Sårbarhed med Stefan Hermann
-image: /images/frontpage/pc-6.png
+image: /images/blog/podcast-cover.png
 description: 'Stefan Hermann, rektor på Københavns Professionshøjskole, er en markant meningsdanner om dannelse, værdier og fællesskab. Gå med på opdagelse, når Hermann i denne podcast taler med Andreas Bering og Jesper Nøddesbo om sårbarhed i ledelse, den nære sårbarhed, og hvad der mon er på den anden side af sårbarheden.'
 category: podcast
 meta-image: /images/podcasts/4.png

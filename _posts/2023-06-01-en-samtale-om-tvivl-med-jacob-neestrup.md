@@ -1,6 +1,6 @@
 ---
 title: En Samtale om mod med Jacob Neestrup
-image: /images/frontpage/pc-6.png
+image: /images/blog/podcast-cover.png
 description: 'Reflekter med når Jacob Neestrup i vores podcast taler med Andreas Bering og Jesper Nøddesbo om tvivl, i en verden hvor kun sejr tæller, og lyt med når tvivlen og sårbarheden viser sig hos mestertræneren. Lyt med her.'
 category: podcast
 meta-image: /images/podcasts/4.png

@@ -1,6 +1,6 @@
 ---
 title: En samtale om Valg med Uffe Savery
-image: /images/frontpage/pc-6.png
+image: /images/blog/podcast-cover.png
 description: "Uffe Savery musiker, rektor , musikchef, titlerne og bedrifterne taler for sig selv. Lyt og reflekter med når Uffe Savery i vores podcast taler om hvordan valget fylder i hans hverdag. både når de er store og livsbetydende og mindre men stadig fylder."
 category: podcast
 meta-image: /images/podcasts/4.png

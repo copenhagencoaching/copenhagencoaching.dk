@@ -1,6 +1,6 @@
 ---
 title: En Samtale om Mod med Lærke Hein
-image: /images/frontpage/pc-6.png
+image: /images/blog/podcast-cover.png
 description: 'Lærke Hein er blevet kaldt ”Kulturentreprenør” og ”Kødbyensdronning”. Hun er i dag CEO på Tunnelfabrikken og Bestyrelsesformand for Distortion Festival. Lyt og reflekter med når Lærke i vores podcast taler med Andreas Bering og Jesper Nøddesbo om mod. Hvad skal der til for at mod kan opstå, hvad koster mod? Er det mod der er på spil når man skal stå fast, og være vedholdende? Er mod ens ven eller fjende?'
 category: podcast
 meta-image: /images/podcasts/4.png

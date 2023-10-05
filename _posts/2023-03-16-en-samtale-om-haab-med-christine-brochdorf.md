@@ -1,6 +1,6 @@
 ---
 title: En Samtale om Håb med Christine Brochdorf
-image: /images/frontpage/pc-6.png
+image: /images/blog/podcast-cover.png
 description: 'I den første af en række samtaler om HÅB møder vi Christine Brochdorf, kommunaldirektør i Egedal Kommune. Christine har mange års erfaring med offentlig topledelse og velfærd. Hvilke betydninger har håbet for Christine? Det kan både være slumrende, retningsgivende og benzin på bålet.'
 category: podcast
 meta-image: /images/podcasts/4.png

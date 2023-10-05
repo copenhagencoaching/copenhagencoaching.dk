@@ -1,6 +1,6 @@
 ---
 title: En Samtale om Håb med Martin Lidegaard
-image: /images/frontpage/pc-6.png
+image: /images/blog/podcast-cover.png
 description: 'Vi sætter et tankevækkende punktum for temarækken om HÅB sammen med politisk leder for Radikale Venstre, Martin Lidegaard. Som mange andre blev Martin voldsomt inspireret af tidligere præsident Barack Obamas tale til FN i 2014 om at vælge at håbe frem for at frygte. Martin Lidegaard har en perlerække af initiativer bag sig, som måske netop illustrerer håbet, og hvordan det for ham hænger uløseligt sammen med handling. Det er en løftestang for fællesskabet, både det nære fællesskab i familien og det store globale fællesskab.'
 category: podcast
 meta-image: /images/podcasts/4.png

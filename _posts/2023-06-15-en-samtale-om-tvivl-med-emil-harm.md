@@ -1,6 +1,6 @@
 ---
 title: En samtale om Tvivl med Emil Harm
-image: /images/frontpage/pc-6.png
+image: /images/blog/podcast-cover.png
 description: "Når filosofien og hiphoppen møder hinanden. Emil Harm\_er musikproducer, og filosof. Lyt og reflekter med når Harm i\_vores podcast taler om hvordan tvivlen kommer til stede midt i en hiphop produktion, under filosofistudierne eller på skateboard rampen."
 category: podcast
 meta-image: /images/podcasts/4.png
