@@ -20,7 +20,7 @@ layout: default
             </div>
         </div>
         {% if page.pdf %}<a class="btn-beaver btn w-254 btn-bold fs-6 me-md-5 text-white h-50"
-            onclick="window.location.replace('{{ page.pdf }}'); gtag('event','click', { 'event_category':'brochure download', 'event_label':'brochure download - {{ page.title }}' })"
+            onclick="window.open('{{ page.pdf }}', '_blank'); gtag('event','click', { 'event_category':'brochure download', 'event_label':'brochure download - {{ page.title }}' })"
             target="_blank">Hent brochure</a>{% endif %}
         <a class="btn-slate-gray text-white btn w-254 btn-bold fs-6 h-50" href="#kontakt-underviseren">Kontakt
             underviseren</a>
