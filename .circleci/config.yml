@@ -72,12 +72,12 @@ jobs:
           name: Deliver
           command: play --manuscript .circleci/play-proflow-cci-gh.yml --part deliver
 
-  stage-deploy:
+  prod-deploy:
     working_directory: /app/_site
     docker:
       - image: lakruzz/play:latest
         environment:
-          PLAY_TARGET_GH_REPO:   copenhagencoaching/stage.copenhagencoaching.dk
+          PLAY_TARGET_GH_REPO:   copenhagencoaching/www.copenhagencoaching.dk
           PLAY_USER_NAME:        Circle CI by @CopenhagenCoaching
           PLAY_USER_EMAIL:       support@copenhagencoaching.dk
     steps:
@@ -90,22 +90,6 @@ jobs:
       - run:
           name: Deploy to GitHub Pages
           command: play --manuscript ../.circleci/play-proflow-cci-gh.yml --part ghpages_deploy
-
-  prod-deploy:
-   working_directory: /app/_site
-   docker:
-     - image: lakruzz/play:latest
-       environment:
-         PLAY_TARGET_GH_REPO:   copenhagencoaching/www.copenhagencoaching.dk
-         PLAY_USER_NAME:        Circle CI by @CopenhagenCoaching
-         PLAY_USER_EMAIL:       support@copenhagencoaching.dk
-   steps:
-     - restore_cache:
-         keys:
-           - the-built-repo-
-     - run:
-         name: Deploy to GitHub Pages
-         command: play --manuscript ../.circleci/play-proflow-cci-gh.yml --part ghpages_deploy
 
 workflows:
   version: 2
@@ -133,7 +117,7 @@ workflows:
             branches:
               only:
                 - /ready\/.*/
-      - stage-deploy:
+      - prod-deploy:
           requires:
             - prep-repo
             - jekyll-build
@@ -141,12 +125,3 @@ workflows:
             branches:
               only:
                 - /master/
-      - prod-deploy:
-          requires:
-            - prep-repo
-            - jekyll-build
-          filters:
-            branches:
-              ignore: /.*/
-            tags:
-              only: /^\d+\.\d+\.\d+$/ # Semantic version number
