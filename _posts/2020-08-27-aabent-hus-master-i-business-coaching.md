@@ -32,4 +32,3 @@ Du vil løbende have mulighed for at stille spørgsmål i chatten undervejs.
 
 Du skal blot klikke på linket [her](https://www.facebook.com/copenhagencoaching.dk/live){:target="_blank"} som tager dig direkte til vores Live Session på Facebook.
 
-**Tilmelding** er ikke nødvendig, men skriv dig gerne op til vores nyhedsbrev [her](#contact){: data-toggle="modal" data-target="#contact-modal"}, så du fremover får besked om kommende events og nyheder fra CCC.

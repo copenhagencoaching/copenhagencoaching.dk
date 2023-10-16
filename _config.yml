@@ -50,41 +50,15 @@ collections:
   coachings:
     output: true
     permalink: /coaching/:title/
-  consultations:
-    output: true
-    permalink: /consultations/:title/
-  internationals:
-    output: true
-    permalink: /internationals/:title/
-  fundament:
-    output: true
-    permalink: /fundament/:title/
   pages:
     output: true
     permalink: /:title/
   texts:
     output: true
     permalink: /tekster/:title/
-  pfp-sites:
-    output: true
-    permalink: /pfp/:title/
-  pip-contributors:
-    output: true
-    permalink: /protrptik-som-behandlingsform-og-ledelsesdisciplin/bidragsydere/:title/
-  testimonials:
-    output: false
-  edu-categories:
-    output: true
-    permalink: /:title/
-  calendar:
-    output: true
-    permalink: /:title/
   publications:
     output: true
     permalink: /udgivelser/:title/
-  pfp:
-    output: false
-    permalink: /:title/
   landings:
     output: true
     permalink: /:title/
@@ -115,52 +89,12 @@ defaults:
       layout: coaching
   -
     scope:
-      type: consultations
-    values:
-      layout: service
-  -
-    scope:
-      type: fundament
-    values:
-      layout: fundament
-  -
-    scope:
-      type: internationals
-    values:
-      layout: international
-  -
-    scope:
       type: text
     values:
       layout: default
   -
     scope:
-      type: pfp-site
-    values:
-      layout: pfp-info
-  -
-    scope:
-      type: pip-contributors
-    values:
-      layout: pip-contributors
-  -
-    scope:
-      type: edu-categories
-    values:
-      layout: default
-  -
-    scope:
-      type: calendar
-    values:
-      layout: default
-  -
-    scope:
       type: publications
-    values:
-      layout: page
-  -
-    scope:
-      type: pfp
     values:
       layout: page
   -
