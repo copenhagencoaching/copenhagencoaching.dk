@@ -131,6 +131,7 @@ cat:
 - put
 redirect_from:
 - /academy/psykologisk-filosofisk-psykoterapi/
+- /academy/psykologisk-filosofisk-psykoterapeut-uddannelse/
 infomode: false
 infomode-text: Kom til informationsmøde omkring uddannelsen.
 infomode-dates:

@@ -7,6 +7,8 @@ image-2: /images/educations/graeker.png
 meta-title: Lederkursus - Intensivt kursus i ledelse, der rykker dig
 meta-description: Dette intense forløb skærper dine refleksioner over og fornemmelser for det, der afgør dine handlinger i din ledelsespraksis. Med andre ord bliver du tydelig omkring dine grundværdier og dit råderum, når du leder.
 kategori: samtaler
+redirect_from:
+  - /academy/ledelseskurses-paa-lesbos/
 layout: course
 pdf: https://www.copenhagencoaching.dk/pdfs/Ledelsesrejse-på-lebos.pdf
 overblik:

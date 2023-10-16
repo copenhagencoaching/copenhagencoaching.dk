@@ -493,6 +493,7 @@ hold_eller_begivenheder: true
 oe-order: 1
 redirect_from:
   - /master-business-coaching-mbc/
+  - /academy/master-of-business-coaching/
 cat:
 - master-2
 - lederskab

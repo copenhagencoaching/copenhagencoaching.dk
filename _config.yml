@@ -46,7 +46,7 @@ collections:
     permalink: /employees/:title/
   educations:
     output: true
-    permalink: /academy/:title/
+    permalink: /uddannelser/:title/
   coachings:
     output: true
     permalink: /coaching/:title/

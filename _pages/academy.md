@@ -11,5 +11,4 @@ description: CCC tilbyder åbne uddannelser, lederuddannelser og kurser til dig,
   ønsker høj faglig kvalitet og virkelighedsnære læreprocesser i samspillet mellem
   teori og praksis.
 signup: Uddannelses tilbud
-
 ---

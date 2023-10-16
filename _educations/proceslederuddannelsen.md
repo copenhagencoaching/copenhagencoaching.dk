@@ -173,6 +173,8 @@ hold:
 contact-person: Ghita Vejlebo
 event-title: Kommende hold
 order: 8
+redirect_from:
+  - /academy/proceslederuddannelsen/
 location: Blegdamsvej 104D, 3. sal, 2100 København Ø
 special: false
 kort: true

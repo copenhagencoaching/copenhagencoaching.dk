@@ -3,6 +3,8 @@ order: 3
 title: Online certificering i personlighedstesten BIG FIVE
 image: "/images/events/big-five-event-5.jpg"
 image-2: "/images/educations/bf-1.png"
+redirect_from:
+  - /academy/certificering-i-big-five/
 meta-title: Big five - Markedets bedste personlighedst. Bliv certificeret hos CCC.
 meta-description: Ved hjælp af BIG FIVE testen kan organisationen, ledere og medarbejdere få indsigt i grundlaget for udvikling, samarbejde og fremtidigt potentiale for den enkelte, for teamet og for medarbejdergruppen.
 contact-person: Frederikke Winther
