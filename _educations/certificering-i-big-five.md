@@ -8,7 +8,7 @@ meta-description: Ved hjælp af BIG FIVE testen kan organisationen, ledere og me
 contact-person: Frederikke Winther
 header: Online certificering i personlighedstesten BIG FIVE
 dage: 6
-small-price: 19.500,- EKSKL. MOMS
+small-price: 22.500,- EKSKL. MOMS
 layout: course
 hours: "21,5"
 overblik:
@@ -61,7 +61,7 @@ kursus-oversigt: true
 aktive-hold: true
 hold:
 - title: BFC23-3
-  price: 19.500 ekskl. moms
+  price: 22.500 ekskl. moms
   dates: 19. sep - 27. okt 2023
   modules:
   - date: 19. september

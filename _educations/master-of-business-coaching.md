@@ -97,9 +97,8 @@ undervisere:
 - name: Mette Mejlhede
 - name: Andreas Bering
 - name: Frederikke Winther
-- name: Camilla Ingwersen
 - name: Jesper Nøddesbo
-- name: Camilla Dindler
+- name: Rasmus Mejlhede
 pdf: "https://www.copenhagencoaching.dk/pdfs/MBC_folder_forår_24.pdf"
 emails:
 - ab@copenhagencoaching.dk
@@ -503,6 +502,7 @@ infomode: true
 infomode-text: Kom til informationsmøde om vores masteruddannelse.
 infomode-dates:
 - 24. oktober 16:00 - 17:30 (Fysisk)
+- 1. november 16:00 - 17:00 (Online)
 anbefalinger-video: false
 video-url: /videos/gitte-web.mp4
 video-text: "<br>Hvad siger tidligere studerende om Master of Business Coaching? Hør hvad Gitte Overgaard mener om uddannelsen.<br><br>
