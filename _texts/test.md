@@ -1,6 +1,6 @@
 ---
 title: Uddannelse
-layout: test-layout
+layout: default
 description: Beskrivelse af uddannelse
 image: "/images/academy/executive-transition.jpg"
 permalink: "/test-uddannelse/"

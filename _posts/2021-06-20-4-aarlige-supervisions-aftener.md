@@ -9,7 +9,7 @@ tags:
 ready: true
 order: 3
 published: false
-layout: sub-event
+layout: default
 place: Blegdamsvej 104 A, 2100 København Ø
 community: CCC Community arrangement
 time: 17.00-20.00

@@ -96,7 +96,7 @@ defaults:
     scope:
       type: publications
     values:
-      layout: page
+      layout: ousia
   -
     scope:
       type: landings
@@ -106,7 +106,7 @@ defaults:
     scope:
       type: consultings
     values:
-      layout: page
+      layout: consultings
 
 
 

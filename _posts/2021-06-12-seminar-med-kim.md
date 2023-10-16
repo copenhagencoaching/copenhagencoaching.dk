@@ -1,6 +1,6 @@
 ---
 title: Eksklusiv seminarrække med Kim Gørtz
-layout: sub-event
+layout: default
 under-title: Kims seminarer
 subtitle: Februar
 event-type: Seminar

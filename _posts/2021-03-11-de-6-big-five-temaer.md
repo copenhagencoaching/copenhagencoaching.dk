@@ -2,7 +2,7 @@
 title: Dyk ned i de 6 Big Five temaer
 subtitle: Januar
 under-title: Big Five seminarerne
-layout: sub-event
+layout: default
 image: "/images/academy/certificering-i-big-five.png"
 event-type: Seminar
 tags:
