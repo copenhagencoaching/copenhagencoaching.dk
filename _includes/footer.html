@@ -28,16 +28,13 @@
                     <p class="mb-1"><a href="{{ edu.url }}">{{ edu.title }}</a></p>
                         {% endfor %}
                     </div>
-                    <div class="col-6"> <h6 class="mt-3">Konsulentydelser</h6>
-                        {% assign orderedcats = site.consultations | sort: "order" %}
-                        {% for cat in orderedcats %}
-                        <p class="mb-1"><a href="{{ cat.url }}">{{ cat.title }}</a></p>
-                        {% endfor %}
+                    <div class="col-6"> <h6 class="mt-3">Navigation</h6>
                     
                         <div class="mt-3">
             
                         </div>
                         <p class="mb-1"><a href="/coaching/">Coaching</a></p>
+                        <p class="mb-1"><a href="/konsulentydelser/">Konsulentydelser</a></p>
                         <p class="mb-1"><a href="/Community/">Community</a></p>
                         <p class="mb-1"><a href="/about/">Om os</a></p>
                         <p class="mb-1"><a href="https://edu.copenhagencoaching.dk" target="_blank">Mit CCC</a></p>
