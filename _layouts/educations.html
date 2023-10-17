@@ -1,10 +1,5 @@
 ---
 layout: default
-title: Uddannelser
-redirect_from:
-  - /tilmelding/
-  - /academy/
-  - /academy/skraeddersyde-uddannelser/
 ---
 
 <div class="hero-image d-flex align-content-center align-items-center"
@@ -12,7 +7,7 @@ redirect_from:
 
     <div class="container-fluid text-center">
 
-        <h1 class="text-white mb-1">Uddannelser</h1>
+        <h1 class="text-white mb-1">{{ page.heading }}</h1>
 
         <div class="row">
             <div class="col-12 offset-lg-3 col-lg-6">
@@ -31,8 +26,7 @@ redirect_from:
 <div class="bg-platinum py-5">
     <div class="container-fluid">
         <div class="small-container">
-            <h5 class="text-uppercase">Ønsker du at blive dygtig til at føre produktive og virkningsfulde dialoger?</h5>
-            <p>At kunne flytte både grupper og individer i en mere konstruktiv retning og derved forebygge stress, organisatorisk stagnation og udbrændthed? Og har du brug for at komme i øjenhøjde med dig selv som menneske, leder eller terapeut? Så kan du vælge en af vores uddannelser, som foregår i et trygt og udviklende rum.</p>
+           {{ page.content}}
         </div>
     </div>
 </div>

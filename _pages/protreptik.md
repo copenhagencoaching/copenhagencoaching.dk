@@ -13,7 +13,7 @@ image-position: top
 
 ## Fordi ordene, vi siger, betyder noget
 
-Hvad angår Protreptikken, er den som samtaledisciplin at finde helt tilbage i antikkens filosofi, hvor specielt Platon og Aristoteles har forholdt sig til den og bygget videre herpå. Men Protreptikken har også historisk set udviklet sig op gennem Kristendommens æra og specielt langt ind i den psykologiserende Katolicisme, hvor syndsforladelse og sjæleransagelse bliver dominerende kendetegn. 
+Hvad angår Protreptikken, er den som samtaledisciplin at finde helt tilbage i antikkens filosofi, hvor specielt Platon og Aristoteles har forholdt sig til den og bygget videre herpå. Men Protreptikken har også historisk set udviklet sig op gennem Kristendommens æra og specielt langt ind i den psykologiserende Katolicisme, hvor syndsforladelse og sjæleransagelse bliver dominerende kendetegn.
 
 
 

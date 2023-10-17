@@ -1,0 +1,4 @@
+---
+title: quiz
+layout: quiz
+---

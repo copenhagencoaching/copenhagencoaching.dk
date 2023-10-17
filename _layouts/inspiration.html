@@ -11,8 +11,8 @@ layout: default
                 <div class="row">
                     <div class="col-12 col-md-6 col-xl-4">
                         <div style="background-color: rgba(255, 255, 255, 0.8);" class="p-5">
-                            <h1 class="mb-1">Inspiration</h1>
-                            <p>Blogposts, podcasts, videoer mm. til inspiration</p>
+                            <h1 class="mb-1">{{ page.title }}</h1>
+                            <p>{{ page.content }}</p>
                         </div>
                     </div>
                 </div>
@@ -25,7 +25,7 @@ layout: default
 
 <div class="container-fluid py-5">
  
-        <h2 class="mb-4">Blogs og artikler</h2>
+        <h2 class="mb-4">{{ page.article-heading }}</h2>
         <div class="insp-responsive">
             {% for post in site.categories.blog %}
             <!-- <div class="h-200 w-100"><img src="{{ post.image }}" class="object-fit" alt=""></div>
@@ -87,7 +87,7 @@ layout: default
 <div class="bg-platinum">
     <div class="container-fluid py-5">
       
-            <h2 class="mb-4">Podcasts</h2>
+            <h2 class="mb-4">{{ page.podcast-heading }}</h2>
             
             <div class="insp-responsive-pod">
               {% assign sorted_posts = site.tags.podcast | sort: "date" | reversed %}
@@ -128,7 +128,7 @@ layout: default
 
 <div class="container-fluid pt-5 pb-2">
 
-        <h2 class="mb-4">Videoer</h2>
+        <h2 class="mb-4">{{ page.video-heading }}</h2>
         <div class="insp-responsive">
             {% for post in site.categories.video %}
             <!-- <div class="h-200 w-100"><img src="{{ post.image }}" class="object-fit" alt=""></div>
@@ -165,7 +165,7 @@ layout: default
 
 <div class="container-fluid pt-5 pb-2">
 
-  <h2 class="mb-4">Udgivelser</h2>
+  <h2 class="mb-4">{{ page.publications-heading }}</h2>
   <div class="insp-responsive">
       {% for post in site.publications %}
       <!-- <div class="h-200 w-100"><img src="{{ post.image }}" class="object-fit" alt=""></div>
