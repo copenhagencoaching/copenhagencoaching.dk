@@ -91,15 +91,16 @@ redirect_from:
                 </h5>
                 <br>
                 <a href="/uddannelser/master-of-business-coaching/"
-                class="btn-white rounded-0 fw-bold text-uppercase">Læs mere om MBC uddannelse her</a>
-    
+                    class="btn-white rounded-0 fw-bold text-uppercase">Læs mere om MBC uddannelse her</a>
+
             </div>
         </div>
 
 
     </div>
-    <div class="col-5 d-none d-md-block px-0" style="background-image: url('/images/frontpage/fp-mbc.png'); background-size: cover; background-position: center;">
-<div class="h-100"></div>
+    <div class="col-5 d-none d-md-block px-0"
+        style="background-image: url('/images/frontpage/fp-mbc.png'); background-size: cover; background-position: center;">
+        <div class="h-100"></div>
     </div>
 </div>
 
@@ -319,31 +320,7 @@ redirect_from:
 
 
         </div>
-        <div class="col-12">
-            <div class="row g-5">
-                <div class="col-12">
-                    <h3 class="text-uppercase mb-4">
-                        Nyeste indlæg
-                    </h3>
-                    <p class="text-end fw-bold mt-2 small"><a href="/inspiration/">Se alle indlæg <i
-                        class="fa-solid fa-angles-right"></i></a></p>
-                </div>
-                {% for ind in site.categories.blog limit: 3 %}
 
-                <div class="col-12 col-md-6 col-lg-4">
-                    <a href="{{ ind.url}}">
-                    <img src="{{ ind.image }}" alt="" class="object-fit w-100 h-200 mb-4">
-                    <h5 class="text-uppercase mb-3 d-inline-block">{{ ind.title }}</h5>
-                    <p class="mb-3">{{ ind.description}}</p>
-                    <a href="{{ ind.url }}" class="underlined">Læs her</a>
-                </a>
-                </div>
-
-                {% endfor %}
-
-            </div>
-
-        </div>
         {% if site.tags.act_event %}
         <div class="col-12">
             <div class="row g-5">
@@ -351,17 +328,65 @@ redirect_from:
                     <h3 class="text-uppercase mb-4">
                         Kommende events
                     </h3>
-                    
+
                 </div>
                 {% for ind in site.tags.act_event limit: 3 %}
 
                 <div class="col-12 col-md-6 col-lg-4">
                     <a href="{{ ind.url}}">
-                    <img src="{{ ind.image }}" alt="" class="object-fit w-100 h-200 mb-4">
-                    <h5 class="text-uppercase mb-3 d-inline-block">{{ ind.title }}</h5>
-                    <p class="mb-3">{{ ind.description}}</p>
-                    <a href="{{ ind.url }}" class="underlined">Læs her</a>
-                </a>
+                        <img src="{{ ind.image }}" alt="" class="object-fit w-100 h-200 mb-4">
+                        {% assign postmonth = ind.date | date: "%m" %}
+                        {% if postmonth == "01" %}
+                        {% assign monthName = "januar" %}
+                        {% elsif postmonth == "02" %}
+                        {% assign monthName = "februar" %}
+                        {% elsif postmonth == "03" %}
+                        {% assign monthName = "marts" %}
+                        {% elsif postmonth == "04" %}
+                        {% assign monthName = "april" %}
+                        {% elsif postmonth == "05" %}
+                        {% assign monthName = "maj" %}
+                        {% elsif postmonth == "06" %}
+                        {% assign monthName = "juni" %}
+                        {% elsif postmonth == "07" %}
+                        {% assign monthName = "juli" %}
+                        {% elsif postmonth == "08" %}
+                        {% assign monthName = "august" %}
+                        {% elsif postmonth == "09" %}
+                        {% assign monthName = "september" %}
+                        {% elsif postmonth == "10" %}
+                        {% assign monthName = "oktober" %}
+                        {% elsif postmonth == "11" %}
+                        {% assign monthName = "november" %}
+                        {% elsif postmonth == "12" %}
+                        {% assign monthName = "december" %}
+                        {% endif %}
+
+                        <div class="row">
+                            <div class="col">
+                                <p>
+                                    <b>
+                                        {{ ind.date | date: "%d. "}} {{
+                                        monthName
+                                        }}{{ ind.date | date:
+                                        "
+                                        %Y"}}
+                                    </b>
+                                </p>
+
+                            </div>
+                            <div class="col text-end">
+                                <p>
+                                    <b>{{ ind.time }}</b>
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <h5 class="text-uppercase mb-3 d-inline-block">{{ ind.title }}</h5>
+                        <p class="mb-3">{{ ind.description}}</p>
+                        <a href="{{ ind.url }}" class="underlined">Læs her</a>
+                    </a>
                 </div>
 
                 {% endfor %}
@@ -371,8 +396,34 @@ redirect_from:
         </div>
         {% endif %}
 
+        <div class="col-12">
+            <div class="row g-5">
+                <div class="col-12">
+                    <h3 class="text-uppercase mb-4">
+                        Nyeste indlæg
+                    </h3>
+                    <p class="text-end fw-bold mt-2 small"><a href="/inspiration/">Se alle indlæg <i
+                                class="fa-solid fa-angles-right"></i></a></p>
+                </div>
+                {% for ind in site.categories.blog limit: 3 %}
 
-<!--         <div class="col-12 col-md-6 col-xl-4 d-none d-md-block">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <a href="{{ ind.url}}">
+                        <img src="{{ ind.image }}" alt="" class="object-fit w-100 h-200 mb-4">
+                        <h5 class="text-uppercase mb-3 d-inline-block">{{ ind.title }}</h5>
+                        <p class="mb-3">{{ ind.description}}</p>
+                        <a href="{{ ind.url }}" class="underlined">Læs her</a>
+                    </a>
+                </div>
+
+                {% endfor %}
+
+            </div>
+
+        </div>
+
+
+        <!--         <div class="col-12 col-md-6 col-xl-4 d-none d-md-block">
             <div class="bg-platinum p-5 h-100">
                 <div class="row gx-0">
                     <div class="col-12">
@@ -411,7 +462,7 @@ redirect_from:
 
         </div> -->
         <!-- on mobile -->
-<!--         <div class="col-12 col-md-6 col-xl-4 d-md-none">
+        <!--         <div class="col-12 col-md-6 col-xl-4 d-md-none">
             <div class="h-100 mb-5 mt-3">
                 <h3 class="text-uppercase mb-4">
                     Nyeste indlæg
@@ -440,7 +491,7 @@ redirect_from:
             </div>
 
         </div> -->
-<!--         <div class="col-12 col-md-6 col-xl-8 d-md-none">
+        <!--         <div class="col-12 col-md-6 col-xl-8 d-md-none">
             <div class="h-100">
                 <div class="row">
                     <div class="col-xl-8 col-md-12">
@@ -519,7 +570,7 @@ redirect_from:
 
         </div> -->
         <!-- On mobile -->
-<!--         <div class="col-12 col-md-6 col-xl-8  d-none d-md-block">
+        <!--         <div class="col-12 col-md-6 col-xl-8  d-none d-md-block">
             <div class="bg-platinum p-5 h-100">
                 <div class="row">
                     <div class="col-xl-8 col-md-12">

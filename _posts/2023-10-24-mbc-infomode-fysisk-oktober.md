@@ -3,7 +3,7 @@ image: /images/events/events.jpg
 description: "Ønsker du at blive dygtig til at føre produktive og virkningsfulde
 dialoger – og stå stærkere i den personlige kontakt, så kom til informationsmøde om vores lederuddannelse Master of Business
 Coaching. En uddannelse der stimulerer din dialogiske kapacitet og lærer dig at blive endnu bedre til at holde
-på og om dig selv og andre i en hyperkompleks verden."
+på og om dig selv og andre i en hyperkompleks verden. Deltagelse er gratis."
 subtitle: Informationsmøde
 title: Informationsmøde - MBC (Master of Business Coaching)
 event-type: Informationsmøde
