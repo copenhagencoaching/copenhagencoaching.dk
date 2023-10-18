@@ -38,8 +38,7 @@ collections:
     output: true
     permalink: /uddannelser/:title/
   coachings:
-    output: true
-    permalink: /coaching/:title/
+    output: false
   pages:
     output: true
     permalink: /:title/
@@ -75,11 +74,6 @@ defaults:
       type: educations
     values:
       layout: education
-  -
-    scope:
-      type: coachings
-    values:
-      layout: coaching
   -
     scope:
       type: fundament
