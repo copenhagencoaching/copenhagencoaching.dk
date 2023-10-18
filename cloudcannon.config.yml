@@ -1,0 +1,121 @@
+source: /
+paths:
+  uploads: uploads
+  data: _data
+  layouts: _layouts
+  includes: _includes
+collections_config:
+  posts:
+    path: _posts
+    output: true
+    icon: notes
+    create:
+      path: >-
+        [relative_base_path]/{date|year}-{date|month}-{date|day}-{title|slugify}.[ext]
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+  drafts:
+    path: _drafts
+    output: false
+    icon: notes
+    create:
+      publish_to: posts
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+  employees:
+    path: _employees
+    output: true
+    icon: notes
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+  educations:
+    path: _educations
+    output: true
+    icon: notes
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+  coachings:
+    path: _coachings
+    output: false
+    icon: notes
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+  pages:
+    path: _pages
+    output: true
+    icon: notes
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+  texts:
+    path: _texts
+    output: true
+    icon: notes
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+  publications:
+    path: _publications
+    output: true
+    icon: notes
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+  landings:
+    path: _landings
+    output: true
+    icon: notes
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+  consultings:
+    path: _consultings
+    output: true
+    icon: notes
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+_inputs:
+  categories:
+    type: multiselect
+    options:
+      allow_create: true
+      empty_type: array
+    cascade: true
+  tags:
+    type: multiselect
+    options:
+      allow_create: true
+      empty_type: array
+    cascade: true
+_select_data:
+  sass:
+    style: compressed
+  responsive_image:
+    template: _includes/responsive-image.html
+    default_quality: 90
+    sizes:
+      - width: 255
+      - width: 510
+      - width: 1020
+      - width: 1800
+    auto_rotate: false
+    strip: false
+    base_path: assets
+    output_path_format: assets/responsive/%{width}/%{basename}
+    save_to_source: false
+    cache: false
+    extra_images:
+      - /images/{.jpeg}
+  config:
+    - _config_cc.yml
+    - _dev_config.yml
+_structures: {}
+_editables: {}
+data_config: {}
+timezone: Europe/Copenhagen
