@@ -15,6 +15,9 @@ collections_config:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
+    _inputs:
+      title:
+        label: Titel
   drafts:
     path: _drafts
     output: false
