@@ -18,6 +18,13 @@ collections_config:
     _inputs:
       title:
         label: Titel
+        comment: Indlæggets titel
+      description:
+        label: Beskrivelse
+        comment: Kort beskrivelse af indlægget
+      subtitle:
+        label: Undertitel
+      
   drafts:
     path: _drafts
     output: false
