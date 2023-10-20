@@ -1,11 +1,11 @@
 ---
-image: /images/consulting/c8.jpg
+title: Informationsmøde - MBC (Master of Business Coaching)
+subtitle: Informationsmøde
 description: "Ønsker du at blive dygtig til at føre produktive og virkningsfulde
 dialoger – og stå stærkere i den personlige kontakt, så kom til informationsmøde om vores lederuddannelse Master of Business
 Coaching. En uddannelse der stimulerer din dialogiske kapacitet og lærer dig at blive endnu bedre til at holde
 på og om dig selv og andre i en hyperkompleks verden."
-subtitle: Informationsmøde
-title: Informationsmøde - MBC (Master of Business Coaching)
+image: /images/consulting/c8.jpg
 date: 2023-11-01
 price: "Gratis"
 place: Online

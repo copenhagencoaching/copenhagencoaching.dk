@@ -98,9 +98,9 @@ layout: default
         <p>{{ page.attend_mes }}</p>
         {% endif %}
         {% endif %}
-        {% if page.link == true %}
+        {% if page.infomode == true %}
         <a class="btn btn-opal mt-2 text-uppercase fs-6 w-100 mb-3"
-          href="{{ page.link-url }}"><b>Tilmeld event</b></a>
+          href="/uddannelser/{{ page.infomode-link }}#infomode"><b>Tilmeld event</b></a>
         {% endif %}
         </div>
         <div class="mt-4 p-4 bg-opal">
