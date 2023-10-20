@@ -11,9 +11,6 @@ future: true
 
 logo: /images/logo/ccc-logo-dark.png
 
-whitelist:
-  - jekyll-redirect-from
-
 sass:
   style: compressed
 
