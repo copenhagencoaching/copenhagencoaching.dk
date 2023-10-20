@@ -24,7 +24,13 @@ collections_config:
         comment: Kort beskrivelse af indlægget
       subtitle:
         label: Undertitel
-      
+  events:
+    path: _events
+    output: true
+    icon: notes
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
   drafts:
     path: _drafts
     output: false
