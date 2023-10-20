@@ -25,7 +25,7 @@ collections_config:
       subtitle:
         label: Undertitel
   events:
-    path: _employees
+    path: _events
     output: true
     icon: notes
     disable_add: false
