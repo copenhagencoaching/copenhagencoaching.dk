@@ -64,6 +64,9 @@ collections:
   consultings:
     output: true
     permalink: /konsulentydelser/:title/
+  events:
+    output: true
+    permalink: /events/:title/
 
 defaults:
   -
@@ -101,7 +104,11 @@ defaults:
       type: consultings
     values:
       layout: consultings
-
+  -
+    scope:
+      type: events
+    values:
+      layout: event
 
 
 

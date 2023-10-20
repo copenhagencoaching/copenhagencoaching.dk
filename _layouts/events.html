@@ -26,11 +26,16 @@ layout: default
 
     <div class="small-container">
       <div class="row gy-5 gx-5">
-        {% if site.tags.act_event %}
-        {% assign ordered_events = site.tags.act_event | sort: date %}
+        {% for event in site.events %}
+        {% capture eventexist %}
+        {{ event.published }}
+        {% endcapture %}
+        {% endfor %}
+        {% if eventexist contains "true" %} <!-- Tjek om der er nogen events -->
+
+        {% assign ordered_events = site.events | sort: 'date' %}
+
         {% for event in ordered_events %}
-        {% if event.past == true %}
-        {% else %}
 
         <div class="col-12 mb-3">
           <div class="bg-white p-4">
@@ -101,7 +106,6 @@ layout: default
 
 
 
-        {% endif %}
         {% endfor %}
         {% endif %}
       </div>

@@ -2,198 +2,132 @@
 layout: default
 ---
 
-<div class="bg-black-coral pt-5 mt-5">
 
-  <div class="container-fluid mt-5">
+<div class="pt-5">
+
+  <div class="container-fluid mt-5 pt-5">
 
 
 
     <div class="responsive-lg-img"
       style="background: url('{{ page.image }}'); background-size: cover; background-position: center;">
     </div>
-    <div class="">
-
-      <h1 class="text-white mt-3">{{ page.title }}</h1>
-
-    </div>
+  
+    
   </div>
 
 
-
-
-
-
-
-
-  <div class="container-fluid my-3">
-
- 
-
-    <div class="row pb-5">
-      <div class="col-md-3 col-12">
-        <div class="row">
-          <div class="col-12">
-
-          
-
-
-
-            <div class="bg-{{ page.secondary-color }} w-100 p-4 mb-3">
-              {% if page.past %}
-              {% if page.cancelled == true %}
-            <p class="card-text mb-3 text-white">Arrangementet er aflyst</p>
-            {% else %}
-            <p class="card-text mb-3 text-white">Arrangementet er afholdt</p>
-            {% endif %}
-              {% else %}
-
-              <div class="row gx-5 gy-4">
-
-                <div class="col-12">
-                  <div>
-                    {% if page.past %}
-                    <p>Arrangementet er afholdt</p>
-                    {% else %}
-                    <p class="fs-6 mb-2 text-white"><b class="text-uppercase">Pris:</b><br>{{ page.price }}{% if page.ex-moms ==
-                      true
-                      %} (ekskl. moms){%
-                      endif %}
-                    </p>
-                    {% if page.two-discount %}
-                    <p class="text-uppercase text-white">2 personer: {{ page.two-discount }} {% if page.ex-moms == true %}
-                      (ekskl.
-                      moms){%
-                      endif %}</p>
-                    {% endif %}
-                    {% if page.community-free == true %}
-                    <p class="text-uppercase mb-0 text-white"><b>GRATIS</b> for medlemmer af CCC Community</p>
-                    {% endif %}
-                    {% if page.community-price %}
-                    <p class="text-uppercase mb-0 text-white"><b>{{ page.community-price }}</b>{% if page.ex-moms == true %}
-                      (ekskl.
-                      moms){%
-                      endif %} for medlemmer af CCC Community</p>
-                    {% endif %}
-                  </div>
-                </div>
-                <div class="col-12">
-                  <div>
-                    {% assign postmonth = page.date | date: "%m" %}
-
-
-                    {% if postmonth == "01" %}
-                    {% assign monthName = "Januar" %}
-                    {% elsif postmonth == "02" %}
-                    {% assign monthName = "Februar" %}
-                    {% elsif postmonth == "03" %}
-                    {% assign monthName = "Marts" %}
-                    {% elsif postmonth == "04" %}
-                    {% assign monthName = "April" %}
-                    {% elsif postmonth == "05" %}
-                    {% assign monthName = "Maj" %}
-                    {% elsif postmonth == "06" %}
-                    {% assign monthName = "Juni" %}
-                    {% elsif postmonth == "07" %}
-                    {% assign monthName = "Juli" %}
-                    {% elsif postmonth == "08" %}
-                    {% assign monthName = "August" %}
-                    {% elsif postmonth == "09" %}
-                    {% assign monthName = "September" %}
-                    {% elsif postmonth == "10" %}
-                    {% assign monthName = "Oktober" %}
-                    {% elsif postmonth == "11" %}
-                    {% assign monthName = "November" %}
-                    {% elsif postmonth == "12" %}
-                    {% assign monthName = "December" %}
-                    {% endif %}
-
-                    {% if page.late or page.late == true %}
-                    <p class="text-uppercase text-white"><b>Dato udskudt</b></p>
-                    {% else %}
-                    {% if page.only-month == true %}
-                    <p class="fs-6 mb-2 text-white"><b class="text-uppercase">Dato:</b><br>{{ monthName }}</p>
-                    {% else %}
-                    <p class="fs-6 mb-2 text-white"><b class="text-uppercase">Tid:</b><br>{{ page.date | date: "%d. "}} {{
-                      monthName
-                      }}{{ page.date | date:
-                      "
-                      %Y"}} - {{ page.time }}</p>
-
-
-
-
-                    {% endif %}
-                    {% endif %}
-                  </div>
-                </div>
-                <div class="col-12">
-                  <div>
-                    <p class="fs-6 mb-2 text-white"><b class="text-uppercase">Sted:</b><br> {{ page.place }}</h4>
-                      {% if page.google-maps %}
-                    <p class="mb-0 text-white">
-                      <a href="{{ page.google-maps }}" target="_blank" class="text-uppercase mb-0">Vis lokation på
-                        kort</a>
-                    </p>
-                    {% endif %}
-                  </div>
-
-                </div>
-
-              </div>
-
-              {% endif %}
-              {% endif %}
-            </div>
-            {% if page.past != true %}
-            {% if page.billetto %}
-            {% if page.billetto-nr %}
- 
-            <script src="https://billetto.dk/embed.js"></script>
-  
-  
-            <a class="btn btn-{{ page.prime-color }} mt-0 text-uppercase text-white fs-5 w-100 mb-3"
-              href="https://billetto.dk/e/nar-ledelse-finder-sjaelen-billetter-{{ page.billetto-nr }}/select?color=%23414344&whitelabel=true"><b>TILMELD</b></a>
-  
-  
-  
-            {% endif %}
-            {% else %}
-            
-            {% endif %}
-            {% endif %}
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6 col-12">
+  <div class="container-fluid pt-4 pb-5">
+    
+    <div class="row gx-5">
+      <div class="col-12 col-lg-9 link-blue">
         
-        <span class="text-white">{{ page.content }}</span>
-        {% if page.past != true %} 
-        {% if page.billetto %}
+        {{ page.content }}
+      </div>
+      <div class="col-12 col-lg-3">
+        <div class="w-100 bg-platinum p-4">
+          <p class="mb-0 text-uppercase">Dato</p>
+          
+            {% assign postmonth = page.date | date: "%m" %}
+
+
+            {% if postmonth == "01" %}
+            {% assign monthName = "Januar" %}
+            {% elsif postmonth == "02" %}
+            {% assign monthName = "Februar" %}
+            {% elsif postmonth == "03" %}
+            {% assign monthName = "Marts" %}
+            {% elsif postmonth == "04" %}
+            {% assign monthName = "April" %}
+            {% elsif postmonth == "05" %}
+            {% assign monthName = "Maj" %}
+            {% elsif postmonth == "06" %}
+            {% assign monthName = "Juni" %}
+            {% elsif postmonth == "07" %}
+            {% assign monthName = "Juli" %}
+            {% elsif postmonth == "08" %}
+            {% assign monthName = "August" %}
+            {% elsif postmonth == "09" %}
+            {% assign monthName = "September" %}
+            {% elsif postmonth == "10" %}
+            {% assign monthName = "Oktober" %}
+            {% elsif postmonth == "11" %}
+            {% assign monthName = "November" %}
+            {% elsif postmonth == "12" %}
+            {% assign monthName = "December" %}
+            {% endif %}
+
+          <p class="fw-bold text-uppercase fs-6">{{ page.date | date: "%d. "}} {{
+            monthName
+            }}{{ page.date | date:
+            "
+            %Y"}}</p>
+            <p class="mb-0 text-uppercase">Tid</p>
+            <p class="fw-bold text-uppercase fs-6">{{ page.time }}</p>
+
+            <p class="mb-0 text-uppercase">Sted</p>
+            <p class="fw-bold text-uppercase fs-6">{{ page.place }}</p>
+            {% if page.price %}
+            <p class="mb-0 text-uppercase">Pris</p>
+            <p class="fw-bold text-uppercase fs-6">{{ page.price }}</p>
+            {% endif %}
+            {% if page.community-price %}
+            <p class="mb-0 text-uppercase">Medlemspris</p>
+            <p class="fw-bold text-uppercase fs-6">{{ page.community-price }}</p>
+            {% endif %}
+
+            {% if page.community-free == true %}
+            <p class="mb-3 text-uppercase fw-bold">Gratis for CCC Community medlemmer</p>
+            {% endif %}
+
+            {% if page.billetto %}
         {% if page.billetto-nr %}
 
         <script src="https://billetto.dk/embed.js"></script>
 
 
-        <a class="btn btn-{{ page.prime-color }} mt-0 text-uppercase text-white fs-5 w-100 mb-3"
-          href="https://billetto.dk/e/nar-ledelse-finder-sjaelen-billetter-{{ page.billetto-nr }}/select?color=%23414344&whitelabel=true"><b>TILMELD</b></a>
+        <a class="btn btn-opal mt-2 text-uppercase fs-6 w-100 mb-3"
+          href="https://billetto.dk/e/nar-ledelse-finder-sjaelen-billetter-{{ page.billetto-nr }}/select?color=%23414344&whitelabel=true"><b>Tilmeld event</b></a>
 
 
-       
-        
+
+        {% endif %}
         {% else %}
-        <h4 class="text-white">Tilmelding kommer snart...</h4>
+        {% if page.past == true %}
+        {% else %}
+        <p>{{ page.attend_mes }}</p>
         {% endif %}
         {% endif %}
+        {% if page.link == true %}
+        <a class="btn btn-opal mt-2 text-uppercase fs-6 w-100 mb-3"
+          href="{{ page.link-url }}"><b>Tilmeld event</b></a>
         {% endif %}
-
-      </div>
-      <div class="col-md-3 col-12">
-        <img src="{{ page.image-2 }}" class="img-fluid" alt="{{ page.title }}">
+        </div>
+        <div class="mt-4 p-4 bg-opal">
+          <p class="fs-6">Bliv medlem af <b>CCC Community</b> og få adgang til vores events og mange flere fordele</p>
+          <p class="mb-1 fw-bold">Som medlem får du:</p>
+      <ul>
+        <li>Netværk, inspiration og supervison på min. 3 årlige træningsaftener</li>
+        <li>Min. to faglige arrangementer årligt</li>
+        <li>1 gratis eksemplar af nye CCC-udgivelser</li>
+        <li>Op til 10 årlige nyhedsbreve</li>
+        <li>15% rabat på events, eksklusive arrangementer og udvalgte kurser</li>
+      </ul>
+      <a class="btn bg-white mt-2 text-uppercase fs-6 w-100 mb-3"
+          href="/community/"><b>Bliv medlem af community</b></a>
+        </div>
       </div>
     </div>
 
   </div>
-</div>
+
+
+
+  {% include sections/events-2-other.html name=page.title %}
+
+  {% include /sections/courses.html name=page.title %}
+  {% include /sections/newsletter.html %}
+<!-- 
 
 <div class="container-fluid mt-5 mb-5">
   <div class="row gx-5">
@@ -217,7 +151,8 @@ layout: default
 
       {% endif %}
 
-      <h2 class="xlarge thin capped mb-4">Bliv medlem af community og få gratis adgang til vores kommende event med Rasmus Kragh, <br>samt mange flere store navne og begivenheder i 2022.</h2>
+      <h2 class="xlarge thin capped mb-4">Bliv medlem af community og få gratis adgang til vores kommende event med
+        Rasmus Kragh, <br>samt mange flere store navne og begivenheder i 2022.</h2>
 
       <p class="mb-1">Som medlem får du også:</p>
       <ul>
@@ -227,24 +162,30 @@ layout: default
         <li>Op til 10 årlige nyhedsbreve</li>
         <li>15% rabat på events, eksklusive arrangementer og udvalgte kurser</li>
       </ul>
-     
-      <a href="/community/" class="btn btn-black-coral text-white text-uppercase fs-6"><b>Tilmeld dig community her</b></a>
-    
+      <a href="/community/" class="btn btn-black-coral text-white text-uppercase fs-6"><b>Tilmeld dig community
+          her</b></a>
     </div>
   </div>
 
-</div>
+</div> -->
 <!-- <div class="container-fluid extra-narrow-container">
+
+
   <div class="align-center">
     <h1><a href="/registration/?n=community-medlemsskab">Bliv medlem</a></h1>
     <p>Et medlemskab af CCC Community giver dig adgang til et eksklusivt lukket fagligt netværk, samt gratis adgang
       til flere CCC arrangementer året rundt.</p>
   </div>
+
+
   <div class="align-center">
     <h2>Medlemsfordele</h2>
     <p>Som CCC Community-medlem bliver du både klogere på din og andres ledelse og får derudover en lang række
       økonomiske fordele</p>
   </div>
+
+
+
 </div> -->
 
 
@@ -261,6 +202,7 @@ layout: default
   
     </div>
   </div>
+
   <div class="container-fluid extra-narrow-container">
       <div class="floating-top white">
           {{ page.content }}

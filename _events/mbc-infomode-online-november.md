@@ -3,30 +3,18 @@ image: /images/consulting/c8.jpg
 description: "Ønsker du at blive dygtig til at føre produktive og virkningsfulde
 dialoger – og stå stærkere i den personlige kontakt, så kom til informationsmøde om vores lederuddannelse Master of Business
 Coaching. En uddannelse der stimulerer din dialogiske kapacitet og lærer dig at blive endnu bedre til at holde
-på og om dig selv og andre i en hyperkompleks verden. Deltagelse er gratis."
+på og om dig selv og andre i en hyperkompleks verden."
 subtitle: Informationsmøde
-title: Informationsmøde - MBC (Master of Business Coaching) - Online
-event-type: Informationsmøde
-category: event
-tags:
-- event
-- infomøde
-- act_event
-layout: event-new
-only-month: false
+title: Informationsmøde - MBC (Master of Business Coaching)
+date: 2023-11-01
 price: "Gratis"
-billetto: false
-image-2: /images/events/events.jpg
-ex-moms: true
-prime-color: army-green
-secondary-color: scandy-blue
 place: Online
 time: 16:00 - 17:00
-link: true
-link-url: /academy/master-of-business-coaching/#infomode
-community-free: false
+billetto: false
 billetto-nr: 611228
-attend_mes:
+infomode: true
+infomode-link: master-of-business-coaching
+published: true
 ---
 ### Informationsmøde - MBC (Master of Business Coaching)
 
