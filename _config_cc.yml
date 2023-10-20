@@ -45,12 +45,9 @@ collections:
   texts:
     output: true
     permalink: /tekster/:title/
-  edu-categories:
-    output: true
-    permalink: /:title/
   publications:
     output: true
-    permalink: /ousia/:title/
+    permalink: /udgivelser/:title/
   landings:
     output: true
     permalink: /:title/
@@ -77,11 +74,6 @@ defaults:
       type: educations
     values:
       layout: education
-  -
-    scope:
-      type: fundament
-    values:
-      layout: fundament
   -
     scope:
       type: text
