@@ -195,6 +195,7 @@ hold_eller_begivenheder: true
 redirect_from:
   - /coaching/proceslederuddannelse/
   - /academy/procesleder-uddannelse/
+  - /academy/proceslederuddannelse/
 cat:
   - proces
 infomode: false
