@@ -500,7 +500,7 @@ cat:
 - put
 - coaching
 infomode: true
-infomode-text: Kom til informationsmøde om vores masteruddannelse.
+infomode-text: Kom til informationsmøde om vores masteruddannelse
 infomode-dates:
 - 1. november 16:00 - 17:00 (Online)
 anbefalinger-video: false
