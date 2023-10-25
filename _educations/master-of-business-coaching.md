@@ -502,7 +502,6 @@ cat:
 infomode: true
 infomode-text: Kom til informationsmøde om vores masteruddannelse.
 infomode-dates:
-- 24. oktober 16:00 - 17:30 (Fysisk)
 - 1. november 16:00 - 17:00 (Online)
 anbefalinger-video: false
 video-url: /videos/gitte-web.mp4
