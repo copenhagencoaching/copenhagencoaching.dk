@@ -511,7 +511,7 @@ anbefalinger: false
 anbefalinger-text: false
 ---
 
-### Hvorfor skal du vælge Master of Business Coaching?
+#### Hvorfor skal du vælge Master of Business Coaching?
 
 Ønsker du at blive dygtig til at føre produktive og virkningsfulde dialoger? At kunne flytte både grupper og individer i en mere konstruktiv retning og derved forebygge stress, organisatorisk stagnation og udbrændthed? Så vælg uddannelsen: Master of Business Coaching (MBC).
 

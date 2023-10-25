@@ -33,8 +33,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v2
       - name: Push generated webpage to another repository
         uses: nkoppel/push-files-to-another-repository@v1.1.2
         env:
