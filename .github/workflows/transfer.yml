@@ -3,7 +3,7 @@ name: Push _site to New Repository
 on:
   push:
     branches:
-      - main
+      - master
 permissions:
   contents: write
 jobs:
@@ -42,5 +42,5 @@ jobs:
             destination-username: 'copenhagencoaching'
             destination-repository: 'www.copenhagencoaching.dk'
             destination-directory: '.'
-            destination-branch: 'main'
+            destination-branch: 'master'
             commit-email: 'support@copenhagencoaching.dk'
