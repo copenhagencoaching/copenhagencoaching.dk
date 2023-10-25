@@ -16,7 +16,7 @@ infomode: true
 infomode-link: master-of-business-coaching
 published: true
 ---
-### Informationsmøde - MBC (Master of Business Coaching)
+## Informationsmøde - MBC (Master of Business Coaching)
 
 Ønsker du at blive dygtig til at føre produktive og virkningsfulde dialoger – og stå stærkere i den personlige kontakt? Så kom til informationsmøde om vores MBC. En internationalt akkrediteret uddannelse der stimulerer din relationsevne og dialogiske kapacitet. Her lærer du at blive endnu bedre til at holde på og om dig selv og andre i en omskiftelig verden!
 

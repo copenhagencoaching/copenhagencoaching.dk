@@ -8,7 +8,7 @@ subtitle: Informationsmøde
 title: Informationsmøde - MBC (Master of Business Coaching)
 date: 2023-08-09
 price: "Gratis"
-place: Blegdamsvej 104A, 2. sal, 2100 København Ø
+place: Blegdamsvej 104A, 2. sal, 2100 København Ø.
 time: 16:00 - 17:30
 billetto: false
 billetto-nr: 611228
