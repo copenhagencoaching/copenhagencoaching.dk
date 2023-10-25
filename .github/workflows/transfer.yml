@@ -40,7 +40,7 @@ jobs:
         with:
             source-files: '_site/*'
             destination-username: 'copenhagencoaching'
-            destination-repository: 'neew'
+            destination-repository: 'www.copenhagencoaching.dk'
             destination-directory: '.'
             destination-branch: 'master'
             commit-email: 'support@copenhagencoaching.dk'
