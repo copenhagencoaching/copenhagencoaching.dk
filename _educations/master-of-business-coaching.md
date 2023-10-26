@@ -237,6 +237,11 @@ nested-hold:
       time: 09:30 - 16:00
       name: Eksamen
       place: Blegdamsvej
+    - date: 19. juni
+      day: "-"
+      time: 09:30 - 16:00
+      name: Eksamen
+      place: Blegdamsvej
   - title: Semester 4 - Forår 2024
     price: 47.500 (Ekskl. moms)
     dates: 31. januar - 15.  maj
