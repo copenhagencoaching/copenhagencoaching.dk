@@ -119,25 +119,8 @@ _inputs:
 _select_data:
   sass:
     style: compressed
-  responsive_image:
-    template: _includes/responsive-image.html
-    default_quality: 90
-    sizes:
-      - width: 255
-      - width: 510
-      - width: 1020
-      - width: 1800
-    auto_rotate: false
-    strip: false
-    base_path: assets
-    output_path_format: assets/responsive/%{width}/%{basename}
-    save_to_source: false
-    cache: false
-    extra_images:
-      - /images/{.jpeg}
   config:
     - _config_cc.yml
-    - _dev_config.yml
 _structures: {}
 _editables: {}
 data_config: {}
