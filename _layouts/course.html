@@ -139,22 +139,42 @@ layout: default
                 {% endif %}
                 {% endfor %}
             </div>
-            <div class="col-12 col-md-6 img-md-200">
+            <div class="col-12 col-md-6">
                 {% if page.video-thumb %}
+                
                 <div>
-                    <div class="video-container pt-0 mb-0"><video controls>
-                            <source src="{{ page.video-thumb }}" type="video/mp4">
-                            Your browser does not support HTML video.
-                        </video></div>
+                    <div>
+                        <div class="video-container pt-0 mb-0"><video controls muted autoplay>
+                                <source src="{{ page.video-thumb }}" type="video/mp4">
+                                Your browser does not support HTML video.
+                                {% if page.subs %}
+                                <track
+                                label="Danish"
+                                kind="subtitles"
+                                srclang="dk"
+                                src="{{ page.subs }}"
+                                default />
+                        {% endif %}
+                            </video></div>
+                    </div>
+
+
+
+                    <div class="mt-4">
+
+                    </div>
+                    <!-- AddToAny BEGIN -->
+                    {% if page.video-thumb-text %}
+                    <p>{{ page.video-thumb-text }}</p>
+                    {% endif %}
                 </div>
                 {% else %}
                 <div class="h-100"
                     style="background-image: url('{{ page.image-2 }}'); background-position: top; background-size: cover;">
-                </div>
+            </div>
                 {% endif %}
-                {% if page.video-thumb-text %}
-                <p>{{ page.video-thumb-text }}</p>
-                {% endif %}
+                
+                
             </div>
         </div>
         {% else %}
