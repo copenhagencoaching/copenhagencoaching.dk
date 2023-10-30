@@ -1,6 +1,6 @@
 ---
 title: Jesper Nøddesbo - et indspark i verdensklasse
-layout: story
+layout: blog
 permalink: /et-indspark-i-verdensklasse/
 description: "Inden den tidligere FC-Barcelona-spiller Jesper Nøddesbo i foråret annoncerede, at han ville indstille
 sin håndboldkarriere, havde Jesper allerede taget de første store skridt henimod en ny karrierevej.

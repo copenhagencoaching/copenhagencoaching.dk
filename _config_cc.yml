@@ -56,7 +56,7 @@ defaults:
     scope:
       type: posts
     values:
-      layout: story
+      layout: blog
   -
     scope:
       type: employees
