@@ -31,13 +31,6 @@ collections_config:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
-    _inputs:
-      title:
-        label: Titel
-        comment: Eventets titel
-      description:
-        label: Teaser
-        comment 
   drafts:
     path: _drafts
     output: false
