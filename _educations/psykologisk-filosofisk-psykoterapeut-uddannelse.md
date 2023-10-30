@@ -109,7 +109,6 @@ overblik:
   Faglitteraturen er primært på dansk, men engelsk kan forekomme."
 undervisere:
 - name: Mette Mejlhede
-- name: Ghita Vejlebo
 - name: Frederikke Winther
 - name: Camilla Ingwersen
 - name: Jack Købke

@@ -7,7 +7,7 @@ infomode: false
 redirect_from:
   - /academy/den-offentlige-lederuddannelse/
 infomode-text: Kom til Informationsmøde om vores uddannelser
-contact-person: Ghita Vejlebo
+contact-person: Andreas Bering
 description: Er du leder, eller drømmer du om at blive det? Trænger du til at få styrket dine lederkompetencer, og samtidig få de nyeste og brugbare værktøjer til medarbejdersamtaler og til håndtering af konfliktsituationer?
 header: Den offentlige lederuddannelse
 meta-title: Den offentlige lederuddannelse - Læs DOL hos Copenhagen Coaching Center
@@ -18,8 +18,6 @@ undervisere:
 - name: Line Arnmark
 - name: Andreas Bering
 - name: Marianne Vesterbirk
-- name: Ghita Vejlebo
-  text: Kvalitetsansvarlig for DOL’en og cand.mag
 sub-header: Få ny indsigt - og større udsyn - i dit lederskab
 overblik:
 - overskrift: Lederens værktøjer

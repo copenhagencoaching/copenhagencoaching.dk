@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 order: "9"
 title: Foredrag
 image: /images/graphic/foredrag.jpg

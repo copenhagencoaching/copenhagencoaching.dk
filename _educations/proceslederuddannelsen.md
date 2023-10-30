@@ -170,7 +170,7 @@ hold:
         time: 09:00 - 15:00
         name: Eksamen
         place: København
-contact-person: Ghita Vejlebo
+contact-person: Andreas Bering
 event-title: Kommende hold
 order: 8
 redirect_from:
@@ -185,8 +185,6 @@ kort-kode: >-
   referrerpolicy="no-referrer-when-downgrade"></iframe>
 undervisere:
   - name: Andreas Bering
-  - name: Ghita Vejlebo
-    text: Kvalitetsansvarlig for DOL’en og cand.mag
   - name: Line Arnmark
 layout: course
 emails:

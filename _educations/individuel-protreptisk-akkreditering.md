@@ -70,7 +70,6 @@ undervisere:
 - name: Frederikke Winther
 - name: Camilla Ingwersen
 - name: Jesper Nøddesbo
-- name: Ghita Vejlebo
 oe-order: 3
 cat:
 - filosofi
