@@ -95,6 +95,31 @@ collections_config:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
+    _inputs:
+      title:
+        label: Navn
+      order:
+        label: Rækkefølge
+      description:
+        label: Titler/titel
+        comment: Diretør, konsulent osv.
+      image:
+        label: Billede
+      small-portrait-image:
+        label: Billede (Lille)
+      call:
+        label: Telefon nr.
+      meta-title:
+        label: Titel (Metadata)
+      email:
+        label: E-mailadresse
+      on-om-os:
+        label: Aktiveret på "Om os" side
+        type: switch
+      edu:
+        label: Uddannelser
+      linkedin:
+        label: Linkedin link
   educations:
     path: _educations
     output: true
