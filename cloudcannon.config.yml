@@ -8,7 +8,7 @@ collections_config:
   posts:
     schemas:
       default:
-        path: schemas/blog-post.md
+        path: /.cloudcannon/schemas/blog-post.md
     path: _posts
     output: true
     icon: notes
