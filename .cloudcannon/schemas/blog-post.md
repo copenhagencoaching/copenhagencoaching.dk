@@ -1,7 +1,10 @@
 ---
-title: ''
+title:
 image:
-description: ''
-category: blog
-tags: []
+category:
+description:
+podcast-id:
+video:
+subs:
+published:
 ---
