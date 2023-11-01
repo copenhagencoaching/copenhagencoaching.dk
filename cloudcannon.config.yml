@@ -41,6 +41,9 @@ collections_config:
       image:
         label: Billede
   events:
+    schemas:
+      default:
+        path: /.cloudcannon/schemas/event.md
     path: _events
     output: true
     icon: notes
