@@ -6,14 +6,14 @@ Coaching. En uddannelse der stimulerer din dialogiske kapacitet og lærer dig at
 på og om dig selv og andre i en hyperkompleks verden."
 subtitle: Informationsmøde
 title: Informationsmøde - MBC (Master of Business Coaching)
+infomode: true
+infomode-link: MBC (Master of Business Coaching)
 date: 2023-08-09
 price: "Gratis"
 place: Blegdamsvej 104A, 2. sal, 2100 København Ø.
 time: 16:00 - 17:30
 billetto: false
-billetto-nr: 611228
-infomode: true
-infomode-link: MBC (Master of Business Coaching)
+billetto-nr:
 published: false
 ---
 ### Informationsmøde - MBC (Master of Business Coaching)

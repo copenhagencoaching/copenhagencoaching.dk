@@ -50,7 +50,7 @@ collections_config:
     _inputs:
       title:
         label: Titel
-        comment: Indlæggets titel
+        comment: Eventets titel
       subtitle:
         label: Undetitel
       image:
@@ -58,12 +58,6 @@ collections_config:
       date:
         label: Dato
         type: date
-      billetto:
-        label: Kan man tilmelde sig via Billetto?
-        type: switch
-      billetto-nr:
-        label: Billetto ID (Kun hvis Billetto er slået til)
-        comment: Billetto event unik ID. Du kan finde det i billettos kontrolpanel.
       infomode:
         label: Er eventet et infomøde?
         type: switch
@@ -72,6 +66,19 @@ collections_config:
         type: select
         options:
           values: collections.educations
+      billetto:
+        label: Kan man tilmelde sig via Billetto?
+        type: switch
+      billetto-nr:
+        label: Billetto ID (Kun hvis Billetto er slået til)
+        comment: Billetto event unik ID. Du kan finde det i billettos kontrolpanel.
+      price:
+        label: Pris
+      place:
+        label: lokation
+      time:
+        label: Tid
+        type: text
   drafts:
     path: _drafts
     output: false
