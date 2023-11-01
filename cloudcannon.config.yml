@@ -22,10 +22,21 @@ collections_config:
       description:
         label: Beskrivelse
         comment: Kort beskrivelse af indlægget
-      subtitle:
-        label: Undertitel
       category:
         label: Katgeori
+      podcast-id:
+        label: Podcast ID (Kun hvis kategori er podcast)
+        comment: Podcast afsnittets unikke id (Du finder det i Spodify linket til podcasten)
+      video:
+        label: Video (Kun hvis kategori er video)
+        comment: Sti til videoen
+        type: file
+      subs:
+        label: Undertekster (Kun hvis kategori er video)
+        comment: Sti til underteksterne
+        type: file
+      image:
+        label: Billede
   events:
     path: _events
     output: true
