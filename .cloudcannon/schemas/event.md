@@ -7,9 +7,9 @@ date:
 price:
 place:
 time:
-billetto:
-billetto-nr:
 infomode:
 infomode-link:
+billetto:
+billetto-nr:
 published:
 ---
