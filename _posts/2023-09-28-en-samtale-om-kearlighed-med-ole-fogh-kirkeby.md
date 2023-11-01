@@ -6,13 +6,6 @@ Lyt og reflekter med når Ole Fogh Kirkeby i vores podcast taler om, hvor kærli
 category: podcast
 meta-image: /images/podcasts/4.png
 podcast-id: 3SMAzLwkEmtANpfr9JqdcA
-pd-link: >-
-  https://open.spotify.com/embed/episode/3SMAzLwkEmtANpfr9JqdcA?utm_source=generator
-tags:
-  - viden
-  - blog
-  - tekst
-  - podcast
 published: true
 ---
 Ole Fogh Kirkeby, dr.phil, professor emeritus og forfatter.

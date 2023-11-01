@@ -5,13 +5,6 @@ description: 'Pernille Lotus, CEO WeAreCube, er lige nu aktuelt i DR programmet 
 category: podcast
 meta-image: /images/podcasts/4.png
 podcast-id: 4OQd1T2lTcL32XL1KiF31K
-pd-link: >-
-  https://open.spotify.com/embed/episode/4OQd1T2lTcL32XL1KiF31K?utm_source=generator
-tags:
-  - viden
-  - blog
-  - tekst
-  - podcast
 published: true
 ---
 Pernille Lotus, CEO WeAreCube, er lige nu aktuel i DR programmet ”Stories for millioner” men bag historien står i sær et stort valg, nemlig valget om at lægge stofferne på hylden. Lyt og reflekter med når Pernille Lotus i vores podcast taler om hvordan dette valg og andre væsentlige fylder i hendes hverdag.

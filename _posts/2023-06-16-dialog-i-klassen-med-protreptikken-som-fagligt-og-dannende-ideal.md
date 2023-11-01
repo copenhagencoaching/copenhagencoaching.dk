@@ -3,13 +3,6 @@ category: blog
 title: 'Dialog i klassen – med protreptikken som fagligt og dannende ideal '
 image: '/images/blog/skovsti.jpeg'
 description: "Hvordan kan protreptikken blive et modsvar til det pres, som mange unge oplever i (skole)livet i dag? Læs her om uddannelsesleder Anders Svejgaard Pors’ erfaringer med protreptikken, når eleverne blandt andet arbejder med litteratur."
-tags:
-- Etisk grundlag
-- Åbenhed
-- Samtaleetik
-- Coaching
-- Etik
-- blog
 published: true
 ---
 #### **Dialog i klassen**

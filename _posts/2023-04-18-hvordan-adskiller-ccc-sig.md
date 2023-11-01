@@ -5,10 +5,6 @@ description: 'Hvordan adskiller CCC sig fra andre coaching uddannelser? Hør hva
 category: video
 redirect_from:
   - /hvordan-adskiller-ccc-sig/
-tags:
-- viden
-- blog
-- video
 published: true
 video: /videos/mette-web.mp4
 ---

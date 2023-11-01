@@ -4,13 +4,6 @@ title: 'Protreptik i folkeskolen: dialogisk mellemrum og perspektivskift'
 meta-title: 'Protreptik i folkeskolen: dialogisk mellemrum og perspektivskift'
 image: '/images/blog/samtalebobler.png'
 description: En af protreptikkens styrker er, at svære samtaler kan tages, og der kan åbnes op for fastlåste positioner. Det beskriver Tove Nørkjær Seligmann i sin artikel om, hvordan protreptiske gruppesamtaler kan skabe den nødvendige plads til dialog og perspektivskift i tværfaglige og travle medarbejdergrupper.
-tags:
-- Etisk grundlag
-- Åbenhed
-- Samtaleetik
-- Coaching
-- Etik
-- blog
 published: true
 ---
 #### **Protreptik i folkeskolen: dialogisk mellemrum og perspektivskift**

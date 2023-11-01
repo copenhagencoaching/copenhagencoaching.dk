@@ -5,12 +5,6 @@ description: 'Andreas Bering har besøg af Neurokirurg og lægefaglig vicedirekt
 category: podcast
 meta-image: /images/podcasts/4.png
 podcast-id: 69BEKfxO84nljl4jbk2cis
-pd-link: https://open.spotify.com/embed/episode/69BEKfxO84nljl4jbk2cis?utm_source=generator
-tags:
-- viden
-- blog
-- tekst
-- podcast
 published: true
 ---
 

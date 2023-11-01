@@ -6,11 +6,6 @@ Lyt og reflekter med når Jesper Nøddesbo og Andreas Bering sammen med Pernille
 category: podcast
 meta-image: /images/podcasts/4.png
 podcast-id: 2DEdRB9x6OkQxxfgz7tWTr
-tags:
-  - viden
-  - blog
-  - tekst
-  - podcast
 published: true
 ---
 Pernille Ørskov, Advokat og astrolog, Pernille formår som få at kombinere det logisk og rationelle med det spirituelle.

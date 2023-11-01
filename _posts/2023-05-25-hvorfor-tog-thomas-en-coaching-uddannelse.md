@@ -3,10 +3,6 @@ title: Hvorfor tog Thomas en coaching uddannelse?
 image: /images/thumbnails/thomas-thumbnail.png
 description: 'Hør Thomas Christensen hvorfor han tog lige netop en coaching uddannelse'
 category: video
-tags:
-- viden
-- blog
-- video
 published: true
 video: /videos/thomas-web.mp4
 ---

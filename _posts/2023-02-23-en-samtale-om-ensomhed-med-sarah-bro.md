@@ -5,12 +5,6 @@ description: 'I denne episode inviterer vi tidligere OL-svømmer Sarah Bro i stu
 category: podcast
 meta-image: /images/podcasts/4.png
 podcast-id: 0l3dZnOLSTHCEqmhj2ySLy
-pd-link: https://open.spotify.com/embed/episode/0l3dZnOLSTHCEqmhj2ySLy?utm_source=generator
-tags:
-- viden
-- blog
-- tekst
-- podcast
 published: true
 ---
 

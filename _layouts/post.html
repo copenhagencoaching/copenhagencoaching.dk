@@ -155,7 +155,7 @@ layout: default
                             Se flere blogindlæg
                         </h5>
                         <div class="row gy-4">
-                            {% assign blogposts = site.tags.blog | where_exp:"item",
+                            {% assign blogposts = site.categories.blog | where_exp:"item",
                             "item.title != page.title" %}
                             {% for item in blogposts limit: 3 %}
                             <div class="col-xl-12 col-md-6 col-12">
@@ -397,7 +397,7 @@ layout: default
                             Se flere blogindlæg
                         </h5>
                         <div class="row gy-4">
-                            {% assign blogposts = site.tags.blog | where_exp:"item",
+                            {% assign blogposts = site.categories.blog | where_exp:"item",
                             "item.title != page.title" %}
                             {% for item in blogposts limit: 3 %}
                             <div class="col-xl-12 col-md-6 col-12">
@@ -634,7 +634,7 @@ layout: default
                             Se flere blogindlæg
                         </h5>
                         <div class="row gy-4">
-                            {% assign blogposts = site.tags.blog | where_exp:"item",
+                            {% assign blogposts = site.categories.blog | where_exp:"item",
                             "item.title != page.title" %}
                             {% for item in blogposts limit: 3 %}
                             <div class="col-xl-12 col-md-6 col-12">

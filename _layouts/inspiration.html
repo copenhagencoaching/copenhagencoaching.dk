@@ -90,7 +90,7 @@ layout: default
             <h2 class="mb-4">{{ page.podcast-heading }}</h2>
             
             <div class="insp-responsive-pod">
-              {% assign sorted_posts = site.tags.podcast | sort: "date" | reversed %}
+              {% assign sorted_posts = site.categories.podcast | sort: "date" | reversed %}
                 {% for post in site.categories.podcast %}
 
                  <div class="ct-header tablex item zoom">

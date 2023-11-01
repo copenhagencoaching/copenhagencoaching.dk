@@ -5,12 +5,6 @@ description: 'Christoffer Berdal, Teaterinstruktør, og Forperson hos Foreningen
 category: podcast
 meta-image: /images/podcasts/4.png
 podcast-id: 0WcPgI8VMYmTIr6E6GxjBy
-pd-link: https://open.spotify.com/embed/episode/0WcPgI8VMYmTIr6E6GxjBy?utm_source=generator
-tags:
-- viden
-- blog
-- tekst
-- podcast
 published: true
 ---
 

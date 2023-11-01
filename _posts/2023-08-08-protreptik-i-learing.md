@@ -4,13 +4,6 @@ title: 'Protreptik i læring'
 meta-title: 'Protreptik i læring - Artikel af Camilla Dindler'
 image: '/images/blog/ugler.png'
 description: Den protreptiske samtale kan vitalisere et menneskes eksistens og skabe erkendelsen af vores forbundethed med ordene og derigennem vores oplevelser, handlinger og værdier, ikke mindst i lærende sammenhænge. I denne artikel beskriver Camilla Dindler et workshopformat, som kombinerer metoderne ”collective biography” og ”protreptiske gruppesamtaler” med det formål netop at skabe kollektiv og individuel læring.
-tags:
-- Etisk grundlag
-- Åbenhed
-- Samtaleetik
-- Coaching
-- Etik
-- blog
 published: true
 ---
 #### **Protreptik i læring**

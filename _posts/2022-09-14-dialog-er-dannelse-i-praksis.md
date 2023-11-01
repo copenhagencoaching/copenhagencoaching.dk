@@ -3,9 +3,6 @@ title: Dialog er dannelse i praksis
 image: /images/blog/dialog-er-dannelse-i-praksis-2.png
 description: 'På vores nye hjemmeside har vi dristet os til at bruge ordet "Dannelse". Det indgår i vores formulering Dialog er dannelse i praksis. Læs hele blogindlægget her.'
 category: blog
-tags:
-- viden
-- blog
 published: true
 ---
 

@@ -5,12 +5,6 @@ description: 'Vi kender Sognepræst Ane Øland Bækgaard fra DR2-serien “Stør
 category: podcast
 meta-image: /images/podcasts/4.png
 podcast-id: 0upBGgWsHWJ0wAW8kzpw0M
-pd-link: https://open.spotify.com/embed/episode/0upBGgWsHWJ0wAW8kzpw0M?utm_source=generator
-tags:
-- viden
-- blog
-- tekst
-- podcast
 published: true
 ---
 

@@ -5,12 +5,6 @@ description: 'Lærke Hein er blevet kaldt ”Kulturentreprenør” og ”Kødbye
 category: podcast
 meta-image: /images/podcasts/4.png
 podcast-id: 107qKlCYeFwarUa9zNvFgq
-pd-link: https://open.spotify.com/embed/episode/107qKlCYeFwarUa9zNvFgq?utm_source=generator
-tags:
-- viden
-- blog
-- tekst
-- podcast
 published: true
 ---
 

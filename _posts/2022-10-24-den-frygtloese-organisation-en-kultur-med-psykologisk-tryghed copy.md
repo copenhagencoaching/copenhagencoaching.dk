@@ -3,9 +3,6 @@ title: Den frygtløse organisation
 image: /images/landingpages/trappe_med_lamper.jpeg
 description: '– en kultur med psykologisk tryghed. ”Ingen anden følelse er så virkningsfuld som frygt, når det gælder om at berøve sindet alle dets evner for at handle og tænke”, skrev den politiske filosof Edmund Burke for mange år siden, i 1756. Læs blogindlægget af Ghita Vejlebo her'
 category: blog
-tags:
-- viden
-- blog
 published: true
 ---
  – en kultur med psykologisk tryghed

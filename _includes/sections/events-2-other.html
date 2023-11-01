@@ -1,8 +1,8 @@
 <div class="bg-platinum">
     <div class="container-fluid py-5">
         <div class="row gx-5 gy-5">
-            {% if site.tags.act_event %}
-         {% assign ordered_events = site.tags.act_event | sort: date | where_exp:"item", "item.title != include.name" %}  
+            {% if site.events %}
+         {% assign ordered_events = site.events | sort: date | where_exp:"item", "item.title != include.name" %}  
             {% for event in ordered_events limit: 4 %}
             {% if event.past == true %}
             {% else %}

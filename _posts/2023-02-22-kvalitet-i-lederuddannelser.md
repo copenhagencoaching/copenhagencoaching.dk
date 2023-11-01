@@ -7,14 +7,6 @@ description: '"Vi er gået fra docerende klasserumsundervisning til inspirerende
   afprøvninger i praksis og nye former for afleveringer. Og vi, der designer lederuddannelserne,
   er mere sensitive overfor de behov, der løbende opstår f.eks i forhold til at oprette
   nye valgmoduler"'
-tags:
-- Uddannelsesudvikling
-- Offentlig ledelse
-- Ledelse
-- Lederuddannelse
-- DOL
-- Diplom i Offentlig Ledelse
-- blog
 ---
 Interview med Ghita Vejlebo, direktør og ansvarlig for Den Offentlige Lederuddannelse på Copenhagen Coaching Center
 

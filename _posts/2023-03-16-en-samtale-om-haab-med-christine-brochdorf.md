@@ -5,12 +5,6 @@ description: 'I den første af en række samtaler om HÅB møder vi Christine Br
 category: podcast
 meta-image: /images/podcasts/4.png
 podcast-id: 3rMORyLbWXhfvg1C2pOIKa
-pd-link: https://open.spotify.com/embed/episode/3rMORyLbWXhfvg1C2pOIKa?utm_source=generator
-tags:
-- viden
-- blog
-- tekst
-- podcast
 published: true
 ---
 

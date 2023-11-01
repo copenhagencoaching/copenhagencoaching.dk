@@ -5,13 +5,6 @@ description: "Uffe Savery musiker, rektor , musikchef, titlerne og bedrifterne t
 category: podcast
 meta-image: /images/podcasts/4.png
 podcast-id: 2sUifFg8MgvZoyITo1Ox2e
-pd-link: >-
-  https://open.spotify.com/embed/episode/2sUifFg8MgvZoyITo1Ox2e?utm_source=generator
-tags:
-  - viden
-  - blog
-  - tekst
-  - podcast
 published: true
 ---
 Uffe Savery musiker, rektor , musikchef, titlerne og bedrifterne taler for sig selv. Lyt og reflekter med når Uffe Savery i vores podcast taler om hvordan valget fylder i hans hverdag. både når de er store og livsbetydende og mindre men stadig fylder.

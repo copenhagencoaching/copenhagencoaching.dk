@@ -6,12 +6,6 @@ Andreas Bering har denne gang Annemarie Meisling, som er Senior Director for Cor
 category: podcast
 meta-image: /images/podcasts/4.png
 podcast-id: 5Ybg3XbAEqeTIHndIeHQ5x
-pd-link: https://open.spotify.com/embed/episode/5Ybg3XbAEqeTIHndIeHQ5x?utm_source=generator
-tags:
-- viden
-- blog
-- tekst
-- podcast
 published: true
 ---
 

@@ -5,12 +5,6 @@ description: 'Thomas Buttenschøn oplever at være i en tid, hvor den unge gener
 category: podcast
 meta-image: /images/podcasts/4.png
 podcast-id: 7bFcLKeHKlQ8ATFpAC9GfY
-pd-link: https://open.spotify.com/embed/episode/7bFcLKeHKlQ8ATFpAC9GfY?utm_source=generator
-tags:
-- viden
-- blog
-- tekst
-- podcast
 published: true
 ---
 

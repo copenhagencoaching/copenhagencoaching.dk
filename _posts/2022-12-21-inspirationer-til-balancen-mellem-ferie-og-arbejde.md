@@ -3,10 +3,6 @@ title: 10 inspirationer til balancen mellem ferie og arbejde
 image: /images/blog/jul.png
 description: 'Fra i dag går vi igen mod lysere tider, og dagene bliver atter længere. Det er nemlig vintersolhverv - årets korteste dag. Og mens vi venter på, at lyset får mere magt over mørket, kunne vi måske bruge tiden mellem jul og nytår - hvor arbejdsopgaverne kommer lidt på afstand - til at reflektere over, hvordan vi hver især bedst muligt kan praktisere en god balance mellem arbejde og ferie?'
 category: blog
-tags:
-- viden
-- blog
-- tekst
 published: true
 ---
 På dagen, der markerer lysets tilbagevenden, vil vi hos CCC gerne benytte lejligheden til at ønske dig en dejlig jul og et glædeligt nytår!

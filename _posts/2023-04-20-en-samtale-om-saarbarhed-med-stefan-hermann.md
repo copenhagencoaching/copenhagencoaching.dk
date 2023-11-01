@@ -5,12 +5,6 @@ description: 'Stefan Hermann, rektor på Københavns Professionshøjskole, er en
 category: podcast
 meta-image: /images/podcasts/4.png
 podcast-id: 5LVZkfzNsMv5OkJUcOfTLE
-pd-link: https://open.spotify.com/embed/episode/5LVZkfzNsMv5OkJUcOfTLE?utm_source=generator
-tags:
-- viden
-- blog
-- tekst
-- podcast
 published: true
 ---
 

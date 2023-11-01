@@ -5,12 +5,6 @@ description: 'Ellen Hillingsø er en af vor tid helt store skuespillerinder. Lyt
 category: podcast
 meta-image: /images/podcasts/4.png
 podcast-id: 1S6ilm4Jq8mibUNPKvmlTc
-pd-link: https://open.spotify.com/embed/episode/1S6ilm4Jq8mibUNPKvmlTc?utm_source=generator
-tags:
-- viden
-- blog
-- tekst
-- podcast
 published: true
 ---
 

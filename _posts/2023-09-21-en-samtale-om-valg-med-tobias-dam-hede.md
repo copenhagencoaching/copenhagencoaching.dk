@@ -6,13 +6,6 @@ Lyt og reflekter med når Tobias Dam Hede i vores podcast taler om hvordan valge
 category: podcast
 meta-image: /images/podcasts/4.png
 podcast-id: 3tpf9AyjXdKSmts6ZUeQJQ
-pd-link: >-
-  https://open.spotify.com/embed/episode/3tpf9AyjXdKSmts6ZUeQJQ?utm_source=generator
-tags:
-  - viden
-  - blog
-  - tekst
-  - podcast
 published: true
 ---
 Tobias Dam Hede PhD, forfatter, management konsulent og en af pionererne inden for protreptikken.

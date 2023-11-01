@@ -10,13 +10,6 @@ description: "Ikke at vide eller ville noget på den andens vegne er det første
   gennem samtalen? Skal vi ikke bruge denne viden til at hjælpe bedst muligt? Jamen,
   hvad coacher vi så for? Det er en vigtig snak. Og det er selvfølgelig ikke sådan,
   at vi som coaches ikke vil eller ved noget."
-tags:
-- Etisk grundlag
-- Åbenhed
-- Samtaleetik
-- Coaching
-- Etik
-- blog
 ---
 #### **IKKE AT VIDE ELLER VILLE NOGET PÅ DEN ANDENS VEGNE**
 

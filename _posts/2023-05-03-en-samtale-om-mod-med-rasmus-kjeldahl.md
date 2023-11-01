@@ -5,12 +5,6 @@ description: 'Rasmus Kjeldahl var i mange år kendt som Direktør for forbrugerr
 category: podcast
 meta-image: /images/podcasts/4.png
 podcast-id: 52RzLjfTojlKjy6npjVNKp
-pd-link: https://open.spotify.com/embed/episode/52RzLjfTojlKjy6npjVNKp?utm_source=generator
-tags:
-- viden
-- blog
-- tekst
-- podcast
 published: true
 ---
 

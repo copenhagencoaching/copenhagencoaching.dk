@@ -5,9 +5,6 @@ image: "/images/hjerne.png"
 description: 'Udenadslære kan måske læres i et utrygt rum. Men bortset fra det, så
   ved vi alle, at læring forudsætter tryghed. Hvis trygheden til gengæld er etableret,
   så kan neurovidenskaben vende os mod den lidt mere tekniske side af det at lære. '
-tags:
-- tekst
-- blog
 ---
 ##### Udenadslære kan måske læres i et utrygt rum. Men bortset fra det, så ved vi alle, at læring forudsætter tryghed. Hvis trygheden til gengæld er etableret, så kan neurovidenskaben vende os mod den lidt mere tekniske side af det at lære.
 

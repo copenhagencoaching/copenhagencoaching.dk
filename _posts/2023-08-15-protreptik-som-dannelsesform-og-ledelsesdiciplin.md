@@ -4,13 +4,6 @@ title: 'Protreptik som dannelsesform og ledelsesdisciplin'
 meta-title: 'Protreptik som dannelsesform og ledelsesdisciplin'
 image: '/images/blog/class.png'
 description: Skolelærer og -leder Ralf Pultz præsenterer en vifte af forskellige pædagogiske udfordringer, hvor han som leder har anvendt coaching og protreptikken. Deres særlige måder at spørge og filosofere på har vist sig som konstruktive bidrag til løsninger i et skolemiljø, hvor low arousal og samarbejdsbaseret problemløsning er guidende pædagogiske principper.
-tags:
-- Etisk grundlag
-- Åbenhed
-- Samtaleetik
-- Coaching
-- Etik
-- blog
 published: true
 ---
 #### **Protreptik som dannelsesform og ledelsesdisciplin**

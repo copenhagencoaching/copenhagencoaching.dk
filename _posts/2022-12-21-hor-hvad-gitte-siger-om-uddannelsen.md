@@ -3,10 +3,6 @@ title: Hør hvad Gitte siger om uddannelsen
 image: /images/thumbnails/gitte-thumbnail-2.png
 description: 'Er du interesseret i at vide mere om Master of Business Coaching, kan denne film give et lille indblik i, hvad uddannelsen indebærer og hvad udbyttet kan være.'
 category: video
-tags:
-- viden
-- blog
-- tekst
 published: true
 video: /videos/gitte-web.mp4
 subs: /videos/subtitles/gitte.vtt

@@ -5,12 +5,6 @@ description: 'Reflekter med når Jacob Neestrup i vores podcast taler med Andrea
 category: podcast
 meta-image: /images/podcasts/4.png
 podcast-id: 3iBUA8y9wGHNEOHblgEjxW
-pd-link: https://open.spotify.com/embed/episode/3iBUA8y9wGHNEOHblgEjxW?utm_source=generator
-tags:
-- viden
-- blog
-- tekst
-- podcast
 published: true
 ---
 

@@ -5,12 +5,6 @@ description: 'Vi sætter et tankevækkende punktum for temarækken om HÅB samme
 category: podcast
 meta-image: /images/podcasts/4.png
 podcast-id: 6W0R5SuYGjcCXqoW6Im2cD
-pd-link: https://open.spotify.com/embed/episode/6W0R5SuYGjcCXqoW6Im2cD?utm_source=generator
-tags:
-- viden
-- blog
-- tekst
-- podcast
 published: true
 ---
 

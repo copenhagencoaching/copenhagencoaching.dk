@@ -5,12 +5,6 @@ description: 'Lyt og reflekter med når Reinhard Stelter i vores podcast taler m
 category: podcast
 meta-image: /images/podcasts/4.png
 podcast-id: 0YIPQjr9crXZ49SOWxPZJl
-pd-link: https://open.spotify.com/embed/episode/0YIPQjr9crXZ49SOWxPZJl?utm_source=generator
-tags:
-- viden
-- blog
-- tekst
-- podcast
 published: true
 redirect_from:
   - /resonans/podcast/en-samtale-om-mod-med-reinhardt-stelter/
