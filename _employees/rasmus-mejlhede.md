@@ -2,17 +2,13 @@
 order: 10
 title: Rasmus Mejlhede
 description: Associeret partner
-consulent: false
 meta-title: Rasmus Pedersbæk Mejlhede - Mød medarbejderne hos CCC her
 on-om-os: true
 call: 24666371
 email: rm@copenhagencoaching.dk 
 linkedin: https://www.linkedin.com/in/rasmus-mejlhede-92352083/
-data-id: ''
 image: /images/about/employees/rasmus-mejlhede.png
-portrait-image: /images/about/employees/rasmus-mejlhede.png
 small-portrait-image: /images/about/employees/rasmus-small-white.png
-grey-portrait: /images/about/employees/rasmus-mejlhede.png
 edu:
 - Cand. Mag i filosofi, Københavns Universitet
 - Stud. Master of Business Coaching (EQA), CCC

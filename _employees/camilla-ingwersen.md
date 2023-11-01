@@ -4,7 +4,6 @@ title: Camilla Ingwersen
 call: 29 90 46 91
 description: Associeret Partner
 meta-title: Camilla Ingersen - Mød medarbejderne hos CCC her
-consulent: true
 on-om-os: true
 edu:
 - HD i Ledelse og Kommunikation, Copenhagen Business School
@@ -15,11 +14,8 @@ edu:
 - Stud. Master of Business Coaching (EQA), CCC
 email: ci@copenhagencoaching.dk
 linkedin: https://www.linkedin.com/in/camillaingwersen/
-data-id: ''
 image: /images/about/employees/camilla-big-white.png
-portrait-image: "/images/about/employees/camilla-big-white.png"
 small-portrait-image: "/images/about/employees/camilla-i-small-white.png"
-grey-portrait: /images/about/employees/camilla-ingwersen-3.png
 redirect_from:
   - /employees/camilla-ingersen/
 ---

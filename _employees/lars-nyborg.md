@@ -3,11 +3,8 @@ title: Lars Nyborg
 order: 8
 meta-title: Lars Nyborg - Mød medarbejderne hos CCC her
 image: /images/about/employees/lars-big-white.png
-portrait-image: "/images/about/employees/lars-big-white.png"
 small-portrait-image: "/images/about/employees/lars-small-white.png"
-grey-portrait: /images/about/medarbejdere-sort-hvid/lars-nyborg-sort-hvid.png
 call: 27 11 42 44
-consulent: true
 edu:
 - Folkeskolelærer
 - Master of Business Coaching (EQA), CCC
@@ -16,7 +13,6 @@ on-om-os: true
 email: ln@copenhagencoaching.dk
 description: Associeret partner
 linkedin: https://www.linkedin.com/in/lars-nyborg-82608431/
-data-id: ''
 ---
 Lars har om nogen viet sit liv til at rådgive om offentlig ledelse på velfærdsområdet. Lars’ virke spænder fra mentoring af skoleledere til rekruttering, procesledelse, teamudvikling og transitionsprocesser.  Ledelse, leg og intens læring er tre ord, der beskriver Lars som mentor og rådgiver.
 

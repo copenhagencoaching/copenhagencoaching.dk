@@ -2,17 +2,12 @@
 order: 14
 title: Line Kokkegaard
 image: /images/about/employees/line-kokkegaard.png
-portrait-image: /images/about/employees/line-kokkegaard.png
 small-portrait-image: /images/about/employees/line-k-small-white.png
-grey-portrait: /images/about/employees/line-kokkegaard.png
 meta-title: Line Kokkegaard - Mød medarbejderne hos CCC her
 email: lk@copenhagencoaching.dk
-consulent: false
 on-om-os: true
-mbc: false
 description: Studentermedhjælper
 linkedin: https://www.linkedin.com/in/line-k-b6bb231b1/
-data-id: ''
 ---
 Line er studentermedhjælper fra Københavns Universitet, hvor hun går på bacheloruddannelsen i Pædagogik.
 

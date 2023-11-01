@@ -2,17 +2,13 @@
 order: 11
 title: Marianne Vesterbirk
 description: Underviser
-consulent: false
 meta-title: Marianne Vesterbirk - Mød medarbejderne hos CCC her
 on-om-os: true
 call: 20672450
 email: mariannevesterbirk@gmail.com
 linkedin: https://www.linkedin.com/in/marianne-vesterbirk-874b977/
-data-id: ''
 image: /images/about/employees/marianne.png
-portrait-image: /images/about/employees/marianne.png
 small-portrait-image: /images/about/employees/marianne-small.png
-grey-portrait: /images/about/employees/marianne.png
 edu:
 - Cand. scient. adm.
 - Internationalt certificeret coach, (ICC) 

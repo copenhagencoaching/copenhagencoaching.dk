@@ -2,18 +2,13 @@
 order: 9
 title: Line Arnmark
 image: /images/about/employees/line-arnmark.png
-portrait-image: /images/about/employees/line-arnmark.png
 small-portrait-image: /images/about/employees/line-a-small-white.png
-grey-portrait: /images/about/employees/line-arnmark.png
 call: 61 42 99 00
 meta-title: Line Arnmark - Mød medarbejderne hos CCC her
 email: la@copenhagencoaching.dk
-consulent: true
 on-om-os: true
-mbc: true
 description: Associeret partner
 linkedin: https://www.linkedin.com/in/camilladindler/
-data-id: ''
 edu:
 - Cand. Scient. pol
 - Master i Business Coaching

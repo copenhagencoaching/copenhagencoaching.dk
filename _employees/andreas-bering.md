@@ -2,15 +2,11 @@
 order: 1
 title: Andreas Bering
 image: /images/about/employees/andreas-big-white.png
-portrait-image: "/images/about/employees/andreas-big-white.png"
 small-portrait-image: "/images/about/employees/andreas-small-white.png"
-grey-portrait: /images/about/medarbejdere-sort-hvid/andreas-bering-sort-hvid.png
 call: 40 14 92 92
 meta-title: Andreas Bering - Mød medarbejderne hos CCC her
 email: ab@copenhagencoaching.dk
-consulent: true
 on-om-os: true
-mbc: true
 edu:
 - Cand. Comm., Roskilde Universitet
 - Master of Business Coaching (EQA), CCC
@@ -18,7 +14,6 @@ edu:
 - Certificeret i MBTI (Myers-Briggs Type Indicator)
 description: Direktør og GDPR ansvarlig
 linkedin: https://www.linkedin.com/in/andreas-bering-4a554b5/
-data-id: ''
 redirect_from:
   - /member/andreas-bering/
 ---

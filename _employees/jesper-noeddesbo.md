@@ -1,13 +1,10 @@
 ---
 order: 7
 title: Jesper Nøddesbo
-portrait-image: /images/about/employees/jesper-nøddesbo.png
+image: /images/about/employees/jesper-nøddesbo.png
 small-portrait-image: /images/about/employees/jesper-small-white.png
-grey-portrait: /images/about/employees/jesper-nøddesbo-grayscale.png
 email: jn@copenhagencoaching.dk
-mbc: true
 meta-title: Jesper Nøddesbo - Mød medarbejderne hos CCC her
-consulent: true
 on-om-os: true
 edu:
 - Stud. master of Business Coaching (EQA), CCC

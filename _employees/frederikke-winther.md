@@ -2,14 +2,10 @@
 order: 4
 title: Frederikke Winther
 image: /images/about/employees/frederikke-big-white.png
-portrait-image: "/images/about/employees/frederikke-big-white.png"
 small-portrait-image: "/images/about/employees/frederikke-small-white.png"
-grey-portrait: /images/about/medarbejdere-sort-hvid/frederikke-winther-sort-hvid.png
 call: 21 19 47 57
 on-om-os: true
 meta-title: Frederikke Winther - Mød medarbejderne hos CCC her
-mbc: true
-consulent: true
 edu:
 - Ph.D i relationel retorik, Århus Universitet
 - Cand. Mag i retorik, Københavns Universitet
@@ -17,8 +13,6 @@ edu:
 email: fw@copenhagencoaching.dk
 description: Seniorkonsulent
 linkedin: https://www.linkedin.com/in/frederikke-winther-206b5450/
-data-id: ''
-
 ---
 Hos Frederikke finder vi en dyb og saglig viden om klassiske og moderne tilgange til coaching. Dertil kommer, at hun umætteligt absorberer filosofiske hovedværker og teorier på måder, som kan omsættes til handling.
 

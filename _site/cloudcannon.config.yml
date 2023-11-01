@@ -40,7 +40,13 @@ collections_config:
         type: file
       image:
         label: Billede
+      published:
+        label: Publiceret
+        type: switch
   events:
+    schemas:
+      default:
+        path: /.cloudcannon/schemas/event.md
     path: _events
     output: true
     icon: notes
@@ -50,7 +56,7 @@ collections_config:
     _inputs:
       title:
         label: Titel
-        comment: Indlæggets titel
+        comment: Eventets titel
       subtitle:
         label: Undetitel
       image:
@@ -58,12 +64,6 @@ collections_config:
       date:
         label: Dato
         type: date
-      billetto:
-        label: Kan man tilmelde sig via Billetto?
-        type: switch
-      billetto-nr:
-        label: Billetto ID (Kun hvis Billetto er slået til)
-        comment: Billetto event unik ID. Du kan finde det i billettos kontrolpanel.
       infomode:
         label: Er eventet et infomøde?
         type: switch
@@ -72,15 +72,22 @@ collections_config:
         type: select
         options:
           values: collections.educations
-  drafts:
-    path: _drafts
-    output: false
-    icon: notes
-    create:
-      publish_to: posts
-    disable_add: false
-    disable_add_folder: false
-    disable_file_actions: false
+      billetto:
+        label: Kan man tilmelde sig via Billetto?
+        type: switch
+      billetto-nr:
+        label: Billetto ID (Kun hvis Billetto er slået til)
+        comment: Billetto event unik ID. Du kan finde det i billettos kontrolpanel.
+      price:
+        label: Pris
+      place:
+        label: lokation
+      time:
+        label: Tid
+        type: text
+      published:
+        label: Publiceret
+        type: switch
   employees:
     path: _employees
     output: true
@@ -88,6 +95,33 @@ collections_config:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
+    _inputs:
+      title:
+        label: Navn
+      order:
+        label: Rækkefølge
+      description:
+        label: Titler/titel
+        comment: Diretør, konsulent osv.
+      image:
+        label: Billede
+      small-portrait-image:
+        label: Billede (Lille)
+      call:
+        label: Telefon nr.
+      meta-title:
+        label: Titel (Metadata)
+      email:
+        label: E-mailadresse
+      on-om-os:
+        label: Aktiveret på "Om os" side
+        type: switch
+      edu:
+        label: Uddannelser
+      linkedin:
+        label: Linkedin link
+      redirect_from:
+        hidden: true
   educations:
     path: _educations
     output: true

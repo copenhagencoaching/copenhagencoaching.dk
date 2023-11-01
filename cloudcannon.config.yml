@@ -120,6 +120,8 @@ collections_config:
         label: Uddannelser
       linkedin:
         label: Linkedin link
+      redirect_from:
+        hidden: true
   educations:
     path: _educations
     output: true

@@ -3,13 +3,9 @@ title: Mette Mejlhede
 order: 2
 meta-title: Mette Mejlhede - Mød medarbejderne hos CCC her
 image: /images/about/employees/mette-big-white.png
-portrait-image: "/images/about/employees/mette-big-white.png"
 small-portrait-image: "/images/about/employees/mette-small-white.png"
-grey-portrait: /images/about/small-images/mette-mejlhede.png
 call: 24 27 28 71
 email: mm@copenhagencoaching.dk
-mbc: true
-consulent: true
 on-om-os: true
 edu:
 - Sygeplejerske
@@ -21,7 +17,6 @@ edu:
 - Stud. Psykoterapeut
 description: Direktør
 linkedin: https://www.linkedin.com/in/mette-mejlhede-a810632/
-data-id: ''
 redirect_from:
   - /member/mette-mejlhede/
 ---
