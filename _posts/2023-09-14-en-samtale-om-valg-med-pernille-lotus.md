@@ -4,7 +4,7 @@ image: /images/blog/podcast-cover.png
 description: 'Pernille Lotus, CEO WeAreCube, er lige nu aktuelt i DR programmet "Stories for millioner" men bag historien står i sær et stort valg, nemlig valget om at lægge stofferne på hylden. Lyt og reflekter med når Pernille Lotus i vores podcast taler om hvordan dette valg og andre væsentlige fylder i hendes hverdag.'
 category: podcast
 meta-image: /images/podcasts/4.png
-layout: podcast
+podcast-id: 4OQd1T2lTcL32XL1KiF31K
 pd-link: >-
   https://open.spotify.com/embed/episode/4OQd1T2lTcL32XL1KiF31K?utm_source=generator
 tags:
@@ -15,10 +15,6 @@ tags:
 published: true
 ---
 Pernille Lotus, CEO WeAreCube, er lige nu aktuel i DR programmet ”Stories for millioner” men bag historien står i sær et stort valg, nemlig valget om at lægge stofferne på hylden. Lyt og reflekter med når Pernille Lotus i vores podcast taler om hvordan dette valg og andre væsentlige fylder i hendes hverdag.
-
-Du kan også lytte via
-
-[![Lyt til SamtaleRummet via Spotify](/images/podcasts/spotify.png "Lyt til SamtaleRummet via Spotify"){: .w-md-25.object-fit}](https://open.spotify.com/episode/4OQd1T2lTcL32XL1KiF31K){: target="_blank"}
 
 ##### Om podcasten
 

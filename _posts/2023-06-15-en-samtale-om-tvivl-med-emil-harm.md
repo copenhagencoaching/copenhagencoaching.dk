@@ -4,7 +4,7 @@ image: /images/blog/podcast-cover.png
 description: "Når filosofien og hiphoppen møder hinanden. Emil Harm\_er musikproducer, og filosof. Lyt og reflekter med når Harm i\_vores podcast taler om hvordan tvivlen kommer til stede midt i en hiphop produktion, under filosofistudierne eller på skateboard rampen."
 category: podcast
 meta-image: /images/podcasts/4.png
-layout: podcast
+podcast-id: 12ngqNl6MXzsr7jYRQLK7ch
 pd-link: >-
   https://open.spotify.com/embed/episode/2ngqNl6MXzsr7jYRQLK7ch?utm_source=generator
 tags:
@@ -15,10 +15,6 @@ tags:
 published: true
 ---
 Når filosofien og hiphoppen møder hinanden. Emil Harm er musikproducer, og filosof. Lyt og reflekter med når Harm i vores podcast taler om hvordan tvivlen kommer til stede midt i en hiphop produktion, under filosofistudierne eller på skateboard rampen.
-
-Du kan også lytte via
-
-[![Lyt til SamtaleRummet via Spotify](/images/podcasts/spotify.png "Lyt til SamtaleRummet via Spotify"){: .w-md-25.object-fit}](https://open.spotify.com/episode/2ngqNl6MXzsr7jYRQLK7ch){: target="_blank"}
 
 ##### Om podcasten
 

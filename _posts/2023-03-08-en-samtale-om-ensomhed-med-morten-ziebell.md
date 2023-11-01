@@ -4,7 +4,7 @@ image: /images/blog/podcast-cover.png
 description: 'Andreas Bering har besøg af Neurokirurg og lægefaglig vicedirektør for Sjællands Universitetshospital, Morten Ziebell. Samtalen handler om ensomheden i de beslutninger, der vedrører liv og død. Dem kender Morten bla. fra lægens ulvevagt – den vagt, hvor du som læge står helt alene med ansvaret. Men også ensomheden som leder tales frem og giver nyt og måske tankevækkende liv til talemåden, at der er koldt på toppen.'
 category: podcast
 meta-image: /images/podcasts/4.png
-layout: podcast
+podcast-id: 69BEKfxO84nljl4jbk2cis
 pd-link: https://open.spotify.com/embed/episode/69BEKfxO84nljl4jbk2cis?utm_source=generator
 tags:
 - viden
@@ -15,10 +15,6 @@ published: true
 ---
 
 Andreas Bering har besøg af Neurokirurg og lægefaglig vicedirektør for Sjællands Universitetshospital, Morten Ziebell. Samtalen handler om ensomheden i de beslutninger, der vedrører liv og død. Dem kender Morten bla. fra lægens ulvevagt – den vagt, hvor du som læge står helt alene med ansvaret. Men også ensomheden som leder tales frem og giver nyt og måske tankevækkende liv til talemåden, at der er koldt på toppen.
-
-Du kan også lytte via
-
-[![Lyt til SamtaleRummet via Spotify](/images/podcasts/spotify.png "Lyt til SamtaleRummet via Spotify"){:.w-md-25.object-fit}](https://open.spotify.com/episode/69BEKfxO84nljl4jbk2cis){:target="_blank"}
 
 ##### Om podcasten
 

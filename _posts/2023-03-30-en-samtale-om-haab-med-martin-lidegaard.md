@@ -4,7 +4,7 @@ image: /images/blog/podcast-cover.png
 description: 'Vi sætter et tankevækkende punktum for temarækken om HÅB sammen med politisk leder for Radikale Venstre, Martin Lidegaard. Som mange andre blev Martin voldsomt inspireret af tidligere præsident Barack Obamas tale til FN i 2014 om at vælge at håbe frem for at frygte. Martin Lidegaard har en perlerække af initiativer bag sig, som måske netop illustrerer håbet, og hvordan det for ham hænger uløseligt sammen med handling. Det er en løftestang for fællesskabet, både det nære fællesskab i familien og det store globale fællesskab.'
 category: podcast
 meta-image: /images/podcasts/4.png
-layout: podcast
+podcast-id: 6W0R5SuYGjcCXqoW6Im2cD
 pd-link: https://open.spotify.com/embed/episode/6W0R5SuYGjcCXqoW6Im2cD?utm_source=generator
 tags:
 - viden
@@ -15,10 +15,6 @@ published: true
 ---
 
 Vi sætter et tankevækkende punktum for temarækken om HÅB sammen med politisk leder for Radikale Venstre, Martin Lidegaard. Som mange andre blev Martin voldsomt inspireret af tidligere præsident Barack Obamas tale til FN i 2014 om at vælge at håbe frem for at frygte. Martin Lidegaard har en perlerække af initiativer bag sig, som måske netop illustrerer håbet, og hvordan det for ham hænger uløseligt sammen med handling. Det er en løftestang for fællesskabet, både det nære fællesskab i familien og det store globale fællesskab.
-
-Du kan også lytte via
-
-[![Lyt til SamtaleRummet via Spotify](/images/podcasts/spotify.png "Lyt til SamtaleRummet via Spotify"){:.w-md-25.object-fit}](https://open.spotify.com/episode/6W0R5SuYGjcCXqoW6Im2cD){:target="_blank"}
 
 ##### Om podcasten
 

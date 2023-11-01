@@ -4,7 +4,7 @@ image: /images/blog/podcast-cover.png
 description: "Uffe Savery musiker, rektor , musikchef, titlerne og bedrifterne taler for sig selv. Lyt og reflekter med når Uffe Savery i vores podcast taler om hvordan valget fylder i hans hverdag. både når de er store og livsbetydende og mindre men stadig fylder."
 category: podcast
 meta-image: /images/podcasts/4.png
-layout: podcast
+podcast-id: 2sUifFg8MgvZoyITo1Ox2e
 pd-link: >-
   https://open.spotify.com/embed/episode/2sUifFg8MgvZoyITo1Ox2e?utm_source=generator
 tags:
@@ -15,10 +15,6 @@ tags:
 published: true
 ---
 Uffe Savery musiker, rektor , musikchef, titlerne og bedrifterne taler for sig selv. Lyt og reflekter med når Uffe Savery i vores podcast taler om hvordan valget fylder i hans hverdag. både når de er store og livsbetydende og mindre men stadig fylder.
-
-Du kan også lytte via
-
-[![Lyt til SamtaleRummet via Spotify](/images/podcasts/spotify.png "Lyt til SamtaleRummet via Spotify"){: .w-md-25.object-fit}](https://open.spotify.com/episode/2sUifFg8MgvZoyITo1Ox2e){: target="_blank"}
 
 ##### Om podcasten
 

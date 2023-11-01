@@ -5,7 +5,7 @@ description: 'Vi er nu nået til anden samtale i temarækken om HÅB.
 Andreas Bering har denne gang Annemarie Meisling, som er Senior Director for Corporate Affairs hos Chr. Hansen i SamtaleRummet. Annemarie er en af Danmarks mest erfarende ledere når det kommer til bæredygtighed og regenerativ ledelse. Så lyt med og se hvordan håbet folder sig ud denne gang.'
 category: podcast
 meta-image: /images/podcasts/4.png
-layout: podcast
+podcast-id: 5Ybg3XbAEqeTIHndIeHQ5x
 pd-link: https://open.spotify.com/embed/episode/5Ybg3XbAEqeTIHndIeHQ5x?utm_source=generator
 tags:
 - viden
@@ -17,10 +17,6 @@ published: true
 
 Vi er nu nået til anden samtale i temarækken om HÅB.
 Andreas Bering har denne gang Annemarie Meisling, som er Senior Director for Corporate Affairs hos Chr. Hansen i SamtaleRummet. Annemarie er en af Danmarks mest erfarende ledere når det kommer til bæredygtighed og regenerativ ledelse. Så lyt med og se hvordan håbet folder sig ud denne gang.
-
-Du kan også lytte via
-
-[![Lyt til SamtaleRummet via Spotify](/images/podcasts/spotify.png "Lyt til SamtaleRummet via Spotify"){:.w-md-25.object-fit}](https://open.spotify.com/episode/5Ybg3XbAEqeTIHndIeHQ5x?si=Pp20uHW9Tr-Xv98EzwpPTg){:target="_blank"}
 
 ##### Om podcasten
 

@@ -3,7 +3,6 @@ title: Hvordan adskiller CCC sig?
 image: /images/thumbnails/mette-thumbnail.png
 description: 'Hvordan adskiller CCC sig fra andre coaching uddannelser? Hør hvad direktør og underviser, Mette Mejlhede, siger.'
 category: video
-layout: video
 redirect_from:
   - /hvordan-adskiller-ccc-sig/
 tags:

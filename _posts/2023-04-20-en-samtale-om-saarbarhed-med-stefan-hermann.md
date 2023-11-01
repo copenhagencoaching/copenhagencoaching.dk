@@ -4,7 +4,7 @@ image: /images/blog/podcast-cover.png
 description: 'Stefan Hermann, rektor på Københavns Professionshøjskole, er en markant meningsdanner om dannelse, værdier og fællesskab. Gå med på opdagelse, når Hermann i denne podcast taler med Andreas Bering og Jesper Nøddesbo om sårbarhed i ledelse, den nære sårbarhed, og hvad der mon er på den anden side af sårbarheden.'
 category: podcast
 meta-image: /images/podcasts/4.png
-layout: podcast
+podcast-id: 5LVZkfzNsMv5OkJUcOfTLE
 pd-link: https://open.spotify.com/embed/episode/5LVZkfzNsMv5OkJUcOfTLE?utm_source=generator
 tags:
 - viden
@@ -15,10 +15,6 @@ published: true
 ---
 
 Stefan Hermann, rektor på Københavns Professionshøjskole, er en markant meningsdanner om dannelse, værdier og fællesskab. Gå med på opdagelse, når Hermann i denne podcast taler med Andreas Bering og Jesper Nøddesbo om sårbarhed i ledelse, den nære sårbarhed, og hvad der mon er på den anden side af sårbarheden.
-
-Du kan også lytte via
-
-[![Lyt til SamtaleRummet via Spotify](/images/podcasts/spotify.png "Lyt til SamtaleRummet via Spotify"){:.w-md-25.object-fit}](https://open.spotify.com/episode/5LVZkfzNsMv5OkJUcOfTLE){:target="_blank"}
 
 ##### Om podcasten
 

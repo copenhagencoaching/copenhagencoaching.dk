@@ -4,7 +4,7 @@ image: /images/blog/podcast-cover.png
 description: 'Ellen Hillingsø er en af vor tid helt store skuespillerinder. Lyt og reflekter med når Hillingsø i vores podcast taler om hvordan tvivlen fylder i hendes hverdag. både når tvivlen viser sig som en ven og katalysator, samt når den hæmmer og presser. Lyt med her.'
 category: podcast
 meta-image: /images/podcasts/4.png
-layout: podcast
+podcast-id: 1S6ilm4Jq8mibUNPKvmlTc
 pd-link: https://open.spotify.com/embed/episode/1S6ilm4Jq8mibUNPKvmlTc?utm_source=generator
 tags:
 - viden
@@ -15,10 +15,6 @@ published: true
 ---
 
 Ellen Hillingsø er en af vor tid helt store skuespillerinder. Lyt og reflekter med når Hillingsø i vores podcast taler om hvordan tvivlen fylder i hendes hverdag. både når tvivlen viser sig som en ven og katalysator, samt når den hæmmer og presser.
-
-Du kan også lytte via
-
-[![Lyt til SamtaleRummet via Spotify](/images/podcasts/spotify.png "Lyt til SamtaleRummet via Spotify"){:.w-md-25.object-fit}](https://open.spotify.com/episode/1S6ilm4Jq8mibUNPKvmlTc){:target="_blank"}
 
 ##### Om podcasten
 

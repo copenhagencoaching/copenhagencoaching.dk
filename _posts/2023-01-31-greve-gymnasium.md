@@ -3,7 +3,6 @@ title: Dialog er dannelse i praksis - Protreptiske samtaler med unge
 image: /images/thumbnails/greve-g-thumbnail.png
 description: 'Protreptikken er en dialog-form, der kan træne os alle i at blive bedre til at reflektere og til at lytte til os selv og derigennem træffe bedre beslutninger.'
 category: video
-layout: video
 tags:
 - viden
 - blog

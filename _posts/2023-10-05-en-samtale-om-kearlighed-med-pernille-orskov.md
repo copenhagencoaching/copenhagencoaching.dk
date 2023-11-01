@@ -5,9 +5,7 @@ description: 'Pernille Ørskov, Advokat og astrolog, Pernille formår som få at
 Lyt og reflekter med når Jesper Nøddesbo og Andreas Bering sammen med Pernille Ørskov sætter kærligheden under lup i vores podcast.'
 category: podcast
 meta-image: /images/podcasts/4.png
-layout: podcast
-pd-link: >-
-  https://open.spotify.com/embed/episode/2DEdRB9x6OkQxxfgz7tWTr?utm_source=generator
+podcast-id: 2DEdRB9x6OkQxxfgz7tWTr
 tags:
   - viden
   - blog
@@ -17,10 +15,6 @@ published: true
 ---
 Pernille Ørskov, Advokat og astrolog, Pernille formår som få at kombinere det logisk og rationelle med det spirituelle.
 Lyt og reflekter med når Jesper Nøddesbo og Andreas Bering sammen med Pernille Ørskov sætter kærligheden under lup i vores podcast.
-
-Du kan også lytte via
-
-[![Lyt til SamtaleRummet via Spotify](/images/podcasts/spotify.png "Lyt til SamtaleRummet via Spotify"){: .w-md-25.object-fit}](https://open.spotify.com/episode/2DEdRB9x6OkQxxfgz7tWTr){: target="_blank"}
 
 ##### Om podcasten
 

@@ -4,7 +4,7 @@ image: /images/blog/podcast-cover.png
 description: 'Christoffer Berdal, Teaterinstruktør, og Forperson hos Foreningen af Danske Sceneinstruktører. Christoffer har siden slutningerne af 1990erne være en markant skikkelse i og på den danske teater scene. Gå med på opdagelse, når Berdal i vores podcast taler med Andreas Bering og Jesper Nøddesbo om sårbarhed uden for og på Scenen.'
 category: podcast
 meta-image: /images/podcasts/4.png
-layout: podcast
+podcast-id: 0WcPgI8VMYmTIr6E6GxjBy
 pd-link: https://open.spotify.com/embed/episode/0WcPgI8VMYmTIr6E6GxjBy?utm_source=generator
 tags:
 - viden
@@ -15,10 +15,6 @@ published: true
 ---
 
 Christoffer Berdal, Teaterinstruktør, og Forperson hos Foreningen af Danske Sceneinstruktører. Christoffer har siden slutningerne af 1990erne være en markant skikkelse i og på den danske teater scene. Gå med på opdagelse, når Berdal i vores podcast taler med Andreas Bering og Jesper Nøddesbo om sårbarhed uden for og på Scenen.
-
-Du kan også lytte via
-
-[![Lyt til SamtaleRummet via Spotify](/images/podcasts/spotify.png "Lyt til SamtaleRummet via Spotify"){:.w-md-25.object-fit}](https://open.spotify.com/episode/0WcPgI8VMYmTIr6E6GxjBy){:target="_blank"}
 
 ##### Om podcasten
 

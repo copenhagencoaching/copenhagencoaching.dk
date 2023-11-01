@@ -5,7 +5,7 @@ description: 'Ole Fogh Kirkeby, dr.phil, professor emeritus og forfatter. Ole Fo
 Lyt og reflekter med når Ole Fogh Kirkeby i vores podcast taler om, hvor kærligheden kommer hvordan den trives og hvor stor betydning den har i vores liv.'
 category: podcast
 meta-image: /images/podcasts/4.png
-layout: podcast
+podcast-id: 3SMAzLwkEmtANpfr9JqdcA
 pd-link: >-
   https://open.spotify.com/embed/episode/3SMAzLwkEmtANpfr9JqdcA?utm_source=generator
 tags:
@@ -18,10 +18,6 @@ published: true
 Ole Fogh Kirkeby, dr.phil, professor emeritus og forfatter.
 Ole Fogh Kirkeby er en af vores tid helt store filosoffer og tænker og fader til den moderne udgave af protreptikken.
 Lyt og reflekter med når Ole Fogh Kirkeby i vores podcast taler om, hvor kærligheden kommer hvordan den trives og hvor stor betydning den har i vores liv.
-
-Du kan også lytte via
-
-[![Lyt til SamtaleRummet via Spotify](/images/podcasts/spotify.png "Lyt til SamtaleRummet via Spotify"){: .w-md-25.object-fit}](https://open.spotify.com/episode/3SMAzLwkEmtANpfr9JqdcA){: target="_blank"}
 
 ##### Om podcasten
 

@@ -3,7 +3,6 @@ title: Hvem bliver du mødt af?
 image: /images/thumbnails/andreas-thumbnail.png
 description: 'Hvem bliver du mødt af på vores MBC? Hør Andreas om hvilke mennesker der underviser på uddannelsen.'
 category: video
-layout: video
 tags:
 - viden
 - blog

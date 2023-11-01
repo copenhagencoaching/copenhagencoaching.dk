@@ -4,7 +4,7 @@ image: /images/blog/podcast-cover.png
 description: 'Lærke Hein er blevet kaldt ”Kulturentreprenør” og ”Kødbyensdronning”. Hun er i dag CEO på Tunnelfabrikken og Bestyrelsesformand for Distortion Festival. Lyt og reflekter med når Lærke i vores podcast taler med Andreas Bering og Jesper Nøddesbo om mod. Hvad skal der til for at mod kan opstå, hvad koster mod? Er det mod der er på spil når man skal stå fast, og være vedholdende? Er mod ens ven eller fjende?'
 category: podcast
 meta-image: /images/podcasts/4.png
-layout: podcast
+podcast-id: 107qKlCYeFwarUa9zNvFgq
 pd-link: https://open.spotify.com/embed/episode/107qKlCYeFwarUa9zNvFgq?utm_source=generator
 tags:
 - viden
@@ -15,10 +15,6 @@ published: true
 ---
 
 Lærke Hein er blevet kaldt ”Kulturentreprenør” og ”Kødbyensdronning”. Hun er i dag CEO på Tunnelfabrikken og Bestyrelsesformand for Distortion Festival. Lyt og reflekter med når Lærke i vores podcast taler med Andreas Bering og Jesper Nøddesbo om mod. Hvad skal der til for at mod kan opstå, hvad koster mod? Er det mod der er på spil når man skal stå fast, og være vedholdende? Er mod ens ven eller fjende?
-
-Du kan også lytte via
-
-[![Lyt til SamtaleRummet via Spotify](/images/podcasts/spotify.png "Lyt til SamtaleRummet via Spotify"){:.w-md-25.object-fit}](https://open.spotify.com/episode/107qKlCYeFwarUa9zNvFgq){:target="_blank"}
 
 ##### Om podcasten
 

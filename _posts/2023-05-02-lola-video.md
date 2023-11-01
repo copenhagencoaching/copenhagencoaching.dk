@@ -3,7 +3,6 @@ title: Hvad fik Lola ud af en MBC?
 image: /images/thumbnails/lola-thumbnail.png
 description: 'Hør Lola fortælle om sin oplevelse hos CCC og hvad hun fik ud af at tage en MBC uddannelse.'
 category: video
-layout: video
 tags:
 - viden
 - blog

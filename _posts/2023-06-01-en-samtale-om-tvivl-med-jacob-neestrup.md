@@ -4,7 +4,7 @@ image: /images/blog/podcast-cover.png
 description: 'Reflekter med når Jacob Neestrup i vores podcast taler med Andreas Bering og Jesper Nøddesbo om tvivl, i en verden hvor kun sejr tæller, og lyt med når tvivlen og sårbarheden viser sig hos mestertræneren. Lyt med her.'
 category: podcast
 meta-image: /images/podcasts/4.png
-layout: podcast
+podcast-id: 3iBUA8y9wGHNEOHblgEjxW
 pd-link: https://open.spotify.com/embed/episode/3iBUA8y9wGHNEOHblgEjxW?utm_source=generator
 tags:
 - viden
@@ -15,10 +15,6 @@ published: true
 ---
 
 Jacob Neestrup, Cheftræner for FC. Københavns nykårede danske mestre. Neestrup er den yngste træner der har vundet the double. Han regnes for en af de største træner talenter i nyere tid. Lyt og reflekter med når Neestrup i vores podcast taler med Andreas Bering og Jesper Nøddesbo om tvivl, i en verden hvor kun sejr tæller, og lyt med når tvivlen og sårbarheden viser sig hos mestertræneren.
-
-Du kan også lytte via
-
-[![Lyt til SamtaleRummet via Spotify](/images/podcasts/spotify.png "Lyt til SamtaleRummet via Spotify"){:.w-md-25.object-fit}](https://open.spotify.com/episode/3iBUA8y9wGHNEOHblgEjxW){:target="_blank"}
 
 ##### Om podcasten
 

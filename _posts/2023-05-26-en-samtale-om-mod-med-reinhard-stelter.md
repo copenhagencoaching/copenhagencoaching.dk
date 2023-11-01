@@ -4,7 +4,7 @@ image: /images/blog/podcast-cover.png
 description: 'Lyt og reflekter med når Reinhard Stelter i vores podcast taler med Andreas Bering og Jesper Nøddesbo om Mod, Både om nogle af de situationer i livet der kræver mod, men også mere filosofisk med hensyn til, hvad der skal til for at mod kan opstå? Lyt med her.'
 category: podcast
 meta-image: /images/podcasts/4.png
-layout: podcast
+podcast-id: 0YIPQjr9crXZ49SOWxPZJl
 pd-link: https://open.spotify.com/embed/episode/0YIPQjr9crXZ49SOWxPZJl?utm_source=generator
 tags:
 - viden
@@ -17,10 +17,6 @@ redirect_from:
 ---
 
 Professor Reinhard Stelter er en af Europas førende coaching eksperter. Han har udgivet en række bøger og er faderen til 3 Generations Coaching. Lyt og reflekter med når Stelter i vores podcast taler med Andreas Bering og Jesper Nøddesbo om Mod, Både om nogle af de situationer i livet der kræver mod, men også mere filosofisk med hensyn til, hvad der skal til for at mod kan opstå?  Hvad koster mod? Er det mod der er på spil når man skal stå fast, og være vedholdende? Er mod ens ven eller fjende?
-
-Du kan også lytte via
-
-[![Lyt til SamtaleRummet via Spotify](/images/podcasts/spotify.png "Lyt til SamtaleRummet via Spotify"){:.w-md-25.object-fit}](https://open.spotify.com/episode/0YIPQjr9crXZ49SOWxPZJl){:target="_blank"}
 
 ##### Om podcasten
 

@@ -62,7 +62,7 @@ layout: default
                 <div class="p-md-5 p-3 bg-white">
 
 
-                    <iframe style="border-radius:12px" src="{{ page.pd-link }}" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/{{ page.podcast-id }}?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
 
                     <div class="mt-4">
@@ -71,6 +71,8 @@ layout: default
                     <!-- AddToAny BEGIN -->
 
                     {{ content }}
+                    <p><b>Du kan også lytte til episoden via Spotify</b></p>
+                    <a href="https://open.spotify.com/episode/{{ page.podcast-id }}"><img src="/images/podcasts/spotify.png" alt="" class="w-md-25 object-fit mb-5"></a>
                     <br>
                     <h5 class="mb-3">Andre episoder</h5>
 
@@ -78,7 +80,7 @@ layout: default
                     
                     {% if post.title != page.title %}
                     <p class="mb-2 mt-3 opacity-75 d-md-none"><b>{{ post.title }}</b></p>
-                    <iframe style="border-radius:12px" src="{{ post.pd-link }}" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/{{ post.podcast-id }}?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
                     {% endif %}
                     {% endfor %}

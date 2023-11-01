@@ -4,7 +4,7 @@ image: /images/blog/podcast-cover.png
 description: 'Rasmus Kjeldahl var i mange år kendt som Direktør for forbrugerrådet inden han i 2013 blev Direktør for Børns Vilkår og har siden da talt børnenes sag. Gå med på opdagelse, når Kjeldal i vores podcast taler med Andreas Bering og Jesper Nøddesbo om mod, både det mod barnet skal finde for at turde ringe op til børnetelefonen men også det mod, ledelse kalder på og i det hele taget modets betydning i dag.'
 category: podcast
 meta-image: /images/podcasts/4.png
-layout: podcast
+podcast-id: 52RzLjfTojlKjy6npjVNKp
 pd-link: https://open.spotify.com/embed/episode/52RzLjfTojlKjy6npjVNKp?utm_source=generator
 tags:
 - viden
@@ -15,10 +15,6 @@ published: true
 ---
 
 Rasmus Kjeldahl var i mange år kendt som Direktør for forbrugerrådet inden han i 2013 blev Direktør for Børns Vilkår og har siden da talt børnenes sag. Gå med på opdagelse, når Kjeldal i vores podcast taler med Andreas Bering og Jesper Nøddesbo om mod, både det mod barnet skal finde for at turde ringe op til børnetelefonen men også det mod, ledelse kalder på og i det hele taget modets betydning i dag.
-
-Du kan også lytte via
-
-[![Lyt til SamtaleRummet via Spotify](/images/podcasts/spotify.png "Lyt til SamtaleRummet via Spotify"){:.w-md-25.object-fit}](https://open.spotify.com/episode/52RzLjfTojlKjy6npjVNKp){:target="_blank"}
 
 ##### Om podcasten
 

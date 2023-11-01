@@ -24,8 +24,8 @@ collections_config:
         comment: Kort beskrivelse af indlægget
       subtitle:
         label: Undertitel
-      layout:
-        label: Kategori
+      category:
+        label: Katgeori
   events:
     path: _events
     output: true

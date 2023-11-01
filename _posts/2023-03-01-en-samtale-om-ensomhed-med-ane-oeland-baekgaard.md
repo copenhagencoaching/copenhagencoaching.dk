@@ -4,7 +4,7 @@ image: /images/blog/podcast-cover.png
 description: 'Vi kender Sognepræst Ane Øland Bækgaard fra DR2-serien “Størst af alt er kærligheden”. Men hvad med ensomheden – hvilken plads har den i et menneskeliv? Findes ensomheden også i kærligheden og i livets største stunder, og kan man overhovedet deles om den dér? Det er noget af det, som Ane er optaget af, og som hun taler med Andreas om i dette afsnit.'
 category: podcast
 meta-image: /images/podcasts/4.png
-layout: podcast
+podcast-id: 0upBGgWsHWJ0wAW8kzpw0M
 pd-link: https://open.spotify.com/embed/episode/0upBGgWsHWJ0wAW8kzpw0M?utm_source=generator
 tags:
 - viden
@@ -15,10 +15,6 @@ published: true
 ---
 
 Vi kender Sognepræst Ane Øland Bækgaard fra DR2-serien “Størst af alt er kærligheden”. Men hvad med ensomheden – hvilken plads har den i et menneskeliv?Findes ensomheden også i kærligheden og i livets største stunder, og kan man overhovedet deles om den dér? Det er noget af det, som Ane er optaget af, og som hun taler med Andreas om i dette afsnit.
-
-Du kan også lytte via
-
-[![Lyt til SamtaleRummet via Spotify](/images/podcasts/spotify.png "Lyt til SamtaleRummet via Spotify"){:.w-md-25.object-fit}](https://open.spotify.com/show/3Xh3K5CmlWHhlGJgdbVksb?si=710bb282377d4208){:target="_blank"}
 
 ##### Om podcasten
 

@@ -4,7 +4,7 @@ image: /images/blog/podcast-cover.png
 description: 'I den første af en række samtaler om HÅB møder vi Christine Brochdorf, kommunaldirektør i Egedal Kommune. Christine har mange års erfaring med offentlig topledelse og velfærd. Hvilke betydninger har håbet for Christine? Det kan både være slumrende, retningsgivende og benzin på bålet.'
 category: podcast
 meta-image: /images/podcasts/4.png
-layout: podcast
+podcast-id: 3rMORyLbWXhfvg1C2pOIKa
 pd-link: https://open.spotify.com/embed/episode/3rMORyLbWXhfvg1C2pOIKa?utm_source=generator
 tags:
 - viden
@@ -15,10 +15,6 @@ published: true
 ---
 
 I den første af en række samtaler om HÅB møder vi Christine Brochdorf, kommunaldirektør i Egedal Kommune. Christine har mange års erfaring med offentlig topledelse og velfærd. Hvilke betydninger har håbet for Christine? Det kan både være slumrende, retningsgivende og benzin på bålet.
-
-Du kan også lytte via
-
-[![Lyt til SamtaleRummet via Spotify](/images/podcasts/spotify.png "Lyt til SamtaleRummet via Spotify"){:.w-md-25.object-fit}](https://open.spotify.com/episode/3rMORyLbWXhfvg1C2pOIKa){:target="_blank"}
 
 ##### Om podcasten
 

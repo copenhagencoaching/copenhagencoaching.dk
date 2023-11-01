@@ -5,7 +5,7 @@ description: 'Tobias Dam Hede PhD, forfatter, management konsulent og en af pion
 Lyt og reflekter med når Tobias Dam Hede i vores podcast taler om hvordan valget påvirker og forpligter, og i den grad sætter retning i ens liv.'
 category: podcast
 meta-image: /images/podcasts/4.png
-layout: podcast
+podcast-id: 3tpf9AyjXdKSmts6ZUeQJQ
 pd-link: >-
   https://open.spotify.com/embed/episode/3tpf9AyjXdKSmts6ZUeQJQ?utm_source=generator
 tags:
@@ -17,10 +17,6 @@ published: true
 ---
 Tobias Dam Hede PhD, forfatter, management konsulent og en af pionererne inden for protreptikken.
 Lyt og reflekter med når Tobias Dam Hede i vores podcast taler om hvordan valget påvirker og forpligter, og i den grad sætter retning i ens liv.
-
-Du kan også lytte via
-
-[![Lyt til SamtaleRummet via Spotify](/images/podcasts/spotify.png "Lyt til SamtaleRummet via Spotify"){: .w-md-25.object-fit}](https://open.spotify.com/episode/3tpf9AyjXdKSmts6ZUeQJQ){: target="_blank"}
 
 ##### Om podcasten
 
