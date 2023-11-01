@@ -40,6 +40,9 @@ collections_config:
         type: file
       image:
         label: Billede
+      published:
+        label: Publiceret
+        type: switch
   events:
     schemas:
       default:
@@ -82,6 +85,9 @@ collections_config:
       time:
         label: Tid
         type: text
+      published:
+        label: Publiceret
+        type: switch
   drafts:
     path: _drafts
     output: false
