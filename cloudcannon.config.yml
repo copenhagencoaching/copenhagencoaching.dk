@@ -47,6 +47,31 @@ collections_config:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
+    _inputs:
+      title:
+        label: Titel
+        comment: Indlæggets titel
+      subtitle:
+        label: Undetitel
+      image:
+        label: Billede
+      date:
+        label: Dato
+        type: date
+      billetto:
+        label: Kan man tilmelde sig via Billetto?
+        type: switch
+      billetto-nr:
+        label: Billetto ID (Kun hvis Billetto er slået til)
+        comment: Billetto event unik ID. Du kan finde det i billettos kontrolpanel.
+      infomode:
+        label: Er eventet et infomøde?
+        type: switch
+      infomode-link:
+        label: Hvilken uddannelse er infomødet for? (Kun hvis Infomøde er slået til)
+        type: select
+        options:
+          values: collections.educations
   drafts:
     path: _drafts
     output: false

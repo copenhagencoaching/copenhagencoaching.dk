@@ -1,0 +1,124 @@
+version: 2
+jobs:
+
+  prep-repo:
+    working_directory: /app
+    # The primary container is an instance of the first list image listed.
+    # Your commands in context of this container.
+    docker:
+      - image: lakruzz/play:latest
+        environment:
+          PLAY_USER_NAME:    Circle CI by @Prolike
+          PLAY_USER_EMAIL:   circleci@prolike.io
+    steps:
+      - checkout
+      - run:
+          name: Describe the Environment
+          command: |
+            git --version
+            env | sort | grep "CIRCLE"
+            pwd
+            ls -a
+            git rev-parse --short HEAD
+      - run:
+          name: Introduce the user to the git repo, to prepare for delivery
+          command: play --manuscript .circleci/play-proflow-cci-gh.yml --part git_set_user
+      - run:
+          name: If we're on a ready branch then integrate
+          command: |
+            export IS_READY=`printenv CIRCLE_BRANCH | grep -e "ready\/*" && echo TRUE || echo ""`
+            printenv IS_READY
+            [[ -z "$IS_READY" ]] && echo Not a ready branch || play --manuscript .circleci/play-proflow-cci-gh.yml --part integrate
+      - run:
+          name: Create version.txt
+          command: play --manuscript .circleci/play-proflow-cci-gh.yml --part write-version-to-file
+      - save_cache:
+          key: the-repo-{{ .Revision }}
+          paths:
+            - .
+
+  jekyll-build:
+    working_directory: /app
+    docker:
+      - image: lakruzz/jekyll-plus:1.0.1
+    steps:
+      - restore_cache:
+          keys:
+            - the-repo-{{ .Revision }}
+      - run:
+          name:  Build "stage" or "production".
+          command: |
+            [[ -z "$CIRCLE_TAG" ]] && export JEKYLL_ENV=stage || export JEKYLL_ENV=production
+            printenv JEKYLL_ENV
+            jekyll build
+      - run:
+          name: Log the version
+          command: cp version.txt _site/version.txt
+      - save_cache:
+          key: the-built-repo-{{ .Revision }}{{ .BuildNum }}
+          paths:
+            - _site
+            - .circleci
+
+  deliver:
+    working_directory: /app
+    docker:
+      - image: lakruzz/play:latest
+    steps:
+      - restore_cache:
+          keys:
+            - the-repo-
+      - run:
+          name: Deliver
+          command: play --manuscript .circleci/play-proflow-cci-gh.yml --part deliver
+
+  prod-deploy:
+    working_directory: /app/_site
+    docker:
+      - image: lakruzz/play:latest
+        environment:
+          PLAY_TARGET_GH_REPO:   copenhagencoaching/www.copenhagencoaching.dk
+          PLAY_USER_NAME:        Circle CI by @CopenhagenCoaching
+          PLAY_USER_EMAIL:       support@copenhagencoaching.dk
+    steps:
+      - restore_cache:
+          keys:
+            - the-built-repo-
+      - run:
+          name: Deploy to GitHub Pages
+          command: play --manuscript ../.circleci/play-proflow-cci-gh.yml --part ghpages_deploy
+
+workflows:
+  version: 2
+  Proflow:
+    jobs:
+      - prep-repo:
+          filters:
+            tags:
+              only: /.*/
+            branches:
+              only: /.*/
+      - jekyll-build:
+          requires: # Create the thing to deploy
+            - prep-repo
+          filters:
+            tags:
+              only: /.*/
+            branches:
+              only: /.*/
+      - deliver: # Push the target branch to remote - only when all is good and only on ready branches
+          requires:
+            - prep-repo
+            - jekyll-build
+          filters:
+            branches:
+              only:
+                - /ready\/.*/
+      - prod-deploy:
+          requires:
+            - prep-repo
+            - jekyll-build
+          filters:
+            branches:
+              only:
+                - /master/

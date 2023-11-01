@@ -99,8 +99,12 @@ layout: default
         {% endif %}
         {% endif %}
         {% if page.infomode == true %}
+        {% for ed in site.educations %}
+        {% if ed.title == page.infomode-link %}
         <a class="btn btn-opal mt-2 text-uppercase fs-6 w-100 mb-3"
-          href="/uddannelser/{{ page.infomode-link }}#infomode"><b>Tilmeld event</b></a>
+          href="{{ ed.url }}#infomode"><b>Tilmeld event</b></a>
+          {% endif %}
+          {% endfor %}
         {% endif %}
         </div>
         <div class="mt-4 p-4 bg-opal">
