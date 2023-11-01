@@ -88,15 +88,6 @@ collections_config:
       published:
         label: Publiceret
         type: switch
-  drafts:
-    path: _drafts
-    output: false
-    icon: notes
-    create:
-      publish_to: posts
-    disable_add: false
-    disable_add_folder: false
-    disable_file_actions: false
   employees:
     path: _employees
     output: true

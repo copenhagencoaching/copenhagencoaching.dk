@@ -6,5 +6,5 @@ description:
 podcast-id:
 video:
 subs:
-published:
+published: true
 ---

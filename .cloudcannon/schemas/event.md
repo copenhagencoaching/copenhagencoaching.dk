@@ -11,5 +11,5 @@ infomode:
 infomode-link:
 billetto:
 billetto-nr:
-published:
+published: true
 ---
