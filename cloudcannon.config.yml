@@ -122,6 +122,8 @@ collections_config:
       edu:
         label: Uddannelser
         type: array
+      edu[*]:
+        type: image
       linkedin:
         label: Linkedin link
       redirect_from:
