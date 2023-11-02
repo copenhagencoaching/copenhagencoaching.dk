@@ -123,7 +123,7 @@ collections_config:
         label: Uddannelser
         type: array
       edu[*]:
-        type: image
+        type: text
       linkedin:
         label: Linkedin link
       redirect_from:
