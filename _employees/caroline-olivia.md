@@ -1,7 +1,6 @@
 ---
 order: 13
 title: Caroline Olivia
-call: 27 63 77 08
 description: IT supporter og webudvikler
 meta-title: Caroline Olivia - Mød medarbejderne hos CCC her
 on-om-os: true

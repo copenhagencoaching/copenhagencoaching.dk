@@ -3,7 +3,6 @@ order: 9
 title: Line Arnmark
 image: /images/about/employees/line-arnmark.png
 small-portrait-image: /images/about/employees/line-a-small-white.png
-call: 61 42 99 00
 meta-title: Line Arnmark - Mød medarbejderne hos CCC her
 email: la@copenhagencoaching.dk
 on-om-os: true

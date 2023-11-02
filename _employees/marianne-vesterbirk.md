@@ -4,7 +4,6 @@ title: Marianne Vesterbirk
 description: Underviser
 meta-title: Marianne Vesterbirk - Mød medarbejderne hos CCC her
 on-om-os: true
-call: 20672450
 email: mariannevesterbirk@gmail.com
 linkedin: https://www.linkedin.com/in/marianne-vesterbirk-874b977/
 image: /images/about/employees/marianne.png

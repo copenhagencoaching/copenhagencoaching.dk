@@ -127,44 +127,44 @@ nested-hold:
   hold:
   - title: Semester 1 - Forår 2024
     price: 47.500 (Ekskl. moms)
-    dates: 23. januar - 12. juni
+    dates: 21. februar - 12. juni
     modules:
-    - date: 23. Januar
+    - date: 21. februar
       day: 1
       time: 09:30 - 16:00
       name: Coaching og syntesemodellen
       place: Blegdamsvej
-    - date: 24. Januar
+    - date: 22. februar
       day: 2
       time: 09:30 - 16:00
       name: Kognitiv 1
       place: Blegdamsvej
-    - date: 21. februar
+    - date: 19. marts
       day: 3
       time: 09:30 - 16:00
       name: Psyko-dynamisk 1
       place: Blegdamsvej
-    - date: 22. februar
+    - date: 20. marts
       day: 4
       time: 09:30 - 16:00
       name: Systemisk-narrativ 1
       place: Blegdamsvej
-    - date: 19. marts
+    - date: 24. april
       day: 5
       time: 09:30 - 20:00
       name: Kognitiv 2
       place: Blegdamsvej
-    - date: 20. marts
+    - date: 25. april
       day: 6
       time: 09:30 - 16:00
       name: Psyko-dynamisk  2
       place: Blegdamsvej
-    - date: 24. april
+    - date: 13. maj
       day: 7
       time: 09:30 - 20:00
       name: Systemisk-narrativ 2
       place: Blegdamsvej
-    - date: 25. april
+    - date: 14. maj
       day: 8
       time: 09:30 - 16:00
       name: Syntese

@@ -121,10 +121,16 @@ collections_config:
         type: switch
       edu:
         label: Uddannelser
+        type: array
+      edu[*]:
+        type: text
       linkedin:
         label: Linkedin link
       redirect_from:
         hidden: true
+      published:
+        label: Publiceret
+        type: switch
   educations:
     path: _educations
     output: true

@@ -4,7 +4,6 @@ order: 8
 meta-title: Lars Nyborg - Mød medarbejderne hos CCC her
 image: /images/about/employees/lars-big-white.png
 small-portrait-image: "/images/about/employees/lars-small-white.png"
-call: 27 11 42 44
 edu:
 - Folkeskolelærer
 - Master of Business Coaching (EQA), CCC

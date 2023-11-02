@@ -4,7 +4,6 @@ title: Rasmus Mejlhede
 description: Associeret partner
 meta-title: Rasmus Pedersbæk Mejlhede - Mød medarbejderne hos CCC her
 on-om-os: true
-call: 24666371
 email: rm@copenhagencoaching.dk 
 linkedin: https://www.linkedin.com/in/rasmus-mejlhede-92352083/
 image: /images/about/employees/rasmus-mejlhede.png
