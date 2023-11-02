@@ -89,6 +89,9 @@ collections_config:
         label: Publiceret
         type: switch
   employees:
+    schemas:
+      default:
+        path: /.cloudcannon/schemas/employee.md
     path: _employees
     output: true
     icon: notes
