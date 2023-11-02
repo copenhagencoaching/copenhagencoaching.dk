@@ -121,6 +121,7 @@ collections_config:
         type: switch
       edu:
         label: Uddannelser
+        type: array
       linkedin:
         label: Linkedin link
       redirect_from:
