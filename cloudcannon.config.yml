@@ -122,8 +122,6 @@ collections_config:
       edu:
         label: Uddannelser
         type: object
-        options:
-          subtype: mutable
       linkedin:
         label: Linkedin link
       redirect_from:
