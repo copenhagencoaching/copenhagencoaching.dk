@@ -121,7 +121,7 @@ collections_config:
         type: switch
       edu:
         label: Uddannelser
-        type: object
+        type: array
         options:
           subtype: text
       linkedin:
