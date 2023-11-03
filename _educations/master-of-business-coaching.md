@@ -29,7 +29,6 @@ kort-kode: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2
 location: 'Undervisningen foregår i vores moderne og praktiske lokaler på 3. sal i baghuset Blegdamsvej 104C. Der er adgang til toilet og køkken, og der vil være forplejning med kaffe, the, let morgenmad og frokost.'
 aktive-hold: true
 contact-person: Frederikke Winther
-header: Master of Business Coaching
 description: Ønsker du at blive dygtig til at føre produktive og virkningsfulde dialoger? At kunne flytte både grupper og individer i en mere konstruktiv retning og derved forebygge stress, organisatorisk stagnation og udbrændthed? Så vælg uddannelsen MBC (Master of Business Coaching).
 price: "Prisen for hele uddannelsen er
 190.000,- kr. ekskl. moms.<br><br>Betalingen inkluderer:

@@ -140,14 +140,35 @@ collections_config:
     disable_add_folder: false
     disable_file_actions: false
     _inputs:
+      order:
+        label: Rækefølge
+        type: number
       title:
         label: Titel
         comment: Uddannelsens titel
       undertitle:
         label: Undertitel
         comment: Ikke oblikatorisk
+      meta-description:
+        label: Beskrivelse (Metadata)
+        type: textarea
       aktive-hold:
         label: Er der aktive hold?
+        type: switch
+      image:
+        label: Billede
+        comment: Baggrundsbilledet i headeren
+        type: image
+      image-2:
+        label: Billede 2
+        comment: Billede som ligger i anden kollonne øverst på siden under "Overblik" sektionen (Vises kun hvis der ikke er en video i "Overblik")
+        type: image
+      adgangskrav:
+        label: Adgangskrav
+        type: html
+      location:
+        label: Sted/lokation
+        type: text
   coachings:
     path: _coachings
     output: false
