@@ -87,8 +87,6 @@ overblik:
   - "Med en MBC fra CCC er du garanteret de højeste, internationale standarder via vores akkreditering fra European Mentoring and Coaching Council (EMCC). <ins><a href='/emcc-akkreditering/'>Læs om vores EMCC akkreditering her</a></ins>."
 lists:
 - liste-paragraf: "Med tryk på Business-delen af Coaching, i modsætning til fx life-coaching, er uddannelsen målrettet erhvervslivet med den hensigt at løfte de studerendes dialogiske kapacitet i professionelle kontekster."
-dage: 8
-hours: 52
 undervisere:
 - Mette Mejlhede
 - Andreas Bering

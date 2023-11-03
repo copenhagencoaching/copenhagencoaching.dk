@@ -149,6 +149,11 @@ collections_config:
       undertitle:
         label: Undertitel
         comment: Ikke oblikatorisk
+      meta-title:
+        label: Titel (Metadata)
+      description:
+        label: Beskrivelse
+        type: textarea
       meta-description:
         label: Beskrivelse (Metadata)
         type: textarea
@@ -168,7 +173,25 @@ collections_config:
         type: html
       location:
         label: Sted/lokation
-        type: text
+        type: textarea
+      contact-person:
+        label: Kontakt person
+        type: select
+        options:
+          values: collections.employees
+      price:
+        label: Pris
+        type: html
+      undervisere:
+        label: Undervisere
+        type: multiselect
+        options:
+          values: collections.employees
+      redirect_from:
+        hidden: true
+      published:
+        label: Publiceret
+        type: switch
   coachings:
     path: _coachings
     output: false
