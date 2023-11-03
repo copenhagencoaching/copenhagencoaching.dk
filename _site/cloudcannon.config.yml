@@ -187,6 +187,19 @@ collections_config:
         type: multiselect
         options:
           values: collections.employees
+      kort:
+        label: Kort
+        comment: Skal der ligge et kort under sted?
+      kort-kode:
+        label: Kort kode fra Google maps
+        type: textarea
+        comment: (Kun hvis Kort er slået til)
+      pdf:
+        label: PDF brochure
+        type: file
+      infomode:
+        label: Er der et kommende infomøde om kurset/uddannelsen?
+        type: switch
       redirect_from:
         hidden: true
       published:

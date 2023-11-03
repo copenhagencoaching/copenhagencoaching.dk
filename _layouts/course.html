@@ -141,20 +141,15 @@ layout: default
             </div>
             <div class="col-12 col-md-6">
                 {% if page.video-thumb %}
-                
+
                 <div>
                     <div>
                         <div class="video-container pt-0 mb-0"><video controls muted autoplay>
                                 <source src="{{ page.video-thumb }}" type="video/mp4">
                                 Your browser does not support HTML video.
                                 {% if page.subs %}
-                                <track
-                                label="Danish"
-                                kind="subtitles"
-                                srclang="dk"
-                                src="{{ page.subs }}"
-                                default />
-                        {% endif %}
+                                <track label="Danish" kind="subtitles" srclang="dk" src="{{ page.subs }}" default />
+                                {% endif %}
                             </video></div>
                     </div>
 
@@ -163,7 +158,7 @@ layout: default
                     <div class="mt-4">
 
                     </div>
-                    
+
                     <!-- AddToAny BEGIN -->
                     {% if page.video-thumb-text %}
                     <p>{{ page.video-thumb-text }}</p>
@@ -172,10 +167,10 @@ layout: default
                 {% else %}
                 <div class="h-100"
                     style="background-image: url('{{ page.image-2 }}'); background-position: top; background-size: cover;">
-            </div>
+                </div>
                 {% endif %}
-                
-                
+
+
             </div>
         </div>
         {% else %}
@@ -982,7 +977,7 @@ layout: default
                 <div class="col-12 position-relative">
                     <div id="infomode" class="anchor-delay"></div>
                     <h2 class="text-uppercase">Informationsmøde</h2>
-                    <p>{{ page.infomode-text }}</p>
+                    <p>Kom med til vores infomøde om {{ page.title }}</p>
                     <p><b>Deltagelse er gratis, men tilmelding er nødvendig</b></p>
                     <p>Jeg vil gerne deltage på følgende dage (kryds af):</p>
                     <form action="https://formspree.io/f/mvollpwe" method="POST" enctype="multipart/form-data"
@@ -994,21 +989,25 @@ layout: default
 
 
 
-                            {% for dato in page.infomode-dates %}
+                            {% for info in site.events %}
+                            {% if info.infomode-link == page.title %}
                             <div class="col-12 col-sm-6 col-md-4">
 
                                 <div class="form-check mb-1">
 
-                                    <input class="form-check-input mb-0" name="tags" type="checkbox" value="{{ dato }}"
-                                        id="dato{{ forloop.index }}">
+                                    <input class="form-check-input mb-0" name="tags" type="checkbox"
+                                        value="{{ info.date | date: '%d-%m-%Y' }}" id="dato{{ forloop.index }}">
                                     <label class="form-check-label" for="dato{{ forloop.index }}">
-                                        <p class="small fw-bold">{{ dato }}</p>
+                                        <p class="small fw-bold">{{ info.date | date: "%d-%m-%Y" }} - {{ info.time }} - {{ info.place }}
+                                        </p>
                                     </label>
 
                                 </div>
 
                             </div>
+                            {% endif %}
                             {% endfor %}
+
 
                             <div class="col-12 col-sm-6 col-md-4">
 

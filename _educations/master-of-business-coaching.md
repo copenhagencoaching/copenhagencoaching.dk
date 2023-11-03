@@ -94,10 +94,6 @@ undervisere:
 - Jesper Nøddesbo
 - Rasmus Mejlhede
 pdf: "https://www.copenhagencoaching.dk/pdfs/MBC_folder_forår_24.pdf"
-emails:
-- ab@copenhagencoaching.dk
-event-title: Kommende hold
-special: false
 vidner:
 - navn: Navn Navn
   titel: Titel, Virksomhed
@@ -488,20 +484,10 @@ nested-hold:
       day: 8
       name: Syntese
       place: Blegdamsvej
-hold_eller_begivenheder: true
-oe-order: 1
 redirect_from:
   - /master-business-coaching-mbc/
   - /academy/master-of-business-coaching/
-cat:
-- master-2
-- lederskab
-- put
-- coaching
 infomode: true
-infomode-text: Kom til informationsmøde om vores masteruddannelse
-infomode-dates:
-- 1. november 16:00 - 17:00 (Online)
 anbefalinger-video: false
 video-url: /videos/gitte-web.mp4
 video-text: "<br>Hvad siger tidligere studerende om Master of Business Coaching? Hør hvad Gitte Overgaard mener om uddannelsen.<br><br>
