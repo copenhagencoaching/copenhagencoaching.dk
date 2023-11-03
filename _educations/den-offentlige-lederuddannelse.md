@@ -15,9 +15,9 @@ meta-description: Den offentlige lederuddannelse (DOL) er en diplomuddannelse fo
 kursus-oversigt: true
 layout: course
 undervisere:
-- name: Line Arnmark
-- name: Andreas Bering
-- name: Marianne Vesterbirk
+- Line Arnmark
+- Andreas Bering
+- Marianne Vesterbirk
 sub-header: Få ny indsigt - og større udsyn - i dit lederskab
 overblik:
 - overskrift: Lederens værktøjer

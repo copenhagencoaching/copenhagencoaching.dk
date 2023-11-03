@@ -83,7 +83,7 @@ defaults:
     scope:
       type: educations
     values:
-      layout: education
+      layout: course
   -
     scope:
       type: text

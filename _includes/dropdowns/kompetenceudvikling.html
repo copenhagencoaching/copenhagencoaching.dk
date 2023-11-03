@@ -13,7 +13,7 @@
           <div class="row gx-0">
             <div class="col-1"><i class="fa-solid fa-angles-right"></i></div>
             <div class="col-11">
-              <a href="{{ cat.url }}" class="fw-semibold mb-2 text-slate-gray link--metis">{{ cat.title }}</a>
+              <a href="{{ cat.url }}" class="fw-semibold mb-2 text-slate-gray link--metis">{{ cat.title }} {% if cat.undertitle %}{{ cat.undertitle }}{% endif %}</a>
             </div>
           </div>
            

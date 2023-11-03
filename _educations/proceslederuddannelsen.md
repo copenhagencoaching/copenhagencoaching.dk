@@ -184,8 +184,8 @@ kort-kode: >-
   width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"
   referrerpolicy="no-referrer-when-downgrade"></iframe>
 undervisere:
-  - name: Andreas Bering
-  - name: Line Arnmark
+  - Andreas Bering
+  - Line Arnmark
 layout: course
 emails:
   - ln@copenhagencoaching.dk

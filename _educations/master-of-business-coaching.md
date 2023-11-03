@@ -1,18 +1,15 @@
 ---
 order: 1
-title: MBC (Master of Business Coaching)
-overtitle: MBC
-title-2: Master of Business Coaching
-layout: course
+title: MBC
+undertitle: (Master of Business Coaching)
 image: /images/educations/mbc-1.png
 image-2: /images/educations/mbc-overblik.png
 kort: true
-kategori: samtaler
 meta-title: MBC - Business Coaching uddannelse - Master i Business Coaching
 meta-description: Ønsker du at blive dygtig til at føre produktive og virkningsfulde dialoger? Bliv Master i Business Coaching på 2 år. Læs mere om vores business coach uddannelse her.
+video-in-over: true
 video-thumb: /videos/gitte-web.mp4
 video-thumb-text: "Hør i videoen hvad tidligere studerende Gitte Overgaard siger om uddannelsen. Med tryk på Business-delen af Coaching, i modsætning til fx life-coaching, er uddannelsen målrettet erhvervslivet med den hensigt at løfte de studerendes dialogiske kapacitet i professionelle kontekster."
-small-price: 47.500,- ekskl. moms pr. semester
 adgangskrav: "Adgang til uddannelsen er betinget
 af at ansøgeren har bestået mindst
 en videregående uddannelse
@@ -94,11 +91,11 @@ lists:
 dage: 8
 hours: 52
 undervisere:
-- name: Mette Mejlhede
-- name: Andreas Bering
-- name: Frederikke Winther
-- name: Jesper Nøddesbo
-- name: Rasmus Mejlhede
+- Mette Mejlhede
+- Andreas Bering
+- Frederikke Winther
+- Jesper Nøddesbo
+- Rasmus Mejlhede
 pdf: "https://www.copenhagencoaching.dk/pdfs/MBC_folder_forår_24.pdf"
 emails:
 - ab@copenhagencoaching.dk

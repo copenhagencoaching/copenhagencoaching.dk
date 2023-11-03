@@ -103,6 +103,7 @@ collections_config:
         label: Navn
       order:
         label: Rækkefølge
+        type: number
       description:
         label: Titler/titel
         comment: Diretør, konsulent osv.
@@ -138,6 +139,15 @@ collections_config:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
+    _inputs:
+      title:
+        label: Titel
+        comment: Uddannelsens titel
+      undertitle:
+        label: Undertitel
+        comment: Ikke oblikatorisk
+      aktive-hold:
+        label: Er der aktive hold?
   coachings:
     path: _coachings
     output: false

@@ -7,12 +7,12 @@ layout: default
 
     <div class="container-fluid text-center">
 
-        {% if page.overtitle %}
-        <h1 class="text-white mb-1">{{ page.overtitle }}</h1>
-        <h3 class="text-white mb-1">{{ page.title-2 }}</h3>
-        {% else %}
         <h1 class="text-white mb-1">{{ page.title }}</h1>
+        {% if page.undertitle %}
+        <h3 class="text-white mb-1">{{ page.undertitle }}</h3>
         {% endif %}
+
+
 
         <div class="row">
             <div class="col-12 offset-lg-3 col-lg-6">
@@ -121,7 +121,7 @@ layout: default
     <div class="small-container">
         <div id="overblik" class="anchor-delay"></div>
 
-        {% if page.video-thumb %}
+        {% if page.video-in-over == true %}
         <div class="row g-lg-5 g-3">
 
             <div class="col-12 col-md-6">
@@ -823,7 +823,7 @@ layout: default
             <div class="row g-5">
                 {% for underviser in page.undervisere %}
                 {% for employee in site.employees %}
-                {% if employee.title == underviser.name %}
+                {% if employee.title == underviser %}
                 <div class="col-12 col-lg-6">
 
                     <div class="d-flex">
@@ -837,9 +837,6 @@ layout: default
 
                             <p class="text-white mb-1 fw-bold fs-5"><a href="{{ employee.url }}" data-proofer-ignore>{{
                                     employee.title }}</a><br></p>
-                            {% if underviser.text %}
-                            <p class="text-white">{{ underviser.text }}</p>
-                            {% endif %}
 
                             {% for e in employee.edu limit: 3 %}
                             <p class="text-white {% if forloop.last != true %}mb-2{% endif %}">{{ e }}</p>

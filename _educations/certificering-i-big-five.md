@@ -6,13 +6,9 @@ image: "/images/events/big-five-event-5.jpg"
 image-2: "/images/educations/bf-1.png"
 redirect_from:
   - /academy/certificering-i-big-five/
+description: Ved hjælp af BIG FIVE testen kan organisationen, ledere og medarbejdere få indsigt i grundlaget for udvikling, samarbejde og fremtidigt potentiale for den enkelte, for teamet og for medarbejdergruppen.
 meta-description: Ved hjælp af BIG FIVE testen kan organisationen, ledere og medarbejdere få indsigt i grundlaget for udvikling, samarbejde og fremtidigt potentiale for den enkelte, for teamet og for medarbejdergruppen.
 contact-person: Frederikke Winther
-header: Online certificering i personlighedstesten BIG FIVE
-dage: 6
-small-price: 22.500,- EKSKL. MOMS
-layout: course
-hours: "21,5"
 overblik:
 - overskrift: BIG FIVE personlighedstest
   paragrafer:
@@ -32,9 +28,7 @@ overblik:
   - "Kendskabet til egen og andres personlighed giver en dybere forståelse for, hvorfor vi handler og prioriterer som vi gør, og hvad der skal til, hvis vi skal gøre noget andet, fx skifte spor, lære nyt eller blive endnu bedre til at håndtere udvalgte opgaver."
   - "Ved hjælp af BIG FIVE testen kan organisationen, ledere og medarbejdere hurtigt få indsigt i grundlaget for udvikling, samarbejde og fremtidigt potentiale med henblik på en mere hensigtsmæssig mål- og rammesætning for den enkelte, for teamet og for medarbejdergruppen"
   - "Du vil blive introduceret, undervist og certificeret i BIG FIVE’s teoretiske grundlag, dens anvendelsesmuligheder samt hvordan du konkret bruger den i praksis. Kurset vil blandt andet give et indblik I BIG FIVE's ophav, og hvordan BIG FIVE teoretisk og empirisk er den bedst underbyggede personlighedstest på markedet."
-description: Ved hjælp af BIG FIVE testen kan organisationen, ledere og medarbejdere få indsigt i grundlaget for udvikling, samarbejde og fremtidigt potentiale for den enkelte, for teamet og for medarbejdergruppen.
-price: 19.500,- EKSKL. MOMS
-event-title: Kommende hold
+price: 22.500,- EKSKL. MOMS
 location: 'Al undervisning foregår online på Zoom. 5 online sessioner á 2-5 timers varighed.<br><br>Er du ikke bekendt med Zoom? <br><b><a href="https://zoom.us/signin">Du kan oprette en bruger og downloade appen her</a></b>.<br>Der vil altid være et link til undervisningens session på studieportalen.'
 opbygning: true
 opbygning-text:
@@ -54,11 +48,9 @@ opbygning-liste:
   - Test certificering udbydes i samarbejde med HUCAMA
 adgangskrav: Der er ingen adgangskrav for Certificering i Big Five
 kort: false
-special: false
-hold_eller_begivenheder: true
 undervisere:
-- name: Frederikke Winther
-- name: Andreas Bering
+- Frederikke Winther
+- Andreas Bering
 kursus-oversigt: true
 aktive-hold: true
 hold:
@@ -91,22 +83,6 @@ hold:
     time: 10:00 - 15:00
     name: Wrap up + Eksamen
     place: Online
-classes: big-five
-cat:
-- proces
-- rot
-- certificeringer
-emails:
-- fw@copenhagencoaching.dk
-events:
-- overskrift: BFC22-2 - start 4. april 2022
-  dato:
-  - 4. april 2022 kl. 10.00 - 12.00
-  - 11. april 2022 kl. 10.00 - 12.00
-  - 25. april 2022 kl. 10.00 - 12.00
-  - 2. maj 2022 kl. 10.00 - 15.00
-  - 9. maj 2022 kl. 10.00 – 12.00
-  - 16. maj 2022 kl. 10.00 - 13.30
 ---
 
 Bliv klædt på til at bruge markedets bedst underbyggede personlighedstest i rekruttering og ledelses- og medarbejderudviklingssammenhæng.

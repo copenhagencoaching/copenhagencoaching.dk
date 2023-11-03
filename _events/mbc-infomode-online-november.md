@@ -13,7 +13,7 @@ time: 16:00 - 17:00
 billetto: false
 billetto-nr: 611228
 infomode: true
-infomode-link: MBC (Master of Business Coaching)
+infomode-link: MBC
 published: true
 ---
 ## Informationsmøde - MBC (Master of Business Coaching)

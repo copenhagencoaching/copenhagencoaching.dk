@@ -108,10 +108,9 @@ overblik:
   - "<b>Noget er på engelsk:</b>
   Faglitteraturen er primært på dansk, men engelsk kan forekomme."
 undervisere:
-- name: Mette Mejlhede
-- name: Frederikke Winther
-- name: Camilla Ingwersen
-- name: Jack Købke
+- Mette Mejlhede
+- Frederikke Winther
+- Jack Købke
 order: 2
 opbygning: true
 opbygning-text:

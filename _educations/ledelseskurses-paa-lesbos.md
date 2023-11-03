@@ -45,11 +45,11 @@ adgangskrav: Der er ingen nuværende adgangskrav
 location: Kurset foregår på Lesbos
 aktive-hold: true
 undervisere:
-- name: Andreas Bering
-- name: Mette Mejlhede
-- name: Frederikke Winther
-- name: Camilla Ingwersen
-- name: Jesper Nøddesbo
+- Andreas Bering
+- Mette Mejlhede
+- Frederikke Winther
+- Camilla Ingwersen
+- Jesper Nøddesbo
 oe-order: 2
 dage: 7
 small-price: 30.000,- ekskl. moms
