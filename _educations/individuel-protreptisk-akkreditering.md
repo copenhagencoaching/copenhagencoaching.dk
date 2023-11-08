@@ -12,13 +12,7 @@ redirect_from:
 meta-title: Protreptik - Individuel protreptisk akkreditering hos CCC
 meta-description: Kom helt i dybden med den filosofiske samtalekunst protreptikken. Individuel akkreditering med 6 individuelle træningssessioner og rejse til Lesbos i Aristoteles' fodspor.
 opbygning-image: "/images/educations/greek.png"
-opbygning-liste:
-- overskrift: "Prisen inkluderer:"
-  lis:
-  - 10 undervisningsdage
-  - Rejse til Lesbos (fly, hotel og fuld forplejning)
-  - 12 timers individuel træning (6 sessioner) + eksamen
-  - Undervisningsmaterialer og studieportal
+op-kollonne-banner: "<h4>Prisen inkluderer:</h4><ul><li>10 undervisningsdage</li><li>Rejse til Lesbos (fly, hotel og fuld forplejning)</li><li>12 timers individuel træning (6 sessioner) + eksamen</li><li>Undervisningsmaterialer og studieportal</li></ul>"
 kursus-oversigt: true
 aktive-hold: true
 hold:
@@ -44,19 +38,9 @@ redirect_from:
   - /academy/certificering-i-protreptik/
 layout: course
 published: true
-overblik:
-- overskrift: Undervisning på Lesbos
-  paragrafer:
-  - "Dette forløb er din chance og mulighed for at komme helt i dybden med denne filosofiske samtalekunst og ikke mindst dig selv og de værdier du står for i din ledelse, dit arbejdsliv og tilværelse generelt."
-  - "Den individuelle protreptiske akkreditering er baseret på dels et undervisningsforløb på et hold, dels et individuelt træningsforløb, som vil blive tilrettelagt efter dine specifikke ønsker og behov."
-  - "Størstedelen af undervisningsforløbet finder sted på Lesbos. Her vil du sammen med andre dedikerede protreptik-studerende følge i Aristoteles’ fodspor for at lære og træne den protreptiske samtaleform gradvist, praktisk og i fællesskab."
-- overskrift: Individuel akkreditering
-  paragrafer:
-  - "Efter undervisningsforløbet følger 6 individuelle træningssessioner, som tilrettelægges efter dine særlige ønsker og formål med akkrediteringen. Træningen foregår i udgangspunktet i CCC, men du kan også vælge at invitere os med ind i din daglige praksis med henblik på at få feedback på din protreptik med din medarbejdergruppe el.lign."
-  - "Akkrediteringsforløbet afsluttes med en praktisk eksamen – en ’live’ protreptik med en ukendt protreptée/fokusperson - med efterfølgende praktiske og teoretiske refleksioner ud i nogle af de bærende grundprincipper og generelle samtalegreb indenfor protreptikken."
-- overskrift:
-  paragrafer:
-  - "Hvis du allerede har gennemført undervisningsforløbet, f.eks. som studerende på 3. semester på Master of Business Coachin, og gerne vil opnå en individuel, protreptisk akkreditering, kan det individuelle træningsforløb og eksamen tilkøbes for 13.000 ekskl. moms"
+kollonne-1: "<h4>Undervisning på Lesbos</h4><p>Dette forløb er din chance og mulighed for at komme helt i dybden med denne filosofiske samtalekunst og ikke mindst dig selv og de værdier du står for i din ledelse, dit arbejdsliv og tilværelse generelt.</p><p>Den individuelle protreptiske akkreditering er baseret på dels et undervisningsforløb på et hold, dels et individuelt træningsforløb, som vil blive tilrettelagt efter dine specifikke ønsker og behov.</p><p>Størstedelen af undervisningsforløbet finder sted på Lesbos. Her vil du sammen med andre dedikerede protreptik-studerende følge i Aristoteles’ fodspor for at lære og træne den protreptiske samtaleform gradvist, praktisk og i fællesskab.</p><h5>Individuel akkreditering</h5><p>Efter undervisningsforløbet følger 6 individuelle træningssessioner, som tilrettelægges efter dine særlige ønsker og formål med akkrediteringen. Træningen foregår i udgangspunktet i CCC, men du kan også vælge at invitere os med ind i din daglige praksis med henblik på at få feedback på din protreptik med din medarbejdergruppe el.lign.</p><p>Akkrediteringsforløbet afsluttes med en praktisk eksamen – en ’live’ protreptik med en ukendt protreptée/fokusperson - med efterfølgende praktiske og teoretiske refleksioner ud i nogle af de bærende grundprincipper og generelle samtalegreb indenfor protreptikken.</p>"
+kollonne-2: "<p>Hvis du allerede har gennemført undervisningsforløbet, f.eks. som studerende på 3. semester på Master of Business Coachin, og gerne vil opnå en individuel, protreptisk akkreditering, kan det individuelle træningsforløb og eksamen tilkøbes for 13.000 ekskl. moms.</p>"
+kollonne-2-billede-hojde: h-75s
 description: >-
   Kom helt i dybden med den filosofiske samtalekunst og ikke mindst de værdier
   du ønsker at stå for i din ledelse. Forløbet er individuelt og tilpasses dine

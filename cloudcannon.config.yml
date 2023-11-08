@@ -173,7 +173,7 @@ collections_config:
         type: html
       location:
         label: Sted/lokation
-        type: textarea
+        type: html
       contact-person:
         label: Kontakt person
         type: select

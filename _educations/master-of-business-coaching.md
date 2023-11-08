@@ -7,9 +7,6 @@ image-2: /images/educations/mbc-overblik.png
 kort: true
 meta-title: MBC - Business Coaching uddannelse - Master i Business Coaching
 meta-description: Ønsker du at blive dygtig til at føre produktive og virkningsfulde dialoger? Bliv Master i Business Coaching på 2 år. Læs mere om vores business coach uddannelse her.
-video-in-over: true
-video-thumb: /videos/gitte-web.mp4
-video-thumb-text: "Hør i videoen hvad tidligere studerende Gitte Overgaard siger om uddannelsen. Med tryk på Business-delen af Coaching, i modsætning til fx life-coaching, er uddannelsen målrettet erhvervslivet med den hensigt at løfte de studerendes dialogiske kapacitet i professionelle kontekster."
 adgangskrav: "Adgang til uddannelsen er betinget
 af at ansøgeren har bestået mindst
 en videregående uddannelse
@@ -38,44 +35,30 @@ forplejning på de enkelte
 kursusdage.<br><br>Beløbet opkræves forud for
 semesterstart over fire gange.
 47.500 ekskl. moms pr. semester."
+kollonne-1: "<h4>Ledelse og coaching</h4><p>Ønsker du at blive dygtig til at føre produktive og virkningsfulde dialoger? At kunne flytte både grupper og individer i en mere konstruktiv retning og derved forebygge stress, organisatorisk stagnation og udbrændthed? Så vælg uddannelsen: MBC (Master of Business Coaching)</p><h4>Højeste internationale akkreditering</h4><p>Med en MBC får du en af landets bedste coachinguddannelser, hvor du både kan foretage traditionelle coachingsamtaler og den filosofiske samtale.</p><p>Med en MBC fra CCC er du garanteret de højeste, internationale standarder via vores akkreditering fra European Mentoring and Coaching Council (EMCC). <ins><a href='/emcc-akkreditering/'>Læs om vores EMCC akkreditering her</a></ins>.</p>"
+kollonne-2-video: true
+kollonne-2-video-url: /videos/gitte-web.mp4
+kollonne-2: <p>Hør i videoen hvad tidligere studerende Gitte Overgaard siger om uddannelsen. Med tryk på Business-delen af Coaching, i modsætning til fx life-coaching, er uddannelsen målrettet erhvervslivet med den hensigt at løfte de studerendes dialogiske kapacitet i professionelle kontekster.</p>
+kollonne-2-billede-hojde: h-50
 opbygning: true
-opbygning-text:
-- overskrift: Hvordan er uddannelsen bygget op?
-  paragrafer:
-  - "Uddannelsen kombinerer et solidt teoretisk fundament med en
+op-kollonne-1: "<h4>Hvordan er uddannelsen bygget op?</h4><p>Uddannelsen kombinerer et solidt teoretisk fundament med en
   målrettet træning og udvikling af den enkelte studerendes egen
-  samtalepraksis."
-  - "Uddannelsen er normeret til et studieårsværk fordelt på fire semestre á
-  et halvt å (15 ECTS), dvs. i alt to år og 60 ECTS. Hvert semester består af
+  samtalepraksis.</p><p>Uddannelsen er normeret til et studieårsværk fordelt på fire semestre á et halvt å (15 ECTS), dvs. i alt to år og 60 ECTS. Hvert semester består af
   ti undervisningsdage fordelt over et halvt år samt fire træningsaftener
   (på tværs af semesterhold), hvoraf to aftener ligger i direkte forlængelse
-  af undervisningen."
-  - "Hvert semester afsluttes med eksamen og et bevis på gennemførelse.
+  af undervisningen.</p><p>Hvert semester afsluttes med eksamen og et bevis på gennemførelse.
   Semestrene kan tages ét ad gangen og/eller forskudt, som det passer i
   den enkelte studerendes ressourcer og karrieremål. Hvis det måtte
-  ønskes, kan der træffes individuel aftale om en ONLINE løsning."
-  - "Uddannelsen afsluttes med en masterafhandling og et mundtligt forsvar."
-- overskrift: Hvad får du ud af uddannelsen?
-  paragrafer:
-  - "På uddannelsen trænes du i at være nærværende og ansvarstagende
+  ønskes, kan der træffes individuel aftale om en ONLINE løsning.</p><p>Uddannelsen afsluttes med en masterafhandling og et mundtligt forsvar.</p>"
+op-kollonne-2: "<h4>Hvad får du ud af uddannelsen?</h4><p>På uddannelsen trænes du i at være nærværende og ansvarstagende
   også når vi sammen rammer de svære emner, og hvor du mest af alt
-  har lyst til at afbryde samtalen."
-  - "På MBC'en er der derfor også fokus på din egen personlige
+  har lyst til at afbryde samtalen.</p><p>På MBC'en er der derfor også fokus på din egen personlige
   udvikling og dannelse; hvem du selv er, og hvad netop du betyder
-  for dialogen."
-  - "MBC'en gør den studerende i stand til at stå og indgå i mange
+  for dialogen.</p><p>MBC'en gør den studerende i stand til at stå og indgå i mange
   forskellige situationer og samtaler, herunder team- og
   medarbejderudvikling, konflikt- og krisehåndtering, procesledelse
-  og organisationsudvikling."
-opbygning-liste:
-- overskrift: "Som MBC studerende får du:"
-  lis:
-  - Adgang til vidensportal, værktøjer, faglitteratur, artikler og cases
-  - Big Five personlighedstest med individuel tilbagemelding
-  - Mulighed for at blive certificeret i Big Five, så du selv kan anvende personlighedstest
-  - Løbende supervision og et stærkt netværk
-  - Coachingsamtaler med flere undervisere
-  - Forplejning alle dage
+  og organisationsudvikling.</p>"
+op-kollonne-banner: "<h4>Som MBC studerende får du:</h4><ul><li>Adgang til vidensportal, værktøjer, faglitteratur, artikler og cases</li><li>Big Five personlighedstest med individuel tilbagemelding</li><li>Mulighed for at blive certificeret i Big Five, så du selv kan anvende personlighedstest</li><li>Løbende supervision og et stærkt netværk</li><li>Coachingsamtaler med flere undervisere</li><li>Forplejning alle dage</li></ul>"
 opbygning-image: "/images/educations/mbc-opbygning.png"
 overblik:
 - overskrift: Ledelse og coaching

@@ -86,11 +86,7 @@ profil:
         projektleder til at mestre procesledelse, med et tydeligt fokus på
         opgaveløsningen i virksomheden.
 image: /images/academy/proceslederuddannelse.jpg
-overblik:
-  - overskrift: Proceslederuddannelsen
-    paragrafer:
-      - >-
-        Proceslederuddannelsen er et særligt tilrettelagt og intensivt forløb,
+kollonne-1: "<h4>Proceslederuddannelsen</h4><p>Proceslederuddannelsen er et særligt tilrettelagt og intensivt forløb,
         der består af to valgfag fra Diplomuddannelsen i Offentlig Ledelse (ialt
         10 ECTS). De to valgfag er Ledelse & Coaching (5 ECTS) og Ledelse af
         Forandrings- og Udviklingsprocesser (5 ECTS). Det løber over knapt
@@ -100,27 +96,21 @@ overblik:
         fokus på praktiske coachingfærdigheder, procesdesign og facilitering
         obligatorisk. Endvidere tilbydes alle deltagerne en BIG FIVE
         personlighedstest med en coachende tilbagemeldingssamtale. BIG FIVE er
-        et af markedets bedst underbyggede personlighedstests til ledere.
-  - overskrift: At samle organisationen
-    paragrafer:
-      - >-
-        Krav om konstant forandring, omorganisering, økonomisk pres m.v. skaber
+        et af markedets bedst underbyggede personlighedstests til ledere.</p><h5>At samle organisationen</h5><p>Krav om konstant forandring, omorganisering, økonomisk pres m.v. skaber
         behov for professionel procesledelse. Proceslederuddannelsen giver dig
         et solidt fundament til at stå myndigt og dialogisk i ledelsesopgaven.
         Med de to moduler vil du kunne mestre den sunde og veldesignede proces,
         der giver dit og organisationens arbejde retning og mening. Du vil kunne
         samle organisationen, når der er behov for det, og inspirere til den
-        gode idé eller den ekstra indsats. Du vil også blive klædt på til at se
-        og forstå den enkelte medarbejders perspektiv i organisationen.
-  - overskrift: <br>
-    paragrafer: >-
-      Forventninger fra medarbejdere om medinddragelse og samskabelse som en del
+        gode idé eller den ekstra indsats. Du vil også blive klædt på til at se</p>"
+kollonne-2: "<p>Forventninger fra medarbejdere om medinddragelse og samskabelse som en del
       af virksomhedens kultur, drift og udvikling kalder dels på, at du har
       grundlæggende færdigheder i coaching og dels på, at du kan håndtere,
       forstå og vurdere de forskellige forandringer, der er til stede i
       organisationers liv, og som kalder på løbende tilpasninger og kursskifte.
       God procesledelse kræver evner til at styre, rumme og stimulere
-      menneskelig og faglig mangfoldighed i retning af fælles udvikling og mål.
+      menneskelig og faglig mangfoldighed i retning af fælles udvikling og mål.</p>"
+kollonne-2-billede-hojde: h-50
 price: >-
   27.500,- (Ekskl. moms) inkl. Forplejning, litteratur, BIG FIVE test og to
   individuelle coachinger med en certificeret coach fra Copenhagen Coaching

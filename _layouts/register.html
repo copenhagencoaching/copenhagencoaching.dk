@@ -1,0 +1,213 @@
+---
+layout: default
+---
+
+<div class="container-fluid py-5">
+    <div class="small-container pb-5">
+        <div class="pt-5">
+
+        </div>
+        <div class="h-400 w-100 my-5">
+            <img src="/images/diverse/tilmeldings-2.png" class="object-fit h-400" alt="Uddannelse hos Copenhagen Coaching Center">
+        </div>
+
+        <h1>{{ page.title }}</h1>
+
+        <div class="bg-platinum py-5 px-3 mt-5">
+            <form action="https://formspree.io/f/mknekyer" style="max-width: 600px;"
+                class="mx-auto special-form p-4 p-md-0" method="POST" id="semester-form">
+
+                <div class="row">
+                    <div class="col-12 pt-2">
+                        <select class="form-select udd mbc-hold mb-3" id="hold" name="hold">
+                            <option value="hold">Vælg hold</option>
+                            {% for ud in site.educations %}
+                            {% if ud.nested-hold %}
+                            {% if ud.title == "MBC" %}
+                            {% for semester in ud.nested-hold %}
+                            {% for h in semester.hold %}
+                            {% if h.title contains 'Semester 1' %}
+
+                            {% else %}
+                            <option value="{{ h.title }}">{{ h.title }}</option>
+                            {% endif %}
+                            {% endfor %}
+                            {% endfor %}
+
+                            {% endif %}
+                            {% endif %}
+                            {% endfor %}
+
+                        </select>
+                    </div>
+                    <input type="hidden" name="semester" value="" id="">
+                    <div class="col-md-6 col-12 mb-3">
+                        <input class="form-control mb-3" type="text" name="fname" placeholder="Foravn" required>
+                    </div>
+                    <div class="col-md-6 col-12 mb-3">
+                        <input class="form-control mb-3" type="text" name="lname" placeholder="Efternavn" required>
+                    </div>
+                    <div class="col-12 mb-3">
+                        <input class="form-control mb-3" type="text" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="col-12">
+                        <p><b>Har dine oplysninger ændret sig?</b></p>
+
+                    </div>
+                    <div class="col-md-6 col-12 mb-2">
+                        <div class="form-check">
+                            <input class="form-check-input no" type="radio" name="oplysninger-nye" id="inlineRadio4"
+                                value="nej" checked>
+                            <label class="form-check-label" for="inlineRadio4">Nej, mine oplysninger er de samme</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-12 mb-2">
+                        <div class="form-check">
+                            <input class="form-check-input yes" type="radio" name="oplysninger-nye" id="inlineRadio5"
+                                value="ja">
+                            <label class="form-check-label" for="inlineRadio5">Ja, mine oplysninger har ændret
+                                sig</label>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="row sem-info d-none mt-3">
+                 
+                    <div class="col-md-6 col-12 mb-2">
+                        <input class="form-control mb-3" type="text" name="virksomhed" placeholder="Virksomhed">
+                    </div>
+                    <div class="col-md-6 col-12 mb-2">
+                        <input class="form-control mb-3" type="text" name="tlf" placeholder="Mobil">
+                    </div>
+
+
+                    <div class="col-md-6 col-12 mb-2">
+                        <input class="form-control mb-3" type="text" name="arb-tlf" placeholder="Arb. tlf">
+                    </div>
+                    <div class="col-12 col-md-6 mb-2">
+                        <input type="text" name="cvr" id="cvr" class="form-control mb-3" placeholder="CVR nummer">
+                    </div>
+                    <div class="col-12 col-md-6 mb-2">
+                        <input class="form-control mb-3" type="text" name="ean" placeholder="EAN">
+                    </div>
+
+
+
+                    <div class="col-md-6 col-12 mb-2">
+                        <input type="text" class="form-control w-100 mb-3" placeholder="Faktureringsadresse"
+                            aria-label="adresse" name="faktureringsadresse">
+
+                    </div>
+                    <div class="col-md-6 col-12 mb-2">
+                        <input type="text" class="form-control w-100 mb-3" placeholder="Postnummer"
+                            aria-label="postnummer" name="postnummer">
+
+                    </div>
+
+
+
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-6 col-12">
+                        <div class="g-recaptcha" data-sitekey="6Lfi__EcAAAAABOscNdrKzqeLNu2vbuTM_5VlANy"></div>
+                        <!-- your other form fields go here -->
+                    </div>
+                    <div class="col-12 col-md-6">
+
+                        <div class="form-check my-3 my-md-0">
+                            <input class="form-check-input" name="samtykke" type="checkbox" id="samtykke-2" required>
+                            <label class="form-check-label" for="samtykke-2">
+                                <p class="small mb-0">Jeg giver samtykke til, at CCC må bruge mine oplysninger til at
+                                    behandle min
+                                    ansøgning. Derudover giver jeg samtykke til, at CCC opbevarer og behandler mine
+                                    persondata som er
+                                    beskrevet i <a target="_blank" href="/privatlivspolitik/">CCC's
+                                        privatlivspolitik</a>.</p>
+                            </label>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+
+                <div class="mt-4"></div>
+              
+                <button id="btn-ta" class="btn-cadet-gray btn w-100 text-white">Tilmeld</button>
+
+            </form>
+            <div id="stat-error" class="d-none">
+                <p>Husk at udfylde alle oblikatoriske felter</p>
+            </div>
+            <div id="semester-status" class="d-none">
+                <p>Tak for din tilmelding til det næste semester. Du vil snarest få en bekræftelse på mail.</p>
+                
+
+            </div>
+        </div>
+        <div class="py-5">
+
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).on("click", ".no", function () {
+        $('.sem-info').addClass("d-none")
+
+    });
+
+
+    $(document).on("click", ".yes", function () {
+        $('.sem-info').removeClass("d-none")
+    });
+</script>
+
+<script>
+    var form_t = document.getElementById("semester-form");
+    async function handleSubmitT(event) {
+
+        event.preventDefault();
+        var status = document.getElementById("semester-status");
+        var stat_er = document.getElementById("stat-error")
+        var data = new FormData(event.target);
+        fetch(event.target.action, {
+            method: form_t.method,
+            body: data,
+            headers: {
+                'Accept': 'application/json'
+            }
+        }).then(response => {
+            if (!response.ok) {
+                stat_er.className = "d-block"
+
+                return;
+            } else {
+                status.className = "py-3 text-center"
+                form_t.className = "d-none"
+                stat_er.className = "d-none"
+                form_t.reset()
+
+            }
+
+        }).catch(error => {
+            status.innerHTML = "Ups! Der opstod et problem. --"
+        });
+
+    }
+    form_t.addEventListener("submit", handleSubmitT)
+
+
+
+    let select = document.getElementById('select_id');
+    select.onchange = function () {
+
+
+        document.getElementById('btn-ta').innerHTML = this.selectedOptions[0].text;
+
+    }
+
+
+</script>
