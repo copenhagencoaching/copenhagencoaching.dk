@@ -243,13 +243,22 @@ collections_config:
         label: Moduler/Dage
       day:
         label: Dag nr.
-        type: text
+        type: number
       time:
         label: Tid (Fra - til)
         type: text
       place:
         label: Sted
         type: text
+      aar:
+        label: År (Halvår)
+        comment: F.eks. Forår 2022
+        type: text
+      nested-hold:
+        label: Hold
+        comment: Hold inddelt i år
+      hold:
+        label: Hold
       redirect_from:
         hidden: true
       published:
