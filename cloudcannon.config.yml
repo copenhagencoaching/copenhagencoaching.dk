@@ -200,6 +200,26 @@ collections_config:
       infomode:
         label: Er der et kommende infomøde om kurset/uddannelsen?
         type: switch
+      kollonne-1:
+        label: Kollonne 1
+        comment: Tekst i kollonne 1 i Oversigt
+        type: html
+      kollonne-2:
+        label: Kollonne 2
+        comment: Tekst i kollonne 2 i Oversigt
+        type: html
+      op-kollonne-1:
+        label: Kollonne 1 (Opgybning sektion)
+        comment: Tekst i kollonne 1 i Opbygning
+        type: html
+      op-kollonne-2:
+        label: Kollonne 2 (Opgybning sektion)
+        comment: Tekst i kollonne 2 i Opbygning
+        type: html
+      op-kollonne-banner:
+        label: Banner (Opgybning sektion)
+        comment: Tekst i banneret i Opbygning
+        type: html
       redirect_from:
         hidden: true
       published:
