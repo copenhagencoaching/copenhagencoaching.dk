@@ -230,6 +230,9 @@ collections_config:
         label: Banner (Opgybning sektion)
         comment: Tekst i banneret i Opbygning
         type: html
+      date:
+        label: Dato
+        type: text
       redirect_from:
         hidden: true
       published:
@@ -294,15 +297,15 @@ _select_data:
   sass:
     style: compressed
   hojder:
-    - key: 0
+    - key: h-md-0
       display_name: 0%
-    - key: 25
+    - key: h-md-25
       display_name: 25%
-    - key: 50
+    - key: h-md-50
       display_name: 50%
-    - key: 75
+    - key: h-md-75
       display_name: 75%
-    - key: 100
+    - key: h-md-100
       display_name: 100%
   config:
     - _config_cc.yml
