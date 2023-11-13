@@ -120,42 +120,42 @@ hold:
     dates: 27. februar - 17. maj
     modules:
       - date: 27. februar
-        day: 1
+        day: "1"
         time: 10:00 - 19:30
         name: '-'
         place: København
       - date: 28. februar
-        day: 2
+        day: "2"
         time: 09:00 - 16:00
         name: '-'
         place: København
       - date: 20. marts
-        day: 3
+        day: "3"
         time: 09:00 - 16:00
         name: '-'
         place: København
       - date: 8. april
-        day: 4
+        day: "4"
         time: 10:00 - 17:00
         name: '-'
         place: København
       - date: 22. april
-        day: 5
+        day: "5"
         time: 12:00 - 16:00
         name: '-'
         place: Online
       - date: 1. maj
-        day: 6
+        day: "6"
         time: 09:00 - 15:00
         name: '-'
         place: København
       - date: 16. maj
-        day: 7
+        day: "7"
         time: 09:00 - 16:00
         name: Eksamen
         place: København
       - date: 17. maj
-        day: 8
+        day: "8"
         time: 09:00 - 15:00
         name: Eksamen
         place: København

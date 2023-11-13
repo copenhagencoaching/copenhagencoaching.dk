@@ -60,14 +60,6 @@ op-kollonne-2: "<h4>Hvad får du ud af uddannelsen?</h4><p>På uddannelsen træn
   og organisationsudvikling.</p>"
 op-kollonne-banner: "<h4>Som MBC studerende får du:</h4><ul><li>Adgang til vidensportal, værktøjer, faglitteratur, artikler og cases</li><li>Big Five personlighedstest med individuel tilbagemelding</li><li>Mulighed for at blive certificeret i Big Five, så du selv kan anvende personlighedstest</li><li>Løbende supervision og et stærkt netværk</li><li>Coachingsamtaler med flere undervisere</li><li>Forplejning alle dage</li></ul>"
 opbygning-image: "/images/educations/mbc-opbygning.png"
-overblik:
-- overskrift: Ledelse og coaching
-  paragrafer:
-  - "Ønsker du at blive dygtig til at føre produktive og virkningsfulde dialoger? At kunne flytte både grupper og individer i en mere konstruktiv retning og derved forebygge stress, organisatorisk stagnation og udbrændthed? Så vælg uddannelsen: MBC (Master of Business Coaching)."
-  - "Med en MBC får du en af landets bedste coachinguddannelser, hvor du både kan foretage traditionelle coachingsamtaler og den filosofiske samtale."
-- overskrift: Højeste internationale akkreditering
-  paragrafer:
-  - "Med en MBC fra CCC er du garanteret de højeste, internationale standarder via vores akkreditering fra European Mentoring and Coaching Council (EMCC). <ins><a href='/emcc-akkreditering/'>Læs om vores EMCC akkreditering her</a></ins>."
 undervisere:
 - Mette Mejlhede
 - Andreas Bering
@@ -100,42 +92,42 @@ nested-hold:
     dates: 21. februar - 12. juni
     modules:
     - date: 21. februar
-      day: 1
+      day: "1"
       time: 09:30 - 16:00
       name: Coaching og syntesemodellen
       place: Blegdamsvej
     - date: 22. februar
-      day: 2
+      day: "2"
       time: 09:30 - 16:00
       name: Kognitiv 1
       place: Blegdamsvej
     - date: 19. marts
-      day: 3
+      day: "3"
       time: 09:30 - 16:00
       name: Psyko-dynamisk 1
       place: Blegdamsvej
     - date: 20. marts
-      day: 4
+      day: "4"
       time: 09:30 - 16:00
       name: Systemisk-narrativ 1
       place: Blegdamsvej
     - date: 24. april
-      day: 5
+      day: "5"
       time: 09:30 - 20:00
       name: Kognitiv 2
       place: Blegdamsvej
     - date: 25. april
-      day: 6
+      day: "6"
       time: 09:30 - 16:00
       name: Psyko-dynamisk  2
       place: Blegdamsvej
     - date: 13. maj
-      day: 7
+      day: "7"
       time: 09:30 - 20:00
       name: Systemisk-narrativ 2
       place: Blegdamsvej
     - date: 14. maj
-      day: 8
+      day: "8"
       time: 09:30 - 16:00
       name: Syntese
       place: Blegdamsvej
@@ -148,22 +140,22 @@ nested-hold:
     dates: 17. januar - 8. maj
     modules:
     - date: 17. januar
-      day: 1
+      day: "1"
       time: 09:30 - 20:00
       name: Kognitiv 3
       place: Blegdamsvej
     - date: 18. januar
-      day: 2
+      day: "2"
       time: 09:30 - 16:00
       name: Psykodynamisk 3
       place: Blegdamsvej
     - date: 5. februar
-      day: 3
+      day: "3"
       time: 09:30 - 20:00
       name: Systemisk 3 + Træningsaften
       place: Blegdamsvej
     - date: 6. februar
-      day: 4
+      day: "4"
       time: 09:30 - 16:00
       name: Kognitiv 4 og psykodynamisk 4
       place: Blegdamsvej
@@ -173,17 +165,17 @@ nested-hold:
       name: Teamcoaching
       place: Blegdamsvej
     - date: 10. april
-      day: 7
+      day: "7"
       time: 09:30 - 16:00
       name: Tredje generations coaching
       place: Blegdamsvej
     - date: 11. april
-      day: 8
+      day: "8"
       time: 09:30 - 16:00
       name: Syntese og træning
       place: Blegdamsvej
     - date: 6. - 8. maj
-      day: '-'
+      day: "-"
       time: 09:30 - 16:00
       name: Eksamen
       place: Blegdamsvej
@@ -191,7 +183,7 @@ nested-hold:
     dates: 4. april - 18. juni
     modules:
     - date: 4. april
-      day: 1
+      day: "1"
       time: 09:30 - 16:00
       name: Introduktion til Protreptik
       place: Blegdamsvej
@@ -215,42 +207,42 @@ nested-hold:
     modules:
     - date: 31. januar
       time: 09:30 - 16:00
-      day: 1
+      day: "1"
       name: Introduktion til nye coachingformer
       place: Blegdamsvej
     - date: 26. februar
       time: 09:30 - 20:00
-      day: 2
+      day: "2"
       name: Kognitionsfilosofi
       place: Blegdamsvej
     - date: 27. februar
       time: 09:30 - 16:00
-      day: 3
+      day: "3"
       name: Kropsfilosofi
       place: Blegdamsvej
     - date: 13. marts
       time: 09:30 - 20:00
-      day: 4
+      day: "4"
       name: Eksistensfilosofi
       place: Blegdamsvej
     - date: 14. marts
       time: 09:30 - 16:00
-      day: 5
+      day: "5"
       name: Dialogfilosofi
       place: Blegdamsvej
     - date: 29. april
       time: 09:30 - 20:00
-      day: 6
+      day: "6"
       name: Differensfilosofi
       place: Blegdamsvej
     - date: 30. april
       time: 09:30 - 16:00
-      day: 7
+      day: "7"
       name: Eksperimentel pragmatik
       place: Blegdamsvej
     - date: 15. maj
       time: 09:30 - 16:00
-      day: 8
+      day: "8"
       name: Syntese
       place: Blegdamsvej
 - aar: Efterår 2023
@@ -259,12 +251,12 @@ nested-hold:
     dates: 4. september - 11. november
     modules:
     - date: 4. september
-      day: 1
+      day: "1"
       time: 09:30 - 16:00
       name: Coaching og syntesemodellen
       place: Blegdamsvej
     - date: 5. september
-      day: 2
+      day: "2"
       time: 09:30 - 16:00
       name: Kognitiv 1
       place: Blegdamsvej
@@ -274,22 +266,22 @@ nested-hold:
       name: Træningsaften
       place: Blegdamsvej     
     - date: 3. oktober
-      day: 3
+      day: "3"
       time: 09:30 - 20:00
       name: Psyko-dynamisk 1 + Træningsaften
       place: Blegdamsvej
     - date: 4. oktober
-      day: 4
+      day: "4"
       time: 09:30 - 16:00
       name: Systemisk-narrativ 1
       place: Blegdamsvej
     - date: 30. oktober
-      day: 5
+      day: "5"
       time: 09:30 - 16:00
       name: Kognitiv 2
       place: Blegdamsvej
     - date: 31. oktober
-      day: 6
+      day: "6"
       time: 09:30 - 16:00
       name: Psyko-dynamisk 2
       place: Blegdamsvej
@@ -299,12 +291,12 @@ nested-hold:
       name: Træningsaften
       place: Blegdamsvej    
     - date: 27. november
-      day: 7
+      day: "7"
       time: 09:30 - 20:00
       name: Systemisk-narrativ + Træningsaften
       place: Blegdamsvej
     - date: 28. november
-      day: 8
+      day: "8"
       time: 09:30 - 16:00
       name: Syntese
       place: Blegdamsvej
@@ -317,22 +309,22 @@ nested-hold:
     dates: 21. august - 6. december
     modules:
     - date: 21. august
-      day: 1
+      day: "1"
       time: 09:30 - 16:00
       name: Kognitiv 3
       place: Blegdamsvej
     - date: 22. august
-      day: 2
+      day: "2"
       time: 09:30 - 16:00
       name: Psykodynamisk 3
       place: Blegdamsvej
     - date: 19. september
-      day: 3
+      day: "3"
       time: 09:30 - 20:00
       name: Systemisk 3 + Træningsaften
       place: Blegdamsvej
     - date: 20. september
-      day: 4
+      day: "4"
       time: 09:30 - 16:00
       name: Kognitiv 4 og psykodynamisk 4
       place: Blegdamsvej
@@ -342,22 +334,22 @@ nested-hold:
       name: Træningsaften
       place: Blegdamsvej
     - date: 9. oktober
-      day: 5
+      day: "5"
       time: 09:30 - 16:00
       name: Teamcoaching
       place: Blegdamsvej
     - date: 10. oktober
-      day: 6
+      day: "6"
       time: 09:30 - 16:00
       name: Teamcoaching
       place: Blegdamsvej
     - date: 8. november
-      day: 7
+      day: "7"
       time: 09:30 - 20:00
       name: Tredje generations coaching + Træningsaften
       place: Blegdamsvej
     - date: 9. november
-      day: 8
+      day: "8"
       time: 09:30 - 16:00
       name: Syntese og træning
       place: Blegdamsvej
@@ -375,7 +367,7 @@ nested-hold:
     dates: 24. august - 22. november
     modules:
     - date: 24. august
-      day: 1
+      day: "1"
       time: 09:30 - 20:00
       name: Introduktion til Protreptik + Træningsaften
       place: Blegdamsvej
@@ -390,7 +382,7 @@ nested-hold:
       name: Træningsaften
       place: Blegdamsvej
     - date: 12. oktober
-      day: 8
+      day: "8"
       time: 09:30 - 20:00
       name: Opsamling, syntese og eksamenstræning + Træningsaften
       place: Blegdamsvej
@@ -409,7 +401,7 @@ nested-hold:
     modules:
     - date: 17. august
       time: 09:30 - 16:00
-      day: 1
+      day: "1"
       name: Introduktion til nye coachingformer
       place: Blegdamsvej
     - date: 24. august
@@ -419,12 +411,12 @@ nested-hold:
       place: Blegdamsvej
     - date: 26. september
       time: 09:30 - 20:00
-      day: 2
+      day: "2"
       name: Kognitionsfilosofi + Træningsaften
       place: Blegdamsvej
     - date: 27. september
       time: 09:30 - 16:00
-      day: 3
+      day: "3"
       name: Kropsfilosofi
       place: Blegdamsvej
     - date: 12. oktober
@@ -434,27 +426,27 @@ nested-hold:
       place: Blegdamsvej
     - date: 25. oktober
       time: 09:30 - 16:00
-      day: 4
+      day: "4"
       name: Eksistensfilosofi
       place: Blegdamsvej
     - date: 26. oktober
       time: 09:30 - 16:00
-      day: 5
+      day: "5"
       name: Dialogfilosofi
       place: Blegdamsvej
     - date: 14. november
       time: 09:30 - 20:00
-      day: 6
+      day: "6"
       name: Differensfilosofi + Træningsaften
       place: Blegdamsvej
     - date: 15. november
       time: 09:30 - 16:00
-      day: 7
+      day: "7"
       name: Eksperimentel pragmatik
       place: Blegdamsvej
     - date: 7. devember
       time: 09:30 - 16:00
-      day: 8
+      day: "8"
       name: Syntese
       place: Blegdamsvej
 redirect_from:
