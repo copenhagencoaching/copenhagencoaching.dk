@@ -39,7 +39,7 @@ kollonne-1: "<h4>Ledelse og coaching</h4><p>Ønsker du at blive dygtig til at f�
 kollonne-2-video: true
 kollonne-2-video-url: /videos/gitte-web.mp4
 kollonne-2: <p>Hør i videoen hvad tidligere studerende Gitte Overgaard siger om uddannelsen. Med tryk på Business-delen af Coaching, i modsætning til fx life-coaching, er uddannelsen målrettet erhvervslivet med den hensigt at løfte de studerendes dialogiske kapacitet i professionelle kontekster.</p>
-kollonne-2-billede-hojde: h-50
+kollonne-2-billede-hojde: h-md-50
 opbygning: true
 op-kollonne-1: "<h4>Hvordan er uddannelsen bygget op?</h4><p>Uddannelsen kombinerer et solidt teoretisk fundament med en
   målrettet træning og udvikling af den enkelte studerendes egen
@@ -97,7 +97,6 @@ nested-hold:
 - aar: Forår 2024
   hold:
   - title: Semester 1 - Forår 2024
-    price: 47.500 (Ekskl. moms)
     dates: 21. februar - 12. juni
     modules:
     - date: 21. februar
@@ -146,7 +145,6 @@ nested-hold:
       name: Eksamen
       place: Blegdamsvej
   - title: Semester 2 - Forår 2024
-    price: 47.500 (Ekskl. moms)
     dates: 17. januar - 8. maj
     modules:
     - date: 17. januar
@@ -190,7 +188,6 @@ nested-hold:
       name: Eksamen
       place: Blegdamsvej
   - title: Semester 3 - Forår 2024
-    price: 47.500 (Ekskl. moms)
     dates: 4. april - 18. juni
     modules:
     - date: 4. april
@@ -214,7 +211,6 @@ nested-hold:
       name: Eksamen
       place: Blegdamsvej
   - title: Semester 4 - Forår 2024
-    price: 47.500 (Ekskl. moms)
     dates: 31. januar - 15.  maj
     modules:
     - date: 31. januar
@@ -260,7 +256,6 @@ nested-hold:
 - aar: Efterår 2023
   hold:
   - title: Semester 1 - Efterår 2023
-    price: 47.500 (Ekskl. moms)
     dates: 4. september - 11. november
     modules:
     - date: 4. september
@@ -319,7 +314,6 @@ nested-hold:
       name: Eksamen
       place: Blegdamsvej
   - title: Semester 2 - Efterår 2023
-    price: 47.500 (Ekskl. moms)
     dates: 21. august - 6. december
     modules:
     - date: 21. august
@@ -378,7 +372,6 @@ nested-hold:
       name: Eksamen
       place: Blegdamsvej
   - title: Semester 3 - Efterår 2023
-    price: 47.500 (Ekskl. moms)
     dates: 24. august - 22. november
     modules:
     - date: 24. august
@@ -412,7 +405,6 @@ nested-hold:
       name: Eksamen
       place: Blegdamsvej
   - title: Semester 4 - Efterår 2023
-    price: 47.500 (Ekskl. moms)
     dates: 17. august - 7. december
     modules:
     - date: 17. august

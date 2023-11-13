@@ -10,7 +10,6 @@ aktive-hold: false
 kursus-oversigt: false
 hold:
 - title: Hold 2 - År 1 - Start sommer 2023
-  price: 162.000 (Ekskl. moms)
   dates: 8. juni - 4. november
   modules:
   - date: 8. - 10. juni
@@ -29,7 +28,6 @@ hold:
     name: "-"
     place: "-"
 - title: Hold 1 - År 2 - Start forår 2023
-  price: 162.000 (Ekskl. moms)
   dates: 19. januar - 2. december
   modules:
   - date: 19. - 21. januar
@@ -82,7 +80,7 @@ opbygning-image: "/images/educations/mbc-opbygning.png"
 description: Grundlæggende set er ideen, formålet og visionen med denne 4-årige terapi-uddannelse at kombinere, nuancere og kvalificere samarbejdet mellem den filosofiske tradition og dannelse og den psykologiske og psykoterapeutiske tradition og dannelse.
 kollonne-1: "<h4>Dybere, højere og bredere beredskab</h4><p>Ideen, formålet og visionen med terapi-uddannelsen er at kombinere og kvalificere den filosofiske tradition med den psykologiske og psykoterapeutiske tradition. Uddannelsen tilbyder et dybere og bredere beredskab at møde sin klient/borger og sig selv med. Gennem psykologiske og filosofiske metoder og øvelser, teoretisk såvel som praktisk, dannes den kommende terapeut på denne uddannelse i at kunne møde det andet menneske som menneske og med-menneske.</p><h4>Den svære samtale</h4><p>Uddannelsens opbygning vil sikre, at man som terapeut vil være tryg ved at samtalen bevæger sig ind på langt de fleste livsområder. Disse kvalifikationer kan med fordel anvendes i forskellige pædagogiske og sociale sammenhænge, hvor man har en tættere kontakt med borgeren, uanset om det er som frontmedarbejder på jobcentre, sagsbehandler i et børn- og ungeteam eller andet.</p><p>Kvalifikationerne kan med fordel også benyttes i en ledelsesmæssig sammenhæng. Dette kan f.eks. være i forhold til at føle sig personligt rustet til kvalificering af medarbejdernes målsætninger, ”den svære samtale” om sygefravær, samarbejdsvanskeligheder eller misbrugsadfærd. Det kan også være kvalificering/specificering af ønsker om at avancere i egen karriere.</p><p>Vælger man at tage alle 4 år af uddannelsen på Copenhagen Coaching Center, vil man erhverve sig kvalifikationer til at arbejde som psykoterapeut på langt de fleste områder.</p>"
 kollonne-2: "<p><b>Tidsforbrug: </b>Undervisningen er tilrettelagt, så du kan passe dit job samtidig. Vi mødes hver anden måned, og imellem hver mødegang mødes du også med din træningsgruppe. Ift. forberedelse af det afsluttende eksamensmodul på hvert semester, må der forventes at skulle afsættes lidt ekstra tid.</p><p><b>Forløbet:</b> Alle moduler er af tre dages varighed fra torsdag-lørdag uden overnatning. Intromodulet varer dog kun to dage, fra torsdag til og med fredag, med overnatning.</p><p><b>Forberedelse til hver gang:</b> Til hver mødegang skal du forberede dig ved at læse udvalgt faglitteratur og løse mindre opgaver enten alene eller med din træningsgruppe. Vi bruger en digital studieportal, hvor du har adgang til alt materiale fra uddannelsen. Her kan du også kommunikere med undervisere og medstuderende.</p><p><b>Noget er på engelsk:</b>Faglitteraturen er primært på dansk, men engelsk kan forekomme.</p>"
-kollonne-2-billede-hojde: h-50
+kollonne-2-billede-hojde: h-md-50
 undervisere:
 - Mette Mejlhede
 - Frederikke Winther

@@ -233,6 +233,23 @@ collections_config:
       date:
         label: Dato
         type: text
+      dates:
+        label: Datoer
+        type: text
+      name:
+        label: Navn/beskrivelse
+        type: text
+      modules:
+        label: Moduler/Dage
+      day:
+        label: Dag nr.
+        type: text
+      time:
+        label: Tid (Fra - til)
+        type: text
+      place:
+        label: Sted
+        type: text
       redirect_from:
         hidden: true
       published:

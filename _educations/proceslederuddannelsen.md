@@ -110,14 +110,13 @@ kollonne-2: "<p>Forventninger fra medarbejdere om medinddragelse og samskabelse 
       organisationers liv, og som kalder på løbende tilpasninger og kursskifte.
       God procesledelse kræver evner til at styre, rumme og stimulere
       menneskelig og faglig mangfoldighed i retning af fælles udvikling og mål.</p>"
-kollonne-2-billede-hojde: h-50
+kollonne-2-billede-hojde: h-md-50
 price: >-
   27.500,- (Ekskl. moms) inkl. Forplejning, litteratur, BIG FIVE test og to
   individuelle coachinger med en certificeret coach fra Copenhagen Coaching
   Center
 hold:
   - title: Proceslederuddannelsen - Forår 2024
-    price: 27.500 ekskl. moms
     dates: 27. februar - 17. maj
     modules:
       - date: 27. februar

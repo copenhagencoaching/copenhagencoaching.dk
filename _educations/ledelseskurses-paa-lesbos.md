@@ -13,7 +13,7 @@ layout: course
 pdf: https://www.copenhagencoaching.dk/pdfs/Ledelsesrejse-på-lebos.pdf
 kollonne-1: "<h4>Hvorfor skal du vælge Ledelseskursus på Lesbos?</h4><p>Har du givet dig selv mulighed for at finde det der betyder mest for dig, når du leder? Ønsker du at kunne bevare overblikket og agere tydeligt. Oplever du at det kan være svært at udfordre med et åbent sind og samtidig skabe tryghed omkring dig? Synes du nogle gange det er svært at bevæge sig i det uforudsigelige eller medskabe noget gennem fællesskabets værdier? Nu har du muligheden for at tænke over det, mærke efter det og blive til det.</p><p>Tag med på denne opdagelsesrejse på den græske ø Lesbos sammen med andre ledere, erfarne rådgivere og konsulenter samt studerende fra vores toårige uddannelse, Master i Business Coaching.</p><p>Dette intense forløb skærper dine refleksioner over og fornemmelser for det der afgør dine handlinger i din ledelsespraksis. Med andre ord bliver du tydelig omkring dine grundværdier og dit råderum, når du leder.</p>"
 kollonne-2:
-kollonne-2-billede-hojde: h-100
+kollonne-2-billede-hojde: h-md-100
 overblik:
 - overskrift: Hvorfor skal du vælge Ledelseskursus på Lesbos?
   paragrafer:
@@ -45,7 +45,6 @@ kursus-oversigt: true
 special: false
 hold:
 - title: Rejse - Forår 2023
-  price: 30.000,- ekskl. moms
   dates: 21. - 28. maj
   modules:
   - date: 21. - 28. maj
@@ -54,7 +53,6 @@ hold:
     name:
     place:
 - title: Rejse - Efterår 2023
-  price: 30.000,- ekskl. moms
   dates: 10. - 17. september
   modules:
   - date: 10. - 17. september

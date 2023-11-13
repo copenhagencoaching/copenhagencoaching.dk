@@ -28,7 +28,6 @@ kursus-oversigt: true
 aktive-hold: true
 hold:
 - title: BFC23-3
-  price: 22.500 ekskl. moms
   dates: 19. sep - 27. okt 2023
   modules:
   - date: 19. september
