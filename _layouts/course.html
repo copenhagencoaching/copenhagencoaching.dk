@@ -596,53 +596,28 @@ layout: default
 
 {% if page.deltagerprofil == true %}
 
-<div class="container-fluid pt-5">
-    <div class="small-container pt-3 position-relative">
+<div class="container-fluid pt-5 pb-5">
+    <div class="small-container py-3 position-relative">
         <div id="deltagerprofil" class="anchor-delay"></div>
-        {% for h in page.profil %}
-        <h2>{{ h.overskrift }}</h2>
-        {% for p in h.paragrafer %}
-        <p class="text-justify">{{ p }}</p>
-        {% endfor %}
-        {% endfor %}
+        <div class="row gx-5 gy-4">
+            <div class="col-12 col-md-6">{{ page.dp-kollonne-1 }}</div>
+            <div class="col-12 col-md-6">{{ page.dp-kollonne-2 }}</div>
+        </div>
     </div>
 </div>
 
 {% endif %}
 
 {% if page.anbefalinger == true %}
-{% if page.anbefalinger-video == true %}
+
+
 <div class="bg-slate-gray">
     <div class="container-fluid py-5">
         <div class="small-container position-relative">
+           
             <div id="anbefalinger" class="anchor-delay"></div>
-            <h5 class="text-white mb-3">{{ page.video-text }}</h5>
-            <div>
-                <div class="video-container mb-0"><video controls>
-
-                        <source src="{{ page.video-url }}" type="video/mp4">
-                        Your browser does not support HTML video.
-                    </video></div>
-            </div>
-
-
-        </div>
-    </div>
-</div>
-{% endif %}
-
-{% if page.anbefalinger-text == true %}
-<div class="bg-slate-gray">
-    <div class="container-fluid py-5">
-        <div class="small-container position-relative">
-            {% if page.anbefalinger-video == true %}
-
-            {% else %}
-            <div id="anbefalinger" class="anchor-delay"></div>
-            {% endif %}
-            <h2 class="text-white mb-5">
-                Anbefalinger
-            </h2>
+            
+            
 
             <div class="row g-5">
                 {% for v in page.vidner %}
@@ -650,14 +625,14 @@ layout: default
                 <div class="col-12 col-md-6">
 
                     <figure>
-                        <blockquote class="blockquote mb-4 col-12">
+                        <blockquote class="blockquote mb-4 col-12 mt-3">
                             <p class="text-white">
-                                <i class="fas fa-quote-left fs-3 fa-lg opacity-50 me-2 text-white"></i>
-                                {% for p in v.texts %}
-                                <span class="mb-2">{{ p }}</span>
+                                <i class="fas fa-quote-left fs-5 fa-lg opacity-50 me-2 text-white"></i>
+                                
+                                <span class="mb-2">{{ v.text }}</span>
                                 <br>
                                 <br>
-                                {% endfor %}
+                                
 
                             </p>
                         </blockquote>
@@ -678,7 +653,7 @@ layout: default
         </div>
     </div>
 </div>
-{% endif %}
+
 
 {% endif %}
 

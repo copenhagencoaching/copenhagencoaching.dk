@@ -3,7 +3,7 @@ order: 1
 title: MBC
 undertitle: (Master of Business Coaching)
 image: /images/educations/mbc-1.png
-image-2: /images/educations/mbc-overblik.png
+infomode: true
 kort: true
 meta-title: MBC - Business Coaching uddannelse - Master i Business Coaching
 meta-description: Ønsker du at blive dygtig til at føre produktive og virkningsfulde dialoger? Bliv Master i Business Coaching på 2 år. Læs mere om vores business coach uddannelse her.
@@ -39,6 +39,7 @@ kollonne-1: "<h4>Ledelse og coaching</h4><p>Ønsker du at blive dygtig til at f�
 kollonne-2-video: true
 kollonne-2-video-url: /videos/gitte-web.mp4
 kollonne-2: <p>Hør i videoen hvad tidligere studerende Gitte Overgaard siger om uddannelsen. Med tryk på Business-delen af Coaching, i modsætning til fx life-coaching, er uddannelsen målrettet erhvervslivet med den hensigt at løfte de studerendes dialogiske kapacitet i professionelle kontekster.</p>
+image-2: /images/educations/mbc-overblik.png
 kollonne-2-billede-hojde: h-md-50
 opbygning: true
 op-kollonne-1: "<h4>Hvordan er uddannelsen bygget op?</h4><p>Uddannelsen kombinerer et solidt teoretisk fundament med en
@@ -67,23 +68,19 @@ undervisere:
 - Jesper Nøddesbo
 - Rasmus Mejlhede
 pdf: "https://www.copenhagencoaching.dk/pdfs/MBC_folder_forår_24.pdf"
+anbefalinger: false
 vidner:
-- navn: Navn Navn
-  titel: Titel, Virksomhed
-  texts:
-  - Cras varius. Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc. Sed libero. Suspendisse eu ligula. Phasellus consectetuer vestibulum elit.
-  - Pellentesque ut neque. Vestibulum turpis sem, aliquet eget, lobortis pellentesque, rutrum eu, nisl. Aliquam erat volutpat. Etiam imperdiet imperdiet orci. Praesent porttitor, nulla vitae posuere iaculis, arcu nisl dignissim dolor, a pretium mi sem ut ipsum.
-- navn: Navn Navn
-  titel: Titel, Virksomhed
-  texts:
-  - Cras varius. Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc. Sed libero. Suspendisse eu ligula. Phasellus consectetuer vestibulum elit.
-  - Pellentesque ut neque. Vestibulum turpis sem, aliquet eget, lobortis pellentesque, rutrum eu, nisl. Aliquam erat volutpat. Etiam imperdiet imperdiet orci. Praesent porttitor, nulla vitae posuere iaculis, arcu nisl dignissim dolor, a pretium mi sem ut ipsum.
+- navn: Stella Sandfeld
+  titel: Chefsygeplejerske, Sjællands Universitetshospital, Medicinsk afd.
+  text: "I de svære medarbejdersamtaler eller der, hvor der er konflikter, spørger jeg mig selv; hvad er det, der sker? Hvad kan jeg hive op af kufferten for at gøre samtalen mere konstruktiv?<br>
+For det vigtigste for mig er altid at aflevere personen et lysere sted. Det er blevet endnu vigtigere, nu hvor jeg gennem uddannelsen har fået øje på, hvor stor betydning det faktisk har."
+- navn: Johan Iversen
+  titel: Lektor, Københavns Professionsskole
+  text: "Det er en ambitiøs uddannelse med en gennemtænkt progression. Den har en åbenhed overfor andre coachingformer, hvilket skaber en vedvarende dynamik. Underviserne formår at skabe et trygt læringsrum, og gennem selvrefleksion viser de, at de ikke selv er gået i stå. Med andre ord er de tro mod det, de underviser i.
+Sådan et læringsrum vil jeg gerne selv være kendt for."
 deltagerprofil: false
-profil:
-- overskrift: Hvem henvender uddannelsen sig til?
-  paragrafer:
-  - Donec sodales sagittis magna. Etiam sit amet orci eget eros faucibus tincidunt. Vivamus euismod mauris. Praesent adipiscing. Sed a libero. Cras dapibus.. Nulla consequat massa quis enim. Nunc sed turpis. Quisque libero metus, condimentum nec, tempor a, commodo mollis, magna. Donec sodales sagittis magna. Etiam sit amet orci eget eros faucibus tincidunt. Vivamus euismod mauris. Praesent adipiscing. Sed a libero. Cras dapibus.
-  - Cras dapibus.. Nulla consequat massa quis enim. Nunc sed turpis. Quisque libero metus, condimentum nec, tempor a, commodo mollis, magna.Praesent adipiscing. Sed a libero. Cras dapibus.. Nulla consequat massa quis enim. Nunc sed turpis. Quisque libero metus, condimentum nec, tempor a, commodo mollis, magna.
+dp-kollonne-1: "<h4>Hvem henvender uddannelsen sig til?</h4><p>Donec sodales sagittis magna. Etiam sit amet orci eget eros faucibus tincidunt. Vivamus euismod mauris. Praesent adipiscing. Sed a libero. Cras dapibus.. Nulla consequat massa quis enim. Nunc sed turpis. Quisque libero metus, condimentum nec, tempor a, commodo mollis, magna. Donec sodales sagittis magna. Etiam sit amet orci eget eros faucibus tincidunt. Vivamus euismod mauris. Praesent adipiscing. Sed a libero. Cras dapibus.</p>"
+dp-kollonne-2: "<p>Cras dapibus.. Nulla consequat massa quis enim. Nunc sed turpis. Quisque libero metus, condimentum nec, tempor a, commodo mollis, magna.Praesent adipiscing. Sed a libero. Cras dapibus.. Nulla consequat massa quis enim. Nunc sed turpis. Quisque libero metus, condimentum nec, tempor a, commodo mollis, magna.</p>"
 kursus-oversigt: true
 nested-hold:
 - aar: Forår 2024
@@ -452,13 +449,6 @@ nested-hold:
 redirect_from:
   - /master-business-coaching-mbc/
   - /academy/master-of-business-coaching/
-infomode: true
-anbefalinger-video: false
-video-url: /videos/gitte-web.mp4
-video-text: "<br>Hvad siger tidligere studerende om Master of Business Coaching? Hør hvad Gitte Overgaard mener om uddannelsen.<br><br>
-Med tryk på Business-delen af Coaching, i modsætning til fx life-coaching, er uddannelsen målrettet erhvervslivet med den hensigt at løfte de studerendes dialogiske kapacitet i professionelle kontekster."
-anbefalinger: false
-anbefalinger-text: false
 ---
 
 #### Hvorfor skal du vælge Master of Business Coaching?

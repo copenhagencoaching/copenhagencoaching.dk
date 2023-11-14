@@ -153,13 +153,14 @@ body {
     line-height: 1.4 !important;
     margin: 0;
     position: relative;
-    text-shadow: 0 1px white;
     z-index: 600;
 
     p {
         padding-left: 20px;
+        line-height: 1.5 !important;
         text-align: center;
-        font-size: 25px !important;
+        font-size: 18px !important;
+        font-family: 'Montserrat', sans-serif;
     }
 }
 
