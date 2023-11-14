@@ -2,11 +2,12 @@
 order: 1
 title: MBC
 undertitle: (Master of Business Coaching)
+description: Ønsker du at blive dygtig til at føre produktive og virkningsfulde dialoger? At kunne flytte både grupper og individer i en mere konstruktiv retning og derved forebygge stress, organisatorisk stagnation og udbrændthed? Så vælg uddannelsen MBC (Master of Business Coaching).
 image: /images/educations/mbc-1.png
 infomode: true
-kort: true
 meta-title: MBC - Business Coaching uddannelse - Master i Business Coaching
 meta-description: Ønsker du at blive dygtig til at føre produktive og virkningsfulde dialoger? Bliv Master i Business Coaching på 2 år. Læs mere om vores business coach uddannelse her.
+contact-person: Frederikke Winther
 adgangskrav: "Adgang til uddannelsen er betinget
 af at ansøgeren har bestået mindst
 en videregående uddannelse
@@ -22,11 +23,6 @@ under forudsætning af, at
 ansøgerne skønnes at have de
 nødvendige forudsætninger for at
 kunne gennemføre uddannelsen."
-kort-kode: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2248.539012921064!2d12.571144951594782!3d55.6970020036662!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465252fc41468a33%3A0x721ebe721a5ba062!2sBlegdamsvej%20104C%2C%202100%20K%C3%B8benhavn!5e0!3m2!1sda!2sdk!4v1652082586059!5m2!1sda!2sdk" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'
-location: 'Undervisningen foregår i vores moderne og praktiske lokaler på 3. sal i baghuset Blegdamsvej 104C. Der er adgang til toilet og køkken, og der vil være forplejning med kaffe, the, let morgenmad og frokost.'
-aktive-hold: true
-contact-person: Frederikke Winther
-description: Ønsker du at blive dygtig til at føre produktive og virkningsfulde dialoger? At kunne flytte både grupper og individer i en mere konstruktiv retning og derved forebygge stress, organisatorisk stagnation og udbrændthed? Så vælg uddannelsen MBC (Master of Business Coaching).
 price: "Prisen for hele uddannelsen er
 190.000,- kr. ekskl. moms.<br><br>Betalingen inkluderer:
 Undervisning, supervision,
@@ -35,6 +31,16 @@ forplejning på de enkelte
 kursusdage.<br><br>Beløbet opkræves forud for
 semesterstart over fire gange.
 47.500 ekskl. moms pr. semester."
+kort: true
+kort-kode: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2248.539012921064!2d12.571144951594782!3d55.6970020036662!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465252fc41468a33%3A0x721ebe721a5ba062!2sBlegdamsvej%20104C%2C%202100%20K%C3%B8benhavn!5e0!3m2!1sda!2sdk!4v1652082586059!5m2!1sda!2sdk" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'
+location: 'Undervisningen foregår i vores moderne og praktiske lokaler på 3. sal i baghuset Blegdamsvej 104C. Der er adgang til toilet og køkken, og der vil være forplejning med kaffe, the, let morgenmad og frokost.'
+undervisere:
+- Mette Mejlhede
+- Andreas Bering
+- Frederikke Winther
+- Jesper Nøddesbo
+- Rasmus Mejlhede
+pdf: "https://www.copenhagencoaching.dk/pdfs/MBC_folder_forår_24.pdf"
 kollonne-1: "<h4>Ledelse og coaching</h4><p>Ønsker du at blive dygtig til at føre produktive og virkningsfulde dialoger? At kunne flytte både grupper og individer i en mere konstruktiv retning og derved forebygge stress, organisatorisk stagnation og udbrændthed? Så vælg uddannelsen: MBC (Master of Business Coaching)</p><h4>Højeste internationale akkreditering</h4><p>Med en MBC får du en af landets bedste coachinguddannelser, hvor du både kan foretage traditionelle coachingsamtaler og den filosofiske samtale.</p><p>Med en MBC fra CCC er du garanteret de højeste, internationale standarder via vores akkreditering fra European Mentoring and Coaching Council (EMCC). <ins><a href='/emcc-akkreditering/'>Læs om vores EMCC akkreditering her</a></ins>.</p>"
 kollonne-2-video: true
 kollonne-2-video-url: /videos/gitte-web.mp4
@@ -61,13 +67,6 @@ op-kollonne-2: "<h4>Hvad får du ud af uddannelsen?</h4><p>På uddannelsen træn
   og organisationsudvikling.</p>"
 op-kollonne-banner: "<h4>Som MBC studerende får du:</h4><ul><li>Adgang til vidensportal, værktøjer, faglitteratur, artikler og cases</li><li>Big Five personlighedstest med individuel tilbagemelding</li><li>Mulighed for at blive certificeret i Big Five, så du selv kan anvende personlighedstest</li><li>Løbende supervision og et stærkt netværk</li><li>Coachingsamtaler med flere undervisere</li><li>Forplejning alle dage</li></ul>"
 opbygning-image: "/images/educations/mbc-opbygning.png"
-undervisere:
-- Mette Mejlhede
-- Andreas Bering
-- Frederikke Winther
-- Jesper Nøddesbo
-- Rasmus Mejlhede
-pdf: "https://www.copenhagencoaching.dk/pdfs/MBC_folder_forår_24.pdf"
 anbefalinger: false
 vidner:
 - navn: Stella Sandfeld
@@ -81,6 +80,7 @@ Sådan et læringsrum vil jeg gerne selv være kendt for."
 deltagerprofil: false
 dp-kollonne-1: "<h4>Hvem henvender uddannelsen sig til?</h4><p>Donec sodales sagittis magna. Etiam sit amet orci eget eros faucibus tincidunt. Vivamus euismod mauris. Praesent adipiscing. Sed a libero. Cras dapibus.. Nulla consequat massa quis enim. Nunc sed turpis. Quisque libero metus, condimentum nec, tempor a, commodo mollis, magna. Donec sodales sagittis magna. Etiam sit amet orci eget eros faucibus tincidunt. Vivamus euismod mauris. Praesent adipiscing. Sed a libero. Cras dapibus.</p>"
 dp-kollonne-2: "<p>Cras dapibus.. Nulla consequat massa quis enim. Nunc sed turpis. Quisque libero metus, condimentum nec, tempor a, commodo mollis, magna.Praesent adipiscing. Sed a libero. Cras dapibus.. Nulla consequat massa quis enim. Nunc sed turpis. Quisque libero metus, condimentum nec, tempor a, commodo mollis, magna.</p>"
+aktive-hold: true
 kursus-oversigt: true
 nested-hold:
 - aar: Forår 2024

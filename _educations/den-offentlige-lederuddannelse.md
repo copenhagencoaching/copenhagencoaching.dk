@@ -1,33 +1,27 @@
 ---
 order: 4
 title: Den offentlige lederuddannelse
-image: "/images/academy/den-offentlige-lederuddannelse.png"
-image-2: /images/inspiration/leder-tavle.png
-infomode: false
-redirect_from:
-  - /academy/den-offentlige-lederuddannelse/
-infomode-text: Kom til Informationsmøde om vores uddannelser
-contact-person: Andreas Bering
 description: Er du leder, eller drømmer du om at blive det? Trænger du til at få styrket dine lederkompetencer, og samtidig få de nyeste og brugbare værktøjer til medarbejdersamtaler og til håndtering af konfliktsituationer?
-header: Den offentlige lederuddannelse
+image: "/images/academy/den-offentlige-lederuddannelse.png"
+infomode: false
 meta-title: Den offentlige lederuddannelse - Læs DOL hos Copenhagen Coaching Center
 meta-description: Den offentlige lederuddannelse (DOL) er en diplomuddannelse for dig, der er leder eller drømmer om at blive det. Styrk dine lederkompetencer med CCC.
-kursus-oversigt: true
-layout: course
+contact-person: Andreas Bering
+adgangskrav: Gennemført uddannelse på minimum erhvervsakademiniveau (kort videregående uddannelse) eller bevis for tilsvarende realkompetencer udstedt af en professionshøjskole eller et erhvervsakademi. Hertil kommer to års relevant erhvervserfaring.
+price: 'Prisen for Ledelse og Filosofi er 8.600,- (Ekskl. moms)<br><br>Proceslederuddannelsen: 27.500,- (Ekskl. moms) inkl. Forplejning, litteratur, BIG FIVE test og to individuelle coachinger med en certificeret coach fra Copenhagen Coaching Center<br><br>Det Personlige Lederskab og Forandring: 27.500,- (Ekskl. moms) inkl. Forplejning, overnatning mellem 2. og 3. maj 2023 (Ikke oblikatorisk), litteratur, BIG FIVE test og to individuelle coachinger med en certificeret coach fra Copenhagen Coaching Center.'
+kort: true
+kort-kode: '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d8980.411292653132!2d12.5359398!3d55.756716!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x18925c9493275165!2sGentofte%20B%C3%B8rnevenner!5e0!3m2!1sda!2sdk!4v1656071445879!5m2!1sda!2sdk" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'
+location: Undervisningen foregår på Blegdamsvej 104D, 2. sal, 2100 København Ø.
+image-2: /images/inspiration/leder-tavle.png
 undervisere:
 - Line Arnmark
 - Andreas Bering
 - Marianne Vesterbirk
-sub-header: Få ny indsigt - og større udsyn - i dit lederskab
 kollonne-1: "<h4>Lederens værktøjer</h4><p>Er du leder, eller drømmer du om at blive det? Trænger du til at få styrket dine lederkompetencer, og samtidig få de nyeste og brugbare værktøjer til medarbejdersamtaler og til håndtering af konfliktsituationer? Så tag moduler i Den offentlige Lederuddannelse (DOL) hos os!</p><p>Modulerne kan enten tages på åbne hold eller som skræddersyet forløb, og det er muligt at tilrettelægge undervisningen således, at der tages hensyn til de ønsker og behov, du har</p><h5>DOL – lederuddannelsen</h5><p>Generelt er vores undervisning på Den Offentlige Lederuddannelse bygget op om forskellige læringsaktiviteter, der har til formål at udvikle din måde at tænke, være og lære på. Læringen bygger på dine erfaringer og oplevelser fra din organisation. Derfor gennemføres modulet ud fra den læringsforståelse, at du bedst tilegner dig viden, færdigheder og kompetencer ved at reflektere over teori i forhold til din praksis. Her udfordres du på dine erfaringer, begreber og forestillinger om ledelse og organisation.</p><p>Endvidere søger undervisningen at blotlægge og reflektere over de teorier om praksis, der ligger bag dine handlinger, relationer og iagttagelser af verden. Din læreproces er derfor fokuseret på opgaver og løsninger, hvor underviseren er facilitator for læreprocessen.</p><p>Vi fokuserer altid på, hvad der virker i praksis. Derfor har vi valgt ikke at følge én bestemt teoretisk tilgang. Vi ønsker, at du kritisk skal blive i stand til selv at vælge mellem de mest anvendte teorier på området. Vi kalder vores tilgang for det eklektiske princip. Ligeledes understøtter vi kritiske drøftelser af de forskellige teorier og metoder i forhold til deres videnskabsteoretiske ståsted, deres forklaringskraft og deres handlingsanvisende potentiale rettet mod din konkrete praksis.</p>"
+kollonne-2-video: false
 kollonne-2: "<h5>Hos CCC kan du tage følgende DOL-moduler:</h5><ul><li>Det Personlige Lederskab og Forandring (Standardmodul, 10 ECTS)</li><li>Ledelse af Medarbejdere og Faglig Udvikling (Standardmodul, 10 ECTS)</li><li>Proceslederuddannelsen (Valgmodul, 10 ECTS)</li><li>Ledelse af forandrings- og udviklingsprocesser i offentlige organisationer (Valgmodul, 5 ECTS)</li><li>Ledelse og Coaching (valgmodul, 5 ECTS)</li><li>Projektledelse (valgmodul, 5 ECTS)</li><li>Ledelse og Filosofi (valgmodul, 5 ECTS)</li><li>Specialemodul (15 ECTS)</li></ul>"
 kollonne-2-billede-hojde: h-md-50
-price: 'Prisen for Ledelse og Filosofi er 8.600,- (Ekskl. moms)<br><br>Proceslederuddannelsen: 27.500,- (Ekskl. moms) inkl. Forplejning, litteratur, BIG FIVE test og to individuelle coachinger med en certificeret coach fra Copenhagen Coaching Center<br><br>Det Personlige Lederskab og Forandring: 27.500,- (Ekskl. moms) inkl. Forplejning, overnatning mellem 2. og 3. maj 2023 (Ikke oblikatorisk), litteratur, BIG FIVE test og to individuelle coachinger med en certificeret coach fra Copenhagen Coaching Center.'
-kort: true
-kort-kode: '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d8980.411292653132!2d12.5359398!3d55.756716!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x18925c9493275165!2sGentofte%20B%C3%B8rnevenner!5e0!3m2!1sda!2sdk!4v1656071445879!5m2!1sda!2sdk" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'
-event-title: Vi starter løbende hold op - ring og hør nærmere
 galleri-overblik: true
-aktive-hold: true
 galleri:
 - image: "/images/educations/plu-table.png"
   title: Proceslederuddannelsen
@@ -56,7 +50,8 @@ galleri:
   text:
   - 'Med ”Ledelse og Filosofi” får du viden om filosofiske teorier med henblik på at sætte ”de gode grunde” i spil i den offentlige organisation og du arbejder med hvordan etik og værdier kan anvendes som grundlag for at træffe beslutninger i din ledelsespraksis.'
   - 'Modulet fremstiller en række begreber om ledelsesfilosofi i forhold til den moderne ledelsesteorihistorie og det moderne arbejdsliv, som gør det tydeligt, hvorfor etik og moderne eksistensfilosofi er helt centralt indenfor offentlig ledelse. Gennem en lang række øvelser får du mulighed for at træne dine sproglige kompetencer gennem løbende at blive involveret i etiske og filosofiske samtaler med de andre på holdet. Via personligt og parvist arbejde med etiske cases fra egen ledelsesfunktion inviteres du ind i en vifte af forskellige filosofiske teorier, som sigter på at styrke den personlige etiske habitus og de konkrete etiske processer i den organisatoriske praksis. Med temaer som mening, ansvar, omsorg, relationer og retfærdighed ser vi i fællesskab på, hvordan etiske strategi og regnskabsprocesser fungerer, og hvorvidt disse tilfører ledere, medarbejdere og organisationer fornyet værdi for valgene der træffes, dialogerne der foregår, samt for fællesskabets fremdrift.'
-oe-order: 5
+kursus-oversigt: true
+aktive-hold: true
 hold:
   - title: Ledelse og Coaching - Forår 2024
     dates: 30. januar - 26. februar
@@ -125,25 +120,8 @@ hold:
         time: 09:00 - 15:00
         name: Eksamen
         place: København
-emails:
-- ln@copenhagencoaching.dk
-special: false
-location: Undervisningen foregår på Blegdamsvej 104D, 2. sal, 2100 København Ø.
-adgangskrav: Gennemført uddannelse på minimum erhvervsakademiniveau (kort videregående uddannelse) eller bevis for tilsvarende realkompetencer udstedt af en professionshøjskole eller et erhvervsakademi. Hertil kommer to års relevant erhvervserfaring.
-cat:
-- diplom
-hold_eller_begivenheder: true
-events:
-- overskrift: Ledelse og Coaching - Efterår 2022
-  dato:
-  - 30. august
-  - 20. september
-  - 27. september
-- overskrift: Ledelse og Filosofi - Efterår 2022
-  dato:
-  - 27. oktober
-  - 2. november
-  - 10. november
+redirect_from:
+  - /academy/den-offentlige-lederuddannelse/
 ---
 
 **Er du leder, eller drømmer du om at blive det? Trænger du til at få styrket dine lederkompetencer, og samtidig få de nyeste og brugbare værktøjer til medarbejdersamtaler og til håndtering af konfliktsituationer? Så tag moduler i Den offentlige Lederuddannelse (DOL) hos os!**
