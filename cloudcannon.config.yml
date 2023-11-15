@@ -404,12 +404,8 @@ _structures:
   vid:
     values:
       navn:
-        type: text
       titel:
-        type: text
       text:
-        type: textarea
-        label: Citat
 _editables: {}
 data_config: {}
 timezone: Europe/Copenhagen
