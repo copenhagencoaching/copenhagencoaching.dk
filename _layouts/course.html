@@ -164,9 +164,7 @@ layout: default
                         <small>
                             <p class="small">{{ ex.subtitle }}</p>
                         </small>
-                        {% for t in ex.text %}
-                        <p class="text-justify">{{ t }}</p>
-                        {% endfor %}
+                        {{ ex.text }}
                     </div>
                     <div class="col-md-6 col-12">
                         <div class="h-100 w-100"

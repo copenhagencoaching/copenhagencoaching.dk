@@ -285,9 +285,17 @@ collections_config:
         type: array
         label: Hold
         options:
-          structures: _structures.vid
+          structures: _structures.hold
       opbygning-image:
         label: Billede i Opbygning sektion
+      galleri-overblik:
+        label: Galleri sektion
+        comment: Skal der være et galleri?
+        type: switch
+      galleri:
+        label: Galleri
+        options:
+          structures: _structures.gallery
       redirect_from:
         hidden: true
       published:
@@ -365,6 +373,21 @@ _select_data:
   config:
     - _config_cc.yml
 _structures:
+  gallery:
+    values:
+      - value:
+          image:
+            type: image
+            label: Billede
+          title:
+            label: Overskrift
+            type: text
+          subtitle:
+            label: Underoverskrift
+            type: text
+          text:
+            type: html
+            label: Tekst
   hold:
     values:
       - value:
