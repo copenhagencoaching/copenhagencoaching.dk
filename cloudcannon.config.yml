@@ -251,8 +251,6 @@ collections_config:
         label: Testimonials
         options:
           structures: _structures.vid
-      vidner[*]:
-        type: object
       date:
         label: Dato
         type: text
