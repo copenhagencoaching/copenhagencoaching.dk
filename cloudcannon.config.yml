@@ -133,9 +133,6 @@ collections_config:
         label: Publiceret
         type: switch
   educations:
-    schemas:
-      default:
-        path: /.cloudcannon/schemas/education.md
     path: _educations
     output: true
     icon: notes
@@ -254,6 +251,8 @@ collections_config:
         label: Testimonials
         options:
           structures: _structures.vid
+      vidner[*]:
+        type: object
       date:
         label: Dato
         type: text
