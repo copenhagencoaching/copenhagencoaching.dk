@@ -276,7 +276,7 @@ collections_config:
         comment: F.eks. Forår 2022
         type: text
       nested-hold:
-        label: Hold
+        label: Hold (Pr. år)
         comment: Hold inddelt i år
       hold:
         type: array
