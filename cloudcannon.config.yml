@@ -270,16 +270,9 @@ collections_config:
         label: Publiceret
         type: switch
       vidner:
-        type: object
+        type: array
         options:
-          preview:
-            text:
-              - key: description
-            subtext:
-              - key: title
-              - No title
-            image: false
-            icon: travel_explore
+          structures: _structures.vid
   coachings:
     path: _coachings
     output: false
@@ -351,7 +344,13 @@ _select_data:
       display_name: 100%
   config:
     - _config_cc.yml
-_structures: {}
+_structures:
+  vid:
+    values:
+      - value:
+          navn:
+          titel:
+          text:
 _editables: {}
 data_config: {}
 timezone: Europe/Copenhagen
