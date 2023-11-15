@@ -269,6 +269,7 @@ collections_config:
       published:
         label: Publiceret
         type: switch
+      vidner: 
   coachings:
     path: _coachings
     output: false
