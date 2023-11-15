@@ -390,32 +390,29 @@ _structures:
             label: Tekst
   hold:
     values:
-      - value:
-          title:
-            type: text
-            label: Hold navn
-          modules:
-            type: array
-            options:
-              structures: _structures.moduler
+      title:
+        type: text
+        label: Hold navn
+      modules:
+        type: array
+        options:
+          structures: _structures.moduler
   moduler:
     values:
-      - value:
-          date:
-          day:
-          time:
-          name:
-          place:
+      date:
+      day:
+      time:
+      name:
+      place:
   vid:
     values:
-      - value:
-          navn:
-            type: text
-          titel:
-            type: text
-          text:
-            type: textarea
-            label: Citat
+      navn:
+        type: text
+      titel:
+        type: text
+      text:
+        type: textarea
+        label: Citat
 _editables: {}
 data_config: {}
 timezone: Europe/Copenhagen
