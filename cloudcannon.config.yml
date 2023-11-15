@@ -233,6 +233,27 @@ collections_config:
         label: Banner (Opgybning sektion)
         comment: Tekst i banneret i Opbygning
         type: html
+      deltagerprofil:
+        label: Deltagerprofil beskrivelse
+        comment: Skal der vises en sektion med beskrivelse af deltagerprofil?
+        type: switch
+      dp-kollonne-1:
+        label: Kollonne 1 (Deltagerprofil sektion)
+        comment: Tekst i kollonne 1 i Deltagerprofil
+        type: html
+      dp-kollonne-2:
+        label: Kollonne 2 (Deltagerprofil sektion)
+        comment: Tekst i kollonne 2 i Deltagerprofil
+        type: html
+      anbefalinger:
+        label: Citater/testimonials
+        type: switch
+        comment: Skal der visis nogle citater/testimonials?
+      vidner:
+        type: array
+        label: Testimonials
+        options:
+          structures: _structures.vid
       date:
         label: Dato
         type: text
@@ -261,7 +282,10 @@ collections_config:
         label: Hold
         comment: Hold inddelt i år
       hold:
+        type: array
         label: Hold
+        options:
+          structures: _structures.vid
       opbygning-image:
         label: Billede i Opbygning sektion
       redirect_from:
@@ -269,10 +293,6 @@ collections_config:
       published:
         label: Publiceret
         type: switch
-      vidner:
-        type: array
-        options:
-          structures: _structures.vid
   coachings:
     path: _coachings
     output: false
@@ -345,12 +365,34 @@ _select_data:
   config:
     - _config_cc.yml
 _structures:
+  hold:
+    values:
+      - value:
+          title:
+            type: text
+            label: Hold navn
+          modules:
+            type: array
+            options:
+              structures: _structures.moduler
+  moduler:
+    values:
+      - value:
+          date:
+          day:
+          time:
+          name:
+          place:
   vid:
     values:
       - value:
           navn:
+            type: text
           titel:
+            type: text
           text:
+            type: textarea
+            label: Citat
 _editables: {}
 data_config: {}
 timezone: Europe/Copenhagen

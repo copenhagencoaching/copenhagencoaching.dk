@@ -438,7 +438,7 @@ layout: default
                                 <p class="mb-0 text-uppercase text-white fw-bold">{{ semester.title }}</p>
                             </div>
                             <div class="col-md-8 col-12 d-flex align-items-center">
-                                <p class="mb-0 text-uppercase text-white ms-4">{{ semester.dates }}</p>
+                                <p class="mb-0 text-uppercase text-white ms-4">{% for module in semester.modules %}{% if forloop.first %}{{ module.date }} - {% endif %}{% if forloop.last %}{{ module.date }}{% endif %}{% endfor %}</p>
                             </div>
 
 
