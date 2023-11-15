@@ -269,7 +269,17 @@ collections_config:
       published:
         label: Publiceret
         type: switch
-      vidner: 
+      vidner:
+        type: object
+        options:
+          preview:
+            text:
+              - key: description
+            subtext:
+              - key: title
+              - No title
+            image: false
+            icon: travel_explore
   coachings:
     path: _coachings
     output: false
