@@ -288,11 +288,17 @@ collections_config:
         comment: F.eks. Forår 2022
         type: text
       nested-hold:
+        type: array
         label: Hold (Pr. år)
         comment: Hold inddelt i år
+        options:
+          structures: _structures.aar
+      nested-hold[*].hold:
+        type: array
+        options:
+          structures: _structures.hold
       hold:
         type: array
-        cascade: false
         label: Hold
         options:
           structures: _structures.hold
@@ -308,18 +314,19 @@ collections_config:
         type: switch
       galleri:
         label: Galleri
+        type: array
         options:
           structures: _structures.gallery
-      gallery[*].text:
+      galleri[*].text:
         type: html
         label: Tekst
-      gallery[*].image:
+      galleri[*].image:
         type: image
         label: Billede
-      gallery[*].subtitle:
+      galleri[*].subtitle:
         type: text
         label: Undertitel
-      gallery[*].title:
+      galleri[*].title:
         type: text
         label: Titel
       redirect_from:
@@ -327,8 +334,6 @@ collections_config:
       published:
         label: Publiceret
         type: switch
-      vidner[*].text:
-        type: textarea
   coachings:
     path: _coachings
     output: false
@@ -413,6 +418,11 @@ _structures:
       - value:
           title:
           modules:
+  aar-hold:
+    values:
+      - value:
+          aar:
+          hold:
   moduler:
     values:
       - value:
