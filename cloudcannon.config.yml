@@ -301,6 +301,10 @@ collections_config:
         label: Galleri
         options:
           structures: _structures.gallery
+      gallery[*]:
+        text:
+          type: html
+          label: Tekst
       redirect_from:
         hidden: true
       published:
