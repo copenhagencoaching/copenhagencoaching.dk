@@ -280,6 +280,7 @@ collections_config:
         comment: Hold inddelt i år
       hold:
         type: array
+        cascade: false
         label: Hold
         options:
           structures: _structures.hold

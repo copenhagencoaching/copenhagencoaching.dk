@@ -20,6 +20,8 @@ kollonne-2-video-url:
 kollonne-2:
 image-2:
 kollonne-2-billede-hojde:
+galleri-overblik:
+galleri:
 opbygning:
 op-kollonne-1:
 op-kollonne-2:
