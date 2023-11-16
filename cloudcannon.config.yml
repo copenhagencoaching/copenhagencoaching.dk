@@ -254,6 +254,15 @@ collections_config:
         label: Testimonials
         options:
           structures: _structures.vid
+      vidner[*].navn:
+        label: Navn
+        type: text
+      vidner[*].titel:
+        label: Titel/Stilling
+        type: text
+      vidner[*].text:
+        label: Tekst
+        type: html
       date:
         label: Dato
         type: text
@@ -301,10 +310,18 @@ collections_config:
         label: Galleri
         options:
           structures: _structures.gallery
-      gallery[*]:
-        text:
-          type: html
-          label: Tekst
+      gallery[*].text:
+        type: html
+        label: Tekst
+      gallery[*].image:
+        type: image
+        label: Billede
+      gallery[*].subtitle:
+        type: text
+        label: Undertitel
+      gallery[*].title:
+        type: text
+        label: Titel
       redirect_from:
         hidden: true
       published:
