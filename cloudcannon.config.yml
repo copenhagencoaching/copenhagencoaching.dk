@@ -407,9 +407,10 @@ _structures:
       place:
   vid:
     values:
-      navn:
-      titel:
-      text:
+      - value:
+          navn:
+          titel:
+          text:
 _editables: {}
 data_config: {}
 timezone: Europe/Copenhagen
