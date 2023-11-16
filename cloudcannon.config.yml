@@ -302,6 +302,8 @@ collections_config:
       published:
         label: Publiceret
         type: switch
+      vidner[*].text:
+        type: textarea
   coachings:
     path: _coachings
     output: false
