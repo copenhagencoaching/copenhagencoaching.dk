@@ -135,7 +135,7 @@ collections_config:
   educations:
     schemas:
       default:
-        path: /.cloudcannon/schemas/employee.md
+        path: /.cloudcannon/schemas/education.md
     path: _educations
     output: true
     icon: notes
