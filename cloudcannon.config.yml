@@ -287,6 +287,10 @@ collections_config:
         label: Hold
         options:
           structures: _structures.hold
+      hold[*].modules:
+        type: array
+        options:
+          structures: _structures.moduler
       opbygning-image:
         label: Billede i Opbygning sektion
       galleri-overblik:
@@ -380,33 +384,22 @@ _structures:
     values:
       - value:
           image:
-            type: image
-            label: Billede
           title:
-            label: Overskrift
-            type: text
           subtitle:
-            label: Underoverskrift
-            type: text
           text:
-            type: html
-            label: Tekst
   hold:
     values:
-      title:
-        type: text
-        label: Hold navn
-      modules:
-        type: array
-        options:
-          structures: _structures.moduler
+      - value:
+          title:
+          modules:
   moduler:
     values:
-      date:
-      day:
-      time:
-      name:
-      place:
+      - value:
+          date:
+          day:
+          time:
+          name:
+          place:
   vid:
     values:
       - value:
