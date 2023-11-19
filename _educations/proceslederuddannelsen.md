@@ -21,57 +21,11 @@ adgangskrav: >-
 image-2: /images/educations/plu-table.png
 deltagerprofil: false
 aktive-hold: true
-kursus-oversigt: true
-opbygning: false
+opbygning: true
 opbygning-image: /images/educations/mbc-opbygning.png
 opbygning-liste:
-  - overskrift: 'Som PLU studerende får du:'
-    lis:
-      - Adgang til vidensportal, værktøjer, faglitteratur, artikler og cases
-      - Løbende supervision og et stærkt netværk
-      - Big Five Personlighedstest med individuel tilbagemelding
+op-kollonne-banner: "<h5>Som PLU studerende får du:</h5><ul><li>Adgang til vidensportal, værktøjer, faglitteratur, artikler og cases</li><li>Løbende supervision og et stærkt netværk</li><li>Big Five Personlighedstest med individuel tilbagemelding</li></ul>"
 anbefalinger: false
-vidner:
-  - navn: Marianne Nyborg
-    titel: Direktionskonsulent, Hørsholm kommune
-    texts:
-      - >-
-        Jeg er via proceslederuddannelsen hos CCC blevet mere reflekteret
-        omkring brugen af redskaber og metoder i forbindelse med design og
-        facilitering af forskelligartede processer. Samtidigt er jeg blevet
-        nysgerrig på at dykke endnu mere ned i den protreptiske samtaleform.
-      - >-
-        Jeg vil klart anbefale uddannelsen til andre som ønsker at udvikle sig i
-        rollen som procesleder. CCC formår at skabe et tillidsfuldt rum for
-        undervisningen, der både giver plads til faglig udvikling og personlige
-        afklaringer i forhold til aktuelle dilemmaer/udfordringer
-  - navn: Thomas Larsen
-    titel: Indskolingsleder, Tårnby Kommune
-    texts:
-      - >-
-        Det er blevet nemmere for mig, at skabe den konstruktiv dialog i en
-        samtale og analysere processen fra flere perspektiver. Det skyldes
-        brugbare værktøjer fra CCC og træning af metalliseringsevnen, ved at
-        anvende gode spørgeteknikker undervejs i uddannelse
-      - >-
-        Jeg vil gerne anbefale CCC - proceslederuddannelse, dog skal man have
-        for øje, at denne proceslederuddannelse befinder sig ofte i paradigmet,
-        socialkonstruktionisme. Det betyder, at man skal have fokus på egen
-        refleksion og træne sin metalliseringsevne.
-  - navn: Jens Hedegård Norsk Nielsen
-    titel: Koordinator, Tårnby Ungdomsskole
-    texts:
-      - >-
-        Uddannelsen som procesleder har givet mig rigtig meget i forhold til at
-        forstå mine egne reaktioner og følelser og givet mig nye perspektiver
-        til at anskue mine svagheder som styrker. Jeg har fået redskaber til at
-        kunne navigere refleksivt og nysgerrigt i faciliteringen af processer
-        med komplekse problematikker og udfordringer.
-      - >-
-        Undervisernes erfaring samt deres faglige bredde og dybde var
-        imponerede. De formåede at skabe nogle uddannelsesdage præget af nærvær,
-        nysgerrighed og refleksion.
-      - Jeg kan derfor i høj grad anbefale et uddannelsesforløb hos CCC.
 profil:
   - overskrift: Hvem henvender uddannelsen sig til?
     paragrafer:
@@ -160,12 +114,8 @@ hold:
         name: Eksamen
         place: København
 contact-person: Andreas Bering
-event-title: Kommende hold
 order: 8
-redirect_from:
-  - /academy/proceslederuddannelsen/
 location: Blegdamsvej 104D, 3. sal, 2100 København Ø
-special: false
 kort: true
 kort-kode: >-
   <iframe
@@ -175,28 +125,10 @@ kort-kode: >-
 undervisere:
   - Andreas Bering
   - Line Arnmark
-layout: course
-emails:
-  - ln@copenhagencoaching.dk
-hold_eller_begivenheder: true
 redirect_from:
   - /coaching/proceslederuddannelse/
   - /academy/procesleder-uddannelse/
   - /academy/proceslederuddannelse/
-cat:
-  - proces
+  - /academy/proceslederuddannelsen/
 infomode: false
-infomode-text: >-
-  Kom til Informationsmøde om vores intensive og eksklusive
-  Proceslederuddannelse
-infomode-dates:
-  - 6. september - 16:00 - 17:00 Proceslederuddannelsen (Online)
 ---
-#### Du vil kunne mestre den sunde og veldesignede proces der giver jeres arbejde retning og mening. Du vil kunne samle organisationen og inspirere til den gode idé, eller den ekstra indsats
-{: .opacity-2}
-
-
-
-#### HVORFOR SKAL DU VÆLGE PROCESLEDERUDDANNELSEN?
-
-Den høje grad af uforudsigelighed, samt krav om konstant forandringer, omorganiseringer, økonomiske udfordringer m.v. skaber behov for professionel procesledelse. Ønsker om medinddragelse og samskabelse som en del af virksomhedens kultur, drift og udvikling kalder ligeledes på et højt niveau af procesledelse. God procesledelse kræver evner til at styre, rumme og stimulere menneskelig og faglig mangfoldighed i retning af fælles udvikling og mål.

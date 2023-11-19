@@ -254,6 +254,15 @@ collections_config:
         label: Testimonials
         options:
           structures: _structures.vid
+      vidner[*].navn:
+        label: Navn
+        type: text
+      vidner[*].titel:
+        label: Titel/Stilling
+        type: text
+      vidner[*].text:
+        label: Tekst
+        type: html
       date:
         label: Dato
         type: text
@@ -279,13 +288,25 @@ collections_config:
         comment: F.eks. Forår 2022
         type: text
       nested-hold:
-        label: Hold
+        type: array
+        label: Hold (Pr. år)
         comment: Hold inddelt i år
+        options:
+          structures: _structures.aar-hold
+      nested-hold[*].hold:
+        label: Hold
+        type: array
+        options:
+          structures: _structures.hold
       hold:
         type: array
         label: Hold
         options:
           structures: _structures.hold
+      hold[*].modules:
+        type: array
+        options:
+          structures: _structures.moduler
       opbygning-image:
         label: Billede i Opbygning sektion
       galleri-overblik:
@@ -294,8 +315,21 @@ collections_config:
         type: switch
       galleri:
         label: Galleri
+        type: array
         options:
           structures: _structures.gallery
+      galleri[*].text:
+        type: html
+        label: Tekst
+      galleri[*].image:
+        type: image
+        label: Billede
+      galleri[*].subtitle:
+        type: text
+        label: Undertitel
+      galleri[*].title:
+        type: text
+        label: Titel
       redirect_from:
         hidden: true
       published:
@@ -377,27 +411,19 @@ _structures:
     values:
       - value:
           image:
-            type: image
-            label: Billede
           title:
-            label: Overskrift
-            type: text
           subtitle:
-            label: Underoverskrift
-            type: text
           text:
-            type: html
-            label: Tekst
   hold:
     values:
       - value:
           title:
-            type: text
-            label: Hold navn
           modules:
-            type: array
-            options:
-              structures: _structures.moduler
+  aar-hold:
+    values:
+      - value:
+          aar:
+          hold:
   moduler:
     values:
       - value:
@@ -410,12 +436,8 @@ _structures:
     values:
       - value:
           navn:
-            type: text
           titel:
-            type: text
           text:
-            type: textarea
-            label: Citat
 _editables: {}
 data_config: {}
 timezone: Europe/Copenhagen

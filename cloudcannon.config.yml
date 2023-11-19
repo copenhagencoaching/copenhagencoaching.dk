@@ -292,8 +292,9 @@ collections_config:
         label: Hold (Pr. år)
         comment: Hold inddelt i år
         options:
-          structures: _structures.aar
+          structures: _structures.aar-hold
       nested-hold[*].hold:
+        label: Hold
         type: array
         options:
           structures: _structures.hold

@@ -39,7 +39,6 @@ galleri:
   title: Ledelse og filosofi
   subtitle: Valgmodul, 5 ECTS
   text: "<p>Med ”Ledelse og Filosofi” får du viden om filosofiske teorier med henblik på at sætte ”de gode grunde” i spil i den offentlige organisation og du arbejder med hvordan etik og værdier kan anvendes som grundlag for at træffe beslutninger i din ledelsespraksis.</p><p>Modulet fremstiller en række begreber om ledelsesfilosofi i forhold til den moderne ledelsesteorihistorie og det moderne arbejdsliv, som gør det tydeligt, hvorfor etik og moderne eksistensfilosofi er helt centralt indenfor offentlig ledelse. Gennem en lang række øvelser får du mulighed for at træne dine sproglige kompetencer gennem løbende at blive involveret i etiske og filosofiske samtaler med de andre på holdet. Via personligt og parvist arbejde med etiske cases fra egen ledelsesfunktion inviteres du ind i en vifte af forskellige filosofiske teorier, som sigter på at styrke den personlige etiske habitus og de konkrete etiske processer i den organisatoriske praksis. Med temaer som mening, ansvar, omsorg, relationer og retfærdighed ser vi i fællesskab på, hvordan etiske strategi og regnskabsprocesser fungerer, og hvorvidt disse tilfører ledere, medarbejdere og organisationer fornyet værdi for valgene der træffes, dialogerne der foregår, samt for fællesskabets fremdrift.</p>"
-kursus-oversigt: true
 aktive-hold: true
 hold:
   - title: Ledelse og Coaching - Forår 2024
