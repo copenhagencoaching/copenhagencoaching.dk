@@ -346,8 +346,8 @@ collections_config:
     path: _pages
     output: true
     icon: notes
-    disable_add: false
-    disable_add_folder: false
+    disable_add: true
+    disable_add_folder: true
     disable_file_actions: false
     _inputs:
       layout:
@@ -359,10 +359,33 @@ collections_config:
         label: Billede
       description:
         label: Berskrivelse
-        type: textarea
+        type: html
       meta-description:
         label: Beskrivelse (SEO)
         type: textarea
+      title:
+        label: Titel
+        type: text
+      meta-title:
+        label: Beskrivelse (SEO)
+        type: text
+      text:
+        label: Tekst
+        type: html
+      permalink:
+        hidden: true
+      podcast-heading:
+        label: Overskrift (Podcasts)
+        type: text
+      article-heading:
+        label: Overskrift (Blog)
+        type: text
+      video-heading:
+        label: Overskrift (Videoer)
+        type: text
+      publications-heading:
+        label: Overskrift (Udgivelser/Bøger)
+        type: text
   texts:
     path: _texts
     output: true

@@ -5,3 +5,4 @@ bower_components
 .jekyll-metadata
 winpty.exe.stackdump
 _site/
+/_site/

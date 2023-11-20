@@ -123,7 +123,6 @@ body {
   // first p in div bold
 
   .first-p-bold p:first-of-type{
-    
         font-weight: bold;
     
   }
@@ -139,6 +138,12 @@ body {
           color: white !important;
       }
   }
+
+  html body .text-white {
+    p, h1, h2, h3, h4, h5, h6, ul, li {
+        color: white !important;
+    }
+}
 
   // Block quote
 
