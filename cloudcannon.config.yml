@@ -349,6 +349,20 @@ collections_config:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
+    _inputs:
+      layout:
+        hidden: true
+      redirect_from:
+        hidden: true
+      image:
+        type: image
+        label: Billede
+      description:
+        label: Berskrivelse
+        type: textarea
+      meta-description:
+        label: Beskrivelse (SEO)
+        type: textarea
   texts:
     path: _texts
     output: true
