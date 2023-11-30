@@ -85,7 +85,6 @@ op-kollonne-banner: >-
   certificering udbydes i samarbejde med HUCAMA</li></ul>
 opbygning-image: /images/inspiration/big-five-opbygning.png
 undervisere:
-  - Frederikke Winther
   - Andreas Bering
 kursus-oversigt: true
 hold:

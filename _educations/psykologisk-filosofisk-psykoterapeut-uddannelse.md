@@ -107,7 +107,6 @@ op-kollonne-banner: >-
 opbygning-image: /images/educations/mbc-opbygning.png
 undervisere:
   - Mette Mejlhede
-  - Frederikke Winther
   - Jack Købke
 deltagerprofil: true
 kursus-oversigt: false

@@ -1,8 +1,8 @@
 ---
-contact-person: Frederikke Winther
+contact-person: Andreas Bering
 title: Fra flexicurity til Flexisme
 image: "/uploads/rasmus-willig.jpg"
-author: Frederikke Winther
+author: Andreas Bering
 tags: []
 teaser: En aften med Rasmus Willig om psykisk arbejdsmiljø, ytringsfrihed og tavshedskultur
 facta-box: true

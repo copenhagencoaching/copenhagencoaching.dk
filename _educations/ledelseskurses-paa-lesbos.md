@@ -23,9 +23,7 @@ aktive-hold: true
 undervisere:
 - Andreas Bering
 - Mette Mejlhede
-- Frederikke Winther
 - Camilla Ingwersen
-- Jesper Nøddesbo
 hold:
 - title: Rejse - Forår 2023
   dates: 21. - 28. maj

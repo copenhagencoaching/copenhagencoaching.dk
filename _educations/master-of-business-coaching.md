@@ -94,9 +94,6 @@ opbygning-image: /images/educations/mbc-opbygning.png
 undervisere:
   - Mette Mejlhede
   - Andreas Bering
-  - Frederikke Winther
-  - Jesper Nøddesbo
-  - Rasmus Mejlhede
 pdf: https://www.copenhagencoaching.dk/pdfs/MBC_folder_forår_24.pdf
 anbefalinger: false
 vidner:
