@@ -4,20 +4,27 @@ layout: default
 
 <div class="hero-image d-flex align-content-center align-items-center"
     style="background: linear-gradient(rgba(19, 19, 19, 0.7), rgba(19, 19, 19, 0.7)), url('{{ page.image }}'); background-size: cover; background-position: center;">
-    
-        <div class="container-fluid text-center">
-            <h1 class="text-white mb-1">{{ page.title }}</h1>
-            <div class="row">
-                <div class="col-12 offset-lg-3 col-lg-6">
-                    <hr class="white short-hr mx-auto">
-                </div>
+
+    <div class="container-fluid text-center">
+        <div class="editable"><h1 class="text-white mb-1">Coaching</h1></div>
+        <div class="row">
+            <div class="col-12 offset-lg-3 col-lg-6">
+                <hr class="white short-hr mx-auto">
             </div>
         </div>
-    
+    </div>
+
 </div>
 <div class="container-fluid mt-4">
     <div class="small-container">
-        <p class="editable">{{ page.description }}</p>
+        <div class="editable">
+            <p>Samtaler er en effektiv måde at finde nye veje at gå. Et coachingforløb hos CCC skærper dit fokus på
+                personlig udvikling, forebyggelse af stress, styrkelse af balancen mellem arbejdsliv og privatliv og gør
+                dig i stand til at håndtere de udfordringer, der er og måtte komme.<br><br>Hos CCC er du altid er sikker
+                på at møde en faglig og teoretisk dybt og bredt funderet coach med mange års erfaring med professionelle
+                samtaler og som minimum en Master i Business Coaching. Da relationen er af afgørende betydning for
+                effekten af coaching, gør vi en dyd ud af at finde den helt rigtige coach til dig og din situation.</p>
+        </div>
     </div>
 </div>
 
@@ -41,63 +48,62 @@ layout: default
     <div class="container-fluid my-5">
         <div class="py-5">
             {% if thecycle == 'even' %}<div class="py-5">{% endif %}
-            <div class="row gx-5 {% if thecycle == 'odd' %}flex-row-reverse{% endif %}">
-                <div class="col-12 col-lg-6 responsive-lg-img">
-                    <div class="h-100"
-                        style="background-image: url('/images/coaching/{{ coaching.image }}'); background-position: center; background-size: cover;">
+                <div class="row gx-5 {% if thecycle == 'odd' %}flex-row-reverse{% endif %}">
+                    <div class="col-12 col-lg-6 responsive-lg-img">
+                        <div class="h-100"
+                            style="background-image: url('/images/coaching/{{ coaching.image }}'); background-position: center; background-size: cover;">
+                        </div>
                     </div>
-                </div>
-                <div class="col-12 col-lg-6">
-                    <h1>{{ coaching.title }}</h1>
-                    {{ coaching.content }}
-                    {% for employee in site.employees %}
-                {% if coaching.contact-person == employee.title %}
-                <div class="d-flex align-items-center bg-black-coral rounded-0 p-3">
-                    <div>
+                    <div class="col-12 col-lg-6">
+                        <h1>{{ coaching.title }}</h1>
+                        {{ coaching.content }}
+                        {% for employee in site.employees %}
+                        {% if coaching.contact-person == employee.title %}
+                        <div class="d-flex align-items-center bg-black-coral rounded-0 p-3">
+                            <div>
 
-                        <p class="text-white large"><b>Interesseret i at høre mere?</b> Ring eller skriv og få en snak med</p>
+                                <p class="text-white large"><b>Interesseret i at høre mere?</b> Ring eller skriv og få
+                                    en snak med</p>
 
-                        <div class="d-flex">
-                            <div class="d-flex align-items-center">
-                                <div class="flex-shrink-0">
-                                    <img class="small-image rounded-circle"
-                                        src="{{ employee.small-portrait-image }}"
-                                        alt="{{ employee.title }}, {{ employee.description}}">
-                                </div>
-                                <div class="flex-grow-1 ms-3">
+                                <div class="d-flex">
+                                    <div class="d-flex align-items-center">
+                                        <div class="flex-shrink-0">
+                                            <img class="small-image rounded-circle"
+                                                src="{{ employee.small-portrait-image }}"
+                                                alt="{{ employee.title }}, {{ employee.description}}">
+                                        </div>
+                                        <div class="flex-grow-1 ms-3">
 
 
-                                        <p class="text-white mb-0"><b><a href="{{ employee.url }}"
-                                            data-proofer-ignore>{{
-                                            employee.title }}</a></b><br>
+                                            <p class="text-white mb-0"><b><a href="{{ employee.url }}"
+                                                        data-proofer-ignore>{{
+                                                        employee.title }}</a></b><br>
 
-                                    <a href="tel:{{ employee.call }}" data-proofer-ignore>+45 {{
-                                        employee.call
-                                        }}</a><br>
-                                    <a href="mailto:{{ employee.email }}" data-proofer-ignore>{{
-                                        employee.email
-                                        }}</a>
-                                </p>
+                                                <a href="tel:{{ employee.call }}" data-proofer-ignore>+45 {{
+                                                    employee.call
+                                                    }}</a><br>
+                                                <a href="mailto:{{ employee.email }}" data-proofer-ignore>{{
+                                                    employee.email
+                                                    }}</a>
+                                            </p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+                        {% endif %}
+                        {% endfor %}
                     </div>
-                </div>
-                {% endif %}
-                {% endfor %}
-                </div>
 
-            </div>
-            {% if thecycle == 'even' %}</div>{% endif %}
+                </div>
+                {% if thecycle == 'even' %}
+            </div>{% endif %}
         </div>
     </div>
-    {% if thecycle == 'odd' %}</div>{% endif %}
+    {% if thecycle == 'odd' %}
+</div>{% endif %}
 
 
 
 
 {% endfor %}
-
-
-
-
