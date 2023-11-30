@@ -8,19 +8,22 @@ layout: default
     <div class="pt-5">
       <div class="py-5">
         <div class="container-fluid text-center py-5">
-          <h1 class="text-white">{{ page.title }}</h1>
+          <div class="editable">
+            <h1 class="text-white">Konsulentydelser</h1>
+          </div>
 
 
 
           <div class="row">
-            <div class="col-12 offset-lg-3 col-lg-6 offset-md-2 col-md-8">
+            <div class="col-12 offset-lg-3 col-lg-6 offset-md-2 col-md-8 text-white">
               <hr class="white">
-              {% if page.sub-header %}
-              <p class="text-white lead mb-2"><b>{{ page.sub-header }}</b></p>
-              {% else %}
-              {% if page.teaser %}<p class="text-white">{{ page.teaser }}</p>{% else %}<p class="text-white">{{
-                page.description }}</p> {% endif %}
-              {% endif %}
+              <div class="editable">
+                <p class="text-white lead mb-2"><b>Vores kunder sætter pris på specialiserede og fagligt opdaterede
+                    konsulenter, som har praktisk erfaring med ledelse og det coachende lederskab. Hos os møder man en
+                    tredjepart, som ikke er en del af organisationen og netop derfor er de friske øjne og den upartiske
+                    støtte, der hjælper med at sætte retning og omsætte visioner til praksis.</b></p>
+
+              </div>
             </div>
           </div>
         </div>
@@ -32,5 +35,26 @@ layout: default
 
 
 <div class="page">
-  {{ content }}
+  <div class="editable">
+    <p><b>Vi leverer særligt tilrettelagte forløb, som imødekommer organisationens, afdelingens eller teamets behov og
+        konkrete situation. Forløbene kan bevæge sig fra træning og workshops over mod mere traditionel undervisning.
+        Men
+        vi har altid fokus på at omsætte viden til praksis.</b>
+    </p>
+    <p>
+      I samarbejdet med os vil man opleve, at træning og kursusforløb bliver en konstruktiv feedback på den performance
+      eller praksis, man har sat fokus på.
+    </p>
+    <p>
+      På CCC tror vi på det coachende lederskab. Det handler om dialogisk kapacitet, følelsesmæssig intelligens og evnen
+      til at forstå og bevæge sig i organisatorisk kompleksitet og få det bedste ud af det.
+    </p>
+    <p>
+      Læs her mere om de temaer, vi ofte leverer konsulentydelser indenfor, og hvordan vi gør det. De er: rekruttering,
+      teamudvikling og teamsupervision, ledelse, dialogiske samtaler og kommunikation, transition i arbejdslivet,
+      værdier
+      i ledelse og organisationer, trivsel samt forandrings- og udviklingsprocesser. Vi tilbyder også foredrag og
+      fyraftensinspirationer.
+    </p>
+  </div>
 </div>

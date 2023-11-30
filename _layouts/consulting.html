@@ -7,12 +7,16 @@ layout: default
 
     <div class="container-fluid text-center">
 
-        <h1 class="text-white mb-1">{{ page.title }}</h1>
+        <div class="editable">
+            <h1 class="text-white mb-1">Konsulentydelser</h1>
+        </div>
 
         <div class="row">
             <div class="col-12 offset-lg-3 col-lg-6">
                 <hr class="white short-hr mx-auto">
-                <p class="text-white fw-bold fs-6">{{ page.description }}</p>
+                <div class="editable">
+                    <p class="text-white fw-bold fs-6">{{ page.description }}</p>
+                </div>
             </div>
 
         </div>
@@ -25,16 +29,35 @@ layout: default
 
 <div class="container-fluid d-md-none py-5">
 
-    {{ page.content }}
+    <div class="editable">
+        <p>Vi leverer særligt tilrettelagte forløb, som imødekommer organisationens, afdelingens eller teamets behov og
+            konkrete situation. Forløbene kan bevæge sig fra træning og workshops over mod mere traditionel
+            undervisning. Men vi har altid fokus på at omsætte viden til praksis.**
+        </p>
+        <p>
+            I samarbejdet med os vil man opleve, at træning og kursusforløb bliver en konstruktiv feedback på den
+            performance eller praksis, man har sat fokus på.
+        </p>
+        <p>
+            På CCC tror vi på det coachende lederskab. Det handler om dialogisk kapacitet, følelsesmæssig intelligens og
+            evnen til at forstå og bevæge sig i organisatorisk kompleksitet og få det bedste ud af det.
+        </p>
+        <p>
+            Læs her mere om de temaer, vi ofte leverer konsulentydelser indenfor, og hvordan vi gør det. De er:
+            rekruttering, teamudvikling og teamsupervision, ledelse, dialogiske samtaler og kommunikation, transition i
+            arbejdslivet, værdier i ledelse og organisationer, trivsel samt forandrings- og udviklingsprocesser. Vi
+            tilbyder også foredrag og fyraftensinspirationer.
+        </p>
+    </div>
     <div class="mb-4"></div>
     <hr>
 
-    <h3 class="mb-2 text-uppercase mt-4">Skal vi tales ved?</h3>
+    <div class="editable"><h3 class="mb-2 text-uppercase mt-4">Skal vi tales ved?</h3>
     <p>Har du spørgsmål eller brug for hjælp til at vælge den rette konsulentydelse?
         Indtast navn og
         telefonnummer
         og en
-        af vores konsulenter ringer dig op inden for 24 timer</p>
+        af vores konsulenter ringer dig op inden for 24 timer</p></div>
     <form id="coffee-index" class="mt-2" action="https://formspree.io/f/xyyoddyz" method="POST">
         <div class="row mt-3 gy-4" id="coffee">
             <div class="col-12">
@@ -257,14 +280,14 @@ layout: default
     <div class="container-fluid py-5 d-md-none">
         <h4 class="fw-bold text-uppercase text-center">Er du interesseret i vores konsulentydelser?
         </h4><br>
-        <p class="fw-bold fs-6 p-3 text-white bg-dark-sienna d-block text-center me-auto ms-auto">Ring til Andreas Bering på <u><a
-                    href="tel:+45 40 14 92 92">+45 40 14 92 92</a></u></p>
+        <p class="fw-bold fs-6 p-3 text-white bg-dark-sienna d-block text-center me-auto ms-auto">Ring til Andreas
+            Bering på <u><a href="tel:+45 40 14 92 92">+45 40 14 92 92</a></u></p>
 
         {% for employee in site.employees %}
         {% if employee.title == "Andreas Bering" %}
 
-        <img class="small-image rounded-circle text-center me-auto ms-auto d-block" src="{{ employee.small-portrait-image }}"
-            alt="{{ employee.title }}, {{ employee.description}}">
+        <img class="small-image rounded-circle text-center me-auto ms-auto d-block"
+            src="{{ employee.small-portrait-image }}" alt="{{ employee.title }}, {{ employee.description}}">
 
         <p class="mb-0 text-center fs-6"><b><a href="{{ employee.url }}" data-proofer-ignore>{{
                     employee.title }}</a></b><br>
