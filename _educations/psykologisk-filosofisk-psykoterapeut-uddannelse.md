@@ -18,7 +18,7 @@ location: >-
   undtagelse af det todages intromodul, der afvikles som internat med én
   overnatning.
 aktive-hold: false
-contact-person: /employees/mette-mejhede
+contact-person: Andreas Bering
 description: >-
   Grundlæggende set er ideen, formålet og visionen med denne 4-årige
   terapi-uddannelse at kombinere, nuancere og kvalificere samarbejdet mellem den
