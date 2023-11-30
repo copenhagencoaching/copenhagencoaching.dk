@@ -181,7 +181,8 @@ collections_config:
         label: Kontakt person
         type: select
         options:
-          values: collections.employees.title
+          values: collections.employees
+          value_key: title
       price:
         label: Pris
         type: html
