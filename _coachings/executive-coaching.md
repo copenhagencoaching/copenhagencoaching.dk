@@ -4,7 +4,7 @@ id: "1"
 order: "1"
 title: Executive coaching
 image: c1.jpg
-contact-person: Mette Mejlhede
+contact-person: Andreas Bering
 redirect_from:
   - coaching/executive-coaching/
 description: I et executive coachingforløb får du som topleder øget din beslutningskraft til at gennemføre forandringer, skærpe retning og sikre følgeskab i din organisation. Der vil ofte være både et strategisk spor og et personligt spor.

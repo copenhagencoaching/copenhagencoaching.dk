@@ -4,7 +4,7 @@ id: "5"
 order: "5"
 title: Filosofiske samtaler
 image: /filosofiske-samtaler.jpg
-contact-person: Mette Mejlhede
+contact-person: Andreas Bering
 redirect_from:
   - /coaching/filosofiskeSamtaler/
 description: Gennem den filosofiske samtale lærer du hvordan du tænker, hvornår du tænker bedst, og hvad du skal tænke for at styrke din praksis. Der arbejdes med metaplaner, refleksive variationer og kognitive perspektiveringer.
