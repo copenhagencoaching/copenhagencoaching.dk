@@ -116,4 +116,6 @@ hold:
         time: 10:00 - 15:00
         name: Wrap up + Eksamen
         place: Online
+redirect_from:
+  - /academy/certificering-i-big-five/
 ---

@@ -197,9 +197,7 @@ galleri:
       medarbejdere og organisationer fornyet værdi for valgene der træffes,
       dialogerne der foregår, samt for fællesskabets fremdrift.</p>
 undervisere:
-  - Line Arnmark
   - Andreas Bering
-  - Marianne Vesterbirk
 hold:
   - title: Ledelse og Coaching - Forår 2024
     dates: 30. januar - 26. februar
@@ -268,6 +266,8 @@ hold:
         time: 09:00 - 15:00
         name: Eksamen
         place: København
+redirect_from:
+  - /academy/den-offentlige-lederuddannelse/
 ---
 **Er du leder, eller drømmer du om at blive det? Trænger du til at få styrket dine lederkompetencer, og samtidig få de nyeste og brugbare værktøjer til medarbejdersamtaler og til håndtering af konfliktsituationer? Så tag moduler i Den offentlige Lederuddannelse (DOL) hos os!**
 

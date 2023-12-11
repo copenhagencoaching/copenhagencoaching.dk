@@ -162,4 +162,6 @@ hold:
         time: '-'
         name: Modul 7
         place: '-'
+redirect_from:
+  - /academy/psykologisk-filosofisk-psykoterapeut-uddannelse/
 ---
