@@ -291,4 +291,54 @@ nested-hold:
             time: 09:30 - 16:00
             name: Syntese
             place: Blegdamsvej
+  - aar: Efterår 2024
+    hold:
+      - title: Semester 1 - Forår 2024
+        dates: 28. august - 10. december
+        modules:
+          - date: 28. august
+            day: '1'
+            time: 09:30 - 16:00
+            name: Coaching og syntesemodellen
+            place: Blegdamsvej
+          - date: 29. august
+            day: '2'
+            time: 09:30 - 16:00
+            name: Kognitiv 1
+            place: Blegdamsvej
+          - date: 25. september
+            day: '3'
+            time: 09:30 - 16:00
+            name: Psyko-dynamisk 1
+            place: Blegdamsvej
+          - date: 26. september
+            day: '4'
+            time: 09:30 - 16:00
+            name: Systemisk-narrativ 1
+            place: Blegdamsvej
+          - date: 21. oktober
+            day: '5'
+            time: 09:30 - 20:00
+            name: Kognitiv 2
+            place: Blegdamsvej
+          - date: 22. oktober
+            day: '6'
+            time: 09:30 - 16:00
+            name: Psyko-dynamisk  2
+            place: Blegdamsvej
+          - date: 11. november
+            day: '7'
+            time: 09:30 - 20:00
+            name: Systemisk-narrativ 2
+            place: Blegdamsvej
+          - date: 12. november
+            day: '8'
+            time: 09:30 - 16:00
+            name: Syntese
+            place: Blegdamsvej
+          - date: 19. - 10. december
+            day: '-'
+            time: 09:30 - 16:00
+            name: Eksamen
+            place: Blegdamsvej
 ---
