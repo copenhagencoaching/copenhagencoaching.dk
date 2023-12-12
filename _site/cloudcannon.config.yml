@@ -420,7 +420,7 @@ collections_config:
           structures: _structures.hold
         label: Hold
         cascade: true
-      modules:
+      nested-hold[*].modules:
         type: array
         options:
           structures: _structures.moduler
