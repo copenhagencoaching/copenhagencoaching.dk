@@ -384,10 +384,6 @@ collections_config:
         type: text
         label: Navn/beskrivelse
         cascade: true
-      modules:
-        type: auto
-        label: Moduler/Dage
-        cascade: true
       day:
         type: text
         label: Dag nr.
@@ -432,6 +428,7 @@ collections_config:
             text:
               - key: date
         cascade: true
+        label: Moduler/Dage
       opbygning-image:
         type: auto
         label: Billede i Opbygning sektion
