@@ -6,309 +6,215 @@ paths:
   includes: _includes
 collections_config:
   posts:
+    schemas:
+      default:
+        path: /.cloudcannon/schemas/blog-post.md
     path: _posts
     output: true
     icon: notes
-    _inputs:
-      title:
-        type: auto
-        label: Titel
-        comment: Indlæggets titel
-        cascade: true
-      description:
-        type: auto
-        label: Beskrivelse
-        comment: Kort beskrivelse af indlægget
-        cascade: true
-      category:
-        type: auto
-        label: Katgeori
-        cascade: true
-      podcast-id:
-        type: auto
-        label: Podcast ID (Kun hvis kategori er podcast)
-        comment: >-
-          Podcast afsnittets unikke id (Du finder det i Spodify linket til
-          podcasten)
-        cascade: true
-      video:
-        type: file
-        label: Video (Kun hvis kategori er video)
-        comment: Sti til videoen
-        cascade: true
-      subs:
-        type: file
-        label: Undertekster (Kun hvis kategori er video)
-        comment: Sti til underteksterne
-        cascade: true
-      image:
-        type: auto
-        label: Billede
-        cascade: true
-      published:
-        type: switch
-        label: Publiceret
-        cascade: true
     create:
       path: >-
         [relative_base_path]/{date|year}-{date|month}-{date|day}-{title|slugify}.[ext]
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
-    schemas:
-      default:
-        path: /.cloudcannon/schemas/blog-post.md
-        reorder_inputs: true
-        hide_extra_inputs: false
-        remove_empty_inputs: false
-        remove_extra_inputs: true
-        icon: notes
-  events:
-    path: _events
-    output: true
-    icon: notes
     _inputs:
       title:
-        type: auto
         label: Titel
-        comment: Eventets titel
-        cascade: true
-      subtitle:
-        type: auto
-        label: Undetitel
-        cascade: true
+        comment: Indlæggets titel
+      description:
+        label: Beskrivelse
+        comment: Kort beskrivelse af indlægget
+      category:
+        label: Katgeori
+      podcast-id:
+        label: Podcast ID (Kun hvis kategori er podcast)
+        comment: Podcast afsnittets unikke id (Du finder det i Spodify linket til podcasten)
+      video:
+        label: Video (Kun hvis kategori er video)
+        comment: Sti til videoen
+        type: file
+      subs:
+        label: Undertekster (Kun hvis kategori er video)
+        comment: Sti til underteksterne
+        type: file
       image:
-        type: auto
         label: Billede
-        cascade: true
-      date:
-        type: date
-        label: Dato
-        cascade: true
-      infomode:
-        type: switch
-        label: Er eventet et infomøde?
-        cascade: true
-      infomode-link:
-        type: select
-        options:
-          allow_empty: true
-          values: collections.educations
-        label: Hvilken uddannelse er infomødet for? (Kun hvis Infomøde er slået til)
-        cascade: true
-      billetto:
-        type: switch
-        label: Kan man tilmelde sig via Billetto?
-        cascade: true
-      billetto-nr:
-        type: auto
-        label: Billetto ID (Kun hvis Billetto er slået til)
-        comment: Billetto event unik ID. Du kan finde det i billettos kontrolpanel.
-        cascade: true
-      price:
-        type: auto
-        label: Pris
-        cascade: true
-      place:
-        type: auto
-        label: lokation
-        cascade: true
-      time:
-        type: text
-        label: Tid
-        cascade: true
       published:
-        type: switch
         label: Publiceret
-        cascade: true
-    disable_add: false
-    disable_add_folder: false
-    disable_file_actions: false
+        type: switch
+  events:
     schemas:
       default:
         path: /.cloudcannon/schemas/event.md
-        reorder_inputs: true
-        hide_extra_inputs: false
-        remove_empty_inputs: false
-        remove_extra_inputs: true
-        icon: notes
-  employees:
-    path: _employees
+    path: _events
     output: true
     icon: notes
-    _inputs:
-      title:
-        type: auto
-        label: Navn
-        cascade: true
-      order:
-        type: number
-        label: Rækkefølge
-        cascade: true
-      description:
-        type: auto
-        label: Titler/titel
-        comment: Diretør, konsulent osv.
-        cascade: true
-      image:
-        type: auto
-        label: Billede
-        cascade: true
-      small-portrait-image:
-        type: auto
-        label: Billede (Lille)
-        cascade: true
-      call:
-        type: auto
-        label: Telefon nr.
-        cascade: true
-      meta-title:
-        type: auto
-        label: Titel (Metadata)
-        cascade: true
-      email:
-        type: auto
-        label: E-mailadresse
-        cascade: true
-      on-om-os:
-        type: switch
-        label: Aktiveret på "Om os" side
-        cascade: true
-      edu:
-        type: array
-        label: Uddannelser
-        cascade: true
-      edu[*]:
-        type: text
-        cascade: true
-      linkedin:
-        type: auto
-        label: Linkedin link
-        cascade: true
-      redirect_from:
-        type: auto
-        hidden: true
-        cascade: true
-      published:
-        type: switch
-        label: Publiceret
-        cascade: true
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
+    _inputs:
+      title:
+        label: Titel
+        comment: Eventets titel
+      subtitle:
+        label: Undetitel
+      image:
+        label: Billede
+      date:
+        label: Dato
+        type: date
+      infomode:
+        label: Er eventet et infomøde?
+        type: switch
+      infomode-link:
+        label: Hvilken uddannelse er infomødet for? (Kun hvis Infomøde er slået til)
+        type: select
+        options:
+          values: collections.educations
+      billetto:
+        label: Kan man tilmelde sig via Billetto?
+        type: switch
+      billetto-nr:
+        label: Billetto ID (Kun hvis Billetto er slået til)
+        comment: Billetto event unik ID. Du kan finde det i billettos kontrolpanel.
+      price:
+        label: Pris
+      place:
+        label: lokation
+      time:
+        label: Tid
+        type: text
+      published:
+        label: Publiceret
+        type: switch
+  employees:
     schemas:
       default:
         path: /.cloudcannon/schemas/employee.md
-        reorder_inputs: true
-        hide_extra_inputs: false
-        remove_empty_inputs: false
-        remove_extra_inputs: true
-        icon: notes
+    path: _employees
+    output: true
+    icon: notes
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+    _inputs:
+      title:
+        label: Navn
+      order:
+        label: Rækkefølge
+        type: number
+      description:
+        label: Titler/titel
+        comment: Diretør, konsulent osv.
+      image:
+        label: Billede
+      small-portrait-image:
+        label: Billede (Lille)
+      call:
+        label: Telefon nr.
+      meta-title:
+        label: Titel (Metadata)
+      email:
+        label: E-mailadresse
+      on-om-os:
+        label: Aktiveret på "Om os" side
+        type: switch
+      edu:
+        label: Uddannelser
+        type: array
+      edu[*]:
+        type: text
+      linkedin:
+        label: Linkedin link
+      redirect_from:
+        hidden: true
+      published:
+        label: Publiceret
+        type: switch
   educations:
+    schemas:
+      default:
+        path: /.cloudcannon/schemas/education.md
     path: _educations
     output: true
-    description: ''
     icon: notes
-    _editables: {}
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
     _inputs:
       order:
-        type: number
         label: Rækefølge
-        cascade: true
+        type: number
       title:
-        type: auto
         label: Titel
         comment: Uddannelsens titel
-        cascade: true
       undertitle:
-        type: auto
         label: Undertitel
         comment: Ikke oblikatorisk
-        cascade: true
       meta-title:
-        type: auto
         label: Titel (Metadata)
-        cascade: true
       description:
-        type: textarea
         label: Beskrivelse
-        cascade: true
-      meta-description:
         type: textarea
+      meta-description:
         label: Beskrivelse (Metadata)
-        cascade: true
+        type: textarea
       aktive-hold:
-        type: switch
         label: Er der aktive hold?
-        cascade: true
+        type: switch
       image:
-        type: image
         label: Billede
         comment: Baggrundsbilledet i headeren
-        cascade: true
-      image-2:
         type: image
+      image-2:
         label: Billede 2
-        comment: >-
-          Billede som ligger i anden kollonne øverst på siden under "Overblik"
-          sektionen (Vises kun hvis der ikke er en video i "Overblik")
-        cascade: true
+        comment: Billede som ligger i anden kollonne øverst på siden under "Overblik" sektionen (Vises kun hvis der ikke er en video i "Overblik")
+        type: image
       adgangskrav:
-        type: html
         label: Adgangskrav
-        cascade: true
-      location:
         type: html
+      location:
         label: Sted/lokation
-        cascade: true
+        type: html
       contact-person:
+        label: Kontakt person
         type: select
         options:
-          allow_empty: true
           values: collections.employees
           value_key: title
-        label: Kontakt person
-        cascade: true
       price:
-        type: html
         label: Pris
-        cascade: true
+        type: html
       undervisere:
+        label: Undervisere
         type: multiselect
         options:
-          empty_type: array
           values: collections.employees
-        label: Undervisere
-        cascade: true
       kort:
-        type: auto
         label: Kort
         comment: Skal der ligge et kort under sted?
-        cascade: true
       kort-kode:
-        type: textarea
         label: Kort kode fra Google maps
+        type: textarea
         comment: (Kun hvis Kort er slået til)
-        cascade: true
       pdf:
-        type: file
         label: PDF brochure
-        cascade: true
+        type: file
       infomode:
-        type: switch
         label: Er der et kommende infomøde om kurset/uddannelsen?
-        cascade: true
+        type: switch
       kollonne-1:
-        type: html
         label: Kollonne 1
         comment: Tekst i kollonne 1 i Oversigt
-        cascade: true
-      kollonne-2:
         type: html
+      kollonne-2:
         label: Kollonne 2
         comment: Tekst i kollonne 2 i Oversigt
-        cascade: true
+        type: html
       kollonne-2-billede-hojde:
+        label: Billedhøjde
+        comment: Højde på billed i kollonne 2 i Oversigt
         type: select
         options:
           values: _select_data.hojder
@@ -316,168 +222,123 @@ collections_config:
           preview:
             text:
               - key: display_name
-        label: Billedhøjde
-        comment: Højde på billed i kollonne 2 i Oversigt
-        cascade: true
       op-kollonne-1:
-        type: html
         label: Kollonne 1 (Opgybning sektion)
         comment: Tekst i kollonne 1 i Opbygning
-        cascade: true
-      op-kollonne-2:
         type: html
+      op-kollonne-2:
         label: Kollonne 2 (Opgybning sektion)
         comment: Tekst i kollonne 2 i Opbygning
-        cascade: true
-      op-kollonne-banner:
         type: html
+      op-kollonne-banner:
         label: Banner (Opgybning sektion)
         comment: Tekst i banneret i Opbygning
-        cascade: true
+        type: html
       deltagerprofil:
-        type: switch
         label: Deltagerprofil beskrivelse
         comment: Skal der vises en sektion med beskrivelse af deltagerprofil?
-        cascade: true
+        type: switch
       dp-kollonne-1:
-        type: html
         label: Kollonne 1 (Deltagerprofil sektion)
         comment: Tekst i kollonne 1 i Deltagerprofil
-        cascade: true
-      dp-kollonne-2:
         type: html
+      dp-kollonne-2:
         label: Kollonne 2 (Deltagerprofil sektion)
         comment: Tekst i kollonne 2 i Deltagerprofil
-        cascade: true
+        type: html
       anbefalinger:
-        type: switch
         label: Citater/testimonials
+        type: switch
         comment: Skal der visis nogle citater/testimonials?
-        cascade: true
       vidner:
         type: array
+        label: Testimonials
         options:
           structures: _structures.vid
-        label: Testimonials
-        cascade: true
       vidner[*].navn:
-        type: text
         label: Navn
-        cascade: true
+        type: text
       vidner[*].titel:
-        type: text
         label: Titel/Stilling
-        cascade: true
+        type: text
       vidner[*].text:
-        type: html
         label: Tekst
-        cascade: true
+        type: html
       date:
-        type: text
         label: Dato
-        cascade: true
+        type: text
       dates:
-        type: text
         label: Datoer
-        cascade: true
+        type: text
       name:
-        type: text
         label: Navn/beskrivelse
-        cascade: true
+        type: text
+      modules:
+        label: Moduler/Dage
       day:
-        type: text
         label: Dag nr.
-        cascade: true
+        type: text
       time:
-        type: text
         label: Tid (Fra - til)
-        cascade: true
+        type: text
       place:
-        type: text
         label: Sted
-        cascade: true
-      aar:
         type: text
+      aar:
         label: År (Halvår)
         comment: F.eks. Forår 2022
-        cascade: true
+        type: text
       nested-hold:
         type: array
-        options:
-          structures: _structures.aar-hold
         label: Hold (Pr. år)
         comment: Hold inddelt i år
-        cascade: true
+        options:
+          structures: _structures.aar-hold
       nested-hold[*].hold:
+        label: Hold
         type: array
         options:
           structures: _structures.hold
-        label: Hold
-        cascade: true
+          preview:
+            text:
+              - key: date
       hold:
         type: array
+        label: Hold
         options:
           structures: _structures.hold
-        label: Hold
-        cascade: true
-      nested-hold[*].modules:
+      hold[*].modules:
         type: array
         options:
           structures: _structures.moduler
-        cascade: true
-        label: Moduler/Dage
       opbygning-image:
-        type: auto
         label: Billede i Opbygning sektion
-        cascade: true
       galleri-overblik:
-        type: switch
         label: Galleri sektion
         comment: Skal der være et galleri?
-        cascade: true
+        type: switch
       galleri:
+        label: Galleri
         type: array
         options:
           structures: _structures.gallery
-        label: Galleri
-        cascade: true
       galleri[*].text:
         type: html
         label: Tekst
-        cascade: true
       galleri[*].image:
         type: image
         label: Billede
-        cascade: true
       galleri[*].subtitle:
         type: text
         label: Undertitel
-        cascade: true
       galleri[*].title:
         type: text
         label: Titel
-        cascade: true
       redirect_from:
-        type: auto
         hidden: true
-        cascade: true
       published:
-        type: switch
         label: Publiceret
-        cascade: true
-    _select_data: {}
-    _structures: {}
-    disable_add: false
-    disable_add_folder: false
-    disable_file_actions: false
-    schemas:
-      default:
-        path: /.cloudcannon/schemas/education.md
-        reorder_inputs: true
-        hide_extra_inputs: false
-        remove_empty_inputs: false
-        remove_extra_inputs: true
-        icon: notes
+        type: switch
   coachings:
     path: _coachings
     output: false
@@ -489,64 +350,48 @@ collections_config:
     path: _pages
     output: true
     icon: notes
+    disable_add: true
+    disable_add_folder: true
+    disable_file_actions: false
     _enabled_editors:
       - visual
     _inputs:
       layout:
-        type: auto
         hidden: true
-        cascade: true
       redirect_from:
-        type: auto
         hidden: true
-        cascade: true
       image:
         type: image
         label: Billede
-        cascade: true
       description:
-        type: html
         label: Berskrivelse
-        cascade: true
-      meta-description:
-        type: textarea
-        label: Beskrivelse (SEO)
-        cascade: true
-      title:
-        type: text
-        label: Titel
-        cascade: true
-      meta-title:
-        type: text
-        label: Beskrivelse (SEO)
-        cascade: true
-      text:
         type: html
+      meta-description:
+        label: Beskrivelse (SEO)
+        type: textarea
+      title:
+        label: Titel
+        type: text
+      meta-title:
+        label: Beskrivelse (SEO)
+        type: text
+      text:
         label: Tekst
-        cascade: true
+        type: html
       permalink:
-        type: auto
         hidden: true
-        cascade: true
       podcast-heading:
-        type: text
         label: Overskrift (Podcasts)
-        cascade: true
+        type: text
       article-heading:
-        type: text
         label: Overskrift (Blog)
-        cascade: true
+        type: text
       video-heading:
-        type: text
         label: Overskrift (Videoer)
-        cascade: true
-      publications-heading:
         type: text
+      publications-heading:
         label: Overskrift (Udgivelser/Bøger)
-        cascade: true
-    disable_add: true
-    disable_add_folder: true
-    disable_file_actions: false
+        type: text
   texts:
     path: _texts
     output: true
@@ -606,7 +451,6 @@ _select_data:
     - _config_cc.yml
 _structures:
   gallery:
-    style: select
     values:
       - value:
           image:
@@ -614,19 +458,16 @@ _structures:
           subtitle:
           text:
   hold:
-    style: select
     values:
       - value:
           title:
           modules:
   aar-hold:
-    style: select
     values:
       - value:
           aar:
           hold:
   moduler:
-    style: select
     values:
       - value:
           date:
@@ -635,7 +476,6 @@ _structures:
           name:
           place:
   vid:
-    style: select
     values:
       - value:
           navn:
