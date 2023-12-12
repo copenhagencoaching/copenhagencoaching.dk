@@ -429,8 +429,7 @@ collections_config:
         options:
           structures: _structures.moduler
           preview:
-            text:
-              - key: date
+            text: date
         cascade: true
       opbygning-image:
         type: auto
