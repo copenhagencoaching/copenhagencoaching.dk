@@ -308,9 +308,6 @@ collections_config:
         type: array
         options:
           structures: _structures.moduler
-            preview:
-              text:
-                - key: date
       opbygning-image:
         label: Billede i Opbygning sektion
       galleri-overblik:
