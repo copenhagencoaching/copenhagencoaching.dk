@@ -310,7 +310,7 @@ collections_config:
           structures: _structures.moduler
           preview:
             text:
-              - key: date
+              - dato
       opbygning-image:
         label: Billede i Opbygning sektion
       galleri-overblik:
