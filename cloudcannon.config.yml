@@ -424,9 +424,6 @@ collections_config:
         type: array
         options:
           structures: _structures.moduler
-          preview:
-            text:
-              - key: date
         cascade: true
         label: Moduler/Dage
       opbygning-image:
