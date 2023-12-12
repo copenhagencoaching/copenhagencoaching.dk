@@ -427,12 +427,6 @@ collections_config:
       hold[*].modules:
         type: array
         options:
-          preview:
-            icon:
-            image:
-            subtext:
-            text:
-              - key: dato
           structures: _structures.moduler
         cascade: true
       opbygning-image:
