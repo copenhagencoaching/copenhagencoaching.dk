@@ -307,11 +307,6 @@ collections_config:
         type: array
         options: 
           structures: _structures.moduler
-          preview:
-            text:
-              - key: date
-            subtext:
-              - key: title
       opbygning-image:
         label: Billede i Opbygning sektion
       galleri-overblik:
@@ -449,7 +444,7 @@ _select_data:
     - key: h-md-100
       display_name: 100%
   config:
-    - _config_cc.yml
+    - _config.yml
 _structures:
   gallery:
     values:
