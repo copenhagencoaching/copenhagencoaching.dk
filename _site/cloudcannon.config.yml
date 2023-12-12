@@ -626,6 +626,7 @@ _structures:
           aar:
           hold:
   moduler:
+    style: select
     values:
       - value:
           date:
