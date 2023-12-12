@@ -299,9 +299,6 @@ collections_config:
         type: array
         options:
           structures: _structures.hold
-          preview:
-            text:
-              - key: date
       hold:
         type: array
         label: Hold
