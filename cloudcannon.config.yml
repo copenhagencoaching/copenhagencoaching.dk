@@ -431,7 +431,8 @@ collections_config:
             icon:
             image:
             subtext:
-            text: dato
+            text:
+              - key: dato
           structures: _structures.moduler
         cascade: true
       opbygning-image:
