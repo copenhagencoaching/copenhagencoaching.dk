@@ -273,8 +273,6 @@ collections_config:
       name:
         label: Navn/beskrivelse
         type: text
-      modules:
-        label: Moduler/Dage
       day:
         label: Dag nr.
         type: text
@@ -305,9 +303,15 @@ collections_config:
         options:
           structures: _structures.hold
       hold[*].modules:
+        label: Dage/Moduler
         type: array
-        options:
+        options: 
           structures: _structures.moduler
+          preview:
+            text:
+              - key: date
+            subtext:
+              - key: title
       opbygning-image:
         label: Billede i Opbygning sektion
       galleri-overblik:
