@@ -420,10 +420,15 @@ collections_config:
           structures: _structures.hold
         label: Hold
         cascade: true
-      hold[*].modules:
+      modules:
         type: array
         options:
           structures: _structures.moduler
+          preview:
+            icon: image
+            text:
+              - key: image_path
+              - Image missing
         cascade: true
         label: Moduler/Dage
       opbygning-image:
