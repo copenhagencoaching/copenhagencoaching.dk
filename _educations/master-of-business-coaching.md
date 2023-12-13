@@ -293,7 +293,7 @@ nested-hold:
             place: Blegdamsvej
   - aar: Efterår 2024
     hold:
-      - title: Semester 1 - Forår 2024
+      - title: Semester 1 - Efterår 2024
         dates: 28. august - 10. december
         modules:
           - date: 28. august
