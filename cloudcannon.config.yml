@@ -309,7 +309,10 @@ collections_config:
           structures: _structures.moduler
           preview:
             text:
-              - key: moduler.date
+              - key: title
+            subtext:
+              - key: date
+            icon: article
       opbygning-image:
         label: Billede i Opbygning sektion
       galleri-overblik:
