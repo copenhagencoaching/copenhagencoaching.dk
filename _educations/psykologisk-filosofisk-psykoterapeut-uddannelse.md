@@ -164,4 +164,5 @@ hold:
         place: '-'
 redirect_from:
   - /academy/psykologisk-filosofisk-psykoterapeut-uddannelse/
+  - /academy/pfp
 ---

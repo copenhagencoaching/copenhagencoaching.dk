@@ -341,4 +341,8 @@ nested-hold:
             time: 09:30 - 16:00
             name: Eksamen
             place: Blegdamsvej
+redirect_from:
+  - /academy/master-of-business-coaching/
+  - /academy/mbc/
+  - /academy/masterofbusinesscoaching/
 ---
