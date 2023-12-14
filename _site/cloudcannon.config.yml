@@ -302,7 +302,7 @@ collections_config:
         label: Hold
         options:
           structures: _structures.hold
-      hold[*].modules:
+      modules:
         label: Dage/Moduler
         type: array
         options: 
