@@ -4,8 +4,25 @@ paths:
   data: _data
   layouts: _layouts
   includes: _includes
+collection_groups:
+  - heading: Produkter
+    collections:
+      - educations
+      - coachings
+      - consultings
+  - heading: Inspiration
+    collections:
+      - posts
+      - events
+      - publications
+  - heading: Diverse
+    collections:
+      - employees
+      - texts
+      - landings
 collections_config:
   posts:
+    label: Indlæg
     schemas:
       default:
         path: /.cloudcannon/schemas/blog-post.md
@@ -302,17 +319,14 @@ collections_config:
         label: Hold
         options:
           structures: _structures.hold
-      modules:
+      hold[*].modules:
         label: Dage/Moduler
         type: array
         options: 
           structures: _structures.moduler
           preview:
             text:
-              - key: title
-            subtext:
               - key: date
-            icon: article
       opbygning-image:
         label: Billede i Opbygning sektion
       galleri-overblik:
