@@ -108,6 +108,7 @@ collections_config:
         label: Publiceret
         type: switch
   employees:
+    singular_name: medarbejder
     name: Medarbejdere
     schemas:
       default:
@@ -363,7 +364,7 @@ collections_config:
     name: Coachingydelser
     path: _coachings
     output: false
-    icon: notes
+    icon: forum
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
@@ -371,7 +372,7 @@ collections_config:
     name: Diverse sider
     path: _pages
     output: true
-    icon: notes
+    icon: web
     disable_add: true
     disable_add_folder: true
     disable_file_actions: false
@@ -426,7 +427,7 @@ collections_config:
     name: Udgivelser
     path: _publications
     output: true
-    icon: notes
+    icon: menu_book
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
@@ -434,7 +435,7 @@ collections_config:
     name: Landingsider
     path: _landings
     output: true
-    icon: notes
+    icon: web
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
@@ -442,7 +443,7 @@ collections_config:
     name: Konsulentydelser
     path: _consultings
     output: true
-    icon: notes
+    icon: record_voice_over
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false

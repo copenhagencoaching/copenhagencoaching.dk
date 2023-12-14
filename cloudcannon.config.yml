@@ -108,6 +108,7 @@ collections_config:
         label: Publiceret
         type: switch
   employees:
+    singular_name: medarbejder
     name: Medarbejdere
     schemas:
       default:
