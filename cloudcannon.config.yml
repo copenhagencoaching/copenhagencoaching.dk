@@ -396,7 +396,7 @@ collections_config:
         label: Titel
         type: text
       meta-title:
-        label: Beskrivelse (SEO)
+        label: Titel (SEO)
         type: text
       text:
         label: Tekst
