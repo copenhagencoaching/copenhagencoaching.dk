@@ -29,7 +29,7 @@ collections_config:
         path: /.cloudcannon/schemas/blog-post.md
     path: _posts
     output: true
-    icon: notes
+    icon: article
     create:
       path: >-
         [relative_base_path]/{date|year}-{date|month}-{date|day}-{title|slugify}.[ext]
@@ -68,7 +68,7 @@ collections_config:
         path: /.cloudcannon/schemas/event.md
     path: _events
     output: true
-    icon: notes
+    icon: event
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
@@ -114,7 +114,7 @@ collections_config:
         path: /.cloudcannon/schemas/employee.md
     path: _employees
     output: true
-    icon: notes
+    icon: people
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
@@ -159,7 +159,7 @@ collections_config:
         path: /.cloudcannon/schemas/education.md
     path: _educations
     output: true
-    icon: notes
+    icon: school
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
@@ -368,6 +368,7 @@ collections_config:
     disable_add_folder: false
     disable_file_actions: false
   pages:
+    name: Diverse sider
     path: _pages
     output: true
     icon: notes

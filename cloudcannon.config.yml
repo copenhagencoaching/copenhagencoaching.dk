@@ -29,7 +29,7 @@ collections_config:
         path: /.cloudcannon/schemas/blog-post.md
     path: _posts
     output: true
-    icon: notes
+    icon: article
     create:
       path: >-
         [relative_base_path]/{date|year}-{date|month}-{date|day}-{title|slugify}.[ext]
@@ -68,7 +68,7 @@ collections_config:
         path: /.cloudcannon/schemas/event.md
     path: _events
     output: true
-    icon: notes
+    icon: event
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
@@ -114,7 +114,7 @@ collections_config:
         path: /.cloudcannon/schemas/employee.md
     path: _employees
     output: true
-    icon: notes
+    icon: people
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
@@ -159,7 +159,7 @@ collections_config:
         path: /.cloudcannon/schemas/education.md
     path: _educations
     output: true
-    icon: notes
+    icon: school
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
@@ -363,7 +363,7 @@ collections_config:
     name: Coachingydelser
     path: _coachings
     output: false
-    icon: notes
+    icon: forum
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
@@ -371,7 +371,7 @@ collections_config:
     name: Diverse sider
     path: _pages
     output: true
-    icon: notes
+    icon: web
     disable_add: true
     disable_add_folder: true
     disable_file_actions: false
@@ -426,7 +426,7 @@ collections_config:
     name: Udgivelser
     path: _publications
     output: true
-    icon: notes
+    icon: menu_book
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
@@ -434,7 +434,7 @@ collections_config:
     name: Landingsider
     path: _landings
     output: true
-    icon: notes
+    icon: web
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
@@ -442,7 +442,7 @@ collections_config:
     name: Konsulentydelser
     path: _consultings
     output: true
-    icon: notes
+    icon: record_voice_over
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
