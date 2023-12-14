@@ -108,6 +108,7 @@ collections_config:
         label: Publiceret
         type: switch
   employees:
+    name: Medarbejdere
     schemas:
       default:
         path: /.cloudcannon/schemas/employee.md
@@ -152,6 +153,7 @@ collections_config:
         label: Publiceret
         type: switch
   educations:
+    name: Uddannelser
     schemas:
       default:
         path: /.cloudcannon/schemas/education.md
@@ -358,6 +360,7 @@ collections_config:
         label: Publiceret
         type: switch
   coachings:
+    name: Coachingydelser
     path: _coachings
     output: false
     icon: notes
@@ -411,6 +414,7 @@ collections_config:
         label: Overskrift (Udgivelser/Bøger)
         type: text
   texts:
+    name: Tekster
     path: _texts
     output: true
     icon: notes
@@ -418,6 +422,7 @@ collections_config:
     disable_add_folder: false
     disable_file_actions: false
   publications:
+    name: Udgivelser
     path: _publications
     output: true
     icon: notes
@@ -425,6 +430,7 @@ collections_config:
     disable_add_folder: false
     disable_file_actions: false
   landings:
+    name: Landingsider
     path: _landings
     output: true
     icon: notes
@@ -432,6 +438,7 @@ collections_config:
     disable_add_folder: false
     disable_file_actions: false
   consultings:
+    name: Konsulentydelser
     path: _consultings
     output: true
     icon: notes
