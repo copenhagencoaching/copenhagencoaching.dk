@@ -368,6 +368,7 @@ collections_config:
     disable_add_folder: false
     disable_file_actions: false
   pages:
+    name: Diverse sider
     path: _pages
     output: true
     icon: notes
