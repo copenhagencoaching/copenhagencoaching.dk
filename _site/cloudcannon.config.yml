@@ -487,7 +487,7 @@ _structures:
           text:
             - key: title
           subtext:
-            - key: 
+            - Rediger navn og datoer ->
       - value:
           title:
           modules:
