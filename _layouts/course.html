@@ -1011,6 +1011,14 @@ layout: default
 
                     <div class="col-md-6 col-12">
 
+                       {% for edu in site.educations %}
+                       {% if edu.title == page.title %}
+                        <input type="hidden" value="{{ edu.image }}">
+                       {% endif %} 
+
+                       {% endfor %} 
+
+            
                         <input type="text" class="form-control w-100" placeholder="Fornavn" aria-label="fornavn"
                             name="FNAME">
 
