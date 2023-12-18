@@ -1,7 +1,7 @@
 ---
 published: true
 id: "1"
-order: "1"
+order: 1
 title: Executive coaching
 image: c1.jpg
 contact-person: Andreas Bering

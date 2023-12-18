@@ -3,7 +3,7 @@ title: Protreptiske samtaler
 image: ProtreptisksamtaleMette.jpeg
 published: true
 id: "6"
-order: "6"
+order: 6
 contact-person: Andreas Bering
 description: I CCC har vi udover coaching specialiseret os i den filosofiske samtalekunst, der kaldes for Protreptik, og som går helt tilbage til Platon og Aristoteles.
 menu-order: 7

@@ -1,7 +1,7 @@
 ---
 published: true
 id: "5"
-order: "5"
+order: 5
 title: Filosofiske samtaler
 image: /filosofiske-samtaler.jpg
 contact-person: Andreas Bering

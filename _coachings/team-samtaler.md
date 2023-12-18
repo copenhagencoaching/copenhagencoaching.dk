@@ -1,7 +1,7 @@
 ---
 published: true
 id: "3"
-order: "3"
+order: 3
 title: Team samtaler
 image: c4.jpg
 contact-person: Andreas Bering
