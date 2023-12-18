@@ -204,22 +204,22 @@ hold:
     modules:
       - date: 30. januar
         day: '1'
-        time: 09:00 - 12:00
+        time: 15:30 - 18:30
         name: '-'
         place: København
       - date: 8. februar
         day: '2'
-        time: 13:00 - 16:00
+        time: 15:30 - 18:30
         name: '-'
         place: København
       - date: 14. februar
         day: '3'
-        time: 09:00 - 12:00
+        time: 15:30 - 18:30
         name: '-'
         place: København
       - date: 26. februar
         day: '4'
-        time: 13:00 - 16:00
+        time: 15:30 - 18:30
         name: '-'
         place: København
   - title: Proceslederuddannelsen - Forår 2024
@@ -266,8 +266,6 @@ hold:
         time: 09:00 - 15:00
         name: Eksamen
         place: København
-redirect_from:
-  - /academy/den-offentlige-lederuddannelse/
 ---
 **Er du leder, eller drømmer du om at blive det? Trænger du til at få styrket dine lederkompetencer, og samtidig få de nyeste og brugbare værktøjer til medarbejdersamtaler og til håndtering af konfliktsituationer? Så tag moduler i Den offentlige Lederuddannelse (DOL) hos os!**
 
