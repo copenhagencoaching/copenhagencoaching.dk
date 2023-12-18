@@ -3,7 +3,7 @@ published: true
 id: "1"
 order: 1
 title: Executive coaching
-image: c1.jpg
+image: /images/coaching/c1.jpg
 contact-person: Andreas Bering
 redirect_from:
   - coaching/executive-coaching/

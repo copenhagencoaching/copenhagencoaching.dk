@@ -1,6 +1,6 @@
 ---
 published: true
-order: "6"
+order: 6
 title: Værdier i ledelse og organisationer
 image: /images/consulting/1.png
 contact-person: Andreas Bering

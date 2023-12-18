@@ -3,7 +3,7 @@ published: true
 id: "5"
 order: 5
 title: Filosofiske samtaler
-image: /filosofiske-samtaler.jpg
+image: /images/coaching/filosofiske-samtaler.jpg
 contact-person: Andreas Bering
 redirect_from:
   - /coaching/filosofiskeSamtaler/

@@ -1,6 +1,6 @@
 ---
 published: true
-order: "7"
+order: 7
 title: Trivsel
 image: /images/consulting/c5.jpg
 contact-person: Andreas Bering

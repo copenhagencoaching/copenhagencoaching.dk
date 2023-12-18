@@ -1,6 +1,6 @@
 ---
 published: true
-order: "1"
+order: 1
 title: Rekruttering
 image: /images/consulting/c6.jpg
 contact-person: Andreas Bering

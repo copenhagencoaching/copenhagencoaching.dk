@@ -1,6 +1,6 @@
 ---
 published: true
-order: "5"
+order: 5
 title: Transition i arbejdslivet
 image: /images/consulting/c4.jpg
 contact-person: Andreas Bering

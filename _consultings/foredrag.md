@@ -1,6 +1,6 @@
 ---
 published: false
-order: "9"
+order: 9
 title: Foredrag
 image: /images/graphic/foredrag.jpg
 contact-person: Andreas Bering

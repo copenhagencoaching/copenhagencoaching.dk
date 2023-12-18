@@ -1,6 +1,6 @@
 ---
 published: true
-order: "3"
+order: 3
 title: Ledelse
 image: /images/consulting/c7.jpg
 contact-person: Andreas Bering

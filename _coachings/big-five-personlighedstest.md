@@ -1,6 +1,6 @@
 ---
 title: Big Five-samtale
-image: BigFivesamtalerlille.jpeg
+image: /images/coaching/BigFivesamtalerlille.jpeg
 published: true
 id: "7"
 order: 7

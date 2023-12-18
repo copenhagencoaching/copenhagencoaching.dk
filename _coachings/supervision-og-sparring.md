@@ -1,6 +1,6 @@
 ---
 title: Supervision og sparring
-image: /Supervisionogsparringlille.jpeg
+image: /images/coaching/Supervisionogsparringlille.jpeg
 published: true
 id: "2"
 order: 2

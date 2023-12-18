@@ -1,6 +1,6 @@
 ---
 published: true
-order: "2"
+order: 2
 title: Teamudvikling og teamsupervision
 image: /images/consulting/c8.jpg
 contact-person: Andreas Bering

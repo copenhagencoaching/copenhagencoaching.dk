@@ -365,8 +365,6 @@ collections_config:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
-    _enabled_editors:
-      - visual
     _inputs:
       layout:
         hidden: true
@@ -386,9 +384,12 @@ collections_config:
         options:
           values: collections.employees
           value_key: title
-        image:
-          type: image
-          label: billede
+      image:
+        type: image
+        label: billede
+      published:
+        type: switch
+        label: Skjult
   pages:
     name: Diverse sider
     path: _pages

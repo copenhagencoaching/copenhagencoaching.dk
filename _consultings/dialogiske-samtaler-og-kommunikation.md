@@ -1,6 +1,6 @@
 ---
 published: true
-order: "4"
+order: 4
 title: Dialogiske samtaler og kommunikation
 image: /images/consulting/2.png
 contact-person: Andreas Bering

@@ -1,6 +1,6 @@
 ---
 published: true
-order: "8"
+order: 8
 title: Forandrings- og udviklingsprocesser
 image: /images/consulting/c3.jpg
 contact-person: Andreas Bering
