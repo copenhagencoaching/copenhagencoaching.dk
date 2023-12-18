@@ -784,7 +784,7 @@
                 <div class="col-12 text-justify">
                     <div class="pt-4">
                         <h2 class="text-center">Coaching | Ledelse | Filosofi</h2>
-                       <p>CCC er et konsulenthus med tre forretningsområder. Ud over ledelsescoaching og skræddersyede konsulentydelser har vi en bred vifte af uddannelser inden for coaching, ledelse, terapi og personlighedstest. Vores Master of Business Coaching (MBC) er internationalt akkrediteret (<ins><a href='https://www.emccglobal.org/'>EMCC</a></ins>, EQA) og udvikler dialogiske færdigheder og ledelsesmæssig kapacitet med en filosofisk overbygning.</p><p>Alle vores ydelser er velafprøvede gennem 18 års praktisk virke og udvikling på højt fagligt niveau. CCC’s undervisere kommer med dyb erfaring og viden fra såvel private og offentlige organisationer som fra højere læreanstalter og forskning. Vores kursister beskriver CCC som et sted, hvor man lærer i trygge fællesskaber, og hvor den faglige udfordring tilpasses hver enkelt kursist.</p>
+                       <p>CCC er et konsulenthus med tre forretningsområder. Ud over ledelsescoaching og skræddersyede konsulentydelser har vi en bred vifte af uddannelser inden for coaching, ledelse, terapi og personlighedstest. Vores Master of Business Coaching (MBC) er internationalt akkrediteret (<ins><a href="https://www.emccglobal.org/">EMCC</a></ins>, EQA) og udvikler dialogiske færdigheder og ledelsesmæssig kapacitet med en filosofisk overbygning.</p><p>Alle vores ydelser er velafprøvede gennem 18 års praktisk virke og udvikling på højt fagligt niveau. CCC’s undervisere kommer med dyb erfaring og viden fra såvel private og offentlige organisationer som fra højere læreanstalter og forskning. Vores kursister beskriver CCC som et sted, hvor man lærer i trygge fællesskaber, og hvor den faglige udfordring tilpasses hver enkelt kursist.</p>
                     </div>
                 </div>
 
@@ -1506,6 +1506,29 @@ $('.insp-responsive-pod').slick({
     });
     }); */
   </script>
+
+ <!--  Cloudcannon -->
+
+ <script>
+  if (!window.CloudCannon) {
+  document.addEventListener('cloudcannon:load', function (e) {
+    onLiveEditorLoad(e.detail.CloudCannon);
+  });
+} else {
+  onLiveEditorLoad(window.CloudCannon);
+}
+function onLiveEditorLoad(CloudCannon) {
+  CloudCannon.enableEvents();
+}
+
+document.addEventListener('cloudcannon:update', async function (e) {
+  useNewPageProps(e.detail.CloudCannon);
+});
+
+async function useNewPageProps(CloudCannon) {
+  const latestValue = await CloudCannon.value();
+}
+ </script>
 
 
   <!-- Eventbrite overwrites-->
