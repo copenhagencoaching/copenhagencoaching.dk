@@ -705,12 +705,14 @@
 
                     </span>
                     
-                    <p>Antologien indeholder en lang række velfunderede erfaringer og erkendelser omkring protreptikkens funktion og ydeevne indenfor behandlingsenheder og botilbud i psykiatrisk såvel som i privat regi med eksempler på konkrete metoder, tilgange, viden og erfaringer fra ni forskellige bidragsydere, fordelt under to temaer: Protreptik i ledelsen af organisationer og Protreptik som behandling.</p>
+                    <div class="content">
+                        <p>Antologien indeholder en lang række velfunderede erfaringer og erkendelser omkring protreptikkens funktion og ydeevne indenfor behandlingsenheder og botilbud i psykiatrisk såvel som i privat regi med eksempler på konkrete metoder, tilgange, viden og erfaringer fra ni forskellige bidragsydere, fordelt under to temaer: Protreptik i ledelsen af organisationer og Protreptik som behandling.</p>
 
 <p>Dertil kommer to forsknings-bidrag, som udgør antologiens tredje del: Metablik på protreptik i praksis.</p>
 
 <p>Bogen kan læses af alle, der er optaget af ledelse, behandling eller terapi, og som søger en øget faglighed i balancen mellem sårbarhed og værdighed.</p>
 
+                      </div>
 
                     <a href="https://www.bod.dk/bogshop/protreptik-som-behandlingsform-og-ledelsesdisciplin-9788743047735" target="_blank" class="btn btn-black-coral d-block text-white">Køb her</a>
                 </div>
@@ -734,7 +736,7 @@
         </div>
     </div>
 </div>
-<!--   <div style="
+  <!--   <div style="
   position: fixed;
   top: 90%;
   left: 50%;
@@ -944,7 +946,7 @@
 
   <script>
 
-$('.insp-responsive-pod').slick({
+    $('.insp-responsive-pod').slick({
       dots: true,
       infinite: true,
       speed: 300,
@@ -1090,28 +1092,28 @@ $('.insp-responsive-pod').slick({
     }); */
   </script>
 
- <!--  Cloudcannon -->
+  <!--  Cloudcannon -->
 
- <script>
-  if (!window.CloudCannon) {
-  document.addEventListener('cloudcannon:load', function (e) {
-    onLiveEditorLoad(e.detail.CloudCannon);
-  });
-} else {
-  onLiveEditorLoad(window.CloudCannon);
-}
-function onLiveEditorLoad(CloudCannon) {
-  CloudCannon.enableEvents();
-}
+  <script>
+    if (!window.CloudCannon) {
+      document.addEventListener('cloudcannon:load', function (e) {
+        onLiveEditorLoad(e.detail.CloudCannon);
+      });
+    } else {
+      onLiveEditorLoad(window.CloudCannon);
+    }
+    function onLiveEditorLoad(CloudCannon) {
+      CloudCannon.enableEvents();
+    }
 
-document.addEventListener('cloudcannon:update', async function (e) {
-  useNewPageProps(e.detail.CloudCannon);
-});
+    document.addEventListener('cloudcannon:update', async function (e) {
+      useNewPageProps(e.detail.CloudCannon);
+    });
 
-async function useNewPageProps(CloudCannon) {
-  const latestValue = await CloudCannon.value();
-}
- </script>
+    async function useNewPageProps(CloudCannon) {
+      const latestValue = await CloudCannon.value();
+    }
+  </script>
 
 
   <!-- Eventbrite overwrites-->
@@ -1362,7 +1364,7 @@ async function useNewPageProps(CloudCannon) {
         }, 1);
       }
     }
-// shirt
+    // shirt
   </script>
 
   <script>

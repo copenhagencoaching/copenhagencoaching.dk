@@ -782,7 +782,7 @@
     </div>
     
 </div>
-<!--   <div style="
+  <!--   <div style="
   position: fixed;
   top: 90%;
   left: 50%;
@@ -992,7 +992,7 @@
 
   <script>
 
-$('.insp-responsive-pod').slick({
+    $('.insp-responsive-pod').slick({
       dots: true,
       infinite: true,
       speed: 300,
@@ -1138,28 +1138,28 @@ $('.insp-responsive-pod').slick({
     }); */
   </script>
 
- <!--  Cloudcannon -->
+  <!--  Cloudcannon -->
 
- <script>
-  if (!window.CloudCannon) {
-  document.addEventListener('cloudcannon:load', function (e) {
-    onLiveEditorLoad(e.detail.CloudCannon);
-  });
-} else {
-  onLiveEditorLoad(window.CloudCannon);
-}
-function onLiveEditorLoad(CloudCannon) {
-  CloudCannon.enableEvents();
-}
+  <script>
+    if (!window.CloudCannon) {
+      document.addEventListener('cloudcannon:load', function (e) {
+        onLiveEditorLoad(e.detail.CloudCannon);
+      });
+    } else {
+      onLiveEditorLoad(window.CloudCannon);
+    }
+    function onLiveEditorLoad(CloudCannon) {
+      CloudCannon.enableEvents();
+    }
 
-document.addEventListener('cloudcannon:update', async function (e) {
-  useNewPageProps(e.detail.CloudCannon);
-});
+    document.addEventListener('cloudcannon:update', async function (e) {
+      useNewPageProps(e.detail.CloudCannon);
+    });
 
-async function useNewPageProps(CloudCannon) {
-  const latestValue = await CloudCannon.value();
-}
- </script>
+    async function useNewPageProps(CloudCannon) {
+      const latestValue = await CloudCannon.value();
+    }
+  </script>
 
 
   <!-- Eventbrite overwrites-->
@@ -1410,7 +1410,7 @@ async function useNewPageProps(CloudCannon) {
         }, 1);
       }
     }
-// shirt
+    // shirt
   </script>
 
   <script>

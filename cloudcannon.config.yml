@@ -415,6 +415,8 @@ collections_config:
   texts:
     name: Tekster
     path: _texts
+    _enabled_editors:
+      - visual
     output: true
     icon: notes
     disable_add: false
@@ -425,6 +427,32 @@ collections_config:
     path: _publications
     output: true
     icon: menu_book
+    _inputs:
+      layout:
+        hidden: true
+      redirect_from:
+        hidden: true
+      title:
+        label: Titel
+        type: text
+      post-title:
+        label: Underoverskrift
+        type: text
+      price:
+        label: Pris
+        type: text
+      e-price:
+        label: Pris på E-bog
+        type: text
+      description:
+        label: Beskrivelse
+        type: textarea
+      link:
+        label: Link til udgivelse
+        type: url
+      image:
+        label: Billede
+        type: image
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
