@@ -17,9 +17,8 @@ layout: default
                 <div class="col-12 text-justify">
                     <div class="pt-4">
                         <h2>{{ page.header }}</h2>
-                        {% for p in page.paragraphs %}
-                        <p>{{ p }}</p>
-                        {% endfor %}
+                        
+                        {{ page.text-top}}
                     </div>
                 </div>
 
@@ -62,7 +61,7 @@ layout: default
 
 
             <div class="col-12 text-justify">
-                {{ page.content }}
+                {{ page.text-bottom }}
             </div>
         </div>
     </div>

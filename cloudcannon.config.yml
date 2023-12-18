@@ -431,10 +431,56 @@ collections_config:
   landings:
     name: Landingsider
     path: _landings
+    _enabled_editors:
+      - visual
     output: true
+    _inputs:
+      layout:
+        hidden: true
+      title:
+        label: Titel
+        type: text
+      meta-title:
+        label: Titel (SEO)
+        type: text
+      description:
+        label: Berskrivelse
+        type: html
+      meta-description:
+        label: Beskrivelse (SEO)
+        type: textarea
+      redirect_from:
+        hidden: true
+      box-position:
+        hidden: true
+      image:
+        type: image
+        label: Billede
+      header:
+        type: text
+        label: Overskift
+      bred-kollonne:
+        type: html
+        label: Tekst
+      text-top:
+        type: html
+        label: Tekst øverst
+      text-bottom:
+        type: html
+        label: Tekst nederst
+      edus:
+        label: Uddannelser der vises øverst
+        type: multiselect
+        options:
+          values: collections.educations
+      second-edus:
+        label: Uddannelser der vises nederst
+        type: multiselect
+        options:
+          values: collections.educations
     icon: web
-    disable_add: false
-    disable_add_folder: false
+    disable_add: true
+    disable_add_folder: true
     disable_file_actions: false
   consultings:
     name: Konsulentydelser
