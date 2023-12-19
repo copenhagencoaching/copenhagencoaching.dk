@@ -702,7 +702,7 @@
             </div>
         </div>
         <a class="btn-beaver btn w-254 btn-bold fs-6 me-md-5 text-white h-50"
-            onclick="window.open('https://www.copenhagencoaching.dk/pdfs/MBC_folder_forår_24.pdf', '_blank'); gtag('event','click', { 'event_category':'brochure download', 'event_label':'brochure download - MBC' })"
+            onclick="window.open('/uploads/mbc-folder-forar-24.pdf', '_blank'); gtag('event','click', { 'event_category':'brochure download', 'event_label':'brochure download - MBC' })"
             target="_blank">Hent brochure</a>
         <a class="btn-slate-gray text-white btn w-254 btn-bold fs-6 h-50" href="#kontakt-underviseren">Kontakt
             underviseren</a>
@@ -749,15 +749,6 @@
                     <a class="color-base tab-links" href="#praktisk">
                         <div class="bg-cadet-gray w-100 text-center px-3 px-md-0 py-2">
                             <p class="mb-0 fs-6 text-white">Praktisk</p>
-                        </div>
-                    </a>
-                </div>
-
-                
-                <div class="col-6 col-md-4 col-lg">
-                    <a class="color-base tab-links" href="#infomode">
-                        <div class="bg-cadet-gray w-100 text-center px-3 px-md-0 py-2">
-                            <p class="mb-0 fs-6 text-white">Informationsmøde</p>
                         </div>
                     </a>
                 </div>
@@ -2933,124 +2924,6 @@
     </div>
 </div>
 
-<div class="bg-alice-blue">
-    <div class="container-fluid py-5 mb-5">
-        <div class="small-container">
-
-            <div class="row gx-5">
-
-
-                <div class="col-12 position-relative">
-                    <div id="infomode" class="anchor-delay"></div>
-                    <h2 class="text-uppercase">Informationsmøde</h2>
-                    <p>Kom med til vores infomøde om MBC</p>
-                    <p><b>Deltagelse er gratis, men tilmelding er nødvendig</b></p>
-                    <p>Jeg vil gerne deltage på følgende dage (kryds af):</p>
-                    <form action="https://formspree.io/f/mvollpwe" method="POST" enctype="multipart/form-data"
-                        class="mx-auto special-form p-md-0 p-5" id="form-infomode">
-
-                        <input type="hidden" value="MBC" aria-label="uddannelse" name="Uddannelse">
-
-                        <div class="row mt-3 gy-4 gx-5 inder-form" id="inner-form">
-
-
-
-                            
-
-
-                            <div class="col-12 col-sm-6 col-md-4">
-
-                                <input type="text" class="form-control w-100" placeholder="Fornavn" aria-label="fornavn"
-                                    name="FNAME" required>
-
-                            </div>
-                            <div class="col-12 col-sm-6 col-md-4">
-                                <input type="text" class="form-control w-100" placeholder="Efternavn"
-                                    aria-label="efternavn" name="LNAME" required>
-                            </div>
-                            <div class="col-12 col-sm-6 col-md-4">
-                                <input type="text" class="form-control w-100" placeholder="E-mail" aria-label="email"
-                                    name="email" required>
-                            </div>
-
-                            <div class="col-12 col-sm-6 col-md-4">
-                                <input type="text" class="form-control w-100" placeholder="Virksomhed"
-                                    aria-label="virksomhed" name="virksomhed">
-                            </div>
-                            <div class="col-12 col-sm-6 col-md-4">
-                                <input type="text" class="form-control w-100" placeholder="Telefon" aria-label="telefon"
-                                    name="telefon">
-                            </div>
-
-
-
-                            <div class="col-12 col-sm-6 col-md-4">
-                                <div class="form-check mb-4">
-                                    <input class="form-check-input" name="_optin" type="checkbox" id="newsletter-two"
-                                        required>
-                                    <label class="form-check-label" for="newsletter-two">
-                                        <p class="small mb-0">Jeg accepterer, at Copenhagen Coaching Center må kontakte
-                                            mig pr. mail vedr. informationsmødet samt må arkivere mine oplysninger til
-                                            dette formål.</p>
-                                    </label>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-4">
-                                <div class="g-recaptcha" data-sitekey="6Lfi__EcAAAAABOscNdrKzqeLNu2vbuTM_5VlANy"></div>
-                            </div>
-
-                            <div class="col-12">
-
-                                <button class="mx-auto d-block maw-200 btn-opal text-white btn mb-3"
-                                    type="submit">Tilmeld</button>
-                            </div>
-                        </div>
-
-                    </form>
-                    <div class="d-none" id="stat-info-error">
-                        <p>Husk at udfylde alle felter</p>
-                    </div>
-                    <div class="d-none message-form-udd" id="form-message-info">
-                        <h2>Tak for din tilmelding til informationsmødet.</h2>
-                        <p>En bekræftelse er sendt til din mail</p>
-                        <p class="fw-bold">OBS: Vi oplever tit at automatiserede mails bliver markeret som spam, så vi
-                            opfordrer til at tjekke spam-indbakken og evt. markere info@copenhagencoaching.dk som sikker
-                            afsender i Outlook eller andre mail programmer.</p>
-                        <!--                             <div class="atcb align-center">
-                            <script type="application/ld+json">
-                                    {
-                                        "event": {
-                                          "@context":"https://schema.org",
-                                          "@type":"Event",
-                                          "name":"Informationsmøde hos CCC",
-                                          "description":"Informationsmøde omkring Master of Business Coaching hos Copenhagen Coaching Center.",
-                                          "startDate":"06-21-2022T16:00",
-                                          "endDate":"06-21-2022T17:30",
-                                          "location":"Belgdamsvej 104C, baghuset 3. sal, 2100 København Ø"
-                                        },
-                                        "label":"Tilføj til kalender",
-                                        "options":[
-                                          "Apple",
-                                          "Google",
-                                          "iCal",
-                                          "Microsoft365",
-                                          "Outlook.com",
-                                          "Yahoo"
-                                        ],
-                                        "timeZone":"Europe/Berlin",
-                                        "trigger":"click",
-                                        "iCalFileName":"Reminder-Event"
-                                      }
-                                </script>
-                        </div> -->
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</div>
-
 
 <div class="container-fluid">
     <div class="small-container position-relative">
@@ -3550,7 +3423,7 @@
 
 
                             <input type="hidden" name="pdf" value="MBC">
-                            <input type="hidden" name="file" value="https://www.copenhagencoaching.dk/pdfs/MBC_folder_forår_24.pdf">
+                            <input type="hidden" name="file" value="/uploads/mbc-folder-forar-24.pdf">
 
                             <div class="row">
                                 <div class="col-12 col-lg-6">

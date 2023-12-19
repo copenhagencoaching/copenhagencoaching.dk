@@ -546,9 +546,10 @@ collections_config:
       text:
         - key: title
         - No title
-      image:
-        - key: image
-        - Image missing
+      gallery:
+        image:
+          - key: image
+          - Image missing
     output: true
     icon: record_voice_over
     disable_add: false
