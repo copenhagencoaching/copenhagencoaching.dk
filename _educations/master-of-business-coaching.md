@@ -4,7 +4,7 @@ order: 1
 title: MBC
 undertitle: (Master of Business Coaching)
 image: /images/educations/mbc-1.png
-infomode: true
+infomode: false
 meta-title: MBC - Business Coaching uddannelse - Master i Business Coaching
 meta-description: >-
   Ønsker du at blive dygtig til at føre produktive og virkningsfulde dialoger?
@@ -94,7 +94,7 @@ opbygning-image: /images/educations/mbc-opbygning.png
 undervisere:
   - Mette Mejlhede
   - Andreas Bering
-pdf: https://www.copenhagencoaching.dk/pdfs/MBC_folder_forår_24.pdf
+pdf: /uploads/mbc-folder-forar-24.pdf
 anbefalinger: false
 vidner:
   - navn: Stella Sandfeld
@@ -341,8 +341,4 @@ nested-hold:
             time: 09:30 - 16:00
             name: Eksamen
             place: Blegdamsvej
-redirect_from:
-  - /academy/master-of-business-coaching/
-  - /academy/mbc/
-  - /academy/masterofbusinesscoaching/
 ---
