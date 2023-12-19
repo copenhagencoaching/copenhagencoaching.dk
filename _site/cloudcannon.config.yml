@@ -164,6 +164,8 @@ collections_config:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
+    _enabled_editors:
+      - visual
     _inputs:
       order:
         label: Rækefølge
@@ -540,6 +542,13 @@ collections_config:
   consultings:
     name: Konsulentydelser
     path: _consultings
+    preview:
+      text:
+        - key: title
+        - No title
+      image:
+        - key: image
+        - Image missing
     output: true
     icon: record_voice_over
     disable_add: false
