@@ -543,13 +543,13 @@ collections_config:
     name: Konsulentydelser
     path: _consultings
     preview:
-      text:
-        - key: title
-        - No title
       gallery:
         image:
           - key: image
           - Image missing
+        text:
+          - key: title
+          - No title
     output: true
     icon: record_voice_over
     disable_add: false
