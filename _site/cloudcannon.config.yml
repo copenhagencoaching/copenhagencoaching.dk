@@ -547,10 +547,10 @@ collections_config:
       order: desc
     preview:
       text:
-        - key: description
+        - key: title
         - No title
       subtext:
-        - key: description
+        - key: order
       gallery:
         image:
           - key: image
