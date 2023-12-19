@@ -550,6 +550,8 @@ collections_config:
         text:
           - key: title
           - No title
+        subtext:
+          - key: order
     output: true
     icon: record_voice_over
     disable_add: false
@@ -579,7 +581,7 @@ collections_config:
         label: billede
       published:
         type: switch
-        label: Skjult
+        label: Udgivet
 _inputs:
   categories:
     type: multiselect
