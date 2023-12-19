@@ -542,6 +542,9 @@ collections_config:
   consultings:
     name: Konsulentydelser
     path: _consultings
+    sort:
+      key: order
+      order: desc
     preview:
       gallery:
         image:
@@ -551,7 +554,7 @@ collections_config:
           - key: title
           - No title
         subtext:
-
+          - key: order
     output: true
     icon: record_voice_over
     disable_add: false

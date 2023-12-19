@@ -542,6 +542,9 @@ collections_config:
   consultings:
     name: Konsulentydelser
     path: _consultings
+    sort:
+      key: order
+      order: desc
     preview:
       gallery:
         image:
