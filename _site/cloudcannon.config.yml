@@ -546,15 +546,15 @@ collections_config:
       key: order
       order: desc
     preview:
+          text:
+            - key: title
+            - No title
+          subtext:
+            - key: order
       gallery:
         image:
           - key: image
           - Image missing
-        text:
-          - key: title
-          - No title
-        subtext:
-          - key: order
     output: true
     icon: record_voice_over
     disable_add: false
