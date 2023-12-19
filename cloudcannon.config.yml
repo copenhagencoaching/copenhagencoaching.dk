@@ -546,11 +546,11 @@ collections_config:
       key: order
       order: desc
     preview:
-          text:
-            - key: title
-            - No title
-          subtext:
-            - key: order
+      text:
+        - key: title
+        - No title
+      subtext:
+        - key: order
       gallery:
         image:
           - key: image
