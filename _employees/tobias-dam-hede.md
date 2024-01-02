@@ -1,5 +1,5 @@
 ---
-order: 3
+order: 2
 title: Tobias Dam Hede
 image: /images/about/employees/tobias.jpeg
 small-portrait-image: "/images/about/employees/tobias.jpeg"

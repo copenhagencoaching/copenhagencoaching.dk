@@ -148,8 +148,6 @@ collections_config:
         type: text
       linkedin:
         label: Linkedin link
-      redirect_from:
-        hidden: true
       published:
         label: Publiceret
         type: switch

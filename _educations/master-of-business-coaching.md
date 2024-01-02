@@ -336,7 +336,7 @@ nested-hold:
             time: 09:30 - 16:00
             name: Syntese
             place: Blegdamsvej
-          - date: 19. - 10. december
+          - date: 9. - 10. december
             day: '-'
             time: 09:30 - 16:00
             name: Eksamen

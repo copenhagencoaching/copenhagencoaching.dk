@@ -1,5 +1,5 @@
 ---
-order: 13
+order: 7
 title: Caroline Olivia
 description: IT supporter og webudvikler
 meta-title: Caroline Olivia - Mød medarbejderne hos CCC her

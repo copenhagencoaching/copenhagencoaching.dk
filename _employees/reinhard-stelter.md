@@ -1,5 +1,5 @@
 ---
-order: 4
+order: 5
 title: Reinhard Stelter
 image: /images/about/employees/reinhard.jpeg
 small-portrait-image: "/images/about/employees/reinhard.jpeg"
