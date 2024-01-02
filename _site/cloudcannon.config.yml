@@ -354,8 +354,6 @@ collections_config:
       galleri[*].title:
         type: text
         label: Titel
-      redirect_from:
-        hidden: true
       published:
         label: Publiceret
         type: switch
@@ -368,18 +366,12 @@ collections_config:
     disable_add_folder: false
     disable_file_actions: false
     _inputs:
-      layout:
-        hidden: true
-      id:
-        hidden: true
       description:
         type: textarea
         label: Beskrivelse
       order:
         type: number
         label: Rækkefølge
-      menu-order:
-        hidden: true
       contact-person:
         label: Kontakt person
         type: select
@@ -391,7 +383,7 @@ collections_config:
         label: billede
       published:
         type: switch
-        label: Skjult
+        label: Publiceret
   pages:
     name: Diverse sider
     path: _pages
@@ -403,10 +395,6 @@ collections_config:
     _enabled_editors:
       - visual
     _inputs:
-      layout:
-        hidden: true
-      redirect_from:
-        hidden: true
       image:
         type: image
         label: Billede
@@ -425,8 +413,6 @@ collections_config:
       text:
         label: Tekst
         type: html
-      permalink:
-        hidden: true
       podcast-heading:
         label: Overskrift (Podcasts)
         type: text
@@ -457,10 +443,6 @@ collections_config:
       - visual
     icon: menu_book
     _inputs:
-      layout:
-        hidden: true
-      redirect_from:
-        hidden: true
       title:
         label: Titel
         type: text
@@ -492,8 +474,6 @@ collections_config:
       - visual
     output: true
     _inputs:
-      layout:
-        hidden: true
       title:
         label: Titel
         type: text
@@ -506,10 +486,6 @@ collections_config:
       meta-description:
         label: Beskrivelse (SEO)
         type: textarea
-      redirect_from:
-        hidden: true
-      box-position:
-        hidden: true
       image:
         type: image
         label: Billede
