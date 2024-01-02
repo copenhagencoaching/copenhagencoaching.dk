@@ -92,8 +92,10 @@ op-kollonne-banner: >-
   undervisere</li><li>Forplejning alle dage</li></ul>
 opbygning-image: /images/educations/mbc-opbygning.png
 undervisere:
-  - Mette Mejlhede
   - Andreas Bering
+  - Tobias Dam Hede
+  - Morten Ziebell
+  - Anna Liv Sjöberg
 pdf: /uploads/mbc-folder-forar-24.pdf
 anbefalinger: false
 vidner:
