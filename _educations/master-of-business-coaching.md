@@ -142,7 +142,7 @@ nested-hold:
           - date: 21. februar
             day: '1'
             time: 09:30 - 16:00
-            name: Coaching og syntesemodellen
+            name: Introduktion til Coaching
             place: Blegdamsvej
           - date: 22. februar
             day: '2'
@@ -152,12 +152,12 @@ nested-hold:
           - date: 19. marts
             day: '3'
             time: 09:30 - 16:00
-            name: Psyko-dynamisk 1
+            name: Systemisk 1
             place: Blegdamsvej
           - date: 20. marts
             day: '4'
-            time: 09:30 - 16:00
-            name: Systemisk-narrativ 1
+            time: 09:30 - 20:00
+            name: Psykodynamisk 1 + træningsaften
             place: Blegdamsvej
           - date: 24. april
             day: '5'
@@ -166,13 +166,13 @@ nested-hold:
             place: Blegdamsvej
           - date: 25. april
             day: '6'
-            time: 09:30 - 16:00
-            name: Psyko-dynamisk  2
+            time: 09:30 - 20:00
+            name: Systemisk-narrativt 2 + træningsaften
             place: Blegdamsvej
           - date: 13. maj
             day: '7'
             time: 09:30 - 20:00
-            name: Systemisk-narrativ 2
+            name: Psykodynamisk 2
             place: Blegdamsvej
           - date: 14. maj
             day: '8'
@@ -185,7 +185,7 @@ nested-hold:
             name: Eksamen
             place: Blegdamsvej
       - title: Semester 2 - Forår 2024
-        dates: 17. januar - 8. maj
+        dates: 17. januar - 7. maj
         modules:
           - date: 17. januar
             day: '1'
@@ -195,22 +195,27 @@ nested-hold:
           - date: 18. januar
             day: '2'
             time: 09:30 - 16:00
-            name: Psykodynamisk 3
+            name: Systemisk 3
             place: Blegdamsvej
           - date: 5. februar
             day: '3'
             time: 09:30 - 20:00
-            name: Systemisk 3 + Træningsaften
+            name: Psykodynamisk 3
             place: Blegdamsvej
           - date: 6. februar
             day: '4'
             time: 09:30 - 16:00
-            name: Kognitiv 4 og psykodynamisk 4
+            name: Systemisk teamcoaching
             place: Blegdamsvej
-          - date: 5. - 6. marts
-            day: 5-6
+          - date: 5. marts
+            day: '5'
+            time: 09:30 - 20:00
+            name: Kognitiv teamcoaching + træningsaften
+            place: Blegdamsvej
+          - date: 6. marts
+            day: '6'
             time: 09:30 - 16:00
-            name: Teamcoaching
+            name: Psykodynamisk teamcoaching
             place: Blegdamsvej
           - date: 10. april
             day: '7'
@@ -219,10 +224,10 @@ nested-hold:
             place: Blegdamsvej
           - date: 11. april
             day: '8'
-            time: 09:30 - 16:00
-            name: Syntese og træning
+            time: 09:30 - 20:00
+            name: Syntese + træningsaften
             place: Blegdamsvej
-          - date: 6. - 8. maj
+          - date: 6. - 7. maj
             day: '-'
             time: 09:30 - 16:00
             name: Eksamen
