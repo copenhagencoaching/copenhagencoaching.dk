@@ -88,32 +88,60 @@ undervisere:
   - Andreas Bering
 kursus-oversigt: true
 hold:
-  - title: BFC23-3
-    dates: 19. sep - 27. okt 2023
+  - title: BFC24-1
+    dates: 23. januar - 28. februar
     modules:
-      - date: 19. september
+      - date: 23. januar
         day: '1'
         time: 13:00 - 15:00
         name: Tjek ind
         place: Online
-      - date: 26. september
+      - date: 29. januar
         day: '2'
         time: 10:00 - 12:00
         name: Teorien
         place: Online
-      - date: 3. oktober
+      - date: 7. februar
         day: '3'
         time: 13:00 - 15:00
         name: Praktikken
         place: Online
-      - date: 6. oktober
+      - date: 19. februar
         day: '4'
-        time: 10:00 - 15:00
+        time: 10:00 - 14:00
         name: Workshop
         place: Online
-      - date: 27. oktober
+      - date: 28. februar
         day: '5'
-        time: 10:00 - 15:00
+        time: 09:00 - 14:00
+        name: Wrap up + Eksamen
+        place: Online
+  - title: BFC24-2
+    dates: 1. oktober - 15. november
+    modules:
+      - date: 1. oktober
+        day: '1'
+        time: 10:00 - 12:00
+        name: Tjek ind
+        place: Online
+      - date: 8. oktober
+        day: '2'
+        time: 13:00 - 15:00
+        name: Teorien
+        place: Online
+      - date: 15. oktober
+        day: '3'
+        time: 10:00 - 12:00
+        name: Praktikken
+        place: Online
+      - date: 31. oktober
+        day: '4'
+        time: 10:00 - 14:00
+        name: Workshop
+        place: Online
+      - date: 15. november
+        day: '5'
+        time: 10:00 - 14:00
         name: Wrap up + Eksamen
         place: Online
 redirect_from:

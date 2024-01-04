@@ -25,18 +25,18 @@ undervisere:
 - Mette Mejlhede
 - Camilla Ingwersen
 hold:
-- title: Rejse - Forår 2023
-  dates: 21. - 28. maj
+- title: Rejse - Forår 2024
+  dates: 26. maj - 6. juni
   modules:
-  - date: 21. - 28. maj
+  - date: 26. maj - 6. juni
     day:
     time:
     name:
     place:
-- title: Rejse - Efterår 2023
-  dates: 10. - 17. september
+- title: Rejse - Efterår 2024
+  dates: 8. - 15. september
   modules:
-  - date: 10. - 17. september
+  - date: 8. - 15. september
     day:
     time:
     name:
