@@ -206,22 +206,22 @@ hold:
         day: '1'
         time: 15:30 - 18:30
         name: '-'
-        place: København
+        place: Online
       - date: 8. februar
         day: '2'
         time: 15:30 - 18:30
         name: '-'
-        place: København
+        place: Online
       - date: 14. februar
         day: '3'
         time: 15:30 - 18:30
         name: '-'
-        place: København
+        place: Online
       - date: 26. februar
         day: '4'
         time: 15:30 - 18:30
         name: '-'
-        place: København
+        place: Online
   - title: Proceslederuddannelsen - Forår 2024
     price: 27.500 ekskl. moms
     dates: 27. februar - 17. maj
