@@ -535,10 +535,6 @@ collections_config:
     disable_add_folder: false
     disable_file_actions: false
     _inputs:
-      layout:
-        hidden: true
-      id:
-        hidden: true
       description:
         type: textarea
         label: Beskrivelse

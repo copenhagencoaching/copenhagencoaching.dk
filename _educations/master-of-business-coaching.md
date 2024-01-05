@@ -96,7 +96,7 @@ undervisere:
   - Tobias Dam Hede
   - Morten Ziebell
   - Anna Liv Sjöberg
-pdf: /uploads/mbc-folder-forar-24.pdf
+pdf: /pdfs/MBC_forår_24.pdf
 anbefalinger: false
 vidner:
   - navn: Stella Sandfeld

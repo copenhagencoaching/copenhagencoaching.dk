@@ -266,6 +266,9 @@ hold:
         time: 09:00 - 15:00
         name: Eksamen
         place: København
+redirect_from:
+  - /academy/den-offentlige-lederuddannelse/
+  - /academy/denoffentligelederuddannelse/
 ---
 **Er du leder, eller drømmer du om at blive det? Trænger du til at få styrket dine lederkompetencer, og samtidig få de nyeste og brugbare værktøjer til medarbejdersamtaler og til håndtering af konfliktsituationer? Så tag moduler i Den offentlige Lederuddannelse (DOL) hos os!**
 
