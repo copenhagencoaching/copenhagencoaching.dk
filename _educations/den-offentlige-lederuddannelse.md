@@ -205,22 +205,22 @@ hold:
       - date: 30. januar
         day: '1'
         time: 15:30 - 18:30
-        name: '-'
+        name: 'Introduktion til coaching'
         place: Online
       - date: 8. februar
         day: '2'
         time: 15:30 - 18:30
-        name: '-'
+        name: 'Den psykodynamiske tilgang'
         place: Online
       - date: 14. februar
         day: '3'
         time: 15:30 - 18:30
-        name: '-'
+        name: 'Den systemisk-narrative tilgang'
         place: Online
       - date: 26. februar
         day: '4'
         time: 15:30 - 18:30
-        name: '-'
+        name: 'Syntese og vejledning'
         place: Online
   - title: Proceslederuddannelsen - Forår 2024
     price: 27.500 ekskl. moms
