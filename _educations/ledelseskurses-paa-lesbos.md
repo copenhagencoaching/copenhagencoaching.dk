@@ -26,9 +26,9 @@ undervisere:
 - Camilla Ingwersen
 hold:
 - title: Rejse - Forår 2024
-  dates: 26. maj - 6. juni
+  dates: 26. maj - 2. juni
   modules:
-  - date: 26. maj - 6. juni
+  - date: 26. maj - 2. juni
     day:
     time:
     name:

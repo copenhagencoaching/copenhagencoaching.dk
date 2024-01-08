@@ -129,7 +129,7 @@ hold:
         time: 13:00 - 15:00
         name: Teorien
         place: Online
-      - date: 15. oktober
+      - date: 25. oktober
         day: '3'
         time: 10:00 - 12:00
         name: Praktikken
