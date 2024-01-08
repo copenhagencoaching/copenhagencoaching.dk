@@ -166,7 +166,7 @@ collections_config:
       - visual
     _inputs:
       order:
-        label: Rækefølge
+        label: Rækkefølge
         type: number
       title:
         label: Titel

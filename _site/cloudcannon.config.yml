@@ -166,7 +166,7 @@ collections_config:
       - visual
     _inputs:
       order:
-        label: Rækefølge
+        label: Rækkefølge
         type: number
       title:
         label: Titel
@@ -558,6 +558,7 @@ collections_config:
 _inputs:
   redirect_from:
     label: Redirect from
+    comment: Url'er der redirecter til denne side
     type: array
   redirect_from[*]:
     type: text

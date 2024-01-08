@@ -37,4 +37,5 @@ dp-kollonne-2:
 kursus-oversigt:
 nested-hold:
 hold:
+redirect_from:
 ---
