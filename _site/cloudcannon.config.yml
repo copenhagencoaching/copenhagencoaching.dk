@@ -556,6 +556,11 @@ collections_config:
         type: switch
         label: Udgivet
 _inputs:
+  redirect_from:
+    label: Redirect from
+    type: array
+  redirect_from[*]:
+    type: text
   categories:
     type: multiselect
     options:
