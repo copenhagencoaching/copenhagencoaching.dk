@@ -125,11 +125,11 @@ layout: default
                 {{ page.kol_one }}
             </div>
             <div class="col-12 col-md-6">
-                {% if page.kollonne-2-video == true %}
+                {% if page.kol_two-video == true %}
                 <div>
                     <div>
                         <div class="video-container pt-0 mb-0"><video controls>
-                                <source src="{{ page.kollonne-2-video-url }}" type="video/mp4">
+                                <source src="{{ page.kol_two-video-url }}" type="video/mp4">
                                 Your browser does not support HTML video.
                             </video></div>
                     </div>
@@ -144,13 +144,14 @@ layout: default
                 </div>
                 {% else %}
 
-                <div class="{{ page.kollonne-2-billede-hojde }} h-200 mb-4"
+                <div class="{{ page.kol_two-billede-hojde }} h-200 mb-4"
                     style="background-image: url('{{ page.image-2 }}'); background-position: top; background-size: cover;">
                 </div>
 
 
                 {% endif %}
-                {{ page.kollonne-2 }}
+                <div data-cms-bind="#kol_two" id="kol-2">
+                {{ page.kol_two }}</div>
             </div>
 
             {% if page.galleri-overblik == true %}
@@ -561,7 +562,7 @@ layout: default
     <div class="small-container pt-3">
         <div class="row gx-5 gy-4">
             <div class="col-12 col-md-6">{{ page.op-kol_one }}</div>
-            <div class="col-12 col-md-6">{{ page.op-kollonne-2 }}</div>
+            <div class="col-12 col-md-6">{{ page.op-kol_two }}</div>
         </div>
     </div>
 </div>
@@ -599,7 +600,7 @@ layout: default
         <div id="deltagerprofil" class="anchor-delay"></div>
         <div class="row gx-5 gy-4">
             <div class="col-12 col-md-6 editable">{{ page.dp-kol_one }}</div>
-            <div class="col-12 col-md-6 editable">{{ page.dp-kollonne-2 }}</div>
+            <div class="col-12 col-md-6 editable">{{ page.dp-kol_two }}</div>
         </div>
     </div>
 </div>
@@ -1557,6 +1558,7 @@ layout: default
       document.querySelector('h1').innerText = value.title;
       document.querySelector('h3').innerText = value.undertitle;
       document.querySelector('#kol-1').innerHTML = value.kol_one;
+      document.querySelector('#kol-2').innerHTML = value.kol_two;
       
       // remove all list elements, then re-add them
       const staffList = document.querySelector('ul');

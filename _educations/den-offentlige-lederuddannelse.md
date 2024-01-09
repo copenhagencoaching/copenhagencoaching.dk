@@ -60,8 +60,8 @@ kol_one: >-
   drøftelser af de forskellige teorier og metoder i forhold til deres
   videnskabsteoretiske ståsted, deres forklaringskraft og deres
   handlingsanvisende potentiale rettet mod din konkrete praksis.</p>
-kollonne-2-video: false
-kollonne-2: >-
+kol_two-video: false
+kol_two: >-
   <h5>Hos CCC kan du tage følgende DOL-moduler:</h5><ul><li>Det Personlige
   Lederskab og Forandring (Standardmodul, 10 ECTS)</li><li>Ledelse af
   Medarbejdere og Faglig Udvikling (Standardmodul, 10
@@ -71,7 +71,7 @@ kollonne-2: >-
   (valgmodul, 5 ECTS)</li><li>Ledelse og Filosofi (valgmodul, 5
   ECTS)</li><li>Specialemodul (15 ECTS)</li></ul>
 image-2: /images/inspiration/leder-tavle.png
-kollonne-2-billede-hojde: h-md-50
+kol_two-billede-hojde: h-md-50
 galleri-overblik: true
 galleri:
   - image: /images/educations/plu-table.png

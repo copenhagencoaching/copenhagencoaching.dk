@@ -45,7 +45,7 @@ kol_one: >-
   personlighedsprofil kan sige noget om vores umiddelbare tilbøjeligheder,
   herunder, hvilke situationer og aktiviteter, der giver os energi, og hvilke
   der kræver en ekstra indsats og opmærksomhed.</p>
-kollonne-2: >-
+kol_two: >-
   <p>Kendskabet til egen og andres personlighed giver en dybere forståelse for,
   hvorfor vi handler og prioriterer som vi gør, og hvad der skal til, hvis vi
   skal gøre noget andet, fx skifte spor, lære nyt eller blive endnu bedre til at
@@ -59,7 +59,7 @@ kollonne-2: >-
   FIVE's ophav, og hvordan BIG FIVE teoretisk og empirisk er den bedst
   underbyggede personlighedstest på markedet.</p>
 image-2: /images/educations/bf-1.png
-kollonne-2-billede-hojde: h-md-50
+kol_two-billede-hojde: h-md-50
 opbygning: true
 op-kol_one: >-
   <h4>Kursets opbygning</h4><p>Certificeringskurset er delt op i tre moduler og
@@ -69,7 +69,7 @@ op-kol_one: >-
   og forløb. Derefter følger der et fagmodul om BIG FIVE’s teoretiske fundament,
   som vil give en indsigt i historien og videnskabsteorien, som BIG FIVE bygger
   på.</p>
-op-kollonne-2: >-
+op-kol_two: >-
   <p>Herefter et modul om hvordan testen konkret udføres, herunder testens
   formalia, hvordan man tolker testresultatet og hvordan man i
   tilbagemeldingssamtalen fører en etisk og konstruktiv dialog med testpersonen.

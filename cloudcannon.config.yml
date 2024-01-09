@@ -230,11 +230,11 @@ collections_config:
         label: Kollonne 1
         comment: Tekst i kollonne 1 i Oversigt
         type: html
-      kollonne-2:
+      kol_two:
         label: Kollonne 2
         comment: Tekst i kollonne 2 i Oversigt
         type: html
-      kollonne-2-billede-hojde:
+      kol_two-billede-hojde:
         label: Billedhøjde
         comment: Højde på billed i kollonne 2 i Oversigt
         type: select
@@ -248,7 +248,7 @@ collections_config:
         label: Kollonne 1 (Opgybning sektion)
         comment: Tekst i kollonne 1 i Opbygning
         type: html
-      op-kollonne-2:
+      op-kol_two:
         label: Kollonne 2 (Opgybning sektion)
         comment: Tekst i kollonne 2 i Opbygning
         type: html
@@ -264,7 +264,7 @@ collections_config:
         label: Kollonne 1 (Deltagerprofil sektion)
         comment: Tekst i kollonne 1 i Deltagerprofil
         type: html
-      dp-kollonne-2:
+      dp-kol_two:
         label: Kollonne 2 (Deltagerprofil sektion)
         comment: Tekst i kollonne 2 i Deltagerprofil
         type: html

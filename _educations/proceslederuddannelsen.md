@@ -57,14 +57,14 @@ kol_one: "<h4>Proceslederuddannelsen</h4><p>Proceslederuddannelsen er et særlig
         der giver dit og organisationens arbejde retning og mening. Du vil kunne
         samle organisationen, når der er behov for det, og inspirere til den
         gode idé eller den ekstra indsats. Du vil også blive klædt på til at se</p>"
-kollonne-2: "<p>Forventninger fra medarbejdere om medinddragelse og samskabelse som en del
+kol_two: "<p>Forventninger fra medarbejdere om medinddragelse og samskabelse som en del
       af virksomhedens kultur, drift og udvikling kalder dels på, at du har
       grundlæggende færdigheder i coaching og dels på, at du kan håndtere,
       forstå og vurdere de forskellige forandringer, der er til stede i
       organisationers liv, og som kalder på løbende tilpasninger og kursskifte.
       God procesledelse kræver evner til at styre, rumme og stimulere
       menneskelig og faglig mangfoldighed i retning af fælles udvikling og mål.</p>"
-kollonne-2-billede-hojde: h-md-50
+kol_two-billede-hojde: h-md-50
 price: >-
   27.500,- (Ekskl. moms) inkl. Forplejning, litteratur, BIG FIVE test og to
   individuelle coachinger med en certificeret coach fra Copenhagen Coaching

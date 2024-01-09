@@ -51,15 +51,15 @@ kol_one: >-
   fra CCC er du garanteret de højeste, internationale standarder via vores
   akkreditering fra European Mentoring and Coaching Council (EMCC). <ins><a
   href="/emcc-akkreditering/">Læs om vores EMCC akkreditering her</a></ins>.</p>
-kollonne-2-video: true
-kollonne-2-video-url: /videos/gitte-web.mp4
-kollonne-2: >-
+kol_two-video: true
+kol_two-video-url: /videos/gitte-web.mp4
+kol_two: >-
   <p>Hør i videoen hvad tidligere studerende Gitte Overgaard siger om
   uddannelsen. Med tryk på Business-delen af Coaching, i modsætning til fx
   life-coaching, er uddannelsen målrettet erhvervslivet med den hensigt at løfte
   de studerendes dialogiske kapacitet i professionelle kontekster.</p>
 image-2: /images/educations/mbc-overblik.png
-kollonne-2-billede-hojde: h-md-50
+kol_two-billede-hojde: h-md-50
 opbygning: true
 op-kol_one: >-
   <h4>Hvordan er uddannelsen bygget op?</h4><p>Uddannelsen kombinerer et solidt
@@ -74,7 +74,7 @@ op-kol_one: >-
   og karrieremål. Hvis det måtte ønskes, kan der træffes individuel aftale om en
   ONLINE løsning.</p><p>Uddannelsen afsluttes med en masterafhandling og et
   mundtligt forsvar.</p>
-op-kollonne-2: >-
+op-kol_two: >-
   <h4>Hvad får du ud af uddannelsen?</h4><p>På uddannelsen trænes du i at være
   nærværende og ansvarstagende også når vi sammen rammer de svære emner, og hvor
   du mest af alt har lyst til at afbryde samtalen.</p><p>På MBC'en er der derfor
@@ -126,7 +126,7 @@ dp-kol_one: >-
   commodo mollis, magna. Donec sodales sagittis magna. Etiam sit amet orci eget
   eros faucibus tincidunt. Vivamus euismod mauris. Praesent adipiscing. Sed a
   libero. Cras dapibus.</p>
-dp-kollonne-2: >-
+dp-kol_two: >-
   <p>Cras dapibus.. Nulla consequat massa quis enim. Nunc sed turpis. Quisque
   libero metus, condimentum nec, tempor a, commodo mollis, magna.Praesent
   adipiscing. Sed a libero. Cras dapibus.. Nulla consequat massa quis enim. Nunc

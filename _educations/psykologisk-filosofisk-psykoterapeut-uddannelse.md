@@ -50,7 +50,7 @@ kol_one: >-
   karriere.</p><p>Vælger man at tage alle 4 år af uddannelsen på Copenhagen
   Coaching Center, vil man erhverve sig kvalifikationer til at arbejde som
   psykoterapeut på langt de fleste områder.</p>
-kollonne-2: >-
+kol_two: >-
   <p><b>Tidsforbrug: </b>Undervisningen er tilrettelagt, så du kan passe dit job
   samtidig. Vi mødes hver anden måned, og imellem hver mødegang mødes du også
   med din træningsgruppe. Ift. forberedelse af det afsluttende eksamensmodul på
@@ -65,7 +65,7 @@ kollonne-2: >-
   medstuderende.</p><p><b>Noget er på engelsk:</b>Faglitteraturen er primært på
   dansk, men engelsk kan forekomme.</p>
 image-2: /images/educations/psykologisk-filosofisk-psykoterapi.jpg
-kollonne-2-billede-hojde: h-md-50
+kol_two-billede-hojde: h-md-50
 opbygning: true
 op-kol_one: >-
   <h4>Hvordan er uddannelsen bygget op?</h4><p>Uddannelsen er modul-opbygget, og
@@ -87,7 +87,7 @@ op-kol_one: >-
   erhvervserfaring. Der kan også ansøges om realkompetence-vurdering, hvis du
   har en anden uddannelsesmæssig baggrund. Det vil bero på en individuel
   vurdering og samtale.</p>
-op-kollonne-2: >-
+op-kol_two: >-
   <h4>Moduler på Psykologisk filosofisk
   psykoterapeut-uddannelsen</h4><p>Uddannelsen er modul-opbygget, og begynder
   med et 2-dages introducerende internat. Hvert år består derudover af 6/7
