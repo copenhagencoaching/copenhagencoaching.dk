@@ -61,7 +61,7 @@ kol_two: >-
 image-2: /images/educations/bf-1.png
 kol_two-billede-hojde: h-md-50
 opbygning: true
-op-kol_one: >-
+op_kol_one: >-
   <h4>Kursets opbygning</h4><p>Certificeringskurset er delt op i tre moduler og
   én eksamen.<br />Der er et introduktionsmodul, tre fagmoduler og et
   eksamensmodul. Introduktionsmodulet består af et webinar, hvor deltagerne
@@ -69,7 +69,7 @@ op-kol_one: >-
   og forløb. Derefter følger der et fagmodul om BIG FIVE’s teoretiske fundament,
   som vil give en indsigt i historien og videnskabsteorien, som BIG FIVE bygger
   på.</p>
-op-kol_two: >-
+op_kol_two: >-
   <p>Herefter et modul om hvordan testen konkret udføres, herunder testens
   formalia, hvordan man tolker testresultatet og hvordan man i
   tilbagemeldingssamtalen fører en etisk og konstruktiv dialog med testpersonen.

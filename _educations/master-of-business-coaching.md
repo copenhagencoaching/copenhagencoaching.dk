@@ -61,7 +61,7 @@ kol_two: >-
 image-2: /images/educations/mbc-overblik.png
 kol_two-billede-hojde: h-md-50
 opbygning: true
-op-kol_one: >-
+op_kol_one: >-
   <h4>Hvordan er uddannelsen bygget op?</h4><p>Uddannelsen kombinerer et solidt
   teoretisk fundament med en målrettet træning og udvikling af den enkelte
   studerendes egen samtalepraksis.</p><p>Uddannelsen er normeret til et
@@ -74,7 +74,7 @@ op-kol_one: >-
   og karrieremål. Hvis det måtte ønskes, kan der træffes individuel aftale om en
   ONLINE løsning.</p><p>Uddannelsen afsluttes med en masterafhandling og et
   mundtligt forsvar.</p>
-op-kol_two: >-
+op_kol_two: >-
   <h4>Hvad får du ud af uddannelsen?</h4><p>På uddannelsen trænes du i at være
   nærværende og ansvarstagende også når vi sammen rammer de svære emner, og hvor
   du mest af alt har lyst til at afbryde samtalen.</p><p>På MBC'en er der derfor

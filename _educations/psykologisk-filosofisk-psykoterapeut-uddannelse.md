@@ -67,7 +67,7 @@ kol_two: >-
 image-2: /images/educations/psykologisk-filosofisk-psykoterapi.jpg
 kol_two-billede-hojde: h-md-50
 opbygning: true
-op-kol_one: >-
+op_kol_one: >-
   <h4>Hvordan er uddannelsen bygget op?</h4><p>Uddannelsen er modul-opbygget, og
   begynder med et 2-dages introducerende internat. Hvert år består derudover af
   6-7 grundmoduler af tre dages varighed uden overnatning. Uddannelsen er
@@ -87,7 +87,7 @@ op-kol_one: >-
   erhvervserfaring. Der kan også ansøges om realkompetence-vurdering, hvis du
   har en anden uddannelsesmæssig baggrund. Det vil bero på en individuel
   vurdering og samtale.</p>
-op-kol_two: >-
+op_kol_two: >-
   <h4>Moduler på Psykologisk filosofisk
   psykoterapeut-uddannelsen</h4><p>Uddannelsen er modul-opbygget, og begynder
   med et 2-dages introducerende internat. Hvert år består derudover af 6/7

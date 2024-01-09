@@ -244,11 +244,11 @@ collections_config:
           preview:
             text:
               - key: display_name
-      op-kol_one:
+      op_kol_one:
         label: Kollonne 1 (Opgybning sektion)
         comment: Tekst i kollonne 1 i Opbygning
         type: html
-      op-kol_two:
+      op_kol_two:
         label: Kollonne 2 (Opgybning sektion)
         comment: Tekst i kollonne 2 i Opbygning
         type: html

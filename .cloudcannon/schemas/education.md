@@ -23,8 +23,8 @@ kol_two-billede-hojde:
 galleri-overblik:
 galleri:
 opbygning:
-op-kol_one:
-op-kol_two:
+op_kol_one:
+op_kol_two:
 op-kollonne-banner:
 opbygning-image:
 undervisere:
