@@ -1548,3 +1548,25 @@ layout: default
     }
     form_udd.addEventListener("submit", handleSubmit)
 </script>
+
+<script>
+    document.addEventListener('cloudcannon:update', async function (e) {
+      // use new page props
+      const value = await CloudCannon.value();
+      
+      document.querySelector('h1').innerText = value.title;
+      
+      // remove all list elements, then re-add them
+      const staffList = document.querySelector('ul');
+      if (staffList && value.staff_members) {
+        while (staffList.firstChild) {
+          staffList.removeChild(staffList.firstChild);
+        }
+        for (const staff of value.staff_members) {
+          const staffElement = document.createElement('li');
+          staffElement.innerHTML = `${staff.name} - ${staff.position}`;
+          staffList.append(staffElement);
+        }
+      }
+    })
+  </script>
