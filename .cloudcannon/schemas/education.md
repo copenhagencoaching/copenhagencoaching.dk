@@ -14,7 +14,7 @@ aktive-hold:
 contact-person:
 description:
 price:
-kollonne-1:
+kol_one:
 kollonne-2-video:
 kollonne-2-video-url:
 kollonne-2:
@@ -23,7 +23,7 @@ kollonne-2-billede-hojde:
 galleri-overblik:
 galleri:
 opbygning:
-op-kollonne-1:
+op-kol_one:
 op-kollonne-2:
 op-kollonne-banner:
 opbygning-image:
@@ -32,7 +32,7 @@ pdf:
 anbefalinger:
 vidner:
 deltagerprofil:
-dp-kollonne-1:
+dp-kol_one:
 dp-kollonne-2:
 kursus-oversigt:
 nested-hold:

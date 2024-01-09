@@ -40,7 +40,7 @@ price: >-
   />Betalingen inkluderer: Undervisning, supervision, undervisningsmateriale og
   forplejning på de enkelte kursusdage.<br /><br />Beløbet opkræves forud for
   semesterstart over fire gange. 47.500 ekskl. moms pr. semester.
-kollonne-1: >-
+kol_one: >-
   <h4>Ledelse og coaching</h4><p>Ønsker du at blive dygtig til at føre
   produktive og virkningsfulde dialoger? At kunne flytte både grupper og
   individer i en mere konstruktiv retning og derved forebygge stress,
@@ -61,7 +61,7 @@ kollonne-2: >-
 image-2: /images/educations/mbc-overblik.png
 kollonne-2-billede-hojde: h-md-50
 opbygning: true
-op-kollonne-1: >-
+op-kol_one: >-
   <h4>Hvordan er uddannelsen bygget op?</h4><p>Uddannelsen kombinerer et solidt
   teoretisk fundament med en målrettet træning og udvikling af den enkelte
   studerendes egen samtalepraksis.</p><p>Uddannelsen er normeret til et
@@ -118,7 +118,7 @@ vidner:
       de tro mod det, de underviser i. Sådan et læringsrum vil jeg gerne selv
       være kendt for.
 deltagerprofil: false
-dp-kollonne-1: >-
+dp-kol_one: >-
   <h4>Hvem henvender uddannelsen sig til?</h4><p>Donec sodales sagittis magna.
   Etiam sit amet orci eget eros faucibus tincidunt. Vivamus euismod mauris.
   Praesent adipiscing. Sed a libero. Cras dapibus.. Nulla consequat massa quis

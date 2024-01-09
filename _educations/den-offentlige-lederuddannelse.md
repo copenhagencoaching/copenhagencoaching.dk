@@ -34,7 +34,7 @@ price: >-
   Forandring: 27.500,- (Ekskl. moms) inkl. Forplejning, overnatning mellem 2. og
   3. maj 2023 (Ikke oblikatorisk), litteratur, BIG FIVE test og to individuelle
   coachinger med en certificeret coach fra Copenhagen Coaching Center.
-kollonne-1: >-
+kol_one: >-
   <h4>Lederens værktøjer</h4><p>Er du leder, eller drømmer du om at blive det?
   Trænger du til at få styrket dine lederkompetencer, og samtidig få de nyeste
   og brugbare værktøjer til medarbejdersamtaler og til håndtering af

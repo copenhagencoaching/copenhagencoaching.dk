@@ -40,7 +40,7 @@ profil:
         projektleder til at mestre procesledelse, med et tydeligt fokus på
         opgaveløsningen i virksomheden.
 image: /images/academy/proceslederuddannelse.jpg
-kollonne-1: "<h4>Proceslederuddannelsen</h4><p>Proceslederuddannelsen er et særligt tilrettelagt og intensivt forløb,
+kol_one: "<h4>Proceslederuddannelsen</h4><p>Proceslederuddannelsen er et særligt tilrettelagt og intensivt forløb,
         der består af to valgfag fra Diplomuddannelsen i Offentlig Ledelse (ialt
         10 ECTS). De to valgfag er Ledelse & Coaching (5 ECTS) og Ledelse af
         Forandrings- og Udviklingsprocesser (5 ECTS). Det løber over knapt

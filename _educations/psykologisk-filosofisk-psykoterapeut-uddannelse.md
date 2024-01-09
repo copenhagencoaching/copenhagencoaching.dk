@@ -29,7 +29,7 @@ price: >-
   alle fire år.<br /><br />Samlet pris for alle fire år 174.000 kr.<br /><br
   />Egenterapi er ikke inkluderet i kursusprisen.<br /><br />Der må forventes en
   årlig prisregulering på 3%.
-kollonne-1: >-
+kol_one: >-
   <h4>Dybere, højere og bredere beredskab</h4><p>Ideen, formålet og visionen med
   terapi-uddannelsen er at kombinere og kvalificere den filosofiske tradition
   med den psykologiske og psykoterapeutiske tradition. Uddannelsen tilbyder et
@@ -67,7 +67,7 @@ kollonne-2: >-
 image-2: /images/educations/psykologisk-filosofisk-psykoterapi.jpg
 kollonne-2-billede-hojde: h-md-50
 opbygning: true
-op-kollonne-1: >-
+op-kol_one: >-
   <h4>Hvordan er uddannelsen bygget op?</h4><p>Uddannelsen er modul-opbygget, og
   begynder med et 2-dages introducerende internat. Hvert år består derudover af
   6-7 grundmoduler af tre dages varighed uden overnatning. Uddannelsen er

@@ -121,8 +121,8 @@ layout: default
     <div class="small-container">
         <div id="overblik" class="anchor-delay"></div>
         <div class="row g-lg-5 g-3">
-            <div id="kol-1" data-cms-bind="#kollonne-1" class="col-12 col-md-6">
-                {{ page.kollonne-1 }}
+            <div id="kol-1" data-cms-bind="#kol_one" class="col-12 col-md-6">
+                {{ page.kol_one }}
             </div>
             <div class="col-12 col-md-6">
                 {% if page.kollonne-2-video == true %}
@@ -560,7 +560,7 @@ layout: default
 <div class="container-fluid py-5">
     <div class="small-container pt-3">
         <div class="row gx-5 gy-4">
-            <div class="col-12 col-md-6">{{ page.op-kollonne-1 }}</div>
+            <div class="col-12 col-md-6">{{ page.op-kol_one }}</div>
             <div class="col-12 col-md-6">{{ page.op-kollonne-2 }}</div>
         </div>
     </div>
@@ -598,7 +598,7 @@ layout: default
     <div class="small-container py-3 position-relative">
         <div id="deltagerprofil" class="anchor-delay"></div>
         <div class="row gx-5 gy-4">
-            <div class="col-12 col-md-6 editable">{{ page.dp-kollonne-1 }}</div>
+            <div class="col-12 col-md-6 editable">{{ page.dp-kol_one }}</div>
             <div class="col-12 col-md-6 editable">{{ page.dp-kollonne-2 }}</div>
         </div>
     </div>
@@ -1556,7 +1556,7 @@ layout: default
       
       document.querySelector('h1').innerText = value.title;
       document.querySelector('h3').innerText = value.undertitle;
-      document.querySelector('#kol-1').innerText = value.kollonne-1;
+      document.querySelector('#kol-1').innerText = value.kol_one;
       
       // remove all list elements, then re-add them
       const staffList = document.querySelector('ul');

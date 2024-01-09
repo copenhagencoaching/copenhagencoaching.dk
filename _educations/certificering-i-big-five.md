@@ -24,7 +24,7 @@ description: >-
   indsigt i grundlaget for udvikling, samarbejde og fremtidigt potentiale for
   den enkelte, for teamet og for medarbejdergruppen.
 price: 22.500,- EKSKL. MOMS
-kollonne-1: >-
+kol_one: >-
   <h4>BIG FIVE personlighedstest</h4><p>BIG FIVE er en personlighedstest som
   bruges til rekruttering, ledelses- og medarbejderudvikling,
   konflikthåndtering, organisationsudvikling mv. Det er en test som måler fem
@@ -61,7 +61,7 @@ kollonne-2: >-
 image-2: /images/educations/bf-1.png
 kollonne-2-billede-hojde: h-md-50
 opbygning: true
-op-kollonne-1: >-
+op-kol_one: >-
   <h4>Kursets opbygning</h4><p>Certificeringskurset er delt op i tre moduler og
   én eksamen.<br />Der er et introduktionsmodul, tre fagmoduler og et
   eksamensmodul. Introduktionsmodulet består af et webinar, hvor deltagerne
