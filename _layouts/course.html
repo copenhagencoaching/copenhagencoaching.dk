@@ -9,7 +9,7 @@ layout: default
 
         <h1 data-cms-bind="#title" class="text-white mb-1">{{ page.title }}</h1>
         {% if page.undertitle %}
-        <h3 data-cms-bind="#undertitle" class="text-white mb-1">{{ page.undertitle }}</h3>
+        <h3 data-cms-bind="#undertitle" id="undertitle" class="text-white mb-1">{{ page.undertitle }}</h3>
         {% endif %}
 
 
@@ -1555,7 +1555,7 @@ layout: default
       const value = await CloudCannon.value();
       
       document.querySelector('h1').innerText = value.title;
-      document.querySelector('h3').innnerText = value.undertitle;
+      document.getElementById("undertitle").innnerText = value.undertitle;
       
       // remove all list elements, then re-add them
       const staffList = document.querySelector('ul');
