@@ -1555,6 +1555,7 @@ layout: default
       const value = await CloudCannon.value();
       
       document.querySelector('h1').innerText = value.title;
+      document.querySelector('h3').innnerText = value.undertitle;
       
       // remove all list elements, then re-add them
       const staffList = document.querySelector('ul');
