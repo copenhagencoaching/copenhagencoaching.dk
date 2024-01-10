@@ -1577,18 +1577,6 @@ layout: default
       document.querySelector('#kol-2').innerHTML = value.kol_two;
       document.querySelector('#op-kol-1').innerHTML = value.op_kol_one;
       document.querySelector('#op-kol-2').innerHTML = value.op_kol_two;
-      
-      // remove all list elements, then re-add them
-      const staffList = document.querySelector('ul');
-      if (staffList && value.staff_members) {
-        while (staffList.firstChild) {
-          staffList.removeChild(staffList.firstChild);
-        }
-        for (const staff of value.staff_members) {
-          const staffElement = document.createElement('li');
-          staffElement.innerHTML = `${staff.name} - ${staff.position}`;
-          staffList.append(staffElement);
-        }
-      }
+
     })
   </script>
