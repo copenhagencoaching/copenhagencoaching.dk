@@ -16,7 +16,7 @@ description:
 price:
 kol_one:
 kol_two-video:
-kol_two-video-url:
+kol_two_video_url:
 kol_two:
 image-2:
 kol_two-billede-hojde:

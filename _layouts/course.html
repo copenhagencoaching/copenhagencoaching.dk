@@ -132,7 +132,7 @@ layout: default
                 <div>
                     <div>
                         <div class="video-container pt-0 mb-0"><video controls>
-                                <source src="{{ page.kol_two-video-url }}" type="video/mp4">
+                                <source data-cms-bind="#kol_two_video_url" id="video-kol-2" src="{{ page.kol_two_video_url }}" type="video/mp4">
                                 Your browser does not support HTML video.
                             </video></div>
                     </div>
@@ -1574,9 +1574,26 @@ layout: default
         document.querySelector('h3').innerText = value.undertitle;
       }
       document.querySelector('#kol-1').innerHTML = value.kol_one;
-      document.querySelector('#kol-2').innerHTML = value.kol_two;
-      document.querySelector('#op-kol-1').innerHTML = value.op_kol_one;
-      document.querySelector('#op-kol-2').innerHTML = value.op_kol_two;
+
+      if (document.querySelector('#kol-2') != null) {
+        document.querySelector('#kol-2').innerHTML = value.kol_two;
+      }
+
+      if (document.querySelector('#op-kol-1') != null) {
+        document.querySelector('#op-kol-1').innerHTML = value.op_kol_one;
+      }
+      
+      if (document.querySelector('#op-kol-2') != null) {
+        document.querySelector('#op-kol-2').innerHTML = value.op_kol_two;
+      }
+
+      
+
+      if (document.querySelector('#video-kol-2') != null) {
+        document.querySelector('#video-kol-2').src = value.kol_two_video_url;
+      }
+      
+      
 
     })
   </script>

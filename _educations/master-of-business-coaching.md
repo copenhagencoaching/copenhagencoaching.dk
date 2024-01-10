@@ -52,7 +52,7 @@ kol_one: >-
   akkreditering fra European Mentoring and Coaching Council (EMCC). <ins><a
   href="/emcc-akkreditering/">Læs om vores EMCC akkreditering her</a></ins>.</p>
 kol_two-video: true
-kol_two-video-url: /videos/gitte-web.mp4
+kol_two_video_url: /videos/gitte-web.mp4
 kol_two: >-
   <p>Hør i videoen hvad tidligere studerende Gitte Overgaard siger om
   uddannelsen. Med tryk på Business-delen af Coaching, i modsætning til fx
