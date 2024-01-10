@@ -1568,7 +1568,11 @@ layout: default
       const value = await CloudCannon.value();
       
       document.querySelector('h1').innerText = value.title;
-      document.querySelector('h3').innerText = value.undertitle;
+
+      
+      if (document.querySelector('h3').innerText != null) {
+        document.querySelector('h3').innerText = value.undertitle;
+      }
       document.querySelector('#kol-1').innerHTML = value.kol_one;
       document.querySelector('#kol-2').innerHTML = value.kol_two;
       document.querySelector('#op-kol-1').innerHTML = value.op_kol_one;
