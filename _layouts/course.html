@@ -1569,6 +1569,12 @@ layout: default
       
       document.querySelector('h1').innerText = value.title;
 
+      var vids = document.querySelector('#video-kol-2')
+// vids is an HTMLCollection
+for( var i = 0; i < vids.length; i++ ){ 
+    console.log( vids.item(i).src )
+}
+
       
       if (document.querySelector('h3') != null) {
         document.querySelector('h3').innerText = value.undertitle;
