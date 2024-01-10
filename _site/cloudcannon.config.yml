@@ -226,15 +226,18 @@ collections_config:
       infomode:
         label: Er der et kommende infomøde om kurset/uddannelsen?
         type: switch
-      kollonne-1:
+      kol_one:
         label: Kollonne 1
         comment: Tekst i kollonne 1 i Oversigt
         type: html
-      kollonne-2:
+      kol_two:
         label: Kollonne 2
         comment: Tekst i kollonne 2 i Oversigt
         type: html
-      kollonne-2-billede-hojde:
+      kol_two_video_url:
+        label: Video
+        type: file
+      kol_two-billede-hojde:
         label: Billedhøjde
         comment: Højde på billed i kollonne 2 i Oversigt
         type: select
@@ -244,11 +247,11 @@ collections_config:
           preview:
             text:
               - key: display_name
-      op-kollonne-1:
+      op_kol_one:
         label: Kollonne 1 (Opgybning sektion)
         comment: Tekst i kollonne 1 i Opbygning
         type: html
-      op-kollonne-2:
+      op_kol_two:
         label: Kollonne 2 (Opgybning sektion)
         comment: Tekst i kollonne 2 i Opbygning
         type: html
@@ -260,11 +263,11 @@ collections_config:
         label: Deltagerprofil beskrivelse
         comment: Skal der vises en sektion med beskrivelse af deltagerprofil?
         type: switch
-      dp-kollonne-1:
+      dp-kol_one:
         label: Kollonne 1 (Deltagerprofil sektion)
         comment: Tekst i kollonne 1 i Deltagerprofil
         type: html
-      dp-kollonne-2:
+      dp-kol_two:
         label: Kollonne 2 (Deltagerprofil sektion)
         comment: Tekst i kollonne 2 i Deltagerprofil
         type: html

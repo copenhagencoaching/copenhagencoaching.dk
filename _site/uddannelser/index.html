@@ -724,7 +724,7 @@
             
             <div class="col-md-6 col-12">
                 <a href="/uddannelser/master-of-business-coaching/">
-                <img src="/images/educations/mbc-1.png" alt="" class="object-fit h-150px">
+                <img src="/images/academy/mbc.png" alt="" class="object-fit h-150px">
                 <h5 class="text-uppercase mt-3">MBC</h5>
                 <p>Ønsker du at blive dygtig til at føre produktive og virkningsfulde dialoger? At kunne flytte både grupper og individer i en mere konstruktiv retning og derved forebygge stress, organisatorisk stagnation og udbrændthed? Så vælg uddannelsen MBC (Master of Business Coaching).</p>
             </a>
@@ -1140,26 +1140,17 @@
 
   <!--  Cloudcannon -->
 
-  <script>
-    if (!window.CloudCannon) {
-      document.addEventListener('cloudcannon:load', function (e) {
-        onLiveEditorLoad(e.detail.CloudCannon);
-      });
-    } else {
-      onLiveEditorLoad(window.CloudCannon);
-    }
-    function onLiveEditorLoad(CloudCannon) {
-      CloudCannon.enableEvents();
-    }
 
-    document.addEventListener('cloudcannon:update', async function (e) {
-      useNewPageProps(e.detail.CloudCannon);
-    });
+<script>
+  if (!window.CloudCannon) {
+    document.addEventListener('cloudcannon:load', function(e) {
+      e.detail.CloudCannon.enableEvents();
+    })  
+  } else {
+    window.CloudCannon.enableEvents();
+  }
+</script>
 
-    async function useNewPageProps(CloudCannon) {
-      const latestValue = await CloudCannon.value();
-    }
-  </script>
 
 
   <!-- Eventbrite overwrites-->

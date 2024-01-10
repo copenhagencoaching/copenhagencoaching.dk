@@ -32,7 +32,7 @@
     content="MBC">
   <meta data-proofer-ignore property="og:url" content="https://stage.copenhagencoaching.dk/uddannelser/master-of-business-coaching/">
   <meta data-proofer-ignore property="og:image"
-    content="https://stage.copenhagencoaching.dk/images/educations/mbc-1.png" />
+    content="https://stage.copenhagencoaching.dk/images/academy/mbc.png" />
   <meta property="og:site_name" content="Copenhagen Coaching Center - Coaching og uddannelse af ledere">
   <meta data-proofer-ignore property="article:publisher"
     content="https://www.linkedin.com/company/copenhagen-coaching-center/" />
@@ -43,7 +43,7 @@
     content="Ønsker du at blive dygtig til at føre produktive og virkningsfulde dialoger? At kunne flytte både grupper og individer i en mere konstruktiv retning og derved forebygge stress, organisatorisk stagnation og udbrændthed? Så vælg uddannelsen MBC (Master of Business Coaching).">
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:image"
-    content="https://stage.copenhagencoaching.dk/images/educations/mbc-1.png">
+    content="https://stage.copenhagencoaching.dk/images/academy/mbc.png">
   <meta name="twitter:title" content="MBC">
   <meta name="twitter:description"
     content="Ønsker du at blive dygtig til at føre produktive og virkningsfulde dialoger? At kunne flytte både grupper og individer i en mere konstruktiv retning og derved forebygge stress, organisatorisk stagnation og udbrændthed? Så vælg uddannelsen MBC (Master of Business Coaching).">
@@ -684,14 +684,41 @@
   </div> <!-- container-fluid.// -->
   </nav>
 
-  <div class="hero-image d-flex align-content-center align-items-center"
-    style="background: linear-gradient(rgba(19, 19, 19, 0.7), rgba(19, 19, 19, 0.7)), url('/images/educations/mbc-1.png'); background-size: cover; background-position: center;">
+  <header class="mt-5">
+    <img data-cms-bind="#image" src="/images/academy/mbc.png" id="hero-image" alt="Five developers at work.">
+    <section class='hero-header-text w-100 text-center pt-5 mt-5'>
+        <div class="container-fluid text-center mt-5">
+
+            <h1 data-cms-bind="#title" class="text-white mb-1">MBC</h1>
+            
+            <h3 data-cms-bind="#undertitle" id="undertitle" class="text-white mb-1">(Master of Business Coaching)</h3>
+            
+    
+    
+    
+            <div class="row">
+                <div class="col-12 offset-lg-3 col-lg-6">
+                    <hr class="white short-hr mx-auto">
+                </div>
+            </div>
+            <a class="btn-beaver btn w-254 btn-bold fs-6 me-md-5 text-white h-50"
+                onclick="window.open('/pdfs/MBC_forår_24.pdf', '_blank'); gtag('event','click', { 'event_category':'brochure download', 'event_label':'brochure download - MBC' })"
+                target="_blank">Hent brochure</a>
+            <a class="btn-slate-gray text-white btn w-254 btn-bold fs-6 h-50" href="#kontakt-underviseren">Kontakt
+                underviseren</a>
+        </div>
+     
+    </section>
+ </header>
+
+<!--  <div class="hero-image d-flex align-content-center align-items-center"
+    style="background: linear-gradient(rgba(19, 19, 19, 0.7), rgba(19, 19, 19, 0.7)), url('/images/academy/mbc.png'); background-size: cover; background-position: center;">
 
     <div class="container-fluid text-center">
 
         <h1 data-cms-bind="#title" class="text-white mb-1">MBC</h1>
         
-        <h3 class="text-white mb-1">(Master of Business Coaching)</h3>
+        <h3 data-cms-bind="#undertitle" id="undertitle" class="text-white mb-1">(Master of Business Coaching)</h3>
         
 
 
@@ -708,7 +735,7 @@
             underviseren</a>
     </div>
 
-</div>
+</div>  -->
 
 <div class="container-fluid my-5" style="z-index: 1100;">
     <div class="small-container">
@@ -777,14 +804,17 @@
         <div id="overblik" class="anchor-delay"></div>
         <div class="row g-lg-5 g-3">
             <div class="col-12 col-md-6">
-                <h4>Ledelse og coaching</h4><p>Ønsker du at blive dygtig til at føre produktive og virkningsfulde dialoger? At kunne flytte både grupper og individer i en mere konstruktiv retning og derved forebygge stress, organisatorisk stagnation og udbrændthed? Så vælg uddannelsen: MBC (Master of Business Coaching)</p><h4>Højeste internationale akkreditering</h4><p>Med en MBC får du en af landets bedste coachinguddannelser, hvor du både kan foretage traditionelle coachingsamtaler og den filosofiske samtale.</p><p>Med en MBC fra CCC er du garanteret de højeste, internationale standarder via vores akkreditering fra European Mentoring and Coaching Council (EMCC). <ins><a href="/emcc-akkreditering/">Læs om vores EMCC akkreditering her</a></ins>.</p>
+                <div id="kol-1" data-cms-bind="#kol_one">
+                    <h4>Ledelse og coaching</h4><p>Ønsker du at blive dygtig til at føre produktive og virkningsfulde dialoger? At kunne flytte både grupper og individer i en mere konstruktiv retning og derved forebygge stress, organisatorisk stagnation og udbrændthed? Så vælg uddannelsen: MBC (Master of Business Coaching)</p><h4>Højeste internationale akkreditering</h4><p>Med en MBC får du en af landets bedste coachinguddannelser, hvor du både kan foretage traditionelle coachingsamtaler og den filosofiske samtale.</p><p>Med en MBC fra CCC er du garanteret de højeste, internationale standarder via vores akkreditering fra European Mentoring and Coaching Council (EMCC). <ins><a href="/emcc-akkreditering/">Læs om vores EMCC akkreditering her</a></ins>.</p>
+                </div>
+                
             </div>
             <div class="col-12 col-md-6">
                 
                 <div>
                     <div>
-                        <div class="video-container pt-0 mb-0"><video controls>
-                                <source src="/videos/gitte-web.mp4" type="video/mp4">
+                        <div data-cms-bind="#kol_two_video_url" class="video-container pt-0 mb-0"><video id="video-kol-2" controls>
+                                <source  src="/videos/gitte-web.mp4" type="video/mp4">
                                 Your browser does not support HTML video.
                             </video></div>
                     </div>
@@ -798,7 +828,8 @@
                     <!-- AddToAny BEGIN -->
                 </div>
                 
-                <p>Hør i videoen hvad tidligere studerende Gitte Overgaard siger om uddannelsen. Med tryk på Business-delen af Coaching, i modsætning til fx life-coaching, er uddannelsen målrettet erhvervslivet med den hensigt at løfte de studerendes dialogiske kapacitet i professionelle kontekster.</p>
+                <div data-cms-bind="#kol_two" id="kol-2">
+                <p>Hør i videoen hvad tidligere studerende Gitte Overgaard siger om uddannelsen. Med tryk på Business-delen af Coaching, i modsætning til fx life-coaching, er uddannelsen målrettet erhvervslivet med den hensigt at løfte de studerendes dialogiske kapacitet i professionelle kontekster.</p></div>
             </div>
 
             
@@ -2700,8 +2731,17 @@
 <div class="container-fluid py-5">
     <div class="small-container pt-3">
         <div class="row gx-5 gy-4">
-            <div class="col-12 col-md-6"><h4>Hvordan er uddannelsen bygget op?</h4><p>Uddannelsen kombinerer et solidt teoretisk fundament med en målrettet træning og udvikling af den enkelte studerendes egen samtalepraksis.</p><p>Uddannelsen er normeret til et studieårsværk fordelt på fire semestre á et halvt å (15 ECTS), dvs. i alt to år og 60 ECTS. Hvert semester består af ti undervisningsdage fordelt over et halvt år samt fire træningsaftener (på tværs af semesterhold), hvoraf to aftener ligger i direkte forlængelse af undervisningen.</p><p>Hvert semester afsluttes med eksamen og et bevis på gennemførelse. Semestrene kan tages ét ad gangen og/eller forskudt, som det passer i den enkelte studerendes ressourcer og karrieremål. Hvis det måtte ønskes, kan der træffes individuel aftale om en ONLINE løsning.</p><p>Uddannelsen afsluttes med en masterafhandling og et mundtligt forsvar.</p></div>
-            <div class="col-12 col-md-6"><h4>Hvad får du ud af uddannelsen?</h4><p>På uddannelsen trænes du i at være nærværende og ansvarstagende også når vi sammen rammer de svære emner, og hvor du mest af alt har lyst til at afbryde samtalen.</p><p>På MBC'en er der derfor også fokus på din egen personlige udvikling og dannelse; hvem du selv er, og hvad netop du betyder for dialogen.</p><p>MBC'en gør den studerende i stand til at stå og indgå i mange forskellige situationer og samtaler, herunder team- og medarbejderudvikling, konflikt- og krisehåndtering, procesledelse og organisationsudvikling.</p></div>
+            <div class="col-12 col-md-6">
+                <div data-cms-bind="#op_kol_one" id="op-kol-1">
+                    <h4>Hvordan er uddannelsen bygget op?</h4><p>Uddannelsen kombinerer et solidt teoretisk fundament med en målrettet træning og udvikling af den enkelte studerendes egen samtalepraksis.</p><p>Uddannelsen er normeret til et studieårsværk fordelt på fire semestre á et halvt å (15 ECTS), dvs. i alt to år og 60 ECTS. Hvert semester består af ti undervisningsdage fordelt over et halvt år samt fire træningsaftener (på tværs af semesterhold), hvoraf to aftener ligger i direkte forlængelse af undervisningen.</p><p>Hvert semester afsluttes med eksamen og et bevis på gennemførelse. Semestrene kan tages ét ad gangen og/eller forskudt, som det passer i den enkelte studerendes ressourcer og karrieremål. Hvis det måtte ønskes, kan der træffes individuel aftale om en ONLINE løsning.</p><p>Uddannelsen afsluttes med en masterafhandling og et mundtligt forsvar.</p>
+                </div>
+                
+            </div>
+            <div class="col-12 col-md-6">
+                <div data-cms-bind="#op_kol_two" id="op-kol-2">
+                    <h4>Hvad får du ud af uddannelsen?</h4><p>På uddannelsen trænes du i at være nærværende og ansvarstagende også når vi sammen rammer de svære emner, og hvor du mest af alt har lyst til at afbryde samtalen.</p><p>På MBC'en er der derfor også fokus på din egen personlige udvikling og dannelse; hvem du selv er, og hvad netop du betyder for dialogen.</p><p>MBC'en gør den studerende i stand til at stå og indgå i mange forskellige situationer og samtaler, herunder team- og medarbejderudvikling, konflikt- og krisehåndtering, procesledelse og organisationsudvikling.</p>
+                </div>
+            </div>
         </div>
     </div>
 </div>
@@ -3107,7 +3147,7 @@
 
                        
                        
-                        <input name="image" type="hidden" value="/images/educations/mbc-1.png">
+                        <input name="image" type="hidden" value="/images/academy/mbc.png">
                         
 
                        
@@ -3658,6 +3698,44 @@
     }
     form_udd.addEventListener("submit", handleSubmit)
 </script>
+
+<script>
+    document.addEventListener('cloudcannon:update', async function (e) {
+      // use new page props
+      const value = await CloudCannon.value();
+      
+      document.querySelector('h1').innerText = value.title;
+
+      
+      if (document.querySelector('h3') != null) {
+        document.querySelector('h3').innerText = value.undertitle;
+      }
+      document.querySelector('#kol-1').innerHTML = value.kol_one;
+
+      document.querySelector('#hero-image').src = value.image;
+
+      if (document.querySelector('#kol-2') != null) {
+        document.querySelector('#kol-2').innerHTML = value.kol_two;
+      }
+
+      if (document.querySelector('#op-kol-1') != null) {
+        document.querySelector('#op-kol-1').innerHTML = value.op_kol_one;
+      }
+      
+      if (document.querySelector('#op-kol-2') != null) {
+        document.querySelector('#op-kol-2').innerHTML = value.op_kol_two;
+      }
+
+      
+
+      if (document.querySelector('#video-kol-2') != null) {
+        document.querySelector('#video-kol-2').src = value.kol_two_video_url;
+      }
+      
+      
+
+    })
+  </script>
   <!--   <div style="
   position: fixed;
   top: 90%;
@@ -4016,26 +4094,17 @@
 
   <!--  Cloudcannon -->
 
-  <script>
-    if (!window.CloudCannon) {
-      document.addEventListener('cloudcannon:load', function (e) {
-        onLiveEditorLoad(e.detail.CloudCannon);
-      });
-    } else {
-      onLiveEditorLoad(window.CloudCannon);
-    }
-    function onLiveEditorLoad(CloudCannon) {
-      CloudCannon.enableEvents();
-    }
 
-    document.addEventListener('cloudcannon:update', async function (e) {
-      useNewPageProps(e.detail.CloudCannon);
-    });
+<script>
+  if (!window.CloudCannon) {
+    document.addEventListener('cloudcannon:load', function(e) {
+      e.detail.CloudCannon.enableEvents();
+    })  
+  } else {
+    window.CloudCannon.enableEvents();
+  }
+</script>
 
-    async function useNewPageProps(CloudCannon) {
-      const latestValue = await CloudCannon.value();
-    }
-  </script>
 
 
   <!-- Eventbrite overwrites-->

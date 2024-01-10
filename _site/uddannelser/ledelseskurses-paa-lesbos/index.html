@@ -684,7 +684,32 @@
   </div> <!-- container-fluid.// -->
   </nav>
 
-  <div class="hero-image d-flex align-content-center align-items-center"
+  <header class="mt-5">
+    <img data-cms-bind="#image" src="/images/academy/ledelseskursus-paa-lesbos.jpg" id="hero-image" alt="Five developers at work.">
+    <section class='hero-header-text w-100 text-center pt-5 mt-5'>
+        <div class="container-fluid text-center mt-5">
+
+            <h1 data-cms-bind="#title" class="text-white mb-1">Ledelseskursus på Lesbos</h1>
+            
+    
+    
+    
+            <div class="row">
+                <div class="col-12 offset-lg-3 col-lg-6">
+                    <hr class="white short-hr mx-auto">
+                </div>
+            </div>
+            <a class="btn-beaver btn w-254 btn-bold fs-6 me-md-5 text-white h-50"
+                onclick="window.open('https://www.copenhagencoaching.dk/pdfs/Ledelsesrejse-på-lebos.pdf', '_blank'); gtag('event','click', { 'event_category':'brochure download', 'event_label':'brochure download - Ledelseskursus på Lesbos' })"
+                target="_blank">Hent brochure</a>
+            <a class="btn-slate-gray text-white btn w-254 btn-bold fs-6 h-50" href="#kontakt-underviseren">Kontakt
+                underviseren</a>
+        </div>
+     
+    </section>
+ </header>
+
+<!--  <div class="hero-image d-flex align-content-center align-items-center"
     style="background: linear-gradient(rgba(19, 19, 19, 0.7), rgba(19, 19, 19, 0.7)), url('/images/academy/ledelseskursus-paa-lesbos.jpg'); background-size: cover; background-position: center;">
 
     <div class="container-fluid text-center">
@@ -706,7 +731,7 @@
             underviseren</a>
     </div>
 
-</div>
+</div>  -->
 
 <div class="container-fluid my-5" style="z-index: 1100;">
     <div class="small-container">
@@ -775,7 +800,10 @@
         <div id="overblik" class="anchor-delay"></div>
         <div class="row g-lg-5 g-3">
             <div class="col-12 col-md-6">
-                <h4>Hvorfor skal du vælge Ledelseskursus på Lesbos?</h4><p>Har du givet dig selv mulighed for at finde det der betyder mest for dig, når du leder? Ønsker du at kunne bevare overblikket og agere tydeligt. Oplever du at det kan være svært at udfordre med et åbent sind og samtidig skabe tryghed omkring dig? Synes du nogle gange det er svært at bevæge sig i det uforudsigelige eller medskabe noget gennem fællesskabets værdier? Nu har du muligheden for at tænke over det, mærke efter det og blive til det.</p><p>Tag med på denne opdagelsesrejse på den græske ø Lesbos sammen med andre ledere, erfarne rådgivere og konsulenter samt studerende fra vores toårige uddannelse, Master i Business Coaching.</p><p>Dette intense forløb skærper dine refleksioner over og fornemmelser for det der afgør dine handlinger i din ledelsespraksis. Med andre ord bliver du tydelig omkring dine grundværdier og dit råderum, når du leder.</p>
+                <div id="kol-1" data-cms-bind="#kol_one">
+                    <h4>Hvorfor skal du vælge Ledelseskursus på Lesbos?</h4><p>Har du givet dig selv mulighed for at finde det der betyder mest for dig, når du leder? Ønsker du at kunne bevare overblikket og agere tydeligt. Oplever du at det kan være svært at udfordre med et åbent sind og samtidig skabe tryghed omkring dig? Synes du nogle gange det er svært at bevæge sig i det uforudsigelige eller medskabe noget gennem fællesskabets værdier? Nu har du muligheden for at tænke over det, mærke efter det og blive til det.</p><p>Tag med på denne opdagelsesrejse på den græske ø Lesbos sammen med andre ledere, erfarne rådgivere og konsulenter samt studerende fra vores toårige uddannelse, Master i Business Coaching.</p><p>Dette intense forløb skærper dine refleksioner over og fornemmelser for det der afgør dine handlinger i din ledelsespraksis. Med andre ord bliver du tydelig omkring dine grundværdier og dit råderum, når du leder.</p>
+                </div>
+                
             </div>
             <div class="col-12 col-md-6">
                 
@@ -786,7 +814,8 @@
 
 
                 
-                
+                <div data-cms-bind="#kol_two" id="kol-2">
+                </div>
             </div>
 
             
@@ -1073,8 +1102,17 @@
 <div class="container-fluid py-5">
     <div class="small-container pt-3">
         <div class="row gx-5 gy-4">
-            <div class="col-12 col-md-6"><h4>Hvordan er uddannelsen bygget op?</h4><p>Turen til Lesbos handler først og fremmest om undervisning og træning. Alle dage har fastlagte destinationer og indlagte træningsseancer. Du bliver trænet, vejledt og udfordret undervejs. Arbejdet omkring værdier vil på turen ske igennem læren fra den filosofiske samtale, protreptikken.</p></div>
-            <div class="col-12 col-md-6"><p>Vi arbejder med protreptikken fra et nyt og moderne perspektiv, hvor der i høj grad er fokus på, hvordan du som leder kan fremstå oprigtig og imødekommende i din ledelse. Hele ugen bliver du præsenteret for teoretiske ståsteder der med grundig vejledning bliver omsat i din ledelsespraksis.</p></div>
+            <div class="col-12 col-md-6">
+                <div data-cms-bind="#op_kol_one" id="op-kol-1">
+                    <h4>Hvordan er uddannelsen bygget op?</h4><p>Turen til Lesbos handler først og fremmest om undervisning og træning. Alle dage har fastlagte destinationer og indlagte træningsseancer. Du bliver trænet, vejledt og udfordret undervejs. Arbejdet omkring værdier vil på turen ske igennem læren fra den filosofiske samtale, protreptikken.</p>
+                </div>
+                
+            </div>
+            <div class="col-12 col-md-6">
+                <div data-cms-bind="#op_kol_two" id="op-kol-2">
+                    <p>Vi arbejder med protreptikken fra et nyt og moderne perspektiv, hvor der i høj grad er fokus på, hvordan du som leder kan fremstå oprigtig og imødekommende i din ledelse. Hele ugen bliver du præsenteret for teoretiske ståsteder der med grundig vejledning bliver omsat i din ledelsespraksis.</p>
+                </div>
+            </div>
         </div>
     </div>
 </div>
@@ -1930,6 +1968,44 @@
     }
     form_udd.addEventListener("submit", handleSubmit)
 </script>
+
+<script>
+    document.addEventListener('cloudcannon:update', async function (e) {
+      // use new page props
+      const value = await CloudCannon.value();
+      
+      document.querySelector('h1').innerText = value.title;
+
+      
+      if (document.querySelector('h3') != null) {
+        document.querySelector('h3').innerText = value.undertitle;
+      }
+      document.querySelector('#kol-1').innerHTML = value.kol_one;
+
+      document.querySelector('#hero-image').src = value.image;
+
+      if (document.querySelector('#kol-2') != null) {
+        document.querySelector('#kol-2').innerHTML = value.kol_two;
+      }
+
+      if (document.querySelector('#op-kol-1') != null) {
+        document.querySelector('#op-kol-1').innerHTML = value.op_kol_one;
+      }
+      
+      if (document.querySelector('#op-kol-2') != null) {
+        document.querySelector('#op-kol-2').innerHTML = value.op_kol_two;
+      }
+
+      
+
+      if (document.querySelector('#video-kol-2') != null) {
+        document.querySelector('#video-kol-2').src = value.kol_two_video_url;
+      }
+      
+      
+
+    })
+  </script>
   <!--   <div style="
   position: fixed;
   top: 90%;
@@ -2288,26 +2364,17 @@
 
   <!--  Cloudcannon -->
 
-  <script>
-    if (!window.CloudCannon) {
-      document.addEventListener('cloudcannon:load', function (e) {
-        onLiveEditorLoad(e.detail.CloudCannon);
-      });
-    } else {
-      onLiveEditorLoad(window.CloudCannon);
-    }
-    function onLiveEditorLoad(CloudCannon) {
-      CloudCannon.enableEvents();
-    }
 
-    document.addEventListener('cloudcannon:update', async function (e) {
-      useNewPageProps(e.detail.CloudCannon);
-    });
+<script>
+  if (!window.CloudCannon) {
+    document.addEventListener('cloudcannon:load', function(e) {
+      e.detail.CloudCannon.enableEvents();
+    })  
+  } else {
+    window.CloudCannon.enableEvents();
+  }
+</script>
 
-    async function useNewPageProps(CloudCannon) {
-      const latestValue = await CloudCannon.value();
-    }
-  </script>
 
 
   <!-- Eventbrite overwrites-->

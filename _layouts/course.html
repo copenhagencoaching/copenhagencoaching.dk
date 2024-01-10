@@ -2,7 +2,34 @@
 layout: default
 ---
 
-<div class="hero-image d-flex align-content-center align-items-center"
+<header class="mt-5">
+    <img data-cms-bind="#image" src="{{ page.image }}" id="hero-image" alt="Five developers at work.">
+    <section class='hero-header-text w-100 text-center pt-5 mt-5'>
+        <div class="container-fluid text-center mt-5">
+
+            <h1 data-cms-bind="#title" class="text-white mb-1">{{ page.title }}</h1>
+            {% if page.undertitle %}
+            <h3 data-cms-bind="#undertitle" id="undertitle" class="text-white mb-1">{{ page.undertitle }}</h3>
+            {% endif %}
+    
+    
+    
+            <div class="row">
+                <div class="col-12 offset-lg-3 col-lg-6">
+                    <hr class="white short-hr mx-auto">
+                </div>
+            </div>
+            {% if page.pdf %}<a class="btn-beaver btn w-254 btn-bold fs-6 me-md-5 text-white h-50"
+                onclick="window.open('{{ page.pdf }}', '_blank'); gtag('event','click', { 'event_category':'brochure download', 'event_label':'brochure download - {{ page.title }}' })"
+                target="_blank">Hent brochure</a>{% endif %}
+            <a class="btn-slate-gray text-white btn w-254 btn-bold fs-6 h-50" href="#kontakt-underviseren">Kontakt
+                underviseren</a>
+        </div>
+     
+    </section>
+ </header>
+
+<!--  <div class="hero-image d-flex align-content-center align-items-center"
     style="background: linear-gradient(rgba(19, 19, 19, 0.7), rgba(19, 19, 19, 0.7)), url('{{ page.image }}'); background-size: cover; background-position: center;">
 
     <div class="container-fluid text-center">
@@ -26,7 +53,7 @@ layout: default
             underviseren</a>
     </div>
 
-</div>
+</div>  -->
 
 <div class="container-fluid my-5" style="z-index: 1100;">
     <div class="small-container">
@@ -1569,17 +1596,13 @@ layout: default
       
       document.querySelector('h1').innerText = value.title;
 
-      var vids = document.querySelector('#video-kol-2')
-// vids is an HTMLCollection
-for( var i = 0; i < vids.length; i++ ){ 
-    console.log( vids.item(i).src )
-}
-
       
       if (document.querySelector('h3') != null) {
         document.querySelector('h3').innerText = value.undertitle;
       }
       document.querySelector('#kol-1').innerHTML = value.kol_one;
+
+      document.querySelector('#hero-image').src = value.image;
 
       if (document.querySelector('#kol-2') != null) {
         document.querySelector('#kol-2').innerHTML = value.kol_two;
@@ -1597,7 +1620,6 @@ for( var i = 0; i < vids.length; i++ ){
 
       if (document.querySelector('#video-kol-2') != null) {
         document.querySelector('#video-kol-2').src = value.kol_two_video_url;
-        console.log("there is a video");
       }
       
       

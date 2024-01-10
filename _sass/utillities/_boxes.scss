@@ -51,3 +51,24 @@
 .d-hidden {
     opacity: 0;
 }
+
+header {
+    height: 400px;
+    width: 100%;
+    background: black;
+    overflow: hidden;
+    position: relative;
+
+    img {
+        object-fit: cover;
+        width: 100%;
+        opacity: 0.4;
+     }
+
+     .hero-header-text {
+        position: absolute;
+        top:0;
+     }
+     
+}
+

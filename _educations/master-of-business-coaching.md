@@ -3,7 +3,7 @@ _schema: default
 order: 1
 title: MBC
 undertitle: (Master of Business Coaching)
-image: /images/educations/mbc-1.png
+image: /images/academy/mbc.png
 infomode: false
 meta-title: MBC - Business Coaching uddannelse - Master i Business Coaching
 meta-description: >-

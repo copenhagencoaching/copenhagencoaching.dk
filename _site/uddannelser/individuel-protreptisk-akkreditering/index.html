@@ -684,7 +684,32 @@
   </div> <!-- container-fluid.// -->
   </nav>
 
-  <div class="hero-image d-flex align-content-center align-items-center"
+  <header class="mt-5">
+    <img data-cms-bind="#image" src="/images/academy/certificering-i-protreptik.jpg" id="hero-image" alt="Five developers at work.">
+    <section class='hero-header-text w-100 text-center pt-5 mt-5'>
+        <div class="container-fluid text-center mt-5">
+
+            <h1 data-cms-bind="#title" class="text-white mb-1">Individuel protreptisk akkreditering</h1>
+            
+    
+    
+    
+            <div class="row">
+                <div class="col-12 offset-lg-3 col-lg-6">
+                    <hr class="white short-hr mx-auto">
+                </div>
+            </div>
+            <a class="btn-beaver btn w-254 btn-bold fs-6 me-md-5 text-white h-50"
+                onclick="window.open('https://www.copenhagencoaching.dk/pdfs/Individuel protreptisk akkreditering - 2022.pdf', '_blank'); gtag('event','click', { 'event_category':'brochure download', 'event_label':'brochure download - Individuel protreptisk akkreditering' })"
+                target="_blank">Hent brochure</a>
+            <a class="btn-slate-gray text-white btn w-254 btn-bold fs-6 h-50" href="#kontakt-underviseren">Kontakt
+                underviseren</a>
+        </div>
+     
+    </section>
+ </header>
+
+<!--  <div class="hero-image d-flex align-content-center align-items-center"
     style="background: linear-gradient(rgba(19, 19, 19, 0.7), rgba(19, 19, 19, 0.7)), url('/images/academy/certificering-i-protreptik.jpg'); background-size: cover; background-position: center;">
 
     <div class="container-fluid text-center">
@@ -706,7 +731,7 @@
             underviseren</a>
     </div>
 
-</div>
+</div>  -->
 
 <div class="container-fluid my-5" style="z-index: 1100;">
     <div class="small-container">
@@ -775,7 +800,10 @@
         <div id="overblik" class="anchor-delay"></div>
         <div class="row g-lg-5 g-3">
             <div class="col-12 col-md-6">
-                <h4>Undervisning på Lesbos</h4><p>Dette forløb er din chance og mulighed for at komme helt i dybden med denne filosofiske samtalekunst og ikke mindst dig selv og de værdier du står for i din ledelse, dit arbejdsliv og tilværelse generelt.</p><p>Den individuelle protreptiske akkreditering er baseret på dels et undervisningsforløb på et hold, dels et individuelt træningsforløb, som vil blive tilrettelagt efter dine specifikke ønsker og behov.</p><p>Størstedelen af undervisningsforløbet finder sted på Lesbos. Her vil du sammen med andre dedikerede protreptik-studerende følge i Aristoteles’ fodspor for at lære og træne den protreptiske samtaleform gradvist, praktisk og i fællesskab.</p><h5>Individuel akkreditering</h5><p>Efter undervisningsforløbet følger 6 individuelle træningssessioner, som tilrettelægges efter dine særlige ønsker og formål med akkrediteringen. Træningen foregår i udgangspunktet i CCC, men du kan også vælge at invitere os med ind i din daglige praksis med henblik på at få feedback på din protreptik med din medarbejdergruppe el.lign.</p><p>Akkrediteringsforløbet afsluttes med en praktisk eksamen – en ’live’ protreptik med en ukendt protreptée/fokusperson - med efterfølgende praktiske og teoretiske refleksioner ud i nogle af de bærende grundprincipper og generelle samtalegreb indenfor protreptikken.</p>
+                <div id="kol-1" data-cms-bind="#kol_one">
+                    <h4>Undervisning på Lesbos</h4><p>Dette forløb er din chance og mulighed for at komme helt i dybden med denne filosofiske samtalekunst og ikke mindst dig selv og de værdier du står for i din ledelse, dit arbejdsliv og tilværelse generelt.</p><p>Den individuelle protreptiske akkreditering er baseret på dels et undervisningsforløb på et hold, dels et individuelt træningsforløb, som vil blive tilrettelagt efter dine specifikke ønsker og behov.</p><p>Størstedelen af undervisningsforløbet finder sted på Lesbos. Her vil du sammen med andre dedikerede protreptik-studerende følge i Aristoteles’ fodspor for at lære og træne den protreptiske samtaleform gradvist, praktisk og i fællesskab.</p><h5>Individuel akkreditering</h5><p>Efter undervisningsforløbet følger 6 individuelle træningssessioner, som tilrettelægges efter dine særlige ønsker og formål med akkrediteringen. Træningen foregår i udgangspunktet i CCC, men du kan også vælge at invitere os med ind i din daglige praksis med henblik på at få feedback på din protreptik med din medarbejdergruppe el.lign.</p><p>Akkrediteringsforløbet afsluttes med en praktisk eksamen – en ’live’ protreptik med en ukendt protreptée/fokusperson - med efterfølgende praktiske og teoretiske refleksioner ud i nogle af de bærende grundprincipper og generelle samtalegreb indenfor protreptikken.</p>
+                </div>
+                
             </div>
             <div class="col-12 col-md-6">
                 
@@ -786,7 +814,8 @@
 
 
                 
-                <p>Hvis du allerede har gennemført undervisningsforløbet, f.eks. som studerende på 3. semester på Master of Business Coachin, og gerne vil opnå en individuel, protreptisk akkreditering, kan det individuelle træningsforløb og eksamen tilkøbes for 13.000 ekskl. moms.</p>
+                <div data-cms-bind="#kol_two" id="kol-2">
+                <p>Hvis du allerede har gennemført undervisningsforløbet, f.eks. som studerende på 3. semester på Master of Business Coachin, og gerne vil opnå en individuel, protreptisk akkreditering, kan det individuelle træningsforløb og eksamen tilkøbes for 13.000 ekskl. moms.</p></div>
             </div>
 
             
@@ -1073,8 +1102,17 @@
 <div class="container-fluid py-5">
     <div class="small-container pt-3">
         <div class="row gx-5 gy-4">
-            <div class="col-12 col-md-6"></div>
-            <div class="col-12 col-md-6"></div>
+            <div class="col-12 col-md-6">
+                <div data-cms-bind="#op_kol_one" id="op-kol-1">
+                    
+                </div>
+                
+            </div>
+            <div class="col-12 col-md-6">
+                <div data-cms-bind="#op_kol_two" id="op-kol-2">
+                    
+                </div>
+            </div>
         </div>
     </div>
 </div>
@@ -1933,6 +1971,44 @@
     }
     form_udd.addEventListener("submit", handleSubmit)
 </script>
+
+<script>
+    document.addEventListener('cloudcannon:update', async function (e) {
+      // use new page props
+      const value = await CloudCannon.value();
+      
+      document.querySelector('h1').innerText = value.title;
+
+      
+      if (document.querySelector('h3') != null) {
+        document.querySelector('h3').innerText = value.undertitle;
+      }
+      document.querySelector('#kol-1').innerHTML = value.kol_one;
+
+      document.querySelector('#hero-image').src = value.image;
+
+      if (document.querySelector('#kol-2') != null) {
+        document.querySelector('#kol-2').innerHTML = value.kol_two;
+      }
+
+      if (document.querySelector('#op-kol-1') != null) {
+        document.querySelector('#op-kol-1').innerHTML = value.op_kol_one;
+      }
+      
+      if (document.querySelector('#op-kol-2') != null) {
+        document.querySelector('#op-kol-2').innerHTML = value.op_kol_two;
+      }
+
+      
+
+      if (document.querySelector('#video-kol-2') != null) {
+        document.querySelector('#video-kol-2').src = value.kol_two_video_url;
+      }
+      
+      
+
+    })
+  </script>
   <!--   <div style="
   position: fixed;
   top: 90%;
@@ -2291,26 +2367,17 @@
 
   <!--  Cloudcannon -->
 
-  <script>
-    if (!window.CloudCannon) {
-      document.addEventListener('cloudcannon:load', function (e) {
-        onLiveEditorLoad(e.detail.CloudCannon);
-      });
-    } else {
-      onLiveEditorLoad(window.CloudCannon);
-    }
-    function onLiveEditorLoad(CloudCannon) {
-      CloudCannon.enableEvents();
-    }
 
-    document.addEventListener('cloudcannon:update', async function (e) {
-      useNewPageProps(e.detail.CloudCannon);
-    });
+<script>
+  if (!window.CloudCannon) {
+    document.addEventListener('cloudcannon:load', function(e) {
+      e.detail.CloudCannon.enableEvents();
+    })  
+  } else {
+    window.CloudCannon.enableEvents();
+  }
+</script>
 
-    async function useNewPageProps(CloudCannon) {
-      const latestValue = await CloudCannon.value();
-    }
-  </script>
 
 
   <!-- Eventbrite overwrites-->
