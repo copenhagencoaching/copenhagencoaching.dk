@@ -234,6 +234,9 @@ collections_config:
         label: Kollonne 2
         comment: Tekst i kollonne 2 i Oversigt
         type: html
+      kol_two_video_url:
+        label: Video
+        type: file
       kol_two-billede-hojde:
         label: Billedhøjde
         comment: Højde på billed i kollonne 2 i Oversigt
