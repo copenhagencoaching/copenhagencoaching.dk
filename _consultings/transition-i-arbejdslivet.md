@@ -2,7 +2,7 @@
 published: true
 order: 5
 title: Transition i arbejdslivet
-image: /images/consulting/c4.jpg
+image: /images/consulting/c4.png
 contact-person: Andreas Bering
 description: Transitioner – eller overgange – i arbejdslivet angår både det enkelte menneske og arbejdspladsen. Der kan være tale om jobskifte, ændringer i arbejdsopgaver og dermed i karrierevejen samt forfremmelse, pensionering eller andre naturlige overgange i livet.
 ---

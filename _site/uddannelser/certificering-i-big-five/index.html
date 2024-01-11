@@ -2208,9 +2208,7 @@
       document.querySelector('h1').innerText = value.title;
 
 
-      if (document.querySelector('#col-2-image') != null) {
-        document.querySelector('#col-2-image').style.backgroundImage.slice(4, -1).replace(/"/g, "") = value.image_2;
-      }
+      
     
 
       if (document.querySelector('h3') != null) {
@@ -2238,7 +2236,9 @@
         document.querySelector('#video-kol-2').src = value.kol_two_video_url;
       }
       
-      
+      if (document.querySelector('#col-2-image') != null) {
+        document.querySelector('#col-2-image').style.backgroundImage.slice(4, -1).replace(/"/g, "") = value.image_2;
+      }
 
     })
   </script>

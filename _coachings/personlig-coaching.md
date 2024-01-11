@@ -2,7 +2,7 @@
 id: "4"
 order: 4
 title: Personlig coaching
-image: /images/coaching/c1-2.jpg
+image: /images/coaching/c1-2.jpeg
 contact-person: Andreas Bering
 redirect_from:
   - /coaching/personligCoaching/
