@@ -18,7 +18,7 @@ adgangskrav: >-
   uddannelse) eller bevis for tilsvarende realkompetencer udstedt af en
   professionshøjskole eller et erhvervsakademi. Hertil kommer to års relevant
   erhvervserfaring.
-image-2: /images/educations/plu-table.png
+image_2: /images/educations/plu-table.png
 deltagerprofil: false
 aktive-hold: true
 opbygning: true

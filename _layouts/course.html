@@ -174,8 +174,8 @@ layout: default
                 </div>
                 {% else %}
 
-                <div class="{{ page.kol_two-billede-hojde }} h-200 mb-4"
-                    style="background-image: url('{{ page.image-2 }}'); background-position: top; background-size: cover;">
+                <div data-cms-bind="#image_2" id="col-2-image" class="{{ page.kol_two-billede-hojde }} h-200 mb-4"
+                    style="background-image: url('{{ page.image_2 }}'); background-position: top; background-size: cover;">
                 </div>
 
 
@@ -611,7 +611,7 @@ layout: default
         <div class="small-container pt-3 pb-5">
             <div class="row gx-5 gy-5">
                 <div class="col-12 col-md-6">
-                    {{ page.op-kollonne-banner}}
+                    {{ page.op-kollonne-banner }}
 
                 </div>
                 <div class="col-12 col-md-6 img-md-200">
@@ -1587,6 +1587,9 @@ layout: default
         });
     }
     form_udd.addEventListener("submit", handleSubmit)
+
+    var bg = document.querySelector('#col-2-image').style.backgroundImage.slice(4, -1).replace(/"/g, "");
+    console.log(bg)
 </script>
 
 <script>
@@ -1596,7 +1599,12 @@ layout: default
       
       document.querySelector('h1').innerText = value.title;
 
-      
+
+      if (document.querySelector('#col-2-image') != null) {
+        document.querySelector('#col-2-image').style.backgroundImage.slice(4, -1).replace(/"/g, "") = value.image_2;
+      }
+    
+
       if (document.querySelector('h3') != null) {
         document.querySelector('h3').innerText = value.undertitle;
       }

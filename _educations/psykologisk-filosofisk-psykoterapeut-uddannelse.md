@@ -64,7 +64,7 @@ kol_two: >-
   uddannelsen. Her kan du også kommunikere med undervisere og
   medstuderende.</p><p><b>Noget er på engelsk:</b>Faglitteraturen er primært på
   dansk, men engelsk kan forekomme.</p>
-image-2: /images/educations/psykologisk-filosofisk-psykoterapi.jpg
+image_2: /images/educations/psykologisk-filosofisk-psykoterapi.jpg
 kol_two-billede-hojde: h-md-50
 opbygning: true
 op_kol_one: >-

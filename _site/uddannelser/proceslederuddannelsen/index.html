@@ -804,7 +804,7 @@
             <div class="col-12 col-md-6">
                 
 
-                <div class="h-md-50 h-200 mb-4"
+                <div data-cms-bind="#image_2" id="col-2-image" class="h-md-50 h-200 mb-4"
                     style="background-image: url('/images/educations/plu-table.png'); background-position: top; background-size: cover;">
                 </div>
 
@@ -2059,6 +2059,9 @@
         });
     }
     form_udd.addEventListener("submit", handleSubmit)
+
+    var bg = document.querySelector('#col-2-image').style.backgroundImage.slice(4, -1).replace(/"/g, "");
+    console.log(bg)
 </script>
 
 <script>
@@ -2068,7 +2071,12 @@
       
       document.querySelector('h1').innerText = value.title;
 
-      
+
+      if (document.querySelector('#col-2-image') != null) {
+        document.querySelector('#col-2-image').style.backgroundImage.slice(4, -1).replace(/"/g, "") = value.image_2;
+      }
+    
+
       if (document.querySelector('h3') != null) {
         document.querySelector('h3').innerText = value.undertitle;
       }

@@ -58,7 +58,7 @@ kol_two: >-
   uddannelsen. Med tryk på Business-delen af Coaching, i modsætning til fx
   life-coaching, er uddannelsen målrettet erhvervslivet med den hensigt at løfte
   de studerendes dialogiske kapacitet i professionelle kontekster.</p>
-image-2: /images/educations/mbc-overblik.png
+image_2: /images/educations/mbc-overblik.png
 kol_two-billede-hojde: h-md-50
 opbygning: true
 op_kol_one: >-
