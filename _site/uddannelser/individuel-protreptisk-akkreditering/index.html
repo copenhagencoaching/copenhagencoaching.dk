@@ -2012,7 +2012,8 @@
       }
       
       if (document.querySelector('#col-2-image') != null) {
-        document.querySelector('#col-2-image').style.backgroundImage.slice(4, -1).replace(/"/g, "") = value.image_2;
+        var bgi = document.querySelector('#col-2-image').style.backgroundImage.slice(4, -1).replace(/"/g, "")
+        bg = value.image_2;
       }
 
     })
