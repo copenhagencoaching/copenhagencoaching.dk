@@ -804,9 +804,8 @@
             <div class="col-12 col-md-6">
                 
 
-                <div data-cms-bind="#image_2" id="col-2-image" class="h-md-50 h-200 mb-4"
-                    style="background-image: url('/images/educations/bf-1.png'); background-position: top; background-size: cover;">
-                </div>
+                <div class="h-md-50 h-200 mb-4"><img data-cms-bind="#image_2" id="col-2-image" src="/images/educations/bf-1.png" class="object-fit object-position-bottom" alt=""></div>
+            
 
 
                 
@@ -1006,7 +1005,7 @@
                                 </div>
                                 <div class="col-md-2 col-6">
                                     <p>
-                                        13:00 - 15:00
+                                        09:00 - 11:00
                                     </p>
                                 </div>
                                 <div class="col-md-3 col-6">
@@ -2238,7 +2237,7 @@
       
       if (document.querySelector('#col-2-image') != null) {
         var bgi = document.querySelector('#col-2-image').style.backgroundImage.slice(4, -1).replace(/"/g, "")
-        bg = value.image_2;
+        bgi = value.image_2;
       }
 
     })

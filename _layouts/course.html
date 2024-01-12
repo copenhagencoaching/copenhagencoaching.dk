@@ -174,9 +174,8 @@ layout: default
                 </div>
                 {% else %}
 
-                <div data-cms-bind="#image_2" id="col-2-image" class="{{ page.kol_two-billede-hojde }} h-200 mb-4"
-                    style="background-image: url('{{ page.image_2 }}'); background-position: top; background-size: cover;">
-                </div>
+                <div class="{{ page.kol_two-billede-hojde }} h-200 mb-4"><img data-cms-bind="#image_2" id="col-2-image" src="{{ page.image_2 }}" class="object-fit object-position-bottom" alt=""></div>
+            
 
 
                 {% endif %}

@@ -3,7 +3,7 @@ layout: om-os
 show: true
 order: '6'
 title: Om os
-image: /images/consulting/consulting-banner.jpg
+image: /images/diverse/tilmeldings.png
 header: Eksperter i ledelse og coaching
 header-link: Mød teamet ⟶
 header-link-url: '#team'

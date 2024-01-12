@@ -808,9 +808,8 @@
             <div class="col-12 col-md-6">
                 
 
-                <div data-cms-bind="#image_2" id="col-2-image" class="h-md-100 h-200 mb-4"
-                    style="background-image: url('/images/educations/graeker.png'); background-position: top; background-size: cover;">
-                </div>
+                <div class="h-md-100 h-200 mb-4"><img data-cms-bind="#image_2" id="col-2-image" src="/images/educations/graeker.png" class="object-fit object-position-bottom" alt=""></div>
+            
 
 
                 
@@ -2010,7 +2009,7 @@
       
       if (document.querySelector('#col-2-image') != null) {
         var bgi = document.querySelector('#col-2-image').style.backgroundImage.slice(4, -1).replace(/"/g, "")
-        bg = value.image_2;
+        bgi = value.image_2;
       }
 
     })

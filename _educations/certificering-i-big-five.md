@@ -103,7 +103,7 @@ hold:
         place: Online
       - date: 7. februar
         day: '3'
-        time: 13:00 - 15:00
+        time: 09:00 - 11:00
         name: Praktikken
         place: Online
       - date: 19. februar
