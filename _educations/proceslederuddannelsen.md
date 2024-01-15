@@ -64,7 +64,7 @@ kol_two: "<p>Forventninger fra medarbejdere om medinddragelse og samskabelse som
       organisationers liv, og som kalder på løbende tilpasninger og kursskifte.
       God procesledelse kræver evner til at styre, rumme og stimulere
       menneskelig og faglig mangfoldighed i retning af fælles udvikling og mål.</p>"
-kol_two-billede-hojde: h-md-50
+kol_two_billede_hojde: h-md-50
 price: >-
   27.500,- (Ekskl. moms) inkl. Forplejning, litteratur, BIG FIVE test og to
   individuelle coachinger med en certificeret coach fra Copenhagen Coaching

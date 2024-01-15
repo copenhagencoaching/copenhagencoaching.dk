@@ -65,7 +65,7 @@ kol_two: >-
   medstuderende.</p><p><b>Noget er på engelsk:</b>Faglitteraturen er primært på
   dansk, men engelsk kan forekomme.</p>
 image_two: /images/educations/psykologisk-filosofisk-psykoterapi.jpg
-kol_two-billede-hojde: h-md-50
+kol_two_billede_hojde: h-md-50
 opbygning: true
 op_kol_one: >-
   <h4>Hvordan er uddannelsen bygget op?</h4><p>Uddannelsen er modul-opbygget, og

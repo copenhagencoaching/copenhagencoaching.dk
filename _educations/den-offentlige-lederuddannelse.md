@@ -71,7 +71,7 @@ kol_two: >-
   (valgmodul, 5 ECTS)</li><li>Ledelse og Filosofi (valgmodul, 5
   ECTS)</li><li>Specialemodul (15 ECTS)</li></ul>
 image_two: /images/inspiration/leder-tavle.png
-kol_two-billede-hojde: h-md-50
+kol_two_billede_hojde: h-md-50
 galleri-overblik: true
 galleri:
   - image: /images/educations/plu-table.png

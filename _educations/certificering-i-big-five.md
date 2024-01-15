@@ -59,7 +59,7 @@ kol_two: >-
   FIVE's ophav, og hvordan BIG FIVE teoretisk og empirisk er den bedst
   underbyggede personlighedstest på markedet.</p>
 image_two: /images/educations/bf-1.png
-kol_two-billede-hojde: h-md-50
+kol_two_billede_hojde: h-md-50
 opbygning: true
 op_kol_one: >-
   <h4>Kursets opbygning</h4><p>Certificeringskurset er delt op i tre moduler og

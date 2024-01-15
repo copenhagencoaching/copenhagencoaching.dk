@@ -59,7 +59,7 @@ kol_two: >-
   life-coaching, er uddannelsen målrettet erhvervslivet med den hensigt at løfte
   de studerendes dialogiske kapacitet i professionelle kontekster.</p>
 image_two: /images/educations/mbc-overblik.png
-kol_two-billede-hojde: h-md-50
+kol_two_billede_hojde: h-md-50
 opbygning: true
 op_kol_one: >-
   <h4>Hvordan er uddannelsen bygget op?</h4><p>Uddannelsen kombinerer et solidt

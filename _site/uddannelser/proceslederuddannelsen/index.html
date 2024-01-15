@@ -804,7 +804,7 @@
             <div class="col-12 col-md-6">
                 
 
-                <div class="h-md-50 h-200 mb-4"><img data-cms-bind="#image_two" id="col-2-image" src="/images/educations/plu-table.png" class="object-fit object-position-bottom" alt=""></div>
+                <div data-cms-bind="#kol_two_billede_hojde" id="billed_hojde" class="h-md-50 h-200 mb-4"><img data-cms-bind="#image_two" id="col-2-image" src="/images/educations/plu-table.png" class="object-fit object-position-bottom" alt=""></div>
             
 
 
@@ -2103,6 +2103,11 @@
         
         document.querySelector('#col-2-image').src = value.image_two;
       }
+
+      if (document.querySelector('#billed_hojde') != null) {
+        document.querySelector('#billed_hojde').className.split(" ")[0] = value.kol_two_billed_hojde;
+      }
+      
 
     })
   </script>
