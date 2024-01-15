@@ -189,7 +189,7 @@ collections_config:
         label: Billede
         comment: Baggrundsbilledet i headeren
         type: image
-      image_2:
+      image_two:
         label: Billede 2
         comment: Billede som ligger i anden kollonne øverst på siden under "Overblik" sektionen (Vises kun hvis der ikke er en video i "Overblik")
         type: image

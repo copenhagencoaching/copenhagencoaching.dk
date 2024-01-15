@@ -18,7 +18,7 @@ kol_one:
 kol_two-video:
 kol_two_video_url:
 kol_two:
-image_2:
+image_two:
 kol_two-billede-hojde:
 galleri-overblik:
 galleri:

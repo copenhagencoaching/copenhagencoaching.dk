@@ -70,7 +70,7 @@ kol_two: >-
   ECTS)</li><li>Ledelse og Coaching (valgmodul, 5 ECTS)</li><li>Projektledelse
   (valgmodul, 5 ECTS)</li><li>Ledelse og Filosofi (valgmodul, 5
   ECTS)</li><li>Specialemodul (15 ECTS)</li></ul>
-image_2: /images/inspiration/leder-tavle.png
+image_two: /images/inspiration/leder-tavle.png
 kol_two-billede-hojde: h-md-50
 galleri-overblik: true
 galleri:

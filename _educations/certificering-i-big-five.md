@@ -58,7 +58,7 @@ kol_two: >-
   konkret bruger den i praksis. Kurset vil blandt andet give et indblik I BIG
   FIVE's ophav, og hvordan BIG FIVE teoretisk og empirisk er den bedst
   underbyggede personlighedstest på markedet.</p>
-image_2: /images/educations/bf-1.png
+image_two: /images/educations/bf-1.png
 kol_two-billede-hojde: h-md-50
 opbygning: true
 op_kol_one: >-

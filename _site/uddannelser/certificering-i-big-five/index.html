@@ -804,7 +804,7 @@
             <div class="col-12 col-md-6">
                 
 
-                <div class="h-md-50 h-200 mb-4"><img data-cms-bind="#image_2" id="col-2-image" src="/images/educations/bf-1.png" class="object-fit object-position-bottom" alt=""></div>
+                <div class="h-md-50 h-200 mb-4"><img data-cms-bind="#image_two" id="col-2-image" src="/images/educations/bf-1.png" class="object-fit object-position-bottom" alt=""></div>
             
 
 
@@ -2236,8 +2236,8 @@
       }
       
       if (document.querySelector('#col-2-image') != null) {
-        var bgi = document.querySelector('#col-2-image').style.backgroundImage.slice(4, -1).replace(/"/g, "")
-        bgi = value.image_2;
+        
+        document.querySelector('#col-2-image').src = value.image_two;
       }
 
     })
