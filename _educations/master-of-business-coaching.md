@@ -348,6 +348,77 @@ nested-hold:
             time: 09:30 - 16:00
             name: Eksamen
             place: Blegdamsvej
+      - title: Semester 2 - Efterår 2024
+        dates: 20. august - 12. december
+        modules:
+          - date: 20. august
+            day: '1'
+            time: 09:30 - 20:00
+            name: Kognitiv 3
+            place: Blegdamsvej
+          - date: 21. august
+            day: '2'
+            time: 09:30 - 16:00
+            name: Systemisk 3
+            place: Blegdamsvej
+          - date: 23. september
+            day: '3'
+            time: 09:30 - 20:00
+            name: Psykodynamisk 3
+            place: Blegdamsvej
+          - date: 24. september
+            day: '4'
+            time: 09:30 - 16:00
+            name: Systemisk teamcoaching
+            place: Blegdamsvej
+          - date: 23. oktober
+            day: '5'
+            time: 09:30 - 20:00
+            name: Kognitiv teamcoaching + træningsaften
+            place: Blegdamsvej
+          - date: 24. oktober
+            day: '6'
+            time: 09:30 - 16:00
+            name: Psykodynamisk teamcoaching
+            place: Blegdamsvej
+          - date: 20. november
+            day: '7'
+            time: 09:30 - 16:00
+            name: Tredje generations coaching
+            place: Blegdamsvej
+          - date: 21. november
+            day: '8'
+            time: 09:30 - 20:00
+            name: Syntese + træningsaften
+            place: Blegdamsvej
+          - date: 11. - 12. december
+            day: '-'
+            time: 09:30 - 16:00
+            name: Eksamen
+            place: Blegdamsvej
+      - title: Semester 3 - Efteår 2024
+        dates: 27. august - 8. november
+        modules:
+          - date: 27. august
+            day: '1'
+            time: 09:30 - 16:00
+            name: Introduktion til Protreptik
+            place: Blegdamsvej
+          - date: 8. - 5. september
+            day: 2-7
+            time: Varierende tider
+            name: Protreptik
+            place: Lesbos, Grækenland
+          - date: 3. oktober
+            day: '-'
+            time: 09:30 - 16:00
+            name: Syntese
+            place: Blegdamsvej
+          - date: 6. - 8. november
+            day: '-'
+            time: 09:30 - 16:00
+            name: Eksamen
+            place: Blegdamsvej
 redirect_from:
   - /academy/master-of-business-coaching/
   - /academy/masterofbusinesscoaching/
