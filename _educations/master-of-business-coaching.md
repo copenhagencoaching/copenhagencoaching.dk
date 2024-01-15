@@ -404,7 +404,7 @@ nested-hold:
             time: 09:30 - 16:00
             name: Introduktion til Protreptik
             place: Blegdamsvej
-          - date: 8. - 5. september
+          - date: 8. - 15. september
             day: 2-7
             time: Varierende tider
             name: Protreptik
