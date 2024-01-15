@@ -1633,6 +1633,8 @@ layout: default
       }
 
       if (document.querySelector('#billed_hojde') != null) {
+
+        console.log(document.querySelector('#billed_hojde').className.split(" ")[0]);
         document.querySelector('#billed_hojde').className.split(" ")[0] = value.kol_two_billed_hojde;
       }
       
