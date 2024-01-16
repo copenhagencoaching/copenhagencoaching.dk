@@ -22,8 +22,6 @@ location: Kurset foregår på Lesbos
 aktive-hold: true
 undervisere:
 - Andreas Bering
-- Mette Mejlhede
-- Camilla Ingwersen
 hold:
 - title: Rejse - Forår 2024
   dates: 26. maj - 2. juni

@@ -124,7 +124,6 @@ kort-kode: >-
   referrerpolicy="no-referrer-when-downgrade"></iframe>
 undervisere:
   - Andreas Bering
-  - Line Arnmark
 redirect_from:
   - /coaching/proceslederuddannelse/
   - /academy/procesleder-uddannelse/

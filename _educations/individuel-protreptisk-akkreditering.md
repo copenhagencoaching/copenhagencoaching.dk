@@ -39,8 +39,6 @@ price: '58.900 ekskl. moms'
 pdf: https://www.copenhagencoaching.dk/pdfs/Individuel protreptisk akkreditering - 2022.pdf
 undervisere:
 - Andreas Bering
-- Mette Mejlhede
-- Camilla Ingwersen
 location: 'Individuel undervisning på Blegdamsvej 104D, 3. sal, 2100 København Ø og kursus på Lesbos, Grækenland'
 kort: true
 kort-kode: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2248.5391868280053!2d12.571144951748396!3d55.69699898044299!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465252fc41468a33%3A0x721ebe721a5ba062!2sBlegdamsvej%20104C%2C%202100%20K%C3%B8benhavn!5e0!3m2!1sda!2sdk!4v1649143109075!5m2!1sda!2sdk" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'

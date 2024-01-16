@@ -106,8 +106,7 @@ op-kollonne-banner: >-
   dage</li></ul>
 opbygning-image: /images/educations/mbc-opbygning.png
 undervisere:
-  - Mette Mejlhede
-  - Jack Købke
+  - Andreas Bering
 deltagerprofil: true
 kursus-oversigt: false
 hold:
