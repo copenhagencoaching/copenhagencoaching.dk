@@ -149,6 +149,11 @@ nested-hold:
             time: 09:30 - 16:00
             name: Kognitiv 1
             place: Blegdamsvej
+          - date: 5. marts
+            day: "-"
+            time: 17:00 - 20:00
+            name: Træningsaften
+            place: Blegdamsvej
           - date: 19. marts
             day: '3'
             time: 09:30 - 16:00
@@ -158,6 +163,11 @@ nested-hold:
             day: '4'
             time: 09:30 - 20:00
             name: Psykodynamisk 1 + træningsaften
+            place: Blegdamsvej
+          - date: 10. april
+            day: '-'
+            time: 17:00 - 20:00
+            name: Træningsaften
             place: Blegdamsvej
           - date: 24. april
             day: '5'
@@ -217,6 +227,11 @@ nested-hold:
             time: 09:30 - 16:00
             name: Psykodynamisk teamcoaching
             place: Blegdamsvej
+          - date: 20. marts
+            day: '-'
+            time: 17:00 - 20:00
+            name: Træningsaften
+            place: Blegdamsvej
           - date: 10. april
             day: '7'
             time: 09:30 - 20:00
@@ -226,6 +241,11 @@ nested-hold:
             day: '8'
             time: 09:30 - 16:00
             name: Syntese
+            place: Blegdamsvej
+          - date: 25. april
+            day: '-'
+            time: 17:00 - 20:00
+            name: Træningsaften
             place: Blegdamsvej
           - date: 6. - 7. maj
             day: '-'
