@@ -189,7 +189,7 @@ nested-hold:
         modules:
           - date: 17. januar
             day: '1'
-            time: 09:30 - 20:00
+            time: 09:30 - 16:00
             name: Kognitiv 3
             place: Blegdamsvej
           - date: 18. januar
@@ -199,7 +199,7 @@ nested-hold:
             place: Blegdamsvej
           - date: 5. februar
             day: '3'
-            time: 09:30 - 20:00
+            time: 09:30 - 16:00
             name: Psykodynamisk 3
             place: Blegdamsvej
           - date: 6. februar
@@ -219,13 +219,13 @@ nested-hold:
             place: Blegdamsvej
           - date: 10. april
             day: '7'
-            time: 09:30 - 16:00
-            name: Tredje generations coaching
+            time: 09:30 - 20:00
+            name: Tredje generations coaching + træningsaften
             place: Blegdamsvej
           - date: 11. april
             day: '8'
-            time: 09:30 - 20:00
-            name: Syntese + træningsaften
+            time: 09:30 - 16:00
+            name: Syntese
             place: Blegdamsvej
           - date: 6. - 7. maj
             day: '-'
