@@ -1,35 +1,52 @@
-name: Push _site to New Repository
+name: Build and Transfer Jekyll Site
 
 on:
   push:
     branches:
       - master
+      
+env:
+  GITHUB_TOKEN: ${{secrets.API_TOKEN_GITHUB}}
+  ORIGIN: origin
+
+permissions:
+  contents: write
 
 jobs:
-  build:
+  ci:
     runs-on: ubuntu-latest
-
-
     steps:
-    - uses: actions/checkout@v3
-    - name: Build the site in the jekyll/builder container
-      run: |
-            docker run \
-            lakruzz/jekyll-plus:1.0.1 jekyll build
-
-  push:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Push generated webpage to another repository
-        uses: nkoppel/push-files-to-another-repository@v1.1.2
-        env:
-            API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
-        with:
-            source-files: '_site/*'
-            destination-username: 'copenhagencoaching'
-            destination-repository: 'www.copenhagencoaching.dk'
-            destination-directory: '.'
-            destination-branch: 'main'
-            commit-email: 'support@copenhagencoaching.dk'
     
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Tell git who we are
+        run: |
+          set -ex
+          git config --global user.name "Copenhagencoaching"
+          git config --global user.email "support@copenhagencoaching.dk"
+          git config --global advice.skippedCherryPicks false
+
+      - name: Rebased against default target branch
+        run: |
+          set -ex
+          TARGET_BRANCH=$( gh repo view --json defaultBranchRef --jq .defaultBranchRef.name )
+          git rebase ${ORIGIN}/${TARGET_BRANCH}
+          
+      - name: Do the build
+        uses: docker://lakruzz/jekyll-plus:latest
+        with:
+          entrypoint: jekyll
+          args: build -s . -d _site
+        
+      - name: Push changes to default target branch
+        run: |
+          git clone https://copenhagencoaching:${{secrets.API_TOKEN_GITHUB}}@github.com/copenhagencoaching/www.copenhagencoaching.dk.git
+          cd neew
+          rm -rf *
+          cp -r ../_site/* .
+          git add -A .
+          git commit -m "Update _site"
+          git push -f
