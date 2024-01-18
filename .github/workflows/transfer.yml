@@ -3,7 +3,7 @@ name: Push _site to New Repository
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   build:
