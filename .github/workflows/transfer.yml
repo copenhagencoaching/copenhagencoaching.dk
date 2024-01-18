@@ -44,7 +44,7 @@ jobs:
       - name: Push changes to default target branch
         run: |
           git clone https://copenhagencoaching:${{secrets.API_TOKEN_GITHUB}}@github.com/copenhagencoaching/www.copenhagencoaching.dk.git
-          cd neew
+          cd www.copenhagencoaching.dk
           rm -rf *
           cp -r ../_site/* .
           git add -A .
