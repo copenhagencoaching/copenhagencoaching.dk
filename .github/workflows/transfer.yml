@@ -1,0 +1,35 @@
+name: Push _site to New Repository
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Build the site in the jekyll/builder container
+      run: |
+            docker run \
+            lakruzz/jekyll-plus:1.0.1 jekyll build
+
+  push:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Push generated webpage to another repository
+        uses: nkoppel/push-files-to-another-repository@v1.1.2
+        env:
+            API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+        with:
+            source-files: '_site/*'
+            destination-username: 'copenhagencoaching'
+            destination-repository: 'www.copenhagencoaching.dk'
+            destination-directory: '.'
+            destination-branch: 'main'
+            commit-email: 'support@copenhagencoaching.dk'
+    
