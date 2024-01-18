@@ -48,3 +48,4 @@ redirect_from:
   - /academy/certificering-i-protreptik/
   - /academy/individuel-protreptisk-akkreditering/
 ---
+
