@@ -265,6 +265,16 @@ nested-hold:
             time: Varierende tider
             name: Protreptik
             place: Lesbos, Grækenland
+          - date: 6. juni
+            day: '8'
+            time: 09:30 - 20:00
+            name: Syntesedag + Træningsaften
+            place: Blegdamsvej
+          - date: 13. juni
+            day: '-'
+            time: 17:00 - 20:00
+            name: Træningsaften
+            place: Blegdamsvej
           - date: 18. juni
             day: '-'
             time: 09:30 - 16:00
@@ -281,42 +291,42 @@ nested-hold:
           - date: 31. januar
             day: '1'
             time: 09:30 - 16:00
-            name: Introduktion til nye coachingformer
+            name: '-'
             place: Blegdamsvej
           - date: 26. februar
             day: '2'
             time: 09:30 - 20:00
-            name: Kognitionsfilosofi
+            name: '-'
             place: Blegdamsvej
           - date: 27. februar
             day: '3'
             time: 09:30 - 16:00
-            name: Kropsfilosofi
+            name: '-'
             place: Blegdamsvej
           - date: 13. marts
             day: '4'
             time: 09:30 - 20:00
-            name: Eksistensfilosofi
+            name: '-'
             place: Blegdamsvej
           - date: 14. marts
             day: '5'
             time: 09:30 - 16:00
-            name: Dialogfilosofi
+            name: '-'
             place: Blegdamsvej
           - date: 29. april
             day: '6'
             time: 09:30 - 20:00
-            name: Differensfilosofi
+            name: '-'
             place: Blegdamsvej
           - date: 30. april
             day: '7'
             time: 09:30 - 16:00
-            name: Eksperimentel pragmatik
+            name: '-'
             place: Blegdamsvej
           - date: 15. maj
             day: '8'
             time: 09:30 - 16:00
-            name: Syntese
+            name: '-'
             place: Blegdamsvej
   - aar: Efterår 2024
     hold:
