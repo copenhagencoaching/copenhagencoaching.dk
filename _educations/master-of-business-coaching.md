@@ -189,7 +189,7 @@ nested-hold:
             time: 09:30 - 16:00
             name: Syntese
             place: Blegdamsvej
-          - date: 10., 11. og 12. juni
+          - date: 10. og 11. juni
             day: '-'
             time: 09:30 - 16:00
             name: Eksamen
