@@ -291,42 +291,42 @@ nested-hold:
           - date: 31. januar
             day: '1'
             time: 09:30 - 16:00
-            name: '-'
+            name: 'Undervisning'
             place: Blegdamsvej
           - date: 26. februar
             day: '2'
             time: 09:30 - 20:00
-            name: '-'
+            name: 'Undervisning + Træningsaften'
             place: Blegdamsvej
           - date: 27. februar
             day: '3'
             time: 09:30 - 16:00
-            name: '-'
+            name: 'Undervisning'
             place: Blegdamsvej
           - date: 13. marts
             day: '4'
             time: 09:30 - 20:00
-            name: '-'
+            name: 'Undervisning + træningsaften'
             place: Blegdamsvej
           - date: 14. marts
             day: '5'
             time: 09:30 - 16:00
-            name: '-'
+            name: 'Undervisning'
             place: Blegdamsvej
           - date: 29. april
             day: '6'
             time: 09:30 - 20:00
-            name: '-'
+            name: 'Undervisning + træningsaften'
             place: Blegdamsvej
           - date: 30. april
             day: '7'
             time: 09:30 - 16:00
-            name: '-'
+            name: 'Undervisning'
             place: Blegdamsvej
           - date: 15. maj
             day: '8'
             time: 09:30 - 16:00
-            name: '-'
+            name: 'Undervisning'
             place: Blegdamsvej
   - aar: Efterår 2024
     hold:
