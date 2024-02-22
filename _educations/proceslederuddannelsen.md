@@ -85,7 +85,7 @@ hold:
         place: København
       - date: 20. marts
         day: "3"
-        time: 09:00 - 16:00
+        time: 09.00 - 16:00
         name: '-'
         place: København
       - date: 8. april
