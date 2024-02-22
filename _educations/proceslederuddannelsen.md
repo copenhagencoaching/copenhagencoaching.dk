@@ -80,7 +80,7 @@ hold:
         place: København
       - date: 28. februar
         day: "2"
-        time: 09:00 - 16:00
+        time: 09.00 - 16:00
         name: '-'
         place: København
       - date: 20. marts
