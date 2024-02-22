@@ -75,7 +75,7 @@ hold:
     modules:
       - date: 27. februar
         day: "1"
-        time: 10:00 - 19:30
+        time: 10.00 - 19:30
         name: '-'
         place: København
       - date: 28. februar
